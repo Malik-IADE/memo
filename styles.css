@@ -111,6 +111,18 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .eyebrow { margin: 0; color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; }
 .hero-value { margin: 2px 0 0; font-size: 1.45rem; font-weight: 700; letter-spacing: -.01em; }
 
+.group { display: flex; flex-direction: column; gap: 8px; }
+.group + .group { margin-top: 4px; }
+.group-head { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 6px 4px; border-radius: 10px; user-select: none; }
+.group-head::-webkit-details-marker { display: none; }
+.group-head:hover { background: var(--surface-2); }
+.group-title { display: flex; align-items: baseline; gap: 8px; flex: 1; min-width: 0; }
+.group-sem { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.group-name { font-size: 1.05rem; font-weight: 700; }
+.group-meta { font-size: .82rem; color: var(--muted); white-space: nowrap; }
+.group-meta b { color: var(--accent); }
+.group-chevron { color: var(--muted); display: inline-flex; transition: transform .15s ease; }
+.group[open] .group-chevron { transform: rotate(90deg); }
 .deck-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
 .deck-row { display: flex; align-items: center; gap: 12px; padding: 14px 14px 14px 18px; }
 .deck-row + .deck-row { border-top: 1px solid var(--border); }
