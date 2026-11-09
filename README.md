@@ -11,11 +11,21 @@ Puis ouvrir http://localhost:5173
 
 ## Bibliothèque : cours partagés
 
-Les cours du dossier `paquets/` sont chargés automatiquement chez tout le monde.
+Les cours du dossier `paquets/` sont chargés automatiquement chez tout le monde. Ils sont rangés par
+semestre puis par UE, et l'accueil de l'app reprend ce rangement :
 
-- **Modifier un cours** : éditer `paquets/<cours>.txt` sur github.com (icône crayon) → les utilisateurs reçoivent
+```
+paquets/
+  liste.txt                 liste des cours chargés (un chemin par ligne)
+  S1/
+    3.1/  processus-anesthesie.txt, sspi.txt, …
+    3.3/  chirurgie-urologique.txt, estomac-plein.txt, …
+```
+
+- **Modifier un cours** : éditer `paquets/S1/<UE>/<cours>.txt` sur github.com (icône crayon) → les utilisateurs reçoivent
   les nouvelles questions à la prochaine ouverture de l'app (questions retirées supprimées, progression conservée).
-- **Ajouter un cours** : déposer le `.txt` dans `paquets/`, puis ajouter son nom de fichier dans `paquets/liste.txt`.
+- **Ajouter un cours** : déposer le `.txt` dans le dossier de son UE (ex. `paquets/S1/2.1/`), puis ajouter son chemin
+  (ex. `S1/2.1/mon-cours.txt`) dans `paquets/liste.txt`. Un nouveau dossier `S2/…` crée une nouvelle rubrique.
 - Garder la question identique pour conserver la progression : changer la question = nouvelle carte.
 - Chacun peut masquer un cours (menu ⋯ du paquet) et le réafficher dans les Réglages.
 
