@@ -1,4 +1,4 @@
-// Cours 3.3 – Anesthésie en chirurgie urologique (Dr Cheron Leroy, support MAJ 2026)
+// Cours 3.3 – Anesthésie en chirurgie urologique (support MAJ 2026)
 // Format Mémo : une carte par ligne « question :: réponse ».
 //   \n         = nouvelle puce dans la réponse
 //   \n- texte  = sous-puce (détail de la puce précédente)
