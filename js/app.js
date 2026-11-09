@@ -107,7 +107,23 @@ function render() {
   renderHome();
 }
 
-window.addEventListener('hashchange', () => { window.scrollTo(0, 0); render(); });
+/**
+ * Statistiques anonymes (GoatCounter) : une « page vue » par écran.
+ * Chemins lisibles : /accueil, /S1, /S1/3.3, /cours/<nom>, /revision/<nom>. Jamais de donnée personnelle.
+ */
+function trackView() {
+  const r = route();
+  const name = (id) => { const d = store.deck(id); return d ? shortName(d.name) : 'inconnu'; };
+  const path = r.view === 'f' ? `/${[r.id, r.sub].filter(Boolean).join('/')}`
+    : r.view === 'deck' ? `/cours/${name(r.id)}`
+    : r.view === 'review' ? `/revision/${name(r.id)}`
+    : '/accueil';
+  const send = () => window.goatcounter?.count?.({ path, title: path });
+  if (window.goatcounter?.count) send();
+  else setTimeout(send, 1500); // le script se charge en différé
+}
+
+window.addEventListener('hashchange', () => { window.scrollTo(0, 0); render(); trackView(); });
 
 /* ---------- Dossiers : Semestre → UE → cours ---------- */
 
@@ -746,4 +762,5 @@ if ('serviceWorker' in navigator) {
 }
 
 render();
+trackView();
 updateLibrary(true);
