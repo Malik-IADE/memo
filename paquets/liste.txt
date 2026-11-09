@@ -1,8 +1,17 @@
-// Bibliothèque des cours partagés : un nom de fichier par ligne (fichiers rangés dans ce dossier « paquets »).
-// Pour ajouter un cours : déposez le fichier .txt dans « paquets » puis ajoutez son nom ci-dessous.
-3.3-chirurgie-urologique.txt
-3.3-chirurgie-digestive.txt
-3.3-estomac-plein.txt
-3.3-patient-hta.txt
-3.3-sujet-age.txt
-3.3-sujet-denutri.txt
+// Bibliothèque des cours partagés, rangés par semestre puis par UE (comme les dossiers du dossier « paquets »).
+// Une ligne = un chemin de fichier à partir de « paquets/ ». Pour ajouter un cours :
+//   1) déposez le .txt dans le bon dossier (ex. S1/3.3/)
+//   2) ajoutez son chemin ci-dessous (ex. S1/3.3/mon-cours.txt)
+
+S1/3.1/processus-anesthesie.txt
+S1/3.1/preoxygenation-induction.txt
+S1/3.1/respirateur.txt
+S1/3.1/ventilation-mecanique.txt
+S1/3.1/sspi.txt
+
+S1/3.3/chirurgie-urologique.txt
+S1/3.3/chirurgie-digestive.txt
+S1/3.3/estomac-plein.txt
+S1/3.3/patient-hta.txt
+S1/3.3/sujet-age.txt
+S1/3.3/sujet-denutri.txt
