@@ -108,6 +108,50 @@ window.addEventListener('hashchange', () => { window.scrollTo(0, 0); render(); }
 
 /* ---------- Accueil ---------- */
 
+// Regroupement par dossier de la Bibliothèque : « S1/3.3/cours.txt » → Semestre 1 › UE 3.3.
+function groupOf(d) {
+  const parts = (d.source || '').split('#')[0].split('/');
+  if (parts.length >= 3) {
+    const [sem, ue] = parts;
+    const n = sem.match(/^S(\d+)$/i);
+    return { key: `${sem}/${ue}`, semester: n ? `Semestre ${n[1]}` : sem, title: `UE ${ue}` };
+  }
+  if (d.source) return { key: 'partages', semester: '', title: 'Cours partagés' };
+  return { key: 'perso', semester: '', title: 'Mes paquets' };
+}
+
+function groupDecks(rows) {
+  const groups = new Map();
+  for (const r of rows) {
+    const g = groupOf(r.d);
+    if (!groups.has(g.key)) groups.set(g.key, { ...g, rows: [], todo: 0 });
+    const grp = groups.get(g.key);
+    grp.rows.push(r);
+    grp.todo += r.s.todo;
+  }
+  // Semestres / UE dans l'ordre naturel, « Mes paquets » à la fin.
+  const rank = (k) => (k === 'perso' ? 2 : k === 'partages' ? 1 : 0);
+  return [...groups.values()].sort((a, b) =>
+    rank(a.key) - rank(b.key) || a.key.localeCompare(b.key, 'fr', { numeric: true }));
+}
+
+// Dans une rubrique UE, le préfixe « IADE – » est superflu.
+const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
+
+// Rubriques repliées : simple confort mémorisé dans ce navigateur.
+const CLOSED_KEY = 'memo-groupes-fermes';
+function closedGroups() {
+  try { return new Set(JSON.parse(localStorage.getItem(CLOSED_KEY) || '[]')); } catch { return new Set(); }
+}
+const isGroupOpen = (key) => !closedGroups().has(key);
+function rememberGroup(key, open) {
+  try {
+    const s = closedGroups();
+    if (open) s.delete(key); else s.add(key);
+    localStorage.setItem(CLOSED_KEY, JSON.stringify([...s]));
+  } catch { /* stockage indisponible : on ignore */ }
+}
+
 function renderHome() {
   session = null;
   const rows = store.decks().map((d) => ({ d, s: stats(d.id) }));
@@ -127,20 +171,31 @@ function renderHome() {
           <p class="eyebrow">Aujourd'hui</p>
           <p class="hero-value">${todo ? `${plural(todo, 'carte')} à réviser` : 'Tout est à jour ✓'}</p>
         </section>
-        <ul class="deck-list">
-          ${rows.map(({ d, s }) => `
-            <li class="deck-row">
-              <a class="deck-link" href="#/deck/${d.id}">
-                <span class="deck-name">${esc(d.name)}</span>
-                <span class="deck-meta">${plural(s.total, 'carte')}${d.source ? ' · cours partagé' : ''}</span>
-              </a>
-              <span class="counts">
-                <span class="count new" title="Nouvelles">${s.newAvail}</span>
-                <span class="count due" title="À revoir">${s.dueAvail}</span>
+        ${groupDecks(rows).map((g) => `
+          <details class="group" data-group="${esc(g.key)}" ${isGroupOpen(g.key) ? 'open' : ''}>
+            <summary class="group-head">
+              <span class="group-title">
+                ${g.semester ? `<span class="group-sem">${esc(g.semester)}</span>` : ''}
+                <span class="group-name">${esc(g.title)}</span>
               </span>
-              <a class="btn small ${s.todo ? 'primary' : 'soft'}" href="#/review/${d.id}">Réviser</a>
-            </li>`).join('')}
-        </ul>
+              <span class="group-meta">${plural(g.rows.length, 'cours')}${g.todo ? ` · <b>${g.todo}</b> à réviser` : ''}</span>
+              <span class="group-chevron">${ico.chevron}</span>
+            </summary>
+            <ul class="deck-list">
+              ${g.rows.map(({ d, s }) => `
+                <li class="deck-row">
+                  <a class="deck-link" href="#/deck/${d.id}">
+                    <span class="deck-name">${esc(shortName(d.name))}</span>
+                    <span class="deck-meta">${plural(s.total, 'carte')}</span>
+                  </a>
+                  <span class="counts">
+                    <span class="count new" title="Nouvelles">${s.newAvail}</span>
+                    <span class="count due" title="À revoir">${s.dueAvail}</span>
+                  </span>
+                  <a class="btn small ${s.todo ? 'primary' : 'soft'}" href="#/review/${d.id}">Réviser</a>
+                </li>`).join('')}
+            </ul>
+          </details>`).join('')}
         <button class="btn soft wide" data-action="new-deck">${ico.plus} Nouveau paquet</button>
       ` : `
         <section class="empty">
@@ -581,6 +636,10 @@ $app.addEventListener('keydown', (e) => {
     e.target.closest('form').requestSubmit();
   }
 });
+
+$app.addEventListener('toggle', (e) => {
+  if (e.target.matches?.('details.group')) rememberGroup(e.target.dataset.group, e.target.open);
+}, true);
 
 $app.addEventListener('input', (e) => {
   if (e.target.id !== 'search') return;
