@@ -1,0 +1,36 @@
+// Cours 3.1 – Ventilation mécanique en anesthésie
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
+// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+
+# IADE – Ventilation mécanique
+
+// ---------- Physiologie ----------
+Équation de mouvement du système respiratoire : que signifie-t-elle ? :: Paw = PEP + R × débit + Vt / C\nPEP : pression de base en fin d'expiration\nR × débit : pression résistive (vaincre les résistances des voies aériennes)\nVt / C : pression élastique (distendre le poumon)\nRésistance très dépendante du rayon des voies aériennes (rayon⁴)
+Ventilation spontanée et ventilation mécanique : quelle différence de pression intrathoracique ? :: VS : contraction du diaphragme → dépression pleurale → pression intrathoracique NÉGATIVE à l'inspiration\nVentilation mécanique : insufflation → pression intrathoracique POSITIVE à l'inspiration\nUne alvéole reste ouverte si la pression transpulmonaire (Palv − Ppl) > 0
+Ventilation en pression positive : quelles conséquences hémodynamiques et quels dangers ? :: ↓ retour veineux au cœur droit → ↓ débit, congestion veineuse\nFacilite l'éjection du cœur gauche\nDanger d'arrêt cardiaque par désamorçage si :\n- Tamponnade\n- Défaillance cardiaque droite (EP massive, HTAP)\n- Pneumothorax compressif
+
+// ---------- Mise en route ----------
+Comment choisir le niveau d'assistance ventilatoire ? :: VS : chirurgie périphérique ou pariétale sans curarisation\nVentilation contrôlée : chirurgie intrathoracique ou intra-abdominale, ou curarisation nécessaire\nSelon les phases :\n- PréO2 : VS ou VS-AI\n- Chirurgie : VAC en volume ou en pression\n- Réveil et extubation : VS-AI puis VS
+Masque laryngé ou intubation : quels éléments orientent le choix ? :: Position du patient\nObésité\nCœlioscopie (pressions plus élevées)\nRisque de fuites → hypoventilation et inhalation avec le masque laryngé\nHabitudes de l'équipe
+Cycle respiratoire : que sont Ti, Te, I/E, trigger et cyclage ? :: Ttot = Ti + Te = 60 / FR\nI/E = Ti / Te, habituellement 1/2 (expiration deux fois plus longue)\nTrigger : seuil qui déclenche l'insufflation (patient en mode assisté)\nCyclage : ce qui arrête l'insufflation\nL'expiration reste toujours passive
+Modes contrôlés et assistés : quelle différence ? :: Contrôlé : fréquence FIXE, cycles imposés par la machine\nAssisté : fréquence VARIABLE, cycles déclenchés par le patient\nAssisté-contrôlé (VAC) : fréquence minimale de sécurité + cycles supplémentaires du patient
+Volume contrôlé ou pression contrôlée : que règle-t-on et que surveille-t-on ? :: Volume contrôlé :\n- Réglé : Vt (débit constant, « carré »)\n- Surveiller : la PRESSION\nPression contrôlée :\n- Réglée : pression d'insufflation (débit décélérant)\n- Surveiller : le VOLUME (Vt variable selon compliance et résistances)
+VS-AI (aide inspiratoire) : quels réglages habituels ? :: Aide inspiratoire : 8 à 20 cmH2O\nPEP : 5 à 15 cmH2O\nFiO2 : 25 à 100 %\nTrigger inspiratoire : 0,3 à 2 L/min\nTrigger expiratoire (cyclage) : 20-30 % du débit maximal\nSurveiller le volume et la fréquence obtenus
+
+// ---------- Pressions et réglages ----------
+Pause inspiratoire : que permet-elle de mesurer en volume contrôlé ? :: Pendant la pause : débit nul → Paw = Pplat (pression alvéolaire)\nPcrête − Pplat = composante résistive (voies aériennes)\nPplat − PEP = composante élastique → compliance C = Vt / (Pplat − PEP)\nEn pression contrôlée : impossible de séparer R et C sur la courbe
+Volume contrôlé : quel effet de chaque réglage sur le débit et les pressions ? :: ↑ FR (même I/E) → Ti ↓ → débit ↑ → Pcrête ↑\nI/E de 1/2 à 1/3 → Ti ↓ → débit ↑ → Pcrête ↑\n↑ PEP → Pcrête ↑\n↑ Vt → Pplat ↑ et EtCO2 ↓ (ventilation minute ↑)\nVentilation minute = Vt × FR → élimination du CO2
+Ventilation protectrice : quels mécanismes de lésion veut-elle éviter ? :: Barotrauma / volotrauma : pression ou distension excessive des alvéoles\nAtélectrauma : fermetures et réouvertures répétées des alvéoles\nCompromis : éviter la surdistension tout en gardant les alvéoles ouvertes\nRecrutement : ouvre ; PEP titrée : maintient ouvert (meilleure compliance)
+Ventilation protectrice : quels réglages et quelles cibles ? :: Vt : 6-8 mL/kg de POIDS IDÉAL théorique (pas le poids réel)\nPEP ≥ 5 cmH2O, titrée\nFR : 15-25/min pour une EtCO2 de 35-45 mmHg\nI/E : 1/2\nPplat < 25 cmH2O\nSpO2 > 94 %\nDébit expiratoire qui revient à 0 (Te suffisant)
+Ventilation : quels réglages corriger devant ces anomalies ? :: EtCO2 à 50 mmHg : ↑ Vt (jusqu'à 8 mL/kg PIT) et/ou ↑ FR\nPplat à 30 cmH2O : ↓ Vt à 6 mL/kg PIT ± ↑ FR (même ventilation minute) ; recrutement pour améliorer la compliance\nExpiration incomplète (débit expiratoire non nul) : allonger Te (↓ I/E ou ↓ FR)
+
+// ---------- Surveillance et complications ----------
+Patient ventilé : que surveiller sur le patient lui-même ? :: Ampliation thoracique, auscultation symétrique\nBruits anormaux (sifflements, crépitants)\nPression du ballonnet, fixation de la sonde\nFuites buccales\nDéconnexions accidentelles\nDéplacement de la sonde : extubation, intubation sélective
+Volume contrôlé : comment interpréter une augmentation de la pression de crête ? :: Regarder la Pplat :\n- Pcrête ↑, Pplat stable (écart crête-plateau ↑) → résistances ↑ : sonde coudée, sécrétions, bronchospasme\n- Pcrête ↑ et Pplat ↑ (écart stable) → compliance ↓ : atélectasie, intubation sélective, pneumopéritoine, Trendelenburg\n- Si Pplat ↑ : vérifier aussi la PEP totale (auto-PEP)
+Auto-PEP : définition, causes et signes ? :: Pression supplémentaire due à une vidange expiratoire incomplète\nPEP totale = PEP réglée + auto-PEP (pause télé-expiratoire)\nSigne : débit expiratoire qui ne revient pas à 0 avant le cycle suivant\nCauses : Te trop court, bronchospasme → hyperinflation dynamique\nCapnogramme en « aileron de requin » : obstruction expiratoire
+Pression contrôlée : que signifie une baisse du volume courant ? :: À pression constante, le Vt n'est pas garanti\nBaisse du Vt = compliance ↓ ou résistances ↑\nLa courbe de débit aide à distinguer (pic, décroissance, vidange)
+
+// ---------- Sevrage et extubation ----------
+Quels sont les critères d'extubation ? :: Respiratoires : VS régulière sans tirage, Vt 5-8 mL/kg, FR 12-25/min\nCurarisation : T4/T1 > 0,9 (monitorage quantitatif)\nNeurologiques : réponse aux ordres simples, déglutition récupérée\nCardiovasculaires : PA et FC ± 20 % de la base, sans vasopresseur ni inotrope\nGénéraux : T° > 36 °C, analgésie correcte, pas de complication chirurgicale
+Extubation : comment la réaliser ? :: Aspiration endobuccale (pas endotrachéale)\nOxygénation titrée sur la SpO2 (pas de FiO2 100 % systématique)\nDécubitus dorsal + proclive\nRetirer la fixation, dégonfler lentement le ballonnet\nExtuber en fin d'inspiration, en pression positive\nSurveillance clinique rapprochée après
+Extubation à risque : quels facteurs d'échec ? :: Intubation difficile, plusieurs tentatives, traumatisme oropharyngé\nGrosse sonde, ballonnet surgonflé, sonde mal positionnée\nChirurgie > 4 h, urgence, chirurgie cervico-maxillo-faciale\nPosition déclive prolongée, remplissage important\nRadiothérapie ou curage cervical\nBPCO, insuffisance cardiaque\nConduite : décision en équipe, matériel prêt, transmission écrite
