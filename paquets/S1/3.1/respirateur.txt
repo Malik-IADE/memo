@@ -1,0 +1,29 @@
+// Cours 3.1 – La machine d'anesthésie (respirateur)
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
+// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+
+# IADE – Machine d'anesthésie
+
+// ---------- Composants et gaz frais ----------
+Machine d'anesthésie : quels sont ses 4 grands composants ? :: Système d'alimentation en gaz frais (SAGF)\nCircuits anesthésiques\nVentilateur\nSystème antipollution (SEGA)
+Gaz frais : de quoi s'agit-il et comment sont-ils préparés ? :: Gaz frais = gaz vecteur (O2, air, ± N2O) + éventuelle vapeur d'halogéné\nTrajet : arrivée murale ou bouteille → détendeurs → manomètres → débitmètres (mélangeur) → évaporateur\nMélangeur : règle le débit total et la proportion d'O2\nÉvaporateur : règle la fraction d'halogéné dans le mélange
+Quelles sécurités empêchent de délivrer un mélange hypoxique ? :: Débitmètre de N2O asservi à celui d'O2\nValves anti-retour (pas de rétropollution entre lignes)\nAlarme de défaut d'alimentation en O2 + coupure automatique du N2O\nRaccords spécifiques, détrompeurs\nMais : seule la mesure de la FiO2 au circuit confirme l'O2 réellement délivré
+By-pass d'O2 (O2 rapide) : débit et piège ? :: O2 pur à 500 mL/s (~30 L/min) dans le circuit ou le ballon\nNe traverse PAS l'évaporateur\nPiège : dilue l'halogéné → risque d'allègement de l'anesthésie (réveil peropératoire)
+
+// ---------- Circuits ----------
+Circuit ouvert : principe et inconvénients ? :: Gaz expirés évacués, sans réinhalation\nDébit de gaz frais > ventilation minute du patient\nInconvénients :\n- Forte consommation de gaz, très cher\n- Pollution\n- Pas d'humidification ni de réchauffement
+Circuit circulaire (filtre, semi-fermé) : principe, éléments et avantages ? :: Réinhalation partielle des gaz expirés après absorption du CO2\nÉléments : valves unidirectionnelles inspiratoire et expiratoire, chaux sodée, ballon, APL, filtre, échangeur de chaleur et d'humidité\nAvantages : économie de gaz, moins de pollution, gaz humidifiés et réchauffés\nInconvénients : latence des changements de concentration, gestion fine des débits
+Chaux sodée et valves unidirectionnelles : à quoi servent-elles ? :: Chaux sodée : absorbe le CO2 expiré (réaction qui produit eau et chaleur) → permet la réinhalation\nValves unidirectionnelles : imposent le sens de circulation dans la boucle (inspiration d'un côté, expiration de l'autre)\nAttention : le test de fuite ne vérifie pas les valves
+Ballon réservoir : quel rôle ? :: Réserve de gaz\nJonction entre le débit de gaz frais continu et la ventilation spontanée ou manuelle\nAmortit les variations de pression et de volume\nPermet la ventilation manuelle ; relié à la valve APL
+Valve APL : qu'est-ce que c'est et quand agit-elle ? :: APL = Adjustable Pressure Limiting\nValve d'échappement des gaz en excès, à seuil de pression réglable (ressort)\n- Desserrée : échappement facile\n- Serrée : pressurisation possible (ventilation manuelle)\nActive UNIQUEMENT en ventilation spontanée ou manuelle, aucun rôle en ventilation mécanique\nLa PEP machine est réglée par la valve expiratoire, pas par l'APL
+Circuit accessoire (circuit ouvert de secours) : quand l'utiliser ? :: Uniquement en cas de panne de la machine\nÀ ne pas confondre avec le passage en ventilation manuelle sur le circuit habituel
+Test de fuite : comment le réaliser et quelles limites ? :: APL fermée (souvent 30 cmH2O)\nObstruer la sortie patient (pièce en Y)\nRemplir le circuit en O2 jusqu'à la pression choisie\nVérifier que la pression reste STABLE\nIntérêts : fuites, qualité de ventilation, concentrations stables, protection du personnel\nLimite : ne vérifie ni les valves unidirectionnelles ni le ventilateur
+
+// ---------- Débits et phases ----------
+Débit de gaz frais : comment l'adapter aux phases de l'anesthésie ? :: Haut débit : préoxygénation, induction, réveil (rinçage des halogénés)\nBas débit (0,5-1 L/min) : entretien, avec réinhalation\nPréO2 et ventilation au masque : VS ± PEP, APL ouverte (ou fermée pour ventiler au ballon)\nEntretien : ventilation mécanique (VC, PC, VS-AI)\nChanger le débit de gaz frais ne modifie pas le volume courant
+
+// ---------- Ventilateur ----------
+Ventilateurs d'anesthésie : soufflet, piston et turbine, quelles différences ? :: Soufflet : poussé par un gaz moteur (souvent O2), peu précis, forte consommation, ancien\nPiston : moteur électrique, volumes très précis, pas de gaz moteur, standard actuel\nTurbine : moteur électrique, contrôle fin des pressions et débits, excellente en ventilation assistée\nPiston et turbine : dépendants de l'électricité\nPas de gaz moteur ≠ pas de gaz frais
+Valves proportionnelles : comment le ventilateur délivre-t-il le volume ou la pression ? :: Valve inspiratoire ouverte de 0 à 100 % sous commande électronique\nVolume prescrit : débit constant, Vt = débit × Ti\nPression prescrite : débit décélérant\nValve expiratoire : s'ouvre progressivement pour maintenir la PEP\nLe microprocesseur ajuste en continu à partir des capteurs
+Monitorage de la machine : que surveiller ? :: Gaz : FiO2, EtCO2, gaz et halogénés inspirés/expirés\nSpirométrie : Vt, volume minute, fréquence\nPressions : crête, plateau, PEP\nDistinguer la consigne réglée de la valeur réellement mesurée\nAlarmes
+SEGA (système antipollution) : à quoi sert-il ? :: Aspiration contrôlée des gaz en excès (halogénés, N2O) évacués par la machine\nRejet hors du bloc dans l'atmosphère (pas de destruction)\nProtège le personnel ; halogénés = puissants gaz à effet de serre
