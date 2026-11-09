@@ -41,6 +41,8 @@ const ico = {
   close: svg('<path d="M18 6 6 18M6 6l12 12"/>'),
   more: svg('<circle cx="5" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="19" cy="12" r="1.2"/>'),
   chevron: svg('<path d="M9 18l6-6-6-6"/>'),
+  folder: svg('<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>'),
+  cards: svg('<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>'),
 };
 
 function toast(msg) {
@@ -93,111 +95,118 @@ function stats(deckId) {
 let session = null;
 
 function route() {
-  const [, view, id] = (location.hash.slice(1) || '/').split('/');
-  return { view: view || 'home', id };
+  const [view, id, sub] = (location.hash.slice(1) || '/').split('/').filter(Boolean).map(decodeURIComponent);
+  return { view: view || 'home', id, sub };
 }
 
 function render() {
   const r = route();
   if (r.view === 'deck' && store.deck(r.id)) return renderDeck(r.id);
   if (r.view === 'review' && store.deck(r.id)) return renderReview(r.id);
+  if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub) : renderFolder(r.id);
   renderHome();
 }
 
 window.addEventListener('hashchange', () => { window.scrollTo(0, 0); render(); });
 
-/* ---------- Accueil ---------- */
+/* ---------- Dossiers : Semestre → UE → cours ---------- */
 
-// Regroupement par dossier de la Bibliothèque : « S1/3.3/cours.txt » → Semestre 1 › UE 3.3.
-function groupOf(d) {
+// Emplacement d'un paquet d'après son fichier dans la Bibliothèque :
+// « S1/3.3/cours.txt » → semestre « S1 », UE « 3.3 ». Paquets perso → dossier « perso ».
+function locate(d) {
   const parts = (d.source || '').split('#')[0].split('/');
-  if (parts.length >= 3) {
-    const [sem, ue] = parts;
-    const n = sem.match(/^S(\d+)$/i);
-    return { key: `${sem}/${ue}`, semester: n ? `Semestre ${n[1]}` : sem, title: `UE ${ue}` };
-  }
-  if (d.source) return { key: 'partages', semester: '', title: 'Cours partagés' };
-  return { key: 'perso', semester: '', title: 'Mes paquets' };
+  if (parts.length >= 3) return { sem: parts[0], ue: parts[1] };
+  return { sem: d.source ? 'partages' : 'perso', ue: null };
 }
 
-function groupDecks(rows) {
-  const groups = new Map();
-  for (const r of rows) {
-    const g = groupOf(r.d);
-    if (!groups.has(g.key)) groups.set(g.key, { ...g, rows: [], todo: 0 });
-    const grp = groups.get(g.key);
-    grp.rows.push(r);
-    grp.todo += r.s.todo;
-  }
-  // Semestres / UE dans l'ordre naturel, « Mes paquets » à la fin.
-  const rank = (k) => (k === 'perso' ? 2 : k === 'partages' ? 1 : 0);
-  return [...groups.values()].sort((a, b) =>
-    rank(a.key) - rank(b.key) || a.key.localeCompare(b.key, 'fr', { numeric: true }));
-}
+const semLabel = (sem) => sem === 'perso' ? 'Mes paquets'
+  : sem === 'partages' ? 'Cours partagés'
+  : /^S\d+$/i.test(sem) ? `Semestre ${sem.slice(1)}` : sem;
+const ueLabel = (ue) => `UE ${ue}`;
+const enc = encodeURIComponent;
+const folderHref = (d) => {
+  const { sem, ue } = locate(d);
+  return ue ? `#/f/${enc(sem)}/${enc(ue)}` : `#/f/${enc(sem)}`;
+};
+const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
 
-// Dans une rubrique UE, le préfixe « IADE – » est superflu.
+// Dans un dossier d'UE, le préfixe « IADE – » est superflu.
 const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
 
-// Rubriques repliées : simple confort mémorisé dans ce navigateur.
-const CLOSED_KEY = 'memo-groupes-fermes';
-function closedGroups() {
-  try { return new Set(JSON.parse(localStorage.getItem(CLOSED_KEY) || '[]')); } catch { return new Set(); }
-}
-const isGroupOpen = (key) => !closedGroups().has(key);
-function rememberGroup(key, open) {
-  try {
-    const s = closedGroups();
-    if (open) s.delete(key); else s.add(key);
-    localStorage.setItem(CLOSED_KEY, JSON.stringify([...s]));
-  } catch { /* stockage indisponible : on ignore */ }
-}
+const allRows = () => store.decks().map((d) => ({ d, s: stats(d.id), loc: locate(d) }));
+const sumTodo = (rows) => rows.reduce((n, r) => n + r.s.todo, 0);
 
-function renderHome() {
-  session = null;
-  const rows = store.decks().map((d) => ({ d, s: stats(d.id) }));
-  const todo = rows.reduce((n, r) => n + r.s.todo, 0);
-
-  $app.innerHTML = `
+function topbarHome() {
+  return `
     <header class="topbar">
       <div class="brand"><img src="icons/icon.svg" alt="" class="logo"><h1>Mémo</h1></div>
       <div class="topbar-actions">
         <button class="btn ghost" data-action="import">${ico.upload}<span class="hide-xs">Importer</span></button>
         <button class="icon-btn" data-action="settings" aria-label="Réglages">${ico.gear}</button>
       </div>
-    </header>
-    <main class="page">
-      ${rows.length ? `
-        <section class="hero">
-          <p class="eyebrow">Aujourd'hui</p>
-          <p class="hero-value">${todo ? `${plural(todo, 'carte')} à réviser` : 'Tout est à jour ✓'}</p>
-        </section>
-        ${groupDecks(rows).map((g) => `
-          <details class="group" data-group="${esc(g.key)}" ${isGroupOpen(g.key) ? 'open' : ''}>
-            <summary class="group-head">
-              <span class="group-title">
-                ${g.semester ? `<span class="group-sem">${esc(g.semester)}</span>` : ''}
-                <span class="group-name">${esc(g.title)}</span>
-              </span>
-              <span class="group-meta">${plural(g.rows.length, 'cours')}${g.todo ? ` · <b>${g.todo}</b> à réviser` : ''}</span>
-              <span class="group-chevron">${ico.chevron}</span>
-            </summary>
-            <ul class="deck-list">
-              ${g.rows.map(({ d, s }) => `
-                <li class="deck-row">
-                  <a class="deck-link" href="#/deck/${d.id}">
-                    <span class="deck-name">${esc(shortName(d.name))}</span>
-                    <span class="deck-meta">${plural(s.total, 'carte')}</span>
-                  </a>
-                  <span class="counts">
-                    <span class="count new" title="Nouvelles">${s.newAvail}</span>
-                    <span class="count due" title="À revoir">${s.dueAvail}</span>
-                  </span>
-                  <a class="btn small ${s.todo ? 'primary' : 'soft'}" href="#/review/${d.id}">Réviser</a>
-                </li>`).join('')}
-            </ul>
-          </details>`).join('')}
-        <button class="btn soft wide" data-action="new-deck">${ico.plus} Nouveau paquet</button>
-      ` : `
+    </header>`;
+}
+
+function topbarFolder(backHref, title, eyebrow = '') {
+  return `
+    <header class="topbar">
+      <a class="icon-btn" href="${backHref}" aria-label="Retour">${ico.back}</a>
+      <div class="topbar-title">
+        ${eyebrow ? `<span class="topbar-eyebrow">${esc(eyebrow)}</span>` : ''}
+        <h1 class="title-sm">${esc(title)}</h1>
+      </div>
+      <span class="icon-btn" aria-hidden="true"></span>
+    </header>`;
+}
+
+function hero(todo) {
+  return `
+    <section class="hero">
+      <p class="eyebrow">Aujourd'hui</p>
+      <p class="hero-value">${todo ? `${plural(todo, 'carte')} à réviser` : 'Tout est à jour ✓'}</p>
+    </section>`;
+}
+
+function folderRow(href, name, meta, todo, icon = ico.folder) {
+  return `
+    <li>
+      <a class="folder-row" href="${href}">
+        <span class="folder-icon">${icon}</span>
+        <span class="folder-text">
+          <span class="folder-name">${esc(name)}</span>
+          <span class="folder-meta">${meta}</span>
+        </span>
+        ${todo ? `<span class="count due" title="À réviser aujourd'hui">${todo}</span>` : ''}
+        <span class="folder-chev">${ico.chevron}</span>
+      </a>
+    </li>`;
+}
+
+function deckRows(rows) {
+  return `
+    <ul class="deck-list">
+      ${rows.map(({ d, s }) => `
+        <li class="deck-row">
+          <a class="deck-link" href="#/deck/${d.id}">
+            <span class="deck-name">${esc(shortName(d.name))}</span>
+            <span class="deck-meta">${plural(s.total, 'carte')}</span>
+          </a>
+          <span class="counts">
+            <span class="count new" title="Nouvelles">${s.newAvail}</span>
+            <span class="count due" title="À revoir">${s.dueAvail}</span>
+          </span>
+          <a class="btn small ${s.todo ? 'primary' : 'soft'}" href="#/review/${d.id}">Réviser</a>
+        </li>`).join('')}
+    </ul>`;
+}
+
+/** Accueil : un dossier par semestre (+ « Mes paquets »). */
+function renderHome() {
+  session = null;
+  const rows = allRows();
+  if (!rows.length) {
+    $app.innerHTML = `${topbarHome()}
+      <main class="page">
         <section class="empty">
           <div class="empty-art">🗂️</div>
           <h2>Bienvenue dans Mémo</h2>
@@ -209,7 +218,68 @@ function renderHome() {
             <button class="btn ghost wide" data-action="load-example">Essayer avec un exemple</button>
           </div>
         </section>
-      `}
+      </main>`;
+    return;
+  }
+  const sems = new Map();
+  for (const r of rows) {
+    if (!sems.has(r.loc.sem)) sems.set(r.loc.sem, []);
+    sems.get(r.loc.sem).push(r);
+  }
+  const rank = (k) => (k === 'perso' ? 2 : k === 'partages' ? 1 : 0);
+  const keys = [...sems.keys()].sort((a, b) => rank(a) - rank(b) || byKey(a, b));
+
+  $app.innerHTML = `${topbarHome()}
+    <main class="page">
+      ${hero(sumTodo(rows))}
+      <ul class="folder-list">
+        ${keys.map((k) => {
+          const rs = sems.get(k);
+          const ues = new Set(rs.map((r) => r.loc.ue).filter(Boolean));
+          const meta = ues.size ? `${`${ues.size} UE`} · ${`${rs.length} cours`}` : plural(rs.length, 'paquet');
+          return folderRow(`#/f/${enc(k)}`, semLabel(k), meta, sumTodo(rs), k === 'perso' ? ico.cards : ico.folder);
+        }).join('')}
+      </ul>
+      <button class="btn soft wide" data-action="new-deck">${ico.plus} Nouveau paquet</button>
+    </main>`;
+}
+
+/** Dossier d'un semestre : liste des UE (ou directement les paquets pour « Mes paquets »). */
+function renderFolder(sem) {
+  session = null;
+  const rows = allRows().filter((r) => r.loc.sem === sem);
+  if (!rows.length) { location.hash = '#/'; return; }
+  const ues = new Map();
+  for (const r of rows) if (r.loc.ue) {
+    if (!ues.has(r.loc.ue)) ues.set(r.loc.ue, []);
+    ues.get(r.loc.ue).push(r);
+  }
+  const loose = rows.filter((r) => !r.loc.ue);
+
+  $app.innerHTML = `${topbarFolder('#/', semLabel(sem))}
+    <main class="page">
+      ${hero(sumTodo(rows))}
+      ${ues.size ? `
+        <ul class="folder-list">
+          ${[...ues.keys()].sort(byKey).map((ue) => {
+            const rs = ues.get(ue);
+            return folderRow(`#/f/${enc(sem)}/${enc(ue)}`, ueLabel(ue), `${rs.length} cours`, sumTodo(rs));
+          }).join('')}
+        </ul>` : ''}
+      ${loose.length ? deckRows(loose) : ''}
+      ${sem === 'perso' ? `<button class="btn soft wide" data-action="new-deck">${ico.plus} Nouveau paquet</button>` : ''}
+    </main>`;
+}
+
+/** Dossier d'une UE : les cours (quiz). */
+function renderUE(sem, ue) {
+  session = null;
+  const rows = allRows().filter((r) => r.loc.sem === sem && r.loc.ue === ue);
+  if (!rows.length) { location.hash = `#/f/${enc(sem)}`; return; }
+  $app.innerHTML = `${topbarFolder(`#/f/${enc(sem)}`, ueLabel(ue), semLabel(sem))}
+    <main class="page">
+      ${hero(sumTodo(rows))}
+      ${deckRows(rows)}
     </main>`;
 }
 
@@ -233,8 +303,8 @@ function renderDeck(id) {
   const s = stats(id);
   $app.innerHTML = `
     <header class="topbar">
-      <a class="icon-btn" href="#/" aria-label="Retour">${ico.back}</a>
-      <h1 class="title-sm">${esc(d.name)}</h1>
+      <a class="icon-btn" href="${folderHref(d)}" aria-label="Retour">${ico.back}</a>
+      <h1 class="title-sm">${esc(shortName(d.name))}</h1>
       <button class="icon-btn" data-action="deck-menu" data-id="${id}" aria-label="Options du paquet">${ico.more}</button>
     </header>
     <main class="page">
@@ -636,10 +706,6 @@ $app.addEventListener('keydown', (e) => {
     e.target.closest('form').requestSubmit();
   }
 });
-
-$app.addEventListener('toggle', (e) => {
-  if (e.target.matches?.('details.group')) rememberGroup(e.target.dataset.group, e.target.open);
-}, true);
 
 $app.addEventListener('input', (e) => {
   if (e.target.id !== 'search') return;
