@@ -1,0 +1,20 @@
+// Exemple de fichier Mémo.
+// Une ligne « # Nom » crée un paquet, puis une carte par ligne : question :: réponse
+// « \n » fait un retour à la ligne. Les lignes qui commencent par // sont ignorées.
+
+# Capitales
+France :: Paris
+Japon :: Tokyo
+Canada :: Ottawa
+Australie :: Canberra
+Brésil :: Brasília
+Maroc :: Rabat
+Turquie :: Ankara
+Suisse :: Berne
+Nigeria :: Abuja
+Corée du Sud :: Séoul
+Égypte :: Le Caire
+Argentine :: Buenos Aires
+Nouvelle-Zélande :: Wellington
+Kenya :: Nairobi
+Pays-Bas :: Amsterdam\n(siège du gouvernement : La Haye)
