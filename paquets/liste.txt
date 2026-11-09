@@ -1,3 +1,8 @@
 // Bibliothèque des cours partagés : un nom de fichier par ligne (fichiers rangés dans ce dossier « paquets »).
 // Pour ajouter un cours : déposez le fichier .txt dans « paquets » puis ajoutez son nom ci-dessous.
 3.3-chirurgie-urologique.txt
+3.3-chirurgie-digestive.txt
+3.3-estomac-plein.txt
+3.3-patient-hta.txt
+3.3-sujet-age.txt
+3.3-sujet-denutri.txt
