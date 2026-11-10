@@ -20,6 +20,7 @@ S1/3.1/respirateur.txt
 S1/3.1/ventilation-mecanique.txt
 S1/3.1/sspi.txt
 S1/3.1/ecg-traces.txt
+S1/3.1/ecg-interpretation.txt
 
 S1/3.3/chirurgie-urologique.txt
 S1/3.3/chirurgie-digestive.txt
