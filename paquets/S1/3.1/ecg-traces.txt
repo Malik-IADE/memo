@@ -1,0 +1,27 @@
+// Cours 3.1 – ECG : reconnaître les tracés
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
+// Image : [img:images/fichier.jpg] (chemin relatif au dossier de ce fichier).
+// Tracés : LITFL ECG Library (litfl.com/ecg-library), licence CC BY-NC-SA 4.0 — usage non commercial, source citée.
+//   ecg-01 : litfl.com/atrial-fibrillation-ecg-library (exemple 4)
+//   ecg-02 : litfl.com/first-degree-heart-block-ecg-library (exemple 3)
+//   ecg-03 : litfl.com/ventricular-tachycardia-monomorphic-ecg-library
+//   ecg-04 : litfl.com/inferior-stemi-ecg-library (exemple 2)
+//   ecg-05 : litfl.com/av-block-2nd-degree-mobitz-i-wenckebach-phenomenon
+//   ecg-06 : litfl.com/premature-ventricular-complex-pvc-ecg-library
+//   ecg-07 : litfl.com/atrial-flutter-ecg-library (exemple 1)
+//   ecg-08 : litfl.com/av-block-3rd-degree-complete-heart-block (exemple 2)
+//   ecg-09 : litfl.com/polymorphic-vt-and-torsades-de-pointes-tdp
+//   ecg-10 : litfl.com/ventricular-fibrillation-vf-ecg-library (exemple 2)
+
+# IADE – ECG : tracés
+
+[img:images/ecg-01.jpg] ECG 12 dérivations : quel est le diagnostic ? :: Fibrillation atriale (FA) à réponse ventriculaire rapide\nIntervalles R-R irréguliers, sans motif répétitif\nQRS fins\nPas d'onde P identique avant chaque QRS\nÀ distinguer : tachycardie sinusale (P avant chaque QRS), flutter (activité atriale régulière en dents de scie)\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-02.jpg] ECG 12 dérivations : quel est le diagnostic ? :: Bloc auriculo-ventriculaire du 1er degré (BAV 1)\nChaque P est suivie d'un QRS\nPR allongé (> 200 ms, ici ≈ 260 ms) et constant\nAucune P bloquée → pas un BAV 2\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-03.jpg] Bande de rythme, le patient a un pouls : quel est le diagnostic ? :: Tachycardie ventriculaire (TV) monomorphe\nComplexes larges, rapides, de forme identique\nTracé organisé : différent d'une fibrillation ventriculaire\nPas d'aspect tournant : différent d'une torsade de pointes\nUne TV peut exister avec ou sans pouls (sans pouls = arrêt cardiaque)\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-04.jpg] ECG 12 dérivations dans un contexte de douleur thoracique aiguë : quel est le diagnostic ? :: Syndrome coronarien aigu avec sus-décalage du ST (SCA ST+), territoire inférieur\nSus-décalage du ST en DII, DIII, aVF\nSous-décalage en miroir en aVL\nUrgence : appel du médecin, filière de reperfusion\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-05.jpg] Bande de rythme : quel est le diagnostic ? :: BAV du 2e degré Mobitz I (Wenckebach)\nLe PR s'allonge d'un battement à l'autre\nPuis une P n'est pas suivie de QRS\nLe cycle repart avec un PR plus court\nMobitz II : PR constant avant la P bloquée (plus grave)\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-06.jpg] Bande de rythme : quel est le diagnostic ? :: Extrasystoles ventriculaires en bigéminisme\nUn QRS fin normal alterne avec un complexe large de forme différente\nLe complexe large arrive trop tôt, sans P devant, suivi d'une pause\nPrématuré → extrasystole ; tardif → ce serait un échappement\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-07.jpg] ECG 12 dérivations : quel est le diagnostic ? :: Flutter atrial à conduction 2/1\nActivité atriale régulière en « dents de scie » en DII, DIII, aVF\n2 ondes atriales pour 1 QRS → fréquence ventriculaire ≈ 150/min\nPiège : une tachycardie régulière à 150/min doit faire chercher un flutter\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-08.jpg] ECG 12 dérivations : quel est le diagnostic ? :: BAV du 3e degré (BAV complet)\nLes P ont leur propre rythme, plus rapide que les QRS\nPas de relation fixe entre P et QRS (PR apparents variables)\nQRS d'échappement lents\nAu bloc : risque de bradycardie sévère → isoprénaline, entraînement électrosystolique\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-09.jpg] Bande de rythme chez un patient ayant un QT long entre les accès : quel est le diagnostic ? :: Torsade de pointes\nTachycardie ventriculaire polymorphe : l'amplitude et la polarité des complexes changent, ils « tournent » autour de la ligne de base\nTerrain : QT long (médicaments, hypokaliémie, hypomagnésémie)\nTraitement : sulfate de magnésium, corriger la kaliémie, arrêter les médicaments allongeant le QT\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
+[img:images/ecg-10.jpg] Bande de rythme, patient inconscient et sans pouls : quel est le diagnostic ? :: Fibrillation ventriculaire (FV) = arrêt cardiaque\nOscillations irrégulières, sans QRS organisés\nConduite : massage cardiaque, défibrillation immédiate, adrénaline selon l'algorithme\nActivité électrique organisée sans pouls : activité électrique sans pouls (dissociation électromécanique), rythme non choquable\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
