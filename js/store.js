@@ -175,7 +175,7 @@ export function importDecks(parsed, { prune = false, source = null } = {}) {
     names.push(d.name);
     const existing = new Map(cards(d.id).map((c) => [norm(c.front), c]));
     if (prune) {
-      const keep = new Set(p.cards.map((c) => norm(c.front)));
+      const keep = new Set(p.cards.flatMap((c) => [c.front, ...(c.was || [])].map(norm)));
       for (const [key, c] of existing) {
         if (!keep.has(key) && (!src || c.lib)) {
           Object.assign(c, { deleted: true, updated: now() });
@@ -184,8 +184,17 @@ export function importDecks(parsed, { prune = false, source = null } = {}) {
         }
       }
     }
-    for (const { front, back } of p.cards) {
-      const ex = existing.get(norm(front));
+    for (const { front, back, was = [] } of p.cards) {
+      let ex = existing.get(norm(front));
+      // Carte reformulée : on retrouve l'ancienne par sa question d'avant.
+      const oldKey = !ex && was.map(norm).find((k) => existing.has(k));
+      if (oldKey) {
+        ex = existing.get(oldKey);
+        existing.delete(oldKey);
+        Object.assign(ex, { front, updated: now() });
+        existing.set(norm(front), ex);
+        updated++;
+      }
       if (ex) {
         if (ex.back !== back) { Object.assign(ex, { back, updated: now() }); updated++; }
         if (src && !ex.lib) Object.assign(ex, { lib: true, updated: now() });

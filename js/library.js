@@ -37,7 +37,7 @@ export function syncLibrary({ force = false } = {}) {
           // [img:images/x.jpg] est relatif au dossier du cours → chemin complet depuis l'app
           const dir = `paquets/${file.replace(/[^/]*$/, '')}`;
           const fix = (s) => s.replace(/\[img:(?!https?:|paquets\/)([^\]]+)\]/g, (_, p) => `[img:${dir}${p.trim()}]`);
-          decks.forEach((d) => d.cards.forEach((c) => { c.front = fix(c.front); c.back = fix(c.back); }));
+          decks.forEach((d) => d.cards.forEach((c) => { c.front = fix(c.front); c.back = fix(c.back); if (c.was) c.was = c.was.map(fix); }));
           const r = store.importDecks(decks, { prune: true, source: file });
           total.added += r.added;
           total.updated += r.updated;

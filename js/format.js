@@ -16,9 +16,13 @@ export function parseText(text, fallbackName = 'Nouveau paquet') {
   const errors = [];
   let current = null;
   const clean = (s) => s.trim().replace(/\\n/g, '\n');
+  // « //= ancienne question » juste avant une carte : la carte a été reformulée,
+  // on garde la progression de l'ancienne version.
+  let was = [];
 
   text.replace(/^﻿/, '').split(/\r?\n/).forEach((raw, i) => {
     const line = raw.trim();
+    if (line.startsWith('//=')) { const old = clean(line.slice(3)); if (old) was.push(old); return; }
     if (!line || line.startsWith('//')) return;
 
     if (line.startsWith('#') && !line.includes(SEP)) {
@@ -35,7 +39,8 @@ export function parseText(text, fallbackName = 'Nouveau paquet') {
     if (!front || !back) { errors.push(i + 1); return; }
 
     if (!current) { current = { name: fallbackName, cards: [] }; decks.push(current); }
-    current.cards.push({ front, back });
+    current.cards.push(was.length ? { front, back, was } : { front, back });
+    was = [];
   });
 
   return { decks: decks.filter((d) => d.cards.length), errors };

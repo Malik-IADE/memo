@@ -16,7 +16,10 @@ const takeImgs = (s) => ({ imgs: [...s.matchAll(IMG)].map((m) => m[1].trim()), t
 const imgsHtml = (imgs) => imgs.map((src) => `<button type="button" class="card-img" data-action="zoom" data-src="${esc(src)}" aria-label="Agrandir l'image">
     <img src="${esc(src)}" alt="" loading="lazy"><span class="card-img-hint">Toucher pour agrandir</span></button>`).join('');
 const plainText = (s) => (takeImgs(s).imgs.length ? '🖼 ' : '') + takeImgs(s).text;
-const rich = (s) => esc(s).replace(/\n/g, '<br>');
+// Typographie française à l'affichage : espace insécable avant ? ! : ; » et après «
+// (évite un « ? » seul en début de ligne). Le texte enregistré n'est pas modifié.
+const nb = (html) => html.replace(/ ([?!:;»])/g, '\u00a0$1').replace(/« /g, '«\u00a0');
+const rich = (s) => nb(esc(s)).replace(/\n/g, '<br>');
 /**
  * Une ligne de réponse :
  * - « Titre : » seul → étiquette en gras (ses lignes « - » deviennent ses sous-puces) ;
@@ -25,9 +28,9 @@ const rich = (s) => esc(s).replace(/\n/g, '<br>');
  */
 const formatLine = (l) => {
   const head = l.match(/^(.{1,60}) :$/);
-  if (head) return `<strong>${esc(head[1])}</strong>`;
+  if (head) return `<strong>${nb(esc(head[1]))}</strong>`;
   const m = l.match(/^([^:]{1,50}?) : (.+)$/);
-  return m ? `<strong>${esc(m[1])}</strong> : ${esc(m[2])}` : esc(l);
+  return m ? `<strong>${nb(esc(m[1]))}</strong>\u00a0: ${nb(esc(m[2]))}` : nb(esc(l));
 };
 /**
  * Mise en forme unique de toutes les réponses, sur deux niveaux :
