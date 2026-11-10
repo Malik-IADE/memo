@@ -5,7 +5,7 @@
 # IADE – Anesthésiques inhalés
 
 // ---------- Agents et propriétés ----------
-Quels sont les anesthésiques inhalés utilisés, et quelle différence entre volatil et gazeux ? :: Halogénés (liquides volatils, à vaporiser dans un évaporateur) :\n- Sévoflurane, desflurane, isoflurane\nGaz (déjà gazeux à 20 °C) :\n- Protoxyde d'azote (N2O), xénon\nHalogénés : ininflammables grâce au fluor
+Quels sont les anesthésiques inhalés utilisés, et quelle différence entre volatil et gazeux ? :: Halogénés (liquides volatils, à vaporiser dans un évaporateur) :\n- Sévoflurane, desflurane, isoflurane\nGaz (déjà gazeux à 20 °C) : Protoxyde d'azote (N2O), xénon\nHalogénés : ininflammables grâce au fluor
 Que mesurent la MAC, le coefficient sang/gaz et la pression de vapeur ? :: MAC : puissance (concentration efficace) ; MAC basse = agent puissant\nCoefficient sang/gaz (λ) : solubilité dans le sang → vitesse d'induction et de réveil\nPression de vapeur : facilité d'évaporation → type d'évaporateur
 Quelles sont les MAC des principaux agents ? :: Isoflurane : 1,17 %\nSévoflurane : 1,8 % (≈ 2 % en pratique)\nDesflurane : 6,6 % (le moins puissant des halogénés)\nProtoxyde d'azote : 104 % → impossible d'atteindre 1 MAC seul\nXénon : 63-71 %
 Classez sévoflurane, desflurane et isoflurane par rapidité d'induction et de réveil, et expliquez pourquoi :: Desflurane > sévoflurane > isoflurane\nRègle : moins un agent est soluble dans le sang (λ sang/gaz bas), plus vite il endort et réveille\n- Desflurane 0,42 ; sévoflurane 0,65 ; isoflurane 1,46\nUn agent très soluble « se dissout » dans le sang : la pression alvéolaire monte lentement
@@ -19,7 +19,7 @@ Bas débit de gaz frais : quels avantages et quelles contraintes ? :: Avantages 
 Évaporateur rempli par erreur avec un autre halogéné : quel risque ? :: La concentration délivrée n'est plus celle affichée\nEx. : évaporateur de sévoflurane rempli d'isoflurane → plus d'anesthésique que prévu (surdosage)\nPrévention : détrompeurs de remplissage, vérification, monitorage de la FE
 
 // ---------- Pharmacocinétique ----------
-Quels facteurs accélèrent ou ralentissent l'induction par halogéné ? :: Accélèrent :\n- Agent peu soluble dans le sang\n- Concentration inspirée élevée (évaporateur ouvert)\n- Ventilation augmentée\nRalentissent :\n- Débit cardiaque élevé (le sang emporte l'agent)\nChoc (bas débit) : la concentration alvéolaire monte vite → risque de surdosage
+Quels facteurs accélèrent ou ralentissent l'induction par halogéné ? :: Accélèrent :\n- Agent peu soluble dans le sang\n- Concentration inspirée élevée (évaporateur ouvert)\n- Ventilation augmentée\nRalentissent : Débit cardiaque élevé (le sang emporte l'agent)\nChoc (bas débit) : la concentration alvéolaire monte vite → risque de surdosage
 Pourquoi le cerveau s'équilibre-t-il vite et la graisse très lentement ? :: Cerveau : très perfusé (75 % du débit cardiaque) → équilibre en ~10 min\nMuscle : ~6 h\nGraisse : peu perfusée mais très grande capacité de stockage → plusieurs jours\nConséquence : après une longue anesthésie, muscle et graisse relarguent l'agent au réveil
 
 // ---------- Effets et MAC ----------
