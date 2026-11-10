@@ -6,7 +6,7 @@
 
 // ---------- Préoxygénation ----------
 Préoxygénation : quand, pourquoi et par quel mécanisme ? :: Quand : avant TOUTE anesthésie générale\nPourquoi : ↑ les réserves d'O2 pour allonger la tolérance à l'apnée avant désaturation\nMécanisme : dénitrogénation = remplacer l'azote de la CRF par de l'O2
-Pourquoi faut-il éviter de descendre sous 90-92 % de SpO2 ? :: Courbe de dissociation de l'Hb (Barcroft) non linéaire\nSpO2 90 % ≈ PaO2 60 mmHg\nEn dessous : la chute devient beaucoup plus rapide
+Pourquoi faut-il éviter de descendre sous 90-92 % de SpO2 ? :: Courbe de dissociation de l'Hb non linéaire\nSpO2 90 % ≈ PaO2 60 mmHg\nEn dessous : la chute devient beaucoup plus rapide
 Préoxygénation : comment la réaliser ? :: Masque adapté à la morphologie, appliqué de façon ÉTANCHE\nFiO2 100 %, haut débit de gaz frais (> 5 L/min)\nMéthodes :\n- VS ou VSAI ± PEP pendant 3 min\n- 8 capacités vitales en 60 s\nLéger proclive possible (obèse +++)\nAide : Optiflow pendant l'apnée
 Préoxygénation : quels risques et comment l'évaluer ? :: Risques :\n- Fuites\n- Claustrophobie : rassurer, le patient peut tenir le masque\n- Lésion des yeux\nEfficace si :\n- FeO2 > 90 %\n- Pas de désaturation, pas de fuite, pas de réinhalation
 
