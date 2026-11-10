@@ -11,8 +11,8 @@
 
 // ---------- Généralités ----------
 Chirurgie urologique : quels sont les 3 risques transversaux et les 4 installations classiques ? :: Risques :\n- Infectieux\n- Hémorragique\n- Thrombo-embolique\nInstallations :\n- Décubitus ventral\n- Décubitus latéral (lombotomie)\n- Décubitus dorsal + Trendelenburg\n- Position gynécologique (lithotomie)
-Quelles sont les 3 urgences urologiques du cours et leur prise en charge ? :: Torsion testiculaire : AG, délai < 6 h\nPyélonéphrite obstructive : montée de sonde JJ sous AG\n- Avant : fonction rénale + ECBU\nGreffe rénale : limiter l'ischémie du greffon
-Évaluation préopératoire en urologie : quels sont les 5 axes à explorer ? :: État cardiaque\nÉtat respiratoire\nÉtat rénal : créatinine, DFG\nAnémie : Hb\nInfection : ECBU selon le geste\nTerrain : souvent âgé, polypathologique, tabagique, fragile
+Torsion testiculaire, pyélonéphrite obstructive, greffe rénale : pourquoi sont-elles urgentes et comment les prendre en charge ? :: Torsion testiculaire : AG, opérer en moins de 6 h (ischémie du testicule)\nPyélonéphrite obstructive : risque de choc septique → drainage (sonde JJ ou néphrostomie)\n- Avant : créatinine, kaliémie, ECBU, hémocultures\nGreffe rénale : limiter le temps d'ischémie du greffon
+Évaluation préopératoire en urologie : quels points explorer ? :: État cardiaque\nÉtat respiratoire\nÉtat rénal : créatinine, DFG\nAnémie : Hb\nInfection : ECBU selon le geste\nTerrain : souvent âgé, polypathologique, tabagique, fragile
 
 // ---------- Risque infectieux ----------
 Quelles sont les particularités du risque infectieux en urologie ? :: Chirurgie propre-contaminée (urine normalement stérile)\nColonisation urinaire : ↑ bactériémies et septicémies\n- Surtout en résection endoscopique\nRisque : prostate > vessie
@@ -20,7 +20,6 @@ ECBU préopératoire (AFU 2026) : pour quels gestes, dans quel délai et pourquo
 ECBU positif chez un patient asymptomatique : quelle conduite ? :: Antibiothérapie adaptée :\n- Débutée 48 h avant le geste\n- Poursuivie jusqu'à J0, puis ≤ 48 h après\n- Soit 3 à 5 jours au total\nDébutée seulement au bloc : insuffisant → report\nSignes d'infection (fièvre…) : traiter et reporter
 Antibioprophylaxie et antibiothérapie : quelle différence ? :: Antibioprophylaxie : prévient l'infection liée au geste\n- Sur urines stériles\nAntibiothérapie : traite une infection ou une colonisation\n- Urines colonisées = antibiothérapie curative, pas une simple prophylaxie
 Antibioprophylaxie en urologie : quelles sont les règles générales (RFE 2024) ? :: Quand : ≤ 60 min avant l'incision\nDurée : pas de prolongation après l'intervention\nRéinjection : si l'intervention se prolonge\nMolécule de référence : céfazoline\n- Céfoxitine si ouverture digestive (cystectomie)\nToujours vérifier le protocole du service
-Antibioprophylaxie : quels gestes en reçoivent en général, et lesquels non ? :: Oui :\n- Endo-urologie prostate et haut appareil (RTUP, urétéroscopie, JJ, néphrostomie, NLPC)\n- Prothèses\n- Cystectomie\nNon :\n- Néphrectomie, prostatectomie totale\n- RTUV, cystoscopie\n- LEC, chirurgie scrotale sans prothèse
 
 // ---------- Risque hémorragique ----------
 Quelles chirurgies urologiques sont hémorragiques et comment s'y préparer ? :: Chirurgies à risque :\n- Rein (très vascularisé)\n- Dissection prostatique : prostatectomie radicale, cystoprostatectomie, adénomectomie\n- RTUP, RTUV\nPréparation :\n- Hb préop, bilan prétransfusionnel\n- 2 VVP, accélérateur-réchauffeur\nEndoscopie : saignement difficile à quantifier (dilué dans l'irrigation)
@@ -49,7 +48,6 @@ Greffe rénale : quels points pour l'anesthésie préopératoire et peropératoi
 Greffe rénale : quelle prise en charge postopératoire ? :: Analgésie : multimodale SANS AINS, blocs de paroi\nSurveillance : diurèse horaire\nComplications :\n- Thrombose vasculaire\n- Fistule urinaire\n- Rejet, infection
 
 // ---------- Prostate : HBP ----------
-HBP : de quoi s'agit-il et en quoi l'adénomectomie diffère-t-elle de la prostatectomie radicale ? :: HBP : hypertrophie bénigne de la prostate\n- L'adénome comprime l'urètre → dysurie\nAdénomectomie (HBP) : retire l'adénome, la capsule reste\nProstatectomie radicale (cancer) : retire toute la prostate ± curage
 Adénomectomie voie haute : quelle anesthésie et quels risques ? :: Anesthésie : rachianesthésie (T8) ou AG avec curarisation\nRisques :\n- Hémorragie au moment de l'énucléation\n- Bactériémie postop\n- Caillotage → sonde à double courant + irrigation\n- Douleur modérée à importante\n- Thrombo-embolique élevé
 
 // ---------- RTUP ----------
