@@ -11,23 +11,33 @@ const fileInput = document.getElementById('file-input');
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 const rich = (s) => esc(s).replace(/\n/g, '<br>');
-/** « Titre : texte » → titre en gras ; « Titre : » seul → intertitre. */
+/**
+ * Une ligne de réponse :
+ * - « Titre : » seul → étiquette en gras (ses lignes « - » deviennent ses sous-puces) ;
+ * - « Étiquette : texte » → étiquette en gras puis texte ;
+ * - sinon texte simple.
+ */
 const formatLine = (l) => {
-  const head = l.match(/^(.{1,50}) :$/);
+  const head = l.match(/^(.{1,60}) :$/);
   if (head) return `<strong>${esc(head[1])}</strong>`;
   const m = l.match(/^([^:]{1,50}?) : (.+)$/);
   return m ? `<strong>${esc(m[1])}</strong> : ${esc(m[2])}` : esc(l);
 };
 /**
- * Réponse sur plusieurs lignes → liste alignée à gauche.
- * Une ligne qui commence par « - » devient une sous-puce de la ligne précédente.
+ * Mise en forme unique de toutes les réponses, sur deux niveaux :
+ * - chaque ligne → puce principale ;
+ * - chaque ligne « - » → sous-puce en retrait de la puce qui la précède.
  */
 const richAnswer = (s) => {
   const lines = s.split('\n').map((l) => l.trim()).filter(Boolean);
   if (lines.length === 1 && !lines[0].startsWith('- ')) return formatLine(lines[0]);
-  return `<ul class="answer-list">${lines.map((l) => l.startsWith('- ')
-    ? `<li class="sub">${formatLine(l.slice(2))}</li>`
-    : `<li>${formatLine(l)}</li>`).join('')}</ul>`;
+  const items = [];
+  for (const l of lines) {
+    if (l.startsWith('- ') && items.length) items[items.length - 1].subs.push(l.slice(2));
+    else items.push({ text: l.replace(/^- /, ''), subs: [] });
+  }
+  return `<ul class="answer-list">${items.map((it) => `<li>${formatLine(it.text)}${it.subs.length
+    ? `<ul class="answer-sub">${it.subs.map((t) => `<li>${formatLine(t)}</li>`).join('')}</ul>` : ''}</li>`).join('')}</ul>`;
 };
 const plural = (n, word) => `${n} ${word}${n > 1 ? 's' : ''}`;
 const baseName = (f) => f.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim();
