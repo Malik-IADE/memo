@@ -394,7 +394,20 @@ function buildSession(deckId) {
   // Nouvelles cartes tirées au hasard parmi celles jamais vues (pas dans l'ordre du fichier).
   const fresh = shuffle(cs.filter((c) => !c.seen).map((c) => c.id)).slice(0, s.newAvail);
   // Révisions et nouvelles cartes mélangées : ordre différent à chaque session.
-  const queue = shuffle([...due, ...fresh]);
+  // Puis on répartit régulièrement les cartes à image (ex. ECG) parmi les questions de cours,
+  // pour éviter des séries de tracés au début ou à la fin.
+  const all = shuffle([...due, ...fresh]);
+  const hasImg = (cid) => /\[img:/.test(store.card(cid).front);
+  const imgs = all.filter(hasImg);
+  const texts = all.filter((cid) => !hasImg(cid));
+  const queue = [];
+  let ti = 0;
+  imgs.forEach((cid, k) => {
+    const upto = Math.round(((k + 1) * texts.length) / (imgs.length + 1));
+    while (ti < upto) queue.push(texts[ti++]);
+    queue.push(cid);
+  });
+  while (ti < texts.length) queue.push(texts[ti++]);
   return { deckId, queue, revealed: false, reviewed: 0, again: 0, total: queue.length };
 }
 
