@@ -150,6 +150,17 @@ export function resetCard(id) {
  *            reconnu par sa source, et seules les cartes venant du cours (lib) sont
  *            supprimées : les cartes perso ajoutées à la main sont conservées.
  */
+/** Supprime les paquets de la bibliothèque dont le fichier n'est plus dans la liste partagée. */
+export function pruneLibraryDecks(files) {
+  const keep = new Set(files);
+  let n = 0;
+  for (const d of Object.values(db.decks)) {
+    if (!alive(d) || !d.source) continue;
+    if (!keep.has(d.source.replace(/#\d+$/, ''))) { deleteDeck(d.id); n++; }
+  }
+  return n;
+}
+
 export function importDecks(parsed, { prune = false, source = null } = {}) {
   let added = 0, updated = 0, removed = 0;
   const names = [];

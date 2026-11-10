@@ -46,6 +46,8 @@ export function syncLibrary({ force = false } = {}) {
           console.warn('Cours non chargé :', err.message);
         }
       }
+      // Cours retirés de liste.txt : on retire aussi leur paquet de l'app
+      if (files.length) total.removed += store.pruneLibraryDecks(files);
       lastSync = Date.now();
       return total;
     } catch {
