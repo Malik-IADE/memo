@@ -34,6 +34,10 @@ export function syncLibrary({ force = false } = {}) {
         try {
           const { decks } = parseText(await fetchText(`paquets/${file}`), file.replace(/\.[^.]+$/, ''));
           if (!decks.length) continue;
+          // [img:images/x.jpg] est relatif au dossier du cours → chemin complet depuis l'app
+          const dir = `paquets/${file.replace(/[^/]*$/, '')}`;
+          const fix = (s) => s.replace(/\[img:(?!https?:|paquets\/)([^\]]+)\]/g, (_, p) => `[img:${dir}${p.trim()}]`);
+          decks.forEach((d) => d.cards.forEach((c) => { c.front = fix(c.front); c.back = fix(c.back); }));
           const r = store.importDecks(decks, { prune: true, source: file });
           total.added += r.added;
           total.updated += r.updated;

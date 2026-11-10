@@ -10,6 +10,12 @@ const fileInput = document.getElementById('file-input');
 /* ---------- Utilitaires ---------- */
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+/** Images : « [img:chemin] » n'importe où dans la question ou la réponse. */
+const IMG = /\[img:([^\]]+)\]\s*/g;
+const takeImgs = (s) => ({ imgs: [...s.matchAll(IMG)].map((m) => m[1].trim()), text: s.replace(IMG, '').trim() });
+const imgsHtml = (imgs) => imgs.map((src) => `<button type="button" class="card-img" data-action="zoom" data-src="${esc(src)}" aria-label="Agrandir l'image">
+    <img src="${esc(src)}" alt="" loading="lazy"><span class="card-img-hint">Toucher pour agrandir</span></button>`).join('');
+const plainText = (s) => (takeImgs(s).imgs.length ? '🖼 ' : '') + takeImgs(s).text;
 const rich = (s) => esc(s).replace(/\n/g, '<br>');
 /**
  * Une ligne de réponse :
@@ -316,7 +322,7 @@ function cardRows(cs) {
   return cs.map((c) => `
     <li class="card-row" data-action="edit-card" data-id="${c.id}" data-q="${esc((c.front + ' ' + c.back).toLowerCase())}">
       <div class="card-text">
-        <span class="card-front">${esc(c.front)}</span>
+        <span class="card-front">${esc(plainText(c.front))}</span>
         <span class="card-back">${esc(c.back)}</span>
       </div>
       <span class="tag ${c.seen ? '' : 'tag-new'}">${dueLabel(c)}</span>
@@ -426,6 +432,8 @@ function renderReview(id) {
   const pct = Math.round((1 - left.length / Math.max(session.total, left.length)) * 100);
   const labels = previewIntervals(c);
   const names = ['À revoir', 'Difficile', 'Bien', 'Facile'];
+  const qf = takeImgs(c.front);
+  const qb = takeImgs(c.back);
 
   $app.innerHTML = `
     <div class="review">
@@ -439,8 +447,9 @@ function renderReview(id) {
         <article class="flash-card">
           ${c.seen ? '' : '<span class="tag tag-new flash-tag">Nouvelle</span>'}
           <div class="flash-inner">
-            <div class="face front ${session.revealed && c.back.includes('\n') ? 'small' : ''}">${rich(c.front)}</div>
-            ${session.revealed ? `<hr><div class="face back ${c.back.includes('\n') ? 'multi' : ''}">${richAnswer(c.back)}</div>` : '<p class="tap-hint">Touchez pour voir la réponse</p>'}
+            ${imgsHtml(qf.imgs)}
+            <div class="face front ${session.revealed && c.back.includes('\n') ? 'small' : ''}">${rich(qf.text)}</div>
+            ${session.revealed ? `<hr>${imgsHtml(qb.imgs)}<div class="face back ${qb.text.includes('\n') ? 'multi' : ''}">${richAnswer(qb.text)}</div>` : '<p class="tap-hint">Touchez pour voir la réponse</p>'}
           </div>
         </article>
       </main>
@@ -711,8 +720,34 @@ $app.addEventListener('click', (e) => {
     case 'edit-card': return editCardModal(id);
     case 'reveal': return reveal();
     case 'grade': return grade(Number(el.dataset.grade));
+    case 'zoom': return openViewer(el.dataset.src);
   }
 });
+
+/** Visionneuse plein écran : l'image (ex. ECG) en grand, défilable ; toucher bascule ajusté / taille réelle. */
+function openViewer(src) {
+  const v = document.createElement('div');
+  v.className = 'img-viewer';
+  v.innerHTML = `<button type="button" class="icon-btn img-viewer-close" aria-label="Fermer">${ico.close}</button>
+    <div class="img-viewer-scroll"><img src="${esc(src)}" alt=""></div>
+    <p class="img-viewer-hint">Toucher l'image : zoom · faire glisser pour parcourir</p>`;
+  const close = () => { v.remove(); document.removeEventListener('keydown', onKey, true); };
+  const onKey = (e) => { if (e.key === 'Escape') { e.stopPropagation(); close(); } };
+  v.querySelector('.img-viewer-close').addEventListener('click', close);
+  // Taille de départ lisible : bande de rythme (très allongée) → ~240 px de haut ; ECG 12 dérivations → ≥ 900 px de large.
+  const img = v.querySelector('img');
+  let zoom = 1;
+  const size = () => {
+    const ratio = img.naturalWidth / img.naturalHeight || 2;
+    const base = ratio > 3 ? 240 * ratio : Math.max(window.innerWidth, Math.min(900, img.naturalWidth));
+    img.style.width = `${Math.round(base * zoom)}px`;
+  };
+  img.addEventListener('load', size);
+  img.addEventListener('click', () => { zoom = zoom === 1 ? 1.8 : 1; size(); });
+  v.addEventListener('click', (e) => { if (e.target === v) close(); });
+  document.addEventListener('keydown', onKey, true);
+  document.body.appendChild(v);
+}
 
 $app.addEventListener('submit', (e) => {
   if (e.target.id !== 'add-form') return;
@@ -742,7 +777,7 @@ $app.addEventListener('input', (e) => {
 });
 
 document.addEventListener('keydown', (e) => {
-  if (route().view !== 'review' || modal.open) return;
+  if (route().view !== 'review' || modal.open || document.querySelector('.img-viewer')) return;
   if (e.target.matches('input, textarea') || e.metaKey || e.ctrlKey || e.altKey) return;
   if (e.key === ' ' || e.key === 'Enter') {
     e.preventDefault();
