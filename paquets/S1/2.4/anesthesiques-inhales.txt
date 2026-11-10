@@ -1,0 +1,44 @@
+// Cours 2.4 – Anesthésiques inhalés
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
+// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+
+# IADE – Anesthésiques inhalés
+
+// ---------- Agents et propriétés ----------
+Quels sont les anesthésiques inhalés utilisés, et quelle différence entre volatil et gazeux ? :: Halogénés (liquides volatils, à vaporiser dans un évaporateur) :\n- Sévoflurane, desflurane, isoflurane (halothane : historique)\nGaz (déjà gazeux à 20 °C) :\n- Protoxyde d'azote (N2O), xénon\nHalogénés : ininflammables grâce au fluor
+Que mesurent la MAC, le coefficient sang/gaz et la pression de vapeur ? :: MAC : puissance (concentration efficace) ; MAC basse = agent puissant\nCoefficient sang/gaz (λ) : solubilité dans le sang → vitesse d'induction et de réveil\nPression de vapeur : facilité d'évaporation → type d'évaporateur
+Quelles sont les MAC des principaux agents ? :: Isoflurane : 1,17 %\nSévoflurane : 1,8 % (≈ 2 % en pratique)\nDesflurane : 6,6 % (le moins puissant des halogénés)\nProtoxyde d'azote : 104 % → impossible d'atteindre 1 MAC seul\nXénon : 63-71 %
+Classez sévoflurane, desflurane et isoflurane par rapidité d'induction et de réveil, et expliquez pourquoi :: Desflurane > sévoflurane > isoflurane\nRègle : moins un agent est soluble dans le sang (λ sang/gaz bas), plus vite il endort et réveille\n- Desflurane 0,42 ; sévoflurane 0,65 ; isoflurane 1,46\nUn agent très soluble « se dissout » dans le sang : la pression alvéolaire monte lentement
+Quelles sont les particularités pratiques du desflurane et du sévoflurane ? :: Desflurane :\n- Bout vers 23 °C → évaporateur chauffé spécifique\n- Irritant pour les voies aériennes : jamais pour l'induction au masque\n- Réveil le plus rapide\nSévoflurane :\n- Non irritant, bronchodilatateur\n- Agent de choix pour l'induction au masque (enfant) et chez l'asthmatique
+
+// ---------- Circuit et débit de gaz frais ----------
+Débit de gaz frais (DGF) : qu'est-ce que c'est et que doit-il compenser au minimum ? :: Débit de gaz neufs (O2 + air ou N2O) qui entre dans le circuit en traversant l'évaporateur, en L/min\nDistinct de la ventilation minute (le circuit filtre recycle le gaz expiré)\nDoit au moins compenser :\n- La consommation d'O2 (~250 mL/min chez l'adulte)\n- La captation des gaz anesthésiques\n- Les fuites
+Pourquoi la concentration réglée sur l'évaporateur diffère-t-elle de celle que le patient respire ? :: FD : concentration délivrée par l'évaporateur\nFI : fraction inspirée ; FE : fraction expirée (reflet alvéolaire, suivi au monitorage)\nÀ haut débit : FI ≈ FD\nÀ bas débit : FI < FD (le gaz frais est dilué par le gaz recyclé)\nOn règle l'évaporateur, mais on pilote sur la FE
+Bas débit de gaz frais : combien de temps pour qu'un changement de concentration soit effectif ? :: Constante de temps du circuit : τ = volume (~6 L) / DGF\n95 % du changement en ~3 τ :\n- 6 L/min : ~3 min\n- 1 L/min : ~18 min\n- 0,5 L/min : ~36 min\nPour changer vite de niveau : augmenter le DGF
+Bas débit de gaz frais : quels avantages et quelles contraintes ? :: Avantages :\n- Environ 5 fois moins d'halogéné consommé (6 → 1 L/min)\n- Moins de gaz à effet de serre rejetés (desflurane et N2O : les plus polluants)\n- Gaz plus chauds et humides\nContraintes :\n- Inertie des changements de concentration\n- Monitorage continu obligatoire : FiO2, FI/FE de l'halogéné, EtCO2\n- Chaux sodée : composé A (sévoflurane), CO si desséchée
+Évaporateur rempli par erreur avec un autre halogéné : quel risque ? :: La concentration délivrée n'est plus celle affichée\nEx. : évaporateur de sévoflurane rempli d'isoflurane → plus d'anesthésique que prévu (surdosage)\nPrévention : détrompeurs de remplissage, vérification, monitorage de la FE
+
+// ---------- Pharmacocinétique ----------
+Quels facteurs accélèrent ou ralentissent l'induction par halogéné ? :: Accélèrent :\n- Agent peu soluble dans le sang\n- Concentration inspirée élevée (évaporateur ouvert)\n- Ventilation augmentée\nRalentissent :\n- Débit cardiaque élevé (le sang emporte l'agent)\nChoc (bas débit) : la concentration alvéolaire monte vite → risque de surdosage
+Pourquoi le cerveau s'équilibre-t-il vite et la graisse très lentement ? :: Cerveau : très perfusé (75 % du débit cardiaque) → équilibre en ~10 min\nMuscle : ~6 h\nGraisse : peu perfusée mais très grande capacité de stockage → plusieurs jours\nConséquence : après une longue anesthésie, muscle et graisse relarguent l'agent au réveil
+
+// ---------- Effets et MAC ----------
+MAC : définition exacte et facteurs de variation ? :: Concentration alvéolaire (expirée, à l'équilibre) qui supprime le mouvement à l'incision chez 50 % des patients\n1,3 MAC : ~95 % des patients immobiles\nDiminue avec : l'âge (~6 % par décennie), les opioïdes et les autres sédatifs\nPlus élevée chez le nourrisson
+Dans quel ordre apparaissent les effets quand la concentration d'halogéné augmente ? :: 1) Amnésie : ~0,25 MAC (l'effet le plus sensible)\n2) Perte de conscience : 0,3-0,5 MAC (MAC-awake ≈ 0,34)\n3) Immobilité à l'incision : 1 MAC (effet surtout médullaire)\n4) Blocage de la réponse adrénergique : ~1,5 MAC\nPiège : « ne bouge pas » ne veut pas dire « inconscient »
+Comment prévenir la mémorisation peropératoire sous halogéné ? :: Cible de MAC expirée : 0,7 à 1,3 MAC\nAlarme basse de FE réglée\nÉvaporateur jamais vide\nBIS si besoin\nSituations à risque : curarisation, urgence, césarienne, chirurgie cardiaque, AIVOC seule, ATCD de mémorisation
+
+// ---------- Effets respiratoires ----------
+Quels sont les effets respiratoires des halogénés ? :: Bronchodilatation (sévoflurane +++ ; pas le desflurane, irritant)\nDépression ventilatoire : polypnée superficielle (↑ FR, ↓ Vt), ↓ ventilation minute, ↑ PaCO2\nRéponse à l'hypoxie diminuée, même à faible concentration → vigilance en SSPI\n↓ clairance mucociliaire (isoflurane) → encombrement\n↓ réflexes de protection des voies aériennes
+Laryngospasme sous halogéné : définition, moments à risque et prévention ? :: Fermeture complète et prolongée de la glotte\nDéclenché par sécrétions, sang ou stimulation sous anesthésie trop légère\nMoments à risque : induction et réveil (enfant +++)\nPrévention : ne pas stimuler en phase légère ; pas de desflurane pour l'induction au masque
+
+// ---------- Toxicité et sécurité du circuit ----------
+Qu'est-ce que le composé A et comment limiter sa production ? :: Produit de dégradation du sévoflurane au contact de la chaux sodée (KOH, NaOH)\nNéphrotoxique chez le rat, pas de toxicité démontrée chez l'homme\nFavorisé par : bas débit, concentrations élevées, absorbant chaud ou neuf\nRepère fabricant : ne pas dépasser 2 MAC-heures à un DGF de 1-2 L/min (moins strict avec les absorbants modernes)
+Machine laissée en débit d'O2 tout le week-end : quel risque le lundi matin ? :: Chaux sodée desséchée + halogéné (desflurane surtout) → production de monoxyde de carbone (CO)\nIntoxication au CO : la SpO2 ne détecte pas la carboxyhémoglobine\nPrévention :\n- Couper les gaz en fin de programme\n- Changer la chaux au moindre doute\n- Absorbants sans KOH/NaOH
+
+// ---------- Induction et réveil ----------
+Comment induire et entretenir une anesthésie aux halogénés en limitant le gaspillage ? :: Induction : bas DGF avec évaporateur plus ouvert (même vitesse, 2 à 4 fois moins d'agent)\nFonction pause lors des déconnexions brèves (intubation, aspiration)\nEntretien à très bas DGF (sauf intervention très longue : composé A)\nViser ~0,8 MAC en fin d'intervention
+Comment réveiller rapidement un patient sous halogéné, et pourquoi peut-il se rendormir ? :: Réveil : fermer l'évaporateur, augmenter le DGF (6-8 L/min d'O2), maintenir la ventilation\nAprès une longue anesthésie, muscle et graisse relarguent l'agent : la FE baisse lentement (surtout avec un agent soluble)\nRendormissement si hypoventilation (opioïdes, curarisation résiduelle) ou absence de stimulation\n→ surveiller la ventilation en SSPI
+
+// ---------- Protoxyde d'azote ----------
+Protoxyde d'azote : pourquoi est-il dangereux en cas de cavité gazeuse ? :: Il diffuse dans les cavités beaucoup plus vite que l'azote n'en sort\nCavité souple → le volume augmente (× 2 à 50 % de N2O, × 4 à 75 %) : pneumothorax, occlusion, embolie gazeuse\nCavité rigide → la pression augmente : oreille moyenne, pneumencéphale\nBallonnet de sonde : surveiller sa pression
+Protoxyde d'azote et chirurgie de l'œil : quelle contre-indication ? :: Interdit tant qu'une bulle de gaz persiste dans l'œil (après vitrectomie)\n- SF6 : ~2 semaines ; C3F8 : 6 à 8 semaines\nRisque : ↑ pression intraoculaire → ischémie rétinienne, cécité\nCataracte sans gaz intraoculaire : pas de contre-indication
