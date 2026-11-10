@@ -59,6 +59,7 @@ const ico = {
   chevron: svg('<path d="M9 18l6-6-6-6"/>'),
   folder: svg('<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>'),
   cards: svg('<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>'),
+  shuffle: svg('<path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/>'),
 };
 
 function toast(msg) {
@@ -106,6 +107,20 @@ function stats(deckId) {
   return { total: cs.length, due, dueAvail, backlog: due - dueAvail, fresh, newAvail, todo: dueAvail + newAvail };
 }
 
+/* « Cours mélangés » : toutes les cartes des cours partagés, tirées au hasard. */
+const MIX = 'mix';
+const MIX_NAME = 'Cours mélangés';
+const mixDecks = () => store.decks().filter((d) => d.source);
+function mixStats() {
+  const ds = mixDecks().map((d) => stats(d.id));
+  const st = store.settings();
+  const dueAvail = ds.reduce((n, s) => n + s.dueAvail, 0);
+  const fresh = ds.reduce((n, s) => n + s.fresh, 0);
+  const newLeft = Math.max(0, st.newPerDay - store.countToday(MIX, 'new'));
+  const newAvail = Math.min(fresh, newLeft);
+  return { dueAvail, newAvail, todo: dueAvail + newAvail, decks: ds.length };
+}
+
 /* ---------- Routage ---------- */
 
 let session = null;
@@ -118,7 +133,7 @@ function route() {
 function render() {
   const r = route();
   if (r.view === 'deck' && store.deck(r.id)) return renderDeck(r.id);
-  if (r.view === 'review' && store.deck(r.id)) return renderReview(r.id);
+  if (r.view === 'review' && (r.id === MIX || store.deck(r.id))) return renderReview(r.id);
   if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub) : renderFolder(r.id);
   renderHome();
 }
@@ -129,7 +144,7 @@ function render() {
  */
 function trackView() {
   const r = route();
-  const name = (id) => { const d = store.deck(id); return d ? shortName(d.name) : 'inconnu'; };
+  const name = (id) => { if (id === MIX) return MIX_NAME; const d = store.deck(id); return d ? shortName(d.name) : 'inconnu'; };
   const path = r.view === 'f' ? `/${[r.id, r.sub].filter(Boolean).join('/')}`
     : r.view === 'deck' ? `/cours/${name(r.id)}`
     : r.view === 'review' ? `/revision/${name(r.id)}`
@@ -264,6 +279,10 @@ function renderHome() {
   $app.innerHTML = `${topbarHome()}
     <main class="page">
       ${hero(sumTodo(rows))}
+      ${mixDecks().length > 1 ? (() => { const m = mixStats(); return `
+      <ul class="folder-list">
+        ${folderRow(`#/review/${MIX}`, MIX_NAME, `Questions de tous les cours, tirées au hasard`, m.todo, ico.shuffle)}
+      </ul>`; })() : ''}
       <ul class="folder-list">
         ${keys.map((k) => {
           const rs = sems.get(k);
@@ -383,16 +402,31 @@ function shuffle(a) {
 }
 
 function buildSession(deckId) {
-  const cs = store.cards(deckId);
   const end = endOfToday();
-  const s = stats(deckId);
-  // Les révisions les plus en retard d'abord, dans la limite du jour, puis mélangées.
-  const due = shuffle(cs.filter((c) => c.seen && c.due <= end)
-    .sort((a, b) => a.due - b.due)
-    .slice(0, s.dueAvail)
-    .map((c) => c.id));
-  // Nouvelles cartes tirées au hasard parmi celles jamais vues (pas dans l'ordre du fichier).
-  const fresh = shuffle(cs.filter((c) => !c.seen).map((c) => c.id)).slice(0, s.newAvail);
+  let due, fresh;
+  if (deckId === MIX) {
+    // Tous les cours partagés : les révisions dues de chaque cours (dans sa limite du jour)
+    // et des nouvelles cartes tirées au hasard dans l'ensemble des cours.
+    due = []; const pool = [];
+    for (const d of mixDecks()) {
+      const cs = store.cards(d.id);
+      const s = stats(d.id);
+      due.push(...cs.filter((c) => c.seen && c.due <= end).sort((a, b) => a.due - b.due)
+        .slice(0, s.dueAvail).map((c) => c.id));
+      pool.push(...cs.filter((c) => !c.seen).map((c) => c.id));
+    }
+    fresh = shuffle(pool).slice(0, mixStats().newAvail);
+  } else {
+    const cs = store.cards(deckId);
+    const s = stats(deckId);
+    // Les révisions les plus en retard d'abord, dans la limite du jour, puis mélangées.
+    due = shuffle(cs.filter((c) => c.seen && c.due <= end)
+      .sort((a, b) => a.due - b.due)
+      .slice(0, s.dueAvail)
+      .map((c) => c.id));
+    // Nouvelles cartes tirées au hasard parmi celles jamais vues (pas dans l'ordre du fichier).
+    fresh = shuffle(cs.filter((c) => !c.seen).map((c) => c.id)).slice(0, s.newAvail);
+  }
   // Révisions et nouvelles cartes mélangées : ordre différent à chaque session.
   // Puis on répartit régulièrement les cartes à image (ex. ECG) parmi les questions de cours,
   // pour éviter des séries de tracés au début ou à la fin.
@@ -413,14 +447,16 @@ function buildSession(deckId) {
 
 function renderReview(id) {
   if (!session || session.deckId !== id) session = buildSession(id);
-  const d = store.deck(id);
+  const mix = id === MIX;
+  const d = mix ? { name: MIX_NAME } : store.deck(id);
+  const backHref = mix ? '#/' : `#/deck/${id}`;
   const c = session.queue.length ? store.card(session.queue[0]) : null;
 
   if (!c) {
     const nothing = session.reviewed === 0;
     $app.innerHTML = `
       <header class="topbar">
-        <a class="icon-btn" href="#/deck/${id}" aria-label="Retour">${ico.back}</a>
+        <a class="icon-btn" href="${backHref}" aria-label="Retour">${ico.back}</a>
         <h1 class="title-sm">${esc(d.name)}</h1><span></span>
       </header>
       <main class="page done">
@@ -433,7 +469,7 @@ function renderReview(id) {
         ${nothing ? '' : '<p class="muted">Prochaine session : demain.</p>'}
         <div class="stack">
           <a class="btn primary wide" href="#/">Retour à l'accueil</a>
-          <a class="btn soft wide" href="#/deck/${id}">Voir le paquet</a>
+          ${mix ? '' : `<a class="btn soft wide" href="#/deck/${id}">Voir le paquet</a>`}
         </div>
       </main>`;
     return;
@@ -451,7 +487,7 @@ function renderReview(id) {
   $app.innerHTML = `
     <div class="review">
       <header class="topbar">
-        <a class="icon-btn" href="#/deck/${id}" aria-label="Quitter la révision">${ico.close}</a>
+        <a class="icon-btn" href="${backHref}" aria-label="Quitter la révision">${ico.close}</a>
         <span class="title-sm">${esc(d.name)}</span>
         <span class="counts"><span class="count new">${nNew}</span><span class="count due">${nRev}</span></span>
       </header>
@@ -459,6 +495,8 @@ function renderReview(id) {
       <main class="flash ${session.revealed ? 'revealed' : ''}" ${session.revealed ? '' : 'data-action="reveal"'}>
         <article class="flash-card">
           ${c.seen ? '' : '<span class="tag tag-new flash-tag">Nouvelle</span>'}
+          ${mix ? (() => { const cd = store.deck(c.deckId); const { ue } = cd ? locate(cd) : {}; return cd
+            ? `<span class="flash-src">${ue ? `UE ${esc(ue)} · ` : ''}${esc(shortName(cd.name))}</span>` : ''; })() : ''}
           <div class="flash-inner">
             ${imgsHtml(qf.imgs)}
             <div class="face front ${session.revealed && c.back.includes('\n') ? 'small' : ''}">${rich(qf.text)}</div>
@@ -491,6 +529,7 @@ function grade(g) {
   const wasNew = !c.seen;
   store.updateCard(c.id, schedule(c, g));
   store.bumpToday(c.deckId, wasNew ? 'new' : 'rev');
+  if (session.deckId === MIX) store.bumpToday(MIX, wasNew ? 'new' : 'rev');
   session.queue.shift();
   session.reviewed++;
   if (g === 0) session.again++; // ne revient pas dans cette session : 1 à 3 jours plus tard
