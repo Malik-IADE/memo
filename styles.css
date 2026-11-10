@@ -261,3 +261,6 @@ dialog[open] { animation: rise .2s ease; }
 .img-viewer-scroll { flex: 1; overflow: auto; display: flex; align-items: center; -webkit-overflow-scrolling: touch; }
 .img-viewer-scroll img { display: block; max-width: none; height: auto; margin: auto; background: #fff; cursor: zoom-in; }
 .img-viewer-hint { margin: 0; padding: 10px 16px calc(env(safe-area-inset-bottom) + 14px); text-align: center; color: rgba(255,255,255,.7); font-size: .8rem; }
+
+/* Cours mélangés : cours d'origine de la carte */
+.flash-src { position: absolute; top: 18px; right: 16px; max-width: 60%; font-size: .72rem; font-weight: 600; color: var(--muted); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
