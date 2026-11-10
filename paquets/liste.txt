@@ -7,6 +7,7 @@ S1/2.2/neurophysiologie.txt
 S1/2.2/physiologie-cardiaque.txt
 S1/2.2/physiologie-respiratoire.txt
 S1/2.2/thermoregulation.txt
+S1/2.2/curares.txt
 
 S1/2.3/pharmacologie-generale.txt
 
@@ -20,6 +21,7 @@ S1/3.1/respirateur.txt
 S1/3.1/ventilation-mecanique.txt
 S1/3.1/sspi.txt
 S1/3.1/ecg-traces.txt
+S1/3.1/positions-chirurgicales.txt
 
 S1/3.3/chirurgie-urologique.txt
 S1/3.3/chirurgie-digestive.txt
