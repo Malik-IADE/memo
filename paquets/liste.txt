@@ -3,6 +3,13 @@
 //   1) déposez le .txt dans le bon dossier (ex. S1/3.3/)
 //   2) ajoutez son chemin ci-dessous (ex. S1/3.3/mon-cours.txt)
 
+S1/2.2/neurophysiologie.txt
+S1/2.2/physiologie-cardiaque.txt
+S1/2.2/physiologie-respiratoire.txt
+S1/2.2/thermoregulation.txt
+
+S1/2.3/pharmacologie-generale.txt
+
 S1/2.4/anesthesiques-inhales.txt
 S1/2.4/hypnotiques-benzodiazepines.txt
 S1/2.4/morphiniques.txt
