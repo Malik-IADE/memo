@@ -384,8 +384,10 @@
       const prevTotal = await api('/api/v0/stats/total', q(r.prevStart, r.prevEnd));
       const hits = await api('/api/v0/stats/hits', { ...q(r.start, r.end), limit: 100 });
       const prevHits = await api('/api/v0/stats/hits', { ...q(r.prevStart, r.prevEnd), limit: 100 });
-      const systems = await api('/api/v0/stats/systems', { ...q(r.start, r.end), limit: 10 });
-      const sizes = await api('/api/v0/stats/sizes', { ...q(r.start, r.end), limit: 10 });
+      // Facultatifs : certains navigateurs bloquent ces demandes, la page s'affiche quand même.
+      const optional = (path) => api(path, { ...q(r.start, r.end), limit: 10 }).catch((e) => { if (e.auth) throw e; return { stats: [] }; });
+      const sizes = await optional('/api/v0/stats/sizes');
+      const systems = await optional('/api/v0/stats/systems');
       raw = { total, prevTotal, hits: hits.hits, prevHits: prevHits.hits, systems: systems.stats || [], sizes: sizes.stats || [] };
     }
     return { ...raw, r, days: P.days, sum: summarize(raw.hits), prevSum: summarize(raw.prevHits), at: new Date() };
