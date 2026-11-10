@@ -5,9 +5,9 @@
 # IADE – Physiologie cardiaque
 
 // ---------- Anatomie et perfusion coronaire ----------
-Valves cardiaques : lesquelles et comment s'ouvrent-elles ? :: Tricuspide : oreillette droite → ventricule droit\nMitrale : oreillette gauche → ventricule gauche\nPulmonaire et aortique : sorties des ventricules\nOuverture et fermeture totalement PASSIVES : selon la différence de pression de part et d'autre de la valve
+Valves cardiaques : lesquelles et comment s'ouvrent-elles ? :: Tricuspide : oreillette droite → ventricule droit\nMitrale : oreillette gauche → ventricule gauche\nPulmonaire et aortique : sorties des ventricules\nOuverture et fermeture totalement passives : selon la différence de pression de part et d'autre de la valve
 Artères coronaires : comment sont-elles organisées ? :: Naissent à la base de l'aorte\nCoronaire gauche : tronc commun → IVA (interventriculaire antérieure) + circonflexe\nCoronaire droite\nAtteinte du tronc commun : territoire très étendu (IVA + circonflexe)\nÀ l'échographie, la zone qui se contracte mal oriente vers l'artère atteinte
-Perfusion coronaire : quand est-elle maximale et qu'est-ce qui la menace ? :: Maximale en DIASTOLE (en systole, la contraction comprime les vaisseaux de la paroi)\nDépend de la pression diastolique et de la durée de la diastole\nMenacée par : tachycardie (diastole raccourcie), hypotension diastolique, pression de remplissage élevée\nL'endocarde est le plus vulnérable ; autorégulation possible
+Perfusion coronaire : quand est-elle maximale et qu'est-ce qui la menace ? :: Maximale en diastole (en systole, la contraction comprime les vaisseaux de la paroi)\nDépend de la pression diastolique et de la durée de la diastole\nMenacée par : tachycardie (diastole raccourcie), hypotension diastolique, pression de remplissage élevée\nL'endocarde est le plus vulnérable ; autorégulation possible
 
 // ---------- Innervation et électrophysiologie ----------
 Innervation du cœur : effets du sympathique et du parasympathique ? :: Parasympathique (nerf vague, acétylcholine) : frein permanent → bradycardie, ↓ excitabilité, ↓ conduction\nSympathique (catécholamines) : accélérateur → tachycardie, ↑ contractilité, ↑ conduction\nCœur transplanté : dénervé → pas de frein vagal, FC de repos ≈ 100/min, automatisme conservé ; l'atropine n'agit pas
