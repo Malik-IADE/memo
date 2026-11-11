@@ -350,8 +350,8 @@
   const decode = (p) => { try { return decodeURIComponent(p); } catch { return p; } };
   const sorted = (map) => [...map].sort((a, b) => b[1] - a[1]);
   function summarize(hits) {
-    const revisions = new Map(), courses = new Map(), ues = new Map(), revDays = new Map();
-    let revTotal = 0;
+    const revisions = new Map(), courses = new Map(), ues = new Map(), revDays = new Map(), exams = new Map();
+    let revTotal = 0, examTotal = 0;
     for (const hit of hits || []) {
       if (hit.event) continue;
       const path = decode(hit.path || ''), n = hit.count || 0;
@@ -364,13 +364,17 @@
           if (!st.hourly && st.daily) arr[12] += st.daily;
           revDays.set(st.day, arr);
         }
+      } else if ((m = path.match(/annales\/(S\d+)\/([\d.]+?)(?:\.html?)?$/i))) {
+        // Annales : « /annales/S1/3.3 » (ou l'ancien chemin « /memo/annales/S1/3.3.html »)
+        const label = `UE ${m[2]} · S${m[1].slice(1)}`;
+        exams.set(label, (exams.get(label) || 0) + n); examTotal += n;
       } else if ((m = path.match(/^\/cours\/(.+)$/))) courses.set(m[1], (courses.get(m[1]) || 0) + n);
       else if ((m = path.match(/^\/(S\d+)\/([^/]+)$/i))) {
         const label = `UE ${m[2]} · S${m[1].slice(1)}`;
         ues.set(label, (ues.get(label) || 0) + n);
       }
     }
-    return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues) };
+    return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues), exams: sorted(exams), examTotal };
   }
   // Grille jour → 24 heures pour la mesure choisie.
   function grid(data, which, prev) {
@@ -554,6 +558,7 @@
         rank('Cours les plus révisés', cur.revisions, 'Aucune révision sur cette période.'),
         rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.'),
         rank('UE les plus consultées', cur.ues, 'Aucune UE consultée sur cette période.'),
+        rank('Annales les plus ouvertes', cur.exams, 'Aucune annale ouverte sur cette période.'),
         rank('Appareils', sysRows.some((x) => x[1]) ? sysRows : sizeRows, 'Pas encore de données.'),
       ),
       h('footer', { class: 'foot' },
@@ -789,6 +794,7 @@
       ...names.map((n, i) => { const s2 = share(st, .3 / (1 + i * .35)); return { path: '/revision/' + n, count: tot(s2), stats: s2 }; }),
       ...names.map((n, i) => ({ path: '/cours/' + n, count: Math.round(tot(st) * .09 / (1 + i * .3)) })),
       ...[['3.1', .32], ['3.3', .22], ['2.2', .17], ['2.4', .09], ['2.3', .05]].map(([u, f]) => ({ path: '/S1/' + u, count: Math.round(tot(st) * f) })),
+      ...[['S1/3.3', .08], ['S1/3.1', .06], ['S1/2.2', .04], ['S2/3.3', .02]].map(([u, f]) => ({ path: '/annales/' + u, count: Math.round(tot(st) * f) })),
     ];
     const total = tot(stats);
     return { total: { total, stats }, prevTotal: { total: tot(prevStats), stats: prevStats }, hits: mkHits(stats), prevHits: mkHits(prevStats),
