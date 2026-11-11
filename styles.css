@@ -264,3 +264,6 @@ dialog[open] { animation: rise .2s ease; }
 
 /* Cours mélangés : cours d'origine de la carte */
 .flash-src { position: absolute; top: 18px; right: 16px; max-width: 60%; font-size: .72rem; font-weight: 600; color: var(--muted); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+/* Titre de section (ex. « Annales » sous les cours d'une UE) */
+.section-label { margin: 8px 4px -6px; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
