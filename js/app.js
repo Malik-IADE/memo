@@ -62,6 +62,7 @@ const ico = {
   chevron: svg('<path d="M9 18l6-6-6-6"/>'),
   folder: svg('<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>'),
   cards: svg('<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>'),
+  exam: svg('<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 14.5l2 2 4-4.5"/>'),
   shuffle: svg('<path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/>'),
 };
 
@@ -183,6 +184,38 @@ const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
 // Dans un dossier d'UE, le préfixe « IADE – » est superflu.
 const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
 
+/* ---------- Annales : un quiz HTML par UE (dossier « annales/ ») ---------- */
+// « annales/liste.txt » : une ligne « S1/3.3.html | titre ». Gardée en mémoire locale pour l'hors-ligne.
+const ANNALES_KEY = 'memo-annales';
+let annales = (() => { try { return JSON.parse(localStorage.getItem(ANNALES_KEY)) || []; } catch { return []; } })();
+const annaleOf = (sem, ue) => annales.find((a) => a.sem === sem && a.ue === ue) || null;
+async function loadAnnales() {
+  try {
+    const res = await fetch('annales/liste.txt', { cache: 'no-cache' });
+    if (!res.ok) return;
+    const list = (await res.text()).split(/\r?\n/).map((l) => l.trim())
+      .filter((l) => l && !l.startsWith('//'))
+      .map((l) => {
+        const [file, label = ''] = l.split('|').map((s) => s.trim());
+        const m = file.match(/^([^/]+)\/(.+)\.html?$/);
+        return m ? { sem: m[1], ue: m[2], href: `annales/${file}`, label } : null;
+      })
+      .filter(Boolean);
+    const changed = JSON.stringify(list) !== JSON.stringify(annales);
+    annales = list;
+    try { localStorage.setItem(ANNALES_KEY, JSON.stringify(list)); } catch {}
+    const v = route().view;
+    if (changed && (v === 'home' || v === 'f') && !modal.open) render();
+  } catch { /* hors ligne : on garde la dernière liste connue */ }
+}
+function annaleRow(a) {
+  return `
+    <p class="section-label">Annales</p>
+    <ul class="folder-list">
+      ${folderRow(a.href, `Annales de l'UE ${a.ue}`, 'Sujets d\'examen en quiz interactif', 0, ico.exam)}
+    </ul>`;
+}
+
 const allRows = () => store.decks().map((d) => ({ d, s: stats(d.id), loc: locate(d) }));
 const sumTodo = (rows) => rows.reduce((n, r) => n + r.s.todo, 0);
 
@@ -276,6 +309,7 @@ function renderHome() {
     if (!sems.has(r.loc.sem)) sems.set(r.loc.sem, []);
     sems.get(r.loc.sem).push(r);
   }
+  for (const a of annales) if (!sems.has(a.sem)) sems.set(a.sem, []);
   const rank = (k) => (k === 'perso' ? 2 : k === 'partages' ? 1 : 0);
   const keys = [...sems.keys()].sort((a, b) => rank(a) - rank(b) || byKey(a, b));
 
@@ -289,8 +323,8 @@ function renderHome() {
       <ul class="folder-list">
         ${keys.map((k) => {
           const rs = sems.get(k);
-          const ues = new Set(rs.map((r) => r.loc.ue).filter(Boolean));
-          const meta = ues.size ? `${`${ues.size} UE`} · ${`${rs.length} cours`}` : plural(rs.length, 'paquet');
+          const ues = new Set([...rs.map((r) => r.loc.ue), ...annales.filter((a) => a.sem === k).map((a) => a.ue)].filter(Boolean));
+          const meta = ues.size ? [`${ues.size} UE`, rs.length ? `${rs.length} cours` : 'annales'].join(' · ') : plural(rs.length, 'paquet');
           return folderRow(`#/f/${enc(k)}`, semLabel(k), meta, sumTodo(rs), k === 'perso' ? ico.cards : ico.folder);
         }).join('')}
       </ul>
@@ -302,22 +336,25 @@ function renderHome() {
 function renderFolder(sem) {
   session = null;
   const rows = allRows().filter((r) => r.loc.sem === sem);
-  if (!rows.length) { location.hash = '#/'; return; }
+  const semAnnales = annales.filter((a) => a.sem === sem);
+  if (!rows.length && !semAnnales.length) { location.hash = '#/'; return; }
   const ues = new Map();
   for (const r of rows) if (r.loc.ue) {
     if (!ues.has(r.loc.ue)) ues.set(r.loc.ue, []);
     ues.get(r.loc.ue).push(r);
   }
+  for (const a of semAnnales) if (!ues.has(a.ue)) ues.set(a.ue, []);
   const loose = rows.filter((r) => !r.loc.ue);
 
   $app.innerHTML = `${topbarFolder('#/', semLabel(sem))}
     <main class="page">
-      ${hero(sumTodo(rows))}
+      ${rows.length ? hero(sumTodo(rows)) : ''}
       ${ues.size ? `
         <ul class="folder-list">
           ${[...ues.keys()].sort(byKey).map((ue) => {
             const rs = ues.get(ue);
-            return folderRow(`#/f/${enc(sem)}/${enc(ue)}`, ueLabel(ue), `${rs.length} cours`, sumTodo(rs));
+            const meta = [rs.length ? `${rs.length} cours` : '', annaleOf(sem, ue) ? 'annales' : ''].filter(Boolean).join(' · ');
+            return folderRow(`#/f/${enc(sem)}/${enc(ue)}`, ueLabel(ue), meta, sumTodo(rs));
           }).join('')}
         </ul>` : ''}
       ${loose.length ? deckRows(loose) : ''}
@@ -329,11 +366,12 @@ function renderFolder(sem) {
 function renderUE(sem, ue) {
   session = null;
   const rows = allRows().filter((r) => r.loc.sem === sem && r.loc.ue === ue);
-  if (!rows.length) { location.hash = `#/f/${enc(sem)}`; return; }
+  const annale = annaleOf(sem, ue);
+  if (!rows.length && !annale) { location.hash = `#/f/${enc(sem)}`; return; }
   $app.innerHTML = `${topbarFolder(`#/f/${enc(sem)}`, ueLabel(ue), semLabel(sem))}
     <main class="page">
-      ${hero(sumTodo(rows))}
-      ${deckRows(rows)}
+      ${rows.length ? `${hero(sumTodo(rows))}${deckRows(rows)}` : '<p class="hint center">Pas encore de flashcards pour cette UE.</p>'}
+      ${annale ? annaleRow(annale) : ''}
     </main>`;
 }
 
@@ -864,3 +902,4 @@ if ('serviceWorker' in navigator) {
 render();
 trackView();
 updateLibrary(true);
+loadAnnales();
