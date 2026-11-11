@@ -1,0 +1,386 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UE 4.4 · S1 — Vigilances</title><style>
+:root{--ink:#24302f;--muted:#677472;--green:#195b4a;--paper:#f7f6f1;--line:#dce3dd;--good:#1d7252;--warn:#925b17;--bad:#a43848}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:960px;margin:auto;padding:44px 22px 60px}header{padding-bottom:30px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:750;color:var(--green)}h1{font:500 clamp(38px,7vw,62px)/1.08 Georgia,serif;margin:16px 0}h1 em{color:var(--green)}h2{font-size:21px;line-height:1.4;margin:10px 0 14px}p{margin:10px 0}.intro{max-width:680px;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:6px 12px;background:white}.progress{display:flex;justify-content:space-between;gap:12px;padding:19px 0;font-size:13px;color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:18px}.meta{display:flex;justify-content:space-between;gap:10px;color:var(--green);font-size:12px;font-weight:750;letter-spacing:1px;text-transform:uppercase}.hint,.small{font-size:13px;color:var(--muted)}textarea,input{font:inherit;color:var(--ink);border:1px solid #bccbc1;border-radius:10px;background:#fcfdfb}textarea{display:block;width:100%;resize:vertical;min-height:110px;padding:14px;margin-top:10px}textarea:focus,input:focus{outline:3px solid #c1ddce;outline-offset:2px;border-color:var(--green)}button{font:650 15px system-ui;min-height:46px;padding:12px 18px;border:0;border-radius:10px;background:var(--green);color:white;cursor:pointer}button.secondary{background:#e8eee7;color:var(--green)}button:focus-visible,a:focus-visible{outline:3px solid #d69f43;outline-offset:3px}button:disabled{opacity:.5;cursor:default}.actions{display:flex;gap:10px;flex-wrap:wrap}.feedback{background:#f5f8f3;border-radius:12px;padding:18px;margin-top:18px;font-size:14px}.feedback ul{padding-left:20px;margin:10px 0}.feedback li{margin:6px 0}.good{color:var(--good)}.missing{color:var(--warn)}.bad{color:var(--bad)}.answer{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.card.perfect{border-color:#86b49a}.card.imperfect{border-color:#d6bb85}[hidden]{display:none!important}.scorebox{background:#195b4a;color:white;border-radius:18px;padding:26px;margin-bottom:24px;scroll-margin-top:16px}.scorebox .eyebrow{color:#bedccc}.score{font:500 48px Georgia,serif;line-height:1.2;margin:14px 0}.scorebox p{color:#e1eee5}.scorebox button{background:white;color:var(--green)}.scorebox button.secondary{background:#376f5d;color:white}.diagram-scroll{margin:18px -8px 0;overflow-x:auto}.diagram{position:relative;min-width:560px;width:100%;aspect-ratio:900/540;background:#fafbf8;border-radius:12px}.diagram svg{display:block;width:100%;height:100%}.callout{position:absolute;width:23%;transform:translateY(-50%);z-index:1}.callout label{display:block;font-size:12px;font-weight:750;color:var(--green);margin-bottom:4px}.callout input{width:100%;padding:10px 8px;font-size:clamp(12px,1.6vw,15px);min-height:44px;background:white}.callout.a{left:2%;top:32%}.callout.b{right:2%;top:32%}.callout.c{left:2%;top:71%}.callout.d{right:2%;top:71%}.diagram input.correct{border:2px solid var(--good)}.diagram input.wrong{border:2px solid var(--bad)}.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}.dot{width:9px;height:9px;display:inline-block;border-radius:50%;margin-right:6px}.explain{padding:18px 0;color:var(--muted);font-size:13px}.explain summary{cursor:pointer;color:var(--green);font-weight:650}footer{color:var(--muted);font-size:12px;margin-top:30px}a{color:var(--green)}@media(max-width:600px){main{padding:25px 14px 40px}.card{padding:20px 16px}h2{font-size:19px}.diagram-scroll{margin-right:-8px;margin-left:-8px}.progress{font-size:12px}.scorebox{padding:22px}.mobile-note{display:block}}@media(min-width:601px){.mobile-note{display:none}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.option{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:10px;margin:9px 0;cursor:pointer}.option input{width:20px;height:20px;margin:4px 0 0;flex-shrink:0;accent-color:var(--green)}.option:has(input:checked){background:#eff5ef}.option.right,.option.right:has(input:checked){border:2px solid #32815b;background:#e2f3e7;color:#155338}.option.wrong,.option.wrong:has(input:checked){border:2px solid #c73c3c;background:#ffe0e0;color:#9b1717}.option.missed{border:2px solid #d49a13;background:#fff0a6;color:#684400}.option.right input{accent-color:#32815b}.option.wrong input{accent-color:#c73c3c}.option small{display:block;font-weight:650}.section-title{font:500 29px Georgia,serif;margin:32px 0 17px;scroll-margin-top:18px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.nav a{padding:7px 14px;border:1px solid var(--line);border-radius:30px;text-decoration:none;font-size:13px;background:white}.rubric{background:#eaf0e8;border-radius:12px;padding:16px;margin-top:18px;font-size:14px}.evidence{font-size:12px;color:var(--muted);display:block;margin-top:3px}.criterion{padding:10px 0;border-bottom:1px solid var(--line)}.criterion:last-child{border:0}.badge{display:inline-block;font-size:11px;font-weight:750;border-radius:20px;padding:3px 8px;background:#e4efe6;margin-right:5px}.badge.bad{background:#f6e0e4}.badge.missing{background:#f7ecd2}.criterion button{padding:7px 9px;min-height:34px;font-size:12px;margin-top:7px;background:#e2ebe1;color:var(--green)}.details-grid{display:flex;gap:12px;flex-wrap:wrap;margin:15px 0}.details-grid span{background:#ffffff15;border-radius:8px;padding:8px 13px;font-size:14px}.review{background:#fff5da;border-radius:10px;padding:12px;font-size:13px;margin-top:14px}.meta span:last-child{white-space:nowrap}.feedback blockquote{margin:4px 0;padding-left:12px;border-left:2px solid var(--line)}
+
+.option input[type=radio]{border-radius:50%;width:20px;height:20px;flex-shrink:0;accent-color:var(--green)}.field{margin:18px 0}.field>label{display:block;font-weight:650;font-size:14px}.field textarea{min-height:76px;line-height:1.5}.field textarea[readonly]{background:#f3f5f1}.nav{position:sticky;top:0;z-index:3;background:#f7f6f1f5;padding:10px 0;backdrop-filter:blur(8px)}.question-progress{height:7px;width:100%;accent-color:var(--green);margin-bottom:20px}.filter-bar{margin-bottom:18px}select{font:inherit;max-width:100%;padding:9px;background:white;border:1px solid var(--line);border-radius:10px}.notice{color:var(--warn);font-weight:650}.correction-info{border-left:3px solid #c4ad65;padding-left:13px}textarea{overflow-wrap:anywhere}.meta{letter-spacing:.5px}.meta span:first-child{min-width:0}footer{border-top:1px solid var(--line);padding-top:18px}.rubric p{margin-bottom:0}.section-title{scroll-margin-top:80px}.scorebox{scroll-margin-top:78px}.subtitle{font-size:18px;color:var(--green)}.card{scroll-margin-top:80px}@media print{.nav,.actions,.filter-bar,.question-progress,.progress,.rubric,button{display:none!important}.card{break-inside:avoid;border-radius:0}body{background:white}main{padding:0}textarea{border:0;min-height:80px}}
+.nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.nav a{font-size:14px;font-weight:650;text-decoration:none;min-height:38px;display:inline-flex;align-items:center}.meta span:last-child{white-space:nowrap}.criterion button{white-space:normal;text-align:left;max-width:100%}@media(max-width:600px){.nav{gap:6px 16px}.nav a{font-size:13px}.meta{letter-spacing:0;flex-wrap:wrap}.score{font-size:43px}.card,.section-title,.scorebox{scroll-margin-top:120px}}
+
+.question-stem,.prompt-table span{white-space:pre-line}
+.prompt-table{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.prompt-table span{border:1px solid #cedad0;padding:.6rem}
+.self-assessment input,#global-mark{font:inherit;width:5rem;border:1px solid #96ada1;border-radius:.4rem;padding:.3rem}
+.document{margin:.3rem 0 .85rem}
+.source-pictures{background:#fff;border:1px solid #cedad0;border-radius:8px;overflow:auto;max-width:100%;padding:.25rem}
+.source-pictures img{display:block;width:100%;height:auto;margin:0 auto}
+.source-pictures img+img{margin-top:.2rem}
+.enlarged .source-pictures img{width:max(100%,870px);max-width:none}
+.zoom{margin:.4rem 0 0;font-size:.84rem;padding:.38rem .7rem}
+.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.42rem}
+.choices .option{align-items:flex-start;margin:0;padding:.65rem .38rem;gap:.35rem;min-height:3rem}
+.choices .option small{font-size:.71rem;line-height:1.2}
+.option.wrong:has(input:checked){background:#ffe3e5;border-color:#ac434e;color:#681f2a}
+.option.right:has(input:checked){background:#e2f3e6;border-color:#288253;color:#124b2c}
+.option.missed{background:#fff2c6;border-color:#a27410;color:#654503}
+.feedback details summary{cursor:pointer;color:#14563e;font-weight:650;margin:.4rem 0}
+.score{font-size:clamp(1.55rem,4.5vw,2.5rem)}
+.card{scroll-margin-top:1rem}
+@media(max-width:420px){.choices{gap:.2rem}.choices .option{padding:.5rem .25rem;gap:.24rem}.choices input{margin:0}}
+.choices.written-choices{display:block}
+.choices.written-choices .option{padding:.65rem;margin:.4rem 0}
+.self-assessment{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:.8rem 0}
+.self-assessment label{font-weight:650}
+.self-assessment select{font:inherit;color:#24302f;background:#fff;border:1px solid #96ada1;border-radius:.4rem;padding:.35rem .55rem}
+.copy-answer{margin:.7rem 0 .3rem;font-weight:650}
+#manual-summary{font-size:.95rem}
+#manual-summary:empty{display:none}
+
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#123f35 0%,#195b4a 55%,#2b7a62 100%);color:#fff;border-radius:22px;padding:30px 30px 24px;margin-bottom:8px;box-shadow:0 10px 30px rgba(25,91,74,.18)}
+.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.14),rgba(255,255,255,0) 70%)}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hero .eyebrow{color:#bfe3d3}
+.hero-tag{font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:5px 11px;border-radius:30px}
+.hero h1{color:#fff;margin:14px 0 8px;font-size:clamp(32px,6vw,50px)}
+.hero-sub{color:#d6ece2;margin:0 0 20px;max-width:640px;font-size:15px}
+.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.hero-stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:12px 14px}
+.hero-stat b{display:block;font:500 28px/1.1 Georgia,serif;color:#fff}
+.hero-stat span{font-size:12.5px;color:#cfe7dc}
+.hero-rules{margin-top:16px;background:rgba(0,0,0,.14);border-radius:12px;padding:0 14px;font-size:14px;color:#e3f1ea}
+.hero-rules summary{cursor:pointer;padding:11px 0;font-weight:650;color:#fff}
+.hero-rules p{margin:0 0 10px}
+.hero-rules b{color:#fff}
+.answer-key{background:#eaf4ec;border:1px solid #bfdcc8;border-radius:12px;padding:14px 16px;margin:4px 0 14px}
+.answer-key h3{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#1d7252;margin:0 0 8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.answer-key ul{margin:0;padding-left:20px}.answer-key li{margin:5px 0}
+.answer-key li.added{color:#2d3f8f}
+.tag-added{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;text-transform:uppercase;background:#e4e8fb;color:#3b4aa8;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag-src{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;border-radius:6px;padding:2px 7px;background:#fff;color:#677472;border:1px solid #dce3dd;text-transform:uppercase}
+.tag-src.deduit{background:#f7ecd2;color:#925b17;border-color:#ebd6a8}
+.key-letters{font-size:17px;font-weight:700;color:#155338}
+.answer-note{font-size:13.5px;color:#55625f;margin:8px 0 0}
+@media(max-width:600px){.hero{padding:22px 18px 18px;border-radius:18px}.hero-stat b{font-size:24px}}
+.context-text{white-space:pre-line;background:#fbf7ec;border-left:3px solid #c4ad65;border-radius:8px;padding:12px 14px;margin:6px 0 4px}
+.q-figure{margin:10px 0 6px}.q-figure img{display:block;max-width:100%;height:auto;border:1px solid #dce3dd;border-radius:10px;background:#fff}
+</style></head><body><nav id="memo-back" style="position:relative;z-index:1000;display:flex;align-items:center;gap:10px;padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:rgba(247,246,241,.92);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid #dce3dd;font:600 15px/1.2 system-ui,-apple-system,sans-serif"><a href="../../#/f/S1/4.4" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:#195b4a;color:#fff;text-decoration:none">&#8592; Retour à Mémo</a><span style="color:#677472;font-size:13px">UE 4.4 · Semestre 1</span></nav><main>
+<header class="hero">
+<div class="hero-top"><span class="eyebrow" id="h-eyebrow"></span><span class="hero-tag">Annales 2022–2024</span></div>
+<h1 id="h-title"></h1>
+<p class="hero-sub">Entraînement interactif · réponds à toutes les questions puis valide pour voir la correction détaillée.</p>
+<div class="hero-stats" id="h-stats"></div>
+<details class="hero-rules"><summary>Barème et fonctionnement</summary><div id="h-rules"></div></details>
+</header>
+<nav class="nav" aria-label="Navigation du quiz">
+<a data-kind="context" href="#section-context" hidden>Cas clinique</a>
+<a data-kind="QCM" href="#section-QCM" hidden>QCM</a>
+<a data-kind="QCU" href="#section-QCU" hidden>QCU</a>
+<a data-kind="open" href="#section-QROC" hidden>Questions ouvertes</a>
+<a href="#submit">Corriger</a>
+</nav>
+<div class="progress"><span id="progress" aria-live="polite"></span><span id="mode"></span></div>
+<progress id="bar" class="question-progress" max="10" value="0" aria-label="Questions renseignées"></progress>
+<section id="results" class="scorebox" hidden tabindex="-1" aria-label="Résultat">
+<div class="score" id="score"></div><p id="summary"></p><p id="manual-summary" aria-live="polite"></p>
+<div class="actions"><button id="reset" type="button">Tout recommencer</button><button id="retry" class="secondary" type="button">Reprendre les questions imparfaites ou à vérifier</button></div></section>
+<div class="filter-bar" id="filters" hidden><label for="filter">Afficher</label>
+<select id="filter"><option value="all">Toutes les questions</option><option value="imperfect">Imparfaites ou à vérifier</option></select></div>
+<form id="quiz" novalidate><div id="cards"></div><p class="notice" id="message" role="status"></p><div class="actions"><button type="submit" id="submit">Valider et voir les réponses</button></div></form>
+<footer id="h-footer"></footer>
+</main><noscript><p>Active JavaScript pour répondre au partiel.</p></noscript><script>const DATA={"semester":1,"ue":"4.4","title":"Vigilances","start":56,"end":73,"twoErrors":0.25,"notes":[],"cards":[{"kind":"QCM","num":1,"page":58,"correct":"ABCE","points":1,"id":"c1","title":"Parmi ces propositions concernant les déchets éliminés en DASRI, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Déchets anatomiques non reconnaissables","Pansements imbibés de liquide purulent","Couches contenant des selles diarrhéiques","Poches à urines","Compresses tachées de sang"],"source":"deduit","note":"La copie (A, B, C) a obtenu 0,5 (une erreur ou un oubli). Les déchets souillés de sang ou de liquides biologiques relèvent des DASRI, contrairement aux poches à urines vidées. À vérifier avec la procédure de ton établissement.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":2,"page":58,"correct":"ABDE","points":1,"id":"c2","title":"Parmi ces propositions concernant les indications de la FHA, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Après le dernier contact direct auprès d’un patient","Après évacuation des déchets","Après prise en charge d’un patient infecté par Clostridium difficile","Lors de l’installation du patient sur la table d’opération","Avant de préparer la salle d’opération"],"instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":3,"page":59,"correct":"ACE","points":1,"id":"c3","title":"Parmi ces propositions concernant la matériovigilance, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Elle a pour objet la surveillance d’incidents","Elle s’impose seulement aux cadres de santé","Elle a pour objet la surveillance du risque d’incident","Elle a pour objectif d’identifier les conséquences d’un incident particulier survenu à une date donnée dans un établissement donné","Elle repose sur le signalement des incidents ou risques d’incident"],"instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":4,"page":59,"correct":"ABCDE","points":1,"id":"c4","title":"Parmi ces propositions concernant le dispositif médical (DM), laquelle ou lesquelles est (sont) vraie(s) ?","options":["Un instrument est un DM","Un appareil est un DM","Une matière est un DM","Un article seul est un DM","Un accessoire est un DM"],"source":"deduit","note":"La copie (B seul) a obtenu 0. Selon la définition réglementaire, un DM est tout instrument, appareil, équipement, matière, produit ou autre article, utilisé seul ou en association, y compris les accessoires.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":5,"page":60,"correct":"CD","points":1,"id":"c5","title":"Parmi ces propositions concernant les nouvelles recommandations de la procédure de transfusion en urgence vitale, laquelle ou lesquelles est (sont) vraie(s) ?","options":["La transfusion du groupe O rhésus négatif est recommandée pour les hommes","La transfusion du groupe O rhésus positif est recommandée pour les femmes < 50 ans","Les RAI sont portées à 21 jours","La responsabilité du prescripteur doit être mentionnée sur l’ordonnance de PSL","La transfusion du groupe AB est recommandée quel que soit le genre"],"source":"deduit","note":"La copie (A, D) a obtenu 0,25. En urgence vitale immédiate, le O RhD négatif est réservé aux femmes de moins de 50 ans (et aux enfants) ; les hommes reçoivent du O RhD positif.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":6,"page":60,"correct":"ABD","points":1,"id":"c6","title":"Parmi ces propositions concernant les critères de traçabilité suite à une transfusion, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Obligatoire depuis 1994","Elle doit permettre de retrouver ce qu’est devenu un produit, à partir de son numéro d’identification et de son code produit","L’EFS enregistre la traçabilité dans son logiciel interne et garde le document papier pendant 20 ans","Chaque hôpital doit conserver le devenir de la transfusion avec l’identification du patient receveur et du prescripteur","Elle permet la réalisation d’une enquête prétransfusionnelle"],"source":"deduit","note":"La copie (A à D) a obtenu 0,5 : les données de traçabilité sont conservées 30 ans, pas 20.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":7,"page":61,"correct":"ABDE","points":1,"id":"c7","title":"Parmi ces propositions concernant les objectifs des vigilances sanitaires, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Ils permettent de surveiller la sécurité sanitaire","Ils permettent de diminuer les risques sanitaires","Ils permettent à l’AGEPS (Agence générale des équipements et produits de santé) de les définir","Ils permettent de prévenir les risques sanitaires","Ils permettent d’évaluer les risques d’incidents sanitaires"],"source":"deduit","note":"La copie (B, D, E) a obtenu 0,5, le correcteur signalant A comme oubliée.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":8,"page":61,"correct":"ABCD","points":1,"id":"c8","title":"Parmi ces propositions concernant le rôle de la pharmacovigilance, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Surveillance","Prévention","Gestion du risque","Évaluation","Régie par la loi du 20 décembre 2013"],"instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":9,"page":62,"correct":"ABE","points":1,"id":"c9","title":"Parmi ces propositions concernant la pharmacovigilance, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Elle inclut les effets indésirables d’un médicament","Elle inclut le défaut de qualité sur un médicament","Elle inclut les dispositifs médicaux","Elle inclut les produits sanguins labiles","Elle inclut la pharmacodépendance"],"instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":10,"page":62,"correct":"CE","points":1,"id":"c10","title":"Parmi ces propositions concernant l’utilisation d’un appareil de radiographie dans une salle d’opération, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Un IADE doit porter un dosimètre opérationnel et un tablier de plomb","Un IADE doit impérativement sortir de salle d’opération pendant les radiographies","Un IADE doit porter un dosimètre passif à la poitrine, sous le tablier de plomb","Un IADE doit porter un dosimètre passif et opérationnel, sous le tablier de plomb","Un IADE doit porter un tablier de plomb et un cache-thyroïde adapté à sa morphologie"],"source":"deduit","note":"La copie (A, C, D, E) a obtenu 0,25 (deux erreurs). Correction reconstituée avec incertitude sur A et D (port du dosimètre opérationnel) : vérifie avec ton cours de radioprotection.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":11,"page":63,"correct":"A","points":1,"id":"c11","title":"Concernant la matériovigilance, comment nomme-t-on l’alerte au niveau local ?","options":["L’alerte ascendante","L’alerte descendante","L’alerte montante","L’alerte primaire","L’alerte secondaire"],"instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":12,"page":63,"correct":"C","points":1,"id":"c12","title":"Parmi ces propositions concernant la compatibilité (ABTest Card), laquelle ou lesquelles est (sont) vraie(s) ?\nEn dehors d’une situation d’urgence, le receveur de groupe O peut recevoir un culot globulaire de groupe sanguin :","options":["Il peut recevoir un culot globulaire de groupe sanguin A","Il peut recevoir un culot globulaire de groupe sanguin B","Il peut recevoir un culot globulaire de groupe sanguin O","Il peut recevoir un culot globulaire de groupe sanguin AB","Il manque le rhésus pour vérifier la compatibilité"],"source":"deduit","note":"La copie (C, E) a obtenu 0,5. Un receveur O (anti-A et anti-B dans son plasma) ne peut recevoir que des globules rouges O ; l’ABTest Card ne contrôle que la compatibilité ABO.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":13,"page":64,"correct":"ACD","points":1,"id":"c13","title":"Parmi ces propositions concernant l’acte transfusionnel, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Les femmes en âge de procréer présentent une indication de transfusion de culots globulaires (CG) phénotypés","Le phénotype complet et le groupe rhésus doivent obligatoirement être respectés pour transfuser tous les patients","La détermination du groupage sanguin doit être réalisée à deux moments différents","La personne qui transfuse est celle qui a réalisé le contrôle prétransfusionnel ultime (CPU)","Le CPU n’est pas obligatoire en situation d’urgence"],"source":"deduit","note":"La copie (B, C, D) a obtenu 0,25. Le phénotype complet n’est pas requis pour tous les patients ; les femmes en âge de procréer reçoivent des CGR phénotypés RH-KEL1 ; le CPU reste obligatoire, même en urgence.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":14,"page":64,"correct":"BE","points":1,"id":"c14","title":"Parmi ces propositions concernant les compétences non techniques, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Elles interviennent uniquement lors d’un incident anesthésique","Elles font intervenir le travail en équipe","Elles font intervenir les connaissances médicales","Elles font intervenir les connaissances physiopathologiques","Elles font intervenir la conscience de la situation"],"instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QCM","num":15,"page":65,"correct":"BDE","points":1,"id":"c15","title":"Parmi ces propositions concernant les principes fondamentaux de radioprotection, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Le principe de rayonnement est un principe fondamental de radioprotection","Le principe d’optimisation est un principe fondamental de radioprotection","Le principe de prévention est un principe fondamental de radioprotection","Le principe de justification est un principe fondamental de radioprotection","Le principe de limitation est un principe fondamental de radioprotection"],"source":"deduit","note":"Les 3 principes fondamentaux de radioprotection sont la justification, l’optimisation (ALARA) et la limitation des doses. La copie (A, C, E) a obtenu 0.","instruction":"Cocher la ou les réponse(s) exacte(s)"},{"kind":"QUESTION","num":1,"page":66,"correct":"","points":3,"criteria":[{"weight":0.5,"label":"Patient de groupe AB","yes":"(?=.*patient)(?=.*\\bab\\b)","bad":""},{"weight":0.5,"label":"Culot de groupe A","yes":"(?=.*(?:culot|cgr|poche|donneur))(?=.*(?:groupe\\s+a\\b|(?:culot|cgr|poche|donneur)\\s*[:=]?\\s*a\\b))","bad":""},{"weight":0.5,"label":"Compatibilité du groupe A avec le receveur AB","yes":"\\b(?:compatible|(?:transfusion|transfuser).{0,16}possible)\\b","bad":"\\b(?:incompatible|incompatibilite|(?:transfusion|transfuser).{0,16}impossible)\\b"},{"weight":0.5,"label":"Patient · agglutination avec les deux réactifs","yes":"(?=.*patient)(?=.*agglutin)(?=.*(?:anti[ -]?a\\b.*anti[ -]?b\\b|anti[ -]?b\\b.*anti[ -]?a\\b|deux reactifs|les deux))","bad":""},{"weight":0.5,"label":"Culot · agglutination avec anti-A et absence avec anti-B","yes":"(?=.*(?:culot|poche|cgr|donneur))(?=.*agglutin)(?=.*anti[ -]?a\\b)(?=.*(?:seul|uniquement|absence.*anti[ -]?b|pas.*anti[ -]?b))","bad":"","allowNegation":true},{"weight":0.5,"label":"Receveur · absence d’anticorps anti-A","yes":"(?=.*(?:patient|receveur))(?=.*(?:pas|absence|sans))(?=.*(?:anticorps|agglutinine))(?=.*anti[ -]?a\\b)","bad":"","allowNegation":true}],"allOrNothing":true,"id":"c16","title":"À partir du contrôle prétransfusionnel ultime (modèle ABTest Card) décrit ci-dessous :\n– côté patient : agglutination avec le réactif anti-A et agglutination avec le réactif anti-B ;\n– côté culot : agglutination avec le réactif anti-A, pas d’agglutination avec le réactif anti-B.\nExpliquer les réactions obtenues. Quel est le groupe sanguin du patient et celui du culot ? Indiquer si la transfusion est possible.\n(Toute erreur, absence d’explication ou explication incomplète ou erronée entraîne 0 à la question.)","source":"copie","answer":["Loi de Landsteiner : un individu possède dans son plasma les anticorps dirigés contre les antigènes absents de ses hématies","Patient : agglutination avec l’anti-A et avec l’anti-B, donc antigènes A et B sur ses hématies → groupe AB (pas d’anticorps anti-A ni anti-B dans son plasma)","Culot : agglutination avec l’anti-A, pas avec l’anti-B, donc antigène A seul → groupe A","Transfusion possible : le receveur AB n’a pas d’anticorps anti-A, donc pas d’incompatibilité ni de risque d’hémolyse"]},{"kind":"QUESTION","num":2,"page":67,"correct":"","points":1,"criteria":[{"weight":0.2,"label":"Flore résidente","yes":"(?:residente|commensale)"},{"weight":0.3,"label":"Définition résidente : permanente, profonde, protectrice","yes":"(?:permanen|profond|symbio|protect|equilibre)"},{"weight":0.2,"label":"Flore transitoire","yes":"transitoire"},{"weight":0.3,"label":"Définition transitoire : acquise par contact, éliminée par l’hygiène des mains","yes":"(?:acqui|contact|apport|exterieur|environnement)"}],"allOrNothing":false,"id":"c17","title":"Nommer les flores existantes à la surface de la peau.\nPour chacune d’elles, en donner une définition.","source":"complete","answer":["Flore résidente (commensale) : germes vivant en permanence à la surface et dans les couches profondes de la peau (follicules, glandes), en équilibre, avec un rôle protecteur ; peu pathogène mais pouvant le devenir dans certaines conditions (immunodépression, effraction cutanée, plaie…)","+ Elle n’est que partiellement réduite par l’antisepsie","Flore transitoire : germes acquis par contact avec l’environnement ou les patients, situés en surface, potentiellement pathogènes","+ Elle est facilement éliminée par l’hygiène des mains (FHA, lavage) et est responsable de la transmission croisée"]},{"kind":"QUESTION","num":3,"page":68,"correct":"","points":2,"criteria":[{"weight":0.5,"label":"Temps d’exposition","yes":"(?:temps|duree)"},{"weight":0.5,"label":"Distance","yes":"distance|eloign"},{"weight":0.5,"label":"Écrans individuels (tablier, cache-thyroïde)","yes":"(?:tablier|plomb|thyro|lunette)"},{"weight":0.5,"label":"Protections collectives (paravent, signalisation)","yes":"(?:paravent|panneau|ecran|collecti|signalis)"}],"allOrNothing":false,"id":"c18","title":"Quels sont les moyens de protection contre l’exposition aux rayonnements externes ?","source":"complete","answer":["+ Le temps : réduire la durée d’exposition (limiter la scopie)","+ La distance : s’éloigner de la source (la dose diminue avec le carré de la distance)","Les écrans de protection individuelle : tablier plombé à la bonne taille, cache-thyroïde, lunettes plombées","Les protections collectives : paravents plombés, signalisation des zones (panneaux, voyant lumineux)","Le dosimètre ne protège pas : il permet seulement de surveiller l’exposition"]},{"kind":"QUESTION","num":4,"page":68,"correct":"","points":1.2,"criteria":[{"weight":0.2,"label":"Retirer les bijoux","yes":"bijou"},{"weight":0.2,"label":"Ongles courts sans vernis","yes":"(?:ongle|vernis)"},{"weight":0.2,"label":"Lavage des mains","yes":"(?:lavage|laver|savon|\\bsha\\b|friction)"},{"weight":0.2,"label":"Retirer la tenue de ville","yes":"(?:tenue de ville|vetements? (?:perso|civil)|deshabill|retirer.{0,15}vetement)"},{"weight":0.2,"label":"Attacher les cheveux","yes":"(?:cheveu|coiffe|charlotte)"},{"weight":0.2,"label":"Maquillage / objets personnels","yes":"(?:maquillage|telephone|objets? perso|barbe)"}],"allOrNothing":false,"id":"c19","title":"Citer 6 actions à effectuer avant de mettre la tenue de bloc opératoire.","source":"complete","answer":["Retirer les bijoux (bagues, alliance, bracelets, montre)","Avoir les ongles courts, sans vernis ni faux ongles","Lavage simple des mains au savon puis séchage","+ Retirer la tenue de ville (vêtements personnels)","+ Attacher les cheveux (avant de mettre la coiffe)","+ Retirer le maquillage et laisser les objets personnels (téléphone…) au vestiaire"]},{"kind":"QUESTION","num":5,"page":69,"correct":"","points":1.4,"criteria":[{"weight":0.2,"label":"Date","yes":"\\bdate\\b"},{"weight":0.2,"label":"Identité du patient","yes":"(?:patient|naissance|identite)"},{"weight":0.2,"label":"Identification du prescripteur et signature","yes":"(?:prescri|signature|medecin)"},{"weight":0.2,"label":"Nombre / type de PSL","yes":"(?:nombre|quantite|type de psl|cgr|plasma|plaquett)"},{"weight":0.2,"label":"Qualifications (phénotypé…)","yes":"(?:qualif|phenotyp|compatibil|irradi|transformation)"},{"weight":0.2,"label":"Degré d’urgence","yes":"urgence"},{"weight":0.2,"label":"Indication / renseignements cliniques","yes":"(?:indication|clinique|poids|hemoglobine|\\bhb\\b)"}],"allOrNothing":false,"id":"c20","title":"La prescription d’un produit sanguin labile (PSL) : citer 7 critères réglementaires d’une ordonnance de PSL.","source":"complete","answer":["Date (et heure) de la prescription","Identité du patient : nom de naissance, nom d’usage, prénom, date de naissance, sexe","Identification du prescripteur : nom, service, téléphone, et sa signature","Nombre et type de PSL demandés (CGR, plasma, plaquettes)","Qualifications ou transformations du produit (phénotypé, compatibilisé, irradié…)","Degré d’urgence","+ Indication de la transfusion et renseignements cliniques (poids, taux d’Hb ou numération plaquettaire)"]},{"kind":"QUESTION","num":6,"page":70,"correct":"","points":1.5,"id":"c21","title":"Citer et argumenter les piliers sur lesquels repose le fonctionnement des vigilances.","source":"complete","answer":["Le signalement (information ascendante) : déclaration obligatoire des incidents et effets indésirables par tout professionnel, complétée par des signalements volontaires","+ L’enregistrement et l’évaluation : analyse des incidents, enquêtes, imputabilité, pour comprendre les causes","+ La prévention et l’information descendante : mesures correctives, alertes et retours d’information vers les professionnels","Une organisation en réseau : échelon national (ANSM), régional (centres ou coordonnateurs régionaux) et local (correspondants dans chaque établissement)","+ La traçabilité des produits, qui permet de retrouver patients et produits concernés"],"criteria":[{"weight":0.3,"label":"Signalement / déclaration","yes":"(?:signal|declar|ascendant)"},{"weight":0.3,"label":"Évaluation / analyse / enquête","yes":"(?:evaluat|analys|enquete|imputab)"},{"weight":0.3,"label":"Prévention / mesures correctives / alerte","yes":"(?:prevent|correct|alerte|descendant)"},{"weight":0.3,"label":"Réseau national, régional et local","yes":"(?:ansm|national|regional|local|correspondant|reseau)"},{"weight":0.3,"label":"Traçabilité","yes":"tracab"}]},{"kind":"QUESTION","num":7,"page":71,"correct":"","points":1.4,"criteria":[{"weight":0.2,"label":"Déclaration des incidents (FEIR)","yes":"(?:declaration|feir|effet indesirable)"},{"weight":0.2,"label":"Traçabilité","yes":"tracab"},{"weight":0.2,"label":"Correspondants / référents","yes":"(?:correspondant|referent)"},{"weight":0.2,"label":"Dossier transfusionnel","yes":"dossier"},{"weight":0.2,"label":"Fiche d’incident grave (FIG)","yes":"(?:\\bfig\\b|incident grave)"},{"weight":0.2,"label":"Donneurs : FEIGD / information post-don","yes":"(?:donneur|feigd|post.?don|\\bipd\\b)"},{"weight":0.2,"label":"CSTH / enquêtes","yes":"(?:csth|comite|enquete)"}],"allOrNothing":false,"id":"c22","title":"Citer les 7 outils de l’hémovigilance.","source":"complete","answer":["La déclaration des incidents et effets indésirables (fiche d’effet indésirable receveur, FEIR), obligatoire","La traçabilité : numéro de lot suivi tout au long de la chaîne transfusionnelle","Les correspondants (référents) d’hémovigilance","Le dossier transfusionnel","+ La fiche d’incident grave de la chaîne transfusionnelle (FIG)","+ La déclaration des effets indésirables graves chez les donneurs (FEIGD) et l’information post-don (IPD)","+ Le comité de sécurité transfusionnelle et d’hémovigilance (CSTH), et les enquêtes ascendantes et descendantes"]},{"kind":"QUESTION","num":8,"page":72,"correct":"","points":1.2,"criteria":[{"weight":0.2,"label":"Masque FFP2","yes":"ffp2"},{"weight":0.2,"label":"Limiter le nombre de personnes","yes":"(?:limit|nombre de personne|porte fermee)"},{"weight":0.2,"label":"EPI : surblouse / tablier, gants, lunettes","yes":"(?:tablier|surblouse|gant|lunette|visiere|charlotte)"},{"weight":0.2,"label":"Déchets / matériel jetable","yes":"(?:jeter|dechet|dasri|poubelle|jetable)"},{"weight":0.2,"label":"Limiter l’aérosolisation (filtre, pas de toux, masque)","yes":"(?:filtre|aerosol|toux|masque (?:chirurgical|a o2|sur le patient))"},{"weight":0.2,"label":"Bionettoyage et aération","yes":"(?:bionettoyage|nettoyage|desinfect|aeration|renouvellement)"}],"allOrNothing":false,"id":"c23","title":"Vous devez extuber un patient COVID-19 positif ou fortement suspect : quelles précautions prenez-vous pour assurer la prise en soins au bloc opératoire ?","source":"complete","answer":["Port d’un masque FFP2 par tous les professionnels présents (+ lunettes ou visière, charlotte)","Limiter le nombre de personnes dans la salle, porte fermée","Tablier ou surblouse jetable à retirer avant la sortie de la salle ; gants pour l’extubation","Jeter tout le matériel ayant été en contact avec le patient (DASRI) et évacuer la poubelle après","+ Limiter l’aérosolisation : filtre HEPA/HME sur le circuit, extubation sans aspiration ouverte ni toux (prévention possible par lidocaïne), masque à O₂ ou masque chirurgical posé sur le patient aussitôt après","+ Bionettoyage de la salle et respect du temps d’aération avant le patient suivant"]},{"kind":"QUESTION","num":9,"page":72,"correct":"","points":1,"criteria":[{"weight":0.2,"label":"Médicaments","yes":"medicament"},{"weight":0.2,"label":"Préparations hospitalières / magistrales","yes":"preparation"},{"weight":0.2,"label":"Médicaments dérivés du sang","yes":"(?:derive|\\bmds\\b)"},{"weight":0.2,"label":"Sevrage tabagique / contraceptifs / allergènes","yes":"(?:sevrage|tabac|tabagi|contracept|allergene)"},{"weight":0.2,"label":"Mésusage / abus / erreurs / hors AMM","yes":"(?:mesusage|abus|erreur|hors amm|surdosage)"}],"allOrNothing":false,"id":"c24","title":"Citer cinq champs d’application de la pharmacovigilance.","source":"complete","answer":["Les médicaments (avec ou sans AMM, y compris hors AMM)","Les préparations hospitalières et magistrales (préparées en pharmacie)","Les médicaments dérivés du sang (MDS)","Les médicaments d’aide au sevrage tabagique","+ Le mésusage, l’abus et les erreurs médicamenteuses (+ les produits contraceptifs, les allergènes)","Attention : la pharmacodépendance relève de l’addictovigilance (0 point sur la copie)"]},{"kind":"QUESTION","num":10,"page":73,"correct":"","points":1.3,"id":"c25","title":"Prévention : les compétences non techniques (CNT).\nComplète le schéma en donnant les éléments de chacune des 4 catégories : prise de décision, travail en équipe, conscience de la situation, gestion des tâches.","source":"complete","answer":["Prise de décision : identifier les options, choisir et mettre en œuvre, réévaluer la décision, se positionner, éviter l’effet tunnel","Travail en équipe : communication (closed-loop), coordination, partage de l’information, connaître et respecter le rôle de chacun, leadership, soutien mutuel","Conscience de la situation : recueillir l’information, la comprendre et l’analyser, anticiper l’évolution","Gestion des tâches : planifier et anticiper, prioriser, utiliser les ressources disponibles (appel à l’aide), respecter les recommandations et standards (checklists)"],"criteria":[{"weight":0.3,"label":"Prise de décision : options, choix, réévaluation","yes":"(?:option|choi|reevalu|decid|tunnel|positionner)"},{"weight":0.3,"label":"Travail en équipe : communication, coordination, rôles","yes":"(?:communic|coordin|role|leader|soutien|partag)"},{"weight":0.35,"label":"Conscience de la situation : recueillir, comprendre, anticiper","yes":"(?:recueil|extrai|comprendre|analys|anticip|percevoir|perception)"},{"weight":0.35,"label":"Gestion des tâches : planifier, prioriser, ressources","yes":"(?:planifi|priori|ressource|standard|recommandation|organis)"}]}],"examTotal":30};
+const normalize = text => text.normalize('NFKC').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae').replace(/[’']/g,' ').replace(/(\d),(?=\d)/g,'$1.').trim();
+const close = (a,b) => Math.abs(a-b)<1e-7;
+const round = n => Math.round(n*10000)/10000;
+const reviewOptions = [
+  ['', 'À évaluer'],
+  ['correct', 'Correcte'],
+  ['partial', 'Partielle'],
+  ['review', 'À revoir · 0 point']
+];
+
+function rubricAnalysis(raw, criteria) {
+  const input=normalize(raw);
+  const clauses=input.split(/[;!?\n,]+|\.(?!\d)|\b(?:mais|cependant|pourtant)\b/).map(s=>s.trim()).filter(Boolean);
+  return criteria.map(criterion=>{
+    const yes=new RegExp(criterion.yes.trim(),'i');
+    const bad=criterion.bad ? new RegExp(criterion.bad,'i') : null;
+    const conflict=bad && clauses.find(clause=>bad.test(clause));
+    const matches=clauses.filter(clause=>yes.test(clause));
+    const negated=!criterion.allowNegation && matches.find(clause=>
+      /^(?:\w+\s+){0,5}(?:pas|aucun|aucune|non|jamais)\b|\bn\s+est\s+pas\b/.test(clause)
+    );
+    const evidence=conflict||negated||matches[0]||'';
+    const status=conflict||negated?'ambiguous':matches.length?'recognized':'missing';
+    return {...criterion,status,evidence,override:null};
+  });
+}
+
+function analysisPoints(grade) {
+  const recognized=grade.analysis.filter(c=>c.override ?? (c.status==='recognized'));
+  const earned=round(recognized.reduce((sum,c)=>sum+c.weight,0));
+  return grade.allOrNothing && !close(earned,grade.autoMax) ? 0 : earned;
+}
+
+function assessed(grade) {
+  if(grade.review==='blank' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='correct' && grade.full!=null) return {score:grade.full,max:grade.full};
+  if(grade.review==='review' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='partial' && grade.full!=null && grade.manualPoints!=null) {
+    return {score:grade.manualPoints,max:grade.full};
+  }
+  return {score:grade.analysis ? analysisPoints(grade) : grade.autoScore,max:grade.autoMax};
+}
+
+function pointsEntry(q,grade) {
+  const value=grade.manualPoints??'';
+  const hidden=grade.review!=='partial'?' hidden':'';
+  return q.kind==='QCM'
+    ? `<label data-partial="${q.id}"${hidden}>Points attribués <select data-points="${q.id}"><option value="">À saisir</option><option value="0.5"${value===.5?' selected':''}>0,5</option>${DATA.twoErrors===.25?`<option value="0.25"${value===.25?' selected':''}>0,25</option>`:''}</select></label>`
+    : `<label data-partial="${q.id}"${hidden}>Points attribués sur ${format(grade.full)} <input data-points="${q.id}" type="number" inputmode="decimal" min="0" max="${grade.full}" step="any" value="${value}"></label>`;
+}
+
+function assessmentControls(q,grade) {
+  if(grade.review==='blank') return '<p class="small">Sans réponse.</p>';
+  const partial=q.kind!=='QCU'&&!q.allOrNothing;
+  const choices=reviewOptions.filter(([key])=>partial||key!=='partial');
+  const options=choices.map(([key,label])=>`<option value="${key}"${key===grade.review?' selected':''}>${!key&&grade.analysis?'Selon l’analyse automatique':label}</option>`).join('');
+  return `<div class="self-assessment"><label for="review-${q.id}">Évalue ta réponse</label><select id="review-${q.id}" data-review="${q.id}">${options}</select>${grade.full!=null&&partial?pointsEntry(q,grade):''}</div>`;
+}
+
+const $ = id => document.getElementById(id);
+const format = (value, digits=4) => value.toLocaleString('fr-FR', {maximumFractionDigits:digits});
+const isChoice = q => q.kind === 'QCM' || q.kind === 'QCU';
+const isOpen = q => !isChoice(q) && q.kind !== 'context';
+const escape = value => String(value).replace(/[&<>"']/g, char => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]
+));
+const questionLabel = card => card.kind === 'context' ? card.title : card.kind + ' ' + card.num;
+const values = ['A','B','C','D','E'];
+
+
+const realCards=DATA.cards.filter(q=>q.kind!=='context');
+const nCh=realCards.filter(q=>q.kind==='QCM'||q.kind==='QCU').length,nOp=realCards.length-nCh;
+const nPts=Math.round(realCards.reduce((s,q)=>s+(q.points??1),0)*100)/100;
+document.title=`UE ${DATA.ue} · Semestre ${DATA.semester} — ${DATA.title}`;
+$('h-eyebrow').textContent=`École IADE · UE ${DATA.ue} · Semestre ${DATA.semester}`;
+$('h-title').textContent=DATA.title;
+$('h-stats').innerHTML=[[realCards.length,'questions'],[nCh,'QCM / QCU'],[nOp,'questions ouvertes'],[nPts.toLocaleString('fr-FR'),'points au barème']].filter(([n])=>n!==0).map(([n,t])=>`<div class="hero-stat"><b>${n}</b><span>${t}</span></div>`).join('');
+$('h-rules').innerHTML=`<p>QCM sur 1 point : une erreur ou un oubli = 0,5 point${DATA.twoErrors?`, deux erreurs ou oublis = ${String(DATA.twoErrors).replace('.',',')} point`:''}, au-delà 0. QCU sur 1 point.</p><p>Questions ouvertes : ta réponse est comparée aux éléments attendus. Si la détection n’a pas reconnu une bonne idée, clique sur <b>Valider cet élément</b> ou choisis une évaluation manuelle.</p><p>Les éléments marqués <span class="tag-added">Complément</span> complètent la réponse de la copie corrigée. Les corrigés <span class="tag-src deduit">Reconstitué</span> sont établis à partir du cours car la copie n’avait pas la note maximale.</p>`;
+$('h-footer').textContent=`Source · Annales 2022–2024, UE ${DATA.ue}, semestre ${DATA.semester}${DATA.start?`, pages ${DATA.start} à ${DATA.end} du PDF`:''}. Fonctionne hors connexion.`;
+const srcTag=q=>q.source==='deduit'?'<span class="tag-src deduit">Reconstitué</span>':q.source==='complete'?'<span class="tag-src">Copie complétée</span>':q.source==='copie'?'<span class="tag-src">Copie notée au maximum</span>':'';
+function answerBox(q){
+  let list=q.answer; if(!list) return ''; if(typeof list==='string') list=[list];
+  const items=list.map(a=>{const add=a.startsWith('+');const t=add?a.replace(/^\+\s*/,''):a;return `<li class="${add?'added':''}">${escape(t)}${add?'<span class="tag-added">Complément</span>':''}</li>`;}).join('');
+  return `<div class="answer-key"><h3>Correction ${srcTag(q)}</h3><ul>${items}</ul>${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+}
+let active, grades, locked, confirmed, targeted;
+const form = $('quiz');
+function images(list, label) {
+  return list.map((item,i) => `<img loading="lazy" alt="${escape(label)}${list.length>1?' · extrait '+(i+1):''}" src="data:image/jpeg;base64,${item}">`).join('');
+}
+function scanBlock(scans, label) {
+  return `<div class="document"><div class="source-pictures" tabindex="0" aria-label="${escape(label)}">${images(scans,label)}</div><button type="button" class="secondary zoom" aria-expanded="false">Agrandir le scan</button></div>`;
+}
+function prompt(q) {
+  if(q.images) return scanBlock(q.images,questionLabel(q));
+  const table=q.table?`<div class="prompt-table">${q.table.map(cell=>`<span>${escape(cell)}</span>`).join('')}</div>`:'';
+  return `<h2 class="question-stem">${escape(q.title)}</h2>${q.text?`<p class="context-text">${escape(q.text)}</p>`:''}${q.figure_img?`<div class="q-figure"><img src="data:image/jpeg;base64,${q.figure_img}" alt="Figure de la question"></div>`:''}${q.instruction?`<p class="small">${escape(q.instruction)}</p>`:''}${table}`;
+}
+function fields(q) {
+  if (isChoice(q)) {
+    return `<div class="choices ${q.options?'written-choices':''}" role="${q.kind==='QCU'?'radiogroup':'group'}" aria-labelledby="title-${q.id}">${values.map((letter,i)=>`<label class="option" id="option-${q.id}-${letter}"><input type="${q.kind==='QCU'?'radio':'checkbox'}" name="${q.id}" value="${letter}"><span><strong>${letter}</strong>${q.options?' · '+escape(q.options[i]):''}<small></small></span></label>`).join('')}</div>`;
+  }
+  return `<div class="field"><textarea id="answer-${q.id}" aria-labelledby="title-${q.id}" rows="5" placeholder="Ta réponse…"></textarea></div>`;
+}
+function render() {
+  $('cards').innerHTML = active.map((q, index) => {
+    const section = q.kind === 'context' ? '<span>Cas clinique</span>' : `<span>${q.points==null?'':format(q.points)+' pt · '}PDF p. ${q.page}</span>`;
+    const anchor = active.findIndex(card=>card.kind===q.kind)===index ? ` id="section-${q.kind}"` : '';
+    return `<section class="card"${anchor} data-card="${q.id}"><div class="meta"><strong id="title-${q.id}">${escape(questionLabel(q))}</strong>${section}</div>${prompt(q)}${q.kind==='context'?'':fields(q)+`<div class="feedback" id="feedback-${q.id}" hidden></div>`}</section>`;
+  }).join('');
+  for(const link of document.querySelectorAll('[data-kind]')){
+    const kind=link.dataset.kind;
+    const index=active.findIndex(q=>kind==='open'?isOpen(q):q.kind===kind);
+    link.hidden=index<0;
+    if(index>=0) link.hash='section-'+active[index].kind;
+  }
+}
+function response(q) {
+  if (isChoice(q)) {
+    return [...form.querySelectorAll(`[name="${q.id}"]:checked`)].map(input=>input.value);
+  }
+  return $(`answer-${q.id}`).value.trim();
+}
+function progress() {
+  const current=active.filter(q=>q.kind!=='context');
+  const count=current.filter(q=>response(q).length>0).length;
+  $('progress').textContent=`${count} / ${current.length} questions renseignées`;
+  $('bar').max=current.length;
+  $('bar').value=count;
+}
+function compute(q, answers) {
+  if (!q.correct) return {autoMax:0,autoScore:0};
+  const errors=values.filter(letter=>answers.includes(letter)!==q.correct.includes(letter)).length;
+  const points=q.kind==='QCU' ? Number(errors===0) : answers.length===0 ? 0 : [1,.5,DATA.twoErrors][errors] ?? 0;
+  return {autoMax:1,autoScore:points};
+}
+function rubricPanel(q, grade) {
+  if(!grade.analysis) return `<p class="small">Réponse à évaluer à partir de la copie annotée.${q.allOrNothing?' Barème tout ou rien.':''}</p>`;
+  const status={recognized:'Reconnu',missing:'À compléter',ambiguous:'À vérifier'};
+  const items=grade.analysis.map((c,i)=>{
+    const description=c.override===null?status[c.status]:c.override?'Validé manuellement':'Retiré manuellement';
+    const evidence=c.evidence?`<span class="evidence">${escape(c.evidence.slice(0,180))}</span>`:'';
+    const button=grade.review==='blank'?'':`<button type="button" data-criterion="${q.id}:${i}">${c.override!==null?'Rétablir l’analyse':c.status==='recognized'?'Retirer cet élément':'Valider cet élément'}</button>`;
+    return `<div class="criterion"><span class="badge ${c.status==='recognized'?'':'missing'}">${description}</span><strong>${escape(c.label)}</strong> · ${format(c.weight)} pt${evidence}${button}</div>`;
+  }).join('');
+  return `<div id="analysis-${q.id}"><strong>Analyse automatique · ${format(analysisPoints(grade))} / ${format(grade.autoMax)} points${grade.full>grade.autoMax?' vérifiables':''}</strong>${grade.allOrNothing?'<p class="small">Barème tout ou rien pour cette question.</p>':''}${items}</div>`;
+}
+function correction(q) {
+  const given=response(q);
+  const grade={full:q.points,autoMax:0,autoScore:0};
+  if(isChoice(q)){
+    Object.assign(grade,compute(q,given));
+    if(!q.correct) grade.review=given.length?'':'blank';
+    for(const letter of values){
+      const row=$(`option-${q.id}-${letter}`);
+      row.querySelector('input').disabled=true;
+      if(!q.correct) continue;
+      const checked=given.includes(letter);
+      const good=q.correct.includes(letter);
+      row.classList.add(good?checked?'right':'missed':checked?'wrong':'unused');
+      row.querySelector('small').textContent=good?checked?'Validée':'Oubliée':checked?'Fausse':'';
+    }
+  }else{
+    $(`answer-${q.id}`).readOnly=true;
+    grade.review=given?'':'blank';
+    if(q.criteria?.length){
+      grade.analysis=rubricAnalysis(given,q.criteria);
+      grade.autoMax=round(q.criteria.reduce((sum,c)=>sum+c.weight,0));
+      grade.allOrNothing=q.allOrNothing;
+    }
+  }
+  grades.set(q.id,grade);
+  const panel=$(`feedback-${q.id}`);
+  panel.hidden=false;
+  const reference=`<p class="small">Page ${q.page} du PDF source.</p>`;
+  if (isOpen(q)) {
+    const caution=q.caution?`<p class="notice">${escape(q.caution)} <a href="https://www.glasgowcomascale.org/downloads/GCS-Assessment-Aid-English.pdf">Grille Glasgow</a></p>`:'';
+    panel.innerHTML=`${answerBox(q)}${rubricPanel(q,grade)}${caution}${q.evidence&&!q.answer?scanBlock(q.evidence,'Réponse annotée · '+questionLabel(q)):''}${assessmentControls(q,grade)}${reference}`;
+    return;
+  }
+  const key=q.correct?`<strong>${format(grade.autoScore)} / 1 point</strong><div class="answer-key" style="margin-top:10px"><h3>Correction ${srcTag(q)}</h3><div class="key-letters">Bonne${q.correct.length>1?'s':''} réponse${q.correct.length>1?'s':''} · ${q.correct.split('').join(', ')}</div>${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`:`<strong>Corrigé à vérifier</strong><p>La copie comporte une note partielle ou nulle.${q.marked?' Choix cochés · '+escape(q.marked)+'.':''}</p>`;
+  const evidence=q.evidence?`<details><summary>Voir la copie annotée</summary><div class="source-pictures" tabindex="0">${images(q.evidence,'Copie annotée · '+questionLabel(q))}</div></details>`:'';
+  panel.innerHTML=key+evidence+(q.correct?'':assessmentControls(q,grade))+reference;
+}
+function isComplete(grade) {
+  const {score,max}=assessed(grade);
+  return grade.review==='correct'||(grade.full!=null&&close(max,grade.full)&&close(score,max));
+}
+function applyFilter() {
+  const filter=$('filter').value==='imperfect';
+  for(const q of active){
+    const card=form.querySelector(`[data-card="${q.id}"]`);
+    const grade=grades.get(q.id);
+    card.hidden=filter&&Boolean(grade)&&isComplete(grade);
+  }
+}
+function tally() {
+  const list=[...grades.values()];
+  const points=list.map(assessed);
+  const sum=round(points.reduce((acc,g)=>acc+g.score,0));
+  const max=round(points.reduce((acc,g)=>acc+g.max,0));
+  const available=round(list.reduce((acc,g)=>acc+(g.full??0),0));
+  const paper=targeted?available:DATA.examTotal??available;
+  const remaining=Math.max(0,round(paper-max));
+  const manual=$('global-mark');
+  const globalScore=manual&&manual.value!==''&&manual.validity.valid?Number(manual.value):null;
+  $('score').textContent=max>0?`${format(20*sum/max,2)} / 20`:globalScore!==null?`${format(globalScore,2)} / 20`:'Note sur 20 à établir';
+  $('summary').textContent=max>0
+    ? `${format(sum)} / ${format(max)} points évalués.${remaining>0?` Note provisoire · ${format(remaining)} points du barème restent à évaluer.`:''}`
+    : globalScore!==null?'Note globale saisie manuellement.':'Aucun point évaluable automatiquement ou manuellement pour l’instant.';
+  const incomplete=list.filter((g,i)=>g.full!=null&&g.full>points[i].max).length;
+  $('manual-summary').textContent=incomplete
+    ? `Complète la correction manuelle pour ${incomplete} question${incomplete===1?'':'s'}.`:'';
+  $('retry').disabled=list.every(isComplete);
+  applyFilter();
+}
+function submit() {
+  if(locked) return;
+  const current=active.filter(q=>q.kind!=='context');
+  const missing=current.filter(q=>!response(q).length).length;
+  if(missing&&!confirmed){
+    $('message').textContent=`${missing} question(s) sans réponse. Clique de nouveau pour corriger la tentative.`;
+    confirmed=true;
+    return;
+  }
+  locked=true;
+  current.forEach(correction);
+  $('results').hidden=false;
+  $('filters').hidden=false;
+  $('submit').hidden=true;
+  $('mode').textContent='Corrigé';
+  $('message').textContent='';
+  tally();
+  $('results').focus();
+  $('results').scrollIntoView({block:'start'});
+}
+function start(retry=false) {
+  const keep=retry?new Set([...grades].filter(([,g])=>!isComplete(g)).map(([id])=>id)):null;
+  targeted=retry;
+  if($('global-mark'))$('global-mark').value='';
+  active=DATA.cards.filter(q=>!keep||q.kind==='context'||keep.has(q.id));
+  grades=new Map();
+  locked=false;
+  confirmed=false;
+  $('results').hidden=true;
+  $('filters').hidden=true;
+  $('submit').hidden=false;
+  $('message').textContent='';
+  $('mode').textContent=retry?'Reprise ciblée':'Entraînement';
+  $('filter').value='all';
+  render();
+  progress();
+  if(retry) window.scrollTo(0,0);
+}
+form.addEventListener('submit', e=>{e.preventDefault(); submit();});
+form.addEventListener('input',()=>{if(locked)return; confirmed=false; $('message').textContent=''; progress();});
+form.addEventListener('change',event=>{
+  const field=event.target.closest('[data-review],[data-points]');
+  if(!locked||!field)return;
+  const id=field.dataset.review??field.dataset.points;
+  const grade=grades.get(id);
+  if(field.hasAttribute('data-review')){
+    grade.review=field.value;
+    const partial=form.querySelector(`[data-partial="${id}"]`);
+    if(partial)partial.hidden=field.value!=='partial';
+  }else{
+    const value=field.value===''?null:Number(field.value);
+    grade.manualPoints=Number.isFinite(value)&&value>=0&&value<=grade.full?value:null;
+  }
+  tally();
+});
+$('global-mark')?.addEventListener('input',tally);
+form.addEventListener('click',event=>{
+  const criterion=event.target.closest('[data-criterion]');
+  if(locked&&criterion){
+    const [id,index]=criterion.dataset.criterion.split(':');
+    const grade=grades.get(id);
+    const item=grade.analysis[Number(index)];
+    item.override=item.override===null?item.status!=='recognized':null;
+    const q=active.find(card=>card.id===id);
+    $('analysis-'+id).outerHTML=rubricPanel(q,grade);
+    form.querySelector(`[data-criterion="${id}:${index}"]`)?.focus({preventScroll:true});
+    tally();
+    return;
+  }
+  const button=event.target.closest('.zoom');
+  if(!button)return;
+  const enlarged=button.closest('.document').classList.toggle('enlarged');
+  button.setAttribute('aria-expanded',String(enlarged));
+  button.textContent=enlarged?'Réduire le scan':'Agrandir le scan';
+});
+$('filter').addEventListener('change',applyFilter);
+$('reset').addEventListener('click',()=>{start(); window.scrollTo(0,0);});
+$('retry').addEventListener('click',()=>start(true));
+start();
+</script><!-- Statistiques anonymes Mémo (GoatCounter, sans cookies) --><script data-goatcounter="https://memo-iade.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
