@@ -11,46 +11,28 @@ Une dénutrition est-elle possible avec un IMC normal ou élevé ? :: Oui : en c
 Qu'est-ce que la malnutrition ? :: Un défaut à la fois qualitatif et quantitatif des apports
 Qu'est-ce que le marasme et le kwashiorkor ? :: Marasme : adaptation à un jeûne prolongé\nKwashiorkor : carence protéino-calorique
 Pourquoi la dénutrition est-elle un enjeu en chirurgie ? :: Elle est fréquente chez les patients hospitalisés\nC'est un facteur de risque indépendant de complications infectieuses et chirurgicales, de mortalité et de séjour prolongé
-Quelles chirurgies concernent le plus souvent des patients dénutris ? :: Chirurgie carcinologique (voies aérodigestives, pancréas, péritoine)\nRéduction pulmonaire, transplantation hépatique\nFracture du col du fémur\nChirurgie cardiaque
 
 // ---------- Évaluation et diagnostic ----------
-Comment évaluer cliniquement une dénutrition ? :: Interrogatoire : poids habituel, vitesse de la perte (1 et 6 mois), apports réduits\nExamen : réserves adipeuses, masse musculaire, troubles trophiques, œdèmes\nPoids et IMC\nMasse et force musculaires
-Comment mesurer la force et la masse musculaires ? :: Force : dynamomètre de préhension, test des 5 levers de chaise\nMasse : scanner en L3, impédancemétrie, DEXA ; mollet < 31 cm après 70 ans
-Comment calcule-t-on l'IMC ? :: IMC = poids (kg) / taille² (m²)
-Quels sont les seuils d'IMC chez l'adulte ? :: < 18,5 : dénutrition\n18,5 à 25 : normal\n≥ 25 : surpoids\n≥ 30 : obésité\n≥ 40 : obésité morbide
 Quels seuils d'IMC définissent la dénutrition et la dénutrition sévère ? :: Avant 70 ans : < 18,5 ; sévère si ≤ 17\nÀ partir de 70 ans : < 22 ; sévère si < 20
 Comment pose-t-on le diagnostic de dénutrition ? :: Au moins 1 critère phénotypique + au moins 1 critère étiologique
 Quels sont les critères phénotypiques de dénutrition ? :: Perte de poids ≥ 5 % en 1 mois, ≥ 10 % en 6 mois ou par rapport au poids habituel\nIMC < 18,5 (< 22 après 70 ans)\nBaisse de la masse ou de la fonction musculaire (sarcopénie confirmée après 70 ans)
 Quels sont les critères étiologiques de dénutrition ? :: Apports réduits d'au moins 50 % pendant plus d'une semaine, ou toute baisse de plus de 2 semaines\nMalabsorption, maldigestion\nAgression : pathologie aiguë, chronique évolutive ou maligne\nEn périopératoire : chirurgie à risque intermédiaire ou élevé, cancer
 Quels critères définissent une dénutrition sévère ? :: IMC ≤ 17 (< 20 après 70 ans)\nPerte ≥ 10 % en 1 mois, ≥ 15 % en 6 mois ou par rapport au poids habituel\nAlbuminémie ≤ 30 g/L
 Quel est le rôle de l'albuminémie dans la dénutrition ? :: C'est un marqueur de sévérité et de pronostic, plus un critère diagnostique\nModérée : 30 à 35 g/L ; sévère : ≤ 30 g/L\nÀ interpréter avec la CRP et l'hydratation
-À quoi sert la préalbuminémie ? :: Au suivi dynamique de l'état nutritionnel (demi-vie courte)
-Quels scores évaluent le risque nutritionnel ? :: GNRI (albumine et poids) : risque majeur si < 82\nCONUT (albumine, lymphocytes, cholestérol), de 0 à 12 : risque de complications accru si > 1
-Quels signes de carence rechercher chez un patient dénutri ? :: Peau sèche et fine, pétéchies, perlèche\nOngles striés et cassants, chute des cheveux\nGlossite, stomatite\nŒdèmes
-Les grades nutritionnels GN1 à GN4 sont-ils encore utilisés ? :: Non, ils sont obsolètes : on combine désormais statut nutritionnel et risque chirurgical
-
-// ---------- Conséquences ----------
-Quelles sont les conséquences digestives et immunitaires de la dénutrition ? :: Atrophie des villosités, bas débit splanchnique, troubles de la motricité\nTranslocation bactérienne\nImmunodépression (lymphopénie CD4)\nÀ retenir : aggravées par le jeûne prolongé et l'agression chirurgicale
-Quelles sont les conséquences cliniques de la dénutrition ? :: Infections, retard de cicatrisation, complications\nPerte d'autonomie\nSéjour prolongé
-Comment la dénutrition modifie-t-elle la pharmacocinétique ? :: Résorption digestive modifiée\nVolume de distribution modifié (fonte grasse et musculaire)\nMoins de protéines de transport : forme libre augmentée, effet majoré\nExcrétion rénale modifiée : effets prolongés\nÀ retenir : risque de surdosage, surtout pour les médicaments à marge étroite
+//= Quels scores évaluent le risque nutritionnel ?
+Quels scores évaluent le risque nutritionnel, et quels sont leurs niveaux ? :: Intérêt : passer d'une impression générale à un niveau de risque utilisable\nGNRI (albumine et poids / poids idéal) : > 98 pas de risque ; 92-98 faible ; 82-91 modéré ; < 82 majeur\nCONUT (albumine, lymphocytes, cholestérol), de 0 à 12 : 2-4 léger ; 5-8 modéré ; 9-12 sévère\nÀ retenir : CONUT > 1 = risque de complications postopératoires accru
 
 // ---------- Prise en charge nutritionnelle ----------
 Chez qui rechercher une dénutrition avant une chirurgie ? :: Avant toute chirurgie, urgente ou programmée, à risque intermédiaire ou élevé\nPériode concernée : de 4 à 6 semaines avant jusqu'à J14
 Qui doit recevoir une nutrition préopératoire ? :: Le patient dénutri : moins de complications et de séjour\nDénutrition sévère : 7 à 14 jours, quitte à différer l'intervention\nPas de bénéfice démontré chez le patient non dénutri
 Quelle voie de nutrition privilégier ? :: Orale (compléments nutritionnels), puis entérale\nParentérale seulement si le tube digestif est inutilisable\nAssocier les voies si une seule ne suffit pas
 Qu'est-ce que la préhabilitation ? :: Un programme multimodal avant une chirurgie programmée à risque : exercice physique + nutrition + équilibration des comorbidités\nPour les patients fragiles, dénutris, sarcopéniques, ASA ≥ 3 ou âgés
-Quelles cibles nutritionnelles viser après l'opération ? :: 20 à 25 kcal/kg/j et 1 à 1,3 g de protéines/kg/j, atteintes progressivement\nReprise alimentaire la plus précoce possible
-Quelles règles de jeûne appliquer chez le patient dénutri ? :: Jeûne court : liquides clairs jusqu'à 2 h, repas léger 6 h, repas gras ou protéiné 8 h\nLe jeûne prolongé aggrave le catabolisme : à proscrire\nCharge glucidique préopératoire possible
-Quelles situations ralentissent la vidange gastrique chez ces patients ? :: Dénutrition sévère, diabète, agonistes du GLP-1 (forme hebdomadaire souvent suspendue au moins 1 semaine avant)\nAu moindre doute : échographie gastrique ; séquence rapide si estomac plein
 
 // ---------- Syndrome de renutrition ----------
 Qu'est-ce que le syndrome de renutrition inappropriée ? :: Des troubles hydroélectrolytiques et vitaminiques à la reprise de l'alimentation après une dénutrition ou un jeûne prolongé\nBaisse du phosphore, du potassium, du magnésium et de la vitamine B1
 Quels patients sont à risque de syndrome de renutrition ? :: IMC < 18,5, perte de poids récente de 5 à 10 %\nApports réduits de 50 à 75 % ou jeûne prolongé\nHypokaliémie, hypophosphorémie, hypomagnésémie\nCancer, alcoolisme, malabsorption, anorexie\nDiurétiques, IPP, insuline
 Quelles sont les manifestations du syndrome de renutrition ? :: Arythmie, insuffisance cardiaque ou respiratoire\nEncéphalopathie, convulsions\nRhabdomyolyse, hémolyse
 Comment prévenir le syndrome de renutrition ? :: Corriger K, phosphore et Mg avant de commencer\nThiamine 200 à 300 mg/j et micronutriments\nDébuter vers 10 kcal/kg/j, puis paliers de 25 % sur 7 à 10 jours\nIonogramme et ECG quotidiens jusqu'à J3-J5
-Que faire si un syndrome de renutrition apparaît ? :: Réduire ou arrêter la nutrition pendant 24 à 48 h\nSupplémentation IV\nPuis reprise lente
 
 // ---------- Anesthésie ----------
 Quelles sont les particularités anesthésiques chez le patient dénutri ? :: Pas de technique ni d'agent spécifique\nTitrer : fraction libre augmentée, volume de distribution réduit\nProtéger les points d'appui (escarres, fractures)\nRéchauffement actif\nMonitorer BIS, curarisation et glycémie
-Pourquoi l'AIVOC demande-t-elle de la prudence chez le patient dénutri ? :: Les modèles sont moins fiables aux poids extrêmes\nL'antagonisation des curares se dose sur le poids réel
-À quoi penser pour l'après-bloc chez le patient dénutri ? :: Réhabilitation améliorée : épargne morphinique, prévention des NVPO, reprise alimentaire précoce

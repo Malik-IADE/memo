@@ -6,9 +6,6 @@
 # IADE – Chirurgie digestive
 
 // ---------- Anatomie ----------
-Quelles sont les caractéristiques du péritoine ? :: Séreuse à 2 feuillets (pariétal, viscéral), qui permet le glissement et protège les viscères\nLiquide riche en lymphocytes et macrophages (défense)\nRichement vascularisé et innervé : traction des mésos → réflexes neurovégétatifs
-Que se passe-t-il en cas d'excès de liquide dans le péritoine ? :: Il stagne dans les zones déclives : abcès sous-phrénique, abcès du cul-de-sac de Douglas
-Quels sont les rôles de l'épiploon ? :: Deuxième ligne de défense : colmate les brèches, isole les zones infectées, phagocytose\nPéritonite si ces défenses sont débordées
 Que contiennent les étages sus- et sous-mésocolique ? :: Sus-mésocolique : œsophage abdominal, estomac, duodéno-pancréas, rate, foie, voies biliaires\nSous-mésocolique : intestin grêle, côlon, rectum\nLimite : le côlon transverse
 
 // ---------- Retentissement respiratoire ----------
@@ -16,8 +13,8 @@ Quelles sont les complications respiratoires de la chirurgie abdominale ? :: Hyp
 Comment la chirurgie abdominale modifie-t-elle les volumes pulmonaires ? :: Syndrome restrictif immédiat, plus marqué en sus-mésocolique\nCV diminuée (maximum à la 4e heure), CRF diminuée (maximum vers la 16e heure)\nNormalisation lente : 7 à 15 jours
 Pourquoi le diaphragme fonctionne-t-il mal après une chirurgie abdominale ? :: Agression chirurgicale et surtout inhibition réflexe par les récepteurs nociceptifs abdominaux\nDysfonction immédiate, pendant environ 8 jours : respiration thoracique, superficielle
 Pourquoi le patient est-il hypoxémique après une chirurgie abdominale ? :: Précocement : effets résiduels (curares, morphiniques), VO2 augmentée (frissons)\nPuis : effet shunt (atélectasies), dysfonction diaphragmatique, CRF diminuée
-Quels sont les facteurs de risque respiratoire après chirurgie abdominale ? :: Âge > 60 ans, IMC > 27, cancer, tabac\nIncision sus-mésocolique\nDénutrition, antécédents respiratoires, sepsis\nDurée > 3 h 30, écarteurs, Trendelenburg\nCurares, morphiniques
-Quel score prédit le risque respiratoire postopératoire ? :: Le score ARISCAT : âge, SpO2 préopératoire, infection respiratoire < 1 mois, anémie, incision haute ou thoracique, durée, urgence
+//= Quel score prédit le risque respiratoire postopératoire ?
+À quoi sert le score ARISCAT, et quels sont ses niveaux ? :: Intérêt : prédire le risque de complications respiratoires postopératoires (score cumulatif en points)\nItems : âge, SpO2 préopératoire, infection respiratoire < 1 mois, anémie (Hb ≤ 10 g/dL), incision abdominale haute ou intrathoracique, durée, urgence\n< 26 points : risque faible\n26 à 44 : risque intermédiaire\n≥ 45 : risque élevé
 Comment prévenir les complications respiratoires en chirurgie abdominale ? :: Ventilation protectrice : Vt 6-8 mL/kg de poids idéal, PEP ≥ 5, recrutements\nDécurarisation vérifiée (TOF ≥ 0,9)\nÉpargne morphinique, péridurale si laparotomie\nKinésithérapie, mobilisation précoce
 
 // ---------- Hémodynamique, rein, digestif ----------
@@ -29,12 +26,9 @@ Comment prévenir les NVPO en chirurgie digestive ? :: Score d'Apfel : 2 antiém
 
 // ---------- Infection, thrombose, hypothermie ----------
 Quelle antibioprophylaxie en chirurgie digestive ? :: Pas d'ABP : hernie sans plaque, cœlioscopie biliaire sans facteur de risque\nCéfazoline 2 g : hernie avec plaque, chirurgie sus-mésocolique\nColorectal : tobramycine + métronidazole per os la veille, céfoxitine 2 g à l'induction\nAllergie : vancomycine, ou gentamicine + métronidazole
-Comment prévenir la thrombose en chirurgie digestive ? :: HBPM ; compression pneumatique intermittente en plus si risque élevé\nHBPM 4 semaines après une chirurgie carcinologique abdomino-pelvienne majeure
-Comment prévenir l'hypothermie peropératoire ? :: Réchauffement cutané actif, monitorage de la température\nRéchauffer perfusions, produits sanguins, liquides d'irrigation\nObjectif ≥ 36 °C
 
 // ---------- Anesthésie ----------
 Quels sont les impératifs anesthésiques en chirurgie abdominale ? :: Relâchement musculaire (curarisation)\nTraction viscérale réflexogène\nIntubation, ventilation mécanique, analgésie profonde
-Quelle place pour l'ALR en chirurgie digestive ? :: Rachianesthésie : gestes courts de paroi ou anaux, pas pour la cœlioscopie\nPéridurale : surtout associée à l'AG, relais analgésique postopératoire
 Intubation ou masque laryngé en chirurgie digestive ? :: Intubation : cœlioscopie, curarisation, chirurgie sus-mésocolique\nMasque laryngé : chirurgie de paroi
 Quelles règles pour la curarisation en chirurgie digestive ? :: Monitorage quantitatif à l'adducteur du pouce\nExtubation si TOF ≥ 0,9\nSugammadex si bloc modéré ou profond ; néostigmine seulement si TOF 4/4\nNe pas réveiller un patient curarisé
 Quelle analgésie en cœlioscopie et en laparotomie ? :: Cœlioscopie : paracétamol + AINS, infiltration des orifices de trocarts\nLaparotomie : péridurale thoracique (référence), ou TAP bloc, cathéter cicatriciel, morphine intrathécale\nToujours multimodale, avec épargne morphinique
@@ -44,18 +38,11 @@ Comment raisonner devant une hypotension peropératoire en chirurgie digestive ?
 // ---------- Interventions ----------
 Quelles sont les particularités de la cure de hernie ? :: Pas d'ouverture du tube digestif, ABP seulement si plaque\nCourte, non hémorragique, non hypothermiante\nAnalgésie : TAP bloc, infiltration
 Quelle est la différence entre les techniques de Shouldice et de Lichtenstein ? :: Shouldice : réparation par sutures\nLichtenstein : réparation par prothèse
-Quels sont les temps de la cholécystectomie cœlioscopique ? :: Trocart ombilical, insufflation\nLigature de l'artère et du canal cystique, dissection, ± cholangiographie\nAblation, exsufflation complète (évite les douleurs scapulaires), fermeture
 Quel est le risque vasculaire de la cholécystectomie ? :: La plaie de l'artère cystique, qui impose une conversion
-Quelles artères vascularisent le côlon droit et le côlon gauche ? :: Côlon droit : artère mésentérique supérieure\nCôlon gauche : artère mésentérique inférieure
-Quels sont les risques de la chirurgie colique ? :: Hypothermie, douleurs importantes\nHémorragie modérée (plus importante si rectum)\nInstabilité hémodynamique : traction des viscères, pertes digestives\nRisque thrombo-embolique, installation à soigner
-Quelles sont les particularités de la gastrectomie ? :: 4 à 6 h, sus-mésocolique, souvent pour cancer\nRisques : hémorragie, lésions pancréatiques ou biliaires, fistules\nConversion possible : prévoir l'analgésie
-Quelles sont les particularités de la chirurgie pancréatique ? :: Longue, hémorragique, douloureuse\nFistules pancréatiques\nPipéracilline-tazobactam si drainage biliaire préopératoire
 Quelles précautions avant et après une splénectomie ? :: Vaccins (pneumocoque, méningocoques, Haemophilus, grippe) au moins 2 semaines avant, ou après si urgence\nCéfazoline 2 g, puis pénicilline V au long cours\nÉducation : risque d'infection grave à germes encapsulés
 Quelles sont les particularités de l'œsophagectomie ? :: 6 à 8 h, morbidité élevée\nMonitorage invasif, péridurale thoracique, ventilation unipulmonaire protectrice\nÉviter hypotension et surcharge (anastomose), extubation précoce
-Quelles sont les complications après œsophagectomie, et comment les prévenir ? :: Complications surtout respiratoires et anastomotiques\nKinésithérapie, VNI si besoin, nutrition entérale précoce (jéjunostomie)\nMobilisation dès J0-J1, surveillance des drainages
 
 // ---------- Péritonite ----------
-Quels sont les temps opératoires d'une péritonite ? :: Laparotomie, prélèvements bactériologiques\nSuture de la perforation et/ou stomie (Hartmann)\nLavage abondant au sérum réchauffé, drainage, fermeture
 Quelle réanimation avant d'opérer une péritonite ? :: Aspiration gastrique\nCristalloïdes balancés (environ 30 mL/kg), noradrénaline pour PAM ≥ 65 mmHg\nHémocultures puis antibiotiques en moins d'1 h si choc\nContrôle de la source le plus tôt possible
 Comment anesthésier un patient pour péritonite ? :: Estomac plein : séquence rapide (aspiration gastrique, vidéolaryngoscope, succinylcholine ou rocuronium 1,2 mg/kg)\nInduction prudente sous catécholamines, monitorage invasif, diurèse\nTransfert en réanimation
 

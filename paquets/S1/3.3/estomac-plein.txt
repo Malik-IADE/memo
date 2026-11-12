@@ -8,17 +8,12 @@
 // ---------- Inhalation ----------
 Quels sont les trois noms de l'induction pour estomac plein ? :: Induction en séquence rapide (ISR)\nAnesthésie pour estomac plein\nCrush induction\nObjectif commun : éviter une inhalation bronchique
 Qu'est-ce que le syndrome de Mendelson ? :: Une pneumopathie chimique due à l'inhalation de liquide gastrique acide
-Quels sont les trois tableaux d'inhalation en période périopératoire ? :: Liquide gastrique acide stérile : pneumopathie chimique (Mendelson), puis surinfection possible\nSécrétions oropharyngées infectées : pneumopathie bactérienne\nMicro-inhalations autour du ballonnet : pneumopathies sous ventilation mécanique
 Quand une inhalation est-elle certaine, et quand est-elle probable ? :: Certaine : liquide gastrique vu et aspiré dans l'arbre trachéo-bronchique\nProbable : liquide gastrique dans les VAS, hypoxie périopératoire (SpO2 < 90 %) avec ou sans sibilants, radiographie évocatrice
 À quels moments survient l'inhalation en anesthésie ? :: Surtout à l'induction, avant ou pendant la laryngoscopie (anesthésie trop légère, intubation difficile)\nMais aussi à l'extubation et en SSPI
-Quelles sont les conséquences possibles d'une inhalation ? :: De l'absence de symptôme à la toux, l'opacité pulmonaire, l'hypoxémie, le SDRA, voire le décès
 Estomac plein et urgence sont-ils synonymes ? :: Non : l'estomac plein est une situation à risque, pas forcément une urgence\nÀ retenir : une séquence rapide doit être standardisée et rapide
 
 // ---------- Physiologie gastrique ----------
-Quelles sont les deux fonctions de l'estomac ? :: Réservoir\nÉvacuation : brassage, trituration, vidange
-Quelle est la capacité de l'estomac ? :: 1 000 à 1 500 mL, jusqu'à 6 L de liquide
 Comment se vidangent les liquides gastriques ? :: Dès quelques minutes, de façon exponentielle\nLiquides non caloriques : demi-vie d'évacuation de 10 min\nLiquides clairs sucrés : vidange en 90 min\nLiquides non clairs : comme les solides
-Comment se vidangent les solides ? :: Après une latence d'environ 40 min, de façon linéaire\nVitesse liée à la densité calorique du repas\nLa moitié est vidangée en 2 h
 Un jeûne prolongé garantit-il un estomac vide ? :: Non : l'estomac contient aussi ses propres sécrétions\nBoire des liquides clairs jusqu'à 2 h avant n'augmente pas le résidu gastrique
 Quels liquides sont clairs, et lesquels ne le sont pas ? :: Clairs : eau, thé, café sans lait, jus de fruits sans pulpe\nNon clairs : lait, jus avec pulpe, boissons gazeuses (traités comme des solides)
 Quelles sont les règles de jeûne préopératoire ? :: Solides (repas léger) : 6 h\nLiquides non clairs : 6 h\nLiquides clairs, même sucrés (400 mL au plus) : jusqu'à 2 h avant\nNi alcool ni tabac\nRègles plus strictes si la vidange est ralentie
@@ -26,63 +21,42 @@ Quelles sont les règles de jeûne préopératoire ? :: Solides (repas léger) :
 // ---------- Physiopathologie ----------
 Quelles sont les trois conditions d'une inhalation ? :: Estomac plein\nIncontinence gastro-œsophagienne\nIncompétence pharyngo-laryngée\nÀ retenir : l'anesthésie générale peut réunir les trois
 À partir de quel volume l'estomac est-il considéré comme plein ? :: 25 mL, ou plus de 0,4 mL/kg
-De quoi dépend le volume du contenu gastrique ? :: La sécrétion acide\nLes apports alimentaires\nLa vidange gastrique
 Quels facteurs ralentissent la vidange gastrique ? :: Repas riche en calories\nÉmotion, stress douloureux aigu\nOpiacés (effet dose-dépendant), médicaments ralentissant le transit\nObstacle digestif, pathologie neurologique\nDiabète avec gastroparésie, hypothyroïdie
-L'obésité est-elle un facteur de risque indépendant d'estomac plein ? :: Non : le résidu gastrique après le jeûne est comparable\nMais d'autres facteurs sont souvent associés (hernie hiatale, diabète)
-Quand un reflux gastro-œsophagien se produit-il ? :: Quand la pression intragastrique (PIG) dépasse la pression du sphincter inférieur de l'œsophage (PSIO)\nPSIO normale : 15 à 25 mmHg ; PIG normale < 7 mmHg
-Quels sont les deux mécanismes de remontée du contenu gastrique ? :: Régurgitation passive, la plus fréquente : PIG > PSIO, sans effort\nVomissement actif : anesthésie trop légère lors d'un geste stimulant, médicaments émétisants, réveil
-Quels facteurs augmentent la pression intragastrique ? :: Période post-prandiale\nToux à l'induction\nOcclusion\nInsufflation de gaz\nGrossesse, diabète
 Quels facteurs diminuent la pression du sphincter inférieur de l'œsophage ? :: Sonde gastrique\nHernie hiatale\nGrossesse\nMédicaments : atropine, morphiniques, benzodiazépines, hypnotiques
-Quels médicaments augmentent le tonus du sphincter inférieur de l'œsophage ? :: Dompéridone, érythromycine\nNéostigmine\nSuxaméthonium\nAnti-H2
-Qu'est-ce qui rend le pharynx et le larynx incompétents ? :: Morphiniques avant l'induction\nTroubles de la conscience (pathologie, sédation)\nDécurarisation incomplète au réveil
 
 // ---------- Facteurs de risque et de gravité ----------
 Quels sont les principaux facteurs de risque d'inhalation ? :: Urgence\nAnesthésie trop légère\nPathologie abdominale aiguë ou chronique\nObésité (IMC > 35)\nMorphiniques avant l'induction\nTroubles de la conscience\nTrendelenburg\nIntubation difficile avec ventilation au masque prolongée\nRGO, hernie hiatale
-Quelles autres situations exposent à un estomac plein ? :: Grossesse, de la 15e SA au 8e jour du post-partum\nDiabète avec gastroparésie\nDouleur intense, traumatologie, alcool\nJeûne non respecté\nPathologie de l'œsophage (cancer, diverticule, achalasie), anneau gastrique\nASA élevé
 Quels sont les facteurs de gravité d'une inhalation ? :: Le pH : lésions graves si pH < 1,5 ; proches d'une inhalation de sérum physiologique si pH > 2,5\nLe volume inhalé\nLes particules solides ou débris alimentaires
 
 // ---------- Prévention ----------
-Que rechercher en consultation chez un patient à risque d'estomac plein ? :: Les facteurs de risque d'inhalation\nLes critères d'intubation difficile, de ventilation difficile et de NVPO\nL'heure du dernier repas\nLa balance AG / ALR
-Quels sont les objectifs de la prévention médicamenteuse de l'inhalation ? :: Réduire l'acidité et le volume du contenu gastrique
-Quelle est la différence entre un antiacide et un anti-H2 ? :: Antiacide (citrate de sodium, 30 mL) : tamponne l'acidité présente ; délai 5-15 min, durée 2-3 h\nAnti-H2 : diminue la sécrétion acide ; délai 30 min, durée 4-6 h
 Quelle prévention médicamenteuse recommande-t-on en cas d'estomac plein ? :: Anti-H2 + citrate de sodium : cimétidine effervescente 400 mg ou ranitidine effervescente 600 mg\nDélai 5-10 min, durée 2-3 h\nPeu d'effet sur la bile
 Pourquoi les inhibiteurs de la pompe à protons sont-ils inadaptés en urgence ? :: Ils ne sont efficaces qu'au bout de 4 h
 Quel prokinétique accélère la vidange gastrique avant une induction, et à quelle dose ? :: L'érythromycine : 200 mg IV lente sur 1 h\nAutre prokinétique : le métoclopramide
 
 // ---------- Séquence rapide ----------
 Quel est le principe de l'induction en séquence rapide ? :: Réduire au minimum le délai entre la perte des réflexes de protection des voies aériennes et la mise en place de la sonde
-Que vérifier avant une induction en séquence rapide ? :: Aspiration fonctionnelle\nTable mobilisable (Trendelenburg)\nVoie veineuse fonctionnelle\nLaryngoscope, sonde avec mandrin, seringue sur le ballonnet
-Comment préoxygéner avant une séquence rapide ? :: FiO2 100 % pendant 3 min, jusqu'à FeO2 > 90 %\nEn urgence : 8 inspirations à capacité vitale\nProclive de 20 à 30°, surtout chez l'obèse et la parturiente
 Qu'est-ce que la manœuvre de Sellick ? :: Une pression sur le cartilage cricoïde qui écrase l'œsophage contre le corps vertébral de C6\nBut : limiter la régurgitation pendant l'induction
 Quelle force appliquer lors de la manœuvre de Sellick ? :: 10 N avant l'induction\n30 N dès la perte de conscience\nTrop forte : au-delà de 20 N avant (douleur, toux, régurgitation), de 40 N après (obstruction, intubation difficile, fracture du cartilage)
-Comment s'entraîner à doser la force de la manœuvre de Sellick ? :: Avec une seringue de 50 mL fermée : 10 N = repère 40 mL, 30 N = repère 33 mL
 Quelles sont les contre-indications de la manœuvre de Sellick ? :: Traumatisme du rachis cervical ou du larynx\nVomissements actifs\nCorps étranger des VAS\nTrachéostomie\nDiverticule pharyngé
 Jusqu'à quand maintenir la manœuvre de Sellick ? :: Jusqu'à l'intubation, ballonnet gonflé et position vérifiée (ventilation, auscultation, 6 capnogrammes)
 Quelles sont les limites de la manœuvre de Sellick ? :: Pas de preuve d'efficacité, souvent mal réalisée\nElle dégrade la vue laryngée (Cormack)\nÀ arrêter en cas de vomissement : risque de rupture de l'œsophage\nIntubation difficile : la relâcher ; désaturation : ventiler à basse pression
 Faut-il aspirer l'estomac avant une séquence rapide ? :: Pas de façon systématique : cela ne garantit pas la vacuité et peut faire vomir\nIndispensable en cas d'occlusion ou de distension gastrique
-Le mandrin est-il obligatoire en séquence rapide ? :: Pas de recommandation formelle\nUtile si l'intubation est difficile, et chez les moins expérimentés
 Quel laryngoscope privilégier pour une séquence rapide ? :: Le vidéolaryngoscope
 Faut-il ventiler au masque pendant une séquence rapide ? :: Non : risque d'insuffler l'estomac et d'aggraver l'inhalation\nSauf en cas de désaturation (ventilation à basse pression)
 Quelles sont les étapes d'une induction en séquence rapide ? :: Préparation et vérifications\nPréoxygénation (FeO2 > 90 %)\nHypnotique, Sellick 10 N puis 30 N à la perte de conscience\nCurare d'action rapide\nLaryngoscopie, intubation, ballonnet gonflé\nVérification (EtCO2, auscultation), puis relâchement de Sellick\nVidange gastrique, puis morphinique ± curare non dépolarisant
 
 // ---------- Médicaments ----------
 Quel hypnotique utiliser pour une séquence rapide ? :: Un hypnotique de délai court : propofol 2-3 mg/kg\nInstabilité hémodynamique : étomidate 0,3-0,5 mg/kg (à éviter en cas de sepsis) ou kétamine 2-3 mg/kg\nBenzodiazépines contre-indiquées
-Quelles qualités doit avoir le curare d'une séquence rapide ? :: Un délai d'action très court\nUne durée brève, pour une reprise de la ventilation spontanée en cas d'échec
 Quel curare utiliser en première intention pour une séquence rapide, et à quelle dose ? :: Le suxaméthonium : 1 mg/kg de poids réel\nDélai < 1 min, durée courte (environ 9 min)
 Quelles sont les contre-indications du suxaméthonium ? :: Allergie (le curare le plus allergisant)\nHyperthermie maligne\nHyperkaliémie, brûlures étendues\nDénervation (paraplégie, hémiplégie de plus de 48 h)\nMyopathie, myotonie\nDéficit en butyrylcholinestérase
 Quand utiliser le rocuronium en séquence rapide, et à quelle dose ? :: Seulement si le suxaméthonium est contre-indiqué\n1 à 1,2 mg/kg de poids théorique : délai court mais durée longue (environ 60 min)\nAntagonisable par le sugammadex 16 mg/kg
-Pourquoi les morphiniques sont-ils discutés en séquence rapide ? :: Contre : ils sont émétisants et diminuent le tonus du SIO\nPour : un morphinique court limite la réaction à l'intubation (HTIC, prééclampsie)\nExemples : alfentanil 20-40 µg/kg, rémifentanil en AIVOC
-Le suxaméthonium (Célocurine) est-il réservé à l'estomac plein ? :: Non : il sert aussi en intubation difficile et pour la sismothérapie
 
 // ---------- Intubation difficile et extubation ----------
 Que faire si une intubation difficile est prévue chez un patient à estomac plein ? :: Intubation vigile sous fibroscopie\nOu vidéolaryngoscope, selon l'expérience de l'opérateur
 Que faire en cas d'intubation difficile imprévue lors d'une séquence rapide ? :: Mandrin d'Eschmann, vidéolaryngoscope\nPuis masque laryngé
-Pourquoi le risque d'inhalation persiste-t-il à l'extubation ? :: La vidange gastrique peropératoire ne garantit pas la vacuité\nUne part importante des inhalations survient à l'extubation et au réveil
 Quelles précautions pour extuber un patient à estomac plein ? :: Au bloc ou en SSPI\nPatient complètement réveillé\nDécurarisation complète : T4/T1 > 90 %\nRéflexe de déglutition présent\nPosition demi-assise
-Quels sont les facteurs de risque de réintubation ? :: Curarisation résiduelle\nFacteurs humains : inexpérience, absence de procédure\nRéserves cardiaques ou pulmonaires limitées
 
 // ---------- Conduite à tenir ----------
 Que faire en cas d'inhalation chez un patient intubé ? :: Vérifier la pression du ballonnet\nAspirer l'estomac par une sonde de gros calibre\nAspirer la trachée par la sonde (confirme l'inhalation)\nLavage au sérum physiologique
 Que faire en cas de vomissement chez un patient non intubé ? :: Trendelenburg, décubitus latéral, aspiration\nO2, préoxygénation\nSéquence rapide pour sécuriser les voies aériennes\nPas de ventilation au masque, sauf désaturation
 Que faire si le patient vomit pendant l'induction ? :: Intuber sans hésiter, même dans l'œsophage, et gonfler le ballonnet\nSi la sonde est dans l'œsophage : la laisser en place et refaire une laryngoscopie pour intuber la trachée
-Quelle prise en charge secondaire après une inhalation ? :: Selon la gravité (volume, pH, débris)\nSédation, ventilation mécanique, gaz du sang\nFibroscopie et antibiotiques non systématiques\nPas de corticoïdes (pas de preuve d'efficacité)\nRadiographie de thorax pour le bilan et le suivi
