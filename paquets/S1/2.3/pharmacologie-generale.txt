@@ -1,85 +1,79 @@
 // Cours 2.3 – Pharmacologie générale
-// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
-// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Pharmacologie générale
 
-// ---------- Pharmacocinétique ----------
-//= Pharmacocinétique et pharmacodynamie : quelle différence ?
-Quelle est la différence entre pharmacocinétique et pharmacodynamie ? :: Pharmacocinétique : ce que l'organisme fait au médicament → évolution des concentrations dans le temps (ADME)\nPharmacodynamie : ce que le médicament fait à l'organisme → effets, interaction avec le récepteur\nChaîne : dose → concentration plasmatique → concentration au site d'action → effet
-//= ADME : que signifie chaque lettre ?
-Que signifie chaque lettre de l'acronyme ADME ? :: Absorption : passage du site d'administration à la circulation générale (IV = 100 %, référence)\nDistribution : répartition dans les compartiments\nMétabolisme : transformation (surtout hépatique) en métabolites actifs ou inactifs\nÉlimination : rein, bile, poumons, lait
-//= Cmax, Tmax, ASC, demi-vie : que représentent-ils ?
-Que représentent la Cmax, le Tmax, l'aire sous la courbe et la demi-vie ? :: Cmax : concentration maximale (sommet de la courbe)\nTmax : temps pour atteindre la Cmax\nASC (aire sous la courbe) : exposition totale au médicament\nDemi-vie d'élimination : temps pour que la concentration plasmatique diminue de moitié
-//= Premier passage hépatique : de quoi s'agit-il et quelle conséquence ?
-Qu'est-ce que l'effet de premier passage hépatique et quelle est sa conséquence ? :: Voie orale : intestin → veine porte → foie → circulation générale\nUne partie du médicament est transformée par le foie avant d'atteindre la circulation\n→ dose orale souvent plus élevée que la dose IV pour le même effet\nÉvité par les voies IV, sublinguale, inhalée, transdermique, rectale (en partie)\nVarie selon la fonction hépatique et l'activité enzymatique
-//= Biodisponibilité : définition et facteurs qui la modifient ?
-Qu'est-ce que la biodisponibilité et quels facteurs la modifient ? :: Fraction de la dose qui atteint la circulation générale (F entre 0 et 1)\nRéférence : voie IV (F = 1), calculée avec le rapport des ASC\nDiminuée par : premier passage hépatique, absorption digestive réduite (grêle court, transit accéléré), repas\nPatch transdermique : absorption variable si hypothermie ou vasoconstriction (patient au bloc)
-//= Cycle entérohépatique : de quoi s'agit-il ?
-Qu'est-ce que le cycle entérohépatique ? :: Le médicament (ou son métabolite) est excrété dans la bile → intestin\nIl peut être réabsorbé et revenir dans la circulation par la veine porte\n→ prolonge la présence du médicament dans l'organisme
-//= Liaison aux protéines plasmatiques : pourquoi est-elle importante ?
-Pourquoi la liaison d'un médicament aux protéines plasmatiques est-elle importante ? :: Le médicament circule sous forme liée (albumine, glycoprotéine acide) et libre, en équilibre\nSeule la forme libre agit sur le récepteur, diffuse et est filtrée par le rein\nHypoalbuminémie (dénutrition, cirrhose, grossesse, réanimation) → ↑ fraction libre → effet majoré\nEx. : thiopental chez le cirrhotique → titrer
-//= Volume de distribution : définition et facteurs de variation ?
-Qu'est-ce que le volume de distribution et quels facteurs le font varier ? :: Volume fictif dans lequel le médicament se répartirait à la concentration du plasma\nQuantité = Vd × concentration, donc C = Q / Vd\nVd élevé : médicament qui diffuse et se stocke dans les tissus (liposolubles)\nModifié par : âge, déshydratation, obésité (stockage dans la graisse : sévoflurane, réveil retardé), choc, insuffisance cardiaque, liaison protéique
-//= Diffusion passive et transport actif : quelle différence ?
-Quelle est la différence entre la diffusion passive et le transport actif ? :: Diffusion passive : selon le gradient de concentration, sans énergie, jusqu'à l'équilibre\nTransport actif : protéines membranaires, peut aller contre le gradient, consomme de l'ATP\nEx. : K⁺ maintenu très concentré dans les cellules ; la lyse cellulaire le libère (hyperkaliémie)
-//= Métabolisme : quels facteurs le modifient ?
-Quels facteurs modifient le métabolisme des médicaments ? :: Foie : site principal (enzymes, cytochromes)\nInduction enzymatique : un médicament accélère la dégradation d'autres → efficacité réduite\nInhibition : dégradation ralentie → accumulation\nVariabilité génétique : métaboliseurs lents, rapides, ultrarapides\nÂge, grossesse, dénutrition, insuffisance hépatique
-//= Clairance : définition et types ?
-Qu'est-ce que la clairance et quels en sont les types ? :: Volume de plasma totalement épuré du médicament par unité de temps (mL/min)\nClairance totale = somme des clairances d'organes (rénale, hépatique, pulmonaire…)\nClairance rénale = filtration + sécrétion − réabsorption\nDiminuée par : insuffisance rénale, âge, bas débit cardiaque (insuffisance cardiaque)\nFonction rénale estimée par une formule (Cockcroft-Gault…) à partir de l'âge, du poids et de la créatinine
-//= Quelles autres voies d'élimination que le rein et le foie ?
-En dehors du rein et du foie, par quelles voies les médicaments sont-ils éliminés ? :: Poumons : halogénés, protoxyde d'azote, CO2\n- Cœlioscopie : le CO2 insufflé passe dans le sang → ↑ EtCO2 → adapter la ventilation\nSalive : faible, sert au dépistage de substances\nLait maternel : penser au passage vers l'enfant allaité
-//= Quelles voies d'administration connaître, avec un exemple ?
-Quelles sont les voies d'administration à connaître, avec un exemple pour chacune ? :: Intraveineuse : propofol, paracétamol\nOrale : paracétamol, morphine\nSublinguale\nRectale : diazépam (enfant)\nSous-cutanée : héparine, morphine\nIntramusculaire : kétamine (patient agité)\nInhalée : sévoflurane\nIntrathécale : bupivacaïne, morphine\nTransdermique : patch de fentanyl\nToujours nommer les médicaments par leur DCI
+// ---------- Pharmacocinétique : définitions ----------
+Qu'étudie la pharmacocinétique ? :: L'évolution des concentrations du médicament dans l'organisme au cours du temps\nC'est « ce que l'organisme fait au médicament »\nÀ retenir : elle suit le trajet du produit, de l'administration à l'élimination (ADME)
+Qu'étudie la pharmacodynamie ? :: Les effets du médicament sur l'organisme et la façon dont ils se produisent (interaction avec le récepteur)\nC'est « ce que le médicament fait à l'organisme »
+Que signifie l'acronyme ADME en pharmacocinétique ? :: Absorption\nDistribution\nMétabolisme\nÉlimination
+Quels facteurs influencent l'absorption d'un médicament ? :: Voie d'administration\nDose\nIonisation\nPassage des membranes\nLiaison aux protéines\nDébit sanguin local
+Quelle voie d'administration sert de référence en pharmacocinétique, et pourquoi ? :: La voie intraveineuse\nLe médicament est placé directement dans le compartiment vasculaire : toute la dose atteint la circulation générale
+Quel médicament peut-on donner par voie rectale, par voie intrathécale, et par voie orale ou IV ? :: Rectale : diazépam\nIntrathécale : bupivacaïne\nOrale ou IV : paracétamol\nÀ retenir : retenir la DCI, le nom commercial peut changer
+Qu'est-ce que la Cmax d'un médicament ? :: La concentration plasmatique maximale atteinte après l'administration (le sommet de la courbe)
+Qu'est-ce que le Tmax d'un médicament ? :: Le temps nécessaire pour atteindre la Cmax
+Que représente l'aire sous la courbe (ASC) des concentrations plasmatiques ? :: L'exposition totale de l'organisme au médicament\nElle sert notamment à calculer la biodisponibilité
+Qu'est-ce que la demi-vie d'élimination d'un médicament ? :: Le temps nécessaire pour que sa concentration plasmatique diminue de moitié
+Qu'est-ce que l'effet de premier passage hépatique ? :: Par voie orale, le médicament passe par l'intestin, la veine porte puis le foie avant la circulation générale\nUne partie est transformée par le foie avant d'atteindre la circulation\nÀ retenir : la dose orale est souvent plus élevée que la dose IV pour un même effet
+Qu'est-ce que la biodisponibilité d'un médicament ? :: La fraction de la dose administrée qui atteint la circulation générale\nRéférence : la voie IV (100 %)\nElle se calcule en comparant les aires sous la courbe
+Le repas peut-il modifier l'absorption d'un médicament pris par voie orale ? :: Oui\nExemple du cours : pour une même consommation d'éthanol, les courbes de concentration diffèrent à jeun et après un repas
+Qu'est-ce que le cycle entérohépatique ? :: Le médicament ou son métabolite (ex. dérivé glucuronoconjugué) est éliminé dans la bile vers l'intestin\nUne partie est réabsorbée et revient dans la circulation\nÀ retenir : il prolonge la présence du médicament dans l'organisme
 
-// ---------- Pharmacodynamie ----------
-//= Récepteur, agoniste, antagoniste : définitions ?
-Comment définit-on un récepteur, un agoniste et un antagoniste ? :: Récepteur : la « serrure » sur laquelle se fixe le médicament (la « clé »), de façon spécifique et saturable\nAgoniste : active le récepteur → effet\nAntagoniste : occupe le récepteur sans l'activer → bloque l'effet\nEx. : naloxone (antagoniste des morphiniques), flumazénil (antagoniste des benzodiazépines)\nEffet lié au taux d'occupation des récepteurs
-//= Courbe dose-effet : DE50, Emax et puissance ?
-Sur une courbe dose-effet, que représentent la DE50, l'Emax et la puissance ? :: L'effet augmente avec la dose puis atteint un plateau (Emax) : augmenter la dose n'apporte plus d'effet\nDE50 : dose donnant 50 % de l'effet maximal\nPuissance : plus la dose (ou CE50) nécessaire pour un même effet est faible, plus le médicament est puissant\nEx. : doses d'intubation des curares = multiple de la DE95
-//= Fenêtre thérapeutique : définition et exemple ?
-Qu'est-ce que la fenêtre thérapeutique ? Donnez un exemple. :: Zone entre la concentration minimale efficace et la concentration toxique\nEn dessous : pas d'effet ; au-dessus : effets indésirables\nEx. : anesthésiques locaux injectés près d'un nerf → passage dans le sang → toxicité neurologique (convulsions) puis cardiaque (arrêt) si la concentration est trop élevée
-//= Titration : définition et intérêt ?
-Qu'est-ce que la titration et quel est son intérêt ? :: Administrer par petites doses, attendre, observer l'effet, réinjecter jusqu'à l'effet recherché\nRépond à la variabilité entre patients (foie, protéines, âge, enzymes)\nIndispensable : sujet âgé, insuffisant rénal ou hépatique, dénutri\nRespecter le délai d'action avant de réinjecter
+// ---------- Distribution ----------
+Sous quelles formes un médicament circule-t-il dans le sang ? :: Une forme liée aux protéines et une forme libre\nLes deux sont en équilibre réversible : le médicament se lie puis se détache\nCet équilibre suit la loi d'action de masse
+Quelle est la seule forme active d'un médicament dans le sang ? :: La forme libre\nSeule la forme libre se fixe sur le récepteur, diffuse dans les tissus et est filtrée par le rein
+Quelles protéines plasmatiques transportent les médicaments ? :: Albumine\nGlycoprotéine acide\nLipoprotéines
+Quelle est la conséquence d'une baisse de l'albumine pour un médicament très lié aux protéines ? :: Moins de forme liée → plus de forme libre\n→ effet plus important, risque de surdosage\nSituations : dénutrition, cirrhose, grossesse, réanimation\nÀ retenir : titrer
+Qu'est-ce que le volume de distribution d'un médicament ? :: Le volume fictif dans lequel le médicament se répartirait à la même concentration que dans le plasma\nQuantité dans l'organisme = volume de distribution × concentration plasmatique
+Que signifie un volume de distribution élevé ? :: Le médicament diffuse et se stocke beaucoup dans les tissus (molécules liposolubles)\nPour une même dose, sa concentration plasmatique est plus basse
+Quels états du patient modifient la distribution d'un médicament ? :: Âge et déshydratation : volumes d'eau différents\nObésité : plus de tissu adipeux\nÉtat de choc, insuffisance cardiaque : transport par le sang vers les tissus diminué\nBaisse des protéines plasmatiques : plus de forme libre
+Pourquoi un médicament liposoluble comme le sévoflurane peut-il retarder le réveil chez le patient obèse ? :: Il se stocke dans le tissu adipeux, plus abondant chez l'obèse\nIl est ensuite relargué progressivement dans le sang\nÀ retenir : anticiper l'arrêt de l'administration pour le réveil
+Quelle est la différence entre la diffusion passive et le transport actif à travers une membrane ? :: Diffusion passive : suit le gradient de concentration, sans énergie, jusqu'à l'équilibre\nTransport actif : utilise des protéines membranaires, peut aller contre le gradient et consomme de l'ATP
+
+// ---------- Métabolisme et élimination ----------
+Quel est le principal organe de transformation des médicaments ? :: Le foie\nIl transforme le médicament en métabolites, actifs ou inactifs\nSon état et l'activité de ses enzymes modifient le devenir du produit
+Pourquoi deux patients recevant la même dose n'obtiennent-ils pas le même effet ? :: Fonction hépatique et activité des enzymes différentes\n- Métaboliseurs lents, rapides ou ultrarapides\nTraitements et substances consommées par le patient\nÂge, volumes d'eau, protéines plasmatiques\nÀ retenir : c'est la raison de la titration
+Qu'est-ce que la clairance d'un médicament ? :: Le volume de plasma totalement épuré du médicament par unité de temps (en mL/min)
+Comment obtient-on la clairance totale d'un médicament ? :: En additionnant les clairances de chaque organe d'élimination : rénale, hépatique, pulmonaire…
+Quels mécanismes rénaux déterminent la clairance rénale d'un médicament ? :: Filtration glomérulaire (de la forme libre)\nSécrétion tubulaire\nRéabsorption tubulaire, qui la diminue\nLe pH urinaire et l'ionisation interviennent aussi
+En dehors du rein et du foie, par quelles voies un médicament peut-il être éliminé ? :: Poumons : gaz et anesthésiques inhalés\nSalive : faible, mais utile pour dépister une consommation de substances\nLait maternel : penser à l'enfant allaité
+Comment évolue le rocuronium chez un patient en insuffisance hépatocellulaire ? :: Volume de distribution augmenté\nDurée d'action augmentée\nÀ retenir : exemple de variabilité pharmacocinétique → monitorer la curarisation
 
 // ---------- Administrations répétées ----------
-//= Décroissance après un bolus : combien de demi-vies pour éliminer un médicament ?
-Après un bolus, combien de demi-vies faut-il pour éliminer un médicament ? :: Après un bolus, la concentration décroît de façon exponentielle\nÀ chaque demi-vie, elle est divisée par deux\nAprès ≈ 5 demi-vies : médicament presque totalement éliminé (≈ 97 %)\nMême délai pour atteindre l'état stationnaire lors d'administrations répétées
-//= État stationnaire et accumulation : de quoi s'agit-il ?
-Que sont l'état stationnaire et l'accumulation d'un médicament ? :: Chaque nouvelle dose s'ajoute à ce qui reste de la précédente\nEx. : dose à 100, réinjection quand il reste 50 → 150, puis…\nAprès ≈ 5 demi-vies : état stationnaire (oscillation stable entre deux valeurs)\nSi la demi-vie s'allonge (insuffisance rénale) et que la dose et le rythme restent identiques → accumulation, effet et toxicité majorés
-//= Patient insuffisant rénal sous PCA de morphine avec un réglage standard : quel risque et comment l'éviter ?
-Pourquoi une PCA de morphine réglée de façon standard est-elle dangereuse chez l'insuffisant rénal ? :: La morphine et son métabolite actif s'accumulent (demi-vie allongée)\n→ surdosage : sédation, dépression respiratoire\nAdapter : bolus plus faibles, période réfractaire plus longue (espacer les doses) ou autre molécule\nSurveiller conscience et fréquence respiratoire
-//= Demi-vie contextuelle : pourquoi aide-t-elle à choisir un médicament ?
-Pourquoi la demi-vie contextuelle aide-t-elle à choisir un médicament en perfusion ? :: Temps pour que la concentration diminue de moitié après l'arrêt d'une perfusion, selon la durée de celle-ci\nFentanyl, thiopental : très allongée après une longue perfusion → réveil retardé\nPropofol : allongement limité\nRémifentanil : quasi constante, très courte → intéressant pour les longues perfusions\nRéveil rapide souhaité (ambulatoire, RAAC) → agents d'action courte
+Qu'est-ce que l'accumulation d'un médicament lors d'injections répétées ? :: Chaque nouvelle dose s'ajoute à ce qui reste de la précédente\nExemple : dose de 100, il reste 50 au moment de réinjecter → la concentration atteint 150, et ainsi de suite
+Au bout de combien de demi-vies atteint-on l'état stationnaire lors d'injections répétées ? :: Environ 5 demi-vies\nLa concentration oscille alors entre deux valeurs stables
+Pourquoi une PCA de morphine réglée de façon standard est-elle dangereuse chez l'insuffisant rénal ? :: La morphine s'accumule car son élimination est ralentie\n→ surdosage : sédation, dépression respiratoire\nÀ retenir : surveiller la conscience et la respiration même si l'analgésie est bonne
+Qu'est-ce que la demi-vie contextuelle ? :: Le temps nécessaire pour que la concentration diminue de moitié après l'arrêt d'une perfusion\nElle dépend de la durée de la perfusion
+
+// ---------- Pharmacodynamie ----------
+Qu'est-ce qu'un récepteur en pharmacologie ? :: La « serrure » sur laquelle se fixe le médicament, la « clé »\nL'interaction est spécifique et saturable
+Quelle est la différence entre un agoniste et un antagoniste ? :: Agoniste : se fixe sur le récepteur et l'active → effet\nAntagoniste : occupe le récepteur sans l'activer → s'oppose à l'effet\nExemples d'antagonistes : naloxone (morphiniques), flumazénil (benzodiazépines)
+Que signifie qu'un récepteur est saturable ? :: À partir d'un certain point, tous les récepteurs sont occupés\nAugmenter la dose n'augmente alors plus l'effet
+Qu'est-ce que la DE50 d'un médicament ? :: La dose qui permet d'obtenir 50 % de l'effet maximal
+Que représente le plateau Emax d'une courbe dose-effet ? :: L'effet maximal\nAu-delà, augmenter la dose n'apporte plus d'effet supplémentaire
+Qu'est-ce que la puissance d'un médicament ? :: Plus la dose ou la concentration (CE50) nécessaire pour obtenir un effet est faible, plus le médicament est puissant
+Qu'est-ce que la fenêtre thérapeutique ? :: La zone entre la concentration minimale efficace et la concentration toxique\nEn dessous : pas d'effet\nAu-dessus : effets indésirables
+Pourquoi un anesthésique local injecté près d'un nerf peut-il devenir toxique ? :: Il peut diffuser vers le sang\nSi l'exposition devient excessive : toxicité neurologique ou cardiaque
+Qu'est-ce que la titration d'un médicament ? :: Administrer le médicament, observer la réponse du patient, puis poursuivre jusqu'à obtenir l'effet recherché\nElle répond à la variabilité entre patients
 
 // ---------- Modèles et AIVOC ----------
-//= Modèles à plusieurs compartiments : comment fonctionnent-ils ?
-Comment fonctionnent les modèles pharmacocinétiques à plusieurs compartiments ? :: V1 (central) : compartiment d'injection et d'élimination\nV2 : distribution rapide (organes très perfusés : cerveau, cœur, rein, foie)\nV3 : distribution lente (graisse, os)\nÉchanges dans les deux sens : à l'arrêt, les tissus relarguent le produit vers V1\nComme une baignoire : le robinet (apport) coule pendant que la bonde (élimination) se vide
-//= Compartiment effet : pourquoi existe-t-il ?
-Pourquoi parle-t-on d'un compartiment effet ? :: L'effet (ex. EEG sous propofol) apparaît avec un décalage par rapport à la concentration plasmatique\nLe compartiment effet est un compartiment virtuel qui représente le site d'action (cerveau)\nConséquence : connaître le délai d'action avant de réinjecter, sinon on surdose
-//= AIVOC : principe et précautions ?
-Quel est le principe de l'AIVOC et quelles précautions prendre ? :: Anesthésie intraveineuse à objectif de concentration\nOn choisit une cible (plasma ou site effet) ; la pompe calcule et fait varier le débit grâce à un modèle\nModèles : Schnider ou Eleveld pour le propofol, Minto pour le rémifentanil\nLes concentrations affichées sont calculées, pas mesurées\nAdapter la cible à la stimulation et surveiller l'effet réel (clinique, BIS)
-//= Dexmédétomidine : de quoi s'agit-il et quel est le risque principal ?
-Qu'est-ce que la dexmédétomidine et quel est son risque principal ? :: Agoniste alpha-2 (comme la clonidine), utilisé pour la sédation et l'épargne morphinique\nRisque : bradycardie importante, voire asystolie si bolus trop rapide ou trop important\nAdministration titrée ou en AIVOC
-//= Entretien aux halogénés : comment suivre la dose ?
-Comment suivre la dose délivrée pendant un entretien aux halogénés ? :: Fraction expirée d'halogéné sur l'analyseur de gaz (reflet de la concentration alvéolaire)\nBIS pour suivre l'hypnose\nCertaines machines fonctionnent en boucle fermée : elles mesurent la fraction expirée et ajustent l'apport pour atteindre la cible
+Quels sont les compartiments d'un modèle pharmacocinétique à trois compartiments ? :: V1, central : lieu d'injection et d'élimination\nV2 : distribution rapide (organes très perfusés)\nV3 : distribution lente (graisse, tissus peu perfusés)
+Qu'est-ce que le compartiment effet ? :: Un compartiment virtuel qui représente le site d'action du médicament\nIl explique le décalage dans le temps entre la concentration plasmatique et l'effet\nÀ retenir : respecter le délai d'action avant de réinjecter
+Qu'est-ce que l'AIVOC ? :: L'anesthésie intraveineuse à objectif de concentration\nOn choisit une concentration cible (plasma ou site effet)\nLa pompe calcule et adapte le débit grâce à un modèle pharmacocinétique
+Quels modèles d'AIVOC utilise-t-on pour le propofol et pour le rémifentanil ? :: Propofol : Schnider ou Eleveld\nRémifentanil : Minto
+Qu'est-ce que la dexmédétomidine et quel est son principal risque ? :: Un agoniste alpha-2 utilisé pour la sédation, avec un intérêt dans l'épargne opioïde\nRisque : bradycardie, surtout en cas de bolus trop important
+Comment suit-on la dose d'halogéné délivrée pendant l'entretien de l'anesthésie ? :: Par la fraction expirée d'halogéné mesurée par l'analyseur de gaz\nCertaines machines fonctionnent en boucle fermée : elles comparent la fraction expirée à la cible et ajustent l'apport
 
 // ---------- Sécurité et calculs ----------
-//= Sécurité des médicaments injectables : quelles règles ?
-Quelles règles de sécurité appliquer aux médicaments injectables ? :: Bon patient, bon produit, bonne dose, bonne voie, bon débit, bon moment, hygiène\nLire l'étiquette : nom ET concentration (ampoules qui se ressemblent, changements de fournisseur)\nProtocoles de dilution communs au service\nPréparation sans interruption (zone « ne pas déranger »)\nAides cognitives en situation de crise (arrêt cardiaque, toxicité des anesthésiques locaux)
-//= Communication sécurisée en boucle : en quoi consiste-t-elle ?
-En quoi consiste la communication sécurisée en boucle fermée ? :: Le prescripteur énonce la demande (produit, dose, voie)\nL'IADE la répète à voix haute\nLe prescripteur confirme\nMontrer la seringue et annoncer le nom avant d'injecter\nPiège : noms qui se ressemblent, fatigue la nuit
-//= Code couleur des étiquettes de seringues : quelles couleurs ?
-Quel est le code couleur des étiquettes de seringues en anesthésie ? :: Hypnotiques : jaune\nBenzodiazépines : orange\nCurares : rouge\nMorphiniques : bleu\nVasopresseurs / sympathomimétiques : violet ; antihypertenseurs : violet tramé\nAnesthésiques locaux : gris\nAnticholinergiques (atropine) : vert\nAntiémétiques : saumon\nAntagonistes (naloxone, flumazénil, néostigmine) : bandes diagonales\nLa couleur ne remplace pas la lecture de l'étiquette
-//= Seringues préremplies : quel piège ?
-Quel est le piège des seringues préremplies ? :: Un même médicament peut exister en plusieurs concentrations d'aspect proche\nEx. : atropine à 0,1 mg/mL et à 0,2 mg/mL\n→ toujours lire la concentration avant d'utiliser
-//= Pourcentages et unités : comment calculer une quantité ?
-Comment passer d'un pourcentage ou d'une unité à une quantité de médicament ? :: X % = x g pour 100 mL\nNaCl 20 %, ampoule de 10 mL : 20 g/100 mL × 10 mL = 2 g\nG5 (glucose 5 %), poche de 500 mL : 25 g\nQuantité = concentration × volume\n1 gamma = 1 µg = « mcg » sur certaines pompes ; 150 µg = 0,15 mg
-//= Fentanyl 100 µg/2 mL : comment préparer une seringue de 5 mL pour injecter 5 µg ?
-Comment préparer une seringue de fentanyl de 5 mL pour pouvoir injecter 5 µg, à partir d'une ampoule de 100 µg/2 mL ? :: Concentration de l'ampoule : 50 µg/mL\nPrélever 1 mL (50 µg) + 4 mL de sérum physiologique → 5 mL à 10 µg/mL\n5 µg = 0,5 mL
-//= Éphédrine 30 mg/mL (ampoule de 1 mL) : comment obtenir 3 mg/mL ?
-Comment préparer une seringue d'éphédrine à 3 mg/mL à partir d'une ampoule de 30 mg/mL ? :: C1 × V1 = C2 × V2\n30 × 1 = 3 × V2 → V2 = 10 mL\n1 mL d'éphédrine + 9 mL de NaCl 0,9 %
-//= Noradrénaline, ampoule de 4 mL à 2 mg/mL : comment obtenir 250 µg/mL ?
-Comment préparer de la noradrénaline à 250 µg/mL à partir d'une ampoule de 4 mL à 2 mg/mL ? :: Quantité : 4 × 2 = 8 mg\n250 µg/mL = 0,25 mg/mL\nVolume final = 8 / 0,25 = 32 mL\n4 mL de noradrénaline + 28 mL de NaCl 0,9 %
-//= Kétamine 0,25 mg/kg/h chez un patient de 80 kg pendant 4 h, ampoules de 5 mL à 10 mg/mL : quelle préparation et quel débit ?
-Pour de la kétamine à 0,25 mg/kg/h chez un patient de 80 kg pendant 4 h, avec des ampoules de 5 mL à 10 mg/mL, quelle préparation et quel débit ? :: Dose : 0,25 × 80 = 20 mg/h → 80 mg pour 4 h\n2 ampoules = 100 mg + 40 mL de diluant → 50 mL à 2 mg/mL\nDébit : 20 / 2 = 10 mL/h
+Quelles règles de sécurité s'appliquent à l'administration d'un médicament injectable ? :: Bon produit\nBonne dose\nBonne voie\nBon débit\nRègles d'hygiène\nÀ retenir : lire le nom ET la concentration sur l'étiquette
+Qu'est-ce qu'une communication en boucle fermée ? :: La demande est énoncée (produit, dose, voie)\nL'IADE la répète à voix haute\nLe prescripteur confirme
+De quelle couleur sont les étiquettes des seringues d'opioïdes, d'hypnotiques et de curares ? :: Opioïdes : bleu\nHypnotiques : jaune\nCurares : rouge\nÀ retenir : lire l'étiquette reste indispensable
+Quel est le piège des seringues préremplies ? :: Un même médicament peut exister en plusieurs concentrations\nExemple : atropine à 0,1 et à 0,2 mg/mL\n→ toujours lire la concentration
+À combien de cm³ correspond 1 mL ? :: 1 mL = 1 cm³
+Que signifie une concentration exprimée en pourcentage ? :: X % = X grammes pour 100 mL\nExemple : NaCl à 20 % = 20 g pour 100 mL, donc une ampoule de 10 mL contient 2 g
+Combien de grammes de glucose contient une poche de 500 mL de G5 ? :: 25 g\nG5 = glucose à 5 % = 5 g pour 100 mL → 5 × 500 / 100 = 25 g
+Comment préparer une seringue de 5 mL de fentanyl pour pouvoir injecter 5 µg, à partir d'une ampoule de 100 µg/2 mL ? :: Concentration de l'ampoule : 50 µg/mL\nPrélever 1 mL (50 µg) + 4 mL de sérum physiologique → 5 mL à 10 µg/mL\n5 µg = 0,5 mL
+Comment obtenir de l'éphédrine à 3 mg/mL à partir d'une ampoule de 1 mL à 30 mg/mL ? :: C1 × V1 = C2 × V2\n30 × 1 = 3 × V2 → V2 = 10 mL\n1 mL d'éphédrine + 9 mL de NaCl 0,9 %
+Comment obtenir de la noradrénaline à 250 µg/mL à partir d'une ampoule de 4 mL à 2 mg/mL ? :: Quantité : 4 × 2 = 8 mg\n250 µg/mL = 0,25 mg/mL\nVolume final : 8 / 0,25 = 32 mL\n4 mL de noradrénaline + 28 mL de NaCl 0,9 %
+Kétamine à 0,25 mg/kg/h chez un patient de 80 kg pendant 4 h, ampoules de 5 mL à 10 mg/mL : quelle préparation et quel débit ? :: Dose : 0,25 × 80 = 20 mg/h, soit 80 mg pour 4 h\n2 ampoules (100 mg) + 40 mL de diluant → 50 mL à 2 mg/mL\nDébit : 20 / 2 = 10 mL/h
