@@ -1,7 +1,7 @@
 // Cours 3.1 – SSPI (salle de surveillance post-interventionnelle)
 // Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
 // Historique, enquêtes et chiffres de mortalité du support ne sont pas repris.
-// Cotation détaillée de l'Aldrete : grille du cours « Processus d'anesthésie » (même UE).
+// Les scores (Aldrete, Apfel…) sont réunis dans la catégorie « Scores ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – SSPI
@@ -46,8 +46,6 @@ Quel est l'objectif de l'analgésie en SSPI ? :: EVA < 4/10\nC'est le premier ma
 Comment traiter la douleur en SSPI ? :: Titration IV de morphine, puis relais oral ou PCA\nToujours en analgésie multimodale : paracétamol, AINS, néfopam\nALR dès que possible, blocs périphériques plutôt que centraux
 Que surveiller pendant une titration de morphine en SSPI ? :: La douleur, la fréquence respiratoire et la sédation
 Comment surveiller un patient qui a reçu de la morphine en intrathécal ? :: Comme après une morphine IV
-//= Quels sont les facteurs de risque de NVPO du score d'Apfel ?
-À quoi sert le score d'Apfel, et quels sont ses niveaux ? :: Intérêt : estimer le risque de NVPO\nItems, 1 point chacun :\n- Sexe féminin\n- Non-fumeur\n- Morphiniques postopératoires\n- Antécédent de NVPO ou de mal des transports\nRisque de NVPO selon le score : 0 ≈ 10 %, 1 ≈ 20 %, 2 ≈ 40 %, 3 ≈ 60 %, 4 ≈ 80 %
 Quels médicaments peut-on antagoniser au réveil ? :: Curares : néostigmine, sugammadex\nMorphiniques : naloxone\nBenzodiazépines, très rarement : flumazénil
 
 // ---------- Extubation ----------
@@ -58,8 +56,6 @@ Quels facteurs rendent une extubation « à risque » ? :: Chirurgie : céphaliq
 
 // ---------- Sortie de SSPI ----------
 Qui décide de la sortie de SSPI ? :: Le MAR, qui signe la sortie et les prescriptions pour le service
-Quels items composent le score d'Aldrete modifié ? :: Motricité, respiration, pression artérielle, conscience, SpO2\nChacun coté de 0 à 2, total sur 10\nLa SpO2 remplace la coloration, trop subjective
-Quel score d'Aldrete faut-il pour sortir de SSPI ? :: 9 ou 10 sur 10\nUn score de 8/10 ne suffit pas
 Quels critères s'ajoutent au score d'Aldrete pour sortir de SSPI ? :: Normothermie\nDouleur contrôlée\nPas de globe vésical\nPas de complication chirurgicale
 Existe-t-il une durée minimale de séjour en SSPI ? :: Non : le passage est obligatoire, mais sa durée dépend du patient, de l'anesthésie et de la chirurgie ; le MAR la décide\nException : 2 h de surveillance après une césarienne
 Quelle est la différence entre la sortie de SSPI et la sortie d'ambulatoire ? :: Sortie de SSPI : mêmes règles que pour tout patient (réveil immédiat)\nSortie d'ambulatoire : évaluée ensuite dans le service (récupération psychomotrice)\nLe patient ne conduit pas et rentre accompagné
