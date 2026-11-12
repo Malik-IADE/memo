@@ -1,84 +1,101 @@
 // Cours 2.2 – Jonction neuromusculaire et curares
-// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
-// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Le monitorage de la curarisation (TOF, PTC) est dans le paquet « Processus d'anesthésie ».
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Curares
 
 // ---------- Jonction neuromusculaire ----------
-//= Transmission neuromusculaire : quelles sont les étapes ?
-Quelles sont les étapes de la transmission neuromusculaire ? :: 1) Potentiel d'action le long de l'axone du motoneurone\n2) Entrée de calcium dans la terminaison nerveuse\n3) Libération d'acétylcholine (ACh) dans la fente synaptique\n4) Fixation de 2 ACh sur le récepteur nicotinique → ouverture du canal → entrée de Na⁺ (potentiel de plaque)\n5) Si le seuil est atteint : ouverture des canaux sodiques → potentiel d'action musculaire\n6) Calcium musculaire → contraction\n7) Hydrolyse de l'ACh par l'acétylcholinestérase → fin du signal
-//= Récepteur nicotinique de la plaque motrice : comment fonctionne-t-il ?
-Comment fonctionne le récepteur nicotinique de la plaque motrice ? :: Canal ionique à 5 sous-unités\n2 sites de fixation de l'ACh (sous-unités α) : les 2 doivent être occupés pour ouvrir le canal\nOuverture ≈ 1 ms : entrée de Na⁺ et de Ca²⁺, sortie de K⁺\nMarge de sécurité : seuls ≈ 25 % des récepteurs suffisent à une contraction\n→ il faut bloquer au moins 75 % des récepteurs (90 % au diaphragme) pour paralyser
-//= Acétylcholinestérase et pseudocholinestérase : quelle différence ?
-Quelle est la différence entre l'acétylcholinestérase et la pseudocholinestérase ? :: Acétylcholinestérase : dans la fente synaptique, hydrolyse l'ACh en quelques ms → contraction brève\nPseudocholinestérase (butyrylcholinestérase) : dans le plasma, fabriquée par le foie, non spécifique\n- Dégrade la succinylcholine et le mivacurium\n- Son déficit prolonge leur effet
-//= Récepteurs nicotiniques immatures : pourquoi sont-ils importants ?
-Pourquoi les récepteurs nicotiniques immatures sont-ils importants en anesthésie ? :: Présents chez le fœtus, quasi absents chez l'adulte\nRéapparaissent hors de la jonction après dénervation, brûlure, immobilisation, myopathie\nOuverture plus longue (6 ms au lieu de 1) et sensibilité accrue à la succinylcholine\n→ risque d'hyperkaliémie massive avec la succinylcholine
-//= Récepteur nicotinique et récepteur muscarinique : quelle différence ?
-Quelle est la différence entre le récepteur nicotinique et le récepteur muscarinique ? :: Nicotinique : muscle (plaque motrice), cible des curares\nMuscarinique : système parasympathique\n- Cœur : bradycardie ; bronches : bronchoconstriction ; glandes : sécrétions\n- Bloqué par l'atropine
+Quelle est la valeur du potentiel de repos de la fibre musculaire ? :: Environ −70 mV\nMaintenu par la pompe Na⁺/K⁺-ATPase, qui consomme de l'énergie
+Comment l'acétylcholine est-elle synthétisée ? :: Dans la terminaison nerveuse, à partir de la choline et de l'acétyl-coenzyme A\nPar l'enzyme choline O-acétyltransférase\nElle est ensuite stockée dans des vésicules
+Comment l'acétylcholine est-elle libérée dans la fente synaptique ? :: Le potentiel d'action arrive à la terminaison de l'axone moteur\nLe calcium entre dans la terminaison nerveuse\nLes vésicules libèrent l'acétylcholine dans la fente synaptique
+Que faut-il pour ouvrir le récepteur nicotinique de la plaque motrice ? :: La fixation de 2 molécules d'acétylcholine, une sur chacune des 2 sous-unités α\nLe canal s'ouvre environ 1 ms : entrée de sodium → potentiel de plaque
+Que se passe-t-il quand le potentiel de plaque atteint le seuil ? :: Les canaux sodiques voltage-dépendants s'ouvrent\nUn potentiel d'action se propage à toute la fibre musculaire\nLe calcium libéré dans la fibre déclenche la contraction
+Comment s'arrête le signal à la jonction neuromusculaire ? :: L'acétylcholinestérase de la fente synaptique hydrolyse l'acétylcholine en choline et acétate, en quelques millisecondes
+Quelle proportion de récepteurs nicotiniques suffit à déclencher une contraction ? :: Environ 25 % des récepteurs\nC'est la marge de sécurité de la jonction neuromusculaire
+Quelle proportion des récepteurs faut-il bloquer pour paralyser un muscle ? :: Au moins 75 % des récepteurs\nEnviron 90 % pour le diaphragme
+Quel est le rôle du récepteur nicotinique présynaptique ? :: Un rétrocontrôle positif : il favorise la mobilisation des vésicules et la libération d'acétylcholine
+Quelle est la différence entre l'acétylcholinestérase et la pseudocholinestérase ? :: Acétylcholinestérase : dans la fente synaptique, hydrolyse spécifiquement l'acétylcholine\nPseudocholinestérase (butyrylcholinestérase) : dans le plasma, fabriquée par le foie, non spécifique
+Quels curares sont dégradés par la pseudocholinestérase plasmatique ? :: La succinylcholine\nLe mivacurium\nÀ retenir : un déficit de cette enzyme prolonge leur effet
+Que sont les récepteurs nicotiniques immatures ? :: Des récepteurs présents chez le fœtus, quasi absents chez l'adulte\nIls réapparaissent en situation pathologique (dénervation, brûlure, immobilisation, myopathie)\nIls restent ouverts plus longtemps (6 ms au lieu de 1 ms) et sont plus sensibles à la succinylcholine
+Pourquoi les récepteurs immatures rendent-ils la succinylcholine dangereuse ? :: Ils sont plus nombreux et plus sensibles à la succinylcholine\n→ sortie massive de potassium : hyperkaliémie, troubles du rythme, arrêt cardiaque
+Quelle est la différence entre le récepteur nicotinique et le récepteur muscarinique ? :: Nicotinique : muscle (plaque motrice), cible des curares\nMuscarinique : système parasympathique, bloqué par l'atropine
+Quels sont les effets de la stimulation des récepteurs muscariniques ? :: Cœur : bradycardie\nBronches : bronchoconstriction\nGlandes : augmentation des sécrétions\nÀ retenir : l'atropine s'oppose à ces effets
 
-// ---------- Pharmacologie générale ----------
-//= Quels sont les curares, classés par famille ?
-Quels sont les curares utilisés, classés par famille ? :: Non dépolarisants :\n- Benzylisoquinolines : atracurium (Tracrium®), cisatracurium (Nimbex®), mivacurium (Mivacron®)\n- Stéroïdes : rocuronium (Esmeron®) ; vécuronium, pancuronium (plus commercialisés)\nDépolarisant : succinylcholine = suxaméthonium (Célocurine®)
-//= Délai d'action, durée d'action clinique et totale d'un curare : définitions ?
-Comment définit-on le délai d'action, la durée d'action clinique et la durée totale d'un curare ? :: Délai : de la fin de l'injection au bloc maximal\nDurée clinique : jusqu'à récupération de 25 % de la force musculaire\nDurée totale : jusqu'à récupération de 90 % de la force\nL'effet est décalé par rapport au pic plasmatique (le curare doit atteindre la plaque)
-De quoi dépend le délai d'installation d'un curare ? :: Débit cardiaque et état hémodynamique : plus lent chez le sujet âgé et en bas débit\nMuscle : le diaphragme est atteint avant les muscles périphériques\nPuissance : un curare puissant s'installe plus lentement (moins de molécules injectées)\nDose : plus la dose est forte, plus le délai est court (mais plus d'effets indésirables)
-//= DA95 : définition et utilisation pour les doses ?
-Qu'est-ce que la DA95 et comment sert-elle à calculer les doses de curare ? :: Dose qui supprime 95 % de la réponse de l'adducteur du pouce\nDA95 faible = curare puissant ; DA95 élevée = curare peu puissant\nIntubation : 2 à 3 × DA95\nPerfusion continue : 1 à 2 × DA95 par heure
-Quels facteurs prolongent l'effet des curares ? :: Médicaments : halogénés, aminosides, anesthésiques locaux, inhibiteurs calciques, magnésium, lithium\nTroubles électrolytiques : hypermagnésémie, hypocalcémie\nHypothermie, acidose\nInsuffisance rénale ou hépatique (selon la molécule)\nLes muscles n'ont pas tous la même sensibilité (larynx et diaphragme récupèrent avant le pouce)
-//= Classez les curares selon leur délai et leur durée d'action
-Comment se classent les curares selon leur délai et leur durée d'action ? :: Délai :\n- Succinylcholine ≈ 1 min\n- Rocuronium 1,5-2 min\n- Atracurium, mivacurium 2-3 min\n- Cisatracurium 3-5 min\nDurée :\n- Ultra-courte : succinylcholine (6-12 min)\n- Courte : mivacurium (15-20 min)\n- Intermédiaire : rocuronium, atracurium (30-40 min), cisatracurium (40-50 min)
+// ---------- Pharmacologie générale des curares ----------
+Quels sont les curares non dépolarisants utilisés, classés par famille ? :: Benzylisoquinolines : atracurium (Tracrium®), cisatracurium (Nimbex®), mivacurium (Mivacron®)\nStéroïdes : rocuronium (Esmeron®)
+Quel est le seul curare dépolarisant, et quels sont ses autres noms ? :: La succinylcholine\nAussi appelée suxaméthonium ou Célocurine®
+Qu'est-ce que le délai d'action d'un curare ? :: Le temps entre la fin de l'injection et le bloc neuromusculaire maximal
+Qu'est-ce que la durée d'action clinique d'un curare ? :: Le temps entre la fin de l'injection et la récupération de 25 % de la force musculaire
+Qu'est-ce que la durée d'action totale d'un curare ? :: Le temps entre la fin de l'injection et la récupération de 90 % de la force musculaire
+Qu'est-ce que l'hystérésis d'un curare ? :: Le décalage entre le pic de concentration plasmatique et l'effet maximal\nLe curare doit d'abord atteindre la plaque motrice
+Dans quel compartiment se distribuent surtout les curares non dépolarisants ? :: Dans le compartiment maigre et extracellulaire
+De quoi dépend le délai d'installation d'un curare ? :: Du débit cardiaque : plus lent chez le sujet âgé et en bas débit\nDu muscle : le diaphragme est atteint avant les muscles périphériques\nDe la puissance du curare\nDe la dose : plus elle est forte, plus le délai est court
+Pourquoi un curare puissant s'installe-t-il plus lentement ? :: On en injecte moins de molécules\nLe gradient de concentration vers la plaque motrice est plus faible
+Qu'est-ce que la DA95 d'un curare ? :: La dose qui supprime 95 % de la réponse de l'adducteur du pouce\nDA95 faible = curare puissant
+Quelle dose de curare utilise-t-on pour l'intubation, exprimée en DA95 ? :: 2 à 3 × DA95
+Quels médicaments prolongent l'effet des curares ? :: Halogénés\nAminosides\nAnesthésiques locaux\nInhibiteurs calciques\nMagnésium, lithium
+Quels états du patient prolongent l'effet des curares ? :: Hypermagnésémie, hypocalcémie\nHypothermie, acidose\nInsuffisance rénale ou hépatique, selon la molécule
+Quels muscles récupèrent avant l'adducteur du pouce après une curarisation ? :: Le diaphragme et les muscles du larynx\nÀ retenir : un pouce qui récupère ne garantit pas tout, mais un pouce encore curarisé signe une curarisation résiduelle
 
 // ---------- Curares non dépolarisants ----------
-//= Curares non dépolarisants : mécanisme d'action ?
-Quel est le mécanisme d'action des curares non dépolarisants ? :: Antagonistes compétitifs et réversibles du récepteur nicotinique\nUne seule molécule sur un des 2 sites suffit à empêcher l'ouverture du canal\nPas de potentiel de plaque, pas de dépolarisation, pas de fasciculations\nUn excès d'ACh (décurarisation par néostigmine) peut déplacer le curare
-//= Rocuronium : doses, délai, durée et élimination ?
-Quels sont la dose, le délai, la durée d'action et l'élimination du rocuronium ? :: Ampoule 50 mg/5 mL = 10 mg/mL, utilisé pur\nIntubation : 0,6 mg/kg ; séquence rapide : 0,9 à 1,2 mg/kg\nDélai 1,5-2 min (≈ 1 min à forte dose) ; durée 30-40 min (plus longue à forte dose)\nEntretien : 0,1-0,15 mg/kg toutes les 30 min ou 0,3-0,5 mg/kg/h\nÉlimination hépatique et rénale → prolongé si insuffisance rénale ou hépatique\nAntagonisable par le sugammadex ; le plus allergisant des non dépolarisants
-//= Atracurium : doses, élimination et effet indésirable ?
-Quels sont les doses, le mode d'élimination et l'effet indésirable principal de l'atracurium ? :: Ampoule 50 mg/5 mL = 10 mg/mL\nIntubation : 0,5 mg/kg ; délai 2-3 min ; durée 30-40 min\nEntretien : 0,1-0,3 mg/kg toutes les 30 min ou 0,3-0,6 mg/kg/h\nÉlimination : voie de Hofmann (dégradation chimique selon la température et le pH) + estérases plasmatiques → indépendant du foie et du rein\nHistaminolibération : injecter lentement, respecter la dose
-//= Cisatracurium : doses et particularités ?
-Quelles sont les doses et les particularités du cisatracurium ? :: Présentations : 10 mg/5 mL, 20 mg/10 mL (2 mg/mL), flacon 150 mg/30 mL (5 mg/mL) → vérifier la concentration\nIntubation : 0,15-0,20 mg/kg ; délai 3-5 min ; durée 40-50 min\nEntretien : 0,03-0,04 mg/kg toutes les 30 min ou 0,06-0,12 mg/kg/h\nÉlimination par voie de Hofmann : choix en insuffisance rénale ou hépatique\nQuasiment pas d'histaminolibération
-//= Mivacurium : doses et particularité d'élimination ?
-Quelles sont les doses du mivacurium et la particularité de son élimination ? :: Ampoules 10 mg/5 mL et 20 mg/10 mL = 2 mg/mL\nIntubation : 0,2 mg/kg ; délai 2-3 min ; durée courte 15-20 min\nEntretien : 0,05-0,1 mg/kg toutes les 15 min ou 0,5-0,6 mg/kg/h\nDégradé par les pseudocholinestérases plasmatiques → prolongé si déficit enzymatique ou insuffisance hépatique
-//= Histaminolibération et effet vagolytique des curares : quelle différence ?
-Quelle est la différence entre l'histaminolibération et l'effet vagolytique des curares ? :: Histaminolibération (benzylisoquinolines, surtout atracurium) : rougeur cutanée, hypotension, tachycardie, bronchospasme ; dépend de la dose et de la vitesse d'injection\nEffet vagolytique (stéroïdes, quasi absent avec le rocuronium) : tachycardie, hypertension\nPiège : une histaminolibération ressemble à une allergie, qui ne doit pas être écartée sur la seule molécule
-//= Curares non dépolarisants : effets sur le cerveau et le fœtus ?
-Les curares non dépolarisants passent-ils dans le cerveau et chez le fœtus ? :: Passage cérébral quasi nul : un curare n'endort pas et ne calme pas la douleur\nLe BIS peut baisser sous curare (disparition du signal musculaire) sans que l'hypnose soit plus profonde\nPassage placentaire faible : peu de conséquences pour le fœtus
-//= Curares non dépolarisants : quelles précautions selon le terrain ?
-Quelles précautions prendre avec les curares non dépolarisants selon le terrain du patient ? :: Allergie : réactions croisées possibles avec tous les curares\nInsuffisance rénale : éviter le rocuronium → atracurium ou cisatracurium\nInsuffisance hépatique : prudence avec rocuronium et mivacurium\nMyasthénie : très grande sensibilité → doses réduites, titration, monitorage, surveillance prolongée en SSPI (24 h)\nMyopathies : sensibilité accrue, même prudence
+Quel est le mécanisme d'action des curares non dépolarisants ? :: Antagonistes compétitifs et réversibles du récepteur nicotinique\nUne seule molécule sur un des 2 sites empêche l'ouverture du canal\nPas de dépolarisation, donc pas de fasciculations
+Comment un excès d'acétylcholine peut-il lever un bloc non dépolarisant ? :: Le curare est un antagoniste compétitif : l'acétylcholine en excès peut le déplacer\nC'est le principe de la décurarisation par un anticholinestérasique (néostigmine)
+Dans quel ordre s'installent les principaux curares ? :: Succinylcholine : environ 1 min\nRocuronium : 1,5 à 2 min\nAtracurium, mivacurium : 2 à 3 min\nCisatracurium : 3 à 5 min
+Quelle est la durée d'action des principaux curares ? :: Succinylcholine : 6 à 12 min (ultra-courte)\nMivacurium : 15 à 20 min (courte)\nRocuronium, atracurium : 30 à 40 min\nCisatracurium : 40 à 50 min
+Quelle est la dose d'intubation du rocuronium ? :: 0,6 mg/kg en standard\n0,9 à 1,2 mg/kg pour une séquence rapide (délai alors proche d'une minute)
+Comment le rocuronium est-il éliminé, et quelle conséquence ? :: Élimination hépatique et rénale\n→ effet prolongé en cas d'insuffisance rénale ou hépatique
+Quel antagoniste spécifique peut lever un bloc au rocuronium ? :: Le sugammadex
+Quelle est la dose d'intubation de l'atracurium ? :: 0,5 mg/kg\nDélai 2 à 3 min ; durée 30 à 40 min
+Comment l'atracurium est-il éliminé ? :: Par la voie de Hofmann et les estérases plasmatiques\nIndépendamment du foie et du rein
+Quel est l'effet indésirable principal de l'atracurium, et comment le limiter ? :: L'histaminolibération\nLa limiter en injectant lentement et en respectant la dose
+Quelle est la dose d'intubation du cisatracurium ? :: 0,15 à 0,20 mg/kg\nDélai 3 à 5 min ; durée 40 à 50 min
+Quel piège existe avec les présentations du cisatracurium ? :: Plusieurs concentrations existent (2 mg/mL et 5 mg/mL)\n→ toujours vérifier la concentration
+Qu'est-ce que la voie de Hofmann ? :: Une dégradation chimique spontanée de certains curares (atracurium, cisatracurium), indépendante du foie et du rein\nElle dépend de la température et du pH
+Quels curares préférer en cas d'insuffisance rénale ou hépatique ? :: L'atracurium ou le cisatracurium, éliminés par la voie de Hofmann\nÀ retenir : la dose initiale ne change pas, c'est la durée d'action qui s'allonge
+Quelle est la dose d'intubation du mivacurium ? :: 0,2 mg/kg\nDurée courte : 15 à 20 min
+Pourquoi l'effet du mivacurium peut-il être prolongé ? :: Il est dégradé par les pseudocholinestérases plasmatiques\n→ prolongé en cas de déficit de cette enzyme ou d'insuffisance hépatique
+Quelle famille de curares expose à l'histaminolibération ? :: Les benzylisoquinolines, surtout l'atracurium\nLe cisatracurium n'en provoque presque pas
+De quoi dépend l'histaminolibération des curares ? :: De la dose\nDe la vitesse d'injection
+Pourquoi une histaminolibération ne doit-elle pas faire écarter une allergie ? :: Rougeur, hypotension et bronchospasme peuvent se ressembler dans les deux cas\nL'aspect clinique ne tranche pas : seul un bilan identifie une allergie
+Les curares stéroïdiens ont-ils un effet vagolytique ? :: Les stéroïdes peuvent en avoir un (tachycardie, hypertension)\nIl est minime en pratique avec le rocuronium
+Un curare non dépolarisant a-t-il un effet sur le cerveau ? :: Non : il passe très peu la barrière hémato-encéphalique\nIl n'endort pas et ne calme pas la douleur
+Pourquoi le BIS peut-il baisser après l'injection d'un curare ? :: Le curare supprime l'activité musculaire qui parasite le signal\nCette baisse ne prouve pas une hypnose plus profonde
+Les curares passent-ils le placenta ? :: Très peu : peu de conséquences pour le fœtus
 
 // ---------- Succinylcholine ----------
-//= Succinylcholine : mécanisme d'action ?
-Quel est le mécanisme d'action de la succinylcholine ? :: Agoniste du récepteur nicotinique, insensible à l'acétylcholinestérase\nOuvre d'abord le canal → dépolarisation → fasciculations\nLa dépolarisation persiste → les canaux sodiques restent inactivés → plus de nouvelle contraction\nFin d'effet : hydrolyse par les pseudocholinestérases plasmatiques
-//= Succinylcholine : présentation, dose, délai et durée ?
-Quelles sont la présentation, la dose, le délai et la durée d'action de la succinylcholine ? :: Ampoule 100 mg/2 mL, diluée à 10 mL chez l'adulte → 10 mg/mL (ou seringue préremplie à 10 mg/mL)\nDose : 1 mg/kg chez l'adulte (masse réelle chez l'obèse)\nDélai 1-1,5 min : paralysie maximale après les fasciculations\nDurée très courte : 6 à 12 min\nConservation entre 2 et 8 °C : ne pas utiliser si la chaîne du froid est rompue
-//= Succinylcholine : quelles indications aujourd'hui ?
-Quelles sont aujourd'hui les indications de la succinylcholine ? :: Estomac plein ou risque d'inhalation (séquence rapide)\nIntubation en urgence\nAnesthésie générale pour césarienne\nÉlectroconvulsivothérapie\nNe sont plus des indications : intubation pour un geste court, intubation difficile prévue
-//= Succinylcholine : quels effets indésirables ?
-Quels sont les effets indésirables de la succinylcholine ? :: Fréquents et bénins : fasciculations, myalgies, spasme bref des masséters\nAugmentation de la kaliémie (≈ +0,5 mmol/L), de la PIC et de la pression intraoculaire\nBradycardie ou tachycardie\nRares et graves :\n- Allergie, anaphylaxie\n- Hyperthermie maligne (surtout avec halogénés)\n- Hyperkaliémie massive → troubles du rythme, arrêt cardiaque\n- Curarisation prolongée (déficit en pseudocholinestérase)
-//= Succinylcholine : quelles contre-indications ?
-Quelles sont les contre-indications de la succinylcholine ? :: Absolues :\n- Antécédent personnel ou familial d'hyperthermie maligne\n- Allergie documentée\n- Risque d'hyperkaliémie : brûlures étendues, déficit neurologique > 48 h (para-, hémi-, tétraplégie), maladies neuromusculaires, immobilisation prolongée, insuffisance rénale sévère\n- Myopathies (rhabdomyolyse)\n- Déficit en pseudocholinestérase\nRelatives : plaie du globe oculaire, HTIC — l'estomac plein en urgence prime
-//= Paralysie qui se prolonge longtemps après une dose de succinylcholine : que suspecter et que faire ?
-Que suspecter et que faire si la paralysie se prolonge longtemps après une dose de succinylcholine ? :: Déficit en pseudocholinestérase\n- Congénital (curarisation de quelques minutes à plus de 8 h selon la forme)\n- Acquis : grossesse, insuffisance hépatique, cancer, infection\nConduite : poursuivre la ventilation ET l'hypnose jusqu'à récupération complète (le patient curarisé peut être conscient), monitorer le TOF\nEnsuite : dosage de l'enzyme, informer le patient, conseil génétique familial
-//= Bloc de phase II : de quoi s'agit-il ?
-Qu'est-ce qu'un bloc de phase II avec la succinylcholine ? :: Bloc qui apparaît après une exposition prolongée ou à forte dose de succinylcholine (4-6 mg/kg)\nIl ressemble alors à un bloc non dépolarisant\n→ jamais de perfusion continue de succinylcholine
-//= Que se passe-t-il si on associe un curare non dépolarisant et la succinylcholine ?
-Que se passe-t-il si l'on associe un curare non dépolarisant et la succinylcholine ? :: Petite dose de non dépolarisant AVANT la succinylcholine : effet antagoniste → il faut plus de succinylcholine\nSuccinylcholine AVANT un non dépolarisant : potentialisation (délai plus court, durée plus longue)\n2 non dépolarisants de même famille : effet additif ; de familles différentes : synergie
+Quel est le mécanisme d'action de la succinylcholine ? :: Agoniste du récepteur nicotinique, insensible à l'acétylcholinestérase\nElle ouvre d'abord le canal : dépolarisation et fasciculations\nLa dépolarisation persiste : plus de nouvelle contraction possible
+Comment se termine l'effet de la succinylcholine ? :: Par son hydrolyse par les pseudocholinestérases plasmatiques\nSeule une faible fraction atteint la jonction neuromusculaire
+Quelle est la dose de succinylcholine chez l'adulte ? :: 1 mg/kg\nChez l'obèse : sur le poids réel
+Quels sont le délai et la durée d'action de la succinylcholine ? :: Délai : 1 à 1,5 min, paralysie maximale après les fasciculations\nDurée : 6 à 12 min
+Quelles sont les indications de la succinylcholine ? :: Estomac plein ou risque d'inhalation (séquence rapide)\nIntubation en urgence\nAnesthésie générale pour césarienne\nÉlectroconvulsivothérapie
+Quels sont les effets indésirables fréquents et bénins de la succinylcholine ? :: Fasciculations, myalgies\nSpasme bref des masséters\nAugmentation de la pression intracrânienne et intraoculaire\nAugmentation de la kaliémie d'environ 0,5 mmol/L
+Quels sont les effets indésirables graves de la succinylcholine ? :: Allergie\nHyperthermie maligne\nHyperkaliémie massive (troubles du rythme, arrêt cardiaque)\nCurarisation prolongée en cas de déficit en pseudocholinestérase
+Quelles sont les contre-indications absolues de la succinylcholine ? :: Antécédent personnel ou familial d'hyperthermie maligne\nAllergie\nRisque d'hyperkaliémie : déficit neurologique de plus de 48 h, brûlures étendues, maladies neuromusculaires, immobilisation prolongée\nMyopathies\nDéficit en pseudocholinestérase
+Pourquoi la succinylcholine est-elle contre-indiquée chez un patient plégique depuis plus de 48 h ? :: Les récepteurs nicotiniques prolifèrent (dont les immatures) en dehors de la jonction\n→ risque d'hyperkaliémie massive
+Que suspecter devant une paralysie qui dure longtemps après une dose de succinylcholine ? :: Un déficit en pseudocholinestérase
+Quelles sont les causes d'un déficit en pseudocholinestérase ? :: Congénital (génétique) : curarisation de quelques minutes à plus de 8 h selon la forme\nAcquis : grossesse, insuffisance hépatique, cancer, infection
+Que faire devant une curarisation prolongée par déficit en pseudocholinestérase ? :: Poursuivre la ventilation ET la sédation jusqu'à récupération complète : le patient curarisé peut être conscient\nMonitorer la curarisation\nEnsuite : dosage de l'enzyme, information du patient et de sa famille
+Qu'est-ce que le bloc de phase II de la succinylcholine ? :: Un bloc qui apparaît après une exposition prolongée ou à forte dose de succinylcholine\nIl ressemble alors à un bloc non dépolarisant\nÀ retenir : jamais de perfusion continue de succinylcholine
+Que se passe-t-il si l'on injecte un curare non dépolarisant avant la succinylcholine ? :: Effet antagoniste : il faut davantage de succinylcholine
+Que se passe-t-il si l'on injecte un curare non dépolarisant après la succinylcholine ? :: Potentialisation : délai plus court et durée plus longue
+Comment interagissent deux curares non dépolarisants associés ? :: De la même famille : effet additif\nDe familles différentes : effet synergique
 
 // ---------- Allergie ----------
-//= Allergie aux curares : quelles particularités ?
-Quelles sont les particularités de l'allergie aux curares ? :: Les curares sont la 1re cause d'anaphylaxie peranesthésique, devant antibiotiques, bleu patenté et latex\nRéaction en général dans les minutes qui suivent l'injection\nGrades : I cutanéo-muqueux ; II atteinte multiviscérale modérée ; III menace vitale ; IV arrêt cardiaque ou respiratoire\nTraitement : adrénaline précoce\nUne sensibilisation peut exister dès la 1re anesthésie (ammoniums quaternaires, pholcodine)
-//= Patient ayant fait une allergie à un curare : peut-on simplement changer de famille de curare ?
-Après une allergie à un curare, peut-on simplement changer de famille de curare ? :: Non : les réactions croisées sont fréquentes et indépendantes de la famille chimique\nChanger de molécule ne garantit pas l'absence de réaction\nSeul un bilan allergologique identifie les curares utilisables
+Quand survient habituellement une allergie à un curare ? :: Dans les minutes qui suivent l'injection
+Quels sont les grades de gravité d'une réaction anaphylactique ? :: Grade I : signes cutanéo-muqueux généralisés\nGrade II : atteinte multiviscérale modérée\nGrade III : atteinte multiviscérale sévère, menace vitale\nGrade IV : arrêt cardiaque ou respiratoire
+Pourquoi une allergie aux curares peut-elle survenir dès la première anesthésie ? :: Une sensibilisation préalable est possible, par des ammoniums quaternaires présents dans d'autres produits (ex. pholcodine)
+Après une allergie à un curare, peut-on simplement changer de famille de curare ? :: Non : les réactions croisées sont possibles entre curares\nSeul un bilan allergologique identifie les curares utilisables
 
-// ---------- Indications et populations ----------
-Pourquoi utiliser un curare pour l'intubation et la ventilation au masque ? :: Intubation : meilleures conditions, moins d'intubations difficiles, moins de lésions du pharynx et du larynx\nVentilation au masque : le curare la facilite ; pas besoin de tester la ventilation avant de l'injecter (en l'absence de critère de ventilation difficile)\nSéquence rapide : curare d'action rapide (succinylcholine, ou rocuronium ≥ 0,9 mg/kg)\nIntubation difficile prévue : agents rapidement réversibles (ex. rocuronium + sugammadex prêt)
-//= Dans quelles situations le curare est-il utile pendant la chirurgie ?
-Dans quelles situations un curare est-il utile pendant la chirurgie ? :: Chirurgie abdominale (laparotomie ou cœlioscopie) : meilleure exposition, fermeture facilitée, moins d'accidents de trocart\nChirurgie ORL sous laser : immobilité des cordes vocales\nChirurgie thoracique, réduction orthopédique difficile\nGestes où un mouvement ou une toux serait dangereux\nMasque laryngé : pas de curare systématique pour la pose, mais utile si obstruction (laryngospasme)
-//= Patient obèse : sur quel poids calculer la dose de curare ?
-Chez le patient obèse, sur quel poids calcule-t-on la dose de curare ? :: Succinylcholine : 1 mg/kg de poids réel\nCurares non dépolarisants : masse maigre\n- En pratique : poids idéal théorique + 20 %\nCurare d'action rapide recommandé pour l'intubation (IMC ≥ 40)
-//= Sujet âgé, insuffisant rénal ou hépatique : comment adapter la curarisation ?
-Comment adapter la curarisation chez le sujet âgé, l'insuffisant rénal ou l'insuffisant hépatique ? :: Sujet âgé : installation plus lente (bas débit), élimination plus lente du rocuronium → risque de curarisation prolongée\nInsuffisance rénale ou hépatique :\n- Préférer atracurium ou cisatracurium (voie de Hofmann)\n- Ne pas modifier la dose initiale : c'est la durée qui s'allonge\nToujours monitorer la curarisation
-//= Myasthénie et myopathies : quelles règles pour les curares ?
-Quelles règles suivre pour les curares chez un patient myasthénique ou myopathe ? :: Myasthénie (anticorps contre les récepteurs à l'ACh) :\n- Succinylcholine possible mais besoins augmentés\n- Non dépolarisants : très grande sensibilité → doses réduites, titration, monitorage, SSPI 24 h\nMyopathies : succinylcholine contre-indiquée (rhabdomyolyse, hyperkaliémie) ; non dépolarisants à doses réduites et monitorés
-//= Électroconvulsivothérapie : pourquoi un curare et lequel ?
-Pourquoi utilise-t-on un curare pour une électroconvulsivothérapie, et lequel ? :: Éviter morsure de langue, chutes, fractures et luxations lors de la crise\nSuccinylcholine (délai et durée courts)\nSi contre-indication : rocuronium + sugammadex
+// ---------- Utilisation pratique ----------
+Pourquoi utilise-t-on un curare pour l'intubation ? :: Meilleures conditions d'intubation\nMoins d'intubations difficiles\nMoins de lésions du pharynx et du larynx
+Faut-il tester la ventilation au masque avant d'injecter le curare ? :: Non, en l'absence de critère de ventilation difficile : le curare facilite la ventilation au masque
+Quel curare utiliser pour une séquence rapide ? :: Un curare d'action rapide : succinylcholine, ou rocuronium à forte dose
+Dans quelles chirurgies un curare est-il utile pendant l'intervention ? :: Chirurgie abdominale (laparotomie, cœlioscopie)\nChirurgie ORL sous laser\nChirurgie thoracique\nRéduction orthopédique difficile\nGestes où un mouvement serait dangereux
+Faut-il curariser pour poser un masque laryngé ? :: Pas de façon systématique\nUtile en cas d'obstruction (laryngospasme)
+Sur quel poids calcule-t-on la dose de curare chez le patient obèse ? :: Succinylcholine : poids réel\nCurares non dépolarisants : masse maigre (en pratique, poids idéal théorique + 20 %)
+Quel curare privilégier pour intuber un patient obèse massif (IMC ≥ 40) ? :: Un curare à délai d'action court
+Comment adapter la curarisation chez le sujet âgé ? :: L'installation est plus lente (débit cardiaque plus bas)\nL'élimination du rocuronium est ralentie : risque de curarisation prolongée\nToujours monitorer la curarisation
+Quelles précautions prendre avec les curares chez un patient myasthénique ? :: Très grande sensibilité aux non dépolarisants : doses faibles, titration, monitorage\nSurveillance prolongée, au moins 24 h en SSPI
+Pourquoi la succinylcholine est-elle contre-indiquée dans les myopathies ? :: Risque de rhabdomyolyse et d'hyperkaliémie
+Pourquoi utilise-t-on un curare pour une électroconvulsivothérapie, et lequel ? :: Pour éviter morsure de langue, chutes, fractures et luxations pendant la crise\nLa succinylcholine (délai et durée courts)

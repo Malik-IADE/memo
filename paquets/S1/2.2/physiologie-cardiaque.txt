@@ -1,102 +1,106 @@
-// Cours 2.2 – Physiologie cardiaque
-// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
-// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+// Cours 2.2 – Physiologie cardiovasculaire
+// Pas de paquet Anki sur ce cours : questions rédigées dans le style Anki à partir du support de cours.
+// Le diagnostic sur tracé ECG est traité par les cartes à image du paquet ECG.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Physiologie cardiaque
 
-// ---------- Anatomie et perfusion coronaire ----------
-//= Valves cardiaques : lesquelles et comment s'ouvrent-elles ?
-Quelles sont les valves cardiaques et qu'est-ce qui les fait s'ouvrir ? :: Tricuspide : oreillette droite → ventricule droit\nMitrale : oreillette gauche → ventricule gauche\nPulmonaire et aortique : sorties des ventricules\nOuverture et fermeture totalement passives : selon la différence de pression de part et d'autre de la valve
-//= Artères coronaires : comment sont-elles organisées ?
-Comment les artères coronaires sont-elles organisées ? :: Naissent à la base de l'aorte\nCoronaire gauche : tronc commun → IVA (interventriculaire antérieure) + circonflexe\nCoronaire droite\nAtteinte du tronc commun : territoire très étendu (IVA + circonflexe)\nÀ l'échographie, la zone qui se contracte mal oriente vers l'artère atteinte
-//= Perfusion coronaire : quand est-elle maximale et qu'est-ce qui la menace ?
-À quel moment la perfusion coronaire est-elle maximale et qu'est-ce qui la menace ? :: Maximale en diastole (en systole, la contraction comprime les vaisseaux de la paroi)\nDépend de la pression diastolique et de la durée de la diastole\nMenacée par : tachycardie (diastole raccourcie), hypotension diastolique, pression de remplissage élevée\nL'endocarde est le plus vulnérable ; autorégulation possible
+// ---------- Anatomie fonctionnelle ----------
+Quelles sont les quatre valves cardiaques ? :: Tricuspide : entre oreillette et ventricule droits\nMitrale : entre oreillette et ventricule gauches\nPulmonaire : sortie du ventricule droit\nAortique : sortie du ventricule gauche
+Qu'est-ce qui fait s'ouvrir et se fermer les valves cardiaques ? :: Uniquement la différence de pression de part et d'autre de la valve : leur fonctionnement est passif
+Comment s'organisent les artères coronaires ? :: Elles naissent à la base de l'aorte\nCoronaire gauche : tronc commun → interventriculaire antérieure (IVA) + circonflexe\nCoronaire droite
+Pourquoi l'atteinte du tronc commun de la coronaire gauche est-elle grave ? :: Il alimente à la fois l'IVA et la circonflexe : le territoire menacé est très étendu
+À quel moment du cycle cardiaque la perfusion coronaire est-elle maximale ? :: En diastole\nEn systole, la contraction comprime les vaisseaux de la paroi
+Quels facteurs menacent la perfusion coronaire ? :: Tachycardie (diastole raccourcie)\nHypotension diastolique\nPression de remplissage élevée\nÀ retenir : l'endocarde est la zone la plus vulnérable
 
-// ---------- Innervation et électrophysiologie ----------
-//= Innervation du cœur : effets du sympathique et du parasympathique ?
-Quels sont les effets du sympathique et du parasympathique sur le cœur ? :: Parasympathique (nerf vague, acétylcholine) : frein permanent → bradycardie, ↓ excitabilité, ↓ conduction\nSympathique (catécholamines) : accélérateur → tachycardie, ↑ contractilité, ↑ conduction\nCœur transplanté : dénervé → pas de frein vagal, FC de repos ≈ 100/min, automatisme conservé ; l'atropine n'agit pas
-//= Inotrope, chronotrope, dromotrope, bathmotrope, lusitrope : que signifient-ils ?
-Que signifient les termes inotrope, chronotrope, dromotrope, bathmotrope et lusitrope ? :: Inotrope : force de contraction\nChronotrope : fréquence cardiaque\nDromotrope : vitesse de conduction\nBathmotrope : excitabilité\nLusitrope : relaxation\n« Positif » augmente, « négatif » diminue
-//= Cellules nodales et cellules myocardiques : quelle différence ?
-Quelle est la différence entre les cellules nodales et les cellules myocardiques ? :: Cellules nodales (nœud sinusal, nœud auriculo-ventriculaire) : automatisme, modulées par le système nerveux autonome\nCellules myocardiques : contraction ; période réfractaire → non tétanisables (le cœur ne peut pas rester contracté)
-//= Conduction cardiaque : quel trajet et quel lien avec l'ECG ?
-Quel est le trajet de la conduction cardiaque et à quoi correspond-il sur l'ECG ? :: Nœud sinusal → oreillettes → nœud auriculo-ventriculaire → faisceau de His → branches droite et gauche → réseau de Purkinje\nOnde P : dépolarisation des oreillettes\nPR : conduction auriculo-ventriculaire\nQRS : dépolarisation des ventricules\nT : repolarisation des ventricules
-//= Potentiel d'action myocardique : quels ions à chaque phase ?
-Quels ions interviennent à chaque phase du potentiel d'action myocardique ? :: Au repos : Na⁺ surtout dehors (142 vs 14 mEq/L), K⁺ surtout dedans (140 vs 4)\nPhase 0 : entrée massive de Na⁺ → dépolarisation brusque (−90 → +25 mV)\nPhase 1 : repolarisation brève (sortie de K⁺)\nPhase 2 : plateau (entrée de Ca²⁺ par canaux lents)\nPhase 3 : repolarisation (sortie de K⁺)\nPhase 4 : repos ; la pompe Na⁺/K⁺ (ATP) rétablit les gradients\nD'où les troubles du rythme si K⁺ ou Ca²⁺ anormaux
-//= Antiarythmiques : comment se comprennent-ils à partir du potentiel d'action ?
-Comment comprendre le mode d'action des antiarythmiques à partir du potentiel d'action ? :: Classe I : bloquent les canaux sodiques (ex. lidocaïne, aussi anesthésique local)\nClasse II : bêtabloquants (↓ effet sympathique)\nClasse III : bloquent les canaux potassiques (amiodarone)\nClasse IV : inhibiteurs calciques (vérapamil, diltiazem)\nDigoxine : inhibe la pompe Na⁺/K⁺\nPiège : tout antiarythmique peut lui-même provoquer des troubles du rythme
-//= ECG normal : comment le lire de façon organisée ?
-Comment lire un ECG de façon organisée ? :: Une onde P avant chaque QRS (rythme sinusal)\nRégularité du rythme (irrégularité possible chez le sujet jeune sportif)\nQRS fins\nSegment ST isoélectrique\nOndes T normales, axe\nQRS élargi : trouble de conduction (bloc de branche) → activation ventriculaire retardée
-//= Au bloc, le scope montre un sus-décalage du segment ST : que faire ?
-Que faire si le scope montre un sus-décalage du segment ST pendant l'intervention ? :: S'inquiéter mais ne pas conclure sur le scope seul (une seule dérivation, filtrage)\nFaire un ECG 12 dérivations\nAlerter le médecin\nLe scope sert d'alerte ; l'ECG complet sert au diagnostic
-//= Hyperkaliémie : signes ECG et seuil d'urgence ?
-Quels sont les signes ECG de l'hyperkaliémie et à partir de quel seuil est-ce une urgence ? :: Urgence si K⁺ > 6 mmol/L ou signes ECG (risque d'arrêt cardiaque)\nSignes (visibles au scope) :\n- Ondes T amples et pointues (« géantes »)\n- Ondes P aplaties et élargies, bradycardie\n- Blocs auriculo-ventriculaires\n- QRS élargis, jusqu'à l'arrêt
-//= Hyperkaliémie menaçante : quel traitement en urgence et quel rôle pour chaque produit ?
-Comment traiter en urgence une hyperkaliémie menaçante, et à quoi sert chaque produit ? :: Gluconate de calcium IV : stabilise la membrane cardiaque, agit sur les troubles ECG (ne baisse pas le K⁺)\nInsuline + glucosé 30 % : fait rentrer le K⁺ dans les cellules (le glucose évite l'hypoglycémie)\nBicarbonate molaire si acidose ; bêta-2 mimétique : transfert intracellulaire\nTransfert en réanimation, ± dialyse
-//= Fibrillation atriale et fibrillation ventriculaire : comment les reconnaître ?
-Comment reconnaître une fibrillation atriale et une fibrillation ventriculaire ? :: Fibrillation atriale (ACFA) : pas d'onde P organisée, QRS irréguliers ; perte de la systole auriculaire\nFibrillation ventriculaire : activité électrique anarchique, pas de QRS = arrêt cardiaque\n→ massage cardiaque, défibrillation, réanimation immédiate
+// ---------- Commande du cœur ----------
+Quel est l'effet du parasympathique sur le cœur ? :: Par le nerf vague (acétylcholine) : un frein permanent\nBradycardie, baisse de l'excitabilité et de la conduction
+Quel est l'effet du sympathique sur le cœur ? :: Par les catécholamines : un accélérateur\nTachycardie, augmentation de la contractilité et de la conduction
+Quelles sont les particularités d'un cœur transplanté ? :: Il est dénervé : plus de frein vagal\nFréquence de repos d'environ 100/min, automatisme conservé\nL'atropine n'agit pas
+Que signifient les termes inotrope, chronotrope, dromotrope, bathmotrope et lusitrope ? :: Inotrope : force de contraction\nChronotrope : fréquence cardiaque\nDromotrope : vitesse de conduction\nBathmotrope : excitabilité\nLusitrope : relaxation
+Quelle est la différence entre les cellules nodales et les cellules myocardiques ? :: Cellules nodales (nœud sinusal, nœud auriculo-ventriculaire) : automatisme, modulé par le système nerveux autonome\nCellules myocardiques : contraction
+Pourquoi le muscle cardiaque n'est-il pas tétanisable ? :: Grâce à la période réfractaire des cellules myocardiques : le cœur ne peut pas rester contracté
+Quel est le trajet de la conduction électrique dans le cœur ? :: Nœud sinusal → oreillettes → nœud auriculo-ventriculaire → faisceau de His → branches droite et gauche → réseau de Purkinje
+À quoi correspondent l'onde P, l'espace PR, le QRS et l'onde T ? :: Onde P : dépolarisation des oreillettes\nPR : conduction auriculo-ventriculaire\nQRS : dépolarisation des ventricules\nOnde T : repolarisation des ventricules
 
-// ---------- Débit cardiaque ----------
-//= Débit cardiaque et index cardiaque : définitions et valeurs normales ?
-Comment définit-on le débit cardiaque et l'index cardiaque, et quelles sont leurs valeurs normales ? :: Débit cardiaque = volume éjecté par minute = FC × VES\n- Repos : 5-6 L/min ; effort : 15-20 L/min\nVES = VTD − VTS (volume télédiastolique − volume télésystolique)\nIndex cardiaque = débit / surface corporelle ; normal > 3 L/min/m²
-//= Comment le débit se répartit-il entre les organes au repos et à l'effort ?
-Comment le débit cardiaque se répartit-il entre les organes au repos et à l'effort ? :: Repos : cerveau ≈ 750 mL/min, reins ≈ 1 100, muscles ≈ 1 200\nEffort : cerveau inchangé, muscles jusqu'à ≈ 12 500, reins ↓ (≈ 600)\nLe cerveau est toujours protégé ; le rein est sacrifié\n→ AINS + effort ou hypovolémie : risque d'insuffisance rénale
-//= Cycle cardiaque : quelles phases ?
-Quelles sont les phases du cycle cardiaque ? :: 1) Contraction isovolumique : valves fermées, la pression monte, volume constant\n2) Éjection (rapide puis lente) : la valve aortique s'ouvre quand P VG > P aorte\n3) Relaxation isovolumique : valves fermées, la pression chute\n4) Remplissage rapide passif : la mitrale s'ouvre quand P VG < P OG\n5) Diastasis (remplissage lent)\n6) Systole auriculaire (après l'onde P) : complète le remplissage\nTachycardie → diastole raccourcie → moins de remplissage
-//= Précharge, postcharge, contractilité : définitions ?
-Comment définit-on la précharge, la postcharge et la contractilité ? :: Précharge : étirement des fibres avant la contraction (remplissage, VTD)\nPostcharge : force qui s'oppose à l'éjection (pour le VG ≈ pression aortique)\nContractilité (inotropisme) : force propre du muscle\nPrécharge ↑ → VES ↑ (si le cœur répond) ; postcharge ↑ → VES ↓
-//= Loi de Frank-Starling : que dit-elle et quelle conséquence pour le remplissage ?
-Que dit la loi de Frank-Starling et quelle conséquence a-t-elle sur le remplissage ? :: Le cœur adapte son débit au retour veineux\nPartie ascendante : remplir augmente le VES = précharge-dépendance\nPlateau : remplir n'augmente plus le débit → surcharge, OAP\nInsuffisance cardiaque : courbe plus basse → moins de bénéfice du remplissage\nInotrope positif : courbe plus haute
-//= Comment savoir si un patient répondra au remplissage ?
-Comment savoir si un patient va répondre au remplissage vasculaire ? :: La précharge seule (PVC, PAPO) ne le prédit pas\nTests dynamiques :\n- Lever de jambes passif : remplissage transitoire et réversible\n- Petit bolus de soluté (épreuve de remplissage)\n- Variation respiratoire de la pression pulsée (delta-PP) sous ventilation\nMesurer le VES ou le débit avant/après (échographie, moniteur)
-//= Rétrécissement aortique : quelle conséquence hémodynamique ?
-Quelle est la conséquence hémodynamique d'un rétrécissement aortique ? :: Obstacle à l'éjection → ↑ postcharge du VG\nGradient de pression VG-aorte\nHypertrophie ventriculaire gauche (cœur rigide, dépendant de la précharge et de la FC)\nAu bloc : éviter hypotension et tachycardie (perfusion coronaire)
-//= Mesure du débit cardiaque : quelles techniques ?
-Quelles techniques permettent de mesurer le débit cardiaque ? :: Cathéter de Swan-Ganz (artère pulmonaire) : thermodilution, pressions des cavités droites, PAPO\nÉchocardiographie : débit = ITV sous-aortique × surface aortique × FC\nThermodilution transpulmonaire (PiCCO) : cathéter artériel fémoral\nAnalyse du contour de l'onde artérielle : estimation, utile surtout pour suivre une tendance
-//= PAPO (pression artérielle pulmonaire d'occlusion) : que reflète-t-elle ?
-Que reflète la pression artérielle pulmonaire d'occlusion (PAPO) ? :: Ballon du Swan-Ganz gonflé dans une branche pulmonaire → mesure en aval ≈ pression de l'oreillette gauche\nReflet de la précharge du VG\nPAPO élevée : risque d'OAP\nPAPO basse ne prouve pas que le patient répondra au remplissage\nExamen invasif, moins utilisé
-//= ScvO2 : que reflète-t-elle ?
-Que reflète la saturation veineuse centrale en oxygène (ScvO2) ? :: Équilibre entre apport et consommation d'O2\nBasse : bas débit cardiaque, anémie, hypoxémie, ↑ consommation\nÉlevée en choc septique : défaut d'extraction de l'O2 par les tissus\nPrélèvement sur un cathéter central cave supérieur (pas fémoral)\nNe mesure pas le débit à elle seule
+// ---------- Potentiel d'action et ions ----------
+Comment se répartissent le sodium et le potassium de part et d'autre de la membrane cardiaque au repos ? :: Na⁺ surtout à l'extérieur de la cellule\nK⁺ surtout à l'intérieur\nLa pompe Na⁺/K⁺, qui consomme de l'ATP, maintient ces gradients
+Quel ion provoque la dépolarisation rapide (phase 0) du potentiel d'action myocardique ? :: L'entrée massive de sodium (Na⁺) dans la cellule
+À quoi correspond le plateau (phase 2) du potentiel d'action myocardique ? :: À l'entrée de calcium (Ca²⁺) par des canaux lents
+Quel ion est responsable de la repolarisation (phase 3) ? :: La sortie de potassium (K⁺)
+Pourquoi une anomalie du potassium ou du calcium favorise-t-elle les troubles du rythme ? :: Ces ions déterminent les phases du potentiel d'action : leur anomalie perturbe la dépolarisation et la repolarisation
+Sur quel canal agit chaque classe d'antiarythmiques ? :: Classe I : canaux sodiques (ex. lidocaïne)\nClasse II : bêtabloquants\nClasse III : canaux potassiques (amiodarone)\nClasse IV : inhibiteurs calciques (vérapamil, diltiazem)\nDigoxine : inhibe la pompe Na⁺/K⁺
+Quel est le piège de tout antiarythmique ? :: Il peut lui-même provoquer des troubles du rythme
+
+// ---------- Ischémie et hyperkaliémie ----------
+Que faire si le scope montre un sus-décalage du segment ST pendant l'intervention ? :: Ne pas conclure sur le scope seul (une seule dérivation, filtrage)\nFaire un ECG 12 dérivations\nAlerter le médecin
+À partir de quand une hyperkaliémie est-elle une urgence ? :: K⁺ > 6 mmol/L ou signes ECG\nRisque d'arrêt cardiaque
+Quels signes ECG évoquent une hyperkaliémie ? :: Ondes T géantes (amples)\nBradycardie\nOnde P diminuée et élargie\nBlocs auriculo-ventriculaires et intraventriculaires\nÀ retenir : ralentissement de l'automatisme et de la conduction, risque d'arrêt cardiaque
+Quel est le rôle du gluconate de calcium dans l'hyperkaliémie menaçante ? :: Il stabilise la membrane cardiaque et agit sur les troubles ECG\nIl ne fait pas baisser la kaliémie
+Pourquoi associe-t-on insuline et glucose dans le traitement de l'hyperkaliémie ? :: L'insuline fait rentrer le potassium dans les cellules\nLe glucose évite l'hypoglycémie
+
+// ---------- Débit cardiaque et cycle ----------
+Comment calcule-t-on le débit cardiaque ? :: Débit cardiaque = fréquence cardiaque × volume d'éjection systolique (VES)\nEnviron 5 à 6 L/min au repos, 15 à 20 L/min à l'effort
+Comment calcule-t-on le volume d'éjection systolique ? :: VES = volume télédiastolique − volume télésystolique
+Qu'est-ce que l'index cardiaque ? :: Le débit cardiaque rapporté à la surface corporelle\nNormal : plus de 3 L/min/m²
+Comment le débit sanguin des organes évolue-t-il à l'effort ? :: Cerveau : inchangé, toujours protégé\nMuscles : très augmenté\nReins : diminué, ils sont sacrifiés
+Pourquoi l'association AINS + hypovolémie expose-t-elle à une insuffisance rénale ? :: Le débit rénal baisse déjà en cas d'hypovolémie ou d'effort\nLes AINS aggravent cette baisse de perfusion rénale
+Quelles sont les phases du cycle cardiaque ? :: Contraction isovolumique\nÉjection\nRelaxation isovolumique\nRemplissage rapide passif\nDiastasis (remplissage lent)\nSystole auriculaire
+Quand la valve aortique s'ouvre-t-elle ? :: Quand la pression du ventricule gauche dépasse celle de l'aorte
+Pourquoi la tachycardie diminue-t-elle le remplissage ventriculaire ? :: Elle raccourcit surtout la diastole, période du remplissage
+Qu'apporte la systole auriculaire au remplissage ventriculaire ? :: Elle complète le remplissage en fin de diastole\nElle est perdue en cas de fibrillation atriale
+Qu'est-ce que la précharge ? :: L'étirement des fibres ventriculaires avant la contraction, lié au remplissage (volume télédiastolique)
+Qu'est-ce que la postcharge ? :: La force qui s'oppose à l'éjection ventriculaire\nPour le ventricule gauche, elle correspond à peu près à la pression aortique
+Quel est l'effet d'une hausse de la postcharge sur le volume d'éjection systolique ? :: Elle le diminue
+Que dit la loi de Frank-Starling ? :: Le cœur adapte son débit au retour veineux : plus il est rempli, plus il éjecte, jusqu'à un plateau
+Que signifie être « précharge-dépendant » ? :: Être sur la partie ascendante de la courbe de Frank-Starling : remplir augmente le volume d'éjection systolique
+Que risque-t-on à remplir un patient situé sur le plateau de la courbe de Frank-Starling ? :: Le débit n'augmente plus : surcharge, œdème pulmonaire
+Pourquoi la PVC ou la PAPO ne suffisent-elles pas à prédire la réponse au remplissage ? :: Ce sont des mesures statiques de précharge : elles ne disent pas si le cœur est sur la partie ascendante de la courbe de Frank-Starling
+Quels tests permettent de prédire la réponse au remplissage vasculaire ? :: Lever de jambes passif (remplissage transitoire et réversible)\nPetite épreuve de remplissage\nVariation respiratoire de la pression pulsée (delta-PP) sous ventilation\nÀ retenir : mesurer le VES ou le débit avant et après
+Qu'est-ce que le delta-PP ? :: La variation respiratoire de la pression pulsée sous ventilation mécanique\nUne variation importante évoque une précharge-dépendance
+Quelle est la conséquence hémodynamique d'un rétrécissement aortique ? :: Obstacle à l'éjection → postcharge du ventricule gauche augmentée\nHypertrophie ventriculaire gauche : cœur rigide, dépendant de la précharge et de la fréquence
+Que faut-il éviter au bloc chez un patient porteur d'un rétrécissement aortique ? :: L'hypotension et la tachycardie, qui menacent la perfusion coronaire
+
+// ---------- Mesures et monitorage ----------
+Quelles techniques permettent de mesurer le débit cardiaque ? :: Cathéter de Swan-Ganz (thermodilution)\nÉchocardiographie\nThermodilution transpulmonaire (PiCCO)\nAnalyse du contour de l'onde artérielle (estimation, surtout utile pour suivre une tendance)
+Que reflète la pression artérielle pulmonaire d'occlusion (PAPO) ? :: La pression de l'oreillette gauche, reflet de la précharge du ventricule gauche\nÉlevée : risque d'œdème pulmonaire
+Que reflète la saturation veineuse centrale en O2 (ScvO2) ? :: L'équilibre entre l'apport et la consommation d'O2
+Que peut traduire une ScvO2 basse ? :: Un apport d'O2 insuffisant par rapport à la consommation, par exemple un faible débit cardiaque
+Pourquoi la ScvO2 peut-elle être élevée dans un choc septique ? :: Les tissus extraient mal l'O2
+Où se prélève la ScvO2 ? :: Sur un cathéter central cave supérieur (pas sur un cathéter fémoral)
 
 // ---------- Pression artérielle ----------
-Comment la pression évolue-t-elle le long de la circulation systémique ? :: VG : 0 à 120 mmHg ; aorte : 80 à 120 mmHg\nArtérioles : pression moyenne qui baisse, oscillations atténuées\nCapillaires : < 20 mmHg, écoulement lent, grande surface d'échange\nEffet Windkessel : les grosses artères élastiques stockent puis restituent l'énergie → écoulement continu entre deux systoles
-//= Baroréflexe : mécanisme et intérêt en anesthésie ?
-Comment fonctionne le baroréflexe et pourquoi est-il important en anesthésie ? :: Barorécepteurs carotidiens et aortiques → centre vasomoteur du tronc cérébral\nPA ↑ → ↑ parasympathique, ↓ sympathique : ↓ FC, ↓ contractilité, vasodilatation\nPA ↓ → effet inverse : tachycardie, vasoconstriction\nRapide, très sensible aux variations brusques\nPropofol et anesthésie l'inhibent → chute de PA plus marquée à l'induction
-//= Chémorécepteurs : où sont-ils et à quoi réagissent-ils ?
-Où sont situés les chémorécepteurs et à quoi réagissent-ils ? :: Corpuscules carotidiens et aortiques\nSensibles à l'O2 (hypoxie surtout), au CO2 et au pH\nUne chute de PA réduit leur apport en O2 → stimulation du centre vasomoteur → vasoconstriction et ↑ débit cardiaque
-//= Système rénine-angiotensine-aldostérone : comment remonte-t-il la PA ?
-Comment le système rénine-angiotensine-aldostérone fait-il remonter la pression artérielle ? :: Baisse de perfusion rénale → rénine → angiotensine I → (enzyme de conversion) → angiotensine II\nAngiotensine II : vasoconstriction artériolaire + sécrétion d'aldostérone\nAldostérone : réabsorption de Na⁺ et d'eau → ↑ volémie\nRégulation lente, à long terme\nIEC/ARA2 bloquent ce système → hypotension sous anesthésie
-//= ADH : rôle dans la régulation de la PA ?
-Quel est le rôle de l'ADH dans la régulation de la pression artérielle ? :: Libérée en cas d'hypovolémie\nFavorise la réabsorption d'eau libre par le rein\nRégulation hormonale, plus lente que le baroréflexe\nEn hypovolémie, sa sécrétion est adaptée (pas « inappropriée »)
-//= Mesure de la PA non invasive et invasive : quelles particularités ?
-Quelles sont les particularités de la mesure de la pression artérielle non invasive et invasive ? :: Auscultatoire : 1er bruit = PAS, dernier bruit = PAD\nAutomatisée (oscillométrique) : surtout fiable pour la PAM\nCathéter artériel (radial) : courbe continue, PAS, PAD, PAM\n- L'onde s'amplifie en périphérie chez le sujet jeune : PAS plus haute au pied qu'à l'aorte\n- La PAM varie peu selon le site
-//= PAM, PAS, PAD, pression pulsée : que reflète chacune ?
-Que reflètent la PAS, la PAD, la PAM et la pression pulsée ? :: PAM : pression de perfusion des organes, cible thérapeutique (débit × résistances)\nPAS : volume éjecté, vitesse d'éjection, rigidité artérielle\nPAD : tonus vasculaire, compliance, durée de la diastole ; PAD basse → vasoplégie\nPression pulsée (PAS − PAD) : dépend du VES ; serrée → VES faible
-//= Deux patients ont une PAM à 60 mmHg : l'un à 108/35 mmHg, l'autre à 75/45 mmHg. Quels mécanismes évoquer ?
-À PAM égale, que suggère une pression pulsée large (ex. 108/35 mmHg) par rapport à une pression pulsée pincée (ex. 75/45 mmHg) ? :: 108/35 (PAD très basse, pression pulsée large) :\n- Vasoplégie (sepsis, anesthésie), bradycardie, artères rigides, insuffisance aortique\n- → vasopresseur\n75/45 (PAS basse, pression pulsée serrée) :\n- VES bas : hypovolémie ou choc cardiogénique\n- → remplissage ou inotrope selon la cause
-//= Delta-PP : de quoi s'agit-il ?
-Qu'est-ce que le delta-PP et à quoi sert-il ? :: Variation respiratoire de la pression pulsée sous ventilation mécanique\nLiée aux variations de pression intrathoracique sur le remplissage\nVariation importante → évoque une précharge-dépendance (bénéfice possible du remplissage)\nÀ distinguer de la pression pulsée elle-même (PAS − PAD)
+Qu'est-ce que l'effet Windkessel ? :: Les grosses artères élastiques stockent l'énergie en systole et la restituent en diastole\n→ l'écoulement du sang reste continu entre deux systoles
+Que reflète la pression artérielle moyenne (PAM) ? :: La pression de perfusion des organes : c'est la cible thérapeutique\nPAM ≈ débit cardiaque × résistances
+Que reflète la pression artérielle diastolique (PAD) ? :: Le tonus vasculaire et la durée de la diastole\nUne PAD basse évoque une vasoplégie
+Que reflète la pression pulsée (PAS − PAD) ? :: Elle dépend du volume d'éjection systolique\nUne pression pulsée pincée évoque un VES faible
+À PAM égale, que suggère une pression pulsée large (ex. 108/35 mmHg) ? :: Une PAD très basse : vasoplégie (sepsis, anesthésie), bradycardie, artères rigides, insuffisance aortique\n→ vasopresseur
+À PAM égale, que suggère une pression pulsée pincée (ex. 75/45 mmHg) ? :: Un VES bas : hypovolémie ou choc cardiogénique\n→ remplissage ou inotrope selon la cause
 
-// ---------- Vasoactifs ----------
-//= Récepteurs adrénergiques : quels effets ?
-Quels sont les effets de la stimulation de chaque récepteur adrénergique ? :: α1 : vasoconstriction\nβ1 : cœur → ↑ contractilité, FC, conduction, excitabilité\nβ2 : bronchodilatation, vasodilatation\nUne drogue utile sur le cœur (β) peut faire baisser la PA (β2)
-//= Adrénaline : profil et indications ?
-Quel est le profil de l'adrénaline et quelles sont ses indications ? :: Agoniste α et β, effet selon la dose : β à faible dose, α à forte dose\n↑ contractilité, FC, vasoconstriction, bronchodilatation (β2)\nIndications : anaphylaxie, arrêt cardiaque\nRisques : troubles du rythme, ↑ consommation d'O2 du myocarde
-//= Noradrénaline : profil et règle d'utilisation ?
-Quel est le profil de la noradrénaline et quelle règle respecter pour l'utiliser ? :: Surtout α1 (+ un peu β1) : vasoconstriction dose-dépendante\nIndication : hypotension par vasoplégie (anesthésie, sepsis)\nAvant d'augmenter la dose : l'hypnotique est-il surdosé ? Manque-t-il du volume ?\nRemonte la PA, pas forcément le débit
-//= Dobutamine : profil et piège ?
-Quel est le profil de la dobutamine et quel est son piège ? :: Agoniste β (surtout β1) : inotrope → ↑ débit cardiaque\nPiège : vasodilatation (β2) à forte dose → peut aggraver l'hypotension\nChoc cardiogénique : d'abord restaurer la PA (noradrénaline), puis inotrope\nSi pas d'effet : réévaluer (échographie) plutôt qu'augmenter sans fin
-//= Éphédrine, phényléphrine, isoprénaline : quelles particularités ?
-Quelles sont les particularités de l'éphédrine, de la phényléphrine et de l'isoprénaline ? :: Éphédrine : action directe modérée + indirecte (libère les stocks de noradrénaline) → effet qui s'épuise (tachyphylaxie)\nPhényléphrine : α1 pur → vasoconstriction ; la PA monte mais le débit peut baisser (bradycardie réflexe)\nIsoprénaline : β pur → accélère la FC ; indiquée dans les blocs auriculo-ventriculaires (BAV 3)
+// ---------- Régulation de la pression artérielle ----------
+Comment fonctionne le baroréflexe ? :: Barorécepteurs carotidiens et aortiques → centre vasomoteur du tronc cérébral\nPA haute → bradycardie, baisse de contractilité, vasodilatation\nPA basse → tachycardie, vasoconstriction
+Pourquoi la PA chute-t-elle davantage à l'induction au propofol ? :: Le propofol et l'anesthésie inhibent le baroréflexe : la compensation est moins efficace
+Où sont les chémorécepteurs et comment participent-ils à la régulation de la PA ? :: Dans les corpuscules carotidiens et aortiques\nSensibles surtout à l'hypoxie (et au CO2, au pH)\nUne chute de PA les stimule → vasoconstriction et augmentation du débit cardiaque
+Comment le système rénine-angiotensine-aldostérone fait-il remonter la PA ? :: Baisse de perfusion rénale → rénine → angiotensine I → angiotensine II (enzyme de conversion)\nAngiotensine II : vasoconstriction et sécrétion d'aldostérone\nAldostérone : réabsorption de sodium et d'eau → volémie augmentée
+Pourquoi les IEC et les ARA2 exposent-ils à l'hypotension sous anesthésie ? :: Ils bloquent le système rénine-angiotensine, un des mécanismes qui remontent la PA
+Quel est le rôle de l'ADH dans la régulation de la PA ? :: Libérée en cas d'hypovolémie, elle fait réabsorber de l'eau par le rein\nRégulation hormonale, plus lente que le baroréflexe
+
+// ---------- Récepteurs et catécholamines ----------
+Quel est l'effet de la stimulation des récepteurs α1 ? :: Une vasoconstriction
+Quel est l'effet de la stimulation des récepteurs β1 ? :: Sur le cœur : augmentation de la contractilité, de la fréquence, de la conduction et de l'excitabilité
+Quel est l'effet de la stimulation des récepteurs β2 ? :: Bronchodilatation et vasodilatation
+Quel est le profil de l'adrénaline ? :: Agoniste α et β, effet selon la dose : β à faible dose, α à forte dose\nIndications : anaphylaxie, arrêt cardiaque\nRisques : troubles du rythme, consommation d'O2 du myocarde augmentée
+Quel est le profil de la noradrénaline ? :: Surtout α1 (un peu β1) : vasoconstriction\nIndication : hypotension par vasoplégie (anesthésie, sepsis)\nElle remonte la PA, pas forcément le débit
+Que vérifier avant d'augmenter la noradrénaline chez un patient anesthésié ? :: L'hypnotique est-il surdosé ?\nManque-t-il du volume ?
+Quel est le profil de la dobutamine et quel est son piège ? :: Agoniste β, surtout β1 : inotrope, augmente le débit cardiaque\nPiège : vasodilatation (β2) à forte dose, qui peut aggraver l'hypotension
+Comment agit l'éphédrine et pourquoi son effet s'épuise-t-il ? :: Action directe modérée + indirecte : elle libère les stocks de noradrénaline\nQuand les stocks sont vidés, l'effet diminue (tachyphylaxie)
+Quel est le profil de la phényléphrine ? :: Agoniste α1 pur : vasoconstriction\nLa PA monte, mais le débit peut baisser (bradycardie réflexe)
+Quelle est l'indication de l'isoprénaline ? :: Agoniste β pur : elle accélère la fréquence cardiaque\nIndiquée dans les blocs auriculo-ventriculaires de haut degré (BAV 3)
 
 // ---------- Interactions cœur-poumon et insuffisance cardiaque ----------
-//= Ventilation en pression positive : quels effets sur les deux ventricules ?
-Quels sont les effets de la ventilation en pression positive sur les deux ventricules ? :: Ventricule droit : ↓ précharge (↓ retour veineux), ↑ postcharge\nVentricule gauche : ↓ postcharge, précharge transitoirement ↑ → éjection facilitée\nIntérêt : la VNI aide le VG dans l'OAP\nDanger : défaillance du VD, hypovolémie → collapsus à la mise sous ventilation
-//= Hypotension sous ventilation mécanique avec PEP élevée chez un patient hémorragique : quel mécanisme ?
-Pourquoi la PEP aggrave-t-elle l'hypotension d'un patient hypovolémique ou hémorragique ? :: La pression positive et la PEP réduisent encore un retour veineux déjà bas\n→ ↓ précharge, ↓ débit, ↓ PA\nBaisser la PEP améliore la PA si précharge-dépendance\nTraiter l'hypovolémie (remplissage, transfusion)
-//= Insuffisance cardiaque et choc cardiogénique : quelle différence ?
-Quelle est la différence entre l'insuffisance cardiaque et le choc cardiogénique ? :: Insuffisance cardiaque : le cœur ne s'adapte plus à l'effort (dyspnée, fatigue)\nChoc cardiogénique : bas débit avec hypoperfusion des organes même au repos (défaillances rénale, hépatique, lactates)\nCercle vicieux : ↓ débit → hypotension → ↓ perfusion coronaire → ischémie → ↓ débit\nPeut s'y ajouter une vasodilatation inflammatoire
-//= Classification NYHA : quels stades ?
-Quels sont les stades de la classification NYHA ? :: I : asymptomatique\nII : dyspnée pour des efforts inhabituels\nIII : dyspnée pour des efforts de la vie quotidienne\nIV : dyspnée de repos, aggravée au moindre effort\nRenseigne la réserve fonctionnelle en consultation d'anesthésie
-//= Insuffisance cardiaque gauche ou droite : quels signes ?
-Quels signes distinguent une insuffisance cardiaque gauche d'une insuffisance cardiaque droite ? :: Gauche : ↑ pression de remplissage du VG → ↑ pression capillaire pulmonaire → œdème pulmonaire (dyspnée, crépitants)\nDroite : ↑ pression veineuse → œdèmes des membres inférieurs, turgescence jugulaire, hépatomégalie
+Quels sont les effets de la ventilation en pression positive sur le ventricule droit ? :: Précharge diminuée (retour veineux réduit)\nPostcharge augmentée
+Quels sont les effets de la ventilation en pression positive sur le ventricule gauche ? :: Postcharge diminuée : l'éjection est facilitée\nC'est pourquoi la VNI aide le ventricule gauche dans l'œdème pulmonaire
+Pourquoi la mise sous ventilation peut-elle provoquer un collapsus ? :: La pression positive réduit le retour veineux\nRisque majeur en cas d'hypovolémie ou de défaillance du ventricule droit
+Pourquoi la PEP aggrave-t-elle l'hypotension d'un patient hypovolémique ou hémorragique ? :: Elle réduit encore un retour veineux déjà bas → précharge, débit et PA diminuent\nTraiter l'hypovolémie ; baisser la PEP améliore la PA en cas de précharge-dépendance
+Quelle est la différence entre insuffisance cardiaque et choc cardiogénique ? :: Insuffisance cardiaque : le cœur ne s'adapte plus à l'effort (dyspnée, fatigue)\nChoc cardiogénique : bas débit avec hypoperfusion des organes même au repos (défaillances d'organes, lactates)
+Quels sont les stades de la classification NYHA ? :: I : asymptomatique\nII : dyspnée pour des efforts inhabituels\nIII : dyspnée pour des efforts de la vie quotidienne\nIV : dyspnée de repos
