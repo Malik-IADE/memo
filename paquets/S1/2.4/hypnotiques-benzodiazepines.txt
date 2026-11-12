@@ -5,38 +5,22 @@
 # IADE – Hypnotiques et benzodiazépines
 
 // ---------- Récepteurs ----------
-Quels sont les deux grands mécanismes d'action des hypnotiques ? :: Renforcer l'inhibition, via le récepteur GABA-A : propofol, thiopental, étomidate, benzodiazépines, halogénés\nBloquer l'excitation, via le récepteur NMDA : kétamine, protoxyde d'azote, xénon
-Quel est le principal récepteur inhibiteur du système nerveux central ? :: Le récepteur GABA-A
-Comment fonctionne le récepteur GABA-A ? :: C'est un canal au chlore\nSon ouverture fait entrer du Cl⁻ → hyperpolarisation → le neurone devient moins excitable
 Quelle est la différence clé entre une benzodiazépine et le propofol sur le récepteur GABA-A ? :: Benzodiazépine : modulateur, elle renforce l'effet du GABA mais n'agit pas sans lui → effet plafond seule\nPropofol, barbituriques : peuvent ouvrir le canal eux-mêmes à forte dose → pas de plafond
-Pourquoi l'effet plafond des benzodiazépines n'est-il pas une protection ? :: Il disparaît en association avec les morphiniques, l'alcool ou d'autres hypnotiques
-Quelle est la cible du baclofène, et quelle conséquence en anesthésie ? :: Le récepteur GABA-B\nUn patient sous baclofène peut être plus sensible aux hypnotiques
-Quelles sont les caractéristiques du récepteur NMDA ? :: Un canal excitateur activé par le glutamate\nIl laisse entrer Na⁺ et Ca²⁺\nIl est bloqué au repos par le magnésium\nAntagonistes : kétamine, protoxyde d'azote, xénon
-Quelle structure bloquent les anesthésiques locaux, et laquelle bloquent les hypnotiques ? :: Anesthésiques locaux : la conduction le long de l'axone\nHypnotiques : la transmission synaptique
 
 // ---------- Pharmacocinétique générale ----------
 Pourquoi un patient se réveille-t-il après un bolus d'hypnotique alors que le produit n'est pas encore éliminé ? :: Par redistribution : le produit quitte le cerveau vers le muscle puis la graisse\nLa durée d'action n'est pas la demi-vie d'élimination
-Pourquoi l'effet d'un hypnotique se prolonge-t-il après des doses répétées ou une perfusion ? :: Les tissus de stockage se saturent : la redistribution ne fait plus baisser la concentration cérébrale
 Quels hypnotiques ont une demi-vie contextuelle faible et lesquels l'ont très augmentée ? :: Faible et stable : propofol, étomidate\nTrès augmentée : thiopental, midazolam, diazépam
 Quels terrains majorent l'effet ou l'accumulation des hypnotiques ? :: Sujet âgé\nObésité (stockage des produits liposolubles)\nHypoalbuminémie : plus de forme libre\nInsuffisance hépatique ou rénale\nBas débit cardiaque : effet retardé, risque de réinjecter trop tôt
-Pourquoi les hypnotiques sont-ils plus dangereux chez le sujet âgé ? :: Le cerveau est plus sensible\nMoins de masse maigre et plus de graisse : pic initial plus élevé puis accumulation\nSympathique moins efficace : hypotension majorée
 
 // ---------- Propofol ----------
 Quelle est la dose d'induction du propofol chez l'adulte ? :: 2 à 3 mg/kg IV
 Quelle dose de propofol chez le sujet âgé ? :: Environ 1 mg/kg après 65 ans\n0,3 à 0,5 mg/kg après 80 ans\nÀ retenir : 20 mg peuvent suffire à provoquer une apnée
 Quelles sont les concentrations du propofol, et quel piège en découle ? :: 1 % = 10 mg/mL\n2 % = 20 mg/mL\n→ toujours lire la concentration avant de prélever
-Pourquoi le propofol impose-t-il des règles d'asepsie strictes ? :: C'est une émulsion lipidique sans conservateur : un milieu de culture idéal
 Quelles règles d'asepsie respecter avec le propofol ? :: Préparation extemporanée, matériel à usage unique\nSeringue jetée au bout de 6 h\nTubulure changée toutes les 12 h
-Quelle est la liaison du propofol aux protéines plasmatiques ? :: Environ 98 % lié à l'albumine
-Comment le propofol est-il éliminé ? :: Métabolisme hépatique et extrahépatique (rein, poumon)\nPas de métabolite actif\nÉlimination rénale des métabolites
 Quels sont les effets cardiovasculaires du propofol ? :: Vasodilatation artérielle et veineuse → hypotension\nPas de tachycardie réflexe (effet sympatholytique)\nÀ retenir : prudence en cas d'hypovolémie ou de rétrécissement aortique
-Pourquoi faut-il injecter le propofol lentement et en titration ? :: Une injection rapide augmente la dose nécessaire, majore l'hypotension et multiplie les apnées\nInjecter lentement laisse le temps à l'effet d'apparaître
 Quels sont les effets respiratoires du propofol ? :: Apnée fréquente après le bolus\nForte dépression des réflexes laryngés : intubation sans curare possible\nBronchodilatation
-Quels sont les effets neurologiques du propofol ? :: Baisse du métabolisme cérébral, du débit sanguin cérébral et de la PIC\nAnticonvulsivant\nAucun effet analgésique
-Pourquoi le propofol est-il l'hypnotique de choix en ambulatoire ? :: Peu de nausées et vomissements postopératoires\nRéveil rapide
 Comment limiter la douleur à l'injection du propofol ? :: Grosse veine\nLidocaïne ou morphinique avant l'injection
 L'allergie à l'œuf contre-indique-t-elle le propofol ? :: Non : l'émulsion contient de la lécithine purifiée, pas les protéines allergisantes de l'œuf
-Le propofol est-il utilisable en cas de porphyrie ou d'hyperthermie maligne ? :: Oui, dans les deux cas
 Qu'est-ce que le syndrome de perfusion du propofol (PRIS) ? :: Une complication des perfusions prolongées à forte dose\nAcidose lactique, rhabdomyolyse, hyperkaliémie\nTroubles du rythme, défaillance cardiaque\nUrines vertes possibles
 Quels sont les facteurs de risque du syndrome de perfusion du propofol ? :: Perfusion à plus de 4 mg/kg/h pendant plus de 48 h\nEnfant\nCatécholamines, corticoïdes
 
@@ -44,39 +28,23 @@ Quels sont les facteurs de risque du syndrome de perfusion du propofol ? :: Perf
 Quelle est la dose d'induction de l'étomidate ? :: 0,2 à 0,3 mg/kg IV
 Pour quels patients choisir l'étomidate à l'induction ? :: Patients à risque hémodynamique : choc, hypovolémie, coronarien, rétrécissement aortique\nSes effets hémodynamiques sont minimes
 Pourquoi l'étomidate ne s'utilise-t-il jamais en entretien ni en sédation ? :: Il inhibe la synthèse du cortisol (11β-hydroxylase surrénalienne), dès une dose unique et jusqu'à 24 h
-Pourquoi associer un morphinique à l'étomidate pour l'intubation ? :: L'étomidate n'a aucun effet analgésique : sans morphinique, l'intubation provoque une poussée hypertensive
 Quels sont les effets indésirables de l'étomidate ? :: Inhibition du cortisol\nDouleur à l'injection\nMyoclonies\nNausées et vomissements postopératoires
-Que sont les myoclonies sous étomidate ? :: Des mouvements musculaires involontaires\nCe n'est ni un réveil ni une crise convulsive : ne pas réinjecter automatiquement un hypnotique
 
 // ---------- Kétamine ----------
 Quel est le mécanisme d'action de la kétamine ? :: Antagoniste du récepteur NMDA\nElle produit une anesthésie dissociative
 Quelle est la dose d'induction IV de la kétamine ? :: 1 à 2 mg/kg
 Quelle dose de kétamine utilise-t-on en IM ? :: 5 à 10 mg/kg, chez un patient agité sans voie veineuse
-Quelle dose de kétamine utilise-t-on pour l'effet anti-hyperalgésique peropératoire ? :: Bolus de 0,15 à 0,3 mg/kg, sans dépasser 0,5 mg/kg\nPuis entretien à faible dose
-Qu'est-ce que la S-kétamine (eskétamine) ? :: L'isomère S, plus puissant que la kétamine racémique\nLes doses ne se transposent pas à l'identique : environ moitié moins
 Quels sont les effets cardiovasculaires de la kétamine ? :: Effet sympathomimétique : PA, fréquence et débit cardiaques augmentés\nConsommation d'O2 du myocarde augmentée : prudence chez le coronarien
 Pourquoi la kétamine peut-elle provoquer un collapsus chez un patient en choc ? :: Ses réserves en catécholamines sont épuisées : l'effet inotrope négatif de la kétamine est démasqué
 Quels sont les effets respiratoires de la kétamine ? :: Ventilation spontanée préservée\nExcellent bronchodilatateur\nHypersalivation\nRéflexes laryngés conservés mais pas forcément protecteurs
 Quels sont les effets neurologiques de la kétamine ? :: Débit sanguin cérébral augmenté\nPas d'effet anticonvulsivant\nEffets psychodysleptiques : hallucinations, dysphorie
 Dans quelles situations la kétamine est-elle un hypnotique de choix ? :: Patient en choc (doses réduites)\nAsthmatique\nUrgence : voie IM possible, ventilation spontanée préservée
 Dans quelles situations éviter la kétamine ? :: Coronarien instable\nPatient psychotique\nGlobe oculaire ouvert
-Pourquoi les morphiniques à forte dose favorisent-ils l'hyperalgésie postopératoire ? :: Ils activent les récepteurs NMDA → sensibilisation centrale\nRésultat : tolérance aiguë et hyperalgésie, surtout avec le rémifentanil
-Pourquoi associer la kétamine aux morphiniques ? :: La kétamine bloque les récepteurs NMDA et limite la sensibilisation centrale\n→ moins de douleur et de consommation de morphine en postopératoire
-Que donne l'association kétamine et benzodiazépine ? :: Moins d'effets dysphoriques\nEffet de la kétamine prolongé
 
 // ---------- Thiopental ----------
-À quelle classe appartient le thiopental ? :: Barbiturique soufré\nPuissant agoniste du récepteur GABA-A
-Comment préparer le thiopental chez l'adulte ? :: Poudre de 500 mg dans 20 mL → 25 mg/mL, soit une solution à 2,5 %\nChez l'enfant : solution à 1 %
-Dans quoi ne faut-il jamais diluer le thiopental ? :: Dans le Ringer lactate\nDiluer dans l'eau ou le NaCl 0,9 %
 Pourquoi le thiopental est-il dangereux en cas d'extravasation ? :: Sa solution est très alcaline (pH > 10) : risque de nécrose\nL'injection intra-artérielle provoque spasme et ischémie
-Pourquoi faut-il rincer la ligne après le thiopental ? :: Il précipite avec les solutions acides, comme le rocuronium
 Quelle est la dose d'induction du thiopental ? :: 5 à 7 mg/kg, sans dépasser 500 mg
-Quelles sont la durée d'action et la demi-vie d'élimination du thiopental ? :: Durée d'un bolus : 5 à 15 min (redistribution)\nDemi-vie d'élimination : 6 à 11 h
-Pourquoi le thiopental est-il inutilisable en entretien d'anesthésie ? :: Accumulation massive en réinjection ou en perfusion\nRéveil prolongé et de mauvaise qualité
 Dans quelles situations le thiopental est-il encore utilisé ? :: État de mal épileptique réfractaire : anticonvulsivant puissant\nHTIC réfractaire : baisse du métabolisme cérébral, du débit sanguin cérébral et de la PIC
-Quel hypnotique IV a le délai d'action le plus court ? :: Le thiopental
-Quels sont les effets cardiovasculaires du thiopental ? :: Veinodilatation : retour veineux diminué\nEffet inotrope négatif\nChute de PA compensée par une tachycardie\nÀ retenir : prudence en cas d'hypovolémie et d'insuffisance cardiaque
-Quels sont les effets respiratoires du thiopental ? :: Dépression respiratoire centrale\nRéflexes laryngés conservés : pas d'intubation sans curare\nHypersialorrhée
 Quel hypnotique est contre-indiqué en cas de porphyrie aiguë, et pourquoi ? :: Le thiopental (barbiturique)\nIl induit la synthèse des porphyrines : risque de crise aiguë\nAlternative : propofol
 
 // ---------- Choisir l'hypnotique ----------
@@ -86,59 +54,33 @@ Quel hypnotique choisir chez un asthmatique ou un BPCO ? :: Le propofol ou la k�
 Quel hypnotique permet d'intuber sans curare ? :: Le propofol, associé à un morphinique
 
 // ---------- Benzodiazépines ----------
-Quel est le mécanisme d'action des benzodiazépines ? :: Ce sont des modulateurs positifs du récepteur GABA-A : elles potentialisent l'action du GABA
 Quels sont les effets des benzodiazépines ? :: Anxiolytique\nHypnotique et sédatif\nAmnésiant (amnésie antérograde)\nAnticonvulsivant\nMyorelaxant
 Quels sont les effets indésirables importants des benzodiazépines ? :: Dépression respiratoire, surtout associées à d'autres dépresseurs\nHypotension\nTolérance et sevrage en traitement chronique
 Qu'est-ce que l'effet paradoxal des benzodiazépines ? :: Une désinhibition au lieu d'une sédation : agitation, agressivité, logorrhée, euphorie
-Chez quels patients survient l'effet paradoxal des benzodiazépines ? :: Enfant\nSujet âgé\nÉthylisme
 Que faire devant un effet paradoxal des benzodiazépines ? :: Ne pas augmenter les doses (risque de dépression respiratoire)\nSécuriser, rassurer\nFlumazénil titré à discuter
-Quels patients exposent à une accumulation des benzodiazépines ? :: Sujet âgé\nPatient de réanimation sous perfusion\nInsuffisance hépatique, bas débit\nInsuffisance rénale (métabolite actif du midazolam)\nObésité\nInhibiteurs du CYP3A4
-Quels médicaments potentialisent les benzodiazépines ? :: Morphiniques et alcool, surtout\nAutres hypnotiques, neuroleptiques\nHydroxyzine, clonidine, dexmédétomidine, prégabaline\nRisque : sédation profonde, dépression respiratoire, hypotension
-Quels médicaments font s'accumuler les benzodiazépines en inhibant le CYP3A4 ? :: Antifongiques azolés\nMacrolides (clarithromycine)\nDiltiazem, vérapamil
 Quels sont les risques des benzodiazépines chez le sujet âgé ? :: Confusion, delirium, chutes\nDysfonction cognitive postopératoire\nÀ éviter en prémédication
-Quelle est la particularité du diazépam ? :: Une demi-vie très longue (environ 35 h)\nDes métabolites actifs\nUne biodisponibilité orale d'environ 100 %
 
 // ---------- Midazolam ----------
 Quel est le profil du midazolam ? :: Benzodiazépine à dominante sédative et amnésiante\nHydrosoluble dans l'ampoule (injection non douloureuse), liposoluble dans le sang (passage cérébral rapide)
-Pourquoi le midazolam n'est-il pas un agent d'induction ? :: C'est la plus rapide des benzodiazépines, mais il reste plus lent que le propofol
-Quelles sont les indications du midazolam ? :: Sédation procédurale\nSédation en réanimation\nÉtat de mal épileptique
 Quel est le délai de l'effet maximal du midazolam par voie IV ? :: Environ 5 min (pic plasmatique en 2 à 3 min)\nÀ retenir : attendre l'effet maximal avant de réinjecter
-Quelle est la biodisponibilité du midazolam selon la voie ? :: IV : 100 %\nIM : plus de 90 %\nRectale : environ 50 %\nOrale : environ 40 % (premier passage hépatique)
-Quelle est la demi-vie d'élimination du midazolam après un bolus ? :: Environ 2 h (1,5 à 3 h)\nNettement allongée chez le sujet âgé
 Comment titrer le midazolam pour une sédation procédurale chez l'adulte ? :: 1 à 2,5 mg IV lent\nPuis 1 mg toutes les 3 à 5 min selon l'effet
 Comment titrer le midazolam chez un sujet âgé ou associé à un morphinique ? :: 0,5 à 1 mg au départ, réinjections de 0,5 mg\nDose totale souvent inférieure à 3,5 mg
-Quels sont les effets respiratoires du midazolam ? :: Hypoventilation (volume courant et fréquence diminués)\nRéponse à l'hypercapnie et à l'hypoxie diminuée\nApnée obstructive par perte du tonus pharyngé
-Quels facteurs majorent la dépression respiratoire sous midazolam ? :: Dose élevée ou injection rapide\nMorphiniques associés\nÂge supérieur à 60 ans\nBPCO, apnée du sommeil
-Quelle est la particularité du rémimazolam ? :: Une benzodiazépine hydrolysée rapidement par des estérases (comme le rémifentanil)\nPas d'accumulation, réveil rapide\nAntagonisable par le flumazénil
 Quels pièges guettent au bloc un patient traité par benzodiazépine au long cours ? :: Tolérance : anxiété à l'arrivée, besoins accrus en propofol\nRisque de sevrage si on arrête brutalement : agitation, tremblements, convulsions, confusion
 
 // ---------- Flumazénil ----------
-Quel est le mécanisme d'action du flumazénil ? :: Antagoniste compétitif du site des benzodiazépines sur le récepteur GABA-A\nIl se fixe sans activer le récepteur
 Quelles sont les indications du flumazénil ? :: Surdosage en benzodiazépine (coma calme, dépression respiratoire, sédation trop profonde)\nRéveil prolongé après sédation au midazolam
 Quelle est la posologie du flumazénil chez l'adulte ? :: 0,2 mg IV, puis 0,1 mg toutes les 60 s selon la réponse\nMaximum : 1 mg en anesthésie, 2 mg en réanimation\nSi resédation : perfusion de 0,1 à 0,4 mg/h
-Comment préparer une seringue de flumazénil ? :: 1 ampoule de 0,5 mg dans 5 mL → 1 mL = 0,1 mg
-Quels sont le délai d'action et la demi-vie du flumazénil ? :: Délai : 1 à 2 min\nDemi-vie : 40 à 80 min, plus courte que celle de toutes les benzodiazépines
 Pourquoi faut-il surveiller longtemps un patient après du flumazénil ? :: Risque de resédation : son action est plus courte que celle de la benzodiazépine\nSurveillance prolongée, réinjections ou perfusion
 Pourquoi le flumazénil peut-il provoquer des convulsions ? :: Il lève brutalement un frein inhibiteur (GABA)\nRisque surtout chez l'épileptique traité par benzodiazépine, en cas d'intoxication aux tricycliques ou chez le patient sous benzodiazépine au long cours
 
 // ---------- Neuroleptiques ----------
-Quel est le mécanisme d'action principal des neuroleptiques ? :: L'antagonisme des récepteurs dopaminergiques (D2)
-Quelles sont les fonctions de la dopamine ? :: Plaisir et récompense\nMotricité (voie nigro-striée)\nVomissement (zone gâchette chémoréceptrice)
-Pourquoi les neuroleptiques sont-ils antiémétiques ? :: Ils bloquent les récepteurs dopaminergiques D2 de la zone gâchette chémoréceptrice, qui déclenche le vomissement
-Quelles sont les principales familles de neuroleptiques ? :: Phénothiazines : chlorpromazine, cyamémazine, lévomépromazine\nButyrophénones : dropéridol, halopéridol
 À quoi servent le dropéridol et l'halopéridol en anesthésie ? :: Dropéridol : prévention des nausées et vomissements postopératoires\nHalopéridol : délire, agitation
 Quel est le principal risque cardiaque des neuroleptiques ? :: L'allongement du QT → torsades de pointes\nBradycardie possible
 Que vérifier avant d'administrer du dropéridol ? :: ECG récent si facteur de risque\nKaliémie et magnésémie corrigées\nPas d'association avec d'autres médicaments qui allongent le QT
-Quelles sont les contre-indications du dropéridol ? :: QT long\nHypokaliémie\nSyndrome parkinsonien
 Qu'est-ce qu'un syndrome extrapyramidal sous neuroleptique ? :: Dyskinésies aiguës dès les premières doses : torticolis, crise oculogyre, trismus\nOu syndrome parkinsonien : rigidité, tremblement\nTraitement : anticholinergique
 Qu'est-ce que le syndrome malin des neuroleptiques ? :: Rigidité, hyperthermie, troubles de conscience, dysautonomie, CPK très élevées\nIl s'installe en quelques jours après l'introduction ou l'augmentation du neuroleptique
 Que faire devant un syndrome malin des neuroleptiques ? :: Arrêt immédiat du neuroleptique\nRefroidissement, réanimation\nDantrolène discuté
-Quels effets « atropiniques » peuvent donner les neuroleptiques ? :: Bouche sèche, rétention urinaire, confusion (blocage des récepteurs muscariniques)
 
 // ---------- Prémédication ----------
 Faut-il une prémédication médicamenteuse systématique ? :: Non : pas de bénéfice sur le vécu, réveil plus long\nOn privilégie la prémédication comportementale
-Quels sont les inconvénients des benzodiazépines en prémédication ? :: Amnésie des consignes en ambulatoire\nConfusion du sujet âgé\nPassage placentaire
-Quel est l'inconvénient de l'hydroxyzine en prémédication ? :: Allongement du QT et effets anticholinergiques
 En quoi consiste la prémédication comportementale ? :: Informer, expliquer le déroulé\nUtiliser un langage positif ou neutre\nFaire entrer un proche, musique
-Pourquoi éviter une benzodiazépine en prémédication avant une césarienne ? :: Passage placentaire\nRisque de détresse respiratoire et d'hypotonie du nouveau-né
-Pourquoi éviter de dire « Attention, je vais vous piquer, ne bougez pas ! » avant un geste ? :: Effet nocebo : les mots qui annoncent la douleur l'augmentent\nPréférer un langage neutre qui explique le but du geste

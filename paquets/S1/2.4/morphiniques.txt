@@ -8,28 +8,20 @@
 Quelle est la différence entre nociception et douleur ? :: Nociception : détection et transmission d'un stimulus lésionnel, même sans conscience\nDouleur : expérience consciente qui naît de l'intégration de ce message
 Pourquoi donner des morphiniques à un patient sous anesthésie générale, qui ne ressent pas la douleur ? :: La nociception persiste sous anesthésie\nElle déclenche des réponses motrices, sympathiques (tachycardie, HTA) et neuroendocriniennes
 Sur quel récepteur agissent les morphiniques utilisés en anesthésie ? :: Le récepteur µ (agonistes)
-Comment les morphiniques bloquent-ils la transmission de la douleur ? :: Dans la corne dorsale de la moelle et le cerveau : fermeture des canaux calciques et ouverture des canaux potassiques\n→ moins de libération des neurotransmetteurs de la douleur
-Quel effet des morphiniques est lié à chaque localisation de leurs récepteurs ? :: Cortex, thalamus, moelle : analgésie\nBulbe : dépression respiratoire\nArea postrema : nausées, vomissements\nTube digestif : constipation, iléus\nSphincter d'Oddi : spasme biliaire\nVessie : rétention urinaire
-Comment classe-t-on les opioïdes selon leur action sur le récepteur ? :: Agonistes purs : morphine, sufentanil, alfentanil, rémifentanil, oxycodone, méthadone\nAgoniste partiel : buprénorphine\nAgoniste-antagoniste : nalbuphine\nAntagonistes purs : naloxone, naltrexone
 
 // ---------- Molécules ----------
 Quels sont le délai, le pic et la durée d'action de la morphine IV ? :: Délai : 5 à 10 min\nPic : environ 20 min\nDurée : 3 à 4 h
-Pourquoi la morphine ne convient-elle pas à l'entretien peropératoire ? :: Elle est peu liposoluble : elle passe lentement la barrière hémato-encéphalique
-Quelles sont les utilisations de la morphine en anesthésie ? :: Titration en SSPI\nVoie intrathécale\nRelais antalgique avant l'arrêt du rémifentanil
 Pourquoi la morphine est-elle dangereuse chez l'insuffisant rénal ? :: Son métabolite M6G est actif (analgésique et dépresseur respiratoire) et éliminé par le rein\n→ accumulation : éviter ou réduire fortement
 Quels sont les effets de l'histaminolibération par la morphine ? :: Flush, prurit, hypotension\nPrudence chez l'asthmatique et l'hypovolémique
 Quels sont le délai, la durée d'un bolus et la puissance du sufentanil ? :: Délai : 2 à 4 min\nDurée d'un bolus : 30 à 60 min\nPuissance : 500 à 1 000 fois la morphine
 Quelles sont les doses de sufentanil à l'induction et en réinjection ? :: Induction : 0,1 à 0,5 µg/kg\nRéinjections : 0,1 à 0,2 µg/kg
 Quelles cibles d'AIVOC de sufentanil utilise-t-on ? :: Induction : 0,3 à 0,5 ng/mL\nEntretien : 0,1 à 0,5 ng/mL selon la stimulation
 Quels sont le délai, la durée d'un bolus et la puissance de l'alfentanil ? :: Délai : environ 1 min\nDurée d'un bolus : 10 à 15 min\nPuissance : 10 à 25 fois la morphine
-Pour quels gestes l'alfentanil est-il adapté ? :: Les gestes brefs et stimulants : chirurgie ambulatoire courte, intubation
 Comment le rémifentanil est-il éliminé, et quelle conséquence ? :: Par des estérases, indépendamment du foie et du rein\nPas d'accumulation, même après des heures de perfusion : l'effet disparaît 3 à 5 min après l'arrêt
 Quelles cibles d'AIVOC de rémifentanil utilise-t-on ? :: Induction : 3 à 6 ng/mL\nEntretien : 2 à 8 ng/mL selon la stimulation
 Quel est le principal piège du rémifentanil ? :: Il ne laisse aucune analgésie résiduelle à l'arrêt\nLe relais antalgique doit être installé avant l'arrêt
 Comment organiser le relais antalgique avant l'arrêt du rémifentanil ? :: Paracétamol, AINS, ALR ou infiltration\nMorphine environ 0,1 mg/kg, 30 min avant la fin\nÀ retenir : l'analgésie postopératoire s'anticipe, elle ne se rattrape pas
 Pourquoi l'effet du fentanyl se prolonge-t-il après une perfusion longue ? :: Après un bolus, son effet court vient de la redistribution\nEn perfusion prolongée, les tissus saturent : demi-vie contextuelle très allongée
-Quelle est la place de l'oxycodone ? :: Relais oral postopératoire, sur une durée courte\nEnviron 2 fois plus puissante que la morphine orale
-Quels sont les pièges de l'oxycodone ? :: Accumulation en insuffisance rénale ou hépatique\nInteractions avec les inhibiteurs du CYP3A4 (antifongiques azolés, clarithromycine)
 
 // ---------- Préparation ----------
 À quelle concentration prépare-t-on la morphine pour une titration ? :: 1 mg/mL
@@ -38,50 +30,30 @@ Comment prépare-t-on le rémifentanil ? :: Poudre à reconstituer puis diluer\n
 
 // ---------- Choix et administration peropératoire ----------
 Quel morphinique choisir selon la durée et le type d'intervention ? :: Courte et peu stimulante (ambulatoire) : alfentanil\nMoyenne, patient stable : sufentanil en réinjections\nLongue et stable : sufentanil en AIVOC\nLongue avec instabilité hémodynamique : rémifentanil en AIVOC
-Comment administrer un morphinique avant un temps opératoire stimulant ? :: Évaluer l'intensité du stimulus à venir et l'opioïde encore actif\nInjecter avant le stimulus pour que le pic d'effet coïncide avec lui\nAttendre le délai d'action avant de réinjecter
-Faut-il réinjecter un morphinique devant toute tachycardie ou HTA peropératoire ? :: Non : vérifier d'abord les autres causes\nHypnose insuffisante, hypercapnie, hypoxémie\nVolémie, température, vessie pleine\nCurarisation, adrénaline d'infiltration
-Une hémodynamique stable garantit-elle une analgésie suffisante ? :: Non : par exemple sous bêtabloquant ou chez le sujet âgé, la réponse hémodynamique peut manquer
-Quelles erreurs éviter avec les morphiniques en peropératoire ? :: Répéter un bolus avant son plein effet (surdosage au réveil)\nAttendre la réaction hémodynamique au lieu d'anticiper un stimulus prévisible\nArrêter le rémifentanil sans relais
-Quelle question se poser avant un bolus de morphinique en fin d'intervention ? :: « Sera-t-il encore utile quand son effet maximal surviendra ? »\nL'objectif en fin d'intervention : patient confortable, réveillable, qui ventile bien
-Quelle place ont les morphiniques dans une induction en séquence rapide ? :: Rémifentanil 1,5 à 2 µg/kg sur 30 s, ou sufentanil 0,3 à 0,5 µg/kg\nPas d'opioïde si le patient est instable
 
 // ---------- Voie périmédullaire ----------
 Quelle dose de morphine utilise-t-on par voie intrathécale ? :: 100 à 300 µg (100 µg après une césarienne)
 Quel est le risque principal de la morphine intrathécale ? :: Une dépression respiratoire retardée, jusqu'à 12 à 24 h\n→ surveillance respiratoire obligatoire
-Quelle association utilise-t-on en intrathécal pour une césarienne programmée ? :: Morphine 100 µg + sufentanil 2,5 µg, avec l'anesthésique local
-Quelle dose de sufentanil utilise-t-on en bolus péridural obstétrical ? :: 5 à 10 µg, puis perfusion associée à un anesthésique local peu concentré
-Quel est l'intérêt d'associer un morphinique à l'anesthésique local en périmédullaire ? :: Action rapide et synergie\n→ moins d'anesthésique local et moins de bloc moteur
 
 // ---------- SSPI et effets indésirables ----------
 Comment réaliser une titration de morphine en SSPI ? :: Bolus de 2 à 3 mg IV toutes les 5 à 10 min jusqu'à l'objectif de douleur\nÀ chaque palier : fréquence respiratoire et sédation\nArrêt si sédation ou bradypnée
 Quel est le signe précoce de surdosage en morphinique ? :: La sédation\nLa fréquence respiratoire baisse avant le volume courant
 Pourquoi la SpO2 est-elle un mauvais marqueur de dépression respiratoire aux morphiniques ? :: C'est un signe tardif, surtout sous O2 : une SpO2 normale n'exclut pas une hypoventilation
 Quels sont les facteurs de risque d'apnée aux morphiniques ? :: Patient : âge, obésité, apnée du sommeil, BPCO, insuffisance rénale\nTraitement : dose élevée, injection rapide, association aux benzodiazépines ou au propofol\nContexte : postopératoire immédiat, sommeil
-Quand utiliser la naloxone ? :: En cas de dépression respiratoire sévère due à un morphinique\nCe n'est pas un geste de routine pour accélérer un réveil
 Comment administrer la naloxone ? :: Titration IV : 40 à 100 µg toutes les 2 à 3 min (relais en perfusion possible)\nObjectif : ventilation suffisante en gardant l'analgésie
 Pourquoi surveiller longtemps un patient après de la naloxone ? :: Sa demi-vie (30 à 80 min) est plus courte que celle de la plupart des opioïdes : risque de renarcotisation
-Quels sont les risques d'une antagonisation brutale par la naloxone ? :: Douleur intense, HTA, tachycardie, voire œdème pulmonaire\nSevrage aigu chez le patient dépendant aux opioïdes
 Dans quelles circonstances survient une rigidité thoracique sous morphinique ? :: Bolus rapide à forte dose de sufentanil ou de rémifentanil
 Quelle est la conséquence d'une rigidité thoracique aux morphiniques, et comment la traiter ? :: Ventilation au masque impossible (paroi thoracique et cordes vocales rigides)\nTraitement : curarisation rapide\nPrévention : injection lente
-Pourquoi la bradycardie sous morphinique peut-elle faire chuter le débit cardiaque ? :: Débit = VES × FC : si le cœur ne peut pas augmenter son VES, la bradycardie fait baisser le débit\nTraitement : atropine si elle est mal tolérée
 Quels autres effets indésirables des morphiniques faut-il surveiller ? :: Nausées et vomissements\nPrurit (surtout en périmédullaire)\nRétention urinaire\nConstipation, iléus\nMyosis
 Quelle est la différence entre tolérance aiguë et hyperalgésie induite par les opioïdes ? :: Tolérance : il faut plus de morphinique pour le même effet\nHyperalgésie : le patient devient plus sensible à la douleur, via une sensibilisation centrale (récepteurs NMDA)
-Quel morphinique favorise surtout l'hyperalgésie, et quel signe doit alerter ? :: Le rémifentanil à forte dose, surtout s'il est arrêté brutalement\nAlerte : douleur qui ne cède pas ou s'aggrave malgré l'augmentation des doses
 
 // ---------- Analgésie multimodale et interactions ----------
-Quel est le principe de l'analgésie multimodale ? :: Associer des antalgiques de mécanismes différents dès l'induction\n→ meilleure analgésie avec moins de morphiniques
 Quels médicaments composent l'analgésie multimodale ? :: Paracétamol, AINS\nALR ou infiltration\nKétamine, lidocaïne IV\nClonidine, dexmédétomidine\nDexaméthasone
 Quelle interaction des morphiniques est une cause fréquente d'incidents évitables ? :: L'association aux benzodiazépines ou au propofol : synergie sur la dépression respiratoire et l'hypotension
-Quel risque expose l'association tramadol ou fentanyl et antidépresseurs ? :: Un syndrome sérotoninergique
 
 // ---------- Antagonistes et terrains ----------
 Quel est le profil de la nalbuphine ? :: Agoniste-antagoniste : agoniste κ, antagoniste µ, avec effet plafond
 Quelle dose de nalbuphine pour traiter le prurit des opioïdes ? :: 2,5 à 5 mg IV
-Pourquoi proscrire la nalbuphine chez le patient dépendant aux opioïdes ? :: Son effet antagoniste µ déclencherait un sevrage
-Comment gérer l'anesthésie d'un patient sous méthadone ou buprénorphine ? :: Maintenir le traitement de substitution\nDoses peropératoires majorées (souvent 1,5 à 2 fois) par tolérance croisée\nAnalgésie multimodale renforcée dès l'induction\nPas de nalbuphine
-Quel problème pose un traitement par naltrexone pour l'analgésie ? :: C'est un antagoniste opioïde au long cours : les morphiniques deviennent peu efficaces\nPrévoir une stratégie sans morphinique (multimodale, kétamine, ALR)
 Quel morphinique privilégier chez l'insuffisant rénal ? :: Sufentanil ou rémifentanil\nÉviter ou réduire fortement la morphine (M6G)
 Comment adapter les morphiniques chez le sujet âgé ? :: Réduire les doses de 30 à 50 %\nInjection lente, titration
 Comment doser les morphiniques chez le patient obèse ? :: Pas sur le poids total\nAIVOC sur la masse maigre
-Quelles précautions avec les morphiniques chez un patient apnéique (SAOS) ? :: Épargne morphinique (kétamine, lidocaïne, ALR)\nÉviter l'association aux benzodiazépines\nSurveillance prolongée en position demi-assise
-Pourquoi limiter le fentanyl et le rémifentanil avant le clampage du cordon ? :: Ils passent rapidement le placenta
