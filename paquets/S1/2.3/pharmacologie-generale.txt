@@ -8,36 +8,23 @@
 Qu'étudie la pharmacocinétique ? :: L'évolution des concentrations du médicament dans l'organisme au cours du temps\nC'est « ce que l'organisme fait au médicament »\nÀ retenir : elle suit le trajet du produit, de l'administration à l'élimination (ADME)
 Qu'étudie la pharmacodynamie ? :: Les effets du médicament sur l'organisme et la façon dont ils se produisent (interaction avec le récepteur)\nC'est « ce que le médicament fait à l'organisme »
 Que signifie l'acronyme ADME en pharmacocinétique ? :: Absorption\nDistribution\nMétabolisme\nÉlimination
-Quels facteurs influencent l'absorption d'un médicament ? :: Voie d'administration\nDose\nIonisation\nPassage des membranes\nLiaison aux protéines\nDébit sanguin local
-Quelle voie d'administration sert de référence en pharmacocinétique, et pourquoi ? :: La voie intraveineuse\nLe médicament est placé directement dans le compartiment vasculaire : toute la dose atteint la circulation générale
-Quel médicament peut-on donner par voie rectale, par voie intrathécale, et par voie orale ou IV ? :: Rectale : diazépam\nIntrathécale : bupivacaïne\nOrale ou IV : paracétamol\nÀ retenir : retenir la DCI, le nom commercial peut changer
 Qu'est-ce que la Cmax d'un médicament ? :: La concentration plasmatique maximale atteinte après l'administration (le sommet de la courbe)
 Qu'est-ce que le Tmax d'un médicament ? :: Le temps nécessaire pour atteindre la Cmax
 Que représente l'aire sous la courbe (ASC) des concentrations plasmatiques ? :: L'exposition totale de l'organisme au médicament\nElle sert notamment à calculer la biodisponibilité
 Qu'est-ce que la demi-vie d'élimination d'un médicament ? :: Le temps nécessaire pour que sa concentration plasmatique diminue de moitié
 Qu'est-ce que l'effet de premier passage hépatique ? :: Par voie orale, le médicament passe par l'intestin, la veine porte puis le foie avant la circulation générale\nUne partie est transformée par le foie avant d'atteindre la circulation\nÀ retenir : la dose orale est souvent plus élevée que la dose IV pour un même effet
 Qu'est-ce que la biodisponibilité d'un médicament ? :: La fraction de la dose administrée qui atteint la circulation générale\nRéférence : la voie IV (100 %)\nElle se calcule en comparant les aires sous la courbe
-Le repas peut-il modifier l'absorption d'un médicament pris par voie orale ? :: Oui\nExemple du cours : pour une même consommation d'éthanol, les courbes de concentration diffèrent à jeun et après un repas
 Qu'est-ce que le cycle entérohépatique ? :: Le médicament ou son métabolite (ex. dérivé glucuronoconjugué) est éliminé dans la bile vers l'intestin\nUne partie est réabsorbée et revient dans la circulation\nÀ retenir : il prolonge la présence du médicament dans l'organisme
 
 // ---------- Distribution ----------
-Sous quelles formes un médicament circule-t-il dans le sang ? :: Une forme liée aux protéines et une forme libre\nLes deux sont en équilibre réversible : le médicament se lie puis se détache\nCet équilibre suit la loi d'action de masse
 Quelle est la seule forme active d'un médicament dans le sang ? :: La forme libre\nSeule la forme libre se fixe sur le récepteur, diffuse dans les tissus et est filtrée par le rein
-Quelles protéines plasmatiques transportent les médicaments ? :: Albumine\nGlycoprotéine acide\nLipoprotéines
 Quelle est la conséquence d'une baisse de l'albumine pour un médicament très lié aux protéines ? :: Moins de forme liée → plus de forme libre\n→ effet plus important, risque de surdosage\nSituations : dénutrition, cirrhose, grossesse, réanimation\nÀ retenir : titrer
 Qu'est-ce que le volume de distribution d'un médicament ? :: Le volume fictif dans lequel le médicament se répartirait à la même concentration que dans le plasma\nQuantité dans l'organisme = volume de distribution × concentration plasmatique
 Que signifie un volume de distribution élevé ? :: Le médicament diffuse et se stocke beaucoup dans les tissus (molécules liposolubles)\nPour une même dose, sa concentration plasmatique est plus basse
-Quels états du patient modifient la distribution d'un médicament ? :: Âge et déshydratation : volumes d'eau différents\nObésité : plus de tissu adipeux\nÉtat de choc, insuffisance cardiaque : transport par le sang vers les tissus diminué\nBaisse des protéines plasmatiques : plus de forme libre
 Pourquoi un médicament liposoluble comme le sévoflurane peut-il retarder le réveil chez le patient obèse ? :: Il se stocke dans le tissu adipeux, plus abondant chez l'obèse\nIl est ensuite relargué progressivement dans le sang\nÀ retenir : anticiper l'arrêt de l'administration pour le réveil
-Quelle est la différence entre la diffusion passive et le transport actif à travers une membrane ? :: Diffusion passive : suit le gradient de concentration, sans énergie, jusqu'à l'équilibre\nTransport actif : utilise des protéines membranaires, peut aller contre le gradient et consomme de l'ATP
 
 // ---------- Métabolisme et élimination ----------
-Quel est le principal organe de transformation des médicaments ? :: Le foie\nIl transforme le médicament en métabolites, actifs ou inactifs\nSon état et l'activité de ses enzymes modifient le devenir du produit
-Pourquoi deux patients recevant la même dose n'obtiennent-ils pas le même effet ? :: Fonction hépatique et activité des enzymes différentes\n- Métaboliseurs lents, rapides ou ultrarapides\nTraitements et substances consommées par le patient\nÂge, volumes d'eau, protéines plasmatiques\nÀ retenir : c'est la raison de la titration
 Qu'est-ce que la clairance d'un médicament ? :: Le volume de plasma totalement épuré du médicament par unité de temps (en mL/min)
-Comment obtient-on la clairance totale d'un médicament ? :: En additionnant les clairances de chaque organe d'élimination : rénale, hépatique, pulmonaire…
-Quels mécanismes rénaux déterminent la clairance rénale d'un médicament ? :: Filtration glomérulaire (de la forme libre)\nSécrétion tubulaire\nRéabsorption tubulaire, qui la diminue\nLe pH urinaire et l'ionisation interviennent aussi
-En dehors du rein et du foie, par quelles voies un médicament peut-il être éliminé ? :: Poumons : gaz et anesthésiques inhalés\nSalive : faible, mais utile pour dépister une consommation de substances\nLait maternel : penser à l'enfant allaité
 Comment évolue le rocuronium chez un patient en insuffisance hépatocellulaire ? :: Volume de distribution augmenté\nDurée d'action augmentée\nÀ retenir : exemple de variabilité pharmacocinétique → monitorer la curarisation
 
 // ---------- Administrations répétées ----------
@@ -47,9 +34,7 @@ Pourquoi une PCA de morphine réglée de façon standard est-elle dangereuse che
 Qu'est-ce que la demi-vie contextuelle ? :: Le temps nécessaire pour que la concentration diminue de moitié après l'arrêt d'une perfusion\nElle dépend de la durée de la perfusion
 
 // ---------- Pharmacodynamie ----------
-Qu'est-ce qu'un récepteur en pharmacologie ? :: La « serrure » sur laquelle se fixe le médicament, la « clé »\nL'interaction est spécifique et saturable
 Quelle est la différence entre un agoniste et un antagoniste ? :: Agoniste : se fixe sur le récepteur et l'active → effet\nAntagoniste : occupe le récepteur sans l'activer → s'oppose à l'effet\nExemples d'antagonistes : naloxone (morphiniques), flumazénil (benzodiazépines)
-Que signifie qu'un récepteur est saturable ? :: À partir d'un certain point, tous les récepteurs sont occupés\nAugmenter la dose n'augmente alors plus l'effet
 Qu'est-ce que la DE50 d'un médicament ? :: La dose qui permet d'obtenir 50 % de l'effet maximal
 Que représente le plateau Emax d'une courbe dose-effet ? :: L'effet maximal\nAu-delà, augmenter la dose n'apporte plus d'effet supplémentaire
 Qu'est-ce que la puissance d'un médicament ? :: Plus la dose ou la concentration (CE50) nécessaire pour obtenir un effet est faible, plus le médicament est puissant
@@ -58,19 +43,15 @@ Pourquoi un anesthésique local injecté près d'un nerf peut-il devenir toxique
 Qu'est-ce que la titration d'un médicament ? :: Administrer le médicament, observer la réponse du patient, puis poursuivre jusqu'à obtenir l'effet recherché\nElle répond à la variabilité entre patients
 
 // ---------- Modèles et AIVOC ----------
-Quels sont les compartiments d'un modèle pharmacocinétique à trois compartiments ? :: V1, central : lieu d'injection et d'élimination\nV2 : distribution rapide (organes très perfusés)\nV3 : distribution lente (graisse, tissus peu perfusés)
 Qu'est-ce que le compartiment effet ? :: Un compartiment virtuel qui représente le site d'action du médicament\nIl explique le décalage dans le temps entre la concentration plasmatique et l'effet\nÀ retenir : respecter le délai d'action avant de réinjecter
 Qu'est-ce que l'AIVOC ? :: L'anesthésie intraveineuse à objectif de concentration\nOn choisit une concentration cible (plasma ou site effet)\nLa pompe calcule et adapte le débit grâce à un modèle pharmacocinétique
-Quels modèles d'AIVOC utilise-t-on pour le propofol et pour le rémifentanil ? :: Propofol : Schnider ou Eleveld\nRémifentanil : Minto
 Qu'est-ce que la dexmédétomidine et quel est son principal risque ? :: Un agoniste alpha-2 utilisé pour la sédation, avec un intérêt dans l'épargne opioïde\nRisque : bradycardie, surtout en cas de bolus trop important
-Comment suit-on la dose d'halogéné délivrée pendant l'entretien de l'anesthésie ? :: Par la fraction expirée d'halogéné mesurée par l'analyseur de gaz\nCertaines machines fonctionnent en boucle fermée : elles comparent la fraction expirée à la cible et ajustent l'apport
 
 // ---------- Sécurité et calculs ----------
 Quelles règles de sécurité s'appliquent à l'administration d'un médicament injectable ? :: Bon produit\nBonne dose\nBonne voie\nBon débit\nRègles d'hygiène\nÀ retenir : lire le nom ET la concentration sur l'étiquette
 Qu'est-ce qu'une communication en boucle fermée ? :: La demande est énoncée (produit, dose, voie)\nL'IADE la répète à voix haute\nLe prescripteur confirme
 De quelle couleur sont les étiquettes des seringues d'opioïdes, d'hypnotiques et de curares ? :: Opioïdes : bleu\nHypnotiques : jaune\nCurares : rouge\nÀ retenir : lire l'étiquette reste indispensable
 Quel est le piège des seringues préremplies ? :: Un même médicament peut exister en plusieurs concentrations\nExemple : atropine à 0,1 et à 0,2 mg/mL\n→ toujours lire la concentration
-À combien de cm³ correspond 1 mL ? :: 1 mL = 1 cm³
 Que signifie une concentration exprimée en pourcentage ? :: X % = X grammes pour 100 mL\nExemple : NaCl à 20 % = 20 g pour 100 mL, donc une ampoule de 10 mL contient 2 g
 Combien de grammes de glucose contient une poche de 500 mL de G5 ? :: 25 g\nG5 = glucose à 5 % = 5 g pour 100 mL → 5 × 500 / 100 = 25 g
 Comment préparer une seringue de 5 mL de fentanyl pour pouvoir injecter 5 µg, à partir d'une ampoule de 100 µg/2 mL ? :: Concentration de l'ampoule : 50 µg/mL\nPrélever 1 mL (50 µg) + 4 mL de sérum physiologique → 5 mL à 10 µg/mL\n5 µg = 0,5 mL
