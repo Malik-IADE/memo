@@ -13,8 +13,6 @@ Quelles sont les complications respiratoires de la chirurgie abdominale ? :: Hyp
 Comment la chirurgie abdominale modifie-t-elle les volumes pulmonaires ? :: Syndrome restrictif immédiat, plus marqué en sus-mésocolique\nCV diminuée (maximum à la 4e heure), CRF diminuée (maximum vers la 16e heure)\nNormalisation lente : 7 à 15 jours
 Pourquoi le diaphragme fonctionne-t-il mal après une chirurgie abdominale ? :: Agression chirurgicale et surtout inhibition réflexe par les récepteurs nociceptifs abdominaux\nDysfonction immédiate, pendant environ 8 jours : respiration thoracique, superficielle
 Pourquoi le patient est-il hypoxémique après une chirurgie abdominale ? :: Précocement : effets résiduels (curares, morphiniques), VO2 augmentée (frissons)\nPuis : effet shunt (atélectasies), dysfonction diaphragmatique, CRF diminuée
-//= Quel score prédit le risque respiratoire postopératoire ?
-À quoi sert le score ARISCAT, et quels sont ses niveaux ? :: Intérêt : prédire le risque de complications respiratoires postopératoires (score cumulatif en points)\nItems : âge, SpO2 préopératoire, infection respiratoire < 1 mois, anémie (Hb ≤ 10 g/dL), incision abdominale haute ou intrathoracique, durée, urgence\n< 26 points : risque faible\n26 à 44 : risque intermédiaire\n≥ 45 : risque élevé
 Comment prévenir les complications respiratoires en chirurgie abdominale ? :: Ventilation protectrice : Vt 6-8 mL/kg de poids idéal, PEP ≥ 5, recrutements\nDécurarisation vérifiée (TOF ≥ 0,9)\nÉpargne morphinique, péridurale si laparotomie\nKinésithérapie, mobilisation précoce
 
 // ---------- Hémodynamique, rein, digestif ----------

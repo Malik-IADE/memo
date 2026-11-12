@@ -19,8 +19,6 @@ Quels sont les critères phénotypiques de dénutrition ? :: Perte de poids ≥ 
 Quels sont les critères étiologiques de dénutrition ? :: Apports réduits d'au moins 50 % pendant plus d'une semaine, ou toute baisse de plus de 2 semaines\nMalabsorption, maldigestion\nAgression : pathologie aiguë, chronique évolutive ou maligne\nEn périopératoire : chirurgie à risque intermédiaire ou élevé, cancer
 Quels critères définissent une dénutrition sévère ? :: IMC ≤ 17 (< 20 après 70 ans)\nPerte ≥ 10 % en 1 mois, ≥ 15 % en 6 mois ou par rapport au poids habituel\nAlbuminémie ≤ 30 g/L
 Quel est le rôle de l'albuminémie dans la dénutrition ? :: C'est un marqueur de sévérité et de pronostic, plus un critère diagnostique\nModérée : 30 à 35 g/L ; sévère : ≤ 30 g/L\nÀ interpréter avec la CRP et l'hydratation
-//= Quels scores évaluent le risque nutritionnel ?
-Quels scores évaluent le risque nutritionnel, et quels sont leurs niveaux ? :: Intérêt : passer d'une impression générale à un niveau de risque utilisable\nGNRI (albumine et poids / poids idéal) : > 98 pas de risque ; 92-98 faible ; 82-91 modéré ; < 82 majeur\nCONUT (albumine, lymphocytes, cholestérol), de 0 à 12 : 2-4 léger ; 5-8 modéré ; 9-12 sévère\nÀ retenir : CONUT > 1 = risque de complications postopératoires accru
 
 // ---------- Prise en charge nutritionnelle ----------
 Chez qui rechercher une dénutrition avant une chirurgie ? :: Avant toute chirurgie, urgente ou programmée, à risque intermédiaire ou élevé\nPériode concernée : de 4 à 6 semaines avant jusqu'à J14

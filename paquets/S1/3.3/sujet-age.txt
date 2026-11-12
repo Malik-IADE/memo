@@ -23,8 +23,6 @@ Comment conduire une anesthésie générale chez le sujet âgé ? :: Doses rédu
 Quel morphinique privilégier pendant l'anesthésie du sujet âgé ? :: Le rémifentanil : courte durée d'action, peu d'accumulation\nTous les morphiniques sont réduits et titrés
 
 // ---------- Consultation ----------
-//= Quels outils permettent de dépister la fragilité ?
-Quels outils dépistent la fragilité, et comment les interpréter ? :: Intérêt : dépister la fragilité avec un outil, pour peser le rapport bénéfice/risque\nCFS (Clinical Frailty Scale) : du patient robuste au vulnérable, puis légèrement, modérément ou extrêmement fragile\nQuestionnaire Q8 : appétit, poids, mobilité, troubles neuropsychologiques, IMC, polymédication\n≤ 14 points : vulnérabilité ou fragilité, proposer une évaluation gériatrique
 Quels sont les facteurs de risque de délire postopératoire ? :: Âge, sexe masculin\nTroubles cognitifs, antécédent de confusion, démence, dépression\nDépendance, immobilité, chutes\nBaisse de la vue ou de l'audition\nDénutrition, déshydratation\nAnticholinergiques, benzodiazépines
 
 // ---------- Technique anesthésique ----------
