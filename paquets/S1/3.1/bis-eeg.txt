@@ -1,0 +1,91 @@
+// Cours 3.1 – BIS : monitorage de l'activité corticale
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Les cas historiques, études, chiffres d'incidence et noms cités dans le support ne sont pas repris.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – BIS et monitorage de l'EEG
+
+// ---------- Pourquoi monitorer ----------
+Pourquoi monitorer l'activité corticale pendant l'anesthésie ? :: La réponse aux hypnotiques varie beaucoup d'un patient à l'autre\nLa même dose peut donner un sous-dosage (éveil, mémorisation) ou un surdosage\nÀ retenir : la concentration renseigne sur l'exposition, l'EEG sur l'effet cérébral
+Pourquoi l'immobilité du patient ne suffit-elle pas à exclure une mémorisation ? :: Un patient curarisé ne peut pas bouger\nL'immobilité ne dit rien de l'effet cortical de l'hypnotique
+Pourquoi la MAC ne renseigne-t-elle pas sur l'hypnose ? :: C'est un critère moteur : la concentration où 50 % des patients ne bougent pas à l'incision\nDeux patients à la même MAC peuvent avoir des hypnoses différentes
+Quelles sont les composantes de la profondeur de l'anesthésie, et leur cible anatomique ? :: Amnésie et déconnexion de l'environnement : cortex\nBlocage de la réponse autonome à la nociception : moelle épinière\nBlocage de la réponse motrice : moelle épinière et jonction neuromusculaire
+Quel monitorage correspond à chaque composante de l'anesthésie ? :: EEG frontal : hypnose\nMonitorage de la nociception : antinociception\nMonitorage neuromusculaire : curarisation
+L'EEG permet-il de prévoir un mouvement du patient ? :: Non : il évalue les effets corticaux, pas les effets médullaires\nUn mouvement réflexe reste possible avec un EEG d'hypnose → rechercher une antinociception insuffisante
+Quels patients sont les plus exposés à une mémorisation peropératoire ? :: Femme, sujet jeune, antécédent de mémorisation\nCurarisation, AIVOC sans monitorage EEG (éveil difficile à repérer)\nPas de benzodiazépine en prémédication
+Quelles sont les causes de sous-dosage en hypnotique ? :: Intentionnel, par crainte hémodynamique : patient hypotendu, chirurgie cardiaque, polytraumatisé, ASA 3-4\nNon intentionnel : intubation difficile sans relais de l'hypnose, erreur d'injection\nPharmacocinétique : grossesse, césarienne\nPharmacodynamique : alcoolisme, psychotropes au long cours
+Quelles sont les conséquences d'une mémorisation peropératoire ? :: Séquelles psychologiques, stress post-traumatique\nRisque majoré par la détresse, la douleur et la sensation de paralysie
+Quel questionnaire permet de dépister une mémorisation peropératoire ? :: Le questionnaire de Brice (rappel guidé)
+
+// ---------- Lire l'EEG ----------
+Pourquoi l'EEG brut est-il le paramètre le plus robuste du moniteur ? :: Tous les autres paramètres (indice, SR, SEF, EMG) en découlent\nUn EEG artéfacté fausse tous les paramètres dérivés
+Quels réglages de l'EEG peut-on modifier sur le moniteur ? :: L'amplitude : zoom vertical (µV)\nLa vitesse de défilement : étirement du tracé (mm/s)
+Quelle activité enregistrent les électrodes du BIS ? :: Surtout l'activité frontale\nUn montage unilatéral n'analyse qu'un côté
+Quelle est la différence entre fréquence et amplitude d'une onde EEG ? :: Fréquence (Hz) : vitesse de répétition des ondes, reflète la vitesse de fonctionnement des neurones\nAmplitude (µV) : hauteur des ondes, reflète leur synchronisation et détermine la puissance
+Quelles sont les bandes de fréquences de l'EEG ? :: Delta : 1 à 4 Hz\nThêta : 4 à 8 Hz\nAlpha : 8 à 12 Hz\nBêta : 15 à 30 Hz\nGamma : plus de 30 Hz
+Quel est l'aspect de l'EEG chez un patient éveillé ? :: Fréquence élevée, amplitude faible\nTracé complexe, sans motif, avec une part d'activité musculaire\nÀ retenir : un tracé plat n'existe pas en physiologie
+Pourquoi l'amplitude de l'EEG augmente-t-elle sous hypnotique GABAergique ? :: Les neurones se synchronisent : leurs potentiels s'additionnent\nÀ l'éveil, l'activité désynchronisée donne une faible amplitude
+Quel est l'aspect de l'EEG sous propofol en entretien ? :: Motif alpha-delta : ondes alpha (autour de 10 Hz) superposées à des ondes delta lentes\nMoins d'ondes rapides et d'activité musculaire, amplitude plus grande
+Comment évolue l'EEG au cours d'une induction au propofol ? :: Éveil : tracé rapide et peu ample\nSédation légère : ondes bêta\nHypnose : motif alpha-delta\nApprofondissement : pré-burst, puis burst-suppression, puis tracé plat
+Qu'est-ce qu'un motif de pré-burst ? :: La disparition des ondes alpha au profit de grandes ondes delta\nIl annonce un approfondissement excessif, avant même les plages plates
+Qu'est-ce que le burst-suppression ? :: Une alternance de bouffées d'activité et de plages plates ou quasi plates\nC'est un signe d'inhibition corticale excessive
+Pourquoi poser le capteur BIS avant l'induction ? :: Pour connaître l'EEG et le BIS de départ du patient\nCertains patients (atteinte cérébrale) ont un BIS déjà bas à l'éveil : la variation compte plus que la valeur
+
+// ---------- Qualité du signal ----------
+Qu'est-ce que l'impédance des électrodes EEG ? :: La résistance au passage du signal entre la peau et l'électrode\nElle doit être basse et équilibrée entre les électrodes (écart < 2-3 kΩ)
+Comment améliorer l'impédance des électrodes EEG ? :: Peau sèche\nLégère abrasion à la compresse sèche\nGel conducteur sans excès\nBonne fixation
+Quelles interférences électromagnétiques perturbent l'EEG ? :: Réseau électrique (prises, câbles, transformateurs) : en cas de doute, tester le mode batterie\nBistouri électrique\nBoucles de masse\nAppareils électroniques proches, dont les smartphones
+Quels indices renseignent sur la qualité du signal EEG ? :: Le SQI (Signal Quality Index) pour le BIS\nL'ART pour le SedLine\nÀ retenir : un artéfact reste possible malgré un indice normal
+
+// ---------- Paramètres dérivés ----------
+Qu'est-ce que le ratio de suppression (SR ou BSR) ? :: Le pourcentage du temps où le tracé est plat sur la fenêtre analysée\nObjectif en entretien : 0 %
+Pourquoi viser un ratio de suppression à 0 % ? :: Le burst-suppression est associé au delirium postopératoire, surtout chez les patients fragiles
+Qu'est-ce que la SEF95 ? :: La fréquence sous laquelle se trouvent 95 % de la puissance du signal EEG\nSous propofol stable : proche de la limite haute de la bande alpha ; plus haute à l'éveil
+Que représente la matrice de densité spectrale (MDS) ? :: La répartition de la puissance du signal EEG selon les fréquences, au cours du temps
+Que représente l'indice EMG affiché par le BIS ? :: Une estimation de la puissance des hautes fréquences (70-110 Hz), en dB\nCe n'est pas un vrai EMG : activité musculaire, bruit électrique et vibrations y contribuent
+Qu'est-ce qu'un indice propriétaire comme le BIS ? :: Une valeur calculée par l'algorithme d'un fabricant à partir de plusieurs paramètres de l'EEG\nFacile à lire et permet une alarme, mais son calcul n'est pas public
+Quelles sont les cibles du BIS et du PSI sous anesthésie générale ? :: BIS : 40 à 60 (comme l'entropie)\nPSI (SedLine) : 25 à 50
+Quelles composantes de l'EEG pèsent le plus dans le calcul du BIS ? :: La répartition des fréquences (ratio bêta relatif)\nLes hautes fréquences, dont l'EMG\nLe ratio de suppression
+Quelle est la différence entre State Entropy et Response Entropy ? :: State Entropy (SE) : 0,8 à 32 Hz, reflète l'activité corticale\nResponse Entropy (RE) : 0,8 à 47 Hz, intègre aussi l'EMG\nUn écart RE-SE peut traduire une réaction à une stimulation
+
+// ---------- BIS bas ----------
+Quels mécanismes peuvent ralentir l'EEG et faire baisser le BIS ? :: Dépression métabolique : hypnotiques GABAergiques, hypothermie\nManque d'oxygène : hypotension, bas débit, hypoxémie, HTIC\nManque de substrat : hypoglycémie
+Quelles causes rechercher devant une chute brutale du BIS sans changement d'hypnotique ? :: Hypotension, bas débit, arrêt cardiaque\nHypoxémie\nÉvénement cérébral : embolie, ischémie, hémorragie\nHypoglycémie (patient sous insuline)\nHypothermie
+Quelles fausses causes peuvent donner un BIS bas ? :: EEG très microvolté (fausse détection de suppression)\nProblème de capteur ou d'impédance\nCurare chez un patient éveillé ou peu sédaté
+Que suspecter devant un tracé plat sur une seule dérivation EEG ? :: Une lésion cérébrale focale (compression, hémorragie) ou un problème de capteur\nComparer les canaux : l'indice global ne suffit pas
+
+// ---------- BIS haut ----------
+Quelles causes d'éveil cortical font monter le BIS ? :: Hausse progressive : sous-dosage en hypnotique\nHausse brutale sous anesthésie légère : stimulation nociceptive mal couverte, décurarisation brutale
+Quelles causes accélèrent l'EEG et font monter le BIS sans éveil ? :: Kétamine, protoxyde d'azote\nActivité musculaire intense malgré une anesthésie profonde (frissons)\nCrise d'épilepsie
+Quels artéfacts font monter faussement le BIS ? :: ECG ou pacemaker captés\nMobilisation de la tête (ORL, neurochirurgie)\nHautes fréquences : bistouri électrique, couverture chauffante à air pulsé, shaver\nProblème de capteur ou d'impédance
+
+// ---------- Limites ----------
+Pourquoi regarder l'EEG brut plutôt que le BIS lors d'une transition rapide ? :: Le BIS est calculé avec un délai (15 à 45 s)\nÀ l'induction, l'EEG peut déjà montrer une hypnose alors que le BIS reste haut
+Comment un artéfact modifie-t-il le BIS ? :: Il ajoute de l'activité : le BIS augmente faussement\nUn ECG capté peut masquer un tracé plat
+Comment reconnaître un artéfact à haute fréquence sur l'EEG ? :: Tracé brouillé ou flou\nForte activité EMG chez un patient curarisé\nDisparition quand la source s'arrête (bistouri, couverture chauffante)
+Que faire devant un BIS anormalement haut avec un tracé alpha-delta ? :: Rechercher un artéfact à haute fréquence avant d'approfondir l'anesthésie
+Un BIS entre 40 et 60 exclut-il un surdosage ? :: Non : l'algorithme pèse peu un ratio de suppression modéré\nUne suppression visible (SR > 0 %) est possible avec un BIS dans la cible
+Qu'est-ce que le plateau d'incertitude du BIS ? :: Entre 35 et 60 environ, un même niveau de sédation peut donner des BIS différents, et inversement\nLe BIS distingue bien les extrêmes, moins bien les niveaux intermédiaires
+Quand la SEF95 n'est-elle pas interprétable ? :: Pendant le burst-suppression\nAu début de l'induction (phase bêta)\nQuand le filtre du BIS est activé
+Un BIS stable exclut-il un éveil cortical bref ? :: Non : un indice isolé peut manquer un éveil\nÀ retenir : ne pas alléger fortement l'anesthésie sur la seule valeur de l'indice
+Pourquoi le BIS est-il peu interprétable sous kétamine ? :: Les indices sont calibrés pour les hypnotiques GABAergiques\nSous propofol, la kétamine accélère l'EEG : le BIS et la SEF95 montent sans réveil
+Que faire face à une discordance entre la valeur du BIS et le tracé EEG ? :: Revenir au tracé brut, au SR, à la qualité du signal et au contexte\nComprendre la discordance avant d'ajuster l'hypnose
+
+// ---------- Nociception ----------
+L'EEG est-il l'outil de choix pour évaluer la nociception ? :: Non, mais une stimulation nociceptive peut modifier l'EEG\nUn BIS labile doit faire rechercher une antinociception insuffisante
+Comment l'EEG réagit-il à une stimulation nociceptive selon la profondeur de l'hypnose ? :: Hypnose légère : éveil bêta, hausse du BIS et de l'EMG (sans curare)\nHypnose profonde : réaction paradoxale (perte de l'alpha, plus de delta), baisse possible du BIS
+
+// ---------- EMG et curares ----------
+Comment l'EMG évolue-t-il avec la profondeur de la sédation ? :: Il diminue quand la sédation s'approfondit\nIl augmente lors d'un éveil ou d'une stimulation nociceptive
+Un curare fait-il dormir le patient ? :: Non : il ne provoque aucune hypnose\nMais il supprime des afférences musculaires qui stimulent le cortex : il réduit les besoins en anesthésique
+Comment un curare modifie-t-il le BIS selon la situation ? :: Patient éveillé : le BIS baisse (perte de l'EMG) sans aucune hypnose\nAnesthésie légère avec activité musculaire : le BIS baisse alors que l'hypnose est inchangée\nAnesthésie profonde sans activité musculaire : pas d'effet\nAnesthésie profonde avec activité musculaire inhabituelle : le curare supprime l'EMG qui élevait faussement le BIS
+Pourquoi le BIS monte-t-il après une décurarisation ? :: Retour de l'EMG dans les hautes fréquences\nParfois véritable éveil cortical, par les afférences musculaires, si l'hypnose est légère
+
+// ---------- Sujet âgé ----------
+Comment l'EEG du sujet âgé ou fragile répond-il aux anesthésiques ? :: Puissance réduite dans toutes les bandes\nPerte de la bande alpha\nGrande sensibilité au burst-suppression\nÀ retenir : l'indice peut être pris en défaut et mener à un surdosage
+Quels réglages adapter pour lire l'EEG d'un sujet âgé ? :: EEG : zoomer en adaptant l'échelle d'amplitude\nMDS : baisser la borne haute de l'échelle de puissance
+Pourquoi préférer une induction titrée chez le sujet âgé ? :: La brutalité de l'induction a des effets qui persistent pendant l'anesthésie\nLe burst-suppression et une faible puissance alpha sont associés à un mauvais pronostic
+
+// ---------- Intérêt clinique ----------
+Quels sont les bénéfices d'un monitorage EEG par rapport à la clinique seule ? :: Moins de sous-dosages : moins de mémorisation en AIVOC\nMoins de surdosages : moins de vasopresseurs, réveil plus précoce, sortie de SSPI plus rapide
+Quelle valeur de BIS viser pendant l'entretien ? :: Éviter une cible trop profonde : viser un BIS autour de 50\nPas plus de mémorisation, moins de delirium et de vasopresseurs

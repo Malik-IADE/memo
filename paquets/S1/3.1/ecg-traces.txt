@@ -1,4 +1,4 @@
-// Cours 3.1 – ECG en anesthésie : cours et analyse de tracés (cartes mélangées)
+// Cours 3.1 – ECG : analyse de tracés (cartes à image uniquement)
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
 // Image : [img:images/fichier.jpg] (chemin relatif au dossier de ce fichier).
 // Tracés : LITFL ECG Library (litfl.com/ecg-library), licence CC BY-NC-SA 4.0 — usage non commercial, source citée.
@@ -15,111 +15,23 @@
 
 # IADE – ECG
 
-// ---------- Bases et physiologie ----------
-//= ECG au bloc : quels sont les 3 réflexes de base ?
-Quels sont les 3 réflexes de base face à l'ECG au bloc ? :: Vérifier les électrodes (bon emplacement, bien écartées, près des plans osseux)\nAfficher DII sur le scope\nDevant tout trouble de conduction ou du rythme : penser kaliémie → gaz du sang\nUn tracé parasité (mouvements, frissons, convulsions, bistouri) ne s'interprète pas
-Quel est le code couleur des 4 électrodes des membres ? :: Rouge : bras droit\nJaune : bras gauche\nNoir : jambe droite\nVert : jambe gauche\nMoyen mnémotechnique : à droite « le sang sur le béton » (rouge, noir), à gauche « le soleil sur la prairie » (jaune, vert)
-//= Automatisme cardiaque : qu'est-ce que c'est et quel rôle pour le système végétatif ?
-Qu'est-ce que l'automatisme cardiaque et quel rôle y joue le système végétatif ? :: Le cœur génère lui-même ses potentiels d'action (cellules du nœud sinusal à dépolarisation spontanée)\nLe système végétatif ne fait que moduler la fréquence\nEx. : le cœur greffé, dénervé, bat seul\nConséquence : un trouble de conduction ou du rythme vient du cœur lui-même (tissu, ions, ischémie, toxiques)
-//= Potentiel d'action cardiaque : quels ions et quelle conséquence pratique ?
-Quels ions interviennent dans le potentiel d'action cardiaque, et quelle conséquence pratique en tirer ? :: Au repos : cellule négative (≈ −90 mV) ; Na⁺ surtout dehors, K⁺ surtout dedans (pompe Na⁺/K⁺)\nDépolarisation : entrée de Na⁺\nPlateau : entrée de Ca²⁺ → contraction prolongée (systole)\nRepolarisation : sortie de K⁺\nConséquence : une anomalie du potassium perturbe conduction et rythme
-//= Réseau de His-Purkinje : à quoi sert-il et que se passe-t-il si une branche est bloquée ?
-À quoi sert le réseau de His-Purkinje et que se passe-t-il si une de ses branches est bloquée ? :: « Autoroute » de conduction, bien plus rapide que le muscle\nAmène l'influx à la pointe : les ventricules se contractent de bas en haut (le sang sort par le haut)\nBranche bloquée : l'influx passe par le muscle, lentement → QRS élargi (bloc de branche)
-//= Parasympathique : effets sur le cœur et médicaments concernés ?
-Quels sont les effets du parasympathique sur le cœur et quels médicaments agissent par cette voie ? :: Frein : acétylcholine, nerf vague → ralentit\nPrédomine au repos (bradycardie du sportif)\nMalaise vagal : bradycardie + hypotension → atropine\nNéostigmine (décurarisation) : augmente l'acétylcholine → risque de bradycardie\nAtropine : antagoniste → accélère
-//= Sympathique : effets sur le cœur et médicaments concernés ?
-Quels sont les effets du sympathique sur le cœur et quels médicaments agissent par cette voie ? :: Accélérateur : noradrénaline, récepteurs bêta\n↑ fréquence, contractilité, excitabilité\nActivé par stress, douleur, hypovolémie, anémie\nAgonistes (noradrénaline, adrénaline, dobutamine, éphédrine) : tachycardie, risque de troubles du rythme\nAntagonistes : bêtabloquants (bradycardisants)
-
-// ---------- Mesurer et lire l'ECG ----------
-//= ECG et papier : quelles conventions ?
-Quelles sont les conventions du papier ECG (vitesse, carreaux) ? :: Vitesse : 25 mm/s\nHorizontal (temps) : 1 petit carreau = 0,04 s ; 1 grand carreau = 0,20 s ; 5 grands carreaux = 1 s\nVertical (voltage) : 1 petit carreau = 0,1 mV\nECG standard : 10 électrodes pour 12 dérivations\nÉlectrocardiographe : imprime ; électrocardioscope (scope) : affiche en continu
-//= Dérivations : que regarde chacune ?
-Quelle partie du cœur regarde chaque dérivation de l'ECG ? :: Membres : DI, DII, DIII, aVR, aVL, aVF\nPrécordiales : V1-V2 (septum, cœur droit), V3-V4 (apex), V5-V6 (paroi latérale du VG)\nOnde positive : l'activation se dirige vers la dérivation ; négative : elle s'en éloigne\nDII : la dérivation « physiologique », à afficher au scope (P et QRS bien visibles)
-//= ECG normal : quels critères ?
-Quels critères définissent un ECG normal en rythme sinusal ? :: Rythme sinusal : une P normale devant chaque QRS, chaque P suivie d'un QRS\nRythme régulier : R-R identiques\nFréquence 50-100/min\nQRS fins, axe normal (positif en DI, DII, aVF ; négatif en aVR), pas d'onde Q\nOnde R qui croît de V1 à V4\nST isoélectrique ; T de même sens que le QRS
-//= Analyse d'un ECG : dans quel ordre ?
-Dans quel ordre analyser un ECG ? :: 1) Vérifier : électrodes, étalonnage, qualité du signal\n2) Les 4 questions : sinusal ? fréquence ? régulier ? P devant chaque QRS ?\n3) Analyse des ondes : P et PR → QRS (largeur, axe) → ST et T → QT si besoin\nSur un DII long\nToujours confronter au pouls et à la pression
-//= Comment calculer la fréquence cardiaque sur un ECG à 25 mm/s ?
-Comment calculer la fréquence cardiaque sur un ECG déroulé à 25 mm/s ? :: Rythme régulier : 300 / nombre de grands carreaux entre deux R\n- 1 → 300, 2 → 150, 3 → 100, 4 → 75, 5 → 60, 6 → 50/min\nRythme irrégulier : compter les QRS sur 30 grands carreaux (6 s) × 10
-
-// ---------- Troubles de la conduction ----------
-//= Troubles de la conduction : définition et risques ?
-Qu'est-ce qu'un trouble de la conduction cardiaque et quels en sont les risques ? :: Anomalie du tissu de conduction → fréquence trop basse, allongement de P, PR ou QRS\nRisque : échappement ventriculaire (les ventricules battent à leur propre rythme, lent)\nSignes : asymptomatique, syncope, convulsions (bas débit cérébral), jusqu'à l'asystolie\nLe risque augmente si plusieurs atteintes se cumulent
-//= Troubles de la conduction : quelles causes rechercher ?
-Quelles causes rechercher devant un trouble de la conduction ? :: Physiologiques : malaise vagal, vieillissement du tissu de conduction\nIschémiques : surtout l'infarctus inférieur\nToxiques : bêtabloquants, amiodarone (IV directe), néostigmine\nMétaboliques : hyperkaliémie (à corriger en premier), hypermagnésémie, acidose
 //= [img:images/ecg-05.jpg] Bande de rythme : quel est le diagnostic ?
 [img:images/ecg-05.jpg] Quel est le diagnostic sur cette bande de rythme ? :: BAV du 2e degré Mobitz I (Wenckebach)\nLe PR s'allonge d'un battement à l'autre\nPuis une P n'est pas suivie de QRS\nLe cycle repart avec un PR plus court\nMobitz II : PR constant avant la P bloquée (plus grave)\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Bloc sino-auriculaire et BAV : quelle différence ?
-Quelle est la différence entre un bloc sino-auriculaire et un bloc auriculo-ventriculaire ? :: Bloc sino-auriculaire (BSA) : le nœud sinusal ne s'active pas → l'onde P disparaît (pause sans P)\nBAV : les P sont présentes mais passent mal ou plus du tout vers les ventricules\n- BAV 1 : PR > 1 grand carreau, toutes les P conduites (bénin)\n- BAV 2 : certaines P non suivies de QRS (Mobitz 1 bénin, Mobitz 2 à risque)\n- BAV 3 : P et QRS dissociés, échappement lent souvent large (risque de syncope)
 //= [img:images/ecg-02.jpg] ECG 12 dérivations : quel est le diagnostic ?
 [img:images/ecg-02.jpg] Quel est le diagnostic sur cet ECG 12 dérivations ? :: Bloc auriculo-ventriculaire du 1er degré (BAV 1)\nChaque P est suivie d'un QRS\nPR allongé (> 200 ms, ici ≈ 260 ms) et constant\nAucune P bloquée → pas un BAV 2\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= BAV 2 avec une P sur deux bloquée, FC à 38/min et ondes T pointues : quelle cause rechercher en urgence ?
-Devant un BAV avec bradycardie et ondes T pointues, quelle cause rechercher en urgence ? :: Hyperkaliémie (ondes T pointues + trouble de conduction)\nGaz du sang : kaliémie\nTraitement selon l'avis : calcium IV, insuline-glucose\nPréparer atropine, isoprénaline, stimulation
 //= [img:images/ecg-08.jpg] ECG 12 dérivations : quel est le diagnostic ?
 [img:images/ecg-08.jpg] Quel est le diagnostic sur cet ECG 12 dérivations ? :: BAV du 3e degré (BAV complet)\nLes P ont leur propre rythme, plus rapide que les QRS\nPas de relation fixe entre P et QRS (PR apparents variables)\nQRS d'échappement lents\nAu bloc : risque de bradycardie sévère → isoprénaline, entraînement électrosystolique\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Blocs de branche : comment les reconnaître et quand s'inquiéter ?
-Comment reconnaître un bloc de branche et quand faut-il s'en inquiéter ? :: QRS élargis SANS tachycardie (aspect crocheté RR')\nBranche droite → bloc de branche droit ; gauche → bloc de branche gauche\nDanger s'il apparaît brutalement : ischémie, hyperkaliémie → alerter
-//= Bradycardie par trouble de la conduction au bloc : quelle conduite ?
-Que faire au bloc devant une bradycardie due à un trouble de la conduction ? :: Évaluer la tolérance (PA, conscience) et alerter le médecin\nChercher la cause : kaliémie (gaz du sang), ischémie, médicaments bradycardisants (les arrêter)\nAccélérer : atropine (efficace si atteinte haute), puis isoprénaline ; adrénaline si collapsus\nStimuler : entraînement électrosystolique externe (savoir où est l'appareil), puis pacemaker
-
-// ---------- Troubles du rythme ----------
-//= Tachycardies : comment distinguer supraventriculaire et ventriculaire ?
-Comment distinguer une tachycardie supraventriculaire d'une tachycardie ventriculaire ? :: Supraventriculaire : rythme dicté par les oreillettes → QRS fins (sauf bloc de branche associé)\n- Tachycardie sinusale, extrasystoles auriculaires, FA, flutter\nVentriculaire : rythme dicté par les ventricules → QRS larges\n- Extrasystoles ventriculaires, TV, torsade de pointes, FV\nRisque principal : l'arrêt cardiaque par fibrillation
-//= Troubles du rythme : quelles causes rechercher au bloc ?
-Quelles causes de troubles du rythme rechercher au bloc ? :: Stimulation sympathique : douleur, hypovolémie, anémie, catécholamines (bolus d'adrénaline, éphédrine)\nIoniques : hypokaliémie (le trouble ionique des troubles du rythme), hypomagnésémie, acidose\nIschémie\nToxiques et médicaments allongeant le QT : neuroleptiques (dropéridol), hydroxyzine, macrolides\nHyperthyroïdie, causes congénitales
-//= Tachycardie sinusale : caractéristiques et conduite ?
-Comment reconnaître une tachycardie sinusale et que faire ? :: Première cause de tachycardie\nRéponse à un besoin : douleur, hypovolémie, anémie, fièvre, stress\nRégulière, P devant chaque QRS\nPeut s'accompagner d'un sous-décalage du ST (ischémie de tachycardie)\nTraitement : la cause (analgésie, remplissage, transfusion)
 //= [img:images/ecg-06.jpg] Bande de rythme : quel est le diagnostic ?
 [img:images/ecg-06.jpg] Quel est le diagnostic sur cette bande de rythme ? :: Extrasystoles ventriculaires en bigéminisme\nUn QRS fin normal alterne avec un complexe large de forme différente\nLe complexe large arrive trop tôt, sans P devant, suivi d'une pause\nPrématuré → extrasystole ; tardif → ce serait un échappement\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Extrasystoles : comment les reconnaître et quand sont-elles dangereuses ?
-Comment reconnaître des extrasystoles et quand sont-elles dangereuses ? :: Battement prématuré\nAuriculaire : P' précoce de forme différente, QRS fin\nVentriculaire : QRS précoce, large, sans P, T opposée, pause après\nIsolée : souvent banale\nDangereuses (ESV malignes) : polymorphes, en salves, ou tombant sur l'onde T (R sur T), surtout en phase aiguë d'infarctus → risque de TV ou FV
-//= Période vulnérable : qu'est-ce que c'est et quelles situations au bloc s'y rapportent ?
-Qu'est-ce que la période vulnérable et quelles situations au bloc s'y rapportent ? :: Partie de la repolarisation (montée de l'onde T) où une stimulation peut déclencher une FV\nAu bloc :\n- ESV tombant sur T\n- Pacemaker en mode asynchrone stimulant sur T\n- Choc électrique non synchronisé (d'où la cardioversion synchronisée sur le QRS)\n- Guide ou sonde touchant la paroi du ventricule
 //= [img:images/ecg-01.jpg] ECG 12 dérivations : quel est le diagnostic ?
 [img:images/ecg-01.jpg] Quel est le diagnostic sur cet ECG 12 dérivations ? :: Fibrillation atriale (FA) à réponse ventriculaire rapide\nIntervalles R-R irréguliers, sans motif répétitif\nQRS fins\nPas d'onde P identique avant chaque QRS\nÀ distinguer : tachycardie sinusale (P avant chaque QRS), flutter (activité atriale régulière en dents de scie)\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Fibrillation atriale : mécanisme et points clés ?
-Quel est le mécanisme de la fibrillation atriale et quels en sont les points clés ? :: De multiples foyers auriculaires déchargent sans ordre\nRythme irrégulier à QRS fins = FA jusqu'à preuve du contraire\nPas d'onde P, trémulation de la ligne de base\nPas forcément rapide (FA ancienne traitée)\nPremière cause de tachycardie pathologique au bloc → vérifier la tolérance, alerter, kaliémie
 //= [img:images/ecg-07.jpg] ECG 12 dérivations : quel est le diagnostic ?
 [img:images/ecg-07.jpg] Quel est le diagnostic sur cet ECG 12 dérivations ? :: Flutter atrial à conduction 2/1\nActivité atriale régulière en « dents de scie » en DII, DIII, aVF\n2 ondes atriales pour 1 QRS → fréquence ventriculaire ≈ 150/min\nPiège : une tachycardie régulière à 150/min doit faire chercher un flutter\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Flutter atrial : mécanisme et aspect ?
-Quel est le mécanisme du flutter atrial et quel est son aspect sur l'ECG ? :: Un seul circuit qui tourne en boucle dans l'oreillette (≈ 300/min)\nTachycardie régulière, typiquement à 150/min (conduction 2/1)\nAspect en « dents de scie » / « toit d'usine » en DII, DIII, aVF\nUne tachycardie régulière à 150/min doit faire chercher un flutter
 //= [img:images/ecg-03.jpg] Bande de rythme, le patient a un pouls : quel est le diagnostic ?
 [img:images/ecg-03.jpg] Le patient a un pouls : quel est le diagnostic sur cette bande de rythme ? :: Tachycardie ventriculaire (TV) monomorphe\nComplexes larges, rapides, de forme identique\nTracé organisé : différent d'une fibrillation ventriculaire\nPas d'aspect tournant : différent d'une torsade de pointes\nUne TV peut exister avec ou sans pouls (sans pouls = arrêt cardiaque)\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Tachycardie ventriculaire : définition et conduite ?
-Comment définit-on une tachycardie ventriculaire et quelle est la conduite à tenir ? :: Au moins 3 QRS larges de suite, nés des ventricules\nNon soutenue : salve brève ; soutenue : > 30 s ou mal tolérée\nRisque : évolution vers la FV → ne jamais la négliger\nConduite : alerter, préparer le défibrillateur ; si mal tolérée : choc électrique en urgence
 //= [img:images/ecg-09.jpg] Bande de rythme chez un patient ayant un QT long entre les accès : quel est le diagnostic ?
 [img:images/ecg-09.jpg] Chez ce patient qui a un QT long entre les accès, quel est le diagnostic sur cette bande de rythme ? :: Torsade de pointes\nTachycardie ventriculaire polymorphe : l'amplitude et la polarité des complexes changent, ils « tournent » autour de la ligne de base\nTerrain : QT long (médicaments, hypokaliémie, hypomagnésémie)\nTraitement : sulfate de magnésium, corriger la kaliémie, arrêter les médicaments allongeant le QT\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Torsade de pointes : terrain et facteurs favorisants ?
-Qu'est-ce qu'une torsade de pointes et quels facteurs la favorisent ? :: TV dont les QRS « tournent » et changent d'amplitude\nSur un QT long :\n- Hypokaliémie, hypomagnésémie\n- Médicaments : dropéridol et autres neuroleptiques, hydroxyzine, macrolides, ondansétron\nLe risque augmente quand ces facteurs s'additionnent\nRisques : syncope, convulsions, arrêt cardiaque
-//= Jeune femme aux antécédents d'anorexie-boulimie, cœlioscopie : après les antalgiques et la prévention des NVPO (dropéridol), salves de QRS larges d'amplitude variable sur QT long. Diagnostic et conduite ?
-Comment traiter une torsade de pointes ? :: Doser en urgence la kaliémie et la magnésémie\nArrêter les médicaments qui allongent le QT (ex. : dropéridol, ondansétron)\nSulfate de magnésium IV\nCorriger l'hypokaliémie\nSi elle dégénère en fibrillation ventriculaire : choc électrique
 //= [img:images/ecg-10.jpg] Bande de rythme, patient inconscient et sans pouls : quel est le diagnostic ?
 [img:images/ecg-10.jpg] Le patient est inconscient et sans pouls : quel est le diagnostic sur cette bande de rythme ? :: Fibrillation ventriculaire (FV) = arrêt cardiaque\nOscillations irrégulières, sans QRS organisés\nConduite : massage cardiaque, défibrillation immédiate, adrénaline selon l'algorithme\nActivité électrique organisée sans pouls : activité électrique sans pouls (dissociation électromécanique), rythme non choquable\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Arrêt cardiaque : quels sont les 3 aspects ECG possibles ?
-Quels sont les 3 aspects possibles de l'ECG lors d'un arrêt cardiaque ? :: Diagnostic clinique : pas de pouls, pas de conscience\nAsystolie : ligne plate → massage + adrénaline, pas de choc\nFibrillation ventriculaire : activité anarchique → choc électrique immédiat\nDissociation électromécanique : activité électrique d'aspect organisé sans pouls → massage, chercher la cause, pas de choc\nUne activité électrique n'élimine pas l'arrêt cardiaque
-
-// ---------- Ischémie ----------
-//= Ischémie myocardique : comment évolue l'ECG ?
-Comment évolue l'ECG au cours d'une ischémie myocardique ? :: La repolarisation (ST, T) est touchée en premier\nÉvolution : ondes T amples → sus-décalage du ST → onde Q → ondes T négatives\nL'ischémie peut aussi donner des troubles de la conduction et du rythme → l'évoquer devant toute anomalie aiguë de l'ECG\nSous anesthésie, la douleur manque : l'ECG est souvent le seul signe
 //= [img:images/ecg-04.jpg] ECG 12 dérivations dans un contexte de douleur thoracique aiguë : quel est le diagnostic ?
 [img:images/ecg-04.jpg] Chez ce patient qui a une douleur thoracique aiguë, quel est le diagnostic sur cet ECG 12 dérivations ? :: Syndrome coronarien aigu avec sus-décalage du ST (SCA ST+), territoire inférieur\nSus-décalage du ST en DII, DIII, aVF\nSous-décalage en miroir en aVL\nUrgence : appel du médecin, filière de reperfusion\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)
-//= Quelles dérivations pour quel territoire coronaire ?
-Quelles dérivations ECG correspondent à chaque territoire coronaire ? :: Antérieur : V1-V4 (IVA)\nInférieur : DII, DIII, aVF (coronaire droite ou circonflexe)\nLatéral : DI, aVL, V5-V6 (circonflexe ou diagonale)\nVentricule droit : V3R, V4R\nLa correspondance avec l'artère exacte varie selon l'anatomie
-//= SCA ST+ et SCA ST− : quelle différence ?
-Quelle est la différence entre un SCA avec sus-décalage du ST (ST+) et sans sus-décalage (ST−) ? :: ST+ : sus-décalage du ST dans un territoire + sous-décalage en miroir → occlusion complète, nécrose en cours, urgence (cardiologue, angioplastie)\nST− : sous-décalage du ST ou ondes T opposées au QRS → occlusion incomplète, troponine, avis cardiologique (pas bénin)
-//= Infarctus inférieur : quelles complications surveiller ?
-Quelles complications surveiller après un infarctus inférieur ? :: Trouble de la conduction : BAV fréquent (atteinte vagale et du nœud)\nBradycardie, hypotension\n→ atropine et moyens de stimulation à portée de main
-//= Onde Q de nécrose : de quoi s'agit-il ?
-Qu'est-ce qu'une onde Q de nécrose ? :: Séquelle d'infarctus : la zone nécrosée ne se dépolarise plus\nOnde Q large et profonde dans 2 dérivations voisines du même territoire\nNormal : aspect QS en V1, onde Q en aVR
-
-// ---------- Pacemaker et défibrillateur ----------
-//= Pacemaker et défibrillateur implantable : quelle différence ?
-Quelle est la différence entre un pacemaker et un défibrillateur implantable ? :: Pacemaker : stimule l'oreillette et/ou le ventricule en cas de trouble de la conduction\nDéfibrillateur implantable : délivre des chocs en cas de trouble du rythme ventriculaire (fait aussi pacemaker)\nBoîtier sous la clavicule, le plus souvent à gauche
-//= Mode asynchrone (VOO) : de quoi s'agit-il ?
-Qu'est-ce que le mode asynchrone (VOO) d'un pacemaker ? :: Code : 1re lettre cavité stimulée, 2e cavité écoutée, 3e réponse\nVOO : ventricule stimulé, rien n'est écouté → stimulation à fréquence fixe\nObtenu par l'aimant sur la plupart des pacemakers : protège d'une inhibition par le bistouri\nRisque : stimulation sur l'onde T d'un rythme propre → FV
-//= Bistouri électrique et pacemaker : quels risques ?
-Quels risques le bistouri électrique fait-il courir à un patient porteur de pacemaker ? :: Le bistouri est la principale source d'interférences électromagnétiques\nPacemaker : inhibition (il prend le parasite pour une activité cardiaque) → bradycardie\nDéfibrillateur : choc inapproprié ou arythmie non reconnue\nAussi : frissons ou fasciculations (succinylcholine) pris pour des battements ; troubles ioniques modifiant les seuils
-//= Patient porteur d'un pacemaker : comment préparer l'intervention ?
-Comment préparer l'intervention d'un patient porteur de pacemaker ? :: Surveiller la fréquence sur la SpO2 ou la pression invasive : l'ECG ne suffit pas (un spike n'est pas une contraction)\nDans la salle : aimant, défibrillateur externe vérifié, isoprénaline, amiodarone\nBistouri bipolaire si possible ; sinon plaque près du site opératoire, sans que le courant traverse le boîtier\nCoagulation brève et intermittente\nReprogrammation selon le type de boîtier et la dépendance du patient
-//= Patient dépendant d'un pacemaker : les pulsations disparaissent pendant le bistouri et reviennent à l'arrêt. Que faire ?
-Chez un patient dépendant de son pacemaker, que faire si les complexes disparaissent pendant l'utilisation du bistouri électrique ? :: Inhibition du pacemaker par le bistouri\n1) Arrêter le bistouri : toujours le premier geste\n2) Si la dysfonction persiste : aimant (mode asynchrone)\n3) Échec et bradycardie : isoprénaline, stimulation externe, kaliémie\n4) Trouble du rythme : choc par le défibrillateur externe

@@ -1,0 +1,34 @@
+// Cours 3.1 – L'oxymétrie de pouls (SpO2)
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Courbe de Barcroft, CaO2 et TaO2 : voir « Physiologie respiratoire » (UE 2.2). L'historique du support n'est pas repris.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Oxymétrie de pouls
+
+// ---------- Principe ----------
+Que mesure l'oxymètre de pouls ? :: Une estimation continue de la SaO2, appelée SpO2\nElle évite des gazométries artérielles répétées
+Quel texte impose la surveillance continue de la saturation en oxygène ? :: Le décret du 20 juillet 2005 (articles D. 6124-94 et D. 6124-96)
+Quel est le principe de mesure de l'oxymètre de pouls ? :: Il mesure l'absorption de la lumière par l'hémoglobine et l'oxyhémoglobine, sur au moins deux longueurs d'onde\nIl ne retient que la partie pulsatile du signal (sang artériel)
+Que montre la courbe de pléthysmographie de l'oxymètre ? :: Les variations du volume sanguin local à chaque pulsation\nElle permet d'afficher la fréquence cardiaque et de juger la qualité du signal
+Quels sont les avantages de l'oxymètre de pouls ? :: Non invasif, indolore, peu coûteux, sans calibration\nPrécision d'environ 5 % dans de bonnes conditions
+
+// ---------- Hémoglobine et définitions ----------
+Qu'est-ce que la P50, et quelle est sa valeur normale ? :: La PaO2 pour laquelle l'hémoglobine est saturée à 50 %\nEnviron 27 mmHg chez l'adulte sain : elle reflète l'affinité de l'hémoglobine pour l'O2
+Quelles formes d'hémoglobine ne transportent pas l'oxygène ? :: La méthémoglobine (MetHb)\nLa carboxyhémoglobine (HbCO)\nL'hémoglobine drépanocytaire (HbS), polymérisée après une hypoxémie
+Quelle est la particularité de l'hémoglobine fœtale ? :: Une affinité accrue pour l'oxygène\nElle est physiologique jusqu'à 6 mois
+Quelle est la différence entre hypoxémie, hypoxie et ischémie ? :: Hypoxémie : baisse anormale de l'oxygène dans le sang artériel (PaO2 < 80 mmHg)\nHypoxie : oxygénation insuffisante des tissus\nIschémie : baisse ou arrêt de l'apport sanguin artériel à un tissu
+Qu'est-ce que l'hyperoxie ? :: Une PaO2 anormalement élevée, due à une FiO2 supérieure aux besoins
+Quelles sont les trois causes de chute du transport artériel en O2 au bloc ? :: Baisse du débit cardiaque : hypovolémie, choc hémorragique, défaillance cardiaque\nBaisse de l'hémoglobine : anémie aiguë\nBaisse de la saturation : hypoxémie
+Comment l'organisme compense-t-il une baisse du transport artériel en O2 ? :: Il augmente l'extraction de l'O2 par les tissus\nSi l'apport passe sous la consommation (VO2) : métabolisme anaérobie, lactates, acidose
+
+// ---------- Matériel ----------
+Quel capteur de SpO2 choisir selon la situation ? :: Pince digitale : réutilisable, instable si le patient s'agite\nAutocollant : mesure stable, adapté au patient agité\nPince auriculaire : membres inaccessibles ou mauvaise perfusion périphérique\nAutocollant nasal : fiable même en cas de chute importante de la PA
+Pourquoi le capteur nasal de SpO2 reste-t-il fiable en cas d'hypotension ? :: Il capte le flux de l'artère ethmoïdale, branche directe du polygone de Willis
+
+// ---------- Limites ----------
+Quelles situations font sous-estimer la SaO2 par l'oxymètre ? :: Membre déclive ou comprimé\nInsuffisance cardiaque droite\nPEP > 10 cmH2O\nPeau foncée, vernis, onychomycose\nColorants IV : bleu de méthylène, vert d'indocyanine\nMetHb > 3 % si la SpO2 de base est > 85 %
+Quelles situations font surestimer la SaO2 par l'oxymètre ? :: Anémie\nHbCO > 5 %\nMetHb > 3 % avec une SpO2 initiale < 85 %
+Quelles situations rendent la SpO2 imprécise ? :: Hypotension sévère\nTroubles du rythme\nHypothermie\nMouvements
+L'oxymètre de pouls détecte-t-il l'hyperoxie ? :: Non
+En dessous de quelle valeur la SpO2 n'est-elle plus fiable ? :: 70 % : la corrélation avec la SaO2 réelle n'est plus garantie
+Quel est le premier réflexe devant une alarme de désaturation brutale ? :: Vérifier la position du capteur et la qualité de la courbe de pléthysmographie

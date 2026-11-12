@@ -1,39 +1,41 @@
-// Cours 3.1 – Préoxygénation, induction et oxygénothérapie haut débit
-// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
-// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+// Cours 3.1 – Préoxygénation, induction et oxygénothérapie à haut débit
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Durées d'apnée : repères du cours de ventilation mécanique (même UE).
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Préoxygénation et induction
 
 // ---------- Préoxygénation ----------
-//= Préoxygénation : quand, pourquoi et par quel mécanisme ?
-Quand et pourquoi préoxygéner, et par quel mécanisme la préoxygénation protège-t-elle ? :: Quand : avant toute anesthésie générale\nPourquoi : ↑ les réserves d'O2 pour allonger la tolérance à l'apnée avant désaturation\nMécanisme : dénitrogénation = remplacer l'azote de la CRF par de l'O2
-//= Pourquoi faut-il éviter de descendre sous 90-92 % de SpO2 ?
-Pourquoi faut-il éviter que la SpO2 descende sous 90-92 % ? :: Courbe de dissociation de l'Hb (Barcroft) non linéaire\nSpO2 90 % ≈ PaO2 60 mmHg\nEn dessous : la chute devient beaucoup plus rapide
-//= Préoxygénation : comment la réaliser ?
-Comment réaliser une préoxygénation efficace ? :: Masque adapté à la morphologie, appliqué de façon étanche\nFiO2 100 %, haut débit de gaz frais (> 5 L/min)\nMéthodes :\n- VS ou VSAI ± PEP pendant 3 min\n- 8 capacités vitales en 60 s\nLéger proclive possible (obèse +++)\nAide : Optiflow pendant l'apnée
-//= Préoxygénation : quels risques et comment l'évaluer ?
-Quels sont les risques de la préoxygénation et comment vérifier son efficacité ? :: Risques :\n- Fuites\n- Claustrophobie : rassurer, le patient peut tenir le masque\n- Lésion des yeux\nEfficace si :\n- FeO2 > 90 %\n- Pas de désaturation, pas de fuite, pas de réinhalation
+Quand faut-il réaliser une préoxygénation ? :: Avant toute anesthésie générale
+Quel est le but de la préoxygénation ? :: Augmenter les réserves en O2 par dénitrogénation\nPour allonger la durée d'apnée tolérée avant la désaturation
+Qu'est-ce que la dénitrogénation ? :: Le remplacement de l'azote de la réserve pulmonaire par de l'oxygène
+Combien de temps d'apnée un adulte sain tolère-t-il, avec et sans préoxygénation ? :: Sans préoxygénation : environ 84 s\nAvec préoxygénation : 3 à 6 min avant que la SaO2 passe sous 90 %
+Pourquoi la désaturation s'accélère-t-elle sous 90 % de SpO2 ? :: La courbe de dissociation de l'hémoglobine n'est pas linéaire\nVers 90 % de SpO2, la PaO2 est proche de 60 mmHg : la chute devient rapide
+Quel matériel faut-il pour une préoxygénation ? :: Un masque étanche adapté à la morphologie\nDe l'O2 par le circuit de la machine, le circuit accessoire ou un BAVU
+Quelles sont les méthodes de préoxygénation ? :: FiO2 100 %, masque étanche, débit de gaz frais élevé (> 5 L/min)\nVS ou VS-AI ± PEP pendant 3 min\nOu 8 capacités vitales en 60 s
+Comment optimiser la préoxygénation chez l'obèse ? :: Léger proclive\nAide inspiratoire et PEP (utiles aussi chez l'insuffisant respiratoire)
+Quels sont les risques de la préoxygénation ? :: Fuite au masque\nClaustrophobie : rassurer, laisser le patient tenir le masque\nLésion des yeux
+Comment évaluer l'efficacité d'une préoxygénation ? :: FeO2 > 90 %\nPas de désaturation\nPas de fuite\nPas de réinhalation
 
 // ---------- Induction ----------
-//= Induction : quand débuter et quels sont ses objectifs ?
-Quand débuter l'induction et quels sont ses objectifs ? :: Quand : après la préoxygénation, FeO2 > 90 %\nTrépied :\n- Hypnose (patient inconscient)\n- Analgésie\n- Myorelaxation si besoin (curare recommandé pour toute intubation)
-//= Induction : quels médicaments préparer ?
-Quels médicaments préparer pour une induction ? :: 1 morphinique (sauf induction en séquence rapide)\n1 hypnotique\n± 1 curare\nToujours disponibles : atropine, éphédrine, adrénaline
-//= Induction : dans quel ordre injecter et quand donner le curare ?
-Dans quel ordre injecter les médicaments de l'induction et quand donner le curare ? :: Morphinique puis hypnotique (ordre selon leur pharmacocinétique), une fois FeO2 > 90 %\nCurare après :\n- Perte du réflexe ciliaire\n- Lancement du curamètre (sécurité et étalonnage)\nSéquence : préO2 → FeO2 ≥ 90 % → morphinique + hypnotique → perte du réflexe ciliaire ± apnée → curare → TOF 0/4
-//= Induction : quels risques ?
-Quels sont les risques de l'induction ? :: Inhalation (syndrome de Mendelson)\nDésaturation\nNarcose trop légère ou trop profonde\nEffets secondaires : hypotension…\nChoc anaphylactique (curares +++)
-//= Induction : comment évaluer l'efficacité des drogues ?
-Comment vérifier l'efficacité des médicaments de l'induction ? :: Hypnose : patient inconscient, perte du réflexe ciliaire\nBIS < 60 (avec un délai de latence)\nCurarisation : curamètre, TOF 0/4 avant l'intubation
+Quand peut-on débuter l'induction ? :: Après la préoxygénation, quand la FeO2 dépasse 90 %
+Quels sont les objectifs de l'induction ? :: Hypnose : patient inconscient\nAnalgésie\nMyorelaxation si besoin
+Quels médicaments préparer pour une induction ? :: Un morphinique (sauf en séquence rapide)\nUn hypnotique\nUn curare si besoin, recommandé pour toute intubation\nMédicaments d'urgence : atropine, éphédrine, adrénaline
+Dans quel ordre injecter les médicaments de l'induction ? :: Morphinique puis hypnotique, selon leur pharmacocinétique, une fois la FeO2 > 90 %\nCurare après la perte du réflexe ciliaire et après avoir lancé le curamètre
+Pourquoi lancer le curamètre avant d'injecter le curare ? :: Pour l'étalonner : la mesure de la curarisation devient fiable
+Comment vérifier l'efficacité de l'induction ? :: Hypnose : patient inconscient, perte du réflexe ciliaire, BIS < 60 (avec un délai)\nCurarisation : TOF 0/4 au curamètre
+Quels sont les risques de l'induction ? :: Inhalation (syndrome de Mendelson)\nDésaturation\nAnesthésie trop légère ou trop profonde\nEffets indésirables des médicaments (hypotension)\nChoc anaphylactique, surtout aux curares
+Quelle est la séquence d'une induction avec intubation ? :: Préoxygénation jusqu'à FeO2 > 90 %\nMorphinique et hypnotique\nPerte du réflexe ciliaire ± apnée\nCurare\nApnée et TOF 0/4
 
-// ---------- Oxygénothérapie haut débit ----------
-//= OHD (Optiflow) : dans quelles situations l'utiliser au bloc ?
-Dans quelles situations utiliser l'oxygénation à haut débit nasal (OHD, Optiflow) au bloc ? :: Préoxygénation : non, le masque étanche FiO2 100 % est plus efficace (+ AI + PEP si obèse ou insuffisant respiratoire)\n- Certaines canules peuvent être prépositionnées sous le masque\nApnée post-induction : oui dans des cas particuliers\nPeropératoire : oui, AG en VS à risque de désaturation, ORL sans intubation\nPostopératoire immédiat : oui dans des cas particuliers
-//= Apnée post-induction : quels patients sont à risque de désaturation rapide ?
-Quels patients sont à risque de désaturation rapide pendant l'apnée qui suit l'induction ? :: CRF faible : insuffisant respiratoire, obèse, femme enceinte\nVO2 élevée : enfant, femme enceinte\nPréoxygénation courte : urgences vraies\nAllongement de l'apnée : ventilation ou intubation difficile, CI au masque (estomac plein)
-//= OHD : comment agit-elle pendant l'apnée ?
-Comment l'oxygénation à haut débit nasal agit-elle pendant l'apnée ? :: Lavage de l'espace mort naso-trachéal\nOxygénation apnéique : passage d'O2 vers les alvéoles\nEffet PEP (bouche fermée) : ~3 cmH2O chez l'adulte, 6-7 chez l'enfant\nAttention : apporte de l'O2 mais n'élimine pas le CO2
-//= OHD : quels réglages, quels risques et quelle surveillance ?
-Quels réglages, quels risques et quelle surveillance pour l'oxygénation à haut débit nasal ? :: Réglages : 30-70 L/min, FiO2 jusqu'à 100 %, gaz réchauffés et humidifiés\nRisques :\n- Hypercapnie +++ (l'oxygénation masque l'hypoventilation)\n- Lésions des muqueuses\nSurveillance : SpO2, FR, clinique (toujours) ; EtCO2 selon la situation
-//= SSPI : quelles cibles de SpO2 sous oxygène ?
-Quelles cibles de SpO2 viser en SSPI chez un patient sous oxygène ? :: Cas général : 92-98 %\nBPCO : 88-92 %, avec surveillance de la capnie\nSituation critique : masque à réserve, appel du médecin, discuter une ventilation\nÉpuisement ou hypercapnie : soutien ventilatoire
+// ---------- Oxygénothérapie à haut débit (OHD) ----------
+Quels sont les réglages de l'oxygénothérapie à haut débit ? :: Débit de 30 à 70 L/min\nFiO2 jusqu'à 100 %\nGaz réchauffés et humidifiés
+Avec quel matériel délivrer une OHD ? :: Un dispositif dédié, ou un respirateur de réanimation qui le permet\nUne canule nasale adaptée à la morphologie
+L'OHD est-elle utile pour la préoxygénation ? :: Non : la préoxygénation au masque, FiO2 100 % et haut débit, est la plus efficace\nCertaines canules peuvent rester sous le masque pour la phase d'apnée qui suit
+Quand utiliser l'OHD en anesthésie ? :: Pendant l'apnée qui suit l'induction, dans des cas particuliers\nEn peropératoire : AG en VS avec risque majeur de désaturation, chirurgie ORL sans intubation ni masque laryngé\nEn postopératoire immédiat, dans certains cas
+Quelles situations exposent à une désaturation pendant l'apnée post-induction ? :: CRF basse : insuffisance respiratoire, obésité, grossesse\nVO2 élevée : enfant, grossesse\nPréoxygénation courte : urgence vraie\nApnée prolongée : ventilation au masque ou intubation difficile, estomac plein (pas de ventilation au masque)
+Comment l'OHD apporte-t-elle de l'oxygène pendant l'apnée ? :: Lavage de l'espace mort naso-trachéal\n« Respiration apnéique » : l'O2 passe vers les alvéoles par un débit massique
+L'OHD élimine-t-elle le CO2 pendant l'apnée ? :: Non : elle apporte de l'O2 mais ne remplace pas une ventilation efficace
+Quel effet PEP l'OHD procure-t-elle ? :: Un effet proportionnel au débit, bouche fermée\nAdulte : environ 3 cmH2O\nEnfant : environ 6-7 cmH2O
+Quels sont les risques de l'OHD ? :: Hypercapnie : l'oxygénation peut masquer une hypoventilation\nLésions des muqueuses si les gaz sont mal humidifiés ou réchauffés
+Que surveiller sous OHD ? :: Toujours : SpO2, fréquence respiratoire, clinique\nEtCO2 selon la situation
+Quelles cibles de SpO2 viser en postopératoire immédiat ? :: 92 à 98 %\n88 à 92 % chez le patient BPCO, en surveillant la capnie
