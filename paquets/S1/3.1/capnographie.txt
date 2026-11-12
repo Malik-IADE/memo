@@ -1,49 +1,39 @@
 // Cours 3.1 – La capnographie
 // Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
 // L'historique du support n'est pas repris.
+// Image : [img:images/fichier.png] (chemin relatif au dossier de ce fichier). Tracés issus du support de cours (p. 10 à 12), repris du quiz de capnographie.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Capnographie
 
-// ---------- Définitions ----------
-Quelle est la différence entre capnographie, capnogramme et capnométrie ? :: Capnographie : enregistrement graphique du CO2 tout au long du cycle respiratoire\nCapnogramme : le tracé lui-même\nCapnométrie : la valeur numérique du CO2
-Par quels appareils le CO2 est-il mesuré, enregistré et représenté ? :: Mesuré par un capnomètre\nEnregistré par un capnographe\nReprésenté par un capnogramme
-Quand la capnographie est-elle obligatoire ? :: Chez tout patient intubé\nLe décret du 5 décembre 1994 impose capnographie et oxymétrie de pouls au bloc
-De quels processus physiologiques l'EtCO2 est-elle le reflet ? :: Production : métabolisme cellulaire\nTransport : circulation (débit cardiaque)\nÉlimination : ventilation alvéolaire
-Que produit le métabolisme oxydatif des cellules ? :: De l'énergie (ATP), de la chaleur, de l'eau et du CO2 (environ 200 L par jour)
-Quelle est la différence entre un capnographe aspiratif et non aspiratif ? :: Aspiratif (side stream) : un échantillon de gaz est aspiré vers la cellule d'analyse du moniteur ; le plus répandu en anesthésie\nNon aspiratif (main stream) : capteur infrarouge placé entre la sonde d'intubation et la pièce en Y
+// ---------- L'essentiel (cartes fusionnées) ----------
+Quelle est la différence entre capnographie, capnogramme et capnométrie ? :: Capnographie : enregistrement du CO2 sur tout le cycle respiratoire (capnographe)\nCapnogramme : le tracé\nCapnométrie : la valeur numérique (capnomètre)\nÀ retenir : obligatoire chez tout patient intubé
+//= De quels processus physiologiques l'EtCO2 est-elle le reflet ?
+De quoi l'EtCO2 est-elle le reflet ? :: Production du CO2 : métabolisme cellulaire\nTransport : débit cardiaque\nÉlimination : ventilation alvéolaire
+Quelles sont les phases du capnogramme ? :: Phase A : espace mort, CO2 nul\nPhase AB : montée (espace mort + gaz alvéolaires)\nPhase BC : plateau alvéolaire légèrement ascendant\nPoint C : fin d'expiration, mesure de l'EtCO2\nPhase CD : chute rapide à l'inspiration ; point D : PiCO2 (normalement 0, sinon réinhalation)
+//= Quelle est la valeur normale de l'EtCO2 ?
+Quelle est la valeur normale de l'EtCO2, et quel est son lien avec la PaCO2 ? :: EtCO2 : 35 à 40 mmHg (PaCO2 de 38 à 42 mmHg)\nGradient : 1-2 mmHg éveillé, environ 5 mmHg en ventilation contrôlée, 15-20 mmHg si pathologie pulmonaire\nÀ retenir : l'EtCO2 sous-estime toujours la PaCO2
+Quels sont les intérêts de la capnographie ? :: Position de la sonde : 6 capnogrammes réguliers valident l'intubation\nSurveillance de la ventilation, détection d'une apnée\nVariations métaboliques et circulatoires, efficacité d'une RCP\nProblème matériel\nÀ retenir : c'est le détecteur d'incident le plus précoce au bloc
+//= Quelles causes circulatoires font baisser l'EtCO2 sous 30 mmHg ?
+Quelles causes font baisser l'EtCO2 (< 30 mmHg) ? :: Circulatoires : arrêt cardiaque, hypotension brutale, hypovolémie, embolie pulmonaire\nRespiratoires : hyperventilation, bronchospasme, bouchon muqueux\nMétaboliques : hypothermie, anesthésie trop profonde\nMatérielles : fuite, déconnexion, sonde coudée
+//= Quelles causes métaboliques font monter l'EtCO2 ?
+Quelles causes font monter l'EtCO2 ? :: Métaboliques : réveil, frissons, levée de garrot, hyperthermie maligne, fièvre, convulsions\nRespiratoires : hypoventilation, dépression respiratoire\nCirculatoires : débit cardiaque augmenté\nMatérielles : chaux sodée saturée, valves défectueuses (réinhalation)
+Quel est l'intérêt de la capnographie pendant un arrêt cardiaque ? :: Confirmer la position de la sonde, suivre l'efficacité de la RCP (la tendance compte plus qu'une valeur)\nEtCO2 < 10 mmHg après 20 min : mauvais pronostic, pas un critère d'arrêt à lui seul\nAutour de 25 mmHg : meilleures chances de reprise d'activité cardiaque
 
-// ---------- Capnogramme ----------
-Quelles sont les phases du capnogramme ? :: Phase A : espace mort, CO2 nul\nPhase AB : montée, mélange de l'espace mort et des gaz alvéolaires\nPhase BC : plateau alvéolaire, légèrement ascendant\nPoint C : fin d'expiration, mesure de l'EtCO2\nPhase CD : chute rapide au début de l'inspiration\nPoint D : PiCO2
-Où mesure-t-on l'EtCO2 sur le capnogramme ? :: Au point C, en fin d'expiration (fin du plateau alvéolaire)
-Que signifie une PiCO2 supérieure à 0 ? :: Une réinhalation de CO2 expiré\nAu bloc : chaux sodée saturée ou valves du respirateur défectueuses
-Quelle est la valeur normale de l'EtCO2 ? :: 35 à 40 mmHg, pour une PaCO2 de 38 à 42 mmHg
-Quel est le gradient entre la PaCO2 et l'EtCO2 ? :: Sujet sain éveillé : 1 à 2 mmHg\nVentilation contrôlée : environ 5 mmHg (espace mort alvéolaire augmenté)\nPathologie pulmonaire : 15 à 20 mmHg
-À quelles conditions l'EtCO2 reflète-t-elle la PaCO2 ? :: Un débit cardiaque normal et un poumon sain\nÀ retenir : l'EtCO2 sous-estime toujours la PaCO2
-
-// ---------- Intérêts ----------
-Quels sont les intérêts de la capnographie ? :: Vérifier la position de la sonde, détecter une intubation œsophagienne\nSurveiller la ventilation, détecter une apnée en VS\nSuivre les variations métaboliques et circulatoires\nÉvaluer l'efficacité d'une RCP\nDétecter un problème matériel
-Comment la capnographie confirme-t-elle la bonne position de la sonde d'intubation ? :: Par 6 capnogrammes réguliers
-Pourquoi le capnographe est-il le détecteur d'incident le plus précoce au bloc ? :: Toute variation brutale de la courbe ou de la valeur signale un incident critique
-
-// ---------- EtCO2 basse ----------
-Quelles causes circulatoires font baisser l'EtCO2 sous 30 mmHg ? :: Arrêt cardiaque\nHypotension brutale\nHypovolémie\nEmbolie pulmonaire
-Quelles causes respiratoires et métaboliques font baisser l'EtCO2 ? :: Respiratoires : hyperventilation, bronchospasme, bouchon muqueux\nMétaboliques : hypothermie, anesthésie trop profonde, surdosage analgésique
-Quelles causes matérielles font baisser l'EtCO2 ? :: Fuite du ballonnet ou de la ligne de prélèvement\nDéconnexion\nSonde coudée\nDysfonctionnement du respirateur
-
-// ---------- EtCO2 haute ----------
-Quelles causes métaboliques font monter l'EtCO2 ? :: Réveil, hausse du tonus musculaire, frissons\nLevée de garrot\nHyperthermie maligne, fièvre, sepsis\nDouleur, convulsions
-Quelles causes respiratoires, circulatoires et matérielles font monter l'EtCO2 ? :: Respiratoires : hypoventilation, dépression respiratoire, espace mort augmenté, BPCO\nCirculatoires : hausse du débit cardiaque, phéochromocytome\nMatérielles : chaux sodée saturée, valves défectueuses (réinhalation)
-
-// ---------- Tracés ----------
-Que signifie un capnogramme en aileron de requin ? :: Un bronchospasme sévère (obstruction expiratoire)
-Que signifie une encoche sur le plateau du capnogramme ? :: Une reprise de ventilation spontanée (décurarisation), une asynchronie ou une fuite autour du ballonnet
-Que signifie une pente du plateau augmentée sur le capnogramme ? :: Une BPCO
-Que signifie une chute brutale de la courbe de CO2 ? :: Un arrêt cardiorespiratoire, une extubation ou une déconnexion du respirateur
-Que signifie une ligne de base qui monte sur le capnogramme ? :: Une réinhalation de CO2
-Que peut-on voir sur le capnogramme lors d'une intubation œsophagienne ? :: Une courbe due à l'air gastrique, qui peut contenir du CO2\nÀ retenir : seuls 6 capnogrammes réguliers valident l'intubation
-Que montre le capnogramme lors d'une pause expiratoire ? :: Des oscillations cardiaques
-
-// ---------- Arrêt cardiaque ----------
-Quel est l'intérêt de la capnographie pendant un arrêt cardiaque ? :: Confirmer la position de la sonde\nSuivre l'efficacité de la RCP : la tendance compte plus qu'une valeur isolée
-Quelles valeurs d'EtCO2 ont une valeur pronostique pendant la RCP ? :: < 10 mmHg après 20 min de RCP : mauvais pronostic, sans être à lui seul un critère d'arrêt\nAutour de 25 mmHg : meilleures chances de reprise d'une activité cardiaque spontanée
+// ---------- Tracés (images) ----------
+[img:images/capno-01.png] Que montre ce capnogramme ? :: Un capnogramme normal\nMontée expiratoire, plateau alvéolaire peu ascendant\nPuis chute inspiratoire jusqu'à la ligne de base (zéro)
+//= Que signifie une encoche sur le plateau du capnogramme ?
+[img:images/capno-02.png] Chez ce patient ventilé, qu'évoque ce capnogramme ? :: Une encoche sur le plateau alvéolaire\nReprise d'une ventilation spontanée (décurarisation), asynchronie ou fuite autour du ballonnet
+//= Que montre le capnogramme lors d'une pause expiratoire ?
+[img:images/capno-03.png] Que montrent les petites ondulations à la fin de ce tracé ? :: Des oscillations cardiaques, pendant une pause expiratoire\nCe ne sont pas de nouveaux cycles respiratoires
+//= Que signifie une pente du plateau augmentée sur le capnogramme ?
+[img:images/capno-04.png] Chez un patient ayant une maladie respiratoire chronique, qu'évoque ce capnogramme ? :: Une BPCO\nPente du plateau alvéolaire (phase 3) augmentée : plateau nettement ascendant
+//= Que signifie un capnogramme en aileron de requin ?
+[img:images/capno-05.png] Qu'évoque ce capnogramme ? :: Un bronchospasme sévère\nAspect en aileron de requin : montée oblique, plateau disparu
+//= Que peut-on voir sur le capnogramme lors d'une intubation œsophagienne ?
+[img:images/capno-06.png] Juste après une intubation, qu'évoque ce tracé ? :: Une intubation œsophagienne\nQuelques petites courbes dues au CO2 de l'air gastrique, qui s'épuisent\nÀ retenir : seuls 6 capnogrammes réguliers valident l'intubation
+//= Que signifie une chute brutale de la courbe de CO2 ?
+[img:images/capno-07.png] Chez ce patient ventilé, le tracé change brutalement : qu'évoque-t-il ? :: Une chute brutale du CO2, le signal s'effondre\nCauses : arrêt cardiorespiratoire, extubation, déconnexion du respirateur
+[img:images/capno-08.png] Après une intubation, quel problème de position de la sonde ce tracé évoque-t-il ? :: Une intubation sélective\nPlateaux irréguliers, en marches
+//= Que signifie une ligne de base qui monte sur le capnogramme ?
+[img:images/capno-09.png] Qu'évoque ce capnogramme ? :: Une réinhalation de CO2\nLigne de base surélevée : pas de retour à zéro (PiCO2 > 0)\nCauses : chaux sodée saturée, valves défectueuses
