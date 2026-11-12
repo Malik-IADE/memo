@@ -9,8 +9,6 @@ Jusqu'à quel niveau vertébral descend la moelle épinière chez l'adulte ? :: 
 Quelle est la différence entre l'éveil et la conscience ? :: Éveil (vigilance) : porté par la formation réticulée du tronc cérébral, qui active thalamus et cortex ; son atteinte donne un coma\nConscience (contenu) : cortex et thalamus → percevoir, penser, se souvenir\nUn patient peut être éveillé, les yeux ouverts, mais confus
 
 // ---------- Surveillance neurologique ----------
-Quelles sont les trois composantes du score de Glasgow et leur cotation ? :: Ouverture des yeux : de 4 à 1\nRéponse verbale : de 5 à 1\nRéponse motrice : de 6 à 1\nScore total de 3 à 15
-À partir de quel score de Glasgow faut-il protéger les voies aériennes ? :: Glasgow ≤ 8 : coma → protection des voies aériennes (intubation)
 Que signifie l'association d'une HTA et d'une bradycardie chez un patient cérébrolésé ? :: Un réflexe de Cushing : signe d'alarme d'hypertension intracrânienne
 
 // ---------- Anesthésie et cerveau ----------
