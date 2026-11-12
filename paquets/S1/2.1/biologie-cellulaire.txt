@@ -1,0 +1,78 @@
+// Cours 2.1 – Biologie cellulaire : expression des gènes
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Biologie cellulaire
+
+// ---------- Génome et organisation de la cellule ----------
+Qu'est-ce que le génome ? :: L'ensemble de l'information héréditaire d'un organisme\nIl est présent en totalité dans chaque cellule
+Quelle part du génome humain code réellement des protéines ? :: Moins de 2 %\nUne partie plus large du génome est transcrite, mais toute la séquence d'un gène n'est pas codante
+Quelle est la différence entre une cellule eucaryote et une cellule procaryote ? :: Eucaryote : possède un noyau entouré d'une enveloppe, qui contient l'ADN\nProcaryote : n'a pas de noyau
+D'où viennent les mitochondries et quelle est leur particularité ? :: Elles proviennent de bactéries incorporées par une cellule il y a très longtemps\nElles possèdent leur propre ADN\nElles fournissent l'énergie, par exemple pour la contraction musculaire
+Où se déroulent la transcription et la traduction dans la cellule eucaryote ? :: Transcription : dans le noyau\nTraduction : par les ribosomes, notamment à la surface du réticulum endoplasmique
+Comment les bases de l'ADN s'associent-elles entre les deux brins ? :: L'ADN est une double hélice de deux brins complémentaires\nA s'associe avec T\nG s'associe avec C
+Quelle base de l'ARN remplace la thymine de l'ADN ? :: L'uracile (U)\nL'ARN utilise donc A, U, G et C
+Qu'est-ce que la chromatine ? :: L'ADN associé à des protéines, les histones\nLe nucléosome est l'unité d'empaquetage : l'ADN s'enroule autour des histones
+Quelle est la différence entre l'euchromatine et l'hétérochromatine ? :: Euchromatine : forme ouverte, accessible → les gènes peuvent être transcrits\nHétérochromatine : forme fermée, peu accessible → répression de l'expression\nÀ retenir : l'état de la chromatine fait partie de l'épigénétique
+À quoi correspond le chromosome en forme de X ? :: À la forme dupliquée et très condensée du matériel génétique, préparée pour la division\nIl sera réparti entre deux cellules filles
+
+// ---------- De l'ADN à la protéine ----------
+Dans quel sens circule l'information génétique dans la cellule ? :: ADN → ARN messager → protéine\nL'information ne revient pas de la protéine vers l'ARN ou l'ADN
+Qu'est-ce que la transcription ? :: La production d'un ARN messager à partir de l'ADN
+Qu'est-ce que la traduction ? :: La lecture de l'ARN messager pour fabriquer une protéine (chaîne d'acides aminés)
+Quelle enzyme fabrique l'ARN à partir de l'ADN ? :: L'ARN polymérase\nÀ ne pas confondre avec le ribosome (traduction) ni avec le spliceosome (épissage)
+Qu'est-ce qu'un facteur de transcription ? :: Une protéine qui régule la transcription en se fixant sur des séquences régulatrices de l'ADN\nIl peut être activateur ou répresseur
+Que faut-il réunir pour démarrer la transcription d'un gène ? :: L'ARN polymérase\nDes facteurs de transcription fixés sur le promoteur du gène
+Pourquoi la combinaison de nombreux facteurs de transcription est-elle utile ? :: Elle permet de produire le bon ARN messager, dans la bonne cellule, au bon moment\nChaque cellule n'exprime que les gènes dont elle a besoin
+Comment un signal extérieur, comme une hormone, modifie-t-il l'expression des gènes ? :: Signal → récepteur → signalisation dans la cellule → activation de facteurs de transcription → expression de gènes cibles\nLa réponse est spécifique et limitée dans le temps
+
+// ---------- Maturation de l'ARN ----------
+Qu'est-ce qu'un exon ? :: Une portion du gène conservée dans l'ARN messager mature
+Qu'est-ce qu'un intron ? :: Une portion du gène retirée du pré-ARN messager lors de la maturation
+Qu'est-ce que l'épissage ? :: Le retrait des introns du pré-ARN messager et la réunion des exons retenus\nIl produit l'ARN messager mature\nIl est réalisé par le spliceosome
+Qu'est-ce que l'épissage alternatif ? :: Un même gène donne plusieurs ARN messagers matures selon les exons retenus\n→ plusieurs isoformes de la protéine
+Quel est l'intérêt de l'épissage alternatif ? :: Augmenter la diversité des protéines à partir d'un même gène\nAdapter la protéine au tissu, au stade du développement ou au signal reçu\nExemple du cours : la tropomyosine, différente selon le tissu
+Qu'est-ce qu'une isoforme protéique ? :: Une forme apparentée d'une même protéine, issue de l'épissage alternatif\nElle a des propriétés adaptées (interactions, localisation dans la cellule, activité)
+
+// ---------- Traduction ----------
+Qu'est-ce qu'un codon ? :: Un triplet de bases de l'ARN messager lu pendant la traduction\nIl correspond à un acide aminé (ou à un arrêt)
+Combien existe-t-il de codons possibles, et pourquoi ? :: 64 codons\n4 bases sur 3 positions : 4 × 4 × 4 = 64
+Quels sont le codon de départ et les codons stop de la traduction ? :: Départ : AUG, qui correspond à la méthionine\nStop : UAA, UAG et UGA (ils n'ajoutent pas d'acide aminé)
+Pourquoi dit-on que le code génétique est redondant ? :: Plusieurs codons peuvent désigner le même acide aminé\nMais un codon ne désigne jamais deux acides aminés différents
+Quels sont les rôles du ribosome et des ARN de transfert dans la traduction ? :: Ribosome : lit les codons de l'ARN messager\nARN de transfert : apportent les acides aminés correspondant aux codons lus
+Quelles sont les trois étapes de la traduction ? :: Initiation : démarrage sur le codon AUG\nÉlongation : ajout des acides aminés dans l'ordre\nTerminaison : arrêt au codon stop
+
+// ---------- Structure et fonctions des protéines ----------
+Qu'est-ce qu'une liaison peptidique ? :: La liaison qui relie deux acides aminés dans une chaîne\nChaque acide aminé possède une fonction acide, une fonction amine et une chaîne latérale
+Qu'est-ce que la structure primaire d'une protéine ? :: La succession ordonnée des acides aminés dans la chaîne polypeptidique\nElle oriente toute l'organisation future de la protéine
+Qu'est-ce que la structure secondaire d'une protéine ? :: L'organisation locale de la chaîne, notamment en hélice alpha ou en feuillet bêta
+Qu'est-ce que la structure tertiaire d'une protéine ? :: Son organisation tridimensionnelle complète, obtenue par le repliement (folding)
+Quelle est la différence entre un motif et un domaine protéique ? :: Motif : organisation locale reconnaissable (ex. motif EF-hand qui fixe le calcium)\nDomaine : région de la structure tridimensionnelle qui porte une fonction
+Quel lien existe-t-il entre la structure et la fonction d'une protéine ? :: La séquence d'acides aminés prépare la structure\nLa structure permet la fonction\nUne protéine mal structurée perd sa fonction
+Quelles grandes fonctions assurent les protéines ? :: Structure (collagène, kératine)\nCatalyse (enzymes)\nTransport (hémoglobine, albumine)\nMouvement (actine, myosine)\nDéfense (anticorps)\nSignalisation et régulation (récepteurs, insuline)
+Quelle est la différence entre une protéine fibreuse et une protéine globulaire ? :: Fibreuse : allongée, insoluble, rigide → structure, soutien (collagène, kératine)\nGlobulaire : sphérique, soluble → enzymes, anticorps, hémoglobine, insuline
+
+// ---------- Contrôle de qualité ----------
+Que devient une protéine mal repliée ? :: Elle peut être marquée par l'ubiquitine puis détruite par le protéasome\nSes acides aminés sont recyclés
+Pourquoi l'accumulation de protéines mal repliées est-elle dangereuse ? :: Elles peuvent s'associer en agrégats toxiques pour la cellule\nExemple évoqué : maladies neurodégénératives comme Alzheimer
+Qu'est-ce que l'autophagie ? :: Une voie d'élimination : une vésicule englobe le matériel à détruire (ex. amas de protéines) puis rejoint un lysosome\nLe lysosome, acide et riche en enzymes, le dégrade ; les composants sont recyclés
+
+// ---------- Mutations ----------
+Quels sont les trois types de mutation ponctuelle selon leur effet sur la protéine ? :: Synonyme : même acide aminé, pas de changement\nFaux-sens : un acide aminé est remplacé par un autre\nNon-sens : apparition d'un codon stop prématuré
+Qu'est-ce qu'une substitution nucléotidique ? :: Le remplacement d'une base par une autre\nC'est le mécanisme de mutation le plus fréquent
+Quelles bases sont des purines et lesquelles sont des pyrimidines ? :: Purines : A et G\nPyrimidines : C et T (et U dans l'ARN)
+Quelle est la différence entre une transition et une transversion ? :: Transition : une base remplacée par une base de même famille (A ↔ G ou C ↔ T) ; la plus fréquente\nTransversion : une purine remplacée par une pyrimidine, ou l'inverse
+Quelles sont les causes des substitutions nucléotidiques ? :: Agents mutagènes de l'environnement (substances chimiques, rayonnements)\nMétabolisme de la cellule\nErreurs de réplication de l'ADN non corrigées par les systèmes de réparation
+Qu'est-ce qu'un décalage du cadre de lecture ? :: La perte ou l'ajout d'un ou deux nucléotides décale le regroupement des bases en codons\nToute la suite de la protéine est modifiée après la mutation
+Qu'est-ce qu'un remaniement chromosomique ? :: Une modification touchant un segment entier de chromosome\nDélétion : perte du segment\nDuplication : copie supplémentaire\nInversion : retournement du segment\nTranslocation : déplacement d'un segment vers un autre chromosome
+Qu'est-ce qu'une expansion de triplets ? :: L'augmentation du nombre de répétitions d'un même groupe de trois nucléotides\nElle peut modifier la protéine produite\nExemples : chorée de Huntington, dystrophie de Steinert, syndrome de l'X fragile
+Qu'est-ce que le mosaïsme ? :: La coexistence chez un même individu de populations de cellules génétiquement différentes\nChaque cellule n'est pas « à moitié anormale » : certaines le sont, d'autres non
+
+// ---------- Hérédité ----------
+Comment reconnaître une hérédité autosomique dominante sur un arbre généalogique ? :: Un seul allèle anormal suffit à exprimer la maladie\nTransmission verticale : sujets atteints à chaque génération\nLes deux sexes sont touchés
+Comment reconnaître une hérédité autosomique récessive sur un arbre généalogique ? :: La maladie s'exprime quand les deux copies du gène sont anormales\nDes parents non atteints peuvent avoir un enfant atteint\nLes deux sexes sont touchés
+Comment se transmet une maladie récessive liée à l'X ? :: Les sujets atteints sont des hommes\nLa transmission passe par des femmes non atteintes (conductrices)\nExemples : hémophilies A et B, myopathie de Duchenne
+Quelle anomalie est en cause dans les hémophilies A et B ? :: Une anomalie des facteurs de la coagulation\nHémophilie A : facteur VIII\nHémophilie B : facteur IX\nTransmission récessive liée à l'X
+Quelle anomalie est en cause dans la mucoviscidose ? :: Une anomalie de CFTR, transporteur membranaire du chlore\nTransmission autosomique récessive
+Quelle anomalie est en cause dans la drépanocytose et les thalassémies ? :: Une anomalie de la globine (chaînes de l'hémoglobine)\nDrépanocytose : mutation ponctuelle de la globine\nTransmission autosomique récessive
+Que signifient les symboles d'un arbre généalogique ? :: Cercle : femme ; carré : homme ; losange : sexe inconnu\nSymbole noir : sujet atteint ; à moitié noir : hétérozygote\nBarre oblique : décès ; flèche : personne qui consulte\nChiffres romains : générations

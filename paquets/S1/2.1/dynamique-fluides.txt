@@ -1,0 +1,58 @@
+// Cours 2.1 – Dynamique des fluides : physique des gaz, gaz médicaux, secours
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Les vaporisateurs, le circuit et les halogénés sont traités dans les paquets « Anesthésiques inhalés » et « Respirateur ».
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Dynamique des fluides
+
+// ---------- Physique des gaz ----------
+Quelle est la différence entre la fraction et la pression partielle d'un gaz ? :: Fraction : proportion du gaz dans le mélange, sans unité (0,21 = 21 %)\nPression partielle = fraction × pression totale, en mmHg\nÀ retenir : ne pas confondre une fraction et une pression
+Quelle est la fraction d'O2 dans l'air ? :: 0,21 (21 %)\nLe reste est surtout de l'azote
+Quelle est la pression partielle d'O2 dans l'air sec au niveau de la mer ? :: Environ 160 mmHg\n0,21 × 760 ≈ 160 mmHg
+Quelle est l'unité officielle de pression et quels sont les repères de conversion du cours ? :: Unité officielle : le pascal (Pa)\n1 bar ≈ 760 mmHg ≈ 100 000 Pa\n1 000 cmH2O ≈ 760 mmHg ≈ 1 013 hPa\nÀ retenir : toujours vérifier l'unité avant de comparer deux pressions
+Quels paramètres conditionnent l'état de la matière ? :: La température\nLa pression\nLe volume\nLe modèle du cours : PV/T = constante
+Quelle est la différence entre un gaz et une vapeur ? :: Gaz : substance uniquement gazeuse à la température considérée (O2, N2, N2O, xénon)\nVapeur : forme gazeuse d'une substance principalement liquide à température ambiante, en équilibre avec sa forme liquide\nÀ retenir : les « gaz halogénés » sont en réalité des vapeurs de liquides
+Que dit la loi de Henry ? :: À température constante, la quantité de gaz dissoute dans un liquide est proportionnelle à la pression partielle de ce gaz au-dessus du liquide\nElle dépend aussi de la solubilité du gaz dans ce liquide\nÀ l'équilibre, les pressions partielles sont égales dans le gaz et le liquide
+Pourquoi la pression d'O2 baisse-t-elle entre l'air inspiré et l'alvéole ? :: Dans la trachée, la vapeur d'eau prend une partie de la pression : 0,21 × (760 − 46) ≈ 150 mmHg\nDans l'alvéole, le CO2 en prend une autre partie : ≈ 150 − 40 = 110 mmHg
+Pourquoi la PaO2 n'est-elle pas égale à la pression alvéolaire en O2 (PAO2) ? :: La PaO2 dépend aussi de la qualité des échanges pulmonaires et du rapport ventilation-perfusion\nÀ retenir : PAO2 = alvéole ; PaO2 = sang artériel
+Que désignent Fgf, Fi, Fe et FA ? :: Fgf : fraction dans les gaz frais\nFi : fraction inspirée\nFe : fraction expirée\nFA : fraction alvéolaire
+Pourquoi un patient sous oxygène peut-il hypoventiler gravement sans désaturer ? :: L'O2 maintient une pression alvéolaire en O2 suffisante malgré la montée du CO2\nExemple du cours : à FiO2 0,30 et PaCO2 à 80 mmHg, la PAO2 théorique reste à 127 mmHg\nÀ retenir : une bonne SpO2 sous O2 ne prouve pas une bonne ventilation
+
+// ---------- Réserves d'oxygène ----------
+Quelle est la consommation d'O2 d'un adulte au repos ? :: Environ 300 mL/min
+Quelles sont les réserves d'O2 mobilisables de l'organisme à l'air et sous O2 pur ? :: À l'air : environ 1,4 L (1 425 mL)\nSous O2 pur : environ 3,7 L (3 699 mL)
+Quelle réserve d'O2 la préoxygénation augmente-t-elle surtout ? :: La réserve pulmonaire : de 630 mL à 2 850 mL\nLa réserve sanguine augmente très peu, car l'hémoglobine est déjà presque saturée\nÀ retenir : elle allonge le temps d'apnée tolérable, à l'induction comme avant l'extubation
+
+// ---------- Gaz médicaux et réseau ----------
+Qui est responsable des gaz médicaux à l'hôpital ? :: Les gaz médicaux sont des médicaments, gérés par les pharmaciens\nLes services techniques (et le fournisseur) sont responsables des installations\nLes cliniciens contrôlent le niveau des appareils
+Qu'impose l'arrêté du 7 janvier 1993 sur l'alimentation en gaz et en énergie du bloc ? :: En cas de défaillance, des systèmes de secours assurent la continuité des soins en cours\nCette continuité dure au moins jusqu'à la fin des soins de tous les patients du secteur\nLe déclenchement est automatique, ou réalisable immédiatement depuis la salle
+Quelles sont les pressions des réseaux primaire et secondaire de distribution des gaz ? :: Réseau primaire : environ 8 bars\nRéseau secondaire, jusqu'aux prises : environ 3 bars
+Quelles sont les trois défaillances possibles d'une alimentation en gaz ? :: La pression chute (fuite)\nLe débit est nul (vanne coupée)\nLa composition du gaz est altérée (rétropollution)\nÀ retenir : une pression présente ne prouve pas que le débit est disponible ni que le gaz est le bon
+Qu'est-ce que la rétropollution d'un réseau de gaz ? :: Un gaz remonte dans le réseau d'un autre gaz, à cause d'une différence de pression et d'une valve antiretour défaillante\nExemple : du N2O qui contamine le réseau d'O2 via un mélangeur\n→ une prise étiquetée O2 peut délivrer un autre mélange
+Quel piège existe avec les débitmètres muraux d'air et d'oxygène ? :: Ils se ressemblent\nLe détrompage des prises ne dispense pas de vérifier quel débitmètre on utilise
+Pourquoi doubler les prises de gaz au bloc ? :: Pour pouvoir se replier sur une autre prise en cas de défaillance\nDoubler les prises d'O2, d'air et de vide, et doubler le réseau quand un bras est utilisé (risque de rupture des flexibles)
+Quel est le secours en O2 le plus sûr en salle d'opération ? :: Une bouteille d'O2 sur place, réservée au secours, à commutation manuelle sur alarme de pression\nElle ne doit jamais servir aux transports courants, sinon elle risque d'être vide le jour de la panne
+Pourquoi un secours en O2 branché sur le réseau peut-il être inefficace ? :: Si la fuite est en aval, le secours se vide par la même fuite\nSon emplacement doit permettre d'isoler la défaillance
+Faut-il vérifier la pression des gaz à l'ouverture de la salle ? :: Oui, lors de la check-list d'ouverture de salle\nIl faut aussi connaître le son des alarmes de réseau, rarement entendues
+À quoi sert une aide cognitive en cas de panne d'O2 ou d'électricité ? :: À suivre une procédure commune sous stress\nElle organise la reconnaissance de la panne, l'appel à l'aide, les actions en salle et au niveau du bloc, et la répartition des tâches
+
+// ---------- Bouteilles ----------
+Comment identifier le gaz contenu dans une bouteille ? :: En lisant l'étiquette, seul moyen fiable\nLa couleur de la bouteille ne doit jamais servir à identifier le gaz
+Dans quel ordre ouvrir une bouteille d'O2 ? :: D'abord la vanne haute pression (robinet de la bouteille), progressivement\nPuis le débitmètre\nÀ retenir : ne jamais ouvrir le débitmètre avant la vanne haute pression
+Quelles précautions prendre pour manipuler une bouteille d'O2 ? :: Éviter les chocs et les chutes\nOuvrir progressivement\nMains propres\nNe pas improviser le montage ou le démontage du détendeur
+Quelles situations exposent à l'explosion d'une bouteille d'O2 ? :: Bouteille non protégée contre les chocs ou les chutes\nBouteille stockée ou utilisée couchée\nDébitmètre laissé ouvert alors que le robinet est fermé\nSource d'ignition (ex. patient qui fume dans sa chambre)
+Comment calculer l'autonomie d'une bouteille d'O2 ? :: Temps disponible = volume de gaz utilisable / débit, avec des unités cohérentes\nExemple : à 10 L/min, on consomme 100 L en 10 min\nÀ retenir : prévoir une marge pour les imprévus du transport (attente, panne d'ascenseur)
+Comment conserver une bouteille de MEOPA avant utilisation ? :: Le MEOPA craint le gel\nLa stocker verticalement au moins 48 h avant utilisation
+Qu'est-ce que le MEOPA et quelles précautions impose-t-il pour le personnel ? :: Mélange équimolaire oxygène-protoxyde d'azote, utilisé pour l'analgésie\nPotentiellement toxique pour le personnel : aérer la pièce et collecter les gaz expirés
+
+// ---------- Secours électrique ----------
+Quels appareils ne supportent aucune coupure électrique, même brève ? :: Le respirateur et la machine d'anesthésie\nLes pousse-seringues\nÀ retenir : vérifier que leur batterie est chargée et fonctionnelle
+Quels appareils peuvent supporter une coupure électrique d'environ 15 secondes ? :: Les moniteurs\nLe système d'information\nLes moyens de réchauffement peuvent ne pas être secourus
+Quelle est la différence entre un onduleur et un groupe électrogène ? :: Onduleur : relais immédiat, mais puissance et durée limitées → n'y brancher que les appareils nécessaires\nGroupe électrogène : démarre avec un délai (7 à 15 s au mieux), puis fonctionne longtemps tant qu'il a du carburant\nÀ retenir : l'intérêt est de coupler les deux
+Les prises électriques du bloc sont-elles détrompées ? :: Non : elles sont identifiées mais pas détrompées\nIl faut connaître les prises du réseau secouru et y brancher les appareils prioritaires
+Comment teste-t-on les secours électriques du bloc ? :: Les tests sont obligatoires, habituellement chaque mois\nLe test vérifie que toute la chaîne permet de poursuivre les soins, pas seulement le démarrage du groupe
+
+// ---------- Écoulements ----------
+Selon quel modèle s'écoulent le sang dans les vaisseaux et les gaz dans les voies aériennes ? :: Selon un modèle électrique : résistance et capacité\nExemple : une aorte moins élastique ou des résistances artérielles plus élevées augmentent la pression artérielle
+De quoi dépend la pression des voies aériennes en ventilation mécanique ? :: De la PEP\nDu volume et de la compliance (installation, relâchement musculaire)\nDu débit et des résistances (augmentées par un bronchospasme ou un laryngospasme)
+Qu'est-ce qu'une prescription de perfusion doit toujours préciser ? :: La masse (unité de poids)\nLe volume (unité de volume)\nLa durée (unité de temps)\nÀ retenir : un débit en mL/h ne donne pas la dose sans connaître la concentration
