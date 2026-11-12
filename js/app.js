@@ -163,12 +163,16 @@ window.addEventListener('hashchange', () => { window.scrollTo(0, 0); render(); t
 /* ---------- Dossiers : Semestre → UE → cours ---------- */
 
 // Emplacement d'un paquet d'après son fichier dans la Bibliothèque :
-// « S1/3.3/cours.txt » → semestre « S1 », UE « 3.3 ». Paquets perso → dossier « perso ».
+// « S1/3.3/cours.txt » → semestre « S1 », UE « 3.3 ». « Scores/scores.txt » → catégorie « Scores ».
+// Paquets perso → dossier « perso ».
 function locate(d) {
   const parts = (d.source || '').split('#')[0].split('/');
   if (parts.length >= 3) return { sem: parts[0], ue: parts[1] };
+  if (parts.length === 2) return { sem: parts[0], ue: null };
   return { sem: d.source ? 'partages' : 'perso', ue: null };
 }
+// Catégorie à un seul paquet (ex. « Scores ») : l'accueil ouvre directement le paquet.
+const isSingleCategory = (sem) => !/^S\d+$/i.test(sem) && sem !== 'perso' && sem !== 'partages';
 
 const semLabel = (sem) => sem === 'perso' ? 'Mes paquets'
   : sem === 'partages' ? 'Cours partagés'
@@ -177,6 +181,7 @@ const ueLabel = (ue) => `UE ${ue}`;
 const enc = encodeURIComponent;
 const folderHref = (d) => {
   const { sem, ue } = locate(d);
+  if (!ue && isSingleCategory(sem)) return '#/';
   return ue ? `#/f/${enc(sem)}/${enc(ue)}` : `#/f/${enc(sem)}`;
 };
 const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
@@ -310,7 +315,8 @@ function renderHome() {
     sems.get(r.loc.sem).push(r);
   }
   for (const a of annales) if (!sems.has(a.sem)) sems.set(a.sem, []);
-  const rank = (k) => (k === 'perso' ? 2 : k === 'partages' ? 1 : 0);
+  // Semestres d'abord, puis les catégories (ex. « Scores »), les cours partagés, « Mes paquets ».
+  const rank = (k) => (/^S\d+$/i.test(k) ? 0 : k === 'perso' ? 3 : k === 'partages' ? 2 : 1);
   const keys = [...sems.keys()].sort((a, b) => rank(a) - rank(b) || byKey(a, b));
 
   $app.innerHTML = `${topbarHome()}
@@ -323,6 +329,10 @@ function renderHome() {
       <ul class="folder-list">
         ${keys.map((k) => {
           const rs = sems.get(k);
+          if (isSingleCategory(k) && rs.length === 1) {
+            const { d, s } = rs[0];
+            return folderRow(`#/deck/${d.id}`, k, `${plural(store.cards(d.id).length, 'carte')} · tirées au hasard`, s.todo, ico.shuffle);
+          }
           const ues = new Set([...rs.map((r) => r.loc.ue), ...annales.filter((a) => a.sem === k).map((a) => a.ue)].filter(Boolean));
           const meta = ues.size ? [`${ues.size} UE`, rs.length ? `${rs.length} cours` : 'annales'].join(' · ') : plural(rs.length, 'paquet');
           return folderRow(`#/f/${enc(k)}`, semLabel(k), meta, sumTodo(rs), k === 'perso' ? ico.cards : ico.folder);
