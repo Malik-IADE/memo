@@ -43,3 +43,6 @@ S1/4.4/hygiene-mains.txt
 S1/4.4/tenue-bloc.txt
 S1/4.4/gestion-dechets.txt
 S1/4.4/radioprotection.txt
+
+// Tous les scores, réunis dans une catégorie à part (sous Semestre 2)
+Scores/scores.txt
