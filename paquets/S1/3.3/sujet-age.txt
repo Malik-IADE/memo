@@ -1,61 +1,73 @@
-// Cours 3.3 – Anesthésie du sujet âgé (support 2026)
-// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
-// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+// Cours 3.3 – Anesthésie du sujet âgé
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Épidémiologie, études et dates de recommandations du support ne sont pas reprises.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Sujet âgé
 
 // ---------- Vieillissement et fragilité ----------
-//= Sujet âgé : qu'est-ce que la fragilité et pourquoi raisonner en âge physiologique ?
-Qu'est-ce que la fragilité du sujet âgé et pourquoi raisonner en âge physiologique plutôt qu'en âge civil ? :: Vieillissement : ↓ progressive des réserves, moindre adaptation au stress\nFragilité : semble robuste au repos, mais peu de réserves si les besoins augmentent\n- Haut risque de complications, séquelles, dépendance\nÂge physiologique (état des organes, autonomie) > âge chronologique\nDépistage avec un outil validé (CFS, Q8 ≤ 14 → avis gériatrique)
-//= Sujet âgé : quels sont les 3 profils à distinguer ?
-Quels sont les 3 profils de sujets âgés à distinguer ? :: Vigoureux robustes : autonomes, peu de comorbidités\nFragiles : peu de réserves → dépister et prendre en charge activement\nDépendants polypathologiques : risque des comorbidités + de l'âge\n- Évaluer la balance bénéfice/risque
+Pourquoi l'âge chronologique ne suffit-il pas à évaluer le sujet âgé ? :: À âge égal, les réalités sont très différentes\nOn évalue l'âge physiologique : état des organes, autonomie, comorbidités
+Qu'est-ce que la fragilité ? :: Une faible capacité à faire face à un événement aigu, avec un risque de basculer vers la dépendance\nLe patient fragile paraît robuste au repos mais a peu de réserves
+Quelles sont les trois catégories de sujets âgés ? :: Vigoureux robustes : autonomes, peu de comorbidités\nFragiles : robustes au repos, peu de réserves ; à dépister\nDépendants polypathologiques : risque lié aux comorbidités et à la dépendance
+Quelles sont les conséquences neurologiques du vieillissement ? :: Moins de neurones, de synapses et de neurotransmetteurs\nSystème nerveux autonome altéré\nTroubles cognitifs : communication difficile, risque de confusion, douleur sous-estimée
+Quelles sont les conséquences rénales du vieillissement ? :: Moins de néphrons et de débit sanguin rénal : clairance diminuée, accumulation des médicaments\nSensibilité aux néphrotoxiques\nRétention urinaire (vessie neurologique, prostate)
+Pourquoi la créatinine seule reflète-t-elle mal la fonction rénale du sujet âgé ? :: Elle dépend de la masse musculaire : une même créatinine peut correspondre à un DFG normal chez un jeune sportif et très bas chez une femme âgée et maigre\nÀ retenir : estimer le DFG
+Quelles sont les modifications cardiaques du vieillissement ? :: Débit cardiaque diminué\nDysfonction diastolique : le débit dépend de la volémie et de la systole auriculaire\nDécompensation fréquente en cas de fibrillation atriale
+Quelles sont les modifications vasculaires et autonomes du vieillissement ? :: Rigidité artérielle : postcharge augmentée, HTA, HVG\nBaroréflexe et activité vagale diminués : hypotension orthostatique\nPlus grande sensibilité aux variations de PA, à la douleur et à l'hypothermie
+Quelles sont les modifications respiratoires du vieillissement ? :: Muscles plus faibles, poumon moins élastique, thorax plus rigide\nCV diminuée, volume résiduel augmenté\nPaO2 qui baisse, PaCO2 stable\nToux et déglutition altérées
+Pourquoi le sujet âgé est-il exposé à l'apnée postopératoire ? :: Sa réponse à l'hypoxie et à l'hypercapnie est diminuée\nIl est plus sensible aux opioïdes et aux dépresseurs du SNC
+Quelles précautions prendre pour les voies aériennes du sujet âgé ? :: Rigidité cervicale et dentition modifiée : prudence pour la ventilation au masque, l'intubation et la pose d'un masque laryngé
+Quels facteurs augmentent le risque respiratoire postopératoire du sujet âgé ? :: Âge\nSpO2 < 90 %\nInfection respiratoire de moins d'un mois\nAnémie\nChirurgie thoracique ou sus-mésocolique\nDurée > 2 h, urgence
+Pourquoi installer le sujet âgé avec précaution au bloc ? :: Squelette et peau fragiles\nUne posture non physiologique prolongée augmente la morbidité
 
-// ---------- Modifications physiologiques ----------
-//= Sujet âgé : quelles modifications cardiovasculaires et leurs conséquences ?
-Quelles modifications cardiovasculaires surviennent avec l'âge et quelles en sont les conséquences ? :: Myocarde : dysfonction diastolique\n- Débit dépendant de la volémie et de la systole auriculaire\n- Décompensation si FA\nArtères : rigidité → ↑ postcharge, HTA, HVG\nSNA : baroréflexe altéré, hypotension orthostatique\nConséquence : grande sensibilité aux variations de PA, à l'hypovolémie, à la douleur et au froid
-//= Sujet âgé : quelles modifications respiratoires et leurs conséquences ?
-Quelles modifications respiratoires surviennent avec l'âge et quelles en sont les conséquences ? :: Mécanique : ↓ force musculaire, ↑ rigidité thoracique, ↓ CV, ↑ VR\nGaz du sang : PaO2 qui baisse avec l'âge, PaCO2 stable\nProtection : ↓ toux, déglutition altérée\nRéponse à l'hypoxie/hypercapnie ↓ → risque d'apnée postop\nVoies aériennes : rigidité cervicale, dentition → prudence au masque et à l'intubation\nAttention : dépresseurs du SNC et opioïdes
-//= Sujet âgé : quelles modifications rénales et neurologiques ?
-Quelles modifications rénales et neurologiques surviennent avec l'âge ? :: Rein : ↓ masse néphronique et flux sanguin rénal\n- Accumulation des médicaments, sensibilité aux néphrotoxiques\n- Rétention urinaire fréquente\n- Créatinine = mauvais reflet : raisonner en DFG\nCerveau : ↓ neurones et neurotransmetteurs\n- Risque de confusion postop\n- Douleur difficile à évaluer et sous-estimée
-//= Pourquoi une même dose a-t-elle plus d'effet chez le sujet âgé ?
-Pourquoi une même dose de médicament a-t-elle plus d'effet chez le sujet âgé ? :: ↓ eau totale et compartiment vasculaire (−20-30 % après 75 ans) → effet plus intense\n↑ masse grasse : ↑ volume de distribution des liposolubles (midazolam) → élimination retardée\n↓ albumine : ↑ fraction libre (propofol)\n↓ élimination hépatique et rénale → durée d'action allongée\nConséquence : effet plus fort ET plus long
+// ---------- Pharmacologie ----------
+Quelles modifications pharmacocinétiques l'âge entraîne-t-il ? :: Moins d'eau totale et de masse maigre, plus de masse grasse\nMétabolisme hépatique et élimination rénale diminués\nProtéines plasmatiques modifiées\nÀ retenir : effets plus intenses et plus longs
+Comment l'âge modifie-t-il la distribution des médicaments liposolubles et peu liposolubles ? :: Liposolubles (midazolam) : volume de distribution augmenté, élimination retardée\nPeu liposolubles (morphine) : volume de distribution diminué, effet plus marqué
+Pourquoi le propofol a-t-il plus d'effet chez le sujet âgé ? :: Fraction libre augmentée, compartiment vasculaire réduit : effet plus fort pour une même dose\nRetentissement hémodynamique majoré et retardé : ne pas réinjecter trop vite
+Comment évoluent les besoins en halogénés avec l'âge ? :: Ils diminuent : la CAM est plus basse chez le sujet âgé
+Quelles sont les trois règles d'or de l'anesthésie du sujet âgé ? :: Réduction des doses\nTitration\nMonitorage\n« Start slow and go slow »
+Comment conduire une anesthésie générale chez le sujet âgé ? :: Doses réduites et titrées, agents de courte durée d'action\nMonitorage (BIS, curarisation)\nÉviter la prémédication\nAttention à l'hypovolémie et au baroréflexe altéré
+Quel morphinique privilégier pendant l'anesthésie du sujet âgé ? :: Le rémifentanil : courte durée d'action, peu d'accumulation\nTous les morphiniques sont réduits et titrés
+Pourquoi monitorer la curarisation chez le sujet âgé ? :: Le délai, la durée d'action et la récupération des curares peuvent être modifiés
 
-// ---------- Évaluation préanesthésique ----------
-//= Consultation d'anesthésie du sujet âgé : que faut-il évaluer ?
-Que faut-il évaluer lors de la consultation d'anesthésie d'un sujet âgé ? :: Autonomie (observée dès l'arrivée), fragilité\nFacteurs de risque de délire\nCardiaque : score de Lee, capacité ≥ 4 METs (2 étages)\n- Chirurgie à risque intermédiaire/élevé : ECG + troponine hs (± NT-proBNP)\nRein : DFG\nNutrition, capital veineux, intubation\nTraitements, consentement (entourage si troubles cognitifs, tracé au dossier)
-//= Quels sont les facteurs de risque de délire postopératoire à rechercher ?
-Quels facteurs de risque de délire postopératoire rechercher chez le sujet âgé ? :: Âge, sexe masculin\nCognitif : démence, ATCD de confusion, dépression\nFonctionnel : dépendance, immobilité, chutes\nSensoriel : baisse de la vue ou de l'audition\nÉtat général : dénutrition, déshydratation\nMédicaments : anticholinergiques, benzodiazépines\nDépistage chez tout patient ≥ 60 ans (Mini-Cog, MoCA), tracé et partagé
-//= Traitement habituel et prémédication du sujet âgé : quelles règles ?
-Quelles règles appliquer au traitement habituel et à la prémédication du sujet âgé ? :: Traitements (polymédication fréquente) :\n- Identifier les traitements à risque\n- Supprimer l'inutile\n- Réduire les dépresseurs du SNC\n- Ne pas déséquilibrer les traitements de fond (antiparkinsoniens)\nPrémédication : éviter les médicaments\n- Privilégier information, réassurance, hypnose\n- Éviter hydroxyzine, gabapentine, prégabaline\n- Si besoin : benzodiazépine de demi-vie courte
+// ---------- Consultation ----------
+Que rechercher en consultation chez le sujet âgé ? :: Autonomie, examen cardio-vasculaire, statut neuropsychologique\nFragilité, risque de délire\nVoies aériennes, capital veineux\nTraitements, état nutritionnel\nFonction rénale (DFG)
+Quels outils permettent de dépister la fragilité ? :: La Clinical Frailty Scale (CFS)\nLe questionnaire Q8 : un score ≤ 14 signe une vulnérabilité et fait proposer une évaluation gériatrique
+Quels sont les facteurs de risque de délire postopératoire ? :: Âge, sexe masculin\nTroubles cognitifs, antécédent de confusion, démence, dépression\nDépendance, immobilité, chutes\nBaisse de la vue ou de l'audition\nDénutrition, déshydratation\nAnticholinergiques, benzodiazépines
+Chez qui dépister le risque de délire postopératoire ? :: Chez tout patient de 60 ans ou plus\nOutils : Mini-Cog, MoCA, MMSE < 25\nRésultat tracé et partagé avec l'équipe
+Quel bilan cardiaque prévoir avant une chirurgie chez le sujet âgé ? :: L'âge ≥ 65 ans est un facteur de risque cardiovasculaire\nÉvaluer la capacité fonctionnelle (≥ 4 MET, 2 étages)\nChirurgie à faible risque : pas d'examen\nRisque intermédiaire ou élevé : ECG, troponine hs (avant, puis à H24 et H48), ± NT-proBNP\nNe pas retarder une chirurgie urgente
+Comment gérer le traitement habituel du sujet âgé ? :: Recenser tous les médicaments, automédication comprise\nIdentifier les traitements à risque, supprimer l'inutile\nRéduire les dépresseurs du SNC\nNe pas déséquilibrer les traitements de fond (antiparkinsoniens)
+Comment recueillir le consentement d'un sujet âgé avec troubles cognitifs ? :: Discuter avec l'entourage, avec un discours commun au chirurgien\nTracer ces échanges dans le dossier d'anesthésie
+Quelle prémédication proposer au sujet âgé ? :: Évaluer l'anxiété ; privilégier l'information et l'hypnose\nSi besoin : benzodiazépine de demi-vie courte\nÉviter hydroxyzine, gabapentine, prégabaline
 
 // ---------- Technique anesthésique ----------
-//= Sujet âgé : AG ou ALR ?
-Faut-il préférer une anesthésie générale ou une ALR chez le sujet âgé ? :: La qualité de la prise en charge globale compte plus que la technique\nFracture du col du fémur : rachianesthésie et AG équivalentes (délire, mortalité, marche)\nAucune technique ne prévient mieux le délire\nAmbulatoire : à privilégier quel que soit l'âge
-Quelles sont les 3 règles d'or de l'anesthésie du sujet âgé ? :: 1) Réduction des doses\n2) Titration : injecter, attendre l'effet, réévaluer (« start slow, go slow »)\n3) Monitorage\nAgents courts : rémifentanil, propofol titré (effet hémodynamique majoré et retardé)\nHalogénés : CAM plus basse\nCurares : monitorage systématique
-//= ALR chez le sujet âgé : quels intérêts et quels pièges ?
-Quels sont les intérêts et les pièges de l'ALR chez le sujet âgé ? :: Blocs périphériques : oui, facilitent la réhabilitation\n- Bloc fémoral recommandé dans la FESF\n- Attention à l'installation (posture prolongée)\nRachianesthésie :\n- Extension imprévisible → rachi continue (titrable)\n- Hypotension difficile à prévenir\n- Prodromes d'arrêt cardiaque très tardifs\n- Risque hémorragique (antiagrégants, anticoagulants)\nAPD : référence en chirurgie lourde
+Faut-il préférer l'AG ou l'ALR chez le sujet âgé ? :: La qualité de la prise en charge globale compte plus que la technique\nRachianesthésie et AG donnent des résultats comparables (délire, mortalité, marche)\nAucune technique n'est recommandée pour prévenir le délire
+Quelle est la place des blocs périphériques chez le sujet âgé ? :: Ils facilitent la réhabilitation\nBloc fémoral recommandé pour la fracture du col du fémur\nAttention à l'installation sur table
+Pourquoi la rachianesthésie est-elle délicate chez le sujet âgé ? :: Extension imprévisible : préférer la rachianesthésie continue\nHypotension difficile à prévenir, signes d'arrêt cardiaque très tardifs\nRisque hémorragique (antiagrégants, anticoagulants, insuffisance rénale), ponction souvent difficile
+L'âge contre-indique-t-il l'ambulatoire ? :: Non : privilégier l'ambulatoire chaque fois que possible, quel que soit l'âge
 
 // ---------- Monitorage et prévention ----------
-//= Sujet âgé : quels objectifs de pression artérielle en peropératoire ?
-Quels objectifs de pression artérielle viser en peropératoire chez le sujet âgé ? :: Connaître la PAM de base avant l'induction\nÉviter PAM < 60-70 mmHg\n- Hypertendu chronique : PAM > 70 mmHg ou > 90 % de la base\nTraiter sans délai toute hypotension (risque rénal et myocardique)\nHaut risque : monitorage du volume d'éjection systolique
-//= BIS chez le sujet âgé : pourquoi et quelle cible ?
-Pourquoi utiliser le BIS chez le sujet âgé, et avec quelle cible ? :: But : éviter une anesthésie trop profonde\nCible : 40 à 60\nEffets : ↓ consommation d'halogénés, réveil plus rapide\nPeut contribuer à réduire le délire postopératoire
-Comment prévenir l'hypoxémie et l'hypothermie chez le sujet âgé ? :: Hypoxémie :\n- Préoxygénation systématique\n- Agents courts, curarisation monitorée\n- Oxygénation et kiné postop\nHypothermie (se refroidit vite, se réchauffe mal) :\n- Réchauffement externe dès le préop, maintenu à chaque étape\n- Risques : ischémie myocardique, troubles du rythme, coagulopathie, infection
-//= Sujet âgé : anémie et seuils transfusionnels ?
-Quels seuils transfusionnels retenir chez le sujet âgé anémique ? :: Anémie préop : ↑ infections, séjour, mortalité → dépister et traiter (fer IV si carence)\nStratégie restrictive :\n- Hb 7 g/dL pour la plupart des patients\n- Hb 8 g/dL si orthopédie, maladie cardiovasculaire ou FESF\n- Coronarien : 8 à 10 g/dL\nTenir compte des symptômes
+Quel objectif de pression viser chez le sujet âgé au bloc ? :: Connaître la PAM de base avant l'induction\nÉviter une PAM < 60-70 mmHg ; hypertendu : PAM > 70 mmHg ou > 90 % de la PAM de base\nTraiter toute hypotension sans délai (risque rénal et myocardique)
+Pourquoi monitorer le BIS chez le sujet âgé ? :: Pour éviter une anesthésie trop profonde : moins d'halogénés, réveil plus rapide\nIl peut aider à réduire le délire\nCible : 40 à 60
+Comment prévenir l'hypoxémie chez le sujet âgé ? :: Préoxygénation systématique\nAgents de courte durée, curarisation titrée et monitorée\nOxygène et kinésithérapie postopératoires
+Pourquoi l'hypothermie est-elle particulièrement dangereuse chez le sujet âgé ? :: Il se refroidit plus vite et se réchauffe mal\nRisques : ischémie myocardique, troubles du rythme et de la coagulation, infection, retard de cicatrisation\nÀ retenir : réchauffer avant l'induction et à chaque étape
+Quels seuils transfusionnels retenir chez le sujet âgé ? :: Hb 7 g/dL chez la plupart des patients\nHb 8 g/dL en orthopédie, en cas de maladie cardiovasculaire ou de fracture du col du fémur, ou si symptômes\nCoronarien : 8 à 10 g/dL
+Pourquoi dépister l'anémie préopératoire chez le sujet âgé ? :: Elle augmente la durée d'hospitalisation, les infections et la mortalité\nLa traiter avant la chirurgie (fer IV si carence)
 
-// ---------- Douleur postopératoire ----------
-//= Douleur du sujet âgé : comment l'évaluer ?
-Comment évaluer la douleur chez le sujet âgé ? :: Le sujet âgé a mal, même s'il ne le dit pas\nSans troubles cognitifs : EVA, EVS, EN\nAvec troubles cognitifs : ALGOPLUS ou ECPA (hétéro-évaluation)\nDouleur non traitée : perte d'autonomie, confusion, réhabilitation compromise
-//= Analgésie du sujet âgé : quels médicaments et quelles précautions ?
-Quels antalgiques utiliser chez le sujet âgé et avec quelles précautions ? :: Paracétamol, anesthésiques locaux (administration précoce)\nNéfopam : à éviter (tachycardie, anticholinergique : HBP, seuil épileptogène)\nTramadol : risque de confusion, doses réduites\nAINS :\n- Éviter après 75 ans\n- Contre-indiqués si clairance < 30 mL/min, anticoagulant curatif, artériopathie sévère\nMorphine : titration 2 mg IV / 5 min (1 mg si > 90 ans), surveillance rapprochée
+// ---------- Analgésie ----------
+Pourquoi la douleur du sujet âgé est-elle souvent sous-traitée ? :: Il a mal même s'il ne le dit pas\nLes troubles cognitifs gênent l'évaluation\nÀ retenir : une douleur mal traitée compromet l'autonomie et la réhabilitation
+Quelles échelles de douleur utiliser chez le sujet âgé ? :: Sans trouble cognitif : EVA, EVS, EN\nAvec troubles cognitifs : ALGOPLUS ou ECPA
+Pourquoi éviter le néfopam chez le sujet âgé ? :: Tachycardisant : contre-indiqué chez le coronarien\nAnticholinergique : contre-indiqué en cas d'adénome prostatique\nAbaisse le seuil épileptogène, interactions
+Quelles précautions avec le tramadol chez le sujet âgé ? :: Risque de confusion postopératoire\nDoses réduites, prises espacées
+Quelles précautions avec les AINS chez le sujet âgé ? :: Dose et durée réduites après 65 ans, à éviter après 75 ans\nClairance de 30 à 60 mL/min : dose réduite de 30 à 50 %, pas de forme LP\nContre-indiqués si clairance < 30 mL/min, anticoagulation curative ou maladie artérielle sévère
+Comment titrer la morphine chez le sujet âgé ? :: 2 mg IV toutes les 5 min jusqu'au soulagement, sans effet indésirable\nAprès 90 ans : bolus de 1 mg\nSurveillance rapprochée
 
-// ---------- Troubles cognitifs et réhabilitation ----------
-//= Troubles neurocognitifs postopératoires : comment les distinguer selon le délai ?
-Comment distinguer les troubles neurocognitifs postopératoires selon leur délai d'apparition ? :: Délire postopératoire : jusqu'à J7 ou la sortie\n- Début aigu, fluctuant, inattention\nRetard de récupération neurocognitive : jusqu'à J30\nTrouble neurocognitif postopératoire : de J30 à 12 mois\nUne évaluation cognitive préop de référence est nécessaire
-//= Délire postopératoire : facteurs déclenchants et conséquences ?
-Quels sont les facteurs déclenchants et les conséquences du délire postopératoire ? :: Fréquent, parfois calme et silencieux (forme hypoactive)\nDéclencheurs :\n- Douleur, rétention urinaire, hypoxémie, hypothermie\n- Infection, troubles métaboliques\n- Médicaments sédatifs, anticholinergiques\nConséquences : chutes, syndrome de glissement, ↑ séjour et mortalité\nDélire au réveil : auto-extubation, arrachage de voies et drains
-//= Délire postopératoire : comment le prévenir, le dépister et le traiter ?
-Comment prévenir, dépister et traiter le délire postopératoire ? :: Prévention non médicamenteuse (tous les patients à risque) :\n- Réorientation, lunettes et appareils auditifs\n- Sommeil, mobilisation précoce, hydratation, nutrition, proches\nDépistage : quotidien jusqu'à J3 avec un outil validé (CAM, Nu-DESC)\nTraitement :\n- D'abord chercher une cause (douleur, globe, hypoxémie, infection, médicaments)\n- Halopéridol faible dose titré si échec\n- Pas de benzodiazépines (sauf sevrage alcoolique)
-//= Réhabilitation précoce du sujet âgé : quels grands principes ?
-Quels sont les grands principes de la réhabilitation précoce du sujet âgé ? :: Enjeu : éviter la perte d'autonomie liée à l'hospitalisation\nLever et mobilisation précoces\nContrôle de la douleur, surtout lors des mobilisations\nReprise alimentaire précoce\nRetrait rapide des drains, SNG, sonde urinaire\nRetour rapide dans l'environnement habituel
+// ---------- Réhabilitation et troubles cognitifs ----------
+Pourquoi la réhabilitation précoce est-elle cruciale chez le sujet âgé ? :: L'hospitalisation peut entraîner une perte d'autonomie durable (alitement prolongé, polymédication)
+Quels sont les principes de réhabilitation du sujet âgé ? :: Lever et mobilisation précoces\nRetour rapide dans l'environnement habituel\nDouleur contrôlée, surtout aux mobilisations\nReprise précoce de l'alimentation\nRetrait rapide des drains et sondes\nVigilance sur la fatigue liée à l'anémie
+Quelles sont les altérations cognitives postopératoires du sujet âgé ? :: Délire au réveil : agitation, risque d'arrachement des dispositifs\nSyndrome confusionnel : dans les 24 à 48 h\nDysfonction cognitive postopératoire : des troubles de mémoire à la démence
+Quels sont les repères temporels des troubles neurocognitifs périopératoires ? :: Délire postopératoire : jusqu'à J7 ou la sortie\nRetard de récupération neurocognitive : jusqu'à J30\nTrouble neurocognitif postopératoire : de J30 à 12 mois\nÀ retenir : une évaluation cognitive préopératoire est nécessaire pour parler de déclin
+Quels facteurs déclenchent un délire postopératoire ? :: Hypoxémie, hypothermie\nInfection, troubles métaboliques\nRétention urinaire, douleur\nSédatifs, neuroleptiques, anticholinergiques
+Quelles sont les conséquences d'un délire postopératoire ? :: Chutes, syndrome de glissement\nSéjour prolongé\nMortalité augmentée
+Comment prévenir le délire postopératoire ? :: Mesures non médicamenteuses : réorientation, lunettes et appareils auditifs, sommeil, mobilisation précoce, hydratation, nutrition, présence des proches\nMonitorage EEG de la profondeur d'anesthésie\nPas de médicament préventif systématique
+Comment dépister et traiter un délire postopératoire ? :: Dépistage quotidien, au moins jusqu'à J3 (Nu-DESC, CAM)\nRechercher une cause : douleur, rétention, hypoxémie, infection, médicaments\nSi échec : halopéridol à faible dose, titré\nPas de benzodiazépines, sauf sevrage alcoolique

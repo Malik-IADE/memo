@@ -1,55 +1,65 @@
-// Cours 3.3 – Anesthésie du patient hypertendu (support 2026)
-// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
-// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+// Cours 3.3 – Anesthésie du patient hypertendu
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Les cartes Anki sur l'insuffisance cardiaque, les valvulopathies et les pacemakers ne sont pas reprises : absentes de ce cours.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Patient hypertendu
 
-// ---------- Définitions ----------
-//= HTA : quelle définition, quels grades et comment bien mesurer la PA ?
-Comment définit-on l'HTA, quels en sont les grades et comment bien mesurer la pression artérielle ? :: Normale : PAS < 140 et PAD < 90 mmHg\nGrade 3 (sévère) : PAS > 180 et/ou PAD > 110 mmHg\nMesure fiable :\n- Plusieurs mesures, plusieurs consultations, aux 2 bras\n- Brassard adapté : trop serré = surestimation, trop large = sous-estimation\n- Effet blouse blanche : automesure
-//= Quels sont les organes cibles de l'HTA et leur atteinte ?
-Quels organes cibles l'HTA atteint-elle, et comment ? :: Cœur : HVG, dysfonction diastolique, coronaropathie, FA, insuffisance cardiaque\nVaisseaux : athérome (AVC, IDM, AOMI), anévrysme aortique\nCerveau : lacunes, démence vasculaire\nReins : néphroangiosclérose → insuffisance rénale\nYeux : rétinopathie hypertensive\nLe risque opératoire dépend surtout de ces atteintes
-//= Crise aiguë hypertensive : définition et complications ?
-Qu'est-ce qu'une crise aiguë hypertensive et quelles en sont les complications ? :: Définition : élévation rapide de la PA avec retentissement viscéral\nHTA maligne : PAD > 130 + souffrance viscérale + rétinopathie grade III-IV\nComplications :\n- Cœur : OAP, ischémie, dissection aortique\n- Cerveau : AVC, encéphalopathie, hémorragie méningée\n- Rein, œil (œdème papillaire), grossesse (éclampsie)\nTraitement antihypertenseur urgent
+// ---------- Définition ----------
+Quels sont les déterminants de la pression artérielle ? :: PA = débit cardiaque × résistances vasculaires\nDébit cardiaque = FC × VES
+Quelle est la pression artérielle normale ? :: PAS < 140 mmHg et PAD < 90 mmHg
+À partir de quelles valeurs parle-t-on d'HTA de grade 3 ? :: PAS > 180 mmHg et/ou PAD > 110 mmHg
+Comment bien mesurer la pression artérielle pour diagnostiquer une HTA ? :: 3 mesures lors de 2 consultations, aux 2 bras\nBrassard adapté : trop serré, il surestime ; trop large, il sous-estime\nTenir compte de l'effet blouse blanche
+Quelle est la différence entre HTA primitive et HTA secondaire ? :: Primitive : la grande majorité, sans cause identifiée\nSecondaire : cause identifiable, parfois curable — rénovasculaire, iatrogène (alcool, acide glycyrrhizique), endocrinienne (hyperaldostéronisme, hypercorticisme, phéochromocytome)
+Quels sont les facteurs de risque d'HTA ? :: Non modifiables : âge, sexe, génétique, facteurs materno-fœtaux\nModifiables : sel, tabac, sédentarité, surpoids, alcool, stress
 
 // ---------- Physiopathologie ----------
-//= Pourquoi la PA de l'hypertendu est-elle si instable sous anesthésie ?
-Pourquoi la pression artérielle d'un hypertendu est-elle si instable sous anesthésie ? :: PA = débit cardiaque × résistances vasculaires\nBaroréflexe altéré, vaisseaux rigides : moins de compensation\nHypovolémie relative de base (vasoconstriction, diurétiques)\nRéponse exagérée à la stimulation sympathique (laryngoscopie : jusqu'à +90 mmHg)\nRéponse exagérée à son inhibition (induction, rachi) → hypotension profonde
-//= Autorégulation et cœur de l'hypertendu : quelles conséquences ?
-Quelles sont les conséquences de l'HTA sur l'autorégulation et sur le cœur ? :: Autorégulation décalée vers le haut : cœur, rein, cerveau ont besoin d'une PA plus élevée\nVentricule hypertrophié et rigide (dysfonction diastolique) :\n- ↓ retour veineux → effondrement du VES\n- Excès de remplissage → congestion (OAP)\n- FA mal tolérée (perte de la systole auriculaire)\nPerfusion coronaire plus vulnérable
+Pourquoi l'hypertendu réagit-il de façon exagérée sous anesthésie ? :: Hypersensibilité au stress adrénergique\nBaroréflexe altéré, vaisseaux moins élastiques\nVolémie souvent basse (vasoconstriction, diurétiques)\nÀ retenir : réponses exagérées à la stimulation comme à l'inhibition du sympathique
+Pourquoi une baisse de pression est-elle plus dangereuse chez l'hypertendu ? :: L'autorégulation des organes est décalée vers des pressions plus hautes\nCœur, reins et cerveau ont besoin d'une pression plus élevée pour être perfusés
+Quelles sont les conséquences cardiaques de l'HTA ? :: Hypertrophie ventriculaire gauche, dysfonction diastolique\nFonction systolique longtemps préservée\nPerfusion coronaire plus fragile\nFibrillation atriale
+Pourquoi le ventricule de l'hypertendu tolère-t-il mal les variations de volémie ? :: Il est hypertrophié et rigide : une baisse du retour veineux fait chuter le VES\nUn remplissage excessif provoque une congestion
+Pourquoi la fibrillation atriale est-elle mal tolérée chez l'hypertendu ? :: Le ventricule rigide dépend de la contraction auriculaire pour se remplir : sa perte fait chuter le VES
+Quels sont les organes cibles de l'HTA ? :: Cœur : HVG, coronaropathie\nVaisseaux : athérome (AVC, infarctus, AOMI, anévrisme aortique)\nCerveau : lacunes, déclin cognitif\nReins : néphroangiosclérose\nYeux : rétinopathie hypertensive
+Qu'est-ce qu'une crise aiguë hypertensive ? :: Une hausse rapide de la PA avec retentissement viscéral\nElle impose un traitement antihypertenseur urgent
+Qu'est-ce qu'une HTA maligne ? :: PAD > 130 mmHg + souffrance viscérale + rétinopathie de grade III ou IV
+Quelles sont les complications d'une crise hypertensive ? :: Cardiaques : OAP, insuffisance cardiaque, ischémie, dissection aortique\nCérébrales : AVC, encéphalopathie, hémorragie méningée\nRénales : insuffisance rénale\nOculaires : œdème papillaire, hémorragie\nGrossesse : éclampsie
 
-// ---------- Risque périopératoire ----------
-//= Hypotension peropératoire : pourquoi est-elle dangereuse chez l'hypertendu ?
-Pourquoi une hypotension peropératoire est-elle particulièrement dangereuse chez l'hypertendu ? :: Les complications apparaissent surtout dans les jours qui suivent :\n- Insuffisance rénale aiguë\n- Atteinte myocardique, infarctus\n- Delirium\nMême 1 minute peut compter ; période post-induction particulièrement à risque\nUne hypotension brève ou post-induction n'est jamais anodine
-//= Hypotension peropératoire : quels mécanismes et quels facteurs de risque ?
-Quels sont les mécanismes et les facteurs de risque de l'hypotension peropératoire ? :: Mécanismes :\n- Vasodilatation (agents anesthésiques, inflammation)\n- ↓ débit cardiaque (bradycardie, hypovolémie)\n- ↑ pression intrathoracique (ventilation mécanique)\n- Sympathique et baroréflexe altérés\nFacteurs de risque : âge, ASA, HTA préop, propofol, durée, urgence, traitements
-//= Hypotension chez l'hypertendu : quel piège pour la profondeur d'anesthésie ?
-Chez l'hypertendu, quel piège l'hypotension tend-elle pour juger de la profondeur d'anesthésie ? :: L'hypotension peut faire croire à une anesthésie profonde alors qu'elle ne l'est pas\nRisque de mémorisation\nSolution : monitorer la profondeur (BIS, entropie)
+// ---------- Hypotension peropératoire ----------
+Qu'est-ce qui menace le plus l'hypertendu en périopératoire : l'HTA ou l'hypotension ? :: L'hypotension, par ses complications dans les jours et les semaines qui suivent\nL'HTA préopératoire expose justement à cette hypotension
+Comment définit-on l'hypotension peropératoire ? :: Pas de définition univoque ; le plus souvent :\nPAS < 80 mmHg\nOu baisse de plus de 20 % de la PAS de base\nOu PAS < 100 mmHg et/ou baisse de 30 %
+Qu'est-ce que l'hypotension post-induction ? :: Une hypotension qui survient après l'induction, avant l'incision
+Quels sont les mécanismes de l'hypotension sous anesthésie ? :: Vasodilatation\nBaisse du débit cardiaque (bradycardie, hypovolémie)\nPression intrathoracique positive (ventilation)\nAltération du sympathique et du baroréflexe
+Quels sont les facteurs de risque d'hypotension peropératoire ? :: Âge, ASA élevé\nPA basse avant l'opération\nPropofol\nChirurgie longue ou urgente\nMédicaments
+Quelles sont les conséquences d'une hypotension peropératoire ? :: Insuffisance rénale aiguë\nIschémie ou infarctus myocardique\nDelirium\nDécès\nÀ retenir : même une minute d'hypotension peut suffire
+Une hypotension courte ou post-induction est-elle sans conséquence ? :: Non : même brève, même chez un patient bien oxygéné et sans coronaropathie ni insuffisance rénale connue
+Pourquoi une hypotension peut-elle tromper sur la profondeur de l'anesthésie ? :: Elle peut faire croire à une anesthésie profonde alors qu'elle ne l'est pas\nRisque de mémorisation : monitorer la profondeur (BIS, entropie)
+Quelle cible de pression viser chez l'hypertendu au bloc ? :: PAM > 70 mmHg ou > 90 % de la PAM habituelle\nPAS dans ± 20 % de la valeur de base
+Comment corriger une baisse du débit cardiaque au bloc ? :: Agir sur ses deux déterminants : FC et VES\nCorriger le VES par une expansion volémique titrée
+Remonter la pression avec un vasopresseur suffit-il à préserver le débit cardiaque ? :: Non : PA = Q × R, une PA corrigée ne garantit pas le débit
 
 // ---------- Consultation et traitements ----------
-//= Consultation : que faire devant une PA élevée chez un patient à opérer ?
-Que faire en consultation devant une pression artérielle élevée chez un patient à opérer ? :: Rechercher une HTA connue, son traitement, l'équilibre habituel, l'effet blouse blanche\nÉvaluer les organes cibles (l'HTA isolée n'est pas dans le score de Lee)\nRechercher une urgence hypertensive (> 180/110) : céphalées, flou visuel, douleur abdominale\nPas de report si PAS < 180 et PAD < 110 mmHg\nNe pas débuter un traitement agressif (risque d'hypotension perop)\nNoter la PA de référence : elle fixe la cible peropératoire
-//= Antihypertenseurs avant chirurgie : lesquels poursuivre et lesquels arrêter ?
-Quels antihypertenseurs poursuivre et lesquels arrêter avant une chirurgie ? :: Poursuivre :\n- Bêtabloquants (sinon rebond, risque coronaire)\n- Antihypertenseurs centraux / clonidine (sinon rebond)\n- Inhibiteurs calciques, alphabloquants\nArrêter :\n- IEC / ARA2 > 12 h si HTA isolée (poursuivre si insuffisance cardiaque)\n- Diurétiques (hypovolémie, troubles ioniques)\n- Inhibiteur direct de la rénine : jusqu'à 5 jours avant
-//= Bêtabloquants : pourquoi les poursuivre et quels pièges au bloc ?
-Pourquoi poursuivre les bêtabloquants avant une chirurgie, et quels pièges posent-ils au bloc ? :: Arrêt : effet rebond et risque coronaire\nAu bloc :\n- Limitent la tachycardie\n- Masquent la tachycardie réflexe d'une hypovolémie : l'absence de tachycardie n'exclut pas une hypovolémie
-//= IEC et ARA2 : quel risque s'ils sont poursuivis ?
-Quel risque fait courir la poursuite des IEC et des ARA2 jusqu'à l'intervention ? :: Hypotension sévère, parfois réfractaire, sous anesthésie (blocage du système rénine-angiotensine)\nRègle : arrêt > 12 h si HTA isolée, poursuite si insuffisance cardiaque\nInhibiteur direct de la rénine : hypotension parfois réfractaire
-//= Diurétiques et inhibiteurs calciques : quels effets au bloc ?
-Quels effets les diurétiques et les inhibiteurs calciques ont-ils au bloc ? :: Diurétiques (arrêtés) :\n- Majoration de l'hypovolémie et de l'effet du jeûne\n- Troubles du rythme si hypokaliémie (ou hyperkaliémie avec les épargneurs de K)\nInhibiteurs calciques (poursuivis) : vasodilatation, tachycardie réflexe\nClonidine (poursuivie) : majoration de l'hypotension
+Que rechercher en consultation chez un patient hypertendu ? :: Une HTA méconnue, un effet blouse blanche\nUne urgence hypertensive (> 180/110 mmHg) : céphalées, flou visuel, douleur abdominale\nLes atteintes des organes cibles\nUne HTA secondaire
+Faut-il reporter une intervention pour une HTA découverte en consultation ? :: Non si PAD < 110 mmHg et PAS < 180 mmHg\nNe pas débuter de traitement agressif : risque d'hypotension peropératoire
+Quels sont les items du score de Lee ? :: Chirurgie à haut risque cardiaque\nCardiopathie ischémique\nInsuffisance cardiaque congestive\nAVC ou AIT\nDiabète insulinodépendant\nInsuffisance rénale chronique\nÀ retenir : l'HTA isolée n'en fait pas partie
+Quels antihypertenseurs poursuit-on jusqu'à l'intervention ? :: Bêtabloquants\nAntihypertenseurs centraux (clonidine)\nInhibiteurs calciques\nAlphabloquants
+Quels antihypertenseurs arrête-t-on avant l'intervention ? :: Diurétiques\nIEC et ARA2 en cas d'HTA isolée (arrêt de plus de 12 h)\nInhibiteur direct de la rénine : jusqu'à 5 jours avant
+Faut-il arrêter les IEC et ARA2 chez l'insuffisant cardiaque ? :: Non : on les poursuit en cas d'insuffisance cardiaque\nArrêt de plus de 12 h seulement en cas d'HTA isolée
+Pourquoi ne faut-il pas arrêter un bêtabloquant avant une chirurgie ? :: Risque de rebond : HTA, tachycardie, ischémie coronaire\nAu bloc, il limite la tachycardie\nPiège : il masque la tachycardie d'une hypovolémie
+Quels sont les effets cardiaques des bêtabloquants ? :: Inotrope négatif : baisse de la contractilité\nChronotrope et dromotrope négatifs : bradycardie\nBathmotrope négatif : effet antiarythmique
+Pourquoi arrête-t-on les diurétiques avant l'intervention ? :: Ils majorent l'hypovolémie du jeûne et les troubles hydroélectrolytiques\nAu bloc : hypovolémie, troubles du rythme (hypokaliémie, ou hyperkaliémie avec les épargneurs de potassium)
+Quel est le risque d'IEC ou d'ARA2 poursuivis jusqu'au bloc ? :: Une hypotension sévère, parfois réfractaire
+Comment agissent les IEC, les ARA2 et les inhibiteurs de la rénine ? :: Ils bloquent le système rénine-angiotensine à différents niveaux\nInhibiteur de la rénine : en amont\nIEC : formation de l'angiotensine II\nARA2 : récepteur de l'angiotensine II
+Quels sont les effets des inhibiteurs calciques au bloc ? :: Vasodilatation, baisse de l'inotropisme et du chronotropisme\nTachycardie réflexe possible\nÀ poursuivre, donnés avec la prémédication
+Comment agissent les alphabloquants ? :: Ils bloquent les récepteurs alpha-1 : baisse des résistances périphériques\nSans tachycardie réflexe ni modification du débit cardiaque\nExemples : urapidil, prazosine
+Comment agissent les antihypertenseurs centraux ? :: Agonistes alpha-2 : effet sympatholytique central (clonidine)\nÀ poursuivre ; ils majorent l'hypotension sous anesthésie
+Que vérifier lors de la visite préanesthésique d'un hypertendu ? :: La PA de référence\nLa prise des traitements à poursuivre et l'arrêt des autres\nUne prémédication antihypertensive si besoin
 
-// ---------- Peropératoire ----------
-//= Hypertendu : quels objectifs de pression artérielle en peropératoire ?
-Quels objectifs de pression artérielle viser en peropératoire chez l'hypertendu ? :: Connaître la PA de base\nHypertendu chronique : PAM > 70 mmHg ou > 90 % de la PAM habituelle\nPAS dans ± 20 % de la valeur de base\nNon-hypertendu : éviter PAM < 60-70 mmHg\nStratégie individualisée : moins de complications d'organe
-//= Hypotension peropératoire : comment raisonner le traitement ?
-Comment raisonner le traitement d'une hypotension peropératoire ? :: PA = débit × résistances → identifier le déterminant\nDébit bas : FC (bradycardie) et VES (remplissage titré)\nTonus vasculaire bas : vasopresseur (phényléphrine, noradrénaline)\nRemonter la PA ne garantit pas le débit\nPatients à haut risque : monitorage du VES
-//= Accès hypertensif peropératoire : quelles causes rechercher ?
-Quelles causes rechercher devant une poussée hypertensive peropératoire ? :: Douleur, stimulation nociceptive (laryngoscopie, chirurgie)\nAnesthésie trop légère\nHypoxémie, hypercapnie (cœlioscopie)\nClampage aortique ou carotidien, garrot prolongé\nGlobe urinaire, HTIC\nArrêt d'un traitement, toxiques (cocaïne) ou sevrage\nHyperthermie maligne, phéochromocytome méconnu
-//= Accès hypertensif peropératoire : conséquences et traitement ?
-Quelles sont les conséquences d'une poussée hypertensive peropératoire et comment la traiter ? :: Conséquences : saignement, œdème cérébral, OAP, ischémie myocardique\nTraitement : d'abord la cause, puis titrer un antihypertenseur IV\n- Nicardipine (Loxen)\n- Urapidil (Eupressyl)\n- Clonidine\n- Bêtabloquant : esmolol (Brevibloc)\nBut : baisser sans provoquer d'hypotension
-
-// ---------- Postopératoire ----------
-//= HTA en SSPI : quelles causes et quelle conduite ?
-Quelles sont les causes d'une HTA en SSPI et quelle conduite tenir ? :: Causes :\n- Douleur, frissons, NVPO\n- Hypercapnie (morphine, SAOS), hypoxémie\n- Globe urinaire, confusion\n- Arrêt des antihypertenseurs, toxiques, AINS\nConduite : traiter la cause, puis titration IV (bêtabloquant, inhibiteur calcique, urapidil, clonidine) avec relais
-//= Hypotension postopératoire chez l'hypertendu : causes à rechercher ?
-Quelles causes rechercher devant une hypotension postopératoire chez l'hypertendu ? :: Hypovolémie, saignement\nEffet résiduel des agents anesthésiques\nDébut de perfusion de la péridurale\nAntihypertenseurs de longue durée d'action\nAllergie, insuffisance surrénalienne, ischémie myocardique\nLa surveillance continue après le bloc : transmettre la cible de PA
+// ---------- Peropératoire et postopératoire ----------
+Pourquoi la laryngoscopie est-elle à risque chez l'hypertendu ? :: Sa réponse adrénergique est majorée : la hausse de PAS et de FC est bien plus forte que chez le sujet sain
+Quelles causes peuvent faire monter la PA au bloc ? :: Arrêt des traitements\nNociception : laryngoscopie, stimulation chirurgicale\nHypoxémie, hypercapnie (cœlioscopie)\nClampage aortique ou carotidien, garrot prolongé\nGlobe vésical, HTIC\nToxiques ou sevrage, hyperthermie maligne, phéochromocytome
+Quelles sont les conséquences d'un pic hypertensif peropératoire ? :: Saignement accru\nŒdème cérébral (chirurgie carotidienne)\nOAP\nIschémie myocardique
+Quels antihypertenseurs IV utiliser au bloc ? :: Nicardipine (Loxen), urapidil (Eupressyl), clonidine (Catapressan), esmolol (Brevibloc)\nÀ titrer pour ne pas provoquer d'hypotension
+Quelles causes rechercher devant une HTA en SSPI ? :: Douleur, frissons, NVPO\nHypercapnie (morphiniques, SAOS), hypoxémie\nGlobe vésical, confusion\nArrêt des antihypertenseurs, toxiques, AINS
+Comment traiter une HTA postopératoire ? :: D'abord traiter la cause\nPuis titrer un antihypertenseur IV avec relais : bêtabloquant, inhibiteur calcique, urapidil, clonidine
+Quelles causes rechercher devant une hypotension postopératoire ? :: Hypovolémie\nEffet résiduel des anesthésiques\nAntihypertenseurs de longue durée, début d'une péridurale\nAllergie, insuffisance surrénalienne, ischémie myocardique
+Pourquoi la surveillance de la PA doit-elle continuer après le bloc ? :: Les hypotensions surviennent aussi dans les jours suivants\nUne surveillance intensive au bloc puis espacée dans le service laisse passer ces épisodes

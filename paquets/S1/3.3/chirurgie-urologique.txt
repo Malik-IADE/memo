@@ -1,135 +1,98 @@
-// Cours 3.3 – Anesthésie en chirurgie urologique (support MAJ 2026)
-// Format Mémo : une carte par ligne « question :: réponse ».
-//   \n         = nouvelle puce dans la réponse
-//   \n- texte  = sous-puce (détail de la puce précédente)
-//   Titre : …  = « Titre » s'affiche en gras
-// Pour ajouter des questions : écrivez-les à la suite puis réimportez le fichier
-// (cochez « Supprimer du paquet les cartes qui ne sont plus dans le texte » si vous en avez retiré).
-// Critère de sélection : utile à l'IADE pour préparer, surveiller ou réagir au bloc et en SSPI.
+// Cours 3.3 – Anesthésie en chirurgie urologique
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Chiffres d'activité, coûts, pourcentages de complications et études du support ne sont pas repris.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Chirurgie urologique
 
 // ---------- Généralités ----------
-//= Chirurgie urologique : quels sont les 3 risques transversaux et les 4 installations classiques ?
-Quels sont les 3 risques communs à la chirurgie urologique et ses 4 installations classiques ? :: Risques :\n- Infectieux\n- Hémorragique\n- Thrombo-embolique\nInstallations :\n- Décubitus ventral\n- Décubitus latéral (lombotomie)\n- Décubitus dorsal + Trendelenburg\n- Position gynécologique (lithotomie)
-//= Torsion testiculaire, pyélonéphrite obstructive, greffe rénale : pourquoi sont-elles urgentes et comment les prendre en charge ?
-Pourquoi la torsion testiculaire, la pyélonéphrite obstructive et la greffe rénale sont-elles des urgences, et comment les prendre en charge ? :: Torsion testiculaire : AG, opérer en moins de 6 h (ischémie du testicule)\nPyélonéphrite obstructive : risque de choc septique → drainage (sonde JJ ou néphrostomie)\n- Avant : créatinine, kaliémie, ECBU, hémocultures\nGreffe rénale : limiter le temps d'ischémie du greffon
-//= Évaluation préopératoire en urologie : quels points explorer ?
-Quels points explorer lors de l'évaluation préopératoire en urologie ? :: État cardiaque\nÉtat respiratoire\nÉtat rénal : créatinine, DFG\nAnémie : Hb\nInfection : ECBU selon le geste\nTerrain : souvent âgé, polypathologique, tabagique, fragile
+Quels sont les trois grands risques de la chirurgie urologique ? :: Infectieux\nHémorragique\nThrombo-embolique
+Quelles sont les urgences en chirurgie urologique ? :: Torsion du testicule (AG)\nSonde JJ pour lever un obstacle lors d'une pyélonéphrite obstructive (AG ; fonction rénale, ECBU)\nGreffe rénale
+Quelles installations retrouve-t-on en urologie ? :: Décubitus dorsal ± Trendelenburg\nDécubitus latéral (lombotomie)\nDécubitus ventral\nPosition gynécologique (lithotomie)
+Quels éléments évaluer avant une chirurgie urologique ? :: État cardiaque et respiratoire\nFonction rénale\nAnémie\nInfection urinaire\nÀ retenir : patient souvent âgé et polypathologique
 
 // ---------- Risque infectieux ----------
-Quelles sont les particularités du risque infectieux en urologie ? :: Chirurgie propre-contaminée (urine normalement stérile)\nColonisation urinaire : ↑ bactériémies et septicémies\n- Surtout en résection endoscopique\nRisque : prostate > vessie
-//= ECBU préopératoire : pour quels gestes, dans quel délai et pourquoi pas la bandelette ?
-Pour quels gestes faut-il un ECBU préopératoire, dans quel délai, et pourquoi la bandelette ne suffit-elle pas ? :: Indication : endo-urologie au contact des urines\n- RTUP, RTUV, urétéroscopie, NLPC, néphrostomie…\nDélai : ≤ 10 jours avant le geste (15 j max)\nBandelette : insuffisante, seule la culture compte\nRôle IADE : vérifier que le résultat est récupéré et traité
-//= ECBU positif chez un patient asymptomatique : quelle conduite ?
-Que faire devant un ECBU positif chez un patient asymptomatique avant une chirurgie urologique ? :: Antibiothérapie adaptée :\n- Débutée 48 h avant le geste\n- Poursuivie jusqu'à J0, puis ≤ 48 h après\n- Soit 3 à 5 jours au total\nDébutée seulement au bloc : insuffisant → report\nSignes d'infection (fièvre…) : traiter et reporter
-//= Antibioprophylaxie et antibiothérapie : quelle différence ?
-Quelle est la différence entre une antibioprophylaxie et une antibiothérapie ? :: Antibioprophylaxie : prévient l'infection liée au geste\n- Sur urines stériles\nAntibiothérapie : traite une infection ou une colonisation\n- Urines colonisées = antibiothérapie curative, pas une simple prophylaxie
-//= Antibioprophylaxie en urologie : quelles sont les règles générales ?
-Quelles sont les règles générales de l'antibioprophylaxie en urologie ? :: Quand : ≤ 60 min avant l'incision\nDurée : pas de prolongation après l'intervention\nRéinjection : si l'intervention se prolonge\nMolécule de référence : céfazoline\n- Céfoxitine si ouverture digestive (cystectomie)\nToujours vérifier le protocole du service
+Pourquoi le risque infectieux est-il particulier en urologie ? :: Infection du site opératoire et colonisation des urines s'ajoutent\nLa colonisation urinaire augmente les bactériémies, surtout lors des résections endoscopiques\nRisque plus élevé pour la prostate que pour la vessie
+Avant quels gestes faut-il un ECBU préopératoire ? :: L'endo-urologie au contact des urines : RTUP, énucléation laser, RTUV, urétéroscopie, NLPC, urétrotomie, néphrostomie, bilan urodynamique
+Avant quels gestes l'ECBU préopératoire n'est-il pas indiqué ? :: Prostatectomie totale, adénomectomie chirurgicale, néphrectomie, cystectomie\nCystoscopie, instillations, prothèses, changement de sonde
+Quand réaliser l'ECBU préopératoire, et faut-il une bandelette ? :: 10 jours au plus avant le geste (15 au maximum si contrainte d'organisation)\nSeule la culture compte : la bandelette ne sert pas au dépistage
+Comment traiter une colonisation urinaire avant un geste endo-urologique ? :: Antibiothérapie adaptée débutée 48 h avant, jusqu'au geste et au plus 48 h après (3 à 5 jours en tout)\nMolécules à faible impact écologique : fosfomycine-trométamol, nitrofurantoïne, pivmécillinam\nToujours traiter avant une NLPC
+Quand ne traite-t-on pas une colonisation urinaire avant le geste ? :: Urines polymicrobiennes (≥ 3 germes) ou levures\nPatient sondé au long cours : pas d'ECBU avant un simple changement de sonde\nÀ retenir : des signes cliniques d'infection imposent de traiter et de reporter le geste
+Quelle antibioprophylaxie utiliser en urologie ? :: Céfazoline 2 g si urines stériles (adénomectomie, RTUP, sonde JJ, néphrostomie)\nCystectomie : céfoxitine 2 g, réinjection de 1 g toutes les 2 h\nPas d'antibioprophylaxie : néphrectomie, prostatectomie radicale, RTUV avec urines stériles
 
-// ---------- Risque hémorragique ----------
-Quelles chirurgies urologiques sont hémorragiques et comment s'y préparer ? :: Chirurgies à risque :\n- Rein (très vascularisé)\n- Dissection prostatique : prostatectomie radicale, cystoprostatectomie, adénomectomie\n- RTUP, RTUV\nPréparation :\n- Hb préop, bilan prétransfusionnel\n- 2 VVP, accélérateur-réchauffeur\nEndoscopie : saignement difficile à quantifier (dilué dans l'irrigation)
+// ---------- Hémorragie et thrombose ----------
+Quelles chirurgies urologiques sont hémorragiques ? :: Rein : rapports vasculaires\nProstatectomie radicale, cystoprostatectomie, adénomectomie voie haute : plexus veineux prostatiques\nRTUP, RTUV : saignement difficile à quantifier (irrigation)\nÀ retenir : transfuseur rapide avec réchauffeur prêt pour toute chirurgie lourde
+Quels sont les facteurs de risque thrombo-embolique en urologie ? :: Âge > 60 ans\nMET < 4\nCancer\nChirurgie > 2 h\nIMC ≥ 35\nAntécédent de MTEV
+Quelles chirurgies urologiques ont le risque thrombo-embolique le plus élevé ? :: La chirurgie carcinologique majeure : cystectomie, dérivations urinaires, néphrectomie élargie, curages
+Quelle thromboprophylaxie après une chirurgie carcinologique urologique majeure ? :: HBPM + compression pneumatique intermittente, prolongées 4 semaines\nProstatectomie robot sans curage chez un patient à faible risque : lever précoce ± contention, pas d'HBPM systématique
+Quels délais respecter entre une HBPM préventive et une ALR périmédullaire ? :: Ponction ou retrait du cathéter au moins 12 h après la dernière injection\nInjection suivante au moins 4 h après la ponction ou le retrait
 
-// ---------- Risque thrombo-embolique ----------
-//= MTEV en urologie : définition, intervention la plus à risque et facteurs de risque patient ?
-En urologie, quelle intervention est la plus à risque de maladie thromboembolique veineuse (MTEV), et quels facteurs liés au patient augmentent ce risque ? :: MTEV : thrombose veineuse + embolie pulmonaire\nIntervention la plus à risque : cystectomie avec dérivation\nFacteurs de risque :\n- Âge > 60 ans, IMC ≥ 35\n- MET < 4\n- Cancer, chirurgie > 120 min\n- ATCD personnel de MTEV
-//= Thromboprophylaxie selon le niveau de risque chirurgical ?
-Quelle thromboprophylaxie mettre en place selon le niveau de risque chirurgical ? :: Risque élevé : CPI + HBPM\n- Néphrectomie, cystectomie, curages\n- 4 semaines si chirurgie carcinologique ouverte\nRisque intermédiaire : CPI + HBPM selon le patient\n- Laparoscopie, adénomectomie, RTUP, RTUV\nRisque faible : pas d'HBPM, lever précoce\n- Bandelette, chirurgie scrotale\nCPI = compression pneumatique intermittente
-//= HBPM préventive et ALR périmédullaire : quels délais respecter et pourquoi ?
-Quels délais respecter entre une HBPM préventive et une ALR périmédullaire, et pourquoi ? :: Avant ponction ou retrait du cathéter : ≥ 12 h après la dernière HBPM\nAprès ponction ou retrait : ≥ 4 h avant la prochaine HBPM\nBut : éviter l'hématome périmédullaire (compression médullaire)
+// ---------- Positions ----------
+Qu'est-ce que la position de lithotomie ? :: Sur le dos, cuisses fléchies à 80-100° sur l'abdomen, jambes à 90°\nParfois associée au Trendelenburg
+Quelles sont les conséquences hémodynamiques et respiratoires de la lithotomie ? :: Le sang des jambes remonte vers le thorax et masque une hypovolémie\nRemise à plat progressive : risque d'hypotension\nPeu d'effet respiratoire, sauf atélectasies chez l'obèse
+Quelles complications locales la position de lithotomie expose-t-elle ? :: Syndrome des loges (chirurgie > 2 h), rhabdomyolyse\nNeuropathies : nerf obturateur (flexion excessive de la cuisse), nerf sciatique (rotation externe), sciatique poplité externe
+Qu'est-ce que la position de lombotomie, et quels sont ses effets ? :: Décubitus latéral avec ouverture du flanc (billot) pour aborder le rein\nCompression cave : retour veineux diminué\nAtélectasies du poumon inférieur, rapports V/Q modifiés\nPoints d'appui à protéger, risque d'élongation du plexus brachial
+Quels sont les risques de la position circonflexe (hyperlordose) ? :: Séquestration du sang dans les jambes\nPressions de ventilation augmentées, CRF diminuée : atélectasies, hypoxémie\nÉtirement des dernières racines nerveuses
 
-// ---------- Installations ----------
-//= Position de lithotomie : description et conséquences générales ?
-En quoi consiste la position de lithotomie et quelles sont ses conséquences générales ? :: Position : cuisses fléchies à 80-100°, jambes à 90° (± Trendelenburg)\nHémodynamique : 500 mL à 1 L de sang mobilisé vers le thorax\n- Peut masquer une hypovolémie\n- Remise à plat progressive (risque d'hypotension)\nRespiratoire : peu d'effet\n- Sauf obèse, AG, Trendelenburg → atélectasies
-//= Position de lithotomie : quelles complications locales ?
-Quelles complications locales la position de lithotomie peut-elle provoquer ? :: Syndrome des loges, rhabdomyolyse : risque si > 2 h\nNeuropathies :\n- Obturateur : flexion excessive de la cuisse\n- Sciatique : rotation externe\n- Sciatique poplité externe : appuis de jambe\nFacteurs de risque : durée, hypoperfusion du membre élevé, pression des supports
-//= Position de lombotomie : objectif et conséquences ?
-À quoi sert la position de lombotomie et quelles sont ses conséquences ? :: Position : décubitus latéral avec billot, pour ouvrir le flanc (abord du rein)\nHémodynamique : compression cave → ↓ retour veineux\nRespiratoire : atélectasies du poumon inférieur (V/Q modifiés)\nLocal :\n- Points d'appui à protéger\n- Élongation du plexus brachial si bras trop étiré
-//= Position circonflexe : pour quel abord et quels risques ?
-Pour quel abord utilise-t-on la position circonflexe et quels sont ses risques ? :: Abord : loge prostatique (hyperlordose, table cassée)\nHémodynamique : séquestration volémique dans les jambes\nRespiratoire : ↑ pressions de ventilation, ↓ CRF\n- → atélectasie, hypoxémie\nNerveux : étirement des dernières racines
-
-// ---------- Insuffisant rénal ----------
-//= Insuffisant rénal chronique terminal : quels points préparer avant la chirurgie ?
-Que préparer avant d'opérer un insuffisant rénal chronique terminal ? :: Dialyse :\n- Jour de la dernière séance (souvent la veille)\n- Poids sec, prise de poids, diurèse résiduelle\nBiologie : kaliémie, anémie\nFAV : ni brassard, ni perfusion sur ce bras\nNéphroprotection :\n- Pas de néphrotoxiques (aminosides, AINS, produits de contraste)\n- Bonne perfusion rénale, surveillance de la diurèse
+// ---------- Patient dialysé ----------
+Quels points évaluer chez un patient dialysé avant une chirurgie ? :: Anémie, kaliémie\nModalités de dialyse : jour, FAV ou dialyse péritonéale, poids sec, prise de poids entre deux séances, diurèse résiduelle\nDialyse avant et après l'intervention si besoin
+Quelles règles peropératoires respecter chez le patient dialysé ? :: Ni brassard ni perfusion sur le bras de la FAV\nNe pas aggraver la fonction rénale : pas de néphrotoxiques, bonne perfusion rénale, surveillance de la diurèse
 
 // ---------- Chirurgie du rein ----------
-//= Néphrectomie : quels sont les risques spécifiques ?
-Quels sont les risques spécifiques d'une néphrectomie ? :: Hémorragie : le rein reçoit 20 % du débit cardiaque\nVeine rénale thrombosée :\n- Hémostase difficile\n- Risque d'embolie pulmonaire\nBrèche pleurale : radio de thorax postop\nPosition de lombotomie : complications liées à l'installation
-//= Néphrectomie : quelle prise en charge anesthésique ?
-Quelle est la prise en charge anesthésique d'une néphrectomie ? :: Anesthésie : AG + IOT + curarisation ± bloc périphérique\nSaignement : 2 VVP, bilan transfusionnel\nHypothermie : réchauffement, monitorage T°\nAutres : thromboprophylaxie, monitorage invasif selon terrain\nPostop : diurèse et fonction rénale
-//= Néphrectomie élargie avec cavotomie : comment la préparer ?
-Comment préparer une néphrectomie élargie avec cavotomie ? :: Contexte : thrombus tumoral dans la veine cave, très hémorragique\nAnesthésie : AG + IOT, SG, SV\nAbords : 2 VVP gros calibre, KT central, KT artériel\nMatériel : accélérateur-réchauffeur\nPostop : réanimation
+Quelle est la différence entre néphrectomie totale, partielle et élargie ? :: Totale : ablation du rein\nPartielle : exérèse d'une partie du rein, avec plus de complications (saignement, fistule urinaire)\nÉlargie : rein + graisse péri-rénale ± surrénale, pour un cancer
+Quelles sont les complications d'une néphrectomie ? :: Hémorragie : le rein reçoit 20 % du débit cardiaque\nVeine rénale thrombosée : hémostase difficile, risque d'embolie pulmonaire\nBrèche pleurale (radio de contrôle)\nComplications de la lombotomie
+Comment conduire l'anesthésie d'une néphrectomie ? :: AG avec curarisation + bloc périphérique pour l'analgésie\nPas d'ECBU ni d'antibioprophylaxie\n2 VVP, bilan transfusionnel, réchauffement\nThromboprophylaxie, monitorage invasif selon le terrain\nPostopératoire : diurèse et fonction rénale
+Quelles précautions pour une néphrectomie avec thrombus dans la veine cave ? :: Chirurgie très hémorragique, plusieurs équipes (chirurgie cardiaque si le thrombus atteint l'oreillette)\nAG, 2 VVP de gros calibre, KTA, KTC, accélérateur-réchauffeur\nRéanimation postopératoire
 
 // ---------- Transplantation rénale ----------
-//= Greffe rénale : quels points pour l'anesthésie préopératoire et peropératoire ?
-Quels sont les points clés de l'anesthésie pour une greffe rénale, avant et pendant l'intervention ? :: Préop :\n- Bilan cardiovasculaire, diabète\n- Poids sec, Hb, kaliémie, dialyse la veille si besoin\n- Immunosuppression coordonnée avec la néphrologie\nPerop :\n- Éviter l'hypotension, surtout au déclampage\n- Remplissage guidé, solutés balancés plutôt que NaCl 0,9 %\n- Pas de néphrotoxiques\n- Protéger le bras de la FAV
-//= Greffe rénale : quelle prise en charge postopératoire ?
-Quelle est la prise en charge postopératoire d'une greffe rénale ? :: Analgésie : multimodale sans AINS, blocs de paroi\nSurveillance : diurèse horaire\nComplications :\n- Thrombose vasculaire\n- Fistule urinaire\n- Rejet, infection
+Comment conserve-t-on un greffon rénal ? :: À +4 °C, avec une ischémie froide la plus courte possible\nPerfusion hypothermique sur machine pour les greffons limites
+Quels sont les donneurs possibles en greffe rénale ? :: Donneur en mort encéphalique\nDonneur décédé après arrêt circulatoire (Maastricht III)\nDonneur vivant, dons croisés possibles\nÀ retenir : compatibilité ABO et cross-match
+Quelles sont les règles peropératoires d'une transplantation rénale ? :: Éviter l'hypotension, surtout au déclampage ; remplissage guidé\nSolutés balancés plutôt que NaCl 0,9 %\nPas de néphrotoxiques\nNi brassard ni perfusion sur le bras de la FAV
+Quelle analgésie et quelle surveillance après une greffe rénale ? :: Analgésie multimodale sans AINS, blocs de paroi\nDiurèse horaire\nComplications : thrombose vasculaire, fistule, rejet, infection
 
-// ---------- Prostate : HBP ----------
-//= Adénomectomie voie haute : quelle anesthésie et quels risques ?
-Quelle anesthésie pour une adénomectomie par voie haute et quels en sont les risques ? :: Anesthésie : rachianesthésie (T8) ou AG avec curarisation\nRisques :\n- Hémorragie au moment de l'énucléation\n- Bactériémie postop\n- Caillotage → sonde à double courant + irrigation\n- Douleur modérée à importante\n- Thrombo-embolique élevé
-
-// ---------- RTUP ----------
-//= RTUP : installation, anesthésie et liquide d'irrigation ?
-Pour une résection transurétrale de prostate (RTUP), quelles sont l'installation, l'anesthésie et le liquide d'irrigation ? :: Position : gynécologique\nAnesthésie : AG ou ALR niveau D10\nIrrigation :\n- Bipolaire : sérum physiologique (standard actuel)\n- Monopolaire : glycocolle 1,5 % → risque de TURP syndrome\nGlycocolle : hypotonique, non électrolytique, ne conduit pas le courant
-//= Après RTUP : comment surveiller l'irrigation et la sonde ?
-Comment surveiller l'irrigation et la sonde après une RTUP ? :: Bilan entrées/sorties : doit être positif (tenir compte de la diurèse)\nCouleur : urines rosées, débit suffisant\nUrines trop claires + débit faible : caillot qui obstrue → reprise possible\nDouleur : spasmes vésicaux (poussées sur sonde)
-Pourquoi la rachianesthésie est-elle intéressante pour une RTUP ? :: Patient éveillé = détection précoce des complications\nPerforation vésicale : douleur irradiant aux épaules\n- Risque d'uropéritonite\nTURP syndrome : 1er symptôme = troubles visuels
+// ---------- Prostate ----------
+Quelles sont les techniques chirurgicales de l'hypertrophie bénigne de la prostate ? :: RTUP (résection endoscopique, bipolaire) : petits et moyens adénomes\nÉnucléation au laser (HoLEP) : tous volumes, référence pour les gros adénomes\nAdénomectomie voie haute : volumineux adénomes si l'énucléation n'est pas disponible
+Qu'est-ce qu'une adénomectomie de prostate ? :: L'ablation de l'adénome en laissant la capsule prostatique, contrairement à la prostatectomie radicale
+Quels sont les risques de l'adénomectomie voie haute ? :: Hémorragie au moment de l'énucléation\nBactériémie postopératoire\nCaillotage : sonde à double courant avec irrigation\nDouleurs modérées à importantes\nRisque thrombo-embolique élevé
+Comment conduire l'anesthésie d'une adénomectomie voie haute ? :: Rachianesthésie (niveau T8) ou AG avec curarisation\nCéfazoline 2 g si urines stériles\nChirurgie peu hypothermiante
+Qu'est-ce que l'HoLEP ? :: Une énucléation de l'adénome au laser holmium, puis une morcellation dans la vessie\nPour les gros adénomes, sans incision, avec moins de saignement\nAnesthésie identique à la voie haute
+Comment se déroule une RTUP ? :: Résection de l'adénome par l'urètre, en position gynécologique, sous irrigation continue\nIrrigation au sérum physiologique en bipolaire ; glycocolle seulement en monopolaire\nAG ou ALR (niveau T10)
+Que surveiller après une RTUP ? :: Les volumes d'irrigation entrés et sortis\nDes urines rosées : trop claires avec un débit faible, suspecter un caillot (reprise)\nUne poussée sur la sonde
+Pourquoi la rachianesthésie est-elle intéressante pour une RTUP ? :: Le patient éveillé signale tôt les complications\nPerforation de vessie : douleur irradiant aux épaules\nTURP syndrome : troubles visuels
 
 // ---------- TURP syndrome ----------
-//= TURP syndrome : définition, mécanismes de résorption et circonstances ?
-Qu'est-ce que le TURP syndrome, comment le liquide d'irrigation est-il résorbé et dans quelles circonstances ? :: Définition : passage du liquide d'irrigation (glycocolle) dans la circulation\nRésorption :\n- Intravasculaire : plexus veineux prostatiques ouverts\n- Extravasculaire : rupture de la capsule\nGravité : proportionnelle au volume résorbé\nCirconstances : RTUP, RTUV, NLPC\n- Rare en bipolaire (mais surcharge possible)
-//= TURP syndrome : quels sont les 3 mécanismes physiopathologiques ?
-Quels sont les 3 mécanismes physiopathologiques du TURP syndrome ? :: 1) Surcharge volémique : jusqu'à l'OAP\n2) Dilution : hyponatrémie, hypo-osmolarité\n- → œdème cérébral\n3) Toxicité glycocolle + ammoniaque\n- Neurologique, cardiaque, rénale\n+ Hypothermie : irrigation froide
-//= TURP syndrome : quels signes cliniques, dans quel ordre ?
-Quels signes cliniques du TURP syndrome apparaissent, et dans quel ordre ? :: Volume : signes dès 1 L résorbé, quasi constants à 3 L\n1) Neurologiques précoces :\n- Bâillements, agitation, confusion\n- Nausées, vomissements, troubles visuels\n2) Cardiopulmonaires : HTA, bradycardie, troubles du rythme, cyanose\n3) Gravité : Choc, détresse respiratoire, convulsions, mydriase, coma
-//= TURP syndrome : quels signes biologiques et ECG ?
-Quels signes biologiques et ECG évoquent un TURP syndrome ? :: Biologie :\n- Hyponatrémie (sévère si < 120 mmol/L)\n- Hypo-osmolarité\n- Hyperglycinémie, hyperammoniémie\n- Hémolyse, anémie\nECG :\n- Bradycardie\n- QRS élargis, ondes T inversées
-//= TURP syndrome : quel traitement ?
-Comment traiter un TURP syndrome ? :: 1) arrêt de la chirurgie\n2) Fonctions vitales :\n- Oxygénation, hémodynamique\n- Baisse de la PIC, anticonvulsivants\n3) Corrections :\n- Hydroélectrolytique, acidose\n- Réchauffement\nOAP : furosémide (épuration extrarénale si réfractaire)
-//= Hyponatrémie du TURP syndrome : comment la corriger ?
-Comment corriger l'hyponatrémie d'un TURP syndrome ? :: Symptômes sévères : NaCl 3 % 150 mL en 20 min\n- À répéter jusqu'à 2 fois selon la natrémie\n- Objectif : +5 mmol/L et régression des symptômes\nSymptômes modérés : NaCl 3 % 150 mL une fois\nLimite : ≤ 10 mmol/L sur les 24 premières heures
-//= TURP syndrome : comment le prévenir ?
-Comment prévenir le TURP syndrome ? :: Règle des 3 × 60 :\n- Adénome < 60 g\n- Résection < 60 min\n- Poche d'irrigation < 60 cm au-dessus de la loge\nBipolaire au sérum physiologique plutôt que glycocolle\nALR : patient éveillé\nBilan entrées/sorties : alerte dès ~1 L d'écart
+Qu'est-ce que le TURP syndrome ? :: L'ensemble des signes cliniques et biologiques dus au passage du liquide d'irrigation (glycocolle) dans la circulation\nDevenu rare avec la résection bipolaire au sérum physiologique (surcharge toujours possible)
+Comment le liquide d'irrigation passe-t-il dans la circulation lors d'une résection ? :: Par les plexus veineux prostatiques ouverts\nOu hors des vaisseaux si la capsule prostatique est rompue\nCirconstances : RTUP, RTUV, NLPC
+Quels sont les mécanismes du TURP syndrome ? :: Surcharge volémique\nDilution : hyponatrémie\nToxicité du glycocolle : hyperammoniémie, troubles visuels, encéphalopathie, toxicité cardiaque\nHypothermie
+Quel est le premier signe du TURP syndrome ? :: Des troubles visuels
+Quels sont les signes cliniques du TURP syndrome ? :: D'abord : bâillements, agitation, confusion, nausées, vomissements, troubles visuels\nPuis : HTA, bradycardie, troubles du rythme, cyanose\nGravité : choc, détresse respiratoire, convulsions, mydriase, coma\nÀ retenir : dès 1 000 mL résorbés
+Quels sont les signes paracliniques du TURP syndrome ? :: Hyponatrémie (sévère si < 120 mmol/L), hypo-osmolarité\nHyperglycinémie, hyperammoniémie\nHémolyse, anémie\nECG : bradycardie, QRS élargis, ondes T inversées
+Que faire en cas de TURP syndrome ? :: Arrêter la chirurgie\nTraiter les défaillances : oxygène, hémodynamique, baisse de la PIC, anticonvulsivants\nCorriger l'hyponatrémie et l'acidose, réchauffer\nFurosémide si surcharge ou OAP
+Comment corriger l'hyponatrémie d'un TURP syndrome ? :: Symptômes sévères : NaCl 3 % 150 mL en 20 min, à répéter jusqu'à 2 fois ; objectif +5 mmol/L\nSymptômes modérés : NaCl 3 % 150 mL une fois\nPas plus de +10 mmol/L sur les premières 24 h
+Comment prévenir le TURP syndrome ? :: Règle des 3 × 60 : adénome < 60 g, résection < 60 min, poche < 60 cm au-dessus de la prostate\nPas d'hyperpression\nRésection bipolaire au sérum physiologique\nALR, bilan entrées-sorties (alerte dès 1 L d'écart)
 
-// ---------- Prostatectomie radicale ----------
-//= Prostatectomie radicale par laparotomie : quels points anesthésiques ?
-Quels sont les points anesthésiques d'une prostatectomie radicale par laparotomie ? :: Saignement : jusqu'à 2 L\n- 2 VVP de bon calibre, accélérateur-réchauffeur, bilan transfusionnel\nAnesthésie : AG + curarisation, infiltration cicatricielle\nInstallation : bras en croix, hyperlordose\nMTEV : risque élevé\nBleu de méthylène : SpO2 faussement basse
-//= Cœlioscopie en Trendelenburg : quels effets et quels pièges ?
-Quels sont les effets et les pièges d'une cœlioscopie en Trendelenburg ? :: Pneumopéritoine :\n- Emphysème sous-cutané, hypercapnie\n- ↓ retour veineux, ↓ débit sanguin rénal\nSonde d'intubation : vérifier sa position (intubation sélective)\nŒil : ↑ pression intraoculaire (glaucome)\nExtubation : parfois difficile (œdème des voies aériennes)
-
-// ---------- Vessie ----------
-//= RTUV : indication et points anesthésiques ?
-Quelle est l'indication d'une résection transurétrale de vessie (RTUV) et quels sont les points anesthésiques ? :: Indication : tumeur de vessie non infiltrante\nDéroulement : position gynécologique, < 60 min, AG ou ALR\nRisques :\n- Perforation, saignement modéré, atonie vésicale\n- MTEV (patient âgé, cancéreux)\n- TURP syndrome seulement si glycocolle\nECBU préop recommandé
-//= Cystectomie : déroulement et prise en charge anesthésique ?
-Comment se déroule une cystectomie et quelle est sa prise en charge anesthésique ? :: 2 temps :\n- Exérèse (temps hémorragique)\n- Dérivation urinaire avec anastomose digestive (Bricker = poche externe)\nProfil : chirurgie ≥ 4 h, hémorragique, douloureuse, patient comorbide\nAnesthésie : AG + IOT + curarisation\nAbords : 2 VVP, KT artériel, KT central si nutrition parentérale\nSonde gastrique
-//= Cystectomie : quelle surveillance postopératoire ?
-Quelle surveillance postopératoire après une cystectomie ? :: 24 h en SSPI :\n- Diurèse (sondes urétérales)\n- Saignement, hémodynamique\nAnalgésie : APD thoracique, PCA ou rachi-morphine\nPrévention thrombo-embolique +++
+// ---------- Prostatectomie et vessie ----------
+Quel est le cancer le plus fréquent chez l'homme ? :: Le cancer de la prostate
+Quelles sont les particularités de la prostatectomie radicale par laparotomie ? :: 2 à 3 h, bras en croix, hyperlordose\nPas d'antibioprophylaxie ; AG, infiltration cicatricielle\nTrès hémorragique (jusqu'à 2 L) : 2 VVP de bon calibre, accélérateur-réchauffeur\nRisque thrombo-embolique
+Pourquoi la SpO2 peut-elle baisser sans hypoxémie pendant une chirurgie de vessie ou de prostate ? :: Le bleu de méthylène, injecté pour repérer les orifices urétéraux, fausse la SpO2 vers le bas
+Quelles sont les particularités de la prostatectomie par cœlioscopie ? :: 3 à 4 h, moins de douleur et de saignement\nPneumopéritoine : emphysème sous-cutané, baisse du débit sanguin rénal\nTrendelenburg : vérifier la sonde, pression intraoculaire augmentée (glaucome)\nŒdème des parties molles : extubation parfois difficile\nVentilation en pression contrôlée pour limiter la capnie
+Quelles sont les particularités de la RTUV ? :: Résection d'une tumeur de vessie non infiltrante, en position gynécologique, en moins de 60 min\nAG ou ALR (atonie vésicale, perforation, saignement)\nTURP syndrome possible seulement avec le glycocolle\nECBU recommandé ; pas d'antibioprophylaxie si urines stériles
+Quelles sont les particularités anesthésiques d'une cystectomie ? :: Patient comorbide, chirurgie longue (≥ 4 h), hémorragique et douloureuse\nAG, 2 VVP, KTA, KTC, sonde gastrique\nBras en croix, hyperlordose\nAntibioprophylaxie : céfoxitine
+Qu'est-ce qu'un Bricker et une vessie de Studer ? :: Bricker : uretères abouchés à un segment d'intestin relié à la peau, urines recueillies dans une poche\nStuder : vessie de substitution en iléon, raccordée à l'urètre
+Que surveiller après une cystectomie ? :: 24 h en SSPI\nDiurèse par les sondes urétérales\nSaignement\nDouleur : péridurale, PCA ou morphine intrathécale\nPrévention thrombo-embolique
+Quels sont les éléments de la RAAC après cystectomie ? :: Avant : information, arrêt tabac et alcool, activité physique, immunonutrition, charge glucidique, jeûne limité, pas de prémédication\nPendant : dexaméthasone 8 mg, normothermie, épargne morphinique, apports guidés\nAprès : pas de SNG, sonde vésicale retirée tôt, réalimentation et lever dès J0
 
 // ---------- Calculs et drainage ----------
-//= Lithotritie extracorporelle (LEC) : principe, contre-indications, anesthésie et complications ?
-Pour une lithotritie extracorporelle (LEC), quels sont le principe, les contre-indications, l'anesthésie et les complications ? :: Principe : ondes de choc depuis l'extérieur (synchronisées à l'ECG)\nContre-indications :\n- Obstruction des voies urinaires\n- Anévrysme\n- Trouble de la coagulation\nAnesthésie : ambulatoire, sédation en AIVOC (rémifentanil)\nComplications : coliques néphrétiques, hématurie, bactériémie
-//= Sonde JJ et néphrostomie percutanée : quelle différence et quand les utiliser ?
-Quelle est la différence entre une sonde JJ et une néphrostomie percutanée, et quand utiliser chacune ? :: But : drainer les urines en amont d'un obstacle\n- Urgence si pyélonéphrite obstructive (patient potentiellement septique)\nBilan : créatinine + kaliémie\nSonde JJ : drainage interne (rein → vessie), AG ou ALR\nNéphrostomie : drainage externe, si échec de JJ\n- DV avec billot, AL ou AG
-//= Néphrolithotomie percutanée (NLPC) : principe, anesthésie et risques ?
-Pour une néphrolithotomie percutanée (NLPC), quels sont le principe, l'anesthésie et les risques ? :: Principe : accès percutané au rein pour fragmenter et extraire le calcul\nInstallation : DV avec billot\nAnesthésie : AG + IOT + 2 VVP\nRisques :\n- Hémorragique\n- Infectieux (colonisation toujours traitée avant)\n- TURP syndrome si glycocolle
-//= Urétéroscopie : quels principes et quelle exigence pour l'anesthésie ?
-Quels sont les principes de l'urétéroscopie et qu'exige-t-elle de l'anesthésie ? :: Déroulement : voies naturelles, position gynécologique, AG (ALR possible)\nLaser : immobilité absolue du patient\n- Sinon lésion de la paroi urinaire\nSepsis : l'hyperpression d'irrigation est le facteur majeur de fièvre postop
+Qu'est-ce que la lithotritie extracorporelle (LEC), et quelles sont ses contre-indications ? :: Une fragmentation des calculs par ondes de choc émises depuis l'extérieur\nContre-indications : obstruction des voies urinaires, anévrysme, trouble de la coagulation
+Quelles sont les particularités anesthésiques de la LEC ? :: Ambulatoire, décubitus dorsal, sédation (rémifentanil en AIVOC)\nOndes synchronisées sur l'ECG : attention aux troubles du rythme\nComplications : coliques néphrétiques, hématurie, bactériémie
+Quand pose-t-on une sonde JJ, et quelles sont ses complications ? :: Pour lever un obstacle du haut appareil (calcul, compression, tumeur), en urgence si pyélonéphrite obstructive\nAG ou ALR, céfazoline 2 g, créatinine préopératoire\nComplications : échec (→ néphrostomie), infection, obstruction, migration
+Qu'est-ce qu'une néphrostomie percutanée ? :: Un drainage des cavités rénales vers l'extérieur par un cathéter à travers la peau, surtout après échec de la sonde JJ\nAL ou AG, décubitus ventral\nComplications : infection, hémorragie
+Qu'est-ce que la néphrolithotomie percutanée (NLPC) ? :: Ponction du rein à travers la peau, dilatation du trajet, puis fragmentation et extraction du calcul\nDécubitus ventral avec billot, AG + IOT, 2 VVP
+Quelles sont les complications de la NLPC ? :: Hémorragie (clampage du drain, embolisation)\nInfection\nTURP syndrome (glycocolle possible)
+Quelles sont les particularités de l'urétéroscopie ? :: Position gynécologique, AG ou ALR\nRigide (uretère) ou souple (rein, laser)\nImmobilité absolue pendant le tir laser\nHyperpression d'irrigation : risque de fièvre et de sepsis
 
-// ---------- Robot ----------
-//= Chirurgie robot-assistée : pourquoi et comment curariser ?
-Pourquoi et comment curariser pour une chirurgie robot-assistée ? :: Pourquoi : les bras robotisés sont fixes\n- Si le patient bouge → lésion par les instruments\nPendant la chirurgie : curarisation profonde, PTC < 2\n- Monitorage quantitatif (+ BIS)\nAvant extubation : TOF ≥ 0,9 (sugammadex si besoin)
-//= Chirurgie robot-assistée : comment préparer le patient avant le drapage ?
-Comment préparer le patient avant le drapage pour une chirurgie robot-assistée ? :: Préoxygénation soigneuse\nAbords : 2 VVP avec prolongateurs (bras inaccessibles ensuite)\nYeux : protection oculaire\nTempérature : monitorage + réchauffement\nInstallation :\n- Pas de drap sur la table, matelas à mémoire de forme\n- Appuis vérifiés : aucune réinstallation possible\n- Trendelenburg limité à 20°
-//= Chirurgie robot-assistée : quelles complications hémodynamiques et respiratoires ?
-Quelles complications hémodynamiques et respiratoires peut entraîner une chirurgie robot-assistée ? :: Plus marquées qu'en cœlio (positions plus extrêmes)\nHémodynamique : ↑ pression intrathoracique\n- ↓ retour veineux, débit cardiaque, perfusion cérébrale\nRespiratoire :\n- ↓ CRF et compliance, hypercapnie\n- Emphysème sous-cutané, capnothorax\n- Embolie gazeuse
-//= Chirurgie robot-assistée : quelles complications oculaires et des voies aériennes ?
-Quelles complications oculaires et des voies aériennes peut entraîner une chirurgie robot-assistée ? :: Œil (↑ PIO, CI si glaucome) :\n- Ulcère de cornée\n- Neuropathie ischémique, occlusion rétinienne → cécité\n- Hémorragie intravitréenne\nVoies aériennes : œdème\n- ↑ tour de cou, œdème laryngé, macroglossie\n- Cormack aggravé → extubation prudente
-
-// ---------- RAAC cystectomie ----------
-//= RAAC après cystectomie : quelles mesures peropératoires relèvent de l'anesthésie ?
-Dans la RAAC après cystectomie, quelles mesures peropératoires relèvent de l'anesthésie ? :: Dexaméthasone 8 mg à l'induction\n- Même chez le diabétique : surveiller la glycémie\nNormothermie : T° > 36,5 °C au bloc et en SSPI\nCPI : si intervention > 4 h\nRemplissage : guidé par un monitorage hémodynamique\nAnalgésie : multimodale, épargne morphinique\nSNG : retirée en fin d'intervention
-//= RAAC après cystectomie : quelle analgésie multimodale ?
-Quelle analgésie multimodale proposer dans la RAAC après cystectomie ? :: Référence si laparotomie : APD thoracique\nAnesthésiques locaux : blocs de paroi, infiltration cicatricielle\nPerop : lidocaïne IV, kétamine faible dose (antihyperalgésique)\nPalier 1 : paracétamol, néfopam, AINS (si fonction rénale correcte)\nBut : épargne morphinique, réalimentation et lever dès J0
+// ---------- Chirurgie robotique ----------
+Quels sont les avantages et les inconvénients de la chirurgie robotique ? :: Avantages : image, précision et confort du chirurgien ; chirurgie mini-invasive pour le patient\nInconvénients : coût, pas de sensation tactile, installation et chirurgie longues
+Quelles complications la chirurgie robotique expose-t-elle ? :: CRF et compliance diminuées, hypercapnie\nEmphysème sous-cutané, capnothorax, embolie gazeuse\nOculaires : pression intraoculaire augmentée (contre-indiquée si glaucome), ulcère de cornée, cécité\nŒdème des VAS : prudence à l'extubation
+Quelles sont les règles anesthésiques en chirurgie robotique ? :: Préoxygénation en proclive, VS-AI\n2 VVP avec prolongateurs (bras inaccessibles)\nCurarisation profonde (PTC < 2) monitorée ; TOF ≥ 0,9 avant extubation (sugammadex)\nBIS, température, protection des yeux
+Pourquoi l'installation est-elle critique en chirurgie robotique ? :: Le drapage cache les appuis et aucune réinstallation n'est possible\nTable en mousse à mémoire de forme, pas de drap si la table s'incline\nTrendelenburg limité à 20°
