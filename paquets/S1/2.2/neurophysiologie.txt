@@ -5,27 +5,16 @@
 # IADE – Neurophysiologie
 
 // ---------- Organisation du système nerveux ----------
-Quel est le rôle principal de chaque lobe cérébral ? :: Frontal : motricité volontaire, planification, comportement\nPariétal : sensibilité\nTemporal : audition et mémoire\nOccipital : vision
-Quel est le rôle du cervelet ? :: L'équilibre et la coordination, la précision du mouvement
-Quel est le rôle du thalamus et de l'hypothalamus ? :: Thalamus : relais des informations vers le cortex ; participe à l'éveil et à la conscience\nHypothalamus : homéostasie (température, diurèse, glycémie, natrémie), hormones via l'hypophyse, système nerveux autonome
-Quelles structures se trouvent à l'étage sus-tentoriel et à l'étage sous-tentoriel ? :: Sus-tentoriel : hémisphères cérébraux, diencéphale (thalamus, hypothalamus)\nSous-tentoriel : tronc cérébral et cervelet
 Jusqu'à quel niveau vertébral descend la moelle épinière chez l'adulte ? :: Jusqu'à L1-L2 (cône médullaire)
-Quelles fonctions sont assurées par le mésencéphale ? :: Noyaux des nerfs III et IV : pupilles, mouvements des yeux\nÉveil
-Quelles fonctions sont assurées par le pont (protubérance) ? :: Noyaux des nerfs V à VIII : sensibilité de la face, réflexe cornéen, motricité faciale, audition, équilibre
-Quelles fonctions sont assurées par le bulbe ? :: Noyaux des nerfs IX à XII : déglutition, toux, voix\nCentres respiratoires et cardiovasculaires
 Quelle est la différence entre l'éveil et la conscience ? :: Éveil (vigilance) : porté par la formation réticulée du tronc cérébral, qui active thalamus et cortex ; son atteinte donne un coma\nConscience (contenu) : cortex et thalamus → percevoir, penser, se souvenir\nUn patient peut être éveillé, les yeux ouverts, mais confus
 
 // ---------- Surveillance neurologique ----------
 Quelles sont les trois composantes du score de Glasgow et leur cotation ? :: Ouverture des yeux : de 4 à 1\nRéponse verbale : de 5 à 1\nRéponse motrice : de 6 à 1\nScore total de 3 à 15
 À partir de quel score de Glasgow faut-il protéger les voies aériennes ? :: Glasgow ≤ 8 : coma → protection des voies aériennes (intubation)
-Comment cote-t-on la réponse motrice du score de Glasgow ? :: 6 : obéit à l'ordre\n5 : localise la douleur\n4 : évitement\n3 : flexion stéréotypée\n2 : extension stéréotypée\n1 : aucune
 Que signifie l'association d'une HTA et d'une bradycardie chez un patient cérébrolésé ? :: Un réflexe de Cushing : signe d'alarme d'hypertension intracrânienne
 
 // ---------- Anesthésie et cerveau ----------
-Quelles sont les composantes de l'anesthésie balancée ? :: Hypnose\nAmnésie\nAntinociception\nImmobilité\nMyorelaxation\nStabilité hémodynamique
-Sur quelle structure agissent les curares, et quelle composante de l'anesthésie assurent-ils ? :: Sur la jonction neuromusculaire\nIls assurent la myorelaxation, pas l'hypnose
 Pourquoi un patient immobile sous anesthésie n'est-il pas forcément endormi ? :: Les curares bloquent la jonction neuromusculaire : immobilité sans sommeil\nUn patient curarisé ne peut pas signaler par un mouvement une hypnose insuffisante\n→ maintenir des doses d'hypnotique suffisantes et surveillées
-Quels sont les quatre stades de Guedel ? :: I : analgésie, patient conscient\nII : excitation\nIII : anesthésie chirurgicale (respiration régulière, réflexes abolis)\nIV : surdosage (apnée, collapsus)
 Pourquoi le stade II de Guedel est-il dangereux ? :: Le patient est inconscient mais ses réflexes sont exacerbés : agitation, mâchoires serrées, pupilles dilatées, respiration irrégulière\nRisques : laryngospasme, vomissements\nÀ retenir : ne pas stimuler, ne pas extuber
 Que faire devant un patient qui s'agite au réveil, serre les dents sur la sonde et ne répond pas aux ordres ? :: C'est le stade II de Guedel : ne pas l'extuber (risque de laryngospasme)\nAttendre au calme, sans stimulation, ou approfondir l'anesthésie\nExtuber quand il répond aux ordres simples
 Quels états du patient diminuent la MAC des halogénés ? :: Âge (environ −6 % par décennie)\nHypothermie\nGrossesse\nMorphiniques et sédatifs associés
@@ -37,55 +26,29 @@ Pourquoi la pression artérielle baisse-t-elle à l'induction ? :: Vasodilatatio
 Comment interpréter les valeurs du BIS ? :: 100-80 : éveillé\n80-60 : sédation\n60-40 : anesthésie générale (cible)\n40-20 : hypnose profonde\n< 20 : bouffées-suppressions, anesthésie trop profonde
 Quelles sont les limites du BIS ? :: Activité musculaire, kétamine, sujet âgé faussent l'indice\nÀ retenir : toujours le confronter à la clinique et aux doses administrées
 Que mesure l'ANI ? :: La variabilité de la fréquence cardiaque liée à la respiration (tonus vagal), de 0 à 100\n50-70 : analgésie adaptée\n< 50 : nociception mal contrôlée
-Que mesure le NOL ? :: Un indice de nociception combinant plusieurs signaux (FC, pléthysmographie, conductance cutanée), de 0 à 100\n> 25 : réponse nociceptive
 Dans quel ordre les fonctions reviennent-elles au réveil ? :: Ventilation spontanée (bulbe)\nRéflexes de protection : déglutition, toux (tronc)\nÉveil : ouvre les yeux à l'appel\nConscience : répond aux ordres simples\nOrientation et mémoire, en dernier
 Quelles causes rechercher devant un réveil retardé ? :: Médicaments : hypnotiques, morphiniques, curares (TOF), benzodiazépines\nMétabolisme : glycémie, température, capnie, natrémie\nCause cérébrale : pupilles, déficit d'un côté, convulsions → AVC, hématome, HTIC
 En SSPI, quelle cause évoquer en premier devant un patient difficile à réveiller, bradypnéique, en myosis serré ? :: Un surdosage en morphinique\nConduite : stimuler, libérer les voies aériennes, oxygéner, appeler le médecin, naloxone titrée\nUne curarisation résiduelle ne donne pas de myosis
 
-// ---------- LCR et DVE ----------
-Où est produit le LCR et en quelle quantité ? :: Par les plexus choroïdes\nEnviron 500 mL par jour (environ 20 mL/h)\nVolume total d'environ 150 mL, renouvelé 3 à 4 fois par jour
-Quel est le trajet du LCR ? :: Ventricules latéraux → trous de Monro → 3e ventricule → aqueduc de Sylvius → 4e ventricule → espaces sous-arachnoïdiens\nRésorption par les granulations arachnoïdiennes dans les sinus veineux
-Où se fait le zéro d'une dérivation ventriculaire externe (DVE) ? :: Au niveau du tragus (repère du trou de Monro)\nÀ refaire à chaque changement de position
-Comment fonctionne la hauteur réglée d'une DVE ? :: La hauteur est prescrite en cmH2O au-dessus du zéro\nLe LCR s'écoule lorsque la pression intracrânienne dépasse cette hauteur
-Que surveiller chaque heure sur une DVE ? :: Le volume drainé (prévenir si plus de 15 à 20 mL en 1 h)\nLa couleur du LCR\nLes oscillations\nÀ retenir : système clos et aseptique
-Pourquoi faut-il refaire le zéro d'une DVE quand on relève la tête du lit ? :: La hauteur se règle par rapport à la tête du patient, pas au sol\nSi la tête monte sans déplacer la DVE, la chambre se retrouve trop bas\n→ hyperdrainage : risque d'hémorragie et d'engagement
-
 // ---------- Vascularisation et débit cérébral ----------
-Pourquoi dit-on que le cerveau est un organe sans réserve ? :: Il pèse 2 % du poids du corps mais reçoit environ 15 % du débit cardiaque\nIl consomme environ 20 % de l'O2 et du glucose\nUn arrêt circulatoire fait perdre connaissance en quelques secondes ; lésions irréversibles en environ 5 min
 Quel est le débit sanguin cérébral normal et à partir de quel seuil apparaît la souffrance neuronale ? :: Normal : environ 50 mL/100 g/min\n< 20 : silence électrique\n< 10 : mort neuronale
-Quels sont les deux systèmes artériels qui vascularisent le cerveau ? :: Système carotidien (antérieur) : carotides internes → cérébrales antérieures et moyennes\nSystème vertébro-basilaire (postérieur) : vertébrales → tronc basilaire → cérébrales postérieures
-Quels territoires vascularise le système vertébro-basilaire ? :: Le tronc cérébral\nLe cervelet\nLes lobes occipitaux (par les cérébrales postérieures)
 Qu'est-ce que le polygone de Willis ? :: Le cercle artériel qui relie les systèmes carotidien et vertébro-basilaire par les communicantes antérieure et postérieures\nIl permet des suppléances entre territoires
-Quel déficit entraîne l'atteinte de l'artère cérébrale moyenne superficielle ? :: Déficit de la face et du bras du côté opposé\nAphasie si l'hémisphère gauche est touché
-Quel déficit entraîne l'atteinte de l'artère cérébrale antérieure ? :: Déficit du côté opposé, prédominant à la jambe
-Quel déficit entraîne l'atteinte de l'artère cérébrale postérieure ? :: Un trouble visuel : hémianopsie latérale homonyme
 Comment calcule-t-on la pression de perfusion cérébrale (PPC) ? :: PPC = PAM − PIC\nValeur normale : environ 80 mmHg
 Quelles sont les valeurs normales et pathologiques de la pression intracrânienne ? :: Normale : 5 à 15 mmHg chez l'adulte couché\nHTIC : au-delà de 20-22 mmHg
 Qu'est-ce que l'autorégulation cérébrale ? :: Les artérioles se dilatent quand la PA baisse et se contractent quand elle monte, pour garder un débit stable\nPlateau classique : PAM d'environ 60 à 150 mmHg
-Pourquoi une chute brutale de PA atteint-elle le cerveau malgré l'autorégulation ? :: L'autorégulation est lente (5 à 10 s) et son plateau est étroit et propre à chaque patient (environ ± 10 % de sa PAM habituelle)\nExemples : induction, lâcher de garrot
 Pourquoi une PAM de 65 mmHg peut-elle être trop basse pour le cerveau d'un hypertendu chronique ? :: Sa courbe d'autorégulation est décalée vers la droite : 65 mmHg peut être sous sa limite inférieure\n→ se référer à la PA habituelle du patient
-Quels facteurs règlent le diamètre des artères cérébrales ? :: La pression (autorégulation)\nL'activité des neurones (couplage débit-métabolisme)\nLes gaz du sang (CO2 et O2)\nLes nerfs (rôle modulateur)
 Quel est l'effet de la PaCO2 sur le débit sanguin cérébral ? :: Relation linéaire : environ 2 à 4 % de débit par mmHg de PaCO2\nHypercapnie → vasodilatation → débit et PIC augmentés\nHypocapnie → vasoconstriction → PIC diminuée mais risque d'ischémie
-Quel est l'effet de la PaO2 sur le débit sanguin cérébral ? :: Effet seuil : rien ne change tant que la PaO2 reste au-dessus de 50-60 mmHg\nEn dessous : vasodilatation intense
 Quelle capnie viser chez un patient cérébrolésé, et pourquoi ? :: La normocapnie\nHyperventiler fait baisser la PIC, mais au prix d'une baisse de perfusion (ischémie)
 
 // ---------- Hypertension intracrânienne ----------
 Que dit la loi de Monro-Kellie ? :: Le crâne est une boîte fermée : parenchyme environ 80 %, LCR environ 10 %, sang environ 10 %\nUn volume ajouté (hématome, œdème) doit être compensé par le départ de LCR et de sang veineux
-Pourquoi la PIC finit-elle par monter brutalement quand un volume s'ajoute dans le crâne ? :: Au début, le LCR et le sang veineux sont chassés : la PIC monte peu\nQuand cette réserve est épuisée, chaque mL supplémentaire fait monter fortement la PIC
 Qu'est-ce que le cercle vicieux de l'HTIC ? :: PPC basse → vasodilatation → volume sanguin cérébral augmenté → PIC augmentée → PPC encore plus basse
 Que sont les ACSOS ? :: Les agressions cérébrales secondaires d'origine systémique\nHypotension, hypoxémie\nHypercapnie, hypocapnie profonde\nHyperthermie, convulsions\nAnémie, hypo- ou hyperglycémie, hyponatrémie
 Qu'est-ce qu'un engagement cérébral ? :: Le déplacement de structures cérébrales sous l'effet d'une masse, avec compression
-Quels sont les principaux types d'engagement cérébral ? :: Sous-falcoriel\nTemporal (uncal)\nCentral\nAmygdalien (trou occipital)
 Quels signes évoquent un engagement temporal ? :: Mydriase unilatérale\nTroubles de la vigilance
-Pourquoi l'engagement amygdalien est-il le plus grave ? :: Il comprime le bulbe : troubles respiratoires et du rythme cardiaque, jusqu'à l'arrêt cardiaque\nIl peut débuter par un torticolis
-Comment savoir si l'autorégulation cérébrale d'un traumatisé crânien est conservée en regardant la PAM et la PIC ? :: Conservée : quand la PAM monte, la PIC baisse (vasoconstriction)\nPerdue (cerveau « pression-passif ») : PAM et PIC montent ensemble
 Quels objectifs viser pour l'anesthésie d'un traumatisé crânien grave ? :: PAS > 110 mmHg\nSpO2 > 90 %\nEtCO2 30-35 mmHg (normocapnie)\nGlycémie 1,4-1,8 g/L\nNormothermie\nTête à 30°, cou dans l'axe
-En position assise, pourquoi la PA mesurée au bras surestime-t-elle la pression du cerveau ? :: Effet hydrostatique : environ 0,77 mmHg par cm de hauteur\nExemple : tête 25 cm au-dessus du bras → PAM cérébrale ≈ PAM au bras − 19 mmHg\nLa PA qui compte est celle au niveau du tragus
 
 // ---------- Moelle et rachianesthésie ----------
-Où croisent les principales voies de la moelle ? :: Faisceau pyramidal (motricité) : dans le bulbe\nCordons postérieurs (tact fin, proprioception) : dans le bulbe\nVoie spinothalamique (douleur, température) : dans la moelle, dès l'entrée
-Comment distinguer une atteinte de l'hémisphère, du tronc cérébral et de la moelle ? :: Hémisphère : déficit de l'hémicorps opposé\nTronc cérébral : atteinte « alterne », face du côté de la lésion, corps du côté opposé\nMoelle : face épargnée, signes sous un niveau, souvent des deux côtés
-Comment distinguer une paralysie faciale centrale d'une paralysie faciale périphérique ? :: Centrale : bas du visage du côté opposé, front épargné\nPériphérique : tout l'hémivisage du même côté, front compris, œil impossible à fermer
 Quels sont les risques respiratoires d'une lésion médullaire cervicale selon le niveau ? :: Au-dessus de C3 : apnée\nC3-C5 (nerf phrénique) : ventilation souvent nécessaire\nC5-C8 : capacité vitale très réduite, toux inefficace
 Qu'est-ce que le choc neurogène du traumatisé médullaire ? :: Hypotension + bradycardie après une lésion au-dessus de T6\nÀ retenir : chercher aussi une hémorragie associée
 Jusqu'à quand peut-on utiliser la succinylcholine chez un traumatisé médullaire ? :: Seulement dans les 48 premières heures\nAu-delà : risque d'hyperkaliémie grave
@@ -96,5 +59,4 @@ Quels signes apparaissent quand une rachianesthésie monte au niveau cervical ? 
 Quelle est la conduite à tenir devant une rachianesthésie trop haute ? :: Appeler à l'aide, O2, rester à la tête du patient\nVasopresseur, atropine si bradycardie, adrénaline si collapsus, remplissage\nAssister la ventilation, intuber si besoin\nÀ retenir : paralysé ne veut pas dire endormi, endormir avant d'intuber
 
 // ---------- Pupilles ----------
-Quelles voies nerveuses contrôlent le myosis et la mydriase ? :: Myosis : parasympathique, par le nerf III\nMydriase : sympathique (hypothalamus → moelle C8-T2 → ganglion cervical supérieur)
 Que suspecter devant un myosis et un ptosis d'un seul côté au réveil d'un bloc interscalénique ? :: Un syndrome de Claude Bernard-Horner : l'anesthésique local a diffusé vers la chaîne sympathique cervicale\nBénin, il régresse avec le bloc

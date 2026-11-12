@@ -6,46 +6,31 @@
 
 // ---------- Physiologie ----------
 Que signifie que l'être humain est homéotherme ? :: Sa température centrale reste stable, indépendamment de la température ambiante\nLa production de chaleur équilibre les pertes
-Quels sont les deux compartiments thermiques de l'organisme et leur température ? :: Central (organes) : environ 37 °C\nPériphérique (membres, peau) : environ 32-33 °C, zone tampon et d'échange
-Où se situe le centre de la thermorégulation ? :: Dans l'hypothalamus, la « tour de contrôle »\nIl reçoit les informations des thermorécepteurs cutanés et profonds
 Comment l'organisme réagit-il au froid ? :: Vasoconstriction cutanée (garde la chaleur au centre)\nThermogenèse\nFrissons
-Comment l'organisme réagit-il au chaud ? :: Vasodilatation cutanée\nSudation
 Qu'est-ce qu'un seuil thermique ? :: La température qui déclenche une réponse de thermorégulation (vasoconstriction, frisson, sudation)\nChez le sujet éveillé, l'écart entre les seuils de vasoconstriction et de sudation est très étroit : environ 0,2 °C
 Comment l'anesthésie modifie-t-elle les seuils thermiques ? :: Hypnotiques, halogénés et morphiniques abaissent les seuils de vasoconstriction et de frisson\n→ le patient se refroidit sans se défendre\nLes réponses comportementales (se couvrir) sont impossibles
 Quels sont les quatre modes de perte de chaleur par la peau, et leur part respective ? :: Radiation : environ 60 % (échange sans contact)\nÉvaporation : environ 20 % (peau, champ opératoire, voies aériennes)\nConvection : environ 15 % (air en mouvement)\nConduction : environ 5 % (contact avec une surface froide)
-Contre quel mode de perte de chaleur le fait de couvrir le patient est-il le plus efficace ? :: La radiation, premier mode de perte de chaleur (environ 60 %)
 
 // ---------- Hypothermie peropératoire : mécanismes ----------
 Quels sont les trois facteurs à l'origine de l'hypothermie peropératoire ? :: Inhibition de la thermorégulation par les agents anesthésiques\nBaisse de la production de chaleur (métabolisme diminué)\nExposition à un environnement froid (salle, patient découvert, perfusions froides)
 Qu'est-ce que la redistribution interne de chaleur à l'induction ? :: La vasodilatation anesthésique met en communication le centre chaud et la périphérie froide\nLe centre passe d'environ 37 à 36 °C, la périphérie se réchauffe\nLa chaleur n'est pas perdue, elle est déplacée
-Quel est le mécanisme principal de la baisse de température au début d'une anesthésie générale ? :: La redistribution interne de chaleur du centre vers la périphérie\nElle représente la majeure partie de la baisse, surtout dans la première heure
 Quelles sont les trois phases de la baisse de température sous anesthésie générale ? :: Chute rapide (1re heure) : redistribution interne\nBaisse lente : les pertes dépassent la production de chaleur\nPlateau : la vasoconstriction réapparaît, à un seuil plus bas, et protège le centre
 Quel est le piège de la phase de plateau thermique ? :: La température centrale se stabilise, mais les membres continuent de se refroidir\nAu réveil, à la levée de la vasoconstriction, la chaleur se redistribue → nouvelle chute de la température centrale
 Pourquoi la rachianesthésie et la péridurale exposent-elles à l'hypothermie ? :: Bloc sympathique : vasodilatation sous le niveau du bloc\nAfférences thermiques bloquées : l'hypothalamus est trompé\nPas de vasoconstriction des membres inférieurs, donc pas de plateau
-Pourquoi un patient sous rachianesthésie peut-il dire qu'il n'a pas froid alors qu'il est hypotherme ? :: Les afférences thermiques sous le niveau du bloc sont bloquées\nSa perception du froid est faussée\nÀ retenir : une absence de plainte n'est pas rassurante, il faut mesurer
 Quels patients se refroidissent plus vite au bloc ? :: Patients minces (peu de graisse isolante)\nSujets âgés : seuil de vasoconstriction plus bas, perception du froid diminuée, frissons moins efficaces\nPatients prémédiqués par benzodiazépine ou en attente en tenue légère\nAnesthésie périmédullaire
 
 // ---------- Conséquences ----------
 Quelles sont les principales conséquences de l'hypothermie peropératoire ? :: Infections du site opératoire\nSaignement et transfusion\nComplications cardiovasculaires (frissons, ischémie)\nEffets prolongés des médicaments\nInconfort et catabolisme augmenté
 Pourquoi l'hypothermie augmente-t-elle le risque d'infection du site opératoire ? :: Les cellules immunitaires (leucocytes, macrophages) fonctionnent moins bien, jusqu'à 48 h après l'intervention\nLa vasoconstriction réduit l'arrivée d'oxygène, de cellules immunitaires et d'antibiotique au site opératoire
-De quels trois déterminants dépend le risque d'infection du site opératoire, et comment agir sur chacun ? :: Inoculum : asepsie, flux laminaires\nContamination : antibioprophylaxie\nDéfenses du patient : maintien de la normothermie par le réchauffement actif
 Pourquoi l'hypothermie fait-elle saigner davantage ? :: Les plaquettes et les facteurs de coagulation fonctionnent moins bien au froid\n→ saignement et besoins transfusionnels augmentés
-Pourquoi un bilan de coagulation peut-il être normal chez un patient hypotherme qui saigne ? :: Le TP et le TCA sont mesurés à 37 °C au laboratoire\nIls ne reflètent pas la coagulation à la température réelle du patient
 Pourquoi les frissons du réveil sont-ils dangereux chez le patient coronarien ? :: Ils augmentent la consommation d'oxygène et les besoins métaboliques\nLe cœur doit répondre à une demande accrue → risque d'ischémie myocardique
 Comment l'hypothermie modifie-t-elle l'effet des curares et du propofol ? :: Les réactions enzymatiques ralentissent avec le froid\nCurares : durée d'action allongée (vécuronium +100 %, atracurium +60 % ; l'élimination de Hofmann dépend de la température)\nPropofol : concentrations plasmatiques plus élevées\n→ risque de curarisation résiduelle et de réveil retardé
 
 // ---------- Prévention et surveillance ----------
 Quelle température centrale viser à l'arrivée en SSPI ? :: Au moins 36,5 °C\nIdéalement, retrouver la température de départ du patient\n36 °C est le seuil de l'hypothermie, pas un objectif
-Pourquoi mesurer la température du patient avant l'anesthésie ? :: Pour connaître sa température de départ\nL'objectif est de la retrouver en fin d'intervention
 Quelle est la différence entre couvrir un patient et le réchauffer activement ? :: Couvrir (passif) : limite les pertes, surtout par radiation ; efficace mais insuffisant\nRéchauffer activement (air pulsé) : apporte de l'énergie et compense la dette thermique\nÀ retenir : les deux s'associent, sans interruption, transferts compris
 Qu'est-ce que le préchauffage et à quoi sert-il ? :: Réchauffer la peau à l'air pulsé avant l'induction\nLa périphérie se réchauffe alors que le centre reste à 37 °C\n→ gradient centre-périphérie réduit, donc moins de chute de température à l'induction
 Combien de temps dure le préchauffage, et quand est-il indispensable ? :: De 10 à 60 minutes, à organiser dès l'arrivée en salle\nIndispensable pour une chirurgie courte (moins de 90 min) : un réchauffement débuté seulement après l'induction corrige mal la chute initiale
 Quelles conditions rendent le réchauffement par air pulsé efficace ? :: Réchauffer la plus grande surface possible (au moins 20 % du corps)\nDémarrer tôt et maintenir tout le séjour au bloc, transferts compris
-Quel est le risque d'une mauvaise utilisation de l'air pulsé ? :: Des brûlures\nNe jamais placer le tuyau directement sous un drap ou sur la peau : toujours utiliser la couverture adaptée
-Quand faut-il ajouter un réchauffeur de fluides ? :: Acte de moins de 60 min sans préchauffage\nSurface cutanée disponible inférieure à 25 %\nTransfusion de produits sanguins ou remplissage important\nÀ retenir : réchauffer aussi les liquides d'irrigation
 Quelles sont les trois règles de prévention de l'hypothermie peropératoire ? :: Couvrir et réchauffer la peau : dès que possible, tout le temps, sur la plus grande surface\nRéchauffer les fluides quand c'est indiqué\nMesurer la température à l'arrivée en SSPI
-Pourquoi faut-il poursuivre le réchauffement en SSPI ? :: La température peut encore baisser en SSPI\nLes effets résiduels des agents anesthésiques et des morphiniques perturbent encore la thermorégulation\nUn patient extubé et conscient n'a pas forcément récupéré sa thermorégulation
-Que prévoit le décret du 5 décembre 1994 sur la température en SSPI ? :: Chaque poste de SSPI doit être doté des moyens nécessaires au retour à un équilibre thermique normal
 Quels sites permettent de mesurer la température centrale ? :: Œsophage, nasopharynx, vessie, tympan, artère pulmonaire, rectum\nÀ retenir : les sites peuvent donner des valeurs différentes au même moment
-Quel piège existe avec la mesure buccale de la température ? :: Elle doit être prise sous la langue, bouche fermée\nUn flux d'O2 froid fausse la mesure
-À quelle fréquence le filtre HEPA d'un réchauffeur à air pulsé doit-il être changé ? :: Une fois par an ou toutes les 500 heures d'utilisation

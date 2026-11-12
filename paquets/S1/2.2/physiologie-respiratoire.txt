@@ -4,92 +4,55 @@
 
 # IADE – Physiologie respiratoire
 
-// ---------- Étapes de la respiration ----------
-Quelles sont les étapes de l'acheminement de l'oxygène jusqu'aux cellules ? :: Ventilation : l'air entre dans les poumons\nDiffusion alvéolo-capillaire : l'O2 passe dans le sang\nConvection sanguine : transport par la circulation\nDiffusion tissulaire : l'O2 passe aux cellules\nLe CO2 fait le trajet inverse
-Quels sont les substrats et les produits de la respiration cellulaire ? :: Substrats : nutriments + O2\nProduits : énergie (ATP), CO2 et eau
-
 // ---------- Anatomie des voies aériennes ----------
-Quels sont les rôles des cornets et des cavités nasales ? :: Réchauffer, humidifier et filtrer l'air inspiré\nÀ retenir : l'humidification évite la formation de bouchons
 Quelle est la différence entre la zone de conduction et la zone respiratoire de l'arbre bronchique ? :: Conduction (trachée et bronches jusqu'à la 16e génération) : transport de l'air, sans échange gazeux = espace mort anatomique\nRespiratoire (17e à 23e génération, alvéoles) : échanges gazeux
 Qu'est-ce que l'acinus pulmonaire ? :: L'unité fonctionnelle respiratoire, centrée sur une bronchiole terminale\nAutres noms : lobule primaire, sac alvéolaire
-Combien de lobes et de scissures possède chaque poumon ? :: Poumon droit : 3 lobes et 2 scissures\nPoumon gauche : 2 lobes et 1 scissure
-Qu'est-ce que le médiastin ? :: La région centrale du thorax, entre les deux poumons\nIl contient notamment le cœur, les gros vaisseaux et la trachée
 Pourquoi une sonde d'intubation trop enfoncée va-t-elle le plus souvent dans la bronche souche droite ? :: La bronche souche droite est plus courte, plus large et plus verticale que la gauche\n→ risque d'intubation sélective droite
 Où place-t-on la lame du laryngoscope lors de l'intubation ? :: Dans le sillon glosso-épiglottique (vallécule), pour soulever l'épiglotte et voir les cordes vocales
-Pourquoi l'intubation œsophagienne est-elle un risque anatomique ? :: L'œsophage est situé juste en arrière de la trachée
-Que décrit la classification de Cormack et Lehane ? :: La qualité de l'exposition de la glotte à la laryngoscopie\nGrade 1 : glotte entièrement visible → grade 4 : épiglotte non visible\nÀ noter dans le dossier : un grade élevé fait anticiper une intubation difficile
 Quelle est la différence pratique entre une trachéotomie et une trachéostomie ? :: Trachéotomie : ouverture de la trachée, voies aériennes supérieures conservées (intubation par la bouche possible)\nTrachéostomie : trachée abouchée à la peau (ex. laryngectomie), plus aucun accès par la bouche
-Que se passe-t-il au niveau des muscles du pharynx à l'inspiration ? :: Ils se contractent en même temps que le diaphragme\nIls rigidifient et élargissent la filière pharyngée pour éviter qu'elle se collabe
-Quels sont les muscles inspiratoires ? :: Le diaphragme, muscle principal (sa contraction l'abaisse)\nLes intercostaux\nMuscles accessoires : sterno-cléido-mastoïdiens, scalènes
 Que traduit la mise en jeu des muscles accessoires respiratoires ? :: Une augmentation du travail respiratoire\nSignes associés : tirage, expiration active
-Au repos, l'inspiration et l'expiration sont-elles actives ou passives ? :: Inspiration : active (contraction du diaphragme)\nExpiration : passive
-Quel nerf commande le diaphragme ? :: Le nerf phrénique, issu de C3-C5
-De quoi est constituée la plèvre ? :: D'un feuillet pariétal et d'un feuillet viscéral\nEntre les deux, une cavité virtuelle à pression négative
 Qu'est-ce qu'un pneumothorax ? :: De l'air entre les deux feuillets de la plèvre\nLe poumon se décolle de la paroi et se rétracte
 Qu'est-ce qu'un pneumothorax compressif ? :: Un pneumothorax qui refoule le médiastin du côté opposé\nIl entraîne un collapsus : urgence vitale
-Quel signe échographique évoque un pneumothorax ? :: La disparition du glissement pleural
-Comment l'air inspiré est-il filtré ? :: Grosses particules : nez\nParticules moyennes : tapis mucociliaire des bronches\nParticules fines : alvéoles
 
 // ---------- Mécanique ventilatoire ----------
 Quelle est la différence entre la ventilation minute et la ventilation alvéolaire ? :: Ventilation minute : VE = Vt × FR (environ 6 à 8 L/min au repos)\nVentilation alvéolaire : VA = (Vt − espace mort) × FR\nSeule la ventilation alvéolaire sert aux échanges
 Pourquoi une respiration rapide et superficielle est-elle peu efficace ? :: L'espace mort est le même à chaque cycle\nAvec un petit Vt, une grande part de chaque cycle ne sert pas aux échanges : la ventilation alvéolaire baisse
 Qu'est-ce que l'espace mort anatomique et quel est son volume ? :: Le volume des voies de conduction, ventilé mais sans échange gazeux\nEnviron 2,2 mL/kg, soit environ 150 mL chez l'adulte
-Quels sont les différents types d'espace mort ? :: Anatomique : voies de conduction\nAlvéolaire : alvéoles ventilées mais non perfusées (ex. embolie pulmonaire)\nInstrumental : sonde, raccords, filtre, circuit
-Comment évolue la pression intrathoracique en ventilation spontanée ? :: Le diaphragme descend → pressions pleurale et alvéolaire négatives → l'air est aspiré\nC'est l'inverse en ventilation mécanique, où l'air est insufflé en pression positive
-Que dit l'équation du mouvement respiratoire ? :: Pression des voies aériennes = résistance × débit + volume / compliance\nComposante résistive : voies de conduction\nComposante élastique : distension du poumon et de la paroi
-Que dit la loi de Poiseuille dans sa forme simplifiée ? :: P = Q × R\nPour qu'un débit s'écoule dans un tube, il faut une différence de pression entre ses deux extrémités
 Pourquoi une petite diminution du calibre des voies aériennes augmente-t-elle fortement la résistance ? :: La résistance varie avec l'inverse du rayon à la puissance 4\nDiviser le rayon par 2 multiplie la résistance par 16
 Qu'est-ce que la compliance respiratoire et quelle est sa valeur normale ? :: La facilité de distension de l'appareil respiratoire : C = ΔV / ΔP\nEnviron 100 mL/cmH2O (poumon + paroi)
 Quelle est la différence entre l'élasticité, l'élastance et la compliance ? :: Élasticité : capacité à revenir à sa forme initiale\nÉlastance : résistance à l'étirement (rétractabilité), E = 1 / C\nCompliance : distensibilité
 Quelles situations diminuent la compliance respiratoire ? :: Poumon : fibrose, œdème, atélectasie\nParoi : obésité, déformation thoracique
-Pourquoi l'emphysème augmente-t-il la compliance pulmonaire ? :: Le poumon se distend facilement mais se rétracte mal
 Qu'est-ce que le surfactant et quels sont ses rôles ? :: Un film de phospholipides sécrété par les cellules alvéolaires\nIl réduit la tension superficielle → garde les alvéoles ouvertes et augmente la compliance\nSans surfactant : les alvéoles se ferment → atélectasies
-Quels facteurs augmentent les résistances des voies aériennes supérieures ? :: Relâchement des muscles pharyngés (anesthésie)\nPosition couchée\nObésité\nGrossesse (œdème des muqueuses)
-Quels facteurs augmentent les résistances des voies aériennes inférieures ? :: Bronchoconstriction (parasympathique, histamine, irritants, tabac)\nInflammation, mucus, bouchon\nCorps étranger
 
 // ---------- Volumes et EFR ----------
 Quelles sont les valeurs des volumes pulmonaires chez l'adulte ? :: Volume courant : environ 500 mL\nVolume de réserve inspiratoire : 2 500 à 3 000 mL\nVolume de réserve expiratoire : environ 1 000 mL
-Comment calcule-t-on la capacité vitale ? :: CV = Vt + VRI + VRE\nEnviron 4 000 à 4 500 mL chez l'adulte
 Qu'est-ce que la capacité résiduelle fonctionnelle (CRF) ? :: Le volume qui reste dans les poumons à la fin d'une expiration calme\nCRF = volume résiduel + volume de réserve expiratoire (environ 2 000 mL)
 Pourquoi la CRF est-elle importante en anesthésie ? :: C'est la réserve d'O2 pendant l'apnée\nD'où l'intérêt de la préoxygénation, qui la remplit d'O2
 Quels facteurs diminuent la CRF ? :: Position couchée (le diaphragme remonte)\nAnesthésie générale et curarisation\nPneumopéritoine, écarteurs\nObésité, grossesse
 Qu'est-ce que le VEMS et le rapport de Tiffeneau ? :: VEMS : volume expiré pendant la première seconde d'une expiration forcée\nRapport de Tiffeneau : VEMS / CV
 Quels résultats d'EFR évoquent un trouble obstructif ? :: Rapport de Tiffeneau (VEMS/CV) < 80 % de la théorique\nSévère si < 50 %\nExemples : asthme, BPCO
-Quels résultats d'EFR évoquent une restriction ou une distension ? :: Restriction : CPT < 80 % (obésité, déformation thoracique, fibrose, grossesse)\nDistension : CPT > 120 % (BPCO)
 Qu'est-ce que le débit expiratoire de pointe (DEP) ? :: Le débit le plus élevé atteint lors d'une expiration forcée\nUtile pour suivre l'asthme
 Qu'est-ce que l'asthme ? :: Une maladie inflammatoire chronique des voies aériennes\nObstruction réversible et hyperréactivité bronchique\nBronchoconstriction, inflammation et mucus réduisent le calibre des petites bronches
 
 // ---------- Circulation pulmonaire et rapport ventilation-perfusion ----------
-Quelle est la différence entre la circulation pulmonaire et la circulation bronchique ? :: Pulmonaire : fonctionnelle (échanges), reçoit tout le débit cardiaque, à basse pression\nBronchique : nourricière des structures pulmonaires, environ 1 % du débit cardiaque
 Qu'est-ce que la vasoconstriction pulmonaire hypoxique ? :: Les vaisseaux des zones mal ventilées se contractent\n→ le sang est redirigé vers les zones bien ventilées, ce qui améliore l'oxygénation\nC'est l'inverse du cerveau, où l'hypoxie dilate les vaisseaux
-Quels médicaments peuvent inhiber la vasoconstriction pulmonaire hypoxique ? :: Certains vasodilatateurs\nLes halogénés
-Que décrivent les zones de West ? :: La répartition de la perfusion pulmonaire selon la gravité\nZone 1 (sommet) : pression alvéolaire > artérielle > veineuse → peu perfusée\nZone 2 : artérielle > alvéolaire > veineuse\nZone 3 (base) : artérielle > veineuse > alvéolaire → bien perfusée
 Qu'est-ce qu'un shunt ? :: Une zone perfusée mais non ou mal ventilée\n→ le sang repart insuffisamment oxygéné : PaO2 basse
 Comment distinguer un shunt vrai d'un effet shunt ? :: En augmentant la FiO2\nEffet shunt (zone mal ventilée, ex. asthme, BPCO, pneumopathie) : l'oxygénation s'améliore nettement\nShunt vrai (sang qui ne voit jamais l'air, ex. atélectasie complète) : elle s'améliore très peu
 Par quels mécanismes une embolie pulmonaire provoque-t-elle une hypoxémie ? :: Espace mort : territoire ventilé mais non perfusé\nEffet shunt : le sang se redirige vers les zones saines, surperfusées\nShunt vrai possible (atélectasie, foramen ovale perméable)
-En air ambiant, que suggère une somme PaO2 + PaCO2 inférieure à 120 mmHg ? :: Un trouble des échanges alvéolaires (effet shunt)\nSi la somme est normale avec une PaO2 basse : penser plutôt à une hypoventilation
 
 // ---------- Pressions partielles ----------
-Comment calcule-t-on la pression partielle d'un gaz ? :: Pression partielle = fraction du gaz × pression totale (loi de Dalton)
-Comment calcule-t-on la pression inspirée en O2 dans les voies aériennes ? :: PIO2 = (pression atmosphérique − pression de vapeur d'eau) × FiO2\n(760 − 47) × 0,21 ≈ 150 mmHg
-Comment calcule-t-on la pression alvéolaire en O2 (PAO2) ? :: PAO2 = PIO2 − PaCO2 / R, avec R (quotient respiratoire) ≈ 0,8\n150 − 40 / 0,8 ≈ 100 mmHg\nPaO2 ≈ PAO2 − 5 ≈ 95 mmHg
 Pourquoi un patient qui hypoventile en air ambiant désature-t-il ? :: Le CO2 s'accumule dans l'alvéole et prend la place de l'O2\nExemple : PaCO2 à 80 mmHg → PAO2 ≈ 150 − 80/0,8 = 50 mmHg\nSituation typique : curarisation résiduelle ou morphiniques après l'extubation
 Pourquoi l'oxygène ne règle-t-il pas le problème d'un patient qui hypoventile ? :: L'O2 corrige la PaO2 mais pas l'hypoventilation\nLa capnie continue de monter : il faut traiter la cause et assister la ventilation
 
 // ---------- Transport de l'O2 et du CO2 ----------
-Sous quelles formes l'oxygène est-il transporté dans le sang ? :: Lié à l'hémoglobine : forme principale\nDissous dans le plasma : très faible, mais c'est lui qui crée la PaO2
 Qu'est-ce que le pouvoir oxyphorique de l'hémoglobine ? :: La quantité d'O2 fixée par 1 g d'hémoglobine : 1,39 mL\nUne molécule d'Hb fixe au maximum 4 molécules d'O2
 Comment calcule-t-on le contenu artériel en O2 (CaO2) ? :: CaO2 = 1,39 × Hb × SaO2 + 0,003 × PaO2\nEn mL d'O2 pour 100 mL de sang
 Comment calcule-t-on le transport artériel en O2 (TaO2) ? :: TaO2 = CaO2 × débit cardiaque
-Comment calcule-t-on la consommation d'O2 (VO2) ? :: VO2 = débit cardiaque × (CaO2 − CvO2)
 Pourquoi une FiO2 élevée ne compense-t-elle pas une anémie profonde ? :: L'O2 dissous est très faible : l'essentiel du contenu en O2 dépend de l'hémoglobine\nExemple : Hb à 2,5 g/dL et PaO2 à 600 mmHg → CaO2 ≈ 5,3 mL/100 mL seulement\n→ il faut transfuser
 Quels sont les repères de la courbe de dissociation de l'hémoglobine (courbe de Barcroft) ? :: PaO2 100 mmHg → SaO2 ≈ 97 %\nPvO2 40 mmHg → SvO2 ≈ 75 %\nP50 ≈ 27 mmHg (Hb saturée à 50 %)
 Pourquoi faut-il réagir dès que la SpO2 descend vers 90 % ? :: Au-dessus d'une PO2 de 60 mmHg, la courbe est en plateau (SaO2 > 90 %)\nEn dessous, la pente est raide : la saturation chute très vite
 Quels facteurs déplacent la courbe de dissociation de l'hémoglobine vers la droite ? :: Augmentation de la PCO2 et acidose (effet Bohr)\nHausse de la température\nAugmentation du 2,3-DPG\nÀ retenir : l'affinité baisse, l'O2 est mieux libéré aux tissus
 Quels facteurs déplacent la courbe de dissociation de l'hémoglobine vers la gauche ? :: Baisse de la PCO2, alcalose\nHypothermie\nBaisse du 2,3-DPG\nHémoglobine fœtale, monoxyde de carbone\nÀ retenir : l'affinité augmente, l'O2 est moins bien libéré
-Sous quelles formes le CO2 est-il transporté dans le sang ? :: Bicarbonates : forme principale\nLié à l'hémoglobine (carbaminohémoglobine), sur un site différent de l'O2\nDissous
-Quelle enzyme accélère la formation des bicarbonates à partir du CO2, et où agit-elle ? :: L'anhydrase carbonique, dans les globules rouges\nCO2 + H2O ⇌ H2CO3 ⇌ H⁺ + HCO3⁻
-Quels organes régulent le pH sanguin ? :: Les poumons, en éliminant le CO2\nLes reins, en éliminant des H⁺ et en réabsorbant des bicarbonates
 Quels sont les quatre mécanismes d'hypoxie tissulaire ? :: Hypoxémique : PaO2 basse (pathologie pulmonaire)\nAnémique : manque d'Hb ou Hb inefficace (monoxyde de carbone)\nIschémique : bas débit, choc, occlusion artérielle\nCytotoxique : la cellule n'utilise plus l'O2 (cyanure)
 
 // ---------- Gaz du sang ----------
@@ -103,8 +66,6 @@ Comment interpréter ce gaz du sang au cours d'un sepsis grave : pH 7,27, PaCO2 
 Comment interpréter ce gaz du sang après des vomissements répétés : pH 7,59, PaCO2 40 mmHg, HCO3⁻ 38 mmol/L ? :: Alcalose métabolique : pH et HCO3⁻ élevés dans le même sens\nCause : perte d'acide gastrique
 
 // ---------- Commande ventilatoire et anesthésie ----------
-Où se situent les centres de commande de la ventilation ? :: Dans le tronc cérébral (centres automatiques)\nUne atteinte du tronc (AVC, engagement) peut arrêter la ventilation spontanée
-Où se trouvent les chémorécepteurs et à quoi sont-ils sensibles ? :: Centraux : dans le tronc cérébral\nPériphériques : carotidiens et aortiques\nIls sont sensibles à la PaCO2, au pH et à la PaO2\nÀ retenir : le CO2 est le principal moteur de la ventilation
 Pourquoi se méfier d'une oxygénation excessive chez un patient BPCO hypercapnique chronique ? :: Sa réponse au CO2 est émoussée : sa ventilation dépend davantage de l'hypoxie\nTrop d'O2 → hypoventilation, aggravation de l'hypercapnie, somnolence\nCible de SpO2 adaptée : 88 à 92 %
 Quels sont les effets des halogénés et des hypnotiques sur la ventilation ? :: Relâchement des muscles pharyngés → collapsus des voies aériennes supérieures\nBaisse du volume courant
 Quels sont les effets des morphiniques sur la ventilation ? :: Dépression des centres respiratoires : fréquence respiratoire diminuée\nRéponse au CO2 et à l'hypoxie diminuée
