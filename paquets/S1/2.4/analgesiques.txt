@@ -8,10 +8,6 @@
 // ---------- Douleur ----------
 Quelle est la différence entre douleur aiguë et douleur chronique ? :: Douleur aiguë : signal d'alarme, prise en charge curative\nDouleur chronique : plus de 3 mois, prise en charge biopsychosociale
 Quels sont les trois mécanismes de la douleur ? :: Nociceptif\nNeuropathique\nNociplastique
-À quoi sert l'échelle DN4 ? :: À dépister une douleur neuropathique
-
-// ---------- Classifications ----------
-À quoi correspondent les trois paliers antalgiques de l'OMS ? :: Palier 1 : non opioïdes\nPalier 2 : opioïdes faibles\nPalier 3 : opioïdes forts\nÀ retenir : conçus pour la douleur du cancer
 
 // ---------- Paracétamol ----------
 Quelle est la dose maximale de paracétamol par défaut chez l'adulte ? :: 3 g par 24 h\n4 g par 24 h seulement sur avis médical, au-delà de 50 kg et sans facteur de risque d'hépatotoxicité\nAu moins 4 h entre deux prises
