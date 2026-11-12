@@ -11,96 +11,55 @@ Qu'est-ce que la SSPI ? :: La salle de surveillance post-interventionnelle, ou s
 Quel texte rend la SSPI obligatoire ? :: Le décret du 5 décembre 1994 : surveillance continue après toute anesthésie générale ou locorégionale
 Quelles sont les fonctions de la SSPI ? :: Accueillir et installer le patient en sécurité\nSurveiller et maintenir les fonctions vitales\nDébuter les prescriptions postopératoires\nPrévenir et traiter les complications\nÉvaluer et traiter la douleur\nOrganiser la sortie
 Quels sont les objectifs de la SSPI, par ordre de priorité ? :: Récupérer les fonctions vitales : respiratoire, circulatoire, neurologique\nConfort et sécurité : analgésie, traitement des NVPO\nSurveillance adaptée à la chirurgie
-Quelles règles d'organisation s'appliquent à une SSPI ? :: Fonctionnement 24 h/24, à proximité des sites opératoires\nAu moins 4 postes\nHoraires adaptés au programme opératoire et aux urgences
-Quelles sont les obligations du personnel de SSPI ? :: Reconnaître les accidents, alerter immédiatement, débuter les gestes indispensables\nSous la responsabilité d'un MAR qui intervient sans délai\nAffecté exclusivement à la SSPI pendant son ouverture
 De quoi chaque poste de SSPI doit-il être équipé ? :: Fluides médicaux et prise de vide\nECG, oxymètre de pouls, mesure de la PA\nMoyen de réchauffement
-Quel matériel commun la SSPI doit-elle posséder ? :: Un respirateur muni d'alarmes\nUn défibrillateur et un curamètre\nDes chariots d'intubation difficile et d'urgence
-À quoi sert la check-list d'ouverture de la SSPI ? :: À vérifier que le matériel de surveillance et de suppléance fonctionne\nElle est obligatoire
-Pourquoi la SSPI expose-t-elle à un risque infectieux, et comment le limiter ? :: Salle commune : patients aux statuts infectieux et immunitaires différents, transmission par contact\nSalle bien ventilée et facile à désinfecter\nDécontamination du matériel après chaque patient, bionettoyage
 
 // ---------- Transfert et accueil ----------
-Comment se déroule le transfert du bloc vers la SSPI ? :: La surveillance ne s'interrompt pas pendant le transfert\nPatient accompagné du MAR ou de l'IADE, et de l'IBODE\nTransmission orale à l'arrivée aux responsables de la SSPI
 Que doivent contenir les transmissions à l'arrivée en SSPI ? :: Antécédents, allergies\nType et déroulement de l'anesthésie, acte réalisé\nÉquipement du patient, apports et pertes\nÉvénements peropératoires, traitements reçus (antalgiques, antibiotiques, produits sanguins)\nConsignes de surveillance et de soins
-Comment installer un patient à son arrivée en SSPI ? :: Lit chauffé\nRespect de l'alignement du corps : un patient endormi ne se protège pas\nRespect de la pudeur
 Que surveiller à l'arrivée d'un patient en SSPI ? :: Conscience, SpO2, FR, FC, PA\nOxygénothérapie ou ventilation\nVoies d'abord, sondes, drains\nTempérature, douleur\nNiveau sensitif et moteur après une ALR\nZone opératoire, pansements
 Que surveiller sur le plan respiratoire en SSPI ? :: FR, amplitude et symétrie du thorax\nSpO2, état cutané\nVentilateur, sevrage, extubation\nRisque de dépression respiratoire morphinique\nÀ retenir : la SpO2 ne remplace pas l'observation de la ventilation
-Que surveiller sur une voie veineuse en SSPI ? :: Débit et nature du produit\nPoint de ponction : douleur, rougeur, chaleur, œdème\nPerméabilité, absence de coudure
 
 // ---------- Complications respiratoires ----------
-Quels terrains exposent aux complications respiratoires postopératoires ? :: Âge > 60 ans, petit enfant\nDénutrition, obésité, SAOS\nDiabète\nTabac, BPCO
-Quelles chirurgies exposent aux complications respiratoires postopératoires ? :: Intervention de plus de 4 h\nChirurgie abdominale, thoraco-pulmonaire, ORL\nChirurgie cardiaque (atteinte du nerf phrénique)\nChirurgie en urgence
-Quels facteurs anesthésiques favorisent les complications respiratoires postopératoires ? :: Agents de longue durée d'action\nSurdosage\nCurarisation prolongée
 Qu'est-ce qu'une atélectasie ? :: Un territoire dont les alvéoles ne sont plus aérées, mais qui peut rester perfusé\nElle apparaît dès les premières minutes d'AG, souvent sans signe clinique
 Quelles sont les grandes complications respiratoires au réveil ? :: Dépression respiratoire\nInhalation bronchique\nDéséquilibre ventilation/perfusion (atélectasies, syndrome restrictif)
 Qu'est-ce que la dépression respiratoire postopératoire ? :: Une hypoventilation alvéolaire avec hypoxie et hypercapnie\nCause : effets résiduels centraux (hypnotiques, morphiniques) ou périphériques (curares)
-Pourquoi le risque d'inhalation persiste-t-il au réveil ? :: L'anesthésie perturbe la déglutition\nLe propofol diminue le tonus du sphincter supérieur de l'œsophage\nLe midazolam ralentit la déglutition jusqu'à 2 h après l'injection
 Quels signes évoquent une détresse respiratoire au réveil ? :: Dyspnée, polypnée, respiration superficielle\nDésaturation\nTachycardie, HTA, hypercapnie\nSignes de lutte : tirage, balancement thoraco-abdominal
 Vers quelle cause orientent des sibilants, une bradypnée, un stridor ou une expectoration mousseuse en SSPI ? :: Sibilants : bronchospasme\nBradypnée : morphiniques ou trouble de conscience\nStridor : obstacle laryngé\nExpectoration mousseuse : OAP
 Que faire devant une détresse respiratoire en SSPI ? :: Prévenir le médecin, préparer le matériel et les médicaments d'intubation\nLibérer les voies aériennes : subluxation mandibulaire, position assise, canule de Guedel, CPAP ou VNI\nAérosols selon la cause : adrénaline et corticoïdes, ou bêta-2 mimétiques\nTraiter la cause
-Comment réintuber un patient en détresse respiratoire en SSPI ? :: Comme une intubation difficile : séquence rapide et sonde de petit diamètre
 
 // ---------- Complications circulatoires ----------
 Pourquoi le réveil est-il comparé à une épreuve d'effort ? :: Douleur, hypothermie, hypoxie, hypercapnie et anémie stimulent le système sympathique\nLes besoins en oxygène augmentent
 Pourquoi la pression artérielle peut-elle chuter juste avant le réveil ? :: La stimulation chirurgicale s'arrête brutalement\nMais les effets vasoplégiants de l'anesthésie et l'hypovolémie persistent
-Quelles sont les complications cardiovasculaires en SSPI ? :: HTA, hypotension\nIschémie myocardique, infarctus\nTroubles du rythme\nArrêt cardiorespiratoire
 Quelles sont les causes d'hypotension en SSPI ? :: Vasoplégie : anesthésiques, rachianesthésie ou péridurale, anaphylaxie, sepsis\nHypovolémie : hémorragie (redons, pansements), pertes mal compensées\nDéfaillance cardiaque : insuffisance cardiaque, embolie pulmonaire, infarctus
 Quelles sont les causes d'HTA au réveil ? :: Douleur\nFrissons\nHypercapnie, hypoxie\nNausées, vomissements\nGlobe vésical
-Quels sont les risques d'une HTA au réveil ? :: Hémorragiques : lâchage de sutures vasculaires, saignement dans les drains, hématome\nCardiaques : infarctus, défaillance cardiaque, trouble du rythme
 Quels sont les troubles du rythme les plus fréquents en SSPI ? :: Bradycardie et tachycardie sinusales\nPlus rarement : fibrillation atriale, extrasystoles ventriculaires, TV, FV, asystolie
-Quelles sont les causes de tachycardie en SSPI ? :: Réveil, douleur, anxiété\nHypovolémie\nTrouble du rythme : fibrillation atriale, flutter\nIschémie coronaire
 Quelles sont les causes de bradycardie en SSPI ? :: Médicaments : bêtabloquants, morphiniques\nTrouble de conduction\nIschémie coronaire\nMalaise vagal, NVPO\nHypovolémie
-Que faire devant un trouble du rythme en SSPI ? :: Prévenir le médecin et vérifier le signal\nRelever PA, FC, SpO2, conscience, température, douleur et traitements reçus\nECG, HemoCue\nJamais d'atropine sans avis médical
-Quelle est la principale cause d'ischémie coronaire postopératoire par rupture de plaque ? :: L'arrêt des antiagrégants plaquettaires\nTraitement : coronarographie, angioplastie, stent
 Qu'est-ce qu'une ischémie myocardique fonctionnelle ? :: Les besoins du myocarde en oxygène dépassent les apports, sans nouvelle lésion coronaire
-Comment limiter le travail du myocarde en cas de suspicion d'ischémie en SSPI ? :: Normothermie, analgésie\nTraiter l'HTA et les troubles du rythme\nMaintenir le traitement bradycardisant\nDiagnostic : ECG, cycle de troponine
 
 // ---------- Complications neurologiques ----------
 Quels sont les trois stades du réveil ? :: Immédiat : conscience et réflexes vitaux → sortie de SSPI\nIntermédiaire : activité psychomotrice (coordination, marche) → retour à domicile en ambulatoire\nComplet : fonctions supérieures (mémoire, attention) → conduite, décisions
-Que surveiller sur le plan neurologique en SSPI ? :: Conscience\nRéflexes, tonus, motricité spontanée\nDisparition des effets des anesthésiques
 Quelles sont les causes d'un retard de réveil ? :: Pharmacologiques : surdosage, défaut d'élimination, relargage, interactions, psychotropes\nMétaboliques : hypoglycémie, hyponatrémie, hypothermie\nNeurologiques : AVC, épilepsie
 Quelles causes corrigeables rechercher en priorité devant un retard de réveil ? :: Hypoglycémie\nHypothermie\nCurarisation résiduelle
 Que faire devant une agitation au réveil ? :: Éliminer une cause évidente : douleur, globe vésical, curarisation résiduelle\nRechercher une cause organique : hypoxémie, hypotension, troubles métaboliques (Na, glycémie, Ca), sepsis, médicaments, AVC, sevrage
-Quels nerfs sont exposés aux lésions d'installation ? :: Par compression : nerfs proches d'un relief osseux (fibulaire commun)\nPar étirement : plexus brachial et lombo-sacré
 
 // ---------- Douleur et confort ----------
 Quel est l'objectif de l'analgésie en SSPI ? :: EVA < 4/10\nC'est le premier maillon de la réhabilitation améliorée (RAAC)
 Comment traiter la douleur en SSPI ? :: Titration IV de morphine, puis relais oral ou PCA\nToujours en analgésie multimodale : paracétamol, AINS, néfopam\nALR dès que possible, blocs périphériques plutôt que centraux
 Que surveiller pendant une titration de morphine en SSPI ? :: La douleur, la fréquence respiratoire et la sédation
-Que vérifier en SSPI après une rachianesthésie ? :: Récupération motrice complète (sinon, penser à un hématome compressif)\nSensibilité thermique revenue au moins jusqu'à L2
 Comment surveiller un patient qui a reçu de la morphine en intrathécal ? :: Comme après une morphine IV
-Que vérifier en SSPI chez un patient sous analgésie péridurale ? :: Le niveau analgésique\nLe bon fonctionnement de la PCEA
-Quels sont les facteurs de risque de NVPO du score d'Apfel ? :: Sexe féminin\nNon-fumeur\nMorphiniques postopératoires\nAntécédent de NVPO ou de mal des transports\nÀ retenir : 1 point par facteur ; le risque augmente avec le score
+//= Quels sont les facteurs de risque de NVPO du score d'Apfel ?
+À quoi sert le score d'Apfel, et quels sont ses niveaux ? :: Intérêt : estimer le risque de NVPO\nItems, 1 point chacun :\n- Sexe féminin\n- Non-fumeur\n- Morphiniques postopératoires\n- Antécédent de NVPO ou de mal des transports\nRisque de NVPO selon le score : 0 ≈ 10 %, 1 ≈ 20 %, 2 ≈ 40 %, 3 ≈ 60 %, 4 ≈ 80 %
 Quels médicaments peut-on antagoniser au réveil ? :: Curares : néostigmine, sugammadex\nMorphiniques : naloxone\nBenzodiazépines, très rarement : flumazénil
-Quels autres actes peut-on réaliser en SSPI ? :: Analgésiques : pose de PCA, ALR\nThérapeutiques courts sous anesthésie : sismothérapie, choc électrique externe, blood patch\nInvasifs : cathéters, midline\nDiagnostiques : échographie, fibroscopie bronchique
-
-// ---------- Spécificités chirurgicales ----------
-Que surveiller en SSPI après une chirurgie digestive ? :: Iléus et NVPO : sonde gastrique\nDouleur : analgésie multimodale, péridurale\nAtteinte diaphragmatique : VNI, kinésithérapie\nPansements, redons, stomies
-Que surveiller en SSPI après une chirurgie thoracique ? :: Drainage thoracique\nKinésithérapie respiratoire précoce\nAnalgésie : péridurale, bloc intercostal ou paravertébral\nRadiographie de référence, gaz du sang
-Quels signes d'HTIC surveiller en SSPI après une neurochirurgie ? :: Absence de réveil ou dégradation neurologique, mydriase\nHTA avec bradycardie\nConvulsions\nÀ retenir : comparer à l'état neurologique préopératoire
-Que surveiller en SSPI après une chirurgie du rachis ? :: Motricité et sensibilité, à comparer au bilan initial\nEscarres (décubitus ventral)\nPosition postopératoire imposée
-Que surveiller en SSPI après une césarienne ? :: Hémorragie du post-partum, globe utérin\nPré-éclampsie\nMédicaments compatibles avec l'allaitement\nDurée de surveillance : 2 h
-Quels sont les risques en SSPI après une chirurgie ORL ? :: Oreille : NVPO\nChirurgie endonasale, amygdales : hémorragie\nVoies aériennes : œdème, dysphonie\nThyroïdectomie : hématome compressif, atteinte des cordes vocales
 
 // ---------- Extubation ----------
 Quels sont les critères d'extubation ? :: Pas de complication chirurgicale imposant une reprise\nPas d'hypothermie\nPatient éveillé, qui répond aux ordres simples\nPas d'obstacle des voies aériennes\nPas de curarisation résiduelle\nVentilation spontanée efficace\nBonne oxygénation
-Quels critères ventilatoires vérifier avant d'extuber un adulte ? :: Volume courant de 5 à 8 mL/kg\nFR de 12 à 25/min\nNormocapnie\nEn aide inspiratoire : AI ≤ 8
-Quels critères d'oxygénation vérifier avant d'extuber ? :: SpO2 > 95 % avec une FiO2 < 40 %
 Comment vérifier l'absence de curarisation résiduelle avant d'extuber ? :: Par un monitorage instrumental : T4/T1 > 0,9 à l'adducteur du pouce\nQuatre réponses au TOF ne suffisent pas
 Quelles sont les conséquences d'une curarisation résiduelle ? :: Événements respiratoires critiques en SSPI\nPneumopathie postopératoire, surtout chez le sujet âgé\nSéjour prolongé en SSPI
-Quelles sont les conséquences pharmacologiques et respiratoires de l'hypothermie au réveil ? :: MAC des halogénés diminuée de 5 % par °C\nDemi-vie des morphiniques et délai de décurarisation allongés\nHypoventilation alvéolaire
-Quelles sont les quatre étapes de l'extubation ? :: Planifier, préparer, réaliser, surveiller
 Quels facteurs rendent une extubation « à risque » ? :: Chirurgie : céphalique, ORL, maxillo-faciale, rachis cervical, carotide, thyroïde\nTerrain : insuffisance respiratoire (obésité, SAOS), insuffisance cardiaque\nVoies aériennes : intubation ou ventilation difficile, ventilation prolongée
-Une intubation facile garantit-elle une extubation facile ? :: Non : la chirurgie et le terrain peuvent rendre l'extubation et la réintubation difficiles
-Quel matériel préparer avant une extubation ? :: Plateau d'intubation complet et médicaments\nAspiration\nBallon, masque facial, canule de Guedel
-À quoi sert un guide échangeur lors d'une extubation à risque ? :: À garder un accès qui facilite une éventuelle réintubation
 
 // ---------- Sortie de SSPI ----------
 Qui décide de la sortie de SSPI ? :: Le MAR, qui signe la sortie et les prescriptions pour le service
 Quels items composent le score d'Aldrete modifié ? :: Motricité, respiration, pression artérielle, conscience, SpO2\nChacun coté de 0 à 2, total sur 10\nLa SpO2 remplace la coloration, trop subjective
 Quel score d'Aldrete faut-il pour sortir de SSPI ? :: 9 ou 10 sur 10\nUn score de 8/10 ne suffit pas
-Comment coter la motricité et la respiration dans le score d'Aldrete ? :: Motricité : 0 immobile, 1 bouge 2 membres, 2 bouge 4 membres\nRespiration : 0 apnée, 1 ventilation superficielle ou dyspnée, 2 ventilation profonde et toux efficace
-Comment coter la pression artérielle et la conscience dans le score d'Aldrete ? :: PA (écart à la PA préopératoire) : 0 si plus de 50 %, 1 si 20 à 50 %, 2 si moins de 20 %\nConscience : 0 aréactif, 1 réactif à la demande, 2 réveillé
-Comment coter la SpO2 dans le score d'Aldrete modifié ? :: 0 : SpO2 < 90 % malgré l'oxygène\n1 : SpO2 > 90 % grâce à l'oxygène\n2 : SpO2 > 92 % à l'air ambiant
 Quels critères s'ajoutent au score d'Aldrete pour sortir de SSPI ? :: Normothermie\nDouleur contrôlée\nPas de globe vésical\nPas de complication chirurgicale
 Existe-t-il une durée minimale de séjour en SSPI ? :: Non : le passage est obligatoire, mais sa durée dépend du patient, de l'anesthésie et de la chirurgie ; le MAR la décide\nException : 2 h de surveillance après une césarienne
 Quelle est la différence entre la sortie de SSPI et la sortie d'ambulatoire ? :: Sortie de SSPI : mêmes règles que pour tout patient (réveil immédiat)\nSortie d'ambulatoire : évaluée ensuite dans le service (récupération psychomotrice)\nLe patient ne conduit pas et rentre accompagné

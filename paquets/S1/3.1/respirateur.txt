@@ -8,18 +8,14 @@
 // ---------- Alimentation en gaz frais ----------
 Quels sont les quatre ensembles d'une machine d'anesthésie ? :: Alimentation en gaz frais\nCircuit anesthésique\nVentilateur\nSystème antipollution
 Que sont les gaz frais ? :: Le gaz vecteur (O2, air, N2O), avec ou sans vapeur d'halogéné\nC'est l'apport nouveau de gaz dans le circuit
-Quel est le trajet des gaz frais dans la machine ? :: Sources (réseau mural ou bouteilles) → détendeurs → manomètres → débitmètres → évaporateur → sortie vers le circuit
-Sous quelle forme l'oxygène est-il stocké à l'hôpital ? :: Liquide, à -183 °C, dans un réservoir cryogénique\n1 L d'O2 liquide donne 850 L d'O2 gazeux
 Qu'est-ce qu'un rotamètre ? :: Un débitmètre : un flotteur monte dans un tube gradué selon le débit de gaz
 Quelles sécurités empêchent la machine de délivrer un mélange hypoxique ? :: Le débitmètre de N2O est asservi à celui d'O2\nAlarme de défaut d'alimentation en O2, avec coupure du N2O\nValves anti-retour contre la rétropollution
 L'alarme d'alimentation en O2 garantit-elle l'O2 reçu par le patient ? :: Non : c'est une sécurité d'alimentation\nSeule la mesure de l'O2 dans le circuit renseigne sur ce que reçoit le patient
 Qu'est-ce que le by-pass d'O2, et quel est son piège ? :: Un apport rapide d'O2 pur : 500 mL/s (30 L/min) dans le circuit\nIl ne traverse pas l'évaporateur : il dilue l'halogéné et peut alléger l'anesthésie
 
 // ---------- Circuits ----------
-Quels sont les objectifs d'un circuit anesthésique ? :: Acheminer un mélange contrôlé d'O2, d'air (N2O) et d'halogéné\nPermettre une ventilation spontanée, manuelle ou mécanique\nLimiter la consommation de gaz et la pollution\nHumidifier, réchauffer et éliminer le CO2
 Qu'est-ce qu'un circuit ouvert, et quels sont ses inconvénients ? :: Les gaz expirés sont évacués sans réinhalation ; DGF > ventilation minute\nInconvénients : forte consommation, coût, pollution, pas d'humidification ni de réchauffement
 Qu'est-ce qu'un circuit fermé ? :: Le DGF égale la consommation d'O2 du patient\nLes gaz expirés sont réinhalés après absorption du CO2 par la chaux sodée
-Quels sont les avantages et les inconvénients d'un circuit à réinhalation ? :: Avantage : consommation de gaz limitée\nInconvénients : latence des changements de concentration, gestion des débits plus délicate
 Qu'est-ce que le circuit filtre ? :: Le circuit circulaire de la machine, utilisé en semi-fermé : réinhalation partielle des gaz expirés
 Quels sont les éléments du circuit circulaire ? :: Valves inspiratoire et expiratoire (flux unidirectionnel)\nAbsorbeur de CO2 (chaux sodée)\nBallon réservoir, valve APL, ventilateur\nFiltre antibactérien, échangeur de chaleur et d'humidité, pièce en Y\nMonitorage
 À quoi servent les valves unidirectionnelles du circuit ? :: À imposer un sens de circulation aux gaz dans la boucle (branche inspiratoire, branche expiratoire)
@@ -28,24 +24,14 @@ Quel est le rôle du ballon réservoir ? :: Réserve de gaz pour la ventilation 
 Qu'est-ce que la valve APL ? :: Adjustable Pressure Limiting : valve de décharge des gaz en excès, à seuil de pression réglable\nActive uniquement en mode manuel ou spontané
 Comment régler la valve APL ? :: Desserrée : les gaz s'échappent facilement (ventilation spontanée)\nSerrée : on peut pressuriser le circuit (ventilation manuelle)
 La valve APL règle-t-elle la PEP en ventilation mécanique ? :: Non : l'APL n'a aucun rôle en ventilation machine\nLa PEP est alors régulée par la valve expiratoire du ventilateur
-Quand utiliser le circuit ouvert accessoire ? :: Seulement en cas de panne
 
 // ---------- Test de fuite et débits ----------
 Comment réaliser le test de fuite du circuit ? :: Fermer la valve APL (souvent à 30 cmH2O)\nObstruer la sortie patient au niveau du raccord Y\nRemplir le circuit d'O2 jusqu'à cette pression\nVérifier que la pression reste stable
 Pourquoi le test de fuite est-il indispensable ? :: Détecter les fuites accidentelles\nGarantir la qualité de la ventilation et la stabilité des concentrations de gaz\nProtéger le personnel
 Que ne vérifie pas le test de fuite ? :: Le fonctionnement des valves unidirectionnelles\nLe bon fonctionnement du ventilateur
-Comment adapter le débit de gaz frais aux phases de l'anesthésie ? :: Haut débit (circuit ouvert) : préoxygénation, induction, rinçage au réveil\nBas débit (0,5 à 1 L/min, réinhalation) : entretien\nÀ retenir : changer le DGF ne modifie pas le volume courant
 
 // ---------- Ventilateur ----------
-Comment fonctionne un ventilateur à soufflet ? :: Un gaz moteur (souvent l'O2) comprime le soufflet, qui pousse le gaz respiratoire\nSimple et visible, mais peu précis et consommateur de gaz ; surtout sur les anciennes machines
-Comment fonctionne un ventilateur à piston ? :: Un piston électrique déplace le gaz, sans gaz moteur\nVolumes très précis, nombreux modes, faible consommation ; dépend de l'électricité\nC'est le standard actuel
-Comment fonctionne un ventilateur à turbine ? :: Une turbine électrique génère un flux modulé\nContrôle fin des pressions et débits, excellent en ventilation assistée ; coût élevé, dépend de l'électricité
-Un ventilateur sans gaz moteur se passe-t-il de gaz frais ? :: Non : le mélange destiné au patient reste fourni par le débit de gaz frais
 Qu'est-ce qu'une valve proportionnelle ? :: Une valve qui s'ouvre de 0 à 100 % sous commande électronique\nElle module finement le débit
-Comment le ventilateur délivre-t-il un volume ou une pression prescrits ? :: Le microprocesseur calcule le débit pendant le Ti\nVolume prescrit : débit constant, Vt = débit × Ti\nPression prescrite : débit décélérant\nLa valve inspiratoire se ferme en fin d'inspiration
-Comment le ventilateur maintient-il la PEP ? :: La valve expiratoire proportionnelle module son ouverture, asservie à la mesure de pression
 
 // ---------- Surveillance et évacuation ----------
-Que mesure la spirométrie de la machine d'anesthésie ? :: Le volume courant, la ventilation minute et la fréquence respiratoire\nCapteurs : turbine, fil chaud, pneumotachographe\nÀ retenir : une consigne n'est pas la preuve du volume délivré
-Que surveille le monitorage de la machine d'anesthésie ? :: Les gaz inspirés et expirés : O2, CO2, halogénés\nLes volumes et les pressions
 Qu'est-ce que le SEGA ? :: Le système d'évacuation des gaz d'anesthésie : il aspire les halogénés et le N2O évacués par la machine et les rejette hors de l'hôpital\nCes gaz sont des polluants professionnels à fort effet de serre

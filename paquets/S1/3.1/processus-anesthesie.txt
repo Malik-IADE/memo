@@ -7,75 +7,58 @@
 
 // ---------- Cadre ----------
 Comment définir l'anesthésie ? :: Une médecine périopératoire : gérer l'avant, le pendant et l'après de l'intervention, en s'adaptant au patient et à la chirurgie
-Quel est le but de l'anesthésie ? :: Permettre le geste dans les meilleures conditions techniques pour l'opérateur\nEn étant le moins délétère possible pour le patient, avec une analgésie adaptée
 Quels sont les quatre piliers réglementaires de la sécurité anesthésique ? :: Consultation d'anesthésie\nSite d'anesthésie sécurisé\nSurveillance post-interventionnelle (SSPI)\nOrganisation permettant de faire face à une complication
 Quels textes réglementaires encadrent la sécurité anesthésique ? :: Le décret du 5 décembre 1994 (sécurité)\nL'arrêté du 3 octobre 1995 (gestion du matériel)
 
 // ---------- Consultation ----------
 Quel est le délai légal entre la consultation d'anesthésie et une intervention programmée ? :: 48 heures minimum
 Que prévoit la loi pour la consultation d'anesthésie avant une intervention urgente ? :: Une consultation préopératoire immédiate, juste avant l'intervention\nLe délai de 48 h ne s'applique pas
-Qui réalise la consultation d'anesthésie, et où ses résultats sont-ils consignés ? :: Un médecin anesthésiste-réanimateur\nDans un document écrit du dossier, avec les résultats biologiques et les autres documents
 Quels sont les quatre objectifs de la consultation d'anesthésie ? :: Évaluer le risque lié au terrain\nÉvaluer le risque lié à la chirurgie\nInformer le patient\nDéfinir une stratégie anesthésique
-Sur quoi repose l'évaluation du terrain en consultation d'anesthésie ? :: Surtout l'interrogatoire : antécédents, traitements, tolérance à l'effort, saignement anormal\nPuis un examen ciblé : cœur-poumons, voies aériennes, rachis si une anesthésie rachidienne est prévue
-Quel élément de l'interrogatoire est le plus pertinent pour évaluer le terrain ? :: La tolérance à l'effort\nPlus pertinente que tous les examens complémentaires de repos
-Pourquoi demander l'ordonnance complète du patient en consultation ? :: Les traitements révèlent des maladies que le patient ne cite plus comme antécédents
-À quoi sert le questionnaire HEMSTOP ? :: À dépister un trouble de l'hémostase par 7 questions sur les saignements personnels et familiaux\nUn score ≥ 2 fait suspecter un trouble hémorragique
-Que décrit la classification NYHA ? :: La limitation liée aux symptômes d'une cardiopathie\nI : aucune limitation\nII : limitation légère, symptômes aux activités ordinaires\nIII : limitation marquée, symptômes pour une activité moindre\nIV : symptômes au repos
-Qu'est-ce qu'un MET, et quel seuil retenir ? :: L'équivalent métabolique : 1 MET = dépense au repos\n4 MET : monter 2 étages ou marcher vite\nMoins de 4 MET : faible capacité fonctionnelle
 Quelle règle suivre pour prescrire des examens complémentaires préopératoires ? :: Pas de bilan minimum systématique, surtout en urgence\nSeulement chez les patients à risque, si l'examen peut modifier la prise en charge
-Quand prescrire une NFS-plaquettes avant une intervention ? :: En cas de risque d'anémie\nPour avoir une référence des plaquettes avant une héparine
-Quand prescrire un bilan d'hémostase avant une intervention ? :: Seulement en cas de traitement anticoagulant ou de saignement anormal à l'interrogatoire
-Quand prescrire un ionogramme avant une intervention ? :: Si la fonction rénale peut modifier le traitement (ex. HBPM)
-Quand demander un avis cardiologique avant le bloc ? :: Cardiopathie connue mal équilibrée\nSuspicion de cardiopathie méconnue : HTAP, valvulopathie
-Que résume la classification ASA ? :: L'état général du patient avant l'anesthésie\nI : bonne santé\nII : affection peu grave sans limitation fonctionnelle\nIII : affection systémique grave qui limite l'activité sans être incapacitante\nIV : affection incapacitante, menace vitale permanente\nV : moribond, survie < 24 h sans intervention\nU : urgence
-Comment classer le risque cardiovasculaire lié à la chirurgie ? :: Faible (< 1 %) : endoscopie, chirurgie superficielle, ophtalmologie, sein\nModéré (1 à 5 %) : intrapéritonéale ou thoracique non vasculaire, carotide, orthopédie lourde, prostate\nÉlevé (> 5 %) : chirurgie majeure en urgence, aortique, vasculaire, hémorragique
-De quoi dépend la gestion d'un traitement chronique avant une chirurgie ? :: Du médicament et de son indication\nDu terrain du patient\nDu type de chirurgie\nÀ retenir : consignes écrites, et vérifier qu'elles sont comprises
-Pourquoi la prémédication anxiolytique n'est-elle pas systématique ? :: Elle allonge le réveil : on ne la prescrit que si nécessaire
+
+// ---------- Scores de la consultation ----------
+Quels scores utilise-t-on en consultation d'anesthésie, et qu'évalue chacun ? :: ASA : état général du patient\nNYHA : retentissement d'une cardiopathie\nMET : réserve fonctionnelle à l'effort\nLee : risque de complications cardiaques postopératoires\nRisque cardiovasculaire de la chirurgie : risque propre au geste\nHEMSTOP : risque hémorragique\nMallampati : risque d'intubation difficile\nApfel : risque de NVPO\nARISCAT : risque de complications respiratoires postopératoires
+//= Que résume la classification ASA ?
+À quoi sert la classification ASA, et quelles sont ses classes ? :: Intérêt : résumer l'état général et communiquer vite le terrain ; elle ne remplace pas le détail des antécédents\nASA I : patient en bonne santé\nASA II : affection peu grave sans limitation fonctionnelle (ex. HTA ou diabète bien contrôlés)\nASA III : affection systémique grave qui limite l'activité sans être incapacitante (ex. atteinte d'organe)\nASA IV : affection incapacitante, menace vitale permanente\nASA V : moribond, survie < 24 h sans intervention\nU : ajouté en cas d'urgence
+//= Que décrit la classification NYHA ?
+À quoi sert la classification NYHA, et quels sont ses stades ? :: Intérêt : grader le retentissement des symptômes d'une cardiopathie, surtout chez l'insuffisant cardiaque\nStade I : aucune limitation, l'activité habituelle ne donne pas de symptômes\nStade II : limitation légère, symptômes aux activités ordinaires\nStade III : limitation marquée, symptômes pour une activité moindre que l'ordinaire\nStade IV : symptômes au repos, toute activité aggrave l'inconfort\nÀ retenir : NYHA III-IV = cardiopathie instable, avis cardiologique pour optimiser avant le bloc
+//= Qu'est-ce qu'un MET, et quel seuil retenir ?
+À quoi servent les MET, et quels sont les niveaux de capacité fonctionnelle ? :: Intérêt : estimer la réserve fonctionnelle à l'effort (le réveil est un effort)\n1 MET : dépense au repos (s'habiller, manger)\n2-3 MET : effort léger (marcher lentement, tâches ménagères simples)\n≥ 4 MET : seuil clé, monter 2 étages ou marcher vite\n> 10 MET : excellente capacité (sport intense)\nÀ retenir : < 4 MET = faible capacité, à prendre en compte dans la stratégie (exploration à discuter)
+À quoi sert le score de Lee, et que contient-il ? :: Intérêt : prédire les complications cardiaques postopératoires (infarctus, troubles du rythme ou de conduction, décès)\nItems, 1 point chacun (score sur 6) :\n- Chirurgie à haut risque cardiaque\n- Cardiopathie ischémique\n- Insuffisance cardiaque congestive\n- AVC ou AIT\n- Diabète insulinodépendant\n- Insuffisance rénale chronique\nPlus le score est élevé, plus le risque augmente ; à combiner avec la réserve fonctionnelle (MET)\nÀ retenir : l'HTA isolée n'en fait pas partie
+//= Comment classer le risque cardiovasculaire lié à la chirurgie ?
+À quoi sert la classification du risque cardiovasculaire de la chirurgie, et quels sont ses niveaux ? :: Intérêt : estimer le risque propre au geste, indépendamment de l'ASA ; elle guide l'évaluation et le monitorage\nFaible (< 1 %) : endoscopie, chirurgie superficielle, ophtalmologie, sein\nModéré (1 à 5 %) : intrapéritonéale ou thoracique non vasculaire, carotide, orthopédie lourde, prostate\nÉlevé (> 5 %) : chirurgie majeure en urgence, aortique, vasculaire, hémorragique
+//= À quoi sert le questionnaire HEMSTOP ?
+À quoi sert le questionnaire HEMSTOP, et comment l'interpréter ? :: Intérêt : dépister un trouble de l'hémostase à l'interrogatoire, 1 point par réponse positive\nItems :\n- Hématomes inhabituels\n- Saignement spontané ou prolongé\n- Règles abondantes\n- Saignement excessif après chirurgie\n- Saignement après extraction dentaire\n- Hémorragie du post-partum\n- Antécédent familial de saignement\nScore sur 5 chez l'homme, sur 7 chez la femme\n≥ 2 : suspicion de trouble hémorragique, bilan d'hémostase ciblé ou avis spécialisé
+//= Comment se cote le score de Mallampati ?
+À quoi sert le score de Mallampati, et quelles sont ses classes ? :: Intérêt : prévoir une intubation difficile, en consultation (patient éveillé, bouche ouverte)\nClasse I : luette entièrement visible\nClasse II : luette partiellement visible\nClasse III : palais mou et palais dur seuls visibles\nClasse IV : palais dur seul visible\nÀ retenir : Mallampati > 2 est un critère prédictif d'intubation difficile
+À quoi sert le score de Cormack-Lehane, et quels sont ses grades ? :: Intérêt : décrire la vue de la glotte en laryngoscopie, après l'induction ; à noter sur la feuille d'anesthésie\nGrade 1 : glotte vue en totalité\nGrade 2 : seule la moitié postérieure de la glotte est visible\nGrade 3 : épiglotte visible, mais pas la glotte\nGrade 4 : épiglotte non visible\nÀ retenir : si intubation difficile, l'expliquer au patient et lui remettre un certificat
+Quelle est la différence entre le score de Mallampati et celui de Cormack-Lehane ? :: Mallampati : examen de la bouche chez le patient éveillé, en consultation\nCormack-Lehane : vue de la glotte en laryngoscopie, après l'induction
+//= Qu'est-ce que le score POGO ?
+À quoi sert le score POGO, et comment se lit-il ? :: Intérêt : quantifier la vue de la glotte en laryngoscopie (notamment en vidéo) ; à noter sur la feuille d'anesthésie\nPourcentage d'ouverture glottique visible, de 0 à 100 %\n100 % : glotte entièrement visible\n0 % : aucune vue de la glotte (pas forcément des cordes vocales fermées)
 
 // ---------- Voies aériennes ----------
 Quels critères prédisent une ventilation au masque difficile ? :: IMC > 26 kg/m²\nÂge > 55 ans\nRonflements\nBarbe\nÉdentation\nCou court
 Quels critères prédisent une intubation difficile ? :: Antécédent d'intubation difficile\nMallampati > 2\nDistance thyro-mentonnière < 6 cm, ouverture de bouche < 35 mm\nProtrusion mandibulaire limitée, rachis cervical rigide\nIMC > 35 kg/m², apnée du sommeil avec tour de cou > 45 cm\nTumeur, chirurgie ou radiothérapie cervicale, goitre, macroglossie
-Pourquoi rechercher séparément la ventilation au masque difficile et l'intubation difficile ? :: Un patient non intubable reste en sécurité s'il est ventilable au masque\nL'impossibilité d'oxygéner est la situation la plus grave
-Comment se cote le score de Mallampati ? :: Patient éveillé, bouche ouverte\nI : luette entièrement visible\nII : luette partiellement visible\nIII : palais mou et palais dur seuls visibles\nIV : palais dur seul visible
-Quelle est la différence entre le score de Mallampati et celui de Cormack-Lehane ? :: Mallampati : examen de la bouche chez le patient éveillé, en consultation\nCormack-Lehane : vue de la glotte en laryngoscopie, après l'induction
-Qu'est-ce que le score POGO ? :: Le pourcentage d'ouverture glottique visible en laryngoscopie, de 0 à 100 %
 Que faire après une intubation difficile ? :: Noter le score (Cormack-Lehane ou POGO) sur la feuille d'anesthésie\nInformer le patient et lui remettre un certificat d'intubation difficile
 Combien de tentatives de vidéolaryngoscopie au maximum en cas d'intubation difficile ? :: Trois au maximum, puis changer de stratégie\nEn cas de désaturation : réoxygéner en priorité
-Quels sont les axes actuels de la gestion des voies aériennes au bloc ? :: Succès au premier passage (vidéolaryngoscope)\nDispositif supraglottique de 2e génération\nOxygénation continue, oxygénation à haut débit\nFacteurs humains
 
 // ---------- Risque transfusionnel ----------
-Quels éléments font prévoir un risque transfusionnel en consultation ? :: Une hémoglobine préopératoire basse\nUn traitement antithrombotique ou antiplaquettaire\nUne chirurgie à risque hémorragique élevé
 Qu'est-ce que le Patient Blood Management (PBM) ? :: La gestion personnalisée du capital sanguin, en trois piliers :\nAvant : dépister et corriger l'anémie\nPendant : limiter le saignement (normothermie, pression adaptée, hémostase)\nAprès : réévaluer et transfuser de façon guidée
-Quand réaliser un hémogramme avant une chirurgie ? :: Chirurgie à risque cardiaque intermédiaire ou élevé\nRisque de transfusion > 10 %\nPertes sanguines estimées > 500 mL
 Quel est le mécanisme de l'acide tranexamique ? :: Antifibrinolytique : analogue de la lysine, il inhibe l'activation du plasminogène\nIl limite la dégradation de la fibrine et stabilise le caillot
-Pourquoi adapter l'acide tranexamique à la fonction rénale ? :: Il est éliminé à 90 % par les urines, avec une demi-vie d'environ 3 h\nRisque d'accumulation en insuffisance rénale
 Qu'est-ce que le MSBOS ? :: Maximum Surgical Blood Ordering Schedule : préparation transfusionnelle définie à l'avance pour chaque intervention, d'après la consommation locale\nFaible risque : groupe + RAI\nRisque modéré : 2 CGR
 
 // ---------- Information et stratégie ----------
-Quelles doivent être les qualités de l'information donnée au patient ? :: Claire, loyale et précise\nExpliquée et tracée dans le dossier
-Sur quoi porte l'information donnée en consultation d'anesthésie ? :: La technique d'anesthésie\nLa prise en charge de la douleur (ALR, PCA)\nLa transfusion\nLes complications, y compris graves (décès)
-Que contient la stratégie anesthésique définie en fin de consultation ? :: Technique : AG, ALR ou combinée\nMonitorage, stratégie des voies aériennes et transfusionnelle\nAnalgésie, prévention des NVPO et de la thrombose\nOrientation postopératoire, prémédication, gestion des traitements
-De quoi dépend le choix entre AG et ALR ? :: Du type de chirurgie\nDu choix du patient\nDe la balance bénéfice/risque évaluée par l'anesthésiste
 Un patient a refusé une ALR en consultation : peut-on la réaliser au bloc ? :: Non : un refus tracé doit être respecté\nTout changement de stratégie impose une nouvelle information et un consentement
 Qu'est-ce que la visite pré-anesthésique (VPA) ? :: Une visite du médecin anesthésiste-réanimateur, la veille ou quelques heures avant l'intervention\nElle doit être tracée
-Que vérifie-t-on lors de la visite pré-anesthésique ? :: Les éléments nouveaux depuis la consultation\nLes résultats des examens\nL'information du patient et sa compréhension du protocole\nLa prémédication, le jeûne, les consignes sur les traitements
 
 // ---------- Salle et monitorage ----------
 Qu'est-ce que la FOSO ? :: La feuille d'ouverture de salle opératoire\nElle vérifie la présence et le fonctionnement du matériel ; datée et signée par l'IADE et le MAR
 Quel matériel est obligatoire sur un site d'anesthésie ? :: Monitorage : scope, PA, SpO2, température, gaz inspirés et expirés\nVentilation : contrôle des voies aériennes, aspiration, respirateur\nFluides médicaux : O2, air, N2O, vide\nRéanimation : défibrillateur, médicaments d'urgence
-Quel est le premier monitorage du patient au bloc ? :: L'équipe d'anesthésie : elle observe, interprète et agit
 Quel monitorage est obligatoire pour toute anesthésie ? :: Électrocardioscope : FC et rythme\nPression artérielle non invasive\nSpO2
-Quelles causes peuvent accélérer la fréquence cardiaque au bloc ? :: Une stimulation sympathique : analgésie insuffisante, hypovolémie, saignement
 Comment distinguer un malaise vagal d'une bradycardie paradoxale par hypovolémie ? :: Malaise vagal : avant l'induction (pose de perfusion, ALR) → atropine\nBradycardie paradoxale (réflexe de Bezold-Jarisch) : après l'induction, hypovolémie sévère → éphédrine, pas d'atropine
-Comment régler la pression artérielle non invasive au bloc ? :: Brassard adapté à la taille du bras\nMesure toutes les 5 min, toutes les 3 min si l'hémodynamique est instable\nRapprocher les mesures autour de l'induction
-Quelle valeur de pression le brassard mesure-t-il avec le plus de précision ? :: La PAM\nLa PAS et la PAD sont calculées
 Que reflètent la PAM, la PAD et la PAS ? :: PAM : perfusion des organes\nPAD : perfusion du ventricule gauche\nPAS : postcharge du ventricule gauche
 Comment calcule-t-on la PAM ? :: PAM = (PAS + 2 × PAD) / 3
 Quand poser une pression artérielle invasive ? :: Mesure non invasive peu fiable (hypovolémie, PA extrême, CEC)\nVariations brutales de PA attendues\nPrélèvements sanguins répétés
-Comment évolue la pression artérielle de l'aorte vers la périphérie ? :: La PAS augmente\nLa PAD diminue
-Quels mécanismes rechercher devant une hypotension au bloc ? :: PAM ≈ débit cardiaque × résistances\nHypovolémie : manque de volume\nVasoplégie : baisse du tonus vasculaire\nDéfaillance cardiaque : défaut de pompe
-Pourquoi le réchauffement d'un patient hypotherme est-il dangereux ? :: C'est une épreuve d'effort : forte sollicitation cardiovasculaire\nÀ retenir : prévenir l'hypothermie dès le peropératoire et réchauffer avant le réveil
-Où mesurer la température en continu au bloc ? :: Dans l'œsophage ou la vessie
 
 // ---------- Monitorage de la curarisation ----------
 Quand faut-il monitorer la curarisation ? :: Dès qu'un curare est utilisé, dépolarisant ou non\nNon dépolarisant : risque de curarisation résiduelle\nDépolarisant : risque de déficit en cholinestérase plasmatique
@@ -83,46 +66,24 @@ Que mesure le train de quatre (TOF) ? :: Le nombre de réponses sur 4 et le rapp
 À partir de quel rapport T4/T1 parle-t-on de curarisation résiduelle ? :: T4/T1 < 90 %
 Quatre réponses au TOF suffisent-elles pour extuber ? :: Non : il faut mesurer le rapport T4/T1, qui doit atteindre 90 %
 À quoi sert le compte post-tétanique (PTC) ? :: À évaluer une curarisation profonde : moins de 5 réponses
-À quoi sert la stimulation double burst (DBS) ? :: À détecter une curarisation résiduelle
 
 // ---------- Anesthésie générale ----------
-Quelles sont les trois familles de médicaments de l'AG, et leur rôle ? :: Hypnotiques : perte de conscience et amnésie\nMorphiniques : analgésie\nCurares : relâchement musculaire
-Quelles sont les étapes d'une induction classique ? :: Monitorage, silence en salle\nPréoxygénation en ventilation spontanée (FeO2 > 90 %)\nMorphinique puis hypnotique\nVentilation au masque en attendant l'effet du curare\nIntubation, ventilation mécanique, entretien\nInstallation chirurgicale après accord de l'anesthésiste
 En quoi l'induction en séquence rapide diffère-t-elle de l'induction classique ? :: Indication : urgence, estomac plein\nHypnotique + curare d'action rapide (suxaméthonium ou rocuronium)\nPas de ventilation au masque : risque d'inhalation
-Pourquoi vérifier l'entretien juste après l'intubation ? :: L'induction ne couvre pas toute la chirurgie : un entretien oublié expose à un réveil peropératoire
-Quels réglages ventilatoires pendant une AG ? :: Volume courant de 6 à 8 mL/kg et FR adaptée à l'EtCO2 (objectif PaCO2 ≈ 40 mmHg)\nFiO2 adaptée à la SpO2 (objectif PaO2 > 80 mmHg)\nPEP pour garder les alvéoles ouvertes
-Quels sont les effets hémodynamiques et respiratoires de l'AG ? :: Vasodilatation, baisse du débit, hypotension\nDépression respiratoire et du réflexe de toux (morphiniques)\nAtélectasies (perte de la contraction du diaphragme)
-Quels autres effets indésirables de l'AG faut-il connaître ? :: Troubles de la déglutition\nNVPO\nAllergie : curares surtout, gélatines, antibiotiques\nCompression nerveuse si mauvaise installation\nBris dentaire, motif de plainte le plus fréquent
-Quelles complications peuvent survenir à l'intubation ? :: Collapsus de reventilation, hypotension\nDésaturation\nArrêt cardiaque
 Quelles conditions réunir avant d'extuber ? :: Décurarisation vérifiée (rapport T4/T1)\nPatient réchauffé, éveillé, qui répond aux ordres\nToux et ventilation efficaces
 Pourquoi l'extubation est-elle une épreuve d'effort ? :: Douleur, difficulté respiratoire, froid\nRisque de spasme laryngé et de recurarisation
-Pourquoi purger les voies veineuses avant l'extubation ? :: Un curare resté dans la tubulure peut être injecté plus tard : risque de recurarisation
 Pendant combien de temps le médecin anesthésiste est-il responsable après l'intervention ? :: Les 48 premières heures\nIl prescrit la surveillance, l'analgésie, la prévention des NVPO, l'anticoagulation, la perfusion, la reprise alimentaire et des traitements
 
 // ---------- Anesthésie locorégionale ----------
-À quelles conditions peut-on réaliser une ALR ? :: Accord du patient, informé en consultation\nDurée et champ opératoire compatibles\nPatient scopé, perfusé, surveillé par un IADE ou un MAR
-Quelles sont les deux familles d'ALR ? :: Rachidiennes : rachianesthésie, péridurale\nPériphériques : blocs plexiques, blocs tronculaires
 Qu'est-ce qu'une rachianesthésie ? :: L'injection d'un petit volume d'anesthésique local (2 à 4 mL) dans le LCR\nAprès franchissement volontaire de la dure-mère
 Qu'est-ce qu'une péridurale ? :: L'injection d'un grand volume d'anesthésique local (environ 20 mL) dans l'espace péridural, autour de la dure-mère\nAvec un cathéter pour réinjecter
-En rachianesthésie, de quoi dépendent l'étendue et l'intensité du bloc ? :: Volume d'anesthésique local : étendue\nConcentration : intensité\nÀ retenir : le niveau de ponction (souvent L4-L5) n'indique pas le niveau du bloc
 Quelles sont l'indication et la contre-indication absolue des anesthésies rachidiennes ? :: Indication : chirurgie sous-ombilicale de moins de 3 h\nContre-indication : refus du patient
 Quels sont les risques des anesthésies rachidiennes ? :: Vasoplégie et hypotension\nRétention urinaire\nLombalgies\nCéphalées post-ponction durale
-Quels sont les avantages de la rachianesthésie ? :: Ponction simple\nBloc complet, sensitif et moteur\nInstallation rapide
-Quels sont les avantages de la péridurale ? :: Installation lente et progressive\nRéinjections possibles par le cathéter\nBloc sensitif quasi exclusif possible\nMoins de céphalées
 Pourquoi l'hypotension est-elle plus brutale en rachianesthésie qu'en péridurale ? :: Le bloc sympathique s'installe très vite en rachianesthésie, progressivement en péridurale
 Quel est le risque d'un cathéter de péridurale passé dans le LCR ? :: Une rachianesthésie totale
 Quelle est la différence entre un bloc plexique et un bloc tronculaire ? :: Plexique : près du rachis, avant la division en nerfs ; plus complet mais plus risqué (diffusion péridurale, rachianesthésie totale, perforation d'organe)\nTronculaire : un nerf plus distal ; risques : échec, traumatisme nerveux, toxicité systémique
 Quel bloc pour une chirurgie de l'épaule, et pour une fracture du col du fémur ? :: Épaule : bloc interscalénique\nCol du fémur : bloc fémoral
-Quels outils permettent de repérer le nerf lors d'un bloc périphérique ? :: La neurostimulation (réponse motrice)\nL'échographie (visualisation)
-Quels sont les avantages respectifs de l'AG et de l'ALR ? :: AG : contrôle des voies aériennes, stabilité hémodynamique, amnésie\nALR : pas d'intubation, pas de NVPO, analgésie prolongée
-Quels sont les inconvénients respectifs de l'AG et de l'ALR ? :: AG : inhalation, NVPO, douleur au réveil et post-intubation, anaphylaxie (curares), hypothermie\nALR : échec, durée limitée, inconfort, toxicité des AL, conscience préservée, vasoplégie brutale et céphalées (rachianesthésie)
-Quels sont les pièges de l'anesthésie locale par infiltration ? :: L'échec (souvent sans consultation d'anesthésie)\nL'intoxication aux anesthésiques locaux\nDurée d'action : 30 à 120 min
-Quand choisir une sédation en ventilation spontanée ? :: Geste impossible sous ALR seule\nPour éviter les complications d'une AG (ex. HTAP sévère)\nObjectif : perte de conscience sans perte de la ventilation spontanée
 Quelles règles de sécurité pour une sédation en ventilation spontanée ? :: Surveiller la ventilation : masque avec capnographie, FR\nTitrer les médicaments ou utiliser l'AIVOC (rémifentanil sans bolus)\nÊtre prêt à intuber à tout moment\nJamais de curare
 
 // ---------- Sécurité ----------
 À quoi sert la check-list HAS au bloc ? :: Partager les informations entre équipes chirurgicale et anesthésique\nFaire une vérification ultime : identité, acte chirurgical\nElle est obligatoire
-Quels risques sont liés à l'installation du patient au bloc ? :: Lésions nerveuses par compression ou traction\nChute\nGêne chirurgicale, retentissement hémodynamique\nResponsabilité partagée : IADE, MAR, IBODE, chirurgien
-Quel risque particulier lors du scellement d'une prothèse de hanche ? :: Les emboles de ciment
-Quels moyens permettent de limiter les complications en anesthésie ? :: Organisation et check-lists\nAides cognitives\nSimulation et formation continue\nCulture de l'erreur : déclarer, revue de morbi-mortalité
 Qu'est-ce qu'une aide cognitive en anesthésie ? :: Un outil qui guide l'action dans une situation rare, urgente et stressante

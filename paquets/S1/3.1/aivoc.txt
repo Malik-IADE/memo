@@ -8,51 +8,34 @@
 // ---------- Principe ----------
 Que signifient AIVOC et TCI ? :: AIVOC : anesthésie intraveineuse à objectif de concentration\nTCI : Target Controlled Infusion, le terme anglais
 Quelle est la différence entre un débit massique et une AIVOC ? :: Débit massique : on fixe une quantité par heure (ex. 200 mg/h) ; la concentration continue d'évoluer\nAIVOC : on fixe une concentration cible ; la pompe calcule le débit nécessaire
-Comment évolue la concentration avec des bolus répétés, un débit fixe et une AIVOC ? :: Bolus répétés : pics et creux\nDébit fixe : montée lente, puis la concentration continue de monter\nAIVOC : bolus initial puis débit ajusté, concentration stable
 Comment une pompe d'AIVOC atteint-elle puis maintient-elle la cible ? :: Un bolus initial pour atteindre rapidement la cible\nPuis un débit continu progressivement diminué pour tenir compte de l'accumulation
 Pourquoi le bolus initial d'une AIVOC limite-t-il le risque de surdosage ? :: Il est calculé à partir des caractéristiques pharmacocinétiques connues du médicament
-Quel est l'intérêt de l'AIVOC lors d'un changement de cible ? :: Plus précise qu'un bolus pour atteindre la nouvelle cible\nPlus rapide qu'une simple hausse du débit continu
 L'AIVOC renseigne-t-elle sur la profondeur de l'hypnose ? :: Non : une même concentration peut donner un éveil chez un patient et un surdosage (EEG plat, hypotension) chez un autre\nÀ retenir : l'AIVOC optimise la pharmacocinétique ; la cible se choisit et s'ajuste sur l'EEG et la clinique
-Sur quels sites peut porter la cible d'une AIVOC ? :: Le plasma : concentration plasmatique (Cp)\nLe site effet : concentration au site effet (Ce), le cerveau pour un hypnotique
 Quels sont les avantages de l'AIVOC ? :: Atteinte précise de la cible : moins de surdosage, bénéfice hémodynamique\nConcentration stable dans le temps\nRéveil anticipé grâce au temps de décroissance
 
 // ---------- Modèle pharmacocinétique ----------
-Que calcule le modèle pharmacocinétique d'une pompe d'AIVOC ? :: La dose du bolus initial\nLe débit initial de perfusion\nL'adaptation du débit au cours du temps
-Que représentent Q2, Q3 et Cl dans le modèle à trois compartiments ? :: Q2 et Q3 : vitesses d'échange entre V1 et les compartiments périphériques V2 et V3\nCl : clairance, élimination par métabolisme et excrétion
-Depuis quel compartiment se fait l'élimination dans le modèle d'AIVOC ? :: Depuis le compartiment central V1\nLe médicament stocké en périphérie doit revenir dans V1 pour être éliminé
 Pourquoi la concentration plasmatique chute-t-elle vite juste après un bolus ? :: Surtout par distribution vers les tissus, avant même une élimination importante
-De quoi dépend la redistribution d'un médicament vers les tissus ? :: Sa solubilité dans les tissus (lipophilie) : plus elle est forte, plus les volumes périphériques sont grands\nSa liaison protéique : seule la fraction libre quitte le compartiment central
 Pourquoi le réveil est-il plus lent après une perfusion longue ? :: Le médicament s'accumule dans les compartiments lents\nÀ l'arrêt, il revient vers le plasma et ralentit la décroissance
 Quelle est la différence entre demi-vie terminale et demi-vie contextuelle ? :: Demi-vie terminale : propriété du médicament, dépend du volume de distribution et de la clairance\nDemi-vie contextuelle : décroissance de moitié à l'arrêt d'une perfusion ; dépend aussi de la dose, de la durée de perfusion et de la fraction libre
 Quelle est la différence entre clairance et vitesse d'élimination ? :: Clairance : volume épuré par unité de temps (L/min), indépendante de la concentration\nVitesse d'élimination : quantité éliminée par unité de temps (mg/min), dépend de la concentration
 Quelle est la différence entre une élimination d'ordre 1 et d'ordre 0 ? :: Ordre 1 : fraction constante éliminée (ex. 10 %/h), demi-vie constante\nOrdre 0 : quantité constante éliminée (ex. 10 mg/h), demi-vie variable, risque d'accumulation\nMixte : ordre 1, puis ordre 0 quand l'élimination sature
-Comment calcule-t-on le taux d'extraction d'un organe ? :: ER = (Cin − Cout) / Cin\nClairance de l'organe = débit sanguin de l'organe × ER
-Pourquoi la clairance du propofol baisse-t-elle en cas de bas débit ? :: Le propofol est fortement extrait par le foie : sa clairance suit le débit hépatique\nPour un médicament peu extrait, c'est surtout la fraction libre qui compte
-Quels médicaments de l'anesthésie ne sont pas éliminés par le foie ? :: Rémifentanil, succinylcholine, esmolol : hydrolyse par des estérases du plasma et des tissus\nPancuronium : élimination rénale
-Quels médicaments de l'anesthésie ont des métabolites actifs ? :: Le midazolam\nLa morphine
 
 // ---------- Site effet ----------
 Qu'est-ce que l'hystérésis entre concentration plasmatique et effet ? :: Pour une même Cp, l'effet diffère selon que la concentration monte ou descend\nCar l'effet est en retard sur le plasma
-Comment le modèle d'AIVOC représente-t-il le site effet ? :: Par un compartiment virtuel sans volume\nLa quantité qui y passe est négligée : elle ne fait pas baisser la Cp\nLa Ce est calculée, jamais mesurée
 À quoi sert la constante ke0 ? :: À décrire la vitesse d'équilibration entre le plasma et le site effet\nChaque médicament a son ke0 pour un modèle donné
 Après un bolus, comment évoluent Cp et Ce ? :: Le pic plasmatique précède le pic au site effet\nCp peut déjà baisser alors que Ce monte encore
 Une cible Ce de 3 µg/mL est demandée et l'écran affiche Ce = 2,1 µg/mL : que comprendre ? :: L'équilibration entre plasma et site effet n'est pas terminée\nLe retard d'effet ne veut pas dire que la cible est insuffisante
 
 // ---------- Modèles ----------
 À quel médicament correspond chaque modèle d'AIVOC ? :: Propofol : Marsh, Schnider, Eleveld\nRémifentanil : Minto, Eleveld\nSufentanil : Gepts
-Quelles données utilise le modèle de Marsh (propofol) ? :: Le poids réel seulement\nIl ne tient pas compte de l'âge : à éviter chez le sujet âgé
 Quelles données utilise le modèle de Schnider (propofol) ? :: Âge, taille, poids et masse maigre calculée par la formule de James\nV1 est fixe (4,27 L)
 Pourquoi le modèle de Schnider est-il dangereux chez l'obèse ? :: La masse maigre calculée devient aberrante quand l'IMC augmente → risque de surdosage\nLimites : IMC 42 kg/m² chez l'homme, 35 kg/m² chez la femme
-Quelles données utilise le modèle de Gepts (sufentanil) ? :: Aucune : ses paramètres ne sont individualisés ni par le poids, ni par la taille, ni par l'âge
 Quelles données utilise le modèle de Minto (rémifentanil) ? :: L'âge et la masse maigre calculée (donc indirectement le poids et la taille)
-Qu'apportent les modèles d'Eleveld ? :: Construits sur des données plus larges, ils couvrent mieux la diversité des patients\nIls intègrent l'âge postnatal et postmenstruel, la masse non grasse et la présence d'opioïdes
 Pourquoi la concentration affichée par la pompe n'est-elle pas fiable en valeur absolue ? :: Elle est calculée, pas mesurée\nLes modèles reposent sur des populations limitées et n'intègrent pas tous les déterminants\nÀ retenir : l'intérêt est la stabilité ; la cible s'ajuste sur l'EEG et la clinique
 
 // ---------- Lire la pompe ----------
 Avant d'interpréter l'écran d'une pompe d'AIVOC, que faut-il vérifier ? :: Le médicament, le modèle et le type de cible (plasma ou site effet) sélectionnés
-Quelles informations lire sur l'écran d'une pompe d'AIVOC ? :: La cible demandée\nLa Cp et la Ce calculées\nLe débit actuel\nLe temps de décroissance
 Pourquoi une pompe d'AIVOC affiche-t-elle un débit de 0 mL/h après une baisse de cible ? :: Elle suspend la perfusion pour laisser la Ce redescendre jusqu'à la nouvelle cible
-Qu'indique le temps de décroissance affiché par une pompe d'AIVOC ? :: Le délai prévu pour que la Ce descende jusqu'à un seuil choisi si la perfusion est arrêtée\nC'est une aide pour anticiper la fin d'administration, pas une heure de réveil
 
 // ---------- Bon usage ----------
 Pourquoi ne faut-il pas faire de bolus manuel sous AIVOC ? :: La pompe doit connaître toute la dose reçue\nElle fait déjà un bolus quand on augmente la cible
@@ -60,13 +43,8 @@ Que vérifier pour que la dose calculée par l'AIVOC soit bien reçue ? :: Le ty
 Que faire en cas d'extravasation à l'induction sous AIVOC ? :: Réinitialiser la pompe après avoir contrôlé la voie\nSinon, elle considère que le bolus initial a été reçu
 Comment utiliser l'AIVOC chez le patient obèse ? :: Les modèles classiques (Schnider, Minto) ne sont pas validés : masse maigre aberrante\nRéduire le poids renseigné et titrer sur l'EEG, ou utiliser un modèle d'Eleveld
 Quelles sont les particularités de l'AIVOC chez le sujet âgé ? :: Délai plus long entre l'obtention de la cible et l'effet maximal\nCibles nécessaires plus faibles : titrer sur l'EEG
-Quels facteurs modifient le passage de la dose à la concentration plasmatique ? :: Volume de distribution : grossesse, obésité\nFixation protéique : hypoalbuminémie\nClairance : bas débit, hyperdébit, fonction hépatique
-Quels facteurs modifient le passage de la concentration plasmatique au site effet ? :: Le débit cardiaque et l'état hémodynamique\nLa perfusion cérébrale (choc)
-Quels facteurs modifient l'effet obtenu pour une même concentration au site effet ? :: Âge et fragilité\nSynergie : opioïdes, benzodiazépines, neuroleptiques\nTolérance : alcoolisme, neuroleptiques au long cours
 
 // ---------- AINOC ----------
 Que signifie AINOC, et sur quoi porte la consigne ? :: Anesthésie inhalée à objectif de concentration\nConsigne : la fraction télé-expiratoire d'halogéné
-Comment fonctionne l'AINOC ? :: Délivrance initiale calculée par un modèle pharmacocinétique : bien renseigner la morphologie sur le respirateur\nPuis boucle fermée : le respirateur compare la fraction expirée mesurée à la cible et corrige\nIl peut moduler le débit de gaz frais
-Pourquoi la fraction expirée d'halogéné n'est-elle qu'une approximation de la concentration plasmatique ? :: Fraction expirée ≈ concentration alvéolaire ≈ concentration plasmatique\nLes rapports ventilation/perfusion limitent cette approximation
 Quel est l'avantage de l'AINOC sur l'AIVOC ? :: La fraction expirée est mesurée : cela évite les grandes erreurs pharmacocinétiques
 L'AINOC permet-elle d'évaluer la profondeur de l'hypnose ? :: Non : comme l'AIVOC, c'est un outil pharmacocinétique, pas pharmacodynamique

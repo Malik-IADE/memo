@@ -7,65 +7,38 @@
 
 // ---------- Physiologie ----------
 Quelle est l'équation du mouvement du système respiratoire ? :: Paw = PEP + R × V′ + Vt/C\nLa pression mesurée associe une pression de base, une composante résistive et une composante élastique
-De quoi dépend surtout la résistance d'un conduit aérien ? :: De son rayon : R = 8ηl/(πr⁴)\nUne petite baisse du rayon augmente fortement la résistance
 Qu'est-ce que la compliance du système respiratoire ? :: C = ΔV/ΔP, en mL/cmH2O\nMoins d'alvéoles ventilables → compliance globale diminuée
 Qu'est-ce que la pression transpulmonaire ? :: PTP = Palv − Ppl\nPour garder l'alvéole ouverte, il faut PTP > 0 : une Palv positive ne suffit pas
-Comment l'air entre-t-il dans les poumons en ventilation spontanée ? :: Le diaphragme se contracte et abaisse la pression pleurale\nLa pression intrathoracique devient négative et l'air entre
 Quelle est la différence de pression intrathoracique entre ventilation spontanée et ventilation mécanique ? :: Spontanée : négative à l'inspiration\nMécanique : positive à l'inspiration (l'air est insufflé)
 Quels sont les effets hémodynamiques de la pression intrathoracique positive ? :: Elle diminue le retour veineux au cœur droit : congestion veineuse, baisse des débits\nElle facilite l'éjection du cœur gauche
 Dans quelles situations la ventilation en pression positive peut-elle provoquer un arrêt cardiaque ? :: Défaillance cardiaque droite préalable : arrêt par désamorçage\nTamponnade, pneumothorax compressif\nEmbolie pulmonaire massive, HTAP
 
-// ---------- Mise en route ----------
-Comment choisir le niveau d'assistance ventilatoire selon la chirurgie ? :: VS : chirurgie superficielle courte et peu réflexogène, endoscopie digestive\nVS-AI : chirurgie périphérique ou pariétale, sans besoin de curare\nVentilation contrôlée : chirurgie intrathoracique ou intra-abdominale, ou curarisation nécessaire
-Comment évolue le mode ventilatoire au cours d'une anesthésie ? :: Préoxygénation : VS ou VS-AI\nChirurgie : VAC en volume ou en pression, ou VS-AI\nRéveil : VS-AI\nExtubation : VS-AI ou VS
-Quelles situations augmentent le risque de fuite avec un masque laryngé ? :: Position opératoire contraignante\nObésité\nCœlioscopie\nRisques : hypoventilation, inhalation
-
 // ---------- Cycle et modes ----------
 Qu'est-ce que le rapport I/E, et quelle est sa valeur habituelle ? :: Le rapport entre temps inspiratoire et temps expiratoire\nHabituellement 1/2 : l'expiration dure deux fois plus longtemps que l'inspiration
 Comment calculer la durée d'un cycle et le temps inspiratoire ? :: Ttot = 60 / FR (en secondes)\nTi = Ttot × (I/E) / (1 + I/E)\nTe = Ttot − Ti
-Quelles consignes définissent un cycle de ventilation mécanique ? :: Trigger : déclenchement de l'insufflation\nCyclage : arrêt de l'insufflation\nParamètre cible : volume ou pression\nPEP : pression gardée en fin d'expiration
-L'expiration est-elle active en ventilation mécanique ? :: Non : elle reste passive\nSa vitesse dépend des résistances et de la compliance (τ = R × C)
 Quelle est la différence entre mode assisté et mode contrôlé ? :: Assisté : le patient déclenche les cycles, FR variable\nContrôlé : la machine impose les cycles, FR fixe\nAssisté-contrôlé : FR minimale de sécurité, le patient peut déclencher des cycles en plus
 Que règle-t-on et que surveille-t-on en volume contrôlé et en pression contrôlée ? :: Volume contrôlé : on règle le volume, on surveille les pressions\nPression contrôlée : on règle la pression, on surveille le volume
 Quelle est la forme du débit inspiratoire en volume contrôlé et en pression contrôlée ? :: Volume contrôlé : débit constant (carré)\nPression contrôlée : pression constante, débit décélérant
 Comment fonctionne la ventilation spontanée avec aide inspiratoire (VS-AI) ? :: Le patient déclenche ses cycles\nLa machine lui apporte une aide en pression\nSurveiller le volume et la fréquence obtenus
-Quels sont les réglages habituels de la VS-AI ? :: Aide inspiratoire : 8 à 20 cmH2O\nPEP : 5 à 15 cmH2O\nPente : 0 à 0,2\nTrigger inspiratoire : 0,3 à 2 L/min\nTrigger expiratoire : 20 à 30 % du débit maximal
-À quoi sert le trigger expiratoire en VS-AI ? :: À passer à l'expiration quand le débit inspiratoire a assez diminué (20 à 30 % du débit maximal)
 
 // ---------- Pressions ----------
 Qu'est-ce que la PEP ? :: La pression expiratoire positive gardée en fin d'expiration\nElle maintient les alvéoles ouvertes
 Qu'est-ce que la pause inspiratoire, et qu'apporte-t-elle ? :: Un temps après l'insufflation où les deux valves sont fermées : le débit est nul\nLa pression mesurée est alors la pression de plateau (Pplat), reflet de la pression alvéolaire
 Que reflètent Pcrête − Pplat et Pplat − PEP ? :: Pcrête − Pplat : les résistances des voies aériennes\nPplat − PEP : la compliance pulmonaire
 Comment calculer la compliance à partir des pressions du respirateur ? :: C = Vt / (Pplat − PEP), en mL/cmH2O
-Pourquoi ne peut-on pas analyser résistances et compliance sur la courbe de pression en pression contrôlée ? :: La pression est imposée : on ne peut pas séparer la part résistive de la part élastique
-En volume contrôlé, que se passe-t-il si on augmente la FR sans changer le Vt ni l'I/E ? :: Le Ti diminue, donc le débit inspiratoire augmente\nLa Pcrête augmente (composante résistive)
-En volume contrôlé, que se passe-t-il si on passe l'I/E de 1/2 à 1/3 ? :: Le Ti diminue : le débit inspiratoire et la Pcrête augmentent
 Comment la ventilation minute influence-t-elle l'EtCO2 ? :: Ventilation minute = Vt × FR\nL'augmenter (Vt ou FR) épure plus de CO2 : l'EtCO2 baisse
 
 // ---------- Ventilation protectrice ----------
 Quels sont les risques de la ventilation mécanique pour le poumon ? :: Barotrauma, volotrauma : excès de pression ou de distension\nAtélectrauma : fermetures et réouvertures répétées des alvéoles
-Quels sont les objectifs de la ventilation protectrice ? :: Limiter la surdistension alvéolaire en fin d'inspiration (volotrauma)\nLimiter l'ouverture-fermeture cyclique des alvéoles (atélectrauma)\nRéduire les complications respiratoires postopératoires
 Quels sont les réglages d'une ventilation protectrice ? :: Vt de 6 à 8 mL/kg de poids idéal théorique\nPEP > 5 cmH2O\nPplat < 25 cmH2O\nTe suffisant pour une expiration complète
 Sur quel poids calcule-t-on le volume courant ? :: Sur le poids idéal théorique (PIT), calculé à partir de la taille\nJamais sur le poids réel
 Quelle pression de plateau ne faut-il pas dépasser ? :: 25 cmH2O
 Comment recruter les alvéoles, puis les maintenir ouvertes ? :: Recruter : 30 cmH2O pendant 30 s pour ouvrir les alvéoles fermées\nTitrer la PEP pour les maintenir ouvertes, en recherchant la meilleure compliance
-Quels sont les objectifs ventilatoires de base au bloc ? :: FR de 15 à 25/min, EtCO2 entre 35 et 45 mmHg\nI/E 1/2, débit expiratoire qui revient à 0\nSpO2 > 94 % (FiO2 et débit de gaz frais adaptés)\nPression d'aide ou d'insufflation : 10 à 15 cmH2O
 Que faire si l'EtCO2 est à 50 mmHg sous ventilation contrôlée ? :: Augmenter la ventilation minute : Vt jusqu'à 8 mL/kg de PIT et/ou FR
 Que faire si la Pplat atteint 30 cmH2O ? :: Réduire le Vt vers 6 mL/kg de PIT et augmenter la FR pour garder la même ventilation minute\nDiscuter un recrutement pour améliorer la compliance
-Que faire si le débit expiratoire ne revient pas à zéro avant le cycle suivant ? :: Allonger le Te : diminuer l'I/E ou la FR
 
 // ---------- Surveillance ----------
-Que surveiller sur le patient ventilé ? :: Ampliation thoracique, auscultation symétrique, bruits anormaux\nPression du ballonnet, fixation de la sonde\nFuites, débranchements\nDéplacement de la sonde : extubation, intubation sélective
 En volume contrôlé, la Pcrête augmente et la Pplat ne change pas : que conclure ? :: L'écart Pcrête − Pplat augmente : les résistances ont augmenté\nRechercher des sécrétions dans la sonde, un patient qui mord sa sonde, un bronchospasme
 En volume contrôlé, la Pplat et la Pcrête augmentent ensemble : que conclure ? :: À Vt et PEP inchangés, la compliance a diminué\nRechercher une intubation sélective, un pneumothorax, une atélectasie, un pneumopéritoine
 Qu'est-ce que l'auto-PEP ? :: La pression liée à une vidange incomplète des poumons : air piégé, hyperinflation dynamique\nPEP totale = PEP réglée + auto-PEP\nCauses : Te trop court, bronchospasme
-Comment mesurer l'auto-PEP ? :: Par une pause télé-expiratoire : auto-PEP = PEP totale − PEP réglée
-Pourquoi mesurer la PEP totale quand la Pplat augmente ? :: Pour distinguer une baisse de compliance (PEP totale normale) d'une hyperinflation dynamique (PEP totale élevée)
 En pression contrôlée, le Vt diminue : quelles causes envisager ? :: Une baisse de compliance ou une hausse des résistances\nLa courbe de débit aide à les distinguer
-
-// ---------- Extubation ----------
-Quels critères cardiovasculaires et généraux vérifier avant d'extuber ? :: PA et FC à ± 20 % des valeurs initiales, sans vasopresseur ni inotrope\nTempérature centrale > 36 °C\nAnalgésie correcte, pas de complication chirurgicale\nRéflexe de déglutition récupéré
-Comment réaliser une extubation ? :: Aspiration endobuccale (pas endotrachéale)\nDécubitus dorsal, proclive\nRetirer la fixation, dégonfler lentement le ballonnet\nRetirer la sonde en fin d'inspiration, en pression positive\nOxygène titré sur la SpO2, surveillance clinique
-Quelles causes d'échec d'extubation sont liées à l'intubation ? :: Intubation difficile, tentatives multiples\nTraumatisme oro-pharyngé\nSonde de gros diamètre, ballonnet surgonflé, sonde mal placée
-Quelles autres situations exposent à un échec d'extubation ? :: Chirurgie de plus de 4 h, en urgence, cervico-maxillo-faciale\nPosition déclive prolongée, remplissage important\nRadiothérapie ou curage cervical\nBPCO, insuffisance cardiaque
-Que prévoir face à une extubation à risque ? :: Décider en équipe d'extuber ou de différer\nPrévoir l'oxygénation, le matériel et une surveillance adaptée\nTransmettre par écrit le risque et la conduite retenue

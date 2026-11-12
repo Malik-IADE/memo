@@ -6,40 +6,23 @@
 # IADE – Accueil du patient au bloc
 
 // ---------- Anxiété ----------
-Pourquoi l'accueil au bloc fait-il partie du soin ? :: Le « prendre soin » commence dès la première rencontre\nL'accueil, souvent très court, sert à créer une relation de confiance qui améliore le vécu des soins
-Quelles sont les causes d'anxiété liées à l'anesthésie ? :: L'attente avant le bloc\nLa peur de l'inconnu et de la perte de contrôle\nLa peur de la ponction veineuse\nLa peur de mourir, de ne pas se réveiller ou de se réveiller pendant l'intervention\nLa peur des NVPO, de la fatigue et de la douleur postopératoires
-Quelles sont les causes d'anxiété liées à la chirurgie ? :: La peur de l'erreur médicale et des infections nosocomiales\nLa peur de l'échec ou des complications\nLa peur d'une atteinte de l'intégrité physique, du handicap\nLa crainte de ne pas retrouver une vie normale
 Quelle est la différence entre stress et anxiété ? :: Stress : ensemble des réponses physiologiques et psychologiques pour s'adapter à une contrainte\nAnxiété : émotion désagréable proche de la peur, tournée vers l'avenir\nUn stress qui dure peut se compliquer d'anxiété
 Quels sont les quatre niveaux d'anxiété ? :: Légère : patient sur le qui-vive\nModérée : attention sélective\nGrave : perception et analyse altérées, signes physiques\nPanique : perception déformée, réactions imprévisibles
-Par quels systèmes l'organisme répond-il au stress ? :: Réponse immédiate : système sympathique, libération d'adrénaline et de noradrénaline\nRéponse plus lente : axe hypothalamo-hypophyso-surrénalien, libération de cortisol et d'aldostérone
 Pourquoi un patient anxieux est-il hypertendu et tachycarde ? :: Les catécholamines stimulent les récepteurs alpha et bêta : vasoconstriction, tachycardie, hausse de la contractilité et du débit cardiaque
-Quels sont les effets du cortisol et de l'aldostérone lors d'un stress prolongé ? :: Cortisol : anti-inflammatoire, hyperglycémie (déséquilibre d'un diabète), ulcère, effets sur Na et K\nAldostérone : effets sur Na et K, vasoconstriction, HTA
 Quels signes physiques traduisent l'anxiété ? :: Tachycardie, HTA, polypnée\nTonus musculaire augmenté, tremblements, sueurs\nBesoin d'uriner, spasmes abdominaux, nausées\nTroubles du sommeil
-Quels comportements traduisent l'anxiété ? :: Agitation ou prostration\nLogorrhée ou mutisme\nAgressivité verbale\nPleurs ou euphorie
 Quels patients sont les plus exposés à l'anxiété préopératoire ? :: Femmes, enfants (séparation), adolescents, personnes âgées\nHaut niveau d'études\nAntécédents psychiatriques, douleur, cancer, mauvaise expérience antérieure\nPatients ASA 3
-Quels éléments de la prise en charge aggravent l'anxiété préopératoire ? :: Une information insuffisante, mal comprise ou excessive\nLe jeûne\nL'hospitalisation : rupture des habitudes, milieu inconnu\nLe transport sur un brancard
 Quelles sont les conséquences de l'anxiété préopératoire ? :: Plus d'anesthésiques et d'antalgiques consommés\nPlus de NVPO\nInduction plus difficile, réveil plus lent et plus douloureux, réhabilitation plus longue\nChez l'enfant : troubles du comportement postopératoires
 
 // ---------- Accueil et besoins ----------
 Qu'est-ce que l'accueil dans le contexte du soin ? :: Recevoir le patient et l'accompagner pour qu'il s'adapte à la structure\nLui faire sentir qu'il est attendu, avec une démarche personnalisée, un temps et un lieu dédiés
-Quelles contraintes compliquent l'accueil au bloc ? :: Le lieu : pas toujours dédié, bruit, passages, promiscuité (pudeur, confidentialité)\nLe temps : rencontre très courte avant la salle d'opération
-Quels textes encadrent le soin relationnel de l'IADE ? :: Décret du 29 juillet 2004 (article R 4311-2) : soins associant qualité technique et qualité relationnelle\nArrêté du 23 juillet 2012 (formation IADE) : accueil, information, relation de confiance\nLoi du 4 mars 2002 : respect des croyances, de l'intimité et de la tranquillité
-Quels sont les 14 besoins fondamentaux de Virginia Henderson ? :: Respirer\nBoire et manger\nÉliminer\nSe mouvoir, avoir une bonne posture\nDormir, se reposer\nSe vêtir, se dévêtir\nMaintenir sa température\nÊtre propre, protéger ses téguments\nÉviter les dangers\nCommuniquer\nAgir selon ses valeurs et croyances\nS'occuper en vue de se réaliser\nSe divertir\nApprendre
-Quels besoins fondamentaux ne sont pas satisfaits au bloc ? :: Boire et manger (jeûne)\nÉviter les dangers\nS'occuper en vue de se réaliser, se divertir\nÀ retenir : ces manques sont source d'anxiété
-Comment la pyramide de Maslow s'applique-t-elle au patient au bloc ? :: Besoins physiologiques non satisfaits : jeûne\nBesoin de sécurité : peur de l'inconnu, angoisse\nBesoin d'appartenance : chemise d'opéré, passivité sur le brancard, sentiment de déshumanisation\nÀ retenir : la mise en confiance comble le besoin de sécurité
 Sur quoi porte l'information donnée au patient à l'accueil ? :: Le rôle de chaque soignant au bloc (soignants identifiés)\nLa vérification des éléments de sécurité du dossier\nLa compréhension du patient
 
 // ---------- Relation de confiance ----------
-Quels sont les éléments de la relation de confiance ? :: Chaleur, écoute, disponibilité\nSimplicité du langage, humilité, authenticité\nHumour, empathie
 Qu'est-ce que l'empathie ? :: Observer et identifier les émotions de l'autre, sans les ressentir soi-même
-Pourquoi la mise en confiance est-elle une anxiolyse non médicamenteuse ? :: Moins d'anxiété : induction plus facile et moins de produits anesthésiques\nLe patient se réveille dans le même état d'esprit qu'à l'induction
 Qu'est-ce que l'alliance thérapeutique ? :: La coopération du patient aux soins, fondée sur la relation de confiance\nAvec une information claire et un objectif de soin commun
 
 // ---------- Communication ----------
-Quelles sont les trois composantes de la communication ? :: Verbal : langage accessible, sans jargon\nPara-verbal : ton, rythme, pauses, silences\nNon verbal : posture, regard, expressions, distance
 Comment reformuler « N'ayez pas peur, ça va aller » en communication thérapeutique ? :: « Je vois que vous êtes un peu inquiet, c'est normal. Voyons comment nous allons pouvoir vous aider »\nÀ retenir : formulation positive, sans négation
 Comment reformuler « Ne bougez pas » et « Ça va être froid » en communication thérapeutique ? :: « Pouvez-vous rester allongé ? C'est important pour votre confort et votre sécurité »\n« Vous allez ressentir une petite fraîcheur »
 Qu'est-ce que l'hypnose conversationnelle ? :: Une technique relationnelle qui focalise l'attention du patient sur un élément agréable\nElle crée un état de conscience modifié et améliore son confort
 Qu'est-ce que la sophrologie ? :: Une technique de relaxation : respiration, détente physique et psychique, visualisation positive
-Quelles autres approches peuvent réduire l'anxiété à l'accueil ? :: Musicothérapie (sas d'accueil, SSPI, ALR)\nAromathérapie\nPatient qui arrive debout au bloc (ambulatoire)
-À quoi penser pour le confort du patient dès l'accueil ? :: Confort thermique : réchauffement dès l'arrivée au bloc\nInstallation confortable, gestes doux\nRespect de la pudeur
