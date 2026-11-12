@@ -4,10 +4,6 @@
 
 # IADE – Tenue au bloc
 
-// ---------- Tenue de base ----------
-Quelle est la tenue de base recommandée ? :: Tunique à manches courtes et pantalon\nChaussures réservées au travail : silencieuses, antidérapantes, lavables, qui tiennent le pied, fermées à l'avant
-Quels sont les prérequis d'hygiène personnelle avec la tenue ? :: Hygiène corporelle quotidienne\nCheveux propres, courts ou attachés et relevés\nPas de vêtement personnel visible sous la tenue\nLunettes nettoyées à la prise de poste\nOngles courts, sans vernis ni faux ongles ; ni bijoux ni montre
-
 // ---------- Tenue de bloc ----------
 Pourquoi la tenue de bloc est-elle importante, et en quelle matière ? :: Le bloc est un secteur à environnement maîtrisé où se font des actes à haut risque infectieux\nLa tenue réduit la contamination de l'air par les squames du personnel et prévient l'infection du site opératoire, principal risque infectieux de la chirurgie\nMatière : non-tissé ou polyester-coton, jamais 100 % coton
 Peut-on sortir du bloc en tenue de bloc ? :: Non : la tenue reste dans le bloc\nSortie exceptionnelle pour un motif impérieux : changer de tenue au retour\nSortie de quelques minutes : blouse fermée par-dessus\nSortie prolongée ou hors du bâtiment : se changer
@@ -15,11 +11,8 @@ Quelles règles suivre pour l'article coiffant au bloc ? :: Couvrir toute la che
 Quelles chaussures porter au bloc ? :: Réservées au bloc : plastique, aérées sur les côtés, antidérapantes, silencieuses, antistatiques\nLavées et désinfectées chaque jour, et dès qu'elles sont souillées\nPas de surchaussures : pas plus efficaces, elles exposent à contaminer les mains
 
 // ---------- Équipements de protection ----------
-Quel est le rôle du masque chirurgical ? :: Filtrer l'air expiré : il protège le patient et l'environnement\nType IIR : résistant aux projections
 Quelles règles d'utilisation du masque chirurgical ? :: Hygiène des mains avant de le mettre et après l'avoir retiré\nNe plus le toucher une fois posé\nLe changer s'il est humide ou souillé, après l'acte, et au bout de 3 à 4 h\nUn masque retiré est jeté : jamais au menton ni dans la poche
 Quelle est la différence entre un masque chirurgical et un FFP2 ? :: Chirurgical : filtre l'air expiré, protège le patient\nFFP2 : filtre l'air inspiré, protège le porteur des agents transmis par voie aérienne (tuberculose) ; doit être bien ajusté
-Quels gants utiliser selon l'acte ? :: 1 paire = 1 acte = 1 patient\nSoins : gants de soins non stériles\nGestes aseptiques : gants stériles\nSous amplificateur de brillance : gants plombés stériles\nDispositifs médicaux, locaux : gants de protection à manchettes longues
 
 // ---------- Circulation et discipline ----------
 Quelles sont les étapes d'accès au bloc opératoire ? :: Vestiaire central : tenue de base, objets personnels et bijoux déposés, cheveux attachés\nVestiaire du bloc : tenue de bloc, sabots, coiffe, dosimètre\nZone de préparation des opérateurs : masque obligatoire
-Quelles règles de discipline appliquer en salle d'opération, et pourquoi ? :: But : éviter distractions, mouvements et courants d'air ; respecter l'asepsie progressive\nPortes fermées\nAllées et venues limitées\nMouvements réduits au strict nécessaire, peu de bruit
