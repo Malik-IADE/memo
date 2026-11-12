@@ -1,0 +1,113 @@
+// Cours 2.4 – Analgésiques non morphiniques
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Les études, dates et statistiques citées dans le support ne sont pas reprises.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Analgésiques non morphiniques
+
+// ---------- Douleur ----------
+Quelle est la différence entre douleur aiguë et douleur chronique ? :: Douleur aiguë : signal d'alarme, prise en charge curative\nDouleur chronique : plus de 3 mois, prise en charge biopsychosociale
+Quels sont les trois mécanismes de la douleur ? :: Nociceptif\nNeuropathique\nNociplastique
+Quelles sont les composantes de la douleur ? :: Sensori-discriminative\nAffective et émotionnelle\nCognitive\nComportementale
+Pourquoi l'EVA ne suffit-elle pas à évaluer une douleur chronique ? :: Elle ne mesure que l'intensité\nLa douleur chronique s'évalue dans toutes ses composantes
+À quoi sert l'échelle DN4 ? :: À dépister une douleur neuropathique
+Pourquoi une douleur neuropathique postopératoire précoce doit-elle alerter ? :: C'est un signal d'alerte de chronicisation de la douleur
+Quels sont les facteurs de risque de douleur chronique post-chirurgicale ? :: Douleur intense dans les 24 premières heures\nDouleur neuropathique précoce\nVulnérabilité psychologique : anxiété, catastrophisme\nDouleur préexistante, opioïdes au long cours
+Quelle échelle utiliser en première intention pour évaluer la douleur aux urgences chez un patient communicant ? :: L'échelle numérique (plutôt que l'EVA)\nChez le patient non communicant : ALGOPLUS ou BOS3
+
+// ---------- Classifications ----------
+À quoi correspondent les trois paliers antalgiques de l'OMS ? :: Palier 1 : non opioïdes\nPalier 2 : opioïdes faibles\nPalier 3 : opioïdes forts\nÀ retenir : conçus pour la douleur du cancer
+Sur quoi repose la classification des antalgiques de Lussier et Beaulieu ? :: Sur le mécanisme d'action : anti-nociceptifs, anti-hyperalgésiques, modulateurs des contrôles descendants, modulateurs de la transmission et de la sensibilisation périphériques, mixtes
+
+// ---------- Paracétamol ----------
+Le paracétamol a-t-il un effet anti-inflammatoire ? :: Non, quelle que soit la dose : il n'inhibe pas les cyclo-oxygénases périphériques\nIl est antalgique et antipyrétique
+Comment agit le paracétamol ? :: C'est un pro-médicament : son métabolite (AM404) agit dans le cerveau\nEffet antipyrétique par inhibition hypothalamique des prostaglandines
+Quelle est la dose maximale de paracétamol par défaut chez l'adulte ? :: 3 g par 24 h\n4 g par 24 h seulement sur avis médical, au-delà de 50 kg et sans facteur de risque d'hépatotoxicité\nAu moins 4 h entre deux prises
+Quelle dose de paracétamol chez un adulte de moins de 50 kg ou dénutri ? :: 3 g par 24 h et 60 mg/kg/j au maximum
+Quelle dose de paracétamol en cas d'alcoolisme chronique ou d'insuffisance hépatique légère à modérée ? :: 2 g par 24 h au maximum\nContre-indiqué en cas d'insuffisance hépatique sévère
+Comment adapter le paracétamol à l'insuffisance rénale ? :: Clairance de 10 à 50 mL/min : 6 h entre les prises, 3 g/j au maximum\nClairance < 10 mL/min : 8 h entre les prises, 2 g/j au maximum
+Quelle est la posologie du paracétamol chez l'enfant ? :: 60 mg/kg par 24 h en 4 prises (soit 15 mg/kg toutes les 6 h)\nÉviter la voie rectale
+Quelle est la posologie du paracétamol IV chez l'adulte de plus de 50 kg ? :: 1 g, au moins 4 h d'intervalle\n4 g/j au maximum, 3 g/j en cas de facteur de risque d'hépatotoxicité
+Quel est le délai d'action du paracétamol IV ? :: Soulagement en 5 à 10 min\nEffet maximal en 1 h\nDurée de 4 à 6 h
+À partir de quelle dose le paracétamol expose-t-il à une hépatite grave ? :: Dès 8 à 10 g en prise unique\nEt en cas de surdosages répétés au-dessus de 4 g/j chez le sujet âgé, éthylique ou dénutri
+Quel métabolite du paracétamol est toxique pour le foie ? :: Le NAPQI\nIl est normalement neutralisé par le glutathion
+Quel est l'antidote du paracétamol et quand l'administrer ? :: La N-acétylcystéine, qui reconstitue le glutathion\nSi possible avant la 10e heure, mais un patient vu tardivement doit quand même être traité
+Quels sont les signes d'une intoxication au paracétamol ? :: Aucun symptôme au début\nPuis nausées, douleurs abdominales, sueurs vers la 24e heure
+Pourquoi surveiller l'INR d'un patient sous AVK qui prend du paracétamol ? :: À 4 g/j pendant plusieurs jours, le paracétamol peut augmenter l'effet anticoagulant et le risque hémorragique
+Pourquoi surveiller la PA d'un hypertendu sous paracétamol au long cours ? :: Une prise régulière à forte dose peut élever la pression systolique
+Quel antalgique est la référence pendant la grossesse ? :: Le paracétamol
+
+// ---------- AINS ----------
+Quel est le mécanisme d'action des AINS ? :: Inhibition des cyclo-oxygénases (COX), donc de la synthèse des prostaglandines
+Quelle est la différence entre la COX-1 et la COX-2 ? :: COX-1 : constitutive (muqueuse gastrique, rein, plaquettes)\nCOX-2 : induite dans les tissus inflammés, mais aussi constitutive dans le rein et l'endothélium
+Quelle cyclo-oxygénase est inhibée par tous les AINS, coxibs compris ? :: La COX-2\nLes coxibs épargnent la COX-1
+À quoi est lié le risque digestif des AINS ? :: À l'inhibition de la COX-1 : il suit la sélectivité COX-1 de la molécule
+Pourquoi l'aspirine est-elle antiagrégante, contrairement aux autres AINS ? :: Elle est la seule à inhiber de façon irréversible la COX-1 plaquettaire
+À partir de quelle dose l'ibuprofène devient-il anti-inflammatoire chez l'adulte ? :: Au-delà de 1 200 mg/j\nÀ plus faible dose, l'effet est surtout antalgique
+Pourquoi associer systématiquement un AINS à la morphine en postopératoire ? :: Les AINS sont les non-morphiniques qui épargnent le plus la morphine\nAssociation recommandée en l'absence de contre-indication
+Quels sont les effets indésirables digestifs des AINS ? :: Ulcère, hémorragie, perforation\nL'ibuprofène est l'AINS non sélectif le moins à risque, surtout à dose antalgique
+Quels AINS ont le risque cardiovasculaire le plus marqué ? :: Les coxibs et le diclofénac\nIls sont contre-indiqués en cas de cardiopathie ischémique, d'artériopathie ou d'antécédent d'AVC
+Quels AINS sont les moins à risque cardiovasculaire ? :: Le naproxène\nL'ibuprofène à faible dose
+Quels sont les effets rénaux des AINS ? :: Insuffisance rénale fonctionnelle\nHyperkaliémie\nRétention hydrosodée
+Quelle association de médicaments avec un AINS est la plus dangereuse pour le rein ? :: AINS + IEC ou ARA2 + diurétique\nAutres facteurs aggravants : déshydratation, âge
+Quel AINS expose surtout aux toxidermies graves (Stevens-Johnson, Lyell) ? :: Les oxicams, comme le piroxicam\nRisque concentré sur les 8 premières semaines
+Quel est l'effet des AINS chez un patient asthmatique sensible à l'aspirine ? :: Ils peuvent déclencher un asthme (asthme induit par l'aspirine)
+Pourquoi les AINS demandent-ils de la prudence en cas d'infection ? :: Ils peuvent masquer les symptômes d'une infection\nPrudence surtout en cas d'infection cutanée ou pulmonaire
+Quels sont les effets des AINS sur la pression artérielle ? :: Hausse de la PA chez l'hypertendu\nRéduction de l'effet des antihypertenseurs
+À partir de quand les AINS sont-ils formellement contre-indiqués pendant la grossesse ? :: À partir de 24 SA (début du 6e mois), même en prise unique et quelle que soit la voie\nLes coxibs sont contre-indiqués pendant toute la grossesse
+Pourquoi les AINS sont-ils contre-indiqués en fin de grossesse ? :: Constriction du canal artériel\nInsuffisance rénale fœtale, oligoamnios\nMort fœtale
+Quelles associations avec un AINS sont déconseillées ? :: Anticoagulants oraux (AVK, AOD)\nAspirine avec l'ibuprofène\nLithium\nMéthotrexate à forte dose
+Que faire si l'on associe un AINS et un corticoïde chez un patient à risque digestif ? :: Le risque d'ulcère et d'hémorragie digestive augmente\nEnvisager un protecteur de la muqueuse (IPP ou misoprostol)
+Les AINS augmentent-ils les saignements postopératoires ? :: Pas d'augmentation démontrée des complications hémorragiques postopératoires\nMais leur association à un anticoagulant à dose curative n'est pas recommandée
+À partir de quel âge peut-on donner de l'ibuprofène à l'enfant, et à quelle dose ? :: Dès 3 mois\n20 à 30 mg/kg/j en 3 à 4 prises, sans dépasser 30 mg/kg/j
+
+// ---------- Corticoïdes ----------
+Quel est le mécanisme d'action des corticoïdes ? :: L'inhibition de la phospholipase A2, en amont des cyclo-oxygénases et des lipo-oxygénases\n→ moins de prostaglandines et de leucotriènes
+Quelle est l'équivalence anti-inflammatoire de la dexaméthasone par rapport à la prednisone ? :: Prednisone : 1\nMéthylprednisolone : 1,25\nDexaméthasone : 25 à 30
+Faut-il une décroissance pour arrêter une cure courte de corticoïdes ? :: Non : une cure de moins de 15 jours s'arrête sans décroissance
+Les corticoïdes ont-ils une activité antalgique ? :: Pas d'activité antalgique propre\nMais la dexaméthasone réduit la douleur postopératoire et la consommation d'opioïdes
+Quels sont les intérêts de la dexaméthasone en périopératoire ? :: Épargne morphinique\nPrévention des nausées-vomissements\nProlongation des blocs nerveux périphériques (par voie IV)
+Quels sont les effets indésirables des corticoïdes au long cours ? :: Hydroélectrolytiques, hyperglycémie\nOsseux, musculaires\nNeuropsychiques\nInfectieux
+
+// ---------- Néfopam ----------
+Comment agit le néfopam ? :: Il inhibe la recapture des monoamines (noradrénaline, sérotonine, dopamine)\nIl a des effets anticholinergiques\nNi anti-inflammatoire, ni antipyrétique, pas de dépression respiratoire
+Comment administrer le néfopam par voie IV ? :: 20 mg en perfusion lente de plus de 15 min, patient allongé\nToutes les 4 h, 120 mg par 24 h au maximum
+Quelles sont les contre-indications du néfopam ? :: Convulsions ou antécédents de convulsions\nRisque de glaucome par fermeture de l'angle\nRisque de rétention urinaire\nMoins de 15 ans
+Pourquoi le néfopam est-il déconseillé chez le sujet âgé ? :: À cause de ses effets anticholinergiques (confusion, rétention urinaire)
+Quels sont les effets indésirables du néfopam ? :: Somnolence, sueurs, nausées\nTachycardie, bouche sèche, vertiges\nConfusion, convulsions
+Le néfopam est-il indiqué dans la douleur chronique ? :: Non : il est indiqué dans les douleurs aiguës, notamment postopératoires\nUne pharmacodépendance est possible
+
+// ---------- MEOPA et autres ----------
+Quel est le délai d'action du MEOPA ? :: Pleine efficacité après au moins 3 min d'inhalation\nEffet limité à la durée de l'inhalation, retour rapide à l'état initial
+Pour quelles douleurs le MEOPA est-il le médicament de choix ? :: Les douleurs provoquées par les soins\nUtilisable dès 1 mois, en auto-administration
+Quelles sont les règles de durée d'administration du MEOPA ? :: 1 h d'inhalation continue au maximum\nPas plus de 15 jours d'administrations successives (carence en vitamines B12 et B9)
+Quand arrêter immédiatement l'administration de MEOPA ? :: En cas de perte du contact verbal
+Quelles sont les contre-indications du MEOPA ? :: Gaz ophtalmique tant que la bulle persiste\nÉpanchement aérique : pneumothorax, distension abdominale\nChirurgie de l'oreille moyenne, de l'oreille interne et des sinus\nDéficit non substitué en vitamine B12 ou B9
+Le MEOPA est-il contre-indiqué chez la personne âgée ? :: Non, l'âge n'est pas une contre-indication
+Quel est le principal inconvénient des agonistes alpha-2 (clonidine, dexmédétomidine) en analgésie ? :: Ils épargnent la morphine, mais au prix d'une bradycardie, d'une hypotension et d'une sédation prolongée
+
+// ---------- Anesthésiques locaux et lidocaïne ----------
+Quel est le mécanisme d'action des anesthésiques locaux ? :: Le blocage des canaux sodiques voltage-dépendants
+Quels sont les signes précurseurs d'une toxicité systémique aux anesthésiques locaux ? :: Goût métallique, fourmillements autour de la bouche\nAcouphènes, troubles visuels\nDifficultés d'élocution\nPuis convulsions et troubles du rythme
+Quel est l'antidote de la toxicité systémique des anesthésiques locaux ? :: L'émulsion lipidique à 20 % (Intralipide®)
+Comment prévenir la toxicité systémique des anesthésiques locaux ? :: Injection lente et fractionnée\nTest d'aspiration\nRespect des doses maximales
+Quelle lidocaïne IV a une indication antalgique, et dans quelles conditions ? :: Seule la Xylocard® : en chirurgie abdominale\nBolus de 1,5 mg/kg avant l'incision, puis 1,5 à 2 mg/kg/h\nPoursuite 24 h au plus après l'opération, sous ECG continu
+Quelle activité la lidocaïne IV a-t-elle sur la douleur ? :: Une activité anti-hyperalgésique
+Pourquoi anticiper le relais après un bloc nerveux périphérique en injection unique ? :: Pour éviter la douleur de rebond à la levée du bloc
+
+// ---------- Kétamine ----------
+Pourquoi la kétamine est-elle anti-hyperalgésique ? :: C'est un antagoniste non compétitif du récepteur NMDA\nElle prévient aussi la tolérance aiguë aux opioïdes
+Quelle est la posologie de la kétamine en peropératoire pour l'analgésie ? :: 0,5 mg/kg au plus après l'induction, ou perfusion de 0,125 à 0,25 mg/kg/h\nArrêt 30 min avant la fin de la chirurgie
+Faut-il prolonger la perfusion de kétamine après l'opération ? :: Non : pas de bénéfice démontré sur la douleur chronique, et plus d'hallucinations
+Quelle dose de kétamine aux urgences pour une douleur aiguë ? :: 0,15 à 0,3 mg/kg IV lente sur 15 min
+Quel métabolite de la kétamine prolonge l'analgésie ? :: La norkétamine, métabolite actif, éliminée plus lentement\nElle s'accumule en perfusion continue
+Quels sont les effets indésirables de la kétamine ? :: Effets psychodysleptiques dose-dépendants (sensations ébrieuses, hallucinations)\nEn usage répété : atteintes hépatiques, complications urinaires
+
+// ---------- Délais et analgésie multimodale ----------
+Quelle est la différence entre le délai d'action et le Tmax d'un antalgique ? :: Délai d'action : moment où le patient commence à être soulagé\nTmax : moment de la concentration sanguine maximale\nLe soulagement commence généralement avant le Tmax
+Combien de temps attendre après la morphine IV avant un soin douloureux ? :: Délai de 5 à 10 min : attendre 10 min avant le soin
+Quel est le délai d'action de la nalbuphine IV ? :: 2 à 3 min, pour une durée de 3 à 6 h
+Quels analgésiques de base donner en postopératoire, et comment ? :: Paracétamol + AINS, de façon systématique et programmée (pas à la demande), sauf contre-indication\nDexaméthasone en complément selon la chirurgie
+Quel opioïde fort privilégier en postopératoire, et par quelle voie ? :: Morphine ou oxycodone, de préférence par voie orale
+Faut-il donner des gabapentinoïdes de façon systématique en périopératoire ? :: Non : ils ne préviennent pas la douleur chronique post-chirurgicale et ont des effets indésirables (vertiges, sédation)
+Quelle est la différence entre un effet additif et un effet synergique ? :: Additif : l'effet de l'association égale la somme des effets\nSynergique : il la dépasse\nExemple : paracétamol + ibuprofène est additif
