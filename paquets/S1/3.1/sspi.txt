@@ -71,4 +71,4 @@ Comment planifier et préparer une extubation ? :: 4 temps : planifier, prépare
 
 // ---------- Sortie ----------
 //= Sortie de SSPI : quels critères et qui décide ?
-Quels sont les critères de sortie de SSPI et qui décide de la sortie ? :: Décision et signature du MAR, avec prescriptions pour le service\nScore d'Aldrete modifié (/10) : motricité, respiration, PA, conscience, SpO2\nEt aussi : normothermie, douleur contrôlée, pas de globe vésical, pas de complication chirurgicale\nPas de durée minimale réglementaire (sauf césarienne : 2 h)\nAmbulatoire : les règles de sortie d'ambulatoire s'appliquent ensuite dans le service
+Quels sont les critères de sortie de SSPI et qui décide de la sortie ? :: Décision et signature du MAR, avec prescriptions pour le service\nScore d'Aldrete modifié ≥ 9/10 (8/10 ne suffit pas)\n- 5 items notés de 0 à 2 : motricité, respiration, PA, conscience, SpO2\nEt aussi : normothermie, douleur contrôlée, pas de globe vésical, pas de complication chirurgicale\nPas de durée minimale réglementaire (sauf césarienne : 2 h)\nAmbulatoire : les règles de sortie d'ambulatoire s'appliquent ensuite dans le service
