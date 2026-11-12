@@ -1,0 +1,25 @@
+// Cours 4.4 – Gestion des déchets et développement durable
+// Pas de paquet Anki pour ce cours : questions rédigées dans le style Anki, limitées à l'essentiel.
+// Études, coûts et tonnages cités dans le support ne sont pas repris.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Gestion des déchets
+
+// ---------- Tri ----------
+Qu'est-ce qu'un DAS ? :: Un déchet d'activités de soins : issu du diagnostic, du suivi ou du traitement préventif, curatif ou palliatif, en médecine humaine et vétérinaire
+Qu'est-ce qu'un DASRI ? :: Un DAS à risque infectieux (micro-organismes viables ou toxines pathogènes)\nOu, même sans risque infectieux : piquants-coupants, produits sanguins incomplètement utilisés ou périmés, déchets anatomiques non identifiables
+Qui est responsable du tri des déchets de soins ? :: Le soignant qui les produit : il sait à quoi a servi le dispositif, pour quel soin et quel patient
+Quels déchets éliminer en DASRI ? :: Pansement imbibé de pus, liquide de ponction ou d'aspiration d'une infection\nCouche avec selles diarrhéiques infectieuses\nPiquant-coupant-tranchant, même non utilisé\nProduit sanguin incomplètement utilisé ou périmé\nDéchet anatomique non reconnaissable
+Quels déchets ne vont pas en DASRI ? :: Sondes, tubulures, seringues, couches, même chez un porteur de BMR (portage n'est pas infection)\nEmballages\nPoches à urines, de perfusion ou de transfusion vides\nCompresses tachées de sang, pansements non purulents\nÀ retenir : le meilleur déchet est celui qu'on ne produit pas
+Que mettre dans une boîte à OPCT ? :: Uniquement les objets piquants, coupants ou tranchants\nVerre médical, DASRIA et déchets ménagers suivent leurs propres filières
+
+// ---------- Filières particulières ----------
+Comment élimine-t-on les cytostatiques et les stupéfiants ? :: Cytostatiques (concentrés et dilués) : incinération à plus de 1 100 °C\nStupéfiants : dénaturation (plâtre) devant deux pharmaciens, procès-verbal et registre
+Comment élimine-t-on les déchets radioactifs ? :: Période < 100 jours : stockage pour décroissance (10 fois la période), contrôle de l'activité, puis filière adaptée\nPériode > 100 jours : reprise par l'ANDRA
+Comment éliminer les restes de propofol ? :: En filière médicaments (DIMED), avec seringues et contenants\nIl est toxique pour l'eau et s'y accumule : jamais à l'évier
+
+// ---------- Anesthésie et environnement ----------
+Quels sont les « 3 R » appliqués à l'anesthésie ? :: Réduire : moins de surplus préparé, de doubles emballages et d'halogénés\nRéutiliser : DM restérilisables ; même seringue ou tubulure pour un même patient si compatible\nRecycler : cartons, métaux, plastiques, verre
+Qu'est-ce que l'overage en anesthésie, et comment le limiter ? :: Le matériel et les médicaments préparés puis jetés sans avoir servi\nStandardiser, ne pas tout préparer à l'avance, seringues préremplies, communiquer entre salles
+Quel est l'impact climatique des gaz d'anesthésie ? :: Desflurane : de loin le plus polluant, longue durée de vie dans l'atmosphère\nProtoxyde d'azote : durée de vie très longue\nSévoflurane : le moins polluant\nÀ retenir : l'anesthésie IV et la rachianesthésie ont une empreinte carbone plus faible
+Comment réduire la consommation d'halogénés ? :: Baisser le débit de gaz frais après 2 min d'induction (bas débit, circuit fermé)\nMode « pause débit » lors des déconnexions\nLimiter le by-pass d'O2\nMonitorer la profondeur d'anesthésie

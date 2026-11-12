@@ -1,0 +1,25 @@
+// Cours 4.4 – Hygiène des mains
+// Pas de paquet Anki pour ce cours : questions rédigées dans le style Anki à partir du support.
+// La tenue au bloc (complément oral du même cours) est traitée dans le paquet « Tenue au bloc ».
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Hygiène des mains
+
+// ---------- Principes ----------
+Pourquoi l'hygiène des mains est-elle la mesure prioritaire contre les infections ? :: Les mains transmettent les micro-organismes d'un patient ou de son environnement à un autre (transmission croisée manuportée)
+Quelle est la différence d'action entre le savon et le PHA ? :: Savon doux : enlève les salissures et réduit la flore transitoire\nPHA : désinfecte, élimine la flore transitoire et réduit la flore résidente
+Quelle est la différence entre flore résidente et flore transitoire ? :: Résidente : durablement présente sur la peau, difficile à éliminer, se reconstitue vite\nTransitoire : acquise au contact des patients ou de l'environnement, facile à éliminer ; c'est elle qui est transmise par les mains
+
+// ---------- Indications ----------
+Quelles sont les cinq indications de l'hygiène des mains ? :: Avant le contact avec le patient\nAvant un geste aseptique\nAprès un risque d'exposition à un liquide biologique\nAprès le contact avec le patient\nAprès le contact avec son environnement
+Quand faut-il un lavage simple plutôt qu'une FHA ? :: Mains visiblement souillées ou poudrées\nPrise de service\nGale, Clostridium difficile
+Comment associer l'hygiène des mains et le port de gants ? :: FHA avant d'enfiler les gants et dès leur retrait\nLes gants ne remplacent pas l'hygiène des mains
+Dans quelles situations la FHA seule ne suffit-elle pas ? :: Mains mouillées : l'eau diminue l'efficacité de l'alcool\nMains souillées : lavage préalable\nMains lésées : lavage, pansement, gants
+
+// ---------- Techniques ----------
+Quels sont les prérequis à l'hygiène des mains ? :: Ongles courts, avant-bras dégagés\nNi bijoux (alliance comprise), ni montre, ni vernis, ni faux ongles\nMains propres, sèches, non lésées, non poudrées
+Comment réaliser une friction hydroalcoolique ? :: Environ 3 mL de produit, de quoi remplir le creux de la main\nFrotter paumes, dos des mains, espaces interdigitaux, dos des doigts, pouces, pulpes, poignets\n20 à 30 s, jusqu'au séchage complet
+
+// ---------- Désinfection chirurgicale et suivi ----------
+Qu'est-ce que la désinfection chirurgicale par friction (DCF) ? :: Une friction des mains et des avant-bras avec un PHA, pour une réduction bactérienne immédiate et durable\nÀ privilégier par rapport au lavage chirurgical
+Qu'est-ce que l'ICSHA ? :: L'indicateur de consommation des produits hydroalcooliques\nIl mesure indirectement la pratique de l'hygiène des mains (frictions par journée d'hospitalisation)

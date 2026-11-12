@@ -1,0 +1,24 @@
+// Cours 4.4 – Radioprotection
+// Questions inspirées d'Anki, réadaptées au support de cours et limitées à l'essentiel.
+// Cartes Anki absentes du cours non reprises (limites de dose par catégorie, part de rayonnement utile, conduite en cas d'exposition accidentelle).
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Radioprotection
+
+// ---------- Principes ----------
+Quels sont les trois principes de la radioprotection ? :: Justification\nOptimisation\nLimitation
+Quelles sont les trois règles de protection contre l'exposition externe ? :: Temps : réduire la durée d'exposition\nDistance : s'éloigner de la source\nÉcran : tablier de plomb, cache-thyroïde, paravent
+Quelle est la principale source d'exposition du personnel au bloc ? :: Le rayonnement diffusé par le patient\nIl augmente avec la taille du champ, la proximité du tube et le volume du patient\nÀ retenir : réduire le champ au minimum (collimation) est le moyen le plus efficace
+Quelle est la différence entre irradiation externe et contamination ? :: Irradiation externe : source à l'extérieur du corps (rayons X, amplificateur de brillance, patient ayant reçu un radionucléide)\nContamination : substance radioactive sur la peau (externe) ou dans l'organisme par inhalation, ingestion ou plaie (interne)
+
+// ---------- Effets et unités ----------
+Quelle est la différence entre effets déterministes et effets stochastiques ? :: Déterministes : à seuil, gravité liée à la dose, précoces\nStochastiques : sans seuil, gravité indépendante de la dose, probabilité qui augmente avec la dose, tardifs (cancers, leucémies)
+Quels sont les risques des rayonnements pour l'enfant à naître selon le terme ? :: 0 à 9 jours : tout ou rien\n9 jours à 9 semaines : mort in utero, malformations\nAprès 9 semaines : retard mental, troubles de croissance, cancers
+Quelles sont les unités utilisées en radioprotection ? :: Gray (Gy) : dose absorbée, énergie par unité de masse\nSievert (Sv) : dose équivalente (selon le rayonnement) et dose efficace (risque pour le corps entier)
+
+// ---------- Réglementation ----------
+Quelles limites de dose pour le public et pour la femme enceinte ? :: Public et travailleurs non classés : 1 mSv sur 12 mois glissants\nEnfant à naître : moins de 1 mSv entre la déclaration de grossesse et l'accouchement\nFemme allaitante : pas d'affectation à un poste à risque
+Comment le zonage radiologique est-il organisé ? :: Zone surveillée : plus de 1 mSv/an possible, dosimètre passif\nZone contrôlée (verte, jaune, orange) : travailleurs classés A ou B, dosimètres passif et opérationnel, EPI, formation\nZone contrôlée spéciale : accès très restreint
+Quelle est la différence entre dosimètre passif et dosimètre opérationnel ? :: Passif : lecture différée, nominatif, obligatoire pour les catégories A et B, porté sous le tablier\nOpérationnel : électronique, lecture en temps réel avec alarme, obligatoire en zone contrôlée
+Quelles règles d'utilisation du dosimètre respecter ? :: Strictement personnel\nRangé au tableau hors utilisation, jamais emporté chez soi\nJamais irradié volontairement
+Que signifient les voyants à l'entrée d'une salle où l'on utilise des rayons X ? :: 2 voyants allumés : émission de rayons X\nUn voyant allumé : générateur sous tension, sans émission\nVoyants éteints : générateur hors tension
