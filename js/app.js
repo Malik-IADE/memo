@@ -141,10 +141,10 @@ function render() {
   if (r.view === 'review' && (r.id === MIX || store.deck(r.id))) return renderReview(r.id);
   if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub) : renderFolder(r.id);
   if (r.view === 'fc') return renderFlashcards();
-  if (r.view === 'annales') {
-    if (r.id && r.sub) return renderAnnalesUE(r.id, r.sub);
-    if (r.id) return renderAnnalesSem(r.id);
-    return renderAnnales();
+  if (COLLECTIONS[r.view]) {
+    if (r.id && r.sub) return renderAnnalesUE(r.id, r.sub, r.view);
+    if (r.id) return renderAnnalesSem(r.id, r.view);
+    return renderAnnales(r.view);
   }
   renderHome();
 }
@@ -158,7 +158,7 @@ function trackView() {
   const name = (id) => { if (id === MIX) return MIX_NAME; const d = store.deck(id); return d ? shortName(d.name) : 'inconnu'; };
   const path = r.view === 'f' ? `/${[r.id, r.sub].filter(Boolean).join('/')}`
     : r.view === 'fc' ? '/flashcards'
-    : r.view === 'annales' ? `/annales${[r.id, r.sub].filter(Boolean).map((s) => `/${s}`).join('')}`
+    : COLLECTIONS[r.view] ? `/${r.view}${[r.id, r.sub].filter(Boolean).map((s) => `/${s}`).join('')}`
     : r.view === 'deck' ? `/cours/${name(r.id)}`
     : r.view === 'review' ? `/revision/${name(r.id)}`
     : '/accueil';
@@ -199,30 +199,39 @@ const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
 const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
 
 /* ---------- Annales : des quiz HTML rangés par semestre puis par UE ---------- */
-// « annales/liste.txt » : une ligne « S1/3.3-2013-2015.html | titre ».
-// Le semestre et l'UE sont lus au début du chemin ; le reste du nom distingue les
-// annales d'une même UE. La liste est gardée en mémoire locale pour l'hors-ligne.
-const ANNALES_KEY = 'memo-annales';
-let annales = (() => { try { return JSON.parse(localStorage.getItem(ANNALES_KEY)) || []; } catch { return []; } })();
-const annalesOf = (sem, ue) => annales.filter((a) => a.sem === sem && a.ue === ue);
+// Deux collections : les sujets officiels de l'école (dossier « annales/ ») et les
+// sujets de promotions précédentes (dossier « annales-nf/ »).
+// Chaque « liste.txt » : une ligne « S1/3.3-2013-2015.html | titre ». Le semestre et
+// l'UE sont lus au début du chemin ; le reste du nom distingue les annales d'une même
+// UE. Les listes sont gardées en mémoire locale pour l'hors-ligne.
+const COLLECTIONS = {
+  annales: { dir: 'annales', key: 'memo-annales', label: 'Annales officielles', short: 'Annales', sub: 'Sujets d\'examen en quiz interactif.' },
+  'annales-nf': { dir: 'annales-nf', key: 'memo-annales-nf', label: 'Annales non officielles', short: 'Annales non officielles', sub: 'Sujets des promotions précédentes, en quiz interactif.' },
+};
+const readList = (key) => { try { return JSON.parse(localStorage.getItem(key)) || []; } catch { return []; } };
+const lists = Object.fromEntries(Object.entries(COLLECTIONS).map(([k, c]) => [k, readList(c.key)]));
+const annalesIn = (kind) => lists[kind] || [];
+const annalesOf = (sem, ue, kind = 'annales') => annalesIn(kind).filter((a) => a.sem === sem && a.ue === ue);
 async function loadAnnales() {
-  try {
-    const res = await fetch('annales/liste.txt', { cache: 'no-cache' });
-    if (!res.ok) return;
-    const list = (await res.text()).split(/\r?\n/).map((l) => l.trim())
-      .filter((l) => l && !l.startsWith('//'))
-      .map((l) => {
-        const [file, label = ''] = l.split('|').map((s) => s.trim());
-        const m = file.match(/^([^/]+)\/(\d+\.\d+)(.*)\.html?$/);
-        return m ? { sem: m[1], ue: m[2], href: `annales/${file}`, label: label || `Annales de l'UE ${m[2]}` } : null;
-      })
-      .filter(Boolean);
-    const changed = JSON.stringify(list) !== JSON.stringify(annales);
-    annales = list;
-    try { localStorage.setItem(ANNALES_KEY, JSON.stringify(list)); } catch {}
-    const v = route().view;
-    if (changed && (v === 'home' || v === 'annales') && !modal.open) render();
-  } catch { /* hors ligne : on garde la dernière liste connue */ }
+  for (const [kind, c] of Object.entries(COLLECTIONS)) {
+    try {
+      const res = await fetch(`${c.dir}/liste.txt`, { cache: 'no-cache' });
+      if (!res.ok) continue;
+      const list = (await res.text()).split(/\r?\n/).map((l) => l.trim())
+        .filter((l) => l && !l.startsWith('//'))
+        .map((l) => {
+          const [file, label = ''] = l.split('|').map((s) => s.trim());
+          const m = file.match(/^([^/]+)\/(\d+\.\d+)(.*)\.html?$/);
+          return m ? { sem: m[1], ue: m[2], href: `${c.dir}/${file}`, label: label || `Annales de l'UE ${m[2]}` } : null;
+        })
+        .filter(Boolean);
+      const changed = JSON.stringify(list) !== JSON.stringify(lists[kind]);
+      lists[kind] = list;
+      try { localStorage.setItem(c.key, JSON.stringify(list)); } catch {}
+      const v = route().view;
+      if (changed && (v === 'home' || COLLECTIONS[v]) && !modal.open) render();
+    } catch { /* hors ligne : on garde la dernière liste connue */ }
+  }
 }
 // Années couvertes, lues dans le titre : « Annales 2013-2015 UE 3.3 » → « 2013-2015 ».
 const annaleYears = (a) => (a.label.match(/\d{4}\s*[–-]\s*\d{4}/) || [''])[0];
@@ -334,7 +343,13 @@ function renderHome() {
   const fcKeys = sortSems([...sems.keys()].filter((k) => !isSingleCategory(k)));
   const fcRows = fcKeys.flatMap((k) => sems.get(k));
   const fcUes = new Set(fcRows.map((r) => `${r.loc.sem}/${r.loc.ue}`).filter((k) => !k.endsWith('/null')));
-  const annaleUes = new Set(annales.map((a) => `${a.sem}/${a.ue}`));
+  const annaleRow = (kind) => {
+    const as = annalesIn(kind);
+    if (!as.length) return '';
+    const ues = new Set(as.map((a) => `${a.sem}/${a.ue}`));
+    return folderRow(`#/${kind}`, COLLECTIONS[kind].label,
+      [`${ues.size} UE`, plural(as.length, 'annale')].join(' · '), 0, ico.exam);
+  };
 
   $app.innerHTML = `${topbarHome()}
     <main class="page">
@@ -344,8 +359,8 @@ function renderHome() {
           `#/review/${MIX}`, MIX_NAME, 'Questions de tous les cours, tirées au hasard', m.todo, ico.shuffle); })() : ''}
         ${fcRows.length ? folderRow('#/fc', 'Flashcards',
           [`${fcUes.size} UE`, plural(fcRows.length, 'cours')].join(' · '), sumTodo(fcRows), ico.cards) : ''}
-        ${annales.length ? folderRow('#/annales', 'Annales',
-          [`${annaleUes.size} UE`, plural(annales.length, 'annale')].join(' · '), 0, ico.exam) : ''}
+        ${annaleRow('annales')}
+        ${annaleRow('annales-nf')}
         ${cats.map((k) => {
           const rs = sems.get(k);
           if (rs.length === 1) {
@@ -381,19 +396,21 @@ function renderFlashcards() {
 }
 
 /** Annales : un dossier par semestre. */
-function renderAnnales() {
+function renderAnnales(kind) {
   session = null;
-  if (!annales.length) { location.hash = '#/'; return; }
-  const sems = [...new Set(annales.map((a) => a.sem))].sort(byKey);
+  const all = annalesIn(kind);
+  if (!all.length) { location.hash = '#/'; return; }
+  const c = COLLECTIONS[kind];
+  const sems = [...new Set(all.map((a) => a.sem))].sort(byKey);
 
-  $app.innerHTML = `${topbarFolder('#/', 'Annales')}
+  $app.innerHTML = `${topbarFolder('#/', c.label)}
     <main class="page">
-      <p class="hint center">Sujets d'examen en quiz interactif.</p>
+      <p class="hint center">${c.sub}</p>
       <ul class="folder-list">
         ${sems.map((sem) => {
-          const as = annales.filter((a) => a.sem === sem);
+          const as = all.filter((a) => a.sem === sem);
           const ues = new Set(as.map((a) => a.ue));
-          return folderRow(`#/annales/${enc(sem)}`, semLabel(sem),
+          return folderRow(`#/${kind}/${enc(sem)}`, semLabel(sem),
             [`${ues.size} UE`, plural(as.length, 'annale')].join(' · '), 0, ico.folder);
         }).join('')}
       </ul>
@@ -401,32 +418,38 @@ function renderAnnales() {
 }
 
 /** Annales d'un semestre : les UE qui en ont une. */
-function renderAnnalesSem(sem) {
+function renderAnnalesSem(sem, kind) {
   session = null;
-  const as = annales.filter((a) => a.sem === sem);
-  if (!as.length) { location.hash = '#/annales'; return; }
+  const as = annalesIn(kind).filter((a) => a.sem === sem);
+  if (!as.length) { location.hash = `#/${kind}`; return; }
+  const c = COLLECTIONS[kind];
   const ues = [...new Set(as.map((a) => a.ue))].sort(byKey);
 
-  $app.innerHTML = `${topbarFolder('#/annales', semLabel(sem), 'Annales')}
+  $app.innerHTML = `${topbarFolder(`#/${kind}`, semLabel(sem), c.short)}
     <main class="page">
       <ul class="folder-list">
-        ${ues.map((ue) => folderRow(`#/annales/${enc(sem)}/${enc(ue)}`, ueLabel(ue),
-          plural(annalesOf(sem, ue).length, 'annale'), 0, ico.exam)).join('')}
+        ${ues.map((ue) => folderRow(`#/${kind}/${enc(sem)}/${enc(ue)}`, ueLabel(ue),
+          plural(annalesOf(sem, ue, kind).length, 'annale'), 0, ico.exam)).join('')}
       </ul>
     </main>`;
 }
 
-/** Annales d'une UE : un quiz par période. */
-function renderAnnalesUE(sem, ue) {
+/** Annales d'une UE : un quiz par période ou par promotion. */
+function renderAnnalesUE(sem, ue, kind) {
   session = null;
-  const as = annalesOf(sem, ue);
-  if (!as.length) { location.hash = `#/annales/${enc(sem)}`; return; }
+  const as = annalesOf(sem, ue, kind);
+  if (!as.length) { location.hash = `#/${kind}/${enc(sem)}`; return; }
+  const c = COLLECTIONS[kind];
+  const meta = (a) => {
+    const y = annaleYears(a);
+    if (!y) return 'Quiz interactif';
+    return kind === 'annales-nf' ? `Promotion ${y} · quiz interactif` : `Sujets ${y} · quiz interactif`;
+  };
 
-  $app.innerHTML = `${topbarFolder(`#/annales/${enc(sem)}`, ueLabel(ue), `Annales · ${semLabel(sem)}`)}
+  $app.innerHTML = `${topbarFolder(`#/${kind}/${enc(sem)}`, ueLabel(ue), `${c.short} · ${semLabel(sem)}`)}
     <main class="page">
       <ul class="folder-list">
-        ${as.map((a) => folderRow(a.href, a.label,
-          annaleYears(a) ? `Sujets ${annaleYears(a)} · quiz interactif` : 'Quiz interactif', 0, ico.exam)).join('')}
+        ${as.map((a) => folderRow(a.href, a.label, meta(a), 0, ico.exam)).join('')}
       </ul>
     </main>`;
 }
@@ -467,12 +490,13 @@ function renderUE(sem, ue) {
   $app.innerHTML = `${topbarFolder(`#/f/${enc(sem)}`, ueLabel(ue), semLabel(sem))}
     <main class="page">
       ${hero(sumTodo(rows))}${deckRows(rows)}
-      ${annalesOf(sem, ue).length ? `
-        <p class="section-label">Annales</p>
-        <ul class="folder-list">
-          ${folderRow(`#/annales/${enc(sem)}/${enc(ue)}`, `Annales de l'UE ${ue}`,
-            plural(annalesOf(sem, ue).length, 'annale'), 0, ico.exam)}
-        </ul>` : ''}
+      ${(() => {
+        const rows = Object.keys(COLLECTIONS)
+          .filter((k) => annalesOf(sem, ue, k).length)
+          .map((k) => folderRow(`#/${k}/${enc(sem)}/${enc(ue)}`, COLLECTIONS[k].label,
+            plural(annalesOf(sem, ue, k).length, 'annale'), 0, ico.exam));
+        return rows.length ? `<p class="section-label">Annales</p><ul class="folder-list">${rows.join('')}</ul>` : '';
+      })()}
     </main>`;
 }
 
