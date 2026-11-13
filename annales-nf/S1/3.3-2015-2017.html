@@ -1,0 +1,418 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UE 3.3 · S1 · Promotion 2015-2017 — Les modalités spécifiques d'anesthésie, réanimation et urgence dans les différents types d'intervention</title><style>
+:root{--ink:#24302f;--muted:#677472;--green:#195b4a;--paper:#f7f6f1;--line:#dce3dd;--good:#1d7252;--warn:#925b17;--bad:#a43848}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:960px;margin:auto;padding:44px 22px 60px}header{padding-bottom:30px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:750;color:var(--green)}h1{font:500 clamp(38px,7vw,62px)/1.08 Georgia,serif;margin:16px 0}h1 em{color:var(--green)}h2{font-size:21px;line-height:1.4;margin:10px 0 14px}p{margin:10px 0}.intro{max-width:680px;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:6px 12px;background:white}.progress{display:flex;justify-content:space-between;gap:12px;padding:19px 0;font-size:13px;color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:18px}.meta{display:flex;justify-content:space-between;gap:10px;color:var(--green);font-size:12px;font-weight:750;letter-spacing:1px;text-transform:uppercase}.hint,.small{font-size:13px;color:var(--muted)}textarea,input{font:inherit;color:var(--ink);border:1px solid #bccbc1;border-radius:10px;background:#fcfdfb}textarea{display:block;width:100%;resize:vertical;min-height:110px;padding:14px;margin-top:10px}textarea:focus,input:focus{outline:3px solid #c1ddce;outline-offset:2px;border-color:var(--green)}button{font:650 15px system-ui;min-height:46px;padding:12px 18px;border:0;border-radius:10px;background:var(--green);color:white;cursor:pointer}button.secondary{background:#e8eee7;color:var(--green)}button:focus-visible,a:focus-visible{outline:3px solid #d69f43;outline-offset:3px}button:disabled{opacity:.5;cursor:default}.actions{display:flex;gap:10px;flex-wrap:wrap}.feedback{background:#f5f8f3;border-radius:12px;padding:18px;margin-top:18px;font-size:14px}.feedback ul{padding-left:20px;margin:10px 0}.feedback li{margin:6px 0}.good{color:var(--good)}.missing{color:var(--warn)}.bad{color:var(--bad)}.answer{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.card.perfect{border-color:#86b49a}.card.imperfect{border-color:#d6bb85}[hidden]{display:none!important}.scorebox{background:#195b4a;color:white;border-radius:18px;padding:26px;margin-bottom:24px;scroll-margin-top:16px}.scorebox .eyebrow{color:#bedccc}.score{font:500 48px Georgia,serif;line-height:1.2;margin:14px 0}.scorebox p{color:#e1eee5}.scorebox button{background:white;color:var(--green)}.scorebox button.secondary{background:#376f5d;color:white}.diagram-scroll{margin:18px -8px 0;overflow-x:auto}.diagram{position:relative;min-width:560px;width:100%;aspect-ratio:900/540;background:#fafbf8;border-radius:12px}.diagram svg{display:block;width:100%;height:100%}.callout{position:absolute;width:23%;transform:translateY(-50%);z-index:1}.callout label{display:block;font-size:12px;font-weight:750;color:var(--green);margin-bottom:4px}.callout input{width:100%;padding:10px 8px;font-size:clamp(12px,1.6vw,15px);min-height:44px;background:white}.callout.a{left:2%;top:32%}.callout.b{right:2%;top:32%}.callout.c{left:2%;top:71%}.callout.d{right:2%;top:71%}.diagram input.correct{border:2px solid var(--good)}.diagram input.wrong{border:2px solid var(--bad)}.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}.dot{width:9px;height:9px;display:inline-block;border-radius:50%;margin-right:6px}.explain{padding:18px 0;color:var(--muted);font-size:13px}.explain summary{cursor:pointer;color:var(--green);font-weight:650}footer{color:var(--muted);font-size:12px;margin-top:30px}a{color:var(--green)}@media(max-width:600px){main{padding:25px 14px 40px}.card{padding:20px 16px}h2{font-size:19px}.diagram-scroll{margin-right:-8px;margin-left:-8px}.progress{font-size:12px}.scorebox{padding:22px}.mobile-note{display:block}}@media(min-width:601px){.mobile-note{display:none}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.option{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:10px;margin:9px 0;cursor:pointer}.option input{width:20px;height:20px;margin:4px 0 0;flex-shrink:0;accent-color:var(--green)}.option:has(input:checked){background:#eff5ef}.option.right,.option.right:has(input:checked){border:2px solid #32815b;background:#e2f3e7;color:#155338}.option.wrong,.option.wrong:has(input:checked){border:2px solid #c73c3c;background:#ffe0e0;color:#9b1717}.option.missed{border:2px solid #d49a13;background:#fff0a6;color:#684400}.option.right input{accent-color:#32815b}.option.wrong input{accent-color:#c73c3c}.option small{display:block;font-weight:650}.section-title{font:500 29px Georgia,serif;margin:32px 0 17px;scroll-margin-top:18px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.nav a{padding:7px 14px;border:1px solid var(--line);border-radius:30px;text-decoration:none;font-size:13px;background:white}.rubric{background:#eaf0e8;border-radius:12px;padding:16px;margin-top:18px;font-size:14px}.evidence{font-size:12px;color:var(--muted);display:block;margin-top:3px}.criterion{padding:10px 0;border-bottom:1px solid var(--line)}.criterion:last-child{border:0}.badge{display:inline-block;font-size:11px;font-weight:750;border-radius:20px;padding:3px 8px;background:#e4efe6;margin-right:5px}.badge.bad{background:#f6e0e4}.badge.missing{background:#f7ecd2}.criterion button{padding:7px 9px;min-height:34px;font-size:12px;margin-top:7px;background:#e2ebe1;color:var(--green)}.details-grid{display:flex;gap:12px;flex-wrap:wrap;margin:15px 0}.details-grid span{background:#ffffff15;border-radius:8px;padding:8px 13px;font-size:14px}.review{background:#fff5da;border-radius:10px;padding:12px;font-size:13px;margin-top:14px}.meta span:last-child{white-space:nowrap}.feedback blockquote{margin:4px 0;padding-left:12px;border-left:2px solid var(--line)}
+
+.option input[type=radio]{border-radius:50%;width:20px;height:20px;flex-shrink:0;accent-color:var(--green)}.field{margin:18px 0}.field>label{display:block;font-weight:650;font-size:14px}.field textarea{min-height:76px;line-height:1.5}.field textarea[readonly]{background:#f3f5f1}.nav{position:sticky;top:0;z-index:3;background:#f7f6f1f5;padding:10px 0;backdrop-filter:blur(8px)}.question-progress{height:7px;width:100%;accent-color:var(--green);margin-bottom:20px}.filter-bar{margin-bottom:18px}select{font:inherit;max-width:100%;padding:9px;background:white;border:1px solid var(--line);border-radius:10px}.notice{color:var(--warn);font-weight:650}.correction-info{border-left:3px solid #c4ad65;padding-left:13px}textarea{overflow-wrap:anywhere}.meta{letter-spacing:.5px}.meta span:first-child{min-width:0}footer{border-top:1px solid var(--line);padding-top:18px}.rubric p{margin-bottom:0}.section-title{scroll-margin-top:80px}.scorebox{scroll-margin-top:78px}.subtitle{font-size:18px;color:var(--green)}.card{scroll-margin-top:80px}@media print{.nav,.actions,.filter-bar,.question-progress,.progress,.rubric,button{display:none!important}.card{break-inside:avoid;border-radius:0}body{background:white}main{padding:0}textarea{border:0;min-height:80px}}
+.nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.nav a{font-size:14px;font-weight:650;text-decoration:none;min-height:38px;display:inline-flex;align-items:center}.meta span:last-child{white-space:nowrap}.criterion button{white-space:normal;text-align:left;max-width:100%}@media(max-width:600px){.nav{gap:6px 16px}.nav a{font-size:13px}.meta{letter-spacing:0;flex-wrap:wrap}.score{font-size:43px}.card,.section-title,.scorebox{scroll-margin-top:120px}}
+
+.question-stem,.prompt-table span{white-space:pre-line}
+.prompt-table{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.prompt-table span{border:1px solid #cedad0;padding:.6rem}
+.self-assessment input,#global-mark{font:inherit;width:5rem;border:1px solid #96ada1;border-radius:.4rem;padding:.3rem}
+.document{margin:.3rem 0 .85rem}
+.source-pictures{background:#fff;border:1px solid #cedad0;border-radius:8px;overflow:auto;max-width:100%;padding:.25rem}
+.source-pictures img{display:block;width:100%;height:auto;margin:0 auto}
+.source-pictures img+img{margin-top:.2rem}
+.enlarged .source-pictures img{width:max(100%,870px);max-width:none}
+.zoom{margin:.4rem 0 0;font-size:.84rem;padding:.38rem .7rem}
+.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.42rem}
+.choices .option{align-items:flex-start;margin:0;padding:.65rem .38rem;gap:.35rem;min-height:3rem}
+.choices .option small{font-size:.71rem;line-height:1.2}
+.option.wrong:has(input:checked){background:#ffe3e5;border-color:#ac434e;color:#681f2a}
+.option.right:has(input:checked){background:#e2f3e6;border-color:#288253;color:#124b2c}
+.option.missed{background:#fff2c6;border-color:#a27410;color:#654503}
+.feedback details summary{cursor:pointer;color:#14563e;font-weight:650;margin:.4rem 0}
+.score{font-size:clamp(1.55rem,4.5vw,2.5rem)}
+.card{scroll-margin-top:1rem}
+@media(max-width:420px){.choices{gap:.2rem}.choices .option{padding:.5rem .25rem;gap:.24rem}.choices input{margin:0}}
+.choices.written-choices{display:block}
+.choices.written-choices .option{padding:.65rem;margin:.4rem 0}
+.self-assessment{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:.8rem 0}
+.self-assessment label{font-weight:650}
+.self-assessment select{font:inherit;color:#24302f;background:#fff;border:1px solid #96ada1;border-radius:.4rem;padding:.35rem .55rem}
+.copy-answer{margin:.7rem 0 .3rem;font-weight:650}
+#manual-summary{font-size:.95rem}
+#manual-summary:empty{display:none}
+
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#123f35 0%,#195b4a 55%,#2b7a62 100%);color:#fff;border-radius:22px;padding:30px 30px 24px;margin-bottom:8px;box-shadow:0 10px 30px rgba(25,91,74,.18)}
+.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.14),rgba(255,255,255,0) 70%)}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hero .eyebrow{color:#bfe3d3}
+.hero-tag{font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:5px 11px;border-radius:30px}
+.hero h1{color:#fff;margin:14px 0 8px;font-size:clamp(32px,6vw,50px)}
+.hero-sub{color:#d6ece2;margin:0 0 20px;max-width:640px;font-size:15px}
+.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.hero-stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:12px 14px}
+.hero-stat b{display:block;font:500 28px/1.1 Georgia,serif;color:#fff}
+.hero-stat span{font-size:12.5px;color:#cfe7dc}
+.hero-rules{margin-top:16px;background:rgba(0,0,0,.14);border-radius:12px;padding:0 14px;font-size:14px;color:#e3f1ea}
+.hero-rules summary{cursor:pointer;padding:11px 0;font-weight:650;color:#fff}
+.hero-rules p{margin:0 0 10px}
+.hero-rules b{color:#fff}
+.answer-key{background:#eaf4ec;border:1px solid #bfdcc8;border-radius:12px;padding:14px 16px;margin:4px 0 14px}
+.answer-key h3{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#1d7252;margin:0 0 8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.answer-key ul{margin:0;padding-left:20px}.answer-key li{margin:5px 0}
+.answer-key li.added{color:#2d3f8f}
+.tag-added{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;text-transform:uppercase;background:#e4e8fb;color:#3b4aa8;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag-src{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;border-radius:6px;padding:2px 7px;background:#fff;color:#677472;border:1px solid #dce3dd;text-transform:uppercase}
+.tag-src.deduit{background:#f7ecd2;color:#925b17;border-color:#ebd6a8}
+.key-letters{font-size:17px;font-weight:700;color:#155338}
+.answer-note{font-size:13.5px;color:#55625f;margin:8px 0 0}
+@media(max-width:600px){.hero{padding:22px 18px 18px;border-radius:18px}.hero-stat b{font-size:24px}}
+.context-text{white-space:pre-line;background:#fbf7ec;border-left:3px solid #c4ad65;border-radius:8px;padding:12px 14px;margin:6px 0 4px}
+.q-figure{margin:10px 0 6px}.q-figure img{display:block;max-width:100%;height:auto;border:1px solid #dce3dd;border-radius:10px;background:#fff}
+.source-copy{margin:10px 0}.source-copy summary{cursor:pointer;font-weight:650;color:var(--green)}
+.source-copy img{max-width:100%;height:auto}.source-copy p{margin:6px 0 12px}
+.option input:disabled{cursor:default}.question-stem{white-space:pre-line}
+.source-copy ul{padding-left:1.5em}.source-copy .source-pictures{max-height:none}.question-figure{max-height:390px;object-fit:contain}
+
+#topic-control{margin:14px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#topic{max-width:100%;min-width:0;width:min(100%,30rem);text-overflow:ellipsis}.question-stem,.option span,.answer-key{overflow-wrap:anywhere}.option span{min-width:0}.meta{flex-wrap:wrap;gap:4px 10px}.meta span:last-child{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.q-figure img{margin:8px 0;max-height:520px;object-fit:contain}
+.correct-options{margin:6px 0;padding-left:22px}.source-line{margin-top:12px}
+</style></head><body><nav id="memo-back" style="position:sticky;top:0;z-index:1000;display:flex;align-items:center;gap:10px;padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:rgba(247,246,241,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid #dce3dd;font:600 15px/1.2 system-ui,-apple-system,sans-serif"><a href="../../#/annales-nf/S1/3.3" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:#195b4a;color:#fff;text-decoration:none">&#8592; Retour à Mémo</a><span style="color:#677472;font-size:13px">UE 3.3 · Semestre 1 · Promotion 2015-2017</span></nav><script>(function(){var bar=document.getElementById('memo-back');if(!bar)return;function place(){var h=bar.offsetHeight,extra=0;document.querySelectorAll('body *').forEach(function(el){if(bar.contains(el))return;var cs=getComputedStyle(el);if(cs.position!=='sticky')return;if(el.dataset.memoTop===undefined)el.dataset.memoTop=parseFloat(cs.top)||0;var t=h+Number(el.dataset.memoTop);el.style.top=t+'px';extra=Math.max(extra,t+el.offsetHeight);});document.documentElement.style.scrollPaddingTop=(Math.max(h,extra)+8)+'px';}place();addEventListener('resize',place);addEventListener('load',place);})();</script><main>
+<header class="hero">
+<div class="hero-top"><span class="eyebrow" id="h-eyebrow"></span><span class="hero-tag">Promotion 2015-2017</span></div>
+<h1 id="h-title"></h1>
+<p class="hero-sub">Entraînement interactif · réponds à toutes les questions puis valide pour voir la correction détaillée.</p>
+<div class="hero-stats" id="h-stats"></div>
+<details class="hero-rules"><summary>Barème et fonctionnement</summary><div id="h-rules"></div></details>
+</header>
+<div class="filter-bar" id="topic-control"><label for="topic">Thème</label><select id="topic"><option value="">Tout le programme</option></select></div>
+<nav class="nav" aria-label="Navigation du quiz">
+<a data-kind="context" href="#section-context" hidden>Dossiers</a>
+<a data-kind="QCM" href="#section-QCM" hidden>QCM</a>
+<a data-kind="QCU" href="#section-QCU" hidden>QCU</a>
+<a data-kind="open" href="#section-QROC" hidden>Questions ouvertes</a>
+<a href="#submit">Corriger</a>
+</nav>
+<div class="progress"><span id="progress" aria-live="polite"></span><span id="mode"></span></div>
+<progress id="bar" class="question-progress" max="10" value="0" aria-label="Questions renseignées"></progress>
+<section id="results" class="scorebox" hidden tabindex="-1" aria-label="Résultat">
+<div class="score" id="score"></div><p id="summary"></p><p id="manual-summary" aria-live="polite"></p>
+<div class="actions"><button id="reset" type="button">Tout recommencer</button><button id="retry" class="secondary" type="button">Reprendre les questions imparfaites ou à vérifier</button></div></section>
+<div class="filter-bar" id="filters" hidden><label for="filter">Afficher</label>
+<select id="filter"><option value="all">Toutes les questions</option><option value="imperfect">Imparfaites ou à vérifier</option></select></div>
+<form id="quiz" novalidate><div id="cards"></div><p class="notice" id="message" role="status"></p><div class="actions"><button type="submit" id="submit">Valider et voir les réponses</button></div></form>
+<footer id="h-footer"></footer>
+</main><noscript><p>Active JavaScript pour répondre au partiel.</p></noscript><script>const DATA={"semester":1,"ue":"3.3","title":"Les modalités spécifiques d'anesthésie, réanimation et urgence dans les différents types d'intervention","cards":[{"id":"c1","num":1,"page":1,"kind":"QCM","title":"Parmi les propositions concernant les critères de sélection du patient en ambulatoire, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2016 -2018","topic":"Chirurgie : ambulatoire","points":1,"ungraded":false,"figures":[],"refs":[],"options":["le patient doit être ASA1","le patient doit être francophone","le patient doit être âgé de moins de 70 ans","le patient doit avoir un lieu de résidence à proximité de la structure de l'unité de chirurgie ambulatoire","le patient à l'obligation d'être accompagné pour son retour, par une personne de son choix"],"correct":"E","note":"Sélection selon le terrain, le geste, les ressources et les conditions de retour. Vérifier la compréhension, l’accès aux soins et l’accompagnement.","instruction":"Cocher les propositions exactes.","sourcePage":2},{"id":"c3","num":2,"page":1,"kind":"QUESTION","title":"énoncer les facteurs pouvant retarder la sortie d'un patient d'une unité de chirurgie ambulatoire","session":"2015-2017","topic":"Chirurgie : ambulatoire","points":2,"ungraded":false,"figures":[],"refs":[],"options":[],"correct":"","note":"","answer":["Douleur, NVPO, saignement, instabilité, désaturation, sédation résiduelle, déficit moteur ou absence d’accompagnant peuvent retarder la sortie."],"sourcePage":2},{"id":"c8","num":3,"page":1,"kind":"QCM","title":"Parmi ces propositions concernant les conséquences hémodynamiques de la coeliochirurgie laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2016-2018","topic":"Chirurgie : coelioscopie","points":1,"ungraded":false,"figures":[],"refs":[["Cours · Chirurgie diges avec note 3.3","../../../cours/S1/3.3/Chirurgie%20diges%20avec%20note%203.3.pdf"]],"options":["la coeliochirurgie entraîne une baisse du débit cardiaque par augmentation de la pression intra abdominale","la coeliochirurgie entraîne une diminution de la postcharge du ventricule gauche","la coeliochirurgie entraîne une augmentation des résistances vasculaires systémiques","la coeliochirurgie entraîne une augmentation modérée de la pression artérielle","la coeliochirurgie entraîne une augmentation de la fréquence cardiaque"],"correct":"ACD","note":"Le pneumopéritoine remonte le diaphragme, réduit la compliance et la CRF et favorise des atélectasies. L’absorption de CO₂ peut augmenter la PaCO₂.","instruction":"Cocher les propositions exactes.","sourcePage":4},{"id":"c9","num":4,"page":1,"kind":"QCM","title":"Parmi les propositions concernant les contre-indications de la coeliochirurgie laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017","topic":"Chirurgie : coelioscopie","points":1,"ungraded":false,"figures":[],"refs":[["Cours · Chirurgie diges avec note 3.3","../../../cours/S1/3.3/Chirurgie%20diges%20avec%20note%203.3.pdf"]],"options":["l'urgence extrême est une contre-indication formelle","le pneumothorax spontané récidivant est une contre-indication relative","la grossesse à terme avancée est une contre-indication formelle","l'hypertension intracrânienne est une contre-indication formelle","les troubles de l’hémostase sont une contre-indication formelle"],"correct":"D","note":"Le pneumopéritoine remonte le diaphragme, réduit la compliance et la CRF et favorise des atélectasies. L’absorption de CO₂ peut augmenter la PaCO₂.","instruction":"Cocher les propositions exactes.","sourcePage":4},{"id":"c17","num":5,"page":1,"kind":"QUESTION","title":"citer les complications retardées possibles de la coelioscopie (période postopératoire)","session":"2015-2017","topic":"Chirurgie : coelioscopie","points":2,"ungraded":false,"figures":[],"refs":[["Cours · Chirurgie diges avec note 3.3 (p. 109, à consulter)","../../../cours/S1/3.3/Chirurgie%20diges%20avec%20note%203.3.pdf#page=109"]],"options":[],"correct":"","note":"","answer":["Surveiller douleur abdominale ou scapulaire, NVPO, complications respiratoires, saignement, et complications chirurgicales telles qu’une lésion viscérale si symptômes inhabituels."],"sourcePage":5},{"id":"c39","num":6,"page":2,"kind":"QCM","title":"Parmi les propositions concernant l'anesthésie en salle d'imagerie par résonance magnétique, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017","topic":"Chirurgie : hors bloc","points":0,"ungraded":true,"figures":[],"refs":[],"options":["l'anesthésie en salle d’IRM est réalisable pour un patient porteur d'un pacemaker","L’anesthésie en salle d’IRM est réalisable pour un patient porteur d'une valve cardiaque posée depuis 5 ans","L’anesthésie en salle d’IRM est réalisable pour un patient porteur d'une chambre implantable","L’anesthésie en salle d’IRM est réalisable pour un patient porteur d'un stent","L’anesthésie en salle d’IRM est réalisable pour un patient porteur d'une prothèse totale de hanche posée depuis plus de 2 mois"],"correct":"","note":"Vérifier les références exactes du dispositif, sa compatibilité ou ses conditions IRM, la zone, le champ et les paramètres autorisés. L’ancienneté de pose seule ne suffit pas.","instruction":"Cocher les propositions exactes.","sourcePage":9},{"id":"c46","num":7,"page":2,"kind":"QCM","title":"Parmi les propositions concernant le risque thromboembolique en chirurgie orthopédique, laquelle ou lesquelles est (sont) vraie(s)?","session":"2013-2015 / 2015-2017 / 2016-2018","topic":"Chirurgie : orthopedie","points":1,"ungraded":false,"figures":[],"refs":[["Association of Anaesthetists · Ciment orthopédique","https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1111/anae.13036"]],"options":["Le risque thromboembolique est lié à l’existence d’une stase veineuse secondaire à l’impotence fonctionnelle post opératoire","L’hypercoagulabilité relative au syndrome inflammatoire post opératoire majore le risque thromboembolique","La pose d’un garrot pneumatique en chirurgie orthopédique diminue le risque thromboembolique","Les héparines à bas poids moléculaires ne constituent pas la prophylaxie efficace pour ce type de chirurgie","Les héparines à bas poids moléculaires restent recommandées à doses prophylactiques","le risque thromboembolique est mineur dans ce type de chirurgie","les héparines à bas poids moléculaire restent recommandées à dose prophylactiques pour les prothèses de hanche et de genou"],"correct":"ABEG","note":"Anticiper embolisation au ciment : communication avant scellement, surveillance rapprochée de la PA, SpO₂ et PetCO₂, soutien hémodynamique et oxygénation. Signes : hypotension, chute de PetCO₂, désaturation ou perte de conscience.","instruction":"Cocher les propositions exactes.","sourcePage":21},{"id":"c48","num":8,"page":2,"kind":"QCM","title":"Parmi les propositions concernant la cimentation d'une prothèse totale de hanche, laquelle où lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2016-2018","topic":"Chirurgie : orthopedie","points":1,"ungraded":false,"figures":[],"refs":[["Association of Anaesthetists · Ciment orthopédique","https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1111/anae.13036"]],"options":["l'utilisation de ciment est contre-indiquée chez les patients présentant une ostéoporose","la mise en place d'un drain de Redon dans la cavité médullaire par le chirurgien contribue à réduire le risque d'embolie gazeuse lors du scellement de la prothèse","l'utilisation de ciment est un temps douloureux de la chirurgie","l'administration de N2O est arrêtée avant le scellement de la prothèse","l'utilisation de ciment peut être responsable de troubles du rythme"],"correct":"CE","note":"Anticiper embolisation au ciment : communication avant scellement, surveillance rapprochée de la PA, SpO₂ et PetCO₂, soutien hémodynamique et oxygénation. Signes : hypotension, chute de PetCO₂, désaturation ou perte de conscience.","instruction":"Cocher les propositions exactes.","sourcePage":21},{"id":"c62","num":9,"page":2,"kind":"QUESTION","title":"expliquer le mécanisme physiopathologique, les signes cliniques de l'accident du scellement d'une prothèse, en chirurgie orthopédique, sous anesthésie générale énoncer les signes cliniques de l'accident dû au scellement d'une prothèse en chirurgie orthopédique, sous anesthésie générale. préciser à quel(s) temps opératoire(s) peut survenir cet accident","session":"2015-2017","topic":"Chirurgie : orthopedie","points":2,"ungraded":false,"figures":[],"refs":[["Association of Anaesthetists · Ciment orthopédique","https://associationofanaesthetists-publications.onlinelibrary.wiley.com/doi/10.1111/anae.13036"]],"options":[],"correct":"","note":"","answer":["Anticiper embolisation au ciment : communication avant scellement, surveillance rapprochée de la PA, SpO₂ et PetCO₂, soutien hémodynamique et oxygénation. Signes : hypotension, chute de PetCO₂, désaturation ou perte de conscience.","Coordonner la préparation du canal médullaire et anticiper la prise en charge d’une hypoxémie ou d’un collapsus."],"sourcePage":23},{"id":"c71","num":10,"page":3,"kind":"QUESTION","title":"énoncer et argumenter les risques per et postopératoires, lié à la prise en charge anesthésique d'un patient bénéficiant d'un lifting du visage en chirurgie esthétique","session":"2015-2017","topic":"Chirurgie : plastique","points":2,"ungraded":false,"figures":[],"refs":[],"options":[],"correct":"","note":"","answer":["Anticiper œdème, saignement, aspiration de sang, obstruction et NVPO. Retirer le packing s’il existe, vérifier hémostase et voies aériennes et prévoir une extubation surveillée avec plan de réintubation."],"sourcePage":25},{"id":"c81","num":11,"page":3,"kind":"QUESTION","title":"définir le TURP syndrome. énoncer les signes cliniques et biologiqu es du TURP syndrome, pour un patient opéré pour une résection transurétrale de la prostate (RTUP), sous rachianesthésie","session":"2015-2017","topic":"Chirurgie : urologie","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 3.3 Chirurgie urologique avec note (p. 49, à consulter)","../../../cours/S1/3.3/3.3%20Chirurgie%20urologique%20avec%20note.pdf#page=49"]],"options":[],"correct":"","note":"","answer":["Le TURP syndrome classique résulte d’une absorption du liquide d’irrigation hypotonique. Signes : hyponatrémie de dilution, troubles visuels ou neurologiques, désordres cardiovasculaires et surcharge.","L’absorption peut produire hypo-osmolalité, surcharge et signes neurologiques. L’ionogramme et la clinique orientent le diagnostic."],"sourcePage":33},{"id":"c94","num":12,"page":3,"kind":"QCM","title":"Parmi les propositions concernant la fonction respiratoire du sujet âgé, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2016 -2018 / 2017 -2019","topic":"Terrain : age & denutri","points":1,"ungraded":false,"figures":[],"refs":[["Cours · SUJET AGE Avec notes 3.3","../../../cours/S1/3.3/SUJET%20AGE%20Avec%20notes%203.3.pdf"],["Cours · SUJET DENUTRI avec notes 3.3","../../../cours/S1/3.3/SUJET%20DENUTRI%20avec%20notes%203.3.pdf"]],"options":["le sujet âgé présente une altération des réflexes de déglutition et de toux","le sujet âgé présente une augmentation de la capacité résiduelle fonctionnelle","le sujet âgé présente un risque majoré d'apnée post opératoire","le sujet âgé présente une clairance muco-ciliaire augmentée","le sujet âgé présente un rapport ventilation/perfusion augmenté"],"correct":"AC","note":"Le vieillissement réduit les réserves, la compliance vasculaire et le baroréflexe. Il augmente la sensibilité aux hypnotiques et expose à des complications respiratoires et à la confusion.","instruction":"Cocher les propositions exactes.","sourcePage":38},{"id":"c95","num":13,"page":3,"kind":"QCM","title":"Parmi les propositions concernant la fonction cardiovasculaire du sujet âgé, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017","topic":"Terrain : age & denutri","points":1,"ungraded":false,"figures":[],"refs":[["Cours · SUJET AGE Avec notes 3.3","../../../cours/S1/3.3/SUJET%20AGE%20Avec%20notes%203.3.pdf"],["Cours · SUJET DENUTRI avec notes 3.3","../../../cours/S1/3.3/SUJET%20DENUTRI%20avec%20notes%203.3.pdf"]],"options":["le patient vieillard présente une diminution de la sensibilité des barorécepteurs","le patient vieillard présente une diminution de la compliance ventriculaire","le patient vieillard présente une augmentation de la réactivité aux stimuli adrénergiques","le patient vieillard présente une diminution de la réponse sympathique au stress","le patient vieillard présente un débit cardiaque peu dépendant du retour veineux"],"correct":"ABD","note":"Le vieillissement réduit les réserves, la compliance vasculaire et le baroréflexe. Il augmente la sensibilité aux hypnotiques et expose à des complications respiratoires et à la confusion.","instruction":"Cocher les propositions exactes.","sourcePage":38},{"id":"c110","num":14,"page":3,"kind":"QCM","title":"Parmi les propositions concernant les patients « estomac plein », laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2016-2018 / 2017-2019","topic":"Terrain : estomac plein","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 3.3 Estomac plein avec note","../../../cours/S1/3.3/3.3%20Estomac%20plein%20avec%20note.pdf"],["SFAR · Intubation difficile et extubation","https://sfar.org/actualisation-de-recommandations-intubation-difficile-et-extubation-en-anesthesie-chez-ladulte/"]],"options":["un jeune homme porteur d'un anneau gastrique est considéré « estomac plein »","une femme admise pour une interruption de grossesse à 12 semaines d'aménorrhée est considérée « estomac plein » une femme admise pour une interruption de grossesse à 10 semaines d'aménorrhée est considérée « estomac plein »","une femme au 5e jour post partum est considérée « estomac plein »","un patient victime d'un accident de la voie publique est considéré « estomac plein », 6h après son dernier repas","un patient présentant un score à Apfel 4/4 est considéré « estomac plein »"],"correct":"AD","note":"Évaluer l’inhalation d’après le jeûne, la nature des ingesta, l’urgence, le reflux, l’occlusion et les troubles de vidange. Les liquides clairs et les repas ne suivent pas les mêmes délais.","instruction":"Cocher les propositions exactes.","sourcePage":44},{"id":"c118","num":15,"page":3,"kind":"QUESTION","title":"décrivez la prise en charge de l’IADE en cas d’inhalation bronchique d'un patient au moment de l'induction anesthésique","session":"2015-2017","topic":"Terrain : estomac plein","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 3.3 Estomac plein avec note (p. 101, à consulter)","../../../cours/S1/3.3/3.3%20Estomac%20plein%20avec%20note.pdf#page=101"],["SFAR · Intubation difficile et extubation","https://sfar.org/actualisation-de-recommandations-intubation-difficile-et-extubation-en-anesthesie-chez-ladulte/"]],"options":[],"correct":"","note":"","answer":["Alerter et arrêter le geste si possible. Limiter la contamination des voies aériennes, aspirer l’oropharynx, oxygéner et sécuriser la trachée selon la situation.","Après stabilisation, évaluer les échanges et la gravité. La bronchoscopie peut être discutée si des particules obstruent les voies aériennes."],"sourcePage":45},{"id":"c119","num":16,"page":4,"kind":"QUESTION","title":"citer 5/6 facteurs ralentissant la vidange gastrique","session":"2015-2017 / 2016-2018 / 2017-2019","topic":"Terrain : estomac plein","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 3.3 Estomac plein avec note (p. 26, à consulter)","../../../cours/S1/3.3/3.3%20Estomac%20plein%20avec%20note.pdf#page=26"],["SFAR · Intubation difficile et extubation","https://sfar.org/actualisation-de-recommandations-intubation-difficile-et-extubation-en-anesthesie-chez-ladulte/"]],"options":[],"correct":"","note":"","answer":["Retard de vidange : repas gras ou volumineux, gastroparésie diabétique, obstruction, opioïdes, douleur ou stress aigu. Distinguer retard de vidange et risque de régurgitation lié au reflux."],"sourcePage":45},{"id":"c131","num":17,"page":4,"kind":"QCU","title":"Parmi les propositions concernant les patients hypertendus, laquelle est vraie? le patient hypertendu n'est pas sensible à l’hypovolémie en peropératoire\n\nCAR\n\nle patient hypertendu présente des troubles de relaxation du ventricule gauche","session":"2015-2017","topic":"Terrain : hypertendu","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 3.3 Patient HTA avec notes (p. 98, à consulter)","../../../cours/S1/3.3/3.3%20Patient%20HTA%20avec%20notes.pdf#page=98"]],"options":["les propositions sont toutes 2 vraies et il existe entre elles une relation cause à effet","les propositions sont toutes 2 vraies sans qu'il existe entre elles de relation de cause à effet","la première proposition est vraie mais la 2e est fausse","la première proposition est fausse mais la 2e est vraie","les 2 propositions sont fausses"],"correct":"D","note":"Identifier ancienneté, traitements et retentissement cardiaque, cérébral, rénal et vasculaire. Confirmer les mesures et évaluer le risque de l’intervention.","instruction":"Cocher une seule proposition.","sourcePage":55},{"id":"c144","num":18,"page":4,"kind":"QCM","title":"Parmi les propositions concernant la prise en charge anesthésique d'un patient porteur d'un pacemaker proche du site opératoire, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017","topic":"Terrain : insuffisant cardiaque","points":1,"ungraded":false,"figures":[],"refs":[],"options":["la surveillance de la pression artérielle sanglante est la seule façon de s'assurer que les interférences n’inhibent pas le pacemaker","la présence d'un aimant est inutile","une seringue d’Isuprel® doit être prête à l'emploi","une seringue de noradrénaline doit être prête à l'emploi","le bistouri électrique bipolaire protège des complications observées avec le bistouri monopolaire"],"correct":"E","note":"Évaluer les symptômes, la fraction d’éjection et la congestion. Préserver l’équilibre apport-demande en oxygène, éviter hypotension, tachycardie et surcharge. Le monitorage dépend du risque.","instruction":"Cocher les propositions exactes.","sourcePage":57},{"id":"c156","num":19,"page":4,"kind":"QCM","title":"Parmi les propositions concernant le patient cirrhotique, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2016-2018","topic":"Terrain : insuffisant hepatique et/ou cirrhotique","points":1,"ungraded":false,"figures":[],"refs":[],"options":["il présente des troubles de la coagulation avec une diminution de l'activité fibrinolytique","il présente des troubles de la coagulation avec une augmentation de l'activité fibrinolytique","il présente une vasodilatation systémique entraînant une hypotension artérielle","il présente une vasoconstriction systémique entraînant une hypertension artérielle","il présente une rétention hydro sodée"],"correct":"ACE","note":"Évaluer la fonction hépatique, l’ascite, le risque infectieux, la fonction rénale et l’hémostase. Le TP seul ne résume pas le risque de saignement de la cirrhose.","instruction":"Cocher les propositions exactes.","sourcePage":59},{"id":"c157","num":20,"page":5,"kind":"QCU","title":"Parmi les propositions concernant les patients cirrhotiques, laquelle est vraie? le patient cirrhotique porteur d'un volume d'ascite important nécessit e une induction à séquence rapide\n\nCAR\n\nun volume d'acide important est associé à un risque d'inhalation pulmonaire majoré","session":"2015-2017","topic":"Terrain : insuffisant hepatique et/ou cirrhotique","points":1,"ungraded":false,"figures":[],"refs":[],"options":["les propositions sont toutes 2 vraies et il existe entre elles une relation cause à effet","les propositions sont toutes 2 vraies sans qu'il existe entre elles de relation de cause à effet","la première proposition est vraie mais la 2e est fausse","la première proposition est fausse mais la 2e est vraie","les 2 propositions sont fausses"],"correct":"A","note":"Évaluer la fonction hépatique, l’ascite, le risque infectieux, la fonction rénale et l’hémostase. Le TP seul ne résume pas le risque de saignement de la cirrhose.","instruction":"Cocher une seule proposition.","sourcePage":59},{"id":"c166","num":21,"page":5,"kind":"QCU","title":"Parmi les propositions concernant l’insuffisant rénal chronique, laquelle est vraie? l'insuffisance rénale chronique progresse avec une hypertension artérielle\n\nCAR\n\nl'insuffisance rénale chronique est associée à une altération de la fonction du ventricule gauche","session":"2015-2017","topic":"Terrain : insuffisant renal","points":1,"ungraded":false,"figures":[],"refs":[],"options":["les propositions sont toutes 2 vraies et il existe entre elles une relation cause à effet","les propositions sont toutes 2 vraies sans qu'il existe entre elles de relation de cause à effet","la première proposition est vraie mais la 2e est fausse","la première proposition est fausse mais la 2e est vraie","les 2 propositions sont fausses"],"correct":"B","note":"Vérifier kaliémie, acidose, volémie, fonction rénale et calendrier éventuel de dialyse. Préserver l’abord de dialyse.","instruction":"Cocher une seule proposition.","sourcePage":61},{"id":"c174","num":22,"page":5,"kind":"QCM","title":"Parmi les propositions concernant le syndrome restrictif pulmonaire, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017","topic":"Terrain : insuffisant respiratoire / bpco","points":1,"ungraded":false,"figures":[],"refs":[["GOLD · BPCO","https://goldcopd.org/2026-gold-report-and-pocket-guide/"]],"options":["il se définit par une PaO2 < 60 mmHg","il est associé à une limitation de l'expansion pulmonaire","il comporte une diminution de la capacité vitale","il comporte une diminution du volume résiduel pulmonaire","il se définit par une diminution du rapport Tiffeneau"],"correct":"BCD","note":"Distinguer obstruction (rapport VEMS/CV abaissé) et restriction (CPT abaissée). Pour la BPCO, rechercher exacerbation, encombrement et rétention de CO₂.","instruction":"Cocher les propositions exactes.","sourcePage":62},{"id":"c175","num":23,"page":5,"kind":"QCM","title":"Parmi les propositions concernant les pathologies respiratoires ci-dessous, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2016 -2018","topic":"Terrain : insuffisant respiratoire / bpco","points":1,"ungraded":false,"figures":[],"refs":[["GOLD · BPCO","https://goldcopd.org/2026-gold-report-and-pocket-guide/"]],"options":["L’emphysème est une pathologie restrictive","la bronchite chronique est une pathologie obstructive","la radio pulmonaire e st l'examen paraclinique de choix devant toute pathologie respiratoire","un rapport de Tiffeneau normal correspond à VEMS/CV supérieur ou égal à 80%","l'augmentation du temps expiratoire permet d'améliorer la vidange alvéolaire chez un patient présentant une BPCO (broncho-pneumopathie chronique obstructive)","l’asthme est une pathologie obstructive"],"correct":"BEF","note":"Distinguer obstruction (rapport VEMS/CV abaissé) et restriction (CPT abaissée). Pour la BPCO, rechercher exacerbation, encombrement et rétention de CO₂.","instruction":"Cocher les propositions exactes.","sourcePage":62},{"id":"c176","num":24,"page":6,"kind":"QCM","title":"Parmi les propositions concernant la fonction respiratoire du patient BPCO ci-dessous, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017","topic":"Terrain : insuffisant respiratoire / bpco","points":1,"ungraded":false,"figures":[],"refs":[["GOLD · BPCO","https://goldcopd.org/2026-gold-report-and-pocket-guide/"]],"options":["il présente une hypersécrétion bronchique","il présente un amincissement des parois des voies aériennes","il présente une augmentation des résistances pulmonaires","il présente une inadéquation du rapport ventilation/perfusion","il présente une diminution de l'espace mort"],"correct":"ACD","note":"Distinguer obstruction (rapport VEMS/CV abaissé) et restriction (CPT abaissée). Pour la BPCO, rechercher exacerbation, encombrement et rétention de CO₂.","instruction":"Cocher les propositions exactes.","sourcePage":62},{"id":"c177","num":25,"page":6,"kind":"QCM","title":"Parmi les propositions concernant l'anesthésie du patient BPCO, laquelle ou lesquelles est (sont) vraie(s)?","session":"2015-2017 / 2017 -2019","topic":"Terrain : insuffisant respiratoire / bpco","points":1,"ungraded":false,"figures":[],"refs":[["GOLD · BPCO","https://goldcopd.org/2026-gold-report-and-pocket-guide/"]],"options":["l'intubation orotrachéale se réalise avec une sonde de gros calibre sous sédation","le Sévoflurane est l’halogéné recommandé pour ses propriétés bronchodilatatrices","augmente le risque de bronchospasme","la ventilation mécanique diminue le risque de bronchospasme","l'intubation augmente le risque de surinfection bronchique"],"correct":"BCE","note":"Distinguer obstruction (rapport VEMS/CV abaissé) et restriction (CPT abaissée). Pour la BPCO, rechercher exacerbation, encombrement et rétention de CO₂.","instruction":"Cocher les propositions exactes.","sourcePage":62}],"figures":{},"notes":["25 questions dans l’ordre du PDF. Le corrigé et le barème servent à l’entraînement."],"pdf":"Annales%202015-2017%20UE%203.3.pdf","pdfLabel":"Annales 2015-2017 UE 3.3.pdf","twoErrors":0.25,"examTotal":31,"name":"Annales 2015-2017 UE 3.3","promotion":"2015-2017","originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"};
+const normalize = text => text.normalize('NFKC').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae').replace(/[’']/g,' ').replace(/(\d),(?=\d)/g,'$1.').trim();
+const close = (a,b) => Math.abs(a-b)<1e-7;
+const round = n => Math.round(n*10000)/10000;
+const reviewOptions = [
+  ['', 'À évaluer'],
+  ['correct', 'Correcte'],
+  ['partial', 'Partielle'],
+  ['review', 'À revoir · 0 point']
+];
+
+function rubricAnalysis(raw, criteria) {
+  const input=normalize(raw);
+  const clauses=input.split(/[;!?\n]+|\.(?!\d)|\b(?:mais|cependant|pourtant)\b/).map(s=>s.trim()).filter(Boolean);
+  return criteria.map(criterion=>{
+    const yes=new RegExp(criterion.yes.trim(),'i');
+    const bad=criterion.bad ? new RegExp(criterion.bad,'i') : null;
+    const conflict=bad && clauses.find(clause=>bad.test(clause));
+    const matches=clauses.filter(clause=>yes.test(clause));
+    const negated=!criterion.allowNegation && matches.find(clause=>
+      /^(?:\w+\s+){0,5}(?:pas|aucun|aucune|non|jamais)\b|\bn\s+est\s+pas\b/.test(clause)
+    );
+    const evidence=conflict||negated||matches[0]||'';
+    const status=conflict||negated?'ambiguous':matches.length?'recognized':'missing';
+    return {...criterion,status,evidence,override:null};
+  });
+}
+
+function analysisPoints(grade) {
+  const recognized=grade.analysis.filter(c=>c.override ?? (c.status==='recognized'));
+  const earned=round(recognized.reduce((sum,c)=>sum+c.weight,0));
+  return grade.allOrNothing && !close(earned,grade.autoMax) ? 0 : earned;
+}
+
+function assessed(grade) {
+  if(grade.review==='blank' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='correct' && grade.full!=null) return {score:grade.full,max:grade.full};
+  if(grade.review==='review' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='partial' && grade.full!=null && grade.manualPoints!=null) {
+    return {score:grade.manualPoints,max:grade.full};
+  }
+  return {score:grade.analysis ? analysisPoints(grade) : grade.autoScore,max:grade.autoMax};
+}
+
+function pointsEntry(q,grade) {
+  const value=grade.manualPoints??'';
+  const hidden=grade.review!=='partial'?' hidden':'';
+  return q.kind==='QCM'
+    ? `<label data-partial="${q.id}"${hidden}>Points attribués <select data-points="${q.id}"><option value="">À saisir</option><option value="0.5"${value===.5?' selected':''}>0,5</option>${DATA.twoErrors===.25?`<option value="0.25"${value===.25?' selected':''}>0,25</option>`:''}</select></label>`
+    : `<label data-partial="${q.id}"${hidden}>Points attribués sur ${format(grade.full)} <input data-points="${q.id}" type="number" inputmode="decimal" min="0" max="${grade.full}" step="any" value="${value}"></label>`;
+}
+
+function assessmentControls(q,grade) {
+  if(grade.review==='blank') return '<p class="small">Sans réponse.</p>';
+  const partial=q.kind!=='QCU'&&!q.allOrNothing;
+  const choices=reviewOptions.filter(([key])=>partial||key!=='partial');
+  const options=choices.map(([key,label])=>`<option value="${key}"${key===grade.review?' selected':''}>${!key&&grade.analysis?'Selon l’analyse automatique':label}</option>`).join('');
+  return `<div class="self-assessment"><label for="review-${q.id}">Évalue ta réponse</label><select id="review-${q.id}" data-review="${q.id}">${options}</select>${grade.full!=null&&partial?pointsEntry(q,grade):''}</div>`;
+}
+
+const $ = id => document.getElementById(id);
+const format = (value, digits=4) => value.toLocaleString('fr-FR', {maximumFractionDigits:digits});
+const isChoice = q => q.kind === 'QCM' || q.kind === 'QCU';
+const isOpen = q => !isChoice(q) && q.kind !== 'context';
+const escape = value => String(value).replace(/[&<>"']/g, char => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]
+));
+const questionLabel = card => card.kind === 'context' ? card.title : `${card.kind} ${card.num}${card.series?' · '+card.series:''}`;
+const values = [...'ABCDEFGHIJKL'];
+
+
+const realCards=DATA.cards.filter(q=>q.kind!=='context');
+const nCh=realCards.filter(q=>q.kind==='QCM'||q.kind==='QCU').length,nOp=realCards.length-nCh;
+const nPts=Math.round(realCards.reduce((s,q)=>s+(q.points??1),0)*100)/100;
+document.title=`UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2015-2017 — ${DATA.title}`;
+$('h-eyebrow').textContent=`École IADE · UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2015-2017`;
+$('h-title').textContent=DATA.name;
+$('h-title').insertAdjacentHTML('afterend', `<p>${escape(DATA.title)}</p>`);
+$('h-stats').innerHTML=[[realCards.length,'questions'],[nCh,'QCM / QCU'],[nOp,'questions ouvertes'],[nPts.toLocaleString('fr-FR'),'points au barème']].filter(([n])=>n!==0).map(([n,t])=>`<div class="hero-stat"><b>${n}</b><span>${t}</span></div>`).join('');
+$('h-rules').innerHTML=`<p>QCM sur 1 point : une erreur ou un oubli = 0,5 point${DATA.twoErrors?`, deux erreurs ou oublis = ${String(DATA.twoErrors).replace('.',',')} point`:''}, au-delà 0. QCU sur 1 point.</p><p>Questions ouvertes : ta réponse est comparée aux éléments attendus. Si la détection n’a pas reconnu une bonne idée, clique sur <b>Valider cet élément</b> ou choisis une évaluation manuelle.</p><p>Les questions signalées « hors barème » sont consultables dans la correction. Leurs données, leur figure ou leur corrigé sont insuffisants pour attribuer une note. Les questions ouvertes sont corrigées automatiquement lorsque des critères ont pu être établis. Les autres peuvent être évaluées manuellement après lecture de la correction.</p>`;
+$('h-footer').innerHTML=`Source · <a href="${DATA.pdf}">${escape(DATA.pdfLabel)}</a> · Fonctionne hors connexion.`;
+$('h-rules').insertAdjacentHTML('beforeend',`<p>${escape(DATA.notes[0])}</p>`);
+const srcTag=q=>q.source==='corrige'?'<span class="tag-src deduit">Réponse rectifiée</span>':'';
+function sourceCopy(q) {
+  return `<p class="small source-line"><a href="${escape(DATA.pdf)}#page=${q.page}">PDF de la promotion · p. ${q.page}</a> · <a href="${escape(DATA.originalPdf)}#page=${q.sourcePage}">Recueil d’origine · p. ${q.sourcePage}</a> · ${escape(q.session)} · ${escape(q.topic)}</p>`;
+}
+function sources(q) {
+  return q.refs.length?`<ul class="small">${q.refs.map(([label,url])=>`<li><a href="${escape(url)}" target="_blank" rel="noopener">${escape(label)}</a></li>`).join('')}</ul>`:'';
+}
+function answerBox(q){
+  let list=q.answer; if(!list) return ''; if(typeof list==='string') list=[list];
+  const items=list.map(a=>{const add=a.startsWith('+');const t=add?a.replace(/^\+\s*/,''):a;return `<li class="${add?'added':''}">${escape(t)}${add?'<span class="tag-added">Complément</span>':''}</li>`;}).join('');
+  return `<div class="answer-key"><h3>Correction ${srcTag(q)}</h3><ul>${items}</ul>${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+}
+let active, grades, locked, confirmed, targeted;
+const form = $('quiz');
+function images(list, label) {
+  return list.map((item,i) => `<img loading="lazy" alt="${escape(label)}${list.length>1?' · extrait '+(i+1):''}" src="data:image/jpeg;base64,${item}">`).join('');
+}
+function scanBlock(scans, label) {
+  return `<div class="document"><div class="source-pictures" tabindex="0" aria-label="${escape(label)}">${images(scans,label)}</div><button type="button" class="secondary zoom" aria-expanded="false">Agrandir le scan</button></div>`;
+}
+function prompt(q) {
+  if(q.images) return scanBlock(q.images,questionLabel(q));
+  const table=q.table?`<div class="prompt-table">${q.table.map(cell=>`<span>${escape(cell)}</span>`).join('')}</div>`:'';
+  return `<h2 class="question-stem">${escape(q.title)}</h2>${q.text?`<p class="context-text">${escape(q.text)}</p>`:''}${q.figures.length?`<div class="q-figure">${q.figures.map((id,i)=>`<img loading="lazy" src="data:image/jpeg;base64,${DATA.figures[id]}" class="question-figure" alt="Figure ${i+1} de la question">`).join('')}</div>`:''}${q.instruction?`<p class="small">${escape(q.instruction)}</p>`:''}${table}`;
+}
+function fields(q) {
+  if (isChoice(q)) {
+    return `<div class="choices ${q.options?'written-choices':''}" role="${q.kind==='QCU'?'radiogroup':'group'}" aria-labelledby="title-${q.id}">${q.options.map((_,i)=>values[i]).map((letter,i)=>`<label class="option" id="option-${q.id}-${letter}"><input type="${q.kind==='QCU'?'radio':'checkbox'}" name="${q.id}" value="${letter}"><span><strong>${letter}</strong>${q.options?' · '+escape(q.options[i]):''}<small></small></span></label>`).join('')}</div>`;
+  }
+  return `<div class="field"><textarea id="answer-${q.id}" aria-labelledby="title-${q.id}" rows="5" placeholder="Ta réponse…"></textarea></div>`;
+}
+function render() {
+  $('cards').innerHTML = active.map((q, index) => {
+    const section = q.kind === 'context' ? '<span>Dossier</span>' : `<span>${q.ungraded?'Hors barème':format(q.points)+' pt'} · ${escape(q.session)} · PDF p. ${q.page}</span>`;
+    const anchor = active.findIndex(card=>card.kind===q.kind)===index ? ` id="section-${q.kind}"` : '';
+    return `<section class="card"${anchor} data-card="${q.id}"><div class="meta"><strong id="title-${q.id}">${escape(questionLabel(q))}</strong>${section}</div>${prompt(q)}${q.kind==='context'?'':fields(q)+`<div class="feedback" id="feedback-${q.id}" hidden></div>`}</section>`;
+  }).join('');
+  for(const link of document.querySelectorAll('[data-kind]')){
+    const kind=link.dataset.kind;
+    const index=active.findIndex(q=>kind==='open'?isOpen(q):q.kind===kind);
+    link.hidden=index<0;
+    if(index>=0) link.hash='section-'+active[index].kind;
+  }
+}
+function response(q) {
+  if (isChoice(q)) {
+    return [...form.querySelectorAll(`[name="${q.id}"]:checked`)].map(input=>input.value);
+  }
+  return $(`answer-${q.id}`).value.trim();
+}
+function progress() {
+  const current=active.filter(q=>q.kind!=='context');
+  const count=current.filter(q=>response(q).length>0).length;
+  $('progress').textContent=`${count} / ${current.length} questions renseignées`;
+  $('bar').max=current.length;
+  $('bar').value=count;
+}
+function compute(q, answers) {
+  if (!q.correct) return {autoMax:0,autoScore:0};
+  const errors=values.slice(0,q.options.length).filter(letter=>answers.includes(letter)!==q.correct.includes(letter)).length;
+  const points=q.kind==='QCU' ? Number(errors===0) : answers.length===0 ? 0 : [1,.5,DATA.twoErrors][errors] ?? 0;
+  return {autoMax:1,autoScore:points};
+}
+function rubricPanel(q, grade) {
+  if(!grade.analysis) return `<p class="small">Évalue ta réponse à partir des éléments du corrigé.${q.allOrNothing?' Barème tout ou rien.':''}</p>`;
+  const status={recognized:'Reconnu',missing:'À compléter',ambiguous:'À vérifier'};
+  const items=grade.analysis.map((c,i)=>{
+    const description=c.override===null?status[c.status]:c.override?'Validé manuellement':'Retiré manuellement';
+    const evidence=c.evidence?`<span class="evidence">${escape(c.evidence.slice(0,180))}</span>`:'';
+    const button=grade.review==='blank'?'':`<button type="button" data-criterion="${q.id}:${i}">${c.override!==null?'Rétablir l’analyse':c.status==='recognized'?'Retirer cet élément':'Valider cet élément'}</button>`;
+    return `<div class="criterion"><span class="badge ${c.status==='recognized'?'':'missing'}">${description}</span><strong>${escape(c.label)}</strong> · ${format(c.weight)} pt${evidence}${button}</div>`;
+  }).join('');
+  return `<div id="analysis-${q.id}"><strong>Analyse automatique · ${format(analysisPoints(grade))} / ${format(grade.autoMax)} points${grade.full>grade.autoMax?' vérifiables':''}</strong>${grade.allOrNothing?'<p class="small">Barème tout ou rien pour cette question.</p>':''}${items}</div>`;
+}
+function correction(q) {
+  const given=response(q);
+  const grade={full:q.points,autoMax:0,autoScore:0,ungraded:q.ungraded};
+  if(isChoice(q)){
+    Object.assign(grade,compute(q,given));
+    if(!q.correct) grade.review=given.length?'':'blank';
+    for(const letter of values.slice(0,q.options.length)){
+      const row=$(`option-${q.id}-${letter}`);
+      row.querySelector('input').disabled=true;
+      if(!q.correct) continue;
+      const checked=given.includes(letter);
+      const good=q.correct.includes(letter);
+      row.classList.add(good?checked?'right':'missed':checked?'wrong':'unused');
+      row.querySelector('small').textContent=good?checked?'Validée':'Oubliée':checked?'Fausse':'';
+    }
+  }else{
+    $(`answer-${q.id}`).readOnly=true;
+    grade.review=given?'':'blank';
+    if(!q.ungraded&&q.criteria?.length){
+      grade.analysis=rubricAnalysis(given,q.criteria);
+      grade.autoMax=round(q.criteria.reduce((sum,c)=>sum+c.weight,0));
+      grade.allOrNothing=q.allOrNothing;
+    }
+  }
+  grades.set(q.id,grade);
+  const panel=$(`feedback-${q.id}`);
+  panel.hidden=false;
+  if (isOpen(q)) {
+    panel.innerHTML=`${answerBox(q)}${sources(q)}${q.ungraded?'<p class="small">Question hors barème.</p>':rubricPanel(q,grade)+assessmentControls(q,grade)}${sourceCopy(q)}`;
+    return;
+  }
+  const answers=q.correct.split('').filter(Boolean).map(letter=>q.options[values.indexOf(letter)]);
+  const key=`<strong>${q.ungraded?'Hors barème':format(grade.autoScore)+' / 1 point'}</strong><div class="answer-key" style="margin-top:10px"><h3>${q.ungraded?'Éléments pour vérifier':'Correction'}</h3>${answers.length?`<ul class="correct-options">${answers.map(a=>`<li>${escape(a)}</li>`).join('')}</ul>`:''}${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+  panel.innerHTML=key+sources(q)+sourceCopy(q);
+}
+function isComplete(grade) {
+  const {score,max}=assessed(grade);
+  return !grade.ungraded&&(grade.review==='correct'||(grade.full!=null&&close(max,grade.full)&&close(score,max)));
+}
+function applyFilter() {
+  const filter=$('filter').value==='imperfect';
+  for(const q of active){
+    const card=form.querySelector(`[data-card="${q.id}"]`);
+    const grade=grades.get(q.id);
+    card.hidden=filter&&Boolean(grade)&&isComplete(grade);
+  }
+}
+function tally() {
+  const list=[...grades.values()];
+  const points=list.map(assessed);
+  const sum=round(points.reduce((acc,g)=>acc+g.score,0));
+  const max=round(points.reduce((acc,g)=>acc+g.max,0));
+  const available=round(list.reduce((acc,g)=>acc+(g.full??0),0));
+  const paper=available;
+  const remaining=Math.max(0,round(paper-max));
+  const manual=$('global-mark');
+  const globalScore=manual&&manual.value!==''&&manual.validity.valid?Number(manual.value):null;
+  $('score').textContent=max>0?`${format(20*sum/max,2)} / 20`:globalScore!==null?`${format(globalScore,2)} / 20`:'Note sur 20 à établir';
+  $('summary').textContent=max>0
+    ? `${format(sum)} / ${format(max)} points évalués.${remaining>0?` Note provisoire · ${format(remaining)} points du barème restent à évaluer.`:''}`
+    : globalScore!==null?'Note globale saisie manuellement.':'Aucun point évaluable automatiquement ou manuellement pour l’instant.';
+  const adjusted=list.some(g=>g.review && g.review!=='blank' || g.analysis?.some(c=>c.override!==null));
+  if(adjusted) $('summary').textContent+=' Note ajustée.';
+  const incomplete=list.filter((g,i)=>g.full!=null&&g.full>points[i].max).length;
+  $('manual-summary').textContent=incomplete
+    ? `Complète la correction manuelle pour ${incomplete} question${incomplete===1?'':'s'}.`:'';
+  $('retry').disabled=list.every(g=>g.ungraded||isComplete(g));
+  applyFilter();
+}
+function submit() {
+  if(locked) return;
+  const current=active.filter(q=>q.kind!=='context');
+  const missing=current.filter(q=>!q.ungraded&&!response(q).length).length;
+  if(missing&&!confirmed){
+    $('message').textContent=`${missing} question(s) sans réponse. Clique de nouveau pour corriger la tentative.`;
+    confirmed=true;
+    return;
+  }
+  locked=true;
+  current.forEach(correction);
+  $('results').hidden=false;
+  $('filters').hidden=false;
+  $('submit').hidden=true;
+  $('mode').textContent='Corrigé';
+  $('message').textContent='';
+  tally();
+  $('results').focus();
+  $('results').scrollIntoView({block:'start'});
+}
+function shuffledCard(q) {
+  if (!isChoice(q)) return q;
+  const indexes=q.options.map((_,i)=>i);
+  for(let i=indexes.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [indexes[i],indexes[j]]=[indexes[j],indexes[i]];
+  }
+  const correct=indexes.map((index,i)=>q.correct.includes(values[index])?values[i]:'').join('');
+  return {...q,options:indexes.map(i=>q.options[i]),correct};
+}
+function start(retry=false) {
+  const keep=retry?new Set([...grades].filter(([,g])=>!g.ungraded&&!isComplete(g)).map(([id])=>id)):null;
+  targeted=retry;
+  if($('global-mark'))$('global-mark').value='';
+  active=DATA.cards.filter(q=>(!$('topic').value||q.topic===$('topic').value)&&(!keep||keep.has(q.id))).map(shuffledCard);
+  grades=new Map();
+  locked=false;
+  confirmed=false;
+  $('results').hidden=true;
+  $('filters').hidden=true;
+  $('submit').hidden=false;
+  $('message').textContent='';
+  $('mode').textContent=retry?'Reprise ciblée':'Entraînement';
+  $('filter').value='all';
+  render();
+  progress();
+  if(retry) window.scrollTo(0,0);
+}
+form.addEventListener('submit', e=>{e.preventDefault(); submit();});
+form.addEventListener('input',()=>{if(locked)return; confirmed=false; $('message').textContent=''; progress();});
+form.addEventListener('change',event=>{
+  const field=event.target.closest('[data-review],[data-points]');
+  if(!locked||!field)return;
+  const id=field.dataset.review??field.dataset.points;
+  const grade=grades.get(id);
+  if(field.hasAttribute('data-review')){
+    grade.review=field.value;
+    const partial=form.querySelector(`[data-partial="${id}"]`);
+    if(partial)partial.hidden=field.value!=='partial';
+  }else{
+    const value=field.value===''?null:Number(field.value);
+    grade.manualPoints=Number.isFinite(value)&&value>=0&&value<=grade.full?value:null;
+  }
+  tally();
+});
+$('global-mark')?.addEventListener('input',tally);
+form.addEventListener('click',event=>{
+  const criterion=event.target.closest('[data-criterion]');
+  if(locked&&criterion){
+    const [id,index]=criterion.dataset.criterion.split(':');
+    const grade=grades.get(id);
+    const item=grade.analysis[Number(index)];
+    item.override=item.override===null?item.status!=='recognized':null;
+    const q=active.find(card=>card.id===id);
+    $('analysis-'+id).outerHTML=rubricPanel(q,grade);
+    form.querySelector(`[data-criterion="${id}:${index}"]`)?.focus({preventScroll:true});
+    tally();
+    return;
+  }
+  const button=event.target.closest('.zoom');
+  if(!button)return;
+  const enlarged=button.closest('.document').classList.toggle('enlarged');
+  button.setAttribute('aria-expanded',String(enlarged));
+  button.textContent=enlarged?'Réduire le scan':'Agrandir le scan';
+});
+$('filter').addEventListener('change',applyFilter);
+$('reset').addEventListener('click',()=>{start(); window.scrollTo(0,0);});
+$('retry').addEventListener('click',()=>start(true));
+for(const topic of new Set(DATA.cards.map(q=>q.topic))) $('topic').add(new Option(topic,topic));
+$('topic').addEventListener('change',()=>start());
+start();
+</script>
+<!-- Statistiques anonymes Mémo (GoatCounter, sans cookies) -->
+<script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"path":"/annales-nf/S1/3.3-2015-2017","title":"Annales non officielles 2015-2017 UE 3.3 S1"}' async src="//gc.zgo.at/count.js"></script></body></html>

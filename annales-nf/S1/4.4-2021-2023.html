@@ -1,0 +1,418 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UE 4.4 · S1 · Promotion 2021-2023 — Vigilances</title><style>
+:root{--ink:#24302f;--muted:#677472;--green:#195b4a;--paper:#f7f6f1;--line:#dce3dd;--good:#1d7252;--warn:#925b17;--bad:#a43848}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:960px;margin:auto;padding:44px 22px 60px}header{padding-bottom:30px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:750;color:var(--green)}h1{font:500 clamp(38px,7vw,62px)/1.08 Georgia,serif;margin:16px 0}h1 em{color:var(--green)}h2{font-size:21px;line-height:1.4;margin:10px 0 14px}p{margin:10px 0}.intro{max-width:680px;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:6px 12px;background:white}.progress{display:flex;justify-content:space-between;gap:12px;padding:19px 0;font-size:13px;color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:18px}.meta{display:flex;justify-content:space-between;gap:10px;color:var(--green);font-size:12px;font-weight:750;letter-spacing:1px;text-transform:uppercase}.hint,.small{font-size:13px;color:var(--muted)}textarea,input{font:inherit;color:var(--ink);border:1px solid #bccbc1;border-radius:10px;background:#fcfdfb}textarea{display:block;width:100%;resize:vertical;min-height:110px;padding:14px;margin-top:10px}textarea:focus,input:focus{outline:3px solid #c1ddce;outline-offset:2px;border-color:var(--green)}button{font:650 15px system-ui;min-height:46px;padding:12px 18px;border:0;border-radius:10px;background:var(--green);color:white;cursor:pointer}button.secondary{background:#e8eee7;color:var(--green)}button:focus-visible,a:focus-visible{outline:3px solid #d69f43;outline-offset:3px}button:disabled{opacity:.5;cursor:default}.actions{display:flex;gap:10px;flex-wrap:wrap}.feedback{background:#f5f8f3;border-radius:12px;padding:18px;margin-top:18px;font-size:14px}.feedback ul{padding-left:20px;margin:10px 0}.feedback li{margin:6px 0}.good{color:var(--good)}.missing{color:var(--warn)}.bad{color:var(--bad)}.answer{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.card.perfect{border-color:#86b49a}.card.imperfect{border-color:#d6bb85}[hidden]{display:none!important}.scorebox{background:#195b4a;color:white;border-radius:18px;padding:26px;margin-bottom:24px;scroll-margin-top:16px}.scorebox .eyebrow{color:#bedccc}.score{font:500 48px Georgia,serif;line-height:1.2;margin:14px 0}.scorebox p{color:#e1eee5}.scorebox button{background:white;color:var(--green)}.scorebox button.secondary{background:#376f5d;color:white}.diagram-scroll{margin:18px -8px 0;overflow-x:auto}.diagram{position:relative;min-width:560px;width:100%;aspect-ratio:900/540;background:#fafbf8;border-radius:12px}.diagram svg{display:block;width:100%;height:100%}.callout{position:absolute;width:23%;transform:translateY(-50%);z-index:1}.callout label{display:block;font-size:12px;font-weight:750;color:var(--green);margin-bottom:4px}.callout input{width:100%;padding:10px 8px;font-size:clamp(12px,1.6vw,15px);min-height:44px;background:white}.callout.a{left:2%;top:32%}.callout.b{right:2%;top:32%}.callout.c{left:2%;top:71%}.callout.d{right:2%;top:71%}.diagram input.correct{border:2px solid var(--good)}.diagram input.wrong{border:2px solid var(--bad)}.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}.dot{width:9px;height:9px;display:inline-block;border-radius:50%;margin-right:6px}.explain{padding:18px 0;color:var(--muted);font-size:13px}.explain summary{cursor:pointer;color:var(--green);font-weight:650}footer{color:var(--muted);font-size:12px;margin-top:30px}a{color:var(--green)}@media(max-width:600px){main{padding:25px 14px 40px}.card{padding:20px 16px}h2{font-size:19px}.diagram-scroll{margin-right:-8px;margin-left:-8px}.progress{font-size:12px}.scorebox{padding:22px}.mobile-note{display:block}}@media(min-width:601px){.mobile-note{display:none}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.option{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:10px;margin:9px 0;cursor:pointer}.option input{width:20px;height:20px;margin:4px 0 0;flex-shrink:0;accent-color:var(--green)}.option:has(input:checked){background:#eff5ef}.option.right,.option.right:has(input:checked){border:2px solid #32815b;background:#e2f3e7;color:#155338}.option.wrong,.option.wrong:has(input:checked){border:2px solid #c73c3c;background:#ffe0e0;color:#9b1717}.option.missed{border:2px solid #d49a13;background:#fff0a6;color:#684400}.option.right input{accent-color:#32815b}.option.wrong input{accent-color:#c73c3c}.option small{display:block;font-weight:650}.section-title{font:500 29px Georgia,serif;margin:32px 0 17px;scroll-margin-top:18px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.nav a{padding:7px 14px;border:1px solid var(--line);border-radius:30px;text-decoration:none;font-size:13px;background:white}.rubric{background:#eaf0e8;border-radius:12px;padding:16px;margin-top:18px;font-size:14px}.evidence{font-size:12px;color:var(--muted);display:block;margin-top:3px}.criterion{padding:10px 0;border-bottom:1px solid var(--line)}.criterion:last-child{border:0}.badge{display:inline-block;font-size:11px;font-weight:750;border-radius:20px;padding:3px 8px;background:#e4efe6;margin-right:5px}.badge.bad{background:#f6e0e4}.badge.missing{background:#f7ecd2}.criterion button{padding:7px 9px;min-height:34px;font-size:12px;margin-top:7px;background:#e2ebe1;color:var(--green)}.details-grid{display:flex;gap:12px;flex-wrap:wrap;margin:15px 0}.details-grid span{background:#ffffff15;border-radius:8px;padding:8px 13px;font-size:14px}.review{background:#fff5da;border-radius:10px;padding:12px;font-size:13px;margin-top:14px}.meta span:last-child{white-space:nowrap}.feedback blockquote{margin:4px 0;padding-left:12px;border-left:2px solid var(--line)}
+
+.option input[type=radio]{border-radius:50%;width:20px;height:20px;flex-shrink:0;accent-color:var(--green)}.field{margin:18px 0}.field>label{display:block;font-weight:650;font-size:14px}.field textarea{min-height:76px;line-height:1.5}.field textarea[readonly]{background:#f3f5f1}.nav{position:sticky;top:0;z-index:3;background:#f7f6f1f5;padding:10px 0;backdrop-filter:blur(8px)}.question-progress{height:7px;width:100%;accent-color:var(--green);margin-bottom:20px}.filter-bar{margin-bottom:18px}select{font:inherit;max-width:100%;padding:9px;background:white;border:1px solid var(--line);border-radius:10px}.notice{color:var(--warn);font-weight:650}.correction-info{border-left:3px solid #c4ad65;padding-left:13px}textarea{overflow-wrap:anywhere}.meta{letter-spacing:.5px}.meta span:first-child{min-width:0}footer{border-top:1px solid var(--line);padding-top:18px}.rubric p{margin-bottom:0}.section-title{scroll-margin-top:80px}.scorebox{scroll-margin-top:78px}.subtitle{font-size:18px;color:var(--green)}.card{scroll-margin-top:80px}@media print{.nav,.actions,.filter-bar,.question-progress,.progress,.rubric,button{display:none!important}.card{break-inside:avoid;border-radius:0}body{background:white}main{padding:0}textarea{border:0;min-height:80px}}
+.nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.nav a{font-size:14px;font-weight:650;text-decoration:none;min-height:38px;display:inline-flex;align-items:center}.meta span:last-child{white-space:nowrap}.criterion button{white-space:normal;text-align:left;max-width:100%}@media(max-width:600px){.nav{gap:6px 16px}.nav a{font-size:13px}.meta{letter-spacing:0;flex-wrap:wrap}.score{font-size:43px}.card,.section-title,.scorebox{scroll-margin-top:120px}}
+
+.question-stem,.prompt-table span{white-space:pre-line}
+.prompt-table{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.prompt-table span{border:1px solid #cedad0;padding:.6rem}
+.self-assessment input,#global-mark{font:inherit;width:5rem;border:1px solid #96ada1;border-radius:.4rem;padding:.3rem}
+.document{margin:.3rem 0 .85rem}
+.source-pictures{background:#fff;border:1px solid #cedad0;border-radius:8px;overflow:auto;max-width:100%;padding:.25rem}
+.source-pictures img{display:block;width:100%;height:auto;margin:0 auto}
+.source-pictures img+img{margin-top:.2rem}
+.enlarged .source-pictures img{width:max(100%,870px);max-width:none}
+.zoom{margin:.4rem 0 0;font-size:.84rem;padding:.38rem .7rem}
+.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.42rem}
+.choices .option{align-items:flex-start;margin:0;padding:.65rem .38rem;gap:.35rem;min-height:3rem}
+.choices .option small{font-size:.71rem;line-height:1.2}
+.option.wrong:has(input:checked){background:#ffe3e5;border-color:#ac434e;color:#681f2a}
+.option.right:has(input:checked){background:#e2f3e6;border-color:#288253;color:#124b2c}
+.option.missed{background:#fff2c6;border-color:#a27410;color:#654503}
+.feedback details summary{cursor:pointer;color:#14563e;font-weight:650;margin:.4rem 0}
+.score{font-size:clamp(1.55rem,4.5vw,2.5rem)}
+.card{scroll-margin-top:1rem}
+@media(max-width:420px){.choices{gap:.2rem}.choices .option{padding:.5rem .25rem;gap:.24rem}.choices input{margin:0}}
+.choices.written-choices{display:block}
+.choices.written-choices .option{padding:.65rem;margin:.4rem 0}
+.self-assessment{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:.8rem 0}
+.self-assessment label{font-weight:650}
+.self-assessment select{font:inherit;color:#24302f;background:#fff;border:1px solid #96ada1;border-radius:.4rem;padding:.35rem .55rem}
+.copy-answer{margin:.7rem 0 .3rem;font-weight:650}
+#manual-summary{font-size:.95rem}
+#manual-summary:empty{display:none}
+
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#123f35 0%,#195b4a 55%,#2b7a62 100%);color:#fff;border-radius:22px;padding:30px 30px 24px;margin-bottom:8px;box-shadow:0 10px 30px rgba(25,91,74,.18)}
+.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.14),rgba(255,255,255,0) 70%)}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hero .eyebrow{color:#bfe3d3}
+.hero-tag{font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:5px 11px;border-radius:30px}
+.hero h1{color:#fff;margin:14px 0 8px;font-size:clamp(32px,6vw,50px)}
+.hero-sub{color:#d6ece2;margin:0 0 20px;max-width:640px;font-size:15px}
+.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.hero-stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:12px 14px}
+.hero-stat b{display:block;font:500 28px/1.1 Georgia,serif;color:#fff}
+.hero-stat span{font-size:12.5px;color:#cfe7dc}
+.hero-rules{margin-top:16px;background:rgba(0,0,0,.14);border-radius:12px;padding:0 14px;font-size:14px;color:#e3f1ea}
+.hero-rules summary{cursor:pointer;padding:11px 0;font-weight:650;color:#fff}
+.hero-rules p{margin:0 0 10px}
+.hero-rules b{color:#fff}
+.answer-key{background:#eaf4ec;border:1px solid #bfdcc8;border-radius:12px;padding:14px 16px;margin:4px 0 14px}
+.answer-key h3{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#1d7252;margin:0 0 8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.answer-key ul{margin:0;padding-left:20px}.answer-key li{margin:5px 0}
+.answer-key li.added{color:#2d3f8f}
+.tag-added{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;text-transform:uppercase;background:#e4e8fb;color:#3b4aa8;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag-src{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;border-radius:6px;padding:2px 7px;background:#fff;color:#677472;border:1px solid #dce3dd;text-transform:uppercase}
+.tag-src.deduit{background:#f7ecd2;color:#925b17;border-color:#ebd6a8}
+.key-letters{font-size:17px;font-weight:700;color:#155338}
+.answer-note{font-size:13.5px;color:#55625f;margin:8px 0 0}
+@media(max-width:600px){.hero{padding:22px 18px 18px;border-radius:18px}.hero-stat b{font-size:24px}}
+.context-text{white-space:pre-line;background:#fbf7ec;border-left:3px solid #c4ad65;border-radius:8px;padding:12px 14px;margin:6px 0 4px}
+.q-figure{margin:10px 0 6px}.q-figure img{display:block;max-width:100%;height:auto;border:1px solid #dce3dd;border-radius:10px;background:#fff}
+.source-copy{margin:10px 0}.source-copy summary{cursor:pointer;font-weight:650;color:var(--green)}
+.source-copy img{max-width:100%;height:auto}.source-copy p{margin:6px 0 12px}
+.option input:disabled{cursor:default}.question-stem{white-space:pre-line}
+.source-copy ul{padding-left:1.5em}.source-copy .source-pictures{max-height:none}.question-figure{max-height:390px;object-fit:contain}
+
+#topic-control{margin:14px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#topic{max-width:100%;min-width:0;width:min(100%,30rem);text-overflow:ellipsis}.question-stem,.option span,.answer-key{overflow-wrap:anywhere}.option span{min-width:0}.meta{flex-wrap:wrap;gap:4px 10px}.meta span:last-child{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.q-figure img{margin:8px 0;max-height:520px;object-fit:contain}
+.correct-options{margin:6px 0;padding-left:22px}.source-line{margin-top:12px}
+</style></head><body><nav id="memo-back" style="position:sticky;top:0;z-index:1000;display:flex;align-items:center;gap:10px;padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:rgba(247,246,241,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid #dce3dd;font:600 15px/1.2 system-ui,-apple-system,sans-serif"><a href="../../#/annales-nf/S1/4.4" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:#195b4a;color:#fff;text-decoration:none">&#8592; Retour à Mémo</a><span style="color:#677472;font-size:13px">UE 4.4 · Semestre 1 · Promotion 2021-2023</span></nav><script>(function(){var bar=document.getElementById('memo-back');if(!bar)return;function place(){var h=bar.offsetHeight,extra=0;document.querySelectorAll('body *').forEach(function(el){if(bar.contains(el))return;var cs=getComputedStyle(el);if(cs.position!=='sticky')return;if(el.dataset.memoTop===undefined)el.dataset.memoTop=parseFloat(cs.top)||0;var t=h+Number(el.dataset.memoTop);el.style.top=t+'px';extra=Math.max(extra,t+el.offsetHeight);});document.documentElement.style.scrollPaddingTop=(Math.max(h,extra)+8)+'px';}place();addEventListener('resize',place);addEventListener('load',place);})();</script><main>
+<header class="hero">
+<div class="hero-top"><span class="eyebrow" id="h-eyebrow"></span><span class="hero-tag">Promotion 2021-2023</span></div>
+<h1 id="h-title"></h1>
+<p class="hero-sub">Entraînement interactif · réponds à toutes les questions puis valide pour voir la correction détaillée.</p>
+<div class="hero-stats" id="h-stats"></div>
+<details class="hero-rules"><summary>Barème et fonctionnement</summary><div id="h-rules"></div></details>
+</header>
+<div class="filter-bar" id="topic-control"><label for="topic">Thème</label><select id="topic"><option value="">Tout le programme</option></select></div>
+<nav class="nav" aria-label="Navigation du quiz">
+<a data-kind="context" href="#section-context" hidden>Dossiers</a>
+<a data-kind="QCM" href="#section-QCM" hidden>QCM</a>
+<a data-kind="QCU" href="#section-QCU" hidden>QCU</a>
+<a data-kind="open" href="#section-QROC" hidden>Questions ouvertes</a>
+<a href="#submit">Corriger</a>
+</nav>
+<div class="progress"><span id="progress" aria-live="polite"></span><span id="mode"></span></div>
+<progress id="bar" class="question-progress" max="10" value="0" aria-label="Questions renseignées"></progress>
+<section id="results" class="scorebox" hidden tabindex="-1" aria-label="Résultat">
+<div class="score" id="score"></div><p id="summary"></p><p id="manual-summary" aria-live="polite"></p>
+<div class="actions"><button id="reset" type="button">Tout recommencer</button><button id="retry" class="secondary" type="button">Reprendre les questions imparfaites ou à vérifier</button></div></section>
+<div class="filter-bar" id="filters" hidden><label for="filter">Afficher</label>
+<select id="filter"><option value="all">Toutes les questions</option><option value="imperfect">Imparfaites ou à vérifier</option></select></div>
+<form id="quiz" novalidate><div id="cards"></div><p class="notice" id="message" role="status"></p><div class="actions"><button type="submit" id="submit">Valider et voir les réponses</button></div></form>
+<footer id="h-footer"></footer>
+</main><noscript><p>Active JavaScript pour répondre au partiel.</p></noscript><script>const DATA={"semester":1,"ue":"4.4","title":"Vigilances","cards":[{"id":"c2","num":1,"page":1,"kind":"QCM","title":"Parmi les propositions concernant les compétences non techniques, laquelle ou lesquelles est (sont) vraies","session":"2021-2023","topic":"Competences non techniques","points":1,"ungraded":false,"figures":[],"refs":[],"options":["elles interviennent uniquement lors d'un incident anesthésique","elles font intervenir le travail en équipe","elles font appel aux connaissances médicales","elles font appel aux connaissances physiopathologiques","elles font intervenir la conscience de la situation"],"correct":"BE","note":"","instruction":"Cocher les propositions exactes.","sourcePage":3},{"id":"c5","num":2,"page":1,"kind":"QCM","title":"Parmi les propositions concernant l’élimination systématique des déchets d'activité de soins à risque infectieux (DASRI), laquelle ou lesquelles est (sont) vraies","session":"2021-2023","topic":"Gestion des dechets","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 4.4 Gestion des déchets (p. 3, à consulter)","../../../cours/S1/4.4/4.4%20Gestion%20des%20de%CC%81chets.pdf#page=3"]],"options":["les couches diarrhéiques d'origine infectieuse sont éliminées dans les sacs DASRI","les pansements tachés de sang sont éliminés dans les sacs DASRI","les objets piquant tranchant non utilisés sont éliminés dans les sacs DASRI","les pansements imbibés de liquide purulent sont éliminés dans les sacs DASRI","les protections gynécologiques sont éliminées dans les sacs DASRI"],"correct":"ACD","note":"","instruction":"Cocher les propositions exactes.","sourcePage":4},{"id":"c8","num":3,"page":1,"kind":"QCM","title":"Parmi les propositions concernant la transfusion, laquelle ou lesquelles est (sont) vraies","session":"2016-2018, 2017-2019, 2021-2023","topic":"Hemovigilance","points":1,"ungraded":false,"figures":[],"refs":[["Acte transfusionnel · Instruction nationale","https://ansm.sante.fr/uploads/2024/10/28/instruction-n0-2021-230-du-16-novembre-2021-relative-a-la-realisation-de-l-acte-transfusionnel.pdf"],["HAS · Transfusion de globules rouges","https://www.has-sante.fr/jcms/c_2016516/fr/recommandations-transfusion-de-globules-rouges-homologues-produits-indications-alternatives"]],"options":["Les femmes en âge de procréer présen tent une indication de transfusion de culot globulaire (CG) phénotypés","Le phénotype complet et le groupe Rhésus doivent obligatoirement être respectés pour transfuser tous patients","La détermination du groupage sanguin doit être réalisée à deux moments différents","La personne qui transfuse est celle qui a réalisé le contrôle pré transfusionnel ultime (CPU)","Le CPU n’est pas obligatoire en situation d’urgence"],"correct":"ACD","note":"Avant transfusion : vérifier identité, prescription, groupe, RAI et concordance avec la fiche de délivrance, numéro et intégrité de la poche. Pour les CGR, contrôle ultime ABO en présence du patient.","instruction":"Cocher les propositions exactes.","sourcePage":5},{"id":"c13","num":4,"page":1,"kind":"QCM","title":"Parmi les propositions concernant la compatibilité AB test card, laquelle ou lesquelles est (sont) vraies En dehors d'une situation d'urgence, le receveur de groupe AB, peut recevoir un culot globulaire de groupe sanguin :","session":"2021-2023","topic":"Hemovigilance","points":1,"ungraded":false,"figures":[],"refs":[["Acte transfusionnel · Instruction nationale","https://ansm.sante.fr/uploads/2024/10/28/instruction-n0-2021-230-du-16-novembre-2021-relative-a-la-realisation-de-l-acte-transfusionnel.pdf"],["HAS · Transfusion de globules rouges","https://www.has-sante.fr/jcms/c_2016516/fr/recommandations-transfusion-de-globules-rouges-homologues-produits-indications-alternatives"]],"options":["il peut recevoir un culot globulaire de groupe sanguin A","il peut recevoir un culot globulaire de groupe sanguin B","il peut recevoir un culot globulaire de groupe sanguin O","il peut recevoir un culot globulaire de groupe sanguin AB","il manque le Rhésus pour vérifier la compatibilité"],"correct":"ABCD","note":"Avant transfusion : vérifier identité, prescription, groupe, RAI et concordance avec la fiche de délivrance, numéro et intégrité de la poche. Pour les CGR, contrôle ultime ABO en présence du patient.","instruction":"Cocher les propositions exactes.","sourcePage":6},{"id":"c27","num":5,"page":2,"kind":"QUESTION","title":"Le contrôle pré transfu sionnel ultime selon le modèle ABtest card. Déterminer le groupe sanguin du patient expliquer les réactions obtenues quel est le groupe sanguin de la patiente et celui du culot? indiquez si la transfusion est possible tout erreur, Absence d'explication ou explication incomplète, entraîne 0 à la question","session":"2021-2023","topic":"Hemovigilance","points":0,"ungraded":true,"figures":["4.4-7-2"],"refs":[["Acte transfusionnel · Instruction nationale","https://ansm.sante.fr/uploads/2024/10/28/instruction-n0-2021-230-du-16-novembre-2021-relative-a-la-realisation-de-l-acte-transfusionnel.pdf"],["HAS · Transfusion de globules rouges","https://www.has-sante.fr/jcms/c_2016516/fr/recommandations-transfusion-de-globules-rouges-homologues-produits-indications-alternatives"]],"options":[],"correct":"","note":"","answer":["Lire séparément les lignes anti-A et anti-B et les colonnes patient et culot. La couleur des réactifs n’est pas à elle seule un signe d’agglutination.","La photo est difficile à interpréter de façon fiable. En situation réelle, suspendre en cas de doute et demander un avis transfusionnel."],"sourcePage":7},{"id":"c28","num":6,"page":2,"kind":"QUESTION","title":"En cas d'incompatibilité transfusionnelle, quelle est la conduite à tenir? de quelle vigilance s'agit-il?","session":"2021-2023","topic":"Hemovigilance","points":2,"ungraded":false,"figures":[],"refs":[["Acte transfusionnel · Instruction nationale","https://ansm.sante.fr/uploads/2024/10/28/instruction-n0-2021-230-du-16-novembre-2021-relative-a-la-realisation-de-l-acte-transfusionnel.pdf"],["HAS · Transfusion de globules rouges","https://www.has-sante.fr/jcms/c_2016516/fr/recommandations-transfusion-de-globules-rouges-homologues-produits-indications-alternatives"]],"options":[],"correct":"","note":"","answer":["Arrêter la transfusion, garder la voie veineuse selon le protocole, prévenir le médecin et le site de délivrance, surveiller et traiter.","Vérifier l’identité et la concordance, conserver le produit et le matériel pour les investigations et signaler en hémovigilance."],"sourcePage":7},{"id":"c41","num":7,"page":2,"kind":"QCM","title":"Parmi les propositions concernant le(s) contre -indication(s) à la friction hydroalcoolique, laquelle ou lesquelles est (sont) vraies","session":"2021-2023","topic":"Infectiovigilance / hygiene des mains et tenue au bloc operatoire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · Hygiène des mains avec notes","../../../cours/S1/4.4/Hygie%CC%80ne%20des%20mains%20avec%20notes.pdf"],["Santé publique France · Surveillance des ISO","https://www.santepubliquefrance.fr/infections-associees-aux-soins/enquetesetudes/rapport-national-de-la-surveillance-semi-0"]],"options":["présence de plaie sur les mains","avant chaque ouverture de salle d'opération","après la prise en charge d'un patient infecté par clostridium difficile","Immédiatement avant tout contact direct avec un patient","présence de souillures sur les mains"],"correct":"CE","note":"Friction hydroalcoolique sur mains sèches et propres. En cas de souillure visible, laver, rincer et sécher. Appliquer le protocole local en cas de germe sporulé.","instruction":"Cocher les propositions exactes.","sourcePage":10},{"id":"c42","num":8,"page":2,"kind":"QCM","title":"Parmi les propositions concernant le lavage simple des mains avec du savon doux, laquelle ou lesquelles est (sont) vraies","session":"2021-2023","topic":"Infectiovigilance / hygiene des mains et tenue au bloc operatoire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · Hygiène des mains avec notes (p. 23, à consulter)","../../../cours/S1/4.4/Hygie%CC%80ne%20des%20mains%20avec%20notes.pdf#page=23"],["Santé publique France · Surveillance des ISO","https://www.santepubliquefrance.fr/infections-associees-aux-soins/enquetesetudes/rapport-national-de-la-surveillance-semi-0"]],"options":["le savon doux nettoie les salissures","le savon doux élimine la flore transitoire","le savon doux élimine la flore résidente","le savon a une action mécanique et chimique","la durée du lavage est de 30 secondes"],"correct":"ABDE","note":"Friction hydroalcoolique sur mains sèches et propres. En cas de souillure visible, laver, rincer et sécher. Appliquer le protocole local en cas de germe sporulé.","instruction":"Cocher les propositions exactes.","sourcePage":11},{"id":"c50","num":9,"page":2,"kind":"QUESTION","title":"il existe deux types de Flore microbiennes cutanées. définissez chacune d'entre elles en argumentant votre réponse.","session":"2021-2023","topic":"Infectiovigilance / hygiene des mains et tenue au bloc operatoire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · Hygiène des mains avec notes (p. 9, à consulter)","../../../cours/S1/4.4/Hygie%CC%80ne%20des%20mains%20avec%20notes.pdf#page=9"],["Santé publique France · Surveillance des ISO","https://www.santepubliquefrance.fr/infections-associees-aux-soins/enquetesetudes/rapport-national-de-la-surveillance-semi-0"]],"options":[],"correct":"","note":"","answer":["La flore résidente est habituellement présente sur la peau et plus difficile à éliminer. La flore transitoire est acquise au contact des personnes ou surfaces et se transmet plus facilement."],"sourcePage":11},{"id":"c51","num":10,"page":2,"kind":"QUESTION","title":"vous exubez un patient covid 19 positif ou fortement suspect quelle précaution prenez-vous pour assurer la prise en soin au bloc opératoire?","session":"2021-2023","topic":"Infectiovigilance / hygiene des mains et tenue au bloc operatoire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · Hygiène des mains avec notes","../../../cours/S1/4.4/Hygie%CC%80ne%20des%20mains%20avec%20notes.pdf"],["Santé publique France · Surveillance des ISO","https://www.santepubliquefrance.fr/infections-associees-aux-soins/enquetesetudes/rapport-national-de-la-surveillance-semi-0"]],"options":[],"correct":"","note":"","answer":["Prévoir les mesures respiratoires adaptées à la procédure et au risque, limiter le personnel exposé et porter la protection respiratoire et oculaire indiquée par le protocole. Organiser circuit, nettoyage et aération selon les règles locales."],"sourcePage":11},{"id":"c52","num":11,"page":3,"kind":"QCM","title":"Parmi les propositions concernant la matériovigilance, laquelle ou lesquelles est (sont) vraies","session":"2016-2018 / 2019-2021 / 2021-2023","topic":"Materiovigilance","points":1,"ungraded":false,"figures":[],"refs":[],"options":["La matériovigilance concerne les consommables à usage unique","La matériovigilance concerne les médicaments","La matériovigilance concerne les produits sanguins labiles","La matériovigilance concerne les dispositifs médicaux","La matériovigilance concerne les logiciels destinés par les fabricants à des fins diagnostiques ou thérapeutiques"],"correct":"ADE","note":"Sécuriser le patient, arrêter d’utiliser le dispositif en cause et le mettre à l’écart. Conserver accessoires et éléments d’identification utiles.","instruction":"Cocher les propositions exactes.","sourcePage":12},{"id":"c57","num":12,"page":3,"kind":"QCM","title":"Parmi les propositions concernant L’obligation de déclarer un Dispositif Médical (DM) défectueux pouvant entrainer ou susceptible d’entrainer la dégradation grave de l’état de santé des personnes à l’ANSM (Agence Nationale de Sécurité du Médicament et des Produits de Santé) : laquelle ou lesquelles est (sont) vraies 1- Le fabriquant motivé par une raison technique ou médicale est tenu d’informer l’ANSM du retrait ou rappel de tout DM défectueux Car 2- Lorsqu’un DM est susceptible d’entrainer la mort ou la dégradation grave de l’état de santé d’un patient, d’un utilisateur ou d’un tiers, la ou les personnes ayant connaissance de cet incident ou de ce risque d’incident mettant en cause ce DM, doit le signaler sans délai à l’ANSM","session":"2018-2020, 2021-2023","topic":"Materiovigilance","points":1,"ungraded":false,"figures":[],"refs":[],"options":["Les deux propositions sont toutes deux vraies et il existe entre elles une relation de cause à effet","Les propositions sont toutes les deux vraies sans qu’il n’existe entre elles une relation de cause à effet","La 1ère proposition est vraie, mais la 2ème est fausse","La 1ère proposition est fausse, mais la 1ère est vraie","Les deux propositions sont fausses"],"correct":"B","note":"Sécuriser le patient, arrêter d’utiliser le dispositif en cause et le mettre à l’écart. Conserver accessoires et éléments d’identification utiles.","instruction":"Cocher les propositions exactes.","sourcePage":13},{"id":"c59","num":13,"page":3,"kind":"QCU","title":"Parmi les propositions concernant Une panne du respirateur d'anesthésie, laquelle est vraie À l'ouverture du site, au moment du test, le respirateur d'anesthésie s'arrête sans alarme. Quelle est la première action de matériovigilance à réaliser?","session":"2021-2023","topic":"Materiovigilance","points":1,"ungraded":false,"figures":[],"refs":[],"options":["Faire redémarrer le respirateur","mettre à l'arrêt le respirateur pour la prochaine intervention","mettre en quarantaine le respirateur","transmettre le respirateur au service biomédical pour réparation","alerter le cadre du service"],"correct":"C","note":"Sécuriser le patient, arrêter d’utiliser le dispositif en cause et le mettre à l’écart. Conserver accessoires et éléments d’identification utiles.","instruction":"Cocher une seule proposition.","sourcePage":13},{"id":"c60","num":14,"page":3,"kind":"QCU","title":"Parmi les propositions concernant Une panne du respirateur d'anesthésie, laquelle est vraie À l'ouverture du site, au moment du test, le respirateur d'anesthésie s'arrête sans alarme. Quelle est la Deuxième action de matériovigilance à réaliser?","session":"2021-2023","topic":"Materiovigilance","points":1,"ungraded":false,"figures":[],"refs":[],"options":["prévenir le cadre du service","contacter l'atelier biomédical","appeler le correspondant local de pharmacovigilance","n'en parler à personne","remplacer le respirateur"],"correct":"A","note":"Sécuriser le patient, arrêter d’utiliser le dispositif en cause et le mettre à l’écart. Conserver accessoires et éléments d’identification utiles.","instruction":"Cocher une seule proposition.","sourcePage":13},{"id":"c61","num":15,"page":4,"kind":"QCU","title":"Parmi les propositions concernant la matériovigilance, comment nomme-t-on l'alerte au niveau local, laquelle est vraie","session":"2021-2023","topic":"Materiovigilance","points":1,"ungraded":false,"figures":[],"refs":[],"options":["L'alerte ascendante","l'alerte descendante","l'alerte montante","l'alerte primaire","l'alerte secondaire"],"correct":"A","note":"Sécuriser le patient, arrêter d’utiliser le dispositif en cause et le mettre à l’écart. Conserver accessoires et éléments d’identification utiles.","instruction":"Cocher une seule proposition.","sourcePage":14},{"id":"c62","num":16,"page":4,"kind":"QCM","title":"Parmi les propositions concernant Les dispositifs médicaux (DM), laquelle ou lesquelles est (sont) vraies","session":"2021-2023","topic":"Materiovigilance","points":1,"ungraded":false,"figures":[],"refs":[],"options":["les produits sanguins labile sont des DM","les implants mammaires sont des DM","les logiciels utilisés à des fins diagnostics et/ou thérapeutiques sont des DM","les produits cosmétiques sont des DM","les dispositifs intra-utérins sont des DM"],"correct":"BCE","note":"Sécuriser le patient, arrêter d’utiliser le dispositif en cause et le mettre à l’écart. Conserver accessoires et éléments d’identification utiles.","instruction":"Cocher les propositions exactes.","sourcePage":15},{"id":"c67","num":17,"page":4,"kind":"QCM","title":"Parmi les propositions concernant la pharmacovigilance, laquelle ou lesquelles est (sont) vraies","session":"2017-2019 / 2018 -2020 / 2019 -2021 / 2021-2023","topic":"Pharmacovigilance","points":1,"ungraded":false,"figures":[],"refs":[],"options":["L’utilisation des dispositifs médicaux réutilisables","La constatation d’effets indésirables lors d’une transfusion","Une situation de pharmacodépendance","L’apparition d’un défaut de qualité concernant un médicament","L’identification d’une erreur ou d’un risque d’erreur concernant un médicament","La constatation d’effets indésirables lors d’une prise médicamenteuse"],"correct":"CEF","note":"Un signalement comporte un déclarant, un patient identifiable, un médicament suspect et un effet indésirable. Décrire chronologie, dose, voie, évolution et médicaments associés.","instruction":"Cocher les propositions exactes.","sourcePage":16},{"id":"c78","num":18,"page":4,"kind":"QUESTION","title":"citer les rôles de la pharmacovigilance","session":"2021-2023","topic":"Pharmacovigilance","points":2,"ungraded":false,"figures":[],"refs":[],"options":[],"correct":"","note":"","answer":["Recueillir, évaluer et prévenir les effets indésirables des médicaments. Détecter les signaux, apprécier le rapport bénéfice-risque, proposer des mesures et diffuser l’information."],"sourcePage":17},{"id":"c79","num":19,"page":4,"kind":"QUESTION","title":"lors de la préparation d'un flacon d'hydrocortisone injectable, vous réalise z la présence des bris de verre dans le flacon. Le ou la cadre de santé vous charge du signalement de cet incident. de quelle vigilance relève cet incident? De quelle catégorie relève cet incident? Que faites-vous?","session":"2021-2023","topic":"Pharmacovigilance","points":2,"ungraded":false,"figures":[],"refs":[],"options":[],"correct":"","note":"","answer":["Ne pas utiliser le flacon. Isoler produit et lot, conserver l’emballage et les éléments de preuve, prévenir pharmacie et encadrement, puis tracer et signaler le défaut par le circuit prévu."],"sourcePage":17},{"id":"c81","num":20,"page":4,"kind":"QCM","title":"Parmi les propositions concernant les principes fondamentaux de radioprotection, laquelle ou lesquelles est (sont) vraies","session":"2021-2023","topic":"Radioprotection","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 4.4 Radio Protection","../../../cours/S1/4.4/4.4%20Radio%20Protection.pdf"]],"options":["le principe d'optimisation est un principe fondamental de radioprotection","le principe de rayonnement est un principe fondamental de radioprotection","le principe de limitation est un principe fondamental de radioprotection","le principe de justification est un principe fondamental de radioprotection","le principe de prévention est un principe fondamental de radioprotection"],"correct":"ACD","note":"Justification, optimisation et limitation structurent la radioprotection professionnelle. Limiter le temps d’exposition, augmenter la distance et utiliser des écrans.","instruction":"Cocher les propositions exactes.","sourcePage":18},{"id":"c82","num":21,"page":5,"kind":"QCM","title":"Parmi les propositions concernant l’utilisation d'un appareil de radiographie dans une salle d'opération, laquelle ou lesquelles est (sont) vraies","session":"2021-2023","topic":"Radioprotection","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 4.4 Radio Protection","../../../cours/S1/4.4/4.4%20Radio%20Protection.pdf"]],"options":["Un IADE doit porter un dosimètre passif et opérationnel sous le tablier de plomb","Un IADE doit porter un dosimètre passif à la poitrine, sous le tablier de plomb","Un IADE doit impérativement sortir de salle d'opération pendant les radiographies","Un IADE doit porter un dosimètre passif et un tablier de plomb","Un IADE doit porter un dosimètre opérationnel et un tablier de plomb"],"correct":"B","note":"Les modalités de dosimétrie et les EPI dépendent du zonage et du poste. La référence de l’énoncé est le port du dosimètre de poitrine sous le tablier lorsqu’il est prévu. Le port opérationnel suit les consignes locales.","instruction":"Cocher les propositions exactes.","sourcePage":18},{"id":"c83","num":22,"page":5,"kind":"QUESTION","title":"quelles sont les précautions d'accès pour pénétrer dans une zone radiologique?","session":"2021-2023","topic":"Radioprotection","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 4.4 Radio Protection (p. 31, à consulter)","../../../cours/S1/4.4/4.4%20Radio%20Protection.pdf#page=31"]],"options":[],"correct":"","note":"","answer":["Respecter le zonage et l’autorisation d’accès. Porter dosimétrie et protections adaptées, limiter le temps, augmenter la distance et suivre les consignes du conseiller en radioprotection."],"sourcePage":18},{"id":"c84","num":23,"page":5,"kind":"QUESTION","title":"citez trois facteurs qui influencent directement l'exposition externe au rayonnement?","session":"2021-2023","topic":"Radioprotection","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 4.4 Radio Protection (p. 18, à consulter)","../../../cours/S1/4.4/4.4%20Radio%20Protection.pdf#page=18"]],"options":[],"correct":"","note":"","answer":["Temps d’exposition, distance à la source et écrans de protection. En radiologie interventionnelle, le patient peut être la principale source de rayonnement diffusé."],"sourcePage":18},{"id":"c92","num":24,"page":5,"kind":"QUESTION","title":"citer 10 vigilances","session":"2020-2022, 2021-2023","topic":"Les vigilances","points":2,"ungraded":false,"figures":[],"refs":[["HAS · Check-list du bloc","https://www.has-sante.fr/jcms/c_2607929/fr/check-list-securite-du-patient-au-bloc-operatoire-et-son-mode-d-emploi-version-2018"]],"options":[],"correct":"","note":"","answer":["Exemples : pharmacovigilance, matériovigilance, réactovigilance, hémovigilance, biovigilance, infectiovigilance, toxicovigilance, addictovigilance, cosmétovigilance et nutrivigilance."],"sourcePage":19},{"id":"c94","num":25,"page":5,"kind":"QUESTION","title":"citer et argumenter le ou les piliers sur lesquels repose le fonctionnement des vigilances","session":"2021-2023","topic":"Les vigilances","points":2,"ungraded":false,"figures":[],"refs":[["HAS · Check-list du bloc","https://www.has-sante.fr/jcms/c_2607929/fr/check-list-securite-du-patient-au-bloc-operatoire-et-son-mode-d-emploi-version-2018"]],"options":[],"correct":"","note":"","answer":["Détecter et déclarer, documenter et analyser, décider d’actions correctives puis diffuser le retour d’expérience et vérifier l’efficacité des mesures."],"sourcePage":19}],"figures":{"4.4-7-2":"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"},"notes":["25 questions dans l’ordre du PDF. Le corrigé et le barème servent à l’entraînement."],"pdf":"Annales%202021-2023%20UE%204.4.pdf","pdfLabel":"Annales 2021-2023 UE 4.4.pdf","twoErrors":0.25,"examTotal":33,"name":"Annales 2021-2023 UE 4.4","promotion":"2021-2023","originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%204.4.pdf"};
+const normalize = text => text.normalize('NFKC').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae').replace(/[’']/g,' ').replace(/(\d),(?=\d)/g,'$1.').trim();
+const close = (a,b) => Math.abs(a-b)<1e-7;
+const round = n => Math.round(n*10000)/10000;
+const reviewOptions = [
+  ['', 'À évaluer'],
+  ['correct', 'Correcte'],
+  ['partial', 'Partielle'],
+  ['review', 'À revoir · 0 point']
+];
+
+function rubricAnalysis(raw, criteria) {
+  const input=normalize(raw);
+  const clauses=input.split(/[;!?\n]+|\.(?!\d)|\b(?:mais|cependant|pourtant)\b/).map(s=>s.trim()).filter(Boolean);
+  return criteria.map(criterion=>{
+    const yes=new RegExp(criterion.yes.trim(),'i');
+    const bad=criterion.bad ? new RegExp(criterion.bad,'i') : null;
+    const conflict=bad && clauses.find(clause=>bad.test(clause));
+    const matches=clauses.filter(clause=>yes.test(clause));
+    const negated=!criterion.allowNegation && matches.find(clause=>
+      /^(?:\w+\s+){0,5}(?:pas|aucun|aucune|non|jamais)\b|\bn\s+est\s+pas\b/.test(clause)
+    );
+    const evidence=conflict||negated||matches[0]||'';
+    const status=conflict||negated?'ambiguous':matches.length?'recognized':'missing';
+    return {...criterion,status,evidence,override:null};
+  });
+}
+
+function analysisPoints(grade) {
+  const recognized=grade.analysis.filter(c=>c.override ?? (c.status==='recognized'));
+  const earned=round(recognized.reduce((sum,c)=>sum+c.weight,0));
+  return grade.allOrNothing && !close(earned,grade.autoMax) ? 0 : earned;
+}
+
+function assessed(grade) {
+  if(grade.review==='blank' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='correct' && grade.full!=null) return {score:grade.full,max:grade.full};
+  if(grade.review==='review' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='partial' && grade.full!=null && grade.manualPoints!=null) {
+    return {score:grade.manualPoints,max:grade.full};
+  }
+  return {score:grade.analysis ? analysisPoints(grade) : grade.autoScore,max:grade.autoMax};
+}
+
+function pointsEntry(q,grade) {
+  const value=grade.manualPoints??'';
+  const hidden=grade.review!=='partial'?' hidden':'';
+  return q.kind==='QCM'
+    ? `<label data-partial="${q.id}"${hidden}>Points attribués <select data-points="${q.id}"><option value="">À saisir</option><option value="0.5"${value===.5?' selected':''}>0,5</option>${DATA.twoErrors===.25?`<option value="0.25"${value===.25?' selected':''}>0,25</option>`:''}</select></label>`
+    : `<label data-partial="${q.id}"${hidden}>Points attribués sur ${format(grade.full)} <input data-points="${q.id}" type="number" inputmode="decimal" min="0" max="${grade.full}" step="any" value="${value}"></label>`;
+}
+
+function assessmentControls(q,grade) {
+  if(grade.review==='blank') return '<p class="small">Sans réponse.</p>';
+  const partial=q.kind!=='QCU'&&!q.allOrNothing;
+  const choices=reviewOptions.filter(([key])=>partial||key!=='partial');
+  const options=choices.map(([key,label])=>`<option value="${key}"${key===grade.review?' selected':''}>${!key&&grade.analysis?'Selon l’analyse automatique':label}</option>`).join('');
+  return `<div class="self-assessment"><label for="review-${q.id}">Évalue ta réponse</label><select id="review-${q.id}" data-review="${q.id}">${options}</select>${grade.full!=null&&partial?pointsEntry(q,grade):''}</div>`;
+}
+
+const $ = id => document.getElementById(id);
+const format = (value, digits=4) => value.toLocaleString('fr-FR', {maximumFractionDigits:digits});
+const isChoice = q => q.kind === 'QCM' || q.kind === 'QCU';
+const isOpen = q => !isChoice(q) && q.kind !== 'context';
+const escape = value => String(value).replace(/[&<>"']/g, char => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]
+));
+const questionLabel = card => card.kind === 'context' ? card.title : `${card.kind} ${card.num}${card.series?' · '+card.series:''}`;
+const values = [...'ABCDEFGHIJKL'];
+
+
+const realCards=DATA.cards.filter(q=>q.kind!=='context');
+const nCh=realCards.filter(q=>q.kind==='QCM'||q.kind==='QCU').length,nOp=realCards.length-nCh;
+const nPts=Math.round(realCards.reduce((s,q)=>s+(q.points??1),0)*100)/100;
+document.title=`UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2021-2023 — ${DATA.title}`;
+$('h-eyebrow').textContent=`École IADE · UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2021-2023`;
+$('h-title').textContent=DATA.name;
+$('h-title').insertAdjacentHTML('afterend', `<p>${escape(DATA.title)}</p>`);
+$('h-stats').innerHTML=[[realCards.length,'questions'],[nCh,'QCM / QCU'],[nOp,'questions ouvertes'],[nPts.toLocaleString('fr-FR'),'points au barème']].filter(([n])=>n!==0).map(([n,t])=>`<div class="hero-stat"><b>${n}</b><span>${t}</span></div>`).join('');
+$('h-rules').innerHTML=`<p>QCM sur 1 point : une erreur ou un oubli = 0,5 point${DATA.twoErrors?`, deux erreurs ou oublis = ${String(DATA.twoErrors).replace('.',',')} point`:''}, au-delà 0. QCU sur 1 point.</p><p>Questions ouvertes : ta réponse est comparée aux éléments attendus. Si la détection n’a pas reconnu une bonne idée, clique sur <b>Valider cet élément</b> ou choisis une évaluation manuelle.</p><p>Les questions signalées « hors barème » sont consultables dans la correction. Leurs données, leur figure ou leur corrigé sont insuffisants pour attribuer une note. Les questions ouvertes sont corrigées automatiquement lorsque des critères ont pu être établis. Les autres peuvent être évaluées manuellement après lecture de la correction.</p>`;
+$('h-footer').innerHTML=`Source · <a href="${DATA.pdf}">${escape(DATA.pdfLabel)}</a> · Fonctionne hors connexion.`;
+$('h-rules').insertAdjacentHTML('beforeend',`<p>${escape(DATA.notes[0])}</p>`);
+const srcTag=q=>q.source==='corrige'?'<span class="tag-src deduit">Réponse rectifiée</span>':'';
+function sourceCopy(q) {
+  return `<p class="small source-line"><a href="${escape(DATA.pdf)}#page=${q.page}">PDF de la promotion · p. ${q.page}</a> · <a href="${escape(DATA.originalPdf)}#page=${q.sourcePage}">Recueil d’origine · p. ${q.sourcePage}</a> · ${escape(q.session)} · ${escape(q.topic)}</p>`;
+}
+function sources(q) {
+  return q.refs.length?`<ul class="small">${q.refs.map(([label,url])=>`<li><a href="${escape(url)}" target="_blank" rel="noopener">${escape(label)}</a></li>`).join('')}</ul>`:'';
+}
+function answerBox(q){
+  let list=q.answer; if(!list) return ''; if(typeof list==='string') list=[list];
+  const items=list.map(a=>{const add=a.startsWith('+');const t=add?a.replace(/^\+\s*/,''):a;return `<li class="${add?'added':''}">${escape(t)}${add?'<span class="tag-added">Complément</span>':''}</li>`;}).join('');
+  return `<div class="answer-key"><h3>Correction ${srcTag(q)}</h3><ul>${items}</ul>${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+}
+let active, grades, locked, confirmed, targeted;
+const form = $('quiz');
+function images(list, label) {
+  return list.map((item,i) => `<img loading="lazy" alt="${escape(label)}${list.length>1?' · extrait '+(i+1):''}" src="data:image/jpeg;base64,${item}">`).join('');
+}
+function scanBlock(scans, label) {
+  return `<div class="document"><div class="source-pictures" tabindex="0" aria-label="${escape(label)}">${images(scans,label)}</div><button type="button" class="secondary zoom" aria-expanded="false">Agrandir le scan</button></div>`;
+}
+function prompt(q) {
+  if(q.images) return scanBlock(q.images,questionLabel(q));
+  const table=q.table?`<div class="prompt-table">${q.table.map(cell=>`<span>${escape(cell)}</span>`).join('')}</div>`:'';
+  return `<h2 class="question-stem">${escape(q.title)}</h2>${q.text?`<p class="context-text">${escape(q.text)}</p>`:''}${q.figures.length?`<div class="q-figure">${q.figures.map((id,i)=>`<img loading="lazy" src="data:image/jpeg;base64,${DATA.figures[id]}" class="question-figure" alt="Figure ${i+1} de la question">`).join('')}</div>`:''}${q.instruction?`<p class="small">${escape(q.instruction)}</p>`:''}${table}`;
+}
+function fields(q) {
+  if (isChoice(q)) {
+    return `<div class="choices ${q.options?'written-choices':''}" role="${q.kind==='QCU'?'radiogroup':'group'}" aria-labelledby="title-${q.id}">${q.options.map((_,i)=>values[i]).map((letter,i)=>`<label class="option" id="option-${q.id}-${letter}"><input type="${q.kind==='QCU'?'radio':'checkbox'}" name="${q.id}" value="${letter}"><span><strong>${letter}</strong>${q.options?' · '+escape(q.options[i]):''}<small></small></span></label>`).join('')}</div>`;
+  }
+  return `<div class="field"><textarea id="answer-${q.id}" aria-labelledby="title-${q.id}" rows="5" placeholder="Ta réponse…"></textarea></div>`;
+}
+function render() {
+  $('cards').innerHTML = active.map((q, index) => {
+    const section = q.kind === 'context' ? '<span>Dossier</span>' : `<span>${q.ungraded?'Hors barème':format(q.points)+' pt'} · ${escape(q.session)} · PDF p. ${q.page}</span>`;
+    const anchor = active.findIndex(card=>card.kind===q.kind)===index ? ` id="section-${q.kind}"` : '';
+    return `<section class="card"${anchor} data-card="${q.id}"><div class="meta"><strong id="title-${q.id}">${escape(questionLabel(q))}</strong>${section}</div>${prompt(q)}${q.kind==='context'?'':fields(q)+`<div class="feedback" id="feedback-${q.id}" hidden></div>`}</section>`;
+  }).join('');
+  for(const link of document.querySelectorAll('[data-kind]')){
+    const kind=link.dataset.kind;
+    const index=active.findIndex(q=>kind==='open'?isOpen(q):q.kind===kind);
+    link.hidden=index<0;
+    if(index>=0) link.hash='section-'+active[index].kind;
+  }
+}
+function response(q) {
+  if (isChoice(q)) {
+    return [...form.querySelectorAll(`[name="${q.id}"]:checked`)].map(input=>input.value);
+  }
+  return $(`answer-${q.id}`).value.trim();
+}
+function progress() {
+  const current=active.filter(q=>q.kind!=='context');
+  const count=current.filter(q=>response(q).length>0).length;
+  $('progress').textContent=`${count} / ${current.length} questions renseignées`;
+  $('bar').max=current.length;
+  $('bar').value=count;
+}
+function compute(q, answers) {
+  if (!q.correct) return {autoMax:0,autoScore:0};
+  const errors=values.slice(0,q.options.length).filter(letter=>answers.includes(letter)!==q.correct.includes(letter)).length;
+  const points=q.kind==='QCU' ? Number(errors===0) : answers.length===0 ? 0 : [1,.5,DATA.twoErrors][errors] ?? 0;
+  return {autoMax:1,autoScore:points};
+}
+function rubricPanel(q, grade) {
+  if(!grade.analysis) return `<p class="small">Évalue ta réponse à partir des éléments du corrigé.${q.allOrNothing?' Barème tout ou rien.':''}</p>`;
+  const status={recognized:'Reconnu',missing:'À compléter',ambiguous:'À vérifier'};
+  const items=grade.analysis.map((c,i)=>{
+    const description=c.override===null?status[c.status]:c.override?'Validé manuellement':'Retiré manuellement';
+    const evidence=c.evidence?`<span class="evidence">${escape(c.evidence.slice(0,180))}</span>`:'';
+    const button=grade.review==='blank'?'':`<button type="button" data-criterion="${q.id}:${i}">${c.override!==null?'Rétablir l’analyse':c.status==='recognized'?'Retirer cet élément':'Valider cet élément'}</button>`;
+    return `<div class="criterion"><span class="badge ${c.status==='recognized'?'':'missing'}">${description}</span><strong>${escape(c.label)}</strong> · ${format(c.weight)} pt${evidence}${button}</div>`;
+  }).join('');
+  return `<div id="analysis-${q.id}"><strong>Analyse automatique · ${format(analysisPoints(grade))} / ${format(grade.autoMax)} points${grade.full>grade.autoMax?' vérifiables':''}</strong>${grade.allOrNothing?'<p class="small">Barème tout ou rien pour cette question.</p>':''}${items}</div>`;
+}
+function correction(q) {
+  const given=response(q);
+  const grade={full:q.points,autoMax:0,autoScore:0,ungraded:q.ungraded};
+  if(isChoice(q)){
+    Object.assign(grade,compute(q,given));
+    if(!q.correct) grade.review=given.length?'':'blank';
+    for(const letter of values.slice(0,q.options.length)){
+      const row=$(`option-${q.id}-${letter}`);
+      row.querySelector('input').disabled=true;
+      if(!q.correct) continue;
+      const checked=given.includes(letter);
+      const good=q.correct.includes(letter);
+      row.classList.add(good?checked?'right':'missed':checked?'wrong':'unused');
+      row.querySelector('small').textContent=good?checked?'Validée':'Oubliée':checked?'Fausse':'';
+    }
+  }else{
+    $(`answer-${q.id}`).readOnly=true;
+    grade.review=given?'':'blank';
+    if(!q.ungraded&&q.criteria?.length){
+      grade.analysis=rubricAnalysis(given,q.criteria);
+      grade.autoMax=round(q.criteria.reduce((sum,c)=>sum+c.weight,0));
+      grade.allOrNothing=q.allOrNothing;
+    }
+  }
+  grades.set(q.id,grade);
+  const panel=$(`feedback-${q.id}`);
+  panel.hidden=false;
+  if (isOpen(q)) {
+    panel.innerHTML=`${answerBox(q)}${sources(q)}${q.ungraded?'<p class="small">Question hors barème.</p>':rubricPanel(q,grade)+assessmentControls(q,grade)}${sourceCopy(q)}`;
+    return;
+  }
+  const answers=q.correct.split('').filter(Boolean).map(letter=>q.options[values.indexOf(letter)]);
+  const key=`<strong>${q.ungraded?'Hors barème':format(grade.autoScore)+' / 1 point'}</strong><div class="answer-key" style="margin-top:10px"><h3>${q.ungraded?'Éléments pour vérifier':'Correction'}</h3>${answers.length?`<ul class="correct-options">${answers.map(a=>`<li>${escape(a)}</li>`).join('')}</ul>`:''}${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+  panel.innerHTML=key+sources(q)+sourceCopy(q);
+}
+function isComplete(grade) {
+  const {score,max}=assessed(grade);
+  return !grade.ungraded&&(grade.review==='correct'||(grade.full!=null&&close(max,grade.full)&&close(score,max)));
+}
+function applyFilter() {
+  const filter=$('filter').value==='imperfect';
+  for(const q of active){
+    const card=form.querySelector(`[data-card="${q.id}"]`);
+    const grade=grades.get(q.id);
+    card.hidden=filter&&Boolean(grade)&&isComplete(grade);
+  }
+}
+function tally() {
+  const list=[...grades.values()];
+  const points=list.map(assessed);
+  const sum=round(points.reduce((acc,g)=>acc+g.score,0));
+  const max=round(points.reduce((acc,g)=>acc+g.max,0));
+  const available=round(list.reduce((acc,g)=>acc+(g.full??0),0));
+  const paper=available;
+  const remaining=Math.max(0,round(paper-max));
+  const manual=$('global-mark');
+  const globalScore=manual&&manual.value!==''&&manual.validity.valid?Number(manual.value):null;
+  $('score').textContent=max>0?`${format(20*sum/max,2)} / 20`:globalScore!==null?`${format(globalScore,2)} / 20`:'Note sur 20 à établir';
+  $('summary').textContent=max>0
+    ? `${format(sum)} / ${format(max)} points évalués.${remaining>0?` Note provisoire · ${format(remaining)} points du barème restent à évaluer.`:''}`
+    : globalScore!==null?'Note globale saisie manuellement.':'Aucun point évaluable automatiquement ou manuellement pour l’instant.';
+  const adjusted=list.some(g=>g.review && g.review!=='blank' || g.analysis?.some(c=>c.override!==null));
+  if(adjusted) $('summary').textContent+=' Note ajustée.';
+  const incomplete=list.filter((g,i)=>g.full!=null&&g.full>points[i].max).length;
+  $('manual-summary').textContent=incomplete
+    ? `Complète la correction manuelle pour ${incomplete} question${incomplete===1?'':'s'}.`:'';
+  $('retry').disabled=list.every(g=>g.ungraded||isComplete(g));
+  applyFilter();
+}
+function submit() {
+  if(locked) return;
+  const current=active.filter(q=>q.kind!=='context');
+  const missing=current.filter(q=>!q.ungraded&&!response(q).length).length;
+  if(missing&&!confirmed){
+    $('message').textContent=`${missing} question(s) sans réponse. Clique de nouveau pour corriger la tentative.`;
+    confirmed=true;
+    return;
+  }
+  locked=true;
+  current.forEach(correction);
+  $('results').hidden=false;
+  $('filters').hidden=false;
+  $('submit').hidden=true;
+  $('mode').textContent='Corrigé';
+  $('message').textContent='';
+  tally();
+  $('results').focus();
+  $('results').scrollIntoView({block:'start'});
+}
+function shuffledCard(q) {
+  if (!isChoice(q)) return q;
+  const indexes=q.options.map((_,i)=>i);
+  for(let i=indexes.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [indexes[i],indexes[j]]=[indexes[j],indexes[i]];
+  }
+  const correct=indexes.map((index,i)=>q.correct.includes(values[index])?values[i]:'').join('');
+  return {...q,options:indexes.map(i=>q.options[i]),correct};
+}
+function start(retry=false) {
+  const keep=retry?new Set([...grades].filter(([,g])=>!g.ungraded&&!isComplete(g)).map(([id])=>id)):null;
+  targeted=retry;
+  if($('global-mark'))$('global-mark').value='';
+  active=DATA.cards.filter(q=>(!$('topic').value||q.topic===$('topic').value)&&(!keep||keep.has(q.id))).map(shuffledCard);
+  grades=new Map();
+  locked=false;
+  confirmed=false;
+  $('results').hidden=true;
+  $('filters').hidden=true;
+  $('submit').hidden=false;
+  $('message').textContent='';
+  $('mode').textContent=retry?'Reprise ciblée':'Entraînement';
+  $('filter').value='all';
+  render();
+  progress();
+  if(retry) window.scrollTo(0,0);
+}
+form.addEventListener('submit', e=>{e.preventDefault(); submit();});
+form.addEventListener('input',()=>{if(locked)return; confirmed=false; $('message').textContent=''; progress();});
+form.addEventListener('change',event=>{
+  const field=event.target.closest('[data-review],[data-points]');
+  if(!locked||!field)return;
+  const id=field.dataset.review??field.dataset.points;
+  const grade=grades.get(id);
+  if(field.hasAttribute('data-review')){
+    grade.review=field.value;
+    const partial=form.querySelector(`[data-partial="${id}"]`);
+    if(partial)partial.hidden=field.value!=='partial';
+  }else{
+    const value=field.value===''?null:Number(field.value);
+    grade.manualPoints=Number.isFinite(value)&&value>=0&&value<=grade.full?value:null;
+  }
+  tally();
+});
+$('global-mark')?.addEventListener('input',tally);
+form.addEventListener('click',event=>{
+  const criterion=event.target.closest('[data-criterion]');
+  if(locked&&criterion){
+    const [id,index]=criterion.dataset.criterion.split(':');
+    const grade=grades.get(id);
+    const item=grade.analysis[Number(index)];
+    item.override=item.override===null?item.status!=='recognized':null;
+    const q=active.find(card=>card.id===id);
+    $('analysis-'+id).outerHTML=rubricPanel(q,grade);
+    form.querySelector(`[data-criterion="${id}:${index}"]`)?.focus({preventScroll:true});
+    tally();
+    return;
+  }
+  const button=event.target.closest('.zoom');
+  if(!button)return;
+  const enlarged=button.closest('.document').classList.toggle('enlarged');
+  button.setAttribute('aria-expanded',String(enlarged));
+  button.textContent=enlarged?'Réduire le scan':'Agrandir le scan';
+});
+$('filter').addEventListener('change',applyFilter);
+$('reset').addEventListener('click',()=>{start(); window.scrollTo(0,0);});
+$('retry').addEventListener('click',()=>start(true));
+for(const topic of new Set(DATA.cards.map(q=>q.topic))) $('topic').add(new Option(topic,topic));
+$('topic').addEventListener('change',()=>start());
+start();
+</script>
+<!-- Statistiques anonymes Mémo (GoatCounter, sans cookies) -->
+<script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"path":"/annales-nf/S1/4.4-2021-2023","title":"Annales non officielles 2021-2023 UE 4.4 S1"}' async src="//gc.zgo.at/count.js"></script></body></html>
