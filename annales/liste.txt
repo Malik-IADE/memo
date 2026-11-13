@@ -1,15 +1,24 @@
-// Annales interactives, une par UE et par semestre.
+// Annales interactives, rangées par semestre puis par UE.
 // Une ligne = « S1/3.3.html | titre affiché ». Le fichier HTML est dans annales/S1/3.3.html.
-S1/2.1.html | Physique, biophysique, chimie, biochimie et biologie
-S1/2.2.html | Physiologie, physiopathologie, clinique et biologie
-S1/2.3.html | Pharmacologie générale
-S1/2.4.html | Pharmacologie spécifique à l'anesthésie et l'urgence
-S1/3.1.html | Les techniques d'anesthésie, réanimation et urgences, principes et mises en œuvre
-S1/3.3.html | Les modalités spécifiques d'anesthésie, réanimation et urgence dans les différents types d'intervention
-S1/4.4.html | Vigilances
-S1/6.1.html | Intégration des savoirs
-S2/2.1.html | Physique, biophysique, chimie, biochimie et biologie
-S2/2.2.html | Physiologie, physiopathologie, clinique et biologie
-S2/2.4.html | Pharmacologie spécifique à l'anesthésie et l'urgence
-S2/3.2.html | Les techniques d'anesthésie, réanimation et urgences, principes et mises en œuvre
-S2/3.3.html | Les modalités spécifiques d'anesthésie, réanimation et urgence dans les différents types d'intervention
+// Le semestre et l'UE sont lus au début du chemin (« S1/3.3… » → semestre S1, UE 3.3).
+// Une UE peut avoir plusieurs annales : ajoutez un suffixe au nom du fichier (ex. 3.3-2013-2015.html).
+S1/2.2-2013-2015.html | Annales 2013-2015 UE 2.2
+S1/2.3-2013-2015.html | Annales 2013-2015 UE 2.3
+S1/2.4-2013-2015.html | Annales 2013-2015 UE 2.4
+S1/3.1-2013-2015.html | Annales 2013-2015 UE 3.1
+S1/3.3-2013-2015.html | Annales 2013-2015 UE 3.3
+S1/4.4-2013-2015.html | Annales 2013-2015 UE 4.4
+S1/6.1-2013-2015.html | Annales 2013-2015 UE 6.1
+S1/2.1.html | Annales 2022-2024 UE 2.1
+S1/2.2.html | Annales 2022-2024 UE 2.2
+S1/2.3.html | Annales 2022-2024 UE 2.3
+S1/2.4.html | Annales 2022-2024 UE 2.4
+S1/3.1.html | Annales 2022-2024 UE 3.1
+S1/3.3.html | Annales 2022-2024 UE 3.3
+S1/4.4.html | Annales 2022-2024 UE 4.4
+S1/6.1.html | Annales 2022-2024 UE 6.1
+S2/2.1.html | Annales 2022-2024 UE 2.1
+S2/2.2.html | Annales 2022-2024 UE 2.2
+S2/2.4.html | Annales 2022-2024 UE 2.4
+S2/3.2.html | Annales 2022-2024 UE 3.2
+S2/3.3.html | Annales 2022-2024 UE 3.3
