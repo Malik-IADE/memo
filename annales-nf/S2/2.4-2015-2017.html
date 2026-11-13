@@ -1,0 +1,419 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UE 2.4 · S2 · Promotion 2015-2017 — Pharmacologie spécifique à l'anesthésie et l'urgence</title><style>
+:root{--ink:#24302f;--muted:#677472;--green:#195b4a;--paper:#f7f6f1;--line:#dce3dd;--good:#1d7252;--warn:#925b17;--bad:#a43848}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:960px;margin:auto;padding:44px 22px 60px}header{padding-bottom:30px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:750;color:var(--green)}h1{font:500 clamp(38px,7vw,62px)/1.08 Georgia,serif;margin:16px 0}h1 em{color:var(--green)}h2{font-size:21px;line-height:1.4;margin:10px 0 14px}p{margin:10px 0}.intro{max-width:680px;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:6px 12px;background:white}.progress{display:flex;justify-content:space-between;gap:12px;padding:19px 0;font-size:13px;color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:18px}.meta{display:flex;justify-content:space-between;gap:10px;color:var(--green);font-size:12px;font-weight:750;letter-spacing:1px;text-transform:uppercase}.hint,.small{font-size:13px;color:var(--muted)}textarea,input{font:inherit;color:var(--ink);border:1px solid #bccbc1;border-radius:10px;background:#fcfdfb}textarea{display:block;width:100%;resize:vertical;min-height:110px;padding:14px;margin-top:10px}textarea:focus,input:focus{outline:3px solid #c1ddce;outline-offset:2px;border-color:var(--green)}button{font:650 15px system-ui;min-height:46px;padding:12px 18px;border:0;border-radius:10px;background:var(--green);color:white;cursor:pointer}button.secondary{background:#e8eee7;color:var(--green)}button:focus-visible,a:focus-visible{outline:3px solid #d69f43;outline-offset:3px}button:disabled{opacity:.5;cursor:default}.actions{display:flex;gap:10px;flex-wrap:wrap}.feedback{background:#f5f8f3;border-radius:12px;padding:18px;margin-top:18px;font-size:14px}.feedback ul{padding-left:20px;margin:10px 0}.feedback li{margin:6px 0}.good{color:var(--good)}.missing{color:var(--warn)}.bad{color:var(--bad)}.answer{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.card.perfect{border-color:#86b49a}.card.imperfect{border-color:#d6bb85}[hidden]{display:none!important}.scorebox{background:#195b4a;color:white;border-radius:18px;padding:26px;margin-bottom:24px;scroll-margin-top:16px}.scorebox .eyebrow{color:#bedccc}.score{font:500 48px Georgia,serif;line-height:1.2;margin:14px 0}.scorebox p{color:#e1eee5}.scorebox button{background:white;color:var(--green)}.scorebox button.secondary{background:#376f5d;color:white}.diagram-scroll{margin:18px -8px 0;overflow-x:auto}.diagram{position:relative;min-width:560px;width:100%;aspect-ratio:900/540;background:#fafbf8;border-radius:12px}.diagram svg{display:block;width:100%;height:100%}.callout{position:absolute;width:23%;transform:translateY(-50%);z-index:1}.callout label{display:block;font-size:12px;font-weight:750;color:var(--green);margin-bottom:4px}.callout input{width:100%;padding:10px 8px;font-size:clamp(12px,1.6vw,15px);min-height:44px;background:white}.callout.a{left:2%;top:32%}.callout.b{right:2%;top:32%}.callout.c{left:2%;top:71%}.callout.d{right:2%;top:71%}.diagram input.correct{border:2px solid var(--good)}.diagram input.wrong{border:2px solid var(--bad)}.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}.dot{width:9px;height:9px;display:inline-block;border-radius:50%;margin-right:6px}.explain{padding:18px 0;color:var(--muted);font-size:13px}.explain summary{cursor:pointer;color:var(--green);font-weight:650}footer{color:var(--muted);font-size:12px;margin-top:30px}a{color:var(--green)}@media(max-width:600px){main{padding:25px 14px 40px}.card{padding:20px 16px}h2{font-size:19px}.diagram-scroll{margin-right:-8px;margin-left:-8px}.progress{font-size:12px}.scorebox{padding:22px}.mobile-note{display:block}}@media(min-width:601px){.mobile-note{display:none}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.option{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:10px;margin:9px 0;cursor:pointer}.option input{width:20px;height:20px;margin:4px 0 0;flex-shrink:0;accent-color:var(--green)}.option:has(input:checked){background:#eff5ef}.option.right,.option.right:has(input:checked){border:2px solid #32815b;background:#e2f3e7;color:#155338}.option.wrong,.option.wrong:has(input:checked){border:2px solid #c73c3c;background:#ffe0e0;color:#9b1717}.option.missed{border:2px solid #d49a13;background:#fff0a6;color:#684400}.option.right input{accent-color:#32815b}.option.wrong input{accent-color:#c73c3c}.option small{display:block;font-weight:650}.section-title{font:500 29px Georgia,serif;margin:32px 0 17px;scroll-margin-top:18px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.nav a{padding:7px 14px;border:1px solid var(--line);border-radius:30px;text-decoration:none;font-size:13px;background:white}.rubric{background:#eaf0e8;border-radius:12px;padding:16px;margin-top:18px;font-size:14px}.evidence{font-size:12px;color:var(--muted);display:block;margin-top:3px}.criterion{padding:10px 0;border-bottom:1px solid var(--line)}.criterion:last-child{border:0}.badge{display:inline-block;font-size:11px;font-weight:750;border-radius:20px;padding:3px 8px;background:#e4efe6;margin-right:5px}.badge.bad{background:#f6e0e4}.badge.missing{background:#f7ecd2}.criterion button{padding:7px 9px;min-height:34px;font-size:12px;margin-top:7px;background:#e2ebe1;color:var(--green)}.details-grid{display:flex;gap:12px;flex-wrap:wrap;margin:15px 0}.details-grid span{background:#ffffff15;border-radius:8px;padding:8px 13px;font-size:14px}.review{background:#fff5da;border-radius:10px;padding:12px;font-size:13px;margin-top:14px}.meta span:last-child{white-space:nowrap}.feedback blockquote{margin:4px 0;padding-left:12px;border-left:2px solid var(--line)}
+
+.option input[type=radio]{border-radius:50%;width:20px;height:20px;flex-shrink:0;accent-color:var(--green)}.field{margin:18px 0}.field>label{display:block;font-weight:650;font-size:14px}.field textarea{min-height:76px;line-height:1.5}.field textarea[readonly]{background:#f3f5f1}.nav{position:sticky;top:0;z-index:3;background:#f7f6f1f5;padding:10px 0;backdrop-filter:blur(8px)}.question-progress{height:7px;width:100%;accent-color:var(--green);margin-bottom:20px}.filter-bar{margin-bottom:18px}select{font:inherit;max-width:100%;padding:9px;background:white;border:1px solid var(--line);border-radius:10px}.notice{color:var(--warn);font-weight:650}.correction-info{border-left:3px solid #c4ad65;padding-left:13px}textarea{overflow-wrap:anywhere}.meta{letter-spacing:.5px}.meta span:first-child{min-width:0}footer{border-top:1px solid var(--line);padding-top:18px}.rubric p{margin-bottom:0}.section-title{scroll-margin-top:80px}.scorebox{scroll-margin-top:78px}.subtitle{font-size:18px;color:var(--green)}.card{scroll-margin-top:80px}@media print{.nav,.actions,.filter-bar,.question-progress,.progress,.rubric,button{display:none!important}.card{break-inside:avoid;border-radius:0}body{background:white}main{padding:0}textarea{border:0;min-height:80px}}
+.nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.nav a{font-size:14px;font-weight:650;text-decoration:none;min-height:38px;display:inline-flex;align-items:center}.meta span:last-child{white-space:nowrap}.criterion button{white-space:normal;text-align:left;max-width:100%}@media(max-width:600px){.nav{gap:6px 16px}.nav a{font-size:13px}.meta{letter-spacing:0;flex-wrap:wrap}.score{font-size:43px}.card,.section-title,.scorebox{scroll-margin-top:120px}}
+
+.question-stem,.prompt-table span{white-space:pre-line}
+.prompt-table{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.prompt-table span{border:1px solid #cedad0;padding:.6rem}
+.self-assessment input,#global-mark{font:inherit;width:5rem;border:1px solid #96ada1;border-radius:.4rem;padding:.3rem}
+.document{margin:.3rem 0 .85rem}
+.source-pictures{background:#fff;border:1px solid #cedad0;border-radius:8px;overflow:auto;max-width:100%;padding:.25rem}
+.source-pictures img{display:block;width:100%;height:auto;margin:0 auto}
+.source-pictures img+img{margin-top:.2rem}
+.enlarged .source-pictures img{width:max(100%,870px);max-width:none}
+.zoom{margin:.4rem 0 0;font-size:.84rem;padding:.38rem .7rem}
+.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.42rem}
+.choices .option{align-items:flex-start;margin:0;padding:.65rem .38rem;gap:.35rem;min-height:3rem}
+.choices .option small{font-size:.71rem;line-height:1.2}
+.option.wrong:has(input:checked){background:#ffe3e5;border-color:#ac434e;color:#681f2a}
+.option.right:has(input:checked){background:#e2f3e6;border-color:#288253;color:#124b2c}
+.option.missed{background:#fff2c6;border-color:#a27410;color:#654503}
+.feedback details summary{cursor:pointer;color:#14563e;font-weight:650;margin:.4rem 0}
+.score{font-size:clamp(1.55rem,4.5vw,2.5rem)}
+.card{scroll-margin-top:1rem}
+@media(max-width:420px){.choices{gap:.2rem}.choices .option{padding:.5rem .25rem;gap:.24rem}.choices input{margin:0}}
+.choices.written-choices{display:block}
+.choices.written-choices .option{padding:.65rem;margin:.4rem 0}
+.self-assessment{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:.8rem 0}
+.self-assessment label{font-weight:650}
+.self-assessment select{font:inherit;color:#24302f;background:#fff;border:1px solid #96ada1;border-radius:.4rem;padding:.35rem .55rem}
+.copy-answer{margin:.7rem 0 .3rem;font-weight:650}
+#manual-summary{font-size:.95rem}
+#manual-summary:empty{display:none}
+
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#123f35 0%,#195b4a 55%,#2b7a62 100%);color:#fff;border-radius:22px;padding:30px 30px 24px;margin-bottom:8px;box-shadow:0 10px 30px rgba(25,91,74,.18)}
+.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.14),rgba(255,255,255,0) 70%)}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hero .eyebrow{color:#bfe3d3}
+.hero-tag{font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:5px 11px;border-radius:30px}
+.hero h1{color:#fff;margin:14px 0 8px;font-size:clamp(32px,6vw,50px)}
+.hero-sub{color:#d6ece2;margin:0 0 20px;max-width:640px;font-size:15px}
+.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.hero-stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:12px 14px}
+.hero-stat b{display:block;font:500 28px/1.1 Georgia,serif;color:#fff}
+.hero-stat span{font-size:12.5px;color:#cfe7dc}
+.hero-rules{margin-top:16px;background:rgba(0,0,0,.14);border-radius:12px;padding:0 14px;font-size:14px;color:#e3f1ea}
+.hero-rules summary{cursor:pointer;padding:11px 0;font-weight:650;color:#fff}
+.hero-rules p{margin:0 0 10px}
+.hero-rules b{color:#fff}
+.answer-key{background:#eaf4ec;border:1px solid #bfdcc8;border-radius:12px;padding:14px 16px;margin:4px 0 14px}
+.answer-key h3{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#1d7252;margin:0 0 8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.answer-key ul{margin:0;padding-left:20px}.answer-key li{margin:5px 0}
+.answer-key li.added{color:#2d3f8f}
+.tag-added{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;text-transform:uppercase;background:#e4e8fb;color:#3b4aa8;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag-src{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;border-radius:6px;padding:2px 7px;background:#fff;color:#677472;border:1px solid #dce3dd;text-transform:uppercase}
+.tag-src.deduit{background:#f7ecd2;color:#925b17;border-color:#ebd6a8}
+.key-letters{font-size:17px;font-weight:700;color:#155338}
+.answer-note{font-size:13.5px;color:#55625f;margin:8px 0 0}
+@media(max-width:600px){.hero{padding:22px 18px 18px;border-radius:18px}.hero-stat b{font-size:24px}}
+.context-text{white-space:pre-line;background:#fbf7ec;border-left:3px solid #c4ad65;border-radius:8px;padding:12px 14px;margin:6px 0 4px}
+.q-figure{margin:10px 0 6px}.q-figure img{display:block;max-width:100%;height:auto;border:1px solid #dce3dd;border-radius:10px;background:#fff}
+.source-copy{margin:10px 0}.source-copy summary{cursor:pointer;font-weight:650;color:var(--green)}
+.source-copy img{max-width:100%;height:auto}.source-copy p{margin:6px 0 12px}
+.option input:disabled{cursor:default}.question-stem{white-space:pre-line}
+.source-copy ul{padding-left:1.5em}.source-copy .source-pictures{max-height:none}.question-figure{max-height:390px;object-fit:contain}
+
+#topic-control{margin:14px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#topic{max-width:100%;min-width:0;width:min(100%,30rem);text-overflow:ellipsis}.question-stem,.option span,.answer-key{overflow-wrap:anywhere}.option span{min-width:0}.meta{flex-wrap:wrap;gap:4px 10px}.meta span:last-child{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.q-figure img{margin:8px 0;max-height:520px;object-fit:contain}
+.correct-options{margin:6px 0;padding-left:22px}.source-line{margin-top:12px}
+.q-figure img{max-height:none}.question-stem{white-space:pre-line}</style></head><body><nav id="memo-back" style="position:sticky;top:0;z-index:1000;display:flex;align-items:center;gap:10px;padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:rgba(247,246,241,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid #dce3dd;font:600 15px/1.2 system-ui,-apple-system,sans-serif"><a href="../../#/annales-nf/S2/2.4" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:#195b4a;color:#fff;text-decoration:none">&#8592; Retour à Mémo</a><span style="color:#677472;font-size:13px">UE 2.4 · Semestre 2 · Promotion 2015-2017</span></nav><script>(function(){var bar=document.getElementById('memo-back');if(!bar)return;function place(){var h=bar.offsetHeight,extra=0;document.querySelectorAll('body *').forEach(function(el){if(bar.contains(el))return;var cs=getComputedStyle(el);if(cs.position!=='sticky')return;if(el.dataset.memoTop===undefined)el.dataset.memoTop=parseFloat(cs.top)||0;var t=h+Number(el.dataset.memoTop);el.style.top=t+'px';extra=Math.max(extra,t+el.offsetHeight);});document.documentElement.style.scrollPaddingTop=(Math.max(h,extra)+8)+'px';}place();addEventListener('resize',place);addEventListener('load',place);})();</script><main>
+<header class="hero">
+<div class="hero-top"><span class="eyebrow" id="h-eyebrow"></span><span class="hero-tag">Promotion 2015-2017</span></div>
+<h1 id="h-title"></h1>
+<p class="hero-sub">Entraînement interactif · réponds à toutes les questions puis valide pour voir la correction détaillée.</p>
+<div class="hero-stats" id="h-stats"></div>
+<details class="hero-rules"><summary>Barème et fonctionnement</summary><div id="h-rules"></div></details>
+</header>
+<div class="filter-bar" id="topic-control"><label for="topic">Thème</label><select id="topic"><option value="">Tout le programme</option></select></div>
+<nav class="nav" aria-label="Navigation du quiz">
+<a data-kind="context" href="#section-context" hidden>Dossiers</a>
+<a data-kind="QCM" href="#section-QCM" hidden>QCM</a>
+<a data-kind="QCU" href="#section-QCU" hidden>QCU</a>
+<a data-kind="open" href="#section-QROC" hidden>Questions ouvertes</a>
+<a href="#submit">Corriger</a>
+</nav>
+<div class="progress"><span id="progress" aria-live="polite"></span><span id="mode"></span></div>
+<progress id="bar" class="question-progress" max="10" value="0" aria-label="Questions renseignées"></progress>
+<section id="results" class="scorebox" hidden tabindex="-1" aria-label="Résultat">
+<div class="score" id="score"></div><p id="summary"></p><p id="manual-summary" aria-live="polite"></p>
+<div class="actions"><button id="reset" type="button">Tout recommencer</button><button id="retry" class="secondary" type="button">Reprendre les questions imparfaites ou à vérifier</button></div></section>
+<div class="filter-bar" id="filters" hidden><label for="filter">Afficher</label>
+<select id="filter"><option value="all">Toutes les questions</option><option value="imperfect">Imparfaites ou à vérifier</option></select></div>
+<form id="quiz" novalidate><div id="cards"></div><p class="notice" id="message" role="status"></p><div class="actions"><button type="submit" id="submit">Valider et voir les réponses</button></div></form>
+<footer id="h-footer"></footer>
+</main><noscript><p>Active JavaScript pour répondre au partiel.</p></noscript><script>const DATA={"semester":2,"ue":"2.4","title":"Pharmacologie spécifique à l'anesthésie et l'urgence","name":"Annales 2015-2017 UE 2.4","promotion":"2015-2017","cards":[{"title":"Parmi ces propositions concernant les anesthésiques locaux, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Un anesthésique local est une substance dérivée de la morphine","Un anesthésique local bloque la conduction axonale","Un anesthésique local favorise l’entrée du sodium dans la cellule","Un anesthésique local inhibe les canaux potassiques","Un anesthésique local ralentit la dépolarisation des fibres nerveuses"],"kind":"QCM","unit":"2.4","sourcePage":5,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 15","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=15"]],"correct":"BE","note":"","optionNotes":[["Un anesthésique local favorise l’entrée du sodium dans la cellule","bloque"],["Un anesthésique local inhibe les canaux potassiques","Sodiques"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c1","num":1,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Parmi ces propositions concernant la lidocaïne, laquelle ou lesquelles est (sont) vraie(s) ?","options":["La lidocaïne est très liposoluble","La lidocaïne possède une fixation protéique faible","La lidocaïne a un délai d'action court","La lidocaïne possède des propriétés anti arythmiques","La lidocaïne peut entraîner une vasodilatation à faibles concentrations"],"kind":"QCM","unit":"2.4","sourcePage":5,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 15","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=15"]],"correct":"BCD","note":"","optionNotes":[["La lidocaïne est très liposoluble","faible"],["La lidocaïne peut entraîner une vasodilatation à faibles concentrations","Fortes"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c2","num":2,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Parmi ces propositions concernant la bupivacaïne, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Elle est très liposoluble","Elle possède une fixation protéique élevée","Elle a une demi-vie courte","Elle possède une forte toxicité cardiaque","Elle possède une forte toxicité neurologique"],"kind":"QCM","unit":"2.4","sourcePage":6,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 15","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=15"]],"correct":"ABD","note":"","optionNotes":[["Elle a une demi-vie courte","150 min"],["Elle possède une forte toxicité neurologique","Cardiaque"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c3","num":3,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Parmi ces propositions concernant l’intralipide 20%, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Ils sont le traitement de choix d’une intoxication systémique aux anesthésiques locaux","Ils ne sont efficaces que sur la toxicité cardiaque des anesthésiques locaux","La dose d'intralipide à injecter, en cas d'intoxication aux anesthésiques locaux, est de 4 mg / kg","Les intralipides majorent le risque infectieux","Les intralipides majorent le risque d'emboles et de thrombophlébite"],"kind":"QCM","unit":"2.4","sourcePage":6,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 15","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=15"]],"correct":"ADE","note":"","optionNotes":[["La dose d'intralipide à injecter, en cas d'intoxication aux anesthésiques locaux, est de 4 mg / kg","3 ml/kg"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c4","num":4,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Compléter le tableau suivant Nom commercial Durée d'action Dose maximum Lidocaïne Bupivacaïne Ropivacaïne Mépivacaïne Lévobupivacaïne","options":[],"kind":"QUESTION","unit":"2.4","sourcePage":8,"topic":"Anesthesiques locaux","session":"2015-2017","figures":["2.4-8-72.7-0"],"ue":"2.4","refs":[["Corrigé d’époque · p. 32","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=32"],["Cours à consulter · 3.1 Processus d'anesthésie avec notes (p. 149)","../../../cours/S1/3.1/3.1%20Processus%20d%27anesthe%CC%81sie%20avec%20notes.pdf#page=149"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["DCI Nom commercial Durée d'action Dose maximum Lidocaïne Xylocaine 1h30 - 2h 5mg/kg - 350mg Bupivacaïne Marcaine 3h - 3h30 2mg/kg - 175mg Ropivacaïne Naropéine 2h30 - 3h 3mg/kg - 200mg Mépivacaïne Carbocaine 2h - 3h 5mg/kg - 350mg Lévobupivacaïne Chirocaine 3h - 3h30 2mg/kg - 200mg"],"points":2,"instruction":"","id":"c5","num":5,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Citer 2 adjuvants possibles à un anesthésique local. Préciser l'intérêt d'utiliser un adjuvant","options":[],"kind":"QUESTION","unit":"2.4","sourcePage":8,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 33","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=33"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["- Adrénaline avec la lidocaïne :","- Ralentissement de la vitesse de résorption par vasoconstriction","- Diminution du pic plasmatique","- Injection intravasculaire symbolisée par une tachycardie +++ (Intérêt du monitorage +++)","- Clonidine :","- Inhibe les neurones nociceptifs","- Diminue le délai d’installation du bloc","- Augmente la durée du bloc","- Attention risque d'hypotension artérielle, sédation","- Dexaméthasone :","- Diminution du délai d’installation","- Prolonge la durée du bloc","- Mais pas d’effet sur les NVPO si utilisation locale","- Par voie systémique ou locale"],"points":2,"instruction":"","id":"c6","num":6,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Citer 4 facteurs influant sur l'absorption systémique d'un anesthésique local","options":[],"kind":"QUESTION","unit":"2.4","sourcePage":8,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 33","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=33"],["Cours à consulter · 3.1 Processus d'anesthésie avec notes (p. 149)","../../../cours/S1/3.1/3.1%20Processus%20d%27anesthe%CC%81sie%20avec%20notes.pdf#page=149"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["- Utilisation ou non d’un adjuvant vasoconstricteur","- Age","- Site d’injection (plus ou moins vascularisé)","- Dose injectée"],"points":2,"instruction":"","id":"c7","num":7,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Énoncer les signes de toxicité cardiaque des anesthésiques locaux","options":[],"kind":"QUESTION","unit":"2.4","sourcePage":8,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 33","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=33"],["Cours à consulter · 2.3 pharmaco générale avec notes (p. 98)","../../../cours/S1/2.3/2.3%20pharmaco%20ge%CC%81ne%CC%81rale%20avec%20notes.pdf#page=98"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["- Bradycardie","- Allongement de l’espace PR et du QRS","- Tachycardie","- Troubles du rythme : TV, FV voire asystolie et ACR"],"points":2,"instruction":"","id":"c8","num":8,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Énoncer les signes de toxicité neurologique des anesthésiques locaux","options":[],"kind":"QUESTION","unit":"2.4","sourcePage":8,"topic":"Anesthesiques locaux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 33","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=33"],["Cours à consulter · 2.3 pharmaco générale avec notes (p. 30)","../../../cours/S1/2.3/2.3%20pharmaco%20ge%CC%81ne%CC%81rale%20avec%20notes.pdf#page=30"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["- Troubles visuels et auditifs","- Picotements des lèvres et de la langue","- Goût métallique dans la bouche","- Céphalées","- puis somnolence puis agitation, myoclonies, nystagmus, logorrhées","- A doses plus élevées : crises convulsives, coma, ACR => la sédation peut cacher les signes !!!"],"points":2,"instruction":"","id":"c9","num":9,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Parmi ces propositions concernant l’antibioprophylaxie, laquelle ou lesquelles est (sont) vraie(s) ?","options":["L'indication de l'antibioprophylaxie est posée lors de la consultation chirurgicale","L'antibioprophylaxie concerne les chirurgies de classe 3 et 4 de la classification d'Altemeier","L'antibioprophylaxie doit se poursuivre jusqu'aux 72 heures post opératoires","Les protocoles d'antibioprophylaxie doivent être co-écrits et signés par les équipes chirurgicales, anesthésiques et le CLIN (Comité de lutte contre les infections Nosocomiales)","La prescription de l'antibioprophylaxie doit tenir compte du terrain du patient"],"kind":"QCM","unit":"2.4","sourcePage":15,"topic":"Antibioprophylaxie","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 18","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=18"]],"correct":"ADE","note":"","optionNotes":[["L'antibioprophylaxie concerne les chirurgies de classe 3 et 4 de la classification d'Altemeier","ATBth et ATBp en parallele en rapport avec le geste"],["L'antibioprophylaxie doit se poursuivre jusqu'aux 72 heures post opératoires","non 24h"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c10","num":10,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Parmi ces propositions concernant l’adrénaline, laquelle ou lesquelles est (sont) vraie(s) ?","options":["L'adrénaline est une catécholamine de synthèse","L'adrénaline est un puissant antagoniste α1, α2 et β1, β2 adrénergique","L'adrénaline est rapidement métabolisée au niveau hépatique","L'adrénaline possède une demi-vie très courte","La voie d'administration de choix de l’adrénaline est la voie parentérale"],"kind":"QCM","unit":"2.4","sourcePage":36,"topic":"Medicaments du systeme nerveux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 17","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=17"]],"correct":"CDE","note":"","optionNotes":[["L'adrénaline est une catécholamine de synthèse","naturelle"],["L'adrénaline est un puissant antagoniste α1, α2 et β1, β2 adrénergique","agoniste"],["L'adrénaline possède une demi-vie très courte","2min"],["La voie d'administration de choix de l’adrénaline est la voie parentérale","surtout IV"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c11","num":11,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Parmi ces propositions concernant l’éphédrine, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Elle est un Sympathomimétique synthétique indirect","Elle augmente la quantité de noradrénaline dans la jonction neuro-effectrice","Elle provoque une vasodilatation mixte artérielle et veineuse et diminue le retour veineux","La durée d'action de l'éphédrine est comprise entre 10 et 20 minutes","L'administration successive d'éphédrine entraîne une diminution rapide de ses effets"],"kind":"QCM","unit":"2.4","sourcePage":36,"topic":"Medicaments du systeme nerveux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 17","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=17"]],"correct":"ABDE","note":"","optionNotes":[["Elle provoque une vasodilatation mixte artérielle et veineuse et diminue le retour veineux","vasoconstriction augmente le RV"],["L'administration successive d'éphédrine entraîne une diminution rapide de ses effets","tachyphylaxie"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c12","num":12,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Citer 5 contre-indications aux bêtabloquants","options":[],"kind":"QUESTION","unit":"2.4","sourcePage":38,"topic":"Medicaments du systeme nerveux","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 34","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=34"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["- Angor spastique","- Bradycardie","- BAV 2ème et 3ème degré","- Insuffisance cardiaque","- Asthme et BPCO","- Syndrome de Raynaud","- Artériopathie des membres inférieurs"],"points":2,"instruction":"","id":"c13","num":13,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Parmi les propositions concernant les effets des morphiniques sur la fonction respiratoire, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Les morphiniques diminuent la réponse des centres respiratoires centraux aux stimuli hypoxémiants","Les morphiniques diminuent la réponse des centres respiratoires centraux aux stimuli hypercapniques","Les morphiniques entraine une bronchodilatation par action sur le muscle lisse bronchique","Les morphiniques entraine une bronchoconstriction par action sur le muscle lisse bronchique","Les morphiniques entrainent une augmentation de la compliance thoracique"],"kind":"QCM","unit":"2.4","sourcePage":40,"topic":"Morphiniques","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 1","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=1"],["Cours à consulter · SUJET AGE Avec notes 3.3 (p. 55)","../../../cours/S1/3.3/SUJET%20AGE%20Avec%20notes%203.3.pdf#page=55"]],"correct":"ABD","note":"","optionNotes":[["Les morphiniques entraine une bronchodilatation par action sur le muscle lisse bronchique","constriction"],["Les morphiniques entrainent une augmentation de la compliance thoracique","diminution"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c14","num":14,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"},{"title":"Définir le terme de transfusion massive","options":[],"kind":"QUESTION","unit":"2.4","sourcePage":47,"topic":"Transfusion et medicaments derives du sang","session":"2015-2017","figures":[],"ue":"2.4","refs":[["Corrigé d’époque · p. 34","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%202.4%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=34"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["Transfusion d’une grande quantité de produits sanguins sur une courte période chez un patient qui a une hémorragie sévère ou incontrôlée.","- Transfusion > 10 CGR en 24h","- Transfusion > 4 CGR en une heure avec besoins supplémentaires prévisibles","- Remplacement de plus de 50% de la masse sanguine en 3h par des produits sanguins"],"points":2,"instruction":"","id":"c15","num":15,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.4.pdf"}],"figures":{"2.4-8-72.7-0":"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x9UKAACf7G7c8SvPnOsfVBsbtzxK8+c6x9UKAACf7G7c8SvPnOsfVBsbtzxK8+c6x9UKAACf7G7c8SvPnOsfVBsbtzxK8+c6x9UKAACf7G7c8SvPnOsfVBsbtzxK8+c6x9UKAACf7G7c8SvPnOsfVDHhYGWlTmVMw5F2xmVOuPKQzd9XQk3HFmtxZkUr7ylqUoz7zNRme8xSAAT/AGN254lefOdY+qDY3bniV5851j6oUAAE/wBjdueJXnznWPqg2N254lefOdY+qFAABP8AY3bniV5851j6oNjdueJXnznWPqhQAAT/AGN254lefOdY+qDY3bniV5851j6oUAAE/wBjdueJXnznWPqg2N254lefOdY+qFAABP8AY3bniV5851j6oNjdueJXnznWPqhQAAT/AGN254lefOdY+qDY3bniV5851j6oUAAE/wBjdueJXnznWPqg2N254lefOdY+qFAABP8AY3bniV5851j6oNjdueJXnznWPqhQAAT/AGN254lefOdY+qDY3bniV5851j6oUAAE/wBjdueJXnznWPqhjwsDLSpzKmYci7YzKnXHlIZu+roSbjizW4syKV95S1KUZ95mozPeYpAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UGxu3PErz5zrH1QoAAJ/sbtzxK8+c6x9UMeFgZaVOZUzDkXbGZU648pDN31dCTccWa3FmRSvvKWpSjPvM1GZ7zFIABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqg2N254lefOdY+qFAABP9jdueJXnznWPqh2FCokC2aHTKJS2Ps9MpkZqHFZ01L7NptJIQnSUZmeSUkWZmZn8zGwAAAAAf/Z"},"pdf":"Annales%202015-2017%20UE%202.4.pdf","pdfLabel":"Annales 2015-2017 UE 2.4.pdf","twoErrors":0.25,"examTotal":22,"notes":["15 questions dans l’ordre du PDF. Le corrigé indique ses sources et les points à vérifier."]};
+const normalize = text => text.normalize('NFKC').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae').replace(/[’']/g,' ').replace(/(\d),(?=\d)/g,'$1.').trim();
+const close = (a,b) => Math.abs(a-b)<1e-7;
+const round = n => Math.round(n*10000)/10000;
+const reviewOptions = [
+  ['', 'À évaluer'],
+  ['correct', 'Correcte'],
+  ['partial', 'Partielle'],
+  ['review', 'À revoir · 0 point']
+];
+
+function rubricAnalysis(raw, criteria) {
+  const input=normalize(raw);
+  const clauses=input.split(/[;!?\n]+|\.(?!\d)|\b(?:mais|cependant|pourtant)\b/).map(s=>s.trim()).filter(Boolean);
+  return criteria.map(criterion=>{
+    const yes=new RegExp(criterion.yes.trim(),'i');
+    const bad=criterion.bad ? new RegExp(criterion.bad,'i') : null;
+    const conflict=bad && clauses.find(clause=>bad.test(clause));
+    const matches=clauses.filter(clause=>yes.test(clause));
+    const negated=!criterion.allowNegation && matches.find(clause=>
+      /^(?:\w+\s+){0,5}(?:pas|aucun|aucune|non|jamais)\b|\bn\s+est\s+pas\b/.test(clause)
+    );
+    const evidence=conflict||negated||matches[0]||'';
+    const status=conflict||negated?'ambiguous':matches.length?'recognized':'missing';
+    return {...criterion,status,evidence,override:null};
+  });
+}
+
+function analysisPoints(grade) {
+  const recognized=grade.analysis.filter(c=>c.override ?? (c.status==='recognized'));
+  const earned=round(recognized.reduce((sum,c)=>sum+c.weight,0));
+  return grade.allOrNothing && !close(earned,grade.autoMax) ? 0 : earned;
+}
+
+function assessed(grade) {
+  if(grade.review==='blank' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='correct' && grade.full!=null) return {score:grade.full,max:grade.full};
+  if(grade.review==='review' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='partial' && grade.full!=null && grade.manualPoints!=null) {
+    return {score:grade.manualPoints,max:grade.full};
+  }
+  return {score:grade.analysis ? analysisPoints(grade) : grade.autoScore,max:grade.autoMax};
+}
+
+function pointsEntry(q,grade) {
+  const value=grade.manualPoints??'';
+  const hidden=grade.review!=='partial'?' hidden':'';
+  return q.kind==='QCM'
+    ? `<label data-partial="${q.id}"${hidden}>Points attribués <select data-points="${q.id}"><option value="">À saisir</option><option value="0.5"${value===.5?' selected':''}>0,5</option>${DATA.twoErrors===.25?`<option value="0.25"${value===.25?' selected':''}>0,25</option>`:''}</select></label>`
+    : `<label data-partial="${q.id}"${hidden}>Points attribués sur ${format(grade.full)} <input data-points="${q.id}" type="number" inputmode="decimal" min="0" max="${grade.full}" step="any" value="${value}"></label>`;
+}
+
+function assessmentControls(q,grade) {
+  if(grade.review==='blank') return '<p class="small">Sans réponse.</p>';
+  const partial=q.kind!=='QCU'&&!q.allOrNothing;
+  const choices=reviewOptions.filter(([key])=>partial||key!=='partial');
+  const options=choices.map(([key,label])=>`<option value="${key}"${key===grade.review?' selected':''}>${!key&&grade.analysis?'Selon l’analyse automatique':label}</option>`).join('');
+  return `<div class="self-assessment"><label for="review-${q.id}">Évalue ta réponse</label><select id="review-${q.id}" data-review="${q.id}">${options}</select>${grade.full!=null&&partial?pointsEntry(q,grade):''}</div>`;
+}
+
+const $ = id => document.getElementById(id);
+const format = (value, digits=4) => value.toLocaleString('fr-FR', {maximumFractionDigits:digits});
+const isChoice = q => q.kind === 'QCM' || q.kind === 'QCU';
+const isOpen = q => !isChoice(q) && q.kind !== 'context';
+const escape = value => String(value).replace(/[&<>"']/g, char => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]
+));
+const questionLabel = card => card.kind === 'context' ? card.title : `${card.kind==='QUESTION'?'QROC':card.kind} ${card.num}${card.series?' · '+card.series:''}`;
+const values = [...'ABCDEFGHIJKL'];
+
+
+const realCards=DATA.cards.filter(q=>q.kind!=='context');
+const nCh=realCards.filter(q=>q.kind==='QCM'||q.kind==='QCU').length,nOp=realCards.length-nCh;
+const nPts=Math.round(realCards.reduce((s,q)=>s+(q.points??1),0)*100)/100;
+document.title=`UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2015-2017 — ${DATA.title}`;
+$('h-eyebrow').textContent=`École IADE · UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2015-2017`;
+$('h-title').textContent=DATA.name;
+$('h-title').insertAdjacentHTML('afterend', `<p>${escape(DATA.title)}</p>`);
+$('h-stats').innerHTML=[[realCards.length,'questions'],[nCh,'QCM / QCU'],[nOp,'questions ouvertes'],[nPts.toLocaleString('fr-FR'),'points au barème']].filter(([n])=>n!==0).map(([n,t])=>`<div class="hero-stat"><b>${n}</b><span>${t}</span></div>`).join('');
+$('h-rules').innerHTML=`<p>QCM sur 1 point : une erreur ou un oubli = 0,5 point${DATA.twoErrors?`, deux erreurs ou oublis = ${String(DATA.twoErrors).replace('.',',')} point`:''}, au-delà 0. QCU sur 1 point.</p><p>Questions ouvertes : ta réponse est comparée aux éléments attendus. Si la détection n’a pas reconnu une bonne idée, clique sur <b>Valider cet élément</b> ou choisis une évaluation manuelle.</p><p>Les questions signalées « hors barème » sont consultables dans la correction. La correction précise les limites du sujet ou du corrigé disponible. Les questions ouvertes sont corrigées automatiquement lorsque des critères ont pu être établis. Les autres peuvent être évaluées manuellement après lecture de la correction.</p>`;
+$('h-footer').innerHTML=`Source · <a href="${DATA.pdf}">${escape(DATA.pdfLabel)}</a> · Fonctionne hors connexion.`;
+$('h-rules').insertAdjacentHTML('beforeend',`<p>${escape(DATA.notes[0])}</p>`);
+const srcTag=q=>q.source==='corrige'?'<span class="tag-src deduit">Réponse rectifiée</span>':'';
+function sourceCopy(q) {
+  return `<p class="small source-line"><a href="${escape(DATA.pdf)}#page=${q.page}">PDF de la promotion · p. ${q.page}</a> · <a href="${escape(q.originalPdf)}#page=${q.sourcePage}">Recueil d’origine · p. ${q.sourcePage}</a> · ${escape(q.session)} · ${escape(q.topic)}</p>`;
+}
+function sources(q) {
+  return q.refs.length?`<ul class="small">${q.refs.map(([label,url])=>`<li><a href="${escape(url)}" target="_blank" rel="noopener">${escape(label)}</a></li>`).join('')}</ul>`:'';
+}
+function answerBox(q){
+  let list=q.answer; if(!list) return ''; if(typeof list==='string') list=[list];
+  const items=list.map(a=>{const add=a.startsWith('+');const t=add?a.replace(/^\+\s*/,''):a;return `<li class="${add?'added':''}">${escape(t)}${add?'<span class="tag-added">Complément</span>':''}</li>`;}).join('');
+  return `<div class="answer-key"><h3>Correction ${srcTag(q)}</h3><ul>${items}</ul>${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+}
+let active, grades, locked, confirmed, targeted;
+const form = $('quiz');
+function images(list, label) {
+  return list.map((item,i) => `<img loading="lazy" alt="${escape(label)}${list.length>1?' · extrait '+(i+1):''}" src="data:image/jpeg;base64,${item}">`).join('');
+}
+function scanBlock(scans, label) {
+  return `<div class="document"><div class="source-pictures" tabindex="0" aria-label="${escape(label)}">${images(scans,label)}</div><button type="button" class="secondary zoom" aria-expanded="false">Agrandir le scan</button></div>`;
+}
+function prompt(q) {
+  if(q.images) return scanBlock(q.images,questionLabel(q));
+  const table=q.table?`<div class="prompt-table">${q.table.map(cell=>`<span>${escape(cell)}</span>`).join('')}</div>`:'';
+  return `<h2 class="question-stem">${escape(q.title)}</h2>${q.text?`<p class="context-text">${escape(q.text)}</p>`:''}${q.figures.length?`<div class="q-figure">${q.figures.map((id,i)=>`<img loading="lazy" src="data:image/jpeg;base64,${DATA.figures[id]}" class="question-figure" alt="Illustration ou tableau ${i+1} du sujet">`).join('')}</div>`:''}${q.instruction?`<p class="small">${escape(q.instruction)}</p>`:''}${table}`;
+}
+function fields(q) {
+  if (isChoice(q)) {
+    return `<div class="choices ${q.options?'written-choices':''}" role="${q.kind==='QCU'?'radiogroup':'group'}" aria-labelledby="title-${q.id}">${q.options.map((_,i)=>values[i]).map((letter,i)=>`<label class="option" id="option-${q.id}-${letter}"><input type="${q.kind==='QCU'?'radio':'checkbox'}" name="${q.id}" value="${letter}"><span><strong>${letter}</strong>${q.options?' · '+escape(q.options[i]):''}<small></small></span></label>`).join('')}</div>`;
+  }
+  return `<div class="field"><textarea id="answer-${q.id}" aria-labelledby="title-${q.id}" rows="5" placeholder="Ta réponse…"></textarea></div>`;
+}
+function render() {
+  $('cards').innerHTML = active.map((q, index) => {
+    const section = q.kind === 'context' ? '<span>Dossier</span>' : `<span>${q.ungraded?'Hors barème':format(q.points)+' pt'} · ${escape(q.session)} · PDF p. ${q.page}</span>`;
+    const anchor = active.findIndex(card=>card.kind===q.kind)===index ? ` id="section-${q.kind}"` : '';
+    return `<section class="card"${anchor} data-card="${q.id}"><div class="meta"><strong id="title-${q.id}">${escape(questionLabel(q))}</strong>${section}</div>${prompt(q)}${q.kind==='context'?'':fields(q)+`<div class="feedback" id="feedback-${q.id}" hidden></div>`}</section>`;
+  }).join('');
+  for(const link of document.querySelectorAll('[data-kind]')){
+    const kind=link.dataset.kind;
+    const index=active.findIndex(q=>kind==='open'?isOpen(q):q.kind===kind);
+    link.hidden=index<0;
+    if(index>=0) link.hash='section-'+active[index].kind;
+  }
+}
+function response(q) {
+  if (isChoice(q)) {
+    return [...form.querySelectorAll(`[name="${q.id}"]:checked`)].map(input=>input.value);
+  }
+  return $(`answer-${q.id}`).value.trim();
+}
+function progress() {
+  const current=active.filter(q=>q.kind!=='context');
+  const count=current.filter(q=>response(q).length>0).length;
+  $('progress').textContent=`${count} / ${current.length} questions renseignées`;
+  $('bar').max=current.length;
+  $('bar').value=count;
+}
+function compute(q, answers) {
+  if (!q.correct) return {autoMax:0,autoScore:0};
+  const errors=values.slice(0,q.options.length).filter(letter=>answers.includes(letter)!==q.correct.includes(letter)).length;
+  const points=q.kind==='QCU' ? Number(errors===0) : answers.length===0 ? 0 : [1,.5,DATA.twoErrors][errors] ?? 0;
+  return {autoMax:1,autoScore:points};
+}
+function rubricPanel(q, grade) {
+  if(!grade.analysis) return `<p class="small">Évalue ta réponse à partir des éléments du corrigé.${q.allOrNothing?' Barème tout ou rien.':''}</p>`;
+  const status={recognized:'Reconnu',missing:'À compléter',ambiguous:'À vérifier'};
+  const items=grade.analysis.map((c,i)=>{
+    const description=c.override===null?status[c.status]:c.override?'Validé manuellement':'Retiré manuellement';
+    const evidence=c.evidence?`<span class="evidence">${escape(c.evidence.slice(0,180))}</span>`:'';
+    const button=grade.review==='blank'?'':`<button type="button" data-criterion="${q.id}:${i}">${c.override!==null?'Rétablir l’analyse':c.status==='recognized'?'Retirer cet élément':'Valider cet élément'}</button>`;
+    return `<div class="criterion"><span class="badge ${c.status==='recognized'?'':'missing'}">${description}</span><strong>${escape(c.label)}</strong> · ${format(c.weight)} pt${evidence}${button}</div>`;
+  }).join('');
+  return `<div id="analysis-${q.id}"><strong>Analyse automatique · ${format(analysisPoints(grade))} / ${format(grade.autoMax)} points${grade.full>grade.autoMax?' vérifiables':''}</strong>${grade.allOrNothing?'<p class="small">Barème tout ou rien pour cette question.</p>':''}${items}</div>`;
+}
+function correction(q) {
+  const given=response(q);
+  const grade={full:q.points,autoMax:0,autoScore:0,ungraded:q.ungraded};
+  if(isChoice(q)){
+    Object.assign(grade,compute(q,given));
+    if(!q.correct) grade.review=given.length?'':'blank';
+    for(const letter of values.slice(0,q.options.length)){
+      const row=$(`option-${q.id}-${letter}`);
+      row.querySelector('input').disabled=true;
+      if(!q.correct) continue;
+      const checked=given.includes(letter);
+      const good=q.correct.includes(letter);
+      row.classList.add(good?checked?'right':'missed':checked?'wrong':'unused');
+      row.querySelector('small').textContent=good?checked?'Validée':'Oubliée':checked?'Fausse':'';
+    }
+  }else{
+    $(`answer-${q.id}`).readOnly=true;
+    grade.review=given?'':'blank';
+    if(!q.ungraded&&q.criteria?.length){
+      grade.analysis=rubricAnalysis(given,q.criteria);
+      grade.autoMax=round(q.criteria.reduce((sum,c)=>sum+c.weight,0));
+      grade.allOrNothing=q.allOrNothing;
+    }
+  }
+  grades.set(q.id,grade);
+  const panel=$(`feedback-${q.id}`);
+  panel.hidden=false;
+  if (isOpen(q)) {
+    panel.innerHTML=`${answerBox(q)}${sources(q)}${q.ungraded?'<p class="small">Question hors barème.</p>':rubricPanel(q,grade)+assessmentControls(q,grade)}${sourceCopy(q)}`;
+    return;
+  }
+  const answers=q.correct.split('').filter(Boolean).map(letter=>q.options[values.indexOf(letter)]);
+  const key=`<strong>${q.ungraded?'Hors barème':format(grade.autoScore)+' / 1 point'}</strong><div class="answer-key" style="margin-top:10px"><h3>${q.ungraded?'Éléments pour vérifier':'Correction'}</h3>${answers.length?`<ul class="correct-options">${answers.map(a=>`<li>${escape(a)}</li>`).join('')}</ul>`:''}${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+  const notes=q.optionNotes?.length?`<div class="answer-key"><h3>Précisions du corrigé</h3><ul>${q.optionNotes.map(([option,note])=>`<li><strong>${escape(option)}</strong><br>${escape(note)}</li>`).join('')}</ul></div>`:'';
+  panel.innerHTML=key+notes+sources(q)+sourceCopy(q);
+}
+function isComplete(grade) {
+  const {score,max}=assessed(grade);
+  return !grade.ungraded&&(grade.review==='correct'||(grade.full!=null&&close(max,grade.full)&&close(score,max)));
+}
+function applyFilter() {
+  const filter=$('filter').value==='imperfect';
+  for(const q of active){
+    const card=form.querySelector(`[data-card="${q.id}"]`);
+    const grade=grades.get(q.id);
+    card.hidden=filter&&Boolean(grade)&&isComplete(grade);
+  }
+}
+function tally() {
+  const list=[...grades.values()];
+  const points=list.map(assessed);
+  const sum=round(points.reduce((acc,g)=>acc+g.score,0));
+  const max=round(points.reduce((acc,g)=>acc+g.max,0));
+  const available=round(list.reduce((acc,g)=>acc+(g.full??0),0));
+  const paper=available;
+  const remaining=Math.max(0,round(paper-max));
+  const manual=$('global-mark');
+  const globalScore=manual&&manual.value!==''&&manual.validity.valid?Number(manual.value):null;
+  $('score').textContent=max>0?`${format(20*sum/max,2)} / 20`:globalScore!==null?`${format(globalScore,2)} / 20`:'Note sur 20 à établir';
+  $('summary').textContent=max>0
+    ? `${format(sum)} / ${format(max)} points évalués.${remaining>0?` Note provisoire · ${format(remaining)} points du barème restent à évaluer.`:''}`
+    : globalScore!==null?'Note globale saisie manuellement.':'Aucun point évaluable automatiquement ou manuellement pour l’instant.';
+  const adjusted=list.some(g=>g.review && g.review!=='blank' || g.analysis?.some(c=>c.override!==null));
+  if(adjusted) $('summary').textContent+=' Note ajustée.';
+  const incomplete=list.filter((g,i)=>g.full!=null&&g.full>points[i].max).length;
+  $('manual-summary').textContent=incomplete
+    ? `Complète la correction manuelle pour ${incomplete} question${incomplete===1?'':'s'}.`:'';
+  $('retry').disabled=list.every(g=>g.ungraded||isComplete(g));
+  applyFilter();
+}
+function submit() {
+  if(locked) return;
+  const current=active.filter(q=>q.kind!=='context');
+  const missing=current.filter(q=>!q.ungraded&&!response(q).length).length;
+  if(missing&&!confirmed){
+    $('message').textContent=`${missing} question(s) sans réponse. Clique de nouveau pour corriger la tentative.`;
+    confirmed=true;
+    return;
+  }
+  locked=true;
+  current.forEach(correction);
+  $('results').hidden=false;
+  $('filters').hidden=false;
+  $('submit').hidden=true;
+  $('mode').textContent='Corrigé';
+  $('message').textContent='';
+  tally();
+  $('results').focus();
+  $('results').scrollIntoView({block:'start'});
+}
+function shuffledCard(q) {
+  if (!isChoice(q)) return q;
+  const indexes=q.options.map((_,i)=>i);
+  for(let i=indexes.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [indexes[i],indexes[j]]=[indexes[j],indexes[i]];
+  }
+  const correct=indexes.map((index,i)=>q.correct.includes(values[index])?values[i]:'').join('');
+  return {...q,options:indexes.map(i=>q.options[i]),correct};
+}
+function start(retry=false) {
+  const keep=retry?new Set([...grades].filter(([,g])=>!g.ungraded&&!isComplete(g)).map(([id])=>id)):null;
+  targeted=retry;
+  if($('global-mark'))$('global-mark').value='';
+  active=DATA.cards.filter(q=>(!$('topic').value||q.topic===$('topic').value)&&(!keep||keep.has(q.id))).map(shuffledCard);
+  grades=new Map();
+  locked=false;
+  confirmed=false;
+  $('results').hidden=true;
+  $('filters').hidden=true;
+  $('submit').hidden=false;
+  $('message').textContent='';
+  $('mode').textContent=retry?'Reprise ciblée':'Entraînement';
+  $('filter').value='all';
+  render();
+  progress();
+  if(retry) window.scrollTo(0,0);
+}
+form.addEventListener('submit', e=>{e.preventDefault(); submit();});
+form.addEventListener('input',()=>{if(locked)return; confirmed=false; $('message').textContent=''; progress();});
+form.addEventListener('change',event=>{
+  const field=event.target.closest('[data-review],[data-points]');
+  if(!locked||!field)return;
+  const id=field.dataset.review??field.dataset.points;
+  const grade=grades.get(id);
+  if(field.hasAttribute('data-review')){
+    grade.review=field.value;
+    const partial=form.querySelector(`[data-partial="${id}"]`);
+    if(partial)partial.hidden=field.value!=='partial';
+  }else{
+    const value=field.value===''?null:Number(field.value);
+    grade.manualPoints=Number.isFinite(value)&&value>=0&&value<=grade.full?value:null;
+  }
+  tally();
+});
+$('global-mark')?.addEventListener('input',tally);
+form.addEventListener('click',event=>{
+  const criterion=event.target.closest('[data-criterion]');
+  if(locked&&criterion){
+    const [id,index]=criterion.dataset.criterion.split(':');
+    const grade=grades.get(id);
+    const item=grade.analysis[Number(index)];
+    item.override=item.override===null?item.status!=='recognized':null;
+    const q=active.find(card=>card.id===id);
+    $('analysis-'+id).outerHTML=rubricPanel(q,grade);
+    form.querySelector(`[data-criterion="${id}:${index}"]`)?.focus({preventScroll:true});
+    tally();
+    return;
+  }
+  const button=event.target.closest('.zoom');
+  if(!button)return;
+  const enlarged=button.closest('.document').classList.toggle('enlarged');
+  button.setAttribute('aria-expanded',String(enlarged));
+  button.textContent=enlarged?'Réduire le scan':'Agrandir le scan';
+});
+$('filter').addEventListener('change',applyFilter);
+$('reset').addEventListener('click',()=>{start(); window.scrollTo(0,0);});
+$('retry').addEventListener('click',()=>start(true));
+for(const topic of new Set(DATA.cards.map(q=>q.topic))) $('topic').add(new Option(topic,topic));
+$('topic').addEventListener('change',()=>start());
+start();
+</script>
+<!-- Statistiques anonymes Mémo (GoatCounter, sans cookies) -->
+<script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"path":"/annales-nf/S2/2.4-2015-2017","title":"Annales non officielles 2015-2017 UE 2.4 S2"}' async src="//gc.zgo.at/count.js"></script></body></html>
