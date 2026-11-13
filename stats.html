@@ -120,7 +120,7 @@
   .pill { display: inline-flex; align-items: center; gap: 5px; font-size: .75rem; font-weight: 650; padding: 3px 9px; border-radius: 99px; background: var(--accent-soft); color: var(--accent-ink); white-space: nowrap; }
 
   /* Indicateurs */
-  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
   .kpi { text-align: left; display: flex; flex-direction: column; gap: 2px; padding: 16px 18px 12px; overflow: hidden; }
   button.kpi { cursor: pointer; transition: border-color .2s, transform .1s; }
   button.kpi:hover { border-color: var(--line-strong); }
@@ -202,6 +202,8 @@
     .seg { flex: 1; }
     .seg button { flex: 1; padding: 7px 4px; }
     .card { padding: 15px; border-radius: 16px; }
+    /* Sur petit écran, le libellé passe à la ligne plutôt que d'être coupé. */
+    .kpi-l { white-space: normal; overflow: visible; line-height: 1.25; }
     .kpi { padding: 13px 14px 10px; }
     .kpi-v { font-size: 1.75rem; }
     .heat { grid-template-columns: 26px repeat(24, minmax(0, 1fr)); gap: 2px; }
@@ -346,11 +348,15 @@
   const savePrefs = () => store.set(PREF, JSON.stringify({ period, metric }));
 
   /* ---------- Lecture des chemins envoyés par l'app ---------- */
-  // /accueil, /S1, /S1/3.3, /cours/<nom>, /revision/<nom>
+  // Écrans de l'app : /accueil, /flashcards, /S1, /S1/3.3, /annales, /annales/S1,
+  // /annales/S1/3.3 (la liste des annales d'une UE), /cours/<nom>, /revision/<nom>.
+  // Quiz d'annale ouvert : /annales/S1/3.3-2013-2015 (la période fait partie du chemin).
   const decode = (p) => { try { return decodeURIComponent(p); } catch { return p; } };
   const sorted = (map) => [...map].sort((a, b) => b[1] - a[1]);
+  const add = (map, k, n) => map.set(k, (map.get(k) || 0) + n);
   function summarize(hits) {
-    const revisions = new Map(), courses = new Map(), ues = new Map(), revDays = new Map(), exams = new Map();
+    const revisions = new Map(), courses = new Map(), ues = new Map(), revDays = new Map(),
+      exams = new Map(), screens = new Map();
     let revTotal = 0, examTotal = 0;
     for (const hit of hits || []) {
       if (hit.event) continue;
@@ -364,17 +370,24 @@
           if (!st.hourly && st.daily) arr[12] += st.daily;
           revDays.set(st.day, arr);
         }
-      } else if ((m = path.match(/annales\/(S\d+)\/([\d.]+?)(?:\.html?)?$/i))) {
-        // Annales : « /annales/S1/3.3 » (ou l'ancien chemin « /memo/annales/S1/3.3.html »)
-        const label = `UE ${m[2]} · S${m[1].slice(1)}`;
-        exams.set(label, (exams.get(label) || 0) + n); examTotal += n;
-      } else if ((m = path.match(/^\/cours\/(.+)$/))) courses.set(m[1], (courses.get(m[1]) || 0) + n);
-      else if ((m = path.match(/^\/(S\d+)\/([^/]+)$/i))) {
-        const label = `UE ${m[2]} · S${m[1].slice(1)}`;
-        ues.set(label, (ues.get(label) || 0) + n);
-      }
+      } else if ((m = path.match(/annales\/(S\d+)\/(\d+\.\d+)(?:-(\d{4}-\d{4}))?(?:\.html?)?$/i))) {
+        // Quiz ouvert si le chemin porte une période ; sinon c'est la liste des annales de l'UE.
+        // Les anciens relevés (« /annales/S1/3.3.html ») sont comptés en 2022-2024, la seule
+        // période qui existait alors.
+        const ue = `UE ${m[2]} · S${m[1].slice(1)}`;
+        if (m[3] || /\.html?$/i.test(path)) {
+          add(exams, `${ue} · ${m[3] || '2022-2024'}`, n); examTotal += n;
+        } else add(screens, `Annales · ${ue}`, n);
+      } else if (/^\/annales\/S\d+$/i.test(path)) add(screens, `Annales · S${path.slice(-1)}`, n);
+      else if (path === '/annales') add(screens, 'Annales', n);
+      else if (path === '/flashcards') add(screens, 'Flashcards', n);
+      else if (path === '/accueil') add(screens, 'Accueil', n);
+      else if ((m = path.match(/^\/cours\/(.+)$/))) add(courses, m[1], n);
+      else if ((m = path.match(/^\/(S\d+)\/([^/]+)$/i))) add(ues, `UE ${m[2]} · S${m[1].slice(1)}`, n);
+      else if (/^\/(perso|partages|Scores)$/i.test(path)) add(screens, path.slice(1), n);
     }
-    return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues), exams: sorted(exams), examTotal };
+    return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues),
+      exams: sorted(exams), examTotal, screens: sorted(screens) };
   }
   // Grille jour → 24 heures pour la mesure choisie.
   function grid(data, which, prev) {
@@ -391,7 +404,7 @@
   const sizeName = (st) => SIZES[String(st.id || '').toLowerCase()] || SIZES[String(st.name || '').toLowerCase().replace(/\s/g, '')] || st.name || 'Autre';
 
   /* ---------- Chargement ---------- */
-  let courseCount = null, last = null, busy = false;
+  let courseCount = null, examCount = null, last = null, busy = false;
 
   async function load() {
     const P = PERIODS[period], r = range(P.days);
@@ -413,11 +426,18 @@
     return { ...raw, r, days: P.days, sum: summarize(raw.hits), prevSum: summarize(raw.prevHits), at: new Date() };
   }
 
+  // Lignes utiles d'un fichier « liste.txt » (sans les commentaires).
+  async function listLines(file) {
+    const txt = await (await fetch(file, { cache: 'no-cache' })).text();
+    return txt.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('//') && !l.startsWith('#'));
+  }
+  // Cours de la bibliothèque, hors catégories à part (« Scores/scores.txt »).
   async function countCourses() {
-    try {
-      const txt = await (await fetch('paquets/liste.txt', { cache: 'no-cache' })).text();
-      return txt.split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('//') && !l.startsWith('#')).length;
-    } catch { return null; }
+    try { return (await listLines('paquets/liste.txt')).filter((l) => /^S\d+\//i.test(l)).length; }
+    catch { return null; }
+  }
+  async function countAnnales() {
+    try { return (await listLines('annales/liste.txt')).length; } catch { return null; }
   }
 
   async function refresh() {
@@ -426,6 +446,7 @@
     document.querySelector('.refresh')?.classList.add('spin');
     try {
       if (courseCount == null) courseCount = await countCourses();
+      if (examCount == null) examCount = await countAnnales();
       last = await load();
       renderDash();
     } catch (e) {
@@ -535,6 +556,7 @@
         kpi({ key: 'visits', label: 'Visites', value: nf.format(visits), d: delta(visits, prevVisits), sub: `${nf.format(prevVisits)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(vGrid) }),
         kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(rGrid) }),
         kpi({ label: 'Cours ouverts', value: nf.format(cur.courses.length), sub: courseCount ? `sur ${courseCount} cours disponibles` : '', d: delta(cur.courses.length, prev.courses.length) }),
+        kpi({ label: 'Annales ouvertes', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
         P.days === 1
           ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
           : kpi({ label: 'Par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'visites en moyenne' }),
@@ -559,6 +581,7 @@
         rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.'),
         rank('UE les plus consultées', cur.ues, 'Aucune UE consultée sur cette période.'),
         rank('Annales les plus ouvertes', cur.exams, 'Aucune annale ouverte sur cette période.'),
+        rank('Écrans les plus vus', cur.screens, 'Aucun écran de navigation vu sur cette période.'),
         rank('Appareils', sysRows.some((x) => x[1]) ? sysRows : sizeRows, 'Pas encore de données.'),
       ),
       h('footer', { class: 'foot' },
@@ -571,7 +594,7 @@
           if (!confirm('Retirer la clé de ce navigateur ? Il faudra la coller à nouveau pour revoir les statistiques.')) return;
           store.del(KEY); renderSetup();
         } }, 'Oublier la clé'),
-        h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Vos propres visites comptent aussi.'),
+        h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Une annale ouverte = un quiz ouvert, compté par période (2013-2015, 2022-2024). Vos propres visites comptent aussi.'),
       ),
     );
   }
@@ -794,7 +817,11 @@
       ...names.map((n, i) => { const s2 = share(st, .3 / (1 + i * .35)); return { path: '/revision/' + n, count: tot(s2), stats: s2 }; }),
       ...names.map((n, i) => ({ path: '/cours/' + n, count: Math.round(tot(st) * .09 / (1 + i * .3)) })),
       ...[['3.1', .32], ['3.3', .22], ['2.2', .17], ['2.4', .09], ['2.3', .05]].map(([u, f]) => ({ path: '/S1/' + u, count: Math.round(tot(st) * f) })),
-      ...[['S1/3.3', .08], ['S1/3.1', .06], ['S1/2.2', .04], ['S2/3.3', .02]].map(([u, f]) => ({ path: '/annales/' + u, count: Math.round(tot(st) * f) })),
+      ...[['S1/3.3-2022-2024', .08], ['S1/3.1-2013-2015', .06], ['S1/3.1-2022-2024', .05],
+        ['S1/2.2-2013-2015', .04], ['S2/3.3-2022-2024', .02]].map(([u, f]) => ({ path: '/annales/' + u, count: Math.round(tot(st) * f) })),
+      ...[['/accueil', .9], ['/flashcards', .4], ['/annales', .3], ['/annales/S1', .22],
+        ['/annales/S1/3.3', .1]].map(([p, f]) => ({ path: p, count: Math.round(tot(st) * f) })),
+      { path: '/cours/Scores', count: Math.round(tot(st) * .12) },
     ];
     const total = tot(stats);
     return { total: { total, stats }, prevTotal: { total: tot(prevStats), stats: prevStats }, hits: mkHits(stats), prevHits: mkHits(prevStats),
