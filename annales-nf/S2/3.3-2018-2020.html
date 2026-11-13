@@ -1,0 +1,419 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UE 3.3 · S2 · Promotion 2018-2020 — Les modalités spécifiques d'anesthésie, réanimation et urgence dans les différents types d'intervention</title><style>
+:root{--ink:#24302f;--muted:#677472;--green:#195b4a;--paper:#f7f6f1;--line:#dce3dd;--good:#1d7252;--warn:#925b17;--bad:#a43848}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:960px;margin:auto;padding:44px 22px 60px}header{padding-bottom:30px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:750;color:var(--green)}h1{font:500 clamp(38px,7vw,62px)/1.08 Georgia,serif;margin:16px 0}h1 em{color:var(--green)}h2{font-size:21px;line-height:1.4;margin:10px 0 14px}p{margin:10px 0}.intro{max-width:680px;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:6px 12px;background:white}.progress{display:flex;justify-content:space-between;gap:12px;padding:19px 0;font-size:13px;color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:18px}.meta{display:flex;justify-content:space-between;gap:10px;color:var(--green);font-size:12px;font-weight:750;letter-spacing:1px;text-transform:uppercase}.hint,.small{font-size:13px;color:var(--muted)}textarea,input{font:inherit;color:var(--ink);border:1px solid #bccbc1;border-radius:10px;background:#fcfdfb}textarea{display:block;width:100%;resize:vertical;min-height:110px;padding:14px;margin-top:10px}textarea:focus,input:focus{outline:3px solid #c1ddce;outline-offset:2px;border-color:var(--green)}button{font:650 15px system-ui;min-height:46px;padding:12px 18px;border:0;border-radius:10px;background:var(--green);color:white;cursor:pointer}button.secondary{background:#e8eee7;color:var(--green)}button:focus-visible,a:focus-visible{outline:3px solid #d69f43;outline-offset:3px}button:disabled{opacity:.5;cursor:default}.actions{display:flex;gap:10px;flex-wrap:wrap}.feedback{background:#f5f8f3;border-radius:12px;padding:18px;margin-top:18px;font-size:14px}.feedback ul{padding-left:20px;margin:10px 0}.feedback li{margin:6px 0}.good{color:var(--good)}.missing{color:var(--warn)}.bad{color:var(--bad)}.answer{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.card.perfect{border-color:#86b49a}.card.imperfect{border-color:#d6bb85}[hidden]{display:none!important}.scorebox{background:#195b4a;color:white;border-radius:18px;padding:26px;margin-bottom:24px;scroll-margin-top:16px}.scorebox .eyebrow{color:#bedccc}.score{font:500 48px Georgia,serif;line-height:1.2;margin:14px 0}.scorebox p{color:#e1eee5}.scorebox button{background:white;color:var(--green)}.scorebox button.secondary{background:#376f5d;color:white}.diagram-scroll{margin:18px -8px 0;overflow-x:auto}.diagram{position:relative;min-width:560px;width:100%;aspect-ratio:900/540;background:#fafbf8;border-radius:12px}.diagram svg{display:block;width:100%;height:100%}.callout{position:absolute;width:23%;transform:translateY(-50%);z-index:1}.callout label{display:block;font-size:12px;font-weight:750;color:var(--green);margin-bottom:4px}.callout input{width:100%;padding:10px 8px;font-size:clamp(12px,1.6vw,15px);min-height:44px;background:white}.callout.a{left:2%;top:32%}.callout.b{right:2%;top:32%}.callout.c{left:2%;top:71%}.callout.d{right:2%;top:71%}.diagram input.correct{border:2px solid var(--good)}.diagram input.wrong{border:2px solid var(--bad)}.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}.dot{width:9px;height:9px;display:inline-block;border-radius:50%;margin-right:6px}.explain{padding:18px 0;color:var(--muted);font-size:13px}.explain summary{cursor:pointer;color:var(--green);font-weight:650}footer{color:var(--muted);font-size:12px;margin-top:30px}a{color:var(--green)}@media(max-width:600px){main{padding:25px 14px 40px}.card{padding:20px 16px}h2{font-size:19px}.diagram-scroll{margin-right:-8px;margin-left:-8px}.progress{font-size:12px}.scorebox{padding:22px}.mobile-note{display:block}}@media(min-width:601px){.mobile-note{display:none}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.option{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:10px;margin:9px 0;cursor:pointer}.option input{width:20px;height:20px;margin:4px 0 0;flex-shrink:0;accent-color:var(--green)}.option:has(input:checked){background:#eff5ef}.option.right,.option.right:has(input:checked){border:2px solid #32815b;background:#e2f3e7;color:#155338}.option.wrong,.option.wrong:has(input:checked){border:2px solid #c73c3c;background:#ffe0e0;color:#9b1717}.option.missed{border:2px solid #d49a13;background:#fff0a6;color:#684400}.option.right input{accent-color:#32815b}.option.wrong input{accent-color:#c73c3c}.option small{display:block;font-weight:650}.section-title{font:500 29px Georgia,serif;margin:32px 0 17px;scroll-margin-top:18px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.nav a{padding:7px 14px;border:1px solid var(--line);border-radius:30px;text-decoration:none;font-size:13px;background:white}.rubric{background:#eaf0e8;border-radius:12px;padding:16px;margin-top:18px;font-size:14px}.evidence{font-size:12px;color:var(--muted);display:block;margin-top:3px}.criterion{padding:10px 0;border-bottom:1px solid var(--line)}.criterion:last-child{border:0}.badge{display:inline-block;font-size:11px;font-weight:750;border-radius:20px;padding:3px 8px;background:#e4efe6;margin-right:5px}.badge.bad{background:#f6e0e4}.badge.missing{background:#f7ecd2}.criterion button{padding:7px 9px;min-height:34px;font-size:12px;margin-top:7px;background:#e2ebe1;color:var(--green)}.details-grid{display:flex;gap:12px;flex-wrap:wrap;margin:15px 0}.details-grid span{background:#ffffff15;border-radius:8px;padding:8px 13px;font-size:14px}.review{background:#fff5da;border-radius:10px;padding:12px;font-size:13px;margin-top:14px}.meta span:last-child{white-space:nowrap}.feedback blockquote{margin:4px 0;padding-left:12px;border-left:2px solid var(--line)}
+
+.option input[type=radio]{border-radius:50%;width:20px;height:20px;flex-shrink:0;accent-color:var(--green)}.field{margin:18px 0}.field>label{display:block;font-weight:650;font-size:14px}.field textarea{min-height:76px;line-height:1.5}.field textarea[readonly]{background:#f3f5f1}.nav{position:sticky;top:0;z-index:3;background:#f7f6f1f5;padding:10px 0;backdrop-filter:blur(8px)}.question-progress{height:7px;width:100%;accent-color:var(--green);margin-bottom:20px}.filter-bar{margin-bottom:18px}select{font:inherit;max-width:100%;padding:9px;background:white;border:1px solid var(--line);border-radius:10px}.notice{color:var(--warn);font-weight:650}.correction-info{border-left:3px solid #c4ad65;padding-left:13px}textarea{overflow-wrap:anywhere}.meta{letter-spacing:.5px}.meta span:first-child{min-width:0}footer{border-top:1px solid var(--line);padding-top:18px}.rubric p{margin-bottom:0}.section-title{scroll-margin-top:80px}.scorebox{scroll-margin-top:78px}.subtitle{font-size:18px;color:var(--green)}.card{scroll-margin-top:80px}@media print{.nav,.actions,.filter-bar,.question-progress,.progress,.rubric,button{display:none!important}.card{break-inside:avoid;border-radius:0}body{background:white}main{padding:0}textarea{border:0;min-height:80px}}
+.nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.nav a{font-size:14px;font-weight:650;text-decoration:none;min-height:38px;display:inline-flex;align-items:center}.meta span:last-child{white-space:nowrap}.criterion button{white-space:normal;text-align:left;max-width:100%}@media(max-width:600px){.nav{gap:6px 16px}.nav a{font-size:13px}.meta{letter-spacing:0;flex-wrap:wrap}.score{font-size:43px}.card,.section-title,.scorebox{scroll-margin-top:120px}}
+
+.question-stem,.prompt-table span{white-space:pre-line}
+.prompt-table{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.prompt-table span{border:1px solid #cedad0;padding:.6rem}
+.self-assessment input,#global-mark{font:inherit;width:5rem;border:1px solid #96ada1;border-radius:.4rem;padding:.3rem}
+.document{margin:.3rem 0 .85rem}
+.source-pictures{background:#fff;border:1px solid #cedad0;border-radius:8px;overflow:auto;max-width:100%;padding:.25rem}
+.source-pictures img{display:block;width:100%;height:auto;margin:0 auto}
+.source-pictures img+img{margin-top:.2rem}
+.enlarged .source-pictures img{width:max(100%,870px);max-width:none}
+.zoom{margin:.4rem 0 0;font-size:.84rem;padding:.38rem .7rem}
+.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.42rem}
+.choices .option{align-items:flex-start;margin:0;padding:.65rem .38rem;gap:.35rem;min-height:3rem}
+.choices .option small{font-size:.71rem;line-height:1.2}
+.option.wrong:has(input:checked){background:#ffe3e5;border-color:#ac434e;color:#681f2a}
+.option.right:has(input:checked){background:#e2f3e6;border-color:#288253;color:#124b2c}
+.option.missed{background:#fff2c6;border-color:#a27410;color:#654503}
+.feedback details summary{cursor:pointer;color:#14563e;font-weight:650;margin:.4rem 0}
+.score{font-size:clamp(1.55rem,4.5vw,2.5rem)}
+.card{scroll-margin-top:1rem}
+@media(max-width:420px){.choices{gap:.2rem}.choices .option{padding:.5rem .25rem;gap:.24rem}.choices input{margin:0}}
+.choices.written-choices{display:block}
+.choices.written-choices .option{padding:.65rem;margin:.4rem 0}
+.self-assessment{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:.8rem 0}
+.self-assessment label{font-weight:650}
+.self-assessment select{font:inherit;color:#24302f;background:#fff;border:1px solid #96ada1;border-radius:.4rem;padding:.35rem .55rem}
+.copy-answer{margin:.7rem 0 .3rem;font-weight:650}
+#manual-summary{font-size:.95rem}
+#manual-summary:empty{display:none}
+
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#123f35 0%,#195b4a 55%,#2b7a62 100%);color:#fff;border-radius:22px;padding:30px 30px 24px;margin-bottom:8px;box-shadow:0 10px 30px rgba(25,91,74,.18)}
+.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.14),rgba(255,255,255,0) 70%)}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hero .eyebrow{color:#bfe3d3}
+.hero-tag{font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:5px 11px;border-radius:30px}
+.hero h1{color:#fff;margin:14px 0 8px;font-size:clamp(32px,6vw,50px)}
+.hero-sub{color:#d6ece2;margin:0 0 20px;max-width:640px;font-size:15px}
+.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.hero-stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:12px 14px}
+.hero-stat b{display:block;font:500 28px/1.1 Georgia,serif;color:#fff}
+.hero-stat span{font-size:12.5px;color:#cfe7dc}
+.hero-rules{margin-top:16px;background:rgba(0,0,0,.14);border-radius:12px;padding:0 14px;font-size:14px;color:#e3f1ea}
+.hero-rules summary{cursor:pointer;padding:11px 0;font-weight:650;color:#fff}
+.hero-rules p{margin:0 0 10px}
+.hero-rules b{color:#fff}
+.answer-key{background:#eaf4ec;border:1px solid #bfdcc8;border-radius:12px;padding:14px 16px;margin:4px 0 14px}
+.answer-key h3{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#1d7252;margin:0 0 8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.answer-key ul{margin:0;padding-left:20px}.answer-key li{margin:5px 0}
+.answer-key li.added{color:#2d3f8f}
+.tag-added{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;text-transform:uppercase;background:#e4e8fb;color:#3b4aa8;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag-src{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;border-radius:6px;padding:2px 7px;background:#fff;color:#677472;border:1px solid #dce3dd;text-transform:uppercase}
+.tag-src.deduit{background:#f7ecd2;color:#925b17;border-color:#ebd6a8}
+.key-letters{font-size:17px;font-weight:700;color:#155338}
+.answer-note{font-size:13.5px;color:#55625f;margin:8px 0 0}
+@media(max-width:600px){.hero{padding:22px 18px 18px;border-radius:18px}.hero-stat b{font-size:24px}}
+.context-text{white-space:pre-line;background:#fbf7ec;border-left:3px solid #c4ad65;border-radius:8px;padding:12px 14px;margin:6px 0 4px}
+.q-figure{margin:10px 0 6px}.q-figure img{display:block;max-width:100%;height:auto;border:1px solid #dce3dd;border-radius:10px;background:#fff}
+.source-copy{margin:10px 0}.source-copy summary{cursor:pointer;font-weight:650;color:var(--green)}
+.source-copy img{max-width:100%;height:auto}.source-copy p{margin:6px 0 12px}
+.option input:disabled{cursor:default}.question-stem{white-space:pre-line}
+.source-copy ul{padding-left:1.5em}.source-copy .source-pictures{max-height:none}.question-figure{max-height:390px;object-fit:contain}
+
+#topic-control{margin:14px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#topic{max-width:100%;min-width:0;width:min(100%,30rem);text-overflow:ellipsis}.question-stem,.option span,.answer-key{overflow-wrap:anywhere}.option span{min-width:0}.meta{flex-wrap:wrap;gap:4px 10px}.meta span:last-child{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.q-figure img{margin:8px 0;max-height:520px;object-fit:contain}
+.correct-options{margin:6px 0;padding-left:22px}.source-line{margin-top:12px}
+.q-figure img{max-height:none}.question-stem{white-space:pre-line}</style></head><body><nav id="memo-back" style="position:sticky;top:0;z-index:1000;display:flex;align-items:center;gap:10px;padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:rgba(247,246,241,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid #dce3dd;font:600 15px/1.2 system-ui,-apple-system,sans-serif"><a href="../../#/annales-nf/S2/3.3" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:#195b4a;color:#fff;text-decoration:none">&#8592; Retour à Mémo</a><span style="color:#677472;font-size:13px">UE 3.3 · Semestre 2 · Promotion 2018-2020</span></nav><script>(function(){var bar=document.getElementById('memo-back');if(!bar)return;function place(){var h=bar.offsetHeight,extra=0;document.querySelectorAll('body *').forEach(function(el){if(bar.contains(el))return;var cs=getComputedStyle(el);if(cs.position!=='sticky')return;if(el.dataset.memoTop===undefined)el.dataset.memoTop=parseFloat(cs.top)||0;var t=h+Number(el.dataset.memoTop);el.style.top=t+'px';extra=Math.max(extra,t+el.offsetHeight);});document.documentElement.style.scrollPaddingTop=(Math.max(h,extra)+8)+'px';}place();addEventListener('resize',place);addEventListener('load',place);})();</script><main>
+<header class="hero">
+<div class="hero-top"><span class="eyebrow" id="h-eyebrow"></span><span class="hero-tag">Promotion 2018-2020</span></div>
+<h1 id="h-title"></h1>
+<p class="hero-sub">Entraînement interactif · réponds à toutes les questions puis valide pour voir la correction détaillée.</p>
+<div class="hero-stats" id="h-stats"></div>
+<details class="hero-rules"><summary>Barème et fonctionnement</summary><div id="h-rules"></div></details>
+</header>
+<div class="filter-bar" id="topic-control"><label for="topic">Thème</label><select id="topic"><option value="">Tout le programme</option></select></div>
+<nav class="nav" aria-label="Navigation du quiz">
+<a data-kind="context" href="#section-context" hidden>Dossiers</a>
+<a data-kind="QCM" href="#section-QCM" hidden>QCM</a>
+<a data-kind="QCU" href="#section-QCU" hidden>QCU</a>
+<a data-kind="open" href="#section-QROC" hidden>Questions ouvertes</a>
+<a href="#submit">Corriger</a>
+</nav>
+<div class="progress"><span id="progress" aria-live="polite"></span><span id="mode"></span></div>
+<progress id="bar" class="question-progress" max="10" value="0" aria-label="Questions renseignées"></progress>
+<section id="results" class="scorebox" hidden tabindex="-1" aria-label="Résultat">
+<div class="score" id="score"></div><p id="summary"></p><p id="manual-summary" aria-live="polite"></p>
+<div class="actions"><button id="reset" type="button">Tout recommencer</button><button id="retry" class="secondary" type="button">Reprendre les questions imparfaites ou à vérifier</button></div></section>
+<div class="filter-bar" id="filters" hidden><label for="filter">Afficher</label>
+<select id="filter"><option value="all">Toutes les questions</option><option value="imperfect">Imparfaites ou à vérifier</option></select></div>
+<form id="quiz" novalidate><div id="cards"></div><p class="notice" id="message" role="status"></p><div class="actions"><button type="submit" id="submit">Valider et voir les réponses</button></div></form>
+<footer id="h-footer"></footer>
+</main><noscript><p>Active JavaScript pour répondre au partiel.</p></noscript><script>const DATA={"semester":2,"ue":"3.3","title":"Les modalités spécifiques d'anesthésie, réanimation et urgence dans les différents types d'intervention","name":"Annales 2018-2020 UE 3.3","promotion":"2018-2020","cards":[{"title":"Parmi les propositions concernant l'hypertension intracrânienne (HTIC), laquelle ou lesquelles est (sont) vraie(s) ?","options":["L’HTIC est définie par l'augmentation de la pression intracrânienne au-dessus de 15 mmHg","L’HTIC a pour origine une atteinte du parenchyme cérébral","L’HTIC a pour traitement unique la craniectomie décompressive","L’HTIC peut entraîner une modification de la boîte crânienne chez l'adulte","L’HTIC peut entraîner un œdème papillaire"],"kind":"QCM","unit":"3.3","sourcePage":12,"topic":"Chirurgie : neurologie","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 30","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=30"]],"correct":"ABE","note":"","optionNotes":[["L’HTIC a pour traitement unique la craniectomie décompressive","osmothérapie aussi, “hypocapnie”"],["L’HTIC peut entraîner une modification de la boîte crânienne chez l'adulte","Boîte crânienne inextensible"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c1","num":1,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Citer les différents ACSOS (agression cérébrale secondaire d'origine systémique)","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":13,"topic":"Chirurgie : neurologie","session":"2018-2020","figures":[],"ue":"3.3","refs":[],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["Rechercher notamment hypotension et hypoxémie, hypo- ou hypercapnie, anémie, anomalies glycémiques, hyperthermie et troubles de la natrémie."],"points":2,"instruction":"","id":"c2","num":2,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant la réhabilitation rapide post opératoire suite à une chirurgie de l'œsophage, laquelle ou lesquelles est (sont) vraie(s) ?","options":["une extubation précoce permet une réhabilitation rapide en postopératoire","une analgésie optimale permet une réhabilitation rapide en postopératoire","une reprise alimentaire orale à J2 permet une réhabilitation rapide en postopératoire","l'ablation de la sonde nasogastrique en SSPI permet une réhabilitation rapide en post opératoire","une kinésithérapie et mobilisation précoce à J1 permet une réhabilitation rapide en postopératoire"],"kind":"QCM","unit":"3.3","sourcePage":15,"topic":"Chirurgie : œsophage","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 30","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=30"],["Cours à consulter · Chirurgie diges avec note 3.3 (p. 128)","../../../cours/S1/3.3/Chirurgie%20diges%20avec%20note%203.3.pdf#page=128"]],"correct":"ABE","note":"","optionNotes":[["une reprise alimentaire orale à J2 permet une réhabilitation rapide en postopératoire","orale J5"],["l'ablation de la sonde nasogastrique en SSPI permet une réhabilitation rapide en post opératoire","J3 et drainage J4"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c3","num":3,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Dans le cadre de la chirurgie ophtalmique indiquer la symptomatologie clinique du réflexe oculo cardiaque (ROC)","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":17,"topic":"Chirurgie : ophtalmologique","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 47","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=47"],["Cours à consulter · 2.2 Neuro avec notes (p. 46)","../../../cours/S1/2.2/2.2%20Neuro%20avec%20notes.pdf#page=46"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["Dans le cadre de la chirurgie ophtalmologique, citer les facteurs déclenchant un réflexe oculocardiaque (ROC). Indiquer la symptomatologie clinique du ROC. Le réflexe est déclenché par la pression sur les globes oculaires, vraisemblablement par stimulation de la portion ophtalmique du nerf trijumeau.","Le stimulus est transmis via la formation réticulée (zone du cerveau) et est ensuite transmis au nerf vague jusqu'au structures cardio-vasculaires. Diminué sous AG et ALR mais non supprimé. Manifestations :","- Bradycardies sinusales, pauses, ESV, ESA, jusqu’à arrêt cardiaque. Les manifestations sont d’autant plus importantes que la stimulation est soudaine et brutale. CAT: ● Surveillance = ECG ● Traitement = Atropine 6µ/kg (attention chez insuffisant coronaires et adénomes de prostates). ● CAT en cas de survenue :","- Arrêt du stimulus","– Reprise progressive du geste chirurgical.","- Atropine IV si la bradycardie persiste ou récidive."],"points":2,"instruction":"","id":"c4","num":4,"page":1,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant la prévention des nausées vomissements postopératoires (NVPO) en chirurgie ORL, laquelle ou lesquelles est (sont) vraie(s) ?","options":["Toutes les chirurgies ORL favorisent le risque de NVPO","La chirurgie de l'oreille expose à un risque moindre de NVPO","La réduction de fracture des os propres du nez (OPN) expose à un risque majoré de NVPO","La chirurgie endonasale favorise les NVPO","L'amygdalectomie est émétisante","La chirurgie maxillo-faciale favorise les NVPO"],"kind":"QCM","unit":"3.3","sourcePage":18,"topic":"Chirurgie : orl","session":"2013-2015, 2015-2017, 2017-2019, 2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 7","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=7"],["Cours à consulter · Chirurgie diges avec note 3.3 (p. 32)","../../../cours/S1/3.3/Chirurgie%20diges%20avec%20note%203.3.pdf#page=32"]],"correct":"ADEF","note":"","optionNotes":[["La chirurgie de l'oreille expose à un risque moindre de NVPO","émétisantes +++"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c5","num":5,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les inconvénients du masque laryngé en chirurgie ORL, laquelle ou lesquelles est (sont) vraie(s) ?","options":["il existe un risque d'inhalation lorsque les pressions d'insufflation sont inférieures à 15-20 cmH2O","il existe un risque d'obstruction en cas de flexion importante du cou","il existe un risque de fuite dans les conditions optimales de ventilation","il existe un risque de distension gastrique lorsque les pressions d'insufflation sont inférieures à 15-20 cmH2O","il existe un risque de déplacement en peropératoire"],"kind":"QCM","unit":"3.3","sourcePage":19,"topic":"Chirurgie : orl","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 29","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=29"],["Cours à consulter · 2.2 Physiologie respi avec notes (p. 18)","../../../cours/S1/2.2/2.2%20Physiologie%20respi%20avec%20notes.pdf#page=18"]],"correct":"BE","note":"","optionNotes":[["il existe un risque d'inhalation lorsque les pressions d'insufflation sont inférieures à 15-20 cmH2O","supérieures"],["il existe un risque de fuite dans les conditions optimales de ventilation","si PI > 15-20 cmH2O"],["il existe un risque de distension gastrique lorsque les pressions d'insufflation sont inférieures à 15-20 cmH2O","supérieures"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c6","num":6,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Définir les 2 techniques anesthésiques utilisées en chirurgie ORL pour réduire le saignement postopératoire","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":20,"topic":"Chirurgie : orl","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 54","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=54"],["Cours à consulter · Chirurgie diges avec note 3.3 (p. 129)","../../../cours/S1/3.3/Chirurgie%20diges%20avec%20note%203.3.pdf#page=129"]],"correct":"","note":"","optionNotes":[],"ungraded":false,"answer":["- hypoTA contrôlée","- proclive"],"criteria":[{"label":"hypoTA contrôlée","yes":"\\bcontrolee\\w*\\b","weight":1.0},{"label":"proclive","yes":"\\bproclive\\w*\\b","weight":1.0}],"points":2,"instruction":"","id":"c7","num":7,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions les signes cliniques présentés par un patient ayant un phéochromocytome, laquelle ou lesquelles est (sont) vraie(s) ?","options":["le phéochromocytome entraîne une hypotension artérielle","le phéochromocytome entraîne une pâleur","le phéochromocytome entraîne une tachycardie","le phéochromocytome entraîne des sueurs profuses","le phéochromocytome entraîne une frilosité"],"kind":"QCM","unit":"3.3","sourcePage":26,"topic":"Chirurgie : surrenale","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 29","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=29"],["Cours à consulter · 3.3 Estomac plein avec note (p. 93)","../../../cours/S1/3.3/3.3%20Estomac%20plein%20avec%20note.pdf#page=93"]],"correct":"CD","note":"","optionNotes":[["le phéochromocytome entraîne une hypotension artérielle","HTA"],["le phéochromocytome entraîne une frilosité","Sensation de chaleur"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c8","num":8,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant la chirurgie du pneumothorax, laquelle ou lesquelles est (sont) vraie(s) ?","options":["il existe un risque de pneumothorax controlatéral à l'induction uniquement","le talcage est une des techniques chirurgicales","le protoxyde d'azote peut être utilisé","l'intubation sélective peut s'avérer difficile si le pneumothorax n'est pas drainé","la stratégie d'anesthésie peut prévoir une induction inhalatoire"],"kind":"QCM","unit":"3.3","sourcePage":30,"topic":"Chirurgie : thoracique","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 30","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=30"],["Cours à consulter · 3.1 Ventilation mécanique avec notes (p. 45)","../../../cours/S1/3.1/3.1%20Ventilation%20me%CC%81canique%20avec%20notes.pdf#page=45"]],"correct":"BD","note":"","optionNotes":[["le protoxyde d'azote peut être utilisé","CI"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c9","num":9,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Citer 3 contre-indications au manœuvre de recrutement alvéolaire","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":30,"topic":"Chirurgie : thoracique","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 46","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=46"]],"correct":"","note":"","optionNotes":[],"ungraded":false,"answer":["- emphysème","- actd pneumothorax","- hdm instable"],"criteria":[{"label":"emphysème","yes":"\\bemphyseme\\w*\\b","weight":0.6667},{"label":"actd pneumothorax","yes":"\\bpneumothorax\\w*\\b","weight":0.6667},{"label":"hdm instable","yes":"\\binstable\\w*\\b","weight":0.6666}],"points":2,"instruction":"","id":"c10","num":10,"page":2,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant la chirurgie carotidienne, laquelle ou lesquelles est (sont) vraie(s) ?","options":["l'hypotension artérielle est consécutive à la manipulation du glomus carotidien","le syndrome de reperfusion est systématiquement observé","l'hypertension artérielle est consécutive au déclampage de la carotide","le risque hémorragique est la principale complication de cette chirurgie","L’ischémie est consécutive au bas débit lors du clampage","l'hypotension artérielle est consécutive au déclampage de la carotide","le risque embolique est la principale complication de cette chirurgie"],"kind":"QCM","unit":"3.3","sourcePage":35,"topic":"Chirurgie : vasculaire","session":"2017-2019, 2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 24","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=24"]],"correct":"AEFG","note":"","optionNotes":[["l'hypotension artérielle est consécutive à la manipulation du glomus carotidien","et/ou bradycardie"],["le syndrome de reperfusion est systématiquement observé","7% après ischémie chronique"],["l'hypertension artérielle est consécutive au déclampage de la carotide","au clampage"],["le risque hémorragique est la principale complication de cette chirurgie","Superficielle, 3% thromboembolique"],["L’ischémie est consécutive au bas débit lors du clampage","30%"],["l'hypotension artérielle est consécutive au déclampage de la carotide","-> vasoconstricteurs +++"],["le risque embolique est la principale complication de cette chirurgie","60% dissection et déclampage"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c11","num":11,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les douleurs des membres inférieurs d'origine artérielle, laquelle ou lesquelles est (sont) vraie(s) ?","options":["elles apparaissent uniquement à l'effort","elles résultent d'une ischémie musculaire","elles peuvent être associées à des paresthésies","elles témoignent d'une augmentation de débit sanguin lors de l'effort","elles disparaissent au repos lors du décubitus"],"kind":"QCM","unit":"3.3","sourcePage":35,"topic":"Chirurgie : vasculaire","session":"2017-2019, 2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 25","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=25"]],"correct":"BC","note":"","optionNotes":[["elles apparaissent uniquement à l'effort","Douleur de repos en DD"],["elles peuvent être associées à des paresthésies","au maximum en cas d’ischémie aiguë"],["elles témoignent d'une augmentation de débit sanguin lors de l'effort","empêchent l’augmentation du débit sanguin de MI"],["elles disparaissent au repos lors du décubitus","en position assise ou jambes pendantes"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c12","num":12,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant la chirurgie carotidienne, laquelle ou lesquelles est (sont) vraie(s) ?","options":["l'hypertension artérielle est consécutive à la manipulation du glomus carotidien","le syndrome de reperfusion est systématiquement observé","l'hypotension artérielle est consécutive au déclampage de la carotide","le risque d'embolie qui est la principale complication de cette chirurgie","l'ischémie cérébrale est consécutive au bas débit lors du clampage"],"kind":"QCM","unit":"3.3","sourcePage":35,"topic":"Chirurgie : vasculaire","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 30","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=30"]],"correct":"CDE","note":"","optionNotes":[["l'hypertension artérielle est consécutive à la manipulation du glomus carotidien","hTA + bradycardie"],["l'hypotension artérielle est consécutive au déclampage de la carotide","redistribution"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c13","num":13,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Citez les moyens permettant d'optimiser l’hémodynamique lors d'un clampage aortique","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":36,"topic":"Chirurgie : vasculaire","session":"2018-2020","figures":[],"ue":"3.3","refs":[],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["Anticiper les variations de charge avec monitorage adapté et coordination avec le chirurgien.","Au clampage, contrôler l’augmentation de postcharge et la tolérance cardiaque. Au déclampage, anticiper hypotension et troubles métaboliques, puis adapter remplissage et soutien vasoactif au monitorage."],"points":2,"instruction":"","id":"c14","num":14,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant l'anesthésie du patient diabétique, laquelle ou lesquelles est (sont) vraie(s) ?","options":["le risque d'intubation difficile est majoré","la raideur du rachis est majorée","le risque de ventilation difficile est majoré","le risque d'inhalation est majoré","la survenue d’hypotension est majorée"],"kind":"QCM","unit":"3.3","sourcePage":42,"topic":"Terrain : diabetique","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 30","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=30"]],"correct":"ABDE","note":"","optionNotes":[["le risque d'intubation difficile est majoré","risque de gastroparésie et de raideur cervicale"],["la raideur du rachis est majorée","signe du prieur"],["le risque d'inhalation est majoré","si gastroparésie"],["la survenue d’hypotension est majorée","neuropathie autonome cardiaque"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c15","num":15,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Définir la triade de Whipple dans le diagnostic du coma hypoglycémique","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":43,"topic":"Terrain : diabetique","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 62","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=62"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["Le patient présente des symptômes compatibles avec une hypoglycémie. Ces symptômes peuvent être neurogènes (adrénergiques et cholinergiques) ou neuroglycopéniques. Symptômes Neurogènes :","- Tremblements","- Palpitations","- Anxiété","- Diaphorèse (transpiration excessive)","- Faim","- Paresthésies (picotements ou engourdissements) Symptômes Neuroglycopéniques :","- Confusion","- Troubles de la concentration","- Vision trouble","- Faiblesse","- Comportement anormal","- Convulsions","- Perte de conscience Glycémie Basse Confirmée La confirmation d'une glycémie basse (hypoglycémie) au moment où les symptômes surviennent. Généralement, une glycémie inférieure à 70 mg/dL (3,9 mmol/L) est considérée comme hypoglycémique, mais dans le contexte clinique de la triade de Whipple, la glycémie est souvent encore","plus basse Réversibilité des Symptômes par l'Administration de Glucose Les symptômes d'hypoglycémie disparaissent après l'administration de glucose ou de nourriture. Cela confirme que les symptômes étaient bien dus à l'hypoglycémie et non à une autre cause."],"points":2,"instruction":"","id":"c16","num":16,"page":3,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant la prééclampsie, laquelle ou lesquelles est (sont) vraie(s) ?","options":["L’hypertension artérielle gravidique est un des éléments diagnostiques de pré­ éclampsie","La prééclampsie associe une hypotension gravidique à une protéinurie","La prééclampsie doit faire redouter la survenue d'une crise convulsive tonico- clonique","L'hypertension gravidique doit être contrôlée par un traitement hypotenseur type Nicardipine®","L’hypertension gravidique doit être respectée","La prééclampsie associe une pression artérielle systolique ≥ à 140 mmHg à une protéinurie","la pré éclampsie se manifeste par une barre épigastrique","La pré éclampsie se manifeste par des réflexes ostéo-tendineux diminués"],"kind":"QCM","unit":"3.3","sourcePage":49,"topic":"Terrain : femme enceinte","session":"2012-2014, 2013-2015, 2015-2017, 2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 10","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=10"]],"correct":"ACDF","note":"","optionNotes":[["La prééclampsie associe une hypotension gravidique à une protéinurie","HTA"],["La prééclampsie doit faire redouter la survenue d'une crise convulsive tonico- clonique","= eclampsie"],["L'hypertension gravidique doit être contrôlée par un traitement hypotenseur type Nicardipine®","Labétalol=trandate, Nicardipine, Urapidil"],["La prééclampsie associe une pression artérielle systolique ≥ à 140 mmHg à une protéinurie","et/ou PAD > ou = à 90mmHg"],["la pré éclampsie se manifeste par une barre épigastrique","PE sévère"],["La pré éclampsie se manifeste par des réflexes ostéo-tendineux diminués","ROT vifs"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c17","num":17,"page":4,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les modifications respiratoires chez la femme enceinte, laquelle ou lesquelles est (sont) vraie(s) ?","options":["il existe une augmentation des besoins en oxygène","il existe un risque d’hypoxémie","il existe une diminution de la capacité résiduelle fonctionnelle","il existe une hypoventilation dès la 7e semaine","il existe une normalisation immédiate en post-partum"],"kind":"QCM","unit":"3.3","sourcePage":51,"topic":"Terrain : femme enceinte","session":"2017-2019, 2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 23","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=23"]],"correct":"ABC","note":"","optionNotes":[["il existe une hypoventilation dès la 7e semaine","Hyperventilation"],["il existe une normalisation immédiate en post-partum","1 à 3 semaines post-partum"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c18","num":18,"page":4,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les risques au cours de la grossesse, laquelle ou lesquelles est (sont) vraie(s) ?","options":["une parturiente à 16 SA est considérée à risque d'estomac plein","une parturiente qui bénéficie d'une anesthésie générale à 12 SA doit bénéficier d'un décubitus latéral droit","il existe une augmentation de la consommation d'oxygène et de la ventilation minute au cours de la grossesse","le risque thrombo-embolique est diminué au cours de la grossesse","il existe une autorégulation du débit utéro placentaire en cas d’hypotension présentée par la mère"],"kind":"QCM","unit":"3.3","sourcePage":52,"topic":"Terrain : femme enceinte","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 29","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=29"],["Cours à consulter · 4.4 Radio Protection (p. 25)","../../../cours/S1/4.4/4.4%20Radio%20Protection.pdf#page=25"]],"correct":"AC","note":"","optionNotes":[["une parturiente à 16 SA est considérée à risque d'estomac plein","15 SA dans cours ISR"],["une parturiente qui bénéficie d'une anesthésie générale à 12 SA doit bénéficier d'un décubitus latéral droit","Gauche"],["il existe une augmentation de la consommation d'oxygène et de la ventilation minute au cours de la grossesse","pour partager avec le foetus"],["le risque thrombo-embolique est diminué au cours de la grossesse","Augmenté"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c19","num":19,"page":4,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant l'intubation chez la femme enceinte, laquelle ou lesquelles est (sont) vraie(s) ?","options":["l'incidence de l'intubation difficile est élevée chez la femme enceinte","l'exposition laryngée est gênée par l’hypotrophie mammaire","l'engorgement des muqueuses oro-pharyngo-laryngées augmente le risque de traumatisme lors de l'intubation","L’hyperhémie des voies aériennes supérieures nécessitent l'emploi de sonde d'intubation de petits calibres","la prise de poids diminue le risque d'intubation difficile"],"kind":"QCM","unit":"3.3","sourcePage":53,"topic":"Terrain : femme enceinte","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 28","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=28"],["Cours à consulter · 2.2 Neuro avec notes (p. 84)","../../../cours/S1/2.2/2.2%20Neuro%20avec%20notes.pdf#page=84"]],"correct":"ACD","note":"","optionNotes":[["l'incidence de l'intubation difficile est élevée chez la femme enceinte","multipliée par 8"],["l'exposition laryngée est gênée par l’hypotrophie mammaire","Hypertrophie"],["la prise de poids diminue le risque d'intubation difficile","Augmente"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c20","num":20,"page":4,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les éléments cliniques recherchés lors de la suspicion d'une rupture utérine, laquelle ou lesquelles est (sont) vraie(s) ?","options":["présence d'une douleur abdominale brutale en coup de poignard","présence d'un utérus cicatriciel","présence d'une macrosomie","présence d'une hypertonie utérine","présence de douleur épigastrique"],"kind":"QCM","unit":"3.3","sourcePage":53,"topic":"Terrain : femme enceinte","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 29","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=29"]],"correct":"AB","note":"","optionNotes":[["présence d'une douleur abdominale brutale en coup de poignard","Également malaise"],["présence d'une hypertonie utérine","Travail en cours"],["présence de douleur épigastrique","PE sévère"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c21","num":21,"page":5,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les indications de césarienne dont le degré d'urgence est un code vert, laquelle ou lesquelles est (sont) vraie(s) ?","options":["l'échec de déclenchement","la procidence du cordon ombilical","L’hypotonie utérine","la disproportion foeto-pelvienne","la suspicion de rupture utérine"],"kind":"QCM","unit":"3.3","sourcePage":53,"topic":"Terrain : femme enceinte","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 29","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=29"],["Cours à consulter · 2.4 Hypnotique Benzo avec notes (p. 72)","../../../cours/S1/2.4/2.4%20Hypnotique%20Benzo%20avec%20notes.pdf#page=72"]],"correct":"AD","note":"","optionNotes":[["la procidence du cordon ombilical","rouge"],["la suspicion de rupture utérine","rouge"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c22","num":22,"page":5,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Citer 5 étiologies les plus fréquentes pouvant être responsable d’hémorragies du post-partum","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":53,"topic":"Terrain : femme enceinte","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 55","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=55"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["- atonie utérine,","- lésions de la filière génitale,","- rétention placentaire","- rupture utérine,","- inversion utérine,","- embolie amniotique,","- placenta praevia et accreta"],"points":2,"instruction":"","id":"c23","num":23,"page":5,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Citer les difficultés liées à l'obésité chez la femme enceinte qui envisagent une anesthésie péridurale (APD)","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":54,"topic":"Terrain : femme enceinte","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 56","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=56"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["- Difficultés+++ : Positionnement de la patiente, identification des repères (ligne médiane ???) localisation de l'espace, péridural => PRC+++ / ECHO PM","- Déplacement du KT+++ : : plus fréquent chez la parturiente obèse (glissement de la peau sur pannicule sous-cutanée, changement de position…)","- Importance Fixation+++ : fixation dos et épaule, système Lockit"],"points":2,"instruction":"","id":"c24","num":24,"page":5,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Citer les modifications cardiovasculaires physiologiques chez la femme enceinte. expliciter leur mécanisme","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":54,"topic":"Terrain : femme enceinte","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 56","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=56"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["● ↗ FC (15%) : rôle des œstrogènes ● ↗ VES+++ (35%)","- Hypervolémie à + 40-50% par ● Rétention hydrosodée due aux œdèmes ● ↗ sécrétion d’aldostérone ● Disparaît progressivement 3 premiers jours du post-partum, retour normale 4-6sem","- Diminution RVS secondaire à une circulation basse pression utéro-placentaire et à la vasodilatation par les prostacyclines","- Maintien PA basse malgré l’hypervolémie","- PA : baisse PAS (8%) et PAD (20%), normalisation à terme","- Augmentation de la dépendance au SNA: sensibilité aux AL car débit sanguins régionaux augmentés"],"points":2,"instruction":"","id":"c25","num":25,"page":5,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant la physiologie de la plaque motrice du nouveau-né, laquelle est vraie ? le nouveau-né est plus sensible aux curares dépolarisants\n\nCAR\n\nLa transmission neuromusculaire est immature chez le nouveau-né","options":["les propositions sont toutes 2 vraies et il existe entre elles une relation cause à effet","les propositions sont toutes 2 vraies sans qu'il n’existe entre elles de relation de cause à effet","la première proposition est vraie mais la 2e est fausse","la première proposition est fausse mais la 2e est vraie","les 2 propositions sont fausses"],"kind":"QCU","unit":"3.3","sourcePage":71,"topic":"Terrain : pediatrie","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Cours à consulter · 2.2 Curares avec notes (p. 2)","../../../cours/2.2%20Curares%20avec%20notes.pdf#page=2"]],"correct":"D","note":"L’immaturité de la transmission neuromusculaire est réelle. La sensibilité accrue classiquement décrite concerne surtout les curares non dépolarisants.","optionNotes":[],"ungraded":false,"points":1,"instruction":"Cocher une seule proposition.","id":"c26","num":26,"page":5,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant le report de l’anesthésie en pédiatrie, laquelle ou lesquelles est (sont) vraie(s) ?","options":["l'anesthésie est reportée si l'enfant présente des signes bronchiques à type de toux et sibilants","l'anesthésie est reportée si l'enfant présente une rhinite","l'anesthésie est reportée si l'enfant présente un fébricule supérieur à 38°C","l'anesthésie est reportée si l'enfant présente un écoulement nasal purulent verdâtre","l'anesthésie est reportée si l'enfant présente une laryngite"],"kind":"QCM","unit":"3.3","sourcePage":72,"topic":"Terrain : pediatrie","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 27","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=27"]],"correct":"ACDE","note":"Réponses repérées dans le corrigé de la promotion.","optionNotes":[],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c27","num":27,"page":6,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant le massage cardiaque externe chez le nouveau-né, laquelle ou lesquelles est (sont) vraie(s) ?","options":["il doit être effectué si la fréquence cardiaque est inférieure à 50 bpm","il doit être effectué si la fréquence cardiaque est inférieure à 55 bpm","il doit être effectué si la fréquence cardiaque est inférieure à 60 bpm","il doit être effectué si la fréquence cardiaque est inférieure à 65 bpm","il doit être effectué si la fréquence cardiaque est inférieure à 70 bpm"],"kind":"QCM","unit":"3.3","sourcePage":72,"topic":"Terrain : pediatrie","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 27","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=27"],["ERC · Réanimation à la naissance","https://www.erc.edu/media/rgrn0faa/gl2025-08-nls-e.pdf"],["Cours à consulter · 3.1 ECG avec notes (p. 78)","../../../cours/S1/3.1/3.1%20ECG%20avec%20notes.pdf#page=78"]],"correct":"C","note":"Le seuil est 60 battements par minute. À la naissance, les compressions sont indiquées si la fréquence reste inférieure à ce seuil après au moins 30 secondes de ventilation efficace.","optionNotes":[],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c28","num":28,"page":6,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les particularités hémodynamiques du nouveau-né, laquelle est vraie ? le débit cardiaque dépend essentiellement de la fréquence cardiaque\n\nCAR\n\nla contractilité myocardique du nouveau-né est plus faible","options":["les propositions sont toutes 2 vraies et il existe entre elles une relation cause à effet","les propositions sont toutes 2 vraies sans qu'il n’existe entre elles de relation de cause à effet","la première proposition est vraie mais la 2e est fausse","la première proposition est fausse mais la 2e est vraie","les 2 propositions sont fausses"],"kind":"QCU","unit":"3.3","sourcePage":72,"topic":"Terrain : pediatrie","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 28","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=28"],["Cours à consulter · 2.2 Physiologie Cardiaque avec notes (p. 53)","../../../cours/S1/2.2/2.2%20Physiologie%20Cardiaque%20avec%20notes.pdf#page=53"]],"correct":"A","note":"Réponses repérées dans le corrigé de la promotion.","optionNotes":[],"ungraded":false,"points":1,"instruction":"Cocher une seule proposition.","id":"c29","num":29,"page":6,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Citer les 7 particularités anatomiques des voies aériennes du nouveau-né et en déduire les risques encourus lors d'une anesthésie générale","options":[],"kind":"QUESTION","unit":"3.3","sourcePage":74,"topic":"Terrain : pediatrie","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 59","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=59"],["Cours à consulter · 3.3 Estomac plein avec note (p. 33)","../../../cours/S1/3.3/3.3%20Estomac%20plein%20avec%20note.pdf#page=33"]],"correct":"","note":"Compare ta réponse avec le corrigé puis ajuste les points si nécessaire.","optionNotes":[],"ungraded":false,"answer":["Citer les particularités anatomiques des voies aériennes du nouveau-né et en déduire"],"points":2,"instruction":"","id":"c30","num":30,"page":6,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"},{"title":"Parmi les propositions concernant les risques liés à la prise d'un traitement immunosuppresseur, laquelle ou lesquelles est (sont) vraie(s) ?","options":["le risque hémorragique est augmenté","le risque d’hyperthermie est augmenté","le risque infectieux est augmenté","le risque d'hypertension est augmenté","le risque d'insuffisance rénale est augmenté"],"kind":"QCM","unit":"3.3","sourcePage":77,"topic":"Terrain : transplante","session":"2018-2020","figures":[],"ue":"3.3","refs":[["Corrigé d’époque · p. 31","../../../Annales/Annales%20corrige%CC%81es/Annales%20corrige%CC%81e/UE%203.3%20-%20S2%20-%20Toutes%20les%20annales.pdf#page=31"]],"correct":"CDE","note":"","optionNotes":[["le risque hémorragique est augmenté","Mais risque d’anémie"],["le risque d’hyperthermie est augmenté","Abaissé"]],"ungraded":false,"points":1,"instruction":"Cocher les propositions exactes.","id":"c31","num":31,"page":6,"originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%203.3.pdf"}],"figures":{},"pdf":"Annales%202018-2020%20UE%203.3.pdf","pdfLabel":"Annales 2018-2020 UE 3.3.pdf","twoErrors":0.25,"examTotal":41,"notes":["31 questions dans l’ordre du PDF. Le corrigé indique ses sources et les points à vérifier."]};
+const normalize = text => text.normalize('NFKC').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae').replace(/[’']/g,' ').replace(/(\d),(?=\d)/g,'$1.').trim();
+const close = (a,b) => Math.abs(a-b)<1e-7;
+const round = n => Math.round(n*10000)/10000;
+const reviewOptions = [
+  ['', 'À évaluer'],
+  ['correct', 'Correcte'],
+  ['partial', 'Partielle'],
+  ['review', 'À revoir · 0 point']
+];
+
+function rubricAnalysis(raw, criteria) {
+  const input=normalize(raw);
+  const clauses=input.split(/[;!?\n]+|\.(?!\d)|\b(?:mais|cependant|pourtant)\b/).map(s=>s.trim()).filter(Boolean);
+  return criteria.map(criterion=>{
+    const yes=new RegExp(criterion.yes.trim(),'i');
+    const bad=criterion.bad ? new RegExp(criterion.bad,'i') : null;
+    const conflict=bad && clauses.find(clause=>bad.test(clause));
+    const matches=clauses.filter(clause=>yes.test(clause));
+    const negated=!criterion.allowNegation && matches.find(clause=>
+      /^(?:\w+\s+){0,5}(?:pas|aucun|aucune|non|jamais)\b|\bn\s+est\s+pas\b/.test(clause)
+    );
+    const evidence=conflict||negated||matches[0]||'';
+    const status=conflict||negated?'ambiguous':matches.length?'recognized':'missing';
+    return {...criterion,status,evidence,override:null};
+  });
+}
+
+function analysisPoints(grade) {
+  const recognized=grade.analysis.filter(c=>c.override ?? (c.status==='recognized'));
+  const earned=round(recognized.reduce((sum,c)=>sum+c.weight,0));
+  return grade.allOrNothing && !close(earned,grade.autoMax) ? 0 : earned;
+}
+
+function assessed(grade) {
+  if(grade.review==='blank' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='correct' && grade.full!=null) return {score:grade.full,max:grade.full};
+  if(grade.review==='review' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='partial' && grade.full!=null && grade.manualPoints!=null) {
+    return {score:grade.manualPoints,max:grade.full};
+  }
+  return {score:grade.analysis ? analysisPoints(grade) : grade.autoScore,max:grade.autoMax};
+}
+
+function pointsEntry(q,grade) {
+  const value=grade.manualPoints??'';
+  const hidden=grade.review!=='partial'?' hidden':'';
+  return q.kind==='QCM'
+    ? `<label data-partial="${q.id}"${hidden}>Points attribués <select data-points="${q.id}"><option value="">À saisir</option><option value="0.5"${value===.5?' selected':''}>0,5</option>${DATA.twoErrors===.25?`<option value="0.25"${value===.25?' selected':''}>0,25</option>`:''}</select></label>`
+    : `<label data-partial="${q.id}"${hidden}>Points attribués sur ${format(grade.full)} <input data-points="${q.id}" type="number" inputmode="decimal" min="0" max="${grade.full}" step="any" value="${value}"></label>`;
+}
+
+function assessmentControls(q,grade) {
+  if(grade.review==='blank') return '<p class="small">Sans réponse.</p>';
+  const partial=q.kind!=='QCU'&&!q.allOrNothing;
+  const choices=reviewOptions.filter(([key])=>partial||key!=='partial');
+  const options=choices.map(([key,label])=>`<option value="${key}"${key===grade.review?' selected':''}>${!key&&grade.analysis?'Selon l’analyse automatique':label}</option>`).join('');
+  return `<div class="self-assessment"><label for="review-${q.id}">Évalue ta réponse</label><select id="review-${q.id}" data-review="${q.id}">${options}</select>${grade.full!=null&&partial?pointsEntry(q,grade):''}</div>`;
+}
+
+const $ = id => document.getElementById(id);
+const format = (value, digits=4) => value.toLocaleString('fr-FR', {maximumFractionDigits:digits});
+const isChoice = q => q.kind === 'QCM' || q.kind === 'QCU';
+const isOpen = q => !isChoice(q) && q.kind !== 'context';
+const escape = value => String(value).replace(/[&<>"']/g, char => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]
+));
+const questionLabel = card => card.kind === 'context' ? card.title : `${card.kind==='QUESTION'?'QROC':card.kind} ${card.num}${card.series?' · '+card.series:''}`;
+const values = [...'ABCDEFGHIJKL'];
+
+
+const realCards=DATA.cards.filter(q=>q.kind!=='context');
+const nCh=realCards.filter(q=>q.kind==='QCM'||q.kind==='QCU').length,nOp=realCards.length-nCh;
+const nPts=Math.round(realCards.reduce((s,q)=>s+(q.points??1),0)*100)/100;
+document.title=`UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2018-2020 — ${DATA.title}`;
+$('h-eyebrow').textContent=`École IADE · UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2018-2020`;
+$('h-title').textContent=DATA.name;
+$('h-title').insertAdjacentHTML('afterend', `<p>${escape(DATA.title)}</p>`);
+$('h-stats').innerHTML=[[realCards.length,'questions'],[nCh,'QCM / QCU'],[nOp,'questions ouvertes'],[nPts.toLocaleString('fr-FR'),'points au barème']].filter(([n])=>n!==0).map(([n,t])=>`<div class="hero-stat"><b>${n}</b><span>${t}</span></div>`).join('');
+$('h-rules').innerHTML=`<p>QCM sur 1 point : une erreur ou un oubli = 0,5 point${DATA.twoErrors?`, deux erreurs ou oublis = ${String(DATA.twoErrors).replace('.',',')} point`:''}, au-delà 0. QCU sur 1 point.</p><p>Questions ouvertes : ta réponse est comparée aux éléments attendus. Si la détection n’a pas reconnu une bonne idée, clique sur <b>Valider cet élément</b> ou choisis une évaluation manuelle.</p><p>Les questions signalées « hors barème » sont consultables dans la correction. La correction précise les limites du sujet ou du corrigé disponible. Les questions ouvertes sont corrigées automatiquement lorsque des critères ont pu être établis. Les autres peuvent être évaluées manuellement après lecture de la correction.</p>`;
+$('h-footer').innerHTML=`Source · <a href="${DATA.pdf}">${escape(DATA.pdfLabel)}</a> · Fonctionne hors connexion.`;
+$('h-rules').insertAdjacentHTML('beforeend',`<p>${escape(DATA.notes[0])}</p>`);
+const srcTag=q=>q.source==='corrige'?'<span class="tag-src deduit">Réponse rectifiée</span>':'';
+function sourceCopy(q) {
+  return `<p class="small source-line"><a href="${escape(DATA.pdf)}#page=${q.page}">PDF de la promotion · p. ${q.page}</a> · <a href="${escape(q.originalPdf)}#page=${q.sourcePage}">Recueil d’origine · p. ${q.sourcePage}</a> · ${escape(q.session)} · ${escape(q.topic)}</p>`;
+}
+function sources(q) {
+  return q.refs.length?`<ul class="small">${q.refs.map(([label,url])=>`<li><a href="${escape(url)}" target="_blank" rel="noopener">${escape(label)}</a></li>`).join('')}</ul>`:'';
+}
+function answerBox(q){
+  let list=q.answer; if(!list) return ''; if(typeof list==='string') list=[list];
+  const items=list.map(a=>{const add=a.startsWith('+');const t=add?a.replace(/^\+\s*/,''):a;return `<li class="${add?'added':''}">${escape(t)}${add?'<span class="tag-added">Complément</span>':''}</li>`;}).join('');
+  return `<div class="answer-key"><h3>Correction ${srcTag(q)}</h3><ul>${items}</ul>${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+}
+let active, grades, locked, confirmed, targeted;
+const form = $('quiz');
+function images(list, label) {
+  return list.map((item,i) => `<img loading="lazy" alt="${escape(label)}${list.length>1?' · extrait '+(i+1):''}" src="data:image/jpeg;base64,${item}">`).join('');
+}
+function scanBlock(scans, label) {
+  return `<div class="document"><div class="source-pictures" tabindex="0" aria-label="${escape(label)}">${images(scans,label)}</div><button type="button" class="secondary zoom" aria-expanded="false">Agrandir le scan</button></div>`;
+}
+function prompt(q) {
+  if(q.images) return scanBlock(q.images,questionLabel(q));
+  const table=q.table?`<div class="prompt-table">${q.table.map(cell=>`<span>${escape(cell)}</span>`).join('')}</div>`:'';
+  return `<h2 class="question-stem">${escape(q.title)}</h2>${q.text?`<p class="context-text">${escape(q.text)}</p>`:''}${q.figures.length?`<div class="q-figure">${q.figures.map((id,i)=>`<img loading="lazy" src="data:image/jpeg;base64,${DATA.figures[id]}" class="question-figure" alt="Illustration ou tableau ${i+1} du sujet">`).join('')}</div>`:''}${q.instruction?`<p class="small">${escape(q.instruction)}</p>`:''}${table}`;
+}
+function fields(q) {
+  if (isChoice(q)) {
+    return `<div class="choices ${q.options?'written-choices':''}" role="${q.kind==='QCU'?'radiogroup':'group'}" aria-labelledby="title-${q.id}">${q.options.map((_,i)=>values[i]).map((letter,i)=>`<label class="option" id="option-${q.id}-${letter}"><input type="${q.kind==='QCU'?'radio':'checkbox'}" name="${q.id}" value="${letter}"><span><strong>${letter}</strong>${q.options?' · '+escape(q.options[i]):''}<small></small></span></label>`).join('')}</div>`;
+  }
+  return `<div class="field"><textarea id="answer-${q.id}" aria-labelledby="title-${q.id}" rows="5" placeholder="Ta réponse…"></textarea></div>`;
+}
+function render() {
+  $('cards').innerHTML = active.map((q, index) => {
+    const section = q.kind === 'context' ? '<span>Dossier</span>' : `<span>${q.ungraded?'Hors barème':format(q.points)+' pt'} · ${escape(q.session)} · PDF p. ${q.page}</span>`;
+    const anchor = active.findIndex(card=>card.kind===q.kind)===index ? ` id="section-${q.kind}"` : '';
+    return `<section class="card"${anchor} data-card="${q.id}"><div class="meta"><strong id="title-${q.id}">${escape(questionLabel(q))}</strong>${section}</div>${prompt(q)}${q.kind==='context'?'':fields(q)+`<div class="feedback" id="feedback-${q.id}" hidden></div>`}</section>`;
+  }).join('');
+  for(const link of document.querySelectorAll('[data-kind]')){
+    const kind=link.dataset.kind;
+    const index=active.findIndex(q=>kind==='open'?isOpen(q):q.kind===kind);
+    link.hidden=index<0;
+    if(index>=0) link.hash='section-'+active[index].kind;
+  }
+}
+function response(q) {
+  if (isChoice(q)) {
+    return [...form.querySelectorAll(`[name="${q.id}"]:checked`)].map(input=>input.value);
+  }
+  return $(`answer-${q.id}`).value.trim();
+}
+function progress() {
+  const current=active.filter(q=>q.kind!=='context');
+  const count=current.filter(q=>response(q).length>0).length;
+  $('progress').textContent=`${count} / ${current.length} questions renseignées`;
+  $('bar').max=current.length;
+  $('bar').value=count;
+}
+function compute(q, answers) {
+  if (!q.correct) return {autoMax:0,autoScore:0};
+  const errors=values.slice(0,q.options.length).filter(letter=>answers.includes(letter)!==q.correct.includes(letter)).length;
+  const points=q.kind==='QCU' ? Number(errors===0) : answers.length===0 ? 0 : [1,.5,DATA.twoErrors][errors] ?? 0;
+  return {autoMax:1,autoScore:points};
+}
+function rubricPanel(q, grade) {
+  if(!grade.analysis) return `<p class="small">Évalue ta réponse à partir des éléments du corrigé.${q.allOrNothing?' Barème tout ou rien.':''}</p>`;
+  const status={recognized:'Reconnu',missing:'À compléter',ambiguous:'À vérifier'};
+  const items=grade.analysis.map((c,i)=>{
+    const description=c.override===null?status[c.status]:c.override?'Validé manuellement':'Retiré manuellement';
+    const evidence=c.evidence?`<span class="evidence">${escape(c.evidence.slice(0,180))}</span>`:'';
+    const button=grade.review==='blank'?'':`<button type="button" data-criterion="${q.id}:${i}">${c.override!==null?'Rétablir l’analyse':c.status==='recognized'?'Retirer cet élément':'Valider cet élément'}</button>`;
+    return `<div class="criterion"><span class="badge ${c.status==='recognized'?'':'missing'}">${description}</span><strong>${escape(c.label)}</strong> · ${format(c.weight)} pt${evidence}${button}</div>`;
+  }).join('');
+  return `<div id="analysis-${q.id}"><strong>Analyse automatique · ${format(analysisPoints(grade))} / ${format(grade.autoMax)} points${grade.full>grade.autoMax?' vérifiables':''}</strong>${grade.allOrNothing?'<p class="small">Barème tout ou rien pour cette question.</p>':''}${items}</div>`;
+}
+function correction(q) {
+  const given=response(q);
+  const grade={full:q.points,autoMax:0,autoScore:0,ungraded:q.ungraded};
+  if(isChoice(q)){
+    Object.assign(grade,compute(q,given));
+    if(!q.correct) grade.review=given.length?'':'blank';
+    for(const letter of values.slice(0,q.options.length)){
+      const row=$(`option-${q.id}-${letter}`);
+      row.querySelector('input').disabled=true;
+      if(!q.correct) continue;
+      const checked=given.includes(letter);
+      const good=q.correct.includes(letter);
+      row.classList.add(good?checked?'right':'missed':checked?'wrong':'unused');
+      row.querySelector('small').textContent=good?checked?'Validée':'Oubliée':checked?'Fausse':'';
+    }
+  }else{
+    $(`answer-${q.id}`).readOnly=true;
+    grade.review=given?'':'blank';
+    if(!q.ungraded&&q.criteria?.length){
+      grade.analysis=rubricAnalysis(given,q.criteria);
+      grade.autoMax=round(q.criteria.reduce((sum,c)=>sum+c.weight,0));
+      grade.allOrNothing=q.allOrNothing;
+    }
+  }
+  grades.set(q.id,grade);
+  const panel=$(`feedback-${q.id}`);
+  panel.hidden=false;
+  if (isOpen(q)) {
+    panel.innerHTML=`${answerBox(q)}${sources(q)}${q.ungraded?'<p class="small">Question hors barème.</p>':rubricPanel(q,grade)+assessmentControls(q,grade)}${sourceCopy(q)}`;
+    return;
+  }
+  const answers=q.correct.split('').filter(Boolean).map(letter=>q.options[values.indexOf(letter)]);
+  const key=`<strong>${q.ungraded?'Hors barème':format(grade.autoScore)+' / 1 point'}</strong><div class="answer-key" style="margin-top:10px"><h3>${q.ungraded?'Éléments pour vérifier':'Correction'}</h3>${answers.length?`<ul class="correct-options">${answers.map(a=>`<li>${escape(a)}</li>`).join('')}</ul>`:''}${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+  const notes=q.optionNotes?.length?`<div class="answer-key"><h3>Précisions du corrigé</h3><ul>${q.optionNotes.map(([option,note])=>`<li><strong>${escape(option)}</strong><br>${escape(note)}</li>`).join('')}</ul></div>`:'';
+  panel.innerHTML=key+notes+sources(q)+sourceCopy(q);
+}
+function isComplete(grade) {
+  const {score,max}=assessed(grade);
+  return !grade.ungraded&&(grade.review==='correct'||(grade.full!=null&&close(max,grade.full)&&close(score,max)));
+}
+function applyFilter() {
+  const filter=$('filter').value==='imperfect';
+  for(const q of active){
+    const card=form.querySelector(`[data-card="${q.id}"]`);
+    const grade=grades.get(q.id);
+    card.hidden=filter&&Boolean(grade)&&isComplete(grade);
+  }
+}
+function tally() {
+  const list=[...grades.values()];
+  const points=list.map(assessed);
+  const sum=round(points.reduce((acc,g)=>acc+g.score,0));
+  const max=round(points.reduce((acc,g)=>acc+g.max,0));
+  const available=round(list.reduce((acc,g)=>acc+(g.full??0),0));
+  const paper=available;
+  const remaining=Math.max(0,round(paper-max));
+  const manual=$('global-mark');
+  const globalScore=manual&&manual.value!==''&&manual.validity.valid?Number(manual.value):null;
+  $('score').textContent=max>0?`${format(20*sum/max,2)} / 20`:globalScore!==null?`${format(globalScore,2)} / 20`:'Note sur 20 à établir';
+  $('summary').textContent=max>0
+    ? `${format(sum)} / ${format(max)} points évalués.${remaining>0?` Note provisoire · ${format(remaining)} points du barème restent à évaluer.`:''}`
+    : globalScore!==null?'Note globale saisie manuellement.':'Aucun point évaluable automatiquement ou manuellement pour l’instant.';
+  const adjusted=list.some(g=>g.review && g.review!=='blank' || g.analysis?.some(c=>c.override!==null));
+  if(adjusted) $('summary').textContent+=' Note ajustée.';
+  const incomplete=list.filter((g,i)=>g.full!=null&&g.full>points[i].max).length;
+  $('manual-summary').textContent=incomplete
+    ? `Complète la correction manuelle pour ${incomplete} question${incomplete===1?'':'s'}.`:'';
+  $('retry').disabled=list.every(g=>g.ungraded||isComplete(g));
+  applyFilter();
+}
+function submit() {
+  if(locked) return;
+  const current=active.filter(q=>q.kind!=='context');
+  const missing=current.filter(q=>!q.ungraded&&!response(q).length).length;
+  if(missing&&!confirmed){
+    $('message').textContent=`${missing} question(s) sans réponse. Clique de nouveau pour corriger la tentative.`;
+    confirmed=true;
+    return;
+  }
+  locked=true;
+  current.forEach(correction);
+  $('results').hidden=false;
+  $('filters').hidden=false;
+  $('submit').hidden=true;
+  $('mode').textContent='Corrigé';
+  $('message').textContent='';
+  tally();
+  $('results').focus();
+  $('results').scrollIntoView({block:'start'});
+}
+function shuffledCard(q) {
+  if (!isChoice(q)) return q;
+  const indexes=q.options.map((_,i)=>i);
+  for(let i=indexes.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [indexes[i],indexes[j]]=[indexes[j],indexes[i]];
+  }
+  const correct=indexes.map((index,i)=>q.correct.includes(values[index])?values[i]:'').join('');
+  return {...q,options:indexes.map(i=>q.options[i]),correct};
+}
+function start(retry=false) {
+  const keep=retry?new Set([...grades].filter(([,g])=>!g.ungraded&&!isComplete(g)).map(([id])=>id)):null;
+  targeted=retry;
+  if($('global-mark'))$('global-mark').value='';
+  active=DATA.cards.filter(q=>(!$('topic').value||q.topic===$('topic').value)&&(!keep||keep.has(q.id))).map(shuffledCard);
+  grades=new Map();
+  locked=false;
+  confirmed=false;
+  $('results').hidden=true;
+  $('filters').hidden=true;
+  $('submit').hidden=false;
+  $('message').textContent='';
+  $('mode').textContent=retry?'Reprise ciblée':'Entraînement';
+  $('filter').value='all';
+  render();
+  progress();
+  if(retry) window.scrollTo(0,0);
+}
+form.addEventListener('submit', e=>{e.preventDefault(); submit();});
+form.addEventListener('input',()=>{if(locked)return; confirmed=false; $('message').textContent=''; progress();});
+form.addEventListener('change',event=>{
+  const field=event.target.closest('[data-review],[data-points]');
+  if(!locked||!field)return;
+  const id=field.dataset.review??field.dataset.points;
+  const grade=grades.get(id);
+  if(field.hasAttribute('data-review')){
+    grade.review=field.value;
+    const partial=form.querySelector(`[data-partial="${id}"]`);
+    if(partial)partial.hidden=field.value!=='partial';
+  }else{
+    const value=field.value===''?null:Number(field.value);
+    grade.manualPoints=Number.isFinite(value)&&value>=0&&value<=grade.full?value:null;
+  }
+  tally();
+});
+$('global-mark')?.addEventListener('input',tally);
+form.addEventListener('click',event=>{
+  const criterion=event.target.closest('[data-criterion]');
+  if(locked&&criterion){
+    const [id,index]=criterion.dataset.criterion.split(':');
+    const grade=grades.get(id);
+    const item=grade.analysis[Number(index)];
+    item.override=item.override===null?item.status!=='recognized':null;
+    const q=active.find(card=>card.id===id);
+    $('analysis-'+id).outerHTML=rubricPanel(q,grade);
+    form.querySelector(`[data-criterion="${id}:${index}"]`)?.focus({preventScroll:true});
+    tally();
+    return;
+  }
+  const button=event.target.closest('.zoom');
+  if(!button)return;
+  const enlarged=button.closest('.document').classList.toggle('enlarged');
+  button.setAttribute('aria-expanded',String(enlarged));
+  button.textContent=enlarged?'Réduire le scan':'Agrandir le scan';
+});
+$('filter').addEventListener('change',applyFilter);
+$('reset').addEventListener('click',()=>{start(); window.scrollTo(0,0);});
+$('retry').addEventListener('click',()=>start(true));
+for(const topic of new Set(DATA.cards.map(q=>q.topic))) $('topic').add(new Option(topic,topic));
+$('topic').addEventListener('change',()=>start());
+start();
+</script>
+<!-- Statistiques anonymes Mémo (GoatCounter, sans cookies) -->
+<script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"path":"/annales-nf/S2/3.3-2018-2020","title":"Annales non officielles 2018-2020 UE 3.3 S2"}' async src="//gc.zgo.at/count.js"></script></body></html>
