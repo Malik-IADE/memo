@@ -370,16 +370,18 @@
           if (!st.hourly && st.daily) arr[12] += st.daily;
           revDays.set(st.day, arr);
         }
-      } else if ((m = path.match(/annales\/(S\d+)\/(\d+\.\d+)(?:-(\d{4}-\d{4}))?(?:\.html?)?$/i))) {
+      } else if ((m = path.match(/annales(-nf)?\/(S\d+)\/(\d+\.\d+)(?:-(\d{4}-\d{4}))?(?:\.html?)?$/i))) {
         // Quiz ouvert si le chemin porte une période ; sinon c'est la liste des annales de l'UE.
         // Les anciens relevés (« /annales/S1/3.3.html ») sont comptés en 2022-2024, la seule
         // période qui existait alors.
-        const ue = `UE ${m[2]} · S${m[1].slice(1)}`;
-        if (m[3] || /\.html?$/i.test(path)) {
-          add(exams, `${ue} · ${m[3] || '2022-2024'}`, n); examTotal += n;
-        } else add(screens, `Annales · ${ue}`, n);
-      } else if (/^\/annales\/S\d+$/i.test(path)) add(screens, `Annales · S${path.slice(-1)}`, n);
-      else if (path === '/annales') add(screens, 'Annales', n);
+        const nf = !!m[1], ue = `UE ${m[3]} · S${m[2].slice(1)}`, kind = nf ? 'Non officielles' : 'Officielles';
+        if (m[4] || /\.html?$/i.test(path)) {
+          add(exams, `${ue} · ${m[4] || '2022-2024'}${nf ? ' (non off.)' : ''}`, n); examTotal += n;
+        } else add(screens, `Annales ${kind.toLowerCase()} · ${ue}`, n);
+      } else if ((m = path.match(/^\/annales(-nf)?\/(S\d+)$/i))) {
+        add(screens, `Annales ${m[1] ? 'non officielles' : 'officielles'} · ${m[2]}`, n);
+      } else if (path === '/annales') add(screens, 'Annales officielles', n);
+      else if (path === '/annales-nf') add(screens, 'Annales non officielles', n);
       else if (path === '/flashcards') add(screens, 'Flashcards', n);
       else if (path === '/accueil') add(screens, 'Accueil', n);
       else if ((m = path.match(/^\/cours\/(.+)$/))) add(courses, m[1], n);
@@ -436,8 +438,13 @@
     try { return (await listLines('paquets/liste.txt')).filter((l) => /^S\d+\//i.test(l)).length; }
     catch { return null; }
   }
+  // Les deux collections d'annales : officielles et non officielles.
   async function countAnnales() {
-    try { return (await listLines('annales/liste.txt')).length; } catch { return null; }
+    let n = null;
+    for (const f of ['annales/liste.txt', 'annales-nf/liste.txt']) {
+      try { n = (n || 0) + (await listLines(f)).length; } catch { /* collection absente */ }
+    }
+    return n;
   }
 
   async function refresh() {
@@ -819,8 +826,9 @@
       ...[['3.1', .32], ['3.3', .22], ['2.2', .17], ['2.4', .09], ['2.3', .05]].map(([u, f]) => ({ path: '/S1/' + u, count: Math.round(tot(st) * f) })),
       ...[['S1/3.3-2022-2024', .08], ['S1/3.1-2013-2015', .06], ['S1/3.1-2022-2024', .05],
         ['S1/2.2-2013-2015', .04], ['S2/3.3-2022-2024', .02]].map(([u, f]) => ({ path: '/annales/' + u, count: Math.round(tot(st) * f) })),
+      ...[['S1/2.3-2017-2019', .05], ['S1/3.1-2021-2023', .04]].map(([u, f]) => ({ path: '/annales-nf/' + u, count: Math.round(tot(st) * f) })),
       ...[['/accueil', .9], ['/flashcards', .4], ['/annales', .3], ['/annales/S1', .22],
-        ['/annales/S1/3.3', .1]].map(([p, f]) => ({ path: p, count: Math.round(tot(st) * f) })),
+        ['/annales/S1/3.3', .1], ['/annales-nf', .25], ['/annales-nf/S1', .18]].map(([p, f]) => ({ path: p, count: Math.round(tot(st) * f) })),
       { path: '/cours/Scores', count: Math.round(tot(st) * .12) },
     ];
     const total = tot(stats);
