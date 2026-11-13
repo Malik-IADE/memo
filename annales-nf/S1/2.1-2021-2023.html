@@ -1,0 +1,418 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>UE 2.1 · S1 · Promotion 2021-2023 — Physique, biophysique, chimie, biochimie et biologie</title><style>
+:root{--ink:#24302f;--muted:#677472;--green:#195b4a;--paper:#f7f6f1;--line:#dce3dd;--good:#1d7252;--warn:#925b17;--bad:#a43848}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 system-ui,-apple-system,sans-serif}main{max-width:960px;margin:auto;padding:44px 22px 60px}header{padding-bottom:30px;border-bottom:1px solid var(--line)}.eyebrow{font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:750;color:var(--green)}h1{font:500 clamp(38px,7vw,62px)/1.08 Georgia,serif;margin:16px 0}h1 em{color:var(--green)}h2{font-size:21px;line-height:1.4;margin:10px 0 14px}p{margin:10px 0}.intro{max-width:680px;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chip{font-size:12px;border:1px solid var(--line);border-radius:30px;padding:6px 12px;background:white}.progress{display:flex;justify-content:space-between;gap:12px;padding:19px 0;font-size:13px;color:var(--muted)}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:28px;margin-bottom:18px}.meta{display:flex;justify-content:space-between;gap:10px;color:var(--green);font-size:12px;font-weight:750;letter-spacing:1px;text-transform:uppercase}.hint,.small{font-size:13px;color:var(--muted)}textarea,input{font:inherit;color:var(--ink);border:1px solid #bccbc1;border-radius:10px;background:#fcfdfb}textarea{display:block;width:100%;resize:vertical;min-height:110px;padding:14px;margin-top:10px}textarea:focus,input:focus{outline:3px solid #c1ddce;outline-offset:2px;border-color:var(--green)}button{font:650 15px system-ui;min-height:46px;padding:12px 18px;border:0;border-radius:10px;background:var(--green);color:white;cursor:pointer}button.secondary{background:#e8eee7;color:var(--green)}button:focus-visible,a:focus-visible{outline:3px solid #d69f43;outline-offset:3px}button:disabled{opacity:.5;cursor:default}.actions{display:flex;gap:10px;flex-wrap:wrap}.feedback{background:#f5f8f3;border-radius:12px;padding:18px;margin-top:18px;font-size:14px}.feedback ul{padding-left:20px;margin:10px 0}.feedback li{margin:6px 0}.good{color:var(--good)}.missing{color:var(--warn)}.bad{color:var(--bad)}.answer{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.card.perfect{border-color:#86b49a}.card.imperfect{border-color:#d6bb85}[hidden]{display:none!important}.scorebox{background:#195b4a;color:white;border-radius:18px;padding:26px;margin-bottom:24px;scroll-margin-top:16px}.scorebox .eyebrow{color:#bedccc}.score{font:500 48px Georgia,serif;line-height:1.2;margin:14px 0}.scorebox p{color:#e1eee5}.scorebox button{background:white;color:var(--green)}.scorebox button.secondary{background:#376f5d;color:white}.diagram-scroll{margin:18px -8px 0;overflow-x:auto}.diagram{position:relative;min-width:560px;width:100%;aspect-ratio:900/540;background:#fafbf8;border-radius:12px}.diagram svg{display:block;width:100%;height:100%}.callout{position:absolute;width:23%;transform:translateY(-50%);z-index:1}.callout label{display:block;font-size:12px;font-weight:750;color:var(--green);margin-bottom:4px}.callout input{width:100%;padding:10px 8px;font-size:clamp(12px,1.6vw,15px);min-height:44px;background:white}.callout.a{left:2%;top:32%}.callout.b{right:2%;top:32%}.callout.c{left:2%;top:71%}.callout.d{right:2%;top:71%}.diagram input.correct{border:2px solid var(--good)}.diagram input.wrong{border:2px solid var(--bad)}.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:12px}.dot{width:9px;height:9px;display:inline-block;border-radius:50%;margin-right:6px}.explain{padding:18px 0;color:var(--muted);font-size:13px}.explain summary{cursor:pointer;color:var(--green);font-weight:650}footer{color:var(--muted);font-size:12px;margin-top:30px}a{color:var(--green)}@media(max-width:600px){main{padding:25px 14px 40px}.card{padding:20px 16px}h2{font-size:19px}.diagram-scroll{margin-right:-8px;margin-left:-8px}.progress{font-size:12px}.scorebox{padding:22px}.mobile-note{display:block}}@media(min-width:601px){.mobile-note{display:none}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.option{display:flex;gap:12px;align-items:flex-start;padding:13px;border:1px solid var(--line);border-radius:10px;margin:9px 0;cursor:pointer}.option input{width:20px;height:20px;margin:4px 0 0;flex-shrink:0;accent-color:var(--green)}.option:has(input:checked){background:#eff5ef}.option.right,.option.right:has(input:checked){border:2px solid #32815b;background:#e2f3e7;color:#155338}.option.wrong,.option.wrong:has(input:checked){border:2px solid #c73c3c;background:#ffe0e0;color:#9b1717}.option.missed{border:2px solid #d49a13;background:#fff0a6;color:#684400}.option.right input{accent-color:#32815b}.option.wrong input{accent-color:#c73c3c}.option small{display:block;font-weight:650}.section-title{font:500 29px Georgia,serif;margin:32px 0 17px;scroll-margin-top:18px}.nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.nav a{padding:7px 14px;border:1px solid var(--line);border-radius:30px;text-decoration:none;font-size:13px;background:white}.rubric{background:#eaf0e8;border-radius:12px;padding:16px;margin-top:18px;font-size:14px}.evidence{font-size:12px;color:var(--muted);display:block;margin-top:3px}.criterion{padding:10px 0;border-bottom:1px solid var(--line)}.criterion:last-child{border:0}.badge{display:inline-block;font-size:11px;font-weight:750;border-radius:20px;padding:3px 8px;background:#e4efe6;margin-right:5px}.badge.bad{background:#f6e0e4}.badge.missing{background:#f7ecd2}.criterion button{padding:7px 9px;min-height:34px;font-size:12px;margin-top:7px;background:#e2ebe1;color:var(--green)}.details-grid{display:flex;gap:12px;flex-wrap:wrap;margin:15px 0}.details-grid span{background:#ffffff15;border-radius:8px;padding:8px 13px;font-size:14px}.review{background:#fff5da;border-radius:10px;padding:12px;font-size:13px;margin-top:14px}.meta span:last-child{white-space:nowrap}.feedback blockquote{margin:4px 0;padding-left:12px;border-left:2px solid var(--line)}
+
+.option input[type=radio]{border-radius:50%;width:20px;height:20px;flex-shrink:0;accent-color:var(--green)}.field{margin:18px 0}.field>label{display:block;font-weight:650;font-size:14px}.field textarea{min-height:76px;line-height:1.5}.field textarea[readonly]{background:#f3f5f1}.nav{position:sticky;top:0;z-index:3;background:#f7f6f1f5;padding:10px 0;backdrop-filter:blur(8px)}.question-progress{height:7px;width:100%;accent-color:var(--green);margin-bottom:20px}.filter-bar{margin-bottom:18px}select{font:inherit;max-width:100%;padding:9px;background:white;border:1px solid var(--line);border-radius:10px}.notice{color:var(--warn);font-weight:650}.correction-info{border-left:3px solid #c4ad65;padding-left:13px}textarea{overflow-wrap:anywhere}.meta{letter-spacing:.5px}.meta span:first-child{min-width:0}footer{border-top:1px solid var(--line);padding-top:18px}.rubric p{margin-bottom:0}.section-title{scroll-margin-top:80px}.scorebox{scroll-margin-top:78px}.subtitle{font-size:18px;color:var(--green)}.card{scroll-margin-top:80px}@media print{.nav,.actions,.filter-bar,.question-progress,.progress,.rubric,button{display:none!important}.card{break-inside:avoid;border-radius:0}body{background:white}main{padding:0}textarea{border:0;min-height:80px}}
+.nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.nav a{font-size:14px;font-weight:650;text-decoration:none;min-height:38px;display:inline-flex;align-items:center}.meta span:last-child{white-space:nowrap}.criterion button{white-space:normal;text-align:left;max-width:100%}@media(max-width:600px){.nav{gap:6px 16px}.nav a{font-size:13px}.meta{letter-spacing:0;flex-wrap:wrap}.score{font-size:43px}.card,.section-title,.scorebox{scroll-margin-top:120px}}
+
+.question-stem,.prompt-table span{white-space:pre-line}
+.prompt-table{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.prompt-table span{border:1px solid #cedad0;padding:.6rem}
+.self-assessment input,#global-mark{font:inherit;width:5rem;border:1px solid #96ada1;border-radius:.4rem;padding:.3rem}
+.document{margin:.3rem 0 .85rem}
+.source-pictures{background:#fff;border:1px solid #cedad0;border-radius:8px;overflow:auto;max-width:100%;padding:.25rem}
+.source-pictures img{display:block;width:100%;height:auto;margin:0 auto}
+.source-pictures img+img{margin-top:.2rem}
+.enlarged .source-pictures img{width:max(100%,870px);max-width:none}
+.zoom{margin:.4rem 0 0;font-size:.84rem;padding:.38rem .7rem}
+.choices{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.42rem}
+.choices .option{align-items:flex-start;margin:0;padding:.65rem .38rem;gap:.35rem;min-height:3rem}
+.choices .option small{font-size:.71rem;line-height:1.2}
+.option.wrong:has(input:checked){background:#ffe3e5;border-color:#ac434e;color:#681f2a}
+.option.right:has(input:checked){background:#e2f3e6;border-color:#288253;color:#124b2c}
+.option.missed{background:#fff2c6;border-color:#a27410;color:#654503}
+.feedback details summary{cursor:pointer;color:#14563e;font-weight:650;margin:.4rem 0}
+.score{font-size:clamp(1.55rem,4.5vw,2.5rem)}
+.card{scroll-margin-top:1rem}
+@media(max-width:420px){.choices{gap:.2rem}.choices .option{padding:.5rem .25rem;gap:.24rem}.choices input{margin:0}}
+.choices.written-choices{display:block}
+.choices.written-choices .option{padding:.65rem;margin:.4rem 0}
+.self-assessment{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem;margin:.8rem 0}
+.self-assessment label{font-weight:650}
+.self-assessment select{font:inherit;color:#24302f;background:#fff;border:1px solid #96ada1;border-radius:.4rem;padding:.35rem .55rem}
+.copy-answer{margin:.7rem 0 .3rem;font-weight:650}
+#manual-summary{font-size:.95rem}
+#manual-summary:empty{display:none}
+
+.hero{position:relative;overflow:hidden;background:linear-gradient(135deg,#123f35 0%,#195b4a 55%,#2b7a62 100%);color:#fff;border-radius:22px;padding:30px 30px 24px;margin-bottom:8px;box-shadow:0 10px 30px rgba(25,91,74,.18)}
+.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.14),rgba(255,255,255,0) 70%)}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.hero .eyebrow{color:#bfe3d3}
+.hero-tag{font-size:12px;font-weight:700;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);padding:5px 11px;border-radius:30px}
+.hero h1{color:#fff;margin:14px 0 8px;font-size:clamp(32px,6vw,50px)}
+.hero-sub{color:#d6ece2;margin:0 0 20px;max-width:640px;font-size:15px}
+.hero-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
+.hero-stat{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:12px 14px}
+.hero-stat b{display:block;font:500 28px/1.1 Georgia,serif;color:#fff}
+.hero-stat span{font-size:12.5px;color:#cfe7dc}
+.hero-rules{margin-top:16px;background:rgba(0,0,0,.14);border-radius:12px;padding:0 14px;font-size:14px;color:#e3f1ea}
+.hero-rules summary{cursor:pointer;padding:11px 0;font-weight:650;color:#fff}
+.hero-rules p{margin:0 0 10px}
+.hero-rules b{color:#fff}
+.answer-key{background:#eaf4ec;border:1px solid #bfdcc8;border-radius:12px;padding:14px 16px;margin:4px 0 14px}
+.answer-key h3{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#1d7252;margin:0 0 8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.answer-key ul{margin:0;padding-left:20px}.answer-key li{margin:5px 0}
+.answer-key li.added{color:#2d3f8f}
+.tag-added{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;text-transform:uppercase;background:#e4e8fb;color:#3b4aa8;border-radius:6px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+.tag-src{display:inline-block;font-size:10.5px;font-weight:750;letter-spacing:.5px;border-radius:6px;padding:2px 7px;background:#fff;color:#677472;border:1px solid #dce3dd;text-transform:uppercase}
+.tag-src.deduit{background:#f7ecd2;color:#925b17;border-color:#ebd6a8}
+.key-letters{font-size:17px;font-weight:700;color:#155338}
+.answer-note{font-size:13.5px;color:#55625f;margin:8px 0 0}
+@media(max-width:600px){.hero{padding:22px 18px 18px;border-radius:18px}.hero-stat b{font-size:24px}}
+.context-text{white-space:pre-line;background:#fbf7ec;border-left:3px solid #c4ad65;border-radius:8px;padding:12px 14px;margin:6px 0 4px}
+.q-figure{margin:10px 0 6px}.q-figure img{display:block;max-width:100%;height:auto;border:1px solid #dce3dd;border-radius:10px;background:#fff}
+.source-copy{margin:10px 0}.source-copy summary{cursor:pointer;font-weight:650;color:var(--green)}
+.source-copy img{max-width:100%;height:auto}.source-copy p{margin:6px 0 12px}
+.option input:disabled{cursor:default}.question-stem{white-space:pre-line}
+.source-copy ul{padding-left:1.5em}.source-copy .source-pictures{max-height:none}.question-figure{max-height:390px;object-fit:contain}
+
+#topic-control{margin:14px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#topic{max-width:100%;min-width:0;width:min(100%,30rem);text-overflow:ellipsis}.question-stem,.option span,.answer-key{overflow-wrap:anywhere}.option span{min-width:0}.meta{flex-wrap:wrap;gap:4px 10px}.meta span:last-child{min-width:0;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.q-figure img{margin:8px 0;max-height:520px;object-fit:contain}
+.correct-options{margin:6px 0;padding-left:22px}.source-line{margin-top:12px}
+</style></head><body><nav id="memo-back" style="position:sticky;top:0;z-index:1000;display:flex;align-items:center;gap:10px;padding:calc(env(safe-area-inset-top) + 10px) 16px 10px;background:rgba(247,246,241,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid #dce3dd;font:600 15px/1.2 system-ui,-apple-system,sans-serif"><a href="../../#/annales-nf/S1/2.1" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:#195b4a;color:#fff;text-decoration:none">&#8592; Retour à Mémo</a><span style="color:#677472;font-size:13px">UE 2.1 · Semestre 1 · Promotion 2021-2023</span></nav><script>(function(){var bar=document.getElementById('memo-back');if(!bar)return;function place(){var h=bar.offsetHeight,extra=0;document.querySelectorAll('body *').forEach(function(el){if(bar.contains(el))return;var cs=getComputedStyle(el);if(cs.position!=='sticky')return;if(el.dataset.memoTop===undefined)el.dataset.memoTop=parseFloat(cs.top)||0;var t=h+Number(el.dataset.memoTop);el.style.top=t+'px';extra=Math.max(extra,t+el.offsetHeight);});document.documentElement.style.scrollPaddingTop=(Math.max(h,extra)+8)+'px';}place();addEventListener('resize',place);addEventListener('load',place);})();</script><main>
+<header class="hero">
+<div class="hero-top"><span class="eyebrow" id="h-eyebrow"></span><span class="hero-tag">Promotion 2021-2023</span></div>
+<h1 id="h-title"></h1>
+<p class="hero-sub">Entraînement interactif · réponds à toutes les questions puis valide pour voir la correction détaillée.</p>
+<div class="hero-stats" id="h-stats"></div>
+<details class="hero-rules"><summary>Barème et fonctionnement</summary><div id="h-rules"></div></details>
+</header>
+<div class="filter-bar" id="topic-control"><label for="topic">Thème</label><select id="topic"><option value="">Tout le programme</option></select></div>
+<nav class="nav" aria-label="Navigation du quiz">
+<a data-kind="context" href="#section-context" hidden>Dossiers</a>
+<a data-kind="QCM" href="#section-QCM" hidden>QCM</a>
+<a data-kind="QCU" href="#section-QCU" hidden>QCU</a>
+<a data-kind="open" href="#section-QROC" hidden>Questions ouvertes</a>
+<a href="#submit">Corriger</a>
+</nav>
+<div class="progress"><span id="progress" aria-live="polite"></span><span id="mode"></span></div>
+<progress id="bar" class="question-progress" max="10" value="0" aria-label="Questions renseignées"></progress>
+<section id="results" class="scorebox" hidden tabindex="-1" aria-label="Résultat">
+<div class="score" id="score"></div><p id="summary"></p><p id="manual-summary" aria-live="polite"></p>
+<div class="actions"><button id="reset" type="button">Tout recommencer</button><button id="retry" class="secondary" type="button">Reprendre les questions imparfaites ou à vérifier</button></div></section>
+<div class="filter-bar" id="filters" hidden><label for="filter">Afficher</label>
+<select id="filter"><option value="all">Toutes les questions</option><option value="imperfect">Imparfaites ou à vérifier</option></select></div>
+<form id="quiz" novalidate><div id="cards"></div><p class="notice" id="message" role="status"></p><div class="actions"><button type="submit" id="submit">Valider et voir les réponses</button></div></form>
+<footer id="h-footer"></footer>
+</main><noscript><p>Active JavaScript pour répondre au partiel.</p></noscript><script>const DATA={"semester":1,"ue":"2.1","title":"Physique, biophysique, chimie, biochimie et biologie","cards":[{"id":"c5","num":1,"page":1,"kind":"QCM","title":"Parmi les propositions concernant Les protéines, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Biologie cellulaire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":["Elles sont des micromolécules","Elles s'élaborent en évoluant vers un niveau structurel leur permettant des interactions","Leur fonction est conditionnée par la structure","Elles sont détruites si elles mutent","Elles ont une membrane phospholipidique leur permettant de pénétrer dans la cellule"],"correct":"BC","note":"","instruction":"Cocher les propositions exactes.","sourcePage":9},{"id":"c6","num":2,"page":1,"kind":"QCM","title":"Parmi les propositions concernant L’ADN, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Biologie cellulaire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":["L’ADN est composé de 6 bases (guanine, cytosine, etc..)","L’ADN s'enroule autour de petites protéines appelées histones","L’ADN est le support de l'information génétique","Les nucléosomes se compactent en chromosome","L’ADN peut-être transcrit en ARN non codant"],"correct":"BCDE","note":"","instruction":"Cocher les propositions exactes.","sourcePage":9},{"id":"c7","num":3,"page":1,"kind":"QCM","title":"Parmi les propositions concernant Les variations de séquence du génome, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Biologie cellulaire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":["Une mutation est une modification de la séquence nucléotidique d'un gène pouvant être responsable d'une anomalie de la séquence protéique correspondante","Les mutations aboutissent toujours à des maladies graves","Certaines variations du génome peuvent être silencieuses sur le plan clinique","Certaines mutations aboutissent à l'absence de protéines","Selon le mode de transmission, seuls les garçons peuvent être atteints"],"correct":"ACD","note":"","instruction":"Cocher les propositions exactes.","sourcePage":10},{"id":"c11","num":4,"page":1,"kind":"QCM","title":"Parmi les propositions concernant Le système de communication intercellulaire synaptique, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Biologie cellulaire","points":1,"ungraded":false,"figures":["2.1-2.2-10-2"],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":["les deux cellules sont distantes","la cellule cible est à grande distance du Soma","la distance est faible entre les éléments pré et post-synaptique","la concentration des neurotransmetteurs est proche de zéro","la transmission est lente"],"correct":"BC","note":"La distance est faible entre les membranes pré- et post-synaptiques, même si le soma peut être éloigné. La formulation d’époque « est à grande distance » signifie ici « peut être à grande distance ».","instruction":"Cocher les propositions exactes.","sourcePage":10},{"id":"c12","num":5,"page":2,"kind":"QCM","title":"Parmi les propositions concernant Les principes de base de la communication cellulaire, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Biologie cellulaire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":["quelle que soit la distance entre la cellule motrice et la cellule cible il y a nécessité que le médiateur alias le messager se lie à une protéine : le récepteur","la localisation du récepteur (membranaire ou cytoplasmique) ne dépend pas du type de Ligand","la liaison ligand (le récepteur) induira une signalisation intracellulaire qui stimulera une réaction cellulaire (prolifération, survie, apoptose, mobilité, différenciation, impulsion électrique)","la réaction cellulaire peut être une apoptose","la réaction cellulaire peut être une prolifération"],"correct":"ACDE","note":"","instruction":"Cocher les propositions exactes.","sourcePage":11},{"id":"c13","num":6,"page":2,"kind":"QCM","title":"Parmi les propositions concernant l’apoptose, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Biologie cellulaire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":["c'est un processus physiologique qui fait intervenir des protéases à cystéine appelé caspases","c'est une mort cellulaire programmée","elle est associée à une forte réaction inflammatoire","elle est caractérisée par une fragmentation de l'ARNm dans le noyau cellulaire","elle participe à l'élimination des cellules endommagées dans le cancer"],"correct":"ABE","note":"","instruction":"Cocher les propositions exactes.","sourcePage":11},{"id":"c14","num":7,"page":2,"kind":"QCU","title":"1. L’acétylcholine peut déclencher la contraction du muscle squelettique via les récepteurs nicotiniques et ralentir le cœur via les récepteurs muscariniques.\n2. Un même médiateur peut provoquer des réponses différentes selon le récepteur.","session":"2021-2023","topic":"Biologie cellulaire","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":["Les propositions sont toutes les 2 vraies et il existe entre elles une relation de cause à effet","Les propositions sont toutes de vraies sans qu'il exist e entre elles de relation de cause à effet","La première proposition est vraie mais la 2e est fausse","La première proposition est fausse mais la 2e est vraie","Les 2 propositions sont fausses"],"correct":"A","note":"La première affirmation a été complétée avec le nom du médiateur et la précision sur le cœur.","instruction":"Cocher une seule proposition.","sourcePage":11},{"id":"c15","num":8,"page":2,"kind":"QUESTION","title":"Citer et décrire les quatre étapes qui permettent la structure des protéines (vous précisez à partir de quelle étape apparaissent les fonctions biologiques)","session":"2021-2023","topic":"Biologie cellulaire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes (p. 60, à consulter)","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf#page=60"]],"options":[],"correct":"","note":"","answer":["Primaire : séquence d’acides aminés.","Secondaire : hélices α et feuillets β stabilisés notamment par des liaisons hydrogène.","Tertiaire : repliement tridimensionnel d’une chaîne, souvent nécessaire à l’activité.","Quaternaire : association de plusieurs chaînes pour les protéines multimériques."],"criteria":[{"label":"Primaire : séquence d’acides aminés.","yes":"(?:(?=.*\\bprima\\w*)(?=.*\\bseque\\w*)|(?=.*\\bprima\\w*)(?=.*\\bdacid\\w*)|(?=.*\\bprima\\w*)(?=.*\\bamine\\w*)|(?=.*\\bseque\\w*)(?=.*\\bdacid\\w*)|(?=.*\\bseque\\w*)(?=.*\\bamine\\w*)|(?=.*\\bdacid\\w*)(?=.*\\bamine\\w*))","weight":0.5},{"label":"Secondaire : hélices α et feuillets β stabilisés notamment par des liaisons hydrogène.","yes":"(?:(?=.*\\bseconda\\w*)(?=.*\\bhelic\\w*)|(?=.*\\bseconda\\w*)(?=.*\\bfeuill\\w*)|(?=.*\\bseconda\\w*)(?=.*\\bstabili\\w*)|(?=.*\\bseconda\\w*)(?=.*\\bliais\\w*)|(?=.*\\bseconda\\w*)(?=.*\\bhydrog\\w*)|(?=.*\\bhelic\\w*)(?=.*\\bfeuill\\w*)|(?=.*\\bhelic\\w*)(?=.*\\bstabili\\w*)|(?=.*\\bhelic\\w*)(?=.*\\bliais\\w*)|(?=.*\\bhelic\\w*)(?=.*\\bhydrog\\w*)|(?=.*\\bfeuill\\w*)(?=.*\\bstabili\\w*)|(?=.*\\bfeuill\\w*)(?=.*\\bliais\\w*)|(?=.*\\bfeuill\\w*)(?=.*\\bhydrog\\w*)|(?=.*\\bstabili\\w*)(?=.*\\bliais\\w*)|(?=.*\\bstabili\\w*)(?=.*\\bhydrog\\w*)|(?=.*\\bliais\\w*)(?=.*\\bhydrog\\w*))","weight":0.5},{"label":"Tertiaire : repliement tridimensionnel d’une chaîne, souvent nécessaire à l’activité.","yes":"(?:(?=.*\\btertia\\w*)(?=.*\\brepliem\\w*)|(?=.*\\btertia\\w*)(?=.*\\btridimension\\w*)|(?=.*\\btertia\\w*)(?=.*\\bchain\\w*)|(?=.*\\btertia\\w*)(?=.*\\bsouve\\w*)|(?=.*\\btertia\\w*)(?=.*\\bnecessa\\w*)|(?=.*\\brepliem\\w*)(?=.*\\btridimension\\w*)|(?=.*\\brepliem\\w*)(?=.*\\bchain\\w*)|(?=.*\\brepliem\\w*)(?=.*\\bsouve\\w*)|(?=.*\\brepliem\\w*)(?=.*\\bnecessa\\w*)|(?=.*\\btridimension\\w*)(?=.*\\bchain\\w*)|(?=.*\\btridimension\\w*)(?=.*\\bsouve\\w*)|(?=.*\\btridimension\\w*)(?=.*\\bnecessa\\w*)|(?=.*\\bchain\\w*)(?=.*\\bsouve\\w*)|(?=.*\\bchain\\w*)(?=.*\\bnecessa\\w*)|(?=.*\\bsouve\\w*)(?=.*\\bnecessa\\w*))","weight":0.5},{"label":"Quaternaire : association de plusieurs chaînes pour les protéines multimériques.","yes":"(?:(?=.*\\bquaterna\\w*)(?=.*\\bassociat\\w*)|(?=.*\\bquaterna\\w*)(?=.*\\bplusie\\w*)|(?=.*\\bquaterna\\w*)(?=.*\\bchain\\w*)|(?=.*\\bquaterna\\w*)(?=.*\\bprotei\\w*)|(?=.*\\bquaterna\\w*)(?=.*\\bmultimeriq\\w*)|(?=.*\\bassociat\\w*)(?=.*\\bplusie\\w*)|(?=.*\\bassociat\\w*)(?=.*\\bchain\\w*)|(?=.*\\bassociat\\w*)(?=.*\\bprotei\\w*)|(?=.*\\bassociat\\w*)(?=.*\\bmultimeriq\\w*)|(?=.*\\bplusie\\w*)(?=.*\\bchain\\w*)|(?=.*\\bplusie\\w*)(?=.*\\bprotei\\w*)|(?=.*\\bplusie\\w*)(?=.*\\bmultimeriq\\w*)|(?=.*\\bchain\\w*)(?=.*\\bprotei\\w*)|(?=.*\\bchain\\w*)(?=.*\\bmultimeriq\\w*)|(?=.*\\bprotei\\w*)(?=.*\\bmultimeriq\\w*))","weight":0.5}],"sourcePage":11},{"id":"c16","num":9,"page":2,"kind":"QUESTION","title":"Décrire en quelques lignes les grandes étapes de la transmission de l'information génétique","session":"2021-2023","topic":"Biologie cellulaire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes (p. 3, à consulter)","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf#page=3"]],"options":[],"correct":"","note":"","answer":["L’ADN est répliqué avant la division cellulaire.","Un gène peut être transcrit en ARN. Chez les eucaryotes, l’ARN pré-messager est maturé.","Un ribosome traduit l’ARN messager en protéine, à l’aide des ARNt. Certains ARN ne sont pas traduits."],"criteria":[{"label":"L’ADN est répliqué avant la division cellulaire.","yes":"(?:(?=.*\\brepli\\w*)(?=.*\\bdivis\\w*)|(?=.*\\brepli\\w*)(?=.*\\bcellula\\w*)|(?=.*\\bdivis\\w*)(?=.*\\bcellula\\w*))","weight":0.6667},{"label":"Un gène peut être transcrit en ARN. Chez les eucaryotes, l’ARN pré-messager est maturé.","yes":"(?:(?=.*\\btransc\\w*)(?=.*\\beucaryo\\w*)|(?=.*\\btransc\\w*)(?=.*\\bmessa\\w*)|(?=.*\\btransc\\w*)(?=.*\\bmatur\\w*)|(?=.*\\beucaryo\\w*)(?=.*\\bmessa\\w*)|(?=.*\\beucaryo\\w*)(?=.*\\bmatur\\w*)|(?=.*\\bmessa\\w*)(?=.*\\bmatur\\w*))","weight":0.6666},{"label":"Un ribosome traduit l’ARN messager en protéine, à l’aide des ARNt. Certains ARN ne sont pas traduits.","yes":"(?:(?=.*\\bribos\\w*)(?=.*\\btradu\\w*)|(?=.*\\bribos\\w*)(?=.*\\bmessa\\w*)|(?=.*\\bribos\\w*)(?=.*\\bprote\\w*)|(?=.*\\btradu\\w*)(?=.*\\bmessa\\w*)|(?=.*\\btradu\\w*)(?=.*\\bprote\\w*)|(?=.*\\bmessa\\w*)(?=.*\\bprote\\w*))","weight":0.6667000000000001}],"sourcePage":11},{"id":"c17","num":10,"page":2,"kind":"QUESTION","title":"Concernant la signalisation et la communication intracellulaire, définir les notions d'agonistes et d'antagonistes. vous donnerez un exemple physiologique et pharmacologique d'agoniste et un exemple pharmacologique d'antagoniste.","session":"2021-2023","topic":"Biologie cellulaire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes (p. 15, à consulter)","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf#page=15"]],"options":[],"correct":"","note":"","answer":["Un agoniste se lie à un récepteur et l’active. Exemples : acétylcholine sur le récepteur nicotinique et salbutamol sur le récepteur β₂.","Un antagoniste se lie au récepteur et s’oppose à l’action de l’agoniste. Exemple : naloxone sur les récepteurs opioïdes."],"criteria":[{"label":"Un agoniste se lie à un récepteur et l’active. Exemples : acétylcholine sur le récepteur nicotinique et salbutamol sur le récepteur β₂.","yes":"(?:(?=.*\\bagoni\\w*)(?=.*\\brecept\\w*)|(?=.*\\bagoni\\w*)(?=.*\\blacti\\w*)|(?=.*\\bagoni\\w*)(?=.*\\bexemp\\w*)|(?=.*\\bagoni\\w*)(?=.*\\bacetylchol\\w*)|(?=.*\\bagoni\\w*)(?=.*\\bnicotini\\w*)|(?=.*\\brecept\\w*)(?=.*\\blacti\\w*)|(?=.*\\brecept\\w*)(?=.*\\bexemp\\w*)|(?=.*\\brecept\\w*)(?=.*\\bacetylchol\\w*)|(?=.*\\brecept\\w*)(?=.*\\bnicotini\\w*)|(?=.*\\blacti\\w*)(?=.*\\bexemp\\w*)|(?=.*\\blacti\\w*)(?=.*\\bacetylchol\\w*)|(?=.*\\blacti\\w*)(?=.*\\bnicotini\\w*)|(?=.*\\bexemp\\w*)(?=.*\\bacetylchol\\w*)|(?=.*\\bexemp\\w*)(?=.*\\bnicotini\\w*)|(?=.*\\bacetylchol\\w*)(?=.*\\bnicotini\\w*))","weight":1.0},{"label":"Un antagoniste se lie au récepteur et s’oppose à l’action de l’agoniste. Exemple : naloxone sur les récepteurs opioïdes.","yes":"(?:(?=.*\\bantagoni\\w*)(?=.*\\brecept\\w*)|(?=.*\\bantagoni\\w*)(?=.*\\bsoppo\\w*)|(?=.*\\bantagoni\\w*)(?=.*\\blacti\\w*)|(?=.*\\bantagoni\\w*)(?=.*\\blagoni\\w*)|(?=.*\\bantagoni\\w*)(?=.*\\bnalox\\w*)|(?=.*\\brecept\\w*)(?=.*\\bsoppo\\w*)|(?=.*\\brecept\\w*)(?=.*\\blacti\\w*)|(?=.*\\brecept\\w*)(?=.*\\blagoni\\w*)|(?=.*\\brecept\\w*)(?=.*\\bnalox\\w*)|(?=.*\\bsoppo\\w*)(?=.*\\blacti\\w*)|(?=.*\\bsoppo\\w*)(?=.*\\blagoni\\w*)|(?=.*\\bsoppo\\w*)(?=.*\\bnalox\\w*)|(?=.*\\blacti\\w*)(?=.*\\blagoni\\w*)|(?=.*\\blacti\\w*)(?=.*\\bnalox\\w*)|(?=.*\\blagoni\\w*)(?=.*\\bnalox\\w*))","weight":1.0}],"sourcePage":11},{"id":"c18","num":11,"page":3,"kind":"QUESTION","title":"en ce qui concerne l es risques fœtaux des médicaments expliquer : effet tératogène, effet feototoxique, effet néonatal. Préciser quel risque il y a d'utiliser la morphine chez la femme enceinte","session":"2021-2023","topic":"Biologie cellulaire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":[],"correct":"","note":"","answer":["Tératogénicité : malformations en lien avec l’exposition pendant l’organogenèse. Fœtotoxicité : atteinte de croissance ou de fonction pendant la vie fœtale. Effet néonatal : manifestation à la naissance.","Une exposition à la morphine proche de l’accouchement peut déprimer la ventilation néonatale. Une exposition prolongée peut entraîner un sevrage néonatal."],"sourcePage":11},{"id":"c19","num":12,"page":3,"kind":"QUESTION","title":"Expliquer comment se fait la relation entre récepteur et canal ionique. donner un exemple de récepteur membranaire couplé à un canal ionique","session":"2021-2023","topic":"Biologie cellulaire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":[],"correct":"","note":"","answer":["Un récepteur ionotrope est un canal contrôlé par un ligand. La fixation du ligand change la conformation et modifie le flux ionique.","Exemple : l’acétylcholine ouvre le récepteur nicotinique de la plaque motrice, entraînant une dépolarisation."],"criteria":[{"label":"Un récepteur ionotrope est un canal contrôlé par un ligand. La fixation du ligand change la conformation et modifie le flux ionique.","yes":"(?:(?=.*\\brecept\\w*)(?=.*\\bionotr\\w*)|(?=.*\\brecept\\w*)(?=.*\\bcontr\\w*)|(?=.*\\brecept\\w*)(?=.*\\bligan\\w*)|(?=.*\\brecept\\w*)(?=.*\\bfixat\\w*)|(?=.*\\brecept\\w*)(?=.*\\bchang\\w*)|(?=.*\\bionotr\\w*)(?=.*\\bcontr\\w*)|(?=.*\\bionotr\\w*)(?=.*\\bligan\\w*)|(?=.*\\bionotr\\w*)(?=.*\\bfixat\\w*)|(?=.*\\bionotr\\w*)(?=.*\\bchang\\w*)|(?=.*\\bcontr\\w*)(?=.*\\bligan\\w*)|(?=.*\\bcontr\\w*)(?=.*\\bfixat\\w*)|(?=.*\\bcontr\\w*)(?=.*\\bchang\\w*)|(?=.*\\bligan\\w*)(?=.*\\bfixat\\w*)|(?=.*\\bligan\\w*)(?=.*\\bchang\\w*)|(?=.*\\bfixat\\w*)(?=.*\\bchang\\w*))","weight":1.0},{"label":"Exemple : l’acétylcholine ouvre le récepteur nicotinique de la plaque motrice, entraînant une dépolarisation.","yes":"(?:(?=.*\\blacetylchol\\w*)(?=.*\\brecept\\w*)|(?=.*\\blacetylchol\\w*)(?=.*\\bnicotini\\w*)|(?=.*\\blacetylchol\\w*)(?=.*\\bplaqu\\w*)|(?=.*\\blacetylchol\\w*)(?=.*\\bmotri\\w*)|(?=.*\\blacetylchol\\w*)(?=.*\\bentrain\\w*)|(?=.*\\brecept\\w*)(?=.*\\bnicotini\\w*)|(?=.*\\brecept\\w*)(?=.*\\bplaqu\\w*)|(?=.*\\brecept\\w*)(?=.*\\bmotri\\w*)|(?=.*\\brecept\\w*)(?=.*\\bentrain\\w*)|(?=.*\\bnicotini\\w*)(?=.*\\bplaqu\\w*)|(?=.*\\bnicotini\\w*)(?=.*\\bmotri\\w*)|(?=.*\\bnicotini\\w*)(?=.*\\bentrain\\w*)|(?=.*\\bplaqu\\w*)(?=.*\\bmotri\\w*)|(?=.*\\bplaqu\\w*)(?=.*\\bentrain\\w*)|(?=.*\\bmotri\\w*)(?=.*\\bentrain\\w*))","weight":1.0}],"sourcePage":11},{"id":"c20","num":13,"page":3,"kind":"QUESTION","title":"citer 3 types de mort cellulaire","session":"2021-2023","topic":"Biologie cellulaire","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Biologie cellulaire avec notes","../../../cours/S1/2.1/2.1%20Biologie%20cellulaire%20avec%20notes.pdf"]],"options":[],"correct":"","note":"","answer":["Exemples : apoptose, nécrose et nécroptose. La pyroptose est aussi une forme de mort cellulaire régulée."],"sourcePage":11},{"id":"c24","num":14,"page":3,"kind":"QCM","title":"Parmi les propositions concernant La loi de Henry, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Dynamique des fluides et gaz médicaux","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Dynamique fluides avec notes","../../../cours/S1/2.1/2.1%20Dynamique%20fluides%20avec%20notes.pdf"]],"options":["À température constante, la quantité de gaz dissous dans un liquide est proportionnelle à la pression partielle qu'exerce ce gaz sur le liquide","À pression constante, la quantité de gaz dissous dans un liquide est supérieure à la pression partielle qu'exerce ce gaz sur le liquide","À pression constante, la quantité de gaz dissous dans un liquide est inférieure à la pression partielle qu'exerce ce gaz sur le liquide","À température constante la quantité de gaz dissous dans un liquide est égale à la pression partielle qu'exerce ce gaz sur le liquide","À température constante la quantité de gaz dissous dans un liquide es t majorée par la pression partielle qu'exerce ce gaz sur le liquide"],"correct":"A","note":"","instruction":"Cocher les propositions exactes.","sourcePage":12},{"id":"c25","num":15,"page":3,"kind":"QCM","title":"Parmi les propositions concernant La Physique des vapeurs et des gaz, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Dynamique des fluides et gaz médicaux","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Dynamique fluides avec notes","../../../cours/S1/2.1/2.1%20Dynamique%20fluides%20avec%20notes.pdf"]],"options":["Un des paramètres qui conditionnent la forme de la matière est la température","Un des paramètres qui conditionnent la forme de la matière est la densité","Un des paramètres qui conditionnent la forme de la matière est la pression","Un des paramètres qui conditionnent la forme de la matière est l'ébullition","Un des paramètres qui conditionnent la forme de la matière est le volume"],"correct":"AC","note":"","instruction":"Cocher les propositions exactes.","sourcePage":13},{"id":"c26","num":16,"page":3,"kind":"QCM","title":"Parmi les propositions concernant La fraction de gaz halogéné, laquelle ou lesquelles est (sont) vraie(s)?","session":"2021-2023","topic":"Dynamique des fluides et gaz médicaux","points":1,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Dynamique fluides avec notes","../../../cours/S1/2.1/2.1%20Dynamique%20fluides%20avec%20notes.pdf"]],"options":["La différence entre fraction des gaz frais et fraction inspirée est d'autant plus importante que le débit de gaz frais est faible","La différence entre fraction dégâts frais et fraction inspirée est d'autant plus importante que le débit de gaz frais est élevé","La différence entre fraction des gaz frais et fractions inspirée est d'autant plus importante que le débit de gaz frais est constant","La différence entre fraction des gaz frais et fraction expirée est d'autant plus importante que le débit de gaz frais est constant","La différence entre fraction des gaz frais et fraction expirée est d'autant plus importante que le débit de gaz frais est élevé"],"correct":"A","note":"","instruction":"Cocher les propositions exactes.","sourcePage":13},{"id":"c31","num":17,"page":3,"kind":"QUESTION","title":"Citer les trois formes de la matière","session":"2021-2023","topic":"Dynamique des fluides et gaz médicaux","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Dynamique fluides avec notes (p. 5, à consulter)","../../../cours/S1/2.1/2.1%20Dynamique%20fluides%20avec%20notes.pdf#page=5"]],"options":[],"correct":"","note":"","answer":["Les trois états usuels sont solide, liquide et gazeux."],"criteria":[{"label":"Solide, liquide et gazeux","yes":"(?=.*solide)(?=.*liquide)(?=.*gaz)","weight":2}],"sourcePage":13},{"id":"c32","num":18,"page":4,"kind":"QUESTION","title":"En cas de panne d'alimentation en oxygène sur un respirateur au bloc opératoire, citer les trois actions à mener simultanément","session":"2021-2023","topic":"Dynamique des fluides et gaz médicaux","points":2,"ungraded":false,"figures":[],"refs":[["Cours · 2.1 Dynamique fluides avec notes (p. 35, à consulter)","../../../cours/S1/2.1/2.1%20Dynamique%20fluides%20avec%20notes.pdf#page=35"]],"options":[],"correct":"","note":"","answer":["Assurer l’oxygénation et la ventilation par un moyen indépendant, avec ballon autoremplisseur et source d’O₂ de secours si disponible.","Alerter l’équipe et faire vérifier le réseau et les autres postes.","Surveiller SpO₂ et capnographie dès que possible et adapter la poursuite de l’anesthésie."],"sourcePage":13}],"figures":{"2.1-2.2-10-2":"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H/HWJ8V/h7qvi3w5p+j+GI7Cz/s65R0SV9iIiI6bP469L+/RQBz9n4J8K2er/wDCQWvhnTYdT/5+0tk3o9GseEvDHiFkn1zw/YX8qfIj3FsjuldBTNnvQBS03SrHTbWKx0qxtrO0g+5b28OxE/4AlZV54G8HX919qvvCWj3Mu/53msEff/45XRbPejZ70AVYYYLaJILWBIYk+4iJsRKdU1FAFfZ70bPerFMoAr7PembPerGz3p+z3oMips96bs96tbPejZ70AV9nvT9nvT6HoAr7PembPerFFADET91TdnvVioaAK+z3p+z3qWigCvs96bs96tUUAV9nvRs96mooAr7PenbPepqKAIdnvRs96mooAh2e9FTUUAZiUfx0UVAEtD0UUARfx0/+CiirAclPoooAKZRRUAPp9FFABTKKKAH0UUVYBTqKKAH0+iigB1NeiigsKdRRQAU+iigoZT6KKACpUoooAKP4KKKACn0UUFhRRRQA+iiig1CiiigAp1FFABRRRQAUUUUAPp9FFADKKKKAGUUUUAFPSiigB9MoooAfTKKKDIKZRRQQFH8dFFAD0p9FFADKKKKACmUUUAFFFFADaKKKAIafRRQZDKKKKACm0UUAFFFFADKKKKACiiigBlFFFABRRRQA2iiigBlFFFABRRRQB//Z"},"notes":["18 questions dans l’ordre du PDF. Le corrigé et le barème servent à l’entraînement."],"pdf":"Annales%202021-2023%20UE%202.1.pdf","pdfLabel":"Annales 2021-2023 UE 2.1.pdf","twoErrors":0.25,"examTotal":26,"name":"Annales 2021-2023 UE 2.1","promotion":"2021-2023","originalPdf":"../../../Annales/ANNALES%20PAR%20UE%20%E2%9A%A0%EF%B8%8F%20_non%20officiels_/ANNALES%20UNITE%202.1-2.2.pdf"};
+const normalize = text => text.normalize('NFKC').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+  .toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae').replace(/[’']/g,' ').replace(/(\d),(?=\d)/g,'$1.').trim();
+const close = (a,b) => Math.abs(a-b)<1e-7;
+const round = n => Math.round(n*10000)/10000;
+const reviewOptions = [
+  ['', 'À évaluer'],
+  ['correct', 'Correcte'],
+  ['partial', 'Partielle'],
+  ['review', 'À revoir · 0 point']
+];
+
+function rubricAnalysis(raw, criteria) {
+  const input=normalize(raw);
+  const clauses=input.split(/[;!?\n]+|\.(?!\d)|\b(?:mais|cependant|pourtant)\b/).map(s=>s.trim()).filter(Boolean);
+  return criteria.map(criterion=>{
+    const yes=new RegExp(criterion.yes.trim(),'i');
+    const bad=criterion.bad ? new RegExp(criterion.bad,'i') : null;
+    const conflict=bad && clauses.find(clause=>bad.test(clause));
+    const matches=clauses.filter(clause=>yes.test(clause));
+    const negated=!criterion.allowNegation && matches.find(clause=>
+      /^(?:\w+\s+){0,5}(?:pas|aucun|aucune|non|jamais)\b|\bn\s+est\s+pas\b/.test(clause)
+    );
+    const evidence=conflict||negated||matches[0]||'';
+    const status=conflict||negated?'ambiguous':matches.length?'recognized':'missing';
+    return {...criterion,status,evidence,override:null};
+  });
+}
+
+function analysisPoints(grade) {
+  const recognized=grade.analysis.filter(c=>c.override ?? (c.status==='recognized'));
+  const earned=round(recognized.reduce((sum,c)=>sum+c.weight,0));
+  return grade.allOrNothing && !close(earned,grade.autoMax) ? 0 : earned;
+}
+
+function assessed(grade) {
+  if(grade.review==='blank' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='correct' && grade.full!=null) return {score:grade.full,max:grade.full};
+  if(grade.review==='review' && grade.full!=null) return {score:0,max:grade.full};
+  if(grade.review==='partial' && grade.full!=null && grade.manualPoints!=null) {
+    return {score:grade.manualPoints,max:grade.full};
+  }
+  return {score:grade.analysis ? analysisPoints(grade) : grade.autoScore,max:grade.autoMax};
+}
+
+function pointsEntry(q,grade) {
+  const value=grade.manualPoints??'';
+  const hidden=grade.review!=='partial'?' hidden':'';
+  return q.kind==='QCM'
+    ? `<label data-partial="${q.id}"${hidden}>Points attribués <select data-points="${q.id}"><option value="">À saisir</option><option value="0.5"${value===.5?' selected':''}>0,5</option>${DATA.twoErrors===.25?`<option value="0.25"${value===.25?' selected':''}>0,25</option>`:''}</select></label>`
+    : `<label data-partial="${q.id}"${hidden}>Points attribués sur ${format(grade.full)} <input data-points="${q.id}" type="number" inputmode="decimal" min="0" max="${grade.full}" step="any" value="${value}"></label>`;
+}
+
+function assessmentControls(q,grade) {
+  if(grade.review==='blank') return '<p class="small">Sans réponse.</p>';
+  const partial=q.kind!=='QCU'&&!q.allOrNothing;
+  const choices=reviewOptions.filter(([key])=>partial||key!=='partial');
+  const options=choices.map(([key,label])=>`<option value="${key}"${key===grade.review?' selected':''}>${!key&&grade.analysis?'Selon l’analyse automatique':label}</option>`).join('');
+  return `<div class="self-assessment"><label for="review-${q.id}">Évalue ta réponse</label><select id="review-${q.id}" data-review="${q.id}">${options}</select>${grade.full!=null&&partial?pointsEntry(q,grade):''}</div>`;
+}
+
+const $ = id => document.getElementById(id);
+const format = (value, digits=4) => value.toLocaleString('fr-FR', {maximumFractionDigits:digits});
+const isChoice = q => q.kind === 'QCM' || q.kind === 'QCU';
+const isOpen = q => !isChoice(q) && q.kind !== 'context';
+const escape = value => String(value).replace(/[&<>"']/g, char => (
+  {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]
+));
+const questionLabel = card => card.kind === 'context' ? card.title : `${card.kind} ${card.num}${card.series?' · '+card.series:''}`;
+const values = [...'ABCDEFGHIJKL'];
+
+
+const realCards=DATA.cards.filter(q=>q.kind!=='context');
+const nCh=realCards.filter(q=>q.kind==='QCM'||q.kind==='QCU').length,nOp=realCards.length-nCh;
+const nPts=Math.round(realCards.reduce((s,q)=>s+(q.points??1),0)*100)/100;
+document.title=`UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2021-2023 — ${DATA.title}`;
+$('h-eyebrow').textContent=`École IADE · UE ${DATA.ue} · Semestre ${DATA.semester} · Promotion 2021-2023`;
+$('h-title').textContent=DATA.name;
+$('h-title').insertAdjacentHTML('afterend', `<p>${escape(DATA.title)}</p>`);
+$('h-stats').innerHTML=[[realCards.length,'questions'],[nCh,'QCM / QCU'],[nOp,'questions ouvertes'],[nPts.toLocaleString('fr-FR'),'points au barème']].filter(([n])=>n!==0).map(([n,t])=>`<div class="hero-stat"><b>${n}</b><span>${t}</span></div>`).join('');
+$('h-rules').innerHTML=`<p>QCM sur 1 point : une erreur ou un oubli = 0,5 point${DATA.twoErrors?`, deux erreurs ou oublis = ${String(DATA.twoErrors).replace('.',',')} point`:''}, au-delà 0. QCU sur 1 point.</p><p>Questions ouvertes : ta réponse est comparée aux éléments attendus. Si la détection n’a pas reconnu une bonne idée, clique sur <b>Valider cet élément</b> ou choisis une évaluation manuelle.</p><p>Les questions signalées « hors barème » sont consultables dans la correction. Leurs données, leur figure ou leur corrigé sont insuffisants pour attribuer une note. Les questions ouvertes sont corrigées automatiquement lorsque des critères ont pu être établis. Les autres peuvent être évaluées manuellement après lecture de la correction.</p>`;
+$('h-footer').innerHTML=`Source · <a href="${DATA.pdf}">${escape(DATA.pdfLabel)}</a> · Fonctionne hors connexion.`;
+$('h-rules').insertAdjacentHTML('beforeend',`<p>${escape(DATA.notes[0])}</p>`);
+const srcTag=q=>q.source==='corrige'?'<span class="tag-src deduit">Réponse rectifiée</span>':'';
+function sourceCopy(q) {
+  return `<p class="small source-line"><a href="${escape(DATA.pdf)}#page=${q.page}">PDF de la promotion · p. ${q.page}</a> · <a href="${escape(DATA.originalPdf)}#page=${q.sourcePage}">Recueil d’origine · p. ${q.sourcePage}</a> · ${escape(q.session)} · ${escape(q.topic)}</p>`;
+}
+function sources(q) {
+  return q.refs.length?`<ul class="small">${q.refs.map(([label,url])=>`<li><a href="${escape(url)}" target="_blank" rel="noopener">${escape(label)}</a></li>`).join('')}</ul>`:'';
+}
+function answerBox(q){
+  let list=q.answer; if(!list) return ''; if(typeof list==='string') list=[list];
+  const items=list.map(a=>{const add=a.startsWith('+');const t=add?a.replace(/^\+\s*/,''):a;return `<li class="${add?'added':''}">${escape(t)}${add?'<span class="tag-added">Complément</span>':''}</li>`;}).join('');
+  return `<div class="answer-key"><h3>Correction ${srcTag(q)}</h3><ul>${items}</ul>${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+}
+let active, grades, locked, confirmed, targeted;
+const form = $('quiz');
+function images(list, label) {
+  return list.map((item,i) => `<img loading="lazy" alt="${escape(label)}${list.length>1?' · extrait '+(i+1):''}" src="data:image/jpeg;base64,${item}">`).join('');
+}
+function scanBlock(scans, label) {
+  return `<div class="document"><div class="source-pictures" tabindex="0" aria-label="${escape(label)}">${images(scans,label)}</div><button type="button" class="secondary zoom" aria-expanded="false">Agrandir le scan</button></div>`;
+}
+function prompt(q) {
+  if(q.images) return scanBlock(q.images,questionLabel(q));
+  const table=q.table?`<div class="prompt-table">${q.table.map(cell=>`<span>${escape(cell)}</span>`).join('')}</div>`:'';
+  return `<h2 class="question-stem">${escape(q.title)}</h2>${q.text?`<p class="context-text">${escape(q.text)}</p>`:''}${q.figures.length?`<div class="q-figure">${q.figures.map((id,i)=>`<img loading="lazy" src="data:image/jpeg;base64,${DATA.figures[id]}" class="question-figure" alt="Figure ${i+1} de la question">`).join('')}</div>`:''}${q.instruction?`<p class="small">${escape(q.instruction)}</p>`:''}${table}`;
+}
+function fields(q) {
+  if (isChoice(q)) {
+    return `<div class="choices ${q.options?'written-choices':''}" role="${q.kind==='QCU'?'radiogroup':'group'}" aria-labelledby="title-${q.id}">${q.options.map((_,i)=>values[i]).map((letter,i)=>`<label class="option" id="option-${q.id}-${letter}"><input type="${q.kind==='QCU'?'radio':'checkbox'}" name="${q.id}" value="${letter}"><span><strong>${letter}</strong>${q.options?' · '+escape(q.options[i]):''}<small></small></span></label>`).join('')}</div>`;
+  }
+  return `<div class="field"><textarea id="answer-${q.id}" aria-labelledby="title-${q.id}" rows="5" placeholder="Ta réponse…"></textarea></div>`;
+}
+function render() {
+  $('cards').innerHTML = active.map((q, index) => {
+    const section = q.kind === 'context' ? '<span>Dossier</span>' : `<span>${q.ungraded?'Hors barème':format(q.points)+' pt'} · ${escape(q.session)} · PDF p. ${q.page}</span>`;
+    const anchor = active.findIndex(card=>card.kind===q.kind)===index ? ` id="section-${q.kind}"` : '';
+    return `<section class="card"${anchor} data-card="${q.id}"><div class="meta"><strong id="title-${q.id}">${escape(questionLabel(q))}</strong>${section}</div>${prompt(q)}${q.kind==='context'?'':fields(q)+`<div class="feedback" id="feedback-${q.id}" hidden></div>`}</section>`;
+  }).join('');
+  for(const link of document.querySelectorAll('[data-kind]')){
+    const kind=link.dataset.kind;
+    const index=active.findIndex(q=>kind==='open'?isOpen(q):q.kind===kind);
+    link.hidden=index<0;
+    if(index>=0) link.hash='section-'+active[index].kind;
+  }
+}
+function response(q) {
+  if (isChoice(q)) {
+    return [...form.querySelectorAll(`[name="${q.id}"]:checked`)].map(input=>input.value);
+  }
+  return $(`answer-${q.id}`).value.trim();
+}
+function progress() {
+  const current=active.filter(q=>q.kind!=='context');
+  const count=current.filter(q=>response(q).length>0).length;
+  $('progress').textContent=`${count} / ${current.length} questions renseignées`;
+  $('bar').max=current.length;
+  $('bar').value=count;
+}
+function compute(q, answers) {
+  if (!q.correct) return {autoMax:0,autoScore:0};
+  const errors=values.slice(0,q.options.length).filter(letter=>answers.includes(letter)!==q.correct.includes(letter)).length;
+  const points=q.kind==='QCU' ? Number(errors===0) : answers.length===0 ? 0 : [1,.5,DATA.twoErrors][errors] ?? 0;
+  return {autoMax:1,autoScore:points};
+}
+function rubricPanel(q, grade) {
+  if(!grade.analysis) return `<p class="small">Évalue ta réponse à partir des éléments du corrigé.${q.allOrNothing?' Barème tout ou rien.':''}</p>`;
+  const status={recognized:'Reconnu',missing:'À compléter',ambiguous:'À vérifier'};
+  const items=grade.analysis.map((c,i)=>{
+    const description=c.override===null?status[c.status]:c.override?'Validé manuellement':'Retiré manuellement';
+    const evidence=c.evidence?`<span class="evidence">${escape(c.evidence.slice(0,180))}</span>`:'';
+    const button=grade.review==='blank'?'':`<button type="button" data-criterion="${q.id}:${i}">${c.override!==null?'Rétablir l’analyse':c.status==='recognized'?'Retirer cet élément':'Valider cet élément'}</button>`;
+    return `<div class="criterion"><span class="badge ${c.status==='recognized'?'':'missing'}">${description}</span><strong>${escape(c.label)}</strong> · ${format(c.weight)} pt${evidence}${button}</div>`;
+  }).join('');
+  return `<div id="analysis-${q.id}"><strong>Analyse automatique · ${format(analysisPoints(grade))} / ${format(grade.autoMax)} points${grade.full>grade.autoMax?' vérifiables':''}</strong>${grade.allOrNothing?'<p class="small">Barème tout ou rien pour cette question.</p>':''}${items}</div>`;
+}
+function correction(q) {
+  const given=response(q);
+  const grade={full:q.points,autoMax:0,autoScore:0,ungraded:q.ungraded};
+  if(isChoice(q)){
+    Object.assign(grade,compute(q,given));
+    if(!q.correct) grade.review=given.length?'':'blank';
+    for(const letter of values.slice(0,q.options.length)){
+      const row=$(`option-${q.id}-${letter}`);
+      row.querySelector('input').disabled=true;
+      if(!q.correct) continue;
+      const checked=given.includes(letter);
+      const good=q.correct.includes(letter);
+      row.classList.add(good?checked?'right':'missed':checked?'wrong':'unused');
+      row.querySelector('small').textContent=good?checked?'Validée':'Oubliée':checked?'Fausse':'';
+    }
+  }else{
+    $(`answer-${q.id}`).readOnly=true;
+    grade.review=given?'':'blank';
+    if(!q.ungraded&&q.criteria?.length){
+      grade.analysis=rubricAnalysis(given,q.criteria);
+      grade.autoMax=round(q.criteria.reduce((sum,c)=>sum+c.weight,0));
+      grade.allOrNothing=q.allOrNothing;
+    }
+  }
+  grades.set(q.id,grade);
+  const panel=$(`feedback-${q.id}`);
+  panel.hidden=false;
+  if (isOpen(q)) {
+    panel.innerHTML=`${answerBox(q)}${sources(q)}${q.ungraded?'<p class="small">Question hors barème.</p>':rubricPanel(q,grade)+assessmentControls(q,grade)}${sourceCopy(q)}`;
+    return;
+  }
+  const answers=q.correct.split('').filter(Boolean).map(letter=>q.options[values.indexOf(letter)]);
+  const key=`<strong>${q.ungraded?'Hors barème':format(grade.autoScore)+' / 1 point'}</strong><div class="answer-key" style="margin-top:10px"><h3>${q.ungraded?'Éléments pour vérifier':'Correction'}</h3>${answers.length?`<ul class="correct-options">${answers.map(a=>`<li>${escape(a)}</li>`).join('')}</ul>`:''}${q.note?`<p class="answer-note">${escape(q.note)}</p>`:''}</div>`;
+  panel.innerHTML=key+sources(q)+sourceCopy(q);
+}
+function isComplete(grade) {
+  const {score,max}=assessed(grade);
+  return !grade.ungraded&&(grade.review==='correct'||(grade.full!=null&&close(max,grade.full)&&close(score,max)));
+}
+function applyFilter() {
+  const filter=$('filter').value==='imperfect';
+  for(const q of active){
+    const card=form.querySelector(`[data-card="${q.id}"]`);
+    const grade=grades.get(q.id);
+    card.hidden=filter&&Boolean(grade)&&isComplete(grade);
+  }
+}
+function tally() {
+  const list=[...grades.values()];
+  const points=list.map(assessed);
+  const sum=round(points.reduce((acc,g)=>acc+g.score,0));
+  const max=round(points.reduce((acc,g)=>acc+g.max,0));
+  const available=round(list.reduce((acc,g)=>acc+(g.full??0),0));
+  const paper=available;
+  const remaining=Math.max(0,round(paper-max));
+  const manual=$('global-mark');
+  const globalScore=manual&&manual.value!==''&&manual.validity.valid?Number(manual.value):null;
+  $('score').textContent=max>0?`${format(20*sum/max,2)} / 20`:globalScore!==null?`${format(globalScore,2)} / 20`:'Note sur 20 à établir';
+  $('summary').textContent=max>0
+    ? `${format(sum)} / ${format(max)} points évalués.${remaining>0?` Note provisoire · ${format(remaining)} points du barème restent à évaluer.`:''}`
+    : globalScore!==null?'Note globale saisie manuellement.':'Aucun point évaluable automatiquement ou manuellement pour l’instant.';
+  const adjusted=list.some(g=>g.review && g.review!=='blank' || g.analysis?.some(c=>c.override!==null));
+  if(adjusted) $('summary').textContent+=' Note ajustée.';
+  const incomplete=list.filter((g,i)=>g.full!=null&&g.full>points[i].max).length;
+  $('manual-summary').textContent=incomplete
+    ? `Complète la correction manuelle pour ${incomplete} question${incomplete===1?'':'s'}.`:'';
+  $('retry').disabled=list.every(g=>g.ungraded||isComplete(g));
+  applyFilter();
+}
+function submit() {
+  if(locked) return;
+  const current=active.filter(q=>q.kind!=='context');
+  const missing=current.filter(q=>!q.ungraded&&!response(q).length).length;
+  if(missing&&!confirmed){
+    $('message').textContent=`${missing} question(s) sans réponse. Clique de nouveau pour corriger la tentative.`;
+    confirmed=true;
+    return;
+  }
+  locked=true;
+  current.forEach(correction);
+  $('results').hidden=false;
+  $('filters').hidden=false;
+  $('submit').hidden=true;
+  $('mode').textContent='Corrigé';
+  $('message').textContent='';
+  tally();
+  $('results').focus();
+  $('results').scrollIntoView({block:'start'});
+}
+function shuffledCard(q) {
+  if (!isChoice(q)) return q;
+  const indexes=q.options.map((_,i)=>i);
+  for(let i=indexes.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [indexes[i],indexes[j]]=[indexes[j],indexes[i]];
+  }
+  const correct=indexes.map((index,i)=>q.correct.includes(values[index])?values[i]:'').join('');
+  return {...q,options:indexes.map(i=>q.options[i]),correct};
+}
+function start(retry=false) {
+  const keep=retry?new Set([...grades].filter(([,g])=>!g.ungraded&&!isComplete(g)).map(([id])=>id)):null;
+  targeted=retry;
+  if($('global-mark'))$('global-mark').value='';
+  active=DATA.cards.filter(q=>(!$('topic').value||q.topic===$('topic').value)&&(!keep||keep.has(q.id))).map(shuffledCard);
+  grades=new Map();
+  locked=false;
+  confirmed=false;
+  $('results').hidden=true;
+  $('filters').hidden=true;
+  $('submit').hidden=false;
+  $('message').textContent='';
+  $('mode').textContent=retry?'Reprise ciblée':'Entraînement';
+  $('filter').value='all';
+  render();
+  progress();
+  if(retry) window.scrollTo(0,0);
+}
+form.addEventListener('submit', e=>{e.preventDefault(); submit();});
+form.addEventListener('input',()=>{if(locked)return; confirmed=false; $('message').textContent=''; progress();});
+form.addEventListener('change',event=>{
+  const field=event.target.closest('[data-review],[data-points]');
+  if(!locked||!field)return;
+  const id=field.dataset.review??field.dataset.points;
+  const grade=grades.get(id);
+  if(field.hasAttribute('data-review')){
+    grade.review=field.value;
+    const partial=form.querySelector(`[data-partial="${id}"]`);
+    if(partial)partial.hidden=field.value!=='partial';
+  }else{
+    const value=field.value===''?null:Number(field.value);
+    grade.manualPoints=Number.isFinite(value)&&value>=0&&value<=grade.full?value:null;
+  }
+  tally();
+});
+$('global-mark')?.addEventListener('input',tally);
+form.addEventListener('click',event=>{
+  const criterion=event.target.closest('[data-criterion]');
+  if(locked&&criterion){
+    const [id,index]=criterion.dataset.criterion.split(':');
+    const grade=grades.get(id);
+    const item=grade.analysis[Number(index)];
+    item.override=item.override===null?item.status!=='recognized':null;
+    const q=active.find(card=>card.id===id);
+    $('analysis-'+id).outerHTML=rubricPanel(q,grade);
+    form.querySelector(`[data-criterion="${id}:${index}"]`)?.focus({preventScroll:true});
+    tally();
+    return;
+  }
+  const button=event.target.closest('.zoom');
+  if(!button)return;
+  const enlarged=button.closest('.document').classList.toggle('enlarged');
+  button.setAttribute('aria-expanded',String(enlarged));
+  button.textContent=enlarged?'Réduire le scan':'Agrandir le scan';
+});
+$('filter').addEventListener('change',applyFilter);
+$('reset').addEventListener('click',()=>{start(); window.scrollTo(0,0);});
+$('retry').addEventListener('click',()=>start(true));
+for(const topic of new Set(DATA.cards.map(q=>q.topic))) $('topic').add(new Option(topic,topic));
+$('topic').addEventListener('change',()=>start());
+start();
+</script>
+<!-- Statistiques anonymes Mémo (GoatCounter, sans cookies) -->
+<script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"path":"/annales-nf/S1/2.1-2021-2023","title":"Annales non officielles 2021-2023 UE 2.1 S1"}' async src="//gc.zgo.at/count.js"></script></body></html>
