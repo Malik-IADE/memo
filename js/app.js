@@ -48,7 +48,8 @@ const richAnswer = (s) => {
   return `<ul class="answer-list">${items.map((it) => `<li>${formatLine(it.text)}${it.subs.length
     ? `<ul class="answer-sub">${it.subs.map((t) => `<li>${formatLine(t)}</li>`).join('')}</ul>` : ''}</li>`).join('')}</ul>`;
 };
-const plural = (n, word) => `${n} ${word}${n > 1 ? 's' : ''}`;
+// « cours » est déjà au pluriel : pas de « s » en plus.
+const plural = (n, word) => `${n} ${word}${n > 1 && !word.endsWith('s') ? 's' : ''}`;
 const baseName = (f) => f.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim();
 
 const svg = (d) => `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
@@ -139,6 +140,12 @@ function render() {
   if (r.view === 'deck' && store.deck(r.id)) return renderDeck(r.id);
   if (r.view === 'review' && (r.id === MIX || store.deck(r.id))) return renderReview(r.id);
   if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub) : renderFolder(r.id);
+  if (r.view === 'fc') return renderFlashcards();
+  if (r.view === 'annales') {
+    if (r.id && r.sub) return renderAnnalesUE(r.id, r.sub);
+    if (r.id) return renderAnnalesSem(r.id);
+    return renderAnnales();
+  }
   renderHome();
 }
 
@@ -150,6 +157,8 @@ function trackView() {
   const r = route();
   const name = (id) => { if (id === MIX) return MIX_NAME; const d = store.deck(id); return d ? shortName(d.name) : 'inconnu'; };
   const path = r.view === 'f' ? `/${[r.id, r.sub].filter(Boolean).join('/')}`
+    : r.view === 'fc' ? '/flashcards'
+    : r.view === 'annales' ? `/annales${[r.id, r.sub].filter(Boolean).map((s) => `/${s}`).join('')}`
     : r.view === 'deck' ? `/cours/${name(r.id)}`
     : r.view === 'review' ? `/revision/${name(r.id)}`
     : '/accueil';
@@ -189,11 +198,13 @@ const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
 // Dans un dossier d'UE, le préfixe « IADE – » est superflu.
 const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
 
-/* ---------- Annales : un quiz HTML par UE (dossier « annales/ ») ---------- */
-// « annales/liste.txt » : une ligne « S1/3.3.html | titre ». Gardée en mémoire locale pour l'hors-ligne.
+/* ---------- Annales : des quiz HTML rangés par semestre puis par UE ---------- */
+// « annales/liste.txt » : une ligne « S1/3.3-2013-2015.html | titre ».
+// Le semestre et l'UE sont lus au début du chemin ; le reste du nom distingue les
+// annales d'une même UE. La liste est gardée en mémoire locale pour l'hors-ligne.
 const ANNALES_KEY = 'memo-annales';
 let annales = (() => { try { return JSON.parse(localStorage.getItem(ANNALES_KEY)) || []; } catch { return []; } })();
-const annaleOf = (sem, ue) => annales.find((a) => a.sem === sem && a.ue === ue) || null;
+const annalesOf = (sem, ue) => annales.filter((a) => a.sem === sem && a.ue === ue);
 async function loadAnnales() {
   try {
     const res = await fetch('annales/liste.txt', { cache: 'no-cache' });
@@ -202,24 +213,19 @@ async function loadAnnales() {
       .filter((l) => l && !l.startsWith('//'))
       .map((l) => {
         const [file, label = ''] = l.split('|').map((s) => s.trim());
-        const m = file.match(/^([^/]+)\/(.+)\.html?$/);
-        return m ? { sem: m[1], ue: m[2], href: `annales/${file}`, label } : null;
+        const m = file.match(/^([^/]+)\/(\d+\.\d+)(.*)\.html?$/);
+        return m ? { sem: m[1], ue: m[2], href: `annales/${file}`, label: label || `Annales de l'UE ${m[2]}` } : null;
       })
       .filter(Boolean);
     const changed = JSON.stringify(list) !== JSON.stringify(annales);
     annales = list;
     try { localStorage.setItem(ANNALES_KEY, JSON.stringify(list)); } catch {}
     const v = route().view;
-    if (changed && (v === 'home' || v === 'f') && !modal.open) render();
+    if (changed && (v === 'home' || v === 'annales') && !modal.open) render();
   } catch { /* hors ligne : on garde la dernière liste connue */ }
 }
-function annaleRow(a) {
-  return `
-    <p class="section-label">Annales</p>
-    <ul class="folder-list">
-      ${folderRow(a.href, `Annales de l'UE ${a.ue}`, 'Sujets d\'examen en quiz interactif', 0, ico.exam)}
-    </ul>`;
-}
+// Années couvertes, lues dans le titre : « Annales 2013-2015 UE 3.3 » → « 2013-2015 ».
+const annaleYears = (a) => (a.label.match(/\d{4}\s*[–-]\s*\d{4}/) || [''])[0];
 
 const allRows = () => store.decks().map((d) => ({ d, s: stats(d.id), loc: locate(d) }));
 const sumTodo = (rows) => rows.reduce((n, r) => n + r.s.todo, 0);
@@ -288,7 +294,20 @@ function deckRows(rows) {
     </ul>`;
 }
 
-/** Accueil : un dossier par semestre (+ « Mes paquets »). */
+/** Les paquets rangés par semestre (clé → lignes), pour l'accueil et les flashcards. */
+function bySemester(rows) {
+  const sems = new Map();
+  for (const r of rows) {
+    if (!sems.has(r.loc.sem)) sems.set(r.loc.sem, []);
+    sems.get(r.loc.sem).push(r);
+  }
+  return sems;
+}
+// Semestres d'abord, puis les catégories (ex. « Scores »), les cours partagés, « Mes paquets ».
+const semRank = (k) => (/^S\d+$/i.test(k) ? 0 : k === 'perso' ? 3 : k === 'partages' ? 2 : 1);
+const sortSems = (keys) => [...keys].sort((a, b) => semRank(a) - semRank(b) || byKey(a, b));
+
+/** Accueil : Cours mélangés, Flashcards, Annales, puis les catégories (ex. « Scores »). */
 function renderHome() {
   session = null;
   const rows = allRows();
@@ -309,32 +328,51 @@ function renderHome() {
       </main>`;
     return;
   }
-  const sems = new Map();
-  for (const r of rows) {
-    if (!sems.has(r.loc.sem)) sems.set(r.loc.sem, []);
-    sems.get(r.loc.sem).push(r);
-  }
-  for (const a of annales) if (!sems.has(a.sem)) sems.set(a.sem, []);
-  // Semestres d'abord, puis les catégories (ex. « Scores »), les cours partagés, « Mes paquets ».
-  const rank = (k) => (/^S\d+$/i.test(k) ? 0 : k === 'perso' ? 3 : k === 'partages' ? 2 : 1);
-  const keys = [...sems.keys()].sort((a, b) => rank(a) - rank(b) || byKey(a, b));
+  const sems = bySemester(rows);
+  // Les semestres et « Mes paquets » vivent sous « Flashcards » ; les catégories (ex. « Scores ») restent ici.
+  const cats = sortSems([...sems.keys()].filter(isSingleCategory));
+  const fcKeys = sortSems([...sems.keys()].filter((k) => !isSingleCategory(k)));
+  const fcRows = fcKeys.flatMap((k) => sems.get(k));
+  const fcUes = new Set(fcRows.map((r) => `${r.loc.sem}/${r.loc.ue}`).filter((k) => !k.endsWith('/null')));
+  const annaleUes = new Set(annales.map((a) => `${a.sem}/${a.ue}`));
 
   $app.innerHTML = `${topbarHome()}
     <main class="page">
       ${hero(sumTodo(rows))}
-      ${mixDecks().length > 1 ? (() => { const m = mixStats(); return `
       <ul class="folder-list">
-        ${folderRow(`#/review/${MIX}`, MIX_NAME, `Questions de tous les cours, tirées au hasard`, m.todo, ico.shuffle)}
-      </ul>`; })() : ''}
-      <ul class="folder-list">
-        ${keys.map((k) => {
+        ${mixDecks().length > 1 ? (() => { const m = mixStats(); return folderRow(
+          `#/review/${MIX}`, MIX_NAME, 'Questions de tous les cours, tirées au hasard', m.todo, ico.shuffle); })() : ''}
+        ${fcRows.length ? folderRow('#/fc', 'Flashcards',
+          [`${fcUes.size} UE`, plural(fcRows.length, 'cours')].join(' · '), sumTodo(fcRows), ico.cards) : ''}
+        ${annales.length ? folderRow('#/annales', 'Annales',
+          [`${annaleUes.size} UE`, plural(annales.length, 'annale')].join(' · '), 0, ico.exam) : ''}
+        ${cats.map((k) => {
           const rs = sems.get(k);
-          if (isSingleCategory(k) && rs.length === 1) {
+          if (rs.length === 1) {
             const { d, s } = rs[0];
             return folderRow(`#/deck/${d.id}`, k, `${plural(store.cards(d.id).length, 'carte')} · tirées au hasard`, s.todo, ico.shuffle);
           }
-          const ues = new Set([...rs.map((r) => r.loc.ue), ...annales.filter((a) => a.sem === k).map((a) => a.ue)].filter(Boolean));
-          const meta = ues.size ? [`${ues.size} UE`, rs.length ? `${rs.length} cours` : 'annales'].join(' · ') : plural(rs.length, 'paquet');
+          return folderRow(`#/f/${enc(k)}`, k, plural(rs.length, 'paquet'), sumTodo(rs), ico.folder);
+        }).join('')}
+      </ul>
+    </main>`;
+}
+
+/** Flashcards : un dossier par semestre (+ « Mes paquets »). */
+function renderFlashcards() {
+  session = null;
+  const rows = allRows().filter((r) => !isSingleCategory(r.loc.sem));
+  if (!rows.length) { location.hash = '#/'; return; }
+  const sems = bySemester(rows);
+
+  $app.innerHTML = `${topbarFolder('#/', 'Flashcards')}
+    <main class="page">
+      ${hero(sumTodo(rows))}
+      <ul class="folder-list">
+        ${sortSems(sems.keys()).map((k) => {
+          const rs = sems.get(k);
+          const ues = new Set(rs.map((r) => r.loc.ue).filter(Boolean));
+          const meta = ues.size ? [`${ues.size} UE`, plural(rs.length, 'cours')].join(' · ') : plural(rs.length, 'paquet');
           return folderRow(`#/f/${enc(k)}`, semLabel(k), meta, sumTodo(rs), k === 'perso' ? ico.cards : ico.folder);
         }).join('')}
       </ul>
@@ -342,29 +380,78 @@ function renderHome() {
     </main>`;
 }
 
+/** Annales : un dossier par semestre. */
+function renderAnnales() {
+  session = null;
+  if (!annales.length) { location.hash = '#/'; return; }
+  const sems = [...new Set(annales.map((a) => a.sem))].sort(byKey);
+
+  $app.innerHTML = `${topbarFolder('#/', 'Annales')}
+    <main class="page">
+      <p class="hint center">Sujets d'examen en quiz interactif.</p>
+      <ul class="folder-list">
+        ${sems.map((sem) => {
+          const as = annales.filter((a) => a.sem === sem);
+          const ues = new Set(as.map((a) => a.ue));
+          return folderRow(`#/annales/${enc(sem)}`, semLabel(sem),
+            [`${ues.size} UE`, plural(as.length, 'annale')].join(' · '), 0, ico.folder);
+        }).join('')}
+      </ul>
+    </main>`;
+}
+
+/** Annales d'un semestre : les UE qui en ont une. */
+function renderAnnalesSem(sem) {
+  session = null;
+  const as = annales.filter((a) => a.sem === sem);
+  if (!as.length) { location.hash = '#/annales'; return; }
+  const ues = [...new Set(as.map((a) => a.ue))].sort(byKey);
+
+  $app.innerHTML = `${topbarFolder('#/annales', semLabel(sem), 'Annales')}
+    <main class="page">
+      <ul class="folder-list">
+        ${ues.map((ue) => folderRow(`#/annales/${enc(sem)}/${enc(ue)}`, ueLabel(ue),
+          plural(annalesOf(sem, ue).length, 'annale'), 0, ico.exam)).join('')}
+      </ul>
+    </main>`;
+}
+
+/** Annales d'une UE : un quiz par période. */
+function renderAnnalesUE(sem, ue) {
+  session = null;
+  const as = annalesOf(sem, ue);
+  if (!as.length) { location.hash = `#/annales/${enc(sem)}`; return; }
+
+  $app.innerHTML = `${topbarFolder(`#/annales/${enc(sem)}`, ueLabel(ue), `Annales · ${semLabel(sem)}`)}
+    <main class="page">
+      <ul class="folder-list">
+        ${as.map((a) => folderRow(a.href, a.label,
+          annaleYears(a) ? `Sujets ${annaleYears(a)} · quiz interactif` : 'Quiz interactif', 0, ico.exam)).join('')}
+      </ul>
+    </main>`;
+}
+
 /** Dossier d'un semestre : liste des UE (ou directement les paquets pour « Mes paquets »). */
 function renderFolder(sem) {
   session = null;
   const rows = allRows().filter((r) => r.loc.sem === sem);
-  const semAnnales = annales.filter((a) => a.sem === sem);
-  if (!rows.length && !semAnnales.length) { location.hash = '#/'; return; }
+  if (!rows.length) { location.hash = '#/'; return; }
   const ues = new Map();
   for (const r of rows) if (r.loc.ue) {
     if (!ues.has(r.loc.ue)) ues.set(r.loc.ue, []);
     ues.get(r.loc.ue).push(r);
   }
-  for (const a of semAnnales) if (!ues.has(a.ue)) ues.set(a.ue, []);
   const loose = rows.filter((r) => !r.loc.ue);
+  const back = isSingleCategory(sem) ? '#/' : '#/fc';
 
-  $app.innerHTML = `${topbarFolder('#/', semLabel(sem))}
+  $app.innerHTML = `${topbarFolder(back, semLabel(sem), isSingleCategory(sem) ? '' : 'Flashcards')}
     <main class="page">
       ${rows.length ? hero(sumTodo(rows)) : ''}
       ${ues.size ? `
         <ul class="folder-list">
           ${[...ues.keys()].sort(byKey).map((ue) => {
             const rs = ues.get(ue);
-            const meta = [rs.length ? `${rs.length} cours` : '', annaleOf(sem, ue) ? 'annales' : ''].filter(Boolean).join(' · ');
-            return folderRow(`#/f/${enc(sem)}/${enc(ue)}`, ueLabel(ue), meta, sumTodo(rs));
+            return folderRow(`#/f/${enc(sem)}/${enc(ue)}`, ueLabel(ue), plural(rs.length, 'cours'), sumTodo(rs));
           }).join('')}
         </ul>` : ''}
       ${loose.length ? deckRows(loose) : ''}
@@ -376,12 +463,16 @@ function renderFolder(sem) {
 function renderUE(sem, ue) {
   session = null;
   const rows = allRows().filter((r) => r.loc.sem === sem && r.loc.ue === ue);
-  const annale = annaleOf(sem, ue);
-  if (!rows.length && !annale) { location.hash = `#/f/${enc(sem)}`; return; }
+  if (!rows.length) { location.hash = `#/f/${enc(sem)}`; return; }
   $app.innerHTML = `${topbarFolder(`#/f/${enc(sem)}`, ueLabel(ue), semLabel(sem))}
     <main class="page">
-      ${rows.length ? `${hero(sumTodo(rows))}${deckRows(rows)}` : '<p class="hint center">Pas encore de flashcards pour cette UE.</p>'}
-      ${annale ? annaleRow(annale) : ''}
+      ${hero(sumTodo(rows))}${deckRows(rows)}
+      ${annalesOf(sem, ue).length ? `
+        <p class="section-label">Annales</p>
+        <ul class="folder-list">
+          ${folderRow(`#/annales/${enc(sem)}/${enc(ue)}`, `Annales de l'UE ${ue}`,
+            plural(annalesOf(sem, ue).length, 'annale'), 0, ico.exam)}
+        </ul>` : ''}
     </main>`;
 }
 
