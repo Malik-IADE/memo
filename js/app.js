@@ -67,6 +67,7 @@ const ico = {
   shuffle: svg('<path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/>'),
   search: svg('<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>'),
   medal: svg('<circle cx="12" cy="15" r="6"/><path d="M8.5 9.5 6 2h12l-2.5 7.5"/>'),
+  home: svg('<path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/>'),
 };
 
 function toast(msg) {
@@ -250,22 +251,27 @@ function topbarHome() {
     <header class="topbar">
       <div class="brand"><img src="icons/icon.svg" alt="" class="logo"><h1>Mémo</h1></div>
       <div class="topbar-actions">
-        <a class="icon-btn" href="#/resultats" aria-label="Mes résultats aux annales" title="Mes résultats">${ico.medal}</a>
-        <button class="btn ghost" data-action="import">${ico.upload}<span class="hide-xs">Importer</span></button>
+        <a class="btn ghost" href="#/resultats" title="Mes notes aux annales">${ico.medal}<span class="hide-xs">Mes notes</span></a>
         <button class="icon-btn" data-action="settings" aria-label="Réglages">${ico.gear}</button>
       </div>
     </header>`;
 }
 
 function topbarFolder(backHref, title, eyebrow = '') {
+  // Flèche « Retour » (un cran en arrière) et, à côté, un raccourci vers l'accueil.
   return `
     <header class="topbar">
-      <a class="icon-btn" href="${backHref}" aria-label="Retour">${ico.back}</a>
+      <div class="topbar-nav">
+        <a class="icon-btn" href="${backHref}" aria-label="Retour">${ico.back}</a>
+        ${backHref === '#/' ? '' : `<a class="icon-btn" href="#/" aria-label="Accueil" title="Accueil">${ico.home}</a>`}
+      </div>
       <div class="topbar-title">
         ${eyebrow ? `<span class="topbar-eyebrow">${esc(eyebrow)}</span>` : ''}
         <h1 class="title-sm">${esc(title)}</h1>
       </div>
-      <span class="icon-btn" aria-hidden="true"></span>
+      <span class="topbar-nav" aria-hidden="true">
+        <span class="icon-btn"></span>${backHref === '#/' ? '' : '<span class="icon-btn"></span>'}
+      </span>
     </header>`;
 }
 
@@ -360,9 +366,10 @@ function renderSearch(q = '') {
       <div class="search-field">
         <div class="search-box big">
           ${ico.search}
-          <input type="search" id="q" placeholder="Chercher une notion…" aria-label="Chercher une notion"
+          <input type="text" id="q" placeholder="Chercher une notion…" aria-label="Chercher une notion"
             value="${esc(q)}" autocomplete="off" autocapitalize="off" spellcheck="false"
             enterkeyhint="search" role="combobox" aria-expanded="false" aria-controls="sugg" aria-autocomplete="list">
+          <button type="button" class="search-clear" id="vider" aria-label="Effacer" hidden>${ico.close}</button>
         </div>
         <ul class="suggestions" id="sugg" role="listbox" hidden></ul>
       </div>
@@ -387,7 +394,7 @@ function renderSearch(q = '') {
       return;
     }
     $zone.innerHTML = `
-      <p class="section-label">${plural(res.length, 'carte')}${res.length > 60 ? ' · 60 affichées' : ''}</p>
+      <p class="results-count">${plural(res.length, 'carte')}${res.length > 60 ? ' · 60 affichées' : ''}</p>
       <section class="panel flush">
         <ul class="card-list">${res.slice(0, 60).map(({ c, d, nom }) => `
           <li class="search-hit">
@@ -428,13 +435,16 @@ function renderSearch(q = '') {
     });
     input.setAttribute('aria-activedescendant', choix >= 0 ? `sg${choix}` : '');
   }
+  const $vider = document.getElementById('vider');
   function valider(texte) {
     input.value = texte; searchQuery = texte; fermer(); montrerResultats(texte);
+    $vider.hidden = !texte;
   }
 
   let t;
   input.addEventListener('input', () => {
     searchQuery = input.value;
+    $vider.hidden = !input.value;
     montrerSuggestions();
     clearTimeout(t);
     t = setTimeout(() => montrerResultats(input.value), 160);
@@ -452,9 +462,13 @@ function renderSearch(q = '') {
       valider(choix >= 0 ? liste[choix] : input.value);
       input.blur();
     } else if (e.key === 'Escape') {
-      if (!$sugg.hidden) { e.preventDefault(); fermer(); }
+      // Échap ferme les propositions sans effacer ce qui est tapé.
+      e.preventDefault();
+      if (!$sugg.hidden) fermer(); else input.blur();
     }
   });
+  $vider.addEventListener('click', () => { valider(''); input.focus(); });
+  $vider.hidden = !q;
   $sugg.addEventListener('mousedown', (e) => {   // avant le blur du champ
     const li = e.target.closest('[data-i]');
     if (!li) return;
@@ -541,10 +555,11 @@ function renderResults() {
 }
 
 function hero(todo) {
+  // L'étiquette et le compte tiennent sur une seule ligne, pour laisser la place au reste.
   return `
     <section class="hero">
-      <p class="eyebrow">Aujourd'hui</p>
-      <p class="hero-value">${todo ? `${plural(todo, 'carte')} à réviser` : 'Tout est à jour ✓'}</p>
+      <span class="eyebrow">Aujourd'hui</span>
+      <span class="hero-value">${todo ? `${plural(todo, 'carte')} à réviser` : 'Tout est à jour ✓'}</span>
     </section>`;
 }
 
@@ -1209,6 +1224,11 @@ function settingsModal() {
       <div class="menu">${store.hiddenDecks().map((d) => `
         <button class="menu-item" type="button" data-unhide="${d.id}">Réafficher « ${esc(d.name)} »</button>`).join('')}
       </div>` : ''}
+    <h3>Cartes</h3>
+    <p class="muted">Ajoutez vos propres cartes depuis un fichier texte ou un copier-coller.</p>
+    <div class="row">
+      <button class="btn soft" type="button" data-import>${ico.upload} Importer des cartes</button>
+    </div>
     <h3>Sauvegarde</h3>
     <p class="muted">Vos données sont enregistrées sur cet appareil. Exportez une sauvegarde pour les transférer ou les mettre à l'abri.</p>
     <div class="row">
@@ -1229,6 +1249,10 @@ function settingsModal() {
     render();
     toast('Cours réaffiché');
   }));
+  modal.querySelector('[data-import]').addEventListener('click', () => {
+    modal.close();
+    importModal();
+  });
   modal.querySelector('[data-export]').addEventListener('click', () => {
     download(`memo-sauvegarde-${new Date().toLocaleDateString('sv')}.json`, store.exportBackup(), 'application/json');
   });
