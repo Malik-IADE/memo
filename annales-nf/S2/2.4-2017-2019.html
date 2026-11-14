@@ -416,4 +416,45 @@ $('topic').addEventListener('change',()=>start());
 start();
 </script>
 <!-- Statistiques anonymes Mémo (GoatCounter, sans cookies) -->
-<script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"path":"/annales-nf/S2/2.4-2017-2019","title":"Annales non officielles 2017-2019 UE 2.4 S2"}' async src="//gc.zgo.at/count.js"></script></body></html>
+<script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"path":"/annales-nf/S2/2.4-2017-2019","title":"Annales non officielles 2017-2019 UE 2.4 S2"}' async src="//gc.zgo.at/count.js"></script>
+<script>window.MEMO_QUIZ={"id": "annales-nf/S2/2.4-2017-2019", "href": "annales-nf/S2/2.4-2017-2019.html", "collection": "annales-nf", "sem": "S2", "ue": "2.4", "periode": "2017-2019", "titre": "Pharmacologie spécifique — 2017-2019"};</script>
+<script>
+/* Mémo : enregistre la note obtenue, pour l'écran « Mes résultats » de l'app.
+   Même origine que l'app, donc même localStorage. Une tentative par correction ;
+   si la note est ajustée à la main ensuite, la tentative en cours est mise à jour. */
+(function () {
+  var CLE = 'memo-resultats', INFO = window.MEMO_QUIZ;
+  if (!INFO) return;
+  var resultats = document.getElementById('results'), score = document.getElementById('score');
+  if (!resultats || !score) return;
+  var tentative = null;
+
+  function lire() { try { return JSON.parse(localStorage.getItem(CLE)) || []; } catch (e) { return []; } }
+  function noteDe(txt) {
+    var m = String(txt).match(/(-?[\d  ]+(?:[.,]\d+)?)\s*\/\s*20/);
+    return m ? parseFloat(m[1].replace(/[  ]/g, '').replace(',', '.')) : null;
+  }
+  function enregistrer() {
+    if (resultats.hidden) return;
+    var note = noteDe(score.textContent);
+    if (note === null || !isFinite(note)) return;
+    var liste = lire();
+    var ligne = tentative && liste.find(function (x) { return x.cle === tentative; });
+    if (!ligne) {
+      tentative = INFO.id + '#' + Date.now();
+      ligne = { cle: tentative, id: INFO.id, href: INFO.href, collection: INFO.collection,
+        sem: INFO.sem, ue: INFO.ue, periode: INFO.periode, titre: INFO.titre };
+      liste.push(ligne);
+    }
+    ligne.note = Math.round(note * 100) / 100;
+    ligne.date = new Date().toISOString();
+    try { localStorage.setItem(CLE, JSON.stringify(liste.slice(-300))); } catch (e) {}
+  }
+
+  new MutationObserver(enregistrer).observe(score, { childList: true, characterData: true, subtree: true });
+  new MutationObserver(enregistrer).observe(resultats, { attributes: true, attributeFilter: ['hidden'] });
+  // « Tout recommencer » : la prochaine correction comptera comme une nouvelle tentative.
+  document.getElementById('reset') && document.getElementById('reset').addEventListener('click', function () { tentative = null; });
+})();
+</script>
+</body></html>
