@@ -127,7 +127,12 @@
   .notes-n { font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
   .notes-zone { width: 100%; height: 120px; display: flex; align-items: flex-end;
     background: var(--cell0); border-radius: 12px; overflow: hidden; }
-  .notes-bar { width: 100%; border-radius: 12px; transition: height .3s ease; }
+  .notes-col:nth-child(1) { --grade: #f87171; }
+  .notes-col:nth-child(2) { --grade: #fbbf24; }
+  .notes-col:nth-child(3) { --grade: #4ade80; }
+  .notes-col:nth-child(4) { --grade: #60a5fa; }
+  .notes-n { color: var(--grade); }
+  .notes-bar { background: var(--grade); width: 100%; border-radius: 12px; transition: height .3s ease; }
   .notes-l { font-size: .8rem; font-weight: 600; color: var(--muted); text-align: center;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
   .notes-pct { font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
@@ -519,6 +524,7 @@
 
   function collectiveCards() {
     const percentages = DEMO ? [10,20,40,30] : collectiveData?.percentages;
+    const highestPercentage = percentages ? Math.max(1, ...percentages) : 1;
     const exams = collectiveData?.exams || [];
     const exam = exams.find(row => row.exam === selectedExam) || exams[0];
     const history = (collectiveData?.history || []).filter(row => row.exam === exam?.exam);
@@ -534,6 +540,8 @@
         h('div', {class:'card-head'}, h('h2', {}, 'Auto-évaluations collectives')),
         percentages ? h('ul', {class:'notes-graph'}, gradeLabels.map((label,i) => h('li', {class:'notes-col'},
           h('span', {class:'notes-n'}, nf1.format(percentages[i])+' %'),
+          h('span', {class:'notes-zone', 'aria-hidden':'true'},
+            h('span', {class:'notes-bar', style:'height:' + (100 * percentages[i] / highestPercentage) + '%'})),
           h('span', {class:'notes-l'}, label))))
           : h('p', {class:'sub'}, collectiveFailed ? 'Statistiques collectives indisponibles.' : 'Aucune contribution reçue.')),
       h('section', {class:'card'},
