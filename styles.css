@@ -81,8 +81,10 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .logo { width: 32px; height: 32px; border-radius: 8px; }
 .title-sm { font-size: 1.05rem; font-weight: 650; flex: 1; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .topbar-actions { display: flex; gap: 6px; align-items: center; }
+/* Flèche retour + raccourci accueil, groupés à gauche (le groupe de droite équilibre le titre) */
+.topbar-nav { display: flex; gap: 2px; align-items: center; flex: none; }
 
-.page { padding: 4px 16px calc(env(safe-area-inset-bottom) + 32px); display: flex; flex-direction: column; gap: 16px; }
+.page { padding: 4px 16px calc(env(safe-area-inset-bottom) + 32px); display: flex; flex-direction: column; gap: 14px; }
 
 /* ---------- Boutons ---------- */
 .btn, .icon-btn, .menu-item {
@@ -107,9 +109,10 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .stack { display: flex; flex-direction: column; gap: 10px; width: 100%; }
 
 /* ---------- Accueil ---------- */
-.hero { padding: 8px 4px 0; }
-.eyebrow { margin: 0; color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; }
-.hero-value { margin: 2px 0 0; font-size: 1.45rem; font-weight: 700; letter-spacing: -.01em; }
+/* Étiquette et compte sur une même ligne : l'écran commence plus haut */
+.hero { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; padding: 2px 4px 0; }
+.eyebrow { margin: 0; flex: none; color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; }
+.hero-value { margin: 0; font-size: 1.4rem; font-weight: 700; letter-spacing: -.01em; }
 
 /* Dossiers : Semestre → UE */
 .folder-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
@@ -124,7 +127,8 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .folder-meta { font-size: .82rem; color: var(--muted); }
 .folder-chev { color: var(--muted); display: inline-flex; }
 .topbar-title { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; }
-.topbar-eyebrow { font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.topbar-eyebrow { font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--muted); max-width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .topbar-title .title-sm { flex: none; max-width: 100%; }
 .deck-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
 .deck-row { display: flex; align-items: center; gap: 12px; padding: 14px 14px 14px 18px; }
@@ -266,7 +270,7 @@ dialog[open] { animation: rise .2s ease; }
 .flash-src { position: absolute; top: 18px; right: 16px; max-width: 60%; font-size: .72rem; font-weight: 600; color: var(--muted); text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* Titre de section (ex. « Annales » sous les cours d'une UE) */
-.section-label { margin: 8px 4px -6px; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.section-label { margin: 8px 4px -4px; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 
 /* ---------- Recherche dans toutes les cartes ---------- */
 /* Accueil : barre cliquable. Écran de recherche : vrai champ (.big). */
@@ -281,10 +285,19 @@ a.search-box:active { transform: scale(.995); }
 .search-box.big:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 .search-box input { flex: 1; min-width: 0; border: 0; background: none; outline: none;
   color: var(--text); font: inherit; font-size: 1rem; padding: 9px 0; }
+/* le halo de focus est porté par la barre, pas par le champ : sinon deux contours se superposent */
+.search-box input:focus { box-shadow: none; border: 0; }
 .search-box input::-webkit-search-cancel-button { -webkit-appearance: none; }
+.search-clear { flex: none; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center;
+  color: var(--muted); background: var(--surface-2); }
+.search-clear svg { width: 15px; height: 15px; }
+.search-clear:hover { color: var(--text); }
 
 /* Propositions sous le champ, comme une barre de recherche web */
 .search-field { position: relative; z-index: 20; }
+/* Nombre de résultats : de l'air au-dessus et en dessous, pour ne coller ni au champ ni à la liste */
+.results-count { margin: 6px 4px 10px; font-size: .75rem; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted); }
 .suggestions { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 30;
   list-style: none; margin: 0; padding: 6px; background: var(--surface);
   border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); overflow: hidden; }
