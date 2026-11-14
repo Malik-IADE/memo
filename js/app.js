@@ -65,6 +65,8 @@ const ico = {
   cards: svg('<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>'),
   exam: svg('<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 14.5l2 2 4-4.5"/>'),
   shuffle: svg('<path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/>'),
+  search: svg('<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>'),
+  medal: svg('<circle cx="12" cy="15" r="6"/><path d="M8.5 9.5 6 2h12l-2.5 7.5"/>'),
 };
 
 function toast(msg) {
@@ -129,6 +131,7 @@ function mixStats() {
 /* ---------- Routage ---------- */
 
 let session = null;
+let searchQuery = '';   // ce qui est tapé dans la recherche, gardé d'un écran à l'autre
 
 function route() {
   const [view, id, sub] = (location.hash.slice(1) || '/').split('/').filter(Boolean).map(decodeURIComponent);
@@ -141,6 +144,9 @@ function render() {
   if (r.view === 'review' && (r.id === MIX || store.deck(r.id))) return renderReview(r.id);
   if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub) : renderFolder(r.id);
   if (r.view === 'fc') return renderFlashcards();
+  if (r.view === 'recherche') return renderSearch(searchQuery);
+  if (r.view === 'carte' && r.id) return renderCard(r.id);
+  if (r.view === 'resultats') return renderResults();
   if (COLLECTIONS[r.view]) {
     if (r.id && r.sub) return renderAnnalesUE(r.id, r.sub, r.view);
     if (r.id) return renderAnnalesSem(r.id, r.view);
@@ -244,6 +250,7 @@ function topbarHome() {
     <header class="topbar">
       <div class="brand"><img src="icons/icon.svg" alt="" class="logo"><h1>Mémo</h1></div>
       <div class="topbar-actions">
+        <a class="icon-btn" href="#/resultats" aria-label="Mes résultats aux annales" title="Mes résultats">${ico.medal}</a>
         <button class="btn ghost" data-action="import">${ico.upload}<span class="hide-xs">Importer</span></button>
         <button class="icon-btn" data-action="settings" aria-label="Réglages">${ico.gear}</button>
       </div>
@@ -260,6 +267,277 @@ function topbarFolder(backHref, title, eyebrow = '') {
       </div>
       <span class="icon-btn" aria-hidden="true"></span>
     </header>`;
+}
+
+/* ---------- Recherche dans toutes les cartes ---------- */
+
+// Sans accents ni ponctuation : « œdème » se trouve en tapant « oedeme ».
+const fold = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+  .replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/[^a-z0-9]+/g, ' ').trim();
+
+/** Toutes les cartes qui contiennent tous les mots cherchés, les cours partagés d'abord. */
+function searchCards(q) {
+  const mots = fold(q).split(' ').filter(Boolean);
+  if (!mots.length) return [];
+  const out = [];
+  for (const d of store.decks()) {
+    const nom = shortName(d.name);
+    for (const c of store.cards(d.id)) {
+      const hay = fold(`${c.front} ${c.back} ${nom}`);
+      if (mots.every((m) => hay.includes(m))) out.push({ c, d, nom });
+      if (out.length > 300) return out;
+    }
+  }
+  return out;
+}
+
+// Met en évidence les mots cherchés dans un extrait de texte.
+function surligne(texte, mots) {
+  const brut = plainText(texte).replace(/\n/g, ' · ');
+  if (!mots.length) return esc(brut);
+  const motifs = mots.map((m) => m.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+  // On compare sans accents : on repère les positions sur une copie « pliée » de même longueur.
+  const plie = brut.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, (x, i) => '');
+  const src = plie.length === brut.length ? plie : brut.toLowerCase();
+  let out = '', i = 0;
+  for (const m of src.matchAll(new RegExp(motifs, 'g'))) {
+    out += esc(brut.slice(i, m.index)) + `<mark>${esc(brut.slice(m.index, m.index + m[0].length))}</mark>`;
+    i = m.index + m[0].length;
+  }
+  return out + esc(brut.slice(i));
+}
+
+/**
+ * Index des notions : chaque mot d'au moins 3 lettres rencontré dans les cartes,
+ * avec le nombre de cartes où il apparaît. Sert aux propositions pendant la frappe.
+ * Construit une seule fois, à la première recherche.
+ */
+let notions = null;
+const VIDES = new Set(('alors apres aussi autre avant avec avoir bien cela cette chez comme dans deux dont donc elle elles '
+  + 'entre est etre faire fait ils leur leurs mais meme moins null nest ont ou par pas peut plus pour quand que quel quelle '
+  + 'quelles quels qui quoi sans selon sert ses soit son sont sous sur tous tout toute toutes tres une uns vers voir vous '
+  + 'est-ce quest quels quelles comment pourquoi faut-il doit-elle peut-on lors ceux celui celle').split(' '));
+function buildNotions() {
+  if (notions) return notions;
+  const n = new Map();
+  for (const d of store.decks()) {
+    for (const c of store.cards(d.id)) {
+      const vus = new Set(fold(`${c.front} ${c.back}`).split(' '));
+      for (const m of vus) {
+        if (m.length < 3 || VIDES.has(m) || /^\d+$/.test(m)) continue;
+        n.set(m, (n.get(m) || 0) + 1);
+      }
+    }
+    for (const m of fold(shortName(d.name)).split(' ')) {
+      if (m.length >= 3 && !VIDES.has(m)) n.set(m, (n.get(m) || 0) + 40);
+    }
+  }
+  notions = [...n].sort((a, b) => b[1] - a[1]);
+  return notions;
+}
+
+/** Propositions pour ce qui est tapé : le dernier mot complété, comme une barre de recherche web. */
+function suggestions(q) {
+  const brut = fold(q);
+  if (!brut) return [];
+  const mots = brut.split(' ');
+  const debut = mots.slice(0, -1), dernier = mots[mots.length - 1];
+  if (dernier.length < 2) return [];
+  const prefixe = [], dedans = [];
+  for (const [mot, poids] of buildNotions()) {
+    if (mot === dernier) continue;
+    if (mot.startsWith(dernier)) prefixe.push([mot, poids]);
+    else if (prefixe.length + dedans.length < 40 && mot.includes(dernier)) dedans.push([mot, poids]);
+    if (prefixe.length >= 8) break;
+  }
+  return [...prefixe, ...dedans].slice(0, 7).map(([mot]) => [...debut, mot].join(' '));
+}
+
+function renderSearch(q = '') {
+  session = null;
+  $app.innerHTML = `${topbarFolder('#/', 'Recherche')}
+    <main class="page">
+      <div class="search-field">
+        <div class="search-box big">
+          ${ico.search}
+          <input type="search" id="q" placeholder="Chercher une notion…" aria-label="Chercher une notion"
+            value="${esc(q)}" autocomplete="off" autocapitalize="off" spellcheck="false"
+            enterkeyhint="search" role="combobox" aria-expanded="false" aria-controls="sugg" aria-autocomplete="list">
+        </div>
+        <ul class="suggestions" id="sugg" role="listbox" hidden></ul>
+      </div>
+      <div id="results-zone"></div>
+    </main>`;
+
+  const input = document.getElementById('q');
+  const $sugg = document.getElementById('sugg');
+  const $zone = document.getElementById('results-zone');
+  let choix = -1, liste = [];
+
+  /* --- résultats --- */
+  function montrerResultats(texte) {
+    const mots = fold(texte).split(' ').filter(Boolean);
+    if (!texte.trim()) {
+      $zone.innerHTML = '<p class="hint center pad">Tapez un mot : les cartes de tous les cours s\'affichent ici.</p>';
+      return;
+    }
+    const res = searchCards(texte);
+    if (!res.length) {
+      $zone.innerHTML = `<p class="hint center pad">Aucune carte ne contient « ${esc(texte.trim())} ».</p>`;
+      return;
+    }
+    $zone.innerHTML = `
+      <p class="section-label">${plural(res.length, 'carte')}${res.length > 60 ? ' · 60 affichées' : ''}</p>
+      <section class="panel flush">
+        <ul class="card-list">${res.slice(0, 60).map(({ c, d, nom }) => `
+          <li class="search-hit">
+            <a class="card-row hit-link" href="#/carte/${c.id}">
+              <span class="card-text">
+                <span class="card-front">${surligne(c.front, mots)}</span>
+                <span class="card-back">${surligne(c.back, mots)}</span>
+              </span>
+              <span class="hit-deck">${esc(nom)}</span>
+            </a>
+          </li>`).join('')}</ul>
+      </section>`;
+  }
+
+  /* --- propositions --- */
+  function fermer() {
+    $sugg.hidden = true; $sugg.innerHTML = ''; choix = -1; liste = [];
+    input.setAttribute('aria-expanded', 'false');
+  }
+  function montrerSuggestions() {
+    liste = suggestions(input.value);
+    if (!liste.length) return fermer();
+    const dernier = fold(input.value).split(' ').pop();
+    $sugg.innerHTML = liste.map((s, i) => {
+      const mot = s.split(' ').pop();
+      const reste = mot.startsWith(dernier) ? mot.slice(dernier.length) : '';
+      const vu = reste ? `<b>${esc(mot.slice(0, dernier.length))}</b>${esc(reste)}` : esc(mot);
+      const avant = s.slice(0, s.length - mot.length);
+      return `<li role="option" id="sg${i}" data-i="${i}" aria-selected="false">${ico.search}<span>${esc(avant)}${vu}</span></li>`;
+    }).join('');
+    $sugg.hidden = false; choix = -1;
+    input.setAttribute('aria-expanded', 'true');
+  }
+  function surligneChoix() {
+    [...$sugg.children].forEach((li, i) => {
+      li.classList.toggle('on', i === choix);
+      li.setAttribute('aria-selected', String(i === choix));
+    });
+    input.setAttribute('aria-activedescendant', choix >= 0 ? `sg${choix}` : '');
+  }
+  function valider(texte) {
+    input.value = texte; searchQuery = texte; fermer(); montrerResultats(texte);
+  }
+
+  let t;
+  input.addEventListener('input', () => {
+    searchQuery = input.value;
+    montrerSuggestions();
+    clearTimeout(t);
+    t = setTimeout(() => montrerResultats(input.value), 160);
+  });
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      if (!liste.length) return;
+      e.preventDefault();
+      choix = e.key === 'ArrowDown'
+        ? (choix + 1) % liste.length
+        : (choix <= 0 ? liste.length : choix) - 1;
+      surligneChoix();
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      valider(choix >= 0 ? liste[choix] : input.value);
+      input.blur();
+    } else if (e.key === 'Escape') {
+      if (!$sugg.hidden) { e.preventDefault(); fermer(); }
+    }
+  });
+  $sugg.addEventListener('mousedown', (e) => {   // avant le blur du champ
+    const li = e.target.closest('[data-i]');
+    if (!li) return;
+    e.preventDefault();
+    valider(liste[Number(li.dataset.i)]);
+    input.focus();
+  });
+  input.addEventListener('blur', () => setTimeout(fermer, 120));
+  input.addEventListener('focus', () => { if (input.value.trim()) montrerSuggestions(); });
+
+  montrerResultats(q);
+  input.focus();
+  input.setSelectionRange(q.length, q.length);
+}
+
+/* ---------- Mes résultats aux annales ---------- */
+// Chaque quiz enregistre sa note ici (même origine, donc même stockage que l'app).
+const RESULTATS_KEY = 'memo-resultats';
+const lireResultats = () => {
+  try { return (JSON.parse(localStorage.getItem(RESULTATS_KEY)) || []).filter((r) => r && r.href && isFinite(r.note)); }
+  catch { return []; }
+};
+const dateCourte = (iso) => {
+  const d = new Date(iso);
+  return isNaN(d) ? '' : d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
+};
+const note2 = (n) => n.toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+// Vert au-dessus de 14, orange entre 10 et 14, rouge en dessous.
+const tonNote = (n) => (n >= 14 ? 'bon' : n >= 10 ? 'moyen' : 'faible');
+
+function renderResults() {
+  session = null;
+  const toutes = lireResultats();
+  // Une ligne par quiz : la dernière note, et le nombre de tentatives.
+  const parQuiz = new Map();
+  for (const r of toutes.sort((a, b) => String(a.date).localeCompare(String(b.date)))) {
+    const p = parQuiz.get(r.id) || { ...r, essais: 0, meilleure: r.note };
+    p.essais += 1;
+    p.meilleure = Math.max(p.meilleure, r.note);
+    parQuiz.set(r.id, { ...p, note: r.note, date: r.date });
+  }
+  const lignes = [...parQuiz.values()].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const moyenne = lignes.length ? lignes.reduce((s, r) => s + r.note, 0) / lignes.length : 0;
+
+  $app.innerHTML = `${topbarFolder('#/', 'Mes résultats')}
+    <main class="page">
+      ${lignes.length ? `
+        <section class="hero">
+          <p class="eyebrow">Annales faites</p>
+          <p class="hero-value">${plural(lignes.length, 'annale')} · moyenne ${note2(moyenne)}/20</p>
+        </section>
+        <p class="section-label">Touchez une annale pour la refaire</p>
+        <ul class="folder-list">
+          ${lignes.map((r) => `
+            <li>
+              <a class="folder-row result-row" href="${esc(r.href)}">
+                <span class="folder-icon">${ico.exam}</span>
+                <span class="folder-text">
+                  <span class="folder-name">${esc(r.titre || `UE ${r.ue}`)}</span>
+                  <span class="folder-meta">${esc([
+                    `UE ${r.ue}`,
+                    r.sem ? `S${String(r.sem).slice(1)}` : '',
+                    r.collection === 'annales-nf' ? 'non officielle' : 'officielle',
+                    dateCourte(r.date),
+                    r.essais > 1 ? `${r.essais} essais · record ${note2(r.meilleure)}` : '',
+                  ].filter(Boolean).join(' · '))}</span>
+                </span>
+                <span class="note ${tonNote(r.note)}">${note2(r.note)}<small>/20</small></span>
+                <span class="folder-chev">${ico.chevron}</span>
+              </a>
+            </li>`).join('')}
+        </ul>
+        <button class="btn ghost wide danger-text" data-action="clear-results">Effacer mes résultats</button>`
+      : `<section class="empty">
+          <div class="empty-art">🏅</div>
+          <h2>Pas encore de résultat</h2>
+          <p>Faites une annale et validez-la : votre note s'affichera ici, avec un lien pour la refaire.</p>
+          <div class="stack">
+            <a class="btn primary wide" href="#/annales">Voir les annales officielles</a>
+            <a class="btn soft wide" href="#/annales-nf">Annales non officielles</a>
+          </div>
+        </section>`}
+    </main>`;
 }
 
 function hero(todo) {
@@ -354,6 +632,9 @@ function renderHome() {
   $app.innerHTML = `${topbarHome()}
     <main class="page">
       ${hero(sumTodo(rows))}
+      <a class="search-box" href="#/recherche">
+        ${ico.search}<span>Chercher une notion…</span>
+      </a>
       <ul class="folder-list">
         ${mixDecks().length > 1 ? (() => { const m = mixStats(); return folderRow(
           `#/review/${MIX}`, MIX_NAME, 'Questions de tous les cours, tirées au hasard', m.todo, ico.shuffle); })() : ''}
@@ -682,6 +963,51 @@ function renderReview(id) {
     </div>`;
 }
 
+/**
+ * Une carte seule, ouverte depuis la recherche : la flashcard, sans noter
+ * (la planification du cours n'est pas touchée).
+ */
+let carteVue = { id: null, revealed: false };
+
+function renderCard(cardId) {
+  session = null;
+  const c = store.card(cardId);
+  const d = c && store.deck(c.deckId);
+  if (!c || !d) { location.hash = '#/recherche'; return; }
+  if (carteVue.id !== cardId) carteVue = { id: cardId, revealed: false };
+  const { ue } = locate(d);
+  const qf = takeImgs(c.front), qb = takeImgs(c.back);
+
+  $app.innerHTML = `
+    <div class="review">
+      <header class="topbar">
+        <a class="icon-btn" href="#/recherche" aria-label="Retour à la recherche">${ico.back}</a>
+        <span class="title-sm">${esc(shortName(d.name))}</span>
+        <button class="icon-btn" data-action="edit-card" data-id="${c.id}" aria-label="Modifier la carte">${ico.more}</button>
+      </header>
+      <main class="flash ${carteVue.revealed ? 'revealed' : ''}" ${carteVue.revealed ? '' : 'data-action="reveal-one"'}>
+        <article class="flash-card">
+          <span class="flash-src">${ue ? `UE ${esc(ue)} · ` : ''}${esc(shortName(d.name))}</span>
+          <div class="flash-inner">
+            ${imgsHtml(qf.imgs)}
+            <div class="face front ${carteVue.revealed && c.back.includes('\n') ? 'small' : ''}">${rich(qf.text)}</div>
+            ${carteVue.revealed
+              ? `<hr>${imgsHtml(qb.imgs)}<div class="face back ${qb.text.includes('\n') ? 'multi' : ''}">${richAnswer(qb.text)}</div>`
+              : '<p class="tap-hint">Touchez pour voir la réponse</p>'}
+          </div>
+        </article>
+      </main>
+      <footer class="answer-bar">
+        ${carteVue.revealed
+          ? `<div class="stack">
+              <a class="btn primary wide big" href="#/review/${d.id}">Réviser ce cours</a>
+              <a class="btn ghost wide" href="#/recherche">Retour à la recherche</a>
+            </div>`
+          : '<button class="btn primary wide big" data-action="reveal-one">Afficher la réponse</button>'}
+      </footer>
+    </div>`;
+}
+
 function reveal() {
   if (!session || session.revealed) return;
   session.revealed = true;
@@ -936,9 +1262,19 @@ $app.addEventListener('click', (e) => {
     case 'load-example': return loadExample();
     case 'deck-menu': return deckMenu(id);
     case 'edit-card': return editCardModal(id);
+    case 'reveal-one': {
+      carteVue.revealed = true;
+      return render();
+    }
     case 'reveal': return reveal();
     case 'grade': return grade(Number(el.dataset.grade));
     case 'zoom': return openViewer(el.dataset.src);
+    case 'clear-results': {
+      if (!confirm('Effacer toutes vos notes d\'annales ? Les annales elles-mêmes sont conservées.')) return;
+      try { localStorage.removeItem(RESULTATS_KEY); } catch {}
+      toast('Résultats effacés');
+      return render();
+    }
   }
 });
 
