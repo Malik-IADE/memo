@@ -660,8 +660,9 @@ function renderHome() {
         ${cats.map((k) => {
           const rs = sems.get(k);
           if (rs.length === 1) {
+            // Une catégorie à un seul paquet (ex. « Scores ») lance la révision tout de suite.
             const { d, s } = rs[0];
-            return folderRow(`#/deck/${d.id}`, k, `${plural(store.cards(d.id).length, 'carte')} · tirées au hasard`, s.todo, ico.shuffle);
+            return folderRow(`#/review/${d.id}`, k, `${plural(store.cards(d.id).length, 'carte')} · tirées au hasard`, s.todo, ico.shuffle);
           }
           return folderRow(`#/f/${enc(k)}`, k, plural(rs.length, 'paquet'), sumTodo(rs), ico.folder);
         }).join('')}
