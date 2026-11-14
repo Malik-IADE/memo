@@ -290,7 +290,7 @@
     };
     const btn = h('button', { class: 'btn primary', onclick: save }, 'Enregistrer');
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') save(); });
-    put(header(), carteNotation(),
+    put(header(),
       h('section', { class: 'card setup' },
         h('h2', {}, 'Connexion à GoatCounter'),
         h('p', {}, 'Cette page affiche les visites de Mémo. Reliez-la une seule fois à votre compte GoatCounter avec une clé en lecture seule.'),
@@ -470,11 +470,12 @@
     try {
       if (courseCount == null) courseCount = await countCourses();
       if (examCount == null) examCount = await countAnnales();
-      last = await load();
+      const [result] = await Promise.all([load(), DEMO ? null : loadCollectiveStats()]);
+      last = result;
       renderDash();
     } catch (e) {
       if (e.auth) { store.del(KEY); renderSetup(e.message); return; }
-      if (last) renderDash(e.message); else put(header(), carteNotation(), h('div', { class: 'err' }, e.message), h('div', {}, h('button', { class: 'btn primary', onclick: refresh }, 'Réessayer')));
+      if (last) renderDash(e.message); else put(header(), h('div', { class: 'err' }, e.message), h('div', {}, h('button', { class: 'btn primary', onclick: refresh }, 'Réessayer')));
     } finally {
       busy = false;
       main.classList.remove('loading');
@@ -499,48 +500,51 @@
       spark ? sparkline(spark) : null);
   }
 
-  /* ---------- Notation des cartes ----------
-     Lue dans le stockage de l'app (même adresse, donc mêmes données).
-     Ce sont les évaluations faites sur CET appareil, pas celles de tous les visiteurs.
-     Une carte compte une fois, pour sa dernière note. */
-  const NOTES = [
-    { nom: 'À revoir', couleur: '#ef4444' },
-    { nom: 'Difficile', couleur: '#f59e0b' },
-    { nom: 'Bien', couleur: '#10b981' },
-    { nom: 'Facile', couleur: '#3b82f6' },
-  ];
-  function notationCartes() {
-    let data;
-    try { data = JSON.parse(localStorage.getItem('memo-data-v1')); } catch { return null; }
-    const cartes = Object.values(data?.cards || {});
-    const n = [0, 0, 0, 0];
-    let total = 0;
-    for (const c of cartes) {
-      const deck = data?.decks?.[c?.deckId];
-      if (!c || c.deleted || !deck || deck.deleted || deck.hidden) continue;
-      total += 1;
-      if (Number.isInteger(c.lastGrade) && c.lastGrade >= 0 && c.lastGrade <= 3) n[c.lastGrade] += 1;
+  const collectiveEndpoint = 'https://memo-statistiques.malikbm88.workers.dev/stats';
+  const gradeLabels = ['À revoir', 'Difficile', 'Bien', 'Facile'];
+  let collectiveData;
+  let collectiveFailed = false;
+  let selectedExam = '';
+
+  async function loadCollectiveStats() {
+    try {
+      const response = await fetch(collectiveEndpoint, {cache:'no-store'});
+      if (!response.ok) throw new Error('Statistiques indisponibles');
+      collectiveData = await response.json();
+      collectiveFailed = false;
+    } catch {
+      collectiveFailed = true;
     }
-    return { n, notees: n.reduce((a, b) => a + b, 0), total };
   }
 
-  function carteNotation() {
-    const d = DEMO ? { n: [7, 16, 34, 23], notees: 80, total: 100 } : notationCartes() || { n: [0, 0, 0, 0], notees: 0, total: 0 };
-    const haut = Math.max(1, ...d.n);
-    const sousTitre = d.notees
-      ? `${nf.format(d.notees)} carte${d.notees > 1 ? 's' : ''} notée${d.notees > 1 ? 's' : ''} sur ${nf.format(d.total)} · dernière note par carte · ce navigateur`
-      : `Aucune carte notée pour l'instant · ${nf.format(d.total)} cartes disponibles`;
-    return h('section', { class: 'card', id: 'local-evaluations' },
-      h('div', { class: 'card-head' },
-        h('div', {}, h('h2', {}, 'Mes auto-évaluations'), h('div', { class: 'sub' }, sousTitre))),
-      d.notees
-        ? h('ul', { class: 'notes-graph' }, NOTES.map((g, i) => h('li', { class: 'notes-col' },
-            h('span', { class: 'notes-n', style: `color:${g.couleur}` }, nf.format(d.n[i])),
-            h('span', { class: 'notes-zone' },
-              h('span', { class: 'notes-bar', style: `height:${d.n[i] ? Math.max(6, (d.n[i] / haut) * 100) : 2}%;background:${g.couleur}` })),
-            h('span', { class: 'notes-l' }, g.nom),
-            h('span', { class: 'notes-pct' }, `${Math.round((d.n[i] / d.notees) * 100)} %`))))
-        : h('p', { class: 'empty' }, 'Révisez des cartes dans l\'app : votre auto-évaluation apparaîtra ici.'));
+  function collectiveCards() {
+    const percentages = DEMO ? [10,20,40,30] : collectiveData?.percentages;
+    const exams = collectiveData?.exams || [];
+    const exam = exams.find(row => row.exam === selectedExam) || exams[0];
+    const history = (collectiveData?.history || []).filter(row => row.exam === exam?.exam);
+    const chart = exam ? h('div', {},
+      h('div', {class:'sub'}, `${nf1.format(exam.average)} / 20 · ${plural(exam.participants, 'navigateur')}`),
+      history.length ? areaChart(history.map(row => ({
+        label: row.day.slice(5).split('-').reverse().join('/'),
+        full: `${row.day} · ${plural(row.participants, 'navigateur')}`,
+        v: row.average,
+      })), {height:210, unit:'point', scoreScale:true}) : h('p', {class:'sub'}, 'Le premier relevé apparaîtra après la collecte quotidienne.')) : null;
+    return [
+      h('section', {class:'card'},
+        h('div', {class:'card-head'}, h('h2', {}, 'Auto-évaluations collectives')),
+        percentages ? h('ul', {class:'notes-graph'}, gradeLabels.map((label,i) => h('li', {class:'notes-col'},
+          h('span', {class:'notes-n'}, nf1.format(percentages[i])+' %'),
+          h('span', {class:'notes-l'}, label))))
+          : h('p', {class:'sub'}, collectiveFailed ? 'Statistiques collectives indisponibles.' : 'Aucune contribution reçue.')),
+      h('section', {class:'card'},
+        h('div', {class:'card-head'}, h('h2', {}, 'Moyennes des annales')),
+        exam ? h('select', {'aria-label':'Choisir une annale', onchange:event => {
+          selectedExam = event.target.value;
+          renderDash();
+        }}, exams.map(row => h('option', {value:row.exam,selected:row.exam===exam.exam},
+          row.exam.replace('annales-nf/', 'Non officielle · ').replace('annales/','Officielle · ').replace(/\.html$/, '')))) : null,
+        chart || h('p', {class:'sub'}, collectiveFailed ? 'Statistiques collectives indisponibles.' : 'Aucune note partagée.')),
+    ];
   }
 
   function rank(title, rows, emptyText) {
@@ -647,7 +651,7 @@
           h('div', { class: 'card-head' }, h('h2', {}, 'Jours de la semaine'), pw ? h('span', { class: 'pill' }, `Pic le ${pw.full}`) : null),
           barChart(byWd, { height: 170, unit: M.unit }))),
       P.days === 1 ? null : heatmap(heat, M.unit),
-      carteNotation(),
+      collectiveCards(),
       h('div', { class: 'grid2' },
         rank('Cours les plus révisés', cur.revisions, 'Aucune révision sur cette période.'),
         rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.'),
@@ -724,10 +728,10 @@
   function placeTip(tip, x, y) { tip.hidden = false; tip.style.left = `clamp(84px, ${x}px, calc(100% - 84px))`; tip.style.top = `${y}px`; }
 
   /* ---------- Courbe principale (aire en dégradé + période précédente) ---------- */
-  function areaChart(pts, { height = 240, unit, ticks = 6 }) {
+  function areaChart(pts, { height = 240, unit, ticks = 6, scoreScale = false }) {
     return responsive((wrap, W) => {
       const L = 34, R = 10, T = 14, B = 26, H = height, iw = W - L - R, ih = H - T - B, n = pts.length;
-      const nice = niceMax(Math.max(1, ...pts.map((p) => Math.max(p.v || 0, p.p || 0))));
+      const nice = scoreScale ? {max:20, steps:4} : niceMax(Math.max(1, ...pts.map((p) => Math.max(p.v || 0, p.p || 0))));
       const x = (i) => L + (n === 1 ? iw / 2 : (i / (n - 1)) * iw);
       const y = (v) => T + ih - (v / nice.max) * ih;
       const id = 'c' + (++uid);
@@ -740,7 +744,7 @@
 
       const curPts = pts.map((p, i) => [x(i), y(p.v || 0), p.v]).filter((q) => q[2] != null);
       const prevPts = pts.map((p, i) => [x(i), y(p.p || 0)]);
-      svg.append(s('path', { d: smooth(prevPts), fill: 'none', stroke: 'var(--faint)', 'stroke-width': 1.75, 'stroke-dasharray': '4 5', 'stroke-linecap': 'round' }));
+      if (!scoreScale) svg.append(s('path', { d: smooth(prevPts), fill: 'none', stroke: 'var(--faint)', 'stroke-width': 1.75, 'stroke-dasharray': '4 5', 'stroke-linecap': 'round' }));
       if (curPts.length) {
         const line = smooth(curPts);
         const lastX = curPts[curPts.length - 1][0];
@@ -769,7 +773,7 @@
         if (p.v != null) { dot.setAttribute('cx', X); dot.setAttribute('cy', y(p.v)); dot.setAttribute('visibility', 'visible'); } else dot.setAttribute('visibility', 'hidden');
         tip.replaceChildren(
           h('div', { class: 'dim' }, p.full),
-          h('div', {}, h('span', { class: 'k', style: 'border-color:var(--a2)' }), h('b', {}, p.v == null ? '—' : plural(p.v, unit))),
+          h('div', {}, h('span', { class: 'k', style: 'border-color:var(--a2)' }), h('b', {}, p.v == null ? '—' : scoreScale ? nf1.format(p.v) + ' / 20' : plural(p.v, unit))),
           h('div', { class: 'dim' }, h('span', { class: 'k', style: 'border-top-style:dashed' }), `${nf.format(p.p || 0)} avant`));
         placeTip(tip, X, Math.min(y(p.v || 0), y(p.p || 0)));
       };
@@ -902,14 +906,6 @@
   }
 
   function start() { if (DEMO || store.get(KEY)) refresh(); else renderSetup(); }
-  function refreshEvaluations() {
-    const section = document.getElementById('local-evaluations');
-    if (section && !DEMO) section.replaceWith(carteNotation());
-  }
-  window.addEventListener('storage', (event) => {
-    if (event.key === 'memo-data-v1' || event.key === null) refreshEvaluations();
-  });
-  window.addEventListener('pageshow', refreshEvaluations);
   start();
 })();
 </script>
