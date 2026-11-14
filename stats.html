@@ -120,6 +120,17 @@
   .pill { display: inline-flex; align-items: center; gap: 5px; font-size: .75rem; font-weight: 650; padding: 3px 9px; border-radius: 99px; background: var(--accent-soft); color: var(--accent-ink); white-space: nowrap; }
 
   /* Indicateurs */
+  /* Notation des cartes : quatre barres aux couleurs des boutons de l'app */
+  .notes-graph { list-style: none; margin: 4px 0 0; padding: 0; display: grid;
+    grid-template-columns: repeat(4, 1fr); gap: 14px; align-items: end; }
+  .notes-col { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; }
+  .notes-n { font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .notes-zone { width: 100%; height: 120px; display: flex; align-items: flex-end;
+    background: var(--cell0); border-radius: 12px; overflow: hidden; }
+  .notes-bar { width: 100%; border-radius: 12px; transition: height .3s ease; }
+  .notes-l { font-size: .8rem; font-weight: 600; color: var(--muted); text-align: center;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+  .notes-pct { font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
   .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
   .kpi { text-align: left; display: flex; flex-direction: column; gap: 2px; padding: 16px 18px 12px; overflow: hidden; }
   button.kpi { cursor: pointer; transition: border-color .2s, transform .1s; }
@@ -194,6 +205,10 @@
 
   @media (max-width: 820px) {
     .kpis { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .notes-graph { gap: 8px; }
+    .notes-zone { height: 92px; }
+    .notes-n { font-size: 1.2rem; }
+    .notes-l { font-size: .72rem; }
     .grid2 { grid-template-columns: 1fr; }
   }
   @media (max-width: 560px) {
@@ -275,7 +290,7 @@
     };
     const btn = h('button', { class: 'btn primary', onclick: save }, 'Enregistrer');
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') save(); });
-    put(header(),
+    put(header(), carteNotation(),
       h('section', { class: 'card setup' },
         h('h2', {}, 'Connexion à GoatCounter'),
         h('p', {}, 'Cette page affiche les visites de Mémo. Reliez-la une seule fois à votre compte GoatCounter avec une clé en lecture seule.'),
@@ -327,6 +342,7 @@
   /* ---------- Périodes ---------- */
   const PERIODS = {
     today: { label: "Aujourd'hui", short: 'Auj.', days: 1 },
+    three: { label: '3 jours', short: '3 j', days: 3 },
     week: { label: '7 jours', short: '7 j', days: 7 },
     month: { label: '30 jours', short: '30 j', days: 30 },
     quarter: { label: '90 jours', short: '90 j', days: 90 },
@@ -458,7 +474,7 @@
       renderDash();
     } catch (e) {
       if (e.auth) { store.del(KEY); renderSetup(e.message); return; }
-      if (last) renderDash(e.message); else put(header(), h('div', { class: 'err' }, e.message), h('div', {}, h('button', { class: 'btn primary', onclick: refresh }, 'Réessayer')));
+      if (last) renderDash(e.message); else put(header(), carteNotation(), h('div', { class: 'err' }, e.message), h('div', {}, h('button', { class: 'btn primary', onclick: refresh }, 'Réessayer')));
     } finally {
       busy = false;
       main.classList.remove('loading');
@@ -481,6 +497,50 @@
       h('div', { class: 'kpi-v' }, value),
       h('div', { class: 'kpi-s' }, sub || ''),
       spark ? sparkline(spark) : null);
+  }
+
+  /* ---------- Notation des cartes ----------
+     Lue dans le stockage de l'app (même adresse, donc mêmes données).
+     Ce sont les évaluations faites sur CET appareil, pas celles de tous les visiteurs.
+     Une carte compte une fois, pour sa dernière note. */
+  const NOTES = [
+    { nom: 'À revoir', couleur: '#ef4444' },
+    { nom: 'Difficile', couleur: '#f59e0b' },
+    { nom: 'Bien', couleur: '#10b981' },
+    { nom: 'Facile', couleur: '#3b82f6' },
+  ];
+  function notationCartes() {
+    let data;
+    try { data = JSON.parse(localStorage.getItem('memo-data-v1')); } catch { return null; }
+    const cartes = Object.values(data?.cards || {});
+    const n = [0, 0, 0, 0];
+    let total = 0;
+    for (const c of cartes) {
+      const deck = data?.decks?.[c?.deckId];
+      if (!c || c.deleted || !deck || deck.deleted || deck.hidden) continue;
+      total += 1;
+      if (Number.isInteger(c.lastGrade) && c.lastGrade >= 0 && c.lastGrade <= 3) n[c.lastGrade] += 1;
+    }
+    return { n, notees: n.reduce((a, b) => a + b, 0), total };
+  }
+
+  function carteNotation() {
+    const d = DEMO ? { n: [7, 16, 34, 23], notees: 80, total: 100 } : notationCartes() || { n: [0, 0, 0, 0], notees: 0, total: 0 };
+    const haut = Math.max(1, ...d.n);
+    const sousTitre = d.notees
+      ? `${nf.format(d.notees)} carte${d.notees > 1 ? 's' : ''} notée${d.notees > 1 ? 's' : ''} sur ${nf.format(d.total)} · dernière note par carte · ce navigateur`
+      : `Aucune carte notée pour l'instant · ${nf.format(d.total)} cartes disponibles`;
+    return h('section', { class: 'card', id: 'local-evaluations' },
+      h('div', { class: 'card-head' },
+        h('div', {}, h('h2', {}, 'Mes auto-évaluations'), h('div', { class: 'sub' }, sousTitre))),
+      d.notees
+        ? h('ul', { class: 'notes-graph' }, NOTES.map((g, i) => h('li', { class: 'notes-col' },
+            h('span', { class: 'notes-n', style: `color:${g.couleur}` }, nf.format(d.n[i])),
+            h('span', { class: 'notes-zone' },
+              h('span', { class: 'notes-bar', style: `height:${d.n[i] ? Math.max(6, (d.n[i] / haut) * 100) : 2}%;background:${g.couleur}` })),
+            h('span', { class: 'notes-l' }, g.nom),
+            h('span', { class: 'notes-pct' }, `${Math.round((d.n[i] / d.notees) * 100)} %`))))
+        : h('p', { class: 'empty' }, 'Révisez des cartes dans l\'app : votre auto-évaluation apparaîtra ici.'));
   }
 
   function rank(title, rows, emptyText) {
@@ -512,9 +572,13 @@
     for (const [k, p] of Object.entries(PERIODS)) {
       seg.append(h('button', { class: k === period ? 'on' : '', role: 'tab', 'aria-selected': String(k === period),
         onclick: (e) => {
-          if (k === period) return;
+          if (k === period || busy) return;
           period = k; savePrefs();
-          seg.querySelectorAll('button').forEach((b) => b.classList.toggle('on', b === e.currentTarget));
+          seg.querySelectorAll('button').forEach((b) => {
+            const selected = b === e.currentTarget;
+            b.classList.toggle('on', selected);
+            b.setAttribute('aria-selected', String(selected));
+          });
           place(); refresh();
         } }, narrow ? p.short : p.label));
     }
@@ -574,7 +638,7 @@
           h('div', { class: 'legend' },
             h('span', {}, h('i', { class: 'cur' }), P.days === 1 ? "Aujourd'hui" : 'Cette période'),
             h('span', {}, h('i', { class: 'prev' }), P.days === 1 ? 'Hier' : 'Période précédente'))),
-        areaChart(main1, { height: 250, unit: M.unit, ticks: P.days === 1 ? 6 : P.days <= 7 ? 7 : 6 })),
+        areaChart(main1, { height: 250, unit: M.unit, ticks: P.days <= 7 && P.days > 1 ? P.days : 6 })),
       P.days === 1 ? null : h('div', { class: 'grid2' },
         h('section', { class: 'card' },
           h('div', { class: 'card-head' }, h('h2', {}, 'Heures d\'activité'), pk ? h('span', { class: 'pill' }, `Pic à ${pk.label}`) : null),
@@ -583,6 +647,7 @@
           h('div', { class: 'card-head' }, h('h2', {}, 'Jours de la semaine'), pw ? h('span', { class: 'pill' }, `Pic le ${pw.full}`) : null),
           barChart(byWd, { height: 170, unit: M.unit }))),
       P.days === 1 ? null : heatmap(heat, M.unit),
+      carteNotation(),
       h('div', { class: 'grid2' },
         rank('Cours les plus révisés', cur.revisions, 'Aucune révision sur cette période.'),
         rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.'),
@@ -837,6 +902,14 @@
   }
 
   function start() { if (DEMO || store.get(KEY)) refresh(); else renderSetup(); }
+  function refreshEvaluations() {
+    const section = document.getElementById('local-evaluations');
+    if (section && !DEMO) section.replaceWith(carteNotation());
+  }
+  window.addEventListener('storage', (event) => {
+    if (event.key === 'memo-data-v1' || event.key === null) refreshEvaluations();
+  });
+  window.addEventListener('pageshow', refreshEvaluations);
   start();
 })();
 </script>
