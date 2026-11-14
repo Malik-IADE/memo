@@ -174,7 +174,13 @@ function trackView() {
   else setTimeout(send, 1500); // le script se charge en différé
 }
 
-window.addEventListener('hashchange', () => { window.scrollTo(0, 0); render(); trackView(); });
+// L'écran précédent, pour que la carte seule sache où revenir (recherche ou cours).
+let hashPrecedent = '#/';
+window.addEventListener('hashchange', (e) => {
+  const avant = new URL(e.oldURL).hash || '#/';
+  if (!avant.startsWith('#/carte/')) hashPrecedent = avant;
+  window.scrollTo(0, 0); render(); trackView();
+});
 
 /* ---------- Dossiers : Semestre → UE → cours ---------- */
 
@@ -799,15 +805,19 @@ function renderUE(sem, ue) {
 
 /* ---------- Page d'un paquet ---------- */
 
+// Une carte de la liste s'ouvre en flashcard (lecture seule) : les cours sont partagés,
+// une modification locale serait écrasée à la prochaine mise à jour.
 function cardRows(cs) {
   if (!cs.length) return `<li class="muted center pad">Aucune carte pour l'instant.</li>`;
   return cs.map((c) => `
-    <li class="card-row" data-action="edit-card" data-id="${c.id}" data-q="${esc((c.front + ' ' + c.back).toLowerCase())}">
-      <div class="card-text">
-        <span class="card-front">${esc(plainText(c.front))}</span>
-        <span class="card-back">${esc(c.back)}</span>
-      </div>
-      <span class="tag ${c.seen ? '' : 'tag-new'}">${dueLabel(c)}</span>
+    <li class="card-row-item" data-q="${esc(fold(`${c.front} ${c.back}`))}">
+      <a class="card-row" href="#/carte/${c.id}">
+        <span class="card-text">
+          <span class="card-front">${esc(plainText(c.front))}</span>
+          <span class="card-back">${esc(c.back)}</span>
+        </span>
+        <span class="tag ${c.seen ? '' : 'tag-new'}">${dueLabel(c)}</span>
+      </a>
     </li>`).join('');
 }
 
@@ -912,10 +922,9 @@ function renderReview(id) {
   if (!session || session.deckId !== id) session = buildSession(id);
   const mix = id === MIX;
   const d = mix ? { name: MIX_NAME } : store.deck(id);
-  // « Cours mélangés » et les catégories à un seul paquet (ex. « Scores ») se lancent
-  // depuis l'accueil : on y retourne en fermant, plutôt que sur la page du paquet.
-  const direct = mix || (d && !locate(d).ue && isSingleCategory(locate(d).sem));
-  const backHref = direct ? '#/' : `#/deck/${id}`;
+  // En fermant, on revient au menu d'où part la révision : l'accueil pour « Cours
+  // mélangés » et « Scores », le dossier de l'UE pour un cours.
+  const backHref = mix ? '#/' : folderHref(d);
   const c = session.queue.length ? store.card(session.queue[0]) : null;
 
   if (!c) {
@@ -992,17 +1001,21 @@ function renderCard(cardId) {
   session = null;
   const c = store.card(cardId);
   const d = c && store.deck(c.deckId);
-  if (!c || !d) { location.hash = '#/recherche'; return; }
+  if (!c || !d) { location.hash = hashPrecedent; return; }
   if (carteVue.id !== cardId) carteVue = { id: cardId, revealed: false };
   const { ue } = locate(d);
   const qf = takeImgs(c.front), qb = takeImgs(c.back);
+  // On revient là d'où la carte a été ouverte : la recherche, ou la liste du cours.
+  const venuDeRecherche = hashPrecedent.startsWith('#/recherche');
+  const retour = venuDeRecherche ? '#/recherche' : `#/deck/${d.id}`;
+  const retourLabel = venuDeRecherche ? 'Retour à la recherche' : 'Retour au cours';
 
   $app.innerHTML = `
     <div class="review">
       <header class="topbar">
-        <a class="icon-btn" href="#/recherche" aria-label="Retour à la recherche">${ico.back}</a>
+        <a class="icon-btn" href="${retour}" aria-label="${retourLabel}">${ico.back}</a>
         <span class="title-sm">${esc(shortName(d.name))}</span>
-        <button class="icon-btn" data-action="edit-card" data-id="${c.id}" aria-label="Modifier la carte">${ico.more}</button>
+        <span class="icon-btn" aria-hidden="true"></span>
       </header>
       <main class="flash ${carteVue.revealed ? 'revealed' : ''}" ${carteVue.revealed ? '' : 'data-action="reveal-one"'}>
         <article class="flash-card">
@@ -1020,7 +1033,7 @@ function renderCard(cardId) {
         ${carteVue.revealed
           ? `<div class="stack">
               <a class="btn primary wide big" href="#/review/${d.id}">Réviser ce cours</a>
-              <a class="btn ghost wide" href="#/recherche">Retour à la recherche</a>
+              <a class="btn ghost wide" href="${retour}">${retourLabel}</a>
             </div>`
           : '<button class="btn primary wide big" data-action="reveal-one">Afficher la réponse</button>'}
       </footer>
@@ -1119,31 +1132,6 @@ function renameModal(id) {
     <label>Nom<input name="name" required autofocus value="${esc(store.deck(id).name)}" autocomplete="off"></label>
     <div class="modal-actions">${cancelBtn}<button class="btn primary" value="ok">Enregistrer</button></div>`,
   (f) => { store.renameDeck(id, f.get('name')); render(); });
-}
-
-function editCardModal(cardId) {
-  const c = store.card(cardId);
-  openModal(`
-    <h2>Modifier la carte</h2>
-    <label>Question<textarea name="front" rows="3" required>${esc(c.front)}</textarea></label>
-    <label>Réponse<textarea name="back" rows="3" required>${esc(c.back)}</textarea></label>
-    <p class="hint">Prochaine révision : ${dueLabel(c)}${c.seen ? ` · intervalle ${c.interval} j · ${c.lapses} oubli(s)` : ''}</p>
-    <div class="modal-actions">
-      <button class="btn ghost danger-text" value="delete" formnovalidate>Supprimer</button>
-      ${c.seen ? `<button class="btn ghost" value="reset" formnovalidate>Réinitialiser</button>` : ''}
-      <span class="spacer"></span>
-      ${cancelBtn}<button class="btn primary" value="save">Enregistrer</button>
-    </div>`,
-  (f, v) => {
-    if (v === 'delete') { store.deleteCard(cardId); toast('Carte supprimée'); }
-    else if (v === 'reset') { store.resetCard(cardId); toast('Progression remise à zéro'); }
-    else {
-      const front = f.get('front').trim(), back = f.get('back').trim();
-      if (!front || !back) return false;
-      store.updateCard(cardId, { front, back });
-    }
-    render();
-  });
 }
 
 function runImport(text, defaultName, prune = false) {
@@ -1289,7 +1277,6 @@ $app.addEventListener('click', (e) => {
     case 'settings': return settingsModal();
     case 'load-example': return loadExample();
     case 'deck-menu': return deckMenu(id);
-    case 'edit-card': return editCardModal(id);
     case 'reveal-one': {
       carteVue.revealed = true;
       return render();
@@ -1352,8 +1339,8 @@ $app.addEventListener('keydown', (e) => {
 
 $app.addEventListener('input', (e) => {
   if (e.target.id !== 'search') return;
-  const q = e.target.value.trim().toLowerCase();
-  document.querySelectorAll('#card-list .card-row').forEach((li) => {
+  const q = fold(e.target.value);   // sans accents, comme la recherche globale
+  document.querySelectorAll('#card-list .card-row-item').forEach((li) => {
     li.hidden = q && !li.dataset.q.includes(q);
   });
 });
