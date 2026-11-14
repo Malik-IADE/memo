@@ -44,33 +44,48 @@
 
   const info = window.MEMO_QUIZ;
   const score = document.getElementById('score');
-  if (info?.href && score) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.textContent = 'Inclure ma note dans la moyenne';
-    const status = document.createElement('p');
-    status.setAttribute('role', 'status');
-    const target = score.closest('#results') || score.parentElement;
-    target.append(button, status);
-    button.addEventListener('click', async () => {
-      const match = score.textContent.match(/(-?[\d \u202f\u00a0]+(?:[.,]\d+)?)\s*\/\s*20/);
-      const value = match ? Number(match[1].replace(/\s/g, '').replace(',', '.')) : NaN;
-      if (!Number.isFinite(value) || value < 0 || value > 20) {
-        status.textContent = 'Terminez la correction pour partager une note sur 20.';
+  const results = document.getElementById('results');
+  if (info?.href && score && results) {
+    const exam = info.href;
+    const pendingKey = 'memo-pending-score:' + exam;
+    let pending;
+    try { pending = JSON.parse(localStorage.getItem(pendingKey)); } catch {}
+
+    async function submit(note) {
+      try {
+        await send('/annales', {exam, ...note});
+        if (pending === note) pending = null;
+        const stored = JSON.parse(localStorage.getItem(pendingKey));
+        if (stored?.revision === note.revision) localStorage.removeItem(pendingKey);
+      } catch { /* Nouvelle tentative au retour du réseau ou à la prochaine visite. */ }
+    }
+
+    let debounce;
+    let lastScore;
+    function record() {
+      clearTimeout(debounce);
+      if (results.hidden) {
+        lastScore = undefined;
         return;
       }
-      button.disabled = true;
-      status.textContent = 'Envoi de la note…';
-      try {
-        await send('/annales', {exam: info.href, score: Math.round(value * 100)});
-        status.textContent = 'Note incluse dans la moyenne.';
-      } catch {
-        status.textContent = 'Envoi impossible. Réessayez lorsque vous êtes en ligne.';
-      } finally {
-        button.disabled = false;
-      }
-    });
-    new MutationObserver(() => { status.textContent = ''; }).observe(score, {childList:true, subtree:true, characterData:true});
+      debounce = setTimeout(() => {
+        if (results.hidden) return;
+        const match = score.textContent.match(/(-?[\d \u202f\u00a0]+(?:[.,]\d+)?)\s*\/\s*20/);
+        const value = match ? Number(match[1].replace(/\s/g, '').replace(',', '.')) : NaN;
+        const grade = Math.round(value * 100);
+        if (!Number.isFinite(grade) || grade <= 0 || grade > 2000 || grade === lastScore) return;
+        lastScore = grade;
+        pending = {score: grade, revision: Math.max(Date.now(), (pending?.revision || 0) + 1)};
+        try { localStorage.setItem(pendingKey, JSON.stringify(pending)); } catch {}
+        submit(pending);
+      }, 300);
+    }
+
+    const observer = new MutationObserver(record);
+    observer.observe(score, {childList:true, subtree:true, characterData:true});
+    observer.observe(results, {attributes:true, attributeFilter:['hidden']});
+    window.addEventListener('online', () => { if (pending) submit(pending); });
+    if (pending) submit(pending);
   }
 
   window.memoCollectives = {shareFlashcards, endpoint};
