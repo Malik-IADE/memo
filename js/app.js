@@ -1096,6 +1096,7 @@ function grade(g) {
   if (!c) return;
   const wasNew = !c.seen;
   store.updateCard(c.id, schedule(c, g));
+  window.memoCollectives?.shareFlashcards();
   store.bumpToday(c.deckId, wasNew ? 'new' : 'rev');
   if (session.deckId === MIX) store.bumpToday(MIX, wasNew ? 'new' : 'rev');
   session.queue.shift();
@@ -1403,6 +1404,7 @@ document.addEventListener('keydown', (e) => {
 /** Met à jour les cours partagés, puis rafraîchit l'écran si quelque chose a changé. */
 async function updateLibrary(force = false) {
   const r = await syncLibrary({ force });
+  window.memoCollectives?.shareFlashcards();
   if (!r) return;
   if ((force || r.added || r.updated || r.removed) && route().view !== 'review' && !modal.open) render();
   if (r.added) toast(`Cours mis à jour : ${r.added} nouvelle${r.added > 1 ? 's' : ''} question${r.added > 1 ? 's' : ''}`);
