@@ -14,7 +14,7 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&
 const IMG = /\[img:([^\]]+)\]\s*/g;
 const takeImgs = (s) => ({ imgs: [...s.matchAll(IMG)].map((m) => m[1].trim()), text: s.replace(IMG, '').trim() });
 const imgsHtml = (imgs) => imgs.map((src) => `<button type="button" class="card-img" data-action="zoom" data-src="${esc(src)}" aria-label="Agrandir l'image">
-    <img src="${esc(src)}" alt="" loading="lazy"><span class="card-img-hint">Toucher pour agrandir</span></button>`).join('');
+    <img src="${esc(src)}" alt="" loading="lazy"><span class="card-img-hint">Touchez pour agrandir</span></button>`).join('');
 const plainText = (s) => (takeImgs(s).imgs.length ? '🖼 ' : '') + takeImgs(s).text;
 // Typographie française à l'affichage : espace insécable avant ? ! : ; » et après «
 // (évite un « ? » seul en début de ligne). Le texte enregistré n'est pas modifié.
@@ -874,7 +874,7 @@ function settingsModal() {
     <label>Nouvelles cartes par jour (par paquet)
       <input name="newPerDay" type="number" min="0" max="999" value="${s.newPerDay}" inputmode="numeric">
     </label>
-    <label>Révisions maximum par jour (par paquet)
+    <label>Révisions maximales par jour (par paquet)
       <input name="reviewsPerDay" type="number" min="1" max="9999" value="${s.reviewsPerDay}" inputmode="numeric">
     </label>
     <p class="hint">Au-delà, les cartes à revoir sont reportées aux sessions suivantes, les plus en retard d'abord.</p>
