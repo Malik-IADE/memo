@@ -1,6 +1,7 @@
 # Mémo — cartes de révision
 
 Application web progressive (PWA) façon Anki, en HTML/CSS/JS pur, sans dépendances ni étape de build.
+En ligne : <https://malik-iade.github.io/memo/>
 
 ## Lancer en local
 
@@ -8,6 +9,16 @@ Application web progressive (PWA) façon Anki, en HTML/CSS/JS pur, sans dépenda
 python3 -m http.server 5173
 ```
 Puis ouvrir http://localhost:5173
+
+## Ce que contient l'accueil
+
+| Entrée | Contenu | Source |
+|---|---|---|
+| Cours mélangés | toutes les cartes, tirées au hasard | `paquets/` |
+| Flashcards | semestre → UE → cours | `paquets/S1/<UE>/<cours>.txt` |
+| Annales officielles | semestre → UE → quiz (2013-2015, 2022-2024) | `annales/` |
+| Annales non officielles | semestre → UE → quiz par promotion | `annales-nf/` |
+| Scores | les scores de toutes les UE dans un seul paquet | `paquets/Scores/scores.txt` |
 
 ## Bibliothèque : cours partagés
 
@@ -70,13 +81,28 @@ js/app.js             écrans et interactions
 js/store.js           stockage local (prêt pour la synchro : id, updated, deleted)
 js/srs.js             algorithme de répétition espacée
 js/format.js          lecture / écriture du format texte
+paquets/              cours partagés (flashcards) + Scores/
+annales/              annales officielles, une page HTML autonome par quiz
+annales-nf/           annales non officielles (promotions précédentes)
+stats.html            fréquentation (GoatCounter, clé en lecture seule)
 sw.js, manifest…      mode hors ligne et installation sur iPhone/Mac
 ```
+
+## Annales
+
+Chaque quiz est une page HTML autonome : énoncés, correction et barème sont dans le fichier.
+
+- Ranger le fichier dans `annales/<semestre>/` ou `annales-nf/<semestre>/`, nommé `<UE>-<période>.html`
+  (ex. `S1/3.3-2013-2015.html`).
+- Ajouter une ligne `S1/3.3-2013-2015.html | Annales 2013-2015 UE 3.3` dans le `liste.txt` du dossier.
+- Le semestre et l'UE sont lus au début du nom ; le suffixe distingue les quiz d'une même UE.
+- Chaque page porte sa période dans son titre, son bandeau vert et sa barre « Retour à Mémo ».
+
+## Mettre en ligne
+
+Le site est publié par GitHub Pages depuis la branche `main`. **Après chaque modification, changer
+`CACHE` dans `sw.js`** (`memo-v25` → `memo-v26`), sinon les appareils gardent l'ancienne version en cache.
 
 ## Raccourcis clavier (Mac)
 
 Espace : retourner la carte · 1 2 3 4 : noter · ⌘ + Entrée : ajouter une carte
-
-## Prochaine étape
-
-Synchronisation Mac ↔ iPhone via Firebase (gratuit) + mise en ligne sur GitHub Pages.
