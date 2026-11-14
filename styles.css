@@ -171,8 +171,12 @@ input:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px
 .list-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .list-head input { max-width: 220px; padding: 7px 12px; }
 .card-list { list-style: none; margin: 0 -18px -18px; padding: 0; }
-.card-row { display: flex; align-items: center; gap: 12px; padding: 12px 18px; border-top: 1px solid var(--border); cursor: pointer; }
+.card-row { display: flex; align-items: center; gap: 12px; padding: 12px 18px; border-top: 1px solid var(--border);
+  cursor: pointer; color: inherit; text-decoration: none; }
 .card-row:hover { background: var(--surface-2); }
+.card-row:active { background: var(--accent-soft); }
+.card-row-item { list-style: none; }
+.card-row .card-text { min-width: 0; flex: 1; display: flex; flex-direction: column; }
 .card-text { flex: 1; min-width: 0; display: flex; flex-direction: column; }
 .card-front, .card-back { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card-back { color: var(--muted); font-size: .88rem; }
