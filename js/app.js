@@ -505,6 +505,47 @@ const note2 = (n) => n.toLocaleString('fr-FR', { minimumFractionDigits: 2, maxim
 // Vert au-dessus de 14, orange entre 10 et 14, rouge en dessous.
 const tonNote = (n) => (n >= 14 ? 'bon' : n >= 10 ? 'moyen' : 'faible');
 
+/**
+ * Bilan des auto-évaluations : une carte compte une seule fois, pour sa dernière note.
+ * Mêmes couleurs que les boutons de révision.
+ */
+const NOTES_CARTES = [
+  { cle: 'again', nom: 'À revoir' },
+  { cle: 'hard', nom: 'Difficile' },
+  { cle: 'good', nom: 'Bien' },
+  { cle: 'easy', nom: 'Facile' },
+];
+function bilanEvaluations() {
+  const n = [0, 0, 0, 0];
+  for (const d of store.decks()) {
+    for (const c of store.cards(d.id)) {
+      if (Number.isInteger(c.lastGrade) && c.lastGrade >= 0 && c.lastGrade <= 3) n[c.lastGrade] += 1;
+    }
+  }
+  return n;
+}
+
+function grapheEvaluations() {
+  const n = bilanEvaluations();
+  const total = n.reduce((a, b) => a + b, 0);
+  if (!total) return '';
+  const haut = Math.max(...n);
+  return `
+    <p class="section-label">Mes auto-évaluations · ${plural(total, 'carte')}</p>
+    <section class="panel">
+      <ul class="eval-graph">
+        ${NOTES_CARTES.map((g, i) => `
+          <li class="eval-col g${i}">
+            <span class="eval-n">${n[i]}</span>
+            <span class="eval-bar-zone">
+              <span class="eval-bar" style="height:${n[i] ? Math.max(6, (n[i] / haut) * 100) : 2}%"></span>
+            </span>
+            <span class="eval-l">${g.nom}</span>
+          </li>`).join('')}
+      </ul>
+    </section>`;
+}
+
 function renderResults() {
   session = null;
   const toutes = lireResultats();
@@ -519,12 +560,15 @@ function renderResults() {
   const lignes = [...parQuiz.values()].sort((a, b) => String(b.date).localeCompare(String(a.date)));
   const moyenne = lignes.length ? lignes.reduce((s, r) => s + r.note, 0) / lignes.length : 0;
 
+  const graphe = grapheEvaluations();
+
   $app.innerHTML = `${topbarFolder('#/', 'Mes résultats')}
     <main class="page">
+      ${graphe}
       ${lignes.length ? `
         <section class="hero">
-          <p class="eyebrow">Annales faites</p>
-          <p class="hero-value">${plural(lignes.length, 'annale')} · moyenne ${note2(moyenne)}/20</p>
+          <span class="eyebrow">Annales faites</span>
+          <span class="hero-value">${plural(lignes.length, 'annale')} · moyenne ${note2(moyenne)}/20</span>
         </section>
         <p class="section-label">Touchez une annale pour la refaire</p>
         <ul class="folder-list">
@@ -550,7 +594,7 @@ function renderResults() {
         <button class="btn ghost wide danger-text" data-action="clear-results">Effacer mes résultats</button>`
       : `<section class="empty">
           <div class="empty-art">🏅</div>
-          <h2>Pas encore de résultat</h2>
+          <h2>${graphe ? 'Pas encore d\'annale faite' : 'Pas encore de résultat'}</h2>
           <p>Faites une annale et validez-la : votre note s'affichera ici, avec un lien pour la refaire.</p>
           <div class="stack">
             <a class="btn primary wide" href="#/annales">Voir les annales officielles</a>

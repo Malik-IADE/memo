@@ -52,6 +52,7 @@ export function schedule(card, grade, now = Date.now(), rand = Math.random) {
       lapses: reps > 0 ? lapses + 1 : lapses,
       ease: Math.max(1.3, ease - 0.2),
       due: dueInDays(days, now),
+      lastGrade: grade,   // dernière auto-évaluation, pour le bilan de « Mes notes »
     };
   }
 
@@ -64,6 +65,7 @@ export function schedule(card, grade, now = Date.now(), rand = Math.random) {
     lapses,
     ease: Math.max(1.3, ease + easeDelta),
     due: dueInDays(days, now),
+    lastGrade: grade,   // dernière auto-évaluation, pour le bilan de « Mes notes »
   };
 }
 
