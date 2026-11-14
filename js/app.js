@@ -912,7 +912,10 @@ function renderReview(id) {
   if (!session || session.deckId !== id) session = buildSession(id);
   const mix = id === MIX;
   const d = mix ? { name: MIX_NAME } : store.deck(id);
-  const backHref = mix ? '#/' : `#/deck/${id}`;
+  // « Cours mélangés » et les catégories à un seul paquet (ex. « Scores ») se lancent
+  // depuis l'accueil : on y retourne en fermant, plutôt que sur la page du paquet.
+  const direct = mix || (d && !locate(d).ue && isSingleCategory(locate(d).sem));
+  const backHref = direct ? '#/' : `#/deck/${id}`;
   const c = session.queue.length ? store.card(session.queue[0]) : null;
 
   if (!c) {
