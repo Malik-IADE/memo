@@ -349,3 +349,23 @@ a.search-box:active { transform: scale(.995); }
   .result-row .folder-icon { display: none; }
   .result-row .folder-meta { font-size: .76rem; }
 }
+
+/* ---------- Bilan des auto-évaluations (écran « Mes résultats ») ---------- */
+/* Mêmes couleurs que les boutons de notation : .g0 à .g3 donnent --c. */
+.eval-graph { list-style: none; margin: 0; padding: 0; display: grid;
+  grid-template-columns: repeat(4, 1fr); gap: 10px; align-items: end; }
+.eval-col { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; }
+.eval-n { font-size: 1.15rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--c, var(--text)); }
+.eval-bar-zone { width: 100%; height: 96px; display: flex; align-items: flex-end;
+  background: var(--surface-2); border-radius: 10px; overflow: hidden; }
+.eval-bar { width: 100%; border-radius: 10px; background: var(--c);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--c) 55%, transparent); transition: height .25s ease; }
+.eval-col .eval-n { color: var(--c); }
+.eval-l { font-size: .74rem; font-weight: 600; color: var(--muted); text-align: center;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+
+@media (max-width: 380px) {
+  .eval-graph { gap: 6px; }
+  .eval-bar-zone { height: 80px; }
+  .eval-l { font-size: .68rem; }
+}
