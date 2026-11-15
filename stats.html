@@ -446,7 +446,7 @@
       else if (path === '/accueil') add(screens, 'Accueil', n);
       else if ((m = path.match(/^\/cours\/(.+)$/))) add(courses, m[1], n);
       else if ((m = path.match(/^\/(S\d+)\/([^/]+)$/i))) add(ues, `UE ${m[2]} · S${m[1].slice(1)}`, n);
-      else if (/^\/(perso|partages|Scores)$/i.test(path)) add(screens, path.slice(1), n);
+      else if (/^\/(perso|partages|Scores|Schemas)$/i.test(path)) add(screens, path.slice(1), n);
     }
     return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues),
       exams: sorted(exams), examTotal, screens: sorted(screens) };
