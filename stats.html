@@ -41,6 +41,7 @@
     --up: #059669; --up-bg: rgba(16, 185, 129, .12);
     --down: #dc2626; --down-bg: rgba(239, 68, 68, .11);
     --tip-bg: #14141f; --tip-text: #ffffff;
+    --g0: #ef4444; --g1: #f59e0b; --g2: #10b981; --g3: #3b82f6; /* boutons de notation */
     --shadow: 0 1px 2px rgba(20, 20, 50, .04), 0 8px 30px rgba(20, 20, 50, .06);
     color-scheme: light;
   }
@@ -127,10 +128,10 @@
   .notes-n { font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
   .notes-zone { width: 100%; height: 120px; display: flex; align-items: flex-end;
     background: var(--cell0); border-radius: 12px; overflow: hidden; }
-  .notes-col:nth-child(1) { --grade: #f87171; }
-  .notes-col:nth-child(2) { --grade: #fbbf24; }
-  .notes-col:nth-child(3) { --grade: #4ade80; }
-  .notes-col:nth-child(4) { --grade: #60a5fa; }
+  .notes-col:nth-child(1) { --grade: var(--g0); }
+  .notes-col:nth-child(2) { --grade: var(--g1); }
+  .notes-col:nth-child(3) { --grade: var(--g2); }
+  .notes-col:nth-child(4) { --grade: var(--g3); }
   .notes-n { color: var(--grade); }
   .notes-bar { background: var(--grade); width: 100%; border-radius: 12px; transition: height .3s ease; }
   .notes-l { font-size: .8rem; font-weight: 600; color: var(--muted); text-align: center;
@@ -190,6 +191,35 @@
   .rank .pct { width: 42px; text-align: right; color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); font-size: .88rem; margin: 0; padding: 8px 0; }
 
+  /* Moyennes des annales : une ligne par annale, historique au toucher */
+  .exams { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .exam { border-radius: 12px; transition: background .15s; }
+  .exam.open { background: var(--cell0); }
+  .exam-row { width: 100%; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(80px, 1fr) 64px 58px 16px;
+    align-items: center; gap: 14px; padding: 10px 12px; border: 0; background: none; border-radius: 12px; cursor: pointer; text-align: left; }
+  .exam-row:hover { background: var(--cell0); }
+  .exam.open .exam-row:hover { background: none; }
+  .exam-row:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .exam-name { display: flex; align-items: baseline; gap: 8px; min-width: 0; white-space: nowrap; }
+  .exam-name b { font-weight: 650; font-size: .92rem; }
+  .exam-meta { color: var(--muted); font-size: .8rem; overflow: hidden; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
+  .tag { margin-left: auto; flex-shrink: 0; font-size: .68rem; font-weight: 650; padding: 2px 7px; border-radius: 99px; background: var(--accent-soft); color: var(--accent-ink); }
+  .tag.nf { background: var(--cell0); color: var(--muted); }
+  .exam-track { position: relative; height: 8px; border-radius: 99px; background: var(--cell0); }
+  .exam-fill { position: absolute; inset: 0 auto 0 0; border-radius: 99px; }
+  .exam-ten { position: absolute; left: 50%; top: -3px; bottom: -3px; width: 1.5px; background: var(--line-strong); }
+  .exam-score { font-size: 1.15rem; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; letter-spacing: -.02em; white-space: nowrap; }
+  .exam-score small { font-size: .7rem; font-weight: 600; color: var(--faint); }
+  .exam-n { font-size: .76rem; color: var(--muted); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .chev { width: 16px; height: 16px; fill: none; stroke: var(--faint); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
+  .exam.open .chev { transform: rotate(180deg); }
+  .exam-detail { padding: 4px 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+  .exam-kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 6px; }
+  .exam-kpis > div { display: flex; flex-direction: column; gap: 1px; padding: 10px 12px; border-radius: 10px; background: var(--card-solid); border: 1px solid var(--line); min-width: 0; }
+  .exam-kpis b { font-size: 1.1rem; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+  .exam-chart-t { font-size: .78rem; font-weight: 650; color: var(--muted); margin-top: 4px; }
+  .exam-note { margin: 2px 0 0; font-size: .74rem; color: var(--faint); }
+
   .foot { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center; color: var(--muted); font-size: .8rem; text-align: center; padding-top: 6px; }
   .foot p { width: 100%; margin: 0; }
   .btn { border: 1px solid var(--line); background: var(--card); padding: 9px 16px; border-radius: 11px; font-size: .88rem; font-weight: 600; cursor: pointer; color: var(--text); }
@@ -215,6 +245,7 @@
     .notes-n { font-size: 1.2rem; }
     .notes-l { font-size: .72rem; }
     .grid2 { grid-template-columns: 1fr; }
+    .exam-kpis { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 560px) {
     .wrap { padding-left: 14px; padding-right: 14px; gap: 14px; }
@@ -228,6 +259,13 @@
     .kpi-v { font-size: 1.75rem; }
     .heat { grid-template-columns: 26px repeat(24, minmax(0, 1fr)); gap: 2px; }
     .heat .c { height: 14px; border-radius: 3px; }
+    .exam-row { grid-template-columns: minmax(0, 1fr) auto 16px; grid-template-areas: 'name score chev' 'track n chev'; gap: 6px 12px; padding: 10px; }
+    .exam-name { grid-area: name; flex-wrap: wrap; row-gap: 1px; }
+    .exam-meta { order: 3; flex-basis: 100%; }
+    .tag { margin-left: 0; }
+    .exam-score { grid-area: score; } .chev { grid-area: chev; }
+    .exam-track { grid-area: track; height: 6px; } .exam-n { grid-area: n; }
+    .exam-detail { padding: 2px 10px 12px; }
   }
 </style>
 </head>
@@ -509,7 +547,7 @@
   const gradeLabels = ['À revoir', 'Difficile', 'Bien', 'Facile'];
   let collectiveData;
   let collectiveFailed = false;
-  let selectedExam = '';
+  let openExam = '';
 
   async function loadCollectiveStats() {
     try {
@@ -522,36 +560,108 @@
     }
   }
 
+  // Données collectives fictives pour ?demo (mêmes formes que la réponse du Worker).
+  function demoCollective() {
+    const list = [['annales/S1/2.2-2013-2015.html', 13.4], ['annales/S1/3.3.html', 11.2], ['annales/S1/2.4.html', 15.8],
+      ['annales-nf/S1/2.3-2017-2019.html', 8.6], ['annales-nf/S1/3.1-2021-2023.html', 12.1], ['annales/S2/3.3-2022-2024.html', 9.4]];
+    const exams = [], history = [];
+    list.forEach(([exam, avg], k) => {
+      let n = 0;
+      for (let d = 13; d >= 0; d--) {
+        if ((d + k) % 3 === 0) continue;
+        const day = new Date(Date.now() - d * 864e5).toISOString().slice(0, 10);
+        const tries = 1 + ((d * 7 + k * 3) % 5);
+        n += tries;
+        history.push({exam, day, average: Math.max(1, Math.min(20, avg + Math.sin(d + k) * 2.4 - d * .08)), participants: tries});
+      }
+      exams.push({exam, average: avg, participants: Math.ceil(n * .6)});
+    });
+    return {percentages: [12, 21, 41, 26], exams, history};
+  }
+
+  // « annales-nf/S1/2.3-2017-2019.html » → UE 2.3 · S1, 2017-2019, non officielle.
+  function examInfo(path) {
+    const m = path.match(/^annales(-nf)?\/(S\d+)\/(\d+\.\d+)(?:-(\d{4}-\d{4}))?\.html?$/i);
+    if (!m) return {ue: path, period: '', nf: false};
+    return {ue: `UE ${m[3]}`, sem: m[2].toUpperCase(), period: m[4] || '2022-2024', nf: !!m[1]};
+  }
+  // Couleur d'une note sur 20, reprise des boutons de notation.
+  const scoreColor = (v) => v < 8 ? 'var(--g0)' : v < 10 ? 'var(--g1)' : v < 14 ? 'var(--g2)' : 'var(--g3)';
+  const shortDay = (d) => d.slice(5).split('-').reverse().join('/');
+
+  function examDetail(row, hist) {
+    const tries = hist.reduce((a, r) => a + (r.attempts ?? r.participants ?? 0), 0);
+    const best = hist.length ? Math.max(...hist.map((r) => r.average)) : null;
+    return h('div', {class: 'exam-detail'},
+      h('div', {class: 'exam-kpis'},
+        h('div', {}, h('span', {class: 'sub'}, 'Moyenne actuelle'), h('b', {style: `color:${scoreColor(row.average)}`}, nf1.format(row.average) + ' / 20')),
+        h('div', {}, h('span', {class: 'sub'}, 'Navigateurs'), h('b', {}, nf.format(row.participants))),
+        h('div', {}, h('span', {class: 'sub'}, 'Tentatives relevées'), h('b', {}, nf.format(tries))),
+        h('div', {}, h('span', {class: 'sub'}, 'Meilleur jour'), h('b', {}, best == null ? '—' : nf1.format(best) + ' / 20'))),
+      hist.length ? [
+        h('div', {class: 'exam-chart-t'}, 'Moyenne par jour'),
+        areaChart(hist.map((r) => ({label: shortDay(r.day), full: new Date(r.day + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'}), v: r.average})),
+          {height: 190, unit: 'point', scoreScale: true, ticks: hist.length > 8 ? 5 : hist.length}),
+        h('div', {class: 'exam-chart-t'}, 'Tentatives par jour'),
+        barChart(hist.map((r) => ({label: shortDay(r.day), full: new Date(r.day + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'}), v: r.attempts ?? r.participants ?? 0})),
+          {height: 130, unit: 'tentative', tickEvery: hist.length > 8 ? Math.ceil(hist.length / 6) : 1}),
+      ] : h('p', {class: 'empty'}, 'Le premier relevé quotidien apparaîtra demain.'),
+      h('p', {class: 'exam-note'}, 'Dernière tentative de chaque navigateur · les notes de 0 sont exclues.'));
+  }
+
   function collectiveCards() {
-    const percentages = DEMO ? [10,20,40,30] : collectiveData?.percentages;
-    const highestPercentage = percentages ? Math.max(1, ...percentages) : 1;
-    const exams = collectiveData?.exams || [];
-    const exam = exams.find(row => row.exam === selectedExam) || exams[0];
-    const history = (collectiveData?.history || []).filter(row => row.exam === exam?.exam);
-    const chart = exam ? h('div', {},
-      h('div', {class:'sub'}, `${nf1.format(exam.average)} / 20 · ${plural(exam.participants, 'navigateur')}`),
-      history.length ? areaChart(history.map(row => ({
-        label: row.day.slice(5).split('-').reverse().join('/'),
-        full: `${row.day} · ${plural(row.participants, 'navigateur')}`,
-        v: row.average,
-      })), {height:210, unit:'point', scoreScale:true}) : h('p', {class:'sub'}, 'Le premier relevé apparaîtra après la collecte quotidienne.')) : null;
+    const data = DEMO ? demoCollective() : collectiveData;
+    const percentages = data?.percentages;
+    const highest = percentages ? Math.max(1, ...percentages) : 1;
+    const exams = (data?.exams || []).filter((r) => r.average > 0)
+      .map((r) => ({...r, info: examInfo(r.exam)}))
+      .sort((a, b) => a.info.ue.localeCompare(b.info.ue, 'fr', {numeric: true}) || a.info.period.localeCompare(b.info.period));
+    const history = (data?.history || []).filter((r) => r.average > 0).sort((a, b) => a.day.localeCompare(b.day));
+    const unavailable = collectiveFailed ? 'Statistiques collectives indisponibles.' : null;
+    const global = exams.length ? exams.reduce((a, r) => a + r.average * r.participants, 0) / exams.reduce((a, r) => a + r.participants, 0) : null;
+
+    const toggle = (id) => {
+      openExam = openExam === id ? '' : id;
+      document.querySelectorAll('.exam').forEach((li) => {
+        const on = li.dataset.exam === openExam;
+        li.classList.toggle('open', on);
+        li.querySelector('.exam-row').setAttribute('aria-expanded', on);
+        li.querySelector('.exam-detail')?.remove();
+        if (on) li.append(examDetail(exams.find((r) => r.exam === id), history.filter((r) => r.exam === id)));
+      });
+    };
+
     return [
-      h('section', {class:'card'},
-        h('div', {class:'card-head'}, h('h2', {}, 'Auto-évaluations collectives')),
-        percentages ? h('ul', {class:'notes-graph'}, gradeLabels.map((label,i) => h('li', {class:'notes-col'},
-          h('span', {class:'notes-n'}, nf1.format(percentages[i])+' %'),
-          h('span', {class:'notes-zone', 'aria-hidden':'true'},
-            h('span', {class:'notes-bar', style:'height:' + (100 * percentages[i] / highestPercentage) + '%'})),
-          h('span', {class:'notes-l'}, label))))
-          : h('p', {class:'sub'}, collectiveFailed ? 'Statistiques collectives indisponibles.' : 'Aucune contribution reçue.')),
-      h('section', {class:'card'},
-        h('div', {class:'card-head'}, h('h2', {}, 'Moyennes des annales')),
-        exam ? h('select', {'aria-label':'Choisir une annale', onchange:event => {
-          selectedExam = event.target.value;
-          renderDash();
-        }}, exams.map(row => h('option', {value:row.exam,selected:row.exam===exam.exam},
-          row.exam.replace('annales-nf/', 'Non officielle · ').replace('annales/','Officielle · ').replace(/\.html$/, '')))) : null,
-        chart || h('p', {class:'sub'}, collectiveFailed ? 'Statistiques collectives indisponibles.' : 'Aucune note partagée.')),
+      h('section', {class: 'card'},
+        h('div', {class: 'card-head'},
+          h('div', {}, h('h2', {}, 'Auto-évaluations collectives'),
+            h('div', {class: 'sub'}, 'Dernière note de chaque carte · tous les navigateurs'))),
+        percentages ? h('ul', {class: 'notes-graph'}, gradeLabels.map((label, i) => h('li', {class: 'notes-col'},
+          h('span', {class: 'notes-n'}, nf1.format(percentages[i]) + ' %'),
+          h('span', {class: 'notes-zone', 'aria-hidden': 'true'},
+            h('span', {class: 'notes-bar', style: `height:${Math.max(4, 100 * percentages[i] / highest)}%`})),
+          h('span', {class: 'notes-l'}, label))))
+          : h('p', {class: 'empty'}, unavailable || 'Aucune contribution reçue.')),
+      h('section', {class: 'card'},
+        h('div', {class: 'card-head'},
+          h('div', {}, h('h2', {}, 'Moyennes des annales'),
+            h('div', {class: 'sub'}, 'Dernière tentative de chaque navigateur · touchez une annale pour son historique')),
+          global != null ? h('span', {class: 'pill'}, `Moyenne générale ${nf1.format(global)} / 20`) : null),
+        exams.length ? h('ul', {class: 'exams'}, exams.map((r) => {
+          const on = r.exam === openExam;
+          return h('li', {class: 'exam' + (on ? ' open' : ''), 'data-exam': r.exam},
+            h('button', {class: 'exam-row', 'aria-expanded': on, onclick: () => toggle(r.exam)},
+              h('span', {class: 'exam-name'},
+                h('b', {}, `${r.info.ue}`), h('span', {class: 'exam-meta'}, [r.info.sem, r.info.period].filter(Boolean).join(' · ')),
+                h('span', {class: 'tag' + (r.info.nf ? ' nf' : '')}, r.info.nf ? 'Non off.' : 'Officielle')),
+              h('span', {class: 'exam-track', 'aria-hidden': 'true'},
+                h('span', {class: 'exam-fill', style: `width:${(r.average / 20) * 100}%;background:${scoreColor(r.average)}`}),
+                h('span', {class: 'exam-ten'})),
+              h('span', {class: 'exam-score', style: `color:${scoreColor(r.average)}`}, nf1.format(r.average), h('small', {}, ' /20')),
+              h('span', {class: 'exam-n'}, nf.format(r.participants) + ' nav.'),
+              (() => { const c = s('svg', {class: 'chev', viewBox: '0 0 24 24', 'aria-hidden': 'true'}); c.append(s('path', {d: 'M6 9l6 6 6-6'})); return c; })()),
+            on ? examDetail(r, history.filter((x) => x.exam === r.exam)) : null);
+        })) : h('p', {class: 'empty'}, unavailable || 'Aucune note partagée pour l’instant.')),
     ];
   }
 
@@ -782,7 +892,7 @@
         tip.replaceChildren(
           h('div', { class: 'dim' }, p.full),
           h('div', {}, h('span', { class: 'k', style: 'border-color:var(--a2)' }), h('b', {}, p.v == null ? '—' : scoreScale ? nf1.format(p.v) + ' / 20' : plural(p.v, unit))),
-          h('div', { class: 'dim' }, h('span', { class: 'k', style: 'border-top-style:dashed' }), `${nf.format(p.p || 0)} avant`));
+          scoreScale ? null : h('div', { class: 'dim' }, h('span', { class: 'k', style: 'border-top-style:dashed' }), `${nf.format(p.p || 0)} avant`));
         placeTip(tip, X, Math.min(y(p.v || 0), y(p.p || 0)));
       };
       zone.addEventListener('pointermove', (e) => show(e.clientX));
