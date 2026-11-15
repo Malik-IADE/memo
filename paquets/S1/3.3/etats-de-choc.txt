@@ -1,0 +1,55 @@
+// Cours 3.3 – Anesthésie et états de choc
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Quand Anki et le support diffèrent (seuils, doses), ce sont les valeurs du support qui sont retenues.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – États de choc
+
+// ---------- Définition ----------
+Qu'est-ce qu'un état de choc ? :: Une insuffisance circulatoire aiguë responsable d'une hypoxie tissulaire\nDéséquilibre entre l'apport et la consommation d'oxygène des tissus\nÀ retenir : urgence diagnostique et thérapeutique
+Sur quels critères cliniques pose-t-on le diagnostic d'état de choc ? :: Hypotension : PAS < 90 mmHg\nAssociée à une ou plusieurs défaillances d'organe : neurologique, respiratoire, rénale, cutanée, hyperlactatémie
+Comment distinguer un état de choc d'un collapsus et d'une hypoxémie ? :: Collapsus : hypotension sans hypoxie tissulaire (ex. chute tensionnelle à l'induction, vite corrigée)\nHypoxémie : baisse de l'oxygénation du sang artériel, sans hypotension\nChoc : hypotension et hypoxie tissulaire avec défaillance d'organe
+
+// ---------- Transport et consommation d'O2 ----------
+Comment calcule-t-on le transport artériel en oxygène (TaO2), et quelle est sa valeur normale ? :: TaO2 = débit cardiaque × CaO2\nCaO2 = Hb × SaO2 × 1,34\nValeur normale : environ 15 mL O2/kg/min\nÀ retenir : ses déterminants sont le débit cardiaque, l'hémoglobine et la SaO2
+Comment calcule-t-on la consommation en oxygène (VO2), et quelle est sa valeur normale ? :: VO2 = débit cardiaque × (CaO2 − CvO2)\nValeur normale : environ 4 mL O2/kg/min\nLa différence CaO2 − CvO2 correspond à l'oxygène prélevé par les tissus
+Une SpO2 normale garantit-elle un bon transport d'oxygène ? :: Non : la SpO2 estime seulement la SaO2\nElle ne renseigne ni sur l'hémoglobine ni sur le débit cardiaque, les deux autres déterminants du TaO2
+Quelle est la relation entre TaO2 et VO2 en situation normale ? :: La VO2 est indépendante du TaO2\nUne baisse du transport est compensée par une augmentation de l'extraction d'O2\nMétabolisme aérobie, production d'ATP suffisante
+Qu'est-ce que le TaO2 critique ? :: Le seuil de transport en dessous duquel la VO2 devient dépendante du TaO2\nLa réserve d'extraction est dépassée : métabolisme anaérobie, lactates, acidose, dette en oxygène\nÉvolution possible vers la défaillance multiviscérale
+Que traduisent la macrocirculation et la microcirculation ? :: Macrocirculation : le transport global de l'oxygène (TaO2)\nMicrocirculation : la distribution locale et l'extraction de l'oxygène (EO2)\nÀ retenir : un débit cardiaque conservé peut coexister avec une mauvaise utilisation tissulaire de l'O2
+Pourquoi la saturation veineuse baisse-t-elle dans un choc hémorragique mais peut rester normale dans un choc septique ? :: Hémorragie : les tissus augmentent leur extraction d'O2, le sang veineux en contient moins\nSepsis : l'extraction est altérée, la saturation veineuse reste normale malgré la souffrance tissulaire
+
+// ---------- Mécanismes d'adaptation ----------
+Quels sont les mécanismes adaptatifs macrocirculatoires au cours du choc ? :: Stimulation sympathique +++\nVasoconstriction veineuse : augmente le retour veineux\nVasoconstriction artérielle et redistribution vers les organes nobles : augmente les RVS et maintient la PAM\nEffets inotrope et chronotrope : soutiennent la performance cardiaque
+Quels sont les mécanismes adaptatifs microcirculatoires au cours du choc ? :: Augmentation de l'extraction d'O2 (EO2)\nRégulation par le système nerveux autonome et le NO\nAu-delà du TaO2 critique : métabolisme anaérobie, lactates et H+, dette en O2
+
+// ---------- Retentissement des organes ----------
+Quels sont les signes cutanés d'un état de choc ? :: Pieds froids\nTemps de recoloration cutanée allongé (repère : environ 3 s)\nMarbrures\nÀ retenir : vasoconstriction des territoires « sacrifiés » pour préserver les organes nobles
+Quels sont les signes rénaux d'un état de choc ? :: Oligurie < 0,5 mL/kg/h, jusqu'à l'anurie\nÉlévation de la créatinine et de l'urée
+Comment évoluent les signes cardiovasculaires au cours d'un choc ? :: Phase précoce : tachycardie > 120/min, PAM encore conservée grâce aux RVS\nPhase avancée : hypotension, ischémie myocardique, troubles du rythme, arrêt cardiaque\nÀ retenir : une PA préservée peut masquer une baisse du débit
+Quels sont les signes neurologiques d'un état de choc ? :: Précoces : angoisse, agitation, confusion\nTardifs : coma (Glasgow ≤ 8)\nÀ retenir : la pression affichée ne résume pas la perfusion cérébrale
+Quels sont les signes respiratoires d'un état de choc ? :: Précoces : polypnée superficielle > 24/min avec hypocapnie (compensation de l'acidose)\nTardifs : tirage, SpO2 < 90 %, épuisement, arrêt respiratoire
+Quels sont les signes d'une atteinte hépatique au cours d'un choc ? :: Clinique : ictère, encéphalopathie, saignements, œdèmes\nBiologie : bilirubine, ASAT/ALAT élevées, baisse des facteurs de coagulation\nÀ retenir : majore les troubles de la coagulation, donc le saignement
+Quels sont les critères biologiques métaboliques de gravité d'un choc ? :: Lactatémie > 2 mmol/L\npH < 7,35\nProportionnels au métabolisme anaérobie et à la sévérité de la souffrance tissulaire\nÀ interpréter avec la clinique et leur évolution après traitement
+
+// ---------- Étiologies ----------
+Quelle est la différence entre un choc quantitatif et un choc distributif ? :: Quantitatif : baisse globale du TaO2, atteinte de la macrocirculation\nDistributif : mauvaise répartition et trouble de l'extraction d'O2, atteinte de la microcirculation ; TaO2 bas, normal ou augmenté
+Quels sont les chocs quantitatifs, et par quel mécanisme ? :: Baisse du CaO2 : choc hémorragique\nBaisse du débit cardiaque : chocs hypovolémique, cardiogénique et obstructif
+Quels sont les chocs distributifs ? :: Choc septique\nChoc anaphylactique\nChoc inflammatoire : pancréatite aiguë, chirurgie lourde, ischémie-reperfusion, cirrhose
+
+// ---------- Prise en charge symptomatique ----------
+Quels sont les trois piliers de la prise en charge symptomatique initiale d'un choc ? :: Remplissage (expansion volémique)\nCatécholamines : vasopresseur ± inotrope\nMonitorage : SpO2, ECG, PNI en urgence\nÀ retenir : « Rempli / Caté / Moni », en parallèle de la recherche de la cause
+Quels sont les quatre objectifs hémodynamiques dans un état de choc ? :: PAM > 70 mmHg\nPAD − POD > 40 mmHg\nSvO2 > 70 %\nPvCO2 − PaCO2 < 6 mmHg
+Quels sont les quatre moyens thérapeutiques dans un état de choc ? :: Remplissage\nVasopresseurs (noradrénaline +++)\nTransfusion de CGR\nSédation (diminue la demande en O2)
+Quels sont les quatre indicateurs d'efficacité du traitement d'un choc ? :: Marbrures\nDiurèse\nTemps de recoloration cutanée\nLactates\nÀ retenir : une PA corrigée ne suffit pas à juger la réponse
+
+// ---------- Prise en charge étiologique ----------
+Quelle est la prise en charge spécifique du choc hémorragique ? :: Stopper le saignement : chirurgie, compression, embolisation\nLutter contre la triade létale : hypothermie, acidose, coagulopathie\nTransfusion 1/1 CGR/PFC, plaquettes, fibrinogène, acide tranexamique, calcium\nRéchauffeur-accélérateur pour les produits sanguins
+Quelle est la prise en charge spécifique du choc septique ? :: Antibiothérapie précoce +++ (vérifier qu'elle est réellement administrée)\nÉradication du foyer infectieux : chirurgie, drainage
+Quelle est la prise en charge spécifique du choc anaphylactique ? :: Éviction de l'allergène (arrêter le produit suspect)\nAdrénaline +++ (dilution à 0,1 mg/mL)\nPrélèvements\nTraiter le choc et sécuriser les voies aériennes (risque d'œdème)
+Quelle est la prise en charge spécifique du choc cardiogénique ? :: Noradrénaline toujours ± inotrope : dobutamine, lévosimendan ou adrénaline\nRemplissage prudent : risque de congestion pulmonaire\nAssistance circulatoire (ECMO VA) si besoin
+
+// ---------- Induction au bloc ----------
+Quels sont les risques d'une induction chez un patient en état de choc ? :: Vasoplégie liée à l'hypnotique (perte du tonus sympathique)\nBaisse du retour veineux par la ventilation en pression positive\nCollapsus, voire arrêt cardiaque
+Comment conduire l'induction d'un patient en état de choc au bloc ? :: Séquence rapide : protection rapide des VAS (rocuronium ou suxaméthonium)\nAnticiper l'hypotension : remplissage + noradrénaline administrée, pas seulement préparée\nKTA et KTC\nEntretien titré : halogénés, curares, sufentanil IVSE
+Quels hypnotiques privilégier pour induire un patient en état de choc, et à quelle dose ? :: Kétamine : 1 à 2 mg/kg\nÉtomidate : 0,1 à 0,2 mg/kg

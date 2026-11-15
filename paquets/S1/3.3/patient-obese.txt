@@ -1,0 +1,60 @@
+// Cours 3.3 – Anesthésie du patient obèse
+// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
+// Les références d'études citées dans le support ne sont pas reprises.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Patient obèse
+
+// ---------- Définition ----------
+Comment calcule-t-on l'IMC, et quels sont ses seuils ? :: IMC = poids (kg) / taille² (m²)\nNormal : 18,5 à 24,9\nSurpoids : 25 à 29,9\nObésité modérée (grade 1) : 30 à 34,9\nObésité sévère (grade 2) : 35 à 39,9\nObésité morbide (grade 3) : ≥ 40
+Quelle est la limite de l'IMC pour évaluer un patient ? :: Il ne décrit pas la composition corporelle (ex. patient très musclé)\nLe cou et les difficultés de ventilation se jugent à l'examen clinique
+Dans quels domaines l'obésité a-t-elle des répercussions en anesthésie ? :: Respiratoire\nCardiovasculaire\nEndocrinien\nPharmacocinétique
+
+// ---------- Respiratoire ----------
+Quelles sont les modifications des volumes pulmonaires chez le patient obèse ? :: Baisse de la CPT, de la CV et de la CRF\nLes volumes se rapprochent du volume de fermeture\nAggravées par l'anesthésie et le décubitus dorsal : atélectasies favorisées
+Pourquoi le patient obèse tolère-t-il mal l'apnée ? :: CRF diminuée : moins de réserve d'O2\nConsommation d'O2 et travail respiratoire augmentés\nRésultat : chute plus rapide de la PaO2, même après préoxygénation
+Quelles sont les autres conséquences respiratoires de l'obésité ? :: Compliance thoracopulmonaire diminuée : pressions de ventilation plus élevées\nAltération des rapports V/Q\nCou et VAS modifiés : ventilation au masque et intubation difficiles\nSensibilité accrue aux dépresseurs respiratoires\nFacteur de risque de SAS et d'HTAP
+Comment le proclive aide-t-il le patient obèse ? :: À plat, la masse abdominale refoule le diaphragme et réduit les volumes pulmonaires\nLe proclive diminue cette contrainte : meilleure préoxygénation, meilleure tolérance à l'apnée
+
+// ---------- Syndrome d'apnées du sommeil ----------
+Comment définit-on le syndrome d'apnées du sommeil, et comment classe-t-on sa sévérité ? :: Index apnées-hypopnées (IAH) > 5/h + somnolence diurne\nLéger : IAH 5 à 15\nModéré : IAH 15 à 30\nSévère : IAH > 30
+Quel est le mécanisme du syndrome d'apnées obstructives du sommeil ? :: À l'inspiration, la contraction du diaphragme crée une pression de « succion » dans les VAS\nNormalement compensée par la tonicité du pharynx et les muscles dilatateurs\nPendant le sommeil, ce tonus diminue : collapsus des VAS, apnées obstructives
+Quelles sont les deux complications anesthésiques du syndrome d'apnées du sommeil ? :: À l'induction : ventilation au masque et intubation difficiles\nAu réveil : obstruction des VAS et hypoxémie, aggravées par les morphiniques\nÀ retenir : demander au patient appareillé d'apporter sa machine de PPC
+
+// ---------- Cardiovasculaire et endocrinien ----------
+Quelles sont les conséquences cardiovasculaires de l'obésité ? :: HTA, augmentation du débit et du travail cardiaques\nCoronaropathie et troubles du rythme plus fréquents\nÉtat prothrombotique : IDM, AVC, MTEV\nAccès veineux difficile : penser à l'échographie
+Quelles sont les conséquences endocriniennes de l'obésité en péri-opératoire ? :: Insulinorésistance et diabète\nNécessité d'un bon contrôle glycémique : l'hyperglycémie augmente le risque d'infection du site opératoire\nGastroparésie possible : ralentit la vidange gastrique (penser aussi aux agonistes du GLP-1)
+
+// ---------- Pharmacologie ----------
+Comment l'obésité modifie-t-elle la pharmacocinétique des médicaments ? :: Distribution : masse grasse et volume sanguin augmentés, donc volume de distribution augmenté (surtout pour les liposolubles)\nFixation : α1-glycoprotéine acide augmentée, fraction libre diminuée\nMétabolisme hépatique : réactions de phase II augmentées\nÉlimination rénale : DFG augmenté\nÀ retenir : la relation PK/PD n'est pas modifiée, d'où la titration
+Pourquoi un médicament liposoluble peut-il avoir un effet prolongé chez l'obèse ? :: Il se stocke dans la masse grasse\nPuis se redistribue après l'intervention : réveil plus lent, dépression respiratoire prolongée
+Comment calcule-t-on le poids idéal théorique ? :: Homme : taille (cm) − 100 − [(taille − 150) / 4]\nFemme : taille (cm) − 100 − [(taille − 150) / 2,5]\nApproximation : taille − 100 chez l'homme, taille − 110 chez la femme
+Comment calcule-t-on le poids ajusté ? :: Poids ajusté = poids idéal théorique + 0,4 × (poids réel − poids idéal théorique)\nSoit le poids idéal plus 40 % de l'excès de poids
+Sur quel poids calculer les doses chez le patient obèse ? :: Poids réel : succinylcholine, sufentanil, alfentanil\nPoids idéal théorique : étomidate, rocuronium, rémifentanil, sugammadex\nPoids ajusté : propofol, kétamine, curares non dépolarisants, lidocaïne, agents décurarisants\nÀ retenir : les doses calculées ne sont qu'une indication, titration ++
+
+// ---------- Avant le bloc ----------
+Quelles précautions prendre avant de descendre un patient obèse au bloc ? :: Anxiolyse sans benzodiazépines (dépresseurs respiratoires, demi-vie longue)\nProphylaxie anti-H2 conseillée\nProphylaxie thromboembolique : bas antithrombose ou compression pneumatique intermittente
+Quelles précautions d'installation au bloc pour un patient obèse ? :: Table d'opération adaptée au poids, à anticiper\nInstallation avant l'induction, en proclive\nProtection des points d'appui
+Quel monitorage prévoir chez le patient obèse ? :: Accès veineux adapté : VVP sous échographie, KTC si échec\nMonitorage standard avec un brassard de taille adaptée\nBIS ou entropie pour l'hypnose\nCuramètre (TOF) pour le bloc neuromusculaire
+Faut-il augmenter les doses d'antibioprophylaxie chez le patient obèse ? :: Non, probablement pas, sauf cas particuliers : IMC > 50 kg/m²
+Quelle technique d'anesthésie privilégier chez le patient obèse ? :: L'ALR quand le geste s'y prête : permet aussi l'épargne morphinique\nSi AG : des agents d'action rapide, facilement réversibles et de levée rapide
+Comment entretenir l'anesthésie chez le patient obèse ? :: Halogénés ou propofol\nMonitorage de la profondeur d'anesthésie, posologie personnalisée\nLa MAC dépend de l'âge, pas du poids
+
+// ---------- Voies aériennes ----------
+Quelles sont les trois questions à se poser avant d'induire un patient obèse ? :: Tolère-t-il mal l'apnée ? (oui, toujours)\nEst-il à estomac plein ?\nL'intubation sera-t-elle difficile ?\nÀ retenir : trois évaluations séparées, l'une ne permet pas de déduire l'autre
+En combien de temps un patient obèse désature-t-il en apnée ? :: Moins d'1 minute, contre 3 minutes en moyenne chez un patient non obèse\nÀ retenir : préoxygénation indispensable, matériel prêt avant l'induction
+Comment optimiser la préoxygénation du patient obèse ? :: Position proclive, FiO2 = 1\nVNI (aide inspiratoire + PEP) : FeO2 > 90 % rapide, limite la baisse du volume pulmonaire\nOu oxygène à haut débit nasal, maintenu pendant l'apnée
+Le patient obèse est-il un estomac plein ? :: Pas systématiquement : pas de retard de la vidange gastrique\nMais RGO plus fréquent (hypotonie du sphincter inférieur de l'œsophage, corrélée à l'IMC)\nRechercher les facteurs associés : reflux symptomatique, gastroparésie, GLP-1, chirurgie digestive
+Quels sont les facteurs de risque d'intubation ou de ventilation au masque difficiles chez l'obèse ? :: Non spécifiques : SAS, Mallampati 3 ou 4, mobilité cervicale réduite\nSpécifiques à l'obèse : SAS, tour de cou\nÀ retenir : pas de lien direct entre intubation difficile et poids réel
+Quand faut-il une induction en séquence rapide chez le patient obèse ? :: IMC ≥ 40 kg/m² : curare d'action rapide (succinylcholine ou rocuronium)\nIMC entre 35 et 40 : au cas par cas, selon les facteurs d'inhalation et les critères d'intubation difficile
+
+// ---------- Peropératoire ----------
+Comment régler la ventilation peropératoire d'un patient obèse ? :: Ventilation protectrice\nVt 6 à 8 mL/kg de poids idéal théorique (jamais de poids réel)\nPEP 6 à 8 cmH2O\nManœuvres de recrutement\nÀ retenir : une PEP élevée peut baisser le retour veineux et la PA
+
+// ---------- Postopératoire ----------
+Comment réveiller et extuber un patient obèse ? :: Extubation dès que possible, en position demi-assise\nAnalgésie multimodale avec ALR et épargne morphinique (effet dépresseur respiratoire)
+Quelles mesures postopératoires chez le patient obèse ? :: Reprise de la PPC si le patient est appareillé\nProclive si possible\nPrévention thromboembolique : mobilisation précoce, bas antithrombose, anticoagulants
+
+// ---------- Chirurgie bariatrique ----------
+Quelles sont les deux catégories de chirurgie bariatrique ? :: Restrictives pures : anneau gastrique, gastrectomie longitudinale (sleeve)\nMixtes, restrictives et malabsorptives : bypass gastrique
+Quelles sont les caractéristiques des trois techniques de chirurgie bariatrique ? :: Anneau gastrique : ajustable, réversible, < 1 h, de moins en moins utilisé\nGastrectomie longitudinale : résection des 2/3 de la grande courbure, irréversible, environ 2 h, la plus fréquente\nBypass : court-circuit par une anse grêle, environ 2 à 3 h, malabsorption ++\nToutes par laparoscopie
