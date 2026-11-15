@@ -196,8 +196,9 @@
   .empty { color: var(--muted); font-size: .88rem; margin: 0; padding: 8px 0; }
 
   /* Moyennes des annales : une ligne par annale, historique au toucher */
-  .exams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: row dense; gap: 4px 14px; }
-  .exam.open { grid-column: 1 / -1; }
+  .exams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 14px; }
+  /* Le détail occupe sa propre ligne sous la paire : les annales ne changent jamais de place. */
+  .exam-panel { grid-column: 1 / -1; background: var(--cell0); border-radius: 12px; }
   .exam { min-width: 0; border-radius: 12px; transition: background .15s; }
   .exam.open { background: var(--cell0); }
   .exam-row { width: 100%; display: flex; align-items: center; gap: 14px; padding: 10px 12px; border: 0; background: none; border-radius: 12px; cursor: pointer; text-align: left; }
@@ -615,19 +616,27 @@
       .sort((a, b) => b.tries - a.tries || b.participants - a.participants || a.info.ue.localeCompare(b.info.ue, 'fr', {numeric: true}) || a.info.period.localeCompare(b.info.period));
     const unavailable = collectiveFailed ? 'Statistiques collectives indisponibles.' : null;
 
-    const toggle = (id) => {
-      openExam = openExam === id ? '' : id;
-      document.querySelectorAll('.exam').forEach((li) => {
+    // Le détail s'insère après la ligne de grille de l'annale ouverte (après sa voisine
+    // de droite sur deux colonnes) : aucune annale ne bouge, recliquer au même endroit referme.
+    const place = () => {
+      const list = document.querySelector('.exams');
+      if (!list) return;
+      list.querySelector('.exam-panel')?.remove();
+      const items = [...list.querySelectorAll('.exam')];
+      items.forEach((li) => {
         const on = li.dataset.exam === openExam;
         li.classList.toggle('open', on);
         li.querySelector('.exam-row').setAttribute('aria-expanded', on);
-        // Une seule annale ouverte à la fois : le détail des autres est retiré.
-        li.querySelectorAll('.exam-detail').forEach((el) => el.remove());
-        if (on) li.append(examDetail(exams.find((r) => r.exam === id), history.filter((r) => r.exam === id)));
       });
-      // Le précédent s'est replié au-dessus : garder l'annale ouverte à l'écran.
-      if (openExam) document.querySelector(`.exam[data-exam="${CSS.escape(openExam)}"]`)?.scrollIntoView({block: 'nearest', behavior: 'smooth'});
+      const i = items.findIndex((li) => li.dataset.exam === openExam);
+      if (i < 0) return;
+      const cols = getComputedStyle(list).gridTemplateColumns.split(' ').length;
+      const after = items[Math.min(items.length - 1, i - (i % cols) + cols - 1)];
+      const panel = h('li', {class: 'exam-panel'}, examDetail(exams.find((r) => r.exam === openExam), history.filter((r) => r.exam === openExam)));
+      after.after(panel);
     };
+    const toggle = (id) => { openExam = openExam === id ? '' : id; place(); };
+    if (openExam) setTimeout(place);
 
     return [
       h('section', {class: 'card'},
@@ -655,7 +664,7 @@
               h('span', {class: 'exam-score'}, h('span', {class: 'grad'}, nf1.format(r.average)), h('small', {}, ' /20')),
               h('span', {class: 'exam-n'}, plural(r.tries || r.participants, 'tentative')),
               (() => { const c = s('svg', {class: 'chev', viewBox: '0 0 24 24', 'aria-hidden': 'true'}); c.append(s('path', {d: 'M6 9l6 6 6-6'})); return c; })()),
-            on ? examDetail(r, history.filter((x) => x.exam === r.exam)) : null);
+            null);
         })) : h('p', {class: 'empty'}, unavailable || 'Aucune note partagée pour l’instant.'),
         exams.length > EXAM_LIMIT ? h('button', {class: 'btn more', onclick: () => {
           allExams = !allExams;
