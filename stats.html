@@ -446,7 +446,7 @@
       else if (path === '/accueil') add(screens, 'Accueil', n);
       else if ((m = path.match(/^\/cours\/(.+)$/))) add(courses, m[1], n);
       else if ((m = path.match(/^\/(S\d+)\/([^/]+)$/i))) add(ues, `UE ${m[2]} · S${m[1].slice(1)}`, n);
-      else if (/^\/(perso|partages|Scores|Schemas)$/i.test(path)) add(screens, path.slice(1), n);
+      else if ((m = path.match(/^\/(perso|partages|Scores|Schemas)$/i))) add(screens, SCREEN_LABELS[m[1].toLowerCase()], n);
     }
     return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues),
       exams: sorted(exams), examTotal, screens: sorted(screens) };
@@ -460,6 +460,8 @@
   }
   const sumArr = (a) => a.reduce((x, y) => x + y, 0);
 
+  // Écrans de catégorie : nom affiché dans l'app (dossier « Schemas » sans accent sur le serveur).
+  const SCREEN_LABELS = { perso: 'Mes paquets', partages: 'Cours partagés', scores: 'Scores', schemas: 'Schémas' };
   const SYS = { ios: 'iPhone / iPad', macos: 'Mac', android: 'Android', windows: 'Windows', linux: 'Linux', chromeos: 'ChromeOS', 'chrome os': 'ChromeOS' };
   const sysName = (n) => SYS[String(n || '').toLowerCase()] || n || 'Autre';
   const SIZES = { phone: 'Téléphone', largephone: 'Grand téléphone', tablet: 'Tablette', desktop: 'Ordinateur', desktophd: 'Grand écran', unknown: 'Inconnu' };
@@ -1054,6 +1056,8 @@
       ...[['/accueil', .9], ['/flashcards', .4], ['/annales', .3], ['/annales/S1', .22],
         ['/annales/S1/3.3', .1], ['/annales-nf', .25], ['/annales-nf/S1', .18]].map(([p, f]) => ({ path: p, count: Math.round(tot(st) * f) })),
       { path: '/cours/Scores', count: Math.round(tot(st) * .12) },
+      { path: '/Schemas', count: Math.round(tot(st) * .1) },
+      { path: '/cours/Schémas', count: Math.round(tot(st) * .08) },
     ];
     const total = tot(stats);
     return { total: { total, stats }, prevTotal: { total: tot(prevStats), stats: prevStats }, hits: mkHits(stats), prevHits: mkHits(prevStats),
