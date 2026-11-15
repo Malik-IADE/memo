@@ -196,9 +196,9 @@
   .empty { color: var(--muted); font-size: .88rem; margin: 0; padding: 8px 0; }
 
   /* Moyennes des annales : une ligne par annale, historique au toucher */
-  .exams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; grid-auto-flow: row dense; gap: 4px 14px; }
+  .exams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-flow: row dense; gap: 4px 14px; }
   .exam.open { grid-column: 1 / -1; }
-  .exam { border-radius: 12px; transition: background .15s; }
+  .exam { min-width: 0; border-radius: 12px; transition: background .15s; }
   .exam.open { background: var(--cell0); }
   .exam-row { width: 100%; display: flex; align-items: center; gap: 14px; padding: 10px 12px; border: 0; background: none; border-radius: 12px; cursor: pointer; text-align: left; }
   .exam-row:hover { background: var(--cell0); }
@@ -246,7 +246,7 @@
     .notes-n { font-size: 1.2rem; }
     .notes-l { font-size: .72rem; }
     .grid2 { grid-template-columns: 1fr; }
-    .exams { grid-template-columns: 1fr; }
+    .exams { grid-template-columns: minmax(0, 1fr); }
   }
   @media (max-width: 560px) {
     .wrap { padding-left: 14px; padding-right: 14px; gap: 14px; }
@@ -264,7 +264,7 @@
     .exam-name { flex: 1 1 0; flex-wrap: wrap; row-gap: 1px; }
     .exam-meta { order: 3; flex-basis: 100%; }
     .exam-score { min-width: 0; }
-    .exam-n { display: none; }
+    .exam-n { font-size: .72rem; }
     .exam-detail { padding: 2px 10px 12px; }
   }
 </style>
@@ -621,9 +621,12 @@
         const on = li.dataset.exam === openExam;
         li.classList.toggle('open', on);
         li.querySelector('.exam-row').setAttribute('aria-expanded', on);
-        li.querySelector('.exam-detail')?.remove();
+        // Une seule annale ouverte à la fois : le détail des autres est retiré.
+        li.querySelectorAll('.exam-detail').forEach((el) => el.remove());
         if (on) li.append(examDetail(exams.find((r) => r.exam === id), history.filter((r) => r.exam === id)));
       });
+      // Le précédent s'est replié au-dessus : garder l'annale ouverte à l'écran.
+      if (openExam) document.querySelector(`.exam[data-exam="${CSS.escape(openExam)}"]`)?.scrollIntoView({block: 'nearest', behavior: 'smooth'});
     };
 
     return [
@@ -650,7 +653,7 @@
                 h('b', {}, `${r.info.ue}`), h('span', {class: 'exam-meta'}, [r.info.sem, r.info.period].filter(Boolean).join(' · ')),
                 h('span', {class: 'tag' + (r.info.nf ? ' nf' : '')}, r.info.nf ? 'Non off.' : 'Officielle')),
               h('span', {class: 'exam-score'}, h('span', {class: 'grad'}, nf1.format(r.average)), h('small', {}, ' /20')),
-              h('span', {class: 'exam-n'}, nf.format(r.participants) + ' nav.'),
+              h('span', {class: 'exam-n'}, plural(r.tries || r.participants, 'tentative')),
               (() => { const c = s('svg', {class: 'chev', viewBox: '0 0 24 24', 'aria-hidden': 'true'}); c.append(s('path', {d: 'M6 9l6 6 6-6'})); return c; })()),
             on ? examDetail(r, history.filter((x) => x.exam === r.exam)) : null);
         })) : h('p', {class: 'empty'}, unavailable || 'Aucune note partagée pour l’instant.'),
