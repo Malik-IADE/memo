@@ -39,7 +39,7 @@ const formatLine = (l) => {
  */
 const richAnswer = (s) => {
   const lines = s.split('\n').map((l) => l.trim()).filter(Boolean);
-  if (lines.length === 1 && !lines[0].startsWith('- ')) return formatLine(lines[0]);
+  // Même mise en forme pour toutes les réponses, y compris celles d'une seule ligne.
   const items = [];
   for (const l of lines) {
     if (l.startsWith('- ') && items.length) items[items.length - 1].subs.push(l.slice(2));
@@ -1022,8 +1022,8 @@ function renderReview(id) {
             ? `<span class="flash-src">${ue ? `UE ${esc(ue)} · ` : ''}${esc(shortName(cd.name))}</span>` : ''; })() : ''}
           <div class="flash-inner">
             ${imgsHtml(qf.imgs)}
-            <div class="face front ${session.revealed && c.back.includes('\n') ? 'small' : ''}">${rich(qf.text)}</div>
-            ${session.revealed ? `<hr>${imgsHtml(qb.imgs)}<div class="face back ${qb.text.includes('\n') ? 'multi' : ''}">${richAnswer(qb.text)}</div>` : '<p class="tap-hint">Touchez pour voir la réponse</p>'}
+            <div class="face front ${session.revealed ? 'small' : ''}">${rich(qf.text)}</div>
+            ${session.revealed ? `<hr>${imgsHtml(qb.imgs)}<div class="face back multi">${richAnswer(qb.text)}</div>` : '<p class="tap-hint">Touchez pour voir la réponse</p>'}
           </div>
         </article>
       </main>
@@ -1070,9 +1070,9 @@ function renderCard(cardId) {
           <span class="flash-src">${ue ? `UE ${esc(ue)} · ` : ''}${esc(shortName(d.name))}</span>
           <div class="flash-inner">
             ${imgsHtml(qf.imgs)}
-            <div class="face front ${carteVue.revealed && c.back.includes('\n') ? 'small' : ''}">${rich(qf.text)}</div>
+            <div class="face front ${carteVue.revealed ? 'small' : ''}">${rich(qf.text)}</div>
             ${carteVue.revealed
-              ? `<hr>${imgsHtml(qb.imgs)}<div class="face back ${qb.text.includes('\n') ? 'multi' : ''}">${richAnswer(qb.text)}</div>`
+              ? `<hr>${imgsHtml(qb.imgs)}<div class="face back multi">${richAnswer(qb.text)}</div>`
               : '<p class="tap-hint">Touchez pour voir la réponse</p>'}
           </div>
         </article>
