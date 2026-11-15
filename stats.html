@@ -216,6 +216,7 @@
   .chev { flex-shrink: 0; width: 16px; height: 16px; fill: none; stroke: var(--faint); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
   .exam.open .chev { transform: rotate(180deg); }
   .exam-detail { padding: 4px 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+  .btn.more { display: block; margin: 12px auto 0; }
   .exam-note { margin: 2px 0 0; font-size: .74rem; color: var(--faint); }
 
   .foot { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center; color: var(--muted); font-size: .8rem; text-align: center; padding-top: 6px; }
@@ -545,6 +546,8 @@
   let collectiveData;
   let collectiveFailed = false;
   let openExam = '';
+  let allExams = false;
+  const EXAM_LIMIT = 6;
 
   async function loadCollectiveStats() {
     try {
@@ -559,7 +562,7 @@
 
   // Données collectives fictives pour ?demo (mêmes formes que la réponse du Worker).
   function demoCollective() {
-    const list = [['annales/S1/2.2-2013-2015.html', 13.4], ['annales/S1/3.3.html', 11.2], ['annales/S1/2.4.html', 15.8],
+    const list = [['annales/S1/2.1.html', 10.2], ['annales-nf/S1/2.2-2020-2022.html', 7.1], ['annales/S1/2.2-2013-2015.html', 13.4], ['annales/S1/3.3.html', 11.2], ['annales/S1/2.4.html', 15.8],
       ['annales-nf/S1/2.3-2017-2019.html', 8.6], ['annales-nf/S1/3.1-2021-2023.html', 12.1], ['annales/S2/3.3-2022-2024.html', 9.4]];
     const exams = [], history = [];
     list.forEach(([exam, avg], k) => {
@@ -604,10 +607,10 @@
     const percentages = data?.percentages;
     const counts = data?.counts;
     const highest = percentages ? Math.max(1, ...percentages) : 1;
-    const exams = (data?.exams || []).filter((r) => r.average > 0)
-      .map((r) => ({...r, info: examInfo(r.exam)}))
-      .sort((a, b) => a.info.ue.localeCompare(b.info.ue, 'fr', {numeric: true}) || a.info.period.localeCompare(b.info.period));
     const history = (data?.history || []).filter((r) => r.average > 0).sort((a, b) => a.day.localeCompare(b.day));
+    const exams = (data?.exams || []).filter((r) => r.average > 0)
+      .map((r) => ({...r, info: examInfo(r.exam), tries: history.filter((x) => x.exam === r.exam).reduce((s, x) => s + (x.attempts ?? x.participants ?? 0), 0)}))
+      .sort((a, b) => b.tries - a.tries || b.participants - a.participants || a.info.ue.localeCompare(b.info.ue, 'fr', {numeric: true}) || a.info.period.localeCompare(b.info.period));
     const unavailable = collectiveFailed ? 'Statistiques collectives indisponibles.' : null;
 
     const toggle = (id) => {
@@ -637,7 +640,7 @@
         h('div', {class: 'card-head'},
           h('div', {}, h('h2', {}, 'Moyennes des annales'),
             h('div', {class: 'sub'}, 'Dernière tentative de chaque navigateur · touchez une annale pour son historique'))),
-        exams.length ? h('ul', {class: 'exams'}, exams.map((r) => {
+        exams.length ? h('ul', {class: 'exams'}, (allExams ? exams : exams.slice(0, EXAM_LIMIT)).map((r) => {
           const on = r.exam === openExam;
           return h('li', {class: 'exam' + (on ? ' open' : ''), 'data-exam': r.exam},
             h('button', {class: 'exam-row', 'aria-expanded': on, onclick: () => toggle(r.exam)},
@@ -648,7 +651,12 @@
               h('span', {class: 'exam-n'}, nf.format(r.participants) + ' nav.'),
               (() => { const c = s('svg', {class: 'chev', viewBox: '0 0 24 24', 'aria-hidden': 'true'}); c.append(s('path', {d: 'M6 9l6 6 6-6'})); return c; })()),
             on ? examDetail(r, history.filter((x) => x.exam === r.exam)) : null);
-        })) : h('p', {class: 'empty'}, unavailable || 'Aucune note partagée pour l’instant.')),
+        })) : h('p', {class: 'empty'}, unavailable || 'Aucune note partagée pour l’instant.'),
+        exams.length > EXAM_LIMIT ? h('button', {class: 'btn more', onclick: () => {
+          allExams = !allExams;
+          if (!allExams && !exams.slice(0, EXAM_LIMIT).some((r) => r.exam === openExam)) openExam = '';
+          renderDash();
+        }}, allExams ? 'Voir moins' : `Voir plus (${exams.length - EXAM_LIMIT})`) : null),
     ];
   }
 
