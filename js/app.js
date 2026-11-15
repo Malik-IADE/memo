@@ -45,7 +45,10 @@ const richAnswer = (s) => {
     if (l.startsWith('- ') && items.length) items[items.length - 1].subs.push(l.slice(2));
     else items.push({ text: l.replace(/^- /, ''), subs: [] });
   }
-  return `<ul class="answer-list">${items.map((it) => `<li>${formatLine(it.text)}${it.subs.length
+  // Légende de schéma (« 1 : …, 2 : … ») assez longue : deux colonnes, lues de haut en bas.
+  const legend = items.length >= 6 && items.every((it) => !it.subs.length && /^\d+\s*:/.test(it.text));
+  const cls = legend ? ` legend-cols" style="grid-template-rows:repeat(${Math.ceil(items.length / 2)},auto)` : '';
+  return `<ul class="answer-list${cls}">${items.map((it) => `<li>${formatLine(it.text)}${it.subs.length
     ? `<ul class="answer-sub">${it.subs.map((t) => `<li>${formatLine(t)}</li>`).join('')}</ul>` : ''}</li>`).join('')}</ul>`;
 };
 // « cours » est déjà au pluriel : pas de « s » en plus.
@@ -1350,21 +1353,27 @@ function openViewer(src) {
   v.className = 'img-viewer';
   v.innerHTML = `<button type="button" class="icon-btn img-viewer-close" aria-label="Fermer">${ico.close}</button>
     <div class="img-viewer-scroll"><img src="${esc(src)}" alt=""></div>
-    <p class="img-viewer-hint">Toucher l'image : zoom · faire glisser pour parcourir</p>`;
+    <div class="img-viewer-bar"><span class="img-viewer-hint">Toucher l'image : zoom · glisser pour parcourir</span>
+    <button type="button" class="btn img-viewer-done">Fermer</button></div>`;
   const close = () => { v.remove(); document.removeEventListener('keydown', onKey, true); };
   const onKey = (e) => { if (e.key === 'Escape') { e.stopPropagation(); close(); } };
   v.querySelector('.img-viewer-close').addEventListener('click', close);
+  v.querySelector('.img-viewer-done').addEventListener('click', close);
   // Taille de départ lisible : bande de rythme (très allongée) → ~240 px de haut ; ECG 12 dérivations → ≥ 900 px de large.
   const img = v.querySelector('img');
   let zoom = 1;
   const size = () => {
     const ratio = img.naturalWidth / img.naturalHeight || 2;
-    const base = ratio > 3 ? 240 * ratio : Math.max(window.innerWidth, Math.min(900, img.naturalWidth));
+    // Ordinateur : l'image tient entière dans la fenêtre (sans dépasser sa taille réelle).
+    const fit = Math.min(img.naturalWidth, window.innerWidth - 48, (window.innerHeight - 140) * ratio);
+    const base = window.innerWidth >= 768 ? fit
+      : ratio > 3 ? 240 * ratio : Math.max(window.innerWidth, Math.min(900, img.naturalWidth));
     img.style.width = `${Math.round(base * zoom)}px`;
   };
   img.addEventListener('load', size);
-  img.addEventListener('click', () => { zoom = zoom === 1 ? 1.8 : 1; size(); });
-  v.addEventListener('click', (e) => { if (e.target === v) close(); });
+  img.addEventListener('click', () => { zoom = zoom === 1 ? (window.innerWidth >= 768 ? 1.5 : 1.8) : 1; size(); });
+  // Toucher le fond sombre autour de l'image ferme aussi.
+  v.addEventListener('click', (e) => { if (e.target === v || e.target.classList.contains('img-viewer-scroll')) close(); });
   document.addEventListener('keydown', onKey, true);
   document.body.appendChild(v);
 }
