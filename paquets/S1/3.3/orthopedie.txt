@@ -4,7 +4,7 @@
 // Les chiffres d'épidémiologie, les études et les recommandations datées du support ne sont pas repris.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Orthopédie
+# IADE – Chirurgie orthopédique
 
 // ---------- Os et pathologies ----------
 Pourquoi l'alésage d'un os long expose-t-il à l'hémorragie et à l'embolie ? :: L'alésage ouvre largement les sinus veineux de l'os\nPression dans le fût < pression veineuse : hémorragie\nPression dans le fût qui s'élève : air, moelle et débris sont chassés dans les veines, d'où l'embolie
