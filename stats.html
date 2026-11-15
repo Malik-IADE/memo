@@ -134,6 +134,10 @@
   .notes-col:nth-child(4) { --grade: var(--g3); }
   .notes-n { color: var(--grade); }
   .notes-bar { background: var(--grade); width: 100%; border-radius: 12px; transition: height .3s ease; }
+  .notes-col { position: relative; cursor: default; outline: none; }
+  .notes-tip { display: none; left: 50%; top: 0; }
+  .notes-col:hover .notes-tip, .notes-col:focus .notes-tip { display: block; }
+  .notes-col:hover .notes-bar, .notes-col:focus .notes-bar { filter: brightness(1.12); }
   .notes-l { font-size: .8rem; font-weight: 600; color: var(--muted); text-align: center;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
   .notes-pct { font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
@@ -569,7 +573,7 @@
       }
       exams.push({exam, average: avg, participants: Math.ceil(n * .6)});
     });
-    return {percentages: [12, 21, 41, 26], exams, history};
+    return {percentages: [12, 21, 41, 26], counts: [48, 84, 164, 104], exams, history};
   }
 
   // « annales-nf/S1/2.3-2017-2019.html » → UE 2.3 · S1, 2017-2019, non officielle.
@@ -598,6 +602,7 @@
   function collectiveCards() {
     const data = DEMO ? demoCollective() : collectiveData;
     const percentages = data?.percentages;
+    const counts = data?.counts;
     const highest = percentages ? Math.max(1, ...percentages) : 1;
     const exams = (data?.exams || []).filter((r) => r.average > 0)
       .map((r) => ({...r, info: examInfo(r.exam)}))
@@ -621,7 +626,8 @@
         h('div', {class: 'card-head'},
           h('div', {}, h('h2', {}, 'Auto-évaluations collectives'),
             h('div', {class: 'sub'}, 'Dernière note de chaque carte · tous les navigateurs'))),
-        percentages ? h('ul', {class: 'notes-graph'}, gradeLabels.map((label, i) => h('li', {class: 'notes-col'},
+        percentages ? h('ul', {class: 'notes-graph'}, gradeLabels.map((label, i) => h('li', {class: 'notes-col', tabindex: '0'},
+          counts ? h('span', {class: 'tip notes-tip', role: 'tooltip'}, h('div', {class: 'dim'}, label), h('b', {}, plural(counts[i], 'carte'))) : null,
           h('span', {class: 'notes-n'}, nf1.format(percentages[i]) + ' %'),
           h('span', {class: 'notes-zone', 'aria-hidden': 'true'},
             h('span', {class: 'notes-bar', style: `height:${Math.max(4, 100 * percentages[i] / highest)}%`})),
