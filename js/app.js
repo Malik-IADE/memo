@@ -200,9 +200,11 @@ function locate(d) {
 // Catégorie à un seul paquet (ex. « Scores ») : l'accueil ouvre directement le paquet.
 const isSingleCategory = (sem) => !/^S\d+$/i.test(sem) && sem !== 'perso' && sem !== 'partages';
 
+// Dossiers en ASCII sur le serveur, nom accentué dans l'app.
+const CAT_LABELS = { Schemas: 'Schémas' };
 const semLabel = (sem) => sem === 'perso' ? 'Mes paquets'
   : sem === 'partages' ? 'Cours partagés'
-  : /^S\d+$/i.test(sem) ? `Semestre ${sem.slice(1)}` : sem;
+  : /^S\d+$/i.test(sem) ? `Semestre ${sem.slice(1)}` : CAT_LABELS[sem] || sem;
 const ueLabel = (ue) => `UE ${ue}`;
 const enc = encodeURIComponent;
 const folderHref = (d) => {
@@ -716,9 +718,9 @@ function renderHome() {
           if (rs.length === 1) {
             // Une catégorie à un seul paquet (ex. « Scores ») lance la révision tout de suite.
             const { d, s } = rs[0];
-            return folderRow(`#/review/${d.id}`, k, `${plural(store.cards(d.id).length, 'carte')} · tirées au hasard`, s.todo, ico.shuffle);
+            return folderRow(`#/review/${d.id}`, semLabel(k), `${plural(store.cards(d.id).length, 'carte')} · tirées au hasard`, s.todo, ico.shuffle);
           }
-          return folderRow(`#/f/${enc(k)}`, k, plural(rs.length, 'paquet'), sumTodo(rs), ico.folder);
+          return folderRow(`#/f/${enc(k)}`, semLabel(k), plural(rs.length, 'paquet'), sumTodo(rs), ico.folder);
         }).join('')}
       </ul>
     </main>`;
