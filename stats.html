@@ -468,6 +468,21 @@
   /* ---------- Chargement ---------- */
   let courseCount = null, examCount = null, last = null, busy = false;
 
+  // Une seule demande couvre la période affichée et la précédente ; on la découpe ici,
+  // heure par heure, ce qui divise par deux le nombre d'appels à GoatCounter.
+  function cut(stats, from, to) {
+    const a = dayKey(from), b = dayKey(to), lastHour = to.getHours();
+    return (stats || []).filter((st) => st.day >= a && st.day <= b).map((st) => {
+      const hourly = (st.hourly || Array(24).fill(0)).map((v, h) => (st.day === b && h >= lastHour ? 0 : v || 0));
+      return { ...st, hourly, daily: sumArr(hourly) };
+    });
+  }
+  const splitTotal = (tot, from, to) => { const stats = cut(tot.stats, from, to); return { total: sumArr(stats.map((s) => s.daily)), stats }; };
+  const splitHits = (hits, from, to) => (hits || []).map((hit) => {
+    const stats = cut(hit.stats, from, to);
+    return { ...hit, stats, count: sumArr(stats.map((s) => s.daily)) };
+  }).filter((hit) => hit.count > 0);
+
   async function load() {
     const P = PERIODS[period], r = range(P.days);
     const q = (a, b) => ({ start: iso(a), end: iso(b) });
@@ -475,15 +490,17 @@
     if (DEMO) raw = demoData(P.days, r);
     else {
       // Appels un par un : GoatCounter limite le nombre de demandes par seconde.
-      const total = await api('/api/v0/stats/total', q(r.start, r.end));
-      const prevTotal = await api('/api/v0/stats/total', q(r.prevStart, r.prevEnd));
-      const hits = await api('/api/v0/stats/hits', { ...q(r.start, r.end), limit: 100 });
-      const prevHits = await api('/api/v0/stats/hits', { ...q(r.prevStart, r.prevEnd), limit: 100 });
+      const total = await api('/api/v0/stats/total', q(r.prevStart, r.end));
+      const hits = await api('/api/v0/stats/hits', { ...q(r.prevStart, r.end), limit: 100 });
       // Facultatifs : certains navigateurs bloquent ces demandes, la page s'affiche quand même.
       const optional = (path) => api(path, { ...q(r.start, r.end), limit: 10 }, undefined, 1).catch((e) => { if (e.auth) throw e; return { stats: [] }; });
       const sizes = await optional('/api/v0/stats/sizes');
       const systems = await optional('/api/v0/stats/systems');
-      raw = { total, prevTotal, hits: hits.hits, prevHits: prevHits.hits, systems: systems.stats || [], sizes: sizes.stats || [] };
+      raw = {
+        total: splitTotal(total, r.start, r.end), prevTotal: splitTotal(total, r.prevStart, r.prevEnd),
+        hits: splitHits(hits.hits, r.start, r.end), prevHits: splitHits(hits.hits, r.prevStart, r.prevEnd),
+        systems: systems.stats || [], sizes: sizes.stats || [],
+      };
     }
     return { ...raw, r, days: P.days, sum: summarize(raw.hits), prevSum: summarize(raw.prevHits), at: new Date() };
   }
@@ -500,11 +517,9 @@
   }
   // Les deux collections d'annales : officielles et non officielles.
   async function countAnnales() {
-    let n = null;
-    for (const f of ['annales/liste.txt', 'annales-nf/liste.txt']) {
-      try { n = (n || 0) + (await listLines(f)).length; } catch { /* collection absente */ }
-    }
-    return n;
+    const counts = await Promise.all(['annales/liste.txt', 'annales-nf/liste.txt']
+      .map((f) => listLines(f).then((l) => l.length).catch(() => null))); // collection absente : null
+    return counts.some((n) => n != null) ? counts.reduce((s, n) => s + (n || 0), 0) : null;
   }
 
   async function refresh() {
@@ -512,9 +527,12 @@
     main.classList.add('loading');
     document.querySelector('.refresh')?.classList.add('spin');
     try {
-      if (courseCount == null) courseCount = await countCourses();
-      if (examCount == null) examCount = await countAnnales();
-      const [result] = await Promise.all([load(), DEMO ? null : loadCollectiveStats()]);
+      // Tout part en même temps ; la page ne s'affiche qu'une fois, quand tout est prêt.
+      const [result, courses, annales] = await Promise.all([load(),
+        courseCount == null ? countCourses() : courseCount,
+        examCount == null ? countAnnales() : examCount,
+        DEMO ? null : loadCollectiveStats()]);
+      courseCount = courses; examCount = annales;
       last = result;
       renderDash();
     } catch (e) {
