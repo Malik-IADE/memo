@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <!-- Seuls les scripts du site et de GoatCounter peuvent s'exécuter ; pas de script en ligne. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://gc.zgo.at; connect-src 'self' https://memo-iade.goatcounter.com https://memo-statistiques.malikbm88.workers.dev; img-src 'self' https: data: blob:; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#f5f4f0" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#121214" media="(prefers-color-scheme: dark)">
@@ -23,7 +25,7 @@
   <script type="module" src="js/app.js"></script>
   <!-- Statistiques de visite anonymes (GoatCounter : sans cookies). -->
   <script data-goatcounter="https://memo-iade.goatcounter.com/count" data-goatcounter-settings='{"no_onload": true}'
-          async src="//gc.zgo.at/count.js"></script>
+          async src="https://gc.zgo.at/count.js"></script>
 <script src="js/collectives.js"></script>
 </body>
 </html>
