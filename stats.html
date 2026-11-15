@@ -192,7 +192,8 @@
   .empty { color: var(--muted); font-size: .88rem; margin: 0; padding: 8px 0; }
 
   /* Moyennes des annales : une ligne par annale, historique au toucher */
-  .exams { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+  .exams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; grid-auto-flow: row dense; gap: 4px 14px; }
+  .exam.open { grid-column: 1 / -1; }
   .exam { border-radius: 12px; transition: background .15s; }
   .exam.open { background: var(--cell0); }
   .exam-row { width: 100%; display: flex; align-items: center; gap: 14px; padding: 10px 12px; border: 0; background: none; border-radius: 12px; cursor: pointer; text-align: left; }
@@ -205,15 +206,12 @@
   .tag { flex-shrink: 0; font-size: .68rem; font-weight: 650; padding: 2px 7px; border-radius: 99px; background: var(--accent-soft); color: var(--accent-ink); }
   .tag.nf { background: var(--cell0); color: var(--muted); }
   .exam-score { min-width: 64px; font-size: 1.15rem; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; letter-spacing: -.02em; white-space: nowrap; }
+  .exam-score .grad { background: linear-gradient(120deg, var(--a1), var(--a2) 55%, var(--a3)); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .exam-score small { font-size: .7rem; font-weight: 600; color: var(--faint); }
   .exam-n { margin-left: auto; font-size: .76rem; color: var(--muted); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
   .chev { flex-shrink: 0; width: 16px; height: 16px; fill: none; stroke: var(--faint); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; transition: transform .2s; }
   .exam.open .chev { transform: rotate(180deg); }
   .exam-detail { padding: 4px 12px 14px; display: flex; flex-direction: column; gap: 8px; }
-  .exam-kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 6px; }
-  .exam-kpis > div { display: flex; flex-direction: column; gap: 1px; padding: 10px 12px; border-radius: 10px; background: var(--card-solid); border: 1px solid var(--line); min-width: 0; }
-  .exam-kpis b { font-size: 1.1rem; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
-  .exam-chart-t { font-size: .78rem; font-weight: 650; color: var(--muted); margin-top: 4px; }
   .exam-note { margin: 2px 0 0; font-size: .74rem; color: var(--faint); }
 
   .foot { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center; color: var(--muted); font-size: .8rem; text-align: center; padding-top: 6px; }
@@ -241,7 +239,7 @@
     .notes-n { font-size: 1.2rem; }
     .notes-l { font-size: .72rem; }
     .grid2 { grid-template-columns: 1fr; }
-    .exam-kpis { grid-template-columns: repeat(2, 1fr); }
+    .exams { grid-template-columns: 1fr; }
   }
   @media (max-width: 560px) {
     .wrap { padding-left: 14px; padding-right: 14px; gap: 14px; }
@@ -567,7 +565,7 @@
         const day = new Date(Date.now() - d * 864e5).toISOString().slice(0, 10);
         const tries = 1 + ((d * 7 + k * 3) % 5);
         n += tries;
-        history.push({exam, day, average: Math.max(1, Math.min(20, avg + Math.sin(d + k) * 2.4 - d * .08)), participants: tries});
+        history.push({exam, day, average: Math.max(1, Math.min(20, avg + Math.sin(d + k) * 2.4 - d * .08)), participants: tries, attempts: tries + ((d + k) % 3)});
       }
       exams.push({exam, average: avg, participants: Math.ceil(n * .6)});
     });
@@ -581,27 +579,17 @@
     return {ue: `UE ${m[3]}`, sem: m[2].toUpperCase(), period: m[4] || '2022-2024', nf: !!m[1]};
   }
   // Couleur d'une note sur 20, reprise des boutons de notation.
-  const scoreColor = (v) => v < 8 ? 'var(--g0)' : v < 10 ? 'var(--g1)' : v < 14 ? 'var(--g2)' : 'var(--g3)';
   const shortDay = (d) => d.slice(5).split('-').reverse().join('/');
 
   function examDetail(row, hist) {
-    const tries = hist.reduce((a, r) => a + (r.attempts ?? r.participants ?? 0), 0);
-    const best = hist.length ? Math.max(...hist.map((r) => r.average)) : null;
+    const long = (d) => new Date(d + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'});
     return h('div', {class: 'exam-detail'},
-      h('div', {class: 'exam-kpis'},
-        h('div', {}, h('span', {class: 'sub'}, 'Moyenne actuelle'), h('b', {style: `color:${scoreColor(row.average)}`}, nf1.format(row.average) + ' / 20')),
-        h('div', {}, h('span', {class: 'sub'}, 'Navigateurs'), h('b', {}, nf.format(row.participants))),
-        h('div', {}, h('span', {class: 'sub'}, 'Tentatives relevées'), h('b', {}, nf.format(tries))),
-        h('div', {}, h('span', {class: 'sub'}, 'Meilleur jour'), h('b', {}, best == null ? '—' : nf1.format(best) + ' / 20'))),
-      hist.length ? [
-        h('div', {class: 'exam-chart-t'}, 'Moyenne par jour'),
-        areaChart(hist.map((r) => ({label: shortDay(r.day), full: new Date(r.day + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'}), v: r.average})),
-          {height: 190, unit: 'point', scoreScale: true, ticks: hist.length > 8 ? 5 : hist.length}),
-        h('div', {class: 'exam-chart-t'}, 'Tentatives par jour'),
-        barChart(hist.map((r) => ({label: shortDay(r.day), full: new Date(r.day + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'}), v: r.attempts ?? r.participants ?? 0})),
-          {height: 130, unit: 'tentative', tickEvery: hist.length > 8 ? Math.ceil(hist.length / 6) : 1}),
-      ] : h('p', {class: 'empty'}, 'Le premier relevé quotidien apparaîtra demain.'),
-      h('p', {class: 'exam-note'}, 'Dernière tentative de chaque navigateur · les notes de 0 sont exclues.'));
+      hist.length ? areaChart(hist.map((r) => ({
+        label: shortDay(r.day), full: long(r.day), v: r.average,
+        tip: [plural(r.attempts ?? r.participants ?? 0, 'tentative'), plural(r.participants ?? 0, 'navigateur')],
+      })), {height: 200, unit: 'point', scoreScale: true, ticks: hist.length > 8 ? 5 : hist.length})
+        : h('p', {class: 'empty'}, 'Le premier relevé quotidien apparaîtra demain.'),
+      h('p', {class: 'exam-note'}, 'Moyenne quotidienne · les notes de 0 sont exclues.'));
   }
 
   function collectiveCards() {
@@ -613,7 +601,6 @@
       .sort((a, b) => a.info.ue.localeCompare(b.info.ue, 'fr', {numeric: true}) || a.info.period.localeCompare(b.info.period));
     const history = (data?.history || []).filter((r) => r.average > 0).sort((a, b) => a.day.localeCompare(b.day));
     const unavailable = collectiveFailed ? 'Statistiques collectives indisponibles.' : null;
-    const global = exams.length ? exams.reduce((a, r) => a + r.average * r.participants, 0) / exams.reduce((a, r) => a + r.participants, 0) : null;
 
     const toggle = (id) => {
       openExam = openExam === id ? '' : id;
@@ -640,8 +627,7 @@
       h('section', {class: 'card'},
         h('div', {class: 'card-head'},
           h('div', {}, h('h2', {}, 'Moyennes des annales'),
-            h('div', {class: 'sub'}, 'Dernière tentative de chaque navigateur · touchez une annale pour son historique')),
-          global != null ? h('span', {class: 'pill'}, `Moyenne générale ${nf1.format(global)} / 20`) : null),
+            h('div', {class: 'sub'}, 'Dernière tentative de chaque navigateur · touchez une annale pour son historique'))),
         exams.length ? h('ul', {class: 'exams'}, exams.map((r) => {
           const on = r.exam === openExam;
           return h('li', {class: 'exam' + (on ? ' open' : ''), 'data-exam': r.exam},
@@ -649,7 +635,7 @@
               h('span', {class: 'exam-name'},
                 h('b', {}, `${r.info.ue}`), h('span', {class: 'exam-meta'}, [r.info.sem, r.info.period].filter(Boolean).join(' · ')),
                 h('span', {class: 'tag' + (r.info.nf ? ' nf' : '')}, r.info.nf ? 'Non off.' : 'Officielle')),
-              h('span', {class: 'exam-score', style: `color:${scoreColor(r.average)}`}, nf1.format(r.average), h('small', {}, ' /20')),
+              h('span', {class: 'exam-score'}, h('span', {class: 'grad'}, nf1.format(r.average)), h('small', {}, ' /20')),
               h('span', {class: 'exam-n'}, nf.format(r.participants) + ' nav.'),
               (() => { const c = s('svg', {class: 'chev', viewBox: '0 0 24 24', 'aria-hidden': 'true'}); c.append(s('path', {d: 'M6 9l6 6 6-6'})); return c; })()),
             on ? examDetail(r, history.filter((x) => x.exam === r.exam)) : null);
@@ -884,7 +870,7 @@
         tip.replaceChildren(
           h('div', { class: 'dim' }, p.full),
           h('div', {}, h('span', { class: 'k', style: 'border-color:var(--a2)' }), h('b', {}, p.v == null ? '—' : scoreScale ? nf1.format(p.v) + ' / 20' : plural(p.v, unit))),
-          scoreScale ? null : h('div', { class: 'dim' }, h('span', { class: 'k', style: 'border-top-style:dashed' }), `${nf.format(p.p || 0)} avant`));
+          ...(p.tip ? p.tip.map((x) => h('div', { class: 'dim' }, x)) : [scoreScale ? null : h('div', { class: 'dim' }, h('span', { class: 'k', style: 'border-top-style:dashed' }), `${nf.format(p.p || 0)} avant`)].filter(Boolean)));
         placeTip(tip, X, Math.min(y(p.v || 0), y(p.p || 0)));
       };
       zone.addEventListener('pointermove', (e) => show(e.clientX));
