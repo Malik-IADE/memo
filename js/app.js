@@ -1368,7 +1368,9 @@ function openViewer(src) {
     const ratio = img.naturalWidth / img.naturalHeight || 2;
     // Ordinateur : l'image tient entière dans la fenêtre (sans dépasser sa taille réelle).
     const fit = Math.min(img.naturalWidth, window.innerWidth - 48, (window.innerHeight - 140) * ratio);
-    const base = window.innerWidth >= 768 ? fit
+    // Schémas : toujours entiers à l'écran (rien à faire glisser) ; toucher agrandit.
+    const schema = /\/Schemas\//.test(src);
+    const base = window.innerWidth >= 768 || schema ? (schema ? Math.min(window.innerWidth - 16, (window.innerHeight - 130) * ratio) : fit)
       : ratio > 3 ? 240 * ratio : Math.max(window.innerWidth, Math.min(900, img.naturalWidth));
     img.style.width = `${Math.round(base * zoom)}px`;
   };
