@@ -50,3 +50,4 @@ S1/4.4/aes-precautions.txt
 
 // Tous les scores, réunis dans une catégorie à part (sous Semestre 2)
 Scores/scores.txt
+Schemas/schemas.txt
