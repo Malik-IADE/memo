@@ -30,9 +30,20 @@ export function syncLibrary({ force = false } = {}) {
         .filter((l) => l && !l.startsWith('//') && !l.startsWith('#'));
 
       const total = { added: 0, updated: 0, removed: 0 };
-      for (const file of files) {
+      // Téléchargements en parallèle (6 à la fois), puis mise à jour dans l'ordre de la liste.
+      const texts = new Array(files.length);
+      let next = 0;
+      const worker = async () => {
+        while (next < files.length) {
+          const i = next++;
+          texts[i] = await fetchText(`paquets/${files[i]}`).catch((err) => err);
+        }
+      };
+      await Promise.all(Array.from({ length: Math.min(6, files.length) }, worker));
+      for (const [i, file] of files.entries()) {
         try {
-          const { decks } = parseText(await fetchText(`paquets/${file}`), file.replace(/\.[^.]+$/, ''));
+          if (texts[i] instanceof Error) throw texts[i];
+          const { decks } = parseText(texts[i], file.replace(/\.[^.]+$/, ''));
           if (!decks.length) continue;
           // [img:images/x.jpg] est relatif au dossier du cours → chemin complet depuis l'app
           const dir = `paquets/${file.replace(/[^/]*$/, '')}`;

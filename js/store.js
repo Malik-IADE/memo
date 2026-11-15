@@ -242,8 +242,17 @@ export function importBackup(json) {
   if (!d || typeof d.decks !== 'object' || typeof d.cards !== 'object') {
     throw new Error('Fichier de sauvegarde invalide');
   }
+  // Un fichier de sauvegarde peut venir de quelqu'un d'autre : on n'accepte que des objets
+  // bien formés (id simples, textes en texte), pour qu'aucun contenu ne s'injecte dans la page.
+  const okId = (v) => typeof v === 'string' && /^[\w-]{1,64}$/.test(v);
+  const okStr = (v) => typeof v === 'string' && v.length <= 20000;
+  const valid = {
+    decks: (o, id) => o.id === id && okStr(o.name) && (o.source == null || okStr(o.source)),
+    cards: (o, id) => o.id === id && okId(o.deckId) && okStr(o.front) && okStr(o.back),
+  };
   for (const kind of ['decks', 'cards']) {
     for (const [id, obj] of Object.entries(d[kind])) {
+      if (!okId(id) || !obj || typeof obj !== 'object' || !valid[kind](obj, id)) continue;
       const cur = db[kind][id];
       if (!cur || (obj.updated || 0) > (cur.updated || 0)) db[kind][id] = obj;
     }

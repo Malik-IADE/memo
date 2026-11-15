@@ -13,7 +13,9 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&
 /** Images : « [img:chemin] » n'importe où dans la question ou la réponse. */
 const IMG = /\[img:([^\]]+)\]\s*/g;
 const takeImgs = (s) => ({ imgs: [...s.matchAll(IMG)].map((m) => m[1].trim()), text: s.replace(IMG, '').trim() });
-const imgsHtml = (imgs) => imgs.map((src) => `<button type="button" class="card-img" data-action="zoom" data-src="${esc(src)}" aria-label="Agrandir l'image">
+// Seulement des images : chemin du site, https ou data:image (jamais javascript:…).
+const safeSrc = (src) => /^(https:|data:image\/)/i.test(src) || !/^[a-z][\w+.-]*:/i.test(src);
+const imgsHtml = (imgs) => imgs.filter(safeSrc).map((src) => `<button type="button" class="card-img" data-action="zoom" data-src="${esc(src)}" aria-label="Agrandir l'image">
     <img src="${esc(src)}" alt="" loading="lazy"><span class="card-img-hint">Touchez pour agrandir</span></button>`).join('');
 const plainText = (s) => (takeImgs(s).imgs.length ? '🖼 ' : '') + takeImgs(s).text;
 // Typographie française à l'affichage : espace insécable avant ? ! : ; » et après «
@@ -277,7 +279,7 @@ function topbarFolder(backHref, title, eyebrow = '') {
   return `
     <header class="topbar">
       <div class="topbar-nav">
-        <a class="icon-btn" href="${backHref}" aria-label="Retour">${ico.back}</a>
+        <a class="icon-btn" href="${esc(backHref)}" aria-label="Retour">${ico.back}</a>
         ${backHref === '#/' ? '' : `<a class="icon-btn" href="#/" aria-label="Accueil" title="Accueil">${ico.home}</a>`}
       </div>
       <div class="topbar-title">
@@ -985,7 +987,7 @@ function renderReview(id) {
     const nothing = session.reviewed === 0;
     $app.innerHTML = `
       <header class="topbar">
-        <a class="icon-btn" href="${backHref}" aria-label="Retour">${ico.back}</a>
+        <a class="icon-btn" href="${esc(backHref)}" aria-label="Retour">${ico.back}</a>
         <h1 class="title-sm">${esc(d.name)}</h1><span></span>
       </header>
       <main class="page done">
@@ -1015,7 +1017,7 @@ function renderReview(id) {
   $app.innerHTML = `
     <div class="review">
       <header class="topbar">
-        <a class="icon-btn" href="${backHref}" aria-label="Quitter la révision">${ico.close}</a>
+        <a class="icon-btn" href="${esc(backHref)}" aria-label="Quitter la révision">${ico.close}</a>
         <span class="title-sm">${esc(d.name)}</span>
         <span class="counts"><span class="count new">${nNew}</span><span class="count due">${nRev}</span></span>
       </header>
@@ -1337,7 +1339,7 @@ $app.addEventListener('click', (e) => {
     }
     case 'reveal': return reveal();
     case 'grade': return grade(Number(el.dataset.grade));
-    case 'zoom': return openViewer(el.dataset.src);
+    case 'zoom': return safeSrc(el.dataset.src) && openViewer(el.dataset.src);
     case 'clear-results': {
       if (!confirm('Effacer toutes vos notes d\'annales ? Les annales elles-mêmes sont conservées.')) return;
       try { localStorage.removeItem(RESULTATS_KEY); } catch {}
