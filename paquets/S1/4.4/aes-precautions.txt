@@ -1,0 +1,21 @@
+// Cours 4.4 – AES, précautions standard et complémentaires
+// Questions inspirées d'Anki, réadaptées au support de cours. UE 4.4 : peu de cartes, l'essentiel seulement.
+// L'hygiène des mains (savon, FHA, indications, technique) est traitée dans le paquet « Hygiène des mains » : non reprise ici.
+// L'historique, l'épidémiologie et les cas cliniques du support ne sont pas repris.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – AES et précautions
+
+// ---------- AES ----------
+Qu'est-ce qu'un accident d'exposition au sang (AES), et quels risques fait-il courir ? :: Tout accident avec effraction cutanée (piqûre, coupure) ou projection sur une muqueuse ou une peau lésée\nAvec du sang ou un liquide biologique\nRisques principaux : VIH, VHC, VHB\nÀ retenir : une piqûre profonde par aiguille creuse pleine de sang est la plus à risque
+Quels sont les gestes immédiats après un AES ? :: Piqûre ou coupure : ne pas faire saigner\nLaver au savon doux, rincer, sécher\nAntisepsie au Dakin (à défaut, autre antiseptique) : 5 min de contact\nProjection dans l'œil ou la bouche : rinçage à l'eau ou au sérum physiologique pendant 5 min
+Que faire après les premiers soins d'un AES ? :: Évaluation urgente du risque par un médecin : statut du patient source, aiguille creuse ou pleine, profondeur, quantité de liquide\nProphylaxie antirétrovirale ou immunoglobulines anti-VHB si besoin\nSérologies du patient source (avec son accord) et de l'accidenté : VIH en urgence, VHB, VHC\nDéclaration dans les 48 h, consultation en santé au travail dans les 8 jours
+Quelles règles de manipulation des objets piquants, coupants ou tranchants préviennent les AES ? :: Utiliser du matériel sécurisé\nNe pas recapuchonner, ne pas désadapter les aiguilles à la main\nÉliminer immédiatement dans un collecteur à portée de main\nRespecter la limite de remplissage, ne jamais forcer\nFermeture provisoire entre deux usages, collecteur fixé sur un support
+
+// ---------- Précautions standard ----------
+Que sont les précautions standard, et quelles sont leurs six composantes ? :: Mesures pour tout patient, tout soin, tout lieu, quel que soit le statut infectieux\nHygiène des mains\nHygiène respiratoire\nÉquipements de protection individuelle\nGestion des excreta\nGestion de l'environnement\nPrévention des AES (objets piquants, coupants, tranchants)
+Quelles sont les règles du port de gants ? :: Indications : risque de contact avec du sang, des muqueuses ou une peau lésée, soins à risque de piqûre, mains du soignant lésées\nFHA juste avant et juste après\nUne paire par patient et par activité ; changer en passant d'un site contaminé à un autre site\nRetirer dès la fin du soin, avant de toucher l'environnement\nNi gants sur la peau saine, ni friction ou lavage des gants
+
+// ---------- Précautions complémentaires ----------
+Comment prendre en charge au bloc un patient porteur de BHR ? :: En fin de programme (hors urgence), entrée directe en salle\nTablier à usage unique, FHA avant et après tout contact ; gants selon les précautions standard\nAccès limité, pas de circulation hors de la salle avec tablier et gants\nRéveil en salle ou en box individuel, sinon par un IDE désigné\nBionettoyage renforcé en fin d'intervention
+Quelles précautions respiratoires appliquer au bloc ? :: Catégorie A (grippe, Covid, VRS) : masque médical pour le patient et les soignants, FFP2 pour les gestes à risque d'aérosols\nCatégorie B (rougeole, tuberculose, varicelle) : FFP2 pour le patient et les soignants\nGestes à risque : intubation, extubation, aspiration trachéale, fibroscopie\nNe jamais couper la surpression de la salle, limiter les entrées et sorties
