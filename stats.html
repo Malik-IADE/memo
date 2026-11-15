@@ -582,6 +582,9 @@
   const shortDay = (d) => d.slice(5).split('-').reverse().join('/');
 
   function examDetail(row, hist) {
+    // Tant que le relevé du jour n'est pas fait, on ajoute le point d'aujourd'hui avec les données actuelles.
+    const today = new Date().toLocaleDateString('sv-SE');
+    if (!hist.some((r) => r.day === today)) hist = [...hist, {day: today, average: row.average, participants: row.participants, attempts: row.attempts}];
     const long = (d) => new Date(d + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'});
     return h('div', {class: 'exam-detail'},
       hist.length ? areaChart(hist.map((r) => ({
