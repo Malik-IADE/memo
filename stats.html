@@ -592,17 +592,25 @@
   const shortDay = (d) => d.slice(5).split('-').reverse().join('/');
 
   function examDetail(row, hist) {
-    // Tant que le relevé du jour n'est pas fait, on ajoute le point d'aujourd'hui avec les données actuelles.
+    // Tant que le relevé du jour n'est pas fait, on ajoute le jour courant avec les données actuelles.
     const today = new Date().toLocaleDateString('sv-SE');
     if (!hist.some((r) => r.day === today)) hist = [...hist, {day: today, average: row.average, participants: row.participants, attempts: row.attempts}];
     const long = (d) => new Date(d + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'});
+    // Diagramme en barres : un jour par barre, du premier relevé à aujourd'hui (14 jours au moins,
+    // 30 au plus). Les jours sans tentative restent vides, pour voir l'activité dans le temps.
+    const byDay = new Map(hist.map((r) => [r.day, r]));
+    const first = new Date(hist[0].day + 'T12:00');
+    const start = new Date(Math.max(first.getTime() - 0, Date.now() - 29 * 864e5));
+    const span = Math.max(14, Math.round((Date.now() - start.getTime()) / 864e5) + 1);
+    const days = Array.from({length: Math.min(30, span)}, (_, k) => new Date(Date.now() - (Math.min(30, span) - 1 - k) * 864e5).toLocaleDateString('sv-SE'));
+    const pts = days.map((d) => {
+      const r = byDay.get(d);
+      return {label: shortDay(d), full: long(d), v: r ? r.average : null,
+        tip: r ? [plural(r.attempts ?? r.participants ?? 0, 'tentative'), plural(r.participants ?? 0, 'navigateur')] : []};
+    });
     return h('div', {class: 'exam-detail'},
-      hist.length ? areaChart(hist.map((r) => ({
-        label: shortDay(r.day), full: long(r.day), v: r.average,
-        tip: [plural(r.attempts ?? r.participants ?? 0, 'tentative'), plural(r.participants ?? 0, 'navigateur')],
-      })), {height: 200, unit: 'point', scoreScale: true, ticks: hist.length > 8 ? 5 : hist.length})
-        : h('p', {class: 'empty'}, 'Le premier relevé quotidien apparaîtra demain.'),
-      h('p', {class: 'exam-note'}, 'Moyenne quotidienne · les notes de 0 sont exclues.'));
+      barChart(pts, {height: 200, unit: 'point', scoreScale: true, tickEvery: Math.ceil(pts.length / 7)}),
+      h('p', {class: 'exam-note'}, 'Moyenne quotidienne · une barre par jour · les notes de 0 sont exclues.'));
   }
 
   function collectiveCards() {
@@ -912,10 +920,10 @@
   }
 
   /* ---------- Histogramme (heures, jours de la semaine) ---------- */
-  function barChart(pts, { height = 170, unit, tickEvery = 0 }) {
+  function barChart(pts, { height = 170, unit, tickEvery = 0, scoreScale = false }) {
     return responsive((wrap, W) => {
       const L = 34, T = 10, B = 24, H = height, iw = W - L, ih = H - T - B, n = pts.length;
-      const nice = niceMax(Math.max(1, ...pts.map((p) => p.v || 0)));
+      const nice = scoreScale ? {max: 20, steps: 4} : niceMax(Math.max(1, ...pts.map((p) => p.v || 0)));
       const y = (v) => T + ih - (v / nice.max) * ih;
       const step = iw / n, gap = Math.max(2, Math.min(step * .32, 12)), bw = Math.max(2, Math.min(step - gap, 46)), pad = (step - bw) / 2;
       const id = 'b' + (++uid);
@@ -941,7 +949,9 @@
         const b = svg.getBoundingClientRect();
         const i = Math.max(0, Math.min(n - 1, Math.floor((cx - b.left - L) / step)));
         bars.forEach((el, k) => { el.style.opacity = k === i ? 1 : .35; });
-        tip.replaceChildren(h('div', { class: 'dim' }, pts[i].full[0].toUpperCase() + pts[i].full.slice(1)), h('b', {}, plural(pts[i].v || 0, unit)));
+        tip.replaceChildren(h('div', { class: 'dim' }, pts[i].full[0].toUpperCase() + pts[i].full.slice(1)),
+          h('b', {}, scoreScale ? (pts[i].v == null ? 'Aucune tentative' : nf1.format(pts[i].v) + ' / 20') : plural(pts[i].v || 0, unit)),
+          ...(pts[i].tip || []).map((x) => h('div', { class: 'dim' }, x)));
         placeTip(tip, L + i * step + step / 2, y(pts[i].v || 0));
       };
       zone.addEventListener('pointermove', (e) => show(e.clientX));
