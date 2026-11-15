@@ -141,7 +141,8 @@ function route() {
 
 function render() {
   const r = route();
-  if (r.view === 'deck' && store.deck(r.id)) return renderDeck(r.id);
+  // L'écran d'un cours n'existe plus : ouvrir un cours lance directement sa révision.
+  if (r.view === 'deck' && store.deck(r.id)) { location.replace(`#/review/${enc(r.id)}`); return; }
   if (r.view === 'review' && (r.id === MIX || store.deck(r.id))) return renderReview(r.id);
   if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub) : renderFolder(r.id);
   if (r.view === 'fc') return renderFlashcards();
@@ -176,9 +177,12 @@ function trackView() {
 
 // L'écran précédent, pour que la carte seule sache où revenir (recherche ou cours).
 let hashPrecedent = '#/';
+// Le dernier menu visité (ni révision, ni carte seule) : la croix d'une révision y ramène.
+let menuPrecedent = null;
 window.addEventListener('hashchange', (e) => {
   const avant = new URL(e.oldURL).hash || '#/';
   if (!avant.startsWith('#/carte/')) hashPrecedent = avant;
+  if (!/^#\/(review|carte|deck)\//.test(avant)) menuPrecedent = avant;
   window.scrollTo(0, 0); render(); trackView();
 });
 
@@ -633,7 +637,7 @@ function deckRows(rows) {
     <ul class="deck-list">
       ${rows.map(({ d, s }) => `
         <li class="deck-row">
-          <a class="deck-link" href="#/deck/${d.id}">
+          <a class="deck-link" href="#/review/${d.id}">
             <span class="deck-name">${esc(shortName(d.name))}</span>
             <span class="deck-meta">${plural(s.total, 'carte')}</span>
           </a>
@@ -966,9 +970,10 @@ function renderReview(id) {
   if (!session || session.deckId !== id) session = buildSession(id);
   const mix = id === MIX;
   const d = mix ? { name: MIX_NAME } : store.deck(id);
-  // En fermant, on revient au menu d'où part la révision : l'accueil pour « Cours
-  // mélangés » et « Scores », le dossier de l'UE pour un cours.
-  const backHref = mix ? '#/' : folderHref(d);
+  // En fermant, on revient au menu d'où part la révision (UE, accueil, recherche…).
+  // À défaut (lien direct, rechargement) : l'accueil pour « Cours mélangés » et
+  // « Scores », le dossier de l'UE pour un cours.
+  const backHref = menuPrecedent || (mix ? '#/' : folderHref(d));
   const c = session.queue.length ? store.card(session.queue[0]) : null;
 
   if (!c) {
@@ -988,7 +993,6 @@ function renderReview(id) {
         ${nothing ? '' : '<p class="muted">Prochaine session : demain.</p>'}
         <div class="stack">
           <a class="btn primary wide" href="#/">Retour à l'accueil</a>
-          ${mix ? '' : `<a class="btn soft wide" href="#/deck/${id}">Voir le paquet</a>`}
         </div>
       </main>`;
     return;
@@ -1051,8 +1055,8 @@ function renderCard(cardId) {
   const qf = takeImgs(c.front), qb = takeImgs(c.back);
   // On revient là d'où la carte a été ouverte : la recherche, ou la liste du cours.
   const venuDeRecherche = hashPrecedent.startsWith('#/recherche');
-  const retour = venuDeRecherche ? '#/recherche' : `#/deck/${d.id}`;
-  const retourLabel = venuDeRecherche ? 'Retour à la recherche' : 'Retour au cours';
+  const retour = venuDeRecherche ? '#/recherche' : folderHref(d);
+  const retourLabel = venuDeRecherche ? 'Retour à la recherche' : 'Retour aux cours';
 
   $app.innerHTML = `
     <div class="review">
@@ -1141,7 +1145,7 @@ function newDeckModal() {
     const name = f.get('name').trim();
     if (!name) return false;
     const d = store.deckByName(name) || store.createDeck(name);
-    location.hash = `#/deck/${d.id}`;
+    location.hash = folderHref(d);
   });
 }
 
@@ -1194,7 +1198,7 @@ function runImport(text, defaultName, prune = false) {
   toast(`${r.names.join(', ')} : ${parts.join(' · ')}`);
   if (r.names.length === 1) {
     const d = store.deckByName(r.names[0]);
-    if (location.hash === `#/deck/${d.id}`) render(); else location.hash = `#/deck/${d.id}`;
+    if (location.hash === folderHref(d)) render(); else location.hash = folderHref(d);
   } else render();
   return true;
 }
