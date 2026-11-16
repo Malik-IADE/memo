@@ -11,7 +11,7 @@ Quelle est la pression artérielle normale ? :: PAS < 140 mmHg et PAD < 90 mmHg
 Quelle est la différence entre HTA primitive et HTA secondaire ? :: Primitive : la grande majorité, sans cause identifiée\nSecondaire : cause identifiable, parfois curable — rénovasculaire, iatrogène (alcool, acide glycyrrhizique), endocrinienne (hyperaldostéronisme, hypercorticisme, phéochromocytome)
 
 // ---------- Physiopathologie ----------
-Pourquoi l'hypertendu réagit-il de façon exagérée sous anesthésie ? :: Hypersensibilité au stress adrénergique\nBaroréflexe altéré, vaisseaux moins élastiques\nVolémie souvent basse (vasoconstriction, diurétiques)\nÀ retenir : réponses exagérées à la stimulation comme à l'inhibition du sympathique
+Pourquoi l'hypertendu réagit-il de façon exagérée sous anesthésie ? :: Hypersensibilité au stress adrénergique\nBaroréflexe altéré, vaisseaux moins élastiques\nVolémie souvent basse (vasoconstriction, diurétiques)\nRéponses exagérées à la stimulation comme à l'inhibition du sympathique
 Pourquoi une baisse de pression est-elle plus dangereuse chez l'hypertendu ? :: L'autorégulation des organes est décalée vers des pressions plus hautes\nCœur, reins et cerveau ont besoin d'une pression plus élevée pour être perfusés
 Pourquoi le ventricule de l'hypertendu tolère-t-il mal les variations de volémie ? :: Il est hypertrophié et rigide : une baisse du retour veineux fait chuter le VES\nUn remplissage excessif provoque une congestion
 Qu'est-ce qu'une crise aiguë hypertensive ? :: Une hausse rapide de la PA avec retentissement viscéral\nElle impose un traitement antihypertenseur urgent
@@ -23,7 +23,7 @@ Comment définit-on l'hypotension peropératoire ? :: Pas de définition univoqu
 Qu'est-ce que l'hypotension post-induction ? :: Une hypotension qui survient après l'induction, avant l'incision
 Quels sont les mécanismes de l'hypotension sous anesthésie ? :: Vasodilatation\nBaisse du débit cardiaque (bradycardie, hypovolémie)\nPression intrathoracique positive (ventilation)\nAltération du sympathique et du baroréflexe
 Quels sont les facteurs de risque d'hypotension peropératoire ? :: Âge, ASA élevé\nPA basse avant l'opération\nPropofol\nChirurgie longue ou urgente\nMédicaments
-Quelles sont les conséquences d'une hypotension peropératoire ? :: Insuffisance rénale aiguë\nIschémie ou infarctus myocardique\nDelirium\nDécès\nÀ retenir : même une minute d'hypotension peut suffire
+Quelles sont les conséquences d'une hypotension peropératoire ? :: Insuffisance rénale aiguë\nIschémie ou infarctus myocardique\nDelirium\nDécès\nMême une minute d'hypotension peut suffire
 Quelle cible de pression viser chez l'hypertendu au bloc ? :: PAM > 70 mmHg ou > 90 % de la PAM habituelle\nPAS dans ± 20 % de la valeur de base
 Remonter la pression avec un vasopresseur suffit-il à préserver le débit cardiaque ? :: Non : PA = Q × R, une PA corrigée ne garantit pas le débit
 
@@ -31,7 +31,7 @@ Remonter la pression avec un vasopresseur suffit-il à préserver le débit card
 Faut-il reporter une intervention pour une HTA découverte en consultation ? :: Non si PAD < 110 mmHg et PAS < 180 mmHg\nNe pas débuter de traitement agressif : risque d'hypotension peropératoire
 Quels antihypertenseurs poursuit-on jusqu'à l'intervention ? :: Bêtabloquants\nAntihypertenseurs centraux (clonidine)\nInhibiteurs calciques\nAlphabloquants
 Quels antihypertenseurs arrête-t-on avant l'intervention ? :: Diurétiques\nIEC et ARA2 en cas d'HTA isolée (arrêt de plus de 12 h)\nInhibiteur direct de la rénine : jusqu'à 5 jours avant
-Pourquoi ne faut-il pas arrêter un bêtabloquant avant une chirurgie ? :: Risque de rebond : HTA, tachycardie, ischémie coronaire\nAu bloc, il limite la tachycardie\nPiège : il masque la tachycardie d'une hypovolémie
+Pourquoi ne faut-il pas arrêter un bêtabloquant avant une chirurgie ? :: Risque de rebond : HTA, tachycardie, ischémie coronaire\nAu bloc, il limite la tachycardie\nMais il masque la tachycardie d'une hypovolémie
 Quel est le risque d'IEC ou d'ARA2 poursuivis jusqu'au bloc ? :: Une hypotension sévère, parfois réfractaire
 Que vérifier lors de la visite préanesthésique d'un hypertendu ? :: La PA de référence\nLa prise des traitements à poursuivre et l'arrêt des autres\nUne prémédication antihypertensive si besoin
 

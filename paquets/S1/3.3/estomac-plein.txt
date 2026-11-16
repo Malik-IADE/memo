@@ -10,7 +10,7 @@ Quels sont les trois noms de l'induction pour estomac plein ? :: Induction en s�
 Qu'est-ce que le syndrome de Mendelson ? :: Une pneumopathie chimique due à l'inhalation de liquide gastrique acide
 Quand une inhalation est-elle certaine, et quand est-elle probable ? :: Certaine : liquide gastrique vu et aspiré dans l'arbre trachéo-bronchique\nProbable : liquide gastrique dans les VAS, hypoxie périopératoire (SpO2 < 90 %) avec ou sans sibilants, radiographie évocatrice
 À quels moments survient l'inhalation en anesthésie ? :: Surtout à l'induction, avant ou pendant la laryngoscopie (anesthésie trop légère, intubation difficile)\nMais aussi à l'extubation et en SSPI
-Estomac plein et urgence sont-ils synonymes ? :: Non : l'estomac plein est une situation à risque, pas forcément une urgence\nÀ retenir : une séquence rapide doit être standardisée et rapide
+Estomac plein et urgence sont-ils synonymes ? :: Non : l'estomac plein est une situation à risque, pas forcément une urgence
 
 // ---------- Physiologie gastrique ----------
 Comment se vidangent les liquides gastriques ? :: Dès quelques minutes, de façon exponentielle\nLiquides non caloriques : demi-vie d'évacuation de 10 min\nLiquides clairs sucrés : vidange en 90 min\nLiquides non clairs : comme les solides
@@ -19,7 +19,7 @@ Quels liquides sont clairs, et lesquels ne le sont pas ? :: Clairs : eau, thé, 
 Quelles sont les règles de jeûne préopératoire ? :: Solides (repas léger) : 6 h\nLiquides non clairs : 6 h\nLiquides clairs, même sucrés (400 mL au plus) : jusqu'à 2 h avant\nNi alcool ni tabac\nRègles plus strictes si la vidange est ralentie
 
 // ---------- Physiopathologie ----------
-Quelles sont les trois conditions d'une inhalation ? :: Estomac plein\nIncontinence gastro-œsophagienne\nIncompétence pharyngo-laryngée\nÀ retenir : l'anesthésie générale peut réunir les trois
+Quelles sont les trois conditions d'une inhalation ? :: Estomac plein\nIncontinence gastro-œsophagienne\nIncompétence pharyngo-laryngée\nL'anesthésie générale peut réunir les trois
 À partir de quel volume l'estomac est-il considéré comme plein ? :: 25 mL, ou plus de 0,4 mL/kg
 Quels facteurs ralentissent la vidange gastrique ? :: Repas riche en calories\nÉmotion, stress douloureux aigu\nOpiacés (effet dose-dépendant), médicaments ralentissant le transit\nObstacle digestif, pathologie neurologique\nDiabète avec gastroparésie, hypothyroïdie
 Quels facteurs diminuent la pression du sphincter inférieur de l'œsophage ? :: Sonde gastrique\nHernie hiatale\nGrossesse\nMédicaments : atropine, morphiniques, benzodiazépines, hypnotiques

@@ -10,12 +10,12 @@ Qu'est-ce que la fragilité ? :: Une faible capacité à faire face à un évén
 Quelles sont les trois catégories de sujets âgés ? :: Vigoureux robustes : autonomes, peu de comorbidités\nFragiles : robustes au repos, peu de réserves ; à dépister\nDépendants polypathologiques : risque lié aux comorbidités et à la dépendance
 Quelles sont les conséquences neurologiques du vieillissement ? :: Moins de neurones, de synapses et de neurotransmetteurs\nSystème nerveux autonome altéré\nTroubles cognitifs : communication difficile, risque de confusion, douleur sous-estimée
 Quelles sont les conséquences rénales du vieillissement ? :: Moins de néphrons et de débit sanguin rénal : clairance diminuée, accumulation des médicaments\nSensibilité aux néphrotoxiques\nRétention urinaire (vessie neurologique, prostate)
-Pourquoi la créatinine seule reflète-t-elle mal la fonction rénale du sujet âgé ? :: Elle dépend de la masse musculaire : une même créatinine peut correspondre à un DFG normal chez un jeune sportif et très bas chez une femme âgée et maigre\nÀ retenir : estimer le DFG
+Pourquoi la créatinine seule reflète-t-elle mal la fonction rénale du sujet âgé ? :: Elle dépend de la masse musculaire : une même créatinine peut correspondre à un DFG normal chez un jeune sportif et très bas chez une femme âgée et maigre\nEstimer plutôt le DFG
 Quelles sont les modifications respiratoires du vieillissement ? :: Muscles plus faibles, poumon moins élastique, thorax plus rigide\nCV diminuée, volume résiduel augmenté\nPaO2 qui baisse, PaCO2 stable\nToux et déglutition altérées
 Pourquoi le sujet âgé est-il exposé à l'apnée postopératoire ? :: Sa réponse à l'hypoxie et à l'hypercapnie est diminuée\nIl est plus sensible aux opioïdes et aux dépresseurs du SNC
 
 // ---------- Pharmacologie ----------
-Quelles modifications pharmacocinétiques l'âge entraîne-t-il ? :: Moins d'eau totale et de masse maigre, plus de masse grasse\nMétabolisme hépatique et élimination rénale diminués\nProtéines plasmatiques modifiées\nÀ retenir : effets plus intenses et plus longs
+Quelles modifications pharmacocinétiques l'âge entraîne-t-il ? :: Moins d'eau totale et de masse maigre, plus de masse grasse\nMétabolisme hépatique et élimination rénale diminués\nProtéines plasmatiques modifiées\nEffets plus intenses et plus longs
 Pourquoi le propofol a-t-il plus d'effet chez le sujet âgé ? :: Fraction libre augmentée, compartiment vasculaire réduit : effet plus fort pour une même dose\nRetentissement hémodynamique majoré et retardé : ne pas réinjecter trop vite
 Comment évoluent les besoins en halogénés avec l'âge ? :: Ils diminuent : la CAM est plus basse chez le sujet âgé
 Quelles sont les trois règles d'or de l'anesthésie du sujet âgé ? :: Réduction des doses\nTitration\nMonitorage\n« Start slow and go slow »
@@ -32,7 +32,7 @@ Pourquoi la rachianesthésie est-elle délicate chez le sujet âgé ? :: Extensi
 // ---------- Monitorage et prévention ----------
 Quel objectif de pression viser chez le sujet âgé au bloc ? :: Connaître la PAM de base avant l'induction\nÉviter une PAM < 60-70 mmHg ; hypertendu : PAM > 70 mmHg ou > 90 % de la PAM de base\nTraiter toute hypotension sans délai (risque rénal et myocardique)
 Pourquoi monitorer le BIS chez le sujet âgé ? :: Pour éviter une anesthésie trop profonde : moins d'halogénés, réveil plus rapide\nIl peut aider à réduire le délire\nCible : 40 à 60
-Pourquoi l'hypothermie est-elle particulièrement dangereuse chez le sujet âgé ? :: Il se refroidit plus vite et se réchauffe mal\nRisques : ischémie myocardique, troubles du rythme et de la coagulation, infection, retard de cicatrisation\nÀ retenir : réchauffer avant l'induction et à chaque étape
+Pourquoi l'hypothermie est-elle particulièrement dangereuse chez le sujet âgé ? :: Il se refroidit plus vite et se réchauffe mal\nRisques : ischémie myocardique, troubles du rythme et de la coagulation, infection, retard de cicatrisation\nRéchauffer avant l'induction et à chaque étape
 Quels seuils transfusionnels retenir chez le sujet âgé ? :: Hb 7 g/dL chez la plupart des patients\nHb 8 g/dL en orthopédie, en cas de maladie cardiovasculaire ou de fracture du col du fémur, ou si symptômes\nCoronarien : 8 à 10 g/dL
 
 // ---------- Analgésie ----------
@@ -41,7 +41,7 @@ Comment titrer la morphine chez le sujet âgé ? :: 2 mg IV toutes les 5 min jus
 
 // ---------- Réhabilitation et troubles cognitifs ----------
 Quelles sont les altérations cognitives postopératoires du sujet âgé ? :: Délire au réveil : agitation, risque d'arrachement des dispositifs\nSyndrome confusionnel : dans les 24 à 48 h\nDysfonction cognitive postopératoire : des troubles de mémoire à la démence
-Quels sont les repères temporels des troubles neurocognitifs périopératoires ? :: Délire postopératoire : jusqu'à J7 ou la sortie\nRetard de récupération neurocognitive : jusqu'à J30\nTrouble neurocognitif postopératoire : de J30 à 12 mois\nÀ retenir : une évaluation cognitive préopératoire est nécessaire pour parler de déclin
+Quels sont les repères temporels des troubles neurocognitifs périopératoires ? :: Délire postopératoire : jusqu'à J7 ou la sortie\nRetard de récupération neurocognitive : jusqu'à J30\nTrouble neurocognitif postopératoire : de J30 à 12 mois\nUne évaluation cognitive préopératoire est nécessaire pour parler de déclin
 Quels facteurs déclenchent un délire postopératoire ? :: Hypoxémie, hypothermie\nInfection, troubles métaboliques\nRétention urinaire, douleur\nSédatifs, neuroleptiques, anticholinergiques
 Comment prévenir le délire postopératoire ? :: Mesures non médicamenteuses : réorientation, lunettes et appareils auditifs, sommeil, mobilisation précoce, hydratation, nutrition, présence des proches\nMonitorage EEG de la profondeur d'anesthésie\nPas de médicament préventif systématique
 Comment dépister et traiter un délire postopératoire ? :: Dépistage quotidien, au moins jusqu'à J3 (Nu-DESC, CAM)\nRechercher une cause : douleur, rétention, hypoxémie, infection, médicaments\nSi échec : halopéridol à faible dose, titré\nPas de benzodiazépines, sauf sevrage alcoolique
