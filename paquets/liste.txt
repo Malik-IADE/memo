@@ -37,6 +37,7 @@ S1/3.3/chirurgie-digestive.txt
 S1/3.3/estomac-plein.txt
 S1/3.3/etats-de-choc.txt
 S1/3.3/patient-hta.txt
+S1/3.3/patient-cardiaque.txt
 S1/3.3/sujet-age.txt
 S1/3.3/sujet-denutri.txt
 S1/3.3/patient-obese.txt
@@ -47,6 +48,8 @@ S1/4.4/tenue-bloc.txt
 S1/4.4/gestion-dechets.txt
 S1/4.4/radioprotection.txt
 S1/4.4/aes-precautions.txt
+S1/4.4/hemovigilance.txt
+S1/4.4/materiovigilance.txt
 
 // Tous les scores, réunis dans une catégorie à part (sous Semestre 2)
 Scores/scores.txt
