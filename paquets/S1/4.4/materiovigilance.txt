@@ -1,0 +1,21 @@
+// Cours 4.4 – Matériovigilance
+// Questions inspirées d'Anki, vérifiées dans le support de cours. UE 4.4 : 10 cartes au plus, l'essentiel seulement.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Matériovigilance
+
+// ---------- Définitions ----------
+Qu'est-ce que la matériovigilance ? :: La surveillance des incidents, des effets indésirables et des risques d'incident liés aux dispositifs médicaux\nIncident : un événement qui perturbe l'action en cours\nRisque d'incident : il aurait pu avoir des conséquences, mais a été évité ou rattrapé à temps\nBut : éviter qu'ils se reproduisent
+Qu'est-ce qu'un dispositif médical ? :: Un produit, matériel ou logiciel, destiné par son fabricant à un usage médical chez l'homme\nSon action est mécanique, pas pharmacologique (sinon c'est un médicament)\nConsommables, implants, équipements, logiciels\nExemples : électrode ECG, respirateur, set de perfusion, prothèse, pacemaker
+Qu'est-ce qui caractérise réglementairement un dispositif médical ? :: Le marquage CE, apposé avant la mise sur le marché\nUn identifiant unique (UDI), avec le numéro de lot ou de série\nUne classe, selon le risque :\n- I : lit, déambulateur\n- IIa : pansement, ECG\n- IIb : ventilateur, bistouri électrique\n- III : implants ; implantables actifs : pacemaker
+Qu'est-ce qui ne relève pas de la matériovigilance ? :: Les autres produits ont leur propre vigilance : médicaments, diagnostic in vitro, produits sanguins, organes et tissus, cosmétiques ; et les équipements de protection individuelle\nLe mésusage, quand ni le dispositif ni sa notice ne sont en cause\nUne complication due à la maladie du patient\nLa simple insatisfaction
+
+// ---------- Acteurs et signalement ----------
+Qui sont les acteurs de la matériovigilance ? :: ANSM : reçoit et évalue les signalements, décide des mesures de sécurité\nFabricant : expertise le dispositif, corrige ou rappelle\nCorrespondant local de matériovigilance (CLMV) : analyse les incidents de l'établissement, propose des mesures conservatoires, signale à l'ANSM, forme les équipes
+Qu'est-ce qu'un incident grave en matériovigilance ? :: Il a entraîné, ou aurait pu entraîner : décès, menace vitale, incapacité, hospitalisation prolongée, intervention médicale ou chirurgicale\nUne panne rattrapée à temps peut donc être grave\nNe pas le signaler expose à 4 ans de prison et 75 000 € d'amende
+Qui signale un incident lié à un dispositif, à qui, et dans quel délai ? :: Tout professionnel de santé, mais aussi le patient ou sa famille\nD'abord au cadre de santé, puis au CLMV, qui transmet à l'ANSM\nIncident ou risque grave : sans délai, c'est obligatoire\nAutres incidents : chaque trimestre, facultatif
+
+// ---------- Conduite à tenir ----------
+Que faire quand un dispositif médical pose problème ? :: Sécuriser le patient\nRecueillir un maximum d'informations : circonstances, réglages, branchements, batterie, geste en cours\nConserver le dispositif ou le mettre en quarantaine\nDéclarer (OSIRIS), prévenir le cadre et le CLMV
+Comment conserver un dispositif en cause pour l'expertise ? :: Le garder en l'état, à l'écart, pour qu'il ne soit plus utilisé\nNe pas jeter les consommables\nNe pas effacer les données d'un appareil : ne pas l'éteindre ni le réinitialiser sans le biomédical\nAppareil à piles : changer la pile pour ne pas perdre les données
+Que faire à réception d'un rappel ou d'une information de sécurité ? :: Lire le message\nVérifier si le service utilise la référence ou le lot\nIsoler le lot ou l'équipement\nPrévenir la pharmacie ou le biomédical\nEn cas de doute : le CLMV
