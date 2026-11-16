@@ -33,7 +33,8 @@ Pourquoi la rachianesthésie est-elle délicate chez le sujet âgé ? :: Extensi
 Quel objectif de pression viser chez le sujet âgé au bloc ? :: Connaître la PAM de base avant l'induction\nÉviter une PAM < 60-70 mmHg ; hypertendu : PAM > 70 mmHg ou > 90 % de la PAM de base\nTraiter toute hypotension sans délai (risque rénal et myocardique)
 Pourquoi monitorer le BIS chez le sujet âgé ? :: Pour éviter une anesthésie trop profonde : moins d'halogénés, réveil plus rapide\nIl peut aider à réduire le délire\nCible : 40 à 60
 Pourquoi l'hypothermie est-elle particulièrement dangereuse chez le sujet âgé ? :: Il se refroidit plus vite et se réchauffe mal\nRisques : ischémie myocardique, troubles du rythme et de la coagulation, infection, retard de cicatrisation\nRéchauffer avant l'induction et à chaque étape
-Quels seuils transfusionnels retenir chez le sujet âgé ? :: Hb 7 g/dL chez la plupart des patients\nHb 8 g/dL en orthopédie, en cas de maladie cardiovasculaire ou de fracture du col du fémur, ou si symptômes\nCoronarien : 8 à 10 g/dL
+//= Quels seuils transfusionnels retenir chez le sujet âgé ?
+À partir de quelle hémoglobine transfuse-t-on un sujet âgé ? :: Hb 7 g/dL chez la plupart des patients\nHb 8 g/dL en orthopédie, en cas de maladie cardiovasculaire ou de fracture du col du fémur, ou si symptômes\nCoronarien : 8 à 10 g/dL
 
 // ---------- Analgésie ----------
 Pourquoi éviter le néfopam chez le sujet âgé ? :: Tachycardisant : contre-indiqué chez le coronarien\nAnticholinergique : contre-indiqué en cas d'adénome prostatique\nAbaisse le seuil épileptogène, interactions
