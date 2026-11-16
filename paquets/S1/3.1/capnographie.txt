@@ -7,13 +7,13 @@
 # IADE – Capnographie
 
 // ---------- L'essentiel (cartes fusionnées) ----------
-Quelle est la différence entre capnographie, capnogramme et capnométrie ? :: Capnographie : enregistrement du CO2 sur tout le cycle respiratoire (capnographe)\nCapnogramme : le tracé\nCapnométrie : la valeur numérique (capnomètre)\nÀ retenir : obligatoire chez tout patient intubé
+Quelle est la différence entre capnographie, capnogramme et capnométrie ? :: Capnographie : enregistrement du CO2 sur tout le cycle respiratoire (capnographe)\nCapnogramme : le tracé\nCapnométrie : la valeur numérique (capnomètre)\nObligatoire chez tout patient intubé
 //= De quels processus physiologiques l'EtCO2 est-elle le reflet ?
 De quoi l'EtCO2 est-elle le reflet ? :: Production du CO2 : métabolisme cellulaire\nTransport : débit cardiaque\nÉlimination : ventilation alvéolaire
 Quelles sont les phases du capnogramme ? :: Phase A : espace mort, CO2 nul\nPhase AB : montée (espace mort + gaz alvéolaires)\nPhase BC : plateau alvéolaire légèrement ascendant\nPoint C : fin d'expiration, mesure de l'EtCO2\nPhase CD : chute rapide à l'inspiration ; point D : PiCO2 (normalement 0, sinon réinhalation)
 //= Quelle est la valeur normale de l'EtCO2 ?
-Quelle est la valeur normale de l'EtCO2, et quel est son lien avec la PaCO2 ? :: EtCO2 : 35 à 40 mmHg (PaCO2 de 38 à 42 mmHg)\nGradient : 1-2 mmHg éveillé, environ 5 mmHg en ventilation contrôlée, 15-20 mmHg si pathologie pulmonaire\nÀ retenir : l'EtCO2 sous-estime toujours la PaCO2
-Quels sont les intérêts de la capnographie ? :: Position de la sonde : 6 capnogrammes réguliers valident l'intubation\nSurveillance de la ventilation, détection d'une apnée\nVariations métaboliques et circulatoires, efficacité d'une RCP\nProblème matériel\nÀ retenir : c'est le détecteur d'incident le plus précoce au bloc
+Quelle est la valeur normale de l'EtCO2, et quel est son lien avec la PaCO2 ? :: EtCO2 : 35 à 40 mmHg (PaCO2 de 38 à 42 mmHg)\nGradient : 1-2 mmHg éveillé, environ 5 mmHg en ventilation contrôlée, 15-20 mmHg si pathologie pulmonaire\nL'EtCO2 sous-estime toujours la PaCO2
+Quels sont les intérêts de la capnographie ? :: Position de la sonde : 6 capnogrammes réguliers valident l'intubation\nSurveillance de la ventilation, détection d'une apnée\nVariations métaboliques et circulatoires, efficacité d'une RCP\nProblème matériel\nC'est le détecteur d'incident le plus précoce au bloc
 //= Quelles causes circulatoires font baisser l'EtCO2 sous 30 mmHg ?
 Quelles causes font baisser l'EtCO2 (< 30 mmHg) ? :: Circulatoires : arrêt cardiaque, hypotension brutale, hypovolémie, embolie pulmonaire\nRespiratoires : hyperventilation, bronchospasme, bouchon muqueux\nMétaboliques : hypothermie, anesthésie trop profonde\nMatérielles : fuite, déconnexion, sonde coudée
 //= Quelles causes métaboliques font monter l'EtCO2 ?
@@ -31,7 +31,7 @@ Quel est l'intérêt de la capnographie pendant un arrêt cardiaque ? :: Confirm
 //= Que signifie un capnogramme en aileron de requin ?
 [img:images/capno-05.png] Qu'évoque ce capnogramme ? :: Un bronchospasme sévère\nAspect en aileron de requin : montée oblique, plateau disparu
 //= Que peut-on voir sur le capnogramme lors d'une intubation œsophagienne ?
-[img:images/capno-06.png] Juste après une intubation, qu'évoque ce tracé ? :: Une intubation œsophagienne\nQuelques petites courbes dues au CO2 de l'air gastrique, qui s'épuisent\nÀ retenir : seuls 6 capnogrammes réguliers valident l'intubation
+[img:images/capno-06.png] Juste après une intubation, qu'évoque ce tracé ? :: Une intubation œsophagienne\nQuelques petites courbes dues au CO2 de l'air gastrique, qui s'épuisent\nSeuls 6 capnogrammes réguliers valident l'intubation
 //= Que signifie une chute brutale de la courbe de CO2 ?
 [img:images/capno-07.png] Chez ce patient ventilé, le tracé change brutalement : qu'évoque-t-il ? :: Une chute brutale du CO2, le signal s'effondre\nCauses : arrêt cardiorespiratoire, extubation, déconnexion du respirateur
 [img:images/capno-08.png] Après une intubation, quel problème de position de la sonde ce tracé évoque-t-il ? :: Une intubation sélective\nPlateaux irréguliers, en marches

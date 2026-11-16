@@ -10,7 +10,7 @@ Que signifient AIVOC et TCI ? :: AIVOC : anesthésie intraveineuse à objectif d
 Quelle est la différence entre un débit massique et une AIVOC ? :: Débit massique : on fixe une quantité par heure (ex. 200 mg/h) ; la concentration continue d'évoluer\nAIVOC : on fixe une concentration cible ; la pompe calcule le débit nécessaire
 Comment une pompe d'AIVOC atteint-elle puis maintient-elle la cible ? :: Un bolus initial pour atteindre rapidement la cible\nPuis un débit continu progressivement diminué pour tenir compte de l'accumulation
 Pourquoi le bolus initial d'une AIVOC limite-t-il le risque de surdosage ? :: Il est calculé à partir des caractéristiques pharmacocinétiques connues du médicament
-L'AIVOC renseigne-t-elle sur la profondeur de l'hypnose ? :: Non : une même concentration peut donner un éveil chez un patient et un surdosage (EEG plat, hypotension) chez un autre\nÀ retenir : l'AIVOC optimise la pharmacocinétique ; la cible se choisit et s'ajuste sur l'EEG et la clinique
+L'AIVOC renseigne-t-elle sur la profondeur de l'hypnose ? :: Non : une même concentration peut donner un éveil chez un patient et un surdosage (EEG plat, hypotension) chez un autre\nL'AIVOC optimise la pharmacocinétique ; la cible se choisit et s'ajuste sur l'EEG et la clinique
 Quels sont les avantages de l'AIVOC ? :: Atteinte précise de la cible : moins de surdosage, bénéfice hémodynamique\nConcentration stable dans le temps\nRéveil anticipé grâce au temps de décroissance
 
 // ---------- Modèle pharmacocinétique ----------
@@ -31,7 +31,7 @@ Une cible Ce de 3 µg/mL est demandée et l'écran affiche Ce = 2,1 µg/mL : que
 Quelles données utilise le modèle de Schnider (propofol) ? :: Âge, taille, poids et masse maigre calculée par la formule de James\nV1 est fixe (4,27 L)
 Pourquoi le modèle de Schnider est-il dangereux chez l'obèse ? :: La masse maigre calculée devient aberrante quand l'IMC augmente → risque de surdosage\nLimites : IMC 42 kg/m² chez l'homme, 35 kg/m² chez la femme
 Quelles données utilise le modèle de Minto (rémifentanil) ? :: L'âge et la masse maigre calculée (donc indirectement le poids et la taille)
-Pourquoi la concentration affichée par la pompe n'est-elle pas fiable en valeur absolue ? :: Elle est calculée, pas mesurée\nLes modèles reposent sur des populations limitées et n'intègrent pas tous les déterminants\nÀ retenir : l'intérêt est la stabilité ; la cible s'ajuste sur l'EEG et la clinique
+Pourquoi la concentration affichée par la pompe n'est-elle pas fiable en valeur absolue ? :: Elle est calculée, pas mesurée\nLes modèles reposent sur des populations limitées et n'intègrent pas tous les déterminants\nL'intérêt est la stabilité ; la cible s'ajuste sur l'EEG et la clinique
 
 // ---------- Lire la pompe ----------
 Avant d'interpréter l'écran d'une pompe d'AIVOC, que faut-il vérifier ? :: Le médicament, le modèle et le type de cible (plasma ou site effet) sélectionnés

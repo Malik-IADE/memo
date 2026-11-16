@@ -16,7 +16,7 @@ De quoi chaque poste de SSPI doit-il être équipé ? :: Fluides médicaux et pr
 // ---------- Transfert et accueil ----------
 Que doivent contenir les transmissions à l'arrivée en SSPI ? :: Antécédents, allergies\nType et déroulement de l'anesthésie, acte réalisé\nÉquipement du patient, apports et pertes\nÉvénements peropératoires, traitements reçus (antalgiques, antibiotiques, produits sanguins)\nConsignes de surveillance et de soins
 Que surveiller à l'arrivée d'un patient en SSPI ? :: Conscience, SpO2, FR, FC, PA\nOxygénothérapie ou ventilation\nVoies d'abord, sondes, drains\nTempérature, douleur\nNiveau sensitif et moteur après une ALR\nZone opératoire, pansements
-Que surveiller sur le plan respiratoire en SSPI ? :: FR, amplitude et symétrie du thorax\nSpO2, état cutané\nVentilateur, sevrage, extubation\nRisque de dépression respiratoire morphinique\nÀ retenir : la SpO2 ne remplace pas l'observation de la ventilation
+Que surveiller sur le plan respiratoire en SSPI ? :: FR, amplitude et symétrie du thorax\nSpO2, état cutané\nVentilateur, sevrage, extubation\nRisque de dépression respiratoire morphinique\nLa SpO2 ne remplace pas l'observation de la ventilation
 
 // ---------- Complications respiratoires ----------
 Qu'est-ce qu'une atélectasie ? :: Un territoire dont les alvéoles ne sont plus aérées, mais qui peut rester perfusé\nElle apparaît dès les premières minutes d'AG, souvent sans signe clinique
