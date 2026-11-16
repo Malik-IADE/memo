@@ -1,0 +1,51 @@
+// Cours 3.3 – Anesthésie du patient cardiaque et vasculaire en chirurgie non cardiaque
+// Questions inspirées d'Anki, vérifiées dans le support de cours ; l'essentiel pour la pratique.
+// NYHA, MET et score de Lee sont détaillés dans le paquet « Scores » ; l'HTA dans « Patient hypertendu ».
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Patient cardiaque
+
+// ---------- Définitions ----------
+Qu'est-ce que l'insuffisance cardiaque ? :: Le cœur ne couvre plus les besoins de l'organisme\nDiastolique : il se remplit mal\nSystolique : il éjecte mal\nEn aval : organes mal perfusés\nEn amont, la congestion : œdème pulmonaire à gauche ; foie, jugulaires et reins à droite
+Qu'est-ce que l'insuffisance coronarienne, et à quoi expose-t-elle ? :: L'athérosclérose réduit le débit coronaire : le myocarde manque d'oxygène\nAngor d'effort puis instable, syndrome coronarien aigu, troubles du rythme\nUne sténose peut passer inaperçue au repos et se révéler avec le stress chirurgical
+
+// ---------- Évaluation préopératoire ----------
+Sur quoi repose l'évaluation du risque cardiaque avant une chirurgie ? :: Le patient : terrain, symptômes, score de Lee\nLa chirurgie : risque faible, intermédiaire ou élevé (chirurgie vasculaire majeure)\nLa capacité à l'effort
+Que rechercher à l'interrogatoire et à l'examen d'un patient cardiaque ? :: Facteurs de risque : âge > 40 ans, tabac, HTA, diabète, dyslipidémie, surpoids, antécédents familiaux\nSymptômes : douleur thoracique, dyspnée, palpitations, syncope ; à l'effort ou au repos ?\nInsuffisance cardiaque droite : œdèmes, turgescence jugulaire, reflux hépatojugulaire\nInsuffisance cardiaque gauche : crépitants\nSouffle : rétrécissement aortique ?
+Comment évaluer simplement la capacité à l'effort ? :: Le repère : 4 MET\nPeut-il monter un ou deux étages sans s'arrêter ? Faire seul son ménage, son jardin ?\nS'il n'y arrive pas, ou s'il a une dyspnée ou une douleur : sa réserve est faible
+Quand dit-on qu'un patient cardiaque est instable avant une chirurgie ? :: Syndrome coronarien aigu de moins d'un mois\nAngor invalidant\nInsuffisance cardiaque décompensée ou NYHA III-IV\nTrouble du rythme ou de la conduction significatif (BAV complet)\nValvulopathie sténosante sévère ou symptomatique (RA serré)\nSi la chirurgie peut attendre : on traite d'abord la cardiopathie
+Quand faut-il des examens cardiaques avant une chirurgie ? :: Urgence : on opère, le bilan s'adapte au délai\nPatient stable et chirurgie à faible risque : en général aucun examen spécialisé\nRisque intermédiaire ou élevé : on croise le score de Lee et la capacité à l'effort\nUn examen seulement s'il peut changer la prise en charge
+Que cherchent les examens cardiaques préopératoires ? :: Une baisse de la FEVG\nUne ischémie myocardique\nCe qui aggrave le risque : valvulopathie, HTAP
+Quelles sont les limites de l'ECG de repos et de l'ECG d'effort ? :: ECG de repos : sert de référence pour comparer après l'opération, mais rate souvent une ischémie d'effort\nECG d'effort : peu fiable si le patient n'atteint pas 85 % de la FMT (220 − âge), fréquent en orthopédie ou en vasculaire ; bonne VPN\nContre-indiqué en cas de RA serré ou de CMH
+Quand demander une échographie cardiaque avant une chirurgie ? :: ETT de repos : si dyspnée (insuffisance cardiaque ?) ou souffle (valvulopathie ?) ; elle ne prédit pas le risque coronaire\nÉcho de stress à la dobutamine : cherche une ischémie quand l'effort est impossible ; excellente VPN\nAnomalie : on discute une coronarographie
+
+// ---------- Optimisation des traitements ----------
+Quels traitements cardiovasculaires poursuit-on avant la chirurgie ? :: Bêtabloquants : les arrêter expose à une tachycardie au bloc\nStatines\nIEC et ARA II : maintenus chez l'insuffisant cardiaque ; arrêtés au moins 12 h avant s'ils sont donnés pour une HTA (hypotension à l'induction)
+Comment gérer antiagrégants et anticoagulants chez le patient cardiaque ? :: Antiagrégants : peser le risque de saignement contre celui de thrombose (stent) ; décision avec le chirurgien et le cardiologue\nAnticoagulants : relais à discuter si insuffisance cardiaque sévère, FA avec antécédent embolique, valve mécanique
+Qui décide de la stratégie avant d'opérer un patient cardiaque ? :: Anesthésiste, cardiologue et chirurgien, ensemble\nIls fixent le délai, une éventuelle revascularisation ou un remplacement valvulaire avant, les antithrombotiques, le monitorage et la surveillance après
+
+// ---------- Peropératoire ----------
+Quel monitorage pour un patient cardiaque au bloc ? :: Toujours : ECG, PNI, SpO2, EtCO2\nTempérature : l'hypothermie donne frissons et tachycardie au réveil\nBIS : une anesthésie trop profonde (BIS < 45) augmente les complications\nCathéter artériel : posé avant l'induction si valvulopathie ou instabilité\nDoppler œsophagien : guide le remplissage\nETO, Swan-Ganz : cas particuliers
+Pourquoi rester prudent avec le remplissage chez l'insuffisant cardiaque ? :: Son débit augmente peu avec la précharge : la courbe s'aplatit vite\nAu-delà, le volume ajouté aggrave surtout la congestion (OAP)\nOn suit le VES (Doppler œsophagien) : s'il n'augmente plus, on arrête
+ALR, rachianesthésie ou AG chez le patient cardiaque ? :: ALR périphérique dès que possible : sous échographie, après avoir vérifié les anticoagulants\nRachianesthésie et péridurale : bloc sympathique et hypotension ; au-dessus de T4, la FC et la contractilité baissent aussi\nAG : agents stables, titrés, AIVOC
+Que veut dire PREPA chez le patient cardiaque ? :: Préoxygénation\nRéchauffement\nÉviter le stress\nPériode à risque : le réveil, une vraie épreuve d'effort\nAnalgésie
+Quels sont les effets hémodynamiques des agents d'induction ? :: Propofol : vasodilatation artérielle et veineuse, hypotension\nÉtomidate : peu d'effet, le plus stable\nKétamine : sympathomimétique, mais augmente la postcharge du ventricule droit\nSévoflurane : vasodilatateur\nMidazolam : peu d'effet\nLes morphiniques associés majorent l'hypotension
+Quels sont les objectifs d'une AG chez le patient cardiaque ? :: Maintenir la pression artérielle\nGarder le rythme sinusal : la contraction de l'oreillette assure une bonne part du remplissage\nUne volémie adaptée, sans tout corriger par du remplissage\nNormothermie, normocapnie, normoxie, BIS entre 40 et 60
+
+// ---------- Valvulopathies ----------
+Quels sont les objectifs hémodynamiques dans le rétrécissement aortique ? :: Le ventricule gauche, hypertrophié, dépend de sa précharge ; ses coronaires dépendent de la pression diastolique\nMaintenir la PA : traiter vite toute hypotension\nÉviter la tachycardie, qui raccourcit le remplissage\nGarder le rythme sinusal
+Quels sont les objectifs hémodynamiques dans les insuffisances aortique et mitrale ? :: Favoriser le débit vers l'avant\nFC plutôt rapide (80 à 90/min) : moins de temps pour le reflux\nÉviter la bradycardie\nPostcharge un peu diminuée : la ventilation en pression positive y aide
+Quels sont les objectifs hémodynamiques dans le rétrécissement mitral ? :: Laisser au ventricule le temps de se remplir : éviter la tachycardie\nUne FC rapide aggrave la congestion pulmonaire\nSurveiller le retentissement pulmonaire et le ventricule droit
+
+// ---------- Postopératoire ----------
+Quelles complications cardiaques surveiller en SSPI ? :: OAP\nIschémie myocardique (STEMI, NSTEMI)\nTroubles du rythme\nChoc cardiogénique
+Comment reconnaître un OAP au réveil ? :: Dyspnée en position allongée, désaturation, sécrétions mousseuses\nSouvent une surcharge, révélée à l'arrêt de la ventilation en pression positive\nRevoir les apports et la PA ; VNI si le patient est conscient et coopérant
+Pourquoi l'ischémie myocardique postopératoire passe-t-elle souvent inaperçue ? :: Souvent silencieuse : analgésie, contexte chirurgical\nElle vient d'un déséquilibre : tachycardie, HTA et frissons augmentent les besoins ; hypoxémie, anémie et hypotension réduisent les apports\nUne troponine élevée s'interprète avec l'ECG et la clinique, et mène à une coronarographie à distance
+Que faire devant un trouble du rythme postopératoire ? :: Chercher une cause métabolique ou respiratoire : ionogramme, gaz du sang\nÉvaluer sa tolérance hémodynamique\nUne FA est mal tolérée par un ventricule raide, qui perd la contraction de l'oreillette
+
+// ---------- Pacemaker et défibrillateur ----------
+Que vérifier en consultation chez un porteur de pacemaker ou de défibrillateur ? :: Type de dispositif, sa carte, la date du dernier contrôle\nPosition du boîtier\nECG : est-il stimulodépendant ?\nRadio de thorax : identifie l'appareil et ses sondes\nEn programmé : avis du rythmologue, réponse à l'aimant, déprogrammation éventuelle\nEn urgence : un aimant à disposition
+Quel est l'effet d'un aimant sur un pacemaker et sur un défibrillateur ? :: Pacemaker : stimulation asynchrone, à fréquence fixe\nDAI : suspend les chocs, sans toucher à la stimulation\nLa réponse dépend du modèle\nDAI désactivé : patchs de défibrillation externe en place
+Comment installer au bloc un patient porteur de pacemaker ou de DAI ? :: Plaque du bistouri près de la zone opératoire et loin du boîtier : le courant ne doit pas le traverser\nBistouri bipolaire si possible, sinon de courtes séquences\nPatchs de défibrillation à plus de 10 cm du boîtier\nSurveiller le pouls à la SpO2 ou à la PA sanglante : l'ECG est parasité\nAimant et Isuprel à portée de main
+Quels risques font courir les interférences à un pacemaker ou à un DAI ? :: Inhibition de la stimulation\nDéprogrammation, détérioration du boîtier\nBrûlure endocardique\nChoc inapproprié du DAI\nEn cause : bistouri électrique (surtout monopolaire, près du boîtier), défibrillation, radiofréquence, lithotritie, sismothérapie
+Que faire après l'intervention chez un porteur de pacemaker ou de DAI ? :: Faire contrôler le dispositif s'il a été reprogrammé ou en cas de doute\nAvant le retour à domicile, surtout pour un DAI : il doit à nouveau protéger le patient
