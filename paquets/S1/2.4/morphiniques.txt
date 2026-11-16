@@ -20,7 +20,7 @@ Quels sont le délai, la durée d'un bolus et la puissance de l'alfentanil ? :: 
 Comment le rémifentanil est-il éliminé, et quelle conséquence ? :: Par des estérases, indépendamment du foie et du rein\nPas d'accumulation, même après des heures de perfusion : l'effet disparaît 3 à 5 min après l'arrêt
 Quelles cibles d'AIVOC de rémifentanil utilise-t-on ? :: Induction : 3 à 6 ng/mL\nEntretien : 2 à 8 ng/mL selon la stimulation
 Quel est le principal piège du rémifentanil ? :: Il ne laisse aucune analgésie résiduelle à l'arrêt\nLe relais antalgique doit être installé avant l'arrêt
-Comment organiser le relais antalgique avant l'arrêt du rémifentanil ? :: Paracétamol, AINS, ALR ou infiltration\nMorphine environ 0,1 mg/kg, 30 min avant la fin\nÀ retenir : l'analgésie postopératoire s'anticipe, elle ne se rattrape pas
+Comment organiser le relais antalgique avant l'arrêt du rémifentanil ? :: Paracétamol, AINS, ALR ou infiltration\nMorphine environ 0,1 mg/kg, 30 min avant la fin\nL'analgésie postopératoire s'anticipe, elle ne se rattrape pas
 Pourquoi l'effet du fentanyl se prolonge-t-il après une perfusion longue ? :: Après un bolus, son effet court vient de la redistribution\nEn perfusion prolongée, les tissus saturent : demi-vie contextuelle très allongée
 
 // ---------- Préparation ----------

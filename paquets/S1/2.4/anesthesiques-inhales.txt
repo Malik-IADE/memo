@@ -10,7 +10,7 @@ Qu'est-ce que la pression de vapeur saturante d'un halogéné ? :: La pression e
 Pourquoi le desflurane nécessite-t-il un évaporateur spécifique chauffé ? :: Il bout vers 23 °C, presque à température ambiante : un évaporateur classique ne peut pas contrôler sa concentration
 Que mesure le coefficient de partage sang/gaz d'un halogéné ? :: Sa solubilité dans le sang\nIl détermine la vitesse d'induction et de réveil : plus il est bas, plus l'agent est rapide
 Quels sont les coefficients de partage sang/gaz du desflurane, du sévoflurane et de l'isoflurane ? :: Desflurane : 0,42\nSévoflurane : 0,65\nIsoflurane : 1,46
-Comment se classent desflurane, sévoflurane et isoflurane par rapidité d'induction et de réveil ? :: Desflurane > sévoflurane > isoflurane\nÀ retenir : moins l'agent est soluble dans le sang, plus il endort et réveille vite
+Comment se classent desflurane, sévoflurane et isoflurane par rapidité d'induction et de réveil ? :: Desflurane > sévoflurane > isoflurane\nMoins l'agent est soluble dans le sang, plus il endort et réveille vite
 Quelles sont les particularités pratiques du desflurane ? :: Irritant pour les voies aériennes : jamais pour une induction au masque\nRéveil le plus rapide\nÉvaporateur chauffé spécifique
 Pourquoi le sévoflurane est-il l'agent de choix pour l'induction au masque ? :: Il n'est pas irritant\nIl est bronchodilatateur\nAgent de choix chez l'enfant et chez l'asthmatique
 
@@ -21,7 +21,7 @@ Peut-on additionner les fractions de MAC de deux agents ? :: Oui : par exemple 0
 Quels facteurs diminuent la MAC ? :: L'âge (environ −6 % par décennie)\nOpioïdes, benzodiazépines, alpha-2 agonistes, kétamine\nIntoxication alcoolique aiguë\nHypoxémie, anémie ou hypotension sévères
 Quels facteurs augmentent la MAC ? :: Nourrisson (maximum vers 6 mois)\nHyperthermie\nAlcoolisme chronique\nAmphétamines, cocaïne
 Quelle concentration d'halogéné viser pour prévenir la mémorisation peropératoire ? :: Une MAC expirée entre 0,7 et 1,3\nAlarme basse de fraction expirée réglée, évaporateur jamais vide
-Pourquoi un patient qui ne bouge pas sous halogéné n'est-il pas forcément inconscient ? :: L'immobilité est surtout d'origine médullaire\nÀ retenir : « ne bouge pas » ne veut pas dire « inconscient »
+Pourquoi un patient qui ne bouge pas sous halogéné n'est-il pas forcément inconscient ? :: L'immobilité est surtout d'origine médullaire\n« ne bouge pas » ne veut pas dire « inconscient »
 
 // ---------- Cinétique ----------
 Quels facteurs accélèrent une induction par halogéné ? :: Agent peu soluble dans le sang\nConcentration inspirée élevée\nVentilation augmentée
@@ -33,7 +33,7 @@ Comment réveiller rapidement un patient anesthésié aux halogénés ? :: Ferme
 
 // ---------- Débit de gaz frais ----------
 Qu'est-ce que le débit de gaz frais (DGF) ? :: Le débit de gaz neufs (O2 + air ou N2O) qui entre dans le circuit en traversant l'évaporateur\nÀ distinguer de la ventilation minute
-Pourquoi la concentration réglée sur l'évaporateur diffère-t-elle de celle respirée par le patient ? :: À bas débit, le gaz frais est dilué par le gaz recyclé du circuit : la fraction inspirée est plus basse que la fraction délivrée\nÀ retenir : on règle l'évaporateur, mais on pilote sur la fraction expirée
+Pourquoi la concentration réglée sur l'évaporateur diffère-t-elle de celle respirée par le patient ? :: À bas débit, le gaz frais est dilué par le gaz recyclé du circuit : la fraction inspirée est plus basse que la fraction délivrée\nOn règle l'évaporateur, mais on pilote sur la fraction expirée
 Quels sont les avantages d'une anesthésie à bas débit de gaz frais ? :: Environ 5 fois moins d'halogéné consommé (de 6 à 1 L/min)\nMoins de gaz à effet de serre rejetés\nGaz plus chauds et plus humides
 Quelles sont les contraintes d'une anesthésie à bas débit de gaz frais ? :: Changements de concentration plus lents (inertie)\nMonitorage continu obligatoire : FiO2, fractions inspirée et expirée d'halogéné, EtCO2\nVigilance sur la chaux sodée
 Que se passe-t-il si l'on remplit un évaporateur avec un autre halogéné ? :: La concentration délivrée n'est plus celle affichée\nUn agent de pression de vapeur plus élevée → surdosage ; plus basse → sous-dosage\nPrévention : détrompeurs de remplissage, monitorage de la fraction expirée
@@ -45,7 +45,7 @@ Qu'est-ce qu'un laryngospasme ? :: Une fermeture réflexe complète et prolongé
 
 // ---------- Chaux sodée ----------
 Qu'est-ce que le composé A ? :: Un produit de dégradation du sévoflurane au contact de la chaux sodée (absorbants contenant KOH ou NaOH)\nNéphrotoxique chez le rat ; pas de toxicité démontrée chez l'homme
-Pourquoi une chaux sodée desséchée est-elle dangereuse avec les halogénés ? :: Elle produit du monoxyde de carbone (CO), surtout avec le desflurane\nJusqu'à 35 % de carboxyhémoglobine décrits\nÀ retenir : la SpO2 ne détecte pas la carboxyhémoglobine
+Pourquoi une chaux sodée desséchée est-elle dangereuse avec les halogénés ? :: Elle produit du monoxyde de carbone (CO), surtout avec le desflurane\nJusqu'à 35 % de carboxyhémoglobine décrits\nLa SpO2 ne détecte pas la carboxyhémoglobine
 Comment prévenir l'intoxication au CO par la chaux sodée ? :: Couper les gaz en fin de programme\nChanger la chaux au moindre doute\nUtiliser des absorbants sans KOH ni NaOH
 
 // ---------- Protoxyde d'azote ----------

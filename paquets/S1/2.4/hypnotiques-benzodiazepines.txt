@@ -14,10 +14,10 @@ Quels terrains majorent l'effet ou l'accumulation des hypnotiques ? :: Sujet âg
 
 // ---------- Propofol ----------
 Quelle est la dose d'induction du propofol chez l'adulte ? :: 2 à 3 mg/kg IV
-Quelle dose de propofol chez le sujet âgé ? :: Environ 1 mg/kg après 65 ans\n0,3 à 0,5 mg/kg après 80 ans\nÀ retenir : 20 mg peuvent suffire à provoquer une apnée
+Quelle dose de propofol chez le sujet âgé ? :: Environ 1 mg/kg après 65 ans\n0,3 à 0,5 mg/kg après 80 ans\n20 mg peuvent suffire à provoquer une apnée
 Quelles sont les concentrations du propofol, et quel piège en découle ? :: 1 % = 10 mg/mL\n2 % = 20 mg/mL\n→ toujours lire la concentration avant de prélever
 Quelles règles d'asepsie respecter avec le propofol ? :: Préparation extemporanée, matériel à usage unique\nSeringue jetée au bout de 6 h\nTubulure changée toutes les 12 h
-Quels sont les effets cardiovasculaires du propofol ? :: Vasodilatation artérielle et veineuse → hypotension\nPas de tachycardie réflexe (effet sympatholytique)\nÀ retenir : prudence en cas d'hypovolémie ou de rétrécissement aortique
+Quels sont les effets cardiovasculaires du propofol ? :: Vasodilatation artérielle et veineuse → hypotension\nPas de tachycardie réflexe (effet sympatholytique)\nPrudence en cas d'hypovolémie ou de rétrécissement aortique
 Quels sont les effets respiratoires du propofol ? :: Apnée fréquente après le bolus\nForte dépression des réflexes laryngés : intubation sans curare possible\nBronchodilatation
 Comment limiter la douleur à l'injection du propofol ? :: Grosse veine\nLidocaïne ou morphinique avant l'injection
 L'allergie à l'œuf contre-indique-t-elle le propofol ? :: Non : l'émulsion contient de la lécithine purifiée, pas les protéines allergisantes de l'œuf
@@ -62,7 +62,7 @@ Quels sont les risques des benzodiazépines chez le sujet âgé ? :: Confusion, 
 
 // ---------- Midazolam ----------
 Quel est le profil du midazolam ? :: Benzodiazépine à dominante sédative et amnésiante\nHydrosoluble dans l'ampoule (injection non douloureuse), liposoluble dans le sang (passage cérébral rapide)
-Quel est le délai de l'effet maximal du midazolam par voie IV ? :: Environ 5 min (pic plasmatique en 2 à 3 min)\nÀ retenir : attendre l'effet maximal avant de réinjecter
+Quel est le délai de l'effet maximal du midazolam par voie IV ? :: Environ 5 min (pic plasmatique en 2 à 3 min)\nAttendre l'effet maximal avant de réinjecter
 Comment titrer le midazolam pour une sédation procédurale chez l'adulte ? :: 1 à 2,5 mg IV lent\nPuis 1 mg toutes les 3 à 5 min selon l'effet
 Comment titrer le midazolam chez un sujet âgé ou associé à un morphinique ? :: 0,5 à 1 mg au départ, réinjections de 0,5 mg\nDose totale souvent inférieure à 3,5 mg
 Quels pièges guettent au bloc un patient traité par benzodiazépine au long cours ? :: Tolérance : anxiété à l'arrivée, besoins accrus en propofol\nRisque de sevrage si on arrête brutalement : agitation, tremblements, convulsions, confusion
