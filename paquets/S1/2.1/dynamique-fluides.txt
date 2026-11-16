@@ -6,33 +6,33 @@
 # IADE – Dynamique des fluides
 
 // ---------- Physique des gaz ----------
-Quelle est la différence entre la fraction et la pression partielle d'un gaz ? :: Fraction : proportion du gaz dans le mélange, sans unité (0,21 = 21 %)\nPression partielle = fraction × pression totale, en mmHg\nÀ retenir : ne pas confondre une fraction et une pression
+Quelle est la différence entre la fraction et la pression partielle d'un gaz ? :: Fraction : proportion du gaz dans le mélange, sans unité (0,21 = 21 %)\nPression partielle = fraction × pression totale, en mmHg
 Quelle est la fraction d'O2 dans l'air ? :: 0,21 (21 %)\nLe reste est surtout de l'azote
 Quelle est la pression partielle d'O2 dans l'air sec au niveau de la mer ? :: Environ 160 mmHg\n0,21 × 760 ≈ 160 mmHg
-Quelle est la différence entre un gaz et une vapeur ? :: Gaz : substance uniquement gazeuse à la température considérée (O2, N2, N2O, xénon)\nVapeur : forme gazeuse d'une substance principalement liquide à température ambiante, en équilibre avec sa forme liquide\nÀ retenir : les « gaz halogénés » sont en réalité des vapeurs de liquides
+Quelle est la différence entre un gaz et une vapeur ? :: Gaz : substance uniquement gazeuse à la température considérée (O2, N2, N2O, xénon)\nVapeur : forme gazeuse d'une substance principalement liquide à température ambiante, en équilibre avec sa forme liquide\nLes « gaz halogénés » sont en réalité des vapeurs de liquides
 Que dit la loi de Henry ? :: À température constante, la quantité de gaz dissoute dans un liquide est proportionnelle à la pression partielle de ce gaz au-dessus du liquide\nElle dépend aussi de la solubilité du gaz dans ce liquide\nÀ l'équilibre, les pressions partielles sont égales dans le gaz et le liquide
 Pourquoi la pression d'O2 baisse-t-elle entre l'air inspiré et l'alvéole ? :: Dans la trachée, la vapeur d'eau prend une partie de la pression : 0,21 × (760 − 46) ≈ 150 mmHg\nDans l'alvéole, le CO2 en prend une autre partie : ≈ 150 − 40 = 110 mmHg
-Pourquoi un patient sous oxygène peut-il hypoventiler gravement sans désaturer ? :: L'O2 maintient une pression alvéolaire en O2 suffisante malgré la montée du CO2\nExemple du cours : à FiO2 0,30 et PaCO2 à 80 mmHg, la PAO2 théorique reste à 127 mmHg\nÀ retenir : une bonne SpO2 sous O2 ne prouve pas une bonne ventilation
+Pourquoi un patient sous oxygène peut-il hypoventiler gravement sans désaturer ? :: L'O2 maintient une pression alvéolaire en O2 suffisante malgré la montée du CO2\nExemple du cours : à FiO2 0,30 et PaCO2 à 80 mmHg, la PAO2 théorique reste à 127 mmHg\nUne bonne SpO2 sous O2 ne prouve pas une bonne ventilation
 
 // ---------- Réserves d'oxygène ----------
 Quelle est la consommation d'O2 d'un adulte au repos ? :: Environ 300 mL/min
 Quelles sont les réserves d'O2 mobilisables de l'organisme à l'air et sous O2 pur ? :: À l'air : environ 1,4 L (1 425 mL)\nSous O2 pur : environ 3,7 L (3 699 mL)
-Quelle réserve d'O2 la préoxygénation augmente-t-elle surtout ? :: La réserve pulmonaire : de 630 mL à 2 850 mL\nLa réserve sanguine augmente très peu, car l'hémoglobine est déjà presque saturée\nÀ retenir : elle allonge le temps d'apnée tolérable, à l'induction comme avant l'extubation
+Quelle réserve d'O2 la préoxygénation augmente-t-elle surtout ? :: La réserve pulmonaire : de 630 mL à 2 850 mL\nLa réserve sanguine augmente très peu, car l'hémoglobine est déjà presque saturée\nElle allonge le temps d'apnée tolérable, à l'induction comme avant l'extubation
 
 // ---------- Gaz médicaux et réseau ----------
 Quelles sont les pressions des réseaux primaire et secondaire de distribution des gaz ? :: Réseau primaire : environ 8 bars\nRéseau secondaire, jusqu'aux prises : environ 3 bars
-Quelles sont les trois défaillances possibles d'une alimentation en gaz ? :: La pression chute (fuite)\nLe débit est nul (vanne coupée)\nLa composition du gaz est altérée (rétropollution)\nÀ retenir : une pression présente ne prouve pas que le débit est disponible ni que le gaz est le bon
+Quelles sont les trois défaillances possibles d'une alimentation en gaz ? :: La pression chute (fuite)\nLe débit est nul (vanne coupée)\nLa composition du gaz est altérée (rétropollution)\nUne pression présente ne prouve pas que le débit est disponible ni que le gaz est le bon
 Qu'est-ce que la rétropollution d'un réseau de gaz ? :: Un gaz remonte dans le réseau d'un autre gaz, à cause d'une différence de pression et d'une valve antiretour défaillante\nExemple : du N2O qui contamine le réseau d'O2 via un mélangeur\n→ une prise étiquetée O2 peut délivrer un autre mélange
 Quel est le secours en O2 le plus sûr en salle d'opération ? :: Une bouteille d'O2 sur place, réservée au secours, à commutation manuelle sur alarme de pression\nElle ne doit jamais servir aux transports courants, sinon elle risque d'être vide le jour de la panne
 Pourquoi un secours en O2 branché sur le réseau peut-il être inefficace ? :: Si la fuite est en aval, le secours se vide par la même fuite\nSon emplacement doit permettre d'isoler la défaillance
 
 // ---------- Bouteilles ----------
 Comment identifier le gaz contenu dans une bouteille ? :: En lisant l'étiquette, seul moyen fiable\nLa couleur de la bouteille ne doit jamais servir à identifier le gaz
-Dans quel ordre ouvrir une bouteille d'O2 ? :: D'abord la vanne haute pression (robinet de la bouteille), progressivement\nPuis le débitmètre\nÀ retenir : ne jamais ouvrir le débitmètre avant la vanne haute pression
+Dans quel ordre ouvrir une bouteille d'O2 ? :: D'abord la vanne haute pression (robinet de la bouteille), progressivement\nPuis le débitmètre\nNe jamais ouvrir le débitmètre avant la vanne haute pression
 Quelles précautions prendre pour manipuler une bouteille d'O2 ? :: Éviter les chocs et les chutes\nOuvrir progressivement\nMains propres\nNe pas improviser le montage ou le démontage du détendeur
-Comment calculer l'autonomie d'une bouteille d'O2 ? :: Temps disponible = volume de gaz utilisable / débit, avec des unités cohérentes\nExemple : à 10 L/min, on consomme 100 L en 10 min\nÀ retenir : prévoir une marge pour les imprévus du transport (attente, panne d'ascenseur)
+Comment calculer l'autonomie d'une bouteille d'O2 ? :: Temps disponible = volume de gaz utilisable / débit, avec des unités cohérentes\nExemple : à 10 L/min, on consomme 100 L en 10 min\nPrévoir une marge pour les imprévus du transport (attente, panne d'ascenseur)
 Qu'est-ce que le MEOPA et quelles précautions impose-t-il pour le personnel ? :: Mélange équimolaire oxygène-protoxyde d'azote, utilisé pour l'analgésie\nPotentiellement toxique pour le personnel : aérer la pièce et collecter les gaz expirés
 
 // ---------- Secours électrique ----------
-Quels appareils ne supportent aucune coupure électrique, même brève ? :: Le respirateur et la machine d'anesthésie\nLes pousse-seringues\nÀ retenir : vérifier que leur batterie est chargée et fonctionnelle
-Quelle est la différence entre un onduleur et un groupe électrogène ? :: Onduleur : relais immédiat, mais puissance et durée limitées → n'y brancher que les appareils nécessaires\nGroupe électrogène : démarre avec un délai (7 à 15 s au mieux), puis fonctionne longtemps tant qu'il a du carburant\nÀ retenir : l'intérêt est de coupler les deux
+Quels appareils ne supportent aucune coupure électrique, même brève ? :: Le respirateur et la machine d'anesthésie\nLes pousse-seringues\nVérifier que leur batterie est chargée et fonctionnelle
+Quelle est la différence entre un onduleur et un groupe électrogène ? :: Onduleur : relais immédiat, mais puissance et durée limitées → n'y brancher que les appareils nécessaires\nGroupe électrogène : démarre avec un délai (7 à 15 s au mieux), puis fonctionne longtemps tant qu'il a du carburant\nOn associe les deux
