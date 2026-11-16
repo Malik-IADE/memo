@@ -5,32 +5,32 @@
 # IADE – Pharmacologie générale
 
 // ---------- Pharmacocinétique : définitions ----------
-Qu'étudie la pharmacocinétique ? :: L'évolution des concentrations du médicament dans l'organisme au cours du temps\nC'est « ce que l'organisme fait au médicament »\nÀ retenir : elle suit le trajet du produit, de l'administration à l'élimination (ADME)
+Qu'étudie la pharmacocinétique ? :: L'évolution des concentrations du médicament dans l'organisme au cours du temps\nC'est « ce que l'organisme fait au médicament »\nElle suit le trajet du produit, de l'administration à l'élimination (ADME)
 Qu'étudie la pharmacodynamie ? :: Les effets du médicament sur l'organisme et la façon dont ils se produisent (interaction avec le récepteur)\nC'est « ce que le médicament fait à l'organisme »
 Que signifie l'acronyme ADME en pharmacocinétique ? :: Absorption\nDistribution\nMétabolisme\nÉlimination
 Qu'est-ce que la Cmax d'un médicament ? :: La concentration plasmatique maximale atteinte après l'administration (le sommet de la courbe)
 Qu'est-ce que le Tmax d'un médicament ? :: Le temps nécessaire pour atteindre la Cmax
 Que représente l'aire sous la courbe (ASC) des concentrations plasmatiques ? :: L'exposition totale de l'organisme au médicament\nElle sert notamment à calculer la biodisponibilité
 Qu'est-ce que la demi-vie d'élimination d'un médicament ? :: Le temps nécessaire pour que sa concentration plasmatique diminue de moitié
-Qu'est-ce que l'effet de premier passage hépatique ? :: Par voie orale, le médicament passe par l'intestin, la veine porte puis le foie avant la circulation générale\nUne partie est transformée par le foie avant d'atteindre la circulation\nÀ retenir : la dose orale est souvent plus élevée que la dose IV pour un même effet
+Qu'est-ce que l'effet de premier passage hépatique ? :: Par voie orale, le médicament passe par l'intestin, la veine porte puis le foie avant la circulation générale\nUne partie est transformée par le foie avant d'atteindre la circulation\nLa dose orale est souvent plus élevée que la dose IV pour un même effet
 Qu'est-ce que la biodisponibilité d'un médicament ? :: La fraction de la dose administrée qui atteint la circulation générale\nRéférence : la voie IV (100 %)\nElle se calcule en comparant les aires sous la courbe
-Qu'est-ce que le cycle entérohépatique ? :: Le médicament ou son métabolite (ex. dérivé glucuronoconjugué) est éliminé dans la bile vers l'intestin\nUne partie est réabsorbée et revient dans la circulation\nÀ retenir : il prolonge la présence du médicament dans l'organisme
+Qu'est-ce que le cycle entérohépatique ? :: Le médicament ou son métabolite (ex. dérivé glucuronoconjugué) est éliminé dans la bile vers l'intestin\nUne partie est réabsorbée et revient dans la circulation\nIl prolonge la présence du médicament dans l'organisme
 
 // ---------- Distribution ----------
 Quelle est la seule forme active d'un médicament dans le sang ? :: La forme libre\nSeule la forme libre se fixe sur le récepteur, diffuse dans les tissus et est filtrée par le rein
-Quelle est la conséquence d'une baisse de l'albumine pour un médicament très lié aux protéines ? :: Moins de forme liée → plus de forme libre\n→ effet plus important, risque de surdosage\nSituations : dénutrition, cirrhose, grossesse, réanimation\nÀ retenir : titrer
+Quelle est la conséquence d'une baisse de l'albumine pour un médicament très lié aux protéines ? :: Moins de forme liée → plus de forme libre\n→ effet plus important, risque de surdosage\nSituations : dénutrition, cirrhose, grossesse, réanimation\nTitrer la dose
 Qu'est-ce que le volume de distribution d'un médicament ? :: Le volume fictif dans lequel le médicament se répartirait à la même concentration que dans le plasma\nQuantité dans l'organisme = volume de distribution × concentration plasmatique
 Que signifie un volume de distribution élevé ? :: Le médicament diffuse et se stocke beaucoup dans les tissus (molécules liposolubles)\nPour une même dose, sa concentration plasmatique est plus basse
-Pourquoi un médicament liposoluble comme le sévoflurane peut-il retarder le réveil chez le patient obèse ? :: Il se stocke dans le tissu adipeux, plus abondant chez l'obèse\nIl est ensuite relargué progressivement dans le sang\nÀ retenir : anticiper l'arrêt de l'administration pour le réveil
+Pourquoi un médicament liposoluble comme le sévoflurane peut-il retarder le réveil chez le patient obèse ? :: Il se stocke dans le tissu adipeux, plus abondant chez l'obèse\nIl est ensuite relargué progressivement dans le sang\nAnticiper l'arrêt de l'administration pour le réveil
 
 // ---------- Métabolisme et élimination ----------
 Qu'est-ce que la clairance d'un médicament ? :: Le volume de plasma totalement épuré du médicament par unité de temps (en mL/min)
-Comment évolue le rocuronium chez un patient en insuffisance hépatocellulaire ? :: Volume de distribution augmenté\nDurée d'action augmentée\nÀ retenir : exemple de variabilité pharmacocinétique → monitorer la curarisation
+Comment évolue le rocuronium chez un patient en insuffisance hépatocellulaire ? :: Volume de distribution augmenté\nDurée d'action augmentée\nExemple de variabilité pharmacocinétique → monitorer la curarisation
 
 // ---------- Administrations répétées ----------
 Qu'est-ce que l'accumulation d'un médicament lors d'injections répétées ? :: Chaque nouvelle dose s'ajoute à ce qui reste de la précédente\nExemple : dose de 100, il reste 50 au moment de réinjecter → la concentration atteint 150, et ainsi de suite
 Au bout de combien de demi-vies atteint-on l'état stationnaire lors d'injections répétées ? :: Environ 5 demi-vies\nLa concentration oscille alors entre deux valeurs stables
-Pourquoi une PCA de morphine réglée de façon standard est-elle dangereuse chez l'insuffisant rénal ? :: La morphine s'accumule car son élimination est ralentie\n→ surdosage : sédation, dépression respiratoire\nÀ retenir : surveiller la conscience et la respiration même si l'analgésie est bonne
+Pourquoi une PCA de morphine réglée de façon standard est-elle dangereuse chez l'insuffisant rénal ? :: La morphine s'accumule car son élimination est ralentie\n→ surdosage : sédation, dépression respiratoire\nSurveiller la conscience et la respiration même si l'analgésie est bonne
 Qu'est-ce que la demi-vie contextuelle ? :: Le temps nécessaire pour que la concentration diminue de moitié après l'arrêt d'une perfusion\nElle dépend de la durée de la perfusion
 
 // ---------- Pharmacodynamie ----------
@@ -43,14 +43,14 @@ Pourquoi un anesthésique local injecté près d'un nerf peut-il devenir toxique
 Qu'est-ce que la titration d'un médicament ? :: Administrer le médicament, observer la réponse du patient, puis poursuivre jusqu'à obtenir l'effet recherché\nElle répond à la variabilité entre patients
 
 // ---------- Modèles et AIVOC ----------
-Qu'est-ce que le compartiment effet ? :: Un compartiment virtuel qui représente le site d'action du médicament\nIl explique le décalage dans le temps entre la concentration plasmatique et l'effet\nÀ retenir : respecter le délai d'action avant de réinjecter
+Qu'est-ce que le compartiment effet ? :: Un compartiment virtuel qui représente le site d'action du médicament\nIl explique le décalage dans le temps entre la concentration plasmatique et l'effet\nRespecter le délai d'action avant de réinjecter
 Qu'est-ce que l'AIVOC ? :: L'anesthésie intraveineuse à objectif de concentration\nOn choisit une concentration cible (plasma ou site effet)\nLa pompe calcule et adapte le débit grâce à un modèle pharmacocinétique
 Qu'est-ce que la dexmédétomidine et quel est son principal risque ? :: Un agoniste alpha-2 utilisé pour la sédation, avec un intérêt dans l'épargne opioïde\nRisque : bradycardie, surtout en cas de bolus trop important
 
 // ---------- Sécurité et calculs ----------
-Quelles règles de sécurité s'appliquent à l'administration d'un médicament injectable ? :: Bon produit\nBonne dose\nBonne voie\nBon débit\nRègles d'hygiène\nÀ retenir : lire le nom ET la concentration sur l'étiquette
+Quelles règles de sécurité s'appliquent à l'administration d'un médicament injectable ? :: Bon produit\nBonne dose\nBonne voie\nBon débit\nRègles d'hygiène\nLire le nom ET la concentration sur l'étiquette
 Qu'est-ce qu'une communication en boucle fermée ? :: La demande est énoncée (produit, dose, voie)\nL'IADE la répète à voix haute\nLe prescripteur confirme
-De quelle couleur sont les étiquettes des seringues d'opioïdes, d'hypnotiques et de curares ? :: Opioïdes : bleu\nHypnotiques : jaune\nCurares : rouge\nÀ retenir : lire l'étiquette reste indispensable
+De quelle couleur sont les étiquettes des seringues d'opioïdes, d'hypnotiques et de curares ? :: Opioïdes : bleu\nHypnotiques : jaune\nCurares : rouge\nLire l'étiquette reste indispensable
 Quel est le piège des seringues préremplies ? :: Un même médicament peut exister en plusieurs concentrations\nExemple : atropine à 0,1 et à 0,2 mg/mL\n→ toujours lire la concentration
 Que signifie une concentration exprimée en pourcentage ? :: X % = X grammes pour 100 mL\nExemple : NaCl à 20 % = 20 g pour 100 mL, donc une ampoule de 10 mL contient 2 g
 Combien de grammes de glucose contient une poche de 500 mL de G5 ? :: 25 g\nG5 = glucose à 5 % = 5 g pour 100 mL → 5 × 500 / 100 = 25 g
