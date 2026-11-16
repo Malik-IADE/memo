@@ -6,7 +6,7 @@
 # IADE – Hygiène des mains
 
 // ---------- Principes ----------
-Quelle est la différence d'action entre le savon et le PHA ? :: Savon doux : enlève les salissures et réduit la flore transitoire\nPHA : désinfecte, élimine la flore transitoire et réduit la flore résidente\nÀ retenir : la friction hydroalcoolique est la technique de référence en routine
+Quelle est la différence d'action entre le savon et le PHA ? :: Savon doux : enlève les salissures et réduit la flore transitoire\nPHA : désinfecte, élimine la flore transitoire et réduit la flore résidente\nLa friction hydroalcoolique est la technique de référence en routine
 
 // ---------- Indications ----------
 Quelles sont les cinq indications de l'hygiène des mains ? :: Avant le contact avec le patient\nAvant un geste aseptique\nAprès un risque d'exposition à un liquide biologique\nAprès le contact avec le patient\nAprès le contact avec son environnement

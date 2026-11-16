@@ -5,10 +5,10 @@
 # IADE – Radioprotection
 
 Quels sont les trois principes de la radioprotection ? :: Justification : l'exposition doit apporter un bénéfice net\nOptimisation : doses au niveau le plus bas possible (ALARA)\nLimitation : ne pas dépasser les limites réglementaires
-Quels sont les trois moyens de protection contre les rayonnements ? :: Temps : réduire la durée d'exposition\nDistance : s'éloigner de la source\nÉcran : tablier plombé, parois adaptées\nÀ retenir : collimation, pour limiter le champ irradié
+Quels sont les trois moyens de protection contre les rayonnements ? :: Temps : réduire la durée d'exposition\nDistance : s'éloigner de la source\nÉcran : tablier plombé, parois adaptées\nCollimation : limiter le champ irradié
 Quelle est la différence entre exposition externe et exposition interne ? :: Externe : le rayonnement vient de l'extérieur du corps (rayons X, gamma, bêta)\nInterne : le radionucléide est incorporé par inhalation, ingestion ou plaie
 Quelle est la différence entre effets déterministes et effets stochastiques ? :: Déterministes : à seuil, liés à une dose importante (radiodermite, brûlures, atteintes hématologiques, cataracte)\nStochastiques : sans seuil, probabilité qui augmente avec la dose (cancers, leucémies, effets génétiques)
 Quelles sont les limites de dose efficace par an ? :: Travailleur de catégorie A : 20 mSv\nTravailleur de catégorie B : 6 mSv\nPublic : 1 mSv\nFemme enceinte : 1 mSv pendant la grossesse, à déclarer dès que possible
 Quelle est la différence entre les travailleurs de catégorie A et B ? :: A : exposition élevée, suivi renforcé, visite médicale chaque année\nB : exposition plus faible, suivi spécifique, visite médicale tous les 2 ans
 Quelle est la différence entre dosimètre passif et dosimètre opérationnel ? :: Passif (film) : mesure la dose intégrée, porté à la poitrine sous le tablier, lu en laboratoire\nOpérationnel (électronique) : dose et débit de dose en temps réel, alarme sonore et visuelle en cas de dépassement
-Comment le zonage radiologique est-il organisé ? :: Zone surveillée : accès réglementé\nZone contrôlée : accès limité, contrôle dosimétrique et suivi renforcé\nZone non réglementée : accès libre\nÀ retenir : le zonage dépend de l'activité et du débit de dose, et il est signalé
+Comment le zonage radiologique est-il organisé ? :: Zone surveillée : accès réglementé\nZone contrôlée : accès limité, contrôle dosimétrique et suivi renforcé\nZone non réglementée : accès libre\nLe zonage dépend de l'activité et du débit de dose, et il est signalé

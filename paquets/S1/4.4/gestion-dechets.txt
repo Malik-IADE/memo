@@ -8,9 +8,9 @@
 // ---------- Tri ----------
 Qu'est-ce qu'un DASRI ? :: Un DAS à risque infectieux (micro-organismes viables ou toxines pathogènes)\nOu, même sans risque infectieux : piquants-coupants, produits sanguins incomplètement utilisés ou périmés, déchets anatomiques non identifiables
 Quels déchets éliminer en DASRI ? :: Pansement imbibé de pus, liquide de ponction ou d'aspiration d'une infection\nCouche avec selles diarrhéiques infectieuses\nPiquant-coupant-tranchant, même non utilisé\nProduit sanguin incomplètement utilisé ou périmé\nDéchet anatomique non reconnaissable
-Quels déchets ne vont pas en DASRI ? :: Sondes, tubulures, seringues, couches, même chez un porteur de BMR (portage n'est pas infection)\nEmballages\nPoches à urines, de perfusion ou de transfusion vides\nCompresses tachées de sang, pansements non purulents\nÀ retenir : le meilleur déchet est celui qu'on ne produit pas
+Quels déchets ne vont pas en DASRI ? :: Sondes, tubulures, seringues, couches, même chez un porteur de BMR (portage n'est pas infection)\nEmballages\nPoches à urines, de perfusion ou de transfusion vides\nCompresses tachées de sang, pansements non purulents
 Que mettre dans une boîte à OPCT ? :: Uniquement les objets piquants, coupants ou tranchants\nVerre médical, DASRIA et déchets ménagers suivent leurs propres filières
 
 // ---------- Anesthésie et environnement ----------
-Quel est l'impact climatique des gaz d'anesthésie ? :: Desflurane : de loin le plus polluant, longue durée de vie dans l'atmosphère\nProtoxyde d'azote : durée de vie très longue\nSévoflurane : le moins polluant\nÀ retenir : l'anesthésie IV et la rachianesthésie ont une empreinte carbone plus faible
+Quel est l'impact climatique des gaz d'anesthésie ? :: Desflurane : de loin le plus polluant, longue durée de vie dans l'atmosphère\nProtoxyde d'azote : durée de vie très longue\nSévoflurane : le moins polluant\nL'anesthésie IV et la rachianesthésie ont une empreinte carbone plus faible
 Comment réduire la consommation d'halogénés ? :: Baisser le débit de gaz frais après 2 min d'induction (bas débit, circuit fermé)\nMode « pause débit » lors des déconnexions\nLimiter le by-pass d'O2\nMonitorer la profondeur d'anesthésie
