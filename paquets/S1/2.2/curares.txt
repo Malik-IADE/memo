@@ -9,7 +9,7 @@
 Comment s'arrête le signal à la jonction neuromusculaire ? :: L'acétylcholinestérase de la fente synaptique hydrolyse l'acétylcholine en choline et acétate, en quelques millisecondes
 Quelle proportion des récepteurs faut-il bloquer pour paralyser un muscle ? :: Au moins 75 % des récepteurs\nEnviron 90 % pour le diaphragme
 Quelle est la différence entre l'acétylcholinestérase et la pseudocholinestérase ? :: Acétylcholinestérase : dans la fente synaptique, hydrolyse spécifiquement l'acétylcholine\nPseudocholinestérase (butyrylcholinestérase) : dans le plasma, fabriquée par le foie, non spécifique
-Quels curares sont dégradés par la pseudocholinestérase plasmatique ? :: La succinylcholine\nLe mivacurium\nÀ retenir : un déficit de cette enzyme prolonge leur effet
+Quels curares sont dégradés par la pseudocholinestérase plasmatique ? :: La succinylcholine\nLe mivacurium\nUn déficit de cette enzyme prolonge leur effet
 Que sont les récepteurs nicotiniques immatures ? :: Des récepteurs présents chez le fœtus, quasi absents chez l'adulte\nIls réapparaissent en situation pathologique (dénervation, brûlure, immobilisation, myopathie)\nIls restent ouverts plus longtemps (6 ms au lieu de 1 ms) et sont plus sensibles à la succinylcholine
 Pourquoi les récepteurs immatures rendent-ils la succinylcholine dangereuse ? :: Ils sont plus nombreux et plus sensibles à la succinylcholine\n→ sortie massive de potassium : hyperkaliémie, troubles du rythme, arrêt cardiaque
 Quelle est la différence entre le récepteur nicotinique et le récepteur muscarinique ? :: Nicotinique : muscle (plaque motrice), cible des curares\nMuscarinique : système parasympathique, bloqué par l'atropine
@@ -24,7 +24,7 @@ Qu'est-ce que la DA95 d'un curare ? :: La dose qui supprime 95 % de la réponse 
 Quelle dose de curare utilise-t-on pour l'intubation, exprimée en DA95 ? :: 2 à 3 × DA95
 Quels médicaments prolongent l'effet des curares ? :: Halogénés\nAminosides\nAnesthésiques locaux\nInhibiteurs calciques\nMagnésium, lithium
 Quels états du patient prolongent l'effet des curares ? :: Hypermagnésémie, hypocalcémie\nHypothermie, acidose\nInsuffisance rénale ou hépatique, selon la molécule
-Quels muscles récupèrent avant l'adducteur du pouce après une curarisation ? :: Le diaphragme et les muscles du larynx\nÀ retenir : un pouce qui récupère ne garantit pas tout, mais un pouce encore curarisé signe une curarisation résiduelle
+Quels muscles récupèrent avant l'adducteur du pouce après une curarisation ? :: Le diaphragme et les muscles du larynx\nUn pouce qui récupère ne garantit pas tout, mais un pouce encore curarisé signe une curarisation résiduelle
 
 // ---------- Curares non dépolarisants ----------
 Quel est le mécanisme d'action des curares non dépolarisants ? :: Antagonistes compétitifs et réversibles du récepteur nicotinique\nUne seule molécule sur un des 2 sites empêche l'ouverture du canal\nPas de dépolarisation, donc pas de fasciculations
@@ -36,7 +36,7 @@ Quelle est la dose d'intubation de l'atracurium ? :: 0,5 mg/kg\nDélai 2 à 3 mi
 Comment l'atracurium est-il éliminé ? :: Par la voie de Hofmann et les estérases plasmatiques\nIndépendamment du foie et du rein
 Quel est l'effet indésirable principal de l'atracurium, et comment le limiter ? :: L'histaminolibération\nLa limiter en injectant lentement et en respectant la dose
 Qu'est-ce que la voie de Hofmann ? :: Une dégradation chimique spontanée de certains curares (atracurium, cisatracurium), indépendante du foie et du rein\nElle dépend de la température et du pH
-Quels curares préférer en cas d'insuffisance rénale ou hépatique ? :: L'atracurium ou le cisatracurium, éliminés par la voie de Hofmann\nÀ retenir : la dose initiale ne change pas, c'est la durée d'action qui s'allonge
+Quels curares préférer en cas d'insuffisance rénale ou hépatique ? :: L'atracurium ou le cisatracurium, éliminés par la voie de Hofmann\nLa dose initiale ne change pas, c'est la durée d'action qui s'allonge
 Pourquoi l'effet du mivacurium peut-il être prolongé ? :: Il est dégradé par les pseudocholinestérases plasmatiques\n→ prolongé en cas de déficit de cette enzyme ou d'insuffisance hépatique
 Quelle famille de curares expose à l'histaminolibération ? :: Les benzylisoquinolines, surtout l'atracurium\nLe cisatracurium n'en provoque presque pas
 Pourquoi une histaminolibération ne doit-elle pas faire écarter une allergie ? :: Rougeur, hypotension et bronchospasme peuvent se ressembler dans les deux cas\nL'aspect clinique ne tranche pas : seul un bilan identifie une allergie
@@ -51,7 +51,7 @@ Quels sont les effets indésirables graves de la succinylcholine ? :: Allergie\n
 Quelles sont les contre-indications absolues de la succinylcholine ? :: Antécédent personnel ou familial d'hyperthermie maligne\nAllergie\nRisque d'hyperkaliémie : déficit neurologique de plus de 48 h, brûlures étendues, maladies neuromusculaires, immobilisation prolongée\nMyopathies\nDéficit en pseudocholinestérase
 Que suspecter devant une paralysie qui dure longtemps après une dose de succinylcholine ? :: Un déficit en pseudocholinestérase
 Quelles sont les causes d'un déficit en pseudocholinestérase ? :: Congénital (génétique) : curarisation de quelques minutes à plus de 8 h selon la forme\nAcquis : grossesse, insuffisance hépatique, cancer, infection
-Qu'est-ce que le bloc de phase II de la succinylcholine ? :: Un bloc qui apparaît après une exposition prolongée ou à forte dose de succinylcholine\nIl ressemble alors à un bloc non dépolarisant\nÀ retenir : jamais de perfusion continue de succinylcholine
+Qu'est-ce que le bloc de phase II de la succinylcholine ? :: Un bloc qui apparaît après une exposition prolongée ou à forte dose de succinylcholine\nIl ressemble alors à un bloc non dépolarisant\nJamais de perfusion continue de succinylcholine
 
 // ---------- Allergie ----------
 Quand survient habituellement une allergie à un curare ? :: Dans les minutes qui suivent l'injection

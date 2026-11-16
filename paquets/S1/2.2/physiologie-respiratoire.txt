@@ -51,8 +51,8 @@ Comment calcule-t-on le transport artériel en O2 (TaO2) ? :: TaO2 = CaO2 × dé
 Pourquoi une FiO2 élevée ne compense-t-elle pas une anémie profonde ? :: L'O2 dissous est très faible : l'essentiel du contenu en O2 dépend de l'hémoglobine\nExemple : Hb à 2,5 g/dL et PaO2 à 600 mmHg → CaO2 ≈ 5,3 mL/100 mL seulement\n→ il faut transfuser
 Quels sont les repères de la courbe de dissociation de l'hémoglobine (courbe de Barcroft) ? :: PaO2 100 mmHg → SaO2 ≈ 97 %\nPvO2 40 mmHg → SvO2 ≈ 75 %\nP50 ≈ 27 mmHg (Hb saturée à 50 %)
 Pourquoi faut-il réagir dès que la SpO2 descend vers 90 % ? :: Au-dessus d'une PO2 de 60 mmHg, la courbe est en plateau (SaO2 > 90 %)\nEn dessous, la pente est raide : la saturation chute très vite
-Quels facteurs déplacent la courbe de dissociation de l'hémoglobine vers la droite ? :: Augmentation de la PCO2 et acidose (effet Bohr)\nHausse de la température\nAugmentation du 2,3-DPG\nÀ retenir : l'affinité baisse, l'O2 est mieux libéré aux tissus
-Quels facteurs déplacent la courbe de dissociation de l'hémoglobine vers la gauche ? :: Baisse de la PCO2, alcalose\nHypothermie\nBaisse du 2,3-DPG\nHémoglobine fœtale, monoxyde de carbone\nÀ retenir : l'affinité augmente, l'O2 est moins bien libéré
+Quels facteurs déplacent la courbe de dissociation de l'hémoglobine vers la droite ? :: Augmentation de la PCO2 et acidose (effet Bohr)\nHausse de la température\nAugmentation du 2,3-DPG\nL'affinité baisse, l'O2 est mieux libéré aux tissus
+Quels facteurs déplacent la courbe de dissociation de l'hémoglobine vers la gauche ? :: Baisse de la PCO2, alcalose\nHypothermie\nBaisse du 2,3-DPG\nHémoglobine fœtale, monoxyde de carbone\nL'affinité augmente, l'O2 est moins bien libéré
 Quels sont les quatre mécanismes d'hypoxie tissulaire ? :: Hypoxémique : PaO2 basse (pathologie pulmonaire)\nAnémique : manque d'Hb ou Hb inefficace (monoxyde de carbone)\nIschémique : bas débit, choc, occlusion artérielle\nCytotoxique : la cellule n'utilise plus l'O2 (cyanure)
 
 // ---------- Gaz du sang ----------

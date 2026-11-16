@@ -13,16 +13,16 @@ Que signifie l'association d'une HTA et d'une bradycardie chez un patient céré
 
 // ---------- Anesthésie et cerveau ----------
 Pourquoi un patient immobile sous anesthésie n'est-il pas forcément endormi ? :: Les curares bloquent la jonction neuromusculaire : immobilité sans sommeil\nUn patient curarisé ne peut pas signaler par un mouvement une hypnose insuffisante\n→ maintenir des doses d'hypnotique suffisantes et surveillées
-Pourquoi le stade II de Guedel est-il dangereux ? :: Le patient est inconscient mais ses réflexes sont exacerbés : agitation, mâchoires serrées, pupilles dilatées, respiration irrégulière\nRisques : laryngospasme, vomissements\nÀ retenir : ne pas stimuler, ne pas extuber
+Pourquoi le stade II de Guedel est-il dangereux ? :: Le patient est inconscient mais ses réflexes sont exacerbés : agitation, mâchoires serrées, pupilles dilatées, respiration irrégulière\nRisques : laryngospasme, vomissements\nNe pas stimuler, ne pas extuber
 Que faire devant un patient qui s'agite au réveil, serre les dents sur la sonde et ne répond pas aux ordres ? :: C'est le stade II de Guedel : ne pas l'extuber (risque de laryngospasme)\nAttendre au calme, sans stimulation, ou approfondir l'anesthésie\nExtuber quand il répond aux ordres simples
 Quels états du patient diminuent la MAC des halogénés ? :: Âge (environ −6 % par décennie)\nHypothermie\nGrossesse\nMorphiniques et sédatifs associés
 Quelles situations exposent à une mémorisation peropératoire ? :: Curarisation\nDoses d'hypnotique réduites : césarienne, choc, chirurgie cardiaque\nSéquence rapide, intubation difficile\nAntécédent de mémorisation, psychotropes au long cours
-Quel piège favorise la mémorisation peropératoire face à une hypotension ? :: Réduire l'hypnotique pour remonter la pression artérielle\nÀ retenir : traiter la PA à part (vasopresseur) et garder une hypnose suffisante
+Quel piège favorise la mémorisation peropératoire face à une hypotension ? :: Réduire l'hypnotique pour remonter la pression artérielle\nTraiter la PA à part (vasopresseur) et garder une hypnose suffisante
 Quels signes évoquent un sous-dosage en hypnotique ? :: Mouvement, toux\nHTA, tachycardie\nLaryngospasme, bronchospasme\nRisque de mémorisation
 Quels signes évoquent un surdosage en hypnotique ? :: Hypotension, bradycardie\nRetard de réveil\nActivité épileptique (sévoflurane à forte dose)
 Pourquoi la pression artérielle baisse-t-elle à l'induction ? :: Vasodilatation artérielle (résistances diminuées)\nVeinodilatation (précharge diminuée)\nBaisse du tonus sympathique et de la contractilité\nBaroréflexe émoussé\nVentilation en pression positive (retour veineux diminué)
 Comment interpréter les valeurs du BIS ? :: 100-80 : éveillé\n80-60 : sédation\n60-40 : anesthésie générale (cible)\n40-20 : hypnose profonde\n< 20 : bouffées-suppressions, anesthésie trop profonde
-Quelles sont les limites du BIS ? :: Activité musculaire, kétamine, sujet âgé faussent l'indice\nÀ retenir : toujours le confronter à la clinique et aux doses administrées
+Quelles sont les limites du BIS ? :: Activité musculaire, kétamine, sujet âgé faussent l'indice\nToujours le confronter à la clinique et aux doses administrées
 Que mesure l'ANI ? :: La variabilité de la fréquence cardiaque liée à la respiration (tonus vagal), de 0 à 100\n50-70 : analgésie adaptée\n< 50 : nociception mal contrôlée
 Dans quel ordre les fonctions reviennent-elles au réveil ? :: Ventilation spontanée (bulbe)\nRéflexes de protection : déglutition, toux (tronc)\nÉveil : ouvre les yeux à l'appel\nConscience : répond aux ordres simples\nOrientation et mémoire, en dernier
 Quelles causes rechercher devant un réveil retardé ? :: Médicaments : hypnotiques, morphiniques, curares (TOF), benzodiazépines\nMétabolisme : glycémie, température, capnie, natrémie\nCause cérébrale : pupilles, déficit d'un côté, convulsions → AVC, hématome, HTIC
@@ -48,13 +48,13 @@ Quels objectifs viser pour l'anesthésie d'un traumatisé crânien grave ? :: PA
 
 // ---------- Moelle et rachianesthésie ----------
 Quels sont les risques respiratoires d'une lésion médullaire cervicale selon le niveau ? :: Au-dessus de C3 : apnée\nC3-C5 (nerf phrénique) : ventilation souvent nécessaire\nC5-C8 : capacité vitale très réduite, toux inefficace
-Qu'est-ce que le choc neurogène du traumatisé médullaire ? :: Hypotension + bradycardie après une lésion au-dessus de T6\nÀ retenir : chercher aussi une hémorragie associée
+Qu'est-ce que le choc neurogène du traumatisé médullaire ? :: Hypotension + bradycardie après une lésion au-dessus de T6\nChercher aussi une hémorragie associée
 Jusqu'à quand peut-on utiliser la succinylcholine chez un traumatisé médullaire ? :: Seulement dans les 48 premières heures\nAu-delà : risque d'hyperkaliémie grave
 Où ponctionne-t-on pour une rachianesthésie chez l'adulte, et pourquoi ? :: En L3-L4 ou L4-L5\nSous le cône médullaire, qui se termine en L1-L2\nRepère : la ligne de Tuffier (crêtes iliaques) passe environ en L4
 À quels repères cutanés correspondent les niveaux T4, T6 et T10 d'un bloc ? :: T4 : mamelons (niveau visé pour une césarienne)\nT6 : appendice xiphoïde\nT10 : ombilic
 Quels signes apparaissent quand une rachianesthésie monte au niveau T1-T4 ? :: Atteinte des fibres cardio-accélératrices : bradycardie et hypotension marquée
 Quels signes apparaissent quand une rachianesthésie monte au niveau cervical ? :: C6-C8 : fourmillements et faiblesse des mains, dyspnée\nC3-C5 (nerf phrénique) : hypoventilation, désaturation, apnée\nTronc : perte de conscience, collapsus (rachianesthésie totale)
-Quelle est la conduite à tenir devant une rachianesthésie trop haute ? :: Appeler à l'aide, O2, rester à la tête du patient\nVasopresseur, atropine si bradycardie, adrénaline si collapsus, remplissage\nAssister la ventilation, intuber si besoin\nÀ retenir : paralysé ne veut pas dire endormi, endormir avant d'intuber
+Quelle est la conduite à tenir devant une rachianesthésie trop haute ? :: Appeler à l'aide, O2, rester à la tête du patient\nVasopresseur, atropine si bradycardie, adrénaline si collapsus, remplissage\nAssister la ventilation, intuber si besoin\nParalysé ne veut pas dire endormi, endormir avant d'intuber
 
 // ---------- Pupilles ----------
 Que suspecter devant un myosis et un ptosis d'un seul côté au réveil d'un bloc interscalénique ? :: Un syndrome de Claude Bernard-Horner : l'anesthésique local a diffusé vers la chaîne sympathique cervicale\nBénin, il régresse avec le bloc

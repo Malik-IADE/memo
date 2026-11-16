@@ -7,7 +7,7 @@
 
 // ---------- Anatomie fonctionnelle ----------
 À quel moment du cycle cardiaque la perfusion coronaire est-elle maximale ? :: En diastole\nEn systole, la contraction comprime les vaisseaux de la paroi
-Quels facteurs menacent la perfusion coronaire ? :: Tachycardie (diastole raccourcie)\nHypotension diastolique\nPression de remplissage élevée\nÀ retenir : l'endocarde est la zone la plus vulnérable
+Quels facteurs menacent la perfusion coronaire ? :: Tachycardie (diastole raccourcie)\nHypotension diastolique\nPression de remplissage élevée\nL'endocarde est la zone la plus vulnérable
 
 // ---------- Commande du cœur ----------
 Quel est l'effet du parasympathique sur le cœur ? :: Par le nerf vague (acétylcholine) : un frein permanent\nBradycardie, baisse de l'excitabilité et de la conduction
@@ -24,7 +24,7 @@ Quel est le piège de tout antiarythmique ? :: Il peut lui-même provoquer des t
 // ---------- Ischémie et hyperkaliémie ----------
 Que faire si le scope montre un sus-décalage du segment ST pendant l'intervention ? :: Ne pas conclure sur le scope seul (une seule dérivation, filtrage)\nFaire un ECG 12 dérivations\nAlerter le médecin
 À partir de quand une hyperkaliémie est-elle une urgence ? :: K⁺ > 6 mmol/L ou signes ECG\nRisque d'arrêt cardiaque
-Quels signes ECG évoquent une hyperkaliémie ? :: Ondes T géantes (amples)\nBradycardie\nOnde P diminuée et élargie\nBlocs auriculo-ventriculaires et intraventriculaires\nÀ retenir : ralentissement de l'automatisme et de la conduction, risque d'arrêt cardiaque
+Quels signes ECG évoquent une hyperkaliémie ? :: Ondes T géantes (amples)\nBradycardie\nOnde P diminuée et élargie\nBlocs auriculo-ventriculaires et intraventriculaires\nRalentissement de l'automatisme et de la conduction, risque d'arrêt cardiaque
 Quel est le rôle du gluconate de calcium dans l'hyperkaliémie menaçante ? :: Il stabilise la membrane cardiaque et agit sur les troubles ECG\nIl ne fait pas baisser la kaliémie
 Pourquoi associe-t-on insuline et glucose dans le traitement de l'hyperkaliémie ? :: L'insuline fait rentrer le potassium dans les cellules\nLe glucose évite l'hypoglycémie
 
@@ -38,7 +38,7 @@ Qu'est-ce que la postcharge ? :: La force qui s'oppose à l'éjection ventricula
 Que dit la loi de Frank-Starling ? :: Le cœur adapte son débit au retour veineux : plus il est rempli, plus il éjecte, jusqu'à un plateau
 Que signifie être « précharge-dépendant » ? :: Être sur la partie ascendante de la courbe de Frank-Starling : remplir augmente le volume d'éjection systolique
 Que risque-t-on à remplir un patient situé sur le plateau de la courbe de Frank-Starling ? :: Le débit n'augmente plus : surcharge, œdème pulmonaire
-Quels tests permettent de prédire la réponse au remplissage vasculaire ? :: Lever de jambes passif (remplissage transitoire et réversible)\nPetite épreuve de remplissage\nVariation respiratoire de la pression pulsée (delta-PP) sous ventilation\nÀ retenir : mesurer le VES ou le débit avant et après
+Quels tests permettent de prédire la réponse au remplissage vasculaire ? :: Lever de jambes passif (remplissage transitoire et réversible)\nPetite épreuve de remplissage\nVariation respiratoire de la pression pulsée (delta-PP) sous ventilation\nMesurer le VES ou le débit avant et après
 Qu'est-ce que le delta-PP ? :: La variation respiratoire de la pression pulsée sous ventilation mécanique\nUne variation importante évoque une précharge-dépendance
 Que faut-il éviter au bloc chez un patient porteur d'un rétrécissement aortique ? :: L'hypotension et la tachycardie, qui menacent la perfusion coronaire
 

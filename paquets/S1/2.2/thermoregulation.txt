@@ -28,9 +28,9 @@ Comment l'hypothermie modifie-t-elle l'effet des curares et du propofol ? :: Les
 
 // ---------- Prévention et surveillance ----------
 Quelle température centrale viser à l'arrivée en SSPI ? :: Au moins 36,5 °C\nIdéalement, retrouver la température de départ du patient\n36 °C est le seuil de l'hypothermie, pas un objectif
-Quelle est la différence entre couvrir un patient et le réchauffer activement ? :: Couvrir (passif) : limite les pertes, surtout par radiation ; efficace mais insuffisant\nRéchauffer activement (air pulsé) : apporte de l'énergie et compense la dette thermique\nÀ retenir : les deux s'associent, sans interruption, transferts compris
+Quelle est la différence entre couvrir un patient et le réchauffer activement ? :: Couvrir (passif) : limite les pertes, surtout par radiation ; efficace mais insuffisant\nRéchauffer activement (air pulsé) : apporte de l'énergie et compense la dette thermique\nLes deux s'associent, sans interruption, transferts compris
 Qu'est-ce que le préchauffage et à quoi sert-il ? :: Réchauffer la peau à l'air pulsé avant l'induction\nLa périphérie se réchauffe alors que le centre reste à 37 °C\n→ gradient centre-périphérie réduit, donc moins de chute de température à l'induction
 Combien de temps dure le préchauffage, et quand est-il indispensable ? :: De 10 à 60 minutes, à organiser dès l'arrivée en salle\nIndispensable pour une chirurgie courte (moins de 90 min) : un réchauffement débuté seulement après l'induction corrige mal la chute initiale
 Quelles conditions rendent le réchauffement par air pulsé efficace ? :: Réchauffer la plus grande surface possible (au moins 20 % du corps)\nDémarrer tôt et maintenir tout le séjour au bloc, transferts compris
 Quelles sont les trois règles de prévention de l'hypothermie peropératoire ? :: Couvrir et réchauffer la peau : dès que possible, tout le temps, sur la plus grande surface\nRéchauffer les fluides quand c'est indiqué\nMesurer la température à l'arrivée en SSPI
-Quels sites permettent de mesurer la température centrale ? :: Œsophage, nasopharynx, vessie, tympan, artère pulmonaire, rectum\nÀ retenir : les sites peuvent donner des valeurs différentes au même moment
+Quels sites permettent de mesurer la température centrale ? :: Œsophage, nasopharynx, vessie, tympan, artère pulmonaire, rectum\nLes sites peuvent donner des valeurs différentes au même moment
