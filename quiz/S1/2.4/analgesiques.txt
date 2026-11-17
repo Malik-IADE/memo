@@ -1,0 +1,198 @@
+// Quiz 21 – Analgésiques non morphiniques (UE 2.4), d'après « QUIZZ 21 Antalgiques non morphiniques.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Analgésiques non morphiniques
+
+QCM · Paracétamol : faible poids
+Une patiente adulte de 46 kg, dénutrie, sans insuffisance rénale ni hépatique, doit recevoir du paracétamol par voie orale. Aucun autre médicament contenant du paracétamol ne lui est administré. Quelles analyses de la prescription sont exactes ?
++ Le plafond pondéral est de 2 760 mg sur 24 heures :: 60 mg/kg × 46 kg = 2 760 mg, soit moins de 3 g.
++ Les limites de 60 mg/kg/j et de 3 g/j s'appliquent toutes deux : c'est la plus restrictive qui compte :: Ici, c'est le plafond pondéral.
++ Une prescription de 500 mg toutes les 6 heures respecte les deux plafonds :: Quatre prises font 2 g/24 h, et l'intervalle dépasse le minimum de 4 heures.
+- Une prescription de 1 g toutes les 8 heures respecte les plafonds :: Elle donne 3 g/24 h, au-delà du plafond pondéral de 2,76 g.
+- L'absence d'insuffisance hépatique autorise 4 g/j :: Les 4 g/j concernent l'adulte d'au moins 50 kg sans facteur de risque : le faible poids et la dénutrition l'excluent.
+> Deux plafonds coexistent pour le paracétamol : 3 g/24 h et 60 mg/kg/j. Chez une patiente de moins de 50 kg, c'est le calcul pondéral qui s'impose, et la dénutrition écarte toute majoration à 4 g.
+@ 2
+
+QCM · Paracétamol : insuffisance rénale
+Un adulte de 72 kg, sans atteinte hépatique, a une clairance de la créatinine de 8 mL/min. Quelles affirmations sur un traitement oral par paracétamol sont exactes ?
++ Le plafond est de 2 g/24 h :: Il s'applique dès que la clairance est inférieure à 10 mL/min.
++ Les prises doivent être espacées d'au moins 8 heures :: L'intervalle minimal passe de 4 à 8 heures.
++ Un schéma de 1 g toutes les 12 heures respecte l'intervalle et le plafond :: 2 g/24 h, avec un intervalle supérieur à 8 heures.
+- Le maximum est de 3 g/24 h, puisque le poids dépasse 50 kg :: La clairance inférieure à 10 mL/min impose 2 g/j, quel que soit le poids.
+- Un schéma de 1 g toutes les 8 heures est acceptable, l'intervalle étant correct :: Il donne 3 g/j : respecter l'intervalle ne dispense pas de respecter le plafond.
+> En insuffisance rénale sévère, deux paramètres changent : le plafond descend à 2 g/24 h et l'intervalle minimal monte à 8 heures. Il faut vérifier les deux, car un schéma peut être correct sur l'un et faux sur l'autre.
+@ 2, 10
+
+QCM · AINS et grossesse
+Une femme enceinte de 26 semaines d'aménorrhée présente une douleur musculosquelettique, sans atteinte hépatique. Quelles affirmations sur les options antalgiques sont exactes ?
++ Le paracétamol reste l'antalgique de référence pendant la grossesse :: À dose et durée adaptées.
++ La contre-indication des AINS à partir de 24 semaines concerne le canal artériel et le rein fœtal :: Constriction du canal artériel, insuffisance rénale fœtale, oligoamnios.
+- Une prise unique d'ibuprofène échappe à la contre-indication liée au terme :: La contre-indication à partir de 24 semaines s'applique même à une prise unique.
+- Un gel de diclofénac est autorisé à ce terme, la voie étant locale :: La contre-indication vise toutes les voies, y compris cutanée ; seuls les collyres font exception.
+- Un coxib peut être envisagé si la prescription est limitée à 24 heures :: Les coxibs sont contre-indiqués pendant toute la grossesse, et pas seulement après 24 semaines.
+> À partir de 24 semaines, aucun AINS, par aucune voie, même en prise unique : le risque est la fermeture du canal artériel et l'atteinte rénale fœtale. Les coxibs, eux, sont contre-indiqués durant toute la grossesse. L'antalgique de référence reste le paracétamol.
+@ 3, 4
+
+QCM · AINS : terrain à risque
+Un homme de 78 ans, déshydraté après des vomissements, prend un antagoniste des récepteurs de l'angiotensine 2 et un diurétique. Il a un antécédent d'accident ischémique transitoire. Un AINS est envisagé. Quelles analyses sont exactes ?
++ Le diclofénac est contre-indiqué du fait de l'antécédent d'accident ischémique transitoire :: Ses contre-indications cardiovasculaires sont alignées sur celles des coxibs.
++ L'association AINS, antagoniste des récepteurs de l'angiotensine 2 et diurétique cumule les facteurs de risque rénal :: C'est la triple association la plus dangereuse pour le rein.
++ L'absence d'adaptation de dose liée à l'âge dans le résumé des caractéristiques du produit n'annule pas le risque de ce terrain :: L'AINS reste déconseillé en cas de risque d'insuffisance rénale fonctionnelle.
+- La sélectivité COX-2 d'un coxib protège du risque rénal lié à la déshydratation :: La COX-2 est aussi constitutive dans le rein : la sélectivité ne protège pas le rein.
+- Le naproxène, au profil cardiovasculaire favorable, convient sans réévaluer l'hydratation :: Un profil cardiovasculaire plus favorable ne supprime pas le risque rénal de la déshydratation.
+> Chez ce patient, deux risques se superposent : rénal, par la triple association sur un sujet déshydraté, et cardiovasculaire, par l'antécédent d'accident ischémique. Aucun AINS, sélectif ou non, ne contourne ces deux obstacles : il faut corriger la volémie et choisir une autre stratégie antalgique.
+@ 3, 4, 5
+
+QCM · Néfopam : voies injectables
+Chez un adulte de 35 ans sans contre-indication au néfopam, quelles affirmations sur son administration injectable sont exactes ?
++ La dose intraveineuse est de 20 mg, renouvelable toutes les 4 heures :: Sans dépasser 120 mg/24 h, en perfusion lente.
++ La dose intramusculaire est de 20 mg toutes les 6 heures, et 120 mg/24 h est un plafond, non une cible :: Quatre doses usuelles font 80 mg.
+- Une perfusion de 20 mg en exactement 15 minutes satisfait l'exigence de durée :: L'exigence est de plus de 15 minutes, non de 15 minutes.
+- Le plafond de 120 mg/24 h autorise 40 mg par injection si l'on garde trois injections :: Le plafond journalier ne permet pas de modifier la dose unitaire de 20 mg.
+- L'absence de dépression respiratoire autorise une injection rapide chez un patient assis :: Le néfopam se perfuse lentement, patient allongé : injection rapide et position assise exposent à malaise, tachycardie et sueurs.
+> Le néfopam s'administre par 20 mg, en perfusion de plus de 15 minutes, patient allongé, avec un plafond de 120 mg/24 h. L'absence de dépression respiratoire est un avantage réel, mais ne dispense d'aucune de ces conditions.
+@ 6
+
+QCM · Néfopam : éligibilité
+Quelles affirmations distinguent correctement contre-indications, précautions et indications du néfopam ?
++ Un antécédent de convulsions est une contre-indication, même sans crise récente :: Convulsions et antécédents de convulsions sont contre-indiqués.
++ Le risque de rétention urinaire est une contre-indication :: Avec le risque de glaucome par fermeture de l'angle, du fait des effets anticholinergiques.
++ La grossesse n'est pas une contre-indication, mais l'utilisation est à éviter par prudence :: Faute de données suffisantes.
+- L'âge avancé est une contre-indication formelle, comme l'âge inférieur à 15 ans :: Chez le sujet âgé, le néfopam est déconseillé ; avant 15 ans, il est contre-indiqué. Les deux catégories diffèrent.
+- Le traitement de fond d'une douleur chronique est une indication du néfopam :: Son indication est la douleur aiguë, notamment postopératoire.
+> Les effets anticholinergiques du néfopam expliquent ses contre-indications : glaucome par fermeture de l'angle, risque de rétention urinaire, et antécédent de convulsions. Chez le sujet âgé, il est déconseillé, ce qui n'est pas la même chose qu'interdit.
+@ 6
+
+QCM · Lidocaïne intraveineuse
+Un adulte de 70 kg bénéficie d'une chirurgie abdominale avec analgésie par lidocaïne intraveineuse, à partir d'une solution à 20 mg/mL. Quelles affirmations sont exactes ?
++ Le bolus avant incision est de 105 mg, soit 5,25 mL :: 1,5 mg/kg × 70 kg = 105 mg ; 105 ÷ 20 = 5,25 mL.
++ La surveillance par électrocardiogramme est continue :: La lidocaïne est un antiarythmique : le risque est rythmique et neurologique.
++ La poursuite après l'opération est limitée à 24 heures au maximum :: 24 heures après l'opération, et non après le bolus.
+- La perfusion peropératoire est de 10,5 à 14 mg/h :: La dose est de 1,5 à 2 mg/kg/h, soit 105 à 140 mg/h : erreur d'un facteur dix.
+- L'indication antalgique s'étend à toute chirurgie dès lors que les doses sont identiques :: L'indication antalgique porte sur la chirurgie abdominale ; ailleurs, l'usage est hors autorisation de mise sur le marché.
+> La lidocaïne intraveineuse antalgique se résume à quatre chiffres : bolus de 1,5 mg/kg avant incision, entretien de 1,5 à 2 mg/kg/h, arrêt au plus tard 24 heures après l'opération, et électrocardiogramme continu. Toute erreur de facteur dix sur le débit expose à la toxicité systémique.
+@ 7
+
+QCM · Kétamine peropératoire
+Un patient de 80 kg, traité au long cours par opioïdes, doit subir une intervention très douloureuse. Une analgésie peropératoire par kétamine est retenue. Quelles affirmations sont exactes ?
++ Le bolus est d'au plus 40 mg, après l'induction :: 0,5 mg/kg × 80 kg.
++ Une perfusion de 0,125 à 0,25 mg/kg/h correspond à 10 à 20 mg/h :: Dose antihyperalgésique, très inférieure à la dose anesthésique.
++ La vulnérabilité liée aux opioïdes au long cours fait partie des situations retenues :: Avec les addictions et les chirurgies à fort risque de douleur.
+- La perfusion se poursuit 30 minutes après la fin de la chirurgie :: Elle doit être arrêtée 30 minutes avant la fin, pour limiter les effets psychodysleptiques au réveil.
+- Pour prévenir la douleur chronique, la perfusion doit être poursuivie plusieurs jours :: Le bénéfice n'est pas démontré et les hallucinations augmentent.
+> À dose antihyperalgésique, la kétamine se donne en bolus de 0,5 mg/kg après l'induction, puis 0,125 à 0,25 mg/kg/h, arrêtés 30 minutes avant la fin. Elle est particulièrement indiquée chez le patient sous opioïdes au long cours, chez qui la tolérance est installée.
+@ 7, 8
+
+QCM · Kétamine aux urgences
+Un adulte communicant de 60 kg présente une douleur traumatique aiguë. La morphine n'est pas souhaitable et une analgésie intraveineuse par kétamine à faible dose est choisie, sans objectif de sédation. Quelles affirmations sont exactes ?
++ Une dose de 9 à 18 mg en intraveineuse lente sur 15 minutes correspond à la plage proposée :: 0,15 à 0,3 mg/kg pour 60 kg.
++ La plage de 0,15 à 0,3 mg/kg est une dose administrée sur 15 minutes, non une dose horaire :: Il n'y a pas de « par heure » dans cette prescription.
++ L'échelle numérique est privilégiée pour l'évaluation initiale d'un patient communicant :: Recommandation de première intention en médecine d'urgence.
+- Le schéma de 0,5 à 1 mg/kg avec midazolam, 15 à 20 minutes avant un soin, s'applique à toute douleur aiguë aux urgences :: Ce schéma concerne les soins douloureux en soins intensifs ou palliatifs, après échec des opioïdes et du MEOPA.
+- L'ajout de paracétamol à une titration de morphine est recommandé aux urgences :: Cet ajout systématique n'est probablement pas recommandé dans ce contexte : les règles postopératoires ne se transposent pas.
+> Deux schémas de kétamine à ne pas confondre : l'analgésie, 0,15 à 0,3 mg/kg sur 15 minutes, et la sédation pour soin douloureux, 0,5 à 1 mg/kg avec une benzodiazépine. Le premier n'endort pas, le second oui, et les surveillances diffèrent.
+@ 2, 8, 9
+
+QCM · MEOPA et bulle intraoculaire
+Une patiente de 74 ans doit subir un pansement douloureux. Une chirurgie rétinienne avec injection de C3F8 a eu lieu six semaines plus tôt, et la bulle intraoculaire persiste. Quelles affirmations sont exactes ?
++ La bulle de gaz persistante contre-indique le MEOPA, même pour un soin bref :: Le repère de prudence est d'au moins trois mois pour les gaz ophtalmiques.
+- Le MEOPA est possible si chaque inhalation reste inférieure à 3 minutes :: Les 3 minutes correspondent au délai d'efficacité, pas à un seuil de sécurité.
+- L'âge de 74 ans est la raison de la contre-indication :: L'âge n'est pas une contre-indication du MEOPA.
+- Une prescription médicale lève le risque lié au gaz ophtalmique :: La prescription ne change rien au phénomène physique de diffusion du protoxyde d'azote.
+- Une association au midazolam supprime la diffusion du protoxyde d'azote dans la bulle :: Elle ne la modifie pas, et impose au contraire une surveillance renforcée.
+> Le MEOPA contient du protoxyde d'azote : il diffuse dans toute cavité gazeuse close. Après injection d'un gaz intraoculaire, il est contre-indiqué tant que la bulle persiste, sans que la durée d'inhalation, la prescription ou une association médicamenteuse n'y changent quoi que ce soit.
+@ 6, 11
+
+QCM · Corticoïdes en postopératoire
+Une dexaméthasone intraveineuse est discutée en complément d'une analgésie associant paracétamol et AINS. Quelles affirmations sont exactes ?
++ Ses objectifs possibles sont l'épargne morphinique et la prévention des nausées et vomissements :: Elle peut aussi prolonger un bloc périphérique et limiter la douleur de rebond.
++ L'association à un AINS impose de tenir compte du risque d'ulcération et d'hémorragie digestive :: Une protection gastrique est à envisager chez le patient à risque.
+- Elle a une activité antalgique propre, indépendante de son action anti-inflammatoire :: Son bénéfice postopératoire existe, mais elle n'a pas d'activité antalgique propre.
+- L'analgésie postopératoire figure dans les indications de la spécialité injectable :: Ni l'analgésie postopératoire ni la prévention des nausées et vomissements n'y figurent : l'usage est hors autorisation de mise sur le marché.
+- Une cure de corticoïde de 10 jours impose une décroissance avant l'arrêt :: Une cure de moins de 15 jours s'arrête sans décroissance.
+> La dexaméthasone est utile en postopératoire pour l'épargne morphinique et la prévention des nausées, sans être un antalgique au sens propre, et hors autorisation de mise sur le marché. Associée à un AINS, elle majore le risque digestif.
+@ 5, 9, 11
+
+QCM · Analgésie multimodale
+Quelles affirmations caractérisent une stratégie antalgique postopératoire multimodale ?
++ Paracétamol et AINS forment une base systématique et programmée, en l'absence de contre-indication :: Administrée à heure fixe, et non à la demande.
++ Quand un opioïde fort est indiqué, morphine et oxycodone sont les options, de préférence par voie orale :: La voie orale est privilégiée dès qu'elle est possible.
++ Les recommandations par type de chirurgie affinent cette base :: Par exemple paracétamol et AINS pour le côlon, paracétamol seul pour le rectum.
+- L'association paracétamol-ibuprofène est synergique, car son nombre de sujets à traiter est plus bas que celui de chaque molécule seule :: L'association est additive : un meilleur nombre de sujets à traiter ne démontre pas une synergie, qui supposerait un effet supérieur à la somme.
+- L'absence totale d'opioïdes apporte un bénéfice démontré sur la douleur postopératoire :: Le bénéfice de l'anesthésie sans opioïdes se limite aux nausées et vomissements, et ses médicaments ont leurs propres risques.
+> Une base programmée paracétamol et AINS, adaptée à la chirurgie, puis un opioïde fort par voie orale si nécessaire. Additif n'est pas synergique, et supprimer tout opioïde n'améliore pas la douleur : c'est l'exposition totale que l'on cherche à réduire, pas un chiffre à atteindre.
+@ 3, 8, 9
+
+QCM · Mécanismes
+Quelles associations entre mécanisme d'action et conséquence sont exactes ?
++ Le paracétamol agit comme une prodrogue, transformée dans le cerveau en AM404, qui active TRPV1 et implique le système cannabinoïde CB1 :: Son action est donc centrale, non anti-inflammatoire périphérique.
++ L'aspirine inhibe de façon irréversible la COX-1 plaquettaire :: D'où son effet antiagrégant durable, que les autres AINS n'ont pas.
++ Les corticoïdes inhibent la phospholipase A2, en amont des cyclo-oxygénases et des lipo-oxygénases :: Ils bloquent donc aussi la voie des leucotriènes.
+- La COX-2 n'est présente que dans les tissus inflammés, et son inhibition épargne le rein :: Elle est aussi constitutive dans le rein et l'endothélium.
+- Le renforcement des voies descendantes sérotoninergiques par le paracétamol est démontré chez l'homme :: C'est une hypothèse, non une démonstration.
+> Trois niveaux d'action : les corticoïdes en amont, sur la phospholipase A2 ; les AINS sur les cyclo-oxygénases, dont l'aspirine de façon irréversible sur la COX-1 plaquettaire ; le paracétamol au niveau central, par son métabolite AM404. La COX-2 n'est pas seulement inflammatoire : elle est constitutive dans le rein.
+@ 2, 3, 5
+
+QCM · Délais d'action
+Un soin douloureux est programmé. Quelles affirmations distinguent début de soulagement, effet maximal et concentration maximale ?
++ Le paracétamol intraveineux atteint son effet maximal vers 1 heure :: Début d'effet en 5 à 10 minutes, durée de 4 à 6 heures.
++ Après une morphine intraveineuse, attendre 10 minutes avant le soin correspond au repère de programmation :: Le délai d'action est de 5 à 10 minutes.
++ Un Tmax oral de 2 heures pour le tramadol ne signifie pas une absence de soulagement avant 2 heures :: Le Tmax est le délai de concentration maximale, non le début de l'effet.
++ Le délai d'action du néfopam et du kétoprofène n'est pas chiffré dans leurs résumés des caractéristiques du produit :: Mieux vaut ne pas inventer un chiffre.
+- Un début de soulagement du paracétamol intraveineux à 5 ou 10 minutes signifie que l'effet maximal est atteint :: Le début de soulagement précède l'effet maximal, situé vers 1 heure.
+> Pour programmer un soin, c'est l'effet maximal qui compte, non le début de soulagement ni la concentration maximale. Le paracétamol intraveineux demande une heure : l'anticipation doit être prise dès la prescription.
+@ 8, 10
+
+QCM · Prévention de la douleur chronique postopératoire
+Quelles affirmations sur la prévention de la douleur chronique postopératoire sont exactes ?
++ Une douleur neuropathique postopératoire précoce est un signal d'alerte de chronicisation :: Dépistable par le questionnaire DN4, et à prendre en charge sans attendre.
++ L'effet préventif de certaines techniques locorégionales est établi pour des chirurgies précises :: Thoracotomie, chirurgie du sein, césarienne, avec des techniques définies, sans généralisation possible.
++ Les agonistes α2 épargnent la morphine, mais exposent à bradycardie, hypotension et sédation prolongée :: L'épargne morphinique n'équivaut pas à une absence de risque.
+- La gabapentine et la prégabaline préviennent la douleur chronique postopératoire :: Leur effet préventif n'est pas démontré, et leur usage systématique n'est pas indiqué.
+- La prolongation d'un cathéter périnerveux plusieurs jours est supérieure à une injection unique pour prévenir la chronicisation :: La durée optimale n'est pas établie et l'apport sur la chronicisation n'est pas démontré.
+> Pour prévenir la chronicisation : dépister tôt une composante neuropathique, et utiliser l'anesthésie locorégionale là où son bénéfice est documenté. Les gabapentinoïdes systématiques et la prolongation des cathéters n'ont pas démontré leur intérêt sur ce point.
+@ 2, 6, 7, 8, 9
+
+QCU · Causalité : méthoxyflurane
+Affirmation 1 : le méthoxyflurane inhalé est une option recommandée dans la phase initiale d'une douleur traumatique modérée à sévère.
+Affirmation 2 : son délai d'action de 1 à 9 minutes est compatible avec un usage antalgique précoce.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies et liées : c'est précisément sa rapidité d'action, et son administration autonome par le patient, qui en font une option de la phase initiale d'une douleur traumatique. Il s'agit d'une recommandation faible, et non d'une recommandation forte.
+@ 6
+
+QCU · Causalité : néfopam
+Affirmation 1 : le néfopam inhibe la recapture de la noradrénaline, de la sérotonine et de la dopamine.
+Affirmation 2 : le néfopam est classé au palier 2 de l'Organisation mondiale de la santé parce que son efficacité se rapproche de celle des opioïdes faibles.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
++ La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première est vraie : le néfopam inhibe la recapture de ces trois monoamines, mécanisme qui explique ses effets indésirables adrénergiques et anticholinergiques. La seconde est fausse : il est classé au palier 1, même si son efficacité et ses effets indésirables le rapprochent du palier 2.
+@ 2, 6
+
+QCU · Causalité : kétamine
+Affirmation 1 : la norkétamine est un métabolite dépourvu d'activité antalgique.
+Affirmation 2 : la norkétamine s'élimine plus lentement que la kétamine et peut s'accumuler en perfusion continue.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
++ La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première est fausse : la norkétamine est active et prolonge l'analgésie. La seconde est vraie : son élimination plus lente explique l'accumulation en perfusion continue, et la persistance des effets après l'arrêt.
+@ 7
+
+QCU · Causalité : paracétamol
+Affirmation 1 : une prise de paracétamol à 4 g/j pendant au moins quatre jours réduit l'effet anticoagulant des antivitamines K.
+Affirmation 2 : le métabolite NAPQI est détoxifié physiologiquement par la N-acétylcystéine présente dans le foie.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
++ Les deux affirmations sont fausses.
+> Les deux sont fausses. Sous antivitamine K, cette prise augmente l'effet anticoagulant et le risque hémorragique : l'INR doit être surveillé pendant et après le traitement. Et c'est le glutathion qui détoxifie physiologiquement le NAPQI ; la N-acétylcystéine est l'antidote administré en cas d'intoxication, précisément parce que le glutathion est épuisé.
+@ 2, 3

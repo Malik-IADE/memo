@@ -1,0 +1,256 @@
+// Quiz 24 – Hypnotiques et benzodiazépines (UE 2.4), d'après « QUIZZ 24 HYPNO BENZO.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Hypnotiques et benzodiazépines
+
+QCM · Récepteurs
+Quelles affirmations sur les mécanismes d'action des hypnotiques sont exactes ?
++ Le récepteur GABA-A est un canal chlorure :: Son ouverture hyperpolarise le neurone : c'est un récepteur inhibiteur.
++ Les benzodiazépines ont besoin de GABA pour agir sur ce récepteur :: Elles sont modulatrices, non agonistes directes : d'où leur effet plafond isolé.
++ Le propofol agit principalement sur le récepteur GABA-A :: Comme les benzodiazépines, mais par un site distinct, sans effet plafond.
+- La kétamine est un agoniste du récepteur NMDA :: Elle en est antagoniste, ce qui explique son profil dissociatif et antihyperalgésique.
+- L'association benzodiazépine-morphinique conserve l'effet plafond respiratoire :: L'association fait disparaître cette protection : la dépression respiratoire devient possible.
+> GABA-A, canal chlorure inhibiteur, est la cible du propofol, des benzodiazépines et du thiopental, par des sites différents. La kétamine fait exception : elle bloque le récepteur NMDA. L'effet plafond respiratoire des benzodiazépines seules est une sécurité relative, abolie dès qu'un morphinique est associé.
+@ 14–21, 78, 83
+
+QCM · Pharmacocinétique
+Quelles affirmations distinguent durée d'action, redistribution et élimination ?
++ Le réveil après un bolus précède l'élimination complète du produit :: La concentration cérébrale passe sous le seuil d'effet avant que le produit ait disparu.
++ La redistribution déplace le médicament du compartiment central vers les tissus :: C'est elle qui met fin à l'effet d'un bolus unique.
++ La demi-vie contextuelle dépend de la durée de la perfusion :: Plus les tissus sont chargés, plus la décroissance est lente à l'arrêt.
+- Une demi-vie d'élimination de plusieurs heures impose plusieurs heures d'hypnose :: Le thiopental le démontre : réveil en quelques minutes, élimination en plusieurs heures.
+- Un réveil rapide exclut toute accumulation en injections répétées :: Un produit rapidement redistribué remplit malgré tout ses réservoirs, qui le relarguent ensuite.
+> La fin de l'effet d'un bolus est une affaire de redistribution, pas d'élimination. En injections répétées ou en perfusion, les tissus se chargent et c'est l'élimination qui devient déterminante : la durée d'action s'allonge avec le contexte.
+@ 23–29, 67
+
+QCM · Terrain et distribution
+Quels facteurs modifient la concentration active ou la réponse aux hypnotiques ?
++ Une baisse de la liaison protéique augmente la fraction libre :: Seule la fraction libre est active : l'effet se majore à dose égale.
++ Un faible débit cardiaque retarde l'arrivée du produit au cerveau :: Le délai d'action s'allonge, ce qui pousse à réinjecter trop tôt.
++ La forme libre, lipophile et non ionisée franchit plus facilement la barrière hémato-encéphalique :: Ces trois conditions définissent la fraction réellement active au niveau central.
+- Le poids suffit à prédire la dose nécessaire :: Âge, volémie, protéines et sensibilité cérébrale pèsent autant : les mg/kg ne sont qu'un point de départ.
+- L'absence d'effet immédiat autorise une nouvelle dose complète :: Réinjecter avant le pic d'effet superpose les doses et provoque l'apnée et l'hypotension.
+> Chez un patient hypovolémique, dénutri ou âgé, la même dose donne une concentration active plus élevée et arrive plus tard. La réponse est double : réduire la dose initiale et attendre le délai d'action avant de réinjecter.
+@ 23–30, 110
+
+QCM · Propofol : effets
+Quelles affirmations sur les effets du propofol sont exactes ?
++ Il est hypnotique sans être antalgique :: L'hypnose ne couvre pas la nociception de l'intubation ou de l'incision.
++ Il peut provoquer une apnée et diminue les réflexes laryngés :: La capacité à ventiler doit être anticipée avant l'injection.
++ Il a un effet bronchodilatateur :: Propriété favorable chez l'asthmatique.
+- Il provoque une vasoconstriction veineuse qui améliore le retour veineux :: Il provoque l'inverse : une vasodilatation veineuse et artérielle, qui abaisse la pression artérielle.
+- L'absence de tachycardie après son injection exclut une hypovolémie :: Il freine la réponse sympathique : la tachycardie réflexe peut manquer chez un patient pourtant hypovolémique.
+> Le propofol associe une hypnose de qualité, une bronchodilatation et un profil antiémétique à une dépression hémodynamique et respiratoire. Il abolit aussi la tachycardie réflexe : chez l'hypovolémique, l'absence de tachycardie ne doit jamais rassurer.
+@ 38–40
+
+QCM · Propofol : administration
+Quelles affirmations sur l'administration du propofol sont exactes ?
++ Une émulsion à 1 % contient 10 mg/mL :: 1 g pour 100 mL.
++ Une préparation extemporanée et une asepsie rigoureuse sont nécessaires :: L'émulsion lipidique est un milieu favorable à la croissance microbienne.
++ Injecter plus lentement peut réduire la dose totale nécessaire :: On laisse le temps à l'effet d'apparaître avant d'ajouter du produit.
+- Une solution à 2 % contient la même quantité par mL qu'une solution à 1 % :: Elle en contient le double, 20 mg/mL : la confusion expose à un surdosage de 100 %.
+- Une injection rapide est plus sûre chez le patient fragile :: La vitesse d'injection majore l'apnée et l'hypotension : chez le fragile, on titre.
+> Vérifier la concentration avant chaque usage : 1 % fait 10 mg/mL, 2 % en fait 20. La vitesse d'injection est un paramètre de dose à part entière : injecter lentement, chez le patient fragile, réduit à la fois la dose nécessaire et les effets hémodynamiques.
+@ 35–36
+
+QCM · Syndrome de perfusion du propofol
+Quels éléments doivent faire évoquer ou prendre en charge un syndrome de perfusion du propofol ?
++ Une perfusion supérieure à 4 mg/kg/h pendant plus de 48 heures est le contexte à risque :: Dose et durée sont les deux facteurs reconnus.
++ Une acidose lactique associée à une rhabdomyolyse est un signal d'alerte :: Atteinte métabolique et musculaire conjointe.
++ Une défaillance cardiovasculaire peut faire partie du tableau :: Bradycardie et défaillance cardiaque réfractaire en sont les formes graves.
+- Des urines vertes isolées suffisent à affirmer le diagnostic :: Cette coloration est banale sous propofol et n'a pas de valeur diagnostique.
+- La suspicion impose d'augmenter la dose pour approfondir la sédation :: Il faut au contraire arrêter le propofol et changer de stratégie de sédation.
+> Le syndrome de perfusion du propofol est rare mais grave : acidose lactique, rhabdomyolyse, défaillance cardiovasculaire, au-delà de 4 mg/kg/h pendant plus de 48 heures. La conduite à tenir est l'arrêt immédiat du propofol, pas l'augmentation de la dose.
+@ 42
+
+QCM · Étomidate
+Quelles affirmations sur l'étomidate sont exactes ?
++ Il est retenu pour l'induction d'un patient à risque hémodynamique :: Sa tolérance hémodynamique est la meilleure des hypnotiques.
++ Il ne couvre pas la nociception liée à l'intubation :: Il n'a aucune propriété antalgique : un morphinique reste nécessaire.
++ L'inhibition de la 11β-hydroxylase peut survenir dès un bolus unique :: Elle n'exige pas une perfusion prolongée.
+- Il peut être perfusé plusieurs jours pour entretenir une sédation :: L'inhibition surrénalienne l'interdit formellement.
+- Toute myoclonie sous étomidate signe une crise épileptique :: Les myoclonies sont fréquentes et bénignes, sans tracé épileptique.
+> L'étomidate est l'hypnotique du patient hémodynamiquement précaire, en bolus unique. Son inhibition de la synthèse du cortisol, présente dès une dose unique, lui interdit tout entretien et toute sédation prolongée. Les myoclonies ne sont pas des convulsions.
+@ 46–50
+
+QCM · Kétamine : mécanisme et respiration
+Quelles affirmations sur la kétamine sont exactes ?
++ Elle produit une anesthésie dissociative :: L'aspect clinique diffère d'un sommeil sous propofol.
++ Des yeux ouverts et un nystagmus peuvent persister sous son effet :: Ces signes ne signifient pas que le patient est réveillé.
++ Elle a un effet bronchodilatateur :: Intéressante dans le bronchospasme grave.
+- La ventilation préservée exclut toute apnée après un bolus rapide :: Une dépression respiratoire transitoire reste possible, surtout si l'injection est rapide ou associée à un morphinique.
+- La persistance de réflexes laryngés protège de l'inhalation :: Ces réflexes sont conservés de façon incomplète : la protection n'est pas garantie.
+> La kétamine conserve relativement la ventilation et le tonus des voies aériennes, mais « relativement » n'est pas « totalement » : ni l'apnée ni l'inhalation ne sont exclues. Les yeux ouverts et le nystagmus font partie de l'état dissociatif, non du réveil.
+@ 54–57
+
+QCM · Kétamine : précautions
+Quelles affirmations sur les limites de la kétamine sont exactes ?
++ La tachycardie qu'elle induit augmente les besoins myocardiques en oxygène :: D'où la prudence chez le coronarien.
++ Une psychose est une contre-indication relative importante :: Ses effets psychodysleptiques peuvent aggraver le vécu psychique.
++ Un épuisement catécholaminergique peut démasquer son effet inotrope négatif :: Son soutien hémodynamique est indirect, par libération de catécholamines : il s'épuise.
++ Une chirurgie à globe ouvert est une réserve à son utilisation :: Elle peut augmenter la pression intraoculaire.
+- Son effet hypertenseur la rend préférable à l'étomidate chez le coronarien instable :: Le gain tensionnel ne compense pas la tachycardie et la hausse des besoins en oxygène du myocarde.
+> La kétamine soutient la pression artérielle de façon indirecte, par stimulation sympathique : d'où la tachycardie, défavorable au coronarien, et l'échappement chez le patient en choc prolongé, où son effet inotrope négatif propre apparaît. Sur un cœur à risque, l'étomidate reste l'agent de choix.
+@ 58, 60–61, 73
+
+QCM · Kétamine : doses
+Quelles associations entre dose et objectif sont exactes pour la kétamine racémique ?
++ Induction intraveineuse de l'adulte : 1 à 2 mg/kg :: Dose anesthésique complète.
++ Bolus antalgique : 0,15 à 0,3 mg/kg :: Dose infra-anesthésique, dix fois plus faible que l'induction.
++ Entretien antihyperalgésique : 0,125 à 0,25 mg/kg/h :: Il s'agit d'un débit horaire, non d'un bolus.
+- Induction intramusculaire : 0,125 à 0,25 mg/kg :: La dose intramusculaire d'induction est de 5 à 10 mg/kg.
+- La dose de S-kétamine est la même que celle du mélange racémique :: Elle est deux fois plus puissante : les doses sont divisées par deux.
+> Trois ordres de grandeur à ne pas confondre : antalgique (0,15 à 0,3 mg/kg), anesthésique intraveineux (1 à 2 mg/kg), anesthésique intramusculaire (5 à 10 mg/kg). Et pour la S-kétamine, diviser par deux.
+@ 54–55, 59
+
+QCM · Thiopental
+Quelles affirmations sur le thiopental sont exactes ?
++ La reconstitution de 500 mg dans 20 mL donne 25 mg/mL :: Soit une solution à 2,5 %.
++ Une extravasation peut provoquer une nécrose :: Le pH de la solution dépasse 10.
++ Le mélange direct avec un curare peut précipiter :: D'où l'obligation de rincer la ligne entre les produits.
+- La porphyrie aiguë est une indication privilégiée :: C'est une contre-indication : les barbituriques déclenchent les crises.
+- Sa faible accumulation en fait un agent d'entretien :: Il s'accumule fortement, avec une demi-vie contextuelle qui s'allonge vite : il est réservé au bolus.
+> Le thiopental est une solution très alcaline : nécrose en cas d'extravasation, précipitation avec les curares. Il s'accumule fortement, ce qui le limite au bolus d'induction, et il est contre-indiqué dans la porphyrie aiguë.
+@ 66–72
+
+QCM · Choix d'un hypnotique
+Quelles associations entre situation clinique et choix d'hypnotique sont cohérentes ?
++ Rétrécissement aortique serré : étomidate :: C'est l'agent dont la tolérance hémodynamique est la meilleure.
++ Asthme : propofol ou kétamine :: Les deux ont des propriétés bronchodilatatrices.
++ Chirurgie ambulatoire : propofol :: Récupération rapide et faible caractère émétisant.
+- Choc hypovolémique : conserver la dose adulte complète si l'on choisit l'étomidate :: Même avec l'étomidate, la dose doit être réduite et titrée.
+- Porphyrie aiguë : thiopental :: Il est contre-indiqué dans cette situation.
+> Le choix se fait sur le terrain : étomidate si l'hémodynamique est précaire, propofol ou kétamine si les bronches sont réactives, propofol en ambulatoire. Dans tous les cas, l'état volémique impose de réduire la dose : aucun hypnotique ne dispense de titrer.
+@ 73
+
+QCM · Benzodiazépines : effets
+Quels effets font partie des propriétés des benzodiazépines ?
++ L'anxiolyse :: C'est l'effet recherché en prémédication.
++ L'amnésie antérograde :: Les événements qui suivent l'administration sont mal mémorisés.
++ L'effet anticonvulsivant :: D'où le risque de convulsions lors d'une antagonisation.
++ La myorelaxation et l'effet hypnotique :: Avec les trois précédents, ce sont les cinq effets principaux.
+- Une analgésie comparable à celle d'un anesthésique local :: Les benzodiazépines ne sont pas antalgiques.
+> Cinq effets : anxiolyse, amnésie antérograde, anticonvulsivant, myorelaxant, hypnotique. Aucune analgésie. Chacun de ces effets disparaît lors d'une antagonisation par flumazénil, y compris l'effet anticonvulsivant.
+@ 76–78
+
+QCM · Benzodiazépines : métabolisme
+Quelles affirmations sur les interactions et l'accumulation des benzodiazépines sont exactes ?
++ La clarithromycine ralentit le métabolisme du midazolam :: Elle inhibe le CYP3A4, d'où une sédation prolongée.
++ L'insuffisance rénale favorise l'accumulation de métabolites actifs du midazolam :: Son métabolite hydroxylé est actif et éliminé par le rein.
++ Lorazépam, oxazépam et témazépam passent directement par glucuroconjugaison :: Moyen mnémotechnique LOT ; ils sont moins sensibles aux interactions et à l'insuffisance hépatique.
+- La rifampicine ralentit leur dégradation :: C'est un inducteur enzymatique : elle l'accélère et diminue l'effet.
+- L'association à un morphinique diminue le risque de dépression respiratoire :: Elle le majore : les deux dépressions respiratoires s'additionnent.
+> Le midazolam dépend du CYP3A4 : inhibiteurs comme la clarithromycine, prolongation ; inducteurs comme la rifampicine, effet diminué. Les trois benzodiazépines du moyen mnémotechnique LOT échappent à cette voie. Et toute association à un morphinique majore la dépression respiratoire.
+@ 81–84, 89
+
+QCM · Midazolam en sédation procédurale
+Chez un patient âgé recevant un morphinique, quelles mesures sont pertinentes pour une sédation au midazolam ?
++ Réduire la dose initiale et procéder par petites fractions :: Repère de 0,5 à 1 mg, puis incréments de 0,5 mg chez le patient fragile.
++ Attendre 3 à 5 minutes avant de réinjecter :: L'effet maximal est retardé par rapport à la fin de l'injection.
++ Préparer les moyens d'oxygénation, de ventilation et le flumazénil :: Il faut pouvoir traiter immédiatement une dépression respiratoire.
++ Surveiller la fréquence respiratoire et le niveau de sédation, pas seulement la SpO₂ :: L'hypoventilation précède la désaturation, surtout sous oxygène.
+- Administrer 3 mg en bolus rapide :: Ce schéma ignore la sensibilité liée à l'âge et la potentialisation par le morphinique.
+> Chez le sujet âgé sous morphinique, deux règles : des fractions de 0,5 mg, et l'attente du pic d'effet avant chaque réinjection. L'oxygène masque la désaturation : c'est la fréquence respiratoire et le niveau de sédation qui alertent, et le flumazénil doit être prêt.
+@ 87–90, 131–133
+
+QCM · Benzodiazépines : situations particulières
+Quelles affirmations sont exactes ?
++ Un arrêt brutal après un traitement chronique peut provoquer des convulsions :: Le syndrome de sevrage est un risque distinct de la tolérance.
++ Le rémimazolam est hydrolysé par des carboxylestérases en métabolite inactif :: Profil cinétique bref et indépendant du CYP3A4, à la différence du midazolam.
++ Un traitement chronique se poursuit jusqu'au matin de l'intervention :: Pour éviter précisément ce sevrage périopératoire.
+- Une agitation paradoxale justifie de doubler les doses jusqu'à l'immobilité :: Il faut sécuriser, rassurer et éviter l'escalade, qui aggrave la dépression respiratoire.
+- Les benzodiazépines ne traversent pas le placenta :: Elles le franchissent, avec un risque d'hypotonie et de dépression respiratoire néonatales.
+> Un traitement chronique se poursuit jusqu'au matin : l'arrêt brutal expose aux convulsions de sevrage. L'agitation paradoxale ne se traite pas par l'escalade de doses. Le rémimazolam se distingue par une hydrolyse rapide en métabolite inactif.
+@ 79–80, 92–93, 130
+
+QCM · Flumazénil
+Quelles affirmations sur le flumazénil sont exactes ?
++ Il antagonise de façon compétitive le site des benzodiazépines :: Il n'antagonise ni les morphiniques, ni le propofol : ce n'est pas un antidote universel.
++ Il doit être administré avec prudence chez un épileptique traité par benzodiazépines :: La levée de l'effet anticonvulsivant peut déclencher une crise.
++ L'intoxication associant benzodiazépine et antidépresseur tricyclique est une contre-indication :: Le risque proconvulsivant du mélange rend l'antagonisation dangereuse.
++ Sa demi-vie est plus courte que celle de nombreuses benzodiazépines :: D'où un risque de resédation à distance.
+- Un réveil initial complet autorise une sortie immédiate :: Le réveil peut n'être que transitoire : la surveillance doit se prolonger.
+> Le flumazénil lève l'effet des benzodiazépines, et donc leurs cinq effets, dont l'effet anticonvulsivant. Sa demi-vie courte impose une surveillance prolongée après le réveil, et il est contre-indiqué en cas de co-intoxication par un tricyclique.
+@ 96–99, 133
+
+QCM · Neuroleptiques antiémétiques
+Quelles affirmations sur les neuroleptiques utilisés comme antiémétiques sont exactes ?
++ Le dropéridol allonge le QT :: Avec un risque de torsades de pointes.
++ Une hypokaliémie majore le risque rythmique :: Les troubles ioniques doivent être corrigés avant l'administration.
++ Le terrain parkinsonien fait éviter les antagonistes dopaminergiques :: Ils aggravent les symptômes moteurs.
++ Une dystonie aiguë peut se manifester par une crise oculogyre ou un torticolis :: Ces signes peuvent apparaître précocement après l'administration.
+- Le métoclopramide et le dropéridol sont dépourvus d'effet extrapyramidal :: Le blocage dopaminergique expose précisément à ces manifestations motrices.
+> Les antiémétiques antidopaminergiques ont deux risques : rythmique, par allongement du QT, majoré par l'hypokaliémie, et extrapyramidal, avec dystonies aiguës et aggravation d'un syndrome parkinsonien. Un ECG et un ionogramme orientent le choix.
+@ 103–106
+
+QCU · Syndrome malin des neuroleptiques
+Rigidité, hyperthermie et trouble de la conscience apparaissent après l'augmentation d'un neuroleptique. Quelle affirmation est exacte ?
++ Une élévation des CPK oriente vers un syndrome malin des neuroleptiques :: La rigidité et la rhabdomyolyse expliquent cette élévation.
+- Le traitement consiste à augmenter le neuroleptique responsable :: Le médicament doit être arrêté sans délai.
+- L'absence de nausées permet d'exclure ce syndrome :: Les nausées ne font pas partie des critères du diagnostic.
+- Il s'agit d'une réaction paradoxale bénigne à une benzodiazépine :: Le tableau est grave et relève d'une prise en charge spécifique.
+- Le refroidissement est contre-indiqué :: Il fait partie du traitement symptomatique, avec la réhydratation.
+> Devant la triade rigidité, hyperthermie et trouble de conscience après introduction ou majoration d'un neuroleptique, il faut arrêter le médicament, doser les CPK et traiter : refroidissement, réhydratation, surveillance en réanimation.
+@ 107
+
+QCM · Sujet âgé et prémédication
+Quelles affirmations sur le sujet âgé et la prémédication sont exactes ?
++ Le sujet âgé est plus sensible à une même concentration d'hypnotique :: Le vieillissement modifie la réponse pharmacodynamique, en plus de la cinétique.
++ L'hydroxyzine peut allonger le QT et avoir des effets anticholinergiques :: Remplacer une benzodiazépine par un autre sédatif ne supprime pas les risques.
++ Une communication adaptée et la musique ont une place dans la gestion de l'anxiété :: Mesures non médicamenteuses, sans risque respiratoire.
+- Une petite dose de propofol exclut le risque d'apnée après 80 ans :: Une faible dose peut suffire à provoquer une apnée sur ce terrain.
+- Une prémédication par benzodiazépine améliore la satisfaction et accélère la récupération cognitive :: Elle ralentit au contraire la récupération cognitive, sans bénéfice démontré sur la satisfaction.
+> Après 80 ans, la sensibilité est accrue et la marge étroite : les doses se réduisent et la titration devient la règle. La prémédication médicamenteuse systématique n'a pas démontré son bénéfice, et l'alternative n'est pas un autre sédatif mais une préparation non médicamenteuse.
+@ 110–122
+
+QCU · Causalité : durée d'action
+Affirmation 1 : un patient peut se réveiller après un bolus de thiopental alors que le produit est encore présent dans l'organisme.
+Affirmation 2 : la redistribution fait passer la concentration cérébrale sous le seuil hypnotique avant l'élimination complète.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies et liées. Le thiopental en est l'exemple : réveil en quelques minutes par redistribution vers les tissus, alors que son élimination demande plusieurs heures. C'est pourquoi les bolus répétés s'accumulent.
+@ 24, 27–29, 67
+
+QCU · Causalité : étomidate
+Affirmation 1 : l'étomidate n'est pas utilisé pour une sédation prolongée.
+Affirmation 2 : il inhibe la 11β-hydroxylase et diminue la synthèse du cortisol.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies et liées : l'inhibition de la synthèse du cortisol, présente dès un bolus unique, interdit l'entretien et la sédation prolongée. L'étomidate reste l'hypnotique du bolus d'induction chez le patient à risque hémodynamique.
+@ 46, 50
+
+QCU · Choix de l'induction
+Un adulte de 62 ans présente un rétrécissement aortique serré et une coronaropathie instable. Quel hypnotique correspond le mieux à son induction ?
++ L'étomidate, pour sa tolérance hémodynamique :: C'est l'agent qui altère le moins la pression artérielle et le débit cardiaque.
+- La kétamine, pour provoquer une tachycardie :: La tachycardie est défavorable : elle augmente les besoins du myocarde et raccourcit la perfusion coronaire diastolique.
+- Le thiopental à dose maximale, pour corriger l'hypovolémie :: Aucun hypnotique ne corrige une hypovolémie, et le thiopental est vasodilatateur.
+- Le midazolam comme agent d'induction de référence :: Son délai d'action est long et son induction peu maîtrisable.
+- Le propofol en bolus rapide à forte dose :: C'est la façon la plus sûre de faire chuter la pression artérielle sur ce terrain.
+> Sur un rétrécissement aortique serré, la précharge et la pression de perfusion coronaire doivent être préservées, et la tachycardie évitée. L'étomidate titré répond à ces deux exigences ; la dose reste adaptée au patient.
+@ 48, 58, 73
+
+QCU · Interaction médicamenteuse
+Une patiente sédatée par midazolam reçoit de la clarithromycine depuis trois jours. Quel mécanisme explique le risque de sédation prolongée ?
++ Une inhibition du CYP3A4, qui diminue le métabolisme du midazolam :: Les concentrations s'élèvent et l'effet se prolonge.
+- Une induction du CYP3A4, qui accélère le métabolisme :: Ce serait l'effet d'un inducteur comme la rifampicine, et il diminuerait la sédation.
+- Un antagonisme direct du site des benzodiazépines :: C'est le mécanisme du flumazénil, qui lève la sédation.
+- Un blocage de l'absorption du midazolam intraveineux :: Il n'y a pas d'absorption à bloquer par voie intraveineuse.
+- Une suppression de tous les métabolites actifs par le rein :: Le rein élimine ces métabolites ; une insuffisance rénale les accumule au contraire.
+> La clarithromycine inhibe le CYP3A4, voie principale du midazolam : les concentrations montent et la sédation se prolonge. Cette interaction s'ajoute aux autres facteurs de risque immédiats, dose et association à un morphinique.
+@ 84, 89, 131–132
+
+QCU · Antiémétique et QT
+Un patient a un QT long et une kaliémie à 2,9 mmol/L. Quel médicament doit être particulièrement écarté en raison du risque de torsades de pointes ?
++ Le dropéridol :: Il allonge le QT, et l'hypokaliémie majore le risque.
+- Le propofol utilisé comme hypnotique :: Il n'est pas en cause dans l'allongement du QT.
+- Le flumazénil :: Son risque est convulsif, non rythmique.
+- L'étomidate :: Son risque propre est surrénalien.
+- Le thiopental :: Son risque est tissulaire en cas d'extravasation, et il est contre-indiqué dans la porphyrie.
+> Le dropéridol est l'antiémétique à écarter sur un QT long, d'autant plus en cas d'hypokaliémie. Avant toute administration : ECG, kaliémie, et revue des autres médicaments allongeant le QT.
+@ 104–106
