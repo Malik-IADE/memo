@@ -81,6 +81,20 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .logo { width: 32px; height: 32px; border-radius: 8px; }
 .title-sm { font-size: 1.05rem; font-weight: 650; flex: 1; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .topbar-actions { display: flex; gap: 6px; align-items: center; }
+.brand, .topbar-actions { flex: none; }
+/* Compte du jour, centré dans le creux de la barre d'accueil */
+.topbar-today { flex: 1; min-width: 0; display: flex; align-items: baseline; justify-content: center; gap: 4px 10px; flex-wrap: wrap; text-align: center; }
+.today-value { font-size: 1.15rem; font-weight: 700; letter-spacing: -.01em; white-space: nowrap; }
+@media (max-width: 520px) {
+  .topbar-today { flex-direction: column; align-items: center; gap: 0; }
+  .topbar-today .eyebrow { font-size: .66rem; }
+  .today-value { font-size: .9rem; white-space: normal; line-height: 1.2; }
+  .topbar:has(.topbar-today) { gap: 8px; }
+  .topbar:has(.topbar-today) .brand { gap: 8px; }
+  .topbar:has(.topbar-today) .brand h1 { font-size: 1.3rem; }
+  .topbar:has(.topbar-today) .logo { width: 28px; height: 28px; }
+  .topbar:has(.topbar-today) .topbar-actions { gap: 2px; }
+}
 /* Flèche retour + raccourci accueil, groupés à gauche (le groupe de droite équilibre le titre) */
 .topbar-nav { display: flex; gap: 2px; align-items: center; flex: none; }
 
@@ -231,6 +245,57 @@ input:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px
 .grade-l { font-weight: 700; font-size: .9rem; }
 .grade-t { font-size: .76rem; opacity: .85; font-variant-numeric: tabular-nums; }
 .g0 { --c: var(--again); } .g1 { --c: var(--hard); } .g2 { --c: var(--good); } .g3 { --c: var(--easy); }
+
+/* ---------- Quizz ---------- */
+.quiz-count { font-weight: 700; font-variant-numeric: tabular-nums; min-width: 40px; text-align: right; font-size: .95rem; }
+.quiz-main { flex: 1; padding: 18px 16px 8px; width: 100%; max-width: 680px; margin: 0 auto; }
+.quiz-card { background: var(--surface); border-radius: 22px; box-shadow: var(--shadow); padding: 20px 18px 22px; display: flex; flex-direction: column; gap: 16px; animation: pop .18s ease; }
+.quiz-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.tag-qcm { color: var(--accent); background: var(--accent-soft); }
+.tag-qcu { color: var(--easy); background: color-mix(in srgb, var(--easy) 13%, transparent); }
+.quiz-src { font-size: .8rem; color: var(--muted); font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.quiz-stem { font-size: clamp(1.06rem, 3.6vw, 1.2rem); font-weight: 650; line-height: 1.4; overflow-wrap: anywhere; }
+.quiz-opts { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.quiz-opt {
+  --c: var(--accent);
+  width: 100%; font: inherit; color: var(--text); text-align: left; cursor: pointer;
+  display: flex; align-items: flex-start; gap: 12px; padding: 12px 14px;
+  background: var(--bg); border: 1.5px solid var(--border); border-radius: 14px;
+  transition: border-color .15s, background-color .15s, transform .08s ease;
+}
+.quiz-opt:hover:not(:disabled) { border-color: color-mix(in srgb, var(--accent) 55%, var(--border)); }
+.quiz-opt:active:not(:disabled) { transform: scale(.99); }
+.quiz-opt:focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 2px; }
+.quiz-opt:disabled { cursor: default; }
+.opt-letter {
+  flex: none; width: 28px; height: 28px; border-radius: 9px; display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: .85rem; color: var(--muted); background: var(--surface-2); margin-top: -1px;
+}
+.quiz-opt[role="radio"] .opt-letter { border-radius: 50%; }
+.opt-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; line-height: 1.45; overflow-wrap: anywhere; }
+.opt-note { font-size: .86rem; color: var(--muted); line-height: 1.45; }
+.opt-flag { align-self: flex-start; font-size: .72rem; font-weight: 700; color: var(--good); background: color-mix(in srgb, var(--good) 14%, transparent); padding: 2px 8px; border-radius: 99px; }
+.quiz-opt.is-chosen { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 9%, var(--surface)); }
+.quiz-opt.is-chosen .opt-letter { color: var(--on-accent); background: var(--accent); }
+.quiz-opt.is-right { border-color: var(--good); background: color-mix(in srgb, var(--good) 10%, var(--surface)); }
+.quiz-opt.is-right .opt-letter { color: #fff; background: var(--good); }
+.quiz-opt.is-missed { border-color: var(--good); border-style: dashed; }
+.quiz-opt.is-missed .opt-letter { color: var(--good); background: color-mix(in srgb, var(--good) 16%, transparent); }
+.quiz-opt.is-wrong { border-color: var(--again); background: color-mix(in srgb, var(--again) 9%, var(--surface)); }
+.quiz-opt.is-wrong .opt-letter { color: #fff; background: var(--again); }
+.quiz-opt.is-off { opacity: .72; }
+.quiz-verdict { font-weight: 700; padding: 10px 14px; border-radius: 12px; color: var(--c); background: color-mix(in srgb, var(--c) 13%, transparent); animation: pop .2s ease; scroll-margin-bottom: 140px; }
+.v-juste { --c: var(--good); } .v-incomplet { --c: var(--hard); } .v-faux { --c: var(--again); }
+.quiz-correction { border-top: 1.5px dashed var(--border); padding-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.quiz-correction h3 { margin: 0; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); }
+.quiz-correction p { margin: 0; line-height: 1.55; overflow-wrap: anywhere; }
+.quiz-ref { font-size: .82rem; color: var(--muted); }
+.quiz .answer-bar { gap: 6px; }
+.quiz-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: 100%; max-width: 420px; }
+.qs { display: flex; flex-direction: column; align-items: center; padding: 14px 6px; border-radius: 16px; color: var(--c); background: color-mix(in srgb, var(--c) 12%, var(--surface)); }
+.qs-n { font-size: 1.6rem; font-weight: 750; font-variant-numeric: tabular-nums; }
+.qs-l { font-size: .8rem; font-weight: 600; }
+@media (min-width: 700px) { .quiz-card { padding: 26px 28px 28px; } }
 
 /* ---------- Fenêtre modale ---------- */
 dialog {

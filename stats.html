@@ -141,7 +141,9 @@
   .notes-l { font-size: .8rem; font-weight: 600; color: var(--muted); text-align: center;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
   .notes-pct { font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
-  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; }
+  .kpis { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; }
+  /* Six indicateurs : une ligne sur grand écran, deux lignes de trois en dessous. */
+  @media (max-width: 1100px) { .kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   .kpi { text-align: left; display: flex; flex-direction: column; gap: 2px; padding: 16px 18px 12px; overflow: hidden; }
   button.kpi { cursor: pointer; transition: border-color .2s, transform .1s; }
   button.kpi:hover { border-color: var(--line-strong); }
@@ -416,13 +418,23 @@
   const add = (map, k, n) => map.set(k, (map.get(k) || 0) + n);
   function summarize(hits) {
     const revisions = new Map(), courses = new Map(), ues = new Map(), revDays = new Map(),
-      exams = new Map(), screens = new Map();
-    let revTotal = 0, examTotal = 0;
+      exams = new Map(), screens = new Map(), quizzes = new Map();
+    const quizGrades = [0, 0, 0, 0];
+    let revTotal = 0, examTotal = 0, quizTotal = 0;
     for (const hit of hits || []) {
-      if (hit.event) continue;
       const path = decode(hit.path || ''), n = hit.count || 0;
       let m;
-      if ((m = path.match(/^\/revision\/(.+)$/))) {
+      // Événements : les auto-évaluations des quizz (« quiz-note-0 » à « quiz-note-3 »).
+      if (hit.event) {
+        if ((m = path.match(/^\/?quiz-note-([0-3])$/))) quizGrades[Number(m[1])] += n;
+        continue;
+      }
+      if ((m = path.match(/^\/quiz-cours\/(.+)$/))) { add(quizzes, m[1], n); quizTotal += n; }
+      else if (path === '/quiz-aleatoire') { add(quizzes, 'Quiz aléatoire', n); quizTotal += n; }
+      else if (path === '/quiz') add(screens, 'Quizz', n);
+      else if ((m = path.match(/^\/quiz\/(S\d+)$/i))) add(screens, `Quizz · ${m[1]}`, n);
+      else if ((m = path.match(/^\/quiz\/(S\d+)\/([^/]+)$/i))) add(screens, `Quizz · UE ${m[2]} · ${m[1]}`, n);
+      else if ((m = path.match(/^\/revision\/(.+)$/))) {
         revisions.set(m[1], (revisions.get(m[1]) || 0) + n); revTotal += n;
         for (const st of hit.stats || []) {
           const arr = revDays.get(st.day) || Array(24).fill(0);
@@ -449,7 +461,7 @@
       else if ((m = path.match(/^\/(perso|partages|Scores|Schemas)$/i))) add(screens, SCREEN_LABELS[m[1].toLowerCase()], n);
     }
     return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues),
-      exams: sorted(exams), examTotal, screens: sorted(screens) };
+      exams: sorted(exams), examTotal, screens: sorted(screens), quizzes: sorted(quizzes), quizTotal, quizGrades };
   }
   // Grille jour → 24 heures pour la mesure choisie.
   function grid(data, which, prev) {
@@ -468,7 +480,7 @@
   const sizeName = (st) => SIZES[String(st.id || '').toLowerCase()] || SIZES[String(st.name || '').toLowerCase().replace(/\s/g, '')] || st.name || 'Autre';
 
   /* ---------- Chargement ---------- */
-  let courseCount = null, examCount = null, last = null, busy = false;
+  let courseCount = null, examCount = null, quizCount = null, last = null, busy = false;
 
   // Une seule demande couvre la période affichée et la précédente ; on la découpe ici,
   // heure par heure, ce qui divise par deux le nombre d'appels à GoatCounter.
@@ -517,6 +529,10 @@
     try { return (await listLines('paquets/liste.txt')).filter((l) => /^S\d+\//i.test(l)).length; }
     catch { return null; }
   }
+  // Les quizz (QCM et QCU), un fichier par cours.
+  async function countQuizzes() {
+    try { return (await listLines('quiz/liste.txt')).length; } catch { return null; }
+  }
   // Les deux collections d'annales : officielles et non officielles.
   async function countAnnales() {
     const counts = await Promise.all(['annales/liste.txt', 'annales-nf/liste.txt']
@@ -530,11 +546,12 @@
     document.querySelector('.refresh')?.classList.add('spin');
     try {
       // Tout part en même temps ; la page ne s'affiche qu'une fois, quand tout est prêt.
-      const [result, courses, annales] = await Promise.all([load(),
+      const [result, courses, annales, quizzes] = await Promise.all([load(),
         courseCount == null ? countCourses() : courseCount,
         examCount == null ? countAnnales() : examCount,
+        quizCount == null ? countQuizzes() : quizCount,
         DEMO ? null : loadCollectiveStats()]);
-      courseCount = courses; examCount = annales;
+      courseCount = courses; examCount = annales; quizCount = quizzes;
       last = result;
       renderDash();
     } catch (e) {
@@ -631,6 +648,24 @@
     return h('div', {class: 'exam-detail'},
       barChart(pts, {height: 200, unit: 'point', scoreScale: true, tickEvery: Math.ceil(pts.length / 7)}),
       h('p', {class: 'exam-note'}, 'Moyenne quotidienne · une barre par jour · les notes de 0 sont exclues.'));
+  }
+
+  /** Auto-évaluations des quizz : nombre de notes données sur la période (événements GoatCounter). */
+  function quizNotesCard(grades) {
+    const total = sumArr(grades || []);
+    const pct = total ? grades.map((n) => 100 * n / total) : null;
+    const highest = pct ? Math.max(1, ...pct) : 1;
+    return h('section', {class: 'card'},
+      h('div', {class: 'card-head'},
+        h('div', {}, h('h2', {}, 'Auto-évaluations des quizz'),
+          h('div', {class: 'sub'}, total ? `${plural(total, 'question')} notée${total > 1 ? 's' : ''} sur la période · tous les navigateurs` : 'Notes données après chaque correction'))),
+      pct ? h('ul', {class: 'notes-graph'}, gradeLabels.map((label, i) => h('li', {class: 'notes-col', tabindex: '0'},
+        h('span', {class: 'tip notes-tip', role: 'tooltip'}, h('div', {class: 'dim'}, label), h('b', {}, plural(grades[i], 'question'))),
+        h('span', {class: 'notes-n'}, nf1.format(pct[i]) + ' %'),
+        h('span', {class: 'notes-zone', 'aria-hidden': 'true'},
+          h('span', {class: 'notes-bar', style: `height:${Math.max(4, 100 * pct[i] / highest)}%`})),
+        h('span', {class: 'notes-l'}, label))))
+        : h('p', {class: 'empty'}, 'Aucune question notée sur cette période.'));
   }
 
   function collectiveCards() {
@@ -787,6 +822,7 @@
         kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(rGrid) }),
         kpi({ label: 'Cours ouverts', value: nf.format(cur.courses.length), sub: courseCount ? `sur ${courseCount} cours disponibles` : '', d: delta(cur.courses.length, prev.courses.length) }),
         kpi({ label: 'Annales ouvertes', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
+        kpi({ label: 'Quiz lancés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => n !== 'Quiz aléatoire').length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
         P.days === 1
           ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
           : kpi({ label: 'Par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'visites en moyenne' }),
@@ -807,11 +843,13 @@
           barChart(byWd, { height: 170, unit: M.unit }))),
       P.days === 1 ? null : heatmap(heat, M.unit),
       collectiveCards(),
+      quizNotesCard(cur.quizGrades),
       h('div', { class: 'grid2' },
         rank('Cours les plus révisés', cur.revisions, 'Aucune révision sur cette période.'),
         rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.'),
         rank('UE les plus consultées', cur.ues, 'Aucune UE consultée sur cette période.'),
         rank('Annales les plus ouvertes', cur.exams, 'Aucune annale ouverte sur cette période.'),
+        rank('Quiz les plus lancés', cur.quizzes, 'Aucun quiz lancé sur cette période.'),
         rank('Écrans les plus vus', cur.screens, 'Aucun écran de navigation vu sur cette période.'),
         rank('Appareils', sysRows.some((x) => x[1]) ? sysRows : sizeRows, 'Pas encore de données.'),
       ),
@@ -825,7 +863,7 @@
           if (!confirm('Retirer la clé de ce navigateur ? Il faudra la coller à nouveau pour revoir les statistiques.')) return;
           store.del(KEY); renderSetup();
         } }, 'Oublier la clé'),
-        h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Une annale ouverte = un quiz ouvert, compté par période (2013-2015, 2022-2024). Vos propres visites comptent aussi.'),
+        h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Une annale ouverte = un quiz ouvert, compté par période (2013-2015, 2022-2024). Un quiz lancé = une série de QCM ouverte ; ses auto-évaluations sont comptées sur la période, sans les réponses. Vos propres visites comptent aussi.'),
       ),
     );
   }
@@ -1055,6 +1093,9 @@
       ...[['S1/2.3-2017-2019', .05], ['S1/3.1-2021-2023', .04]].map(([u, f]) => ({ path: '/annales-nf/' + u, count: Math.round(tot(st) * f) })),
       ...[['/accueil', .9], ['/flashcards', .4], ['/annales', .3], ['/annales/S1', .22],
         ['/annales/S1/3.3', .1], ['/annales-nf', .25], ['/annales-nf/S1', .18]].map(([p, f]) => ({ path: p, count: Math.round(tot(st) * f) })),
+      ...[['Estomac plein', .07], ['Curares', .05], ['ECG', .04], ['Ventilation mécanique', .03], ['États de choc', .02]].map(([n, f]) => ({ path: '/quiz-cours/' + n, count: Math.round(tot(st) * f) })),
+      { path: '/quiz-aleatoire', count: Math.round(tot(st) * .06) }, { path: '/quiz', count: Math.round(tot(st) * .2) }, { path: '/quiz/S1/3.3', count: Math.round(tot(st) * .08) },
+      ...[.6, 1.1, 1.9, 1].map((f, g) => ({ path: 'quiz-note-' + g, event: true, count: Math.round(tot(st) * f * .4) })),
       { path: '/cours/Scores', count: Math.round(tot(st) * .12) },
       { path: '/Schemas', count: Math.round(tot(st) * .1) },
       { path: '/cours/Schémas', count: Math.round(tot(st) * .08) },
