@@ -188,7 +188,7 @@ Quelles associations entre volumes et capacités sont exactes ?
 + CV = VT + VRI + VRE :: La capacité vitale rassemble les volumes mobilisables.
 + CRF = VR + VRE :: Volume restant dans le poumon à la fin d'une expiration calme.
 + CPT = CV + VR :: La capacité pulmonaire totale inclut le volume non mobilisable.
-- CRF = VT + VRI :: Cette somme n'a pas de sens physiologique : la CRF est mesurée en fin d'expiration calme, donc sans volume inspiré.
+- CRF = VT + VRI :: VT + VRI est le volume que l'on peut inspirer depuis la fin d'une expiration calme ; la CRF est ce qui reste dans le poumon à ce moment : VR + VRE.
 > La CV réunit les volumes que l'on peut mobiliser, la CRF ce qui reste après une expiration normale (VR + VRE), la CPT l'ensemble (CV + VR).
 @ 95–98
 
