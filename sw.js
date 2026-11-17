@@ -1,10 +1,10 @@
 // Service worker : permet à l'app de fonctionner hors ligne.
 // Stratégie « réseau d'abord » : la dernière version est utilisée quand il y a
 // du réseau, la copie en cache sinon. Changez CACHE à chaque mise en ligne.
-const CACHE = 'memo-v58';
+const CACHE = 'memo-v59';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'manifest.webmanifest',
-  'js/app.js', 'js/store.js', 'js/srs.js', 'js/format.js', 'js/library.js', 'js/collectives.js',
+  'js/app.js', 'js/store.js', 'js/srs.js', 'js/format.js', 'js/library.js', 'js/collectives.js', 'js/quiz.js',
   'icons/icon.svg', 'icons/icon-180.png', 'icons/icon-512.png',
   'exemples/capitales.txt',
 ];
@@ -44,7 +44,7 @@ self.addEventListener('fetch', (e) => {
   }
   // Cours partagés : toujours la version du serveur quand le réseau répond, même lentement
   // (sinon une ancienne copie des cartes peut rester affichée). Cache seulement hors ligne.
-  if (url.pathname.includes('/paquets/')) {
+  if (url.pathname.includes('/paquets/') || url.pathname.includes('/quiz/')) {
     e.respondWith(fetch(req).then((res) => store(req, res), fallback));
     return;
   }
