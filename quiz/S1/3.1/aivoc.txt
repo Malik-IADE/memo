@@ -1,0 +1,208 @@
+// Quiz 28 – AIVOC (UE 3.1), d'après « QUIZZ 28 AIVOC.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+// Cp = concentration plasmatique estimée ; Ce = concentration estimée au site effet.
+
+# AIVOC
+
+QCM · Prédiction et réponse
+Deux patients sous propofol ont la même concentration au site effet estimée, mais des tracés EEG et des pressions artérielles différentes. Quelles interprétations sont justifiées ?
++ Une sensibilité différente à l'hypnotique peut expliquer ces deux réponses :: À concentration réellement identique, la réponse cérébrale varie d'un patient à l'autre.
++ Les concentrations réellement atteintes peuvent différer malgré une même estimation :: Le modèle calcule à partir d'une population, pas à partir de ce patient.
+- La différence d'EEG démontre une erreur de calcul de la pompe :: Le calcul est correct : c'est le patient qui s'écarte du modèle.
+- Un tracé EEG comparable prouverait que les concentrations réelles sont identiques :: Deux concentrations différentes peuvent donner le même effet si les sensibilités diffèrent.
+- La différence de pression artérielle indique lequel est le plus profondément endormi :: La pression renseigne sur la tolérance circulatoire, non sur la profondeur d'hypnose.
+> Deux sources de variabilité se superposent : l'écart entre la concentration calculée et la concentration réelle, et l'écart de sensibilité à concentration réelle égale. C'est pourquoi la cible affichée ne remplace jamais l'observation de l'effet.
+@ 2–4, 35–36
+
+QCM · Fonctionnement de la pompe
+La cible d'une AIVOC reste inchangée, mais le débit d'entretien diminue progressivement. Quelles explications sont compatibles ?
++ La pompe réduit le débit pour maintenir la même cible à mesure que les tissus se chargent :: Les transferts du compartiment central vers la périphérie ralentissent.
++ Une perfusion à débit fixe donnerait au contraire des concentrations croissantes :: C'est tout l'intérêt de l'AIVOC par rapport à une perfusion à débit constant.
+- Un débit en baisse prouve que la concentration estimée au site effet chute :: La cible est maintenue ; c'est pour la maintenir que le débit baisse.
+- Maintenir la cible exige de perfuser la même quantité chaque minute dès que Cp et Ce sont égales :: L'égalité de Cp et Ce ne signifie pas que les compartiments périphériques sont à l'équilibre : ils continuent de se charger.
+- Le débit plus faible prouve que la clairance du patient a diminué :: La clairance ne change pas : c'est la demande de remplissage des tissus qui diminue.
+> Au début, la pompe doit remplir le compartiment central et les tissus : le débit est élevé. À mesure que les réservoirs se chargent, il suffit de compenser l'élimination : le débit décroît. Une perfusion à débit fixe produirait, elle, une accumulation progressive.
+@ 3–5, 13
+
+QCM · Volumes de distribution
+Après un bolus intraveineux, la concentration plasmatique baisse rapidement alors qu'une partie du produit reste dans l'organisme. Quelles affirmations rendent compte de cette situation dans un modèle à trois compartiments ?
++ Un transfert du compartiment central vers les compartiments périphériques abaisse la concentration plasmatique sans éliminer le produit :: C'est la redistribution.
++ Une partie du produit transféré vers le compartiment lent peut revenir plus tard vers le plasma :: Les échanges sont réversibles.
++ Distribution et élimination se produisent pendant le même intervalle :: Elles ne se succèdent pas : elles se superposent.
+- Le produit arrivé dans un compartiment périphérique est comptabilisé comme éliminé :: L'élimination se fait exclusivement depuis le compartiment central.
+- La pente initiale de la concentration plasmatique permet d'isoler la clairance :: Cette pente mêle distribution et élimination : elle ne mesure pas la clairance.
+> La chute initiale de la concentration plasmatique traduit surtout la redistribution, non l'élimination. Le produit n'a pas quitté l'organisme : il est stocké dans des tissus qui le restitueront, ce qui explique la décroissance lente tardive.
+@ 5–10
+
+QCM · Redistribution
+Quelles affirmations sur la redistribution d'un anesthésique intraveineux sont exactes ?
++ Les échanges entre plasma et tissus peuvent changer de sens au cours du temps :: Les tissus se chargent, puis deviennent des sources.
++ Un compartiment lent peut continuer à se charger alors que le compartiment rapide relargue déjà :: Les trois compartiments n'évoluent pas au même rythme.
++ L'accumulation pendant une perfusion dépend du comportement de la molécule dans les tissus :: C'est ce qui sépare le fentanyl du rémifentanil.
+- Toute molécule qui quitte le compartiment central est définitivement éliminée :: Elle peut simplement avoir été stockée, et revenir.
+- C'est la fraction liée aux protéines qui quitte le compartiment central :: Seule la fraction libre diffuse vers les tissus.
+> La redistribution est un mouvement à double sens. Le remplissage met fin à l'effet d'un bolus ; le relargage, après l'arrêt, entretient les concentrations et retarde le réveil. Seule la fraction libre participe à ces échanges.
+@ 8–11
+
+QCM · Deux notions de demi-vie
+Deux perfusions du même médicament sont arrêtées à la même concentration plasmatique, l'une après 30 minutes, l'autre après plusieurs heures. Quelles conclusions sont justifiées ?
++ La durée de la perfusion modifie le temps nécessaire pour que la concentration diminue de moitié :: C'est la définition même de la demi-vie contextuelle.
++ Un temps pour atteindre un seuil fixé n'est une demi-décroissance que si ce seuil vaut la moitié de la concentration de départ :: Sinon il s'agit d'un autre repère.
++ La décroissance plus lente après la perfusion longue s'explique par le relargage des tissus :: Sans que la clairance ait changé.
+- La même concentration plasmatique implique la même quantité totale dans l'organisme :: La charge tissulaire diffère complètement entre 30 minutes et plusieurs heures.
+- La demi-vie terminale permet de déduire le délai de réveil :: Le réveil dépend d'un seuil d'effet propre au patient, non d'une demi-vie.
+> Même concentration plasmatique ne veut pas dire même quantité dans l'organisme. Après une longue perfusion, les tissus chargés relarguent et freinent la décroissance : la demi-vie contextuelle s'allonge, sans que la clairance soit modifiée.
+@ 11–13, 30
+
+QCM · Clairance et vitesse d'élimination
+Un organe est perfusé à 2 L/min. La concentration à l'entrée est de 5 mg/L, celle à la sortie de 2 mg/L. Quelles valeurs sont exactes ?
++ Le taux d'extraction est de 0,60 :: (5 − 2) ÷ 5.
++ La clairance de l'organe est de 1,2 L/min :: 2 L/min × 0,60.
++ La vitesse d'élimination est de 6 mg/min :: 2 L/min × 3 mg/L extraits.
+- Le taux d'extraction est de 0,40 :: 0,40 est la fraction qui ressort, non celle qui est extraite.
+- La vitesse d'élimination est de 1,2 mg/min :: 1,2 est la clairance en L/min, pas une quantité par minute.
+> Trois grandeurs distinctes : le taux d'extraction, sans unité ; la clairance, en L/min, qui est le produit du débit par le taux d'extraction ; la vitesse d'élimination, en mg/min, qui dépend en plus de la concentration.
+@ 14–15
+
+QCM · Extraction et débit
+Chez un patient en bas débit, la perfusion hépatique diminue. Quelles affirmations comparant un médicament à forte extraction hépatique et un médicament à faible extraction sont exactes ?
++ La baisse du débit réduit davantage la clairance du médicament à forte extraction :: Sa clairance est limitée par le débit : elle le suit.
++ Pour le médicament à faible extraction, la fraction libre reste un déterminant important :: Sa clairance dépend surtout de la capacité enzymatique et de la fraction libre.
++ À concentration identique, une clairance plus faible correspond à une quantité éliminée moindre :: La vitesse d'élimination est le produit de la clairance par la concentration.
+- La clairance du médicament à faible extraction varie dans la même proportion que le débit :: C'est le cas du médicament à forte extraction, pas du sien.
+- Un effet hypnotique plus marqué établit que le débit hépatique a chuté :: L'intensité de l'hypnose ne permet pas d'isoler un mécanisme parmi tous ceux possibles.
+> Deux profils opposés : à forte extraction, la clairance dépend du débit hépatique, donc de l'hémodynamique ; à faible extraction, elle dépend des enzymes et de la fraction libre. En état de choc, c'est le premier groupe qui s'accumule.
+@ 14–17
+
+QCM · Ordres d'élimination
+Un médicament suit une cinétique de premier ordre qui élimine 10 % de la quantité présente chaque heure. Il y a initialement 100 mg, sans nouvel apport. Quelles affirmations sont exactes ?
++ La deuxième heure retire 9 mg :: 10 % des 90 mg restants.
++ Au bout de 2 heures, il reste 81 mg :: 100 puis 90 puis 81.
++ La fraction retirée reste la même, mais la quantité retirée diminue :: C'est le propre du premier ordre.
+- Au bout de 2 heures, il reste 80 mg :: Ce serait le résultat d'une élimination constante de 10 mg par heure, donc d'ordre zéro.
+- Une élimination constante de 10 mg par heure donnerait le même résultat :: Elle laisserait 80 mg, et non 81 mg : l'écart se creuse avec le temps.
+> Premier ordre : une fraction constante, donc une quantité décroissante, et une décroissance exponentielle. Ordre zéro : une quantité constante, donc une décroissance linéaire, et un risque d'accumulation brutale si les capacités d'épuration sont saturées, comme pour l'alcool.
+@ 15
+
+QCM · Décalage entre plasma et site effet
+Après une augmentation de cible, la concentration plasmatique estimée commence à baisser, la concentration estimée au site effet continue de monter et l'EEG n'a pas atteint l'effet recherché. Quelles interprétations sont justifiées ?
++ L'évolution opposée des deux concentrations est compatible avec le délai d'équilibration :: Le site effet se remplit depuis le plasma, avec retard.
++ Une concentration au site effet encore ascendante signifie que l'équilibre n'est pas atteint :: L'effet peut donc encore se majorer sans aucune nouvelle injection.
++ Attendre est préférable à une nouvelle augmentation de cible :: Sinon on empile des effets qui ne sont pas encore exprimés.
+- Une concentration plasmatique qui baisse exclut toute majoration ultérieure de l'effet :: Elle baisse parce qu'elle alimente le site effet, dont la concentration monte encore.
+- La concentration estimée au site effet prédit exactement la réponse EEG de chaque patient :: C'est une prédiction de population, pas une mesure individuelle.
+> Après une charge, le plasma redescend tandis que le site effet continue de monter : l'effet n'a pas fini de s'installer. La bonne décision est d'attendre l'équilibration avant de rejuger la cible.
+@ 18–20
+
+QCM · Modèles du propofol
+Deux adultes de même poids et de même taille, mais d'âges différents, doivent recevoir du propofol. Quelles affirmations sont exactes à réglages comparables ?
++ Le modèle Schnider calcule des profils différents, car il tient compte de l'âge :: Même à poids et taille identiques.
++ Un volume central fixe dans Schnider ne signifie pas que tous ses paramètres sont fixes :: D'autres paramètres varient avec les covariables.
++ Le modèle Marsh utilise le poids réel, sans ajustement lié à l'âge :: Même si l'interface demande l'âge, il ne l'exploite pas pour ce calcul.
+- Le modèle Marsh attribue un volume central plus petit au patient âgé :: Il ne module pas ses volumes selon l'âge.
+- Une même cible numérique dans les deux modèles impose la même charge initiale :: Les calculs diffèrent : les doses délivrées pour une même cible ne sont pas les mêmes.
+> Un chiffre de cible n'a de sens qu'avec le modèle qui le produit : 3 µg/mL en Marsh et 3 µg/mL en Schnider ne correspondent pas à la même administration. Et une donnée saisie à l'écran n'est pas forcément exploitée par le modèle choisi.
+@ 23–25, 28
+
+QCM · Modèles des morphiniques
+Une pompe demande poids, taille et âge avant le choix du modèle. Quelles conclusions sont exactes pour le sufentanil avec Gepts et le rémifentanil avec Minto ?
++ Le modèle se choisit selon la molécule : il n'est pas interchangeable :: Gepts pour le sufentanil, Minto pour le rémifentanil.
++ Gepts peut utiliser des paramètres fixes, bien que l'écran ait demandé les mensurations :: Les données saisies ne sont pas toutes exploitées.
++ Deux personnes de même poids mais de tailles différentes ont des masses maigres estimées différentes dans Minto :: La masse maigre se calcule à partir du poids et de la taille.
+- À poids égal, Minto ignore une différence d'âge :: Il exploite l'âge, comme la masse maigre.
+- Utiliser une masse maigre calculée supprime les limites liées aux poids extrêmes :: Les formules de masse maigre perdent leur validité aux morphologies extrêmes.
+> Chaque modèle est lié à une molécule et à une population. Minto exploite l'âge et la masse maigre, ce qui ne le rend pas fiable aux gabarits extrêmes, car les formules de masse maigre elles-mêmes y deviennent discutables.
+@ 22, 26–28
+
+QCM · Lecture d'un écran
+Une pompe de propofol en ciblage au site effet affiche une cible de 1,0 µg/mL, une concentration estimée au site effet de 0,3 µg/mL et une concentration plasmatique estimée de 2,3 µg/mL. Quelles conclusions sont justifiées ?
++ La concentration estimée au site effet est encore inférieure à sa consigne :: 0,3 contre une cible de 1,0.
++ Cette configuration correspond à une phase de charge :: Le plasma dépasse volontairement la cible pour accélérer le remplissage du site effet.
++ L'effet va continuer de s'installer sans aucune modification de réglage :: Le site effet monte encore.
+- La cible est déjà dépassée, puisque la concentration plasmatique est à 2,3 µg/mL :: La consigne porte sur le site effet, non sur le plasma.
+- L'écart entre les deux concentrations quantifie le niveau d'hypnose :: Il ne quantifie qu'un déséquilibre du modèle, pas un effet clinique.
+> En ciblage au site effet, le modèle fait monter le plasma au-delà de la cible pour créer un gradient vers le cerveau, puis le laisse redescendre. Un plasma supérieur à la cible, en début d'induction, est donc normal : c'est le site effet qu'il faut lire.
+@ 18–20, 30
+
+QCM · Défaut de voie veineuse
+À l'induction, la voie veineuse extravase pendant la charge calculée. Le débit affiché est déjà passé en entretien. Quelles interprétations sont justifiées ?
++ Une charge comptabilisée par la pompe peut ne pas avoir été reçue par le patient :: La pompe compte ce qu'elle délivre, pas ce qui arrive dans le sang.
++ L'affichage seul ne permet pas de reconstituer la quantité réellement arrivée au compartiment central :: Il faut examiner le circuit et le point de ponction.
++ Après changement de voie, l'historique enregistré reste faussé :: Les concentrations affichées continuent de reposer sur une charge qui n'a pas été reçue.
+- La pompe déduit de la réponse du patient que le bolus a atteint le plasma :: Elle ne reçoit aucune information du patient : elle calcule en boucle ouverte.
+- L'absence d'effet permet de distinguer une extravasation d'une cible insuffisante :: Les deux donnent le même tableau : un patient qui ne s'endort pas.
+> L'AIVOC fonctionne en boucle ouverte : elle ne mesure rien chez le patient. Devant une induction qui ne vient pas, la première démarche est de vérifier la voie et le circuit, et non d'augmenter la cible ; après une extravasation, les concentrations affichées ne sont plus fiables.
+@ 34–36
+
+QCM · Limites des modèles
+Quelles affirmations sur les limites d'une prédiction par AIVOC sont exactes ?
++ Une variation importante de la volémie met en défaut un modèle à volume central fixe :: Le compartiment central réel a changé, le modèle non.
++ Les modèles enrichis, comme Eleveld, intègrent plus de covariables mais ne mesurent pas l'hypnose :: Ils calculent toujours une concentration.
++ L'âge et la fragilité modifient la réponse à une même concentration au site effet :: La variabilité pharmacodynamique s'ajoute à la pharmacocinétique.
+- Une concentration prédite stable correspond à la concentration réelle :: Stable ne veut pas dire exacte.
+- Les modèles historiques ont été établis sur des échantillons couvrant tous les âges et morphologies :: Ils reposent souvent sur de petits effectifs de volontaires, peu représentatifs des patients opérés.
+> Un modèle enrichi reste un modèle : il prédit mieux, mais il prédit. Hémorragie, état de choc, grand âge, obésité majeure sont autant de situations où le patient s'écarte de la population de référence, et où la surveillance de l'effet devient déterminante.
+@ 24, 28, 31–36
+
+QCM · Halogéné à objectif de concentration
+Une consigne d'halogéné téléexpiré est réglée à 2,1 % et la fraction téléexpirée mesurée atteint 2,2 %. Quelles interprétations sont justifiées ?
++ Le système peut réduire l'apport d'halogéné pour revenir vers la consigne :: C'est une régulation en boucle fermée sur une valeur mesurée.
++ Le contrôleur ajuste l'administration sur un écart téléexpiratoire, sans information EEG :: Il régule une concentration, pas une profondeur d'anesthésie.
++ Les rapports ventilation/perfusion limitent l'approximation entre fraction expirée et concentration sanguine :: Un shunt important fausse cette estimation.
+- Puisque 2,2 % est mesuré, la concentration plasmatique est connue directement :: La fraction expirée approche la concentration alvéolaire, puis sanguine, avec une marge d'erreur.
+- Le passage de 2,1 à 2,2 % démontre une hypnose excessive :: Un écart de 0,1 % par rapport à la consigne ne dit rien de la profondeur d'anesthésie.
+> Contrairement à l'AIVOC, l'administration d'halogéné à objectif de concentration régule sur une valeur réellement mesurée, la fraction téléexpirée. C'est un progrès, mais cette fraction n'est qu'une approximation de la concentration sanguine, et elle ne mesure pas l'hypnose.
+@ 37
+
+QCU · Causalité : après l'arrêt
+Affirmation 1 : après une perfusion prolongée, le temps pour diviser la concentration plasmatique par deux peut être plus long qu'après une perfusion courte du même médicament.
+Affirmation 2 : le compartiment lent peut accumuler du médicament puis le relarguer vers le plasma après l'arrêt.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies et liées : le relargage du compartiment lent réalimente le plasma et freine sa décroissance. C'est exactement ce que décrit la demi-vie contextuelle, et ce qui rend le réveil plus lent après une anesthésie longue.
+@ 9–13
+
+QCU · Causalité : extraction hépatique
+Affirmation 1 : un médicament à forte extraction hépatique conserve la même clairance si le débit hépatique chute.
+Affirmation 2 : la clairance hépatique est le produit du débit de l'organe par le taux d'extraction.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
++ La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La seconde est vraie : clairance = débit × taux d'extraction. Elle démontre précisément que la première est fausse : quand le taux d'extraction est élevé et ne peut plus augmenter, la clairance suit le débit. En état de choc, ces médicaments s'accumulent.
+@ 14, 16–17
+
+QCU · Causalité : prédiction et sensibilité
+Affirmation 1 : une concentration estimée au site effet identique chez deux patients ne garantit pas une réponse hypnotique identique.
+Affirmation 2 : à concentration réellement identique au site effet, la sensibilité à l'hypnotique varie d'un patient à l'autre.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies et liées : la variabilité de sensibilité suffit à expliquer des effets différents. S'y ajoute une seconde raison, cinétique : les concentrations réellement atteintes peuvent elles aussi différer de l'estimation.
+@ 2–4, 28, 35–36
+
+QCU · Calcul de clairance
+Un compartiment de 4 L contient 8 mg répartis de façon homogène. On épure 1 L par minute, et le contenu est de nouveau homogénéisé dans les 4 L entre chaque minute. Quelle quantité est retirée pendant la deuxième minute ?
++ 1,5 mg :: Après la première minute il reste 6 mg, soit 1,5 mg/L : un litre épuré retire 1,5 mg.
+- 1,0 mg :: Cela supposerait une concentration de 1 mg/L après la première minute.
+- 0,5 mg :: Valeur sans rapport avec la concentration restante.
+- 2,0 mg :: C'est la quantité retirée pendant la première minute, quand la concentration était de 2 mg/L.
+- 6,0 mg :: C'est la quantité restante après la première minute, non celle qui est retirée.
+> Au départ, 8 mg dans 4 L font 2 mg/L : la première minute retire 2 mg. Il reste 6 mg, soit 1,5 mg/L : la seconde minute retire 1,5 mg. La clairance, 1 L/min, est constante ; c'est la quantité retirée qui décroît. C'est la définition du premier ordre.
+@ 14–15
+
+QCU · Lecture d'une baisse de cible
+Une AIVOC de rémifentanil affiche une nouvelle cible au site effet de 1,0 ng/mL, une concentration estimée au site effet de 2,1 ng/mL, une concentration plasmatique estimée de 1,6 ng/mL et un débit de 0 mL/h. Quelle interprétation rend le mieux compte de l'ensemble ?
++ Le débit est suspendu le temps que la concentration au site effet rejoigne la cible, et les deux concentrations ne sont pas à l'équilibre :: Le plasma est déjà descendu sous le site effet, qui se vide vers lui.
+- La cible est déjà atteinte, et le débit nul correspond à un maintien à l'équilibre :: Le site effet est à 2,1 pour une cible de 1,0 : il est au-dessus.
+- La concentration au site effet étant supérieure au plasma, la pompe doit charger le compartiment central :: Ce serait aller à l'inverse de l'objectif, qui est de faire baisser le site effet.
+- Le débit étant nul, les deux concentrations décroissent à la même vitesse :: Le plasma décroît plus vite, et c'est ce gradient inversé qui vide le site effet.
+- Le temps estimé pour rejoindre 1,0 ng/mL donne le délai exact de réveil :: Le réveil dépend d'un seuil d'effet propre au patient, non d'un chiffre de concentration.
+> Quand on baisse une cible, la pompe coupe l'apport et laisse le patient éliminer. Le plasma descend d'abord, puis le site effet se vide vers lui : c'est pourquoi les deux valeurs se croisent. Le délai affiché est une prédiction de concentration, pas un délai de réveil.
+@ 18–20, 30

@@ -1,0 +1,184 @@
+// Quiz 25 – ECG (UE 3.1), d'après « QUIZZ 25 ECG.html »
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# ECG
+
+QCM · Qualité du signal
+Pendant la coagulation, le scope affiche une fréquence à 180/min et un tracé chaotique. La pression artérielle invasive reste pulsatile à 72/min, sans changement d’amplitude. Quelles interprétations ou vérifications sont pertinentes ?
++ La dissociation entre les deux fréquences fait privilégier un artefact de comptage pendant la coagulation. :: Une pression pulsatile stable est un argument fort contre la traduction mécanique de la fréquence affichée par l’ECG.
+- La pression conservée oriente vers une tachycardie ventriculaire bien tolérée, avec déficit pulsatile expliquant la fréquence artérielle. :: La stabilité hémodynamique ne permet pas de nommer un tracé rendu illisible par le bistouri.
++ Interrompre la coagulation et observer si l’ECG redevient immédiatement lisible aide à identifier l’origine de l’anomalie. :: Le lien temporel avec l’arrêt de la source est informatif.
+- Un changement de dérivation pendant la coagulation permet de conclure à une arythmie si le nouveau tracé paraît lui aussi chaotique. :: Plusieurs dérivations peuvent capter la même interférence.
++ Une disparition des pulsations artérielles concomitante modifierait l’interprétation et imposerait de réévaluer la perfusion. :: Une perturbation du signal peut coexister avec un retentissement réel, notamment si un stimulateur est inhibé.
+@ 5, 44, 96, 98
+
+QCM · Électrodes des bras
+Chez un patient stable, DI montre des P et des QRS négatifs. Le rythme reste régulier avec une P avant chaque QRS. L’ancienne dérivation aVL ressemble à l’actuelle aVR, et inversement. Que suggèrent ces constatations ?
+- L’association oriente d’abord vers une déviation axiale ventriculaire aiguë, plutôt que vers une erreur de montage. :: Le montage peut modifier simultanément la projection de P et du QRS.
++ Une permutation des électrodes des bras est une hypothèse cohérente. :: L’inversion de DI et l’échange aVR–aVL correspondent à ce montage inversé.
++ La relation P–QRS peut rester intacte malgré une inversion de polarité de DI. :: Le câblage change le point de vue, pas l’enchaînement des activations.
+- Inverser les deux bras laisse DI identique et échange aVL avec aVF. :: DI s’inverse et ce sont aVR et aVL qui s’échangent.
++ Reposer les électrodes et reproduire l’ECG permet de tester l’hypothèse sans attribuer l’anomalie au cœur d’emblée. :: Un montage correct est une condition préalable de lecture.
+@ 29–32, 104–107
+
+QCM · Dérivations
+Au bloc, il faut à la fois clarifier une irrégularité du rythme et déterminer si un décalage du ST est localisé. Quelles propositions sont exactes ?
++ Un DII long aide à comparer des intervalles R–R successifs et à rechercher des P. :: La bande longue conserve la succession des cycles et DII montre souvent bien P et QRS.
+- Un décalage vu en DII permet de conclure à un décalage dans les trois dérivations inférieures. :: Il faut examiner réellement les autres dérivations du territoire.
+- Un ECG à douze dérivations nécessite douze électrodes distinctes, une pour chaque point de vue. :: Dix électrodes permettent de construire douze dérivations.
++ Un ECG multicanal complète la bande de rythme pour localiser un décalage du ST et rechercher un miroir. :: Les dérivations explorent le même cœur sous différents angles.
+- Une onde négative signifie que le front de dépolarisation est dirigé vers le pôle positif de cette dérivation. :: Un front se dirigeant vers le pôle positif donne une déflexion positive ; la déflexion est négative s’il s’en éloigne.
+@ 29–34, 46, 84–86
+
+QCM · Fréquence et vitesse
+À 25 mm/s, la bande A est régulière avec quatre grands carreaux entre les R. La bande B est irrégulière : 12 QRS en 30 grands carreaux, dont deux R consécutifs séparés par exactement deux grands carreaux. Quelles affirmations sont correctes ?
+- La bande A est à 60/min : quatre grands carreaux correspondent à une seconde. :: À cette vitesse, une seconde correspond à cinq grands carreaux.
++ La bande A est à 75/min : l’intervalle R–R est de 0,80 s. :: 300 ÷ 4 = 75/min.
+- La meilleure estimation de la fréquence moyenne de B est 150/min, calculée sur la paire de R séparée de deux grands carreaux. :: 150/min est la fréquence instantanée de cet intervalle, pas la moyenne de la bande irrégulière.
++ La fréquence moyenne estimée sur la bande B est de 120/min. :: Trente grands carreaux font six secondes ; 12 × 10 = 120/min.
+- À 50 mm/s, quatre grands carreaux correspondent aussi à 75/min. :: À vitesse doublée, quatre grands carreaux couvrent 0,40 s, donc 150/min.
+@ 25, 46–47
+
+QCM · Mesurer sans confondre
+À 25 mm/s, on mesure 6 petits carreaux du début de P au début du QRS, et 2 petits carreaux pour le QRS. Chaque P conduit ; le ST est au niveau du segment PR. Quelles conclusions sont exactes ?
++ Le PR vaut 240 ms, ce qui est compatible avec un BAV du premier degré. :: 6 × 40 ms = 240 ms ; aucune P n’est bloquée.
+- Le PR est normal si la portion située entre la fin de P et le QRS mesure moins d’un grand carreau. :: Le PR entier commence au début de P.
++ Le QRS dure 80 ms ; sa largeur ne dépend pas de sa hauteur en millimètres. :: Le temps se lit horizontalement, l’amplitude verticalement.
+- Pour mesurer le QT, il faut partir de la fin du QRS et s’arrêter à la fin de T. :: Le QT inclut le QRS et commence donc à son début.
++ Un PR prolongé peut coexister avec un ST isoélectrique. :: L’un décrit un délai de conduction, l’autre un niveau de segment.
+@ 36–42, 55
+
+QCM · Potassium et régulation
+Deux anomalies surviennent au bloc : A, bradycardie avec QRS qui s’élargissent ; B, salves ventriculaires sur QT long après plusieurs médicaments. Quels rapprochements sont pertinents ?
++ Dans A, une hyperkaliémie fait partie des causes réversibles à rechercher. :: La modification du potassium extracellulaire peut perturber le potentiel membranaire et ralentir la conduction.
+- Dans A, la présence d’une onde P favorise une cause vagale plutôt qu’un trouble de conduction d’origine ionique. :: Une P peut être présente dans un trouble de transmission d’origine métabolique.
++ Dans B, l’hypokaliémie peut renforcer le risque lié aux médicaments qui allongent le QT. :: Le risque rythmique résulte du cumul des facteurs.
+- Dans B, une fréquence sinusale normale entre les salves rend le QT long peu pertinent dans l’analyse du risque. :: La fréquence de base ne renseigne pas à elle seule sur le QT ni sur le risque de salve.
++ Dans A, les médicaments bradycardisants et la kaliémie sont deux éléments à vérifier. :: Une cause médicamenteuse et une cause ionique ne s’excluent pas.
+@ 13–16, 20–22, 52, 63, 74
+
+QCM · Pause et onde P
+Sur un DII long, les P sinusales surviennent à intervalles réguliers. Pendant une pause ventriculaire, une P est visible exactement à l’instant attendu, sans QRS après elle. Quelles propositions sont exactes ?
+- La pause correspond à la disparition de l’activation auriculaire attendue, comme dans un bloc sino-auriculaire. :: Ici, l’activation auriculaire attendue est visible.
++ Une P à l’heure, non suivie de QRS, oriente vers un trouble de conduction auriculo-ventriculaire. :: La distinction repose sur la présence de P pendant la pause.
+- Une onde atriale à l’heure attendue est un argument en faveur d’une extrasystole auriculaire bloquée. :: Une extrasystole est prématurée ; ce détail s’oppose à cette interprétation.
++ Examiner le PR des battements précédant la pause aide à préciser le mécanisme. :: Un allongement progressif est différent d’une P bloquée après des PR constants.
+- Les P visibles pendant la pause orientent vers un BAV complet plutôt qu’un BAV du deuxième degré. :: Un BAV complet suppose une dissociation des cadences, pas seulement une P bloquée.
+@ 53–56, 65–66
+
+QCM · Deuxième degré
+Une bande A montre des PR à 160, 200 puis 240 ms avant une P bloquée ; le premier PR après la pause revient à 160 ms. Sur une bande B, une P sur deux conduit, sans autre séquence visible. Que peut-on affirmer ?
++ La séquence A est compatible avec un BAV du deuxième degré de type Mobitz I. :: Le PR s’allonge avant la P bloquée, puis le cycle recommence avec un PR plus court.
+- La séquence A est un BAV du premier degré parce que certains PR dépassent 200 ms. :: Le premier degré ne comporte aucune P bloquée.
+- La bande B favorise un Mobitz II, puisque les PR des battements conduits sont identiques. :: À 2/1, il manque une suite de plusieurs PR conduits avant le blocage pour apprécier leur évolution.
++ Sur B, une bande plus longue pourrait montrer des cycles permettant de préciser le type de bloc. :: Chercher une séquence de conduction autre que l’alternance 2/1.
+- Sur A, le retour du PR à 160 ms après la pause montre que la P précédente a conduit avec retard. :: La P de la pause reste non conduite ; le PR court appartient au cycle suivant.
+@ 54–57
+
+QCM · Rythmes indépendants
+Sur une bande longue, les P surviennent régulièrement à 96/min et les QRS régulièrement à 34/min. Les P traversent les QRS et les T ; quand une P précède un QRS, leur distance varie. Quelles propositions sont exactes ?
+- Un R–R constant permet de retenir un rythme sinusal à 34/min. :: Un échappement peut être régulier sans être commandé par les P.
++ Des cadences séparées et des PR variables font suspecter un BAV complet. :: Les P et les QRS évoluent indépendamment.
++ Une P proche d’un QRS peut être une coïncidence. :: Ce sont les relations sur plusieurs cycles qui démontrent ou non une conduction.
+- Une conduction 2/1 explique les deux cadences et la variation des PR. :: Dans un 2/1 stable, une P sur deux conduit avec une relation identifiable ; ce n’est pas le cas ici.
++ L’échappement à 34/min peut avoir un retentissement malgré la régularité des QRS. :: La fréquence et la perfusion comptent davantage que la seule régularité.
+@ 37, 51, 54, 57
+
+QCM · Largeur des QRS
+Un patient a des QRS larges à 62/min avec une P avant chaque QRS. Lors d’un second épisode, il présente des QRS larges et réguliers à 165/min. Quelles propositions sont exactes ?
++ Le premier tracé peut traduire un retard de conduction ventriculaire sans tachycardie. :: Des complexes élargis à fréquence normale peuvent relever d’un bloc de branche ou d’une autre cause de conduction ralentie.
+- Le premier tracé évoque en priorité une TV lente en raison de la largeur des QRS. :: Le lien stable P–QRS et le contexte sont nécessaires pour interpréter l’origine.
++ Le second épisode doit faire évoquer une TV et vérifier immédiatement le retentissement. :: Une tachycardie à complexes larges est un signal d’alerte.
++ Une tachycardie supraventriculaire avec bloc de branche peut aussi donner des QRS larges. :: L’origine du rythme et la façon dont il se propage sont deux questions distinctes.
++ Une grande amplitude n’est pas en elle-même un argument d’élargissement du QRS. :: La durée se mesure horizontalement, pas à partir de l’amplitude.
+@ 17, 39, 52, 58, 62, 72
+
+QCM · Tachycardie au bloc
+À la sternotomie chez une patiente coronarienne, la fréquence monte de 105 à 150/min, la pression augmente et le DII montre des P identiques avant chaque QRS fin, avec PR fixe. Quelles propositions sont exactes ?
+- Le chiffre de 150/min est l’argument principal pour retenir un flutter malgré les P sinusales bien visibles. :: La fréquence oriente, mais la morphologie de P et sa relation aux QRS priment.
++ Une tachycardie sinusale en réponse au stimulus chirurgical est cohérente. :: L’accélération est régulière et conserve la séquence P–QRS.
++ Réévaluer l’analgésie et le stimulus est pertinent avant de traiter la fréquence comme une arythmie primaire. :: Le traitement se raisonne d’abord sur la cause dans ce cas.
+- L’absence de QRS larges permet d’écarter une souffrance ischémique favorisée par cette accélération. :: Une modification ST–T peut survenir malgré des QRS fins.
+- Un PR stable prouve que les modifications éventuelles de T sont sans rapport avec la tachycardie. :: Le PR renseigne sur la conduction ; il ne caractérise pas la repolarisation.
+@ 22, 64, 113–117
+
+QCM · Irrégularité à QRS fins
+Après induction, un patient présente un rythme rapide avec QRS fins. Sur le DII long, les R–R varient sans motif répétitif et aucune P sinusale stable n’est reconnaissable. Quelles propositions sont exactes ?
++ Une fibrillation atriale est l’hypothèse principale. :: L’irrégularité sans motif et l’absence de P reproductibles sont les indices déterminants.
+- L’absence de P identifiables fait privilégier un bloc sinusal avec échappement malgré les QRS rapides. :: Un bloc sinusal explique des pauses ou un échappement, pas ce tableau à lui seul.
+- Un R–R isolé correspondant à 150/min fait passer le flutter à conduction 2/1 devant la FA dans ce cas. :: Le diagnostic doit s’appuyer sur plusieurs cycles et l’activité atriale.
++ Une réponse ventriculaire plus lente n’exclurait pas une FA si les autres signes persistaient. :: La FA ne s’accompagne pas obligatoirement d’une tachycardie.
++ Des P sinusales stables avec seulement quelques battements prématurés orienteraient vers un autre mécanisme d’irrégularité. :: Une irrégularité due à des extrasystoles n’implique pas la disparition de toute organisation atriale.
+@ 62, 65, 69–71, 108–112
+
+QCM · Activité atriale et transmission
+Un ECG montre des QRS fins réguliers vers 150/min et une activité atriale répétitive proche de 300/min, en dents de scie dans les dérivations inférieures. Quelles affirmations sont exactes ?
++ Un flutter atrial à conduction 2/1 est cohérent. :: Deux activations atriales par QRS expliquent les deux fréquences.
+- La régularité des QRS établit un rythme sinusal même si l’activité atriale est deux fois plus rapide. :: Il manque la relation sinusale une P pour un QRS.
++ L’activité atriale organisée aide à distinguer ce tracé d’une FA. :: Une succession reproductible d’ondes atriales diffère de la trémulation désorganisée.
+- Il s’agit d’un Mobitz II sur rythme sinusal parce qu’une activation atriale sur deux est conduite. :: Le 2/1 décrit le rapport de conduction, mais les ondes en dents de scie et la cadence atriale orientent vers le flutter.
++ En conduction 2/1, une onde atriale peut se superposer au QRS ou à T : plusieurs dérivations aident à l’identifier. :: Une seule dérivation peut masquer l’activité atriale répétitive.
+@ 54, 64, 69, 71
+
+QCM · Battement prématuré
+Sur un rythme de base régulier à QRS fins, un complexe large survient plus tôt que le battement attendu, sans P conductrice identifiable juste avant. Un intervalle plus long le suit. Quelles propositions sont exactes ?
++ L’aspect est compatible avec une extrasystole ventriculaire. :: La prématurité, le QRS large différent et la pause orientent vers une ESV.
+- C’est un échappement ventriculaire : le battement arrive avant l’instant attendu. :: Un échappement survient quand la commande attendue fait défaut, après un délai.
+- Un complexe ventriculaire prématuré isolé est une forme de TV non soutenue. :: Une TV est une succession de plusieurs complexes d’origine ventriculaire.
++ Si ce motif alterne durablement avec un battement de base, on parle de bigéminisme. :: Le rapport est un battement normal pour un prématuré.
++ Si le complexe prématuré débute sur l’onde T précédente, c’est un signe de risque supplémentaire. :: Un phénomène R sur T survient dans la période vulnérable.
+@ 51, 65–68, 72
+
+QCM · Complexes larges rapides
+Sur le scope, des complexes larges, rapides et de morphologie stable se succèdent. Le patient garde un pouls, mais la pression chute nettement. Quelles propositions sont exactes ?
++ La présence d’un pouls n’exclut pas une TV. :: Une TV peut garder une éjection initiale tout en étant mal tolérée.
+- La morphologie répétitive oriente vers une torsade plutôt que vers une TV monomorphe. :: Une torsade se caractérise par des variations de forme et d’amplitude.
++ Une tachycardie ventriculaire reste à envisager même si un bloc de branche préexistant pourrait expliquer des QRS larges. :: La largeur seule n’identifie pas l’origine, et la mauvaise tolérance impose d’alerter.
++ L’association d’un pouls présent et d’une mauvaise tolérance fait discuter une cardioversion synchronisée en urgence. :: La synchronisation sur les QRS vise à éviter la période vulnérable de T.
+- Une interruption spontanée en quelques secondes permet de classer cet épisode comme bien toléré malgré la chute de pression. :: La tolérance se juge sur les conséquences observées pendant l’épisode.
+@ 62, 68, 72–79
+
+QCM · QT long et salves
+Une patiente a un QT long, une hypokaliémie et reçoit un antiémétique qui allonge le QT. Une salve rapide à complexes larges change progressivement d’amplitude et de polarité. Quelles propositions sont exactes ?
++ Une torsade de pointes est l’hypothèse principale. :: La morphologie polymorphe prend ici son sens dans un contexte de QT long.
++ Le retour à des QRS fins entre les salves est compatible avec ce diagnostic. :: Des salves de torsade peuvent s’interrompre et alterner avec le rythme de base.
++ La correction du potassium, la recherche d’un magnésium bas et l’arrêt du facteur médicamenteux font partie du raisonnement. :: Plusieurs facteurs de repolarisation se cumulent.
+- Le terme « torsade de pointes » serait tout aussi adapté si le QTc de base était normal : la forme des complexes suffit à elle seule. :: Le contexte de QT long distingue la torsade d’autres tachycardies ventriculaires polymorphes.
+- L’amiodarone est le choix antiarythmique de référence pour cette salve sur QT long. :: La torsade est l’exception rappelée dans le cours, qui met en avant le magnésium et la correction des causes.
+@ 41, 67–68, 74–76, 118–122
+
+QCM · Territoire et miroir
+Dans un contexte de douleur thoracique récente, le ST est au-dessus de la ligne de base en DII, DIII et aVF, et en dessous en aVL. Quelles conclusions sont défendables ?
++ Les dérivations avec sus-décalage sont contiguës dans le territoire inférieur. :: DII, DIII et aVF explorent ensemble ce territoire.
++ Le sous-décalage en aVL est compatible avec une image réciproque. :: Le ST peut être abaissé dans une dérivation qui regarde le vecteur opposé.
+- Le sous-décalage en aVL annule le caractère ST+ du tableau. :: Il peut au contraire conforter l’interprétation du sus-décalage inférieur.
+- Le territoire permet d’identifier avec certitude la coronaire responsable. :: La corrélation dépend notamment de l’anatomie ; le tracé ne garantit pas l’artère exacte.
++ L’absence d’une onde Q de nécrose à ce stade n’exclurait pas une ischémie aiguë. :: Le ST et T peuvent se modifier avant l’apparition d’une onde Q.
+@ 40, 83–86, 89
+
+QCM · Électricité et circulation
+Au bloc, un patient perd connaissance et les pouls sont absents. Quelles propositions relient correctement le tracé à l’arrêt circulatoire ?
++ Un tracé organisé sans pouls est compatible avec une dissociation électromécanique. :: Une activité électrique visible peut ne provoquer aucune éjection efficace.
+- Si la bande est presque plate, l’asystolie peut être retenue avant de vérifier les dérivations et la qualité du signal. :: Le contact des électrodes et la concordance clinique comptent ; une FV fine peut être difficile à distinguer.
++ Une activité chaotique sans QRS reconnaissables avec absence de pouls est compatible avec une FV. :: L’activité électrique désorganisée ne produit pas de débit.
+- La présence de complexes électriques visibles signifie que le rythme est choquable, même si le tracé est organisé. :: La dissociation électromécanique n’est pas un rythme choquable par ce seul constat.
++ Dans une FV confirmée, attendre une synchronisation sur un QRS retarde inutilement le choc. :: La FV n’a pas de QRS organisé sur lequel synchroniser.
+@ 68, 77–79
+
+QCM · Stimulateur en écoute
+Un patient porteur d’un stimulateur a un rythme spontané régulier, sans spike visible avant l’incision. Quelles propositions sont exactes ?
+- L’absence de spike établit un défaut de capture du stimulateur. :: Un défaut de capture suppose une impulsion délivrée (spike visible) qui ne déclenche pas l’activation attendue.
++ En mode d’écoute, le stimulateur peut ne pas délivrer d’impulsion si le rythme spontané suffit. :: L’absence de spike peut être normale en présence d’un rythme propre détecté.
++ En VOO, le ventricule est stimulé à une cadence programmée sans écoute du rythme spontané. :: Les deux O correspondent à l’absence de détection et de réponse à la détection.
+- En VOO, une onde R spontanée inhibe l’impulsion suivante. :: Le mode asynchrone ne détecte pas cette onde R pour adapter l’impulsion.
++ En mode asynchrone, une impulsion peut entrer en compétition avec un rythme propre. :: Une impulsion mal placée peut tomber pendant la période vulnérable.
+@ 93–96, 102
+
+QCM · Interférences et conduite
+Chez un patient dépendant d’un pacemaker, les pulsations artérielles disparaissent pendant l’usage du bistouri unipolaire et reviennent à son arrêt. Quelles propositions sont pertinentes ?
++ Le dispositif peut prendre le parasite pour une activité spontanée et s’abstenir de stimuler. :: Une surdétection peut inhiber la stimulation lorsque le patient en dépend.
++ Si le scope continue d’afficher des déflexions rapides, la courbe de pression reste nécessaire pour juger de l’éjection. :: Un signal électrique parasité ne prouve pas la circulation mécanique.
++ Interrompre le bistouri est la première action qui permet de supprimer la source suspectée. :: La disparition et la reprise des pulsations avec l’usage du bistouri orientent vers l’interférence.
+- L’aimant rend asynchrone la stimulation de tout boîtier implanté, quel que soit son réglage. :: La réponse dépend du type et des réglages du dispositif.
++ Revoir le trajet entre l’électrode active et la plaque, ou privilégier le bipolaire si possible, aide à limiter les interférences. :: Le trajet unipolaire doit éviter le boîtier ; le bipolaire maintient le courant plus local.
+@ 94–102

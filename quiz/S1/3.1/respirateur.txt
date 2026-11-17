@@ -1,0 +1,246 @@
+// Quiz 13 – Machine d'anesthésie (UE 3.1), d'après « QUIZZ 13 Respirateur.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Machine d'anesthésie
+
+QCM · Architecture
+Quels ensembles composent une machine d'anesthésie ?
++ Le système d'alimentation en gaz frais :: Il apporte oxygène, air, protoxyde d'azote et halogéné.
++ Les circuits anesthésiques :: Ils conduisent le mélange au patient et récupèrent les gaz expirés.
++ Le ventilateur :: Il met le gaz en mouvement.
++ Le système antipollution :: Il évacue les gaz expirés hors du poste de travail.
+- Un absorbeur de CO₂ qui remplace l'alimentation en gaz frais :: La chaux sodée retire le CO₂ ; elle ne fabrique pas l'oxygène consommé par le patient.
+> Quatre ensembles : alimentation en gaz frais, circuits, ventilateur, antipollution. L'absorbeur de CO₂ fait partie du circuit et rend la réinhalation possible, mais il ne remplace jamais l'apport de gaz neuf, car il ne produit pas d'oxygène.
+@ 5, 21, 26
+
+QCM · Débit de gaz frais
+Quelles affirmations sur le débit de gaz frais et la composition du mélange sont exactes ?
++ Les gaz frais constituent l'apport nouveau au circuit :: Ils compensent la consommation et les fuites.
++ Le mélangeur règle la composition du gaz vecteur et son débit :: Proportion d'oxygène et débit total.
++ La proportion d'oxygène et l'enrichissement en halogéné sont deux réglages distincts :: Le mélangeur pour l'un, l'évaporateur pour l'autre.
+- Le débit de gaz frais est égal au débit inspiratoire délivré par le ventilateur :: Le ventilateur met en mouvement un volume bien supérieur, en recyclant les gaz du circuit.
+- Le réglage du débit total définit la concentration d'halogéné :: La concentration est réglée sur l'évaporateur ; le débit ne fait que la véhiculer plus ou moins vite.
+> Deux chiffres à ne pas confondre : ce qui entre de neuf dans le circuit, le débit de gaz frais, et ce qui circule vers le patient, le débit du ventilateur. Et deux réglages distincts : la composition du gaz vecteur, et son enrichissement en halogéné.
+@ 5–7, 11, 16
+
+QCM · Gaz vecteur
+Quelles affirmations décrivent le gaz vecteur qui transporte l'anesthésique volatil ?
++ Il peut être constitué d'un mélange air et oxygène :: C'est le mélange usuel aujourd'hui.
++ Un mélange oxygène et protoxyde d'azote a été utilisé historiquement :: Le protoxyde d'azote servait alors d'adjuvant.
++ Il contient toujours de l'oxygène :: La fraction inspirée en oxygène ne peut pas descendre sous le minimum de sécurité.
+- Il est constitué de vapeur de sévoflurane pure :: La vapeur enrichit le gaz vecteur, elle ne le remplace pas.
+- Il correspond au CO₂ expiré que la chaux sodée ajoute au circuit :: Le CO₂ est au contraire retiré avant la réinhalation.
+> Le gaz vecteur est le véhicule : air et oxygène, parfois oxygène et protoxyde d'azote. L'halogéné ne représente qu'un faible pourcentage de ce mélange, ajouté par l'évaporateur sur le trajet.
+@ 6–7, 9, 26
+
+QCM · By-pass d'oxygène
+Quelles affirmations sur l'utilisation du by-pass d'oxygène sont exactes ?
++ Il délivre de l'oxygène pur à débit rapide :: Son débit est de 500 mL/s, soit 30 L/min.
++ Il peut diluer l'halogéné présent dans le circuit :: L'oxygène apporté n'en contient pas.
++ Son usage prolongé peut alléger l'anesthésie :: La fraction d'halogéné du mélange chute.
+- Tout le flux traverse l'évaporateur :: Le by-pass le court-circuite, c'est tout son principe.
+- Il délivre la même fraction d'halogéné que celle réglée sur la cuve :: Il ne délivre aucun halogéné.
+> Le by-pass sert à remplir vite le circuit en oxygène, par exemple après une déconnexion. Mais il contourne l'évaporateur : utilisé longuement, il dilue l'halogéné et peut alléger l'anesthésie à l'insu de l'opérateur.
+@ 14
+
+QCM · Évaporateur
+Quelles affirmations expliquent le fonctionnement d'un évaporateur d'halogéné ?
++ La cuve contient l'agent sous forme liquide :: Il se vaporise à la surface du liquide.
++ Une partie du gaz vecteur s'enrichit au contact de l'agent :: Cette fraction ressort saturée en vapeur.
++ La commande modifie la répartition entre le flux enrichi et le flux qui contourne la chambre :: C'est ce rapport qui fixe la concentration délivrée.
+- La concentration de vapeur saturée dans la chambre égale le pourcentage délivré :: Elle est bien plus élevée : elle est diluée par le flux de contournement.
+- Un même pourcentage de deux agents donne la même puissance anesthésique :: 2 % de sévoflurane et 2 % de desflurane ne représentent pas la même fraction de MAC.
+> L'évaporateur enrichit une partie du gaz vecteur jusqu'à saturation, puis la dilue avec le reste du flux. La molette règle ce partage. Et un pourcentage ne se lit qu'en fraction de MAC, propre à chaque agent.
+@ 16–18
+
+QCM · Circuit ouvert
+Dans un circuit ouvert, sans réinhalation des gaz expirés, quelles conséquences sont attendues ?
++ Une consommation importante de gaz :: Tout le mélange inspiré doit être neuf.
++ La perte des gaz expirés, au lieu de leur réadministration :: Ils sont évacués à chaque cycle.
++ Un débit de gaz frais supérieur à la ventilation minute :: Pour couvrir chaque inspiration sans réinhalation.
+- Une récupération de l'halogéné expiré pour le cycle suivant :: Cela suppose un circuit avec réinhalation.
+- La conservation de la chaleur et de l'humidité expirées :: Elles sont perdues avec les gaz expirés, d'où le refroidissement du patient.
+> Sans réinhalation, chaque cycle demande du gaz neuf : le débit doit dépasser la ventilation minute, la consommation est forte, et la chaleur comme l'humidité expirées sont perdues. C'est exactement ce que le circuit circulaire permet d'éviter.
+@ 19–22
+
+QCM · Circuit circulaire
+Quelles affirmations caractérisent un circuit circulaire semi-fermé ?
++ Une partie des gaz expirés est réinhalée :: La réinhalation est partielle, d'où le terme semi-fermé.
++ Le CO₂ expiré doit être éliminé avant la réinhalation :: C'est le rôle de l'absorbeur.
++ Le gaz inspiré associe gaz recyclés et gaz frais :: Dans une proportion qui dépend du débit de gaz frais.
+- L'apport de gaz frais devient inutile puisque l'oxygène est recyclé :: Le patient consomme de l'oxygène : il faut le remplacer.
+- Les gaz expirés sont rejetés en totalité à chaque cycle :: Ce serait un circuit ouvert.
+> Le circuit circulaire recycle les gaz expirés après épuration du CO₂, et les complète par du gaz frais. L'apport neuf reste indispensable, au moins pour compenser l'oxygène consommé, environ 250 mL/min chez l'adulte.
+@ 21–23
+
+QCM · Chaux sodée
+Quelles affirmations sur la chaux sodée sont exactes ?
++ Elle absorbe le CO₂ expiré :: C'est ce qui rend la réinhalation possible.
++ Les réactions d'absorption produisent de l'eau et de la chaleur :: D'où la cartouche tiède et humide en cours d'anesthésie.
++ Son épuisement se traduit par une remontée du CO₂ inspiré :: Signe à surveiller sur le capnogramme.
+- Elle remplace les soupapes inspiratoire et expiratoire :: Diriger le flux est le rôle des valves unidirectionnelles.
+- Elle permet de se passer de gaz frais :: Elle retire le CO₂, mais ne produit pas l'oxygène consommé.
+> La chaux sodée épure le CO₂, en produisant eau et chaleur. Son épuisement se voit sur le capnogramme : la ligne de base du CO₂ inspiré ne revient plus à zéro. Elle ne dispense ni des valves, ni de l'apport de gaz frais.
+@ 21, 25–26
+
+QCU · Valves unidirectionnelles
+Quel est le rôle des valves unidirectionnelles du circuit circulaire ?
++ Imposer un sens de circulation aux gaz dans les deux branches :: Le clapet s'ouvre dans un sens et se ferme dans l'autre, ce qui évite la réinhalation du gaz non épuré.
+- Régler la fraction d'halogéné :: C'est le rôle de l'évaporateur.
+- Absorber le CO₂ expiré :: C'est le rôle de l'absorbeur de chaux sodée.
+- Maintenir la pression expiratoire positive réglée sur le ventilateur :: Elle est maintenue par la valve expiratoire proportionnelle.
+- Produire l'énergie de propulsion du gaz :: Elle vient du gaz moteur, d'un piston ou d'une turbine.
+> Les valves unidirectionnelles séparent la branche inspiratoire de la branche expiratoire. Si l'une devient incompétente, le patient réinhale du gaz non épuré : le CO₂ inspiré remonte, comme avec une chaux épuisée.
+@ 21, 25, 38, 41
+
+QCM · Ballon réservoir
+Quelles fonctions sont assurées par le ballon réservoir ?
++ Permettre la ventilation manuelle :: Sa compression insuffle le gaz.
++ Constituer une réserve de gaz :: Il relie un apport continu à des besoins cycliques.
++ Amortir les variations de pression et de volume :: Il joue le rôle de capacité tampon.
++ Donner un repère visuel sur la ventilation spontanée :: Ses mouvements renseignent, sans remplacer le monitorage.
+- Absorber chimiquement le CO₂ :: C'est le rôle de la chaux sodée.
+> Le ballon est à la fois réserve, amortisseur, moyen de ventilation manuelle et indicateur visuel. Ce dernier rôle reste subjectif : il ne remplace ni la capnographie, ni la spirométrie.
+@ 27
+
+QCM · Valve APL
+Quelles affirmations sur la valve APL sont exactes ?
++ Elle laisse échapper les gaz au-delà d'un seuil d'ouverture réglable :: C'est une valve d'échappement à seuil variable.
++ Elle est fonctionnelle en mode manuel et en ventilation spontanée :: Ce sont ses deux modes d'action.
++ Elle peut créer un effet de pression expiratoire positive en ventilation spontanée :: En maintenant une pression résiduelle dans le circuit.
+- Elle agit sur la pression délivrée dans les modes mécaniques :: En ventilation mécanique, elle n'a aucun rôle.
+- Elle règle le pourcentage d'halogéné de l'évaporateur :: Ces deux commandes sont indépendantes.
+> L'APL ne sert qu'en manuel et en spontané : elle permet de pressuriser le circuit lors de la compression du ballon, et peut créer une pression expiratoire positive en ventilation spontanée. En mode mécanique, c'est le ventilateur qui commande les pressions.
+@ 28–29
+
+QCM · Changement de mode
+Un patient passe du mode mécanique au mode manuel et spontané. Quelles affirmations sont exactes ?
++ Le réglage de l'APL devient déterminant :: Il n'avait aucun effet dans le mode précédent.
++ Une APL très fermée peut gêner l'expiration spontanée :: Le patient doit expirer contre un seuil élevé.
++ Une APL totalement ouverte empêche de pressuriser le circuit à la compression du ballon :: Le gaz s'échappe au lieu d'aller au patient.
++ La pression du circuit doit être surveillée après le changement :: Le passage en manuel ne garantit pas une ventilation efficace.
+- La pression expiratoire positive du mode mécanique est commandée par l'APL :: Elle relève de la valve expiratoire proportionnelle.
+> Changer de mode change l'organe qui commande les pressions. Le réflexe au passage en manuel est de régler l'APL à un seuil intermédiaire, puis de vérifier la pression et le volume obtenus à la compression du ballon.
+@ 28–29, 41
+
+QCM · Test d'étanchéité
+Pour tester l'étanchéité d'un circuit sans patient connecté, quelles affirmations sont exactes ?
++ Le raccord côté patient est obstrué :: Sinon la pression ne peut pas monter.
++ L'APL sert à pressuriser le circuit jusqu'au seuil choisi :: Avec un remplissage en oxygène.
++ C'est la stabilité de la pression qui est observée :: Une baisse signe une fuite à rechercher.
+- Le raccord en Y doit rester ouvert à l'atmosphère :: Le circuit ne serait pas clos : le test est impossible.
+- Une pression stable certifie le bon fonctionnement du ventilateur et des valves unidirectionnelles :: Le test ne vérifie que l'étanchéité : il ne dit rien des valves ni du ventilateur.
+> Le test d'étanchéité se résume à : obstruer la sortie patient, fermer l'APL au seuil choisi, remplir en oxygène, observer la pression. Sa limite est à connaître : un circuit étanche peut avoir une valve unidirectionnelle incompétente, que seul un autre contrôle détectera.
+@ 31
+
+QCM · Débit de gaz frais selon les phases
+Quelles affirmations sur les variations du débit de gaz frais au cours d'une anesthésie inhalée sont exactes ?
++ Un débit élevé est utilisé pendant la préoxygénation :: Pour dénitrogéner rapidement le patient et le circuit.
++ L'entretien à faible débit repose sur la réutilisation des gaz expirés :: Avec l'épuration du CO₂ par la chaux sodée.
++ Réaugmenter le débit au réveil favorise le rinçage de l'halogéné :: La constante de temps du circuit diminue.
+- Réduire le débit au réveil permet de rincer rapidement le circuit :: C'est l'inverse : un bas débit allonge le temps de renouvellement.
+- Modifier le débit de gaz frais équivaut à modifier le volume courant prescrit :: Ce sont deux réglages indépendants.
+> Trois temps, trois débits : élevé à l'induction pour dénitrogéner, bas pendant l'entretien pour économiser et conditionner les gaz, élevé au réveil pour laver le circuit. Rien de cela ne touche aux réglages ventilatoires.
+@ 23, 32, 38
+
+QCM · Monitorage
+Quelles grandeurs font partie de la surveillance de la machine et de sa ventilation ?
++ Le CO₂ et les gaz anesthésiques :: Fractions inspirées et expirées.
++ L'oxygène :: La fraction inspirée en oxygène est une sécurité de base.
++ Les volumes et les pressions :: Avec les alarmes de pression haute et de déconnexion.
++ Le volume courant, le volume minute et la fréquence respiratoire :: Mesurés par la spirométrie.
+- La position de la molette de l'évaporateur, en remplacement de la mesure des gaz :: Lire une consigne ne renseigne pas sur le résultat obtenu.
+> Le monitorage mesure le résultat, les consignes ne font qu'exprimer une intention. L'écart entre la molette et la fraction expirée, ou entre le volume réglé et le volume expiré, est précisément l'information utile.
+@ 33, 40
+
+QCM · Ventilateur à soufflet
+Quelles affirmations sur un ventilateur à soufflet entraîné pneumatiquement sont exactes ?
++ Un gaz moteur déplace le soufflet :: Il agit de l'extérieur, sans se mélanger au gaz respiratoire.
++ Le mouvement du soufflet déplace le gaz respiratoire :: La variation de volume du soufflet insuffle le mélange.
++ Son fonctionnement dépend d'une alimentation en gaz moteur :: Une panne de cette alimentation arrête la ventilation mécanique.
+- Il fonctionne sans gaz moteur :: C'est précisément ce qui le distingue du piston et de la turbine.
+- Le gaz moteur et le gaz respiratoire ont la même fonction :: L'un fournit l'énergie, l'autre est administré au patient.
+> Deux circuits de gaz séparés : le gaz moteur, qui apporte l'énergie en comprimant le soufflet, et le gaz respiratoire, qui est administré. Le gaz moteur est consommé sans être inspiré, ce qui est l'inconvénient de ce système.
+@ 34, 37, 47, 49
+
+QCM · Piston et turbine
+Quelles affirmations décrivent les ventilateurs à piston et à turbine ?
++ Le piston déplace le gaz grâce à un moteur électrique :: Il modifie le volume d'une chambre.
++ La turbine électrique génère et module un flux de gaz :: Par sa vitesse de rotation.
++ Ces deux systèmes économisent le gaz moteur :: Leur énergie est électrique.
+- La turbine a besoin d'un gaz moteur distinct :: Elle est entraînée électriquement.
+- L'absence de gaz moteur rend inutile l'alimentation en oxygène et en gaz frais :: Le mélange respiratoire reste nécessaire : seule l'énergie change de source.
+> Soufflet pneumatique, piston et turbine se distinguent par la source d'énergie, non par la nature du gaz administré. Piston et turbine, électriques, économisent le gaz moteur, mais l'alimentation du mélange respiratoire reste indispensable.
+@ 35–37, 39, 49
+
+QCM · Valve inspiratoire proportionnelle
+Quelles affirmations sur la valve inspiratoire proportionnelle sont exactes ?
++ Son ouverture est modulée de 0 à 100 % sous commande électronique :: Le microprocesseur asservit son ouverture au débit visé.
++ À débit inspiratoire constant, le volume délivré est le produit du débit par le temps inspiratoire :: Vt = débit × Ti.
++ Pour une pression prescrite, le débit délivré est décélérant :: Le débit est maximal au début, puis diminue à mesure que la pression est atteinte.
+- Elle reste ouverte à 100 % pendant tout le cycle, expiration comprise :: Elle se ferme en fin d'inspiration.
+- Elle absorbe le CO₂ en fin d'inspiration :: Elle ne fait que régler le passage du gaz.
+> La valve inspiratoire est l'organe qui façonne le débit. En volume contrôlé, le débit est constant et le volume découle de Vt = débit × Ti. En pression contrôlée, le débit est décélérant et le volume dépend de la mécanique du patient.
+@ 38
+
+QCM · Pression expiratoire positive en mode mécanique
+En ventilation mécanique, quelles affirmations sur la pression expiratoire positive sont exactes ?
++ La valve expiratoire proportionnelle participe à son maintien :: Elle module le passage des gaz à l'expiration.
++ La commande est asservie à la mesure de pression :: Le microprocesseur régule en continu.
++ L'APL ne la commande pas dans ce mode :: L'APL est inactive en mode mécanique.
+- Elle se règle en serrant l'APL :: Serrer l'APL n'a aucun effet en mode mécanique.
+- La valve expiratoire reste entièrement ouverte quelle que soit la consigne :: Elle doit se fermer partiellement pour retenir la pression.
+> En mode mécanique, la pression expiratoire positive est obtenue par une valve expiratoire pilotée, asservie à la mesure de pression. L'APL ne devient active qu'au passage en manuel ou en spontané.
+@ 28, 38, 41
+
+QCM · Antipollution
+Quelles affirmations sur l'évacuation des gaz d'anesthésie sont exactes ?
++ Le système d'évacuation assure une aspiration contrôlée des gaz évacués par la machine :: Il protège le personnel du bloc.
++ Des systèmes de capture des gaz existent :: Leur diffusion reste limitée par le coût et la complexité.
++ Évacuer du poste de travail et capturer les gaz sont deux étapes différentes :: La première protège l'équipe, la seconde l'environnement.
+- Le rejet hors de l'hôpital détruit les gaz anesthésiques :: Il les disperse : les halogénés sont des gaz à effet de serre persistants.
+- La chaux sodée détruit les halogénés évacués :: Elle absorbe le CO₂, pas les halogénés.
+> Évacuer n'est pas détruire. Le système d'évacuation protège le personnel, mais les halogénés rejetés gardent un impact climatique important. De là l'intérêt du bas débit de gaz frais, qui réduit à la fois la consommation et les rejets.
+@ 26, 42
+
+QCU · Causalité : by-pass
+Affirmation 1 : l'utilisation du by-pass d'oxygène peut alléger l'anesthésie inhalée.
+Affirmation 2 : le by-pass apporte de l'oxygène qui n'a pas traversé l'évaporateur.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies et liées : l'oxygène du by-pass contourne l'évaporateur, donc ne contient pas d'halogéné, et dilue l'agent présent dans le circuit. Utilisé de façon prolongée, il peut faire chuter la fraction expirée et alléger l'anesthésie.
+@ 14
+
+QCU · Causalité : APL
+Affirmation 1 : en ventilation mécanique, serrer l'APL augmente la pression expiratoire positive délivrée par le ventilateur.
+Affirmation 2 : l'APL est fonctionnelle lorsque le circuit est en mode manuel ou spontané.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
++ La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La seconde affirmation est vraie et explique pourquoi la première est fausse : l'APL n'agit qu'en manuel et en spontané. En mode mécanique, la pression expiratoire positive est obtenue par la valve expiratoire proportionnelle, asservie à la mesure de pression.
+@ 28, 38, 41
+
+QCU · Réglage du volume
+Un ventilateur délivre un débit inspiratoire constant et le temps inspiratoire reste inchangé. Quelle action augmente le volume délivré ?
++ Augmenter le débit inspiratoire :: Vt = débit × Ti : à temps constant, le volume suit le débit.
+- Diminuer le débit inspiratoire :: Le volume délivré diminuerait.
+- Allonger le temps expiratoire :: Il ne modifie pas le volume insufflé.
+- Fermer davantage la valve APL :: Elle n'a aucun rôle en mode mécanique.
+- Diminuer le débit de gaz frais :: Il concerne l'apport neuf au circuit, pas le volume insufflé.
+> À temps inspiratoire constant, le volume courant est le produit du débit inspiratoire par ce temps. Le débit de gaz frais et l'APL sont des réglages d'une autre nature : les confondre avec les réglages ventilatoires est une erreur fréquente.
+@ 28, 38
+
+QCU · Interprétation d'un test de fuite
+Un test d'étanchéité réalisé sans patient montre une pression stable dans le circuit obstrué. Quelle conclusion est correcte ?
++ Le résultat est compatible avec l'étanchéité du circuit, mais d'autres contrôles du ventilateur et des valves restent nécessaires :: Le test ne mesure que l'étanchéité.
+- Toutes les valves unidirectionnelles sont perméables :: Leur compétence n'est pas évaluée par ce test.
+- Le ventilateur délivrera le volume prescrit :: Son fonctionnement n'est pas testé.
+- La chaux sodée est neuve :: Son état ne se déduit pas de l'étanchéité.
+- Le pourcentage d'halogéné est adapté au patient :: C'est une décision clinique, étrangère au test.
+> Un test d'étanchéité réussi dit une seule chose : le circuit est clos. La vérification de la machine comprend d'autres étapes, pour les valves, le ventilateur, l'absorbeur et le monitorage. Confondre les deux conduit à démarrer avec un défaut non détecté.
+@ 31

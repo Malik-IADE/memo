@@ -1,0 +1,366 @@
+// Quiz 9 – Préoxygénation (UE 3.1), d'après « QUIZZ 9 Pré oxygénation.html »
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Préoxygénation
+
+QCM · Indication
+Concernant la préoxygénation avant une anesthésie générale, quelles propositions sont exactes ?
++ Elle prépare les réserves d’oxygène avant la période d’apnée liée à l’induction :: Elle remplit la capacité résiduelle fonctionnelle d'oxygène avant l'arrêt de la ventilation
++ Elle est recherchée aussi en urgence, selon les conditions disponibles :: On réalise la meilleure préparation possible, en intégrant ses limites
+- Une SpO₂ initiale normale rend la préoxygénation inutile :: Une saturation normale dit que l'hémoglobine est saturée, pas que la réserve pulmonaire est enrichie
+- Elle est réservée aux patients présentant une intubation difficile connue :: Elle est systématique avant toute anesthésie générale, intubation difficile ou non
+> La préoxygénation est systématique avant l’anesthésie générale. Elle augmente la marge de temps pour gérer les voies aériennes avant désaturation. Une saturation déjà correcte ne renseigne pas sur l’enrichissement de la réserve pulmonaire. En urgence, on réalise la meilleure préparation possible et on intègre ses limites.
+@ 5–7
+
+QCM · Dénitrogénation
+Quelles propositions décrivent le mécanisme de la dénitrogénation ?
++ Elle remplace une grande partie de l’azote de la réserve gazeuse pulmonaire par de l’oxygène :: L'azote de la capacité résiduelle fonctionnelle est remplacé par de l'oxygène
++ Elle vise à prolonger la tolérance à l’apnée avant désaturation :: C'est tout son objectif : allonger le délai avant désaturation
+- Elle consiste à retirer l’oxygène du sang afin de stimuler la respiration :: Elle enrichit la réserve en oxygène au lieu de l'appauvrir
+- Elle assure l’élimination du CO₂ pendant une apnée complète :: Aucun apport d'oxygène n'élimine le CO₂ : seule la ventilation le fait
+> La réserve pulmonaire est enrichie pendant que le patient respire encore. L’objectif est de retarder la désaturation après l’arrêt de ventilation, et non de garantir une apnée illimitée ou une élimination du CO₂. La marge obtenue dépend des réserves et des besoins du patient.
+@ 7, 28–29
+
+QCM · FiO₂ et FeO₂
+Quelles définitions des fractions d’oxygène sont exactes ?
++ La FiO₂ est la fraction d’oxygène inspirée :: C'est la proportion d'oxygène du gaz apporté au patient
++ La FeO₂ est la fraction d’oxygène mesurée dans les gaz expirés :: Elle reflète l'enrichissement réellement obtenu dans la réserve pulmonaire
+- Une FiO₂ réglée à 100 % donne immédiatement une FeO₂ supérieure à 90 % :: Le circuit, le masque et les poumons doivent d'abord se dénitrogéner : il faut plusieurs minutes
+- Une FeO₂ de 90 % représente un volume courant à régler sur le respirateur :: Une fraction est une proportion, sans rapport avec un volume respiratoire
+> La FiO₂ décrit le gaz apporté ; la FeO₂ renseigne sur le gaz expiré et l’enrichissement obtenu. Le réglage ne prouve pas le résultat. Une fraction est une proportion, pas un volume respiratoire. La préoxygénation est ici réalisée en ventilation spontanée, éventuellement assistée.
+@ 10, 12–13, 16
+
+QCM · Courbe de dissociation
+Concernant la relation entre SpO₂ et PaO₂, quelles propositions sont exactes ?
++ La relation n’est pas proportionnelle sur toute la courbe :: Elle est sigmoïde : un plateau au-dessus de 90 %, une pente raide en dessous
++ Une SpO₂ proche de 90 % correspond approximativement à une PaO₂ de 60 mmHg :: Repère du coude de la courbe, au-delà duquel la chute s'accélère
++ La désaturation peut s’accélérer dans la partie plus pentue, sous environ 90–92 % :: Sous le coude, chaque point de saturation perdu coûte beaucoup de PaO₂
+- Une diminution d’un point de SpO₂ correspond à la même diminution de PaO₂ sur toute la courbe :: La relation n'est pas linéaire : c'est tout l'enjeu du plateau et de la pente
+> La courbe de dissociation de l’hémoglobine comporte un plateau puis une pente plus forte. Les repères fournis sont environ 97 % pour 100 mmHg et 90 % pour 60 mmHg. Une baisse limitée de saturation peut masquer une diminution importante de PaO₂ ; l’évolution n’est pas linéaire.
+@ 8
+
+QCM · Masque et circuit
+Quelles mesures favorisent une préoxygénation efficace au masque ?
++ Choisir une taille adaptée à la morphologie :: Une taille inadaptée crée des fuites, en particulier chez l'enfant
++ Maintenir une application étanche :: Sans étanchéité, l'air ambiant dilue l'oxygène et la dénitrogénation échoue
++ Utiliser une alimentation en oxygène et un circuit adaptés :: Au bloc, le circuit du respirateur ; en urgence, un ballon auto-remplisseur raccordé à l'oxygène
++ Contrôler le fonctionnement du circuit plutôt que poursuivre sans vérification en cas de difficulté :: Poursuivre une préoxygénation sur un circuit défaillant ne prépare rien
+- Appliquer le masque sans l'appuyer, pour mieux faire accepter le dispositif :: Sans étanchéité, le patient inspire de l'air ambiant et la dénitrogénation échoue.
+> L’adaptation du masque limite les fuites, notamment chez l’enfant. Au bloc, le circuit du respirateur est habituel. Un circuit accessoire peut aider lorsqu’un problème du circuit principal est suspecté ; un BAVU raccordé à l’oxygène est évoqué en urgence ou en préhospitalier.
+@ 9–11
+
+QCM · Débit de gaz frais
+Pour une préoxygénation au masque en ventilation spontanée, quelles propositions sur le débit de gaz frais sont exactes ?
++ Le repère proposé est un débit supérieur à 5 L/min :: Il doit dépasser le débit inspiratoire du patient pour ne pas vider la réserve
++ Un débit insuffisant par rapport à l’inspiration du patient peut vider la réserve du circuit :: Le respirateur alerte alors, et le patient inspire de l'air ambiant
+- Un débit de 5 L/min signifie une FiO₂ de 5 % :: 5 L/min est un débit, en litres par minute, pas une proportion
+- Le débit de gaz frais et la FiO₂ désignent la même grandeur :: Le débit est une quantité de gaz par minute, la FiO₂ la proportion d'oxygène qu'il contient
+> Le débit est un volume de gaz par minute ; la FiO₂ est la proportion d’oxygène de ce gaz. Ils sont distincts. Les trois conditions de l'efficacité sont un débit supérieur à 5 L/min, une FiO₂ de 100 % et un masque étanche. Si le patient inspire plus que l’apport disponible, la réserve peut se vider et le respirateur alerter.
+@ 10
+
+QCM · Méthodes
+Quelles modalités de préoxygénation au masque sont exactes ?
++ Ventilation spontanée, éventuellement avec aide inspiratoire et PEP, pendant trois minutes :: Durée de référence pour une induction programmée
++ Huit manœuvres de capacité vitale en soixante secondes :: Modalité plus rapide, utilisée en urgence
++ FiO₂ de 100 % avec masque étanche :: Les trois conditions indissociables de l'efficacité
+- Huit manœuvres de capacité vitale en trois secondes, sans contrôle des gaz expirés :: Trois secondes ne laissent pas le temps de mobiliser la capacité vitale, et le contrôle de la FeO₂ reste nécessaire
+> Deux modalités : trois minutes de ventilation spontanée, éventuellement assistée avec pression expiratoire positive, ou huit manœuvres de capacité vitale en une minute, plus rapide et réservée à l'urgence. Le temps passé ne remplace pas l’évaluation de l’efficacité, notamment par la FeO₂.
+@ 10, 12
+
+QCM · Patient obèse
+Chez un patient obèse avant induction, quelles propositions sont exactes ?
++ Un léger proclive peut être utilisé pour la préoxygénation :: Il limite la fermeture des voies aériennes déclives et améliore la capacité résiduelle fonctionnelle
++ Une aide inspiratoire et une PEP peuvent compléter la préparation :: Elles recrutent les zones collabées et augmentent la réserve disponible
++ Une réserve pulmonaire réduite peut expliquer une désaturation plus rapide malgré le gabarit :: Sa capacité résiduelle fonctionnelle est réduite et sa consommation d'oxygène augmentée
+- Le poids élevé s’accompagne de réserves pulmonaires proportionnellement plus importantes :: C'est l'inverse : la masse abdominale refoule le diaphragme et abaisse la capacité résiduelle fonctionnelle
+> Le gabarit ne prédit pas une grande réserve pulmonaire : chez l'obèse, la capacité résiduelle fonctionnelle est au contraire abaissée et la consommation d'oxygène augmentée. Position, étanchéité du masque et assistance adaptée contribuent à préparer la période d’apnée.
+@ 10, 26, 28
+
+QCM · Tolérance et précautions
+Lors de l’application du masque chez un patient claustrophobe, quelles propositions sont exactes ?
++ Rassurer le patient peut faciliter l’acceptation :: Un patient rassuré tolère mieux le masque, donc une application étanche
++ La position des mains doit éviter d’obstruer inutilement son champ visuel et protéger ses yeux :: Les doigts ne doivent ni gêner la vue ni appuyer sur les globes oculaires
++ Le patient peut parfois tenir lui-même le masque, en maintenant la vérification de l’étanchéité :: Il participe, ce qui améliore souvent la tolérance, sans dispenser du contrôle des fuites
+- Pour réduire l’angoisse, une fuite volontaire importante améliore la dénitrogénation :: Une fuite laisse entrer de l'air ambiant : elle dégrade précisément ce qu'on cherche à obtenir
+> La tolérance du dispositif et la qualité de son application sont liées. Une fuite laisse entrer de l’air ambiant et réduit l’enrichissement ; les manipulations doivent aussi prévenir les lésions oculaires.
+@ 11
+
+QCU · Objectif expiratoire
+Quelle mesure constitue le repère d’enrichissement gazeux visé avant une induction programmée ?
++ Une FeO₂ supérieure à 90 % :: Soit une fraction élevée d'oxygène dans les gaz expirés, signe que l'azote a été remplacé
+- Une SpO₂ supérieure à 90 %, même si la FeO₂ reste basse :: La SpO₂ renseigne sur l'hémoglobine, pas sur la réserve pulmonaire
+- Une FiO₂ de 90 %, sans vérification des gaz expirés :: Le réglage dit ce qu'on apporte, non ce qui est réellement obtenu
+- Un volume courant de 90 mL :: Une fraction est une proportion, pas un volume
+> Le repère habituel est FeO₂ > 90 %, c’est-à-dire une fraction élevée d’oxygène dans les gaz expirés. Il s’associe à l’absence de désaturation, de fuite et de réinhalation. FiO₂, SpO₂ et volume courant n’ont pas la même signification.
+@ 12, 16
+
+QCM · Fuite : cas pratique
+La FiO₂ est réglée à 100 %, mais la FeO₂ reste basse et une fuite est visible au masque. Quelles propositions sont exactes ?
++ Le patient peut inspirer de l’air ambiant qui dilue l’oxygène apporté :: L'air ambiant à 21 % d'oxygène dilue l'apport
++ Il faut réévaluer la taille et l’application du masque ainsi que le circuit :: Les trois causes à passer en revue devant une FeO₂ qui ne monte pas
++ Le réglage de FiO₂ ne suffit pas à conclure que la réserve pulmonaire est correctement enrichie :: Le réglage est l'intention, la FeO₂ le résultat
+- Une fuite augmente la fraction expirée d’oxygène en accélérant le remplacement de l’azote :: Une fuite ralentit la dénitrogénation au lieu de l'accélérer
+> Une fuite compromet la dénitrogénation en laissant entrer un gaz moins riche en oxygène. Il faut contrôler le dispositif et l’effet obtenu. L’évaluation porte sur le patient, pas seulement sur le réglage affiché.
+@ 9–12, 16
+
+QCU · FeO₂ : interprétation
+Une FeO₂ de 93 % est obtenue après une préoxygénation étanche. Quelle interprétation est exacte ?
+- La valeur dépasse un plafond de sécurité qui impose de revenir à 90 % :: 90 % est un seuil minimal, pas une limite à ne pas dépasser
++ La valeur peut dépasser 90 %, qui est un repère d’efficacité et non un plafond :: Rien n'impose de redescendre : plus la fraction est élevée, meilleure est la réserve
+- La valeur indique un volume respiratoire de 93 mL :: Une fraction est une proportion, pas un volume
+- La valeur prouve que l’apnée peut être poursuivie sans limite de durée :: La durée d'apnée tolérée dépend de la réserve et de la consommation, pas seulement de la FeO₂
+> La FeO₂ peut dépasser 90 % si le patient continue à respirer et si le temps disponible le permet. Cela ne supprime pas les autres contrôles ni les limites de tolérance à l’apnée. La quantité de réserve et la consommation d’oxygène restent déterminantes.
+@ 12–13, 28
+
+QCM · Urgence
+En urgence, la FeO₂ cible reste difficile à atteindre chez un patient insuffisant respiratoire. Quelles propositions sont exactes ?
++ La préparation la plus efficace possible doit être recherchée dans les conditions présentes :: Une préoxygénation imparfaite vaut mieux que pas de préoxygénation
++ La décision d’induire malgré cet objectif non atteint dépend d’une évaluation avec le médecin anesthésiste :: C'est une décision partagée, qui met en balance l'urgence et la marge obtenue
+- Trois minutes écoulées imposent l’induction, quelle que soit la FeO₂ :: La durée n'est pas le critère : c'est la marge obtenue et l'urgence de la situation
+- La difficulté à atteindre la cible signifie que toute préoxygénation est inutile :: Elle est au contraire d'autant plus utile que la marge est courte
+> La cible habituelle reste pertinente, mais peut être difficile en urgence ou en cas de pathologie respiratoire. La décision tient compte de la situation, de l’urgence et de la marge obtenue, avec communication entre MAR et IADE. Il ne s’agit pas d’une règle automatique fondée uniquement sur une durée.
+@ 6, 13, 16
+
+QCM · Organisation
+Quelles mesures contribuent à la préparation de l’induction ?
++ Identifier clairement les seringues :: L'étiquetage est la première barrière contre l'erreur d'injection
++ Organiser les plateaux de médicaments et de voies aériennes de façon lisible par l’équipe :: Un plateau lisible est utilisable par toute l'équipe, pas seulement par celui qui l'a préparé
++ Prévoir l’accès rapide aux médicaments d’urgence :: Atropine, éphédrine et adrénaline doivent être à portée de main avant d'injecter
+- Accumuler tout le matériel disponible au même endroit, même si l’objet utile devient difficile à retrouver :: Préparer, ce n'est pas entasser : ce qui ne se retrouve pas n'est pas disponible
+> Un rangement clair limite les erreurs d’injection et les recherches pendant l’urgence. Préparer ne signifie pas empiler sans organisation. La disponibilité des médicaments de secours et la compréhension du rangement sont vérifiées avant de commencer.
+@ 15, 18
+
+QCM · Trépied anesthésique
+Quelles associations entre composante de l’induction et objectif sont exactes ?
++ Hypnose : rendre le patient inconscient :: C'est l'objectif de l'hypnotique
++ Analgésie : couvrir notamment la stimulation liée à la laryngoscopie :: Elle couvre la nociception de la laryngoscopie, que l'hypnotique ne traite pas
++ Myorelaxation : relâcher les muscles lorsque le geste le nécessite :: Elle s'adapte au geste : intubation, puis besoins chirurgicaux
+- Curarisation : remplacer simultanément l’hypnotique et l’analgésique :: Un curare ne produit ni l'inconscience ni l'analgésie : il ne fait que supprimer le mouvement
+> Les trois composantes ont des fonctions distinctes. Un curare ne produit ni l’inconscience ni l’analgésie. La myorelaxation s’adapte au geste, à la prise en charge des voies aériennes et aux besoins peropératoires.
+@ 17
+
+QCM · Intubation et masque laryngé
+Concernant la curarisation pour la prise en charge des voies aériennes, quelles propositions sont exactes ?
++ Elle est recommandée pour l’intubation dans la séquence décrite :: Elle améliore les conditions de passage et réduit les lésions
++ Elle contribue à ouvrir suffisamment les cordes vocales lors du passage de la sonde :: Des cordes vocales relâchées laissent passer la sonde sans traumatisme
++ Le masque laryngé est supraglottique et ne nécessite pas la même condition de passage entre les cordes :: Il se place au-dessus des cordes, dans le pharynx
+- Une sonde d’intubation et un masque laryngé se placent tous deux sous les cordes vocales :: Seule la sonde d'intubation franchit les cordes ; le masque laryngé reste supraglottique
+> Le passage de la sonde entre les cordes explique l’intérêt de la myorelaxation et la prévention des lésions. Le masque laryngé reste au-dessus. Le besoin de curare à l’induction peut aussi différer du besoin pendant la chirurgie, notamment si un monitorage nerveux doit devenir exploitable.
+@ 17–18
+
+QCU · Médicaments d’urgence
+Quel groupe de médicaments doit être rapidement disponible avant l’induction pour faire face aux événements hémodynamiques urgents ?
++ Atropine, éphédrine et adrénaline :: Les trois médicaments de secours hémodynamique à avoir prêts
+- L’antibiotique et le curare prévus :: Ce sont les médicaments du geste, non ceux de l'urgence
+- Le morphinique et l’hypnotique d’induction :: Ce sont les médicaments de l'induction elle-même
+- Les médicaments de secours peuvent être recherchés après l’injection de l’hypnotique :: Une fois l'hypnotique injecté, il est trop tard pour aller les chercher
+> Atropine, éphédrine et adrénaline sont le minimum cité. La disponibilité est vérifiée à l’ouverture de salle. Les présentations et la préparation varient localement : il faut connaître ce qui est prêt et comment obtenir rapidement le reste, sans confondre disponibilité et préparation systématique identique.
+@ 18
+
+QCM · Synchronisation
+Un exemple associe un morphinique dont le pic d’effet est vers trois minutes et un hypnotique dont le pic est à 30–60 secondes. Quelles propositions sont exactes ?
++ Un décalage d’injection peut chercher à faire coïncider les pics :: L'objectif est de faire coïncider le pic du morphinique avec celui de l'hypnotique
++ L’intervalle doit être adapté aux produits et au patient :: Les pics varient selon les produits, l'âge et l'hémodynamique
++ Un délai de deux minutes après le morphinique est une illustration possible dans cet exemple :: Illustration possible avec un sufentanil suivi du propofol
+- Le même ordre et le même intervalle s’appliquent à tout hypnotique et tout morphinique :: C'est un raisonnement cinétique, à refaire pour chaque couple de produits
+> La synchronisation s'illustre par un sufentanil suivi du propofol environ deux minutes plus tard. Il s’agit d’un raisonnement cinétique, et non d’un intervalle universel. Chez le patient âgé, une administration hypnotique plus lente est notamment évoquée pour installer l’effet et limiter l’hypotension.
+@ 19, 23
+
+QCM · Avant le curare
+Dans la séquence habituelle d’induction avec intubation, quels éléments sont recherchés avant d’administrer le curare ?
++ La perte du réflexe ciliaire, associée à l’évaluation clinique de l’hypnose :: Elle signe l'installation de l'hypnose, sans attendre l'apnée
++ Le lancement du curamètre et de son calibrage :: Il doit être fait sur un patient endormi mais non encore curarisé
+- Une apnée obligatoire, même si l’hypnose est déjà installée :: L'hypnose peut être installée alors que le patient respire encore
+- Un TOF déjà à 0/4 avant toute administration de curare :: Le train-de-quatre à 0/4 se recherche après le curare, pas avant
+> Le curare est administré après vérification de l’action hypnotique et préparation du monitorage neuromusculaire. La perte du réflexe ciliaire peut survenir alors que le patient respire encore : l’apnée n’est pas indispensable à cet instant. Le TOF 0/4 est recherché après la curarisation à cette étape.
+@ 19, 21, 23
+
+QCU · Réflexe ciliaire
+Quelle interprétation de la perte du réflexe ciliaire pendant l’induction est exacte ?
+- Elle prouve que le curare a déjà bloqué la plaque motrice :: Elle signe un patient endormi, pas un patient curarisé
++ Elle constitue un repère clinique de l’effet hypnotique, sans imposer qu’une apnée soit déjà présente :: Elle n'évalue ni la curarisation, ni l'analgésie
+- Elle mesure directement la concentration de morphinique au cerveau :: Aucun repère clinique ne mesure une concentration cérébrale
+- Elle assure des conditions neuromusculaires suffisantes pour l’intubation :: Les conditions neuromusculaires s'évaluent au curamètre
+> Hypnose et curarisation s’évaluent séparément. Le réflexe ciliaire est un repère immédiat de l’action hypnotique. Il ne remplace pas le curamètre et n’est pas une mesure de l’antinociception.
+@ 19–21, 23
+
+QCM · Curamètre
+Quelles propositions sur le monitorage neuromusculaire à l’induction sont exactes ?
++ Le calibrage précède l’administration du curare dans la séquence décrite :: Sans calibrage sur un patient non curarisé, la mesure n'a pas de référence
++ Le TOF applique quatre stimulations nerveuses :: D'où le nom de train-de-quatre
++ Le curamètre renseigne sur les réponses musculaires à ces stimulations :: Il compte les réponses et mesure leur affaiblissement
+- La baisse du BIS reflète la profondeur du bloc neuromusculaire :: Le BIS renseigne sur l'hypnose : les deux monitorages ne se remplacent pas
+> Le calibrage prépare une mesure fiable. Le TOF, train de quatre, évalue le nombre et l’intensité des réponses musculaires. Le BIS renseigne sur la narcose : ces deux monitorages ne sont pas interchangeables.
+@ 19, 21
+
+QCM · BIS
+Concernant le BIS pendant l’induction, quelles propositions sont exactes ?
++ Il renseigne sur la profondeur de la narcose :: Valeurs habituelles entre 40 et 60
++ Il comporte une latence, de l’ordre de 30 secondes à une minute dans l’explication :: D'où la nécessité de garder l'observation clinique pendant l'induction
+- Il mesure directement l’effet analgésique du morphinique :: Aucun moniteur ne mesure l'analgésie
+- Une valeur inférieure à 60 remplace tous les repères cliniques immédiats et le curamètre :: Il ne dit rien du bloc neuromusculaire, ni de la perte du réflexe ciliaire
+> Repère : BIS < 60, plage habituelle 40–60. La latence impose de conserver l’observation clinique à l’induction. Le BIS ne mesure ni l’effet morphinique ni le bloc neuromusculaire.
+@ 21
+
+QCU · TOF à l’induction
+Après curarisation, que signifie un TOF compté à 0/4 ?
++ Aucune réponse musculaire détectée aux quatre stimulations :: Le bloc est complet à la plaque motrice
+- Quatre réponses d’amplitudes identiques :: Ce serait l'absence de bloc
+- Un ratio T4/T1 de 100 % :: C'est au contraire le signe d'une récupération complète
+- Une récupération neuromusculaire complète permettant le réveil :: 0/4 est l'objectif de l'intubation, pas du réveil
+> Le comptage 0/4 indique l’absence des quatre réponses à cette étape. Le signal nerveux ne produit plus le mouvement attendu du fait du bloc à la plaque motrice. Ce comptage est différent du ratio de récupération évalué au réveil.
+@ 21, 23
+
+QCM · TOF au réveil
+Concernant la récupération neuromusculaire au réveil, quelles propositions sont exactes ?
++ Le nombre de réponses et le rapport d’amplitude T4/T1 sont deux informations distinctes :: Le comptage renseigne sur la profondeur, le rapport sur la qualité de la récupération
++ Quatre réponses présentes ne suffisent pas à prouver une récupération complète :: Une fatigue résiduelle peut persister avec quatre réponses visibles
+- Le rapport T4/T1 doit être inférieur à 10 % pour témoigner d’une récupération satisfaisante :: Le rapport doit dépasser 0,9 pour autoriser l'extubation
+- Le critère TOF 0/4 de l’induction doit être conservé pour décider du réveil :: Les objectifs sont inverses : bloc profond à l'induction, récupération complète au réveil
+> Le TOF distingue le nombre de réponses et le rapport T4/T1, qui doit dépasser 0,9 au réveil. Le comptage seul peut masquer une fatigue résiduelle. Les objectifs à l’induction et au réveil sont différents.
+@ 21
+
+QCM · Risques de l’induction
+Quels risques doivent être anticipés et surveillés à l’induction ?
++ L’inhalation et la désaturation :: Les deux risques que la préoxygénation et la séquence visent à prévenir
++ Une profondeur hypnotique insuffisante ou excessive :: Trop légère, on curarise un patient conscient ; trop profonde, la pression chute
++ L’hypotension liée aux médicaments :: Hypnotiques et morphiniques sont vasodilatateurs et dépresseurs myocardiques
++ Une réaction anaphylactique, notamment après curare ou antibiotique :: Les deux produits le plus souvent en cause au bloc
+- Une préoxygénation réussie met à l'abri des autres risques de l'induction :: Elle n'agit que sur le délai avant désaturation ; hypotension, inhalation et anaphylaxie restent entiers.
+> La préparation des réserves limite le risque de désaturation, sans supprimer les autres risques. Une narcose insuffisante expose à la curarisation d’un patient encore conscient ; une narcose excessive peut favoriser l’hypotension. Le contexte d’estomac plein nécessite une stratégie spécifique.
+@ 20
+
+QCM · Masque et OHD
+Concernant l’organisation de la préoxygénation et de l’OHD, quelles propositions sont exactes ?
++ Une préoxygénation au masque étanche à FiO₂ 100 % reste la technique privilégiée dans cette séquence :: C'est la technique de référence pour une induction programmée
++ Des canules compatibles peuvent être prépositionnées pour apporter de l’oxygène après le retrait du masque :: Elles délivrent l'oxygène pendant l'apnée, après le retrait du masque
+- L’OHD remplace le masque facial pour la préoxygénation de toute induction :: Le masque étanche reste la référence ; l'oxygénothérapie nasale à haut débit relève de situations particulières
+- Prépositionner une canule signifie qu’elle assure déjà une ventilation efficace pendant toute l’apnée :: Pendant l'apnée, elle apporte de l'oxygène sans assurer de ventilation
+> Deux temps à distinguer : la préparation au masque avant l'induction, et l'apport d'oxygène pendant l'apnée. Prépositionner le dispositif peut faire gagner du temps, mais ne doit pas compromettre l’étanchéité. L’OHD est discutée dans des situations particulières et n’est pas un substitut universel au masque ou à la ventilation.
+@ 26–27, 36
+
+QCM · Interface nasale
+Pour installer une canule nasale d’OHD sous un masque d’anesthésie, quelles propositions sont exactes ?
++ La canule doit être adaptée à la morphologie :: Une canule trop grande ou mal placée crée une fuite sous le masque
++ Sa conception doit permettre de préserver l’étanchéité du masque :: Seules certaines interfaces, de faible encombrement, le permettent
++ Un mauvais ajustement peut léser les tissus au contact :: La pression du masque sur la canule peut léser les narines
+- Toute canule nasale peut être laissée sous tout masque sans vérifier les fuites :: Une fuite sous le masque compromet la dénitrogénation : il faut vérifier
+> Seules certaines interfaces permettent cette association. Le but est de disposer rapidement de l’apport nasal lors de l’apnée tout en gardant une préoxygénation efficace. Une fuite sous le masque compromet la dénitrogénation.
+@ 36
+
+QCM · Apnée : indications
+Dans quelles situations un apport d’O₂ par OHD pendant l’apnée post-induction peut-il être envisagé ?
++ Une hypoxémie anticipée ou survenant pendant cette phase :: Elle prolonge le délai avant la désaturation attendue
++ Une difficulté prévue de ventilation au masque ou d’intubation susceptible de prolonger l’apnée :: Une apnée prévue longue est l'indication la plus claire
++ Un terrain à réserves respiratoires réduites :: Capacité résiduelle fonctionnelle basse ou consommation élevée
+- Une SpO₂ correcte autorisant à interrompre toute surveillance des voies aériennes :: Le dispositif apporte de l'oxygène, il ne sécurise pas les voies aériennes
+> Le dispositif peut fournir un apport complémentaire dans des cas particuliers. L’intérêt dépend du risque de désaturation et du temps prévu pour sécuriser les voies aériennes. L’anticipation du matériel ne remplace pas la surveillance ni la gestion de la ventilation.
+@ 27–28
+
+QCM · Réserves et besoins
+Quelles situations réduisent la marge avant désaturation pendant l’apnée ?
++ Une CRF faible par rapport aux besoins :: C'est le rapport entre réserve et besoins qui fixe la marge
++ Une consommation d’O₂ accrue :: Fièvre, sepsis, grossesse, enfant : la réserve se consomme plus vite
++ Un temps de préoxygénation limité par une urgence vraie :: Une préoxygénation écourtée laisse une réserve incomplète
+- Une augmentation de durée d’apnée sans modification du risque puisque l’O₂ est déjà administré :: Plus l'apnée dure, plus la réserve s'épuise : la durée est un facteur de risque à part entière
+> Le risque dépend du rapport réserve/besoins et du temps passé sans ventilation. Une CRF faible est notamment évoquée chez l’obèse, l’insuffisant respiratoire et la femme enceinte. L’enfant et la femme enceinte ont aussi des besoins accrus ; une apnée prolongée ou une préparation écourtée réduit encore la marge.
+@ 6–7, 28
+
+QCM · Grossesse et pédiatrie
+Concernant le risque de désaturation à l’induction, quelles propositions sont exactes ?
++ La grossesse peut associer CRF réduite et besoins en O₂ augmentés :: Les deux mécanismes se cumulent, d'où une désaturation très rapide
++ Le jeune enfant peut désaturer rapidement du fait de besoins élevés par rapport à ses réserves :: Sa consommation d'oxygène rapportée au poids est bien plus élevée que celle de l'adulte
+- Une préoxygénation donne la même durée de sécurité chez l’enfant et l’adulte :: La marge dépend du rapport réserve sur besoins, qui varie d'un terrain à l'autre
+- La grossesse augmente la CRF et protège contre la désaturation :: La grossesse abaisse la capacité résiduelle fonctionnelle, par le refoulement du diaphragme
+> La préoxygénation n’offre pas une durée universelle. La grossesse cumule les deux mécanismes de faible réserve et de besoins accrus. L’enfant est également cité comme terrain à marge plus courte, ce qui impose d’anticiper la séquence et ses limites.
+@ 6–7, 28
+
+QCM · Oxygénation apnéique
+Quelles propositions sur l’apport d’O₂ par OHD pendant l’apnée sont exactes ?
++ Le haut débit participe au lavage de l’espace mort naso-trachéal :: Le haut débit renouvelle le gaz des voies aériennes supérieures
++ Il favorise l’arrivée d’O₂ vers les alvéoles :: L'oxygène y descend par diffusion, poussé par la consommation alvéolaire
++ Le CO₂ peut s’accumuler malgré une saturation maintenue :: C'est la limite de la technique : elle oxygène sans ventiler
+- Une SpO₂ maintenue démontre que l’OHD élimine tout le CO₂ produit :: La saturation peut rester correcte pendant que la capnie monte
+> L’espace mort ne participe pas aux échanges gazeux. Le renouvellement de son gaz favorise l’apport d’O₂, mais ne rétablit pas une ventilation efficace à lui seul. Ce phénomène, appelé oxygénation apnéique, ne doit pas être confondu avec une ventilation : le CO₂ continue de s'accumuler.
+@ 29, 38
+
+QCM · PEP sous OHD
+Concernant l’effet de pression expiratoire positive de l’OHD, quelles propositions sont exactes ?
++ Il dépend du débit et de la fermeture de la bouche :: Bouche fermée et débit élevé sont les deux conditions
++ Il reste modeste chez l’adulte, avec un ordre de grandeur de 3 cmH₂O :: Effet modeste, qui ne remplace pas une pression expiratoire positive réglée
++ Le repère indiqué chez l’enfant est de l’ordre de 6–7 cmH₂O :: L'effet est plus marqué chez l'enfant, dont les voies aériennes sont plus étroites
+- Un haut débit maintient une forte PEP constante, même bouche ouverte :: Bouche ouverte, la pression s'échappe : l'effet disparaît
+> La PEP est une pression maintenue en fin d’expiration. Sous OHD, l’effet est variable et conditionné notamment par la bouche fermée. L’apport d’O₂ reste l’objectif principal : on ne peut pas déduire une pression élevée et constante du seul débit affiché.
+@ 10, 30
+
+QCM · OHD peropératoire
+Lors d’un geste ORL sous anesthésie sans sonde ni masque laryngé, quelles propositions sur l’OHD sont exactes ?
++ Elle peut soutenir l’oxygénation dans certaines situations où l’accès chirurgical aux voies aériennes doit rester libre :: Laryngoscopie en suspension, chirurgie des cordes vocales
++ L’équilibre entre profondeur d’anesthésie et respiration spontanée doit être apprécié :: Trop profonde, la respiration s'arrête ; trop légère, le patient bouge
++ La fréquence respiratoire et le volume courant peuvent diminuer sous anesthésie :: L'hypoventilation s'installe progressivement sous anesthésie
+- L’oxygène délivré assure une ventilation suffisante, quelle que soit la profondeur de l’anesthésie :: Oxygéner n'est pas ventiler : le CO₂ continue de s'accumuler
+> L'indication type est la laryngoscopie en suspension, où l'accès chirurgical doit rester libre. L'usage reste réservé à ces cas particuliers. Le soutien d’oxygénation n’abolit pas le risque d’hypoventilation ni le besoin de surveiller la respiration et les voies aériennes.
+@ 31–32
+
+QCU · Calcul : ventilation minute
+Un patient a un volume courant de 400 mL et une fréquence respiratoire de 12/min. Quelle est sa ventilation minute ?
++ 4,8 L/min :: 400 × 12 = 4 800 mL/min
+- 0,48 L/min :: Erreur d'un facteur dix sur la conversion
+- 33,3 L/min :: Ce serait le résultat d'une division au lieu d'une multiplication
+- 48 L/min :: Erreur d'un facteur dix dans l'autre sens
+> Vmin = Vt × Fr = 400 × 12 = 4 800 mL/min, soit 4,8 L/min. Une baisse de l’un ou des deux termes sous anesthésie diminue la ventilation minute. Ce volume n’est pas le débit de gaz réglé sur un dispositif d’OHD.
+@ 32
+
+QCU · Calcul : fraction inspirée
+La ventilation minute est de 5 L/min et la FiO₂ de 0,60. Quel volume d’O₂ inspiré par minute donne le produit Vmin × FiO₂ ?
+- 0,3 L/min :: 5 × 0,60 : on multiplie la ventilation par la fraction inspirée
+- 8,3 L/min :: Ce serait diviser par dix le résultat
++ 3 L/min :: Résultat sans rapport avec l'opération demandée
+- 30 L/min :: Erreur d'un facteur dix sur le produit
+> 5 × 0,60 = 3 L d’O₂ inspiré par minute. Ce calcul donne le volume d'oxygène inspiré ; il ne mesure pas la quantité effectivement consommée par les tissus et ne renseigne pas à lui seul sur l’élimination du CO₂. Ventilation, fraction inspirée et oxygénation doivent rester distinguées.
+@ 32
+
+QCM · Matériel d’OHD
+Quelles propositions sur les dispositifs d’OHD sont exactes ?
++ Un appareil dédié peut délivrer l’OHD :: Matériel conçu pour cet usage, avec humidification et réchauffement
++ Certains respirateurs de réanimation disposent de cette fonction :: La fonction existe sur certains respirateurs, avec des réglages propres
++ Optiflow est un nom commercial et ne désigne pas à lui seul toute la technique :: C'est une marque parmi d'autres : la technique ne s'y réduit pas
+- La présence d’une fonction OHD signifie que tous ses réglages sont identiques à ceux de la VNI :: Oxygénothérapie à haut débit et ventilation non invasive sont deux techniques distinctes
+> Le matériel disponible varie selon les structures. Il faut reconnaître la fonction, l’interface et ses réglages, plutôt que raisonner uniquement à partir d’une marque. Un respirateur peut proposer plusieurs modes qui ne se confondent pas.
+@ 24, 35
+
+QCM · Réglages d’OHD
+Quelles propositions sur les réglages d’une OHD sont exactes ?
++ Le débit et la FiO₂ constituent deux paramètres distincts :: Le débit est une quantité par minute, la FiO₂ une proportion
++ La plage de débit présentée est de 30–70 L/min :: Plage usuelle chez l'adulte, bien au-dessus du débit inspiratoire spontané
+- Le débit indique la proportion d’O₂, sans autre réglage :: Le débit ne dit rien de la proportion d'oxygène : la FiO₂ se règle à part
+- La température et l’humidification sont inutiles dès lors que la FiO₂ atteint 100 % :: Un gaz à haut débit non conditionné dessèche et lèse les muqueuses
+> Le débit décrit une quantité de gaz par minute ; la FiO₂ en décrit la proportion d’O₂, jusqu’à 100 % sur le dispositif présenté. Le conditionnement des gaz fait aussi partie du réglage et du contrôle, avec réchauffement et humidification adaptés.
+@ 37
+
+QCM · Muqueuses
+Quels facteurs favorisent une lésion des muqueuses lors d’une OHD prolongée ?
++ Un gaz insuffisamment humidifié :: Il dessèche la muqueuse nasale et altère le tapis mucociliaire
++ Un gaz trop froid ou insuffisamment réchauffé :: Un gaz froid est mal toléré et agresse la muqueuse
++ Une canule mal adaptée exerçant une contrainte locale :: La canule appuie sur les narines et la cloison
+- La vérification régulière de l’interface et du conditionnement des gaz :: C'est au contraire ce qui prévient la lésion
+> La surveillance ne se limite pas à l’arrivée d’O₂. Le contact de la canule et un gaz trop sec ou trop froid peuvent léser les tissus. Il faut vérifier adaptation, température, humidification et tolérance, en particulier si l’application se prolonge.
+@ 36–38
+
+QCM · SSPI : cas pratique
+Après extubation, un patient devient apnéique alors que sa SpO₂ reste correcte sous oxygène. Quelles propositions sont exactes ?
++ Il faut observer immédiatement la respiration réelle et les voies aériennes :: L'apnée se constate en regardant le patient, pas le moniteur
++ Le besoin d’assistance ventilatoire doit être apprécié séparément du soutien d’oxygénation :: Un patient peut être bien oxygéné et ne pas ventiler du tout
++ Une OHD peut apporter de l’O₂ sans suffire à corriger l’apnée et l’accumulation de CO₂ :: Elle oxygène sans assurer d'échange de CO₂
+- La SpO₂ correcte montre que le soutien respiratoire actuel est suffisant :: Sous oxygène, la saturation reste normale longtemps après l'arrêt de la ventilation
+> Oxygénation et ventilation sont deux fonctions distinctes. Devant une apnée, c'est une assistance ventilatoire qu'il faut, le ballon d'anesthésie par exemple, et non un supplément d'oxygène. Le dispositif se choisit avec l’évaluation médicale, la tolérance et les voies aériennes ; l’OHD ne remplace pas toute assistance ventilatoire.
+@ 33, 38–39
+
+QCM · Surveillance de l’OHD
+Quelles propositions sur l’évaluation d’un patient sous OHD sont exactes ?
++ SpO₂, fréquence respiratoire et clinique doivent être surveillées conjointement :: Les trois ensemble : la saturation seule est insuffisante
++ Une mesure nasale d’EtCO₂ doit être interprétée selon le dispositif et peut rester indicative :: Le prélèvement nasal ne reflète pas fidèlement le gaz alvéolaire selon le dispositif
++ Tirage, gasps ou cyanose imposent de réévaluer le soutien respiratoire :: Ce sont des signes de détresse qui imposent de passer à une assistance ventilatoire
+- Une saturation satisfaisante rend inutile la surveillance de la ventilation et de la capnie :: L'oxygène retarde la désaturation et masque l'hypoventilation
+> La SpO₂ évalue l’oxygénation ; la fréquence et la clinique renseignent sur la respiration effective. L’EtCO₂ peut être utile selon les situations sans représenter fidèlement le gaz alvéolaire avec tous les systèmes nasaux. L’hypoventilation et l’hypercapnie peuvent persister malgré une meilleure oxygénation.
+@ 38–39

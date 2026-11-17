@@ -1,0 +1,198 @@
+// Quiz 29 – BIS et EEG (UE 3.1), d'après « QUIZZ 29 BIS.html »
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# BIS et EEG
+
+QCM · Monitorage de l’hypnose
+Deux adultes reçoivent la même cible de propofol en AIVOC. Quelles interprétations sont exactes ?
++ La cible programmée renseigne sur l’exposition attendue, tandis que l’EEG donne des arguments sur l’effet observé. :: Une concentration cible est une donnée pharmacocinétique. L’activité frontale observée relève de la réponse pharmacodynamique.
+- À cible égale, un écart de BIS entre deux patients est en premier lieu une erreur de calibration. :: La sensibilité cérébrale varie. Un écart réel reste possible et doit être confronté à la qualité du signal et au tracé.
++ Une concentration habituelle peut être insuffisante chez un patient et excessive chez un autre. :: L’effet individuel ne se déduit pas d’une valeur de population.
+- Un patient immobile présente une probabilité d’éveil identique à celle d’un patient dont le tracé est de type alpha-delta. :: Immobilité et activité corticale sont des observations de nature différente.
++ Un BIS durablement élevé mérite une vérification du tracé et de l’administration, même si la cible paraît élevée pour le patient. :: La concentration seule ne permet pas d’écarter une hypnose insuffisante.
+> La cible d'une AIVOC est une concentration calculée, l'EEG un effet observé : à cible identique, la réponse corticale varie d'un patient à l'autre. Un écart de BIS entre deux patients traduit cette variabilité pharmacodynamique, non une erreur technique. Et l'immobilité, chez un patient non curarisé, ne renseigne pas sur la profondeur du sommeil.
+@ 2–8
+
+QCM · Réponse motrice et hypnose
+Un patient non curarisé bouge à l’incision. Le tracé frontal montre toujours des ondes lentes et alpha continues. Quelles propositions sont exactes ?
+- Un mouvement du patient permet de classer le tracé EEG comme artéfacté. :: Une réponse motrice au stimulus peut coexister avec un tracé frontal compatible avec l’hypnose.
++ Une transmission nociceptive insuffisamment bloquée peut expliquer un mouvement réflexe. :: Le mouvement et la réponse corticale ne reposent pas sur les mêmes cibles.
+- La MAC50 désigne la concentration qui produit un BIS entre 40 et 60 chez la moitié des patients. :: La MAC50 repose sur l’absence de mouvement en réponse au stimulus chez la moitié des patients.
++ L’EEG frontal renseigne sur l’effet cortical. Un monitorage neuromusculaire renseigne sur l’intensité d’un bloc. :: L’hypnose et le bloc neuromusculaire se surveillent par des moyens distincts.
+- Augmenter le bloc neuromusculaire corrige également la transmission nociceptive à l’origine du mouvement. :: Un curare empêche l’expression motrice en agissant à la jonction neuromusculaire.
+> Mouvement n'est pas éveil. Un tracé qui garde ses ondes lentes et son alpha signe une hypnose installée : le mouvement est alors un réflexe spinal, qui traduit une antinociception insuffisante. La réponse est d'approfondir l'analgésie, non l'hypnose, et surtout pas de curariser pour faire taire le signe sans traiter la cause.
+@ 5–8, 79–87
+
+QCM · Risque de mémorisation
+Après une induction IV, l’intubation est prolongée chez une patiente curarisée. Le relais hypnotique n’est pas encore en place. Quelles propositions sont exactes ?
++ La durée écoulée sans relais peut conduire à un sous-dosage non intentionnel. :: L’effet du bolus peut décroître pendant la gestion des voies aériennes.
++ La curarisation masque un signe moteur possible d’éveil. :: L’absence de mouvement devient un critère particulièrement peu informatif.
+- Une concentration habituelle qui produit peu d’effet illustre d’abord une modification pharmacocinétique. :: L’effet faible à concentration identique relève de la pharmacodynamie.
+- L’hypnose initialement observée permet d’écarter un sous-dosage tant que l’intubation est en cours. :: L’effet d’un bolus peut décroître et impose de suivre la continuité de l’hypnose.
++ Une concentration cérébrale insuffisante malgré une dose habituelle illustre une modification pharmacocinétique. :: La dose a ici produit une exposition insuffisante au site d’effet.
+> La période entre la dose d'induction et le relais d'entretien est le moment classique de mémorisation : la dose initiale se redistribue pendant qu'aucun entretien ne prend le relais. La curarisation supprime le seul signe clinique disponible, le mouvement. C'est précisément là que le monitorage de l'hypnose prend toute sa valeur.
+@ 8–9, 92
+
+QCM · Lecture du tracé frontal
+Quelles descriptions distinguent l’éveil de l’hypnose sous propofol ?
+- Une fréquence plus basse implique une amplitude plus faible si le réglage reste fixe. :: La fréquence et l’amplitude sont indépendantes. Des ondes lentes peuvent devenir amples.
++ À l’éveil, le signal est typiquement rapide, peu ample et complexe. :: L’activité neuronale est peu synchronisée. Les muscles peuvent ajouter des hautes fréquences.
++ Les oscillations alpha peuvent se superposer aux ondes delta. :: Sur le tracé, des oscillations autour de 10 Hz se dessinent sur des ondes lentes.
+- Le motif alpha-delta suppose que la majorité de la puissance se trouve au-dessus de 20 Hz. :: La puissance se concentre dans des fréquences inférieures.
++ Une synchronisation plus marquée peut augmenter l’amplitude du signal. :: Les contributions neuronales synchrones se somment davantage.
+> L'éveil donne un tracé rapide, de faible amplitude et désynchronisé. L'hypnose produit l'inverse : le cortex se synchronise, les fréquences descendent et l'amplitude monte, avec le motif alpha-delta caractéristique du propofol. Fréquence et amplitude évoluent donc en sens inverse, et non ensemble.
+@ 16–24, 40
+
+QCM · SEF95
+En entretien stable au propofol, la SEF95 affichée est de 14 Hz. Quelles interprétations sont exactes ?
+- La composante de fréquence la plus puissante se situe à 14 Hz. :: La SEF95 est une borne de puissance cumulée, distincte de la fréquence du pic.
++ Environ 95 % de la puissance spectrale se situe à 14 Hz ou en dessous. :: On cumule la puissance des basses vers les hautes fréquences.
+- Environ 95 % des oscillations comptées sur le tracé ont une fréquence inférieure à 14 Hz. :: Le calcul porte sur la puissance et ne compte pas les oscillations.
++ Une modification du filtre peut changer la valeur affichée sur un moniteur BIS. :: Une variation de filtrage peut faire varier le résultat affiché à état clinique comparable.
+- Pendant un burst-suppression, la même valeur se lit avec la même fiabilité qu’en entretien continu. :: Les hautes fréquences des bouffées perturbent l’interprétation.
+> La SEF95 est la fréquence sous laquelle se situe 95 % de la puissance spectrale : c'est un repère de puissance, non un décompte d'oscillations ni la fréquence dominante. Elle dépend des filtres du moniteur, et perd son sens pendant un burst-suppression, où le signal alterne entre activité et silence.
+@ 36–40, 72–73
+
+QCM · Suppression corticale
+Un BIS à 53 est associé à un SR à 18 % et à un EEG alternant bouffées et plages presque plates. Quelles propositions sont exactes ?
++ L’aspect du tracé est compatible avec un burst-suppression. :: La morphologie associe des bouffées à des intervalles de suppression.
+- Le SR indique que 18 % des bouffées ont été classées comme anormales. :: Le ratio exprime le pourcentage de temps passé en suppression sur la fenêtre analysée.
++ Une suppression réelle peut coexister avec un BIS compris entre 40 et 60. :: Une suppression modérée peut peu peser dans le calcul de l’index.
+- Le couple BIS–SR attribue la suppression à un excès de propofol avec plus de précision que le contexte hémodynamique. :: L’hypnotique, le bas débit ou le refroidissement figurent parmi les causes à départager.
++ L’apparition de ces plages conduit à rechercher la cause même si aucune alarme de BIS ne se déclenche. :: La fenêtre numérique habituelle ne fait pas disparaître un motif EEG préoccupant.
+> Le BIS peut rester dans la cible 40-60 alors que le cortex est en suppression : l'indice moyenne et lisse. C'est le ratio de suppression et surtout le tracé brut qui font le diagnostic. Une suppression impose d'en chercher la cause, qui n'est pas toujours un excès d'hypnotique : hypoperfusion, hypothermie et hypoglycémie en donnent autant.
+@ 28, 34, 61, 69–70
+
+QCM · BIS bas et contexte
+En cours d’intervention, un BIS chute avec un ralentissement diffus de l’EEG, sans modification récente de l’administration hypnotique. Quelles propositions sont exactes ?
++ Une baisse du débit sanguin peut limiter l’apport d’oxygène et réduire l’activité corticale. :: Le bas débit est une cause de déficit énergétique, distincte de la dépression due aux médicaments.
++ Un refroidissement profond peut réduire l’activité EEG malgré une cible de propofol stable. :: Le refroidissement réduit l’activité métabolique cérébrale.
+- Un défaut d’apport énergétique est plausible seulement si la saturation artérielle chute en même temps. :: Une saturation conservée est compatible avec un débit insuffisant. Une hypoglycémie touche l’apport de substrat.
++ Une perfusion d’insuline rend pertinente la vérification de la glycémie. :: Un défaut de substrat énergétique peut aussi ralentir l’EEG.
+- La présence de suppression distingue une dépression pharmacologique d’un défaut d’apport. :: Les deux mécanismes peuvent produire une suppression.
+> Un EEG qui se ralentit sans que rien n'ait changé dans l'administration ne traduit pas un surdosage, mais une souffrance corticale : bas débit, hypothermie, hypoglycémie. La saturation artérielle peut rester normale, car c'est l'apport au cerveau, débit et substrat, qui est en cause. Le BIS devient alors un moniteur de perfusion cérébrale.
+@ 47–62
+
+QCM · Qualité et impédance
+Quelles propositions sont exactes au sujet des électrodes et du signal frontal ?
+- Augmenter le gain vertical corrige une impédance trop élevée. :: Le gain modifie l’affichage. La préparation ou le repositionnement du capteur vise le mauvais contact.
++ Un mauvais contact peau–électrode peut rendre l’indice indisponible ou peu fiable. :: Une impédance élevée dégrade la mesure.
+- Un SQI élevé exclut une contamination significative par une vibration. :: Certains artéfacts surviennent malgré un indicateur de qualité rassurant.
++ Un artéfact sur l’EEG peut affecter plusieurs paramètres calculés simultanément. :: Le BIS, la SEF95, l’EMG affiché et la suppression sont dérivés du même signal.
+- Quand le signal devient inutilisable, le BIS conserve une valeur interprétable parce que le calcul est indépendant des électrodes. :: L’indice provient du signal capté par les électrodes.
+> Un indice calculé ne vaut que ce que vaut le signal d'où il sort. Une impédance élevée ou un mauvais contact rendent l'indice indisponible ou faux, et un artéfact contamine simultanément plusieurs paramètres dérivés. Le réflexe devant un chiffre surprenant est de regarder le tracé brut et la qualité du signal, pas d'augmenter le gain.
+@ 12–15, 31–32, 66–68
+
+QCM · Temps de réponse
+Après une baisse de l’administration de volatil au sevrage de CEC, l’EEG devient rapidement plus rapide. L’indice reste initialement stable. Quelles propositions sont exactes ?
++ Le moyennage de l’indice peut retarder la restitution de la transition. :: Le calcul intègre une fenêtre d’activité antérieure.
+- Une valeur stable dans la cible exclut l’éveil cortical pendant cette transition. :: Des épisodes d’éveil peuvent être manqués par l’indice.
++ Le tracé brut et la continuité de l’administration sont à vérifier. :: La modification du signal se juge avec le contexte du relais hypnotique.
+- Une durée de moyennage plus longue réduit le délai de réponse à une modification très brève. :: Le lissage peut retarder ou atténuer une transition rapide.
++ Deux indices propriétaires peuvent réagir différemment à un même épisode EEG. :: Les algorithmes et délais diffèrent, ce qui contribue à des discordances.
+> L'indice résulte d'un moyennage sur plusieurs dizaines de secondes : il retarde les transitions rapides, et un allongement de la fenêtre aggrave ce retard. Pendant un sevrage de circulation extracorporelle, le tracé brut change avant le chiffre. Deux moniteurs de marques différentes peuvent d'ailleurs réagir différemment au même épisode.
+@ 65, 74–77
+
+QCM · Activités parasites
+Un BIS passe de 47 à 71. Quels constats renforcent l’hypothèse d’un artéfact ?
++ Le grésillement est reproductible à chaque activation du bistouri et disparaît à son arrêt. :: La relation temporelle et la réversibilité au retrait de la source soutiennent une contamination électrique.
++ Des déflexions frontales répétées sont synchrones des QRS sur le scope. :: Une activité cardiaque peut être captée par les électrodes frontales.
+- La hausse débute après l’interruption de l’administration d’hypnotique avec disparition progressive du motif alpha-delta. :: Ce contexte fait rechercher un allègement réel.
++ Les oscillations alpha-delta restent visibles sous un bruit apparu lorsque le tuyau chauffant vibre contre le câble. :: La persistance du fond hypnotique et la source mécanique identifiée soutiennent l’hypothèse.
+- Le patient non curarisé présente des hausses transitoires et reproductibles à la laryngoscopie en l’absence de source parasite. :: La stimulation peut produire une vraie réaction corticale ou musculaire.
+> Un artéfact se reconnaît à sa relation temporelle avec une source extérieure et à la persistance du motif EEG sous le bruit : bistouri, QRS, vibration d'un tuyau. À l'inverse, une hausse qui suit l'arrêt de l'hypnotique avec disparition progressive de l'alpha-delta, ou une hausse reproductible à la laryngoscopie, sont des réveils corticaux authentiques.
+@ 66–68
+
+QCM · Nociception et EEG
+À hypnose et curarisation prises en compte, quelles réponses EEG peuvent accompagner une stimulation nociceptive ?
++ Une hausse du BIS avec activité bêta en hypnose légère. :: Un bêta arousal peut accompagner la stimulation lorsque l’hypnose est légère.
+- Une baisse du BIS en hypnose profonde démontre que l’antinociception est suffisante. :: La baisse peut être paradoxale en réponse au stimulus.
++ Une disparition transitoire de l’alpha ou une prédominance delta en hypnose profonde. :: Le stimulus peut provoquer un alpha dropout ou un delta arousal.
+- Un BIS stable exclut un stimulus nociceptif significatif chez un patient curarisé. :: L’EEG frontal et l’index ont des limites pour apprécier la nociception, même si le patient est immobile.
++ Une hausse de l’EMG peut précéder la hausse du BIS chez un patient non curarisé. :: Le retour de tonus peut être détecté dans les hautes fréquences.
+> La nociception modifie l'EEG, mais pas toujours dans le même sens : en hypnose légère, elle fait apparaître une activité bêta et monter le BIS ; en hypnose profonde, elle fait disparaître l'alpha ou prédominer le delta, donc baisser le BIS. Un indice stable n'exclut donc rien, surtout chez un patient curarisé.
+@ 79–87
+
+QCM · EMG frontal et entropie
+Quelles propositions concernant les hautes fréquences sont exactes ?
++ L’EMG affiché sur le BIS est une estimation de la puissance entre 70 et 110 Hz, en dB. :: L’appareil analyse une bande de hautes fréquences.
+- L’EMG du BIS permet d’attribuer avec certitude une hausse des hautes fréquences aux muscles. :: Une activité musculaire, une interférence ou une vibration peuvent contribuer.
++ L’entropie de réactivité inclut des fréquences plus hautes que l’entropie d’état. :: RE s’étend jusqu’à 47 Hz et SE jusqu’à 32 Hz.
+- L’écart RE–SE quantifie l’intensité de la nociception. :: L’écart donne un indice indirect lié aux hautes fréquences. Il s’interprète avec le contexte.
++ Le relâchement musculaire sous propofol peut faire diminuer la composante EMG. :: La tendance à la baisse de l’EMG peut accompagner l’installation de la sédation.
+> L'EMG affiché par le BIS estime la puissance entre 70 et 110 Hz : cette bande contient de l'activité musculaire, mais aussi du bruit électrique, d'où l'impossibilité d'attribuer avec certitude une hausse aux muscles. L'entropie exploite cette même différence, l'entropie de réactivité incluant des fréquences plus élevées que l'entropie d'état.
+@ 41, 85–91
+
+QCM · Bloc neuromusculaire et indice
+Quelles évolutions sont possibles lors de la curarisation ou de sa levée ?
++ Chez une personne éveillée, le BIS peut baisser après curarisation malgré une conscience conservée. :: La diminution de la contribution musculaire peut abaisser l’indice.
+- Si l’activité musculaire est déjà absente, la baisse du BIS après curare est attendue avec la même amplitude. :: L’effet dépend de la contribution initiale de l’EMG.
++ Le retour du tonus après décurarisation peut faire monter le BIS par effet sur le calcul. :: Le signal contient davantage de hautes fréquences musculaires.
++ Après décurarisation, une activation corticale est également possible si l’hypnose est légère. :: Les afférences musculaires peuvent contribuer à l’activation corticale.
+- Un BIS inférieur à 60 après curarisation permet de déduire la perte de conscience avant le bloc. :: L’index mesuré après le bloc peut être abaissé par la perte de l’EMG.
+> Le curare abaisse le BIS sans toucher au cerveau : il supprime l'EMG que le moniteur capte. D'où deux pièges symétriques : une baisse après curarisation chez un patient conscient, et une remontée à la décurarisation qui peut n'être qu'un retour du tonus musculaire, ou un véritable réveil cortical si l'hypnose est légère.
+@ 89–96
+
+QCM · Kétamine
+Chez un patient sous propofol, le BIS et la SEF95 montent après un bolus de kétamine. Quelles interprétations sont exactes ?
++ Le spectre peut se déplacer vers des fréquences plus élevées. :: La kétamine modifie le motif EEG et peut augmenter les indices fréquentiels.
+- Si l’EMG reste bas, la hausse du BIS signe un éveil. :: Une modification d’origine corticale liée à la kétamine peut survenir sans hausse de l’EMG.
++ La continuité de l’hypnotique et l’évolution du tracé aident à interpréter la hausse. :: Le moment de l’injection et la morphologie du tracé apportent des arguments indépendants du chiffre.
+- Le BIS est calibré pour que la kétamine produise les mêmes valeurs que le propofol à effet hypnotique égal. :: Les indices sont principalement calibrés pour des agents GABAergiques.
+- Une hausse de la SEF95 prouve que la quantité de propofol atteignant le cerveau a diminué. :: La SEF95 décrit une distribution de puissance, pas une concentration de médicament.
+> La kétamine déplace le spectre vers les hautes fréquences : BIS et SEF95 montent alors que le patient s'endort davantage. L'algorithme a été construit sur les agents GABAergiques et ne s'applique pas à elle. Devant une hausse après un bolus de kétamine, c'est la continuité de l'hypnotique et le tracé qui orientent, non le chiffre.
+@ 98–104
+
+QCM · Asymétrie du tracé
+Sur un EEG frontal multicanal, une voie devient presque plate tandis que les autres conservent un motif alpha-delta. Quelles propositions sont exactes ?
++ Comparer les dérivations et vérifier le contact du capteur du côté concerné. :: Une anomalie technique peut être localisée et se recherche au niveau du signal.
+- Le motif alpha-delta des autres voies exclut une atteinte focale du côté silencieux. :: Une atteinte focale peut respecter l’activité des autres régions enregistrées.
++ Une lésion compressive ou ischémique focale peut expliquer une asymétrie réelle. :: L’enregistrement frontal peut montrer une dépression régionale de l’activité.
+- Augmenter l’hypnotique est l’interprétation la plus directe de cette asymétrie. :: L’asymétrie doit faire rechercher une cause locale ou technique.
++ Le chiffre synthétique seul peut masquer l’information portée par une seule dérivation. :: Le signal brut permet de localiser la différence entre les voies.
+> Une voie silencieuse alors que les autres gardent leur motif ne s'explique pas par la profondeur de l'anesthésie, qui serait globale. Deux hypothèses : un défaut de contact du capteur de ce côté, ou une atteinte focale, ischémique ou compressive. C'est l'argument du tracé multicanal : un indice unique aurait effacé cette information.
+@ 12, 31–32, 58–62
+
+QCU · Causalité · Induction
+Affirmation 1. Le BIS peut rester élevé quelques secondes alors que l’EEG brut montre déjà le motif hypnotique.
+Affirmation 2. Le BIS repose sur le calcul et le moyennage d’une fenêtre d’activité.
+Évalue les deux affirmations et leur lien explicatif.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
+- La première affirmation est vraie et la seconde est fausse.
+- La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux propositions sont vraies et la seconde explique la première. La fenêtre intègre encore l’activité antérieure. En transition rapide, le changement se lit d’abord sur l’EEG brut.
+@ 65
+
+QCU · Causalité · Suppression
+Affirmation 1. Un BIS entre 40 et 60 exclut la présence d’intervalles de suppression.
+Affirmation 2. Une suppression modérée peut avoir un poids limité dans l’algorithme du BIS.
+Évalue les deux affirmations et leur lien explicatif.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
+- La première affirmation est vraie et la seconde est fausse.
++ La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première proposition est fausse et la seconde est vraie. Le tracé peut montrer des plages plates malgré une valeur en cible. Il faut confronter le BIS au SR et à la morphologie du signal.
+@ 34, 69–70
+
+QCU · Choix unique · SEF95
+Au début d’une induction au propofol, la SEF95 augmente brièvement et l’EEG fait apparaître des oscillations bêta. Quelle lecture est la plus cohérente ?
+- La hausse signe un éveil, puisque la SEF95 baisse dès le début de toute induction efficace.
+- La hausse signe une suppression, même si le tracé reste continu.
++ La hausse peut correspondre à la phase bêta de début d’induction.
+- La hausse démontre que le capteur a détecté une augmentation d’impédance.
+- La hausse signifie que 95 % des oscillations sont devenues des ondes bêta.
+> La SEF95 peut augmenter pendant la phase bêta initiale malgré l’installation de l’effet du propofol. Le tracé et la chronologie permettent de distinguer cette phase d’un réveil. Une hausse isolée ne suffit pas à conclure.
+@ 39, 72, 77
+
+QCU · Choix unique · Décision
+Sous propofol, un BIS à 56 s’accompagne d’un SR à 24 % et de plages plates répétées. Quelle interprétation est prioritaire ?
+- Considérer le SR non interprétable puisque le BIS se situe dans la cible.
+- Interpréter la SEF95 en priorité pour décider si les plages plates sont authentiques.
+- Considérer que le ratio à 24 % prouve un excès de propofol.
++ Reconnaître la suppression sur le tracé et en rechercher la cause avec le contexte.
+- Attendre que le BIS descende sous 40 avant d’interpréter les plages plates.
+> L’EEG montre une suppression. Il faut la prendre en compte sans attendre un changement du BIS, puis confronter le tracé aux hypnotiques, à la perfusion, à l’oxygénation, à la température et au contexte.
+@ 34, 61, 69–70
