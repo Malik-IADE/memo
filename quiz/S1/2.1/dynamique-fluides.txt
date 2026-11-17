@@ -1,0 +1,218 @@
+// Quiz – Dynamique des fluides (UE 2.1), d'après « QUIZZ 15 Dynamique des fluides.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication, « > » correction, « @ » source.
+
+# Dynamique des fluides
+
+QCM · Fraction et pression partielle
+Quelles affirmations sur la fraction et la pression partielle d'un gaz sont exactes ?
++ Une fraction de 0,21 correspond à 21 % :: La fraction est une proportion, sans unité.
+- Une fraction de gaz s'exprime en mmHg :: C'est la pression partielle qui a une unité de pression.
++ Pression partielle = fraction du gaz × pression totale :: Loi de Dalton.
+- À FiO2 identique, la PiO2 est la même en montagne et au niveau de la mer :: En altitude, la pression totale baisse : la PiO2 baisse aussi, à fraction constante.
++ Dans l'air sec, à 760 mmHg, la pression partielle d'O2 vaut environ 160 mmHg :: 0,21 × 760 ≈ 160 mmHg.
+> La fraction (0,21) est une proportion ; la pression partielle (≈ 160 mmHg) dépend aussi de la pression totale. C'est pourquoi on manque d'oxygène en altitude sans que l'air en contienne moins en pourcentage.
+@ 3, 8
+
+QCM · Lois des gaz
+Pour une quantité fixe de gaz (PV/T constant, T en kelvins), quelles relations sont exactes ?
++ À température constante, diminuer le volume augmente la pression :: Loi de Boyle-Mariotte : P et V varient en sens inverse.
++ À volume constant, augmenter la température augmente la pression :: Une bouteille chauffée voit sa pression monter.
+- À pression constante, augmenter la température diminue le volume :: Le volume augmente avec la température.
+- Les températures se comparent en degrés Celsius dans cette loi :: La loi utilise la température absolue, en kelvins.
+> PV/T = constante. À T fixe : P et V varient en sens inverse. À V fixe : P suit T. À P fixe : V suit T. La température s'exprime toujours en kelvins.
+@ 4
+
+QCM · Loi de Henry
+Quelles affirmations sur la dissolution d'un gaz dans un liquide sont exactes ?
++ La quantité dissoute est proportionnelle à la pression partielle du gaz :: C'est la loi de Henry, à température constante.
+- À l'équilibre, le gaz et le liquide contiennent la même concentration de ce gaz :: L'équilibre égalise les pressions partielles, pas les concentrations.
++ La solubilité dépend du gaz et du liquide :: Le CO2 est environ 20 fois plus soluble que l'O2 dans le plasma.
+- Un gaz se dissout davantage quand la température augmente :: C'est l'inverse : la solubilité des gaz diminue quand la température monte.
+> Loi de Henry : quantité dissoute = solubilité × pression partielle. C'est pourquoi l'O2 dissous dans le plasma reste très faible même sous FiO2 élevée.
+@ 7
+
+QCM · O2 inspiré et alvéolaire
+Entre l'air ambiant et l'alvéole, quels éléments font baisser la pression partielle d'O2 ?
++ L'humidification du gaz inspiré :: La vapeur d'eau occupe 47 mmHg de la pression totale à 37 °C.
++ La présence de CO2 dans l'alvéole :: Le CO2 produit par l'organisme dilue l'O2 alvéolaire.
+- La fixation de l'O2 sur l'hémoglobine dans les voies aériennes :: L'O2 ne se fixe à l'hémoglobine qu'au niveau des capillaires alvéolaires.
++ Une baisse de la pression atmosphérique :: En altitude, toute la cascade de l'O2 est décalée vers le bas.
+> PAO2 ≈ FiO2 × (Patm − PH2O) − PaCO2/0,8. Humidification et CO2 alvéolaire abaissent la PO2 entre l'air et l'alvéole ; la PaO2 est ensuite encore un peu plus basse.
+@ 8, 10
+
+QCM · Réserves d'O2
+Quelles affirmations sur les réserves d'O2 et la préoxygénation sont exactes ?
++ La préoxygénation augmente surtout la réserve pulmonaire d'O2 :: La réserve pulmonaire passe d'environ 600 mL à près de 2 800 mL.
+- Le gain vient surtout de l'O2 fixé sur l'hémoglobine :: L'hémoglobine est déjà presque saturée à l'air : elle ne gagne presque rien.
++ La consommation d'O2 continue pendant l'apnée :: Environ 250 mL/min chez l'adulte : la réserve s'épuise.
+- Une préoxygénation efficace donne la même durée d'apnée chez tous les patients :: La durée dépend de la CRF et de la consommation : elle est raccourcie chez l'obèse, l'enfant ou la femme enceinte.
+> La préoxygénation remplace l'azote de la CRF par de l'oxygène : c'est ce stock pulmonaire qui retarde la désaturation pendant l'apnée.
+@ 9, 11
+
+QCM · Réseau de gaz médicaux
+Avant d'utiliser une alimentation murale en gaz, quelles affirmations sont exactes ?
++ La pression indique qu'il y a du gaz disponible pour alimenter le respirateur :: Elle renseigne sur la disponibilité, pas sur la nature du gaz.
+- Une pression normale prouve que c'est bien de l'oxygène qui arrive :: Un autre gaz peut circuler sous la même pression : seule l'analyse de la FiO2 identifie le gaz.
++ Après des travaux sur le réseau, la remise en service associe techniciens, pharmaciens et anesthésistes :: Il faut vérifier la disponibilité technique et l'identité du gaz.
++ Pression, débit et composition sont trois contrôles distincts :: Chacun répond à une question différente.
+> Une canalisation peut être sous pression et contenir le mauvais gaz. La FiO2 mesurée par l'analyseur du respirateur reste le dernier contrôle.
+@ 12–16
+
+QCM · Vanne fermée
+On ferme une vanne d'oxygène ; la canalisation située en aval contient encore du gaz. Quelles affirmations sont exactes ?
++ Le manomètre peut encore afficher une pression normale juste après la fermeture :: Le gaz résiduel maintient la pression un court moment.
+- Le gaz résiduel suffit à poursuivre une anesthésie :: Il ne fournit qu'un débit bref.
++ La pression chute quand ce gaz résiduel est consommé :: L'alimentation s'arrête alors brutalement.
+- Une pression conservée prouve que la vanne est ouverte :: La pression peut persister quelques instants malgré la fermeture.
+> Fermer une vanne ne vide pas tout de suite la canalisation en aval. Une pression instantanée ne garantit pas la continuité de l'alimentation.
+@ 16
+
+QCM · Débitmètres
+Quelles affirmations sur l'identification des gaz au poste d'anesthésie sont exactes ?
++ Les raccords spécifiques à chaque gaz évitent certaines erreurs de branchement :: Un détrompeur empêche de brancher l'O2 sur la prise d'air.
+- Grâce aux raccords spécifiques, on ne peut pas confondre deux débitmètres déjà branchés :: Le raccord sécurise le branchement, pas le choix du débitmètre.
++ Il faut lire l'étiquette du débitmètre avant de l'ouvrir :: Air et O2 n'apportent pas du tout la même FiO2.
+> Le raccord spécifique protège le branchement, pas l'usage : confondre le débitmètre d'air (21 % d'O2) et celui d'O2 reste possible.
+@ 17
+
+QCM · Rétropollution
+Un clapet antiretour défectueux relie indirectement deux réseaux de gaz de pressions différentes. Quelles affirmations sont exactes ?
++ Le gaz du réseau à plus haute pression peut passer dans l'autre réseau :: Le gaz va du plus haut vers le plus bas.
++ Un clapet antiretour qui fonctionne empêche ce retour de gaz :: C'est son rôle.
+- Le réseau contaminé perd sa pression, ce qui donne l'alerte :: Il peut rester sous pression : le manomètre ne détecte rien.
++ Seule l'analyse de la composition du gaz révèle le problème :: L'analyseur d'O2 du respirateur affiche une FiO2 anormale.
+> Une rétropollution peut être invisible au manomètre : le réseau reste sous pression mais contient le mauvais gaz.
+@ 19–21
+
+QCM · Panne de gaz
+Une panne d'oxygène survient sur le réseau. Quelles affirmations sont exactes ?
++ Une réserve centrale qui emprunte la canalisation qui fuit peut se vider par cette fuite :: Le secours passe par le même trajet défaillant.
+- La réserve centrale rend inutile une bouteille de secours en salle :: Une bouteille locale indépendante reste indispensable.
++ La bouteille de secours doit être pleine, munie de son détendeur et prête à l'emploi :: Une bouteille vide ou sans raccord ne sert à rien au moment critique.
++ Connaître les alarmes et se répartir les rôles fait partie de la préparation :: Les exercices et les aides cognitives facilitent l'action sous stress.
+> En cas de panne : bouteille d'O2 de secours vérifiée, ventilation manuelle possible (ballon autoremplisseur), rôles connus à l'avance.
+@ 21–25, 35
+
+QCM · Bouteilles d'O2
+Quelles affirmations sur les bouteilles d'oxygène médical sont exactes ?
++ L'identité du gaz se lit sur l'étiquette :: L'étiquette fait foi.
+- La couleur de l'ogive suffit à identifier le gaz :: La couleur aide, mais l'étiquette reste la référence.
++ Il faut éviter les chocs et les chutes :: Le robinet peut être endommagé.
+- Un robinet difficile à ouvrir peut être graissé pour faciliter la manœuvre :: Jamais de corps gras au contact de l'oxygène sous pression : risque d'inflammation. On écarte et on signale la bouteille.
+> On identifie le gaz par l'étiquette, on protège la bouteille des chocs et on ne graisse jamais un équipement à oxygène.
+@ 26–28
+
+QCM · Autonomie d'une bouteille
+Quelles affirmations sur l'autonomie d'une bouteille d'O2 sont exactes ?
++ Autonomie = volume de gaz disponible ÷ débit :: Exemple : 1 000 L à 10 L/min durent 100 minutes.
++ Le volume disponible s'estime par la pression × le volume en eau de la bouteille :: Une bouteille de 5 L à 200 bars contient environ 1 000 L de gaz.
+- On calcule l'autonomie sur la durée théorique du transport, sans marge :: Il faut prévoir les attentes et les imprévus.
++ À réserve égale, doubler le débit divise l'autonomie par deux :: L'autonomie est inversement proportionnelle au débit.
+> Volume disponible (L) ≈ pression (bars) × volume en eau (L). Autonomie (min) = volume ÷ débit, avec une marge de sécurité pour le transport.
+@ 29–30
+
+QCM · Secours électrique
+Quelles affirmations sur l'onduleur et le groupe électrogène sont exactes ?
++ L'onduleur prend le relais immédiatement :: Il évite toute coupure.
++ Le groupe électrogène met quelques secondes à démarrer :: Il ne couvre pas l'instant de la coupure.
+- L'onduleur peut alimenter le bloc pendant plusieurs heures :: Son autonomie est limitée à quelques minutes.
++ Les deux sont complémentaires :: L'onduleur couvre la transition, le groupe assure la durée.
+> Onduleur : relais immédiat mais court. Groupe électrogène : démarrage différé mais longue durée. Il faut aussi connaître les prises secourues et l'autonomie des batteries des appareils.
+@ 31–35
+
+QCM · Pression d'insufflation
+À volume courant et débit inspiratoire identiques, quelles affirmations sur la pression des voies aériennes sont exactes ?
++ Une compliance plus basse demande plus de pression pour insuffler le même volume :: Le système se laisse moins distendre.
++ Un bronchospasme augmente la résistance à l'écoulement :: La pression de crête monte.
+- La PEP n'intervient pas dans la pression des voies aériennes :: La PEP est la pression de départ, à laquelle s'ajoutent les autres composantes.
++ L'installation du patient peut modifier la compliance :: Exemples : Trendelenburg, décubitus ventral, pneumopéritoine.
+> P = PEP + volume/compliance + débit × résistance. Une compliance basse augmente surtout la pression de plateau ; une résistance élevée augmente surtout la pression de crête.
+@ 36–37
+
+QCM · Circuit filtre
+Quelles affirmations sur le circuit filtre d'anesthésie sont exactes ?
++ Une partie du gaz expiré est réinhalée après absorption du CO2 :: C'est le principe du circuit filtre.
+- Le débit de gaz frais est égal à la ventilation minute du patient :: Grâce à la réinhalation, le débit de gaz frais peut être bien inférieur.
++ Des valves unidirectionnelles orientent le gaz dans le circuit :: Elles évitent la réinhalation du gaz expiré non filtré.
++ L'excédent de gaz est évacué par le système d'évacuation (SEGA) :: Il limite la pollution de la salle.
+> Le circuit filtre recycle les gaz expirés après absorption du CO2 : il économise l'halogéné et réduit la pollution.
+@ 38–40
+
+QCM · Absorbeur de CO2
+Quelles affirmations sur l'absorbeur de CO2 sont exactes ?
++ Il retire le CO2 du gaz expiré avant qu'il soit réinhalé :: Il permet le recyclage.
++ Son épuisement fait monter le CO2 inspiré :: Le patient réinhale du CO2.
+- Une couleur normale de la chaux garantit son efficacité :: Le virage de couleur peut être absent ou réversible : on se fie à la mesure.
++ La capnographie détecte une FiCO2 qui ne revient pas à zéro :: C'est le signe d'une absorption insuffisante.
+> Le seul contrôle fiable de l'absorbeur est la capnographie : une FiCO2 supérieure à 0 signe une réinhalation de CO2.
+@ 38, 40
+
+QCM · Vaporisateur
+Quelles affirmations sur le vaporisateur à dérivation sont exactes ?
++ Une partie du gaz frais traverse la chambre de vaporisation, l'autre la contourne :: Les deux flux se mélangent à la sortie.
+- Le réglage fixe la concentration cérébrale d'halogéné :: Il fixe la concentration délivrée ; l'effet dépend ensuite du circuit et des échanges.
++ Le bouton d'O2 rapide (by-pass) court-circuite le vaporisateur :: Il dilue l'halogéné du circuit.
++ Un vaporisateur ne se remplit qu'avec l'agent pour lequel il est conçu :: Un mauvais agent donne une concentration imprévisible.
+- Un vaporisateur renversé peut être réutilisé dès qu'il est remis droit :: Du liquide a pu passer dans le circuit de dérivation : on l'écarte et on le fait contrôler.
+> Le vaporisateur délivre une concentration réglée, propre à un agent. Le by-pass d'O2 le contourne ; l'interverrouillage empêche d'ouvrir deux vaporisateurs à la fois.
+@ 41–49, 51–52
+
+QCM · Fractions d'halogéné
+Quelles affirmations sur les fractions d'halogéné sont exactes ?
++ Fi désigne la fraction inspirée et Fe la fraction expirée :: La Fe reflète la concentration alvéolaire.
+- La fraction dans le gaz frais est toujours égale à la fraction inspirée :: Le gaz frais se mélange au gaz du circuit : l'écart est grand à bas débit.
++ À bas débit de gaz frais, la Fi monte plus lentement après un changement de réglage :: Le circuit se renouvelle plus lentement.
++ À bas débit, la consommation d'halogéné et les rejets diminuent :: L'agent est recyclé.
+> Le réglage du vaporisateur ne dit pas ce que reçoit le patient : on surveille la Fi et la Fe. À bas débit, l'anesthésie est économique mais réagit lentement aux changements.
+@ 51–52, 55–58
+
+QCM · Solubilité des halogénés
+Quelles affirmations sur le coefficient de partage sang/gaz d'un halogéné sont exactes ?
++ Un coefficient élevé signifie que l'agent se dissout beaucoup dans le sang :: Le sang en prélève davantage.
+- Un agent très soluble dans le sang endort plus vite :: Le sang « absorbe » l'agent : la fraction alvéolaire monte moins vite, l'induction est plus lente.
++ Un coefficient faible permet une induction et un réveil rapides :: La fraction alvéolaire rejoint vite la fraction inspirée.
++ Le desflurane (≈ 0,42) est moins soluble que le sévoflurane (≈ 0,65) :: Le desflurane est le plus rapide des deux.
+> Moins un halogéné est soluble dans le sang, plus la Fa/Fi monte vite, plus l'induction et le réveil sont rapides. La solubilité ne dit rien de la puissance (c'est la CAM).
+@ 53–54
+
+QCM · MEOPA et exposition
+Quelles affirmations sur le MEOPA et l'exposition du personnel sont exactes ?
++ Le MEOPA est un mélange de 50 % d'O2 et 50 % de N2O :: Mélange équimolaire oxygène-protoxyde d'azote.
++ Il est utilisé pour l'analgésie des soins douloureux :: Exemples : pansements, ponctions, pédiatrie.
++ L'aération et la récupération des gaz expirés limitent l'exposition du personnel :: Le N2O expiré pollue la pièce.
+- L'absence d'odeur prouve que la salle n'est pas polluée :: Le N2O est presque inodore.
+> MEOPA : 50 % O2 / 50 % N2O, pour l'analgésie. On limite l'exposition des soignants par l'aération et la collecte des gaz expirés.
+@ 59–60
+
+QCU · Oxygénation et ventilation
+Évaluez les deux affirmations et leur lien.
+1. Sous oxygène, une SpO2 normale peut coexister avec une hypoventilation.
+2. L'oxygène maintient l'oxygénation alors que le CO2 s'accumule.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> L'O2 corrige l'hypoxémie mais pas l'hypercapnie. En SSPI, une SpO2 rassurante sous O2 peut masquer une hypoventilation : on surveille la fréquence respiratoire, la vigilance ou la capnographie.
+@ 10
+
+QCU · Pression et composition
+Évaluez les deux affirmations et leur lien.
+1. Une pression normale dans le réseau garantit que le gaz distribué est de l'O2.
+2. Un réseau contaminé par un autre gaz peut rester sous pression.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
++ La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Le manomètre mesure une pression, pas une composition : un mauvais gaz peut circuler à pression normale. Seule l'analyse de la FiO2 identifie le gaz.
+@ 16, 19–21
+
+QCU · Monitorage de l'absorbeur
+Quelle mesure révèle directement un épuisement de l'absorbeur de CO2 ?
+- La pression de la bouteille d'O2 :: Elle ne renseigne pas sur le CO2.
+- La couleur de la chaux :: Le virage peut manquer ou être réversible.
++ Une fraction inspirée de CO2 supérieure à zéro :: Le patient réinhale du CO2 que l'absorbeur ne retient plus.
+- Une baisse de la pression de crête :: Elle ne dépend pas de l'absorbeur.
+> La FiCO2, lue sur le capnogramme, doit rester à zéro. Si elle monte, l'absorbeur est épuisé ou court-circuité.
+@ 40

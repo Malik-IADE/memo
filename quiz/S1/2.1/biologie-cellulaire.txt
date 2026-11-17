@@ -1,0 +1,188 @@
+// Quiz – Biologie cellulaire (UE 2.1), d'après « QUIZZ 10 Biologie cellulaire.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication, « > » correction, « @ » source.
+
+# Biologie cellulaire
+
+QCM · Génome
+Quelles affirmations sur l'ADN et le génome sont exactes ?
++ L'information génétique d'un individu est portée par son ADN :: L'ordre des bases de l'ADN constitue cette information.
+- Toutes les cellules de l'organisme contiennent de l'ADN dans un noyau :: Les globules rouges matures n'ont pas de noyau, donc pas d'ADN nucléaire.
++ L'ADN est une succession de nucléotides portant les bases A, T, G et C :: Chaque nucléotide porte une base ; leur ordre forme le message.
+- L'ADN reste compacté de la même façon tout au long de la vie de la cellule :: Sa compaction varie : maximale pendant la division, relâchée dans les régions transcrites.
++ Une modification de la séquence d'ADN peut provoquer une maladie génétique :: Une mutation peut altérer une protéine ; d'autres restent sans conséquence.
+> L'ADN stocke l'information. Sa présence (pas dans les hématies), son accessibilité (compaction) et les conséquences de ses modifications (mutations) sont trois questions différentes.
+@ diapos 2, 8–10, 37, 39
+
+QCM · Transcription et traduction
+Quelles affirmations sur l'expression des gènes sont exactes ?
+- La transcription produit de l'ADN à partir d'un ARN :: C'est l'inverse : la transcription copie l'ADN en ARN.
++ La transcription fabrique un ARN complémentaire du brin matrice d'ADN, grâce à l'ARN polymérase :: C'est la définition de la transcription.
++ Un même gène n'est pas transcrit avec la même intensité dans toutes les cellules :: Une cellule bêta du pancréas et un neurone n'utilisent pas les mêmes gènes.
++ La traduction relie des acides aminés par des liaisons peptidiques, dans l'ordre des codons de l'ARN messager :: Le ribosome lit l'ARN messager et assemble la chaîne.
+- La transcription fabrique une protéine à partir de l'ARN messager :: C'est la traduction ; la transcription s'arrête à l'ARN.
+> Transcription : ADN → ARN (dans le noyau, par l'ARN polymérase). Traduction : ARN messager → chaîne d'acides aminés (par le ribosome).
+@ diapos 3, 5, 11–15, 21–24
+
+QCM · Chromatine et épigénétique
+Quelles affirmations sur l'organisation de l'ADN sont exactes ?
++ L'ADN s'enroule autour de protéines appelées histones :: L'ensemble forme les nucléosomes, unités de la chromatine.
++ Une région compactée est peu accessible aux facteurs de transcription :: L'hétérochromatine, fermée, est peu transcrite ; l'euchromatine, ouverte, l'est davantage.
+- La quasi-totalité de l'ADN humain code des protéines :: Moins de 2 % du génome code des protéines ; le reste a d'autres rôles, notamment régulateurs.
++ Des modifications épigénétiques peuvent changer l'expression d'un gène sans changer sa séquence :: Elles modifient l'accès au gène, pas le texte génétique.
+- Ouvrir la chromatine modifie la séquence des bases de l'ADN :: L'ouverture change l'accessibilité, pas le texte : c'est toute la différence avec une mutation.
+> Le texte génétique peut rester identique mais être plus ou moins facile à lire : la compaction de la chromatine et l'épigénétique règlent l'accès aux gènes.
+@ diapos 2, 9–10, 12–15
+
+QCM · Génome et spécialisation
+Quelles affirmations expliquent qu'un neurone et une cellule du foie soient différents ?
++ Un gène peut être présent dans une cellule sans y être exprimé :: Le gène de l'insuline est présent dans toutes les cellules nucléées, mais exprimé seulement par les cellules bêta.
+- Leurs génomes sont différents :: Toutes les cellules nucléées d'un individu ont le même génome.
++ La spécialisation dépend des gènes effectivement exprimés :: Les protéines produites déterminent la fonction de la cellule.
+- Une cellule spécialisée transcrit en permanence l'ensemble de ses gènes :: La transcription est sélective : chaque cellule n'utilise qu'une partie de ses gènes.
+> Le génome est le même catalogue dans toutes les cellules ; ce qui change, ce sont les pages utilisées.
+@ diapos 2–3, 11–15
+
+QCM · ADN et ARN
+Quelles affirmations sur l'ADN et l'ARN sont exactes ?
++ Dans l'ADN, A s'apparie avec T et G avec C :: Les deux brins sont complémentaires selon ces appariements.
++ Dans l'ARN, l'uracile (U) remplace la thymine (T) :: L'ARN utilise A, U, G et C.
+- Un nucléotide est l'unité de base des protéines :: Les nucléotides forment les acides nucléiques ; les protéines sont faites d'acides aminés.
+- L'ARN est, comme l'ADN, formé de deux brins appariés :: L'ARN est en général simple brin.
+> Les « lettres » du message génétique (nucléotides) ne sont pas les « briques » des protéines (acides aminés).
+@ diapos 5–6, 21–22, 29
+
+QCM · Régulation de la transcription
+Quelles affirmations sur la régulation de la transcription sont exactes ?
++ L'ARN polymérase synthétise l'ARN à partir d'une matrice d'ADN :: C'est l'enzyme qui fabrique le transcrit.
++ Des facteurs de transcription peuvent activer ou réprimer un gène :: Les activateurs favorisent la transcription, les répresseurs la freinent.
+- Les facteurs de transcription assemblent les acides aminés de la protéine :: Ils régulent la production de l'ARN ; l'assemblage des acides aminés revient au ribosome.
++ C'est la combinaison de plusieurs facteurs qui sélectionne les gènes exprimés :: Leur association, propre à chaque cellule, explique la réponse spécifique d'un gène.
+> L'ARN polymérase fabrique l'ARN ; les facteurs de transcription décident quand et combien.
+@ diapos 12–14
+
+QCM · Du signal au gène
+Une hormone agit sur une cellule cible. Quelles affirmations sont exactes ?
++ Le signal passe du récepteur aux facteurs de transcription par une voie de signalisation intracellulaire :: La cellule relie ainsi le signal reçu à la modulation de ses gènes cibles.
+- Une hormone active les mêmes gènes dans toutes les cellules qui la reçoivent :: La réponse dépend du récepteur et des facteurs présents dans chaque cellule.
++ La réponse diminue quand le signal disparaît :: L'activation des gènes est temporaire et suit la présence du signal.
++ Un récepteur activé en permanence peut entretenir une prolifération anormale :: C'est un des mécanismes de certaines tumeurs.
+> Signal → récepteur → relais intracellulaires → facteurs de transcription → gènes cibles. Une voie bloquée en position « allumée » peut emballer la prolifération.
+@ diapos 14–15
+
+QCM · Épissage
+Quelles affirmations sur l'épissage du pré-ARN messager sont exactes ?
++ Il retire les introns :: Les introns sont les portions non conservées.
++ Il raccorde les exons pour former l'ARN messager mature :: Les segments conservés sont mis bout à bout.
+- Il a lieu après la traduction :: Il a lieu avant : seul l'ARN messager mature quitte le noyau pour être traduit.
++ Un même gène peut donner plusieurs ARN messagers différents (épissage alternatif) :: Selon les exons retenus, on obtient plusieurs isoformes de la protéine.
+- L'épissage alternatif nécessite une mutation de l'ADN :: Le choix des exons se fait sur l'ARN, sans changer la séquence d'ADN.
+> L'épissage coupe les introns et raccorde les exons. L'épissage alternatif permet à un gène de produire plusieurs protéines, selon le tissu ou le stade de développement.
+@ diapos 16–21
+
+QCM · Code génétique
+Quelles affirmations sur les codons sont exactes ?
++ Un codon comporte trois nucléotides :: La lecture se fait par triplets.
+- Un codon stop ajoute un dernier acide aminé à la chaîne :: Le codon stop ne code aucun acide aminé : il arrête la traduction.
++ AUG code la méthionine et sert de codon d'initiation :: C'est le signal de départ de la traduction.
++ Plusieurs codons peuvent coder le même acide aminé :: Le code est redondant.
+- Un même codon peut coder plusieurs acides aminés différents :: La redondance va dans l'autre sens : un codon ne code qu'un acide aminé.
+> Le ribosome lit l'ARN messager par triplets, du codon AUG jusqu'à un codon stop. Le code est redondant mais sans ambiguïté.
+@ diapos 6, 22–24
+
+QCM · Traduction
+Pendant la traduction, quelles affirmations sont exactes ?
+- L'ARN polymérase apporte les acides aminés au ribosome :: Ce sont les ARN de transfert (ARNt) qui apportent les acides aminés.
++ Chaque ARNt porte un acide aminé et un anticodon complémentaire du codon lu :: C'est ce qui fait correspondre codon et acide aminé.
+- Le ribosome relie entre elles les bases de l'ARN messager :: Il relie les acides aminés par des liaisons peptidiques.
++ La traduction s'arrête au premier codon stop rencontré :: La chaîne est alors libérée.
+> Trois temps : initiation (codon AUG), élongation (un acide aminé par codon, apporté par un ARNt), terminaison (codon stop).
+@ diapos 21–24
+
+QCM · Fonctions des protéines
+Quelles associations entre une protéine et sa fonction sont exactes ?
++ Collagène : soutien des tissus :: Protéine de structure.
+- Hémoglobine : copie de l'ADN en ARN :: L'hémoglobine transporte l'oxygène ; la copie de l'ADN est le rôle de l'ARN polymérase.
++ Actine et myosine : contraction musculaire :: Elles font glisser les filaments les uns sur les autres.
++ Anticorps : défense immunitaire :: Ils reconnaissent et neutralisent les agents étrangers.
++ Enzyme : accélération d'une réaction chimique :: C'est la catalyse.
+> Les protéines ont des fonctions très variées : structure, transport, contraction, défense, catalyse, signalisation (hormones, récepteurs).
+@ diapo 26
+
+QCM · Structure des protéines
+Quelles affirmations sur la structure des protéines sont exactes ?
++ La structure primaire est l'ordre des acides aminés :: C'est la séquence, dictée par le gène.
++ L'hélice alpha et le feuillet bêta sont des structures secondaires :: Ce sont des repliements locaux réguliers.
+- La structure tertiaire correspond au nombre d'acides aminés de la chaîne :: C'est le repliement en trois dimensions de la chaîne entière.
++ La structure quaternaire associe plusieurs chaînes polypeptidiques :: Exemple : l'hémoglobine, formée de quatre chaînes.
+- Une protéine à structure quaternaire comporte toujours quatre chaînes :: « Quaternaire » désigne un niveau d'organisation, pas un nombre de chaînes.
+> Primaire : séquence. Secondaire : repliements locaux. Tertiaire : forme 3D d'une chaîne. Quaternaire : assemblage de plusieurs chaînes. La séquence dicte la forme, et la forme la fonction.
+@ diapos 27–36
+
+QCM · Dénaturation
+La chaleur altère la conformation d'une enzyme. Quelles affirmations sont exactes ?
++ Son site actif peut perdre la forme qui lui permet de reconnaître son substrat :: La reconnaissance dépend de la forme du site.
++ L'enzyme perd alors son activité, même si sa séquence est intacte :: C'est le lien structure-fonction.
+- Cette perte d'activité suppose une mutation du gène :: La protéine perd sa forme sans que le gène change.
+- La dénaturation coupe les liaisons peptidiques de la chaîne :: La dénaturation détruit la forme ; couper la chaîne est une dégradation.
+> Une enzyme doit garder sa forme pour fonctionner. La chaleur ou une variation de pH la dénaturent : la séquence est intacte, mais la fonction est perdue.
+@ diapos 27–36
+
+QCM · Mutations
+Quelles affirmations sur les mutations ponctuelles sont exactes ?
++ Une mutation synonyme ne change pas l'acide aminé codé :: Le nouveau codon code le même acide aminé, grâce à la redondance du code.
++ Une mutation faux-sens remplace un acide aminé par un autre :: Les conséquences dépendent de la position de cet acide aminé dans la protéine.
++ Une mutation non-sens crée un codon stop prématuré :: La protéine est tronquée.
+- Toute substitution d'une base rend la protéine non fonctionnelle :: Une mutation synonyme est sans effet ; une faux-sens peut être tolérée.
+> Même acide aminé : synonyme. Autre acide aminé : faux-sens. Stop prématuré : non-sens. L'effet dépend aussi de l'endroit touché (site actif ou non).
+@ diapos 35, 37, 39–40
+
+QCM · Cadre de lecture
+Dans la partie codante d'un gène, on supprime deux nucléotides. Quelles conséquences sont possibles ?
+- La protéine perd simplement deux acides aminés :: On retire des nucléotides, pas des acides aminés : c'est la lecture qui est modifiée.
++ Tous les codons situés après la délétion sont décalés :: Deux nucléotides ne forment pas un triplet : la lecture se décale.
++ Un codon stop prématuré peut apparaître :: Le nouveau découpage peut rencontrer un stop et tronquer la protéine.
++ Supprimer trois nucléotides au lieu de deux n'aurait pas décalé la lecture :: Un triplet complet retiré enlève un acide aminé sans décaler la suite.
+> Le cadre de lecture découpe le message en triplets. Une délétion qui n'est pas un multiple de 3 décale tous les codons suivants : la protéine est en général profondément altérée.
+@ diapo 41
+
+QCU · Mutation synonyme
+Évaluez les deux affirmations et leur lien.
+1. Une substitution peut laisser inchangé l'acide aminé codé.
+2. Plusieurs codons peuvent coder le même acide aminé.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux sont vraies et liées : grâce à la redondance du code, le codon modifié peut coder le même acide aminé. C'est une mutation synonyme.
+@ diapos 6, 22, 39
+
+QCU · Spécialisation cellulaire
+Évaluez les deux affirmations et leur lien.
+1. Deux cellules nucléées d'un même individu produisent les mêmes protéines, en mêmes quantités.
+2. La transcription des gènes est régulée selon le type de cellule et ses besoins.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
++ La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première est fausse : un même génome est utilisé différemment selon la cellule. La seconde est vraie, et c'est justement elle qui explique cette différence.
+@ diapos 2–3, 11–15
+
+QCU · Déchets azotés
+Sous quelle forme l'organisme élimine-t-il l'essentiel de l'azote issu de la dégradation des acides aminés ?
++ L'urée, éliminée dans les urines :: Le foie transforme l'ammoniac, toxique, en urée, éliminée par le rein.
+- L'acide urique :: Il provient de la dégradation des bases puriques (ADN, ARN), pas des acides aminés.
+- La créatinine :: Elle provient de la créatine musculaire ; elle sert à estimer la fonction rénale.
+- La bilirubine :: Elle provient de la dégradation de l'hémoglobine (l'hème), et non de l'azote des acides aminés.
+> L'azote des acides aminés produit de l'ammoniac, toxique. Le foie le convertit en urée, éliminée par le rein : c'est pourquoi l'urée augmente dans l'insuffisance rénale et diminue dans l'insuffisance hépatique.
+@ diapo 29
+
+QCU · Épissage
+Quelle machinerie coupe les introns et raccorde les exons du pré-ARN messager ?
+- Le ribosome :: Il traduit l'ARN messager en protéine, après l'épissage.
+- L'ARN polymérase :: Elle fabrique le pré-ARN messager, mais ne le découpe pas.
++ Le spliceosome :: Il reconnaît les sites d'épissage, coupe et raccorde l'ARN.
+- Le protéasome :: Il dégrade les protéines, pas l'ARN.
+> L'ARN polymérase fabrique le pré-ARN messager, le spliceosome le mature (épissage), puis le ribosome le traduit.
+@ diapos 16, 23
