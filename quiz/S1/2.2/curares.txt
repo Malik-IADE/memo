@@ -27,7 +27,6 @@ QCM · Monitorage
 Sous curare non dépolarisant, la quatrième réponse du train-de-quatre est plus faible que la première. Quelles explications sont exactes ?
 + Il existe des récepteurs nicotiniques présynaptiques :: Ils participent au rétrocontrôle de la libération d'acétylcholine.
 + Le blocage de ces récepteurs gêne la mobilisation des vésicules de réserve :: Le stock disponible s'épuise au fil des stimulations successives.
-+ Empêcher la fixation d'une seule des deux acétylcholines suffit à bloquer le récepteur :: L'ouverture exige les deux sites : le curare n'a pas besoin de les occuper tous les deux.
 - Le décrément signifie que le curare a d'abord ouvert les récepteurs :: Un antagoniste non dépolarisant produit ce décrément sans jamais ouvrir le pore.
 - La différence entre T4 et T1 traduit un blocage des récepteurs muscariniques cardiaques :: Le phénomène se joue à la jonction neuromusculaire, sur des récepteurs nicotiniques.
 > Le train-de-quatre répète quatre stimulations rapprochées. Sous curare non dépolarisant, le blocage des récepteurs présynaptiques réduit le réapprovisionnement en acétylcholine : les réponses s'affaiblissent d'une stimulation à l'autre, et le rapport T4/T1 mesure cette fatigue.
@@ -38,7 +37,7 @@ Quelles définitions des repères pharmacologiques d'un curare sont exactes ?
 + La DA95 est la dose qui déprime de 95 % la réponse de l'adducteur du pouce :: Elle s'exprime en mg/kg et sert de référence de puissance.
 + Le délai d'action est le temps écoulé entre la fin de l'injection et le bloc maximal :: Une durée, là où la DA95 est une dose.
 + La durée totale correspond à la récupération de 90 % de la force initiale :: Elle dépasse largement la durée clinique.
-- La durée d'action clinique se termine quand le rapport T4/T1 atteint 25 % :: Elle est définie par la récupération de 25 % de la force de départ, non par ce rapport.
+- La durée d'action clinique se termine quand le rapport T4/T1 atteint 25 % :: Elle se mesure sur la première réponse (T1), revenue à 25 % de sa valeur avant curare. Le rapport T4/T1 sert à juger la décurarisation (≥ 0,9 pour extuber).
 - Une DA95 élevée désigne la molécule la plus puissante :: C'est l'inverse : il faut davantage de produit pour le même effet. Le rocuronium, peu puissant, a une DA95 élevée.
 > La DA95 mesure la puissance : plus elle est basse, plus la molécule est puissante. Durée clinique à 25 % de force récupérée, durée totale à 90 %. La DA95 n'est pas la dose d'intubation, qui en représente 2 à 4 fois la valeur.
 @ 34–36, 40
@@ -89,8 +88,9 @@ Quels éléments peuvent prolonger le bloc d'un curare non dépolarisant ?
 + Le magnésium :: Il réduit la libération présynaptique d'acétylcholine, notamment en obstétrique.
 + Les aminosides :: Ils interfèrent avec la transmission neuromusculaire.
 + L'hypothermie :: Elle ralentit la dégradation, en particulier la voie de Hofmann.
-- Une acidose respiratoire :: Elle ne raccourcit pas le bloc : les variations de pH figurent parmi les facteurs qui le modifient et peuvent le prolonger.
-> La durée d'un curare n'est pas un chronomètre : elle dépend de la molécule, du muscle observé, de la température, du pH et des associations médicamenteuses. Halogénés, anesthésiques locaux, aminosides et magnésium prolongent le bloc : le monitorage reste la seule mesure fiable.
++ Une acidose :: Le pH figure parmi les facteurs qui modifient la durée du bloc ; l'acidose le prolonge.
+- La néostigmine :: Elle augmente l'acétylcholine dans la fente et s'oppose au bloc au lieu de le prolonger.
+> La durée d'un curare n'est pas un chronomètre : elle dépend de la molécule, du muscle observé, de la température, du pH et des associations médicamenteuses. Halogénés, anesthésiques locaux, aminosides, magnésium, hypothermie et acidose prolongent le bloc : le monitorage reste la seule mesure fiable.
 @ 39, 58, 93
 
 QCM · Curare et profondeur d'anesthésie
@@ -165,7 +165,7 @@ Chez un adulte à risque d'inhalation, quelles affirmations sur l'induction en s
 
 QCM · Réversion
 Quelles affirmations sur la décurarisation sont exactes ?
-+ Le sugammadex s'utilise à 8–16 mg/kg après un rocuronium de 0,6 à 1 mg/kg :: Il encapsule la molécule et la rend indisponible.
++ Pour une réversion immédiate, par exemple en cas d'intubation difficile, le sugammadex s'utilise à 8–16 mg/kg après un rocuronium de 0,6 à 1 mg/kg :: Il encapsule la molécule et la rend indisponible.
 + La néostigmine augmente la quantité d'acétylcholine disponible dans la fente :: En inhibant l'acétylcholinestérase, elle déplace l'équilibre contre le curare.
 + La réversion pharmacologique ne dispense pas du monitorage :: La récupération doit être objectivée avant l'extubation.
 - Le sugammadex antagonise aussi bien l'atracurium que le rocuronium :: Il est spécifique des curares stéroïdiens ; les benzylisoquinolines ne sont pas encapsulées.
@@ -265,13 +265,3 @@ Chez un adulte sans contre-indication à la succinylcholine, une électroconvuls
 - L'atracurium : la voie de Hofmann lui donne un bloc plus bref que celui de la succinylcholine :: La dégradation chimique n'en fait pas un curare d'action ultra-courte.
 > Seule la succinylcholine associe un délai d'une minute et une durée ultra-courte. Une voie d'élimination commune, un faible nombre de mg/kg ou une dégradation chimique ne permettent jamais de déduire le délai d'installation. Le rocuronium à forte dose s'installe vite, mais son bloc est long et demande une réversion.
 @ 41, 48–56, 67–68, 94
-
-QCU · Lire des fréquences
-Dans une enquête, l'atracurium représente 20,9 % des réactions anaphylactiques et 61,9 % des expositions ; le rocuronium, 40,4 % des réactions et 10,1 % des expositions. Quel raisonnement est juste à partir de ces seules données ?
-+ Le rapport entre part des réactions et part des expositions est bien plus élevé pour le rocuronium :: 40,4 ÷ 10,1 ≈ 4 contre 20,9 ÷ 61,9 ≈ 0,3.
-- La part des réactions de l'atracurium donne son risque à chaque injection :: C'est une part relative dans une série, non une probabilité individuelle.
-- L'atracurium a le rapport le plus élevé, puisqu'il totalise le plus de réactions :: Il est surtout le plus utilisé : rapporté à son usage, son rapport est le plus bas.
-- Les deux rapports sont comparables, puisque ce sont deux non-dépolarisants :: Le pouvoir allergisant ne se déduit pas de la classe pharmacologique.
-- Les réactions ne doivent être rapportées à l'exposition que si leur part dépasse 50 % :: Rapporter à l'exposition est nécessaire dans tous les cas, sans seuil.
-> Rocuronium : 40,4 ÷ 10,1 ≈ 4. Atracurium : 20,9 ÷ 61,9 ≈ 0,3. Le rocuronium est donc très surreprésenté parmi les réactions au regard de son usage. Aucun de ces rapports n'est une probabilité individuelle : ce sont des parts relatives au sein d'une série.
-@ 76–77
