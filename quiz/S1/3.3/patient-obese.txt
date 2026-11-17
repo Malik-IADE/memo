@@ -1,0 +1,248 @@
+// Quiz 30 – Patient obèse (UE 3.3), d'après « QUIZZ 30 Obèse.html »
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Patient obèse
+
+QCM · IMC et évaluation
+Deux adultes ont le même IMC de 37 kg/m² et des morphologies différentes. Quelles propositions sont exactes ?
++ Tous deux relèvent de l’obésité de grade 2 selon la classification par IMC. :: Le grade 2 correspond à un IMC compris entre 35 et moins de 40 kg/m².
+- À IMC identique, la répartition entre masse grasse et masse maigre peut être estimée avec la même précision chez les deux patients. :: L’IMC utilise le poids et la taille. Il ne mesure ni la composition corporelle ni la distribution du tissu adipeux.
++ Le calcul divise le poids en kilogrammes par le carré de la taille en mètres. :: La taille doit être exprimée en mètres avant d’être mise au carré.
+- L’obésité de grade 3 commence seulement au-delà de 40 kg/m², en excluant 40. :: Le grade 3 commence dès 40 kg/m².
++ L’examen du cou et des voies aériennes apporte une information distincte de l’IMC. :: Le tour du cou, la mobilité cervicale et le Mallampati contribuent à l’évaluation des voies aériennes.
+> L'indice de masse corporelle ne dit rien de la répartition de la graisse ni de la masse maigre : à indice égal, une obésité androïde, avec graisse abdominale et cervicale, expose bien davantage aux difficultés ventilatoires et aux voies aériennes difficiles qu'une obésité gynoïde. L'évaluation porte sur la morphologie, pas sur un chiffre.
+@ 5–7, 43
+
+QCM · Volumes et fermeture des voies aériennes
+Un patient avec obésité passe de la position demi-assise au décubitus dorsal puis reçoit une anesthésie générale. Quelles évolutions sont cohérentes ?
++ La capacité résiduelle fonctionnelle peut diminuer davantage. :: La contrainte abdominale et l’anesthésie abaissent le volume pulmonaire de fin d’expiration calme.
+- La CRF correspond au volume qui reste après une expiration forcée maximale. :: Cette définition décrit le volume résiduel. La CRF est mesurée en fin d’expiration calme.
++ La fermeture des petites voies aériennes devient plus probable lorsque la ventilation se fait à bas volume pulmonaire. :: Le tracé se rapproche du volume de fermeture et les atélectasies sont favorisées.
+- Le décubitus dorsal dégage davantage le diaphragme qu’une position proclive. :: À plat, la masse abdominale refoule davantage le diaphragme.
++ Des zones mal ventilées peuvent contribuer à une altération des rapports ventilation/perfusion. :: La perte d’aération des zones dépendantes altère les échanges gazeux.
+> Trois agressions successives s'additionnent : le décubitus dorsal refoule le diaphragme par la masse abdominale, l'anesthésie générale abaisse encore la capacité résiduelle fonctionnelle, et la curarisation supprime le tonus diaphragmatique. Le volume de fermeture dépasse alors la capacité résiduelle : les voies aériennes déclives se ferment et le shunt apparaît.
+@ 10–12, 38–39
+
+QCM · Réserve d’oxygène
+Deux patients présentent une SpO₂ à 100 % en fin de préoxygénation. L’un a une obésité sévère. Quelles interprétations sont exactes ?
+- L’égalité de SpO₂ implique une réserve alvéolaire d’oxygène comparable. :: Une saturation déjà maximale ne quantifie pas le volume pulmonaire oxygéné ni la dénitrogénation.
++ Une CRF réduite diminue le volume gazeux utilisable comme réserve pendant l’apnée. :: À fraction d’oxygène comparable, un plus faible volume pulmonaire contient moins d’oxygène.
+- La désaturation précoce provient principalement d’une diminution de la consommation d’oxygène. :: Le cours associe au contraire la réserve réduite à une consommation d’oxygène accrue.
++ Une consommation d’O₂ plus élevée peut accélérer l’épuisement des réserves. :: Le délai dépend à la fois de la réserve initiale et de sa vitesse d’utilisation.
++ Une désaturation plus rapide reste possible malgré une SpO₂ initiale identique. :: La saturation avant l’apnée et la durée de tolérance à l’apnée sont deux informations différentes.
+> Une saturation à 100 % ne dit rien de la réserve : elle signifie seulement que l'hémoglobine est saturée. Ce qui détermine le délai avant désaturation, c'est la capacité résiduelle fonctionnelle, effondrée chez l'obèse, rapportée à une consommation d'oxygène augmentée. À saturation identique, le temps disponible n'est pas le même.
+@ 11–12, 38–39
+
+QCM · Apnée obstructive du sommeil
+Concernant le syndrome d’apnées obstructives du sommeil (SAOS), quelles propositions sont exactes ?
++ La contraction inspiratoire du diaphragme génère une pression de succion susceptible de favoriser le collapsus pharyngé. :: La paroi et les muscles dilatateurs s’opposent normalement à cette succion.
+- Une apnée obstructive nécessite d’abord la disparition de l’effort inspiratoire. :: L’obstruction des voies aériennes peut survenir alors qu’un effort inspiratoire persiste.
++ La baisse de tonicité des muscles dilatateurs peut favoriser l’obstruction. :: Les voies aériennes supérieures sont moins bien maintenues ouvertes.
+- L’IAH ne comptabilise que les apnées complètes, sans les hypopnées. :: L’index additionne les apnées et les hypopnées par heure.
++ Le SAOS contribue à l’évaluation de la ventilation au masque et de l’intubation. :: Le risque se juge avec les autres éléments morphologiques et cliniques.
+> Le syndrome d'apnées obstructives du sommeil est fréquent et souvent non diagnostiqué chez le patient obèse. Il expose à la ventilation au masque difficile, à l'intubation difficile, et surtout à une sensibilité accrue aux morphiniques et aux sédatifs, avec un risque de dépression respiratoire postopératoire prolongé.
+@ 12–14, 43
+
+QCM · SAOS et analgésie
+Un patient avec SAOS appareillé doit recevoir une analgésie postopératoire. Quelles propositions sont exactes ?
++ Les opioïdes peuvent majorer la dépression ventilatoire et le risque d’hypoxémie. :: Les effets des opioïdes s’ajoutent à la prédisposition aux obstructions.
+- Un STOP-Bang élevé détermine la sévérité de l’IAH. :: Le STOP-Bang évalue un risque de SAOS. L’IAH compte les événements respiratoires observés.
++ Une analgésie locorégionale peut contribuer à l’épargne morphinique. :: L’ALR et la multimodalité visent à réduire les besoins en opioïdes.
+- Une SpO₂ initialement satisfaisante au réveil permet de déduire que le risque d’apnée a disparu pour la nuit suivante. :: La situation peut changer avec le sommeil et les effets résiduels des médicaments.
++ Prévoir la disponibilité de la PPC aide à poursuivre l’appareillage en postopératoire. :: Le patient déjà appareillé peut être invité à apporter sa machine.
+> Chez un patient appareillé, deux principes : poursuivre la ventilation en pression positive continue dès que possible en postopératoire, et construire une analgésie à épargne morphinique, par antalgiques non opioïdes et anesthésie locorégionale. La surveillance respiratoire doit être prolongée, car le risque d'apnée persiste plusieurs nuits.
+@ 13–14, 33, 49–50
+
+QCM · Cardiovasculaire et thrombose
+Quelles propositions relient correctement les conséquences cardiovasculaires de l’obésité à la période opératoire ?
+- L’augmentation habituelle du débit cardiaque protège d’une ischémie lorsque la pression chute à l’induction. :: Une coronaropathie peut se manifester lors d’une baisse de la perfusion, notamment à l’induction.
++ La stase veineuse peut s’ajouter à un terrain prothrombotique. :: La masse abdominale et l’immobilité peuvent gêner le retour veineux des membres inférieurs.
++ Une chute tensionnelle ou un saignement peut révéler un déséquilibre de perfusion chez un patient coronarien. :: L’évaluation hémodynamique doit intégrer le terrain et les événements opératoires.
+- La mobilisation précoce a pour principal effet de traiter le risque coronarien créé par l’induction. :: Dans ce contexte, elle fait partie de la prévention des complications thromboemboliques postopératoires.
++ La prévention veineuse peut combiner mobilisation et mesures mécaniques ou médicamenteuses adaptées. :: Les mesures sont choisies selon le contexte chirurgical et le patient.
+> L'obésité associe une hypertension, une hypertrophie ventriculaire gauche, un débit cardiaque élevé et une insuffisance coronaire fréquente. Elle constitue aussi un facteur de risque thromboembolique majeur, par stase, inflammation et immobilité, ce qui impose une prophylaxie dont la dose s'adapte au poids.
+@ 15, 29, 47, 50
+
+QCM · Diabète et risque d’inhalation
+En consultation, une patiente avec obésité présente un diabète ancien, un reflux symptomatique et des symptômes évoquant une gastroparésie. Quelles propositions sont exactes ?
++ La suspicion de gastroparésie apporte un argument distinct de l’IMC dans l’évaluation du risque d’inhalation. :: Une gastroparésie peut ralentir la vidange gastrique.
+- Le reflux symptomatique montre que la vidange gastrique est retardée. :: Le reflux et le ralentissement de vidange sont des mécanismes différents.
++ L’HbA1c renseigne sur l’équilibre glycémique préalable. :: Elle aide à situer le contrôle du diabète avant la période opératoire.
+- Une HbA1c satisfaisante écarte le risque lié à des symptômes digestifs actuels. :: L’équilibre glycémique ne mesure ni le contenu gastrique ni la sévérité du reflux.
++ Il faut tenir compte des symptômes et du traitement en cours en plus de la durée du jeûne. :: Le contexte digestif et les médicaments susceptibles de ralentir la vidange complètent l’évaluation.
+> L'association d'un diabète ancien, d'un reflux symptomatique et de signes de gastroparésie change la stratégie : le jeûne théorique ne garantit plus un estomac vide. Cette patiente relève d'une induction en séquence rapide, et l'échographie gastrique peut aider à évaluer le contenu en cas de doute.
+@ 16, 36, 41, 45, 47
+
+QCM · Pharmacocinétique
+Pourquoi une même logique posologique ne se transpose-t-elle pas à tous les anesthésiques chez un patient avec obésité ?
++ L’augmentation de la masse grasse peut modifier la distribution de certains agents liposolubles. :: La liposolubilité influence la distribution de la molécule dans les compartiments.
+- Le poids réel permet de corriger proportionnellement le volume de distribution de tous les agents. :: Les modifications diffèrent entre molécules hydrosolubles et liposolubles.
++ La redistribution d’un agent lipophile peut contribuer à un effet prolongé. :: Une redistribution depuis les compartiments de stockage peut influencer la durée d’effet.
++ La dose calculée constitue un repère à confronter à l’effet clinique et au monitorage pertinent. :: La réponse observée guide l’administration lorsque l’ajustement est possible.
+- L’augmentation du volume sanguin détermine le sens du changement de clairance de chaque médicament. :: La clairance dépend notamment des modalités d’élimination et du médicament.
+> Les anesthésiques ne se comportent pas tous de la même façon : les agents très liposolubles voient leur volume de distribution augmenter avec la masse grasse, alors que les agents hydrosolubles se distribuent surtout dans la masse maigre, qui augmente peu. Il n'existe donc pas un poids de référence unique pour toutes les molécules.
+@ 17–19, 31, 34–35
+
+QCM · Poids de référence
+Un patient a un poids réel de 150 kg et un poids idéal théorique de 70 kg. Quelles propositions sont exactes ?
+- Son poids ajusté correspond à 40 % de son poids réel, soit 60 kg. :: Le facteur 0,4 s’applique à l’écart entre réel et idéal, puis on ajoute le poids idéal.
++ Son poids ajusté est de 102 kg. :: 70 + 0,4 × (150 − 70) = 102 kg.
+- Le volume courant protecteur se calcule sur le poids ajusté parce qu’il prend en compte une partie de la masse supplémentaire. :: La référence pour le volume courant est le poids idéal théorique.
++ Son poids idéal théorique dépend de la taille utilisée dans la formule. :: Le poids idéal théorique ne correspond pas au poids effectivement mesuré.
++ Choisir une base de calcul posologique laisse nécessaire l’appréciation de l’effet obtenu. :: Le poids de référence fournit un repère. L’effet guide la suite selon le médicament.
+> Trois poids de référence à distinguer : le poids réel, pour la succinylcholine et l'antibioprophylaxie ; le poids idéal théorique, pour le volume courant et pour les curares non dépolarisants ; et le poids ajusté, intermédiaire, pour la plupart des agents intraveineux d'entretien. Utiliser le poids réel pour tout expose au surdosage massif.
+@ 18–19, 34, 46
+
+QCM · Chirurgie bariatrique
+Quelles propositions distinguent correctement l’anneau gastrique, la gastrectomie longitudinale et le bypass ?
++ L’anneau agit par restriction et son diamètre peut être ajusté. :: L’anneau est placé autour de la partie haute de l’estomac.
+- L’anneau réduit la capacité gastrique par résection de la grande courbure. :: La résection caractérise la gastrectomie longitudinale.
++ La gastrectomie longitudinale est une technique restrictive avec résection irréversible. :: Une partie de l’estomac est retirée.
+- Le bypass entraîne une restriction pure car les aliments continuent à traverser tout le trajet digestif initial. :: Le bol alimentaire est dérivé par une anse intestinale.
++ Le bypass associe réduction de la capacité gastrique et modification du trajet alimentaire avec effet malabsorptif. :: Il appartient aux techniques mixtes.
+> Trois techniques, trois mécanismes : l'anneau gastrique est restrictif et réversible, la gastrectomie longitudinale est restrictive et définitive, et le bypass associe restriction et malabsorption. Les deux dernières exposent à des carences nutritionnelles au long cours, et la gastrectomie modifie la pharmacocinétique des traitements oraux.
+@ 23–26
+
+QCM · Préparation au bloc
+Un patient de poids élevé présente un accès veineux périphérique difficile et un bras de grande circonférence. Quelles mesures sont adaptées ?
++ Vérifier avant l’induction la capacité de la table et les conditions d’installation. :: La charge maximale et la possibilité de mettre le patient en proclive s’anticipent.
+- Choisir le brassard d’après le poids total, sans vérifier son adéquation au bras. :: La taille du brassard s’adapte à la circonférence du bras.
++ Mobiliser précocement l’échographie pour la voie veineuse périphérique si nécessaire. :: Elle permet de visualiser des veines difficiles à repérer.
++ Protéger les points d’appui lors de l’installation. :: La protection s’organise avant l’induction.
+- Une voie centrale doit être retenue d’emblée en raison de l’IMC, même si une voie périphérique utilisable est accessible. :: La voie centrale est évoquée après échec d’un accès périphérique approprié.
+> Chez un patient de poids élevé, l'accès veineux et la mesure de pression se préparent : brassard adapté à la circonférence du bras, sous peine de surestimation, repérage échographique de la voie veineuse, et vérification de la capacité de la table opératoire. Ces éléments se règlent avant l'induction, non pendant.
+@ 15, 29–31
+
+QCM · Choix anesthésique
+Une intervention du poignet est compatible avec une anesthésie locorégionale chez un adulte avec obésité et SAOS. Quelles propositions sont exactes ?
++ Un bloc axillaire peut être envisagé pour ce type de geste. :: Le geste et le territoire couvert permettent de discuter cette option.
+- Le recours à une ALR écarte le risque respiratoire, même si une sédation profonde est ajoutée. :: Les dépresseurs respiratoires et la tendance à l’obstruction restent pertinents.
++ Une technique locorégionale peut diminuer les besoins postopératoires en opioïdes. :: L’épargne morphinique est utile chez un patient avec SAOS.
+- Le SAOS rend en lui-même l’ALR inadaptée, du fait de la plus grande sensibilité aux opioïdes. :: La réduction du besoin en opioïdes constitue au contraire un intérêt de la stratégie.
++ Si une anesthésie générale est retenue, la rapidité de levée des effets est un élément du choix des agents. :: Le support privilégie des médicaments d’action et de levée d’action rapides lorsque la situation le permet.
+> Chez un patient obèse avec apnées du sommeil, une anesthésie locorégionale pour un geste périphérique évite l'instrumentation des voies aériennes, la dépression respiratoire des morphiniques et les atélectasies de l'anesthésie générale. C'est le choix privilégié chaque fois que le geste et le patient le permettent.
+@ 14, 33, 35, 49
+
+QCM · Titration et monitorage
+Chez un adulte avec obésité sous anesthésie générale et curarisation, quelles propositions sont exactes ?
+- L’absence de mouvement permet d’évaluer l’effet hypnotique si le curamètre confirme un bloc profond. :: Le bloc neuromusculaire retire un signe moteur sans renseigner sur la conscience.
++ Le BIS ou l’entropie apporte un repère sur l’hypnose. :: Leur rôle diffère de celui du monitorage du bloc neuromusculaire.
+- Le TOF est le moniteur à utiliser pour titrer directement l’analgésie opioïde. :: Le TOF mesure une réponse neuromusculaire.
++ Le curamètre permet de suivre le bloc et sa récupération. :: L’effet du curare s’apprécie en mesurant la réponse neuromusculaire.
++ La concentration télé-expiratoire d’un halogéné renseigne sur l’exposition, tandis que le monitorage de l’hypnose apporte une information sur l’effet. :: L’exposition et la réponse du patient sont deux observations complémentaires.
+> Chez l'obèse, la variabilité pharmacocinétique impose de titrer plutôt que de calculer : monitorage de la profondeur d'anesthésie par l'électroencéphalogramme, et monitorage quantitatif de la curarisation, indispensable avant l'extubation chez un patient dont la réserve respiratoire est déjà faible.
+@ 17–19, 31, 34–35, 53
+
+QCM · Préoxygénation
+Chez un patient à faible tolérance à l’apnée, quels éléments sont cohérents avec une préoxygénation optimisée ?
++ Installer le patient en proclive si possible avant l’induction. :: La position réduit la contrainte abdominale sur le diaphragme.
+- Interrompre la préoxygénation dès que la SpO₂ atteint 100 %, même si la FeO₂ reste basse. :: La SpO₂ et la FeO₂ répondent à des questions différentes. Une SpO₂ haute ne suffit pas à confirmer la dénitrogénation.
++ Utiliser une FiO₂ de 1 pour la préoxygénation. :: La fraction inspirée élevée favorise le remplacement de l’azote alvéolaire par l’oxygène.
++ Associer aide inspiratoire et PEP si une préoxygénation en VNI est choisie. :: La VNI aide à maintenir le volume pulmonaire et à obtenir une FeO₂ élevée.
+- Une FeO₂ supérieure à 90 % signifie que le volume de réserve pulmonaire est normalisé. :: Elle renseigne sur la composition du gaz expiré. Le volume pulmonaire dépend aussi de la mécanique respiratoire.
+> Une préoxygénation optimisée chez l'obèse associe trois éléments : la position proclive ou demi-assise, qui dégage le diaphragme, une ventilation en pression positive avec aide inspiratoire et pression expiratoire positive, qui recrute les zones collabées, et un masque parfaitement étanche à fraction inspirée en oxygène de 100 %.
+@ 12, 38–39
+
+QCM · Préoxygénation et apnée
+Après préoxygénation, une laryngoscopie est prévue chez un adulte avec obésité sévère. Quelles propositions sont exactes ?
+- Une FeO₂ satisfaisante permet d’écarter une désaturation rapide pendant une laryngoscopie prolongée. :: Le délai reste influencé par la CRF, la consommation d’oxygène et les conditions de ventilation.
++ L’oxygène nasal à haut débit peut contribuer à l’oxygénation pendant l’apnée. :: Le maintien de l’oxygène nasal peut prolonger le délai avant la désaturation.
+- Avec l’oxygène à haut débit en place, la nécessité de prévoir une ventilation de secours disparaît. :: L’oxygénation apnéique ne remplace pas la capacité de rétablir la ventilation.
++ La faible marge d’apnée justifie que le matériel et le plan de secours soient prêts avant l’induction. :: La SpO₂ peut diminuer rapidement après la perte de ventilation spontanée.
+- L’oxygénation apnéique et la ventilation assistée ont le même effet sur le renouvellement du gaz alvéolaire. :: L’oxygénation pendant l’apnée n’équivaut pas à une ventilation active.
+> Même bien préoxygéné, un patient obèse sévère désature plus vite : sa réserve est réduite et sa consommation augmentée. D'où l'intérêt d'une oxygénation apnéique par canules nasales pendant la laryngoscopie, d'un opérateur expérimenté, et d'une limitation du nombre de tentatives.
+@ 36, 38–39, 43
+
+QCM · Risque d’inhalation
+Un patient a un IMC de 37 kg/m². Le jeûne est respecté et l’évaluation ne retrouve pas de reflux symptomatique ni de suspicion de gastroparésie. Quelles propositions sont exactes ?
+- Cet IMC permet de qualifier le patient d’estomac plein. :: L’obésité isolée ne suffit pas à conclure à un estomac plein.
++ La tolérance à l’apnée doit être anticipée même si le risque d’inhalation est jugé faible. :: La réserve respiratoire et le risque digestif s’évaluent séparément.
++ La découverte d’un reflux symptomatique ou d’une suspicion de gastroparésie modifierait l’évaluation. :: Ces éléments augmentent le niveau de vigilance concernant l’inhalation.
+- Un examen des voies aériennes rassurant démontre que le risque d’inhalation est faible. :: La facilité d’intubation ne prédit pas le contenu gastrique.
++ À cet IMC, le choix de la séquence d’induction repose sur l’ensemble des facteurs cliniques. :: Le cours décrit une décision au cas par cas pour la zone entre 35 et 40.
+> Un indice de masse corporelle élevé n'est pas, à lui seul, un facteur de risque d'inhalation : en l'absence de reflux symptomatique, de gastroparésie ou de non-respect du jeûne, le patient obèse ne relève pas d'une induction en séquence rapide systématique. C'est l'évaluation clinique qui décide, non le chiffre.
+@ 36, 41, 43–45
+
+QCM · Voies aériennes difficiles
+Un patient avec obésité présente un SAOS, un cou volumineux, un Mallampati IV et une mobilité cervicale réduite. Quelles propositions sont exactes ?
++ Le regroupement de plusieurs critères renforce l’anticipation d’une difficulté. :: La morphologie et la mobilité apportent plus d’informations que le poids seul.
+- Le poids réel permet de prévoir le grade laryngoscopique indépendamment de ces critères. :: Il n’existe pas de relation directe permettant cette déduction à lui seul.
++ Il faut envisager séparément la difficulté à ventiler au masque et la difficulté à intuber. :: Les deux difficultés peuvent coexister. Chacune nécessite une préparation.
+- Un SAOS appareillé par PPC cesse d’être pertinent pour la préparation des voies aériennes. :: L’appareillage traite l’obstruction nocturne. Il n’efface pas les éléments anatomiques ou fonctionnels évalués au bloc.
++ Une faible tolérance à l’apnée augmente l’enjeu d’un plan d’oxygénation de secours. :: La fenêtre avant désaturation peut être brève.
+> L'accumulation d'un syndrome d'apnées, d'un cou volumineux, d'un Mallampati élevé et d'une mobilité cervicale réduite définit un risque élevé de ventilation et d'intubation difficiles. La stratégie s'anticipe : position optimisée en rampe, vidéolaryngoscope d'emblée, matériel alternatif prêt, et aide présente.
+@ 12–14, 36, 43
+
+QCM · Réglages ventilatoires
+Sous anesthésie générale, un adulte pèse 145 kg et son poids idéal théorique est de 65 kg. Quelles propositions sont exactes ?
++ Un volume courant de 390 à 520 mL correspond au repère de 6 à 8 mL/kg de poids idéal théorique. :: 65 × 6 = 390 mL et 65 × 8 = 520 mL.
+- Un volume courant de 870 à 1 160 mL respecte le même repère appliqué à la bonne base de poids. :: Cette plage utilise le poids réel. Le repère du volume courant utilise le poids idéal théorique.
++ La PEP est à adapter à la réponse respiratoire et à la tolérance hémodynamique. :: Une meilleure aération peut s’accompagner d’une baisse de retour veineux.
+- Le choix du volume courant sur le poids idéal rend la PEP inutile. :: Le volume courant et la PEP répondent à des objectifs complémentaires.
++ Une manœuvre de recrutement se discute en fonction du contexte et de la tolérance. :: Elle peut améliorer l’aération, avec surveillance des effets hémodynamiques.
+> Le volume courant se calcule sur le poids idéal théorique, 6 à 8 mL/kg, soit ici 390 à 520 mL, et non sur les 145 kg réels. S'y ajoutent une pression expiratoire positive pour contrer la fermeture des voies aériennes et des manœuvres de recrutement, en surveillant la pression de plateau.
+@ 18, 46–47
+
+QCM · PEP et pression artérielle
+Après augmentation de la PEP, la SpO₂ s’améliore et la pression artérielle baisse. Quelles interprétations sont exactes ?
+- L’amélioration de la SpO₂ démontre que le débit cardiaque s’est amélioré. :: Oxygénation et débit cardiaque peuvent évoluer dans des directions opposées.
++ La hausse de pression intrathoracique peut réduire le retour veineux. :: L’augmentation de PEP peut limiter le retour veineux vers le cœur.
++ Une diminution de la précharge peut contribuer à la chute du débit cardiaque. :: Le mécanisme hémodynamique est compatible avec la chronologie décrite.
+- La baisse tensionnelle signifie que le volume courant doit être recalculé sur le poids réel. :: La base de calcul du volume courant ne change pas. Le réglage de PEP et les autres causes d’hypotension doivent être réévalués.
++ La tolérance tensionnelle doit être intégrée à la réévaluation de la PEP. :: Le bénéfice respiratoire se met en balance avec l’effet circulatoire.
+> La pression expiratoire positive agit sur les deux versants : elle recrute les alvéoles collabées et améliore l'oxygénation, mais elle élève la pression intrathoracique et diminue le retour veineux, d'où la baisse de pression artérielle. Le réglage est un compromis, à ajuster sur l'oxygénation et la tolérance hémodynamique.
+@ 46–47, 53
+
+QCM · Réveil et suites
+Après une chirurgie sous anesthésie générale, quelles mesures répondent aux risques respiratoires ou thromboemboliques d’un patient avec obésité ?
++ Préparer une extubation demi-assise quand les conditions d’extubation sont réunies. :: La position favorise la mécanique respiratoire au réveil.
+- Le proclive rend inutile la vérification de la récupération du bloc neuromusculaire avant l’extubation. :: La position et la récupération neuromusculaire répondent à des risques distincts.
++ En cas de SAOS déjà traité, organiser la reprise de la PPC. :: L’appareillage habituel contribue au maintien de la perméabilité des voies aériennes.
++ Associer une stratégie d’épargne morphinique et, selon la situation, une mobilisation précoce. :: La première limite l’exposition aux dépresseurs respiratoires. La seconde participe à la prévention veineuse.
+- Une analgésie multimodale vise à supprimer l’évaluation du risque ventilatoire si un opioïde a été administré. :: La stratégie réduit les besoins. Les effets des opioïdes administrés doivent rester pris en compte.
+> Au réveil, trois mesures répondent aux risques spécifiques : extubation en position demi-assise après décurarisation vérifiée quantitativement, reprise précoce de la ventilation en pression positive chez le patient appareillé, et mobilisation précoce avec prophylaxie thromboembolique adaptée au poids.
+@ 14–15, 29, 49–51
+
+QCU · Causalité · PEP et hémodynamique
+Affirmation 1. Une hausse de la PEP peut provoquer une baisse de pression artérielle.
+Affirmation 2. Une hausse de la pression intrathoracique peut diminuer le retour veineux et la précharge.
+Évalue les deux affirmations et leur lien explicatif.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
+- La première affirmation est vraie et la seconde est fausse.
+- La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies. La réduction du retour veineux et de la précharge peut réduire le débit cardiaque et expliquer la baisse de pression.
+@ 46–47
+
+QCU · Causalité · Saturation et réserve
+Affirmation 1. Une SpO₂ à 100 % suffit à démontrer une préoxygénation adéquate.
+Affirmation 2. La FeO₂ renseigne sur le remplacement de l’azote alvéolaire par de l’oxygène.
+Évalue les deux affirmations et leur lien explicatif.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
+- La première affirmation est vraie et la seconde est fausse.
++ La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première affirmation est fausse. La SpO₂ ne mesure pas la dénitrogénation. La seconde est vraie : la FeO₂ est un repère de la qualité de cette dénitrogénation.
+@ 38–39
+
+QCU · Choix unique · Antibioprophylaxie
+Une patiente a un IMC de 42 kg/m². L’indication de l’antibioprophylaxie est posée et aucun autre facteur d’adaptation de dose n’est identifié. Quel principe posologique est le plus approprié ?
+- Doubler la dose prophylactique dès que l’IMC atteint 40 kg/m².
++ Appliquer la dose prophylactique usuelle prévue pour l’intervention.
+- Ajuster la dose au poids réel par une règle de trois.
+- Réduire d’emblée la dose en la calculant sur le poids idéal théorique.
+- Majorer la dose chaque fois qu’un patient a un IMC supérieur à 35 kg/m².
+> La recommandation de 2023 présentée en cours ne retient pas de majoration systématique liée à cet IMC. Le texte cite des cas particuliers, dont les IMC supérieurs à 50 kg/m². La prophylaxie reste celle prévue pour l’intervention et les caractéristiques du patient.
+@ 32
+
+QCU · Choix unique · Induction
+Un patient a un IMC de 38 kg/m², une gastroparésie symptomatique, une préoxygénation optimisée et un examen des voies aériennes rassurant. Quel élément pèse directement dans la discussion du risque d’inhalation ?
+- Le grade d’obésité seul, indépendamment de la clinique digestive.
+- La mauvaise tolérance à l’apnée liée à la baisse de réserve pulmonaire.
++ La gastroparésie, parce qu’elle peut retarder la vidange gastrique.
+- La bonne mobilité cervicale, qui facilite la stratégie d’intubation.
+- Une FeO₂ au-dessus de 90 %, qui documente la dénitrogénation.
+> La gastroparésie peut augmenter le risque de contenu gastrique résiduel. La préoxygénation et l’examen des voies aériennes renseignent sur d’autres dimensions de la préparation. Le choix de la séquence reste une décision clinique qui intègre ces trois axes.
+@ 16, 36, 41, 43–45

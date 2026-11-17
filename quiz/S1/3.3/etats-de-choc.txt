@@ -1,0 +1,198 @@
+// Quiz 31 – États de choc (UE 3.3), d'après « QUIZZ 31 Etats de chocs.html »
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# États de choc
+
+QCM · Définition
+Quelles propositions aident à distinguer une hypotension isolée d’un état de choc ?
++ Une insuffisance circulatoire aiguë avec hypoxie tissulaire définit l’état de choc. :: Le retentissement tissulaire est au cœur de la définition.
+- Une chute tensionnelle brève à l’induction démontre une défaillance d’organe. :: Une vasoplégie transitoire peut produire une hypotension sans défaillance objectivée.
++ Une pression soutenue par vasopresseur peut coexister avec une atteinte d’organe. :: La pression mesurée ne résume pas la perfusion.
+- La SpO₂ et la PAS suffisent à apprécier l’oxygénation tissulaire. :: L’hémoglobine, le débit et la perfusion des tissus comptent également.
++ L’évaluation de la diurèse et de la conscience peut compléter la mesure de pression. :: Ces signes apportent des informations sur le retentissement rénal et neurologique.
+> Le choc n'est pas un chiffre de pression mais une insuffisance de perfusion tissulaire : il se reconnaît aux signes d'hypoperfusion, marbrures, temps de recoloration allongé, extrémités froides, oligurie, confusion, et à l'hyperlactatémie. Une pression normale n'exclut pas un choc, et une hypotension isolée bien tolérée n'en est pas un.
+@ 2–3, 15–16
+
+QCM · Transport d’oxygène
+Une patiente perd du sang pendant une chirurgie. La SpO₂ reste à 99 %. Quelles interprétations sont exactes ?
++ Une diminution de l’hémoglobine peut réduire le transport d’O₂ malgré une saturation conservée. :: La saturation indique une proportion, indépendamment de la quantité d’hémoglobine disponible.
++ À contenu artériel constant, un débit cardiaque plus faible réduit le TaO₂. :: Le TaO₂ est le produit du débit cardiaque et du contenu artériel.
+- La SpO₂ reflète la quantité totale d’oxygène liée à l’hémoglobine par unité de sang. :: Elle estime la saturation, pas la quantité totale transportée.
+- Le contenu veineux en oxygène entre directement dans le calcul du TaO₂. :: Il intervient dans le calcul de la consommation par la différence artérioveineuse.
++ La baisse conjointe du débit et de l’hémoglobine peut réduire le transport par deux mécanismes. :: Les deux facteurs interviennent dans le produit.
+> La SpO₂ ne mesure qu'un taux de saturation de l'hémoglobine : elle reste à 99 % pendant qu'une hémorragie vide le patient de ses transporteurs. Le contenu artériel en oxygène, qui dépend surtout du taux d'hémoglobine, et le transport, qui y ajoute le débit cardiaque, s'effondrent sans que le moniteur bouge.
+@ 4–5
+
+QCM · Extraction et seuil critique
+Le transport artériel d’oxygène diminue progressivement. Quelles propositions décrivent les réponses possibles ?
++ Au-dessus du seuil critique, l’extraction peut augmenter et maintenir la consommation. :: La réserve d’extraction explique le plateau de VO₂.
+- Une extraction croissante augmente habituellement la saturation veineuse, à apport comparable. :: Le sang veineux revient avec moins d’oxygène.
++ Sous le seuil critique, la consommation dépend davantage du transport. :: La compensation ne suffit plus.
+- Le seuil critique correspond au début de l’activation sympathique, avant toute limite de l’extraction. :: Il correspond à la perte du maintien de la consommation par les mécanismes compensateurs.
++ L’accumulation de lactate et une acidose peuvent accompagner une dette en oxygène.
+> Face à une baisse du transport d'oxygène, l'organisme augmente d'abord son extraction : la consommation reste constante et la saturation veineuse baisse. Cette compensation a une limite : passé le seuil critique, la consommation devient dépendante du transport, le métabolisme anaérobie s'installe et le lactate monte.
+@ 5–11
+
+QCM · Phase compensée
+Pendant un saignement, la fréquence passe de 80 à 120/min. La PAM est encore stable et les extrémités refroidissent. Quelles propositions sont exactes ?
++ Une augmentation des résistances vasculaires peut soutenir la PAM malgré un débit qui baisse. :: La pression résulte du débit et des résistances.
+- La stabilité de la PAM prouve que le volume d’éjection systolique reste stable. :: Une compensation par la fréquence ou les résistances peut masquer une variation du volume d’éjection.
++ La peau peut recevoir moins de débit lors de la redistribution. :: La vasoconstriction cutanée explique le refroidissement.
+- La vasoconstriction veineuse participe surtout en diminuant le retour veineux. :: Dans ce mécanisme compensateur, elle favorise le retour veineux.
++ L’évolution du débit et de la perfusion périphérique complète le suivi de la PAM. :: Ces observations aident à reconnaître une compensation fragile.
+> La tachycardie est la première compensation d'un saignement, avant toute baisse de pression : la vasoconstriction périphérique maintient la pression artérielle au prix de la perfusion cutanée. Des extrémités froides avec une pression encore normale signent la phase compensée : attendre l'hypotension, c'est attendre la décompensation.
+@ 10, 13–16
+
+QCM · Mécanismes du choc
+Quelles associations entre mécanisme dominant et type de choc sont exactes ?
++ Choc cardiogénique et baisse du débit par défaillance de pompe. :: La pompe ne fournit plus un débit suffisant.
+- Choc obstructif et défaut initial d’extraction isolé malgré un débit conservé. :: L’obstacle gêne la circulation et réduit le débit.
++ Choc septique et trouble de distribution ou d’extraction de l’oxygène. :: Une atteinte microcirculatoire peut coexister avec un débit préservé.
+- Choc hémorragique et atteinte microcirculatoire isolée avec transport global d’emblée préservé. :: La perte de volume et d’hémoglobine touche le transport global.
++ Choc hypovolémique et baisse du débit liée à la diminution du volume circulant. :: La baisse du retour veineux peut réduire le débit.
+> Quatre mécanismes, quatre profils : hypovolémique par perte de volume, cardiogénique par défaillance de la pompe, distributif par vasoplégie, obstructif par obstacle au remplissage ou à l'éjection. Les deux premiers s'accompagnent d'un débit bas et d'extrémités froides, le troisième d'un débit conservé ou élevé.
+@ 20–21
+
+QCM · Saturation veineuse
+Un patient en choc septique présente une hyperlactatémie avec saturation veineuse en O₂ conservée. Quelles lectures sont exactes ?
+- L’extraction est adéquate puisque la saturation veineuse n’a pas baissé. :: Une extraction altérée peut laisser davantage d’oxygène dans le sang veineux.
++ Le débit global peut être conservé alors que la perfusion tissulaire reste insuffisante. :: Une atteinte microcirculatoire peut persister.
++ Une saturation veineuse conservée peut coexister avec une mauvaise extraction. :: Le chiffre ne prouve pas l’utilisation tissulaire de l’oxygène.
+- La saturation veineuse centrale est une mesure directe de la saturation veineuse mêlée. :: Il s’agit de sites de mesure différents.
++ Il faut confronter cette saturation à la clinique, aux lactates et à leur évolution. :: Les marqueurs décrivent des dimensions complémentaires.
+> Une saturation veineuse conservée n'est pas rassurante dans un choc septique : elle traduit souvent un défaut d'extraction, les cellules ne pouvant plus utiliser l'oxygène qui leur parvient, ou une mauvaise distribution du débit. C'est le lactate, et les signes cliniques d'hypoperfusion, qui font foi.
+@ 8–9, 20–24
+
+QCM · Atteinte d’organes
+Quelles observations sont correctement interprétées chez un patient en état de choc ?
++ Une diurèse à 0,3 mL/kg/h répond au repère d’oligurie. :: La diurèse est inférieure à 0,5 mL/kg/h.
+- Le temps de recoloration cutanée mesure directement le débit cardiaque. :: Il renseigne sur la perfusion cutanée.
++ Une confusion nouvelle peut signaler un retentissement neurologique. :: Elle se juge avec l’état antérieur et l’évolution clinique.
+- Une atteinte hépatique peut augmenter la synthèse des facteurs de coagulation et corriger le saignement. :: Elle peut au contraire aggraver la coagulopathie.
++ Une polypnée avec hypocapnie peut accompagner une acidose métabolique. :: L’hyperventilation peut abaisser la PaCO₂ en compensation.
+> Le choc est une défaillance multiviscérale en construction : oligurie et insuffisance rénale, confusion, cytolyse hépatique, iléus et translocation digestive, troubles de la coagulation. La surveillance ne se limite donc pas à la pression artérielle : chaque organe donne un signe de perfusion.
+@ 12–19, 26
+
+QCM · Lactate et suivi
+Après une réanimation initiale, la lactatémie baisse de 7 à 4 mmol/L. Des marbrures et une oligurie persistent. Quelles propositions sont exactes ?
++ La baisse du lactate apporte un argument d’amélioration. :: Sa trajectoire est informative.
+- L’amélioration biologique montre que les signes cutanés sont résolus. :: Les signes peuvent évoluer à des vitesses différentes.
++ Il reste pertinent de suivre la diurèse, les marbrures et le temps de recoloration. :: Ils complètent le suivi biologique.
+- La lactatémie restante identifie une cause septique. :: Elle ne distingue pas à elle seule les causes de choc.
+- La remontée de la PAM rend inutiles les contrôles de perfusion. :: La pression ne suffit pas à prouver la restauration de la perfusion tissulaire.
+> La décroissance du lactate est le bon critère de suivi, mais elle ne suffit pas à conclure : des marbrures et une oligurie persistantes signent une hypoperfusion encore active. Il faut poursuivre la réanimation et réévaluer, plutôt que de s'arrêter sur l'amélioration d'un seul chiffre.
+@ 19, 24–26
+
+QCM · Gradient diastolique
+Le raisonnement hémodynamique utilise le gradient PAD − POD. Quelles propositions sont exactes ?
++ Une PAD à 60 et une POD à 20 mmHg donnent un gradient à 40 mmHg. :: 60 − 20 = 40 mmHg.
+- À PAD constante, une augmentation de la POD améliore le gradient. :: Une pression d’aval plus élevée réduit la différence.
++ À PAD identique, deux patients peuvent avoir des gradients différents. :: La pression de l’oreillette droite peut différer.
+- La PAM peut être substituée à la PAD pour obtenir la même mesure. :: Le gradient étudié utilise la pression artérielle diastolique.
+- La PAD donne le même renseignement, quelle que soit la congestion veineuse. :: Une POD élevée peut réduire fortement le gradient.
+> Le gradient entre pression artérielle diastolique et pression auriculaire droite conditionne la perfusion des organes, et singulièrement celle du myocarde, qui se perfuse en diastole. Une pression diastolique basse avec une pression de remplissage élevée écrase ce gradient : c'est la situation qui menace le cœur.
+@ 24
+
+QCM · Soutien initial
+Devant un choc de cause encore incertaine, quelles propositions sont exactes ?
++ Installer rapidement SpO₂, ECG et pression artérielle non invasive. :: Ce monitorage est disponible dès l’évaluation initiale.
++ Adapter le remplissage au mécanisme suspecté et à sa tolérance. :: Le risque de congestion change l’appréciation du volume à administrer.
+- Une pression normalisée sous vasopresseur permet de différer la recherche de cause. :: Le soutien symptomatique et le traitement de la cause se mènent en parallèle.
+- La transfusion de globules rouges agit principalement par vasoconstriction. :: Elle apporte de l’hémoglobine et contribue à restaurer le transport.
++ Les lactates et la perfusion cutanée complètent la surveillance tensionnelle. :: Ces paramètres apportent des informations sur la réponse tissulaire.
+> Devant un choc de cause incertaine, on commence par ce qui ne nuit pas : remplissage prudent par cristalloïdes balancés, et noradrénaline sans attendre si la pression diastolique est effondrée. Le diagnostic se construit en parallèle, par l'échographie et le contexte, et oriente ensuite le traitement spécifique.
+@ 22–26, 30
+
+QCM · Hémorragie massive
+Une hémorragie peropératoire se poursuit malgré les premières mesures de soutien. Quelles propositions sont exactes ?
++ Organiser le contrôle de la source pendant la réanimation. :: Le soutien circulatoire ne stoppe pas le saignement.
+- L’hypothermie protège suffisamment l’hémostase pour éviter de réchauffer les produits. :: Elle entretient la coagulopathie.
++ L’acidose, l’hypothermie et la coagulopathie peuvent s’aggraver mutuellement. :: Ces trois éléments constituent la triade létale présentée.
+- Les concentrés de globules rouges restaurent les facteurs de coagulation consommés. :: La stratégie d’hémostase peut nécessiter d’autres produits.
++ L’organisation d’une transfusion rapide inclut la surveillance du calcium et du réchauffement.
+> Dans une hémorragie qui se poursuit, aucun soutien hémodynamique ne remplace l'hémostase chirurgicale. En attendant : transfusion en produits sanguins avec un rapport équilibré, acide tranexamique précoce, lutte contre l'hypothermie et l'acidose, et surveillance du calcium ionisé, qui chute avec la transfusion massive.
+@ 25, 27
+
+QCM · Choc septique
+Un patient avec une péritonite et un choc part au bloc pour contrôle du foyer. Quelles propositions sont exactes ?
++ Vérifier que l’antibiothérapie est effectivement administrée. :: L’urgence et la multiplication des tâches peuvent retarder son administration.
+- Un drainage précoce peut remplacer l’antibiothérapie. :: Ces actions sont complémentaires.
++ Le soutien hémodynamique se déroule en parallèle du traitement étiologique. :: Les défaillances doivent être prises en charge pendant le contrôle de la source.
+- Un débit cardiaque préservé exclut une origine distributive. :: Le trouble de l’extraction peut persister à débit préservé.
++ Le choix du geste de contrôle dépend du foyer. :: Dans l’exemple, l’intervention traite la source abdominale.
+> Le choc septique associe trois temps : antibiothérapie probabiliste dans l'heure, contrôle chirurgical du foyer le plus tôt possible, et soutien hémodynamique par remplissage puis noradrénaline pour une pression artérielle moyenne d'au moins 65 mmHg. Le contrôle du foyer ne se diffère pas pour stabiliser le patient.
+@ 20–22, 28
+
+QCM · Anaphylaxie au bloc
+Une hypotension et un bronchospasme surviennent pendant la perfusion d’un antibiotique. Une anaphylaxie est suspectée. Quelles actions sont cohérentes ?
++ Arrêter l’administration du produit suspect encore en cours. :: L’éviction interrompt la poursuite de l’exposition.
+- Poursuivre le produit jusqu’aux résultats des prélèvements. :: Les prélèvements ne doivent pas retarder l’éviction ni le traitement urgent.
++ Préparer l’adrénaline comme traitement de la réaction sévère. :: C’est le traitement de référence cité dans cette situation.
++ Anticiper l’aggravation d’un éventuel œdème des voies aériennes. :: L’œdème peut progresser pendant les mesures circulatoires.
+- L’amélioration de la pression exclut une obstruction respiratoire en cours d’installation. :: La circulation et les voies aériennes nécessitent chacune une réévaluation.
+> Devant une anaphylaxie : arrêter l'agent suspecté, appeler à l'aide, et administrer de l'adrénaline sans attendre, par titration intraveineuse. S'y ajoutent un remplissage vasculaire souvent massif et une oxygénation. Le dosage de tryptase et le bilan allergologique différé se font ensuite, pour identifier le produit en cause.
+@ 29
+
+QCM · Choc cardiogénique
+Un patient présente une défaillance de pompe avec congestion pulmonaire. Quelles propositions sont exactes ?
++ Le défaut d’éjection peut diminuer le transport d’oxygène par baisse du débit. :: Ce mécanisme touche la macrocirculation.
+- Un remplissage important est nécessaire avant d’évaluer la congestion. :: L’excès de volume peut l’aggraver.
++ Un vasopresseur et un inotrope répondent à des objectifs distincts. :: Le premier soutient la pression. Le second vise la performance de pompe.
+- La SpO₂ normale assure un transport d’O₂ suffisant malgré le bas débit. :: Le débit est un déterminant du transport.
++ Dans certaines formes graves, une assistance circulatoire peut être discutée. :: L’ECMO veino-artérielle figure parmi les possibilités présentées.
+> Le choc cardiogénique se distingue par la congestion : la pompe ne parvient plus à éjecter et les pressions d'amont montent. Le remplissage y est délétère. Le traitement associe un inotrope, parfois un vasopresseur pour maintenir la perfusion coronaire, et la correction de la cause, ischémique le plus souvent.
+@ 21–22, 30
+
+QCM · Induction d’un patient instable
+Une anesthésie générale urgente est nécessaire chez un patient en état de choc. Quelles propositions expliquent les précautions à prendre ?
++ La perte de tonus vasomoteur à l’induction peut aggraver l’hypotension. :: Le soutien circulatoire doit être anticipé.
+- La ventilation en pression positive augmente habituellement le retour veineux du patient hypovolémique. :: Elle peut réduire le retour veineux et majorer l’instabilité.
++ La kétamine ou l’étomidate font partie des options d’induction à discuter. :: Le choix et l’administration se jugent avec le profil hémodynamique.
+- Un vasopresseur prêt sur la paillasse assure déjà le soutien circulatoire au moment de l’induction. :: Il faut anticiper son administration effective si elle est indiquée.
++ La surveillance rapprochée et l’anticipation des accès facilitent la réponse à une dégradation. :: Il faut pouvoir détecter et traiter rapidement une baisse de pression.
+> Chez un patient en choc, l'induction est le moment de tous les dangers : les agents suppriment le tonus sympathique qui maintenait la pression, et le passage en ventilation à pression positive abolit le retour veineux. D'où la règle : doses très réduites, injection lente, vasopresseur prêt ou déjà démarré, et volémie corrigée avant.
+@ 25, 31
+
+QCU · Causalité · Extraction
+Affirmation 1. Une augmentation de l’extraction peut maintenir la VO₂ malgré une baisse modérée du TaO₂.
+Affirmation 2. Les tissus peuvent prélever une plus grande fraction de l’oxygène livré.
+Évalue les deux affirmations et leur lien explicatif.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
+- La première affirmation est vraie et la seconde est fausse.
+- La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies. La seconde explique la première : l’augmentation de la fraction extraite compense la baisse de transport tant que cette réserve suffit.
+@ 5–11
+
+QCU · Causalité · Perfusion
+Affirmation 1. Une saturation veineuse en oxygène normale exclut une souffrance tissulaire dans un choc septique.
+Affirmation 2. L’extraction tissulaire peut être perturbée par l’atteinte microcirculatoire.
+Évalue les deux affirmations et leur lien explicatif.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
+- La première affirmation est vraie et la seconde est fausse.
++ La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première est fausse et la seconde est vraie. Du sang veineux encore bien saturé peut revenir alors que les tissus extraient mal l’oxygène.
+@ 8–9, 20–24
+
+QCU · Choix unique · Contenu en oxygène
+À saturation artérielle et débit cardiaque inchangés, quel changement diminue directement le transport artériel d’oxygène ?
+- Une diminution de la saturation veineuse.
+- Une hausse de la fraction d’extraction tissulaire.
++ Une diminution de l’hémoglobine.
+- Une hausse de la différence artérioveineuse en oxygène.
+- Une baisse de la lactatémie.
+> L’hémoglobine détermine l’essentiel du contenu artériel en oxygène. Les variables veineuses et l’extraction renseignent sur ce que les tissus prélèvent.
+@ 5
+
+QCU · Choix unique · Préparation au bloc
+Une induction urgente est retenue pour un patient en choc. L’équipe a décidé de débuter la noradrénaline avant l’injection de l’hypnotique. Quelle vérification répond le mieux au risque immédiat ?
+- Confirmer que la perfusion est prête, même si la ligne est encore clampée.
+- Attendre le passage en pression positive pour commencer la perfusion.
+- Se fier à la dernière pression non invasive sans confirmer le fonctionnement de la perfusion.
++ Vérifier que le vasopresseur est effectivement administré et que la pression est suivie :: Une seringue non purgée ou une voie non perméable laisse le patient sans soutien au moment le plus critique.
+- Vérifier la dose d’hypnotique, puisqu’elle détermine la réponse tensionnelle.
+> Le vasopresseur doit effectivement atteindre le patient pour soutenir la pression. L’induction et la ventilation positive peuvent aggraver rapidement l’instabilité.
+@ 25, 31
