@@ -19,7 +19,6 @@ S1/2.4/morphiniques.txt
 
 S1/3.1/aivoc.txt
 S1/3.1/bis-eeg.txt
-S1/3.1/ecg.txt
 S1/3.1/positions-chirurgicales.txt
 S1/3.1/preoxygenation.txt
 S1/3.1/processus-anesthesie.txt
