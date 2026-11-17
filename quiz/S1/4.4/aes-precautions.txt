@@ -1,0 +1,137 @@
+// Quiz – AES et précautions (UE 4.4), d'après « QUIZZ 33 AES.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication, « > » correction, « @ » source.
+
+# AES et précautions
+
+QCM · Reconnaître une exposition
+Parmi ces situations, lesquelles constituent un accident d'exposition au sang (AES) ?
++ Une coupure avec un bistouri souillé :: La lame crée une effraction cutanée : c'est la situation la plus à risque avec la piqûre.
+- Du sang sur la peau intacte de l'avant-bras, sans plaie :: La peau saine est une barrière efficace : il n'y a pas de porte d'entrée.
++ Une projection de sang dans l'œil :: La conjonctive est une muqueuse : elle laisse passer les virus.
+- Des gouttes de sang sur une visière, sans contact avec le visage :: La protection a joué son rôle : aucune exposition.
++ Du sang sur une gerçure de la main :: Une peau lésée (eczéma, gerçure, plaie) est une porte d'entrée.
+> Un AES suppose deux conditions : du sang ou un liquide biologique, et une porte d'entrée (effraction cutanée, muqueuse ou peau lésée).
+@ 3–4, 58
+
+QCM · Évaluation du risque
+Une IADE se pique avec l'aiguille d'une ponction veineuse. Quels éléments le médecin prend-il en compte pour évaluer le risque ?
++ Une aiguille creuse plutôt qu'une aiguille pleine :: L'aiguille creuse contient du sang : l'inoculum est plus important.
++ La profondeur de la piqûre et le sang visible dans l'aiguille :: Ils renseignent sur la quantité de sang inoculée.
++ Le statut sérologique du patient source, s'il est connu :: Une charge virale VIH élevée ou une hépatite active augmentent le risque.
+- Le port de gants, qui rend l'accident sans conséquence :: Le gant réduit le volume inoculé en essuyant l'aiguille, mais ne supprime pas le risque.
+- La vaccination anti-VHB de la soignante, qui couvre aussi le VIH et le VHC :: Elle ne protège que contre l'hépatite B ; il n'existe pas de vaccin contre le VIH ni le VHC.
+> Le risque dépend du geste (aiguille creuse, profondeur, sang visible), du patient source (statut, charge virale) et de la victime (vaccination VHB). Le gant diminue le risque sans l'annuler.
+@ 4, 15–18, 58–59
+
+QCM · Soins immédiats
+Juste après une piqûre avec une aiguille souillée, que faut-il faire ?
+- Faire saigner la plaie pour chasser le sang contaminé :: Faire saigner ou presser la plaie est déconseillé : cela peut favoriser la pénétration des virus.
++ Laver au savon doux, rincer puis sécher :: Le nettoyage mécanique élimine le sang de surface.
++ Appliquer un antiseptique (Dakin) pendant au moins 5 minutes :: Le temps de contact est nécessaire pour inactiver les virus.
+- Appliquer un antiseptique immédiatement, sans lavage préalable :: Le lavage passe en premier : l'antiseptique agit mal sur une plaie souillée.
++ Contacter rapidement le médecin référent AES ou les urgences :: Une prophylaxie VIH éventuelle est plus efficace si elle débute tôt, idéalement dans les 4 premières heures.
+> Ordre des gestes : ne pas faire saigner, laver, rincer, sécher, antisepsie au moins 5 minutes, puis avis médical en urgence.
+@ 56–59
+
+QCU · Projection oculaire
+Une infirmière reçoit une projection de sang dans l'œil. Quel est le premier geste ?
+- Appliquer du Dakin dans l'œil pendant 5 minutes :: Les antiseptiques cutanés sont irritants pour la cornée : on ne les met pas dans l'œil.
++ Rincer abondamment au sérum physiologique ou à l'eau pendant au moins 5 minutes :: Le rinçage dilue et élimine le sang ; c'est le soin local adapté à une muqueuse.
+- Instiller un collyre antibiotique puis attendre l'avis médical :: Aucun intérêt contre le risque viral ; le rinçage doit commencer immédiatement.
+- Frotter l'œil avec une compresse stérile pour retirer le sang :: Le frottement abîme la conjonctive et peut favoriser la pénétration.
+> Sur une muqueuse (œil, bouche), le premier geste est un rinçage abondant d'au moins 5 minutes. L'avis médical suit, comme pour une piqûre.
+@ 56–59
+
+QCM · Mesures après un AES
+Le patient source est inconnu et la piqûre est profonde. Quelles démarches sont adaptées ?
++ Voir un médecin dans l'heure pour décider d'une éventuelle prophylaxie :: La prophylaxie se décide sur l'évaluation du risque et doit débuter au plus tôt.
+- Attendre la consultation de santé au travail du lendemain :: Ce délai fait perdre le bénéfice d'une prophylaxie précoce.
++ Rechercher le statut du patient source, avec son accord :: Une sérologie négative du patient source peut permettre d'arrêter un traitement débuté.
+- Débuter dans tous les cas une trithérapie, quel que soit le contexte :: La prophylaxie n'est pas systématique : elle dépend de l'exposition et de la source.
++ Déclarer l'accident du travail dans les 48 heures :: La déclaration ouvre droit au suivi sérologique et à la prise en charge.
+> Après les premiers soins : évaluation médicale urgente, statut de la source, prophylaxie si le risque le justifie, déclaration d'accident du travail sous 48 h, puis suivi sérologique.
+@ 58–59
+
+QCM · Prévention des AES
+Après la pose d'un cathéter, quels gestes évitent de se piquer avec le mandrin ?
++ Jeter le mandrin immédiatement dans un collecteur placé à portée de main :: Le collecteur doit être apporté avant le geste, à proximité.
+- Recapuchonner le mandrin à deux mains pour le transporter jusqu'au collecteur :: Le recapuchonnage est la première cause d'AES évitable : il est interdit.
++ Utiliser un cathéter sécurisé et activer sa sécurité :: La sécurité protège la pointe avant l'élimination.
+- Pousser le mandrin dans le collecteur si l'orifice bloque, avec des gants :: Il ne faut jamais forcer : les gants ne protègent pas d'une piqûre.
+- Remplir le collecteur jusqu'au bord pour limiter les changements :: Au-delà de la limite de remplissage, l'objet peut ressortir ou piquer.
+> Prévention des AES : matériel sécurisé, jamais de recapuchonnage, élimination immédiate dans un collecteur proche, sans forcer ni dépasser la limite de remplissage.
+@ 51, 53–54
+
+QCM · Précautions standard
+Quelles affirmations sur les précautions standard sont exactes ?
++ Elles s'appliquent à tout patient, quel que soit son statut infectieux :: On ne connaît pas toujours le statut d'un patient : la protection doit être universelle.
+- Elles ne concernent que les patients porteurs d'une infection connue :: C'est le principe des précautions complémentaires, qui s'ajoutent aux précautions standard.
++ Le matériel et l'environnement (clavier, stéthoscope) participent à la transmission :: Les mains se recontaminent au contact de ces surfaces.
++ Elles s'appliquent aussi en dehors de l'hôpital :: Elles valent pour tous les lieux de soins.
+> Les précautions standard sont le socle de la prévention, pour tout patient et tout soin : hygiène des mains, protections, gestion des excreta et de l'environnement, prévention des AES.
+@ 19–25
+
+QCM · Hygiène des mains
+Quel geste d'hygiène des mains est adapté à chaque situation ?
++ Mains visiblement souillées : lavage au savon doux :: Le produit hydroalcoolique n'élimine pas les salissures.
+- Mains encore humides après un lavage : friction hydroalcoolique immédiate :: La friction se fait sur des mains sèches, sinon l'eau dilue l'alcool.
++ Avant un soin invasif, sur des mains propres et sèches : friction hydroalcoolique :: C'est l'indication type de la friction.
+- Friction arrêtée après 10 secondes, dès que toutes les faces ont été frottées :: Il faut frotter jusqu'au séchage complet, 20 à 30 secondes.
++ Après avoir touché le lit ou le chariot du patient : friction hydroalcoolique :: L'environnement proche du patient contamine les mains.
+> La friction hydroalcoolique est la référence sur des mains propres et sèches. Le lavage est réservé aux mains souillées, et à la gale ou au Clostridioides difficile.
+@ 27–35
+
+QCM · Gants
+Un soignant termine un soin souillé et doit préparer ensuite un dispositif propre pour le même patient. Que fait-il ?
++ Il retire ses gants et réalise une friction hydroalcoolique avant le geste propre :: Une paire souillée transporte les germes d'un site à l'autre.
+- Il frictionne ses gants avec du produit hydroalcoolique pour gagner du temps :: Les gants ne se frictionnent pas : le produit les altère et ne les décontamine pas.
+- Il garde la même paire, puisque le patient est le même :: Passer d'un geste sale à un geste propre impose de changer de gants, même chez le même patient.
++ Il retire ses gants avant de toucher le clavier ou le chariot :: Sinon il contamine l'environnement.
+> Une paire de gants par soin, retirée dès la fin du geste, avec une friction avant et après. On ne frictionne jamais des gants.
+@ 40–41, 69, 74
+
+QCM · Protections au bloc
+Quelles protections sont adaptées au risque ?
++ Un risque de projection vers le visage : masque et lunettes ou visière :: Les conjonctives et la bouche sont des portes d'entrée.
+- Une projection prévisible vers le visage : des gants suffisent :: Les gants protègent les mains, pas les muqueuses du visage.
++ Une exposition importante au sang : surblouse imperméable à manches longues :: Elle protège la tenue et les avant-bras.
+- Une intubation chez un patient contagieux par voie aérienne : une visière remplace le masque FFP2 :: La visière protège des projections, pas des aérosols.
+> Chaque protection répond à un risque : gants pour les mains, masque et lunettes pour les projections, FFP2 pour les aérosols, surblouse pour la tenue.
+@ 37–43
+
+QCM · Excreta
+Quels gestes limitent la dissémination lors de la gestion d'un bassin souillé ?
++ Transporter le bassin couvert jusqu'au lave-bassin :: Le couvercle évite les projections et les déversements.
+- Vider le bassin dans les toilettes avant de le mettre dans le lave-bassin :: Cette manipulation supplémentaire multiplie les projections.
+- Le rincer à la douchette pour ne pas salir le lave-bassin :: La douchette crée des aérosols contaminés.
++ Porter gants et tablier, puis réaliser l'hygiène des mains :: Les excreta contaminent les mains, la tenue et les surfaces.
+> Le bassin va directement, couvert, au lave-bassin, sans vidange ni rinçage préalable. Les excreta sont une source majeure de transmission croisée.
+@ 45–46, 70–71
+
+QCM · BHR au bloc
+Un patient porteur d'une bactérie hautement résistante (BHR) est opéré. Quelles mesures sont adaptées ?
++ Le programmer en fin de programme si possible :: Le bionettoyage renforcé se fait ensuite sans retarder les autres patients.
+- Le faire attendre en salle de préparation commune avant d'entrer en salle :: L'entrée directe en salle limite les contacts.
++ Réaliser une friction hydroalcoolique avant et après chaque contact :: La résistance aux antibiotiques ne rend pas les bactéries résistantes à l'alcool.
+- Porter des gants pour tout contact, même avec une peau saine :: Les gants suivent les indications des précautions standard ; c'est le tablier qui s'ajoute.
++ Prévoir son réveil en salle ou en box isolé :: On limite la diffusion en SSPI.
+> Pour une BHR : fin de programme, entrée directe, tablier à usage unique, hygiène des mains rigoureuse, peu de passages, réveil isolé et bionettoyage renforcé.
+@ 68–75
+
+QCM · C. difficile
+Quelles mesures sont adaptées à un patient avec une diarrhée à Clostridioides difficile ?
++ Gants et surblouse pour les soins :: Les spores contaminent les mains, la tenue et l'environnement.
+- Friction hydroalcoolique seule après les soins :: L'alcool n'a aucune action sur les spores.
++ Lavage des mains au savon, séchage, puis friction hydroalcoolique :: Le lavage élimine mécaniquement les spores ; la friction complète.
++ Un produit d'entretien sporicide pour l'environnement :: Un détergent-désinfectant habituel ne détruit pas les spores.
+> C. difficile produit des spores résistantes à l'alcool : on ajoute le lavage des mains au savon et un nettoyage sporicide. La gale relève des mêmes mesures (lavage avant friction).
+@ 76–77
+
+QCM · Risque respiratoire au bloc
+Un patient porteur d'une infection respiratoire doit être intubé. Quelles affirmations sont exactes ?
++ L'intubation génère des aérosols :: Elle impose un masque FFP2 pour l'équipe.
+- Le masque chirurgical porté par le patient dispense l'équipe du FFP2 :: Il est retiré pour l'intubation et ne protège pas l'équipe des aérosols.
++ Il faut limiter les entrées et sorties de la salle :: L'ouverture des portes disperse l'air contaminé.
+- Il faut couper la surpression de la salle :: La surpression est maintenue : elle protège le champ opératoire.
+> Gestes générant des aérosols (intubation, extubation, aspiration) : FFP2 pour l'équipe, portes fermées, peu de passages, surpression maintenue.
+@ 37–38, 79–82
