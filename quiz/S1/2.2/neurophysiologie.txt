@@ -1,0 +1,312 @@
+// Quiz – Neurophysiologie (UE 2.2), d'après « QUIZZ 16 Neuro.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication, « > » correction, « @ » source.
+
+# Neurophysiologie
+
+QCM · Évaluation neurologique
+Quelles affirmations sur l'évaluation des fonctions du système nerveux central sont exactes ?
+- Ouvrir les yeux et être orienté évaluent la même fonction :: L'ouverture des yeux renseigne sur l'éveil ; l'orientation sur le contenu de la conscience.
++ La déglutition et la toux protègent les voies aériennes :: Leur retour est un critère d'extubation.
++ Comparer les deux côtés aide à repérer un déficit moteur :: Une asymétrie oriente vers une lésion focale.
++ Le score de Glasgow additionne les réponses oculaire, verbale et motrice :: Il va de 3 à 15.
++ L'examen neurologique avant l'anesthésie sert de référence au réveil :: Il permet de distinguer un déficit ancien d'un déficit nouveau.
+> L'éveil, le contact, la motricité et les réflexes de protection s'évaluent séparément. Le bilan préopératoire sert de point de comparaison.
+@ 6–8, 28–29
+
+QCM · Lobes cérébraux
+Quelles associations entre un lobe et sa fonction principale sont exactes ?
++ Frontal : motricité volontaire et planification :: L'aire motrice primaire est dans le gyrus précentral.
++ Pariétal : sensibilité et schéma corporel :: Le gyrus postcentral reçoit la sensibilité.
++ Temporal : audition et mémoire :: Il contient le cortex auditif et l'hippocampe.
+- Occipital : motricité volontaire :: Le lobe occipital traite la vision.
+> Frontal : mouvement et décision. Pariétal : sensibilité. Temporal : audition et mémoire. Occipital : vision.
+@ 11–13
+
+QCM · Liquide cérébrospinal
+Quelles affirmations sur le liquide cérébrospinal (LCR) sont exactes ?
++ Les trous de Monro relient les ventricules latéraux au 3e ventricule :: C'est la première étape du trajet.
++ L'aqueduc de Sylvius relie le 3e au 4e ventricule :: Son obstruction donne une hydrocéphalie.
++ Le LCR est résorbé dans les sinus veineux par les granulations arachnoïdiennes :: Après avoir circulé dans les espaces sous-arachnoïdiens.
+- Le LCR passe directement des ventricules latéraux au 4e ventricule :: Il passe obligatoirement par le 3e ventricule.
++ Environ 150 mL de LCR sont présents, pour une production d'environ 500 mL par jour :: Il est renouvelé plusieurs fois par jour.
+> Plexus choroïdes → ventricules latéraux → Monro → 3e ventricule → aqueduc → 4e ventricule → espaces sous-arachnoïdiens → granulations arachnoïdiennes → sinus veineux.
+@ 17–19
+
+QCM · Composantes de l'anesthésie
+Quelles affirmations sur les objectifs d'une anesthésie générale sont exactes ?
++ L'amnésie est l'absence de mémorisation :: Elle s'obtient à des doses plus faibles que la perte de conscience.
++ L'antinociception et la myorelaxation sont deux objectifs distincts :: Le premier bloque le message douloureux, le second relâche les muscles.
+- Une IRM et une incision chirurgicale demandent la même antinociception :: Une IRM n'est pas douloureuse : elle demande surtout l'immobilité.
+- La nociception désigne la douleur ressentie consciemment :: La nociception est le traitement du signal nocif ; la douleur est l'expérience consciente.
++ La stabilité hémodynamique fait partie des objectifs :: L'anesthésie doit préserver la perfusion des organes.
+> L'anesthésie associe hypnose, amnésie, antinociception, immobilité, myorelaxation et stabilité. Chaque composante s'adapte au geste.
+@ 23–27, 51
+
+QCM · CAM des halogénés
+Quelles associations entre l'effet d'un halogéné et sa concentration (en CAM) sont exactes ?
++ Amnésie : environ 0,25 CAM :: C'est le premier effet obtenu.
++ Perte de conscience : environ 0,3 à 0,5 CAM :: Bien avant l'immobilité.
++ Absence de mouvement à l'incision chez 50 % des patients : 1 CAM :: C'est la définition de la CAM.
++ Blocage des réponses adrénergiques : environ 1,5 CAM :: Il faut davantage d'agent pour supprimer la réaction hémodynamique.
+- À 1 CAM, aucun patient n'est conscient ni ne bouge :: La CAM est une valeur de population : 50 % des patients bougent encore à 1 CAM.
+> Ordre des effets avec la concentration : amnésie, perte de conscience, immobilité, puis blocage adrénergique. La CAM est diminuée par l'âge, les morphiniques et l'hypothermie.
+@ 31–32
+
+QCM · Immobilité et hypnose
+Quelles affirmations sur l'absence de mouvement sous anesthésie sont exactes ?
++ L'immobilité sous halogéné est obtenue surtout au niveau de la moelle épinière :: Elle ne reflète pas directement l'effet cortical.
+- Un patient immobile est forcément inconscient :: Un curare peut empêcher le mouvement chez un patient conscient.
++ Un curare bloque la transmission à la jonction neuromusculaire :: Il n'a aucun effet hypnotique.
+- Un patient curarisé peut recevoir moins d'hypnotique :: Le curare masque les signes d'éveil : l'hypnose doit être surveillée encore plus.
+> L'immobilité n'est pas un critère d'hypnose. Sous curare, le mouvement, signe d'alerte, disparaît : risque de mémorisation peropératoire.
+@ 34–36
+
+QCM · Mémorisation peropératoire
+Quelles situations exposent à un risque accru de mémorisation peropératoire ?
++ Une curarisation qui masque les mouvements :: Le patient ne peut pas signaler son éveil.
++ Une baisse importante de l'hypnotique pour corriger une hypotension :: La dose devient insuffisante.
++ Une induction en urgence avec intubation difficile :: Les réinjections d'hypnotique peuvent être oubliées.
++ Un antécédent de mémorisation sous anesthésie :: Le risque de récidive est augmenté.
+- Un examen peu douloureux comme une IRM :: Un geste peu stimulant ne protège pas d'une hypnose insuffisante.
+> Facteurs de risque : curarisation, doses réduites (instabilité, sujet fragile), urgence, intubation difficile, antécédent. Le BIS aide à les prévenir.
+@ 36–37, 51
+
+QCM · Titration des hypnotiques
+Quelles affirmations sur l'ajustement des hypnotiques sont exactes ?
++ La marge thérapeutique est plus étroite chez le sujet âgé et fragile :: Il est plus sensible et ses compensations hémodynamiques sont moins efficaces.
++ L'hypotension à l'induction vient de la baisse du tonus sympathique et de la vasodilatation :: Les réflexes compensateurs sont aussi atténués.
++ Un surdosage en hypnotique peut retarder le réveil :: C'est une cause fréquente de réveil retardé.
+- Une pression artérielle basse prouve que l'hypnose est suffisante :: La PA ne mesure pas la conscience.
+> On titre l'hypnotique selon le terrain, le stimulus et la réponse. Trop d'hypnotique donne hypotension et réveil retardé ; trop peu expose à la mémorisation.
+@ 38–40, 51
+
+QCU · Réveil agité
+En fin d'intervention, un patient intubé s'agite, serre les dents sur la sonde, a des pupilles dilatées et ne répond pas aux ordres. Que faire ?
+- L'extuber immédiatement :: Risque majeur de laryngospasme à ce stade.
+- Le stimuler fortement pour accélérer le réveil :: Les stimulations aggravent l'hyperréactivité.
++ Ne pas l'extuber : attendre un réveil calme, ou réapprofondir l'anesthésie si besoin :: On attend que le patient réponde aux ordres.
+- Le recurariser :: Le curare masquerait l'agitation sans traiter l'hypnose insuffisante.
+> C'est le stade II de Guedel (excitation) : contact absent, hyperréactivité des voies aériennes. On extube soit en anesthésie profonde, soit chez un patient bien réveillé, jamais entre les deux.
+@ 30, 41
+
+QCM · Monitorages
+Quelles associations entre un objectif anesthésique et son monitorage sont exactes ?
++ Hypnose : BIS (EEG traité) :: Il analyse l'activité électrique cérébrale.
++ Antinociception : ANI, NOL ou pupillométrie :: À confronter à la clinique.
++ Curarisation : train-de-quatre (TOF) :: Il mesure la réponse neuromusculaire.
+- Conscience : nombre de réponses au TOF :: Le TOF ne renseigne que sur le muscle.
+> Chaque monitorage explore une composante : BIS pour l'hypnose, ANI/NOL/pupille pour la nociception, TOF pour la curarisation, PA pour l'hémodynamique.
+@ 43–46
+
+QCM · BIS
+Quelles affirmations sur le BIS sont exactes ?
++ Il est calculé à partir de l'EEG, sur une échelle de 0 à 100 :: 100 correspond à l'éveil.
++ La cible habituelle sous anesthésie générale est 40 à 60 :: En dessous de 40, l'anesthésie est profonde.
++ L'activité musculaire et certains médicaments faussent sa valeur :: La kétamine et le protoxyde d'azote, par exemple.
+- Des bouffées-suppressions à l'EEG traduisent un éveil :: Elles traduisent une anesthésie très profonde.
+> BIS 40–60 sous AG. Les bouffées-suppressions signent un excès d'anesthésie, associé à une confusion postopératoire chez le sujet âgé.
+@ 43, 45
+
+QCM · Train-de-quatre
+Quelles affirmations sur le train-de-quatre sont exactes ?
++ Le nombre de réponses et le rapport T4/T1 sont deux mesures différentes :: Le compte évalue la profondeur, le rapport la récupération.
+- Quatre réponses visibles excluent une curarisation résiduelle :: Le rapport T4/T1 peut encore être bien inférieur à 0,9.
++ Le rapport T4/T1 doit être mesuré avec un appareil quantitatif :: L'œil ne détecte pas l'épuisement au-delà de 0,4 environ.
++ Sans réponse au TOF, le compte post-tétanique évalue un bloc profond :: Il indique dans combien de temps le TOF réapparaîtra.
+> On extube quand le T4/T1 est ≥ 0,9, mesuré de façon quantitative. Quatre réponses visibles ne suffisent pas.
+@ 47–48
+
+QCM · Réveil retardé
+Devant un réveil retardé après une anesthésie, quelles affirmations sont exactes ?
++ Les médicaments administrés sont la première cause à rechercher :: Hypnotiques, morphiniques, curares.
++ Glycémie, température et capnie orientent vers une cause métabolique :: Hypoglycémie, hypothermie, hypercapnie.
++ Un déficit focal nouveau doit faire évoquer une complication neurologique et alerter :: Exemple : un AVC.
+- Un patient qui ouvre les yeux remplit les conditions d'extubation :: L'éveil ne suffit pas : il faut aussi une ventilation et une protection des voies aériennes efficaces.
+> Démarche devant un réveil retardé : médicaments, puis causes métaboliques, puis causes neurologiques. Comparer toujours à l'examen préopératoire.
+@ 8, 48–49, 66
+
+QCM · Polygone de Willis
+Quelles affirmations sur la vascularisation cérébrale sont exactes ?
++ Les carotides internes donnent les artères cérébrales antérieures et moyennes :: Elles irriguent l'avant du cerveau.
++ Les deux artères vertébrales se réunissent en tronc basilaire :: Il irrigue la circulation postérieure.
++ La communicante antérieure relie les deux artères cérébrales antérieures :: Elle permet une suppléance droite-gauche.
++ Les communicantes postérieures relient les circulations antérieure et postérieure :: Suppléance avant-arrière.
+- Le polygone de Willis est complet et identique chez tous les patients :: Les variantes anatomiques sont fréquentes : les suppléances varient d'un patient à l'autre.
+> Le polygone de Willis relie circulation carotidienne et vertébro-basilaire. Ses variantes expliquent qu'une même occlusion soit plus ou moins bien tolérée.
+@ 54–56
+
+QCU · Territoire d'un AVC
+Un patient en fibrillation atriale non anticoagulée présente brutalement une hémiplégie gauche touchant de façon égale la face, le bras et la jambe. Quelle artère est la plus probablement occluse ?
+- L'artère cérébrale antérieure droite :: Elle donnerait un déficit prédominant à la jambe.
++ L'artère cérébrale moyenne droite :: Son territoire profond irrigue la capsule interne, où les fibres de la face, du bras et de la jambe sont regroupées.
+- L'artère cérébrale moyenne gauche :: Elle donnerait un déficit à droite, les voies motrices croisant au bulbe.
+- Le tronc basilaire :: Il donnerait plutôt des troubles de conscience, des atteintes des nerfs crâniens et des signes bilatéraux.
+> Un déficit gauche vient de l'hémisphère droit. Un déficit proportionnel (face, bras, jambe) évoque la capsule interne, dans le territoire profond de l'artère cérébrale moyenne.
+@ 57–60, 62
+
+QCU · Coma et circulation postérieure
+Un homme de 65 ans en fibrillation atriale non anticoagulée présente brutalement céphalées, vertiges, coma et anisocorie. Quel territoire est le plus probablement en cause ?
+- Carotidien droit :: Il donnerait d'abord un déficit hémicorporel gauche, rarement un coma d'emblée.
+- Carotidien gauche :: Idem, avec un déficit droit et une aphasie.
++ Vertébro-basilaire :: Le tronc cérébral contient les structures de l'éveil et les noyaux des nerfs crâniens.
+- Sinus veineux sagittal :: Une thrombophlébite s'installe en général plus progressivement, sans contexte embolique.
+> Coma, vertiges et atteinte pupillaire brutale orientent vers une occlusion du tronc basilaire, urgence absolue.
+@ 63–65
+
+QCM · AVC en SSPI
+Un déficit focal nouveau est constaté au réveil. Quelles actions sont adaptées ?
++ Comparer à l'examen neurologique préopératoire :: Pour confirmer qu'il est nouveau.
++ Noter l'heure du début ou la dernière fois où le patient était normal :: Elle conditionne les traitements de reperfusion.
++ Alerter le médecin anesthésiste et la filière AVC sans attendre :: Chaque minute compte.
+- Attribuer le déficit aux médicaments de l'anesthésie et attendre :: Un déficit focal n'est pas un effet résiduel de l'anesthésie.
++ Contrôler la glycémie, la pression artérielle et l'oxygénation :: Une hypoglycémie peut mimer un AVC ; l'hypotension et l'hypoxie aggravent l'ischémie.
+> Un déficit focal nouveau au réveil est un AVC jusqu'à preuve du contraire : heure, alerte, imagerie urgente, correction des agressions secondaires.
+@ 66
+
+QCM · Pénombre ischémique
+Après l'induction d'une AG pour thrombectomie, la pression artérielle chute. Quelles affirmations sont exactes ?
++ La pénombre est un tissu encore vivant mais mal perfusé :: Il peut être sauvé par la reperfusion.
++ Son autorégulation est altérée : son débit dépend directement de la pression artérielle :: Toute baisse de PA réduit sa perfusion.
++ Une hypotension peut transformer la pénombre en infarctus :: La zone détruite s'étend.
+- Sous anesthésie générale, le cerveau supporte mieux une hypotension :: L'AG réduit les besoins, mais ne protège pas une zone ischémique d'une chute de pression.
+> Pendant une thrombectomie, on maintient la PA : toute hypotension menace la pénombre, dont la perfusion dépend directement de la pression.
+@ 67–68
+
+QCM · Lésion médullaire
+Après une chute, un patient présente des paresthésies de l'épaule et des deux jambes, une marche instable, une dysurie et des réflexes vifs ; la face est épargnée. Quelles affirmations sont exactes ?
++ Un niveau à l'épaule avec des signes bilatéraux en dessous évoque une atteinte médullaire cervicale :: Vers C4–C5.
++ La dysurie participe à la localisation médullaire :: Les voies sphinctériennes passent dans la moelle.
+- Une lésion d'un nerf de la jambe explique tout le tableau :: Elle n'expliquerait ni l'épaule, ni la vessie, ni la bilatéralité.
+- Des réflexes vifs excluent une atteinte centrale :: Ils évoquent au contraire une atteinte centrale (syndrome pyramidal).
+> Signes à un niveau précis, atteinte des voies longues et des sphincters en dessous, réflexes vifs : c'est une compression médullaire, ici cervicale.
+@ 70–72, 78
+
+QCM · Hémisection de moelle
+Une lésion touche la moitié droite de la moelle. Sous la lésion, quelles conséquences sont attendues ?
++ Un déficit moteur à droite :: La voie motrice croise au bulbe, au-dessus de la lésion.
++ Une perte de la sensibilité profonde (proprioception) à droite :: Elle croise aussi au bulbe.
++ Une perte de la sensibilité à la douleur et à la température à gauche :: Ces fibres croisent dès leur entrée dans la moelle.
+- Tous les déficits sont du côté gauche :: Seule la sensibilité thermoalgique est controlatérale.
+> Syndrome de Brown-Séquard : motricité et proprioception atteintes du côté de la lésion, douleur et température du côté opposé.
+@ 74–75, 79, 82
+
+QCM · Paralysie faciale
+Quelles affirmations sur les paralysies faciales sont exactes ?
++ Une paralysie faciale centrale touche surtout le bas du visage, du côté opposé à la lésion :: Le bas du visage est commandé par l'hémisphère opposé.
++ Dans une paralysie centrale, le front est épargné :: Il reçoit une commande des deux hémisphères.
++ Une paralysie périphérique touche aussi le front et la fermeture de l'œil, du même côté :: Toute l'hémiface est atteinte.
+- Le front est paralysé dans une paralysie centrale :: C'est l'atteinte du front qui oriente vers une cause périphérique.
+> Front épargné : atteinte centrale (AVC). Front atteint, œil qui ne ferme pas : atteinte du nerf facial (périphérique).
+@ 80–81
+
+QCM · Rachianesthésie trop haute
+Après une rachianesthésie, le patient devient hypotendu et bradycarde, puis décrit des fourmillements des mains et une gêne respiratoire. Quelles affirmations sont exactes ?
++ Le bloc des fibres cardio-accélératrices T1–T4 explique la bradycardie :: Le tonus vagal n'est plus contrebalancé.
++ Les fourmillements des mains signent une extension cervicale, vers C6–C8 :: Le bloc monte au-dessus du thorax.
++ Une extension vers C3–C5 menace le diaphragme :: Le nerf phrénique naît de C3–C5.
+- La mise en Trendelenburg freine la montée du bloc :: Elle risque au contraire de faire monter l'anesthésique.
+> Rachianesthésie haute : appel à l'aide, remplissage et vasopresseurs (éphédrine, atropine si bradycardie), oxygène, ventilation voire intubation, avec un hypnotique si le patient est conscient.
+@ 83–85
+
+QCM · Engagement cérébral
+Après une chute, un patient a un Glasgow à 5, une mydriase droite et un déficit moteur gauche. Le scanner montre un hématome sous-dural droit compressif. Quelles affirmations sont exactes ?
++ La compression du nerf III droit explique la mydriase droite :: Le III porte les fibres qui contractent la pupille.
+- La mydriase est due à un morphinique :: Les morphiniques donnent un myosis bilatéral.
++ L'engagement temporal comprime le tronc cérébral et les voies motrices :: Il menace la vie à court terme.
++ Une lésion des voies motrices droites, au-dessus de leur croisement, donne un déficit gauche :: Les voies motrices croisent au bulbe.
+> Coma, mydriase unilatérale et déficit controlatéral : engagement temporal. C'est une urgence neurochirurgicale.
+@ 86–90
+
+QCU · Bloc interscalénique et pupille
+Après un bloc interscalénique droit, un patient bien réveillé présente un myosis et un ptosis droits. Quelle est l'explication la plus probable ?
++ Un syndrome de Claude Bernard-Horner par diffusion de l'anesthésique local au sympathique cervical :: Le sympathique dilate la pupille et soulève la paupière ; son blocage donne myosis et ptosis du même côté.
+- Un surdosage en morphinique :: Il donnerait un myosis des deux côtés, avec une baisse de la vigilance et de la fréquence respiratoire.
+- Un AVC du tronc cérébral :: Le patient est bien réveillé, et le contexte du bloc explique le tableau.
+- Une atteinte du nerf III droit :: Elle donnerait une mydriase, pas un myosis.
+> Après un bloc interscalénique, un syndrome de Claude Bernard-Horner homolatéral est un effet attendu et bénin, qui régresse avec le bloc.
+@ 89–91
+
+QCM · Pression de perfusion cérébrale
+Chez un patient dont la PAM est de 70 mmHg et la PIC de 30 mmHg, quelles affirmations sont exactes ?
++ La pression de perfusion cérébrale (PPC) vaut 40 mmHg :: PPC = PAM − PIC = 70 − 30.
+- La PPC vaut 100 mmHg :: On soustrait la PIC, on ne l'ajoute pas.
++ Si la PAM baisse, la PPC baisse :: À PIC constante.
+- Si la PIC augmente, la PPC augmente :: La PIC s'oppose à l'entrée du sang : la PPC diminue.
+> PPC = PAM − PIC. Une hypotension ou une HTIC diminuent la perfusion cérébrale. Chez le traumatisé crânien, on vise une PPC d'au moins 60 mmHg.
+@ 94–95, 106
+
+QCM · Autorégulation chez l'hypertendu
+Un patient hypertendu chronique, dont la PAM habituelle est de 120 mmHg, passe à 65 mmHg après l'induction. Quelles affirmations sont exactes ?
++ L'HTA chronique décale la courbe d'autorégulation vers des pressions plus hautes :: Sa limite basse est plus élevée.
+- Une PAM de 65 mmHg garantit sa perfusion cérébrale :: Pour lui, c'est une chute de près de 50 %.
++ Une hypoperfusion cérébrale est possible malgré ce chiffre :: La valeur seuil est individuelle.
+- L'autorégulation compense instantanément une chute brutale :: Elle a des limites et met quelques secondes à s'adapter.
+> Chez l'hypertendu, on raisonne en baisse relative : on évite une chute de plus de 20 à 30 % de sa pression habituelle.
+@ 97–99
+
+QCM · CO2 et débit cérébral
+Quelles affirmations sur l'effet du CO2 sur la circulation cérébrale sont exactes ?
++ L'hypercapnie dilate les vaisseaux cérébraux et augmente le débit :: Elle peut aussi augmenter la PIC.
++ L'hypocapnie contracte les vaisseaux cérébraux et diminue le débit :: Elle réduit le volume sanguin cérébral.
+- Une PIC qui baisse sous hyperventilation prouve que le cerveau est mieux perfusé :: La PIC baisse parce que le débit baisse.
++ Une hyperventilation excessive peut provoquer une ischémie cérébrale :: Le débit chute trop.
+> Le CO2 est un puissant vasodilatateur cérébral. L'hyperventilation baisse la PIC au prix du débit : on vise une normocapnie, l'hyperventilation n'est qu'une mesure d'attente.
+@ 101
+
+QCM · Hypertension intracrânienne
+Quelles affirmations sur l'HTIC et les agressions cérébrales secondaires sont exactes ?
++ Au début, le déplacement de LCR et de sang veineux compense une augmentation de volume :: La PIC reste stable.
++ Une fois cette réserve épuisée, un petit volume supplémentaire fait monter fortement la PIC :: La courbe pression-volume devient très raide.
++ Une PPC basse provoque une vasodilatation qui augmente encore la PIC :: C'est un cercle vicieux.
++ L'hypotension et l'hypoxémie sont des agressions secondaires à prévenir :: Elles aggravent la lésion initiale.
+- Le crâne adulte se dilate pour compenser une augmentation de volume :: Le crâne est inextensible chez l'adulte.
+> Le crâne est inextensible : passé la compensation, la PIC monte brutalement. On prévient les ACSOS : hypotension, hypoxémie, hypo/hypercapnie, hyperthermie, hypo/hyperglycémie.
+@ 103–104, 113
+
+QCU · Traumatisé crânien au bloc
+Un traumatisé crânien grave est opéré d'un hématome sous-dural. Quelle valeur faut-il corriger en priorité ?
++ Pression artérielle systolique à 105 mmHg :: L'objectif est une PAS supérieure à 110 mmHg.
+- EtCO2 à 33 mmHg :: Valeur proche de la normocapnie visée.
+- Glycémie à 1,6 g/L :: Valeur acceptable.
+- Température à 36,8 °C :: Normothermie.
+> Chez le traumatisé crânien, l'hypotension est l'agression secondaire la plus délétère : objectif PAS > 110 mmHg.
+@ 113–114
+
+QCU · Position assise et pression cérébrale
+En position assise, la PAM au brassard est de 80 mmHg ; le tragus est 25 cm plus haut. Sachant qu'un centimètre de sang correspond à 0,77 mmHg, quelle est la PAM estimée au niveau du cerveau ?
+- 80 mmHg :: On oublie la différence de hauteur.
++ Environ 61 mmHg :: 80 − (25 × 0,77) = 80 − 19 = 61 mmHg.
+- Environ 55 mmHg :: Calcul erroné.
+- Environ 99 mmHg :: Le cerveau est plus haut : on soustrait le gradient, on ne l'ajoute pas.
+> En position assise, la pression au cerveau est plus basse qu'au brassard : le capteur de PA invasive se place au niveau du tragus.
+@ 116–117
+
+QCU · CO2 et débit
+Évaluez les deux affirmations et leur lien.
+1. Une hausse de la PaCO2 augmente le débit sanguin cérébral.
+2. Une hausse de la PaCO2 provoque une vasodilatation cérébrale.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La vasodilatation diminue les résistances : le débit augmente. Dans un crâne peu compliant, le volume sanguin supplémentaire fait aussi monter la PIC.
+@ 94, 101
+
+QCU · Dérivation ventriculaire externe
+Une DVE est réglée à +15 cmH2O par rapport au tragus. On redresse le dossier : la tête monte de 20 cm, la DVE reste fixée au pied à perfusion. Quelle est la conséquence ?
+- Aucune, car le réglage est exprimé en cmH2O :: Le réglage est relatif à la position de la tête.
+- Le drainage s'arrête :: C'est l'inverse.
++ La chambre se retrouve 5 cm sous le tragus : risque d'hyperdrainage :: 15 − 20 = −5 cm.
+- La PIC double :: La PIC ne dépend pas du niveau de la chambre.
+> Toute mobilisation impose de clamper la DVE, puis de refaire le zéro au tragus avant de la rouvrir. Un hyperdrainage peut provoquer un hématome ou un engagement.
+@ 20–21
+
+QCU · Réveil en SSPI
+En SSPI, 40 minutes après une AG, un patient n'est pas réveillable ; sa fréquence respiratoire est de 6/min, ses pupilles en myosis serré et symétrique, sans déficit focal. Quelle est l'hypothèse la plus probable ?
+- Un AVC du tronc cérébral :: Il donnerait plutôt des signes asymétriques ou des anomalies pupillaires variées.
+- Une curarisation résiduelle :: Elle donne une faiblesse avec agitation, pas un myosis.
+- Une hypoglycémie :: Elle ne donne pas de myosis serré ; on la vérifie cependant toujours.
++ Un surdosage en morphinique :: Bradypnée et myosis serré bilatéral en sont la signature.
+> Coma, bradypnée et myosis serré : surdosage morphinique. On stimule, on ventile, et on titre la naloxone.
+@ 48–49, 61, 102

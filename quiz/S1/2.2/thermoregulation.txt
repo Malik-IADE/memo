@@ -1,0 +1,352 @@
+// Quiz 19 – Thermorégulation (UE 2.2), d'après « QUIZZ 19 Thermoregulation.html »
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Thermorégulation
+
+QCM · Complications
+Quelles complications peuvent être favorisées par une hypothermie périopératoire involontaire ?
++ Des infections du site opératoire. :: L’hypothermie altère les défenses immunitaires et la perfusion périphérique au réveil.
++ Une augmentation des pertes sanguines. :: L’agrégation plaquettaire et la cascade de coagulation sont thermodépendantes.
+- Une diminution des besoins métaboliques liés au frisson au réveil. :: Le frisson augmente la consommation d’oxygène et la contrainte cardiovasculaire.
++ Une prolongation de l’action de certains curares. :: Le refroidissement ralentit notamment la dégradation de l’atracurium.
+- Une accélération du réveil par élimination plus rapide du propofol. :: Le ralentissement du métabolisme favorise au contraire une persistance des effets.
+> L'hypothermie périopératoire n'est pas un simple inconfort : elle augmente les infections du site opératoire, le saignement, la durée d'action des curares et des hypnotiques. Le frisson au réveil, loin de réduire les besoins, multiplie la consommation d'oxygène et agresse le myocarde.
+@ Diapositives 12 à 16
+
+QCM · Risque infectieux
+Quels mécanismes expliquent le lien entre hypothermie et infection du site opératoire ?
++ Une moindre efficacité des leucocytes et des macrophages.
+- Une stérilisation de la plaie dès que sa température descend à 35 °C. :: Une plaie à 35 °C reste un milieu où les germes peuvent proliférer.
++ Une vasoconstriction au réveil réduisant l’apport local d’oxygène. :: La baisse du débit périphérique limite l’arrivée de l’oxygène et des cellules de défense.
++ Une diminution de l’arrivée de l’antibiotique dans les territoires peu perfusés. :: La vasoconstriction périphérique peut réduire l’accès local de l’antibiotique.
+- Une suppression de l’intérêt de l’antibioprophylaxie chez le patient réchauffé. :: Le réchauffement complète l’asepsie et l’antibioprophylaxie ; il ne les remplace pas.
+> Deux mécanismes se conjuguent : l'immunité cellulaire est directement déprimée par le froid, et la vasoconstriction réduit l'apport local d'oxygène comme la diffusion de l'antibiotique. Maintenir la normothermie fait donc partie de la prévention des infections, au même titre que l'antibioprophylaxie.
+@ Diapositive 12
+
+QCM · Hémostase
+Un patient hypotherme présente un saignement alors que son TP et son TCA sont normaux au laboratoire. Quelles propositions sont exactes ?
+- Le résultat normal exclut un effet de la température sur la coagulation du patient. :: La température utilisée dans l’automate peut différer de celle du patient.
++ L’agrégation plaquettaire dépend de la température. :: L’hypothermie perturbe la fonction plaquettaire décrite dans le cours.
++ La cascade de coagulation dépend de la température. :: Il s’agit d’une succession de réactions thermodépendantes.
++ Le réchauffement de l’échantillon dans l’automate peut masquer le trouble lié au froid. :: Les tubes sont réchauffés pour l’analyse.
+- Une baisse de 1 °C diminue les pertes sanguines d’environ 16 %. :: Il s’agit d’une augmentation d’environ 16 %, et d’environ 22 % pour le risque de transfusion.
+> Un bilan d'hémostase normal n'exclut rien : le laboratoire réchauffe l'échantillon à 37 °C avant de l'analyser et masque précisément le trouble recherché. L'hypothermie altère l'agrégation plaquettaire et ralentit la cascade de la coagulation. Devant un saignement anormal chez un patient froid, la première mesure est de le réchauffer.
+@ Diapositive 13
+
+QCM · Médicaments
+Quelles conséquences pharmacologiques de l’hypothermie sont exactes ?
++ La durée d’action de l’atracurium peut augmenter. :: Le support indique une augmentation de 60 % ; sa dégradation par la voie de Hofmann ralentit avec le froid.
+- La dégradation de l’atracurium est indépendante de la température.
++ À 34 °C, la concentration plasmatique de propofol peut être plus élevée. :: Le support indique une augmentation de 30 % à cette température.
+- Le refroidissement accélère les réactions enzymatiques. :: L’effet décrit est un ralentissement des réactions enzymatiques.
++ Le vécuronium est cité parmi les curares dont la durée d’action augmente. :: Le support donne une augmentation de durée d’action de 100 %.
+> Le froid ralentit toutes les réactions chimiques et enzymatiques. La voie de Hofmann de l'atracurium, le métabolisme hépatique du propofol et l'élimination du vécuronium s'en trouvent freinés : les durées d'action s'allongent et les concentrations restent élevées. Une curarisation résiduelle ou un réveil retardé chez un patient froid s'expliquent d'abord par là.
+@ Diapositive 16
+
+QCM · Seuil et objectif
+Concernant les repères de température en périopératoire, quelles propositions sont exactes ?
++ Une Tc < 36 °C définit l’hypothermie dans l’enquête française présentée. :: Ce seuil sert au critère d’hypothermie à l’arrivée en SSPI.
+- 36 °C correspond à la température physiologique habituelle de chaque patient. :: Les températures varient selon les personnes et le site de mesure.
++ Une Tc ≥ 36,5 °C constitue l’objectif proposé. :: Le cours retient cette cible, notamment à l’arrivée en SSPI.
++ Connaître la température avant l’anesthésie aide à apprécier la prévention du refroidissement.
+- Un patient ne peut pas être hypotherme avant l’induction. :: 16 % des patients de l’enquête ont déjà une Tc < 36 °C avant l’induction.
+> Deux repères à ne pas confondre : l'hypothermie se définit sous 36 °C, mais l'objectif à viser est d'au moins 36,5 °C. Et la température se mesure avant l'induction : un patient peut arriver au bloc déjà refroidi, ce qui change la stratégie de prévention.
+@ Diapositives 7 et 17 à 21
+
+QCM · Compartiments
+Quelles propositions décrivent correctement les compartiments thermiques ?
++ Le compartiment central protège le niveau thermique des organes essentiels.
++ Le compartiment périphérique participe aux échanges avec l’environnement. :: Il sert de zone tampon, notamment au niveau des membres.
+- La périphérie est à la même température que le centre. :: Le schéma présente un centre vers 37 °C et une périphérie vers 32-33 °C avant l’anesthésie.
++ La vasoconstriction réduit les échanges de chaleur vers la périphérie. :: Elle contribue à protéger le compartiment central.
+- Le préchauffage vise principalement à refroidir le compartiment central. :: Il vise à augmenter la chaleur périphérique avant l’induction.
+> L'organisme n'est pas homogène : un compartiment central, maintenu stable, et un compartiment périphérique plus froid, qui sert de tampon avec l'environnement. C'est le gradient entre les deux qui explique la chute brutale à l'induction, et c'est lui que le préchauffage cherche à réduire.
+@ Diapositives 24, 32 et 55
+
+QCM · Boucle de régulation
+Quelles propositions concernant la thermorégulation physiologique sont exactes ?
++ L’hypothalamus intervient dans l’intégration des informations thermiques. :: Il est comparé à une tour de contrôle dans l’explication orale.
++ La peau et les tissus profonds peuvent fournir des informations thermiques. :: Les afférences proviennent de plusieurs territoires.
++ Mettre un vêtement est une réponse comportementale. :: C’est un exemple de réponse du sujet éveillé.
+- La sudation est une réponse destinée à conserver la chaleur en situation de froid. :: La sudation participe à l’élimination de chaleur.
+- Le patient sous anesthésie générale peut assurer lui-même ses réponses comportementales habituelles. :: Il ne peut pas spontanément se couvrir ou rechercher un environnement plus adapté.
+> La thermorégulation fonctionne en boucle : des capteurs cutanés et profonds, une intégration hypothalamique, puis des réponses autonomes (vasomotricité, frisson, sudation) et comportementales. Sous anesthésie générale, les réponses comportementales disparaissent et les réponses autonomes sont émoussées : c'est l'équipe qui devient le thermostat du patient.
+@ Diapositives 25 et 26
+
+QCM · Seuils thermiques
+Quelles modifications des seuils de thermorégulation sont associées à l’anesthésie ?
++ Les défenses contre le froid peuvent apparaître à des températures plus basses. :: Les agents abaissent les seuils de vasoconstriction et de frisson.
+- L’absence de frisson prouve que le patient ne refroidit pas. :: Le frisson peut être inhibé ou retardé malgré la baisse de Tc.
++ La zone dans laquelle aucune défense efficace ne se déclenche s’élargit. :: L’intervalle très étroit à l’état éveillé s’élargit sous anesthésie.
+- Les seuils sont totalement indépendants de la concentration en anesthésique. :: Le graphique au desflurane montre une évolution des seuils avec sa concentration.
+- L’intervalle vasoconstriction-sudation normal est d’environ 2 °C. :: Le repère présenté est d’environ 0,2 °C.
+> L'anesthésie n'abolit pas la thermorégulation : elle écarte ses seuils. L'intervalle sans défense, normalement de quelques dixièmes de degré, s'élargit à plusieurs degrés, et ce d'autant plus que la concentration d'agent est élevée. Le patient peut donc se refroidir sans frissonner : l'absence de frisson ne rassure pas.
+@ Diapositives 27 et 28
+
+QCM · Facteurs de refroidissement
+Quels facteurs participent à l’hypothermie sous anesthésie ?
++ L’inhibition de la thermorégulation par les agents administrés. :: C’est le premier des trois facteurs présentés.
+- Une augmentation constante de la production métabolique de chaleur. :: La production de chaleur diminue sous anesthésie.
++ Une réduction de la production endogène de chaleur. :: La baisse de VO₂ accompagne la diminution du métabolisme.
++ L’exposition à un environnement relativement froid. :: Elle facilite les pertes, surtout si le patient est découvert.
+- Une disparition des échanges cutanés après l’induction. :: Les pertes cutanées augmentent au contraire dans le bilan présenté.
+> Trois mécanismes se cumulent sous anesthésie : les agents inhibent la thermorégulation, la production métabolique de chaleur diminue, et l'exposition dans une salle à 19-21 °C augmente les pertes. Aucun ne disparaît avec le temps : la prévention doit être continue.
+@ Diapositives 29 et 35
+
+QCM · Redistribution
+À l’induction d’une anesthésie, quelles propositions décrivent la redistribution interne de chaleur ?
++ Elle est favorisée par la vasodilatation. :: La vasodilatation facilite la communication entre centre et périphérie.
+- Elle correspond surtout à une perte de chaleur vers l’air ambiant. :: Il s’agit d’abord d’un transfert à l’intérieur de l’organisme.
++ Elle transfère de la chaleur du centre vers la périphérie plus froide. :: La Tc baisse alors que la périphérie se réchauffe.
++ Elle peut expliquer une chute centrale rapide dans les premières minutes.
+- Elle est évitée par la simple surveillance de la température. :: Mesurer n’agit pas sur le gradient thermique.
+> La chute des premières minutes n'est pas une perte vers l'extérieur, mais un déplacement interne : la vasodilatation induite par les agents laisse la chaleur du centre gagner une périphérie plus froide. C'est pourquoi surveiller ne suffit pas : seul le préchauffage, qui réduit le gradient avant l'induction, limite cette redistribution.
+@ Diapositives 30 à 33
+
+QCM · Courbe thermique
+Concernant les phases de la température centrale sous anesthésie générale, quelles propositions sont exactes ?
++ La phase rapide initiale est principalement liée à la redistribution. :: Le transfert centre-périphérie domine le début de l’anesthésie.
++ La phase lente peut résulter de pertes supérieures à la production. :: Elle traduit un bilan thermique négatif.
+- Le plateau signifie que les membres ont retrouvé leur température initiale. :: Ils peuvent continuer à refroidir pendant que la Tc se stabilise.
++ La réapparition de la vasoconstriction contribue au plateau central. :: Elle reprotège le compartiment central.
+- Une nouvelle baisse de Tc est impossible au réveil. :: Le retour des échanges avec une périphérie froide peut abaisser de nouveau la Tc.
+> Trois phases : une chute rapide d'environ un degré dans la première heure, par redistribution ; une décroissance lente, quand les pertes dépassent la production ; puis un plateau, lorsque la vasoconstriction réapparaît. Le plateau ne signifie pas que le patient est réchauffé : la dette thermique périphérique reste entière, et la température peut rebaisser au réveil.
+@ Diapositives 31, 39 et 40
+
+QCM · Bilan thermique
+Quelles propositions décrivent le bilan thermique d’un adulte anesthésié ?
++ La production de chaleur peut diminuer par rapport à l’état éveillé. :: Le support donne une baisse d’environ 30 %.
++ Les pertes cutanées peuvent augmenter. :: Le support indique une augmentation de l’ordre de 20 à 25 %.
++ Le déficit peut être de l’ordre de 50 à 70 W. :: Ce déficit est le repère présenté pour la dette thermique.
+- Les fluides perfusés à température ambiante n’ont pas d’effet thermique notable. :: Les fluides plus froids que le patient contribuent au refroidissement.
+- Le watt est ici l’unité de température centrale. :: Le watt exprime une puissance thermique ; la température est exprimée en °C.
+> Sous anesthésie, la production de chaleur baisse pendant que les pertes augmentent : le déficit atteint 50 à 70 W. Le watt mesure une puissance, c'est-à-dire une énergie par seconde, et non une température : c'est ce qui permet de comparer l'efficacité réelle des moyens de réchauffement.
+@ Diapositives 35 et 47
+
+QCM · Pertes cutanées
+Quelles associations entre mécanisme et échange thermique sont exactes ?
++ Radiation : échange sans contact direct, diminué en couvrant la peau. :: La radiation constitue la principale perte cutanée du schéma.
++ Conduction : échange par contact avec un matériau.
++ Convection : échange avec de l’air en mouvement. :: L’air chaud pulsé utilise ce mécanisme pour apporter de la chaleur.
+- Évaporation : absence d’échange thermique lorsque l’eau devient vapeur. :: Le passage à l’état de vapeur entraîne une perte de chaleur.
+- Conduction : principale voie de perte cutanée, environ 60 %. :: Le chiffre d’environ 60 % correspond à la radiation ; la conduction est donnée à 5 %.
+> Quatre mécanismes de perte : radiation, qui domine avec environ 60 % des pertes cutanées, convection par l'air en mouvement, conduction par contact, et évaporation, qui consomme beaucoup d'énergie lors du passage de l'eau à la vapeur. Couvrir la peau agit sur les trois premiers.
+@ Diapositives 36 et 48
+
+QCM · Anesthésie neuraxiale
+Pourquoi une rachianesthésie peut-elle favoriser l’hypothermie ?
++ Le bloc sympathique entraîne une vasodilatation sous le niveau du bloc. :: Cette vasodilatation participe à la redistribution interne.
++ Les afférences thermiques du territoire bloqué sont perturbées. :: L’intégration centrale reçoit moins bien ces informations.
+- La perception du froid est renforcée. :: Elle peut être diminuée ou modifiée.
++ La vasoconstriction des membres inférieurs peut rester impossible. :: Le bloc sympathique empêche cette défense dans le territoire concerné.
+- Le maintien de l’état éveillé supprime le risque de baisse centrale. :: Une patiente éveillée sous rachianesthésie peut devenir hypotherme.
+> La rachianesthésie refroidit par trois voies : la vasodilatation du territoire bloqué redistribue la chaleur, les afférences thermiques de ce territoire sont perturbées, et la vasoconstriction des membres inférieurs devient impossible. Le patient reste éveillé mais ne perçoit pas toujours le froid : il faut mesurer sa température comme sous anesthésie générale.
+@ Diapositive 41
+
+QCM · Sujet âgé
+Quels éléments contribuent à la vulnérabilité thermique du sujet âgé ?
++ Un seuil de vasoconstriction abaissé. :: Les défenses peuvent se déclencher plus tard que chez un sujet jeune.
++ Une sarcopénie limitant la chaleur produite par les frissons. :: La sarcopénie est la diminution de la masse musculaire.
++ Une perception du froid parfois moins nette. :: L’absence de demande de couverture est donc peu rassurante.
+- Une protection assurée par l’absence de plainte. :: La sensation subjective ne remplace pas la mesure de température.
+- Une exposition en tenue légère sans conséquence thermique. :: L’attente dans un milieu froid peut participer à l’hypothermie préopératoire.
+> Le sujet âgé cumule les handicaps : seuil de vasoconstriction abaissé, masse musculaire insuffisante pour produire de la chaleur par le frisson, et perception du froid émoussée. Son absence de plainte n'est donc pas rassurante : c'est un signe de plus de sa vulnérabilité.
+@ Diapositives 21 et 43
+
+QCM · Morphologie
+Quelles propositions sur la morphologie et le refroidissement sont exactes ?
++ Le tissu adipeux peut participer à l’isolation thermique.
++ Les patients minces ont, dans les graphiques présentés, une baisse thermique plus rapide. :: Les courbes montrent un refroidissement plus marqué lorsque l’adiposité est faible.
+- Un IMC élevé dispense de prévention thermique. :: La différence de refroidissement ne supprime pas les mécanismes liés à l’anesthésie.
++ La morphologie peut intervenir dans l’efficacité du réchauffement cutané. :: Elle figure parmi les limites du réchauffement présentées.
+- L’IMC permet de prédire la Tc à l’arrivée en SSPI. :: Il ne remplace pas la mesure et les autres éléments de la prise en charge.
+> Le tissu adipeux isole : à prévention égale, un patient mince se refroidit plus vite qu'un patient obèse, et le réchauffement cutané lui transfère la chaleur plus efficacement. Mais aucune morphologie ne dispense de la prévention, et l'IMC ne permet pas de prédire la température d'arrivée en salle de surveillance.
+@ Diapositives 42 et 59
+
+QCM · Isolation passive
+Quelles propositions concernant la couverture passive du patient sont exactes ?
++ Elle limite les pertes cutanées. :: Elle réduit l’exposition de la peau, notamment les échanges par radiation.
+- Elle apporte assez d’énergie pour compenser la dette thermique. :: Limiter les pertes n’apporte pas l’énergie transférée par un dispositif actif.
++ Elle peut être utile pendant l’installation et le transport.
+- Une pose de voie veineuse impose de découvrir tout le corps. :: Il suffit de découvrir la zone nécessaire au geste.
++ Elle peut être associée au réchauffement actif. :: Couvrir et réchauffer sont complémentaires.
+> Une couverture passive limite les pertes, sans apporter la moindre énergie : elle ralentit le refroidissement, elle ne comble pas la dette thermique. Elle garde tout son intérêt pendant l'installation et le transport, et se combine au réchauffement actif plutôt que de s'y substituer.
+@ Diapositives 46, 49 et 50; exemples oraux de l’installation
+
+QCM · Transfert de chaleur
+Pour qu’un réchauffement cutané actif soit efficace, quelles propositions sont exactes ?
++ La surface réchauffée participe à l’énergie totale transférée. :: Une petite zone chauffée peut ne pas suffire à compenser le déficit global.
++ La température cutanée moyenne intervient dans le flux thermique. :: Le graphique relie cette température au gain ou à la perte nette de chaleur.
+- Un flux thermique nul signifie un gain net important. :: Un flux nul correspond à un équilibre entre gains et pertes.
+- La température de l’air à la sortie de l’appareil est identique à la Tc. :: Température de l’air, température cutanée moyenne et température centrale sont distinctes.
+- Un réchauffeur posé est efficace, quelle que soit sa mise en place. :: La durée, la surface et le montage conditionnent l’efficacité réelle.
+> L'énergie transférée dépend de la surface réchauffée et du gradient entre l'air soufflé et la peau. D'où deux conséquences pratiques : couvrir la plus grande surface accessible, et vérifier la mise en place du dispositif, car une couverture mal posée ne transfère rien, quel que soit le réglage affiché.
+@ Diapositives 51, 58 et 59
+
+QCM · Préchauffage
+Quels effets recherche-t-on avec un préchauffage avant l’induction ?
++ Augmenter le contenu en chaleur périphérique. :: Le réchauffement préalable de la périphérie est le mécanisme recherché.
++ Diminuer le gradient centre-périphérie. :: Les deux compartiments deviennent moins éloignés thermiquement.
+- Provoquer une hypothermie centrale avant d’administrer l’anesthésique. :: Il ne s’agit pas de refroidir le centre.
++ Limiter la chute centrale lors de la redistribution. :: Le mélange avec une périphérie moins froide fait moins baisser la Tc.
+- Rendre inutile le réchauffement peropératoire. :: Le préchauffage ne compense pas à lui seul les pertes ultérieures.
+> Le préchauffage ne vise pas à élever la température centrale, mais à charger la périphérie en chaleur pour réduire le gradient centre-périphérie. La redistribution de l'induction a alors moins de chaleur à déplacer, et la chute initiale est atténuée. Il ne remplace pas le réchauffement peropératoire : il le complète.
+@ Diapositives 53 à 57
+
+QCM · Moment du réchauffement
+Quelles propositions sur le moment du réchauffement sont exactes ?
++ Un préchauffage peut commencer dès l’accueil et l’installation.
+- Un réchauffement commencé après l’induction prévient la chute initiale de température. :: La redistribution peut déjà être installée avant que l’appareil ait transféré assez d’énergie.
++ Dix minutes de préchauffage peuvent déjà être utiles. :: L’étude comparant 0, 10, 20 et 30 minutes illustre l’intérêt de durées courtes.
++ Associer préchauffage et réchauffement peropératoire est plus efficace que le peropératoire seul. :: Le support rapporte une diminution d’hypothermie avec cette association.
+- Il faut attendre l’arrivée en SSPI pour prévenir la redistribution. :: La redistribution initiale survient après l’induction ; la prévention doit l’anticiper.
+> La redistribution se joue dans les premières minutes : un réchauffement commencé après l'induction ne peut plus la prévenir. Dix minutes de préchauffage à l'accueil suffisent déjà à en limiter l'ampleur, et l'association préchauffage puis réchauffement peropératoire est plus efficace que le peropératoire seul.
+@ Diapositives 53, 55, 56 et 57
+
+QCM · Continuité
+Quelles mesures contribuent à la continuité de la prévention thermique ?
++ Découvrir seulement la région nécessaire aux gestes. :: Cela limite les pertes pendant l’installation.
+- Retirer la couverture dès la fin de l’intervention, avant le réveil. :: L’anesthésie résiduelle et l’exposition peuvent encore entraîner une baisse de Tc.
++ Maintenir le patient couvert pendant le transport en SSPI. :: Le transfert peut s’accompagner d’une baisse thermique.
++ Poursuivre la prise en charge thermique en SSPI lorsque nécessaire. :: La thermorégulation n’est pas forcément rétablie immédiatement.
+- Considérer qu’une extubation prouve le retour complet de la thermorégulation. :: Un patient respirant seul peut encore avoir une inhibition résiduelle.
+> La prévention thermique n'a pas de fin définie par l'intervention : elle couvre l'accueil, l'installation, le geste, le transport et la salle de surveillance. Découvrir un patient dès la fin de l'intervention ou à l'extubation annule une partie du travail fait : la thermorégulation ne revient pas avec la conscience.
+@ Diapositives 52, 59, 60 et 72
+
+QCM · Utilisation de l’air pulsé
+Concernant l’utilisation d’une couverture à air pulsé, identifiez les propositions exactes.
+- Insérer le tuyau directement sous un drap pour éviter d’utiliser la couverture prévue. :: Le jet direct expose à une brûlure et ne diffuse pas l’air comme le dispositif prévu.
+- Placer un drap entre la peau et la couverture soufflante pour protéger la peau. :: Le drap interposé empêche la bonne circulation de l’air vers la peau.
++ Utiliser la couverture adaptée pour diffuser l’air chaud sur la surface accessible. :: Le dispositif prévu distribue l’air et permet le transfert de chaleur sur la surface réchauffée.
+- Concentrer l’air chaud sur une petite zone, comme les pieds. :: La surface et le temps limitent l’énergie pouvant être transférée.
+- Arrêter automatiquement le réchauffement dès qu’une Tc de 36,5 °C est atteinte, sans considérer la suite.
+> Le réchauffement à air pulsé n'est efficace qu'avec sa couverture dédiée, dont le rôle est de répartir l'air chaud sur une large surface. Souffler directement sous un drap concentre la chaleur et expose à la brûlure ; intercaler un drap entre la couverture et la peau fait écran et annule le transfert.
+@ Diapositives 58, 59 et 61; exemples oraux de mésusage
+
+QCM · Sécurité et entretien
+Concernant la sécurité du réchauffement à air pulsé, quelles propositions sont exactes ?
++ Un usage inapproprié peut provoquer une brûlure. :: Le tuyau directement appliqué à la peau est l’exemple donné.
++ Le suivi de l’entretien des filtres participe à la sécurité.
++ Le repère d’entretien présenté est une fois par an ou après 500 heures. :: Il s’agit de la consigne constructeur affichée dans le support.
+- La controverse infectieuse impose d’abandonner tout réchauffement actif. :: Le support retient le bénéfice du réchauffement et l’importance de son bon usage.
++ La couverture dédiée a pour fonction de diffuser l’air chaud. :: Elle évite notamment l’application d’un jet concentré directement sur la peau.
+> Deux conditions de sécurité : respecter le montage prévu, car un tuyau libre peut brûler la peau, et suivre l'entretien de l'appareil, filtres compris, une fois par an ou toutes les 500 heures. La controverse sur la dispersion de particules ne remet pas en cause le réchauffement actif, dont le bénéfice est établi.
+@ Diapositives 61 et 62
+
+QCM · SSPI
+Un patient arrive en SSPI avec une Tc > 36 °C. Quelles propositions sont exactes ?
+- Sa température ne peut plus baisser. :: 15,2 % des patients au-dessus de 36 °C à l’arrivée sont hypothermes à la sortie dans l’enquête.
++ Des effets résiduels de l’anesthésie peuvent encore perturber sa thermorégulation. :: Ils peuvent persister malgré le réveil apparent.
++ Certains médicaments administrés pour l’analgésie peuvent participer à l’inhibition de la thermorégulation.
++ L’exposition dans un environnement froid peut encore contribuer aux pertes. :: La continuité de la couverture reste utile.
+- L’absence de douleur exclut l’hypothermie. :: La douleur et la température sont des dimensions différentes ; la température doit être appréciée.
+> Arriver en normothermie ne met pas à l'abri : les agents anesthésiques et les morphiniques continuent d'inhiber la thermorégulation pendant la phase de réveil, et l'environnement reste froid. La température doit donc être mesurée à l'arrivée et surveillée, chez un patient qui ne peut pas encore se plaindre du froid.
+@ Diapositive 60; commentaires oraux sur la SSPI
+
+QCM · Réchauffement des fluides
+Quelles propositions sur le réchauffement des fluides sont exactes ?
++ Il constitue généralement un complément du réchauffement cutané. :: C’est la place donnée au dispositif dans le support.
++ L’énergie transférée dépend notamment du volume administré. :: Moins de liquide réchauffé apporte moins de chaleur par cette voie.
++ Son intérêt augmente lorsque le volume perfusé ou transfusé est important. :: Le volume est l’un des principaux éléments discutés.
+- Un très petit volume réchauffé fournit le même apport thermique qu’un volume important. :: Le volume limite l’énergie totale transférée.
+- Son efficacité est indépendante du débit et de la technologie. :: Chaque matériel possède ses caractéristiques et une plage de débit adaptée.
+> Le réchauffement des fluides est un complément, jamais un substitut au réchauffement cutané : l'énergie apportée est proportionnelle au volume administré. Perfuser 500 mL réchauffés n'apporte presque rien ; transfuser plusieurs litres change la donne. Son efficacité dépend aussi du débit et de la technologie utilisée.
+@ Diapositives 63, 64, 68, 69 et 70
+
+QCM · Césarienne
+Concernant une césarienne sous rachianesthésie, quelles propositions sont exactes ?
++ Une patiente jeune et éveillée peut devenir hypotherme. :: Les études présentées montrent une baisse de Tc malgré ces caractéristiques.
+- L’absence de plainte de froid permet d’exclure une hypothermie. :: Le bloc modifie les afférences et la perception thermique.
++ Le réchauffement des fluides peut limiter la baisse sans la supprimer. :: Dans l’essai présenté, la baisse moyenne est de 1,2 contre 1,6 °C.
++ La durée relativement courte peut limiter l’efficacité d’un réchauffement cutané démarré tard. :: Le temps disponible peut être insuffisant pour compenser la redistribution.
+- La morphine associée au bloc n’a pas d’effet sur la thermorégulation.
+> Une patiente jeune, éveillée et sans plainte peut être franchement hypotherme : le bloc sympathique l'empêche de se défendre et la morphine intrathécale inhibe la thermorégulation. La durée courte du geste limite l'efficacité d'un réchauffement cutané commencé tardivement, d'où l'intérêt du préchauffage.
+@ Diapositives 41 et 65 à 67
+
+QCM · Circuit de perfusion
+Quels éléments peuvent limiter l’efficacité d’un réchauffeur de fluides ?
++ Un débit inadapté au système utilisé. :: La performance varie selon la technologie et sa plage de débit.
++ Un volume administré trop faible pour apporter suffisamment de chaleur. :: Le faible volume constitue une limite mentionnée.
++ Une longue tubulure ajoutée après le réchauffeur. :: Le liquide peut reperdre de la chaleur avant d’atteindre le patient.
+- Une température de sortie effectivement maintenue jusqu’à la voie veineuse. :: Cela favorise l’efficacité ; ce n’est pas une cause de limitation.
++ Un montage incorrect du dispositif. :: Le mésusage figure parmi les limites du réchauffement des fluides.
+> Un réchauffeur de fluides ne délivre pas ce qu'il affiche : une longue tubulure après l'appareil laisse le liquide se refroidir avant la veine, un débit inadapté dépasse ses capacités, et un volume faible n'apporte pas assez d'énergie. Vérifier le montage et placer le réchauffeur au plus près du patient font partie de la technique.
+@ Diapositives 69 et 70
+
+QCM · Réchauffement des fluides
+Dans quelles situations faut-il réchauffer les fluides perfusés ?
++ Acte de moins de 60 minutes en l’absence de préchauffage. :: Cette association de durée courte et absence de préchauffage est indiquée dans les trois règles.
++ Surface cutanée disponible pour le réchauffement inférieure à 25 %. :: Le manque de surface justifie un complément par les fluides.
++ Transfusion de produits sanguins labiles. :: Cette situation est explicitement retenue.
+- Lorsque la température dépasse 38 °C. :: L’indication concerne la prévention du refroidissement dans les situations décrites.
+- Pour remplacer la couverture du patient. :: Le réchauffement des fluides complète la prévention cutanée.
+> Le réchauffement des fluides s'impose quand le réchauffement cutané ne peut pas suffire : geste court sans préchauffage, surface cutanée accessible inférieure à 25 %, ou transfusion de produits sanguins, conservés à basse température. Il complète la couverture, il ne la remplace jamais.
+@ Diapositives 68 et 72; trois règles de prévention
+
+QCM · Mesure de température
+Quelles propositions sur la mesure de température sont exactes ?
++ Le site de mesure influence la valeur obtenue. :: Plusieurs sites peuvent donner des valeurs différentes au même moment.
+- L’ajout automatique de 0,5 °C rend toute mesure axillaire équivalente à une mesure centrale.
++ Un flux d’oxygène passant sur une sonde buccale peut perturber la mesure. :: Il souligne le rôle de la position sous la langue et de la bouche fermée.
+- Faire la moyenne de deux mesures très discordantes. :: Il faut rechercher les conditions ou l’erreur de mesure.
++ Le choix du site doit chercher une valeur représentative du compartiment central. :: C’est l’objectif de la surveillance de la Tc.
+> Le site de mesure conditionne la valeur : les sites centraux, œsophagien ou nasopharyngé, restent la référence, tandis que les sites périphériques sous-estiment la température centrale. Un correctif forfaitaire ne rend pas une mesure axillaire équivalente, et un flux d'oxygène sur une sonde buccale la fausse.
+@ Diapositive 75
+
+QCM · Évaluation des pratiques
+Quelles actions permettent d’évaluer et d’améliorer la prévention thermique au bloc ?
++ Mesurer la Tc à l’arrivée en SSPI lors d’audits. :: C’est l’indicateur proposé dans les trois règles.
++ Vérifier le moment de début et la durée réelle du réchauffement. :: La présence d’un appareil ne garantit pas une utilisation utile.
+- Considérer le taux d’équipement comme une preuve suffisante de normothermie. :: 90,3 % de réchauffement cutané coexistent avec 52 % d’hypothermie dans l’enquête.
++ Comparer les résultats à l’objectif thermique retenu.
+- Remplacer le réchauffement actif par un monitorage continu. :: Le thermomètre mesure mais n’apporte pas de chaleur.
+> Disposer d'un appareil ne prouve pas qu'on l'utilise bien : l'enquête relève 90,3 % de réchauffement cutané pour 52 % de patients hypothermes. L'évaluation porte donc sur le résultat, la température à l'arrivée en salle de surveillance, et sur la pratique réelle : à quel moment le réchauffement a commencé, et combien de temps il a duré.
+@ Diapositives 9, 58, 72 et 76
+
+QCU · Préchauffage et causalité
+
+Affirmation 1. Le préchauffage peut limiter la baisse de température centrale après l’induction.
+Affirmation 2. Il réchauffe la périphérie et diminue le gradient thermique entre centre et périphérie.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien explicatif entre elles.
+- La première affirmation est vraie et la seconde est fausse.
+- La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies. Le lien est explicatif : en réchauffant la périphérie avant l’induction, le préchauffage réduit le transfert de chaleur nécessaire lorsque la vasodilatation met les compartiments en communication. La chute centrale liée à la redistribution est donc limitée.
+@ Diapositives 55 à 57
+
+QCU · Plateau thermique
+
+Affirmation 1. Une température centrale en plateau peut coexister avec une baisse de température des jambes.
+Affirmation 2. Le plateau central provoque le réchauffement immédiat de tous les territoires périphériques.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien explicatif entre elles.
++ La première affirmation est vraie et la seconde est fausse.
+- La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première affirmation est vraie : la vasoconstriction reprotège le centre pendant que la périphérie reste exposée et refroidit. La seconde est fausse : le plateau ne signifie pas réchauffement des membres. Leur température peut continuer à baisser, avec une nouvelle chute centrale possible lors du retour des échanges.
+@ Diapositives 39 et 40; commentaires oraux du plateau
+
+QCU · Perception sous rachianesthésie
+
+Affirmation 1. L’absence de sensation de froid sous rachianesthésie prouve que la température centrale est normale.
+Affirmation 2. Le bloc des afférences thermiques peut modifier l’intégration centrale et la perception du froid.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien explicatif entre elles.
+- La première affirmation est vraie et la seconde est fausse.
++ La première affirmation est fausse et la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première affirmation est fausse : un patient peut être hypotherme sans plainte. La seconde est vraie : l’interruption des informations du territoire bloqué modifie la perception. Elle explique pourquoi l’absence de sensation de froid ne permet pas d’exclure une hypothermie.
+@ Diapositive 41
+
+QCU · Mesure et prévention
+
+Affirmation 1. Le monitorage de la température apporte l’énergie nécessaire pour compenser la dette thermique.
+Affirmation 2. Une couverture passive réchauffe la périphérie autant qu’un préchauffage actif et rend celui-ci inutile.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien explicatif entre elles.
+- La première affirmation est vraie et la seconde est fausse.
+- La première affirmation est fausse et la seconde est vraie.
++ Les deux affirmations sont fausses.
+> Les deux affirmations sont fausses. Le thermomètre mesure une température mais ne transfère pas de chaleur. Une couverture passive limite les pertes ; elle ne reproduit pas l’apport énergétique d’un préchauffage actif. La prévention associe des actions thermiques réelles et leur évaluation.
+@ Diapositives 46, 50, 55, 57 et 76

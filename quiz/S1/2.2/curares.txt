@@ -1,0 +1,277 @@
+// Quiz 27 – Curares (UE 2.2), d'après « QUIZZ 27 Curares.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Curares
+
+QCM · Plaque motrice
+Quelles affirmations sur la transmission neuromusculaire, du bouton terminal du motoneurone au muscle, sont exactes ?
++ L'entrée de calcium dans la terminaison nerveuse précède la libération d'acétylcholine :: Le calcium présynaptique déclenche l'exocytose des vésicules.
++ Il faut deux molécules d'acétylcholine pour ouvrir un récepteur nicotinique musculaire :: Une sur chacun des deux sites des sous-unités alpha.
++ Le récepteur nicotinique répond à un ligand, le canal sodique périjonctionnel au voltage :: Deux signaux différents, pour deux étapes successives.
+- Un seul récepteur nicotinique ouvert suffit à déclencher le potentiel d'action musculaire :: Le potentiel de plaque doit d'abord atteindre le seuil d'ouverture des canaux sodiques.
+- La fixation de calcium sur la troponine déclenche la libération d'acétylcholine :: La troponine agit en aval, dans la contraction de la fibre musculaire.
+> Le potentiel d'action nerveux ouvre des canaux calciques présynaptiques ; le calcium entrant provoque l'exocytose de l'acétylcholine. Deux molécules d'acétylcholine ouvrent le récepteur nicotinique, et le potentiel de plaque qui en résulte doit atteindre le seuil des canaux sodiques voltage-dépendants pour que le muscle se contracte.
+@ 13–22, 25
+
+QCM · Cholinestérases
+Quelles affirmations sur l'acétylcholinestérase et les pseudocholinestérases sont exactes ?
++ L'acétylcholinestérase met fin au signal dans la fente synaptique :: Elle hydrolyse l'acétylcholine et permet le recyclage de la choline.
++ La butyrylcholinestérase est plasmatique et synthétisée par le foie :: D'où l'effet d'une insuffisance hépatique sur son activité.
++ Un déficit en pseudocholinestérase prolonge la succinylcholine et le mivacurium :: Les deux dépendent de cette enzyme pour leur dégradation.
+- La succinylcholine est détruite dans la fente par l'acétylcholinestérase :: Elle y résiste : c'est la butyrylcholinestérase plasmatique qui l'hydrolyse, d'où une dépolarisation prolongée.
+- L'atracurium dépend de la butyrylcholinestérase comme le mivacurium :: Il est hydrolysé par des estérases plasmatiques non spécifiques, distinctes de cette enzyme, et surtout dégradé par la voie de Hofmann.
+> L'acétylcholinestérase agit dans la fente, la butyrylcholinestérase dans le plasma. La succinylcholine et le mivacurium dépendent de cette seconde enzyme : un déficit, génétique ou acquis, allonge leur durée d'action. L'atracurium relève d'autres estérases et de la dégradation chimique de Hofmann.
+@ 23–27, 48, 65–70
+
+QCM · Monitorage
+Sous curare non dépolarisant, la quatrième réponse du train-de-quatre est plus faible que la première. Quelles explications sont exactes ?
++ Il existe des récepteurs nicotiniques présynaptiques :: Ils participent au rétrocontrôle de la libération d'acétylcholine.
++ Le blocage de ces récepteurs gêne la mobilisation des vésicules de réserve :: Le stock disponible s'épuise au fil des stimulations successives.
++ Empêcher la fixation d'une seule des deux acétylcholines suffit à bloquer le récepteur :: L'ouverture exige les deux sites : le curare n'a pas besoin de les occuper tous les deux.
+- Le décrément signifie que le curare a d'abord ouvert les récepteurs :: Un antagoniste non dépolarisant produit ce décrément sans jamais ouvrir le pore.
+- La différence entre T4 et T1 traduit un blocage des récepteurs muscariniques cardiaques :: Le phénomène se joue à la jonction neuromusculaire, sur des récepteurs nicotiniques.
+> Le train-de-quatre répète quatre stimulations rapprochées. Sous curare non dépolarisant, le blocage des récepteurs présynaptiques réduit le réapprovisionnement en acétylcholine : les réponses s'affaiblissent d'une stimulation à l'autre, et le rapport T4/T1 mesure cette fatigue.
+@ 25, 29–30, 43–44
+
+QCM · Puissance et durée
+Quelles définitions des repères pharmacologiques d'un curare sont exactes ?
++ La DA95 est la dose qui déprime de 95 % la réponse de l'adducteur du pouce :: Elle s'exprime en mg/kg et sert de référence de puissance.
++ Le délai d'action est le temps écoulé entre la fin de l'injection et le bloc maximal :: Une durée, là où la DA95 est une dose.
++ La durée totale correspond à la récupération de 90 % de la force initiale :: Elle dépasse largement la durée clinique.
+- La durée d'action clinique se termine quand le rapport T4/T1 atteint 25 % :: Elle est définie par la récupération de 25 % de la force de départ, non par ce rapport.
+- Une DA95 élevée désigne la molécule la plus puissante :: C'est l'inverse : il faut davantage de produit pour le même effet. Le rocuronium, peu puissant, a une DA95 élevée.
+> La DA95 mesure la puissance : plus elle est basse, plus la molécule est puissante. Durée clinique à 25 % de force récupérée, durée totale à 90 %. La DA95 n'est pas la dose d'intubation, qui en représente 2 à 4 fois la valeur.
+@ 34–36, 40
+
+QCM · Doses d'intubation
+Quelles doses d'intubation chez l'adulte sont exactes ?
++ Succinylcholine : 1 mg/kg :: Avec une paralysie maximale en une minute environ.
++ Atracurium : 0,5 mg/kg, soit environ deux fois la DA95 :: Délai de 2 à 3 minutes.
++ Cisatracurium : 0,15 à 0,20 mg/kg, soit trois à quatre fois la DA95 :: Délai plus long, de 3 à 5 minutes.
++ Rocuronium : 0,6 mg/kg en induction standard :: Également deux fois la DA95, pour une molécule peu puissante.
+- Mivacurium : 0,6 mg/kg :: Sa dose d'intubation est de 0,2 mg/kg, soit trois fois la DA95.
+> Chaque molécule s'intube à un multiple de sa DA95 : succinylcholine 1 mg/kg, rocuronium 0,6 mg/kg, atracurium 0,5 mg/kg, mivacurium 0,2 mg/kg, cisatracurium 0,15 à 0,20 mg/kg, vécuronium 0,1 mg/kg. Une dose faible en mg/kg signe une molécule puissante, pas une installation rapide.
+@ 38, 41, 47–56
+
+QCM · Délai d'installation
+Deux patients reçoivent le même bolus en mg/kg : l'un est en état de choc à bas débit, l'autre a une circulation conservée. Quelles affirmations sont exactes ?
++ Un bas débit cardiaque peut retarder l'arrivée du curare à la plaque motrice :: Le transport jusqu'au site d'action dépend de l'hémodynamique.
++ Le diaphragme peut être atteint plus vite que le pouce tout en étant plus résistant au bloc :: Perfusion locale et sensibilité du muscle sont deux paramètres distincts.
++ Augmenter la dose d'une même molécule raccourcit le délai d'installation :: C'est le principe de la dose de séquence rapide du rocuronium.
+- Le bloc maximal est atteint au même instant dans tous les muscles :: Larynx, diaphragme et adducteur du pouce ont des cinétiques différentes.
+- Le cisatracurium s'installe plus vite que l'atracurium parce qu'il est plus puissant :: À leurs doses d'intubation, il s'installe plus lentement : la puissance ne prédit pas le délai.
+> Le délai dépend de la dose, du débit cardiaque et du muscle observé. Le cisatracurium, plus puissant que l'atracurium, s'installe pourtant plus lentement : puissance et vitesse d'installation sont deux notions séparées.
+@ 35–40, 50–56
+
+QCM · Insuffisance rénale et hépatique
+Une anesthésie est programmée chez un adulte en insuffisance rénale avec dysfonction hépatique. Quelles affirmations sont exactes ?
++ Le cisatracurium repose sur une dégradation chimique indépendante du rein et du foie :: La voie de Hofmann se fait dans le plasma, à pH et température du corps.
++ L'atracurium associe la voie de Hofmann à une hydrolyse par des estérases :: Le cisatracurium, lui, repose presque uniquement sur la voie de Hofmann.
++ Si le rocuronium est retenu, le bloc peut durer plus longtemps :: Son élimination est hépatique et rénale ; la récupération s'allonge, sans que la dose d'induction change pour ce seul motif.
+- Le mivacurium est aussi indépendant du foie que le cisatracurium :: Son hydrolyse est plasmatique, mais l'enzyme qui l'assure est synthétisée par le foie.
+- Pour l'atracurium, l'hypothermie accélère la dégradation et raccourcit le bloc :: La voie de Hofmann est une réaction chimique : le froid et l'acidose la ralentissent et prolongent le bloc.
+> En dysfonction rénale et hépatique, le cisatracurium est le curare de choix grâce à la voie de Hofmann. Cette voie reste sensible à la température et au pH : l'hypothermie prolonge le bloc. Le mivacurium, lui, dépend d'une enzyme d'origine hépatique.
+@ 48–52, 56, 98
+
+QCM · Présentations et calculs
+Quelles conversions de dose en volume sont exactes ?
++ Avec l'atracurium à 50 mg/5 mL, 35 mg correspondent à 3,5 mL :: La concentration est de 10 mg/mL.
++ Avec le cisatracurium à 150 mg/30 mL, 12 mg correspondent à 2,4 mL :: Ce flacon est à 5 mg/mL.
++ Le mivacurium à 20 mg/10 mL et celui à 10 mg/5 mL ont la même concentration :: Tous deux à 2 mg/mL : la quantité totale change, pas le rapport.
+- Avec le cisatracurium à 20 mg/10 mL, 12 mg correspondent à 2,4 mL :: Cette ampoule est à 2 mg/mL : il faut 6 mL.
+- Une seringue de rocuronium à 50 mg/5 mL contient 5 mg/mL :: 50 ÷ 5 = 10 mg/mL.
+> Toujours revenir au mg/mL avant de prélever. Le cisatracurium existe en deux concentrations, 2 mg/mL en ampoule et 5 mg/mL en flacon de 150 mg : le même volume ne délivre pas la même dose selon la présentation.
+@ 47–56, 81
+
+QCM · Interactions
+Quels éléments peuvent prolonger le bloc d'un curare non dépolarisant ?
++ Les halogénés :: Ils potentialisent le bloc par rapport à une anesthésie intraveineuse pure.
++ Le magnésium :: Il réduit la libération présynaptique d'acétylcholine, notamment en obstétrique.
++ Les aminosides :: Ils interfèrent avec la transmission neuromusculaire.
++ L'hypothermie :: Elle ralentit la dégradation, en particulier la voie de Hofmann.
+- Une acidose respiratoire :: Elle ne raccourcit pas le bloc : les variations de pH figurent parmi les facteurs qui le modifient et peuvent le prolonger.
+> La durée d'un curare n'est pas un chronomètre : elle dépend de la molécule, du muscle observé, de la température, du pH et des associations médicamenteuses. Halogénés, anesthésiques locaux, aminosides et magnésium prolongent le bloc : le monitorage reste la seule mesure fiable.
+@ 39, 58, 93
+
+QCM · Curare et profondeur d'anesthésie
+Après l'injection d'un curare, les mouvements cessent, la composante EMG diminue et le BIS baisse, à doses d'hypnotique inchangées. Quelles affirmations sont exactes ?
++ La baisse du signal musculaire peut à elle seule faire baisser le BIS :: Le moniteur capte l'activité électrique des muscles frontaux.
++ Le relâchement musculaire et la profondeur d'anesthésie s'apprécient séparément :: Le curare ne remplace pas l'hypnotique.
++ La baisse de l'EMG s'explique par l'action périphérique du curare :: Il ne franchit pas la barrière hémato-encéphalique.
+- La baisse conjointe de l'EMG et du BIS prouve un approfondissement de l'hypnose :: La modification du signal EMG suffit à faire varier l'indice.
+- L'immobilité sous bloc complet est un bon signe d'hypnose :: Un patient curarisé ne peut pas bouger, qu'il soit endormi ou conscient.
+> Le curare agit à la jonction neuromusculaire, pas dans le cerveau. Il supprime le mouvement, qui est le signe d'alerte le plus visible d'une anesthésie trop légère, et peut faire baisser le BIS par la seule disparition de l'EMG : le risque de mémorisation augmente si l'on se fie à l'immobilité.
+@ 59–62, 93
+
+QCM · Bloc dépolarisant
+Quelles affirmations distinguent le bloc de la succinylcholine de celui d'un curare non dépolarisant ?
++ La succinylcholine active d'abord le récepteur et peut provoquer des fasciculations :: La dépolarisation initiale précède la paralysie.
++ Les canaux sodiques périjonctionnels restent inactivés tant que la membrane ne se repolarise pas :: Un canal inactivé ne peut pas propager un nouveau potentiel d'action.
++ Un canal sodique fermé au repos n'équivaut pas à un canal inactivé :: Le canal fermé est disponible ; l'inactivé doit d'abord récupérer.
+- Elle paralyse en empêchant le pore nicotinique de s'ouvrir :: C'est le mécanisme du non-dépolarisant, qui est un antagoniste compétitif.
+- L'inactivation des canaux sodiques vient d'une fixation de la succinylcholine dans leur pore :: Elle résulte de la dépolarisation maintenue de la membrane, non d'une liaison directe.
+> La succinylcholine est un agoniste : elle ouvre le récepteur, dépolarise durablement la plaque et laisse les canaux sodiques voisins inactivés, d'où fasciculations puis paralysie. Le non-dépolarisant est un antagoniste compétitif : il occupe le site de l'acétylcholine sans jamais ouvrir le canal.
+@ 17–20, 43–44, 65–67
+
+QCM · Dénervation et hyperkaliémie
+Un patient paraplégique depuis plusieurs semaines doit être intubé ; sa kaliémie est normale. Quelles affirmations expliquent le risque propre à la succinylcholine ?
++ Un déficit moteur installé entraîne une surexpression de récepteurs nicotiniques immatures et extra-jonctionnels :: La surface de membrane capable de répondre augmente beaucoup.
++ Les récepteurs immatures restent ouverts plus longtemps que les récepteurs matures :: Chaque ouverture laisse sortir davantage de potassium.
++ Une kaliémie normale avant l'injection ne met pas à l'abri :: Le risque naît de l'ouverture massive des récepteurs, pas du chiffre de départ.
++ La sortie de potassium peut provoquer des troubles du rythme ventriculaire :: L'hyperkaliémie peut être brutale et conduire à l'arrêt cardiaque.
+- Le mécanisme est un ralentissement de l'élimination plasmatique du produit :: Un déficit enzymatique explique une paralysie prolongée, pas une hyperkaliémie.
+> Après plusieurs jours de déficit moteur, les récepteurs nicotiniques se multiplient hors de la plaque motrice et prennent une forme immature, à canal ouvert plus longtemps. La succinylcholine les ouvre tous à la fois : la fuite de potassium peut être massive. C'est une contre-indication, au même titre que l'antécédent d'hyperthermie maligne et les myopathies.
+@ 28, 69, 71–72
+
+QCM · Paralysie prolongée
+Après une dose unique de succinylcholine, le bloc persiste bien au-delà de la durée habituelle. Quelles affirmations sont exactes ?
++ Un déficit en butyrylcholinestérase est l'hypothèse la plus cohérente :: La dégradation plasmatique du produit est ralentie.
++ Une origine acquise reste possible sans antécédent familial :: Grossesse, insuffisance hépatique et dénutrition abaissent l'activité enzymatique.
++ La ventilation et la sédation sont poursuivies jusqu'à une récupération objectivée au monitorage :: Il faut couvrir à la fois l'apnée et le risque de conscience sous paralysie.
+- Un déficit en acétylcholinestérase synaptique est l'explication attendue :: L'enzyme en cause est plasmatique, pas celle de la fente synaptique.
+- L'absence de mouvement montre que l'hypnose est toujours suffisante :: La paralysie supprime le mouvement quel que soit l'état de conscience.
+> Un déficit en pseudocholinestérase, génétique ou acquis, prolonge la succinylcholine. La conduite à tenir est d'attendre : ventilation, sédation entretenue et monitorage de la curarisation jusqu'à récupération complète.
+@ 27, 48, 65–70
+
+QCM · Associations de curares
+Quelles affirmations sur l'association ou la succession de curares sont exactes ?
++ L'atracurium et le cisatracurium ont un effet additif :: Deux benzylisoquinolines, donc un effet simplement cumulé.
++ L'association atracurium–rocuronium peut être synergique :: Deux familles chimiques différentes, pour un effet supérieur à la somme.
++ Après la succinylcholine, le non-dépolarisant suivant peut avoir un bloc potentialisé :: L'ordre d'administration change le résultat.
+- Un non-dépolarisant donné avant la succinylcholine la rend plus efficace :: Il occupe les récepteurs dont la succinylcholine a besoin pour dépolariser : son effet est diminué.
+- Le bloc de phase II est identique au bloc dépolarisant initial :: Après une exposition prolongée, de 4 à 6 mg/kg, le bloc prend un profil de non-dépolarisant, avec décrément au train-de-quatre.
+> Entre curares de même famille l'effet est additif, entre familles différentes il peut être synergique. L'ordre compte : un non-dépolarisant administré avant la succinylcholine l'antagonise, alors que l'inverse potentialise le bloc.
+@ 43, 65, 74–75
+
+QCM · Histaminolibération et anaphylaxie
+Quelques minutes après un bolus d'atracurium, un rash et une hypotension apparaissent. Quelles affirmations sont exactes ?
++ La dose et la vitesse d'injection influencent la libération non spécifique d'histamine :: L'atracurium est concerné ; une injection lente la limite.
++ Un bilan allergologique est utile pour savoir quelles molécules éviter ensuite :: Les réactions croisées ne se déduisent pas de la famille chimique.
++ Une anaphylaxie doit être évoquée devant ce tableau :: Signes cutanés et hypotension immédiats après un curare : le diagnostic ne peut pas être écarté sur la clinique.
+- Un curare stéroïdien est une alternative sûre puisque l'atracurium est une benzylisoquinoline :: Les réactions croisées dépassent les familles chimiques, et le rocuronium est le plus souvent en cause dans les enquêtes.
+- L'absence d'histaminolibération du rocuronium le rend peu susceptible d'être en cause :: Histaminolibération et pouvoir allergisant sont deux propriétés distinctes.
+> Deux mécanismes se ressemblent cliniquement : l'histaminolibération non spécifique, dose- et débit-dépendante, et l'anaphylaxie, immunologique et indépendante de la dose. Seul le bilan allergologique différé tranche et désigne les molécules utilisables.
+@ 46, 54, 60, 76–80
+
+QCM · Séquence rapide
+Chez un adulte à risque d'inhalation, quelles affirmations sur l'induction en séquence rapide sont exactes ?
++ L'objectif est de réduire l'intervalle entre la perte de conscience et la protection de la trachée :: C'est la rapidité d'installation qui est recherchée.
++ Le rocuronium à 0,9–1,2 mg/kg s'installe en une minute environ, avec un bloc prolongé :: Rapide ne veut pas dire bref.
++ Le rocuronium est l'alternative en cas de contre-indication à la succinylcholine :: Avec une stratégie de réversion par sugammadex pour compenser la durée.
+- Le rocuronium à 0,6 mg/kg atteint le bloc maximal aussi vite qu'à 0,9–1,2 mg/kg :: Augmenter la dose raccourcit le délai : c'est tout l'intérêt de la dose de séquence rapide.
+- La brièveté de la succinylcholine met à l'abri de l'hyperkaliémie du patient dénervé :: La complication survient dès l'ouverture des récepteurs, avant toute élimination.
+> La succinylcholine à 1 mg/kg reste la première intention pour l'induction en séquence rapide. En cas de contre-indication, le rocuronium à dose élevée offre un délai comparable, au prix d'un bloc long que le sugammadex, 8 à 16 mg/kg, permet de lever.
+@ 56, 67–72, 88
+
+QCM · Réversion
+Quelles affirmations sur la décurarisation sont exactes ?
++ Le sugammadex s'utilise à 8–16 mg/kg après un rocuronium de 0,6 à 1 mg/kg :: Il encapsule la molécule et la rend indisponible.
++ La néostigmine augmente la quantité d'acétylcholine disponible dans la fente :: En inhibant l'acétylcholinestérase, elle déplace l'équilibre contre le curare.
++ La réversion pharmacologique ne dispense pas du monitorage :: La récupération doit être objectivée avant l'extubation.
+- Le sugammadex antagonise aussi bien l'atracurium que le rocuronium :: Il est spécifique des curares stéroïdiens ; les benzylisoquinolines ne sont pas encapsulées.
+- Lever le bloc neuromusculaire supprime les autres effets de l'anesthésie :: L'hypnose et l'analgésie résiduelles demeurent : la réversion ne réveille pas le patient.
+> Deux stratégies : attendre la récupération spontanée, ou réverser. Le sugammadex encapsule les curares stéroïdiens, le rocuronium en premier lieu ; la néostigmine agit indirectement en élevant l'acétylcholine. Dans les deux cas, c'est le monitorage qui autorise l'extubation.
+@ 88–89, 28
+
+QCM · Dispositif supraglottique
+Une cœlioscopie programmée est prévue chez un adulte sans facteur de risque d'estomac plein, avec un dispositif supraglottique de deuxième génération. Quelles affirmations sont exactes ?
++ Le curare peut être indiqué pour le geste chirurgical sans avoir été nécessaire à la pose du dispositif :: Les deux indications sont distinctes.
++ Le relâchement de la paroi facilite l'exposition et la mise en place des trocarts :: C'est un objectif opératoire.
++ Un laryngospasme peut conduire à discuter un curare :: La situation devient alors celle d'une obstruction des voies aériennes.
+- Pouvoir poser le dispositif sans curare implique de ne pas curariser ensuite :: L'indication chirurgicale reste entière pendant l'intervention.
+- Un dispositif de deuxième génération protège la trachée comme une sonde d'intubation :: Il réduit le risque sans l'abolir, et ne convient pas à un estomac plein.
+> Pose du dispositif et besoin chirurgical sont deux questions séparées. Un curare n'est pas nécessaire pour poser un dispositif supraglottique, mais le relâchement pariétal reste utile à la cœlioscopie, et un laryngospasme peut imposer une curarisation en urgence.
+@ 90–93
+
+QCM · Obésité
+Chez un adulte en obésité massive, quelles affirmations sur le calcul des doses de curare sont exactes ?
++ La succinylcholine se calcule sur le poids réel :: Pour obtenir les meilleures conditions d'intubation quand elle est indiquée.
++ La masse maigre d'un patient obèse dépasse celle d'un sujet non obèse de même taille :: Une masse grasse plus importante n'implique pas une masse maigre inchangée.
++ La réduction de la réserve en oxygène rend le délai d'installation déterminant :: La CRF abaissée raccourcit le temps avant désaturation.
+- Les curares non dépolarisants se calculent sur le poids réel :: Ils se distribuent dans le compartiment maigre et extracellulaire : le poids réel expose au surdosage.
+- Masse maigre et poids idéal théorique désignent la même grandeur :: Le poids idéal majoré d'environ 20 % n'est qu'une approximation de la masse maigre.
+> Succinylcholine sur le poids réel, curares non dépolarisants sur un poids ajusté proche de la masse maigre. Chez l'obèse, la marge avant désaturation est courte : la vitesse d'installation du bloc compte autant que la base de calcul.
+@ 35, 95
+
+QCM · Terrains particuliers
+Quelles affirmations sur les curares chez le sujet âgé, l'enfant et en électroconvulsivothérapie sont exactes ?
++ Chez le sujet âgé, la baisse du débit cardiaque peut ralentir l'installation du bloc :: Le transport jusqu'au muscle est plus lent.
++ Chez le sujet âgé, installation et récupération peuvent toutes deux être allongées :: Débit cardiaque et élimination sont deux mécanismes distincts.
++ En électroconvulsivothérapie, le bloc musculaire limite les fractures et les luxations :: L'objectif est purement périphérique, la crise centrale étant recherchée.
+- Chez l'enfant en séquence rapide, on recherche un curare d'installation lente :: L'objectif reste une installation rapide, avec la succinylcholine en première intention.
+- Le manque de données chez l'enfant pour la pose d'un dispositif supraglottique vaut contre-indication :: Une absence de recommandation n'est pas une contre-indication.
+> Chez le sujet âgé, tout est ralenti : installation comme récupération. Chez l'enfant, la séquence rapide reste du ressort d'un curare d'action rapide. En électroconvulsivothérapie, on cherche un relâchement rapide et bref, pour protéger le patient des conséquences musculaires de la crise.
+@ 35, 94, 96–98
+
+QCM · Maladies neuromusculaires
+Quelles affirmations sur les curares dans la myasthénie, les myopathies et les déficits moteurs chroniques sont exactes ?
++ Dans la myasthénie, une dose usuelle de non-dépolarisant peut donner un bloc beaucoup plus profond :: Le nombre de récepteurs fonctionnels est réduit : la réserve est faible.
++ Dans une myopathie primitive, la succinylcholine expose à une rhabdomyolyse et à une hyperkaliémie :: C'est une contre-indication absolue.
++ Le monitorage est indispensable si un curare est administré sur ces terrains :: La réponse ne suit pas les durées et doses habituelles.
+- Dans la myasthénie, les besoins augmentés décrits pour la succinylcholine valent aussi pour les non-dépolarisants :: Les deux mécanismes donnent des profils opposés : résistance relative à la succinylcholine, sensibilité accrue aux non-dépolarisants.
+- Dans un déficit moteur chronique, le danger de la succinylcholine vient d'une baisse de synthèse hépatique des pseudocholinestérases :: Il vient de la surexpression des récepteurs nicotiniques et de la fuite de potassium qu'elle autorise.
+> La myasthénie rend très sensible aux non-dépolarisants : doses réduites et monitorage. Les myopathies et les déficits moteurs installés contre-indiquent la succinylcholine, pour deux raisons différentes : rhabdomyolyse d'un muscle fragile, hyperkaliémie d'une membrane devenue hypersensible.
+@ 57, 71–72, 99–101
+
+QCM · Lecture du bloc
+Un patient a reçu un non-dépolarisant d'action intermédiaire. À 35 minutes, il est hypotherme, sous halogéné et a reçu du magnésium. Quelles affirmations sont exactes ?
++ La durée habituelle de la molécule ne suffit pas à prédire sa récupération :: Terrain et interactions modifient l'effet.
++ Hypothermie, halogéné et magnésium peuvent tous contribuer à prolonger le bloc :: Dégradation ralentie, potentialisation du bloc et baisse de la libération d'acétylcholine s'additionnent.
++ Un besoin chirurgical d'immobilité doit être distingué d'une hypnose insuffisante :: Approfondir le bloc masque le mouvement sans traiter l'éveil.
+- Une durée clinique de 30 à 40 minutes signifie qu'à 35 minutes la force est revenue à 90 % :: La durée clinique se réfère à 25 % de force récupérée, et ne reste qu'un repère.
+- Si le larynx a récupéré, le pouce a nécessairement récupéré aussi :: Le larynx récupère plus tôt ; l'adducteur du pouce reste le muscle de référence, plus exigeant.
+> La durée annoncée d'un curare est une moyenne, pas une prédiction. Devant une hypothermie, un halogéné et du magnésium, seul le monitorage à l'adducteur du pouce dit où en est le bloc.
+@ 34–41, 58, 93
+
+QCU · Causalité : vitesse et dose
+Affirmation 1 : à 1,2 mg/kg, le rocuronium s'installe plus vite qu'à 0,6 mg/kg.
+Affirmation 2 : à molécule identique, une dose plus élevée accroît le gradient de concentration vers la jonction neuromusculaire.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies et liées : le gradient accru fait atteindre plus vite une concentration efficace à la plaque. L'installation est plus rapide, mais le bloc n'en est pas plus bref, au contraire.
+@ 35–36, 56, 88
+
+QCU · Causalité : cisatracurium
+Affirmation 1 : le cisatracurium est intéressant en cas de dysfonction rénale et hépatique.
+Affirmation 2 : le cisatracurium est peu histaminolibérateur.
+- Les deux affirmations sont vraies et la seconde explique la première.
++ Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Les deux affirmations sont vraies, sans lien de cause à effet. L'intérêt dans ce terrain vient de la voie de Hofmann, indépendante du rein et du foie ; le faible pouvoir histaminolibérateur est une autre propriété, qui concerne la tolérance hémodynamique.
+@ 46, 50–52, 98
+
+QCU · Causalité : fasciculations
+Affirmation 1 : la succinylcholine provoque des fasciculations avant la paralysie.
+Affirmation 2 : elle agit en empêchant d'emblée l'acétylcholine de se fixer sur son récepteur.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
++ La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La première est vraie : la dépolarisation initiale se traduit par des fasciculations. La seconde est fausse et décrit le non-dépolarisant : la succinylcholine est un agoniste, qui ouvre le récepteur avant que la dépolarisation maintenue ne rende les canaux sodiques indisponibles.
+@ 43–44, 65–69
+
+QCU · Électroconvulsivothérapie
+Chez un adulte sans contre-indication à la succinylcholine, une électroconvulsivothérapie est programmée. Quel curare répond le mieux à l'objectif d'un relâchement rapide et bref ?
++ La succinylcholine : installation en une minute et durée très courte :: Le seul curare à associer les deux.
+- Le mivacurium : hydrolysé par la même enzyme, il s'installe donc aussi vite :: Une voie d'élimination commune ne dit rien du délai d'installation.
+- Le rocuronium à dose de séquence rapide, sans réversion : son installation rapide implique une récupération rapide :: Rapide à s'installer, mais bloc prolongé : l'inverse de ce qui est recherché.
+- Le cisatracurium : sa faible dose en mg/kg lui assure un délai minimal :: Une faible dose signe la puissance, non la rapidité : son installation est lente.
+- L'atracurium : la voie de Hofmann lui donne un bloc plus bref que celui de la succinylcholine :: La dégradation chimique n'en fait pas un curare d'action ultra-courte.
+> Seule la succinylcholine associe un délai d'une minute et une durée ultra-courte. Une voie d'élimination commune, un faible nombre de mg/kg ou une dégradation chimique ne permettent jamais de déduire le délai d'installation. Le rocuronium à forte dose s'installe vite, mais son bloc est long et demande une réversion.
+@ 41, 48–56, 67–68, 94
+
+QCU · Lire des fréquences
+Dans une enquête, l'atracurium représente 20,9 % des réactions anaphylactiques et 61,9 % des expositions ; le rocuronium, 40,4 % des réactions et 10,1 % des expositions. Quel raisonnement est juste à partir de ces seules données ?
++ Le rapport entre part des réactions et part des expositions est bien plus élevé pour le rocuronium :: 40,4 ÷ 10,1 ≈ 4 contre 20,9 ÷ 61,9 ≈ 0,3.
+- La part des réactions de l'atracurium donne son risque à chaque injection :: C'est une part relative dans une série, non une probabilité individuelle.
+- L'atracurium a le rapport le plus élevé, puisqu'il totalise le plus de réactions :: Il est surtout le plus utilisé : rapporté à son usage, son rapport est le plus bas.
+- Les deux rapports sont comparables, puisque ce sont deux non-dépolarisants :: Le pouvoir allergisant ne se déduit pas de la classe pharmacologique.
+- Les réactions ne doivent être rapportées à l'exposition que si leur part dépasse 50 % :: Rapporter à l'exposition est nécessaire dans tous les cas, sans seuil.
+> Rocuronium : 40,4 ÷ 10,1 ≈ 4. Atracurium : 20,9 ÷ 61,9 ≈ 0,3. Le rocuronium est donc très surreprésenté parmi les réactions au regard de son usage. Aucun de ces rapports n'est une probabilité individuelle : ce sont des parts relatives au sein d'une série.
+@ 76–77

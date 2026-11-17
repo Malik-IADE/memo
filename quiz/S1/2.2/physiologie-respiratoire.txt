@@ -1,0 +1,364 @@
+// Quiz 1 – Physiologie respiratoire (UE 2.2), d'après « QUIZZ 1 Physio pulmonaire.html », relu et corrigé.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Physiologie respiratoire
+
+QCM · Voies aériennes
+Quelles affirmations sur la zone de conduction de l'arbre bronchique sont exactes ?
++ Elle s'étend de la trachée à la 16e génération bronchique :: Au-delà commence la zone respiratoire, qui porte les alvéoles.
++ Elle réchauffe, humidifie et filtre l'air inspiré :: C'est son rôle de conditionnement, perdu lorsqu'on intube sous la glotte.
+- Elle contient les alvéoles qui fixent la PaO₂ :: Aucune alvéole avant la 17e génération : l'air y circule sans échanger avec le sang.
+- La zone respiratoire s'arrête à la 17e génération :: Elle commence à la 17e et se poursuit jusqu'à la 23e.
+> Conduction de la 1re à la 16e génération : l'air est acheminé et conditionné, sans échange gazeux. Zone respiratoire de la 17e à la 23e : c'est là que se font les échanges.
+@ 32
+
+QCM · Voies aériennes
+Quelles affirmations sur les repères anatomiques de l'intubation sont exactes ?
++ Les cordes vocales sont le repère à franchir avec la sonde :: Leur passage sous contrôle de la vue signe la position trachéale.
++ Une sonde trop enfoncée devient sélective, plus souvent à droite :: La bronche souche droite est plus verticale et plus large.
+- L'œsophage est situé en avant de la trachée :: Il est en arrière : la trachée est la structure antérieure.
+- Le grade de Cormack et Lehane chiffre le pourcentage d'ouverture glottique visible :: C'est une échelle en 4 grades décrivant ce que l'on voit, pas un pourcentage.
+> La trachée est en avant de l'œsophage. La sonde franchit les cordes vocales ; trop avancée, elle s'engage volontiers dans la bronche souche droite. Le grade de Cormack décrit l'exposition laryngée et se trace dans le dossier.
+@ 10, 16–17, 32
+
+QCM · Voies aériennes
+Quelles affirmations sur la plèvre et le pneumothorax sont exactes ?
++ La pression de la cavité pleurale est normalement négative :: Cette dépression maintient le poumon appliqué contre la paroi.
++ L'entrée d'air entre les feuillets entraîne une rétraction du poumon :: Le poumon, privé de la dépression qui le tient ouvert, se rétracte sur son élasticité propre.
+- Les deux feuillets sont normalement séparés par un film gazeux :: Ils sont séparés par un film liquidien très mince : la cavité est virtuelle.
+- Un pneumothorax se définit par un épanchement liquidien entre les feuillets :: C'est la définition de l'épanchement pleural ; le pneumothorax est de l'air.
+> Les feuillets pariétal et viscéral glissent l'un sur l'autre dans une cavité virtuelle à pression négative. L'air qui s'y introduit annule cette dépression : le poumon se décolle et se rétracte.
+@ 24–25
+
+QCM · Mécanique
+Quelles affirmations sur la ventilation spontanée de repos sont exactes ?
++ La contraction du diaphragme augmente le volume thoracique :: En s'abaissant, il crée la dépression qui fait entrer l'air.
++ L'expiration de repos est principalement passive :: Elle repose sur le retour élastique du poumon et de la paroi.
++ L'expiration devient active lorsqu'elle est forcée :: Les abdominaux et les intercostaux internes sont alors recrutés.
+- L'inspiration de repos est principalement passive :: Elle est toujours active : elle demande un travail musculaire.
+> L'inspiration spontanée est active, l'expiration calme passive. Seule l'expiration forcée mobilise des muscles.
+@ 27, 29–30, 76
+
+QCM · Mécanique
+Quelles affirmations sur le surfactant sont exactes ?
++ Il abaisse la tension superficielle alvéolaire :: Il s'interpose dans le film liquidien qui tend à faire collaber l'alvéole.
++ Il augmente la compliance pulmonaire :: Moins de tension de surface à vaincre, donc moins de pression pour un même volume.
++ Sa destruction favorise les atélectasies :: Les alvéoles qui n'ont plus ce film se ferment.
+- Il augmente l'élastance pulmonaire :: L'élastance est l'inverse de la compliance : le surfactant la diminue.
+> Ce film de phospholipides abaisse la tension de surface, ce qui augmente la compliance et maintient les alvéoles ouvertes. Sa destruction conduit aux occlusions alvéolaires.
+@ 38, 88–89
+
+QCM · Perfusion
+Quelles affirmations sur les circulations pulmonaire et bronchique sont exactes ?
++ Les veines pulmonaires ramènent le sang oxygéné vers le cœur gauche :: Ce sont des veines par le sens du sang, bien qu'il soit oxygéné.
++ Les pressions de la circulation pulmonaire sont plus basses que les pressions systémiques :: Le ventricule droit travaille contre une résistance faible.
+- La circulation pulmonaire reçoit environ 1 % du débit cardiaque :: Elle en reçoit la totalité ; c'est la circulation bronchique de soutien qui reçoit environ 1 %.
+- La circulation bronchique assure les échanges alvéolo-capillaires :: Elle nourrit les bronches ; les échanges se font avec la circulation pulmonaire.
+> La circulation pulmonaire est fonctionnelle et reçoit 100 % du débit cardiaque, sous des pressions basses. La circulation bronchique, systémique, nourrit l'arbre bronchique avec environ 1 % du débit.
+@ 40–41, 44, 47
+
+QCM · Perfusion
+PA est la pression alvéolaire, Pa la pression artérielle pulmonaire et Pv la pression veineuse. Quelles relations décrivent les zones de West ?
++ Zone 1 : PA > Pa > Pv :: La pression alvéolaire écrase le capillaire : zone ventilée mais non perfusée.
++ Zone 3 : Pa > Pv > PA :: Les pressions vasculaires dépassent la pression alvéolaire : le capillaire reste ouvert en permanence.
++ La répartition des zones doit être réinterprétée selon la position du patient :: Le schéma du sujet debout ne s'applique pas en décubitus.
+- Zone 2 : Pa > Pv > PA :: C'est la zone 3. En zone 2, la pression alvéolaire s'intercale : Pa > PA > Pv.
+> Zone 1 : PA > Pa > Pv ; zone 2 : Pa > PA > Pv ; zone 3 : Pa > Pv > PA. Les zones suivent la gravité : le décubitus dorsal, et plus encore le décubitus ventral, en modifient la répartition.
+@ 49
+
+QCM · Perfusion
+Quelles affirmations sur la vasoconstriction pulmonaire hypoxique sont exactes ?
++ Elle redistribue la perfusion vers les territoires les mieux ventilés :: Elle améliore l'adéquation entre ventilation et perfusion.
++ C'est un réflexe essentiellement local, par modification de la vasomotricité :: Il répond à l'hypoxie du territoire concerné, sans commande centrale.
++ Importante et prolongée, elle peut élever les pressions pulmonaires :: La vasoconstriction diffuse augmente la résistance à l'éjection du ventricule droit.
+- Elle augmente la perfusion des territoires les moins bien ventilés :: Ce serait aggraver le shunt : elle fait l'inverse.
+> Les vaisseaux des zones mal ventilées se contractent et le sang est dirigé vers les zones qui échangent encore. Ce réflexe propre au poumon optimise l'hématose, au prix d'une élévation des pressions pulmonaires s'il est étendu et durable.
+@ 50
+
+QCM · Ventilation / perfusion
+Quelles affirmations sur les espaces morts sont exactes ?
++ L'espace mort anatomique correspond aux voies de conduction :: Environ 2,2 mL/kg : trachée et bronches, où l'air circule sans échanger.
++ L'espace mort instrumental est ajouté par le matériel du circuit :: Raccords, filtre et tuyaux ; on le limite en raccourcissant le montage.
++ Le volume qui participe aux échanges à chaque cycle est VT − VD :: Une partie du volume courant ne fait que remplir les conduits.
+- L'espace mort alvéolaire correspond à un territoire perfusé mais non ventilé :: C'est l'inverse : alvéoles ventilées mais non perfusées. Perfusé sans être ventilé, c'est le shunt.
+> L'espace mort est un volume ventilé qui ne participe pas aux échanges : anatomique (les conduits, environ 2,2 mL/kg), instrumental (le matériel) ou alvéolaire (alvéoles ventilées mais non perfusées).
+@ 52–57, 72
+
+QCM · Ventilation / perfusion
+Quelles affirmations sur les conséquences gazométriques d'une embolie pulmonaire sont exactes ?
++ Le mécanisme initial est un espace mort alvéolaire :: Le territoire reste ventilé mais perd sa perfusion.
++ La redistribution du débit sanguin peut créer un effet shunt dans d'autres zones :: Le sang dévié surcharge des territoires moins bien ventilés, où le rapport ventilation/perfusion s'abaisse.
++ Une hypocapnie est fréquente :: L'hyperventilation réflexe lave le CO₂ des territoires encore perfusés.
+- L'augmentation de l'espace mort impose une hypercapnie :: L'espace mort pousse la PaCO₂ vers le haut, mais l'hyperventilation la ramène souvent sous la normale.
+> Le caillot crée un espace mort alvéolaire : ventilation conservée, perfusion abolie. Le sang redistribué peut créer un effet shunt ailleurs, et un shunt vrai peut s'y ajouter. La gazométrie montre souvent une hypocapnie, par hyperventilation réflexe.
+@ 55–56, 61
+
+QCM · Ventilation / perfusion
+Quelles affirmations distinguent correctement le shunt vrai de l'effet shunt ?
++ Une hausse de FiO₂ améliore généralement l'oxygénation dans l'effet shunt :: Le territoire est encore ventilé : enrichir le gaz inspiré augmente la pression alvéolaire d'O₂.
++ Dans le shunt vrai, une partie du sang échappe à toute oxygénation :: Il traverse un territoire non ventilé et rejoint le sang artériel désaturé.
+- Dans l'effet shunt, le territoire est ventilé mais non perfusé :: C'est l'espace mort alvéolaire. L'effet shunt est une ventilation insuffisante pour la perfusion reçue.
+- L'oxygénothérapie corrige un shunt vrai aussi efficacement qu'un effet shunt :: Un territoire non ventilé ne reçoit pas l'O₂ administré : la PaO₂ bouge peu.
+> Effet shunt : rapport ventilation/perfusion abaissé mais non nul, sensible à la FiO₂. Shunt vrai : territoire perfusé sans aucune ventilation, peu sensible à l'oxygène, qui relève du recrutement.
+@ 58, 60, 62–63
+
+QCM · Mécanique
+Quelles relations entre ventilation minute VE et ventilation alvéolaire VA sont exactes ?
++ VE = VT × fréquence :: C'est le volume total mobilisé en une minute.
++ VA = (VT − VD) × fréquence :: L'espace mort doit être retiré à chaque cycle.
++ À VT et fréquence constants, augmenter VD diminue VA :: Il reste moins de volume utile par cycle.
+- VA = VE − VD :: Il faut soustraire VD à chaque cycle : VA = VE − (VD × fréquence).
+> VA = (VT − VD) × Fr = VE − VD × Fr. C'est la ventilation alvéolaire, et non la ventilation minute, qui détermine l'élimination du CO₂.
+@ 72, 125
+
+QCM · Mécanique
+Un adulte ventile un volume courant de 500 mL à 15 cycles par minute, avec un espace mort de 150 mL. Quels résultats sont exacts ?
++ La ventilation minute est de 7,5 L/min :: 0,5 × 15 = 7,5.
++ La ventilation alvéolaire est de 5,25 L/min :: (0,5 − 0,15) × 15 = 5,25.
++ La ventilation de l'espace mort est de 2,25 L/min :: 0,15 × 15 = 2,25, soit la différence entre VE et VA.
+- Le volume utile aux échanges est de 500 mL par cycle :: C'est le volume courant ; le volume utile est 500 − 150 = 350 mL.
+> VE = 7,5 L/min, VA = 5,25 L/min, ventilation de l'espace mort 2,25 L/min. Un tiers environ de chaque cycle ne sert pas aux échanges.
+@ 125, fiche de révision 2
+
+QCM · Mécanique
+Quelles affirmations sur les pressions d'un cycle spontané calme, sans pression positive ajoutée, sont exactes ?
++ Pendant l'entrée d'air, la pression alvéolaire est inférieure à la pression atmosphérique :: L'air suit le gradient, de la bouche vers l'alvéole.
++ En fin d'inspiration, l'égalité des pressions alvéolaire et atmosphérique arrête le débit :: Sans gradient, plus d'écoulement.
++ La pression pleurale se négative davantage pendant l'inspiration :: L'expansion thoracique accroît la dépression pleurale.
+- Pendant la sortie d'air, la pression alvéolaire est inférieure à la pression atmosphérique :: Elle lui est supérieure : c'est ce qui chasse l'air.
+> L'air entre quand Palv < Patm, sort quand Palv > Patm, et le débit cesse quand les deux s'égalisent. En ventilation spontanée, tout le cycle se fait en pression intrathoracique négative.
+@ 75–78
+
+QCU · Ventilation mécanique
+Quelle affirmation décrit correctement le régime de pression de l'insufflation en ventilation mécanique ?
++ Le respirateur pousse l'air sous pression positive, à l'inverse de la dépression du cycle spontané :: C'est cette inversion qui retentit sur le retour veineux.
+- Le respirateur crée une dépression alvéolaire qui aspire l'air :: Aucun respirateur conventionnel n'aspire : il insuffle.
+- Le respirateur abaisse activement le diaphragme pour faire entrer l'air :: Le diaphragme est passif, refoulé par le volume insufflé.
+- Le régime de pression reproduit celui de l'inspiration spontanée :: Il s'y oppose : positif au lieu de négatif.
+> En spontané, l'air est appelé par une dépression ; sous respirateur, il est poussé par une pression positive. L'élévation des pressions intrathoraciques gêne le retour veineux et peut déstabiliser un patient hémodynamiquement fragile.
+@ 79, 81
+
+QCM · Ventilation mécanique
+Quelles affirmations sur le mode volume contrôlé sont exactes ?
++ Le volume courant et la fréquence sont programmés :: Le respirateur délivre le volume fixé, cycle après cycle.
++ La FiO₂ et le rapport des temps inspiratoire et expiratoire font partie des réglages :: Avec le volume, la fréquence et la PEP.
++ La fréquence est adaptée notamment à la PaCO₂ :: C'est la ventilation alvéolaire qui règle l'élimination du CO₂.
+- La pression d'insufflation ne dépend pas des résistances des voies aériennes :: Le volume est garanti, la pression s'ajuste : elle monte si les résistances ou l'élastance augmentent.
+> En volume contrôlé, le volume est la consigne et la pression la conséquence : elle dépend des résistances et de la compliance. C'est la pression qui doit être surveillée.
+@ 80, 82
+
+QCM · Mécanique
+Dans l'équation P = résistance × débit + VT / compliance, quelles affirmations sont exactes ?
++ La composante résistive dépend du débit :: Elle traduit le coût de l'acheminement de l'air dans les conduits.
++ La composante élastique dépend du volume courant et de la compliance :: Elle traduit le coût de la distension du poumon et de la paroi.
++ À débit identique, une hausse des résistances augmente la composante résistive :: Bronchospasme ou sonde encombrée élèvent la pression nécessaire.
+- À débit et VT identiques, une baisse de compliance abaisse la pression nécessaire :: VT / C augmente quand C diminue : la pression monte.
+> La pression d'insufflation additionne un terme résistif (R × débit) et un terme élastique (VT / C). Une pression élevée se lit en distinguant ces deux origines : obstacle au passage de l'air, ou poumon et paroi devenus rigides.
+@ 82
+
+QCM · Mécanique
+Quelles affirmations sur la compliance et l'élastance sont exactes ?
++ La compliance est le rapport ΔV / ΔP :: Le volume gagné par unité de pression appliquée.
++ Elle s'exprime en mL/cmH₂O, avec une valeur normale voisine de 100 mL/cmH₂O :: Soit environ 0,1 L/cmH₂O pour l'ensemble poumon et paroi.
++ La compliance totale additionne une composante pulmonaire et une composante pariétale :: Une pression élevée peut venir du poumon comme de la paroi.
+- Une hausse de compliance s'accompagne d'une hausse d'élastance :: E = 1/C : elles varient en sens inverse.
+> La compliance décrit la distensibilité, l'élastance la rétractabilité, et E = 1/C. La compliance totale, environ 100 mL/cmH₂O, se partage entre poumon et paroi.
+@ 88–89
+
+QCM · Mécanique
+Quelles situations abaissent la compliance du système respiratoire ?
++ La fibrose pulmonaire :: Le poumon devient rigide : composante pulmonaire abaissée.
++ L'œdème pulmonaire :: L'alvéole remplie se distend mal.
++ L'obésité massive :: La contrainte de la paroi et de l'abdomen abaisse la composante pariétale.
+- L'emphysème :: Il augmente la compliance pulmonaire, par destruction des fibres élastiques.
+> Fibrose et œdème abaissent la compliance pulmonaire, l'obésité la compliance pariétale. L'emphysème l'augmente : le poumon se gonfle facilement, mais se vide mal.
+@ 90–91
+
+QCM · Mécanique
+Quels éléments augmentent les résistances au passage de l'air ?
++ La bronchoconstriction :: La résistance dépend du calibre : le réduire gêne l'écoulement.
++ Un bouchon de mucus :: Obstacle intraluminal sur un conduit déjà étroit.
++ L'inflammation et l'œdème de la muqueuse bronchique :: Mécanisme de l'asthme, qui réduit le calibre de l'intérieur.
+- La baisse de la compliance pulmonaire :: Elle augmente la composante élastique de la pression, pas la composante résistive.
+> Tout ce qui réduit le calibre augmente la résistance : contraction du muscle lisse, œdème de la muqueuse, sécrétions, et aussi une sonde d'intubation de petit diamètre. La compliance, elle, relève de l'autre terme de l'équation des pressions.
+@ 86–87
+
+QCM · Volumes et EFR
+Quelles associations entre volumes et capacités sont exactes ?
++ CV = VT + VRI + VRE :: La capacité vitale rassemble les volumes mobilisables.
++ CRF = VR + VRE :: Volume restant dans le poumon à la fin d'une expiration calme.
++ CPT = CV + VR :: La capacité pulmonaire totale inclut le volume non mobilisable.
+- CRF = VT + VRI :: Cette somme n'a pas de sens physiologique : la CRF est mesurée en fin d'expiration calme, donc sans volume inspiré.
+> La CV réunit les volumes que l'on peut mobiliser, la CRF ce qui reste après une expiration normale (VR + VRE), la CPT l'ensemble (CV + VR).
+@ 95–98
+
+QCM · Volumes et EFR
+Quelles affirmations sur le volume résiduel et la capacité résiduelle fonctionnelle sont exactes ?
++ Le volume résiduel est ce qui reste après une expiration maximale :: Il n'est pas mobilisable et se mesure indirectement.
++ La CRF est supérieure au volume résiduel :: Elle y ajoute le volume de réserve expiratoire.
++ Le poumon contient encore de l'air après une expiration normale :: C'est précisément la CRF, réserve d'oxygène pendant une apnée.
+- La capacité vitale inclut le volume résiduel :: Elle ne comprend que les volumes mobilisables ; avec le VR, c'est la CPT.
+> Le VR persiste après expiration maximale. La CRF, mesurée en fin d'expiration calme, vaut VR + VRE : c'est la réserve d'oxygène qui conditionne le délai avant désaturation.
+@ 96–98
+
+QCM · Volumes et EFR
+Quelles affirmations sur l'interprétation de la capacité pulmonaire totale sont exactes ?
++ Une CPT inférieure à 80 % de la valeur théorique définit une restriction :: Elle est sévère sous 50 %.
++ Une CPT supérieure à 120 % de la valeur théorique définit une distension :: Repère de l'emphysème et des syndromes obstructifs évolués.
++ La fibrose fait partie des causes de restriction :: Avec les atteintes de la paroi et les causes neuromusculaires.
+- Une CPT élevée témoigne d'échanges gazeux efficaces :: Un poumon distendu échange souvent mal : volume et hématose sont deux choses différentes.
+> Les repères sont CPT > 120 % pour la distension et CPT < 80 % pour la restriction, sévère sous 50 %. Un grand volume pulmonaire ne garantit pas de bons échanges.
+@ 99
+
+QCM · Volumes et EFR
+Quelles affirmations sur le VEMS et l'exploration des débits sont exactes ?
++ Le VEMS est le volume maximal expiré pendant la première seconde d'une expiration forcée :: C'est un volume rapporté à un temps fixé, non un débit instantané.
++ Le rapport de Tiffeneau est VEMS / CV :: Une obstruction est retenue sous 80 % de la valeur théorique.
++ Un test aux bêta-2 mimétiques apprécie la réversibilité de l'obstruction :: Il sépare l'asthme d'une obstruction fixée.
+- Le VEMS est le débit expiratoire maximal instantané :: C'est le débit de pointe, mesuré par le DEP.
+> Le VEMS est un volume expiré en une seconde, le DEP un débit de pointe. Le rapport VEMS / CV signe l'obstruction sous 80 % de la théorique, et le test de réversibilité complète l'exploration.
+@ 100–103
+
+QCU · Pressions et diffusion
+Dans les notations des gaz du sang, quelle correspondance est exacte ?
++ PvO₂ : pression en O₂ du sang veineux :: La minuscule v désigne le compartiment veineux.
+- PAO₂ : pression artérielle en O₂ :: La majuscule A désigne l'alvéole ; l'artère s'écrit avec une minuscule, PaO₂.
+- PaO₂ : pression alvéolaire en O₂ :: C'est la pression artérielle. L'alvéole s'écrit PAO₂.
+- PIO₂ : pression capillaire en O₂ :: I désigne le gaz inspiré, avant tout échange.
+> I pour le gaz inspiré, A majuscule pour l'alvéole, a minuscule pour l'artère, v pour la veine. La lecture du gradient alvéolo-artériel PAO₂ − PaO₂ dépend entièrement de cette distinction.
+@ 124
+
+QCM · Pressions et diffusion
+Au niveau de la mer, en air ambiant humidifié à 37 °C, quelles affirmations sont exactes ?
++ La pression de vapeur d'eau à retenir est de 47 mmHg :: Elle occupe une part de la pression totale et ne participe pas aux échanges.
++ La PIO₂ est voisine de 150 mmHg :: (760 − 47) × 0,21 ≈ 150.
++ L'humidification de l'air abaisse la pression inspirée d'O₂ :: Dans l'air sec, la PO₂ serait d'environ 159 mmHg.
+- La PIO₂ se calcule par 760 × 0,21 :: Ce calcul ignore la vapeur d'eau et surestime la PIO₂ d'environ 10 mmHg.
+> Le gaz inspiré est saturé en eau dès les voies aériennes : PIO₂ = (Patm − 47) × FiO₂, soit environ 150 mmHg en air ambiant au niveau de la mer.
+@ 126–128
+
+QCM · Pressions et diffusion
+Dans l'équation alvéolaire PAO₂ = PIO₂ − PaCO₂ / R, quelles affirmations sont exactes ?
++ Avec PIO₂ = 150, PaCO₂ = 40 et R = 0,8, la PAO₂ vaut environ 100 mmHg :: 150 − 40 / 0,8 = 100.
++ À PIO₂ et R constants, une hausse de PaCO₂ abaisse la PAO₂ :: Le CO₂ qui s'accumule dans l'alvéole y prend la place de l'O₂.
++ Le quotient respiratoire R vaut environ 0,8 :: Production de CO₂ rapportée à la consommation d'O₂.
+- Le quotient respiratoire R est la consommation d'O₂ divisée par la production de CO₂ :: C'est l'inverse : production de CO₂ / consommation d'O₂.
+> PAO₂ = PIO₂ − PaCO₂ / R, avec R ≈ 0,8. L'équation explique pourquoi toute hypoventilation, en élevant la PaCO₂, abaisse la pression alvéolaire d'O₂.
+@ 128
+
+QCM · Pressions et diffusion
+Chez un patient qui hypoventile, la PaCO₂ est à 80 mmHg. En air ambiant au niveau de la mer, avec R = 0,8, quelles affirmations sont exactes ?
++ La PAO₂ est d'environ 50 mmHg :: 150 − 80 / 0,8 = 50.
++ Une PaO₂ voisine de 45 mmHg est cohérente avec ce calcul :: En retranchant le gradient alvéolo-artériel de quelques mmHg de cet exemple.
++ L'hypoxémie peut être corrigée par une hausse de FiO₂ sans que l'hypoventilation soit traitée :: L'oxygène relève la PIO₂ et masque l'hypoxémie, mais n'élimine pas le CO₂.
+- Une hausse du CO₂ alvéolaire laisse la pression alvéolaire d'O₂ inchangée :: Les deux gaz se partagent la pression alvéolaire : le CO₂ qui monte déplace l'O₂.
+> PAO₂ = 150 − 80 / 0,8 = 50 mmHg, soit une PaO₂ d'environ 45 mmHg dans cet exemple. L'hypoventilation produit à la fois l'hypercapnie et l'hypoxémie, et l'oxygène ne corrige que la seconde.
+@ 128
+
+QCM · Pressions et diffusion
+Quelles affirmations sur l'altitude et la diffusion des gaz sont exactes ?
++ La pression atmosphérique diminue quand l'altitude augmente :: La FiO₂ reste à 21 %, mais la pression totale baisse.
++ La pression inspirée d'O₂ baisse avec la pression atmosphérique :: PIO₂ = (Patm − 47) × 0,21 : c'est le gradient de départ qui s'effondre.
++ Dans le poumon, l'O₂ diffuse de l'alvéole vers le sang et le CO₂ en sens inverse :: Chaque gaz suit son propre gradient de pression partielle.
+- La diffusion alvéolo-capillaire dépend du seul débit ventilatoire :: Elle dépend aussi du gradient de pression, de la surface d'échange et de l'épaisseur de la membrane.
+> En altitude, c'est la pression partielle d'O₂ inspirée qui baisse, non sa fraction. La diffusion suit les gradients de pression partielle de chaque gaz, et dépend de la membrane autant que de la ventilation.
+@ 129–130
+
+QCM · Transport des gaz
+Quelles affirmations sur la pression partielle d'un gaz dans le sang sont exactes ?
++ Seule la fraction dissoute participe à la pression partielle :: L'O₂ fixé sur l'hémoglobine n'exerce pas de pression.
++ Le volume de gaz dissous dépend du coefficient de solubilité :: C'est la loi de Henry, qui explique la faible part dissoute de l'O₂.
++ La température modifie le volume de gaz dissous :: La solubilité diminue quand la température augmente.
+- La PaO₂ mesure l'ensemble de l'O₂ transporté :: Elle ne reflète que l'O₂ dissous, part minime du transport total.
+> La PaO₂ est la pression de l'O₂ dissous, pas la quantité d'O₂ transportée. C'est pourquoi une PaO₂ normale peut coexister avec un transport d'oxygène très insuffisant.
+@ 132
+
+QCM · Transport des gaz
+Quelles affirmations sur l'hémoglobine et sa saturation sont exactes ?
++ Une molécule d'hémoglobine peut fixer jusqu'à quatre molécules d'O₂ :: Une par hème.
++ La saturation est la proportion occupée de la capacité de fixation :: Elle s'exprime en pourcentage, et ne dit rien du nombre de transporteurs.
++ L'O₂ est transporté principalement sous forme liée à l'hémoglobine :: La forme dissoute est négligeable dans le transport.
+- Une SaO₂ à 100 % garantit un contenu artériel normal :: Pas chez un patient anémique : la capacité est pleine, mais elle est faible.
+> La saturation décrit un taux d'occupation, pas une quantité. Avec une hémoglobine basse, une SaO₂ de 100 % laisse un contenu artériel en oxygène très abaissé.
+@ 133–134
+
+QCM · Transport des gaz
+Dans CaO₂ = 1,39 × Hb × SaO₂ + 0,003 × PaO₂, quelles affirmations sont exactes ?
++ Le terme 1,39 × Hb × SaO₂ correspond à l'O₂ lié à l'hémoglobine :: C'est la part prépondérante du contenu artériel.
++ Le terme 0,003 × PaO₂ correspond à l'O₂ dissous :: Son coefficient montre à lui seul le peu qu'il représente.
++ Une saturation de 100 % s'introduit comme 1 :: La saturation entre dans la formule sous forme de fraction.
+- Le contenu artériel dépend surtout de la PaO₂ :: Il dépend surtout de l'hémoglobine : la PaO₂ n'intervient que par le terme dissous.
+> Le contenu artériel additionne l'O₂ lié à l'hémoglobine et l'O₂ dissous. La concentration d'hémoglobine pèse bien plus que la PaO₂ : c'est le transporteur qui manque, pas la pression.
+@ 135–136, fiche de révision 2
+
+QCM · Transport des gaz
+Deux situations, saturation à 100 % dans les deux cas : Hb à 10 g/dL avec PaO₂ à 150 mmHg, puis Hb à 2,5 g/dL avec PaO₂ à 600 mmHg. Quelles affirmations sont exactes ?
++ Le premier contenu artériel est de 14,35 mL d'O₂ par 100 mL de sang :: 1,39 × 10 + 0,003 × 150 = 14,35.
++ Le second est voisin de 5,28 mL d'O₂ par 100 mL de sang :: 1,39 × 2,5 + 0,003 × 600 = 5,275.
++ Multiplier la PaO₂ par quatre ne compense pas la division de l'hémoglobine par quatre :: L'O₂ dissous gagne 1,35 mL quand l'O₂ lié en perd 10,4.
+- Une PaO₂ de 600 mmHg suffit à maintenir un contenu artériel normal :: Sans transporteurs, l'oxygène dissous ne comble pas le déficit.
+> 14,35 contre 5,28 mL/100 mL : l'anémie profonde abaisse le contenu artériel malgré une PaO₂ très élevée. Devant un transport insuffisant, l'oxygène ne remplace pas la transfusion.
+@ 136
+
+QCM · Transport des gaz
+Quelles affirmations sur le transport artériel en oxygène TaO₂ sont exactes ?
++ TaO₂ = CaO₂ × débit cardiaque :: Une quantité par unité de temps, et non par volume de sang.
++ À contenu artériel identique, une baisse du débit cardiaque abaisse le transport d'O₂ :: C'est le mécanisme de l'hypoxie tissulaire du choc cardiogénique.
++ Un contenu artériel normal n'exclut pas un transport d'O₂ insuffisant :: Le débit cardiaque fait la seconde moitié du produit.
+- Le contenu artériel et le transport artériel en oxygène expriment la même grandeur :: Le premier est une concentration, le second un débit d'oxygène.
+> TaO₂ = CaO₂ × débit cardiaque. Hémoglobine, saturation et débit cardiaque sont trois leviers distincts : la gazométrie seule ne renseigne pas sur l'oxygène qui arrive aux tissus.
+@ 135–136
+
+QCM · Transport des gaz
+Quelles affirmations sur la courbe de dissociation de l'hémoglobine sont exactes ?
++ La P50 est la PO₂ qui correspond à une saturation de 50 % :: Elle mesure l'affinité : plus elle est haute, plus l'affinité est basse.
++ La P50 normale est voisine de 27 mmHg :: Repère de référence des déplacements de la courbe.
++ Une saturation proche de 90 % correspond à une PO₂ voisine de 60 mmHg :: Repère du coude de la courbe, au-delà duquel la saturation chute vite.
+- La saturation varie linéairement avec la PO₂ :: La courbe est sigmoïde : plateau au-dessus de 60 mmHg, pente raide en dessous.
+> La courbe est sigmoïde, avec P50 ≈ 27 mmHg et SaO₂ ≈ 90 % pour PO₂ ≈ 60 mmHg. Sur le plateau, une baisse de PaO₂ se voit peu sur la saturation ; passé le coude, la désaturation s'accélère.
+@ 137
+
+QCM · Transport des gaz
+Quelles affirmations sur un déplacement vers la droite de la courbe de dissociation sont exactes ?
++ Il facilite la libération d'O₂ dans les tissus :: L'affinité baisse là où l'oxygène doit être cédé.
++ Il correspond à une P50 augmentée :: Il faut une PO₂ plus élevée pour saturer la moitié de l'hémoglobine.
++ Une hausse de température, de CO₂ ou de 2,3-DPG le favorise :: Conditions d'un muscle au travail, qui a besoin d'oxygène.
+- Il correspond à une augmentation de l'affinité de l'hémoglobine pour l'O₂ :: Une affinité accrue déplace la courbe vers la gauche et retient l'O₂.
+> À droite, l'affinité diminue et la P50 monte : l'hémoglobine libère plus volontiers son oxygène. Acidose, hypercapnie, hyperthermie et hausse du 2,3-DPG déplacent la courbe dans ce sens.
+@ 138
+
+QCM · Transport des gaz
+Quelles affirmations sur les effets Bohr et Haldane sont exactes ?
++ Effet Bohr : le CO₂ et les ions H⁺ modifient l'affinité de l'hémoglobine pour l'O₂ :: Dans un tissu acide et riche en CO₂, l'O₂ est plus facilement cédé.
++ Effet Haldane : l'état d'oxygénation de l'hémoglobine modifie le transport du CO₂ :: L'hémoglobine désoxygénée fixe davantage de CO₂.
++ Dans le poumon, l'oxygénation de l'hémoglobine favorise la libération du CO₂ :: L'effet Haldane facilite ainsi son élimination alvéolaire.
+- Effet Bohr : l'O₂ modifie le transport du CO₂ :: C'est l'effet Haldane. Bohr décrit l'action du CO₂ et des H⁺ sur l'affinité pour l'O₂.
+> Bohr : le CO₂ et l'acidité agissent sur la fixation de l'O₂. Haldane : l'oxygénation agit sur le transport du CO₂. Les deux effets se complètent, dans les tissus comme dans le poumon.
+@ 139
+
+QCM · Transport des gaz
+Quelles affirmations sur les formes de transport du CO₂ sont exactes ?
++ Le CO₂ circule sous forme dissoute et sous plusieurs formes combinées :: Dissous, en bicarbonates et lié à l'hémoglobine.
++ L'anhydrase carbonique des hématies accélère la formation des bicarbonates :: Elle rend la réaction assez rapide pour le temps de transit capillaire.
++ Les bicarbonates formés dans l'hématie passent dans le plasma :: En échange d'ions chlorure ; les bicarbonates sont la forme majoritaire de transport.
+- Le CO₂ de l'hémoglobine carbaminée occupe le site de fixation de l'O₂ :: Il se fixe sur les groupements aminés de la globine, pas sur l'hème.
+> Le CO₂ est transporté surtout en bicarbonates, grâce à l'anhydrase carbonique, et aussi dissous ou lié à la globine. Ses sites de fixation diffèrent de celui de l'O₂, ce qui permet aux deux transports de coexister.
+@ 140–143
+
+QCM · Gazométrie et commande
+Quelles affirmations sur la lecture d'une gazométrie artérielle sont exactes ?
++ Le pH est lu avant la recherche de l'origine du trouble :: Acidose ou alcalose d'abord, mécanisme ensuite.
++ Dans un trouble respiratoire, pH et PaCO₂ varient en sens opposé :: Le CO₂ qui monte acidifie.
++ Dans un trouble métabolique, pH et bicarbonates varient dans le même sens :: Les bicarbonates qui baissent acidifient.
+- Un pH normal exclut un trouble acido-basique :: Une compensation peut ramener le pH vers la normale sans faire disparaître le trouble.
+> La lecture suit trois temps : pH, puis origine avec la PaCO₂ et les bicarbonates, puis compensation. Un pH normal avec une PaCO₂ et des bicarbonates tous deux déplacés signe un trouble compensé.
+@ 110–113
+
+QCM · Gazométrie et commande
+Quelles affirmations sur la commande ventilatoire et ses modifications pendant l'anesthésie sont exactes ?
++ Les centres de l'automatisme respiratoire sont situés dans le tronc cérébral :: Ils assurent le rythme sans commande volontaire.
++ La PaCO₂ est le principal facteur de régulation de la ventilation :: La réponse à l'hypercapnie est le moteur de la commande.
++ Anesthésie, décubitus et pneumopéritoine abaissent la CRF et favorisent les atélectasies :: La réserve d'oxygène diminue et les zones déclives se ferment.
+- Les morphiniques augmentent la réponse ventilatoire à l'hypercapnie :: Ils la dépriment : la courbe de réponse au CO₂ s'aplatit et se décale.
+> L'automatisme naît du tronc cérébral et se règle sur la PaCO₂. Les morphiniques émoussent cette réponse, pendant que l'anesthésie, la position et la chirurgie abaissent la CRF : hypoventilation et atélectasies se cumulent.
+@ 146–153, 156–159
