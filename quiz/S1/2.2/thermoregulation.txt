@@ -304,7 +304,6 @@ Quelles actions permettent d’évaluer et d’améliorer la prévention thermiq
 @ Diapositives 9, 58, 72 et 76
 
 QCU · Préchauffage et causalité
-
 Affirmation 1. Le préchauffage peut limiter la baisse de température centrale après l’induction.
 Affirmation 2. Il réchauffe la périphérie et diminue le gradient thermique entre centre et périphérie.
 + Les deux affirmations sont vraies et la seconde explique la première.
@@ -316,7 +315,6 @@ Affirmation 2. Il réchauffe la périphérie et diminue le gradient thermique en
 @ Diapositives 55 à 57
 
 QCU · Plateau thermique
-
 Affirmation 1. Une température centrale en plateau peut coexister avec une baisse de température des jambes.
 Affirmation 2. Le plateau central provoque le réchauffement immédiat de tous les territoires périphériques.
 - Les deux affirmations sont vraies et la seconde explique la première.
@@ -328,7 +326,6 @@ Affirmation 2. Le plateau central provoque le réchauffement immédiat de tous l
 @ Diapositives 39 et 40; commentaires oraux du plateau
 
 QCU · Perception sous rachianesthésie
-
 Affirmation 1. L’absence de sensation de froid sous rachianesthésie prouve que la température centrale est normale.
 Affirmation 2. Le bloc des afférences thermiques peut modifier l’intégration centrale et la perception du froid.
 - Les deux affirmations sont vraies et la seconde explique la première.
@@ -340,7 +337,6 @@ Affirmation 2. Le bloc des afférences thermiques peut modifier l’intégration
 @ Diapositive 41
 
 QCU · Mesure et prévention
-
 Affirmation 1. Le monitorage de la température apporte l’énergie nécessaire pour compenser la dette thermique.
 Affirmation 2. Une couverture passive réchauffe la périphérie autant qu’un préchauffage actif et rend celui-ci inutile.
 - Les deux affirmations sont vraies et la seconde explique la première.
