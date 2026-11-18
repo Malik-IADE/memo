@@ -1,210 +1,155 @@
-// Quiz 34 – Cœlioscopie (UE 3.3), d'après « QUIZZ 34 Coelioscopie.html »
+// Quiz – Cœlioscopie (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Chirurgie coelioscopique avec notes ».
+// Questions type examen sur les notions générales : physiopathologie du pneumopéritoine, conduite anesthésique, complications. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Cœlioscopie
 
-QCM · Pneumopéritoine
-Quelles propositions expliquent la création et le maintien de l’espace opératoire en cœlioscopie ?
-+ Le CO₂ écarte la paroi des viscères par élévation de la pression intra-abdominale :: C'est le principe de la cœlioscopie : créer un espace de travail
-- L’insufflateur maintient l’exposition en délivrant un débit fixe, quelle que soit la pression abdominale :: L'insufflateur régule sur une pression cible, en adaptant son débit
-- À pression abdominale identique, le site d’insufflation influe peu sur la résorption du CO₂ :: Le rétropéritoine résorbe bien davantage que la cavité péritonéale
-+ Le Trendelenburg aide à dégager le pelvis en déplaçant les viscères vers l’étage supérieur :: Le pelvis se dégage quand les anses remontent vers le diaphragme
-+ Le caractère ininflammable du CO₂ est un intérêt lors de l’électrocoagulation :: Il ne risque pas de s'enflammer au contact du bistouri électrique
-> L’exposition dépend du pneumopéritoine et de la position. L’insufflateur régule la pression, et la résorption du CO₂ peut être plus importante en rétropéritonéal. Son caractère ininflammable est un avantage distinct.
-@ 3-4, 24
+QCM · Principe
+Concernant le principe de la cœlioscopie, quelles propositions sont exactes ?
++ Le pneumopéritoine est créé par insufflation de CO2 dans la cavité péritonéale. :: Il crée l'espace de travail.
++ L'insufflateur maintient une pression intra-abdominale autorégulée, affichée en mmHg. :: Elle fait partie de la surveillance.
+- Le premier trocart est introduit sous contrôle de la caméra. :: Le premier geste est aveugle, sauf mini-laparotomie : c'est un temps à risque de plaie vasculaire ou viscérale.
+- Le gaz d'insufflation est l'air ambiant. :: C'est du CO2.
++ La chirurgie se fait à ventre fermé, par plusieurs petits orifices de trocarts. :: La vision passe par une caméra et un écran.
+> La cœlioscopie est une chirurgie à ventre fermé : quelques trocarts, une caméra, et un pneumopéritoine au CO2 qui augmente la pression intra-abdominale. Le patient est installé en Trendelenburg ou en proclive selon la chirurgie.
+@ p. 3 et 4
 
-QCM · Choix de la voie d’abord
-Quelles associations entre terrain et conséquences du pneumopéritoine sont exactes ?
-+ Insuffisance respiratoire chronique : la diminution de la restriction postopératoire peut constituer un bénéfice :: La paroi reste libre, sans l'incision douloureuse d'une laparotomie
-- Choc non compensé : la compression cave augmente la précharge et améliore la tolérance à l’insufflation :: La compression cave diminue le retour veineux : elle aggrave le choc
-+ Hypertension intracrânienne importante : l’insufflation peut aggraver l’élévation de pression :: Elle gêne le retour veineux cérébral et majore la pression intracrânienne
-- Emphysème bulleux sévère : la baisse de compliance après insufflation réduit le risque de barotraumatisme :: Une bulle soumise à des pressions élevées peut se rompre : le risque augmente
-+ Grossesse avancée : le volume utérin peut rendre l’abord plus difficile :: L'utérus gravide réduit l'espace et complique la pose des trocarts
-> Le bénéfice respiratoire postopératoire peut compter sur terrain fragile. Un choc peut être aggravé par la baisse du retour veineux, et des pressions ventilatoires élevées exposent au barotraumatisme sur terrain bulleux. Le volume utérin et la pression intracrânienne posent des problèmes distincts.
-@ 6, 8, 10, 21, 23, 25
+QCM · Contre-indications
+Parmi les situations suivantes, lesquelles sont des contre-indications à la cœlioscopie ?
++ Un état de choc non compensé :: Il tolère mal la baisse de débit cardiaque liée au pneumopéritoine.
++ Une hypertension intracrânienne :: Le pneumopéritoine augmente la pression intracrânienne.
++ Une dérivation ventriculo-péritonéale :: Le CO2 sous pression peut remonter vers les ventricules.
+- L'obésité :: C'est au contraire un terrain où la cœlioscopie est intéressante, pour son bénéfice respiratoire.
+- Une insuffisance respiratoire chronique :: C'est aussi un terrain privilégié, car la fonction respiratoire postopératoire est mieux préservée.
+> Contre-indications : urgence extrême, choc non compensé, emphysème bulleux, pneumothorax récidivant, dérivation péritonéo-jugulaire ou ventriculo-péritonéale, HTIC. Relatives : grossesse avancée, troubles de l'hémostase, hypertension portale.
+@ p. 6 et 8
 
-QCM · Débit cardiaque
-Quels changements expliquent la baisse du débit cardiaque lors de l’augmentation de la pression intra-abdominale ?
-+ Une baisse du retour veineux par compression cave :: La pression abdominale écrase la veine cave inférieure
-+ Une hausse des résistances vasculaires systémiques qui augmente la postcharge du ventricule gauche :: La pression abdominale et les catécholamines élèvent les résistances
-- Une baisse de la pression intrathoracique qui réduit le remplissage du cœur droit :: La pression intrathoracique augmente sous l'effet du refoulement diaphragmatique
-- Une vasodilatation splanchnique consécutive à la compression vasculaire :: La compression provoque une vasoconstriction, non une vasodilatation
-+ Une atténuation du retour veineux en proclive, qui peut majorer l’effet de l’insufflation :: Le sang se séquestre dans les membres inférieurs, en plus de la compression cave
-> Le remplissage droit diminue sous l’effet de la compression cave et de la hausse de pression intrathoracique. Les résistances systémiques augmentent, ce qui gêne l’éjection gauche. Le proclive peut accentuer la baisse de précharge.
-@ 20-22
+QCM · Avantages
+Quels sont les avantages de la cœlioscopie par rapport à la laparotomie ?
++ Un syndrome restrictif postopératoire moins sévère et qui récupère plus vite. :: L'hypoxémie postopératoire est moins fréquente.
+- L'absence de douleur de l'épaule en postopératoire. :: Une douleur scapulaire droite, liée au CO2 sous le diaphragme, est fréquente.
++ Une durée d'hospitalisation plus courte. :: C'est l'avantage le mieux démontré.
+- Une durée opératoire plus courte. :: Elle est souvent plus longue.
+- Une mortalité plus faible. :: La mortalité est comparable entre les deux voies.
+> Avantages : fonction respiratoire, douleur, hospitalisation, transit, convalescence, moins d'adhérences et d'éventrations, esthétique. Limites : conversion si l'indication n'est pas adaptée (cholécystite aiguë), durée opératoire allongée. Les petites cicatrices peuvent faussement rassurer.
+@ p. 9 à 18 et 35
 
-QCM · Pression artérielle
-À propos de la pression artérielle juste après la création du pneumopéritoine, quelles propositions sont exactes ?
-- Une pression artérielle en hausse montre que le débit cardiaque a augmenté :: Une pression peut monter par vasoconstriction alors que le débit s'effondre
-+ Une hausse des résistances systémiques peut soutenir la pression artérielle malgré une baisse du débit :: C'est la situation typique de l'insufflation : pression conservée, débit abaissé
-- Une hypovolémie est compensée par l’augmentation des résistances et protège de l’hypotension à pression d’insufflation comparable :: L'hypovolémie rend au contraire la chute tensionnelle plus brutale
-- Une pression artérielle plus élevée implique que la perfusion rénale a augmenté :: Une pression élevée par vasoconstriction s'accompagne d'une perfusion rénale abaissée
-- Une hausse tensionnelle impose de conclure à un défaut d’hypnose ou d’analgésie :: La hausse tensionnelle de l'insufflation est mécanique avant d'être un signe de réveil
-> La pression artérielle dépend à la fois du débit et des résistances. Une hausse peut survenir malgré une anesthésie suffisante et n’assure pas une hausse de perfusion rénale. Une réserve de précharge insuffisante expose au contraire à l’hypotension.
-@ 21-23, 36
+QCU · Débit cardiaque et pression intra-abdominale
+Comment évolue le débit cardiaque quand la pression intra-abdominale augmente ?
+- Il augmente, par hausse du retour veineux. :: La compression des veines caves diminue le retour veineux.
+- Il reste stable tant que la pression ne dépasse pas 25 mmHg. :: La baisse commence dès les pressions habituelles d'insufflation.
++ Il diminue d'autant plus que la pression intra-abdominale est élevée. :: Il baisse d'environ un quart à 20 mmHg.
+- Il diminue davantage en Trendelenburg qu'en proclive. :: Le Trendelenburg limite la baisse ; c'est le proclive qui l'aggrave.
+- Il ne varie pas, car la fréquence cardiaque compense. :: La fréquence cardiaque reste inchangée et ne compense pas.
+> La baisse du débit cardiaque est proportionnelle à la pression intra-abdominale. Elle associe une baisse du retour veineux (compression cave, pression intrathoracique) et une hausse de la postcharge du ventricule gauche.
+@ p. 20 à 22
 
-QCM · Perfusion régionale
-Quels effets régionaux peuvent accompagner l’augmentation de la pression intra-abdominale ?
-+ Une baisse de la filtration glomérulaire :: La compression rénale et la baisse du débit la diminuent
-- Une augmentation de la perfusion mésentérique :: Elle diminue : la pression abdominale comprime le territoire splanchnique
-+ Une augmentation de la pression intracrânienne :: Par gêne du retour veineux cérébral, majorée par le Trendelenburg
-+ Une baisse de la perfusion rénale :: La compression réduit le débit rénal et la pression de filtration
-- Une augmentation de la perfusion splénique :: Elle diminue comme les autres territoires splanchniques
-> Les données présentées sont surtout expérimentales. Les perfusions mésentérique, splénique et rénale peuvent diminuer. La filtration glomérulaire peut baisser et la pression intracrânienne peut monter.
-@ 23
+QCM · Conséquences hémodynamiques
+Concernant le retentissement hémodynamique du pneumopéritoine, quelles propositions sont exactes ?
+- Les résistances vasculaires systémiques diminuent. :: Elles augmentent, par compression vasculaire et sécrétion d'hormone antidiurétique.
++ La pression artérielle peut augmenter alors que le débit cardiaque baisse. :: PA = Q × RVS : la hausse des résistances l'emporte.
+- Le proclive limite la baisse du débit cardiaque. :: Le proclive majore la baisse ; le Trendelenburg la minimise.
++ Une hypovolémie ou une pression intra-abdominale excessive peuvent entraîner un collapsus. :: Le retour veineux devient alors insuffisant.
+- La perfusion rénale augmente pendant le pneumopéritoine. :: Elle diminue, avec une baisse de la filtration glomérulaire et une oligurie.
+> Le pneumopéritoine diminue le débit cardiaque et augmente les résistances : la PA monte souvent (+20 %), facilement contrôlée par l'anesthésie. Il diminue les perfusions splanchnique et rénale et augmente la pression intracrânienne.
+@ p. 21 à 23
 
-QCM · Capnographie
-Quelles propositions décrivent la cinétique de la capnie lors d’une insufflation de CO₂ ?
-+ Le passage de CO₂ dans le sang peut augmenter la PaCO₂ et l’EtCO₂ :: Le CO₂ insufflé diffuse à travers le péritoine vers le sang
-- Un plateau d’EtCO₂ traduit l’arrêt de la résorption du CO₂ par le péritoine :: Un plateau traduit l'équilibre entre résorption et élimination ventilatoire
-+ Augmenter la ventilation minute peut compenser l’apport supplémentaire de CO₂ :: C'est la réponse habituelle : augmenter la fréquence ou le volume courant
-+ En insufflation intrapéritonéale habituelle, un plateau peut s’établir en une vingtaine de minutes après adaptation ventilatoire :: Délai usuel d'équilibration pour une insufflation intrapéritonéale
-- À ventilation minute inchangée, une hausse continue de l’EtCO₂ prouve une insufflation sous-cutanée :: Elle oriente surtout vers une résorption accrue, sous-cutanée ou rétropéritonéale, qu'il faut chercher
-> Un plateau correspond à un équilibre entre apport et élimination. Une hausse persistante malgré adaptation fait rechercher une insufflation extrapéritonéale. La capnographie seule ne localise pas le gaz.
-@ 24, 29, 40
+QCM · Conséquences respiratoires
+Concernant le retentissement respiratoire du pneumopéritoine, quelles propositions sont exactes ?
++ La PaCO2 et l'EtCO2 augmentent pendant les premières minutes, puis atteignent un plateau. :: Le CO2 est absorbé par le péritoine.
++ La compliance pulmonaire diminue et les pressions des voies aériennes augmentent. :: Le diaphragme est repoussé vers le haut.
+- La consommation d'oxygène augmente fortement. :: La VO2 reste stable : c'est la production de CO2 à éliminer qui augmente.
+- L'absorption du CO2 est plus importante quand l'insufflation est intrapéritonéale que lorsqu'elle est extrapéritonéale. :: L'insufflation extrapéritonéale (hernie hiatale, emphysème) favorise une absorption importante.
++ Les conséquences cliniques sont faibles chez le patient ASA 1. :: Elles deviennent importantes sur un terrain fragile.
+> Hypercapnie par absorption du CO2, hausse de la pression intrathoracique, baisse de la compliance, hausse des pressions des voies aériennes et altération des rapports ventilation/perfusion. On augmente la ventilation minute pour éliminer le CO2.
+@ p. 24 et 25
 
-QCM · Mécanique respiratoire
-À réglages ventilatoires inchangés, quels effets peut entraîner une baisse de compliance après insufflation ?
-+ En pression contrôlée, le volume courant peut diminuer :: La compliance abaissée réduit le volume pour une même pression
-- En volume contrôlé, le volume délivré augmente pour une même consigne :: Il diminue, ou impose des pressions plus élevées pour être maintenu
-- En pression contrôlée, le maintien de la consigne de pression assure une ventilation minute stable :: Le volume chute avec la compliance : la ventilation minute baisse
-+ En volume contrôlé, les pressions des voies aériennes peuvent augmenter pour délivrer le volume réglé :: C'est la conséquence directe de la baisse de compliance
-- Une hausse de pression des voies aériennes permet de distinguer une intubation sélective d’un changement de compliance :: Les deux font monter les pressions : il faut ausculter pour les séparer
-> À pression fixée, le volume délivré peut baisser. À volume fixé, la pression nécessaire peut monter. Une hausse de pression est peu spécifique et doit être interprétée avec le volume, l’auscultation et l’oxygénation.
-@ 25, 28-29, 38
+QCM · Conduite de l'anesthésie
+Concernant l'anesthésie pour cœlioscopie, quelles propositions sont exactes ?
++ Le principe est l'anesthésie générale avec intubation et ventilation contrôlée. :: La pression abdominale et le risque de régurgitation la justifient.
++ Un relâchement musculaire parfait est nécessaire. :: Il permet de travailler avec une pression d'insufflation plus basse.
++ Il n'y a pas d'hypnotique spécifique : sévoflurane ou propofol conviennent. :: Le choix dépend du patient.
++ Une auscultation pulmonaire est faite après l'insufflation. :: Pour dépister une intubation sélective.
++ La pression intra-abdominale est maintenue à 15 mmHg ou moins. :: Au-delà, le débit cardiaque baisse fortement.
+> AG, IOT, ventilation contrôlée, curarisation monitorée, capnographie, surveillance des pressions d'insufflation et de la pression intra-abdominale (≤ 15 mmHg), PEP et recrutements. Si problème : exsufflation et conversion.
+@ p. 28, 29 et 31
 
-QCM · Surveillance après insufflation
-Quelles vérifications relient correctement une mesure au risque surveillé ?
-- Saturation conservée : une auscultation asymétrique peut être écartée comme signe d’intubation sélective :: Sous oxygène, la saturation reste normale malgré une ventilation unilatérale
-+ Auscultation bilatérale : vérification de la symétrie de ventilation après mise en place du pneumopéritoine :: Le refoulement du diaphragme peut rendre la sonde sélective
-- Pression de l’insufflateur : mesure de la pression des voies aériennes utile au réglage de la Pmax :: Ce sont deux pressions différentes : celle de l'insufflateur concerne l'abdomen
-+ Ventilation en pression contrôlée : vérification du volume courant effectivement délivré :: Le volume délivré est la variable qui chute quand la compliance baisse
-+ Capnographie : suivi de la réponse à l’ajustement de la ventilation minute :: Elle vérifie que l'augmentation de ventilation a corrigé l'hypercapnie
-> Une intubation sélective peut se manifester sans désaturation initiale. La pression intra-abdominale se lit sur l’insufflateur et la pression des voies aériennes sur le ventilateur. Le volume délivré et la tendance de l’EtCO₂ permettent de vérifier l’efficacité de la ventilation.
-@ 28-29, 38
+QCM · Installation et prévention
+Quelles mesures de prévention sont adaptées en cœlioscopie ?
++ Une sonde gastrique en chirurgie viscérale. :: Pour décomprimer l'estomac et éviter une plaie.
++ Une sonde vésicale en chirurgie gynécologique. :: Pour éviter une plaie de vessie.
++ Une protection des appuis pour prévenir la compression du nerf fibulaire au genou. :: En position gynécologique.
+- Des épaulières placées au contact du plexus brachial. :: Elles protègent du glissement en Trendelenburg, mais mal placées elles exposent à l'étirement du plexus brachial.
++ Un réchauffement cutané. :: L'hypothermie reste un risque malgré le ventre fermé.
+> Prévention des lésions viscérales (sonde gastrique, sonde vésicale), des lésions nerveuses (épaulières, appuis jambiers, plexus brachial) et de l'hypothermie (réchauffement cutané).
+@ p. 30 et 44
 
-QCM · Curarisation et exposition
-Quels arguments justifient d’adapter le bloc neuromusculaire en cœlioscopie ?
-+ À pression d’insufflation donnée, le relâchement de la paroi peut améliorer l’espace de travail :: Un abdomen relâché offre plus d'espace à pression égale
-+ Après arrimage du robot, le monitorage de la curarisation reste utile pour maintenir l’immobilité :: Un mouvement sous robot arrimé peut léser les viscères
-- Des orifices de trocarts petits impliquent une fermeture prolongée, sur laquelle on peut compter pour récupérer spontanément :: La fermeture est au contraire très rapide : la récupération doit être anticipée
-- Une pression intra-abdominale bien régulée renseigne sur le degré de bloc neuromusculaire :: Elle renseigne sur l'insufflation, pas sur la jonction neuromusculaire
-+ La rapidité de fermeture des orifices renforce l’intérêt d’un bloc monitoré et réversible dans un délai compatible avec la fin du geste :: Le bloc doit être profond jusqu'au bout, puis levé rapidement
-> Le relâchement de la paroi favorise l’exposition et l’immobilité est importante pour le robot. La fermeture est brève et la pression abdominale ne renseigne pas directement sur le bloc. Le monitorage et l’anticipation de la récupération restent nécessaires.
-@ 5, 28-29, 32
+QCU · Intubation sélective
+Après l'insufflation et la mise en Trendelenburg, les pressions d'insufflation montent et la SpO2 baisse. Le murmure vésiculaire est diminué à gauche. Quel est le diagnostic le plus probable ?
+- Embolie gazeuse :: Elle donne surtout une chute de l'EtCO2 et un collapsus.
++ Intubation sélective droite :: Le pneumopéritoine fait remonter la carène vers la sonde.
+- Emphysème sous-cutané :: Il donne une crépitation et une hypercapnie, pas une asymétrie auscultatoire.
+- Bronchospasme :: Il donnerait des sibilants bilatéraux.
+- Réaction vagale :: Elle donne une bradycardie, pas d'asymétrie auscultatoire.
+> Le pneumopéritoine et le Trendelenburg repoussent le diaphragme, le médiastin et la carène vers le haut. Une sonde proche de la carène devient sélective droite. Conduite : retirer légèrement la sonde et réausculter.
+@ p. 38
 
-QCM · Installation
-Quelles associations entre installation et complication sont exactes ?
-+ Appui au niveau de la tête de la fibula : compression possible du nerf fibulaire commun :: Il chemine superficiellement au col de la fibula, très exposé
-+ Bras en croix : risque d’étirement du plexus brachial :: L'abduction excessive met le plexus en tension
-- Appui jambier comprimant la tête de la fibula : déficit attendu surtout à la flexion plantaire :: Le nerf fibulaire commun commande la flexion dorsale : le déficit est un pied tombant
-+ Bras le long du corps et sous les champs : nécessité de vérifier la perméabilité des voies après installation :: Une fois sous les champs, les bras deviennent inaccessibles
-- Trendelenburg prolongé avec besoin d’appuis d’épaules : l’évaluation des appuis peut attendre la fin de l’intervention :: Les appuis se vérifient avant le drapage : après, il est trop tard
-> Le nerf fibulaire commun est exposé à la compression près de la tête de la fibula, avec difficulté à relever le pied. Le plexus brachial est exposé à la traction. Les appuis et le fonctionnement des voies se contrôlent dès l’installation.
-@ 30, 32, 44
+QCM · Complications cardiovasculaires
+Concernant les complications cardiovasculaires peropératoires de la cœlioscopie, quelles propositions sont exactes ?
++ Une hypotension est favorisée par une pression intra-abdominale élevée et par l'hypovolémie. :: Le retour veineux diminue.
++ Les réactions vagales sont fréquentes lors de la distension du péritoine. :: Elles peuvent aller jusqu'à un bref arrêt circulatoire.
++ Une anesthésie ou une analgésie insuffisante favorise les réactions vagales. :: D'où l'importance de la profondeur d'anesthésie à l'insufflation.
++ Une hypotension à l'insufflation fait vérifier la pression intra-abdominale, la position et la volémie. :: Ce sont ses causes habituelles.
++ Les troubles du rythme sont rares si la capnie est normale. :: Ils sont favorisés par l'hypercapnie.
+> Devant une hypotension à l'insufflation : vérifier la pression intra-abdominale, la position de la table et la volémie. Devant une bradycardie : arrêter l'insufflation, atropine, approfondir l'anesthésie.
+@ p. 36 et 37
 
-QCM · Hypotension à l’insufflation
-Quels éléments peuvent renforcer la baisse du débit cardiaque au moment de l’insufflation ?
-+ Le passage en proclive :: Il ajoute la séquestration veineuse à la compression cave
-- La baisse de pression intra-abdominale après la pose des trocarts :: Elle est au contraire élevée : c'est l'insufflation qui comprime
-+ Une hypovolémie préexistante :: Un patient hypovolémique n'a aucune réserve de précharge
-+ Une faible réserve de précharge lors d’une hausse de la pression intrathoracique :: Un cœur qui ne peut pas augmenter son volume d'éjection subit la baisse de précharge
-+ Une élévation transitoire importante de la pression pour la pose des trocarts :: Les pointes de pression à la pose des trocarts peuvent provoquer une chute brutale
-> Le proclive, l’hypovolémie et une forte pression abdominale diminuent le retour veineux. Une hausse de pression intrathoracique peut aussi limiter le remplissage droit. Le Trendelenburg peut atténuer cet effet. Baisser la pression abdominale réduit la contrainte exercée sur le retour veineux.
-@ 20-22, 31, 36
+QCM · Emphysème et hypercapnie
+Une EtCO2 continue de monter sans plateau malgré l'augmentation de la ventilation. Quelles propositions sont exactes ?
++ Il faut évoquer une insufflation extrapéritonéale. :: L'absorption du CO2 est alors importante.
++ Un emphysème sous-cutané peut être palpé sous forme de crépitation. :: Il survient le plus souvent en début d'intervention.
++ La conduite à tenir est d'arrêter l'insufflation et de replacer l'insufflateur. :: Le CO2 se résorbe ensuite spontanément.
+- Un emphysème sous-cutané impose l'arrêt définitif de l'intervention. :: Il conduit rarement à interrompre l'intervention.
+- L'hypercapnie disparaît dès l'exsufflation, sans risque en SSPI. :: Elle peut se prolonger en SSPI, surtout après insufflation extrapéritonéale.
+> Une hypercapnie difficile à contrôler fait rechercher une insufflation extrapéritonéale (sous-cutanée, sous-péritonéale, colique). On repositionne l'insufflateur, on adapte la ventilation et on surveille la capnie au réveil.
+@ p. 40 et 48
 
-QCM · Diagnostic respiratoire
-Quelles propositions aident à interpréter les signes d’une intubation sélective secondaire ou d’un pneumothorax après insufflation ?
-- Une intubation initialement bilatérale exclut une migration secondaire relative à la carène :: La carène remonte avec le diaphragme : la sonde devient relativement trop profonde
-+ La remontée de la carène peut rendre la sonde sélective sans déplacement de sa fixation :: Le repère à la bouche est inchangé, et la sonde est pourtant dans une bronche
-+ Une hausse des pressions ventilatoires peut être observée dans les deux complications :: Baisse de compliance et intubation sélective élèvent toutes deux les pressions
-+ Une remontée des coupoles peut modifier la profondeur relative de la sonde après une bascule de table :: C'est le mécanisme : la bascule de table modifie la position relative de la sonde
-+ La restauration d’une ventilation bilatérale après repositionnement de la sonde oriente vers l’intubation sélective :: C'est la manœuvre qui fait le diagnostic
-> Le diaphragme et la carène peuvent remonter lors de l’insufflation ou de la bascule en Trendelenburg. Pressions élevées, asymétrie et désaturation se recoupent. La réponse au repositionnement de la sonde aide à identifier une intubation sélective.
-@ 38-39
+QCM · Embolie gazeuse
+Concernant l'embolie gazeuse au CO2 en cœlioscopie, quelles propositions sont exactes ?
+- Elle survient le plus souvent en fin d'intervention, à l'exsufflation. :: Elle survient surtout en début d'intervention, lors de l'introduction de l'aiguille ou des trocarts.
+- Une embolie majeure entraîne une hausse progressive de l'EtCO2. :: Elle entraîne une chute brutale de l'EtCO2, par effondrement du débit cardiaque.
+- Une embolie mineure se traduit par une chute de l'EtCO2. :: Une petite quantité de CO2 peut au contraire faire monter l'EtCO2.
++ Le traitement associe FiO2 100 %, arrêt de l'insufflation et position en Trendelenburg avec décubitus latéral gauche. :: Pour piéger le gaz dans le ventricule droit.
+- Le protoxyde d'azote est utile pour réduire la bulle. :: Il ne fait pas partie du traitement et augmenterait le volume des bulles.
+> Embolie gazeuse : injection vasculaire directe ou plaie veineuse sous pression. Signes : variation de l'EtCO2, désaturation, cyanose, insuffisance cardiaque droite, collapsus, arrêt cardiaque. Traitement : FiO2 100 %, exsufflation, massage si besoin, aspiration par cathéter central, Trendelenburg et décubitus latéral gauche, oxygénothérapie hyperbare.
+@ p. 41, 42 et 48
 
-QCM · Insufflation hors du péritoine
-Quelles associations entre le site du CO₂ et sa manifestation sont exactes ?
-+ Sous la peau : crépitation palpable liée à un emphysème :: Le gaz diffuse dans le tissu sous-cutané : la crépitation est caractéristique
-- Sous le péritoine pariétal : agrandissement progressif de l’espace vu par l’opérateur :: L'opérateur ne voit pas apparaître l'espace attendu : le gaz décolle le péritoine
-+ Dans la lumière colique : absence du pneumopéritoine attendu et correction parfois lente de l’hypercapnie :: Le gaz passe dans la lumière digestive au lieu de la cavité
-+ En rétropéritonéal : risque de résorption plus marquée qu’en intrapéritonéal :: La surface d'échange rétropéritonéale résorbe davantage le CO₂
-- Sous la peau : délai obligatoirement immédiat après l’insufflation initiale :: Il peut apparaître secondairement, au cours de l'intervention
-> Le gaz sous-cutané peut apparaître d’emblée ou après déplacement du trocart. Sous le péritoine, le décollement rétrécit l’espace opératoire. Dans le côlon ou le rétropéritoine, le contrôle de la capnie peut être plus difficile.
-@ 24, 40, 48
-
-QCM · Douleur et suites opératoires
-Quelles associations entre mécanisme et surveillance des douleurs après cœlioscopie sont exactes ?
-+ CO₂ résiduel sous-diaphragmatique : douleur projetée vers l’épaule possible :: Le gaz résiduel irrite le diaphragme, dont l'innervation est cervicale
-+ Douleur scapulaire bilatérale, intense et persistante : signal d’alerte pour un hémopéritoine :: Associée à une mauvaise tolérance, elle doit faire chercher un saignement
-- Infiltration des orifices de trocarts : traitement direct du CO₂ restant sous le diaphragme :: Elle traite la douleur pariétale des incisions, pas la douleur scapulaire
-+ Douleur disproportionnée et résistante à l’analgésie : intérêt de rechercher une complication :: Une douleur qui ne cède pas est un signal, pas un problème de dosage
-- Exsufflation soigneuse : intérêt limité à la réduction de la douleur des incisions cutanées :: Elle réduit précisément la douleur scapulaire due au gaz résiduel
-> Le gaz résiduel peut entraîner une douleur scapulaire, ce qui justifie l’exsufflation soigneuse. L’infiltration traite surtout la douleur des orifices. Une douleur forte, persistante ou atypique conduit à réévaluer la présence d’une complication.
-@ 13, 33-34
+QCM · Période postopératoire
+Concernant les suites d'une cœlioscopie, quelles propositions sont exactes ?
++ Les NVPO sont fréquentes et justifient une prophylaxie. :: Dexaméthasone, dropéridol, ondansétron.
++ La douleur de l'épaule droite est liée au CO2 piégé sous le diaphragme. :: Avec la traction des ligaments phréno-hépatiques.
++ Une exsufflation soigneuse en fin d'intervention diminue la douleur. :: Elle se fait en Trendelenburg, avant la remise à plat.
+- Une douleur abdominale diffuse, intense et persistante est habituelle et sans valeur d'alarme. :: Elle doit faire rechercher une hémorragie ou une perforation.
++ Un pneumothorax ou une hémorragie peuvent se révéler après la sortie de SSPI. :: Ces complications retardées sont rares mais graves.
+> Après cœlioscopie : prévention des NVPO, analgésie multimodale (AINS, infiltration des orifices), exsufflation soigneuse. Une douleur diffuse ou scapulaire intense et persistante est un signe d'alarme : la cœlioscopie a une fausse réputation d'innocuité.
+@ p. 13, 33 et 34
 
 QCM · Complications chirurgicales
-Quelles propositions décrivent correctement la présentation des complications chirurgicales ?
-+ Une plaie de gros vaisseau à la pose d’un trocart peut provoquer un effondrement hémodynamique rapide :: C'est le risque majeur de la pose du premier trocart, à l'aveugle
-+ Une perforation digestive peut être méconnue au bloc et se révéler par une péritonite :: Elle peut passer inaperçue et se révéler à J2 ou J3 par une péritonite
-- Une fermeture cutanée simple oriente vers l’absence de complication viscérale profonde :: Une plaie viscérale ou biliaire n'a aucune traduction cutanée
-+ Une lésion de la voie biliaire principale peut se révéler après l’intervention :: Elle se révèle souvent après l'intervention, par un ictère ou une fistule
-- Une plaie veineuse se traduit par un collapsus immédiat à l’insufflation :: La pression du pneumopéritoine peut tamponner la plaie : le collapsus survient à l'exsufflation
-> Le moment de révélation dépend du mécanisme. Une plaie vasculaire majeure peut être immédiatement menaçante. Un saignement veineux peut être progressif, comme la révélation de certaines perforations et lésions biliaires. L’aspect cutané est peu informatif.
-@ 14, 34, 45-46
+Concernant les complications chirurgicales de la cœlioscopie, quelles propositions sont exactes ?
++ Une perforation digestive peut passer inaperçue pendant l'intervention. :: Le retard diagnostique en fait la gravité.
+- Les plaies des gros vaisseaux surviennent surtout lors de la fermeture des orifices. :: Elles surviennent surtout lors de l'introduction à l'aveugle de l'aiguille ou des trocarts.
+- Les lésions de la voie biliaire principale lors d'une cholécystectomie sont habituellement reconnues en peropératoire. :: Leur diagnostic est souvent retardé.
+- La chirurgie de la hernie hiatale protège du pneumomédiastin. :: Elle expose au contraire au pneumomédiastin et à l'emphysème cervical.
+- Le risque thrombo-embolique est supprimé par le pneumopéritoine. :: La pression abdominale et le proclive favorisent la stase veineuse.
+> Complications chirurgicales : hémorragies (introduction à l'aveugle, dissection), perforations viscérales méconnues, plaies biliaires (cholécystectomie), pneumomédiastin (hernie hiatale). La prévention thrombo-embolique est celle de l'intervention et du terrain.
+@ p. 43, 45 et 46
 
-QCU · Position et précharge
-Affirmation 1. Le proclive peut accentuer la baisse du débit cardiaque lors de l’insufflation.
-Affirmation 2. Le proclive peut diminuer le retour veineux.
-Évalue les deux affirmations et leur lien explicatif.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies et liées. En proclive, l’effet de la gravité sur le retour veineux s’ajoute à l’effet du pneumopéritoine. Le remplissage du cœur droit et le débit peuvent diminuer davantage.
-@ 20-22, 36
-
-QCU · Compliance et capnie
-Affirmation 1. En pression contrôlée, le volume courant peut baisser à réglage inchangé après insufflation.
-Affirmation 2. Le CO₂ insufflé peut passer dans le sang et augmenter la capnie.
-Évalue les deux affirmations et leur lien explicatif.
-- Les deux affirmations sont vraies et la seconde explique la première.
-+ Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies. Le passage de CO₂ dans le sang explique une charge à éliminer, mais la baisse du volume courant à pression fixée relève de la diminution de la compliance.
-@ 24-25, 28
-
-QCU · Recrutement pulmonaire
-Affirmation 1. L’exsufflation est un moment utile pour réévaluer la mécanique ventilatoire et envisager un recrutement.
-Affirmation 2. Le pneumopéritoine augmente la compliance pulmonaire.
-Évalue les deux affirmations et leur lien explicatif.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-+ La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première affirmation est vraie. L’exsufflation retire une contrainte mécanique avant le recrutement. La seconde est fausse, car le pneumopéritoine diminue la compliance.
-@ 25, 29
-
-QCU · Capnie et perfusion pulmonaire
-Quelle variation de l’EtCO₂ est la plus évocatrice d’une embolie gazeuse majeure avec collapsus plutôt que de la résorption habituelle du CO₂ ?
-- Une hausse graduelle pendant les premières minutes d’insufflation :: C'est l'évolution attendue de la résorption péritonéale
-- Un plateau après augmentation de la ventilation minute :: C'est la réponse normale à l'adaptation ventilatoire
-- Une hausse persistante accompagnée de crépitations sous-cutanées :: Ce tableau oriente vers un emphysème sous-cutané
-+ Une chute brutale au moment de la dégradation hémodynamique :: L'effondrement du débit cardiaque fait chuter l'élimination pulmonaire du CO₂
-- Une baisse progressive après la fin de l’insufflation et la reprise de l’élimination du gaz :: C'est l'évolution attendue en fin d'intervention
-> Dans une embolie majeure, la chute du débit cardiaque réduit la quantité de CO₂ acheminée aux poumons. L’EtCO₂ peut alors chuter brutalement en même temps que la pression artérielle. Une hausse graduelle ou persistante oriente vers un autre mécanisme.
-@ 24, 40-42
-
-QCU · Robot et conversion
-Quel facteur propre à la robot-assistance peut retarder une conversion en laparotomie ?
-- La nécessité de remplacer le CO₂ par un autre gaz avant d’ouvrir :: Le CO₂ n'a pas à être remplacé : il est simplement exsufflé
-+ La nécessité de désarrimer et dégager rapidement les bras du robot :: Les bras arrimés empêchent tout accès au patient et doivent être dégagés en urgence
-- L’obligation d’attendre la récupération complète du bloc neuromusculaire :: La conversion n'attend pas : le bloc est au contraire maintenu
-- La nécessité de refermer les orifices de trocarts avant l’ouverture :: L'ouverture prime sur la fermeture des orifices
-- L’allongement du geste de fermeture lié à la taille des orifices :: C'est un inconvénient, pas une contrainte spécifique de la conversion urgente
-> Le désarrimage et le dégagement du robot conditionnent l’accès au patient et au champ pour convertir. C’est la raison pour laquelle l’équipe peut répéter cette procédure en simulation.
-@ 5, 31-32, 45
+QCM · Terrain à haut risque
+Un patient insuffisant cardiaque doit être opéré par cœlioscopie. Quelles mesures sont adaptées ?
++ Un monitorage invasif. :: Les variations hémodynamiques peuvent être brutales.
++ Une conversion facile en laparotomie si le pneumopéritoine est mal toléré. :: La sécurité prime sur la voie d'abord.
++ Une surveillance prolongée en SSPI puis en soins intensifs. :: La décompensation peut survenir au réveil.
++ Une pression intra-abdominale aussi basse que possible. :: Elle limite la baisse du débit cardiaque.
++ Une limitation du proclive. :: Le proclive majore la baisse du retour veineux et du débit cardiaque.
+> Sur un terrain cardiorespiratoire fragile, la cœlioscopie est possible, mais avec monitorage invasif, pression intra-abdominale basse, conversion facile et surveillance prolongée : risque de variations hémodynamiques brutales, de décompensation retardée et d'acidose difficile à contrôler.
+@ p. 21 et 47

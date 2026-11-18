@@ -1,366 +1,145 @@
-// Quiz 5 – Sujet âgé (UE 3.3), d'après « QUIZZ 5 sujet âgé.html »
+// Quiz – Sujet âgé (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Sujet âgé avec notes ».
+// Questions type examen sur les notions générales : fragilité, physiologie du vieillissement, pharmacologie, anesthésie, troubles neurocognitifs. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Sujet âgé
 
-QCM · Vieillissement
-Concernant l’âge physiologique et l’âge chronologique, quelles propositions sont exactes ?
-+ L’âge chronologique correspond au nombre d’années vécues :: C'est une donnée d'état civil, sans valeur pronostique propre
-+ L’âge physiologique reflète l’état fonctionnel, les réserves et l’autonomie :: C'est lui qui détermine la tolérance à l'agression chirurgicale
-- Deux patients du même âge chronologique disposent des mêmes capacités d’adaptation au stress :: À 80 ans, un patient peut être robuste et un autre épuisé
-- L’âge chronologique permet de choisir la technique anesthésique :: C'est l'état fonctionnel, non l'année de naissance, qui oriente la stratégie
-> L’âge en années ne résume pas la fonction des organes ni l’autonomie. Le cours oppose notamment le vieillissement réussi, usuel et pathologique : l’évaluation physiologique et clinique guide la prise en charge, plutôt que la seule date de naissance.
-@ 2–6
+QCU · Fragilité
+Qu'est-ce qu'un sujet âgé « fragile » ?
+- Un patient dépendant et polypathologique :: C'est une autre catégorie : le risque y est lié aux comorbidités et à la dépendance.
++ Un patient qui paraît robuste au repos mais dispose de peu de réserves face à un événement aigu :: Il peut basculer vers la dépendance en cas de complication.
+- Un patient de plus de 85 ans, quel que soit son état :: La fragilité ne se définit pas par l'âge seul.
+- Un patient autonome avec peu de comorbidités :: C'est le sujet âgé vigoureux, ou robuste.
+- Un patient ayant une ostéoporose :: La fragilité n'est pas osseuse : c'est une diminution des réserves fonctionnelles.
+> Trois catégories : vigoureux robustes (autonomes, peu de comorbidités), fragiles (robustes au repos, peu de réserves : à dépister), dépendants polypathologiques. Le patient fragile a un risque élevé de mortalité, de séquelles et de dépendance en cas de complication.
+@ p. 6
 
-QCM · Fragilité
-Concernant la fragilité du sujet âgé, quelles propositions sont exactes ?
-+ Un patient fragile peut ressembler à un patient robuste au repos :: C'est tout le piège : la fragilité ne se voit qu'à l'épreuve de l'agression
-+ Des réserves réduites exposent à une perte d’autonomie après un événement aigu :: Une chirurgie peut faire basculer un patient fragile vers la dépendance
-- La fragilité se définit par une dépendance déjà installée :: C'est un état de réserve diminuée, qui précède la dépendance
-- Une autonomie conservée au repos exclut une fragilité :: Elle se révèle sous l'effet du stress, pas au repos
-> La fragilité correspond à une moindre capacité à faire face à un stress. Le patient peut paraître autonome à l’état basal, mais disposer de peu de réserves quand les besoins augmentent. Elle ne se confond donc pas avec une dépendance déjà présente.
-@ 4, 6
+QCM · Vieillissement neurologique et rénal
+Concernant le vieillissement neurologique et rénal, quelles propositions sont exactes ?
++ Le nombre de neurones, de synapses et de neurotransmetteurs diminue. :: Le système nerveux autonome est aussi altéré.
++ Le nombre de néphrons et le débit sanguin rénal diminuent. :: La clairance des médicaments baisse.
+- La créatinine plasmatique reflète bien la fonction rénale du sujet âgé. :: Elle dépend de la masse musculaire, qui diminue : une créatinine normale peut masquer un DFG bas.
++ Le sujet âgé est plus sensible aux néphrotoxiques. :: Sa réserve rénale est faible.
+- La douleur est en général surestimée chez le sujet âgé. :: Elle est souvent sous-estimée, notamment en cas de troubles cognitifs.
+> Neurologique : perte neuronale, système nerveux autonome altéré, troubles cognitifs, douleur sous-estimée. Rénal : clairance diminuée, accumulation des médicaments, sensibilité aux néphrotoxiques, rétention urinaire. On estime le DFG plutôt que de lire la créatinine seule.
+@ p. 11 à 13
 
-QCM · Fonction rénale
-Quels effets du vieillissement rénal doivent être pris en compte lors de l’anesthésie ?
-+ Une réduction de la masse néphronique et du flux sanguin rénal :: Le nombre de néphrons diminue d'environ 10 % par décennie après 40 ans
-+ Un risque d’accumulation de médicaments et de métabolites :: Morphine, curares et antibiotiques s'accumulent
-+ Une sensibilité accrue aux agents néphrotoxiques :: Produits de contraste et anti-inflammatoires sur un rein à réserve réduite
-- Une augmentation de la clairance rénale compensant la réduction du nombre de néphrons :: Elle diminue : il n'y a pas de compensation, seulement une réserve amoindrie
-> Le vieillissement réduit la masse néphronique, la perfusion et la capacité d’élimination. L’accumulation et la toxicité peuvent donc augmenter. Le risque de rétention urinaire, lié notamment à la vessie et au prostatisme, est un problème distinct.
-@ 12
+QCM · Vieillissement cardiovasculaire
+Concernant le vieillissement cardiovasculaire, quelles propositions sont exactes ?
++ Le débit cardiaque diminue progressivement avec l'âge. :: La réserve cardiaque baisse.
++ La relaxation du ventricule gauche est altérée : c'est une dysfonction diastolique. :: Le débit devient dépendant de la volémie et de la systole auriculaire.
++ La rigidité artérielle augmente la postcharge. :: Elle favorise l'HTA et l'hypertrophie ventriculaire gauche.
++ Le passage en fibrillation auriculaire est mal toléré. :: Le remplissage dépend davantage de la contraction auriculaire.
++ Le baroréflexe est altéré. :: L'hypotension est moins bien compensée.
+> Le cœur âgé est rigide (dysfonction diastolique) : dépendance à la volémie et à la systole auriculaire, risque de décompensation en FA. Les artères rigides augmentent la postcharge. Le baroréflexe altéré expose à l'hypotension.
+@ p. 14, 15 et 36
 
-QCU · Fonction rénale
-Concernant la créatininémie chez le sujet âgé, quelle proposition est exacte ?
-- Une même créatininémie implique un même débit de filtration glomérulaire chez deux patients :: Le même chiffre peut correspondre à des fonctions rénales très différentes
-+ La créatininémie doit être interprétée en tenant compte du débit de filtration glomérulaire estimé et du contexte du patient :: La créatinine dépend de la masse musculaire : il faut estimer le débit de filtration
-- Une faible masse musculaire permet d’exclure une insuffisance rénale :: Une masse musculaire faible produit peu de créatinine : la créatininémie reste basse malgré une fonction altérée
-- Le poids et l’âge n’interviennent pas dans l’interprétation d’une créatininémie :: Ce sont précisément les covariables des formules d'estimation
-> La créatinine seule est un mauvais reflet de la fonction rénale. L’exemple du cours oppose, pour une créatinine à 120 µmol/L, un sportif de 25 ans et une femme de 80 ans, dont les DFG sont très différents. Le DFG estimé et les caractéristiques du patient sont essentiels.
-@ 13, 28
-
-QCM · Cardiovasculaire
-En présence d’une dysfonction diastolique liée au vieillissement, quelles propositions sont exactes ?
-+ Le ventricule se relâche moins bien et son remplissage est plus difficile :: La dysfonction diastolique est la règle du cœur âgé
-+ Le débit cardiaque devient particulièrement dépendant de la volémie :: Un cœur rigide dépend du remplissage : l'hypovolémie est mal tolérée
-- La contribution de la contraction auriculaire au remplissage devient négligeable :: Elle devient au contraire essentielle, jusqu'à 30 % du remplissage
-+ La perte de contraction auriculaire efficace lors d’une fibrillation auriculaire peut favoriser une décompensation :: La perte de la systole auriculaire peut décompenser un cœur rigide
-> La dysfonction diastolique est un défaut de relaxation et de remplissage. L’hypovolémie peut rapidement réduire le débit ; la systole auriculaire contribue au remplissage. Sa perte en fibrillation auriculaire peut donc être mal tolérée.
-@ 14
-
-QCM · Cardiovasculaire
-Concernant les artères et la régulation autonome chez le sujet âgé, quelles propositions sont exactes ?
-+ La rigidité artérielle augmente la postcharge :: L'aorte et les grosses artères perdent leur élasticité
-+ L’altération des baroréflexes réduit la compensation des variations de pression artérielle :: Les variations tensionnelles ne sont plus compensées : l'hypotension s'installe
-+ La douleur et l’hypothermie peuvent majorer la vulnérabilité cardiovasculaire :: Elles augmentent la consommation d'oxygène du myocarde
-- La sensibilité des barorécepteurs augmente avec l’âge et protège contre l’hypotension :: Elle diminue avec l'âge : c'est la cause de l'instabilité tensionnelle
-> Les artères plus rigides accroissent la postcharge et favorisent l’hypertrophie ventriculaire. Les réponses autonomes compensent moins bien les variations de pression ; l’hypotension orthostatique est plus fréquente. Analgésie et réchauffement participent à la protection cardiovasculaire.
-@ 15–16
-
-QCM · Respiration
-Quelles modifications de la mécanique ventilatoire accompagnent le vieillissement ?
-+ Une réduction de la force musculaire respiratoire :: La force du diaphragme et des intercostaux diminue
-+ Une réduction de l’élasticité pulmonaire :: La perte de fibres élastiques augmente la compliance pulmonaire
-+ Une majoration de la rigidité thoracique :: La calcification des cartilages costaux rigidifie la cage thoracique
-+ Une diminution de la capacité vitale et une augmentation du volume résiduel :: Le volume mobilisable diminue au profit du volume non mobilisable
-- Une capacité pulmonaire totale effondrée :: Elle varie peu : c'est la répartition entre volume mobilisable et volume résiduel qui se modifie.
-> Ces quatre changements réduisent l’efficacité de la mécanique ventilatoire. La capacité vitale diminue, tandis que le volume résiduel augmente (piégeage d’air). Le patient dispose de moins de réserves respiratoires.
-@ 17
-
-QCM · Respiration
-Concernant les échanges gazeux et les réflexes respiratoires du sujet âgé, quelles propositions sont exactes ?
-+ La PaO₂ tend à diminuer progressivement avec l’âge :: La fermeture des petites voies aériennes déclives crée un effet shunt
-- La PaCO₂ augmente au même rythme que la PaO₂ diminue :: Elle reste stable : seule l'oxygénation se dégrade avec l'âge
-+ La réponse neurologique à l’hypoxie et à l’hypercapnie est réduite :: Les centres respiratoires répondent moins au CO₂ et à l'hypoxie
-- Le réflexe de toux et la déglutition deviennent plus efficaces avec l’âge :: Ils s'altèrent, d'où le risque d'inhalation et d'encombrement
-> Le support distingue la baisse de PaO₂ de la stabilité de PaCO₂. Les anomalies ventilation/perfusion et la réduction de diffusion participent à l’hypoxémie relative. Toux, déglutition et réponses à l’hypoxie-hypercapnie s’altèrent, augmentant le risque sous agents dépresseurs et opioïdes.
-@ 18
-
-QCM · Installation et voies aériennes
-Chez un patient âgé, quelles précautions d’installation et de gestion des voies aériennes sont pertinentes ?
-+ L’édentation peut compliquer la ventilation au masque :: Sans dents, les joues se creusent et le masque fuit
-+ La rigidité cervicale peut compliquer l’intubation ou l’introduction d’un masque laryngé :: L'arthrose cervicale limite l'extension de la tête
-+ Le confort et les attitudes fixées doivent être vérifiés avant l’endormissement :: Une posture confortable éveillé reste tolérable endormi
-- Un bloc antalgique autorise à maintenir longtemps une posture non physiologique sans surveillance :: Un patient anesthésié ou bloqué ne signale ni compression ni étirement
-> Les changements dentaires et cervicaux modifient l’accès aux voies aériennes. L’ostéoporose, l’arthrose et la fragilité cutanée imposent une installation et des mobilisations prudentes. L’absence de douleur sous bloc ne protège pas des conséquences d’une mauvaise posture.
-@ 17, 19, 24, 43
+QCM · Vieillissement respiratoire
+Concernant le vieillissement respiratoire, quelles propositions sont exactes ?
++ La capacité vitale diminue et le volume résiduel augmente. :: Par perte d'élasticité pulmonaire et rigidité thoracique.
++ La PaO2 baisse progressivement avec l'âge. :: Par troubles des rapports ventilation/perfusion.
+- La PaCO2 augmente régulièrement avec l'âge. :: Elle reste stable.
++ La réponse ventilatoire à l'hypoxie et à l'hypercapnie est diminuée. :: D'où le risque d'apnée postopératoire.
+- Le réflexe de toux est renforcé. :: Il est diminué, et la déglutition est altérée : risque d'inhalation.
+> Le vieillissement associe baisse de la force musculaire, de l'élasticité pulmonaire et de la capacité vitale, hausse du volume résiduel, baisse de la PaO2, toux et déglutition altérées. Le sujet âgé est très sensible aux dépresseurs respiratoires.
+@ p. 17 et 18
 
 QCM · Pharmacocinétique
-Quelles modifications de composition corporelle et d’élimination sont associées au vieillissement ?
-+ Une réduction de l’eau totale et du compartiment central :: L'eau totale diminue : les concentrations initiales sont plus élevées
-+ Une réduction de la masse maigre :: Les muscles fondent, ce qui réduit le compartiment de distribution
-- Une diminution de la proportion de masse grasse :: Elle augmente au contraire, d'où un volume de distribution accru pour les agents liposolubles
-+ Une altération du métabolisme hépatique et une réduction de l’élimination rénale :: Le foie et le rein éliminent plus lentement
-> Le compartiment central et la masse maigre diminuent, tandis que la proportion de masse grasse augmente. Les fonctions hépatique et rénale peuvent réduire l’élimination. La distribution et la réponse à une même dose changent, d’où la titration.
-@ 21
+Concernant la pharmacocinétique chez le sujet âgé, quelles propositions sont exactes ?
++ L'eau totale et la masse maigre diminuent, la masse grasse augmente. :: Le volume de distribution des médicaments est modifié.
++ Le volume de distribution des produits liposolubles augmente, ce qui retarde leur élimination. :: Par exemple le midazolam.
++ Le compartiment vasculaire est réduit : pour une même dose, l'effet est plus important. :: D'où la réduction des doses.
+- Le métabolisme hépatique et l'élimination rénale sont augmentés. :: Ils sont diminués.
+- La fraction libre des médicaments diminue. :: Elle augmente, notamment en cas d'hypoalbuminémie.
+> Avec l'âge : moins d'eau et de masse maigre, plus de masse grasse, métabolisme hépatique et élimination rénale diminués, fraction libre augmentée. Les effets des médicaments sont plus intenses et plus longs.
+@ p. 21 et 22
 
-QCM · Pharmacocinétique
-Chez le sujet âgé, quelles relations entre distribution et effet médicamenteux sont exactes ?
-+ Un compartiment central plus petit peut majorer l’effet d’une même dose injectée :: Une même dose se dilue dans un volume plus petit : le pic est plus élevé
-+ Une baisse d’albumine peut augmenter la fraction libre des molécules habituellement liées :: C'est la fraction libre qui agit : elle augmente chez le dénutri
-- Le volume de distribution des agents liposolubles, comme le midazolam, diminue du fait d’une masse grasse plus importante :: Une masse grasse plus importante augmente ce volume, au lieu de le réduire
-- La baisse du débit sanguin rénal raccourcit la durée d’action des agents :: Une élimination ralentie allonge la durée d'action au lieu de la raccourcir
-> Un volume central plus petit peut augmenter l’effet initial, et moins d’albumine peut augmenter la fraction libre. Le cours associe les agents liposolubles à un volume de distribution accru et à davantage de stockage ; la réduction du débit rénal peut prolonger l’action.
-@ 22
+QCU · Propofol
+Pourquoi faut-il attendre avant de réinjecter du propofol chez un sujet âgé ?
+- Parce que le propofol est éliminé plus vite chez le sujet âgé :: Son effet est au contraire plus fort et plus long.
++ Parce que son effet, notamment hémodynamique, est majoré et retardé :: Réinjecter trop tôt expose à un surdosage et à une hypotension sévère.
+- Parce que la CAM du propofol augmente avec l'âge :: La CAM concerne les halogénés, et elle diminue avec l'âge.
+- Parce que le sujet âgé est résistant aux hypnotiques :: Il y est plus sensible.
+- Parce que le propofol est contre-indiqué après 75 ans :: Il est utilisé, mais titré prudemment.
+> Chez le sujet âgé, le propofol a plus d'effet pour une même dose (fraction libre augmentée, compartiment vasculaire réduit) et son retentissement hémodynamique est majoré et retardé : « start slow and go slow ».
+@ p. 22 et 37
 
-QCM · Consultation
-Quels éléments font partie de la consultation préanesthésique d’un patient âgé ?
-+ Apprécier l’autonomie, les aides à la marche et l’environnement de vie :: C'est le meilleur reflet de la réserve fonctionnelle
-+ Anticiper la ventilation, l’intubation et l’accès veineux :: Les difficultés s'anticipent chez un patient édenté et arthrosique
-+ En cas de troubles cognitifs, associer l’entourage aux échanges et les tracer dans le dossier :: Le consentement et les repères du patient passent aussi par ses proches
-- Se limiter au choix de l’agent anesthésique dès lors que la chirurgie est programmée :: L'anesthésie n'est qu'une partie de la prise en charge gériatrique
-> La consultation évalue les réserves et le rapport bénéfice/risque, puis anticipe les difficultés concrètes. Les capacités de compréhension et les déficits sensoriels comptent dans l’information. Un discours commun avec le chirurgien et la traçabilité des échanges sont souhaitables.
-@ 23–24, 32
+QCM · Conduite de l'anesthésie générale
+Quels principes s'appliquent à l'anesthésie générale du sujet âgé ?
++ Réduire les doses. :: Les besoins sont diminués.
++ Titrer les doses selon l'effet. :: Administration progressive.
++ Privilégier des agents de courte durée d'action. :: Comme le rémifentanil.
+- Prescrire une prémédication par benzodiazépine. :: La prémédication est évitée : les benzodiazépines favorisent le délire.
+- Augmenter la concentration d'halogénés, car la CAM augmente avec l'âge. :: La CAM diminue avec l'âge.
+> Trois règles d'or : réduction des doses, titration, monitorage (BIS, curarisation). Agents de courte durée d'action, pas de prémédication. Attention à l'hypovolémie, au baroréflexe altéré et à la pharmacocinétique.
+@ p. 36 et 40
 
-QCU · Dépistage de la fragilité
-Concernant la Clinical Frailty Scale (CFS), quelle proposition est exacte ?
-- Elle apprécie l’âge en années, indépendamment de l’autonomie :: L'âge n'est pas le critère : c'est l'état fonctionnel qui est évalué
-+ Elle situe le patient sur un continuum allant de robuste à des degrés croissants de vulnérabilité et de fragilité :: Elle gradue la fragilité au lieu de l'opposer en tout ou rien
-- Elle remplace la recherche des comorbidités et de l’état nutritionnel :: Elle les complète, elle ne les remplace pas
-- Elle sert à dépister une confusion aiguë au réveil :: C'est un outil préopératoire, non un outil de dépistage de la confusion
-> La CFS aide à caractériser la fragilité et à replacer le patient sur sa trajectoire fonctionnelle. Elle ne se réduit pas à l’âge et ne remplace pas le bilan clinique. Le cours présente aussi un questionnaire explorant appétit, poids, mobilité, cognition, IMC et médicaments, avec évaluation gériatrique proposée si score ≤ 14.
-@ 25
+QCM · Facteurs de risque de délire postopératoire
+Parmi ces éléments, lesquels sont des facteurs de risque de délire postopératoire ?
++ Des troubles cognitifs préexistants :: Comme un antécédent de confusion, une démence ou une dépression.
++ Une baisse de l'acuité visuelle ou auditive :: L'état sensoriel compte.
++ La dénutrition et la déshydratation :: L'état général compte.
++ Les traitements anticholinergiques :: Comme les benzodiazépines.
+- Le sexe féminin :: C'est le sexe masculin qui est un facteur de risque.
+> Facteurs de risque : âge, sexe masculin, état cognitif (confusion, démence, dépression), dépendance, immobilité, chutes, baisse de la vue ou de l'audition, dénutrition, déshydratation, anticholinergiques, benzodiazépines, comorbidités.
+@ p. 26
 
-QCM · Risque de délire
-Quels facteurs préopératoires exposent au délire postopératoire chez le sujet âgé ?
-+ Antécédents de confusion, démence ou dépression :: Ce sont les antécédents neuropsychiatriques, premiers facteurs de risque
-+ Dépendance, immobilité ou antécédents de chutes :: La perte d'autonomie est un facteur de risque majeur
-+ Déficits visuels ou auditifs, dénutrition ou déshydratation :: Trois facteurs souvent négligés, tous corrigeables
-- Une autonomie habituelle conservée annule le risque lié aux médicaments anticholinergiques :: Les anticholinergiques exposent au délire quel que soit le niveau d'autonomie
-> Les vulnérabilités cognitives, fonctionnelles, sensorielles et générales se cumulent. Les traitements, notamment anticholinergiques et benzodiazépines, sont aussi des facteurs à repérer. L’autonomie conservée ne neutralise pas leur contribution au risque.
-@ 26
+QCM · AG ou rachianesthésie
+Concernant le choix de la technique d'anesthésie chez le sujet âgé, quelles propositions sont exactes ?
++ La qualité de la prise en charge globale compte plus que la technique. :: D'où l'intérêt de l'équipe gériatrique.
++ La rachianesthésie et l'AG donnent des résultats comparables sur le délire et la mortalité. :: Aucune n'est supérieure.
+- La rachianesthésie en injection unique a une extension très prévisible chez le sujet âgé. :: L'extension est imprévisible : la rachianesthésie continue permet de titrer.
++ Les signes d'une hypotension grave sous rachianesthésie peuvent être tardifs. :: Elle est difficile à prévenir.
+- La rachianesthésie est la technique recommandée pour prévenir le délire postopératoire. :: Aucune technique n'est recommandée dans ce but.
+> AG et rachianesthésie ont des résultats comparables. La rachianesthésie est délicate : extension imprévisible, hypotension, risque hémorragique (antithrombotiques, insuffisance rénale), ponction difficile.
+@ p. 35
 
-QCM · Dépistage cognitif
-Concernant le dépistage préopératoire du risque de délire selon les recommandations ESAIC 2024, quelles propositions sont exactes ?
-+ Il concerne tout patient de 60 ans ou plus :: C'est l'âge retenu pour le dépistage systématique
-+ Son résultat doit être partagé avec l’équipe et tracé avec les mesures de prévention :: Le repérage ne sert que s'il déclenche des mesures de prévention
-- Les tests rapides, tels que Mini-Cog ou MoCA, sont inutiles si le patient semble calme :: Un patient calme peut avoir des troubles cognitifs préexistants
-- Il doit être réalisé seulement après l’apparition d’une confusion postopératoire :: Le dépistage est préopératoire : il sert de référence pour reconnaître une confusion
-> Le dépistage commence avant l’intervention, dès 60 ans. Il s’appuie sur les facteurs de risque et des outils cognitifs ; le cours cite notamment Mini-Cog, MoCA et MMSE. Une impression de calme ne remplace pas ce bilan. Le résultat doit guider une prévention partagée.
-@ 27, 61
+QCM · Monitorage peropératoire
+Quels objectifs peropératoires sont adaptés chez le sujet âgé ?
++ Maintenir la PAM au-dessus de 70 % de la PAM préopératoire. :: Et traiter toute hypotension sans délai.
++ Éviter une anesthésie trop profonde grâce au BIS. :: Cible 40 à 60 ; cela pourrait réduire le délire.
++ Prévenir l'hypothermie dès l'arrivée au bloc. :: Le sujet âgé se refroidit vite et se réchauffe mal.
++ Traiter sans délai toute hypotension. :: Pour limiter les complications rénales et myocardiques.
++ Viser un BIS entre 40 et 60. :: C'est la cible citée dans le cours.
+> Connaître la PAM de base, éviter une PAM < 60-70 mmHg (ou < 70 % de la base), traiter sans délai. BIS entre 40 et 60. Réchauffer avant l'induction et à chaque étape : l'hypothermie expose à l'ischémie myocardique, aux troubles du rythme et de la coagulation, à l'infection.
+@ p. 46, 47 et 49
 
-QCM · Bilan cardiovasculaire
-Chez un patient de 65 ans ou plus, quelles propositions sur le bilan cardiaque préopératoire sont exactes ?
-+ La capacité à monter deux étages sans s’arrêter constitue un repère en faveur d’au moins 4 équivalents métaboliques (METs) :: Deux étages correspondent à environ 4 équivalents métaboliques
-+ Avant une chirurgie à risque intermédiaire ou élevé, un ECG et une troponine haute sensibilité font partie du bilan proposé :: L'ischémie myocardique périopératoire est souvent silencieuse
-+ La troponine à H24 et H48 contribue au dépistage de lésions myocardiques souvent silencieuses :: L'élévation postopératoire de troponine est associée à une surmortalité
-- Une chirurgie urgente doit être retardée jusqu’à la réalisation des examens cardiaques :: Une urgence vitale ne se retarde pas pour un bilan cardiaque
-> Le cours associe évaluation fonctionnelle et risque chirurgical. Pour le risque intermédiaire ou élevé, il présente ECG, troponine préopératoire puis H24/H48 et éventuellement BNP/NT-proBNP. Une chirurgie à faible risque n’impose pas d’examen complémentaire du seul fait de l’âge ; les examens ne doivent pas retarder une urgence.
-@ 28–29
+QCU · Seuil transfusionnel
+Une patiente de 84 ans, sans cardiopathie connue, est opérée d'une fracture du col du fémur. Quel est le seuil transfusionnel habituel ?
+- Hb 6 g/dL :: Ce seuil est trop bas dans ce contexte.
+- Hb 7 g/dL :: C'est le seuil de la plupart des patients hospitalisés, mais la fracture du col justifie un seuil plus élevé.
++ Hb 8 g/dL :: Seuil retenu en orthopédie, en cas de maladie cardiovasculaire, de fracture du col ou de symptômes.
+- Hb 10 g/dL :: Ce seuil concerne certains coronariens.
+- Hb 12 g/dL :: Ce n'est pas un seuil transfusionnel.
+> Stratégie restrictive : Hb 7 g/dL chez la plupart des patients ; 8 g/dL en orthopédie, en cas de maladie cardiovasculaire, de fracture du col ou de symptômes ; 8 à 10 g/dL chez le coronarien. L'anémie préopératoire est dépistée et traitée avant la chirurgie.
+@ p. 50
 
-QCM · Traitements habituels
-Lors de la revue médicamenteuse préopératoire d’un patient âgé, quelles propositions sont exactes ?
-+ Rechercher les prescriptions et l’automédication :: L'automédication échappe souvent à l'ordonnance
-+ Identifier les traitements à risque et réévaluer les médicaments inutiles :: La déprescription fait partie de l'évaluation préopératoire
-+ Limiter les agents dépresseurs du système nerveux central :: Benzodiazépines et anticholinergiques favorisent le délire
-+ Respecter l’équilibre et les horaires des traitements antiparkinsoniens indispensables :: Une interruption, même courte, peut provoquer une décompensation motrice
-- Suspendre l'ensemble des traitements la veille, pour simplifier la période périopératoire :: Un arrêt global expose au sevrage et à la décompensation : chaque molécule se décide séparément.
-> Ces quatre actions font partie de la démarche. La polymédication expose aux interactions et à la confusion ; la revue ne signifie pas supprimer indistinctement les traitements.
-@ 30–31
+QCM · Analgésie
+Concernant l'analgésie du sujet âgé, quelles propositions sont exactes ?
++ La titration de morphine se fait par bolus IV de 2 mg toutes les 5 minutes. :: Jusqu'au soulagement, en l'absence d'effet indésirable.
++ Après 90 ans, les bolus sont réduits à 1 mg. :: Sensibilité accrue à la morphine.
+- Les AINS sont le traitement de choix au-delà de 75 ans. :: Ils sont à éviter au-delà de 75 ans, et contre-indiqués si la clairance est < 30 mL/min.
+- Le néfopam est l'antalgique de choix chez le coronarien âgé. :: Il est tachycardisant et anticholinergique : à éviter chez le sujet âgé.
+- Les besoins en morphine augmentent avec l'âge. :: Ils diminuent : la sensibilité est plus grande.
+> Le sujet âgé est plus sensible à la morphine (volume de distribution réduit, hypoalbuminémie, dysfonction rénale). Les AINS sont réduits en dose et en durée après 65 ans et évités au-delà de 75 ans.
+@ p. 53 à 55
 
-QCM · Prémédication
-Concernant l’anxiolyse préopératoire chez le sujet âgé, quelles propositions sont exactes ?
-+ Une évaluation de l’anxiété précède la décision de prémédication :: Toute anxiété ne justifie pas une prémédication médicamenteuse
-+ L’information, la réassurance et l’hypnose ont une place privilégiée :: Elles n'exposent à aucun risque de sédation ou de confusion
-- L’hydroxyzine, la gabapentine et la prégabaline sont la prémédication de première intention :: Ils exposent à la sédation, à la confusion et aux effets anticholinergiques
-- Si une benzodiazépine est nécessaire, une demi-vie longue est privilégiée :: Une demi-vie longue prolonge la sédation et le risque de confusion
-> La prescription n’est pas systématique : elle répond à une anxiété réelle. Le cours privilégie les moyens non médicamenteux et indique d’éviter hydroxyzine, gabapentine et prégabaline. Si un médicament est nécessaire, il retient une benzodiazépine de demi-vie courte.
-@ 33, 36
+QCM · Troubles neurocognitifs postopératoires
+Concernant les troubles neurocognitifs postopératoires du sujet âgé, quelles propositions sont exactes ?
++ Le délire postopératoire survient jusqu'à J7 ou la sortie. :: Début aigu, fluctuant, avec inattention.
+- Le trouble neurocognitif postopératoire se définit dès les premières 48 heures. :: Il se définit de J30 à 12 mois ; avant J7, on parle de délire postopératoire, puis de retard de récupération jusqu'à J30.
++ Une évaluation cognitive préopératoire est nécessaire pour parler de déclin. :: Sinon on ne peut pas comparer.
+- Le syndrome confusionnel apparaît plusieurs semaines après l'intervention. :: Il survient dans les 24 à 48 heures.
+- Le délire au réveil est sans conséquence. :: Il expose à l'arrachement des dispositifs (sonde, voies veineuses, drains).
+> Trois types : délire au réveil, syndrome confusionnel (24-48 h), dysfonction cognitive prolongée. Nomenclature : délire jusqu'à J7, retard de récupération jusqu'à J30, trouble neurocognitif de J30 à 12 mois.
+@ p. 58 et 59
 
-QCU · Technique anesthésique
-Dans la chirurgie de fracture de l’extrémité supérieure du fémur, quelle conclusion sur rachianesthésie et anesthésie générale est exacte ?
-- La rachianesthésie est supérieure pour le délire, la mortalité et la marche à J60 :: Les deux essais ne retrouvent pas cette supériorité
-+ Les études REGAIN et RAGA ne montrent pas la supériorité de la rachianesthésie pour ces résultats dans les populations étudiées :: Ni l'une ni l'autre ne s'est montrée supérieure sur ces critères
-- Le choix de la technique peut remplacer la prise en charge gériatrique globale :: La technique anesthésique ne remplace pas la prise en charge globale
-- Une technique anesthésique précise est recommandée pour prévenir le délire postopératoire :: Aucune technique n'a démontré sa supériorité pour cette prévention
-> Le cours présente des résultats comparables entre rachianesthésie et anesthésie générale et insiste sur la qualité de la prise en charge globale. Aucune technique n’est désignée pour prévenir à elle seule le délire. Le choix intègre le terrain et l’anxiété, avec l’aide des gériatres.
-@ 34–35
-
-QCM · Titration
-Pour administrer les agents anesthésiques à un sujet âgé, quelles propositions sont exactes ?
-+ Réduire les doses par rapport aux besoins usuels du sujet jeune :: La sensibilité pharmacodynamique est accrue, en plus des modifications cinétiques
-+ Administrer progressivement puis attendre l’effet avant de décider d’un apport supplémentaire :: Le délai d'action est allongé : réinjecter trop tôt superpose les effets
-+ Monitorer la réponse pour adapter l’administration :: Clinique, pression artérielle et profondeur d'anesthésie guident l'ajustement
-- Réinjecter dès que l’effet n’est pas immédiat afin de compenser le retard de réponse :: C'est l'erreur type : le retard de réponse conduit au surdosage
-> Les trois règles sont réduction des besoins, titration et monitorage. Un effet retardé ne signifie pas un apport insuffisant : des réinjections trop rapides peuvent cumuler les doses et majorer l’hypotension. Les agents courts sont privilégiés.
-@ 36, 42, 62
-
-QCM · Propofol
-Concernant le propofol chez le sujet âgé, quelles propositions sont exactes ?
-+ Son retentissement hémodynamique peut être majoré et retardé :: Compartiment central réduit et baroréflexes émoussés se cumulent
-- L’administration à objectif de concentration rend inutiles la titration et la surveillance de la réponse :: Le modèle calcule, il ne mesure ni la concentration ni l'effet
-+ Un modèle d’administration à objectif de concentration doit intégrer l’âge comme covariable :: Les modèles récents l'intègrent, à la différence des plus anciens
-- L’association à un morphinique diminue l’hypotension :: L'association majore l'hypotension au lieu de la réduire
-> Le propofol est titré avec prudence, en attendant son effet. Le support demande un dispositif intégrant l’âge en cas d’anesthésie à objectif de concentration. L’association à un morphinique peut majorer l’hypotension ; l’outil d’administration ne remplace pas le monitorage.
-@ 37
-
-QCU · Halogénés
-Concernant les besoins en anesthésiques halogénés chez le sujet âgé, quelle proposition est exacte ?
-- La concentration alvéolaire minimale (CAM) augmente avec l’âge :: Elle diminue d'environ 6 % par décennie après 40 ans
-+ Une CAM plus faible traduit des besoins en halogénés réduits avec l’âge :: Moins de produit suffit à obtenir le même effet
-- La concentration utilisée chez un sujet jeune doit être conservée sans adaptation :: Elle expose au surdosage et à l'hypotension
-- Le choix d’un halogéné de réveil rapide rend inutile le monitorage de la profondeur anesthésique :: Un réveil rapide ne garantit pas une profondeur adaptée pendant le geste
-> La CAM diminue chez le sujet âgé, donc les besoins en halogénés sont plus faibles. Le desflurane, peu soluble, permet un réveil rapide, mais la dose reste adaptée à l’effet monitoré.
-@ 38, 42
-
-QCM · Curarisation
-Concernant les curares chez le sujet âgé, quelles propositions sont exactes ?
-+ La récupération après rocuronium ou vécuronium peut être plus lente à partir d’un même niveau de curarisation :: L'élimination hépatique et rénale ralentie prolonge le bloc
-+ Le monitorage reste nécessaire même si les modifications d’un curare sont limitées :: La variabilité individuelle justifie le monitorage quel que soit l'agent
-- La curarisation se surveille lors de l’injection initiale :: Le monitorage sert tout au long de l'anesthésie, et surtout avant l'extubation
-- Le délai et la durée d’action restent identiques à ceux du sujet jeune pour tous les curares :: Les durées d'action sont modifiées pour les curares à élimination rénale ou hépatique
-> Le cours souligne les modifications de délai, durée et récupération, notamment pour les curares stéroïdes. Le monitorage accompagne toute la prise en charge, y compris la récupération, quel que soit le curare.
-@ 39
-
-QCM · Opioïdes
-Concernant les morphiniques pendant l’anesthésie du sujet âgé, quelles propositions sont exactes ?
-+ Les besoins sont réduits et les apports doivent être titrés :: La sensibilité accrue impose des doses plus faibles
-+ La courte durée d’action du rémifentanil et son moindre risque d’accumulation constituent des intérêts :: Son métabolisme par les estérases échappe au vieillissement des organes
-- Le rémifentanil peut être administré sans adaptation du bolus ou du débit chez un patient fragile :: La sensibilité accrue impose d'adapter bolus et débit
-- Une durée d’action courte supprime les risques hémodynamiques d’un opioïde :: La bradycardie et l'hypotension surviennent pendant l'administration
-> Le cours privilégie des apports réduits et adaptés à l’effet. Le rémifentanil est mis en avant pour son action courte et le moindre risque d’accumulation, mais le bolus et le débit restent à adapter pour limiter le retentissement hémodynamique.
-@ 40–42
-
-QCM · Anesthésie locorégionale
-Chez le sujet âgé, quelles propositions sur les blocs périphériques et centraux sont exactes ?
-+ Les blocs périphériques peuvent faciliter l’analgésie et la réhabilitation :: Ils réduisent le recours aux morphiniques et facilitent la mobilisation
-+ La durée du bloc sensitivo-moteur peut être prolongée :: L'élimination ralentie et la sensibilité nerveuse accrue prolongent le bloc
-+ Le bloc sympathique d’une rachianesthésie expose à une hypotension chez un patient dont l’adaptation autonome est réduite :: Les baroréflexes émoussés ne compensent plus la vasodilatation
-- L’absence de douleur sous bloc élimine les risques d’une mauvaise installation prolongée :: Un patient qui ne sent rien ne protège pas ses points d'appui
-> Les blocs périphériques aident notamment à la douleur et à la mobilisation. Les blocs centraux nécessitent une vigilance hémodynamique : extension et hypotension sont difficiles à prévoir. Quelle que soit la technique, la posture et la durée d’installation restent importantes.
-@ 43
-
-QCM · Ambulatoire
-Concernant l’anesthésie ambulatoire chez une personne âgée, quelles propositions sont exactes ?
-+ L’âge chronologique seul n’est pas une contre-indication :: C'est l'état fonctionnel qui décide, non l'année de naissance
-+ Elle doit être envisagée chaque fois que les conditions de prise en charge la permettent :: Le retour à domicile préserve les repères et limite la confusion
-+ Le retour rapide dans l’environnement habituel contribue à préserver les repères :: L'hospitalisation désoriente : le domicile est souvent protecteur
-- L’ambulatoire est exclu chez tout patient de plus de 80 ans, indépendamment de son autonomie :: L'âge seul n'est jamais un critère d'exclusion
-> Le cours privilégie l’ambulatoire lorsqu’il est possible, quel que soit l’âge. Le raisonnement porte sur les possibilités de prise en charge et l’état réel du patient ; limiter la séparation de son milieu habituel favorise la réhabilitation.
-@ 44, 57
-
-QCM · Hémodynamique
-Concernant la pression artérielle moyenne (PAM) pendant l’anesthésie du sujet âgé, quelles propositions sont exactes ?
-+ La valeur de base doit être connue avant l’induction :: Sans valeur de référence, aucun seuil relatif n'est utilisable
-+ Toute hypotension doit être traitée sans délai pour limiter les risques rénaux et myocardiques :: Chaque minute d'hypotension compte pour le rein et le myocarde
-- Les objectifs hémodynamiques SFAR 2024 sont indépendants de l’hypertension chronique et de la PAM habituelle :: Les objectifs se personnalisent sur la pression habituelle du patient
-+ Le seuil relatif SFAR 2017 est de 70 % de la PAM préopératoire :: Seuil relatif, à préférer à un chiffre absolu chez l'hypertendu chronique
-> Le support distingue le repère 2017 (> 70 % de la PAM préopératoire) des objectifs 2024 : éviter une PAM < 60–70 mmHg et, chez l’hypertendu chronique, viser > 70 mmHg ou > 90 % de la PAM de base. Il faut connaître la référence, rechercher la cause et traiter rapidement les baisses.
-@ 46
-
-QCM · Profondeur anesthésique
-Concernant le BIS et la profondeur anesthésique chez le sujet âgé, quelles propositions sont exactes ?
-+ Le BIS est un index issu de l’électroencéphalogramme :: Il traduit l'activité corticale, non une concentration
-+ Le repère de BIS 40 à 60 aide à titrer l’hypnose :: Plage habituelle de l'anesthésie générale
-- Une baisse de pression artérielle prouve une hypnose insuffisante :: L'hypotension est un effet hémodynamique, qui peut survenir à profondeur adaptée
-- Le guidage EEG prévient le délire postopératoire :: Le bénéfice sur le délire n'est pas démontré, même si l'EEG reste utile pour titrer
-> Le BIS aide à éviter une anesthésie excessivement profonde, notamment les épisodes de suppression. Pression et hypnose doivent être appréciées séparément. Le support nuance le bénéfice cognitif : ENGAGES n’a pas montré de réduction du délire avec l’AG guidée par EEG.
-@ 47
-
-QCM · Prévention respiratoire
-Quelles mesures contribuent à prévenir l’hypoxémie périopératoire chez le sujet âgé ?
-+ Une préoxygénation systématique :: La réserve d'oxygène est réduite : la désaturation est plus rapide
-+ Le recours à des agents de courte durée d’action et le monitorage de la curarisation :: Ils limitent la curarisation résiduelle, cause majeure de complication respiratoire
-+ L’adaptation de l’oxygénation postopératoire et la kinésithérapie :: Les complications respiratoires sont la première cause de morbidité postopératoire
-- La présence d’une curarisation résiduelle est sans effet sur le risque respiratoire postopératoire :: Elle multiplie le risque de complications respiratoires et d'inhalation
-> Le sujet âgé a moins de réserves et répond moins bien à l’hypoxie-hypercapnie. La curarisation résiduelle peut altérer la fonction musculaire et favoriser l’hypoxémie : titration et monitorage sont essentiels, avec préoxygénation et prise en charge postopératoire adaptée.
-@ 18, 48
-
-QCM · Température
-Concernant l’hypothermie du sujet âgé au bloc opératoire, quelles propositions sont exactes ?
-+ Le réchauffement externe commence avant l’induction et se poursuit à chaque étape :: L'hypothermie s'installe dès l'induction : il faut la devancer
-+ Le sujet âgé se refroidit rapidement et se réchauffe difficilement :: La thermorégulation est altérée dans les deux sens
-+ L’hypothermie peut favoriser des troubles du rythme, de coagulation et un retard de cicatrisation :: Trois conséquences qui compliquent directement les suites opératoires
-- Le réchauffement commence lorsque la température est déjà basse :: À ce stade, la perte thermique est déjà installée et difficile à rattraper
-> La prévention précoce est essentielle, jusque dans le sas d’accueil. Il faut reprendre le réchauffement après une interruption. Le cours relie aussi l’hypothermie à l’ischémie myocardique, au risque infectieux et à la confusion postopératoire.
-@ 49
-
-QCM · Anémie
-Concernant l’anémie et la transfusion périopératoires, quelles propositions sont exactes ?
-+ L’anémie préopératoire doit être dépistée et sa cause traitée, notamment une carence martiale :: Une anémie préopératoire est rarement physiologique : elle a une cause
-+ Le seuil de transfusion de la stratégie restrictive est de 7 g/dL chez la plupart des patients hospitalisés :: Seuil de la stratégie restrictive, aussi sûre qu'une stratégie libérale
-+ Un repère de 8 g/dL est retenu en orthopédie ou maladie cardiovasculaire, avec prise en compte des symptômes :: Seuil relevé en présence d'une maladie cardiovasculaire
-- L’âge élevé impose un seuil transfusionnel à 10 g/dL :: L'âge ne modifie pas le seuil : c'est le terrain cardiovasculaire qui compte
-> Le cours présente une stratégie restrictive, contextualisée : 7 g/dL le plus souvent, 8 g/dL en orthopédie ou maladie cardiovasculaire et pour la FESF, ou en présence de symptômes. Il distingue le contexte coronarien/SCA et la nuance de MINT ; il n’impose pas 10 g/dL à tous les sujets âgés.
-@ 50
-
-QCM · Évaluation de la douleur
-Concernant la douleur postopératoire du sujet âgé, quelles propositions sont exactes ?
-+ Un patient non verbalisant peut avoir une douleur importante :: L'absence de plainte ne signifie pas l'absence de douleur
-+ S’il peut répondre de façon fiable, une autoévaluation par EVA, EVS ou échelle numérique est possible :: L'autoévaluation reste la référence quand elle est fiable
-+ ALGOPLUS ou ECPA peuvent être utilisés quand la dysfonction cognitive empêche une expression fiable :: Ce sont les échelles d'hétéroévaluation validées chez le sujet âgé
-- Un comportement calme permet d’écarter une douleur sans évaluation supplémentaire :: Un patient douloureux peut être prostré et silencieux
-> L’absence de plainte n’est pas l’absence de douleur. Les troubles cognitifs et la peur de se plaindre peuvent en limiter l’expression. Il faut adapter l’outil et rechercher des changements de comportement ; une douleur insuffisamment traitée gêne alimentation, autonomie et mobilisation.
-@ 11, 51–52
-
-QCM · Analgésie multimodale
-Chez le sujet âgé, quelles propositions sur l’analgésie multimodale sont exactes ?
-+ L’association de plusieurs moyens antalgiques vise une synergie et une réduction des doses de chacun :: C'est le principe même de la multimodalité
-+ Les blocs périphériques et infiltrations participent à l’épargne morphinique et à la mobilisation :: Ils permettent une mobilisation précoce sans sédation
-- Le néfopam est particulièrement adapté en présence de risque anticholinergique, car il est dépourvu de cet effet :: Il a au contraire des effets anticholinergiques marqués, mal tolérés chez le sujet âgé
-- Le tramadol ne demande pas de vigilance vis-à-vis de la confusion postopératoire :: Son métabolite actif et son effet sérotoninergique exposent à la confusion
-> Le cours associe moyens médicamenteux, blocs et infiltrations pour limiter les doses et les effets indésirables. Il indique d’éviter le néfopam chez le sujet âgé, notamment pour ses effets tachycardisants et anticholinergiques, et signale le risque de confusion sous tramadol. Le paracétamol est donné précocement.
-@ 53
-
-QCM · AINS
-Concernant les anti-inflammatoires non stéroïdiens (AINS) chez le sujet âgé, quelles propositions sont exactes ?
-+ Une clairance de la créatinine < 30 mL/min constitue une situation où ils sont exclus :: Les anti-inflammatoires sont contre-indiqués en insuffisance rénale sévère
-+ Une anticoagulation curative ou une maladie artérielle sévère conduit à les exclure :: Les risques hémorragique et cardiovasculaire s'additionnent
-- Une clairance entre 30 et 60 mL/min ne demande pas d’adaptation des doses ni des intervalles :: Une fonction rénale intermédiaire impose de réduire les doses et d'espacer les prises
-- Les formes à libération prolongée sont privilégiées en cas de fonction rénale diminuée :: Elles prolongent l'exposition rénale au lieu de la limiter
-> Le support exclut les AINS dans ces situations à haut risque. Entre 30 et 60 mL/min ou en cas de perturbation hépatique, il propose une réduction de dose de 30–50 %, un espacement et une durée réduite, en évitant les formes LP. Le choix dépend du terrain et des traitements.
-@ 54
-
-QCM · Morphine postopératoire
-Concernant la titration et l’analgésie contrôlée par le patient (PCA) chez le sujet âgé, quelles propositions sont exactes ?
-+ Le protocole de titration utilise des bolus de 2 mg IV toutes les 5 minutes, avec réévaluation du soulagement et des effets secondaires :: Bolus réduit par rapport à l'adulte jeune, avec réévaluation systématique
-+ Au-delà de 90 ans, le bolus de titration est réduit à 1 mg :: La sensibilité augmente encore au grand âge
-- La PCA IV est contre-indiquée par l’âge seul, même si le patient la comprend :: C'est la compréhension du dispositif, non l'âge, qui conditionne son usage
-- Les troubles cognitifs ne limitent pas la capacité à utiliser une PCA :: Un patient qui ne comprend pas le dispositif ne peut pas l'utiliser
-> Le protocole décrit 2 mg IV toutes les 5 minutes, ou 1 mg au-delà de 90 ans, jusqu’au soulagement en l’absence d’effet secondaire, avec surveillance rapprochée. La PCA n’est pas contre-indiquée par l’âge : sa limite est la compréhension et l’usage. Si elle est inapplicable, le support envisage un relais SC avec doses réduites et intervalles augmentés.
-@ 55
-
-QCM · Réhabilitation
-Quels principes contribuent à préserver l’autonomie du sujet âgé après une intervention ?
-+ Mobiliser tôt et anticiper l’analgésie avant les soins douloureux :: La douleur empêche la mobilisation, qui conditionne la récupération
-+ Reprendre précocement l’alimentation et rechercher une fatigue liée à l’anémie :: L'anémie entretient la fatigue et retarde la reprise de l'autonomie
-+ Retirer rapidement les drains et sondes devenus inutiles :: Chaque dispositif retarde la mobilisation et expose à l'infection
-- Prolonger l’alitement pour prévenir la perte d’autonomie :: L'alitement est précisément ce qui fait perdre l'autonomie
-> L’alitement prolongé et la polymédication peuvent contribuer à une pathologie induite par l’hôpital et à une perte durable d’autonomie. La mobilisation, le contrôle de la douleur, la nutrition et le retrait des dispositifs gênants facilitent le retour dans l’environnement habituel.
-@ 56–57
-
-QCM · Troubles neurocognitifs
-Concernant la nomenclature temporelle des troubles neurocognitifs périopératoires, quelles associations sont exactes ?
-+ Délire postopératoire : jusqu’à J7 ou la sortie :: Fenêtre la plus précoce, qui suit immédiatement l'intervention
-+ Retard de récupération neurocognitive : jusqu’à J30 :: Fenêtre intermédiaire, souvent méconnue
-+ Trouble neurocognitif postopératoire : de J30 à 12 mois :: Fenêtre tardive, dont le lien avec la chirurgie reste discuté
-- Au-delà de 12 mois, la persistance du trouble établit le lien avec la chirurgie :: Au-delà d'un an, le lien avec la chirurgie n'est plus établi
-> La nomenclature distingue ces périodes. Au-delà de 12 mois, le support parle de trouble neurocognitif sans lien établi avec la chirurgie. Une évaluation cognitive préopératoire de référence est nécessaire pour reconnaître un déclin.
-@ 59
-
-QCM · Délire postopératoire
-Concernant les manifestations et facteurs déclenchants du délire postopératoire, quelles propositions sont exactes ?
-+ Il peut avoir un début aigu, être fluctuant et s’accompagner d’inattention :: Ce sont les trois critères du diagnostic
-+ Un patient très calme peut présenter une confusion qui doit être recherchée :: C'est la forme hypoactive, la plus fréquente et la plus souvent manquée
-+ Hypoxémie, infection, troubles métaboliques ou rétention urinaire peuvent le déclencher :: Toutes causes à rechercher systématiquement devant une confusion
-- Il concerne les patients agités qui arrachent leurs dispositifs :: La forme hypoactive, silencieuse, est la plus fréquente
-> Les formes agitées attirent l’attention mais ne résument pas le délire. Le patient calme peut ne pas alerter spontanément. Il faut rechercher le terrain et les déclencheurs : la confusion expose notamment aux chutes, à la perte d’autonomie, au séjour prolongé et à une mortalité accrue.
-@ 58–60
-
-QCM · Prévention du délire
-Quelles mesures non médicamenteuses contribuent à la prévention du délire chez un patient âgé à risque ?
-+ Réorientation et remise des lunettes et appareils auditifs :: Lunettes et appareils auditifs sont des moyens de prévention à part entière
-+ Préservation du sommeil et présence des proches :: Le rythme veille-sommeil et les repères familiers protègent
-+ Mobilisation précoce, hydratation et nutrition :: Trois mesures non médicamenteuses d'efficacité démontrée
-- Isolement sensoriel et maintien au lit afin de limiter les stimulations :: L'isolement sensoriel et l'immobilisation favorisent le délire
-> Les mesures multicomposantes maintiennent les repères, la communication, le sommeil et les capacités fonctionnelles. Le cours ne recommande pas de médicament en prophylaxie systématique et insiste sur cette prévention avant et après l’intervention.
-@ 61
-
-QCM · Dépistage et traitement du délire
-Chez un patient à risque de délire postopératoire, quelles propositions sur le dépistage et le traitement sont exactes ?
-+ Le dépistage postopératoire est quotidien, au moins jusqu’à J3, avec un outil validé tel que Nu-DESC, CAM ou CAM-ICU :: Le dépistage doit être systématique, avec un outil validé
-+ Douleur, rétention urinaire, hypoxémie, infection et médicaments sont des causes à rechercher :: Toute confusion impose une recherche de cause avant tout traitement
-- Une benzodiazépine est le traitement de première intention de la confusion postopératoire :: Les benzodiazépines aggravent la confusion : elles en sont une cause
-- La sédation doit précéder toute recherche de cause chez un patient calme :: Sédater sans chercher la cause masque le problème au lieu de le traiter
-> Le dépistage commence dès la salle de réveil et se répète quotidiennement. Le premier traitement est celui de la cause. Si les mesures non médicamenteuses échouent, le support mentionne l’halopéridol à faible dose titrée, avec prudence en cas de Parkinson ou de maladie à corps de Lewy. Les benzodiazépines sont évitées, sauf délire de sevrage alcoolique.
-@ 61
+QCM · Délire postopératoire : prévention et traitement
+Quelles mesures sont adaptées ?
++ Rendre rapidement les lunettes et les appareils auditifs. :: La réorientation fait partie des mesures non médicamenteuses.
++ Rechercher une cause : douleur, rétention urinaire, hypoxémie, infection, médicaments. :: Le délire a souvent un facteur déclenchant.
++ Dépister le délire chaque jour en postopératoire. :: Avec des outils validés (Nu-DESC, CAM).
++ Utiliser l'halopéridol à faible dose si les mesures non médicamenteuses échouent. :: Les benzodiazépines sont évitées, sauf sevrage alcoolique.
++ Encourager la mobilisation précoce et la présence des proches. :: Ce sont des mesures non médicamenteuses.
+> Prévention : dépistage des facteurs de risque, mesures non médicamenteuses (réorientation, sommeil, mobilisation, hydratation, nutrition, proches), monitorage EEG. Traitement : cause, puis halopéridol à faible dose titré si échec.
+@ p. 60 et 61

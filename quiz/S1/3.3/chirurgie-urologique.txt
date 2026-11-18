@@ -1,364 +1,205 @@
-// Quiz 12 – Chirurgie urologique (UE 3.3), d'après « QUIZZ 12 Urologie.html »
+// Quiz – Chirurgie urologique (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Chirurgie urologique avec notes ».
+// Questions type examen sur les notions générales : anatomie, physiopathologie, pharmacologie, conduite périopératoire. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Chirurgie urologique
 
-QCM · ECBU ciblé
-Avant une intervention urologique programmée, pour quels gestes un ECBU préopératoire est-il indiqué ?
-+ Une résection transurétrale de prostate ou une énucléation laser de l’adénome :: Geste endo-urologique sur la prostate, avec ouverture des plexus veineux
-+ Une urétéroscopie ou une néphrolithotomie percutanée :: Le calcul et les cavités rénales sont un réservoir bactérien sous haute pression
-+ Une résection transurétrale de tumeur vésicale :: Geste endovésical, avec effraction de la muqueuse
-- Une néphrectomie sans geste endo-urologique associé :: Sans abord des voies urinaires, l'ECBU systématique n'est pas justifié
-- Un simple changement de sonde urinaire, sans autre indication :: Geste non invasif, qui ne justifie pas d'ECBU systématique
-> L’ECBU est ciblé sur les gestes définis, particulièrement l’endo-urologie au contact des urines. RTUP, énucléation laser, RTUV, urétéroscopie et néphrolithotomie percutanée figurent parmi les indications. La néphrectomie et le simple changement de sonde ne justifient pas à eux seuls cet examen. Un ECBU est une culture ; la bandelette urinaire ne le remplace pas.
-@ 11–12
+QCM · Anatomie
+Concernant l'anatomie de l'appareil urinaire, quelles propositions sont exactes ?
++ Le rein comprend un cortex en périphérie et une médulla plus centrale. :: Les urines s'écoulent ensuite par les calices, le bassinet et l'uretère.
++ Chez l'homme, l'urètre traverse la prostate sous la vessie. :: Une hypertrophie de la prostate peut donc gêner l'écoulement des urines.
+- Le rein reçoit environ 5 % du débit cardiaque. :: Il en reçoit environ 20 % : c'est la raison du risque hémorragique de la chirurgie rénale.
+- Le greffon rénal est implanté à la place du rein natif, dans la loge lombaire. :: Il est implanté dans la fosse iliaque ; les reins natifs restent habituellement en place.
++ Les uretères relient les reins à la vessie. :: Le trajet urinaire est rein, uretère, vessie, urètre.
+> Le rein, organe pair très vascularisé (20 % du débit cardiaque), est relié à la vessie par l'uretère. Chez l'homme, la prostate entoure l'urètre sous la vessie. Le greffon rénal est placé en fosse iliaque.
+@ p. 5 à 7, 36 et 39
 
-QCM · Colonisation urinaire
-Un patient asymptomatique présente un ECBU positif avant une néphrolithotomie percutanée programmée. Quelles propositions sont exactes ?
-- L’absence de fièvre permet de négliger la colonisation avant cette intervention :: Une colonisation est par définition sans fièvre : c'est ce qui la rend trompeuse
-+ La colonisation urinaire doit être traitée avant la néphrolithotomie percutanée :: L'hyperpression d'irrigation peut faire passer les germes dans le sang
-+ Le traitement adapté est anticipé, avec un début 48 heures avant le geste et une durée totale de 3 à 5 jours dans le schéma :: Le traitement commence avant le geste pour stériliser les urines
-- Une injection d’antibioprophylaxie à l’induction remplace le traitement adapté de la colonisation :: Une dose unique ne traite pas une colonisation installée
-+ L’apparition de signes cliniques d’infection impose de revoir la prise en charge et le maintien du geste programmé :: Une infection patente, et non plus une colonisation, peut faire reporter l'intervention
-> Avant NLPC, le support prévoit de traiter la colonisation. Le traitement adapté commence 48 h avant, se poursuit jusqu’à J0 et au maximum 48 h après. Il se distingue de la prophylaxie liée au geste. Une infection symptomatique relève d’un traitement et d’un report de la chirurgie réglée dans le contexte décrit.
-@ 12
+QCM · Risque infectieux
+Concernant le risque infectieux en urologie, quelles propositions sont exactes ?
++ Il associe le risque d'infection du site opératoire et celui lié à la colonisation des urines. :: C'est la particularité de l'urologie.
++ Une colonisation urinaire augmente le risque de bactériémie, surtout lors des résections endoscopiques. :: Le geste se fait au contact des urines.
+- Le risque infectieux est plus élevé pour la vessie que pour la prostate. :: Il est plus élevé pour la prostate.
+- L'urine est physiologiquement colonisée par des bactéries. :: L'urine est physiologiquement stérile.
++ La chirurgie urologique est une chirurgie propre-contaminée. :: Elle ouvre les voies urinaires.
+> En urologie, l'infection du site opératoire s'ajoute au risque lié à la colonisation des urines. Une colonisation non traitée expose à la bactériémie et au sepsis, en particulier lors des résections endoscopiques. Le risque est plus élevé pour la prostate que pour la vessie.
+@ p. 10
 
-QCM · Antibioprophylaxie
-Concernant l’antibioprophylaxie en chirurgie urologique, quelles propositions sont exactes ?
-+ Elle vise à prévenir une infection liée au geste chirurgical :: Elle cible les germes susceptibles de contaminer le site opératoire
-- Son indication est identique pour toutes les interventions portant sur la prostate ou la vessie :: Elle dépend du geste, de l'effraction muqueuse et du terrain
-+ Lorsqu’elle est indiquée, l’administration initiale est située dans les 60 minutes avant l’incision :: L'objectif est une concentration tissulaire efficace au moment de l'incision
-- Une infection urinaire connue est couverte par la dose prophylactique :: Une infection déclarée relève d'un traitement, non d'une prophylaxie
-+ Une prophylaxie peut être indiquée même si les urines sont stériles :: Le geste lui-même peut faire passer des germes dans la circulation
-> L’antibioprophylaxie dépend de l’acte : il faut distinguer, par exemple, RTUP et RTUV. Elle prévient une infection liée au geste, tandis qu’une infection ou une colonisation nécessitant un traitement appelle une antibiothérapie adaptée. Le tableau prévoit une injection dans les 60 minutes avant l’incision, avec réinjection selon la durée et le produit, sans prolongation prophylactique après la fin du geste.
-@ 13
+QCM · ECBU préopératoire
+Concernant l'ECBU avant un geste urologique, quelles propositions sont exactes ?
++ Il est indiqué avant les gestes d'endo-urologie au contact des urines. :: Par exemple : RTUP, RTUV, urétéroscopie, néphrolithotomie percutanée.
+- Il est indiqué avant une néphrectomie. :: La néphrectomie n'ouvre pas les voies urinaires basses : pas d'ECBU ni d'antibioprophylaxie.
+- Il est réalisé la veille du geste, pour être le plus récent possible. :: Il est réalisé au plus tard 10 jours avant, pour laisser le temps de traiter une colonisation.
+- Une bandelette urinaire négative permet de se passer de l'ECBU. :: Seule la culture compte : la bandelette ne sert pas au dépistage.
++ Une colonisation est toujours traitée avant une néphrolithotomie percutanée. :: Le risque de bactériémie y est élevé.
+> L'ECBU est ciblé : avant l'endo-urologie au contact des urines. En cas de colonisation chez un patient asymptomatique, l'antibiothérapie adaptée commence 48 heures avant le geste et s'arrête au plus 48 heures après, avec des molécules à faible impact écologique.
+@ p. 11 et 12
 
-QCM · Saignement
-Quels éléments expliquent ou accompagnent le risque hémorragique en chirurgie urologique ?
-+ La richesse vasculaire du rein et les plexus veineux prostatiques peuvent favoriser le saignement :: Le rein reçoit un quart du débit cardiaque, et la prostate est entourée de plexus veineux
-- Un saignement endoscopique est facile à quantifier dès lors qu’un liquide de lavage est utilisé :: Le lavage dilue le sang : l'estimation visuelle devient impossible
-- Un abord mini-invasif supprime la possibilité d’une lésion vasculaire :: La voie d'abord ne protège pas des lésions vasculaires, parfois plus difficiles à contrôler
-+ Selon le geste, deux voies veineuses de bon calibre et un dispositif de transfusion rapide réchauffée peuvent être nécessaires :: Néphrectomie élargie, cystectomie, prostatectomie ouverte
-+ Le liquide d’irrigation peut diluer le sang et rendre l’estimation des pertes difficile :: C'est ce qui rend le saignement endoscopique si difficile à quantifier
-> La dissection du rein ou de la prostate peut provoquer un saignement important. En endoscopie, le mélange au liquide d’irrigation complique sa quantification. Les voies mini-invasives peuvent diminuer les pertes, mais le risque n’est pas supprimé. La préparation est proportionnée au geste : hémoglobine initiale, bilan transfusionnel, accès veineux et réchauffement.
-@ 14, 36–38, 61–62
+QCU · Antibioprophylaxie
+Quelle intervention, réalisée avec des urines stériles, ne nécessite pas d'antibioprophylaxie ?
+- Résection transurétrale de prostate (RTUP) :: Céfazoline 2 g.
+- Pose de sonde JJ :: Céfazoline 2 g.
++ Prostatectomie radicale :: Pas d'antibioprophylaxie.
+- Cystectomie :: Céfoxitine 2 g, car un segment digestif est utilisé.
+- Néphrostomie percutanée :: Céfazoline 2 g.
+> Céfazoline 2 g : RTUP, énucléation, adénomectomie, urétéroscopie, sonde JJ, néphrostomie, NLPC. Céfoxitine : cystectomie (ouverture digestive). Pas d'antibioprophylaxie : néphrectomie, prostatectomie radicale, RTUV avec urines stériles.
+@ p. 13, 37, 62 et 70
 
-QCM · Thromboprophylaxie
-Quelles propositions décrivent correctement l’évaluation du risque thromboembolique en chirurgie urologique ?
-+ Le risque résulte du croisement entre les facteurs du patient et ceux de la procédure :: Ni le patient seul, ni le geste seul ne suffisent à définir le risque
-- Une cystectomie majeure carcinologique relève du même risque qu’un geste scrotal limité :: Une cystectomie carcinologique est l'un des gestes les plus thrombogènes
-+ L’âge, le cancer, la faible capacité fonctionnelle et un antécédent de MTEV sont des facteurs à considérer :: Ce sont les principaux facteurs liés au patient
-- Après prostatectomie robotique sans curage chez un patient à faible risque, l’HBPM est prescrite pendant quatre semaines :: Ce profil ne justifie pas une prophylaxie prolongée de quatre semaines
-+ La chirurgie carcinologique majeure ouverte peut associer HBPM et compression pneumatique intermittente, avec prophylaxie prolongée :: Chirurgie carcinologique majeure : moyens mécaniques et médicamenteux associés
-> La prévention est individualisée. Une chirurgie ouverte majeure pour cancer expose davantage qu’un geste limité ; le terrain ajoute son propre risque. Le support distingue la prophylaxie prolongée de la chirurgie carcinologique majeure et la prostatectomie robotique sans curage chez un patient à faible risque, pour laquelle l’HBPM n’est pas systématique et le lever précoce est privilégié.
-@ 15–18
+QCM · Risques hémorragique et thrombo-embolique
+Concernant les risques hémorragique et thrombo-embolique en urologie, quelles propositions sont exactes ?
++ La dissection de la prostate expose au saignement des plexus veineux latéro-prostatiques. :: Prostatectomie radicale, cystoprostatectomie, adénomectomie voie haute.
++ Lors d'une RTUP, le saignement est difficile à quantifier. :: Il est dilué dans le liquide d'irrigation.
++ La chirurgie carcinologique majeure (cystectomie, curages) a le risque thrombo-embolique le plus élevé. :: Avec un risque cumulé à celui du patient.
++ Après chirurgie carcinologique majeure, l'HBPM est associée à une compression pneumatique intermittente et prolongée 4 semaines. :: Le risque thrombo-embolique persiste après la sortie.
++ Une ponction pour rachianesthésie est possible 12 heures après une injection préventive d'HBPM. :: L'injection suivante se fait au moins 4 heures après la ponction.
+> Les trois grands risques de l'urologie sont infectieux, hémorragique et thrombo-embolique. Pour toute chirurgie lourde : 2 voies veineuses, bilan transfusionnel et transfuseur-réchauffeur prêt. La thromboprophylaxie tient compte du risque du geste et du patient.
+@ p. 14 à 18
 
-QCM · HBPM et ALR neuraxiale
-Pour une HBPM utilisée à dose prophylactique, quels délais sont retenus autour d’une ponction neuraxiale ou du retrait d’un cathéter péridural ?
-- Au moins 4 heures entre la dernière injection et la ponction :: Ce délai est insuffisant : il expose à l'hématome périmédullaire
-+ Au moins 12 heures entre la dernière injection et la ponction ou le retrait du cathéter :: Délai à respecter pour une dose prophylactique
-+ Au moins 4 heures entre la ponction ou le retrait et l’injection suivante :: La reprise se fait après la ponction, une fois l'hémostase assurée
-- Les mêmes délais peuvent être appliqués sans distinction à toute dose curative d’anticoagulant :: Une dose curative impose des délais bien plus longs, d'au moins 24 heures
-- Le retrait du cathéter peut être réalisé sans prendre en compte l’heure de la dernière HBPM :: Le retrait du cathéter est aussi risqué que la ponction : il obéit aux mêmes délais
-> Le support retient, pour l’HBPM préventive, au moins 12 h avant la ponction ou le retrait du cathéter et au moins 4 h avant l’injection suivante. Le contexte de dose prophylactique est essentiel : ces repères ne sont pas une règle universelle pour tous les traitements anticoagulants. L’enjeu évoqué est le risque d’hématome avec compression neurologique.
-@ 18
+QCM · Position de lithotomie
+Concernant la position de lithotomie (position gynécologique), quelles propositions sont exactes ?
+- Les cuisses sont en extension, les jambes écartées à plat. :: En lithotomie, les cuisses sont fléchies à 80-100° sur l'abdomen, les jambes à 90°.
++ Elle mobilise le sang des membres inférieurs vers le thorax et peut masquer une hypovolémie. :: L'hypovolémie se démasque à la remise à plat.
+- Elle diminue fortement la compliance pulmonaire chez le patient de poids normal. :: Elle a peu d'effet respiratoire, sauf chez l'obèse et sous AG (atélectasies).
+- La remise à plat doit être rapide pour limiter le syndrome des loges. :: Elle doit être progressive, pour éviter une hypotension brutale.
+- Elle expose surtout à une élongation du plexus brachial. :: Elle expose aux compressions des membres inférieurs : syndrome des loges, nerf obturateur, nerf sciatique, nerf fibulaire.
+> La lithotomie redistribue le sang vers le thorax et compense une hypovolémie relative, qui se révèle à la remise à plat. Au-delà de 2 heures, elle expose au syndrome des loges et à la rhabdomyolyse. Les nerfs obturateur, sciatique et fibulaire peuvent être lésés.
+@ p. 21 à 23
 
-QCM · Lithotomie : appuis
-Pendant une chirurgie prolongée en lithotomie, quels éléments favorisent une complication locale des membres inférieurs ?
-+ Une augmentation de pression dans les loges musculaires :: Les jambières compriment les loges antéro-externes
-+ Une hypoperfusion du membre associée à des appuis prolongés :: Jambes surélevées et pression locale réduisent la perfusion
-- Une protection des points de pression supprime tout risque d’étirement nerveux lié à la position :: Protection et positionnement sont deux risques distincts : on peut protéger un nerf étiré
-+ Une flexion excessive ou une rotation importante peut mettre des nerfs en tension :: L'étirement du nerf sciatique ou du nerf fibulaire dépend de l'angulation
-- La durée opératoire ne participe pas au risque de syndrome des loges :: C'est un facteur majeur : le risque croît avec la durée en position
-> Pression, défaut de perfusion, durée et étirements peuvent s’additionner. Le support relie les interventions prolongées, notamment au-delà de deux heures, au syndrome des loges et à la rhabdomyolyse. Les atteintes nerveuses dépendent aussi de la position : contrôler les supports ne dispense pas de vérifier flexion, rotation et tension des membres.
-@ 23
+QCM · Position de lombotomie
+Concernant la position de lombotomie, quelles propositions sont exactes ?
++ Elle associe un décubitus latéral et une ouverture du flanc par un billot. :: Pour exposer le rein et l'uretère lombaire.
++ Le billot peut comprimer la veine cave inférieure et diminuer le retour veineux. :: Ce n'est pas le cas en décubitus latéral simple.
+- Le poumon supérieur, appuyé sur le billot, est exposé aux atélectasies. :: C'est le poumon inférieur, moins ventilé, qui fait des atélectasies.
+- Le poumon supérieur est le plus perfusé, par gravité. :: C'est le poumon inférieur, déclive, qui est le plus perfusé.
+- La traction du bras supérieur est sans risque nerveux. :: Une traction excessive expose à l'élongation du plexus brachial.
+> La lombotomie expose à une baisse du retour veineux (compression cave), à des troubles des rapports V/Q avec atélectasies du poumon inférieur, et aux lésions des points d'appui et du plexus brachial.
+@ p. 24 à 27
 
-QCM · Lombotomie
-Concernant l’installation pour une lombotomie, quelles propositions sont exactes ?
-+ Elle associe un décubitus latéral à une ouverture du flanc par billot ou cassure de table :: Le billot ouvre l'espace entre les côtes et la crête iliaque
-- Un décubitus latéral simple et une lombotomie avec billot ont les mêmes contraintes :: Le billot ajoute une contrainte importante sur le rachis et la cave
-+ Une compression cave peut diminuer le retour veineux :: Le billot et le décubitus latéral gênent le retour veineux
-+ Le poumon inférieur peut être moins ventilé et exposé aux atélectasies :: Il est comprimé par le poids du médiastin et le billot
-+ La vérification des bras et des appuis protège notamment contre les lésions du plexus brachial :: Le bras inférieur et le creux axillaire doivent être dégagés
-> L’ouverture de l’angle du flanc distingue cette installation d’un décubitus latéral simple. Le billot peut contribuer à une compression cave. La répartition ventilation/perfusion change, avec un poumon inférieur comprimé. Les appuis et la traction sur le bras doivent être contrôlés, car le plexus brachial peut être étiré.
-@ 24–27
+QCM · Patient dialysé
+Un patient dialysé doit être opéré. Quelles propositions sont exactes ?
++ L'anémie et la kaliémie doivent être évaluées. :: Ce sont les troubles métaboliques principaux de l'insuffisant rénal terminal.
+- Le poids sec est le poids mesuré avant la séance de dialyse. :: Le poids sec est le poids visé en fin de dialyse, sans surcharge.
+- Le brassard à tension peut être placé sur le bras de la fistule artério-veineuse. :: Ni brassard ni perfusion sur le bras de la FAV.
++ Une dialyse peut être programmée avant et après l'intervention. :: Selon la kaliémie et l'état volémique.
+- Les AINS sont le premier choix de l'analgésie, car ils n'ont plus d'effet rénal. :: Il faut préserver la diurèse résiduelle : pas de néphrotoxiques.
+> Chez l'insuffisant rénal terminal : évaluer anémie, kaliémie, modalités de dialyse, poids sec et diurèse résiduelle ; dialyser avant et après si besoin ; protéger la FAV ; éviter les néphrotoxiques et maintenir la perfusion rénale.
+@ p. 31
 
-QCM · Insuffisance rénale terminale
-Chez un patient dialysé porteur d’une fistule artérioveineuse, quelles mesures font partie de la préparation anesthésique ?
-- Utiliser le bras de la fistule pour la pression artérielle afin d’épargner l’autre bras :: Le brassard et les perfusions peuvent thromboser la fistule
-+ Connaître le calendrier de dialyse, le poids sec et la diurèse résiduelle :: Ils déterminent la tolérance volémique et le moment du geste
-+ Disposer notamment de la kaliémie et du niveau d’anémie :: La kaliémie conditionne le choix des médicaments et l'urgence d'une dialyse
-+ Protéger le bras de la fistule du brassard et des perfusions :: Elle est le seul accès vasculaire du patient : sa perte est une catastrophe
-+ Rechercher les expositions néphrotoxiques et préserver la perfusion rénale :: Produits de contraste, anti-inflammatoires et hypotension menacent la fonction restante
-> La consultation précise la dialyse, les variations de poids et la fonction résiduelle, puis organise les séances autour de la chirurgie. La kaliémie et l’anémie sont importantes. Le bras de FAV est protégé : pas de brassard ni de perfusion. Le cours cite notamment aminosides, AINS et produits de contraste parmi les produits à considérer pour le risque rénal.
-@ 30–31
+QCM · Néphrectomie
+Concernant la néphrectomie, quelles propositions sont exactes ?
++ La néphrectomie partielle a plus de complications que la néphrectomie totale. :: Saignement et fistule urinaire.
++ La néphrectomie élargie retire le rein, la graisse péri-rénale et parfois la surrénale. :: Pour une tumeur maligne.
+- Elle nécessite un ECBU et une antibioprophylaxie par céfazoline. :: Ni ECBU ni antibioprophylaxie.
++ Elle peut se compliquer d'une brèche pleurale, recherchée par une radiographie postopératoire. :: L'abord du rein est proche de la plèvre.
+- C'est une chirurgie peu hémorragique, qui ne nécessite qu'une voie veineuse. :: Le rein reçoit 20 % du débit cardiaque : 2 voies veineuses et bilan transfusionnel.
+> Néphrectomie : AG avec curarisation et bloc périphérique pour l'analgésie, 2 VVP, bilan transfusionnel, réchauffement, thromboprophylaxie, monitorage invasif selon le terrain, puis surveillance de la diurèse et de la fonction rénale.
+@ p. 33 à 37
 
-QCM · Néphrectomie et cavotomie
-Une tumeur rénale s’étend dans la veine cave et nécessite une néphrectomie avec cavotomie. Quels éléments sont à anticiper ?
-+ Un risque hémorragique important et des moyens de transfusion rapide réchauffée :: Tumeur rénale avec thrombus cave : chirurgie à très haut risque hémorragique
-- La cavotomie correspond à une ouverture des cavités urinaires du rein :: C'est l'ouverture de la veine cave inférieure, pour extraire un thrombus tumoral
-+ Une coordination entre chirurgiens urologues et vasculaires :: La cavotomie dépasse le champ de l'urologue seul
-+ Une extension vers l’oreillette peut faire intervenir la chirurgie cardiaque :: Un thrombus remontant jusqu'à l'oreillette impose une circulation extracorporelle
-+ Une surveillance postopératoire relevant d’une préparation de réanimation :: Durée, saignement et clampage cave justifient une surveillance continue
-> La cavotomie ouvre la veine cave pour traiter l’extension tumorale intravasculaire. Il s’agit d’une chirurgie à haut risque, distincte d’une néphrectomie simple, avec accès vasculaires et monitorage adaptés. L’extension du thrombus détermine l’organisation des équipes, y compris cardiaques lorsqu’il remonte vers l’oreillette.
-@ 36–38
+QCM · Transplantation rénale
+Concernant la transplantation rénale, quelles propositions sont exactes ?
++ C'est le traitement de référence de l'insuffisance rénale chronique terminale. :: Elle est supérieure à la dialyse.
++ Le greffon est placé dans la fosse iliaque, en position extrapéritonéale. :: C'est une chirurgie peu hémorragique.
++ L'hypotension doit être évitée, surtout au déclampage du greffon. :: Pour assurer la perfusion du greffon.
++ Le bilan préopératoire comprend la kaliémie et le statut volémique. :: Avec une dialyse la veille si besoin.
+- Le receveur n'a pas de traitement immunosuppresseur. :: L'immunosuppression commence dès la greffe et se poursuit au long cours.
+> Avant la greffe : bilan cardiovasculaire, diabète, poids sec, hémoglobine, kaliémie, dialyse si besoin. Pendant : éviter l'hypotension, surtout au déclampage, pour assurer la perfusion du greffon.
+@ p. 39 à 41
 
-QCM · Greffon rénal : anatomie
-Après une transplantation rénale avec implantation du greffon dans le bassin, quelles propositions sont exactes ?
-+ Le greffon est implanté dans une fosse iliaque :: En position hétérotopique, plus accessible et plus superficielle
-- Les reins natifs doivent être retirés pour que le greffon soit placé à leur place :: Ils sont laissés en place, sauf indication particulière
-+ Les vaisseaux du greffon sont raccordés aux vaisseaux iliaques :: Anastomoses sur l'artère et la veine iliaques
-+ L’uretère du greffon est raccordé à la vessie :: C'est la réimplantation urétéro-vésicale
-- La transplantation crée un drainage urinaire externe permanent par néphrostomie :: L'uretère est réimplanté dans la vessie : le drainage est physiologique
-> Le dessin place le greffon dans la fosse iliaque et conserve les reins natifs. Les anastomoses vasculaires se font avec les vaisseaux du bassin, et l’uretère rejoint la vessie. Ce trajet permet de comprendre les deux surveillances essentielles : perfusion du greffon et évacuation des urines.
-@ 39
+QCU · Adénomectomie
+Qu'est-ce qui distingue l'adénomectomie de la prostatectomie radicale ?
++ L'adénomectomie retire l'adénome en laissant la capsule prostatique. :: La prostatectomie radicale retire toute la prostate.
+- L'adénomectomie est réservée au cancer de la prostate. :: Elle traite l'hypertrophie bénigne ; la prostatectomie radicale traite le cancer.
+- L'adénomectomie retire la prostate et les vésicules séminales. :: C'est la prostatectomie radicale.
+- L'adénomectomie se fait par voie endoscopique. :: L'adénomectomie se fait par voie haute ; la voie endoscopique correspond à la RTUP ou à l'énucléation.
+- L'adénomectomie retire la vessie et la prostate. :: C'est la cystoprostatectomie.
+> L'hypertrophie bénigne de la prostate (HBP) se traite par RTUP, énucléation laser ou adénomectomie voie haute : toutes retirent l'adénome et laissent la capsule. La prostatectomie radicale retire toute la prostate pour un cancer.
+@ p. 42 à 44 et 61
 
-QCM · Greffe : reperfusion et suites
-Lors d’une transplantation rénale, quelles propositions sur la prise en charge périopératoire sont exactes ?
-+ La pression et la volémie sont particulièrement importantes lors du déclampage et de la reperfusion :: Le greffon doit être perfusé dès le déclampage : l'hypotension compromet sa reprise
-- Une hypotension au déclampage est recherchée pour faciliter la reprise du greffon :: Une hypotension au déclampage menace directement la reprise de fonction
-+ La séance de dialyse et le début de l’immunosuppression sont coordonnés avec la néphrologie :: L'immunosuppression commence dès le bloc
-+ La diurèse horaire contribue à la surveillance postopératoire :: Elle témoigne de la reprise de fonction du greffon
-- Les AINS sont la base de l’analgésie après greffe rénale :: Les anti-inflammatoires sont néphrotoxiques : ils sont proscrits sur un greffon
-> Le cours demande de préserver la perfusion du greffon et d’éviter l’hypotension. La préparation tient compte du poids sec, de la kaliémie, de l’anémie et du terrain cardiovasculaire. Dialyse et immunosuppression sont organisées avec la néphrologie. L’analgésie décrite est multimodale sans AINS ; la surveillance recherche aussi thrombose, fuite urinaire, rejet et infection.
-@ 40–41
+QCM · RTUP
+Concernant la résection transurétrale de prostate (RTUP), quelles propositions sont exactes ?
++ Elle se fait en position gynécologique, sous irrigation vésicale continue. :: Pour voir et évacuer les copeaux.
++ Avec une résection bipolaire, l'irrigation se fait au sérum physiologique. :: C'est le standard actuel.
+- Le glycocolle est utilisé avec la résection bipolaire. :: Le glycocolle n'est utilisé qu'en résection monopolaire.
++ Elle peut être réalisée sous rachianesthésie avec un niveau T10. :: Ou sous AG.
++ Des urines très claires avec un faible débit après l'intervention font suspecter un caillot. :: Il bouche la sonde : une reprise est possible.
+> La RTUP retire l'adénome par l'urètre, sous irrigation continue. Après l'intervention, on surveille le bilan entrées-sorties de l'irrigation, la couleur des urines (rosées) et la sonde.
+@ p. 46 à 48
 
-QCM · HBP et chirurgie carcinologique
-Quelles associations entre intervention prostatique et objectif opératoire sont exactes ?
-+ L’HBP peut gêner l’écoulement des urines en comprimant l’urètre :: L'adénome se développe vers l'intérieur et comprime l'urètre prostatique
-+ L’adénomectomie retire l’adénome tout en conservant la capsule prostatique :: La capsule est laissée en place : c'est une chirurgie de l'adénome, pas du cancer
-- La RTUP correspond à l’ablation radicale de la glande pour cancer :: C'est la résection endoscopique de l'adénome, geste bénin
-+ La prostatectomie radicale pour cancer peut être associée à un curage pelvien :: Le curage ganglionnaire évalue l'extension du cancer
-+ La voie transvésicale et la voie rétropubienne sont deux abords de l’adénomectomie :: Deux voies d'abord pour le même geste
-> Les gestes de l’HBP traitent le tissu obstructif, tandis que la prostatectomie radicale est une chirurgie carcinologique. La RTUP résèque l’adénome depuis l’urètre ; elle n’est pas une prostatectomie radicale.
-@ 42–44, 61
+QCU · Intérêt de la rachianesthésie en RTUP
+Quel est l'intérêt principal de la rachianesthésie pour une RTUP ?
+- Elle supprime tout risque de TURP syndrome. :: Elle ne prévient pas l'absorption du liquide d'irrigation.
+- Elle diminue le saignement prostatique. :: Ce n'est pas l'intérêt mis en avant.
++ Le patient éveillé signale précocement les complications. :: Douleur des épaules en cas de perforation vésicale, troubles visuels au début d'un TURP syndrome.
+- Elle évite la position gynécologique. :: La position est la même quelle que soit l'anesthésie.
+- Elle permet de se passer de l'irrigation vésicale. :: L'irrigation est indispensable à la résection.
+> Sous rachianesthésie, le patient reste conscient : une perforation vésicale donne une douleur irradiant aux épaules, et le TURP syndrome commence par des troubles visuels. Ces signes sont masqués sous AG.
+@ p. 49
 
-QCM · RTUP : irrigation
-Quelles associations entre technique de RTUP, liquide d’irrigation et risque sont exactes ?
-+ La RTUP bipolaire peut utiliser du sérum physiologique :: Le courant revient par l'instrument : aucun besoin de solution non conductrice
-+ Le montage monopolaire décrit utilise du glycocolle à 1,5 %, solution non électrolytique :: Le monopolaire impose une solution non conductrice, d'où le risque d'hyponatrémie
-- Le sérum physiologique supprime tout risque de surcharge en cas de résorption massive :: Elle supprime le risque d'hyponatrémie, non celui de surcharge volémique
-+ De grands volumes d’irrigation peuvent favoriser l’hypothermie :: Des litres de liquide à température ambiante refroidissent le patient
-- Le liquide de lavage est sans conséquence sur l’interprétation des pertes sanguines :: Il dilue le sang et rend toute estimation visuelle illusoire
-> Le cours associe bipolaire et sérum physiologique, monopolaire et glycocolle. Le sérum physiologique évite les effets propres au glycocolle, mais une absorption importante peut encore provoquer une surcharge. Les volumes de lavage refroidissent le patient et diluent le saignement, ce qui rend les pertes difficiles à estimer.
-@ 46, 48, 50, 57
+QCM · TURP syndrome : mécanismes
+Concernant le TURP syndrome, quelles propositions sont exactes ?
++ Il est lié au passage du liquide d'irrigation dans la circulation. :: En particulier le glycocolle.
++ Il associe surcharge volémique, hyponatrémie de dilution et toxicité du glycocolle. :: Trois mécanismes combinés.
++ Le glycocolle est une solution hypotonique, sans électrolytes. :: D'où l'hyponatrémie et l'hypo-osmolarité.
++ La toxicité du glycocolle entraîne une hyperammoniémie. :: Avec troubles visuels, encéphalopathie et toxicité cardiaque.
++ Il est devenu rare depuis la résection bipolaire au sérum physiologique. :: Mais la surcharge volémique reste possible.
+> Le TURP syndrome associe surcharge volémique, hyponatrémie et hypo-osmolarité (hyperhydratation cellulaire), toxicité de la glycine (hyperammoniémie) et hypothermie. Avec le sérum physiologique, l'hyponatrémie disparaît mais la surcharge reste possible.
+@ p. 46 et 50 à 52
 
-QCM · Lavage après RTUP
-Après une RTUP avec lavage vésical continu, quelles observations ou actions sont pertinentes ?
-- Une poche de recueil claire confirme la perméabilité de la sonde :: Elle peut être claire parce que rien ne s'écoule : la sonde est bouchée
-+ Comparer les volumes instillés et recueillis, en tenant compte de la diurèse :: C'est le seul moyen de repérer une rétention de liquide d'irrigation
-+ Surveiller la couleur, le débit et la possibilité de caillots :: La couleur suit l'intensité du saignement, et les caillots annoncent l'obstruction
-+ Une douleur importante peut être liée à des spasmes vésicaux et nécessite une évaluation :: Les spasmes sont fréquents, mais une douleur intense doit faire chercher un globe ou une perforation
-- Un défaut d’évacuation du lavage peut être ignoré tant que la pression artérielle est stable :: Un lavage qui ne ressort pas distend la vessie et peut la perforer
-> Le bilan entrées/sorties et la perméabilité sont essentiels. Les caillots peuvent gêner l’écoulement ; la sonde peut provoquer des spasmes douloureux.
-@ 48
-
-QCM · TURP syndrome : reconnaissance
-Un patient éveillé sous rachianesthésie présente des symptômes pendant une RTUP au glycocolle. Quels signes doivent faire évoquer précocement un TURP syndrome ?
-+ Bâillements inhabituels, agitation ou confusion :: Signes neurologiques précoces, souvent attribués à tort à l'anxiété
-+ Nausées et vomissements :: Signes digestifs précoces de l'hyponatrémie aiguë
-+ Troubles de la vision :: La vision floue est un signe classique du glycocolle
-- L’absence de coma permet d’exclure le syndrome :: Le coma est tardif : attendre ce stade, c'est passer à côté du diagnostic
-- La rachianesthésie empêche l’apparition du syndrome :: Elle le favorise plutôt : elle permet de dépister les signes neurologiques chez un patient éveillé
-> Les premiers symptômes peuvent être subjectifs et neurologiques. Le fait que le patient soit éveillé facilite leur identification ; la rachianesthésie ne prévient pas la résorption. Convulsions, détresse respiratoire et coma sont des signes de gravité plus tardifs. Les repères de 1 et 3 litres concernent le volume absorbé, pas le volume total irrigué.
-@ 49, 53–54
-
-QCM · TURP syndrome : traitement
-Un patient présente un TURP syndrome avec hyponatrémie aiguë et troubles neurologiques sévères pendant une RTUP. Quelles propositions sont exactes ?
-- La poursuite de la résection est prioritaire pour écourter la durée totale d’intervention :: Chaque minute supplémentaire aggrave la résorption
-+ L’arrêt de la résection permet d’interrompre la cause de la résorption :: C'est le premier geste : on arrête ce qui fait entrer l'eau
-+ Le schéma de correction initiale comporte 150 mL de NaCl à 3 % en 20 minutes, avec contrôle de la natrémie :: Correction initiale du sérum salé hypertonique dans les formes symptomatiques
-- L’objectif est de normaliser rapidement la natrémie :: Une correction trop rapide expose à la myélinolyse centropontine
-+ Une hausse initiale d’environ 5 mmol/L avec amélioration clinique est recherchée, en respectant une limite de 10 mmol/L sur les premières 24 heures :: Objectif de correction initiale, avec une limite stricte sur 24 heures
-> L’arrêt du geste est la première mesure enseignée. La prise en charge associe soutien des fonctions vitales et traitement des désordres. Pour les symptômes sévères, le support présente le bolus de 150 mL à 3 % en 20 min, répétable jusqu’à deux fois selon contrôle. L’objectif initial est limité et symptomatique ; il n’est pas de normaliser immédiatement le sodium.
-@ 55–56
+QCM · TURP syndrome : clinique et traitement
+Concernant la clinique et le traitement du TURP syndrome, quelles propositions sont exactes ?
++ Le premier signe est souvent un trouble visuel. :: D'où l'intérêt d'un patient éveillé.
++ Il peut associer HTA et bradycardie. :: Signes cardiovasculaires après les premiers signes neurologiques.
+- Une tachycardie est le signe le plus caractéristique. :: Le tableau associe plutôt HTA et bradycardie.
++ La première mesure est l'arrêt de la chirurgie. :: Puis traitement des défaillances.
++ L'hyponatrémie sévère se corrige par du NaCl 3 % en bolus. :: Sans dépasser +10 mmol/L sur les 24 premières heures.
+> Signes : bâillements, agitation, confusion, nausées, troubles visuels, puis HTA, bradycardie, troubles du rythme ; gravité : convulsions, coma, détresse respiratoire. Traitement : arrêt de la chirurgie, oxygène, hémodynamique, anticonvulsivants, NaCl 3 % si hyponatrémie symptomatique, furosémide si surcharge.
+@ p. 49, 53 à 56
 
 QCM · Prévention du TURP syndrome
-Quelles mesures participent à la prévention du TURP syndrome pendant une résection de prostate ?
-+ Retenir un adénome inférieur à 50–60 g et une durée de résection inférieure à 60 minutes dans la règle des « 3 × 60 » :: Poids de l'adénome et durée de résection, deux facteurs de résorption
-+ Placer la poche d’irrigation à moins de 60 cm au-dessus du lit prostatique dans cette règle :: Plus la poche est haute, plus la pression d'irrigation est élevée
-- Augmenter fortement la hauteur de la poche afin de diminuer la pression d’irrigation :: C'est l'inverse : la hauteur de la poche détermine la pression
-+ Utiliser le bipolaire avec sérum physiologique pour éviter les effets propres au glycocolle :: Le sérum physiologique supprime le risque d'hyponatrémie de dilution
-- Abandonner le bilan d’irrigation dès lors que le liquide utilisé est du sérum physiologique :: La surcharge volémique reste possible : le bilan d'irrigation garde son intérêt
-> Les « 3 × 60 » associent volume de l’adénome, durée et hauteur de poche. Une poche trop haute augmente la pression au lieu de la diminuer. Le bipolaire au sérum physiologique réduit le risque lié au glycocolle ; la surveillance entrées/sorties reste importante, car la résorption et la surcharge ne sont pas abolies.
-@ 57
+Quelles mesures préviennent le TURP syndrome ?
++ Une résection bipolaire au sérum physiologique. :: Elle supprime le glycocolle.
+- Une durée de résection supérieure à 2 heures pour limiter le saignement. :: La résection doit durer moins de 60 minutes (règle des 3 × 60).
+- Une poche d'irrigation placée le plus haut possible pour améliorer la vision. :: La poche doit rester à moins de 60 cm au-dessus de la loge prostatique : la pression augmente l'absorption.
+- Un bilan entrées-sorties n'est utile qu'en résection monopolaire. :: Il est utile dans tous les cas : la surcharge reste possible au sérum physiologique.
+- Un remplissage vasculaire généreux pendant la résection. :: Il aggrave la surcharge.
+> Règle des 3 × 60 : adénome < 60 g, résection < 60 min, poche < 60 cm au-dessus de la prostate. Pas d'hyperpression, résection bipolaire, ALR, bilan entrées-sorties.
+@ p. 57
 
-QCM · HoLEP
-Quelles propositions décrivent correctement une énucléation prostatique au laser holmium (HoLEP) ?
-+ L’adénome est séparé de sa capsule :: C'est le principe de l'énucléation : un plan de clivage anatomique
-+ Le tissu libéré est déplacé dans la vessie puis morcelé et aspiré :: Il est ensuite extrait par les voies naturelles
-- Le geste retire la prostate et sa capsule pour traiter un cancer :: C'est la prostatectomie radicale, pour cancer
-- Une incision abdominale est indispensable pour extraire un gros adénome par cette technique :: Le morcellement permet de tout extraire par l'urètre
-+ L’expérience de l’opérateur et la durée prévisible interviennent dans le choix entre AG et ALR :: Un geste long en lithotomie se tolère mal sous anesthésie locorégionale seule
-> L’analogie de l’orange oppose la pulpe retirée à la peau conservée. Le HoLEP sépare l’adénome avant sa morcellation dans la vessie ; la RTUP procède par résection de fragments.
-@ 58–59
+QCU · SpO2 et bleu de méthylène
+Pendant une prostatectomie, la SpO2 chute brutalement à 88 % après l'injection de bleu de méthylène, sans autre anomalie. Quelle est l'explication la plus probable ?
+- Une embolie gazeuse :: Elle s'accompagnerait d'une chute de l'EtCO2 et d'un retentissement hémodynamique.
++ Une fausse baisse de la SpO2 due au colorant :: Le bleu de méthylène absorbe la lumière de l'oxymètre.
+- Un bronchospasme :: Il s'accompagnerait d'une hausse des pressions d'insufflation.
+- Une intubation sélective :: Elle n'est pas liée à l'injection du colorant.
+- Une méthémoglobinémie grave d'origine anesthésique :: L'explication la plus simple est l'interférence du colorant avec la mesure.
+> Le bleu de méthylène, utilisé pour repérer les orifices urétéraux, fausse la SpO2 vers le bas sans véritable hypoxémie. Il faut le savoir pour ne pas traiter à tort.
+@ p. 62
 
-QCM · Prostatectomie ouverte
-Pendant une prostatectomie radicale par laparotomie, quelles propositions sont exactes ?
-+ Le saignement potentiel justifie de préparer les accès et les moyens transfusionnels adaptés :: Le plexus de Santorini peut saigner abondamment
-- La stabilité du premier temps opératoire permet de se passer du réchauffement :: La durée et l'exposition abdominale refroidissent le patient
-+ Le bleu de méthylène utilisé pour repérer les orifices urétéraux peut produire une SpO₂ faussement basse :: Le colorant absorbe dans la même longueur d'onde que l'hémoglobine
-- Une baisse de SpO₂ après colorant doit être automatiquement considérée comme une hypoxémie réelle :: C'est un artefact de mesure, transitoire, à ne pas confondre avec une désaturation
-+ L’hyperlordose éventuelle participe aux contraintes de l’installation :: Elle met le rachis et les vaisseaux en tension
-> Le support décrit un geste de 2 à 3 h avec AG, curarisation, deux VVP et accélérateur-réchauffeur selon la préparation. Le bleu de méthylène peut perturber la mesure de SpO₂ : la variation doit être reliée au contexte et à l’évaluation du patient, sans conclure automatiquement. L’hyperlordose impose les mêmes contrôles d’appuis et d’effets circulatoires que précédemment.
-@ 61–63
+QCM · Cystectomie
+Concernant la cystectomie, quelles propositions sont exactes ?
++ C'est une chirurgie longue, hémorragique et douloureuse, chez un patient souvent comorbide. :: Elle dure 4 heures ou plus.
++ L'antibioprophylaxie repose sur la céfoxitine. :: Un segment digestif est utilisé pour la reconstruction.
++ Le Bricker abouche les uretères à un segment d'intestin relié à la peau. :: Les urines sont recueillies dans une poche.
+- La vessie de Studer est une dérivation cutanée. :: C'est une vessie de substitution en iléon, raccordée à l'urètre.
+- Une seule voie veineuse périphérique suffit. :: 2 VVP, cathéter artériel et voie centrale sont recommandés.
+> Cystectomie : temps d'exérèse hémorragique, puis reconstruction (Bricker ou Studer). AG, 2 VVP, KTA, KTC, sonde gastrique, céfoxitine, analgésie multimodale (péridurale thoracique, PCA, morphine intrathécale), prévention thrombo-embolique et RAAC.
+@ p. 70 à 74
 
-QCM · Cœlioscopie pelvienne
-Pendant une chirurgie pelvienne sous cœlioscopie avec Trendelenburg prolongé, quels éléments nécessitent une vigilance anesthésique ?
-+ L’évolution de la capnie et l’adaptation de la ventilation :: Le CO₂ résorbé fait monter la capnie, qu'il faut compenser
-+ La position de la sonde d’intubation :: Le Trendelenburg prononcé fait remonter la carène
-+ La possibilité d’un emphysème sous-cutané lié au CO₂ :: Le CO₂ peut diffuser dans les tissus sous-cutanés
-+ L’augmentation de pression intraoculaire et l’œdème possible des voies aériennes :: Le Trendelenburg prolongé provoque un œdème facial et laryngé
-- Le maintien des réglages ventilatoires initiaux, indépendamment de l’EtCO₂ :: La ventilation doit être adaptée en continu à la capnie mesurée
-> Pneumopéritoine et position modifient la mécanique ventilatoire et la circulation. Le cours demande de surveiller la sonde d’intubation et d’adapter la ventilation à la capnie observée. Il souligne aussi les conséquences oculaires, le CO₂ sous-cutané et l’œdème des parties molles pouvant rendre l’extubation plus délicate après une position prolongée.
-@ 64–65
+QCM · Chirurgie des calculs
+Concernant la chirurgie des calculs urinaires, quelles propositions sont exactes ?
++ La lithotritie extracorporelle fragmente les calculs par des ondes de choc émises depuis l'extérieur. :: Les fragments s'éliminent ensuite par les voies urinaires.
++ Une obstruction des voies urinaires est une contre-indication à la lithotritie extracorporelle. :: Comme un anévrisme ou un trouble de la coagulation.
+- La néphrolithotomie percutanée se fait en décubitus dorsal sous anesthésie locale. :: Elle se fait habituellement en décubitus ventral avec billot, sous AG avec intubation.
+- La sonde JJ relie directement les cavités rénales à la peau. :: C'est la néphrostomie ; la sonde JJ draine le rein vers la vessie.
+- L'urétéroscopie supporte les mouvements du patient pendant le tir laser. :: L'immobilité du patient doit être absolue.
+> LEC : ondes de choc, contre-indiquée en cas d'obstruction, d'anévrisme ou de trouble de la coagulation. NLPC : décubitus ventral, AG, 2 VVP, risque hémorragique et infectieux. Sonde JJ : drainage interne, en urgence en cas de pyélonéphrite obstructive.
+@ p. 76, 79 à 85
 
-QCM · RTUV
-Pour une résection transurétrale de tumeur vésicale chez un patient âgé, quelles propositions sont exactes ?
-+ Le geste peut être réalisé sous AG ou ALR :: Geste court et bas situé : les deux techniques conviennent
-+ L’ECBU préopératoire est indiqué, mais l’antibioprophylaxie n’est pas systématique si les urines sont stériles :: Sans infection, l'effraction muqueuse seule ne justifie pas d'antibioprophylaxie
-- Une durée inférieure à une heure exclut tout risque thromboembolique lié au terrain :: Le risque dépend du terrain et du cancer, non de la seule durée
-+ La perforation vésicale et le saignement figurent parmi les complications possibles :: La paroi vésicale est fine : la perforation est le risque principal
-- La RTUV retire la vessie et nécessite une reconstruction digestive :: C'est la cystectomie ; la résection transurétrale ne retire que la tumeur
-> La RTUV résèque la tumeur par l’urètre et conserve la vessie, contrairement à la cystectomie. Le support indique AG ou ALR, ECBU et absence d’ABP si urines stériles. Les risques du geste et ceux du patient s’additionnent : brièveté, récidives ou répétitions de procédures ne font pas disparaître les comorbidités ou le risque thromboembolique individuel.
-@ 66–69
-
-QCM · Cystectomie : deux temps
-Quelles propositions sur l’organisation d’une cystectomie sont exactes ?
-+ Le temps d’exérèse peut être particulièrement hémorragique :: L'exérèse vésico-prostatique se fait dans un pelvis très vascularisé
-+ Un temps de reconstruction ou de dérivation urinaire suit l’exérèse :: Bricker ou néovessie : le geste ne s'arrête pas à l'exérèse
-+ La confection d’un Bricker ou d’une vessie de substitution peut utiliser un segment intestinal :: Un segment d'iléon est prélevé pour la dérivation
-- La technique robotique rend inutile la préparation d’une analgésie postopératoire :: La voie d'abord ne change ni la durée ni la douleur postopératoire
-+ L’intervention peut durer quatre heures ou davantage :: C'est l'une des interventions urologiques les plus longues
-> La cystectomie est décrite comme longue, hémorragique et douloureuse chez un patient souvent comorbide. Le temps de dérivation ou de reconstruction comprend une utilisation de l’intestin et une anastomose digestive. Le recours au robot ne supprime pas la préparation anesthésique, nutritionnelle ou antalgique.
-@ 70–71, 74
-
-QCM · LEC
-Concernant la lithotriptie extracorporelle des calculs urinaires, quelles propositions sont exactes ?
-+ Elle fragmente le calcul par des ondes de choc émises à l’extérieur du corps :: Les ondes traversent les tissus sans incision
-- Elle exige l’introduction d’un endoscope à travers le rein pour atteindre la lithiase :: C'est la néphrolithotomie percutanée, un geste invasif
-+ Les fragments créés peuvent provoquer des coliques néphrétiques lors de leur migration :: C'est la complication attendue, parfois plusieurs jours après
-+ Une obstruction des voies urinaires ou un trouble de la coagulation peut contre-indiquer la LEC :: L'obstruction empêche l'évacuation, et le trouble de l'hémostase expose à l'hématome rénal
-- La fragmentation permet l’évacuation immédiate de tous les fragments du calcul :: Les fragments s'éliminent progressivement, sur plusieurs semaines
-> La LEC délivre de l’énergie de l’extérieur, sans voie d’abord endoscopique jusqu’au calcul. Fragmenter et éliminer sont deux étapes distinctes. Le support cite aussi l’anévrysme comme contre-indication, ainsi qu’hématurie et bactériémie parmi les complications. La tolérance des impacts explique l’analgésie ou la sédation.
-@ 76–78
-
-QCM · Voie percutanée
-Quelles distinctions entre néphrostomie percutanée et néphrolithotomie percutanée sont exactes ?
-+ La néphrostomie assure un drainage externe des cavités rénales :: Elle dérive les urines en amont d'un obstacle
-+ La néphrolithotomie utilise un accès au rein pour fragmenter et extraire le calcul :: L'accès percutané permet de traiter des calculs volumineux
-+ La dilatation du trajet permet de passer l’instrument de travail lors de la néphrolithotomie :: Le trajet doit être dilaté jusqu'au calibre de l'endoscope
-- Une néphrostomie est définie par l’extraction complète du calcul à travers le drain :: La néphrostomie draine, elle n'extrait pas
-- La traversée du parenchyme rénal supprime le risque hémorragique :: Le rein est très vascularisé : la traversée du parenchyme saigne
-> La NPC draine ; la néphrolithotomie traite le calcul par un trajet percutané dilaté. Le support utilise NLTC ou NLPC pour cette dernière. Dans les deux situations, la ponction et la manipulation des cavités exposent à des complications hémorragiques et infectieuses ; la voie percutanée ne les évite pas.
-@ 81–84
-
-QCM · Urétéroscopie et laser
-Pendant une urétéroscopie pour lithiase, quelles propositions sont exactes ?
-+ Un urétéroscope rigide peut traiter un calcul dans l’uretère :: Il remonte l'uretère jusqu'au calcul
-+ Un urétéroscope souple permet d’atteindre les cavités rénales :: Il permet d'atteindre les calices, inaccessibles au rigide
-+ L’immobilité du patient pendant le tir laser limite le risque de lésion de la paroi :: Un mouvement pendant le tir peut perforer l'uretère
-- Une ALR suffit, quel que soit le niveau atteint par l’endoscope :: Un abord des cavités rénales demande une immobilité qu'une anesthésie locorégionale ne garantit pas
-- La fragmentation laser peut être réalisée sans tenir compte des mouvements du patient :: L'immobilité est précisément la condition de sécurité du tir
-> Le cours distingue rigide pour l’uretère et souple permettant d’aller dans le rein, avec une place croissante du souple. La localisation, la durée et les conditions du geste participent au choix anesthésique.
-@ 85–87
-
-QCM · Endourologie : infection
-Quelles mesures ou conditions sont liées au risque infectieux d’une urétéroscopie ou d’une néphrolithotomie percutanée ?
-+ L’hyperpression d’irrigation peut favoriser une fièvre ou un sepsis postopératoire :: La pression fait passer les germes dans la circulation : c'est le risque de choc septique
-+ Un ECBU préopératoire est indiqué pour ces gestes :: L'ouverture des voies urinaires impose de connaître l'état des urines
-+ La colonisation urinaire doit être traitée avant NLPC :: Le réservoir bactérien du calcul impose un traitement préalable
-+ Une culture d’urine pyélique ou du calcul peut être réalisée pour un geste complexe :: Les urines vésicales ne reflètent pas toujours celles du haut appareil
-- Une gaine aspirative permet de s’affranchir de la situation microbiologique des urines :: Elle limite la pression, sans rien changer à la charge bactérienne
-> Le support associe pression intrarénale et risque infectieux. Les gaines aspiratives contribuent à l’évacuation des fragments et à une baisse de pression, mais ne remplacent ni l’ECBU ni la prise en charge de la colonisation. Pour les gestes complexes, les prélèvements locaux complètent les informations microbiologiques.
-@ 11–12, 88
-
-QCM · Robot : yeux et extubation
-Après une chirurgie robotique longue en position déclive, quels éléments sont à prendre en compte avant l’extubation ?
-+ La possibilité d’un œdème laryngé ou d’une macroglossie :: Le Trendelenburg prolongé provoque un œdème des parties molles
-+ Une réintubation éventuellement plus difficile qu’au début de l’intervention :: Un larynx œdématié n'offre plus les mêmes conditions qu'à l'induction
-+ L’augmentation de pression intraoculaire et la nécessité d’une protection des yeux pendant le geste :: La position déclive prolongée élève la pression intraoculaire
-- Une intubation initialement facile annonce des conditions identiques en cas de réintubation :: Les conditions ont changé : c'est précisément le piège
-- La durée et le degré d’inclinaison n’influencent pas le risque d’œdème des parties molles :: Durée et inclinaison sont les deux déterminants de l'œdème
-> Le support décrit l’œdème des voies aériennes et l’augmentation du tour de cou après une position extrême prolongée. L’exposition laryngée peut être modifiée et la réintubation plus difficile. Les complications oculaires justifient aussi la protection avant le drapage. La durée et l’inclinaison rendent l’extubation particulièrement prudente.
-@ 94–96
-
-QCM · RAAC : préparation et peropératoire
-Dans un parcours de récupération améliorée après cystectomie, quelles mesures de préparation et de prise en charge peropératoire sont cohérentes ?
-+ Informer le patient et préparer son activité physique et sa nutrition :: La préhabilitation commence en consultation
-+ Limiter le jeûne et associer le patient à sa préparation :: Le jeûne prolongé n'apporte rien et déshydrate
-+ Rechercher une épargne morphinique et prévenir l’hypothermie :: Deux piliers de la récupération améliorée
-+ Ajuster les apports IV avec un monitorage hémodynamique :: Ni surcharge ni restriction : les apports suivent la réponse hémodynamique
-- Maintenir une sonde nasogastrique jusqu’à la sortie de l’hôpital :: Son maintien prolongé n'a aucune justification et retarde la reprise
-> Les diapositives complémentaires de RAAC associent préparation, immunonutrition, limitation du jeûne, analgésie multimodale, prévention de l’hypothermie et apports guidés. Le protocole présenté prévoit le retrait de la SNG en fin d’intervention.
-@ 101–103
-
-QCM · RAAC : récupération postopératoire
-Après cystectomie, quelles mesures participent à un parcours de récupération améliorée ?
-+ Une analgésie multimodale visant l’épargne morphinique :: Les morphiniques retardent la reprise du transit et la mobilisation
-+ Une réalimentation dès J0 lorsque la prise en charge permet sa mise en œuvre :: La reprise alimentaire précoce accélère la récupération
-+ Un lever et une mobilisation précoces dès J0 :: Le lever précoce prévient les complications thromboemboliques et respiratoires
-+ Une recherche de globe au Bladder scan dans la surveillance du retrait de sonde vésicale :: Après ablation de sonde, la rétention est fréquente et doit être dépistée
-- Une analgésie reposant sur les morphiniques pour permettre la mobilisation :: C'est l'inverse : les morphiniques sédatent et gênent la mobilisation
-> Le complément RAAC présente plusieurs composantes antalgiques, notamment anesthésiques locaux et traitements systémiques : l’objectif est l’épargne morphinique. J0 signifie le jour de l’intervention. Le support associe alimentation et mobilisation précoces, limitation des dispositifs et surveillance du retrait de sonde. Ces diapositives n’ont pas été.
-@ 104–105
-
-QCU · Corrélation · lithotomie
-Affirmation 1 : Après une intervention en lithotomie, l’abaissement brutal des jambes peut provoquer une hypotension.
-Affirmation 2 : La remise à plat peut retirer l’effet de mobilisation sanguine vers le thorax et révéler une hypovolémie relative.
-Quel lien unit ces deux affirmations ?
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies et le lien est explicatif. Les jambes surélevées peuvent mobiliser 500 mL à 1 L vers le thorax. Leur abaissement retire cet effet sur le retour veineux. La remise à plat est donc progressive avec surveillance de la pression artérielle.
-@ 21–22
-
-QCU · Corrélation · néphrectomie
-Affirmation 1 : Une néphrectomie partielle est nécessairement moins complexe et moins à risque qu’une néphrectomie totale.
-Affirmation 2 : La néphrectomie partielle conserve une partie du parenchyme rénal.
-Quel lien unit ces deux affirmations ?
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-+ La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est fausse et la seconde vraie. Conserver du parenchyme ne garantit pas un geste plus simple. La néphrectomie partielle peut être plus délicate et expose notamment au saignement et à la fistule urinaire. L’expérience de l’opérateur, la lésion et le terrain participent au choix.
-@ 33–34
-
-QCU · Corrélation · irrigation
-Affirmation 1 : Une absorption importante du liquide d’irrigation peut provoquer une surcharge lors d’une RTUP bipolaire au sérum physiologique.
-Affirmation 2 : L’emploi du sérum physiologique évite les effets toxiques propres au glycocolle.
-Quel lien unit ces deux affirmations ?
-- Les deux affirmations sont vraies et la seconde explique la première.
-+ Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies, mais la seconde n’explique pas la première. La surcharge résulte du volume absorbé ; l’absence de glycocolle évite sa toxicité propre. Nature du liquide et quantité absorbée sont deux dimensions différentes. Le bilan d’irrigation reste nécessaire avec le sérum physiologique.
-@ 46, 50–52, 57
-
-QCU · Corrélation · robot
-Affirmation 1 : Une chirurgie robotique avec instruments en place nécessite une immobilité rigoureuse du patient.
-Affirmation 2 : Les bras robotisés se retirent spontanément si le patient bouge.
-Quel lien unit ces deux affirmations ?
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-+ La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est vraie et la seconde fausse. Les bras sont fixes et ne se retirent pas automatiquement lors d’un mouvement. C’est précisément cette contrainte qui expose à une lésion et explique l’immobilité, la curarisation profonde surveillée et la coordination des mouvements de table.
-@ 90, 93, 95–96
-
-QCU · Corrélation · Bricker
-Affirmation 1 : Après un Bricker, les urines s’évacuent par l’urètre natif.
-Affirmation 2 : Le segment intestinal du Bricker est raccordé à l’urètre pour remplacer la vessie.
-Quel lien unit ces deux affirmations ?
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-+ Les deux affirmations sont fausses.
-> Les deux affirmations sont fausses. Le Bricker reçoit les uretères dans un segment intestinal abouché à la peau, avec poche externe. Le montage relié à l’urètre correspond à une vessie de substitution de type Studer dans le cours.
-@ 72–73
+QCM · Chirurgie robotique et cœlioscopie
+Concernant la prostatectomie robot-assistée en Trendelenburg avec pneumopéritoine, quelles propositions sont exactes ?
++ Elle augmente la pression intraoculaire, ce qui la contre-indique en cas de glaucome. :: Le Trendelenburg et l'insufflation augmentent la PIO.
+- La position n'a pas d'effet sur les voies aériennes : l'extubation se fait sans précaution particulière. :: Le Trendelenburg prolongé expose à un œdème des VAS : l'extubation est prudente.
++ Une curarisation profonde est maintenue jusqu'à la fin de la chirurgie. :: Les bras du robot sont fixes : un mouvement du patient est dangereux.
+- Les bras du patient restent accessibles pendant toute l'intervention. :: Ils ne sont plus accessibles : 2 VVP avec prolongateurs avant l'installation.
+- Le pneumopéritoine augmente la capacité résiduelle fonctionnelle. :: Il diminue la CRF et la compliance.
+> Robot : complications hémodynamiques et respiratoires majorées par les positions extrêmes, hypercapnie, emphysème, complications oculaires, œdème des VAS. Spécificités : préoxygénation en proclive, 2 VVP avec prolongateurs, curarisation profonde monitorée, TOF ≥ 0,9 avant extubation, BIS, température, protection des yeux.
+@ p. 65 et 93 à 96

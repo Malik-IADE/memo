@@ -1,348 +1,205 @@
-// Quiz 17 – Estomac plein (UE 3.3), d'après « QUIZZ 17 Estomac plein.html »
+// Quiz – Estomac plein (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Estomac plein avec notes ».
+// Questions type examen sur les notions générales : physiologie gastrique, physiopathologie de l'inhalation, pharmacologie, séquence rapide. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Estomac plein
 
-QCM · Objectifs de l’ISR
-Dans quelles situations une induction en séquence rapide peut-elle être envisagée ? Identifier les propositions exactes.
-+ Patient à risque élevé d’inhalation de contenu gastrique. :: Réduire le délai sans protection des voies aériennes est un objectif central.
-+ Détresse respiratoire nécessitant un contrôle rapide de la ventilation, même chez un patient à jeun.
-- Tout patient à jeun, indépendamment de son état et des voies aériennes.
-+ Certaines difficultés anticipées des voies aériennes, après évaluation d’une stratégie adaptée. :: Un curare rapide peut faciliter rapidement l’intubation. Une difficulté majeure prévue peut orienter vers une intubation vigile.
-- Toute chirurgie programmée après une prise alimentaire récente, sans envisager de report.
-> L'induction en séquence rapide s'adresse à tout patient dont l'estomac n'est pas vide ou dont la vidange est ralentie : urgence, traumatisme, occlusion, grossesse à partir du deuxième trimestre, reflux important, diabète avec gastroparésie. Son objectif est de raccourcir au maximum l'intervalle entre la perte de conscience et la protection de la trachée.
-@ Diapos 2, 36, 91, 103
+QCM · Inhalation
+Concernant l'inhalation du contenu gastrique, quelles propositions sont exactes ?
+- Le syndrome de Mendelson est une pneumopathie bactérienne due à l'inhalation de sécrétions oropharyngées. :: C'est une pneumopathie chimique due au liquide gastrique acide ; une surinfection est possible ensuite.
++ C'est la principale cause respiratoire de décès en anesthésie. :: L'événement est rare mais grave.
+- Elle survient surtout à l'extubation. :: Plus de la moitié des cas surviennent à l'induction ; l'extubation et la SSPI sont aussi à risque.
++ Le risque est plus élevé en urgence qu'en chirurgie programmée. :: L'urgence multiplie le risque.
+- Elle se manifeste en général par une toux immédiate. :: Elle va de la forme asymptomatique au SDRA et au décès.
+> L'inhalation peut être chimique (liquide gastrique acide), bactérienne (sécrétions oropharyngées) ou liée à des micro-inhalations autour du ballonnet. Elle survient surtout à l'induction, puis à l'extubation et en SSPI. Le risque augmente avec l'urgence et le score ASA.
+@ p. 4 à 12
 
-QCM · Tableaux d’inhalation
-Concernant les différentes formes d’inhalation bronchique, quelles propositions sont exactes ?
-+ Le syndrome de Mendelson est une pneumopathie chimique liée à du contenu gastrique acide. :: Le contenu acide provoque une agression chimique et inflammatoire.
-- Une inhalation chimique est d’emblée une infection bactérienne. :: La diapositive distingue agression chimique initiale et possible surinfection ultérieure.
-+ Des sécrétions oropharyngées colonisées peuvent provoquer une pneumopathie bactérienne. :: Le mécanisme et la nature du contenu inhalé diffèrent du syndrome chimique.
-- Les micro-inhalations autour du ballonnet sont sans rapport avec les pneumopathies sous ventilation mécanique. :: Elles font partie des mécanismes de PAVM décrits.
-- Une inhalation s’accompagne de manifestations respiratoires bruyantes. :: Des formes asymptomatiques ou discrètes sont décrites.
-> L'inhalation prend plusieurs formes selon ce qui est inhalé : un liquide acide provoque un syndrome de Mendelson, pneumopathie chimique d'installation rapide ; des particules alimentaires peuvent obstruer les bronches ; un contenu septique, notamment en occlusion, donne une pneumopathie infectieuse. Le pronostic diffère pour chacune.
-@ Diapos 4-6, 12
+QCM · Physiologie de la vidange gastrique
+Concernant la vidange gastrique, quelles propositions sont exactes ?
++ La vidange des liquides commence en quelques minutes. :: Elle est exponentielle.
++ La vidange des solides commence après une période de latence. :: Elle est ensuite linéaire.
+- Les liquides non clairs se vidangent comme les liquides clairs. :: Ils se comportent comme des solides.
++ La vitesse de vidange des solides dépend de la densité calorique du repas. :: Plus le repas est riche, plus la vidange est lente.
+- Allonger la durée du jeûne garantit la vacuité gastrique. :: Même après un jeûne prolongé, l'estomac n'est presque jamais vide : il y a toujours une sécrétion acide.
+> L'estomac a deux fonctions : réservoir et évacuation. Les liquides clairs se vidangent vite (exponentielle), les solides après une latence (linéaire). Boire des liquides clairs jusqu'à 2 heures avant ne laisse pas plus de résidu qu'un jeûne classique.
+@ p. 14 à 18
 
-QCM · Reconnaissance
-Quels éléments permettent de reconnaître ou de suspecter une inhalation périopératoire ?
-+ Du contenu gastrique visualisé et aspiré dans l’arbre trachéo-bronchique. :: C’est le critère d’inhalation certaine du support.
-+ Une hypoxie périopératoire associée à du contenu gastrique visible dans les voies aériennes supérieures. :: Ces éléments participent au faisceau de signes d’inhalation probable.
-- L’absence de sibilants exclut une inhalation. :: La suspicion est décrite avec ou sans sibilants.
-+ Une radiographie thoracique évocatrice peut participer au diagnostic. :: Elle peut montrer des lésions, mais n’est pas positive dans toutes les situations.
-- Un jeûne prolongé prouve qu’une hypoxie ne peut pas être liée à une inhalation. :: Le jeûne ne garantit ni vacuité ni absence de micro-inhalation.
-> L'inhalation se reconnaît sur un faisceau d'arguments : liquide gastrique visible dans l'oropharynx ou dans la sonde, toux et désaturation, bronchospasme, élévation des pressions d'insufflation, râles à l'auscultation. Elle peut aussi passer inaperçue et ne se révéler que par une hypoxémie secondaire.
-@ Diapos 6, 18
+QCU · Liquides clairs
+Parmi ces boissons, laquelle est un liquide clair, autorisé jusqu'à 2 heures avant l'intervention ?
+- Un café au lait :: Le lait en fait un liquide non clair.
+- Un jus d'orange avec pulpe :: La pulpe en fait un liquide non clair.
++ Un thé sucré sans lait :: Eau, thé ou café sans lait et jus sans pulpe sont des liquides clairs, même sucrés.
+- Un soda gazeux :: Les boissons gazeuses sont des liquides non clairs dans le cours.
+- Un bouillon de légumes :: Ce n'est pas un liquide clair au sens du cours.
+> Jeûne : 6 heures pour un repas léger et pour les liquides non clairs (lait, pulpe, boissons gazeuses) ; liquides clairs sucrés jusqu'à 2 heures avant, jusqu'à 400 mL ; ni alcool ni tabac.
+@ p. 19 et 21
 
-QCM · Moments à risque
-À quels moments et dans quelles circonstances faut-il rester vigilant vis-à-vis de l’inhalation ?
-- Seulement pendant la laryngoscopie. :: Des événements surviennent avant la laryngoscopie, à l’extubation et en SSPI.
-+ Pendant l’induction avant que la trachée soit sécurisée. :: C’est une période de perte des réflexes protecteurs.
-+ À l’extubation si le réveil ou la décurarisation sont incomplets. :: La protection des voies aériennes peut encore être insuffisante.
-+ En SSPI après la fin de l’intervention. :: Le support décrit aussi des inhalations en SSPI.
-- La fin de journée et une présence réduite de l’équipe rendent les critères d’extubation moins nécessaires.
-> Trois moments exposent particulièrement : l'induction, avant que la trachée ne soit protégée, l'extubation, quand les réflexes ne sont pas revenus, et toute manipulation des voies aériennes sous anesthésie légère. S'y ajoutent les situations où la ventilation au masque insuffle de l'air dans l'estomac.
-@ Diapos 9, 92-98
+QCM · Trois conditions de l'inhalation
+Quelles conditions doivent être réunies pour qu'une inhalation survienne ?
++ Un estomac plein :: Un contenu gastrique suffisant.
+- Une hypertonie du sphincter inférieur de l'œsophage :: C'est l'inverse : il faut une incontinence gastro-œsophagienne.
+- Une toux efficace :: C'est l'inverse : la perte des réflexes pharyngo-laryngés permet l'inhalation.
+- Une hypersécrétion salivaire :: Ce n'est pas l'une des trois conditions.
+- Une hyperventilation :: Ce n'est pas l'une des trois conditions.
+> Estomac plein + incontinence gastro-œsophagienne + incompétence pharyngo-laryngée. L'anesthésie générale peut réunir ces trois conditions : elle relâche le sphincter inférieur de l'œsophage et supprime les réflexes de protection.
+@ p. 24 et 33
 
-QCM · Physiologie gastrique
-Concernant les fonctions gastriques et le contenu de l’estomac, quelles propositions sont exactes ?
-+ L’estomac exerce une fonction de réservoir. :: Il peut stocker les apports alimentaires et liquides.
-+ Le brassage et la trituration participent à sa fonction d’évacuation. :: Ces étapes préparent la vidange du contenu.
-- Le volume gastrique ne dépend que du dernier repas. :: Sécrétions et vidange interviennent également.
-- Un estomac à jeun ne contient pas de liquide. :: Des sécrétions et un résidu peuvent persister.
-+ La vidange gastrique contribue à déterminer le volume restant dans l’estomac. :: Le volume dépend de l’équilibre entre apports, sécrétions et évacuation.
-> L'estomac sécrète en permanence, même à jeun : un patient qui n'a rien avalé depuis douze heures n'a pas un estomac vide. C'est le volume et l'acidité du contenu qui déterminent le risque, et la vidange dépend de la nature de ce qui a été ingéré autant que du temps écoulé.
-@ Diapos 14-18, 25
+QCM · Reflux
+Concernant le reflux gastro-œsophagien en anesthésie, quelles propositions sont exactes ?
++ Il survient quand la pression intragastrique dépasse la pression du sphincter inférieur de l'œsophage. :: PIG > PSIO.
++ La régurgitation passive est le mécanisme le plus fréquent. :: Environ 80 % des cas.
+- La ventilation au masque avec de fortes pressions diminue la pression intragastrique. :: L'insufflation de gaz dans l'estomac l'augmente.
++ Une hernie hiatale diminue la pression du sphincter inférieur de l'œsophage. :: Comme une sonde gastrique, la grossesse ou certains médicaments.
+- Les vomissements actifs surviennent surtout sous anesthésie profonde. :: Ils surviennent lors d'une anesthésie trop légère pendant un geste stimulant, ou au réveil.
+> Le reflux dépend de l'équilibre entre pression intragastrique (augmentée par repas, toux, occlusion, insufflation, grossesse) et tonus du sphincter (diminué par sonde gastrique, hernie hiatale, grossesse, médicaments). Régurgitation passive 80 %, vomissements actifs 20 %.
+@ p. 28 à 30
 
-QCM · Nature des apports
-Chez un adulte sans facteur de ralentissement de la vidange, quels apports sont classés comme liquides clairs pour le jeûne préopératoire ?
-+ Eau non gazeuse. :: Elle fait partie des exemples de liquides clairs.
-+ Café sans lait, avec ou sans sucre. :: L’absence de lait est.
-- Jus de fruits avec pulpe. :: La pulpe fait classer cet apport parmi les liquides non clairs.
-- Lait. :: Le lait est classé comme liquide non clair.
-+ Jus de pomme sans pulpe. :: Il est cité comme exemple de liquide clair sucré.
-> Les liquides clairs sont ceux que l'on voit au travers et qui ne contiennent ni particule ni graisse : eau, thé ou café sans lait, jus de fruit sans pulpe, boissons glucidiques. Le lait et les boissons lactées se comportent comme des solides, car ils coagulent dans l'estomac.
-@ Diapos 19, 21-22
+QCM · Médicaments et sphincter inférieur de l'œsophage
+Quels médicaments diminuent le tonus du sphincter inférieur de l'œsophage ?
++ Atropine :: Elle diminue le tonus.
++ Morphiniques :: Ils diminuent le tonus.
+- Néostigmine :: Elle augmente le tonus.
+- Érythromycine :: Elle augmente le tonus.
+- Dompéridone :: Elle augmente le tonus.
+> Augmentent le tonus : dompéridone, érythromycine, néostigmine, suxaméthonium, anti-H2. Diminuent le tonus : atropine, morphiniques, benzodiazépines, hypnotiques.
+@ p. 31
 
-QCM · Profils de vidange
-Quelles différences entre vidange des solides et des liquides sont exactes ?
-+ L’évacuation des liquides peut débuter en quelques minutes. :: Le profil des liquides débute rapidement.
-+ Les solides ont une phase initiale de latence. :: Une latence médiane de 40 minutes figure dans le support.
-- La densité calorique du repas est sans influence sur la vidange des solides. :: Le support relie la vitesse à la densité calorique.
-+ Les liquides non clairs sont assimilés aux solides. :: Ils relèvent du même délai de 6 heures dans le support.
-- Le temps observé sur une courbe physiologique remplace directement la règle de jeûne préopératoire. :: Les observations physiologiques expliquent les règles sans s’y substituer.
-> Les liquides et les solides ne se vident pas de la même façon : les liquides clairs suivent une décroissance exponentielle rapide, avec une demi-vie de l'ordre de vingt minutes, alors que les solides exigent un broyage préalable et une vidange linéaire bien plus lente. C'est ce qui justifie deux délais de jeûne distincts.
-@ Diapos 16-17, 21
+QCM · Facteurs ralentissant la vidange
+Quels facteurs ralentissent la vidange gastrique ?
++ La douleur aiguë :: Le stress douloureux ralentit la vidange.
++ Les opiacés :: Effet dose-dépendant.
++ Le diabète avec gastroparésie :: Pathologie endocrinienne.
+- L'obésité isolée :: L'obésité n'est pas un facteur de risque indépendant d'estomac plein, mais d'autres facteurs sont souvent associés.
+- Des liquides clairs pris 3 heures avant :: Ils sont vidangés rapidement.
+> Ralentissent la vidange : repas riche, émotion, douleur aiguë, opiacés, pathologies digestives (obstacle), neurologiques et endocriniennes (diabète, hypothyroïdie). Situations à risque : urgence, grossesse à partir de 15 SA et jusqu'au 8e jour après l'accouchement, traumatisme, alcool, anneau gastrique.
+@ p. 26, 27, 36 et 39
 
-QCM · Jeûne
-Chez un adulte sans ralentissement identifié de la vidange gastrique, quelles propositions concernant le jeûne sont exactes ?
-+ Le repère pour un repas léger est 6 heures. :: C’est le délai indiqué pour les solides d’un repas léger.
-+ Les liquides clairs peuvent être pris jusqu’à 2 heures avant l’intervention. :: Le support distingue leur délai de celui des solides.
-- Le délai des liquides clairs s’applique également au lait. :: Le lait est un liquide non clair, associé ici au délai de 6 heures.
-- Une longue durée de jeûne assure un estomac vide. :: La vacuité n’est pas garantie par l’allongement du jeûne.
-+ En présence d’une gastroparésie, l’évaluation doit tenir compte d’un ralentissement de la vidange. :: Le terrain peut conduire à des règles plus strictes et à une autre stratégie d’induction.
-> Les délais tiennent en trois chiffres : deux heures pour les liquides clairs, six heures pour un repas léger, huit heures pour un repas riche en graisses ou en protéines. Raccourcir le jeûne des liquides clairs améliore le confort sans augmenter le risque : le jeûne prolongé n'est ni utile ni souhaitable.
-@ Diapos 18-21, 26
-
-QCM · Vidange ralentie
-Quels éléments peuvent contribuer à ralentir la vidange gastrique ?
-+ Stress douloureux aigu. :: Il figure dans le tableau et dans l’exemple du patient traumatisé.
-+ Opiacés, avec un effet dépendant de la dose. :: Le support cite cet effet sur le transit.
-+ Diabète avec gastroparésie. :: C’est un exemple important.
-+ Obstacle digestif mécanique. :: La pathologie digestive peut empêcher une évacuation normale.
-- Le jeûne accélère les vidanges gastriques ralenties. :: Le jeûne ne corrige pas automatiquement les facteurs de ralentissement.
-> Beaucoup de situations ralentissent la vidange : douleur, stress, traumatisme, morphiniques, diabète avec neuropathie, grossesse, occlusion, et désormais les agonistes du GLP-1. Sur ces terrains, le délai théorique de jeûne ne garantit plus la vacuité : l'échographie gastrique peut trancher.
-@ Diapo 26
-
-QCM · Mécanisme d’inhalation
-Quelles associations participent au mécanisme d’inhalation lors d’une anesthésie ?
-+ Contenu gastrique présent. :: Il constitue la source potentielle du contenu inhalé.
-+ Barrière gastro-œsophagienne incontinente. :: Elle permet la remontée du contenu.
-+ Protection pharyngo-laryngée insuffisante. :: Le contenu remonté peut alors passer vers la trachée.
-- Un estomac plein signifie qu’une inhalation a déjà eu lieu. :: Il s’agit d’un facteur de risque et non de la preuve d’un passage trachéal.
-+ Une sédation peut diminuer la capacité à protéger les voies aériennes.
-> L'inhalation suppose la réunion de trois conditions : un contenu gastrique, un passage de ce contenu vers le pharynx par régurgitation ou vomissement, et une perte des réflexes de protection des voies aériennes. L'anesthésie fournit la troisième ; la séquence rapide agit sur la durée pendant laquelle elle est réunie.
-@ Diapos 24-25, 32-33
-
-QCM · Pressions et reflux
-La PIG est la pression intragastrique et la PSIO celle du sphincter inférieur de l’œsophage. Quelles propositions sont exactes ?
-+ Une PIG supérieure à la PSIO favorise un reflux. :: C’est la relation mécanique présentée dans le support.
-- Une diminution de la PSIO renforce la barrière anti-reflux. :: Une barrière moins tonique peut être franchie plus facilement.
-+ L’insufflation de gaz peut augmenter la PIG. :: Elle figure parmi les facteurs augmentant la pression gastrique.
-+ Une pression élevée au masque peut favoriser une insufflation gastrique. :: C’est le mécanisme pour limiter les pressions.
-- Une valeur de pression en mmHg peut être reprise en cmH2O sans vérifier l’unité.
-> Le reflux survient quand la pression intragastrique dépasse celle du sphincter inférieur de l'œsophage. Tout ce qui élève la première, distension gastrique, insufflation au masque, toux, pneumopéritoine, position, et tout ce qui abaisse la seconde, agents anesthésiques, morphiniques, grossesse, hernie hiatale, augmente le risque.
-@ Diapos 28-29
-
-QCM · Régurgitation et vomissement
-Quelles propositions distinguent correctement régurgitation passive et vomissements actifs ?
-+ La régurgitation passive peut remonter vers le pharynx sans effort actif de vomissement. :: Le mécanisme passif est un reflux à travers le cardia.
-- Les vomissements actifs ne surviennent pas au réveil. :: La période de réveil est citée dans le support.
-+ Une laryngoscopie sur anesthésie insuffisante peut favoriser des vomissements. :: La stimulation sur anesthésie trop légère laisse persister des réflexes importants.
-- Une induction superficielle est préférable chez le patient fragile.
-+ Un petit événement de régurgitation peut être moins évident qu’un vomissement massif.
-> Deux mécanismes distincts : la régurgitation est passive et silencieuse, elle survient chez un patient inconscient et se découvre souvent trop tard ; le vomissement est actif, précédé de nausées, et survient plutôt lors d'une anesthésie légère. Le premier est le plus insidieux, et le plus redouté à l'induction.
-@ Diapos 29-30
-
-QCM · Protection des voies aériennes
-Quels facteurs peuvent diminuer la protection des voies aériennes ou le tonus du sphincter inférieur de l’œsophage ?
-+ Trouble de conscience. :: Il altère la protection pharyngo-laryngée.
-+ Curarisation résiduelle au réveil. :: Elle peut altérer déglutition et protection des voies aériennes.
-+ Morphinique administré avant la sécurisation trachéale.
-- Récupération neuromusculaire complète. :: C’est au contraire une condition recherchée avant l’extubation.
-+ Hypnotiques et benzodiazépines pour le tonus du SIO. :: Le support les classe parmi les médicaments diminuant le tonus.
-> Les agents anesthésiques, les morphiniques et les curares abolissent les réflexes pharyngolaryngés, et la plupart abaissent le tonus du sphincter inférieur de l'œsophage. S'y ajoutent les facteurs propres au patient : grossesse, hernie hiatale, reflux, obésité, sonde gastrique en place qui rend le sphincter incompétent.
-@ Diapos 31-32, 95-96
-
-QCM · Risque clinique
-Quelles situations font partie des facteurs de risque d’inhalation ?
-+ Pathologie abdominale aiguë. :: Elle peut s’accompagner d’un contenu persistant et d’une vidange ralentie.
-+ Jeûne non respecté. :: Il laisse possible un contenu alimentaire récent.
-+ Hernie hiatale ou reflux gastro-œsophagien. :: Ces conditions concernent la barrière gastro-œsophagienne.
-+ Intubation difficile avec ventilation au masque prolongée. :: Le délai sans protection et l’insufflation peuvent augmenter le risque.
-- Le caractère programmé d’une intervention efface les facteurs digestifs du patient. :: La programmation ne dispense pas de l’évaluation des facteurs de risque.
-> Les facteurs de risque se répartissent en trois groupes : ceux qui augmentent le contenu gastrique, urgence, occlusion, gastroparésie ; ceux qui favorisent le reflux, grossesse, obésité, hernie hiatale ; et ceux qui abolissent la protection, anesthésie, troubles de conscience, atteinte neurologique de la déglutition.
-@ Diapos 35-36, 41
-
-QCM · Gravité
-Quels paramètres contribuent à la gravité d’une inhalation de contenu gastrique ?
-+ Acidité du contenu inhalé. :: Le pH influence l’agression chimique.
-+ Volume inhalé. :: La quantité participe à la gravité.
-+ Présence de débris alimentaires solides. :: Les particules sont particulièrement mises en avant dans l’exemple oral.
-- L’absence d’antécédent annonce une évolution bénigne. :: Le cas oral d’une femme jeune sans antécédent illustre le contraire.
-- Toutes les inhalations ont une gravité identique dès lors qu’elles surviennent à l’induction. :: La gravité dépend du contenu et du retentissement, pas seulement du moment.
-> La gravité d'une inhalation dépend du volume inhalé, de son acidité, de la présence de particules et de son caractère septique. Un pH bas et un volume important aggravent la lésion alvéolaire, les particules obstruent, et un liquide d'occlusion ajoute l'infection. Le terrain respiratoire du patient fait le reste.
-@ Diapos 12, 37
-
-QCM · Obésité
-Chez un patient obèse, quelles propositions permettent un raisonnement adapté au risque d’inhalation ?
-- Une obésité isolée prouve que l’estomac est plein. :: Le support ne la retient pas comme facteur indépendant d’estomac plein.
-+ Rechercher un diabète associé avec gastroparésie. :: L’association est particulièrement.
-+ Rechercher reflux et hernie hiatale. :: Ces facteurs associés peuvent modifier la stratégie.
-+ Distinguer le risque digestif du besoin d’intuber avant une désaturation. :: Le cours distinguent ces deux raisons de contrôler rapidement les voies aériennes.
-- Ignorer l’importance de la morphologie et des difficultés des voies aériennes si le jeûne est respecté. :: Un patient à jeun peut rester difficile à ventiler ou à intuber.
-> Chez l'obèse, deux éléments s'opposent : le risque de reflux est augmenté par la pression abdominale et la fréquence de la hernie hiatale, mais la vidange gastrique n'est pas constamment ralentie en l'absence d'autre facteur. Ce qui est constant, en revanche, c'est la faible réserve d'oxygène, qui réduit le délai disponible.
-@ Diapos 27, 39, 46
-
-QCM · Consultation
-Que faut-il rechercher lors de l’évaluation avant anesthésie d’un patient potentiellement à estomac plein ?
-+ Horaire et nature du dernier apport alimentaire. :: La notion de jeûne doit être précise.
-+ Signes prédictifs de ventilation difficile. :: Il faut prévoir la possibilité d’oxygéner au masque.
-+ Signes prédictifs d’intubation difficile. :: Ils influencent le choix de la stratégie avant la perte de conscience.
-+ Caractère urgent ou programmé de l’intervention. :: Il détermine la marge pour différer et la balance bénéfice-risque.
-- Le patient affirme être à jeun : l’évaluation s’arrête là. :: La durée du jeûne ne résume ni le risque digestif ni les voies aériennes.
-> L'évaluation recherche le délai depuis le dernier repas et sa nature, les facteurs de ralentissement de la vidange, les antécédents de reflux ou de hernie hiatale, les traitements en cause, et les critères prédictifs de ventilation et d'intubation difficiles. C'est elle qui décide de la stratégie d'induction.
-@ Diapo 41
-
-QCM · Ventilation au masque
-Quels éléments sont des critères de ventilation au masque difficile ?
-+ Barbe. :: Elle peut compromettre l’étanchéité du masque et figure dans la correction.
-+ Ronflement ou syndrome d’apnées du sommeil. :: Ces éléments sont mis en évidence dans la correction et.
-- Âge inférieur à 40 ans comme seuil de risque retenu. :: La correction retient l’âge supérieur à 55 ans.
-+ Édentation. :: Elle est mise en évidence sur la correction.
-- Absence de barbe suffisante pour exclure toute difficulté de ventilation. :: Plusieurs facteurs existent ; l’absence de l’un ne supprime pas tous les autres.
-> Les critères de ventilation difficile sont retenus par leur association : âge supérieur à 55 ans, indice de masse corporelle élevé, barbe, édentation, ronflement ou apnées du sommeil, et limitation de la protrusion mandibulaire. La présence de plusieurs d'entre eux doit faire anticiper une stratégie alternative.
-@ Diapos 42-43
-
-QCM · Intubation difficile
-Quels éléments sont retenus parmi les critères d’intubation difficile ?
-+ Mallampati ≥ 3. :: Ce seuil est mis en évidence dans la correction.
-+ Ouverture de bouche ≤ 35 mm. :: Une ouverture limitée gêne l’exposition.
-- Distance thyro-mentonnière ≥ 65 mm comme critère seuil retenu. :: La correction met en évidence une distance ≤ 65 mm.
-+ Raideur du rachis cervical. :: Elle limite les possibilités d’exposition.
-+ Macroglossie. :: Elle figure parmi les éléments morphologiques de la correction.
-> Les critères d'intubation difficile combinent l'ouverture de bouche, la distance thyromentonnière, la classe de Mallampati, la mobilité cervicale et un antécédent d'intubation difficile. Aucun pris isolément n'est suffisamment prédictif : c'est leur association qui construit l'anticipation.
-@ Diapos 44-45
+QCU · Gravité de l'inhalation
+Lequel de ces éléments n'est pas un facteur de gravité d'une inhalation ?
+- Un pH très acide du liquide inhalé :: Plus le pH est bas, plus les lésions sont graves.
+- Un volume inhalé important :: La gravité est proportionnelle au volume.
+- La présence de particules alimentaires :: Les débris solides aggravent les lésions.
++ Une température élevée du liquide inhalé :: Ce n'est pas un facteur de gravité retenu.
+- Aucun, tous sont des facteurs de gravité :: La température n'en fait pas partie.
+> Trois facteurs de gravité : le pH (lésions graves si pH < 2,5), le volume inhalé et la présence de particules solides.
+@ p. 37
 
 QCM · Prévention médicamenteuse
-Quelles associations entre médicaments et effets sont exactes ?
-+ Citrate de sodium : tamponner l’acidité du contenu gastrique. :: Il agit sur le contenu acide déjà présent.
-+ Anti-H2 : diminuer la sécrétion acide gastrique. :: Le support distingue cet effet du simple tampon.
-- IPP : solution à effet immédiat pour une induction urgente dans les minutes qui suivent. :: Le support mentionne une efficacité en 4 heures, jugée inadaptée à l’urgence immédiate.
-+ Prokinétique : accélérer la vidange gastrique. :: Le mécanisme concerne la motricité digestive.
-- Tamponner l’acidité prouve que l’estomac est vide. :: Le pH et le volume gastrique sont deux cibles différentes.
-> Trois classes aux effets distincts : les antiacides d'action immédiate, comme le citrate de sodium, neutralisent l'acidité déjà présente ; les antisécrétoires, inhibiteurs de la pompe à protons ou anti-H2, réduisent la sécrétion mais demandent du temps ; les prokinétiques accélèrent la vidange. Aucun ne vide l'estomac.
-@ Diapos 47-49
+Concernant la prévention médicamenteuse de l'inhalation, quelles propositions sont exactes ?
++ Le citrate de sodium tamponne l'acidité gastrique avec un délai de quelques minutes. :: C'est un antiacide.
++ Les anti-H2 diminuent la sécrétion acide gastrique. :: Délai d'environ 30 minutes.
++ L'association d'un anti-H2 effervescent et de citrate de sodium est recommandée dans les situations d'estomac plein. :: Délai court, action de 2 à 3 heures.
+- Les inhibiteurs de la pompe à protons sont le meilleur choix en urgence. :: Ils mettent environ 4 heures à agir : ils sont inadaptés en urgence.
++ Les prokinétiques, comme le métoclopramide ou l'érythromycine, accélèrent la vidange gastrique. :: Ils complètent la réduction de l'acidité.
+> Objectif : réduire l'acidité et le volume gastrique. Antiacide (citrate de sodium), anti-H2, association des deux en urgence. Prokinétiques pour accélérer la vidange. IPP inadaptés en urgence.
+@ p. 47 à 49
 
-QCM · Préparation
-Quels éléments doivent être préparés ou vérifiés avant l’injection des produits d’une ISR ?
-+ Aspiration fonctionnelle immédiatement disponible.
-+ Voie veineuse périphérique fonctionnelle. :: Elle doit permettre l’administration prévue des produits.
-+ Mobilité de la table. :: Elle permet une adaptation rapide de la position.
-+ Sonde, matériel d’exposition et moyen de gonfler le ballonnet. :: Le matériel doit être prêt avant la période vulnérable.
-- Attendre les premiers vomissements pour chercher le système d’aspiration. :: La recherche du matériel après le début d’un incident fait perdre du temps.
-> Avant d'injecter : aspiration en marche et testée, matériel d'intubation vérifié avec une alternative prête, sonde à ballonnet et mandrin, table basculante opérationnelle, voie veineuse sûre, médicaments préparés et étiquetés, et aide présente. Une séquence rapide ne s'improvise jamais seul.
-@ Diapo 51
+QCU · Principe de la séquence rapide
+Quel est le principe de l'induction en séquence rapide ?
++ Réduire au minimum le délai entre la perte des réflexes de protection des voies aériennes et la mise en place de la sonde d'intubation. :: C'est la définition du cours.
+- Endormir le patient plus profondément pour éviter les vomissements. :: Ce n'est pas le principe ; une anesthésie trop légère favorise toutefois les vomissements.
+- Ventiler au masque à forte pression pour oxygéner avant l'intubation. :: La ventilation au masque est évitée, car elle insuffle de l'air dans l'estomac.
+- Intuber le patient vigile sous anesthésie locale. :: L'intubation vigile est réservée à l'intubation difficile prévue ; l'ISR utilise un hypnotique et un curare d'action rapide.
+- Remplacer l'intubation par un masque laryngé. :: L'objectif est une intubation avec ballonnet.
+> La séquence rapide (ISR) protège les voies aériennes le plus vite possible : préparation, préoxygénation, hypnotique et curare d'action rapide, pas de ventilation au masque, intubation, ballonnet gonflé, vérification par la capnographie.
+@ p. 52
 
 QCM · Préoxygénation
-Quelles propositions expliquent correctement la préoxygénation avant ISR ?
-+ Elle augmente les réserves pulmonaires en oxygène. :: L’enrichissement de la CRF est le mécanisme central.
-+ Elle vise à prolonger le délai d’apnée sans désaturation. :: C’est la raison répétée.
-+ Une FiO2 de 100 % fait partie de la méthode décrite. :: Le support associe cet apport à un objectif expiratoire.
-- Elle donne la même durée d’apnée chez l’enfant, l’obèse et l’adulte sain. :: Le graphique montre des durées différentes selon le terrain.
-- Elle peut être omise si un curare d’action rapide est choisi.
-> La préoxygénation vise à remplir la capacité résiduelle fonctionnelle d'oxygène pour tolérer l'apnée sans ventiler au masque, puisque ventiler risquerait d'insuffler de l'air dans l'estomac. L'objectif est une fraction expirée d'oxygène supérieure à 90 %, avec un masque étanche et un débit élevé.
-@ Diapos 53-55
+Concernant la préoxygénation, quelles propositions sont exactes ?
++ Elle augmente les réserves en oxygène en remplaçant l'azote de la CRF par de l'oxygène. :: C'est le réservoir principal.
++ Elle se fait avec une FiO2 de 100 %. :: L'objectif est une FeO2 > 90 %.
+- Le décubitus dorsal strict est la position de référence de la préoxygénation. :: Le proclive de 20 à 30° améliore la CRF et la durée d'apnée sans désaturation.
+- L'obèse désature moins vite que l'adulte mince après préoxygénation. :: Il désature plus vite : sa CRF est diminuée.
+- Elle est facultative si l'intubation doit être rapide. :: Elle est primordiale dans la séquence rapide.
+> La préoxygénation remplit la CRF d'oxygène et allonge le temps d'apnée sans désaturation. Méthode : FiO2 100 % pendant 3 minutes, jusqu'à FeO2 > 90 %, en proclive. La VNI ou l'oxygène à haut débit peuvent être utiles chez le patient hypoxémique.
+@ p. 53 à 55 et 69
 
-QCM · Sellick
-Concernant la manœuvre de Sellick et ses limites, quelles propositions sont exactes ?
-+ Elle vise à limiter la remontée du contenu en exerçant une pression cricoïdienne. :: C’est son principe mécanique.
-- Elle est dépourvue de tout effet sur les conditions d’intubation. :: Elle peut dégrader l’exposition laryngée.
-+ Des vomissements actifs conduisent à arrêter la manœuvre dans la conduite décrite. :: La compression peut exposer à une rupture œsophagienne.
-+ Son efficacité préventive est discutée.
-- Elle remplace la préoxygénation. :: Les objectifs sont distincts ; elle ne constitue pas une réserve d’oxygène.
-> La manœuvre de Sellick consiste à appliquer une pression sur le cartilage cricoïde pour comprimer l'œsophage. Son efficacité n'est pas démontrée, elle peut dégrader la vue laryngoscopique et gêner la ventilation, et elle est inutile voire dangereuse en cas de vomissement actif. Elle n'est plus recommandée systématiquement.
-@ Diapos 56, 60, 63-66
+QCM · Manœuvre de Sellick
+Concernant la manœuvre de Sellick, quelles propositions sont exactes ?
++ Elle comprime l'œsophage entre le cartilage cricoïde et le rachis cervical. :: Pour limiter la régurgitation passive.
+- Elle s'applique sur le cartilage thyroïde. :: Elle s'applique sur le cartilage cricoïde, seul anneau complet.
+- Elle améliore l'exposition laryngée. :: Elle peut au contraire dégrader le Cormack.
++ Elle doit être relâchée en cas de vomissements actifs. :: Risque de rupture de l'œsophage.
+- Son efficacité sur la prévention de l'inhalation est démontrée. :: Elle n'a pas fait la preuve de son efficacité et n'est plus considérée comme obligatoire.
+> Sellick : pression sur le cricoïde (10 N avant l'induction, 30 N après la perte de conscience), maintenue jusqu'au ballonnet gonflé et à la vérification. Contre-indications : traumatisme du rachis cervical ou du larynx, vomissements actifs, corps étranger, diverticule pharyngé.
+@ p. 56, 60, 61, 63 et 66
 
-QCM · Sonde gastrique
-Concernant l’aspiration gastrique avant induction, quelles propositions sont exactes ?
-+ Elle peut être utile en cas de distension gastrique ou d’occlusion. :: Ces circonstances sont mises en avant dans le support et.
-- Elle assure une vacuité gastrique complète.
-+ Sa pose vigile peut être désagréable et provoquer des vomissements. :: C’est l’une des raisons de ne pas la proposer à tous.
-- Elle supprime automatiquement toute indication d’ISR. :: Le risque résiduel peut justifier de conserver la stratégie.
-+ Le contenu gastrique peut être examiné sur une imagerie déjà réalisée en urgence abdominale.
-> Une sonde gastrique peut réduire le volume du contenu avant l'induction, en particulier en occlusion, mais elle ne vide jamais complètement l'estomac et rend le sphincter inférieur de l'œsophage incompétent. Elle ne dispense donc jamais de la séquence rapide, et son maintien ou son retrait se discute.
-@ Diapos 67, 71, 92
+QCM · Hypnotiques de la séquence rapide
+Concernant le choix de l'hypnotique en séquence rapide, quelles propositions sont exactes ?
++ On choisit un hypnotique de délai d'action court. :: Pour limiter la période sans protection des voies aériennes.
++ L'étomidate ou la kétamine sont proposés en cas d'instabilité hémodynamique. :: L'étomidate est évité en contexte septique.
+- Le midazolam est l'hypnotique de référence. :: Les benzodiazépines sont contre-indiquées en séquence rapide : délai trop long.
++ Le propofol est l'hypnotique utilisé habituellement. :: À 2-3 mg/kg.
+- La kétamine est contre-indiquée chez le patient en choc. :: C'est au contraire une option en cas d'instabilité hémodynamique.
+> Hypnotiques de délai court : propofol (référence), étomidate et kétamine si instabilité hémodynamique. Les benzodiazépines sont contre-indiquées.
+@ p. 73
 
-QCM · Hypnose et stimulation
-Quels principes concernant l’hypnose lors de l’ISR sont exacts ?
-+ Rechercher un délai court d’installation de la perte de conscience. :: C’est le premier objectif du choix d’hypnotique dans le support.
-+ Adapter le choix et la dose à l’état hémodynamique.
-+ Une anesthésie insuffisante lors de la laryngoscopie peut favoriser des vomissements. :: La stimulation peut provoquer des réflexes si l’anesthésie est trop légère.
-- Le risque hémodynamique justifie de maintenir le patient à un niveau d’anesthésie insuffisant.
-- Les benzodiazépines sont les hypnotiques retenus pour obtenir le délai le plus court dans cette séquence. :: Elles sont écartées de la séquence rapide décrite.
-> L'hypnose doit être suffisamment profonde pour abolir les réflexes avant la laryngoscopie, car une anesthésie légère expose au vomissement actif, à la toux et au laryngospasme. Les doses se choisissent donc sans sous-dosage de principe, tout en tenant compte de la tolérance hémodynamique du patient.
-@ Diapos 30, 73
-
-QCM · Curares
-Quelles propositions distinguent délai et durée d’action d’un curare ?
-+ Un délai court aide à obtenir rapidement les conditions d’intubation. :: Il réduit l’attente avant l’intubation.
-- Une durée brève et un délai court signifient exactement la même chose. :: Le délai concerne l’installation ; la durée concerne la persistance de l’effet.
-- Une forte dose de rocuronium raccourcit le délai et réduit aussi sa durée d’action. :: Le support montre un délai plus court mais une durée plus longue à dose élevée.
-- Un délai d’action bref indique que le patient reprendra rapidement une ventilation spontanée. :: Le délai d’installation ne décrit pas la durée du bloc neuromusculaire ni le délai de reprise ventilatoire.
-- Choisir un curare rapide rend inutile la préparation à un échec d’intubation. :: L’anticipation et l’oxygénation restent essentielles.
-> Délai et durée sont deux propriétés indépendantes. Pour une séquence rapide, c'est le délai qui compte : la succinylcholine installe un bloc en moins d'une minute pour une durée très brève, le rocuronium à 1,2 mg/kg atteint un délai comparable mais avec un bloc prolongé, que le sugammadex permet de lever.
-@ Diapos 75-80, 91
-
-QCM · Suxaméthonium
-Quels éléments figurent parmi les contre-indications au suxaméthonium ?
-+ Antécédent d’allergie à ce curare. :: L’allergie est explicitement mentionnée.
-+ Hyperkaliémie. :: Le support mentionne une augmentation transitoire de la kaliémie.
-+ Hyperthermie maligne. :: Elle est citée dans la liste.
-+ Déficit en butyrylcholinestérases. :: Ce déficit figure parmi les contre-indications.
-- L’estomac plein. :: L’estomac plein est au contraire une situation d’utilisation décrite.
-> Les contre-indications de la succinylcholine tiennent à l'hyperkaliémie qu'elle peut provoquer et à son effet musculaire : hyperkaliémie connue, antécédent personnel ou familial d'hyperthermie maligne, myopathie, déficit moteur installé depuis plusieurs jours, brûlure étendue à distance, et déficit en pseudocholinestérase.
-@ Diapo 76
+QCM · Succinylcholine
+Concernant la succinylcholine (suxaméthonium) en séquence rapide, quelles propositions sont exactes ?
++ C'est le curare de première intention. :: Délai d'action et durée d'action les plus courts.
+- Elle est dosée à 1 mg/kg de poids idéal. :: Elle est dosée sur le poids réel.
+- Elle diminue transitoirement la kaliémie. :: Elle l'augmente : d'où la contre-indication en cas d'hyperkaliémie ou de brûlures étendues.
+- Elle est sans risque en cas d'antécédent d'hyperthermie maligne. :: L'hyperthermie maligne est une contre-indication.
+- C'est le curare le moins allergisant. :: C'est le curare le plus allergisant.
+> Succinylcholine : délai court, durée brève (reprise de la ventilation spontanée en cas d'échec). Contre-indications : allergie, hyperthermie maligne, hyperkaliémie, atteinte neurologique avec dénervation, myopathies, déficit en pseudocholinestérases.
+@ p. 75
 
 QCM · Rocuronium
-Concernant le rocuronium dans une séquence rapide, quelles propositions sont exactes ?
-+ C’est un curare non dépolarisant. :: Cette classe figure explicitement dans le support.
-+ Son délai peut être court à dose élevée. :: Le support compare deux doses et leurs délais.
-- Une installation rapide s’accompagne d’une disparition de l’effet en quelques minutes. :: La durée d’action reste prolongée.
-+ Le sugammadex est l’agent d’antagonisation cité. :: Il est mentionné sur la diapositive et dans l’étude comparative.
-- Il rend inutile le monitorage de la récupération neuromusculaire au réveil. :: Le monitorage et le ratio TOF restent nécessaires à l’évaluation de la récupération.
-> Le rocuronium à 1,2 mg/kg offre un délai comparable à celui de la succinylcholine, au prix d'un bloc de plus d'une heure. Il devient l'alternative de choix dès lors que le sugammadex est disponible, à 16 mg/kg pour une réversion immédiate, et il est préféré en cas de contre-indication à la succinylcholine.
-@ Diapos 77, 79, 95-97
+Concernant le rocuronium en séquence rapide, quelles propositions sont exactes ?
++ C'est un curare non dépolarisant. :: Contrairement à la succinylcholine.
+- Son délai d'action reste long, même à 1,2 mg/kg. :: À 1,2 mg/kg, son délai d'action devient court.
+- Son bloc ne peut pas être antagonisé rapidement. :: Le sugammadex permet d'antagoniser rapidement un bloc profond.
+- Sa durée d'action est aussi brève que celle de la succinylcholine. :: Elle est prolongée, de l'ordre d'une heure à forte dose.
+- Il est utilisé en première intention, avant la succinylcholine. :: Il est indiqué en cas de contre-indication à la succinylcholine.
+> Rocuronium 1,2 mg/kg : délai court, mais durée longue. Le sugammadex doit être disponible. Il est utilisé quand la succinylcholine est contre-indiquée.
+@ p. 76 à 78
+
+QCM · Morphiniques en séquence rapide
+Concernant les morphiniques en séquence rapide, quelles propositions sont exactes ?
++ Ils étaient classiquement évités car émétisants. :: Et parce qu'ils diminuent le tonus du sphincter inférieur de l'œsophage.
++ Un morphinique de courte durée d'action réduit la réponse hémodynamique à l'intubation. :: Utile en cas d'HTIC ou de prééclampsie.
++ Ils améliorent la qualité de l'intubation. :: En complément de l'hypnotique et du curare.
+- La morphine est le morphinique de choix en séquence rapide. :: On utilise un agent de courte durée d'action : alfentanil, sufentanil, rémifentanil.
++ Leur administration avant l'induction est un facteur de risque d'inhalation. :: Ils diminuent les réflexes de protection.
+> Les morphiniques peuvent être utilisés en séquence rapide s'ils sont de courte durée d'action : ils réduisent la réponse hémodynamique (HTIC, prééclampsie) et améliorent l'intubation.
+@ p. 32, 35 et 80
+
+QCU · Ordre de la séquence rapide
+Quel est l'ordre correct des étapes de la séquence rapide ?
+- Hypnotique, préoxygénation, curare, intubation, vérification :: La préoxygénation se fait avant l'hypnotique.
++ Vérification du matériel, préoxygénation, hypnotique, curare, intubation, ballonnet, vérification par l'EtCO2 :: C'est l'enchaînement du cours.
+- Préoxygénation, curare, ventilation au masque, hypnotique, intubation :: On ne ventile pas au masque, et l'hypnotique précède le curare.
+- Vérification du matériel, hypnotique, ventilation au masque, curare, intubation :: Pas de ventilation au masque, et pas de préoxygénation dans cet ordre.
+- Préoxygénation, intubation vigile, hypnotique, curare, vérification :: L'intubation vigile est réservée à une intubation difficile prévue.
+> Préparer (table mobile, aspiration, voie veineuse, laryngoscope, sonde avec mandrin, seringue), préoxygéner, injecter l'hypnotique puis le curare, intuber sans ventiler au masque, gonfler le ballonnet, vérifier (capnographie, auscultation), puis vidanger l'estomac.
+@ p. 51 et 81 à 89
+
+QCM · Matériel et controverses
+Concernant la préparation de la séquence rapide, quelles propositions sont exactes ?
++ Le vidéolaryngoscope est recommandé en séquence rapide. :: Il facilite l'exposition.
++ L'aspiration doit être fonctionnelle et à portée de main. :: Pour aspirer immédiatement un vomissement.
+- Une aspiration gastrique par sonde est recommandée avant toute induction en séquence rapide. :: Elle n'est pas systématique, mais elle est indispensable en cas d'occlusion.
++ La table doit pouvoir être basculée rapidement. :: Pour mettre le patient en Trendelenburg en cas de régurgitation.
+- Une sonde gastrique en place garantit la vacuité de l'estomac. :: Elle diminue le volume mais ne garantit pas la vacuité.
+> Avant de commencer : table mobile, aspiration fonctionnelle, voie veineuse, laryngoscope (vidéolaryngoscope), sonde avec mandrin, seringue sur le ballonnet. L'aspiration gastrique n'est indispensable qu'en cas d'occlusion.
+@ p. 51, 67, 70 et 71
 
 QCM · Extubation
-Quels éléments font partie des conditions recherchées avant extubation ?
-+ Patient éveillé et réveil complet. :: Le réveil participe au retour des mécanismes protecteurs.
-+ Ratio T4/T1 supérieur à 90 %. :: C’est le repère de récupération neuromusculaire retenu.
-+ Déglutition présente. :: Elle fait partie des critères de protection des voies aériennes.
-- Respiration spontanée seule, même si le ratio TOF reste insuffisant. :: Respirer ne prouve pas la décurarisation complète.
-+ Échanges gazeux et état hémodynamique satisfaisants. :: Ils figurent dans la liste avant extubation.
-> L'extubation d'un patient à estomac plein se fait éveillé, après récupération complète des réflexes de protection et décurarisation vérifiée quantitativement, en position adaptée, avec aspiration prête. C'est un moment aussi à risque que l'induction, et la précipitation y est la principale cause d'inhalation.
-@ Diapos 92, 94-97
+Concernant l'extubation d'un patient à estomac plein, quelles propositions sont exactes ?
++ Le risque d'inhalation persiste au réveil, même après une vidange gastrique peropératoire. :: La vacuité n'est jamais garantie.
++ Le patient doit être complètement réveillé, avec un réflexe de déglutition présent. :: Les réflexes de protection doivent être récupérés.
+- Un rapport T4/T1 supérieur à 70 % suffit. :: Le critère de décurarisation complète est T4/T1 > 90 %.
+- Quatre réponses au train de quatre suffisent pour affirmer la décurarisation. :: Il faut un rapport T4/T1 > 90 %.
+- L'extubation se fait de préférence en décubitus dorsal strict. :: Le patient est plutôt demi-assis.
+> Extuber au bloc ou en SSPI, sur un patient complètement réveillé, décurarisé (T4/T1 > 90 %), avec déglutition présente, plutôt demi-assis, avec une respiration et une hémodynamique satisfaisantes.
+@ p. 91 à 96
 
-QCM · Incident à l’induction
-Un patient non encore intubé vomit pendant l’induction. Quelles actions ou priorités sont exactes ?
-+ Utiliser immédiatement l’aspiration préparée.
-+ Mettre la tête en bas ou le patient sur le côté pour favoriser l’évacuation.
-- Refuser toute ventilation au masque même si le patient désature. :: La désaturation impose de rétablir l’oxygénation, y compris en ventilant.
-+ Sécuriser rapidement les voies aériennes. :: L’objectif est de réduire la période sans protection.
-- Considérer que la prévention de l’inhalation autorise à laisser persister une hypoxie.
-> Devant un vomissement avant intubation : basculer la table en déclive, tourner la tête, aspirer largement, puis intuber dès que possible pour protéger la trachée, en évitant de ventiler au masque qui pousserait le contenu plus bas. L'aspiration trachéale se fait avant la ventilation en pression positive.
-@ Diapos 65, 99-101
-
-QCU · Préoxygénation
-1. La préoxygénation prolonge le délai d’apnée avant désaturation.
-2. Elle augmente les réserves d’oxygène, notamment dans la capacité résiduelle fonctionnelle.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies. Le lien est causal : la réserve pulmonaire supplémentaire fournit de l’oxygène pendant l’apnée et retarde la désaturation.
-@ Diapos 53-55
-
-QCU · Vacuité gastrique
-1. Une aspiration gastrique ne supprime pas automatiquement le besoin d’une ISR.
-2. La sonde gastrique garantit toujours l’absence de contenu gastrique résiduel.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-+ La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est vraie : une indication d’ISR peut persister. La seconde est fausse : rien ne garantit une vacuité complète après aspiration.
-@ Diapos 67, 71, 92
-
-QCU · Règles absolues
-1. Lors d’une ISR, une désaturation doit être tolérée plutôt que ventilée.
-2. La présence de quatre réponses au train de quatre suffit à affirmer une décurarisation complète.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-+ Les deux affirmations sont fausses.
-> Les deux affirmations sont fausses. Quatre réponses seules ne remplacent pas le ratio T4/T1 supérieur à 90 % retenu dans le support.
-@ Diapos 65, 94-96, 101
-
-QCU · Hypnose et réflexes
-1. Une anesthésie insuffisante protège contre les vomissements lors de la laryngoscopie.
-2. Une stimulation laryngée sur anesthésie trop légère peut déclencher des réflexes et des vomissements.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première affirmation est vraie et la seconde est fausse.
-+ La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première affirmation est fausse et la seconde vraie. La profondeur doit être suffisante pour le stimulus, tout en tenant compte du risque hémodynamique du patient.
-@ Diapos 30, 73
+QCM · Conduite à tenir en cas d'inhalation
+Un patient non intubé vomit à l'induction. Quelles mesures sont adaptées ?
++ Mettre le patient en Trendelenburg et en décubitus latéral. :: Pour drainer le contenu hors des voies aériennes.
++ Aspirer le pharynx. :: L'aspiration a été préparée pour cela.
++ Intuber sans délai et gonfler le ballonnet. :: Pour protéger les voies aériennes.
++ Préoxygéner puis réaliser une séquence rapide. :: Pour sécuriser rapidement les voies aériennes.
+- Retirer immédiatement une sonde placée par erreur dans l'œsophage. :: On la laisse en place, ballonnet gonflé, pour drainer l'estomac, et on réintube la trachée.
+> En cas d'inhalation chez un patient intubé : vérifier le ballonnet, aspirer par la sonde gastrique et par la sonde d'intubation. Ensuite, selon la gravité : ventilation, gaz du sang, fibroscopie, radiographie. Les antibiotiques ne sont pas systématiques et les corticoïdes n'ont pas montré d'efficacité.
+@ p. 99 à 101

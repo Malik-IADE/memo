@@ -1,366 +1,135 @@
-// Quiz 4 – Patient dénutri (UE 3.3), d'après « QUIZZ 4 Dénutri.html »
+// Quiz – Patient dénutri (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Sujet dénutri avec notes ».
+// Questions type examen sur les notions générales : définition, diagnostic, conséquences, pharmacologie, renutrition, anesthésie. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Patient dénutri
 
 QCM · Définitions
-Concernant la définition de la dénutrition, quelles propositions sont exactes ?
-+ Elle peut résulter d’une insuffisance des apports nutritionnels :: C'est le mécanisme par défaut, apports insuffisants face aux besoins
-+ Elle peut résulter d’une augmentation des dépenses ou des pertes :: Cancer, sepsis, brûlure ou fistule augmentent les besoins ou les pertes
-- Elle nécessite un IMC inférieur à 18,5 kg/m² pour être diagnostiquée :: L'IMC n'est qu'un critère parmi d'autres, et il n'est pas obligatoire
-- Un IMC élevé permet d’écarter une dénutrition :: C'est l'erreur classique : un patient obèse peut être dénutri
-> La dénutrition est un déséquilibre nutritionnel par insuffisance d’apports, augmentation des dépenses ou des pertes, ou leur association. Un IMC bas est un critère possible, mais il n’est pas indispensable : l’obésité sarcopénique et les états œdémateux peuvent masquer la dénutrition.
-@ 2, 7
-
-QCM · Définitions
-Concernant le marasme, le kwashiorkor et la malnutrition, quelles propositions sont exactes ?
-+ Le marasme correspond à une adaptation au jeûne prolongé :: Les réserves de graisse sont mobilisées, avec un amaigrissement visible
-+ Le kwashiorkor correspond à une carence protéino-calorique :: Les apports caloriques peuvent être conservés, d'où une maigreur masquée
-- Le kwashiorkor et le marasme donnent la même apparence de maigreur :: Le kwashiorkor s'accompagne d'œdèmes qui masquent la fonte
-- La malnutrition correspond à un défaut quantitatif des apports :: C'est un terme plus large, qui comprend aussi les excès et les déséquilibres
-> Le cours associe le marasme au jeûne prolongé et le kwashiorkor à la carence protéino-calorique. Leur apparence peut différer, avec notamment un gros ventre dans l’exemple du kwashiorkor. La malnutrition est décrite comme un défaut qualitatif et quantitatif. La malnutrition comporte aussi un défaut qualitatif.
-@ 2
-
-QCM · Épidémiologie
-Concernant la fréquence de la dénutrition chez les patients hospitalisés et ses conséquences, quelles propositions sont exactes ?
-- Environ 3 % des patients hospitalisés sont dénutris :: La prévalence hospitalière est bien plus élevée, de l'ordre de 30 à 40 %
-- La fréquence de la dénutrition est identique dans toutes les spécialités chirurgicales :: Elle est maximale en chirurgie carcinologique digestive
-+ La dénutrition est un facteur indépendant de complications infectieuses et chirurgicales :: Son effet reste significatif après ajustement sur les autres facteurs
-+ La dénutrition augmente la durée et le coût du séjour :: Elle est aussi un enjeu économique, en plus du pronostic individuel
-> Le repère général est d’environ 30 %. Les chiffres varient selon les spécialités et les méthodes d’évaluation : soins critiques, chirurgie carcinologique, cardiaque ou transplantation n’ont pas les mêmes fréquences. La dénutrition augmente aussi la mortalité, les complications et les difficultés de récupération. Le chiffre est d’environ 30 %, et non 3 %.
-@ 3
-
-QCM · Évaluation
-Lors du bilan nutritionnel préopératoire, quels éléments faut-il rechercher ?
-+ Le poids habituel, le poids actuel et la vitesse de perte de poids :: C'est la cinétique de la perte qui est déterminante, plus que le poids absolu
-+ La diminution des ingesta et les symptômes gênant l’alimentation :: Ce sont les critères étiologiques de la dénutrition
-+ Les réserves adipeuses, la masse musculaire et les troubles trophiques :: Ce sont les signes phénotypiques recherchés à l'examen
-+ La recherche d’œdèmes fait partie de l’examen général :: Un kwashiorkor peut masquer la fonte sous un œdème
-- Le poids actuel suffit à lui seul à évaluer l'état nutritionnel :: C'est sa variation dans le temps qui compte, et des œdèmes peuvent le maintenir faussement normal.
-> Le bilan associe interrogatoire et examen. Les œdèmes doivent être recherchés : ils n’excluent pas la dénutrition et peuvent compliquer l’interprétation du poids. Les œdèmes doivent être recherchés à l’examen général.
-@ 4, 8
-
-QCU · IMC
-Concernant le calcul de l’indice de masse corporelle (IMC), quelles propositions sont exactes ?
-+ IMC = poids en kilogrammes / taille en mètres au carré :: La masse est au dénominateur, la taille au carré
-- L’IMC s’exprime en kg/m :: Il s'exprime en kg/m², la taille étant élevée au carré
-- La taille peut être directement introduite en centimètres sans conversion :: Une taille en centimètres donne un résultat faux d'un facteur dix mille
-- Le dénominateur correspond à deux fois la taille en mètres :: C'est le carré de la taille, non le double
-> IMC = poids (kg) / [taille (m)]². La taille doit être convertie en mètres avant d’être élevée au carré. Le carré de la taille n’est pas le double de la taille. Son unité est kg/m², et non kg/m.
-@ 6
-
-QCM · Diagnostic
-Chez l’adulte, quels seuils d’IMC et quelles conditions permettent de retenir un critère phénotypique de dénutrition ?
-+ Avant 70 ans : IMC < 18,5 kg/m² :: Seuil phénotypique chez l'adulte jeune
-+ À partir de 70 ans : IMC < 22 kg/m² :: Le seuil est relevé après 70 ans, la composition corporelle se modifiant
-- À partir de 70 ans, le critère phénotypique retenu est un IMC < 18,5 kg/m² :: C'est le seuil de l'adulte jeune : après 70 ans, il passe à 22
-- Ces seuils suffisent, à eux seuls, à poser le diagnostic :: Il faut aussi un critère étiologique : un seul critère ne suffit jamais
-> Le seuil est < 18,5 avant 70 ans et < 22 à partir de 70 ans. Il s’agit de critères phénotypiques : un critère étiologique doit également être présent. Le diagnostic ne repose pas sur l’IMC seul.
-@ 6–7
+Concernant la définition de la dénutrition et des notions voisines, quelles propositions sont exactes ?
++ La dénutrition est un déséquilibre nutritionnel par carence d'apports, hausse des dépenses ou des pertes, ou leur association. :: Définition du cours.
++ Une dénutrition est possible avec un IMC normal ou élevé. :: En cas d'œdèmes ou d'obésité sarcopénique.
+- Le kwashiorkor correspond à l'adaptation à un jeûne prolongé. :: C'est le marasme ; le kwashiorkor est une carence protéino-calorique.
+- Le marasme est une carence protéique pure, avec œdèmes. :: Le marasme est l'adaptation à un jeûne prolongé ; la carence protéino-calorique correspond au kwashiorkor.
+- La dénutrition est rare chez les patients hospitalisés. :: Elle est fréquente : environ un patient hospitalisé sur trois.
+> La dénutrition est fréquente à l'hôpital et constitue un facteur de risque indépendant de complications infectieuses et chirurgicales, de mortalité et de durée de séjour.
+@ p. 2 et 3
 
 QCU · Diagnostic
-Concernant le diagnostic de dénutrition et l’évaluation de sa sévérité, quelles propositions sont exactes ?
-+ Il faut au moins un critère phénotypique et un critère étiologique :: Un phénotype et une cause : c'est la règle du diagnostic en deux volets
-- Deux critères phénotypiques remplacent un critère étiologique absent :: Deux critères phénotypiques ne remplacent pas la cause
-- Une albuminémie basse est un critère diagnostique suffisant :: Elle n'est pas un critère diagnostique, mais un marqueur de sévérité
-- La sévérité doit être qualifiée avant toute recherche des critères diagnostiques :: La sévérité se qualifie une fois le diagnostic posé
-> Le diagnostic exige l’association phénotype + étiologie. Plusieurs éléments d’un seul groupe ne remplacent pas l’autre groupe. L’albuminémie sert à apprécier la sévérité et le pronostic ; elle ne pose pas seule le diagnostic. La sévérité est qualifiée une fois le diagnostic établi, et non avant.
-@ 7, 23
+Comment pose-t-on le diagnostic de dénutrition ?
+- Sur une albuminémie inférieure à 35 g/L :: L'albuminémie renseigne la sévérité et le pronostic, elle ne pose pas le diagnostic.
+- Sur un IMC inférieur à 18,5 kg/m², quel que soit l'âge :: Le seuil est de 22 kg/m² à partir de 70 ans, et l'IMC n'est qu'un critère.
++ Sur l'association d'au moins un critère phénotypique et d'au moins un critère étiologique :: Critères HAS, alignés sur GLIM.
+- Sur au moins deux critères étiologiques :: Il faut un critère phénotypique et un critère étiologique.
+- Sur la présence de signes carentiels cutanés :: Ils orientent, mais ne suffisent pas au diagnostic.
+> Diagnostic : ≥ 1 critère phénotypique (perte de poids, IMC bas, baisse de la masse ou de la fonction musculaire) + ≥ 1 critère étiologique (baisse des apports, malabsorption, situation d'agression).
+@ p. 7 et 23
 
-QCM · Diagnostic
-Chez l’adulte, quelles pertes de poids permettent de retenir un critère phénotypique de dénutrition ?
-+ Une perte ≥ 5 % en un mois :: Perte rapide, qui signe une dénutrition évolutive
-- Une perte ≥ 5 % en six mois :: Sur six mois, le seuil est de 10 %
-+ Une perte ≥ 10 % par rapport au poids habituel :: Par rapport au poids de forme, sans limite de durée
-- Une perte de 5 % correspond à 5 kg, quel que soit le poids initial :: 5 % est un pourcentage : il dépend du poids de départ
-> Les trois repères sont ≥ 5 % en un mois, ≥ 10 % en six mois ou ≥ 10 % par rapport au poids habituel. Un pourcentage est relatif au poids de référence : 5 % n’équivaut pas à une masse fixe de 5 kg. En six mois, le seuil du tableau est ≥ 10 %, et non ≥ 5 %.
-@ 7
+QCM · Critères phénotypiques
+Parmi ces éléments, lesquels sont des critères phénotypiques de dénutrition ?
++ Une perte de poids d'au moins 5 % en 1 mois :: Ou ≥ 10 % en 6 mois ou par rapport au poids habituel.
++ Un IMC inférieur à 22 kg/m² chez un patient de 75 ans :: Le seuil est de 22 à partir de 70 ans.
++ Une réduction de la masse ou de la fonction musculaire :: Sarcopénie confirmée après 70 ans.
+- Une réduction des apports alimentaires de 50 % depuis plus d'une semaine :: C'est un critère étiologique.
++ Une perte de poids de 10 % par rapport au poids habituel :: C'est un critère phénotypique.
+> Critères phénotypiques : perte de poids, IMC (< 18,5 avant 70 ans, < 22 après), masse ou fonction musculaire. Critères étiologiques : baisse des apports, malabsorption ou maldigestion, situation d'agression (aiguë, chronique, maligne), chirurgie à risque.
+@ p. 7
 
-QCM · Diagnostic
-Parmi les éléments suivants, lesquels constituent des critères étiologiques de dénutrition ?
-- Une réduction des prises alimentaires ≥ 50 % pendant deux jours :: Deux jours sont trop courts : le seuil est de deux semaines
-+ Toute réduction des prises alimentaires pendant plus de deux semaines :: C'est le critère étiologique de réduction des apports
-+ Une malabsorption ou une maldigestion :: Les apports peuvent être normaux sans être absorbés
-- Un IMC inférieur au seuil correspondant à l’âge :: C'est un critère phénotypique, et non étiologique
-> La diminution prolongée des apports et les troubles d’absorption ou de digestion appartiennent à l’étiologie. Le tableau cite aussi les situations d’agression liées à une pathologie aiguë, chronique évolutive ou maligne. L’IMC bas relève du phénotype. Le critère exige une durée de plus d’une semaine pour une baisse ≥ 50 %.
-@ 7
+QCU · IMC chez le sujet âgé
+Une patiente de 78 ans pèse 50 kg pour 1,55 m. Que peut-on dire de son IMC ?
+- Il est normal, car supérieur à 18,5 kg/m². :: Le seuil de 18,5 s'applique avant 70 ans.
++ Il est d'environ 20,8 kg/m², ce qui est un critère phénotypique de dénutrition à son âge. :: 50 / (1,55 × 1,55) = 50 / 2,40 ≈ 20,8 ; seuil < 22 après 70 ans.
+- Il signe une dénutrition sévère. :: Après 70 ans, la dénutrition sévère correspond à un IMC < 20.
+- Il est d'environ 32 kg/m². :: Le calcul a oublié d'élever la taille au carré.
+- Il ne peut pas être interprété après 70 ans. :: Il s'interprète avec des seuils adaptés à l'âge.
+> IMC = poids / taille². Dénutrition : < 18,5 avant 70 ans, < 22 après. Dénutrition sévère : ≤ 17 avant 70 ans, < 20 après.
+@ p. 6
 
-QCM · Muscle
-Chez une personne de 70 ans ou plus, quelles propositions sur la confirmation et l’évaluation d’une sarcopénie sont exactes ?
-+ La confirmation d’une sarcopénie nécessite une force diminuée ET une masse musculaire basse :: Les deux conditions sont nécessaires : force et masse
-- Une baisse de force isolée confirme une sarcopénie, sans évaluer la masse musculaire :: Une force abaissée sans masse basse définit une dynapénie
-+ La préhension ou les cinq levers de chaise permettent d’évaluer la force musculaire :: Deux tests simples, réalisables au lit du patient
-- La DEXA constitue un test de force musculaire :: Elle mesure la composition corporelle, non la force
-> La sarcopénie confirmée associe baisse de force et baisse de masse. La préhension et les cinq levers de chaise explorent la force ; scanner, impédancemétrie et DEXA renseignent sur la masse. Une force réduite isolément ne suffit donc pas à confirmer la sarcopénie décrite. La DEXA évalue la masse, pas la force musculaire.
-@ 4, 7
-
-QCM · Sévérité
-Chez un adulte dont la dénutrition est déjà diagnostiquée, quels seuils permettent de la qualifier de sévère ?
-+ Avant 70 ans : IMC ≤ 17 kg/m² :: Seuil de sévérité chez l'adulte jeune
-- À partir de 70 ans : IMC < 22 kg/m² :: C'est le seuil diagnostique après 70 ans, non celui de sévérité, qui est de 20
-+ Perte de poids ≥ 10 % en un mois ou ≥ 15 % en six mois :: Cinétique rapide, qui signe la forme sévère
-- Une albuminémie à 34 g/L définit la forme sévère :: Le seuil de sévérité est à 30 g/L
-> Le tableau retient ces seuils d’IMC, les pertes ≥ 10 % en un mois ou ≥ 15 % en six mois ou par rapport au poids habituel, ainsi qu’une albuminémie ≤ 30 g/L. Une albuminémie de 34 g/L n’atteint pas ce seuil de sévérité. À partir de 70 ans, < 22 est le seuil phénotypique diagnostique ; le seuil de sévérité est < 20.
-@ 7, 16
-
-QCM · Biologie
-Concernant les rôles de l’albuminémie, de la préalbuminémie et de la CRP dans l’évaluation nutritionnelle, quelles propositions sont exactes ?
-+ L’albuminémie apporte une information de sévérité et de pronostic :: Elle est un marqueur pronostique fort, lié à la mortalité
-- La préalbuminémie est utilisée comme critère diagnostique isolé de dénutrition :: Sa demi-vie courte en fait un marqueur de suivi, non de diagnostic
-+ L’albuminémie doit être interprétée avec l’inflammation et l’hydratation :: L'inflammation et la dilution l'abaissent indépendamment de la nutrition
-- Une hypoalbuminémie liée à l’inflammation prouve une dénutrition :: Un syndrome inflammatoire abaisse l'albumine sans dénutrition
-> L’albumine et la préalbumine n’ont pas le même rôle dans le cours : sévérité/pronostic pour la première, suivi pour la seconde. Une inflammation peut s’accompagner d’hypoalbuminémie ; la CRP et l’hydratation aident à interpréter le résultat. Le diagnostic exige toujours ses critères associés. La préalbumine sert surtout au suivi dynamique et ne pose pas seule le diagnostic.
-@ 4, 16, 23
-
-QCM · Scores
-Concernant la composition et l’interprétation du score nutritionnel CONUT, quelles propositions sont exactes ?
-+ Il combine albuminémie, lymphocytes et cholestérol total :: Trois paramètres biologiques simples et disponibles
-- Il combine IMC, CRP et rapport poids / poids idéal :: Ce ne sont pas les paramètres de ce score
-+ Il va de 0 à 12 ; le risque augmente avec le score :: Plus le score est élevé, plus le risque nutritionnel est important
-+ Un score CONUT > 1 est associé à une augmentation du risque de complications postopératoires :: Même un score faiblement élevé a une valeur pronostique
-> CONUT associe trois données biologiques : albumine, lymphocytes, cholestérol total. Son score augmente avec le risque. Les classes du tableau sont 0–1, 2–4, 5–8 et 9–12 ; ce n’est pas la formule du GNRI.
-@ 5, 16
-
-QCU · Scores
-Concernant la formule et l’interprétation du Geriatric Nutritional Risk Index (GNRI), quelles propositions sont exactes ?
-+ GNRI = 1,489 × albumine (g/L) + 41,7 × (poids / poids idéal) :: Il associe un marqueur biologique et un rapport pondéral
-- Le poids idéal utilisé pour le GNRI est calculé selon la formule de Quetelet :: Le poids idéal du GNRI se calcule par la formule de Lorentz
-- Le risque nutritionnel augmente lorsque le GNRI augmente :: C'est l'inverse : un GNRI bas signe un risque élevé
-- Un GNRI > 98 correspond au risque majeur :: Au-dessus de 98, le risque est au contraire absent
-> La formule associe l’albumine en g/L au rapport poids / poids idéal de Lorentz. Le sens du risque est inverse de celui du CONUT : un GNRI qui baisse indique un risque plus élevé. Le tableau situe l’absence de risque au-dessus de 98 et le risque majeur en dessous de 82. Le poids idéal est celui de Lorentz ; Quetelet est cité pour l’IMC. Pour le GNRI, la baisse du score signale une aggravation du risque.
-@ 5, 16
-
-QCM · Signes cliniques
-Lors de l’examen d’un patient dénutri, quelles propositions concernant les signes carentiels sont exactes ?
-+ Des ongles striés ou cassants et une chute des cheveux :: Les phanères traduisent les carences en protéines et en micronutriments
-- Une peau épaissie et humide constitue un signe carentiel cutané de dénutrition :: La peau est au contraire sèche, fine et desquamante
-+ Une langue rouge, dépapillée et douloureuse, appelée glossite :: Elle traduit une carence en vitamines du groupe B
-- La glossite désigne une atteinte des ongles en forme de cuillère :: C'est la koïlonychie ; la glossite concerne la langue
-> Le cours distingue signes cutanés, phanériens et muqueux. La glossite concerne la langue ; la koïlonychie figure parmi les atteintes des ongles. Ces signes complètent le bilan du poids et des apports, sans le remplacer. La peau décrite est sèche et fine ; le support cite également perlèches et pétéchies.
-@ 8
+QCM · Sévérité et marqueurs
+Concernant la sévérité de la dénutrition et ses marqueurs biologiques, quelles propositions sont exactes ?
++ Une albuminémie ≤ 30 g/L est un critère de dénutrition sévère. :: Entre 30 et 35 g/L, la dénutrition est modérée.
++ L'albuminémie s'interprète avec la CRP et l'état d'hydratation. :: L'inflammation la fait baisser.
++ La pré-albumine, de demi-vie courte, sert au suivi dynamique. :: Elle varie plus vite que l'albumine.
+- Une perte de 5 % du poids en 6 mois définit une dénutrition sévère. :: La sévérité correspond à une perte ≥ 10 % en 1 mois ou ≥ 15 % en 6 mois.
+- L'albuminémie est indépendante de l'inflammation. :: Elle diminue en cas d'inflammation.
+> Dénutrition sévère : IMC ≤ 17 (< 20 après 70 ans), perte ≥ 10 % en 1 mois ou ≥ 15 % en 6 mois, albuminémie ≤ 30 g/L. L'albuminémie a une valeur pronostique.
+@ p. 7 et 16
 
 QCM · Conséquences
-Chez un patient dénutri en période périopératoire, quelles relations entre jeûne, stress chirurgical et catabolisme sont exactes ?
-+ Le jeûne préopératoire prolongé favorise la néoglucogenèse à partir des acides aminés :: Sans apport glucidique, l'organisme fabrique du glucose à partir du muscle
-- La néoglucogenèse à partir des acides aminés préserve les réserves protéiques :: Elle les consomme au contraire : c'est le muscle qui est dégradé
-- Le stress chirurgical diminue les dépenses énergétiques de repos :: Il les augmente, parfois de 30 à 50 %
-+ L’agression chirurgicale peut aggraver la dénutrition :: Hypercatabolisme et jeûne s'additionnent
-> Le jeûne prolongé utilise des constituants protéiques pour produire du glucose. Le stress chirurgical mobilise graisses, protéines et glycogène : il s’accompagne d’une hausse des dépenses énergétiques de repos et de la consommation d’oxygène, et non d’une baisse. L’utilisation d’acides aminés entretient le catabolisme et ne préserve pas les réserves protéiques.
-@ 9–10
+Concernant les conséquences de la dénutrition, quelles propositions sont exactes ?
++ Elle favorise une immunodépression et les infections. :: Avec un cercle vicieux : l'infection aggrave la dénutrition.
++ Elle retarde la cicatrisation. :: Les protéines manquent pour réparer les tissus.
++ Le jeûne prolongé favorise le catabolisme protéique. :: La néoglucogenèse utilise les acides aminés.
+- L'agression chirurgicale diminue les dépenses énergétiques. :: Elle les augmente : c'est un hypercatabolisme.
+- Elle protège la muqueuse intestinale de la translocation bactérienne. :: Elle favorise l'atrophie villositaire et la translocation bactérienne.
+> La dénutrition, aggravée par le jeûne et l'agression chirurgicale, entraîne atrophie intestinale, translocation bactérienne, immunodépression, retard de cicatrisation, complications et allongement du séjour.
+@ p. 9 et 10
 
-QCM · Conséquences
-Concernant les altérations digestives de la dénutrition et leurs conséquences infectieuses, quelles propositions sont exactes ?
-+ La dénutrition peut entraîner une atrophie et un œdème villositaires :: La muqueuse intestinale se renouvelle vite et souffre la première
-+ Un bas débit splanchnique et des troubles de motricité digestive peuvent accompagner la dénutrition :: La perfusion splanchnique diminue et le transit se ralentit
-+ Les altérations du grêle sont reliées à la translocation bactérienne :: Une barrière altérée laisse passer les germes vers la circulation
-+ Les altérations digestives liées à la dénutrition participent au risque de complications septiques :: C'est le lien entre dénutrition et complications infectieuses
-- La barrière intestinale est épargnée par la dénutrition :: Elle est au contraire l'une des premières atteintes, ce qui ouvre la voie à la translocation bactérienne.
-> Les troubles trophiques du grêle, le bas débit splanchnique et les troubles de motricité participent au risque de translocation bactérienne. Ils exposent aux complications septiques.
-@ 9
+QCM · Pharmacologie
+Concernant les médicaments chez le patient dénutri, quelles propositions sont exactes ?
++ La baisse de l'albumine augmente la fraction libre des médicaments. :: Leur effet est majoré.
++ La baisse de la masse maigre diminue le volume de distribution. :: Risque de surdosage.
+- Les doses sont augmentées pour compenser la perte de poids. :: Elles sont titrées selon l'effet.
+- La dénutrition raccourcit la durée d'action des médicaments. :: Elle allonge souvent la durée d'action, selon la fixation protéique du produit.
+- Les médicaments à fenêtre thérapeutique étroite sont sans risque. :: Ce sont eux qui exposent le plus au surdosage.
+> La dénutrition modifie la résorption, la distribution, le métabolisme hépatique (moins de protéines de transport) et l'excrétion rénale. Elle expose au surdosage : on titre.
+@ p. 11 à 13 et 25
 
-QCM · Conséquences
-Concernant les effets de la dénutrition sur l’infection, l’autonomie et la cicatrisation, quelles propositions sont exactes ?
-+ La dénutrition favorise l’infection, qui peut à son tour aggraver la dénutrition :: L'immunodépression ouvre la voie à l'infection, qui aggrave le catabolisme
-+ La perte de masse et de force musculaires peut réduire l’autonomie :: La sarcopénie limite la marche et les gestes du quotidien
-+ La perte d’autonomie peut contribuer à aggraver la dénutrition :: Moins d'autonomie, moins d'alimentation : le cercle se referme
-- La dénutrition accélère la cicatrisation :: Elle la retarde : la cicatrisation demande des protéines
-> Le cours insiste sur les cercles vicieux dénutrition–infection et dénutrition–perte d’autonomie. Il décrit des retards de cicatrisation, des troubles trophiques et une hausse de la durée moyenne de séjour.
-@ 10
+QCM · Dépistage avant la chirurgie
+Concernant le dépistage de la dénutrition avant une chirurgie, quelles propositions sont exactes ?
++ La dénutrition est recherchée avant toute chirurgie à risque intermédiaire ou élevé. :: Urgente ou programmée.
++ La période concernée va de quelques semaines avant l'intervention jusqu'à J14. :: De 4 à 6 semaines avant jusqu'à J14.
++ L'interrogatoire recherche le poids habituel, la cinétique de la perte et les ingesta. :: Il est essentiel au diagnostic.
++ La force musculaire peut être évaluée par un dynamomètre ou le test des levers de chaise. :: La fonction musculaire fait partie du diagnostic.
++ L'examen recherche une fonte musculaire, des œdèmes et des signes carentiels. :: Il complète l'interrogatoire.
+> Le dépistage associe interrogatoire (poids habituel, perte, ingesta), examen (réserves, muscles, œdèmes, signes carentiels), mesures (IMC, force et masse musculaires) et biologie (albumine).
+@ p. 4, 14 et 17
 
-QCM · Pharmacocinétique
-Chez un patient dénutri, quelles propositions concernant les modifications de la résorption digestive des médicaments sont exactes ?
-+ Des modifications du pH gastrique et du débit sanguin intestinal :: Ils modifient la dissolution et l'absorption des médicaments
-- La dénutrition laisse inchangée la perméabilité de l’épithélium digestif :: Elle l'augmente, ce qui modifie le passage des molécules
-+ Des modifications de la vidange gastrique :: Un ralentissement retarde le pic plasmatique
-- La fraction libre plasmatique est l’unique déterminant de la résorption digestive des médicaments :: L'absorption dépend aussi du pH, de la motricité et de la surface d'échange
-> Le cours décrit plusieurs déterminants digestifs de la résorption : pH, débit intestinal, perméabilité et vidange. La liaison aux protéines de transport et la fraction libre sont abordées séparément, dans les modifications pharmacologiques liées à la synthèse des protéines. Les modifications de perméabilité font partie des mécanismes cités.
-@ 11–12
+QCM · Nutrition préopératoire et préhabilitation
+Concernant la nutrition préopératoire et la préhabilitation, quelles propositions sont exactes ?
++ Le patient dénutri bénéficie d'une nutrition préopératoire. :: Elle diminue les complications et la durée de séjour.
+- En cas de dénutrition sévère, l'intervention est réalisée sans délai, la nutrition étant reprise après. :: Une nutrition de 7 à 14 jours est réalisée avant, quitte à différer l'intervention.
+- La voie parentérale est la voie de première intention. :: On privilégie la voie orale, puis entérale ; la parentérale est réservée au tube digestif inutilisable.
+- La préhabilitation repose sur la nutrition seule. :: Elle associe exercice physique, nutrition et équilibration des comorbidités.
+- La nutrition préopératoire a un bénéfice démontré chez le patient non dénutri. :: Le bénéfice n'est pas démontré chez lui.
+> Nutrition préopératoire du patient dénutri : orale (compléments), puis entérale, parentérale si besoin. Préhabilitation multimodale avant une chirurgie programmée à risque.
+@ p. 19 et 20
 
-QCM · Pharmacocinétique
-Chez un patient dénutri, quelles relations entre composition corporelle, distribution des médicaments et risque de surdosage sont exactes ?
-+ La perte de masse grasse et la fonte musculaire modifient les compartiments de distribution :: Les compartiments changent, donc les concentrations pour une même dose
-- Les modifications de distribution concernent les médicaments lipophiles :: Elles concernent aussi les molécules hydrosolubles, par la perte d'eau et de muscle
-+ Le risque de surdosage mérite une attention particulière pour les molécules à fenêtre thérapeutique étroite :: Une faible marge entre efficacité et toxicité laisse peu de place à l'erreur
-- Le poids total décrit les changements de masse grasse et de masse maigre :: Il masque la redistribution entre masse grasse et masse maigre
-> Les changements de composition corporelle modifient le volume de distribution. Le cours cite fentanyl et barbituriques pour les lipophiles, aminosides, digoxine et paracétamol pour les hydrophiles. Un même poids total ne résume pas la répartition des tissus ; la titration est centrale. Le support décrit aussi des modifications pour les hydrophiles.
-@ 11, 25
+QCM · Jeûne et réalimentation
+Concernant le jeûne préopératoire et la réalimentation du patient dénutri, quelles propositions sont exactes ?
++ Les liquides clairs sont autorisés jusqu'à 2 heures avant l'anesthésie. :: Le jeûne court est la règle.
++ Le jeûne prolongé est à proscrire chez le dénutri. :: Il aggrave le catabolisme protéique.
++ La reprise de l'alimentation est la plus précoce possible après l'intervention. :: Orale et/ou artificielle.
++ La charge glucidique préopératoire limite l'insulinorésistance. :: En chirurgie abdominale majeure.
+- La vidange gastrique est accélérée en cas de dénutrition sévère. :: Elle peut être ralentie, comme sous agonistes du GLP-1.
+> Jeûne court (liquides clairs 2 h, repas léger 6 h), charge glucidique, reprise alimentaire précoce. Cibles postopératoires atteintes progressivement : 20-25 kcal/kg/j et 1 à 1,3 g de protéines/kg/j.
+@ p. 19, 21 et 24
 
-QCM · Pharmacocinétique
-En cas de diminution des protéines plasmatiques de transport, quelles relations avec la fraction libre et l’effet médicamenteux sont exactes ?
-+ La diminution de la synthèse de l’albumine peut augmenter la forme libre :: Moins de transporteurs, donc plus de fraction libre active
-+ La forme libre augmentée peut majorer l’effet thérapeutique :: C'est la fraction libre qui agit : l'effet se majore à dose égale
-+ L’alpha-1 glycoprotéine acide est une protéine de transport des médicaments :: Elle transporte notamment les molécules basiques
-- Une diminution de l’albumine augmente la forme liée du médicament :: C'est l'inverse : moins d'albumine, moins de forme liée
-> Le mécanisme présenté est : moins de protéines de transport → davantage de forme libre → effet possiblement majoré. L’albumine et l’alpha-1 glycoprotéine acide sont citées. Ce mécanisme soutient l’administration progressive et adaptée.
-@ 12, 25
+QCM · Syndrome de renutrition inappropriée
+Concernant le syndrome de renutrition inappropriée, quelles propositions sont exactes ?
++ Il associe des troubles hydroélectrolytiques et vitaminiques à la reprise de l'alimentation. :: Après une dénutrition ou un jeûne prolongé.
++ Il entraîne une baisse du phosphore, du potassium et du magnésium. :: Ainsi qu'un déficit en vitamine B1.
++ Il peut se compliquer d'arythmies et d'insuffisance cardiaque. :: Ainsi que d'insuffisance respiratoire, d'encéphalopathie, de convulsions.
+- Il entraîne une hyperkaliémie. :: Il entraîne une hypokaliémie : le potassium rentre dans les cellules.
++ L'alcoolisme chronique est un facteur de risque. :: Comme le cancer, la malabsorption et l'anorexie.
+> Facteurs de risque : IMC < 18,5, perte de poids récente, apports très réduits ou jeûne, hypokaliémie, hypophosphatémie, hypomagnésémie, cancer, alcoolisme, malabsorption, anorexie, diurétiques, IPP, insuline.
+@ p. 22
 
-QCM · Pharmacocinétique
-Concernant les modifications de l’excrétion rénale des médicaments dans le kwashiorkor et l’hypoalbuminémie, quelles propositions sont exactes ?
-+ Le kwashiorkor peut allonger la demi-vie des médicaments faiblement liés aux protéines :: Leur élimination dépend peu de la fixation protéique
-+ Le kwashiorkor peut s’accompagner d’une altération du débit sanguin rénal et de la filtration glomérulaire :: L'hypoperfusion rénale accompagne le kwashiorkor
-- Le troisième compartiment œdémateux est directement accessible à la clairance :: Il constitue un réservoir mal accessible à l'épuration
-+ En cas d’hypoalbuminémie, l’élimination rénale des médicaments fortement fixés aux protéines peut être plus rapide :: Plus de fraction libre filtrée, donc une élimination accélérée
-> Ces distinctions reprennent la diapositive : demi-vie prolongée pour les médicaments faiblement liés dans le kwashiorkor, avec altération rénale et compartiment œdémateux non accessible à une clairance directe. Le cas inverse est décrit pour les molécules fortement fixées. La réponse doit donc être appréciée et l’administration adaptée.
-@ 13
+QCU · Prévention du syndrome de renutrition
+Quelle mesure prévient le syndrome de renutrition inappropriée ?
+- Débuter d'emblée à 30 kcal/kg/j pour corriger vite le déficit :: Il faut débuter bas, vers 10 kcal/kg/j.
++ Corriger potassium, phosphore et magnésium, administrer de la thiamine, puis augmenter progressivement les apports :: Avec un ionogramme et un ECG quotidiens les premiers jours.
+- Débuter par une nutrition parentérale exclusive :: La voie n'est pas la cause : c'est la vitesse de reprise qui compte.
+- Supprimer la thiamine, qui aggrave l'hypophosphorémie :: La thiamine (vitamine B1) fait partie de la prévention.
+- Attendre la normalisation de l'albuminémie avant de renourrir :: Ce n'est pas un préalable.
+> Prévention : corriger K, phosphore et Mg avant de commencer, thiamine 200 à 300 mg/j et micronutriments, débuter vers 10 kcal/kg/j puis paliers de 25 % sur 7 à 10 jours, ionogramme et ECG quotidiens les premiers jours.
+@ p. 22
 
-QCM · Risque préopératoire
-Concernant la population et la période couvertes par la démarche d’évaluation nutritionnelle périopératoire des recommandations formalisées d’experts (RFE) 2026, quelles propositions sont exactes ?
-+ Les patients opérés en urgence ou de façon programmée à risque chirurgical intermédiaire ou élevé :: Ce sont les situations où le dépistage nutritionnel est le plus rentable
-- Les patients dont l’IMC est inférieur à 18,5 kg/m² :: L'IMC seul ne définit ni le risque ni la démarche
-+ Une période allant de 4 à 6 semaines avant l’intervention jusqu’à J14 postopératoire :: La fenêtre utile encadre largement l'intervention
-- La démarche exclut les chirurgies urgentes :: L'urgence n'exclut pas la prise en charge postopératoire
-> Le support vise les chirurgies urgentes comme programmées à risque intermédiaire ou élevé. La démarche recherche aussi un risque de dénutrition et ne se limite pas aux patients avec un IMC bas. La période présentée s’étend de 4–6 semaines avant l’intervention à J14 postopératoire.
-@ 14, 18
-
-QCM · Risque préopératoire
-Quels facteurs liés au patient, à ses symptômes ou à ses traitements peuvent favoriser la dénutrition ?
-+ Cancer, sepsis et maladies chroniques :: Trois causes majeures d'hypercatabolisme
-- La dysphagie est un symptôme sans lien avec le risque de dénutrition :: Elle limite directement les apports : c'est un facteur de risque majeur
-+ Chimiothérapie, radiothérapie et corticothérapie :: Trois traitements qui altèrent l'appétit et augmentent les besoins
-- La polymédication n’intervient pas dans le risque nutritionnel :: Elle altère le goût, l'appétit et l'absorption
-> Les maladies, les symptômes gênant les apports et les traitements peuvent contribuer au risque. La dysphagie peut gêner les apports et figure dans les symptômes à rechercher.
-@ 15
-
-QCM · Stratification
-Concernant la stratification nutritionnelle périopératoire et les catégories de risque chirurgical cardiovasculaire à 30 jours, quelles propositions sont exactes ?
-+ Les anciens grades nutritionnels GN1 à GN4 sont obsolètes dans la démarche périopératoire des RFE 2026 :: Ils sont remplacés par une démarche combinant nutrition et risque chirurgical
-+ La démarche périopératoire des RFE 2026 combine statut nutritionnel et risque chirurgical :: Le même statut nutritionnel n'a pas le même poids selon le geste prévu
-+ Les catégories de risque chirurgical concernent le décès cardiovasculaire, l’infarctus ou l’AVC à 30 jours, en fonction du type de chirurgie :: C'est la définition du risque chirurgical utilisée
-- La catégorie de risque chirurgical élevé correspond à un risque cardiovasculaire à 30 jours inférieur à 1 % :: Moins de 1 % correspond au risque faible, non élevé
-> Les GN1–GN4 sont conservés comme repère historique. Le tableau chirurgical distingue faible < 1 %, intermédiaire 1–5 % et élevé > 5 %. Il concerne des événements cardiovasculaires à 30 jours selon le type de chirurgie, pas directement la fréquence de dénutrition.
-@ 17–18
-
-QCM · Nutrition préopératoire
-Concernant la nutrition préopératoire du patient dénutri et l’accompagnement diététique, quelles propositions sont exactes ?
-+ La nutrition préopératoire du patient dénutri vise à diminuer les complications et la durée de séjour :: C'est le bénéfice attendu, démontré chez le patient dénutri
-- En dénutrition sévère, 24 à 48 h de nutrition préopératoire constituent la durée proposée avant chirurgie programmée :: Il faut 7 à 14 jours pour obtenir un bénéfice : 24 à 48 h sont insuffisantes
-- Une nutrition artificielle préopératoire a un bénéfice démontré chez le patient non dénutri :: Aucun bénéfice n'est démontré en l'absence de dénutrition
-+ Le diététicien intervient tout au long du parcours :: Il coordonne l'évaluation, les prescriptions et le suivi
-> La nutrition préopératoire du patient dénutri vise à améliorer les suites. En forme sévère, 7–14 jours sont présentés et un report peut être discuté. Le bénéfice n’est pas démontré chez le non-dénutri dans le support, ce qui ne justifie pas une nutrition artificielle systématique. La durée proposée est de 7 à 14 jours en dénutrition sévère, quitte à différer l’intervention.
-@ 19
-
-QCM · Voies nutritionnelles
-Pour la prise en charge nutritionnelle périopératoire, quelles propositions sur le choix et l’association des voies nutritionnelles sont exactes ?
-+ Privilégier la voie orale, avec des compléments nutritionnels oraux si nécessaire :: La voie physiologique est toujours la première option
-+ Utiliser ensuite la voie entérale lorsque les apports oraux ne suffisent pas :: Si le tube digestif fonctionne, on l'utilise
-- La parentérale est privilégiée lorsque le tube digestif est utilisable :: Le tube digestif fonctionnel impose au contraire la voie entérale
-- L’utilisation d’une voie nutritionnelle interdit d’en associer une autre :: Les voies se combinent souvent, par exemple entérale et orale
-> La hiérarchie présentée est orale > entérale > parentérale. Les voies peuvent être combinées lorsque l’une ne suffit pas à atteindre les apports. La voie parentérale est veineuse ; l’entérale utilise le tube digestif. La parentérale est présentée lorsque le tube digestif est inutilisable ; sinon les voies orale et entérale sont privilégiées.
-@ 19, 24, fiche finale
-
-QCM · Nutrition postopératoire
-Chez l’adulte en postopératoire, quelles propositions sur les cibles nutritionnelles et la reprise alimentaire sont exactes ?
-+ La cible énergétique est de 20–25 kcal/kg/j :: Cible usuelle en postopératoire
-+ La cible protéique est de 1–1,3 g de protéines/kg/j :: Les besoins protéiques sont majorés par l'agression chirurgicale
-+ Les cibles nutritionnelles doivent être atteintes progressivement :: Une montée trop rapide expose au syndrome de renutrition
-- Attendre la reprise des gaz avant de réalimenter :: La reprise alimentaire précoce accélère le retour du transit
-> Ces cibles sont celles du support et doivent être atteintes progressivement. La réalimentation n’attend plus systématiquement les gaz et peut débuter précocement selon la situation. Les cibles finales ne doivent pas être confondues avec le démarrage prudent chez un patient à risque de SRI.
-@ 19, 24
-
-QCM · Préhabilitation
-Concernant les composantes et l’adaptation au risque d’une préhabilitation multimodale avant chirurgie, quelles propositions sont exactes ?
-+ La préhabilitation comprend de l’exercice physique :: L'exercice maintient et reconstruit la masse musculaire
-+ La préhabilitation comprend une prise en charge nutritionnelle :: Elle corrige les carences avant l'agression chirurgicale
-- Le programme exclut l’équilibration des comorbidités :: L'équilibration des comorbidités en fait partie intégrante
-- Le programme est uniforme, indépendamment de la fragilité et de la sarcopénie :: Il s'adapte au patient, à sa fragilité et à sa sarcopénie
-> La préhabilitation est multimodale et stratifiée sur le risque individuel : fragilité, réserves fonctionnelles, dénutrition, sarcopénie, âge et comorbidités. Elle débute avant la chirurgie et vise à réduire les complications, notamment infectieuses. L’équilibration des comorbidités est bien la troisième composante du programme multimodal.
-@ 19–20, 24
-
-QCU · Immunonutrition
-Concernant l’immunonutrition en chirurgie carcinologique, quelles propositions sur les positions des RFE 2026 et d’ESPEN 2025 sont exactes ?
-+ Les RFE 2026 ne permettent pas de recommander l’immunonutrition en chirurgie carcinologique digestive ou ORL, tandis qu’ESPEN 2025 la propose en chirurgie tumorale majeure :: Les deux recommandations divergent sur ce point
-- L’absence de recommandation possible des RFE 2026 constitue une interdiction générale de l’immunonutrition :: L'absence de recommandation n'est pas une interdiction
-- La divergence entre les recommandations impose d’écarter l’immunonutrition dans toutes les chirurgies tumorales :: Une divergence n'autorise pas une conclusion absolue
-- La glutamine entérale est recommandée en chirurgie :: Elle n'est pas recommandée en chirurgie
-> Le cours distingue l’absence de recommandation possible des RFE, faute de données suffisantes, et la proposition ESPEN en chirurgie tumorale majeure. Il conclut à une décision au cas par cas. La glutamine entérale est présentée comme non recommandée. Le support conclut à une décision au cas par cas selon le protocole local, et non à une exclusion générale.
-@ 20
-
-QCM · Jeûne
-Concernant les délais de jeûne préopératoire pour les liquides clairs et les différents repas chez l’adulte, quelles propositions sont exactes ?
-+ Liquides clairs jusqu’à 2 h avant l’anesthésie :: Les liquides clairs n'ont pas besoin d'un jeûne prolongé
-+ Repas léger : 6 h :: Délai usuel pour un repas léger
-+ Repas riche en graisses ou protéines : au moins 8 h :: Les graisses et les protéines retardent la vidange gastrique
-- Un repas léger et un liquide clair nécessitent le même délai de 2 h :: Les délais diffèrent selon la nature du contenu : 2 h et 6 h
-> Le support distingue liquides clairs 2 h, repas léger 6 h et repas riche ≥ 8 h. Le jeûne prolongé aggrave le catabolisme protéique ; ces délais ne dispensent pas d’évaluer une vidange gastrique possiblement ralentie.
-@ 19, 21
-
-QCM · Vidange gastrique
-Avant une anesthésie, quelles propositions concernant les facteurs de vidange gastrique ralentie et l’évaluation du contenu gastrique sont exactes ?
-+ Une dénutrition sévère ou un diabète peuvent s’accompagner d’une vidange ralentie :: La gastroparésie allonge le délai de vidange
-+ Les agonistes du GLP-1 peuvent ralentir la vidange gastrique :: Ils retardent la vidange, parfois de plusieurs heures
-- Le respect du délai de jeûne prouve que l’estomac est vide dans ces situations :: Sur ces terrains, le délai théorique ne garantit pas un estomac vide
-+ Une échographie gastrique peut être utilisée en cas de doute sur le contenu gastrique :: Elle visualise directement le contenu gastrique et son volume
-> Le contenu gastrique peut persister malgré le jeûne en cas de dénutrition sévère, de gastroparésie diabétique ou sous agonistes du GLP-1. Le cours évoque l’échographie gastrique au doute et l’induction en séquence rapide en cas d’estomac plein.
-@ 21
-
-QCM · Jeûne
-En chirurgie abdominale majeure, quelles propositions sur la charge glucidique préopératoire et les effets du jeûne prolongé sont exactes ?
-- La charge glucidique préopératoire remplace la prise en charge nutritionnelle du patient dénutri :: Elle ne traite pas la dénutrition : ce sont deux démarches distinctes
-+ Une charge glucidique préopératoire peut participer à la limitation de l’insulinorésistance en chirurgie abdominale majeure :: Elle améliore la tolérance métabolique à l'agression
-+ Le jeûne prolongé favorise la production de glucose à partir des acides aminés :: C'est la néoglucogenèse, au détriment du muscle
-- Le jeûne prolongé préserve les réserves protéiques en diminuant le catabolisme :: Il l'aggrave au contraire : le catabolisme protéique augmente
-> La charge glucidique préopératoire est évoquée en chirurgie abdominale majeure pour limiter l’insulinorésistance. Le jeûne prolongé favorise la néoglucogenèse à partir des acides aminés et le catabolisme protéique : il consomme les réserves protéiques au lieu de les préserver. La charge glucidique est un élément du parcours périopératoire ; elle ne remplace pas la prise en charge nutritionnelle.
-@ 9, 21
-
-QCM · Renutrition
-Après une dénutrition ou un jeûne prolongé, quelles propositions définissent le syndrome de renutrition inappropriée (SRI) ?
-+ Des troubles hydroélectrolytiques et vitaminiques lors de la reprise nutritionnelle après dénutrition ou jeûne prolongé :: Il survient à la reprise, quand l'organisme repasse en anabolisme
-+ Une baisse du phosphore, du potassium et du magnésium :: L'insuline fait entrer ces ions dans les cellules
-+ Une baisse de la vitamine B1 :: Elle est consommée par le métabolisme glucidique relancé
-- Le syndrome de renutrition inappropriée concerne la nutrition parentérale :: Il concerne toutes les voies, orale, entérale et parentérale
-> Le SRI est lié à la reprise nutritionnelle dans un contexte de dénutrition ou de jeûne prolongé. Le cours décrit des baisses de phosphore, potassium, magnésium et vitamine B1. Il donne aussi des modalités prudentes pour la nutrition entérale : le risque n’est pas limité à la parentérale.
-@ 22
-
-QCM · Renutrition
-Avant de reprendre la nutrition, quels éléments exposent au risque de syndrome de renutrition inappropriée (SRI) ?
-+ Un IMC < 18,5 kg/m² ou une perte de poids récente de 5–10 % :: Repères de dénutrition qui identifient le patient à risque
-+ Une baisse des ingesta de 50–75 % ou un jeûne prolongé :: Un jeûne prolongé est l'un des facteurs de risque majeurs
-+ Une hypokaliémie, une hypophosphatémie ou une hypomagnésémie avant renutrition :: Des électrolytes déjà bas annoncent une chute à la reprise
-- Un ionogramme initial normal permet d’exclure le risque malgré un jeûne prolongé :: Un ionogramme normal n'écarte pas le risque : il faut surveiller à la reprise
-> Les risques incluent état nutritionnel, baisse d’apports et déficits électrolytiques. Le cours cite aussi cancer, alcoolisme chronique, malabsorption, anorexie et certains traitements. Un bilan initial sans déficit n’annule pas les autres facteurs de risque.
-@ 16, 22
-
-QCM · Renutrition
-Chez un patient à risque de syndrome de renutrition inappropriée (SRI), quelles mesures de prévention et modalités initiales de renutrition sont exactes ?
-+ Corriger potassium, phosphore et magnésium avant de débuter :: La correction précède la renutrition, elle ne la suit pas
-+ La prévention comprend un apport de thiamine de 200–300 mg/j :: Elle prévient l'encéphalopathie de Gayet-Wernicke
-+ Débuter à environ 10 kcal/kg/j, puis augmenter par paliers de 25 % sur 7 à 10 jours :: Montée très progressive, avec surveillance biologique rapprochée
-- Atteindre les cibles complètes dès le premier jour pour éviter les troubles électrolytiques :: C'est précisément ce qui déclenche le syndrome de renutrition
-> Le principe est une reprise prudente avec correction préalable des déficits, thiamine et micronutriments. Le démarrage ≈ 10 kcal/kg/j est distinct des cibles finales 20–25 kcal/kg/j. Le support indique aussi 10–30 mL/h au départ en entéral et un ionogramme K/Ph/Mg avec ECG quotidiens jusqu’à J3–J5.
-@ 19, 22
-
-QCM · Renutrition
-Lors d’un syndrome de renutrition inappropriée (SRI), quelles manifestations et mesures de prise en charge sont exactes ?
-+ Arythmie, insuffisance cardiaque ou respiratoire :: Les conséquences cardiorespiratoires peuvent être fatales
-+ Encéphalopathie, convulsions, rhabdomyolyse ou hémolyse :: Signes neurologiques et musculaires de l'hypophosphatémie
-+ Réduire ou arrêter la nutrition 24–48 h, supplémenter par voie IV, puis reprendre lentement :: C'est la conduite à tenir : ralentir, corriger, puis reprendre
-- Accélérer les apports devant une baisse du phosphore pour corriger le syndrome :: Accélérer aggrave le syndrome : il faut ralentir
-> Le SRI peut avoir des manifestations cardiaques, respiratoires, neurologiques et musculaires graves. Le support présente une baisse de Ph/K/Mg de 10–20 % ou une baisse de Ph > 0,16 mmol/L, puis une réduction ou un arrêt transitoire des apports, une supplémentation IV et une reprise lente ; accélérer les apports contredit cette stratégie.
-@ 22
-
-QCM · Anesthésie
-Pour l’anesthésie d’un patient dénutri, quelles propositions sur le choix de la technique, les agents et l’adaptation des posologies sont exactes ?
-+ Il n’existe pas de supériorité générale de l’anesthésie générale (AG) sur l’anesthésie locorégionale (ALR) :: Le choix dépend du terrain et du geste, non du diagnostic nutritionnel
-- Un agent anesthésique spécifique est imposé par le diagnostic de dénutrition :: Aucun agent n'est imposé ni interdit par la dénutrition
-+ Les agents doivent être titrés en fonction de l’effet observé :: La sensibilité est accrue et imprévisible : seule la réponse guide
-+ L’anesthésie intraveineuse à objectif de concentration (AIVOC) demande de la prudence aux poids extrêmes :: Les modèles perdent leur validité aux poids extrêmes
-> Le cours ne désigne ni technique globalement supérieure ni agent spécifique. La fraction libre et les volumes de distribution peuvent être modifiés : l’administration progressive avec évaluation de l’effet est centrale. Les modèles AIVOC nécessitent de la prudence aux poids extrêmes.
-@ 25–26
-
-QCM · Anesthésie
-Pendant l’anesthésie d’un patient dénutri, quelles précautions d’installation et de monitorage sont appropriées ?
-+ Protéger les points d’appui en raison des risques d’escarres et de fractures :: La fonte musculaire et la maigreur exposent les reliefs osseux
-+ Surveiller la température et prévoir un réchauffement actif :: La perte de masse grasse supprime l'isolation thermique
-+ Monitorer la profondeur anesthésique, la curarisation de manière quantitative et la glycémie :: Trois monitorages indispensables sur ce terrain
-- Chez le patient dénutri, la déperdition thermique est lente et le réchauffement rapide :: C'est l'inverse : il se refroidit vite et se réchauffe mal
-> L’installation et le monitorage occupent une place importante. Le support décrit une déperdition thermique rapide et un réchauffement lent, d’où le réchauffement actif. Les autres surveillances portent notamment sur le BIS, la curarisation et la glycémie.
-@ 25
-
-QCM · Anesthésie et RAAC
-Dans une démarche de réhabilitation améliorée après chirurgie (RAAC) chez le patient dénutri, quelles relations entre analgésie, nausées et reprise alimentaire sont exactes ?
-+ L’épargne morphinique peut contribuer à faciliter la reprise alimentaire :: Les morphiniques retardent le transit et la reprise alimentaire
-+ La prévention des nausées et vomissements postopératoires participe à la stratégie nutritionnelle :: Les vomissements compromettent directement la renutrition
-+ De fortes doses de morphine peuvent favoriser les vomissements et gêner la renutrition :: Le cercle se referme : moins d'apports, plus de dénutrition
-- La stratégie nutritionnelle ne commence qu’après la sortie de la salle de réveil :: Elle commence en consultation, bien avant l'intervention
-> La prise en charge est pensée comme un parcours périopératoire. RAAC signifie réhabilitation améliorée après chirurgie. Épargne morphinique, prévention des NVPO et reprise alimentaire précoce sont anticipées dès l’anesthésie, en lien avec la préparation préopératoire.
-@ 24–26
+QCM · Particularités anesthésiques
+Quelles propositions sont exactes chez le patient dénutri ?
++ Il n'y a pas d'agent anesthésique spécifique. :: Ni de supériorité de l'AG sur l'ALR.
++ Les points d'appui doivent être protégés. :: Risque d'escarres et de fractures.
++ Un réchauffement actif est nécessaire. :: La déperdition est rapide et le réchauffement lent.
++ La glycémie est surveillée. :: Renutrition et insulinorésistance.
+- Les doses sont augmentées pour compenser la perte de poids. :: Elles sont titrées : fraction libre augmentée et volume de distribution réduit.
+> Chez le dénutri : titrer, protéger les appuis, réchauffer activement, monitorer BIS, curarisation et glycémie, penser à la suite (RAAC, épargne morphinique, prévention des NVPO).
+@ p. 25

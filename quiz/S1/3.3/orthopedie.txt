@@ -1,248 +1,165 @@
-// Quiz 32 – Orthopédie (UE 3.3), d'après « QUIZZ 32 Orthopédie.html »
+// Quiz – Chirurgie orthopédique (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Orthopédie avec notes ».
+// Questions type examen sur les notions générales : terrain, garrot, scellement osseux, installation, fracture de hanche. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Orthopédie
 
-QCM · Canal médullaire
-Lors de l’alésage d’un fémur, quels mécanismes peuvent contribuer au saignement ou à une embolisation ?
-+ L’ouverture des sinus veineux expose le canal à un saignement. :: L’alésage ouvre le réseau veineux intraosseux.
-+ Une pression intramédullaire supérieure à la pression veineuse peut propulser des débris vers les veines. :: Le gradient favorise alors la sortie du contenu du fût.
-- Le passage de débris dans les veines est favorisé quand la pression veineuse dépasse celle du fût. :: Ce gradient favorise l’entrée de sang dans le fût.
-- Le matériel embolisé est gazeux en l’absence de ciment. :: Le canal contient également de la graisse et d’autres débris médullaires.
-- Une cavité médullaire intacte est nécessaire pour permettre une embolisation lors d’une fracture. :: La rupture osseuse et vasculaire peut au contraire exposer la moelle.
-> L'alésage élève brutalement la pression dans le canal médullaire et pousse graisse, moelle et débris vers les veines ouvertes. De là deux conséquences : un saignement difficile à contrôler depuis l'os spongieux, et une embolisation pulmonaire de particules graisseuses, qui peut se traduire par une chute de la pression télé-expiratoire en CO₂.
-@ 2–6
+QCM · Rhumatismes inflammatoires
+Concernant la polyarthrite rhumatoïde (PR) et la spondylarthrite ankylosante (SPA), quelles propositions sont exactes ?
++ La PR peut atteindre le rachis cervical et rendre l'intubation difficile. :: L'atteinte cervicale impose des précautions lors de la mobilisation de la tête.
++ La SPA atteint surtout le rachis et les sacro-iliaques, avec une ankylose rachidienne. :: C'est la « colonne bambou ».
++ La SPA peut entraîner une insuffisance respiratoire restrictive. :: Par ankylose du thorax.
+- La SPA facilite la rachianesthésie, car l'espace intervertébral est élargi. :: L'ossification ligamentaire rend la rachianesthésie difficile.
+- Les patients sous corticoïdes au long cours n'ont pas besoin de supplémentation périopératoire. :: Une supplémentation par hémisuccinate d'hydrocortisone est prévue.
+> PR et SPA posent des problèmes d'intubation (rachis cervical, raideur, petite ouverture de bouche), d'installation, d'abord veineux, de rachianesthésie et de fonction respiratoire. Les traitements (corticoïdes, méthotrexate, anti-TNF) doivent être gérés.
+@ p. 12 à 14
 
-QCM · Terrain inflammatoire
-Quelles précautions sont pertinentes chez un patient atteint d’un rhumatisme inflammatoire évolué ?
-+ Évaluer la mobilité cervicale et l’ouverture buccale avant une éventuelle intubation. :: La maladie peut toucher le rachis cervical et la région mandibulaire.
-- Une atteinte prédominante des articulations périphériques permet d’écarter une difficulté cervicale. :: Les atteintes périphérique et cervicale peuvent coexister.
-+ Repérer les amplitudes tolérées par le patient avant l’installation. :: La rigidité et les déformations peuvent limiter les positions.
-+ Une spondylarthrite avec rachis très rigide peut compliquer l’accès neuraxial. :: Les modifications du rachis peuvent rendre l’abord difficile.
-- L’absence de gêne de la hanche opérée permet de juger la tolérance du décubitus. :: Il faut aussi considérer les autres articulations et le rachis.
-> Un rhumatisme inflammatoire évolué impose trois vérifications : la mobilité du rachis cervical, car l'instabilité atloïdo-axoïdienne contre-indique l'hyperextension, les voies aériennes, souvent difficiles par limitation de l'ouverture buccale, et le traitement de fond, corticoïdes et immunosuppresseurs, dont la gestion périopératoire se décide avec le rhumatologue.
-@ 12–14
+QCM · Infection et antibioprophylaxie
+Concernant le risque infectieux en orthopédie, quelles propositions sont exactes ?
++ L'antibioprophylaxie est injectée avant l'incision et avant le gonflage du garrot. :: 10 à 15 minutes avant le gonflage, pour que l'antibiotique atteigne le membre.
++ Le diabète déséquilibré, le tabac et l'obésité augmentent le risque d'infection. :: Ce sont des facteurs liés au terrain.
++ L'antibioprophylaxie ne dépasse pas 24 heures. :: Elle n'est pas prolongée.
++ L'hypothermie peropératoire augmente le risque d'infection. :: Comme l'hématome et la durée prolongée.
++ Lors d'une reprise de prothèse, l'antibioprophylaxie est injectée après les prélèvements bactériologiques. :: Pour ne pas les fausser.
+> Facteurs de risque infectieux : terrain (diabète, tabac, obésité, insuffisance rénale, cirrhose, immunosuppresseurs) et périopératoires (hypothermie, hématome, durée, antibioprophylaxie mal faite). Toute infection préopératoire connue est traitée.
+@ p. 24, 60 et 120
 
-QCM · Prothèse programmée
-En préparation d’une prothèse articulaire programmée, quelles mesures sont cohérentes ?
-+ Rechercher une anémie et en évaluer la cause avant le geste. :: Le délai programmé permet une optimisation.
-- Une prothèse justifie de programmer l’anesthésie avant d’évaluer les bénéfices fonctionnels. :: Le rapport entre autonomie attendue et risques guide la décision.
-+ Un diabète déséquilibré fait partie des facteurs modifiables à repérer. :: Le contrôle du terrain peut participer à la réduction du risque infectieux.
-- L’analgésie doit être planifiée seulement après avoir observé la douleur en SSPI. :: Le choix d’une technique régionale ou multimodale se prépare.
-+ L’indication et le moment de l’antibioprophylaxie se préparent selon le geste. :: Les reprises avec prélèvements peuvent imposer une coordination spécifique.
-> Une prothèse programmée se prépare : dépistage et correction d'une anémie plusieurs semaines avant, recherche et traitement d'un foyer infectieux, évaluation cardiovasculaire adaptée au terrain, et information sur le programme de réhabilitation. L'anémie préopératoire est le principal facteur modifiable du recours transfusionnel.
-@ 21, 24–26, 94
-
-QCM · Décubitus latéral
-Après installation en décubitus latéral pour une PTH, quels points sont pertinents ?
-+ Le poumon déclive peut être moins ventilé. :: La compression peut entraîner atélectasie et déséquilibre ventilation-perfusion.
-- Le poumon déclive est mieux ventilé du fait de sa position. :: La position peut favoriser une compression du poumon inférieur.
-+ Vérifier les appuis du côté déclive et éviter la compression du plexus. :: L’épaule et les points d’appui doivent être dégagés et protégés.
-- Une bonne saturation permet de ne pas vérifier l’oreille et l’œil déclives. :: La saturation ne renseigne pas sur les compressions locales.
-+ Vérifier que le bras supérieur ne met pas le plexus en traction. :: L’étirement est un autre mécanisme de lésion nerveuse.
-> Le décubitus latéral pour une prothèse de hanche expose le bras inférieur et le creux axillaire, le nerf fibulaire au genou inférieur, et déséquilibre la ventilation entre les deux poumons. Les appuis, les billots et l'alignement du rachis se vérifient avant le drapage, car ensuite plus rien n'est accessible.
-@ 31–33, 98
-
-QCM · Demi-assis
-Une prothèse d’épaule est réalisée en position demi-assise. Quelles précautions sont justifiées ?
-+ Tenir compte du fait que la pression au niveau du cerveau peut être plus basse que celle mesurée au bras. :: Le gradient hydrostatique dépend de la hauteur.
-- Un brassard à la jambe rapproche en général la mesure de la pression cérébrale. :: Une mesure plus basse peut accentuer la surestimation par rapport au cerveau.
-+ Vérifier la fixation de la sonde avant que la tête devienne difficile d’accès. :: La tête est peu accessible une fois le patient installé.
-+ Recontrôler l’axe tête-cou-tronc et les appuis pendant l’intervention. :: Le patient peut glisser ou être déplacé par les tractions.
-+ Une modification de la hauteur de la tête peut modifier le gradient entre le bras et le cerveau. :: L’écart hydrostatique augmente lorsque la différence de hauteur augmente.
-> La position demi-assise pour une prothèse d'épaule combine deux risques : une baisse de la perfusion cérébrale, car la pression mesurée au bras surestime celle de la tête d'environ 7,5 mmHg par 10 cm de dénivelé, et l'embolie gazeuse par aspiration d'air dans une veine ouverte au-dessus du cœur.
-@ 36, 124–127
-
-QCM · Décubitus ventral
-Après retournement en décubitus ventral pour chirurgie du rachis, la pression artérielle baisse et le champ devient plus hémorragique. Quelles propositions sont exactes ?
-+ Une compression abdominale peut diminuer le retour veineux. :: La compression cave ou iliofémorale peut réduire le débit.
-+ Une gêne au drainage veineux paravertébral peut majorer le saignement. :: Les veines du champ opératoire peuvent s’engorger.
-- Un appui abdominal ferme peut améliorer ces deux paramètres en libérant la veine cave. :: Il peut au contraire comprimer les axes veineux.
-+ Il faut contrôler les appuis thoraciques et iliaques ainsi que le dégagement abdominal. :: La position est un facteur réversible à vérifier.
-- Une bonne capnographie permet de ne pas vérifier l’absence de compression oculaire. :: Les yeux doivent être protégés indépendamment de la ventilation.
-> Une hypotension avec majoration du saignement après retournement en ventral évoque une compression abdominale : un billot mal placé comprime la veine cave, ce qui réduit le retour veineux et dérive le sang vers les plexus veineux épiduraux, rendant le champ opératoire plus hémorragique. La correction est mécanique.
-@ 39–40, 135
+QCU · Position « beach chair »
+Pour une prothèse d'épaule en position demi-assise, le brassard est placé au bras. Quel est le principal danger ?
+- Une surestimation de la saturation en oxygène :: Ce n'est pas le danger de cette position.
++ Une hypoperfusion cérébrale, car la pression au niveau du cerveau est plus basse que celle mesurée au bras :: La tête est au-dessus du brassard.
+- Une compression du nerf fibulaire :: C'est un risque de la position gynécologique.
+- Une augmentation du retour veineux :: La position assise diminue au contraire le retour veineux.
+- Une hyperpression intracrânienne :: Le risque est l'inverse : une pression de perfusion cérébrale trop basse.
+> En position demi-assise, la pression cérébrale est inférieure à celle affichée : il faut éviter l'hypotension (contention, vasoconstricteurs), surveiller le BIS ou la NIRS. La tête est inaccessible : aligner le cou, protéger les yeux, fixer les tuyaux.
+@ p. 36 et 124
 
 QCM · Épargne sanguine
-Quels principes s’appliquent à la gestion du sang en chirurgie prothétique ?
-+ L’objectif d’hémoglobine avant chirurgie est distinct du seuil de transfusion. :: La préparation optimise le terrain ; la transfusion tient compte du contexte.
-- Une hémoglobine sous l’objectif préopératoire est une indication de transfusion. :: Il faut distinguer correction de l’anémie et transfusion.
-+ Le bilan étiologique de l’anémie peut conduire à corriger une carence en fer. :: Le fer est un des moyens de préparation présentés.
-+ L’acide tranexamique agit en limitant la fibrinolyse. :: Il contribue à réduire les pertes.
-- Une hypotension volontaire peut viser la même cible chez tous les patients coronariens ou non. :: La perfusion des organes et les comorbidités modifient le rapport bénéfice-risque.
-> L'épargne sanguine se construit sur trois axes : corriger l'anémie en amont, limiter le saignement peropératoire par l'acide tranexamique et le maintien de la normothermie, et transfuser selon un seuil restrictif. Ces trois leviers valent mieux que la seule décision transfusionnelle en fin d'intervention.
-@ 55–58, 94–95
+Quelles mesures font partie de l'épargne sanguine (patient blood management) en orthopédie ?
++ La correction préopératoire de l'anémie. :: Par fer IV ou EPO, en anticipant plusieurs semaines avant.
+- L'aspirine préopératoire pour améliorer la microcirculation. :: Elle augmente le saignement : c'est l'acide tranexamique qui le diminue.
++ La récupération du sang épanché (cell saver, Redon récupérateur). :: Elle limite la transfusion homologue.
+- La transfusion dès que l'hémoglobine baisse, quel que soit le seuil. :: Les seuils transfusionnels doivent être respectés.
+- L'arrêt de toute anticipation en chirurgie programmée. :: L'anticipation de l'anémie est au cœur de la démarche.
+> Le patient blood management réduit l'exposition à la transfusion : correction de l'anémie avant, acide tranexamique, garrot, récupération sanguine, seuils transfusionnels respectés.
+@ p. 55 et 56
 
-QCM · Garrot : préparation
-Quelles propositions sont exactes avant ou pendant le gonflage d’un garrot ?
-+ Adapter la taille du brassard et protéger la peau. :: La pression et les plis peuvent léser les tissus sous le brassard.
-- La pression de gonflage peut être fixée au même niveau pour tous si la chirurgie est identique. :: La pression d’occlusion dépend notamment du patient et du brassard.
-+ Si une antibioprophylaxie est indiquée, anticiper son administration avant le gonflage. :: L’antibiotique doit pouvoir atteindre le membre.
-+ Suivre l’heure de gonflage et la durée d’ischémie. :: La tolérance locale dépend de la durée.
-- Un pontage vasculaire du membre ne change pas l’évaluation tant que la pression de gonflage est basse. :: Il fait partie des terrains imposant une discussion.
-> Avant un garrot : vérifier l'absence de contre-indication, choisir un brassard adapté au membre, protéger la peau, exsanguiner le membre par surélévation ou bande, et noter l'heure de gonflage. La pression se règle au-dessus de la pression artérielle systolique, et la durée se surveille, avec un seuil d'alerte autour de deux heures.
-@ 59–71
+QCM · Garrot pneumatique
+Concernant le garrot pneumatique, quelles propositions sont exactes ?
++ Il diminue le saignement en rendant le champ opératoire exsangue. :: Il facilite le travail du chirurgien et raccourcit l'intervention.
+- Sa durée peut atteindre 4 heures sans risque si la pression est basse. :: La durée idéale est d'environ une heure, sans dépasser deux heures ; la nécrose musculaire apparaît au-delà de 3 heures.
+- Une compression nerveuse n'apparaît qu'après plusieurs heures. :: Une douleur de garrot peut apparaître après 30 à 60 minutes.
++ La pression de gonflage ne dépasse pas 350 mmHg. :: Elle est adaptée à la pression d'occlusion artérielle.
+- Il est placé de préférence à la racine du membre. :: On évite la racine des membres.
+> Garrot : taille adaptée, bien placé, rembourré. Durée idéale 60 min, maximum 2 h ; un dégonflage de 10 min est possible après 45-60 min, mais pas après 90 min. La nécrose musculaire apparaît au-delà de 3 heures.
+@ p. 60, 64 à 66, 68 et 69
 
-QCM · Garrot : reperfusion
-Quels événements peuvent survenir après le dégonflage d’un garrot ?
-+ Une hausse transitoire de l’EtCO₂. :: Le CO₂ accumulé dans le membre revient dans la circulation.
-- Une hausse de l’EtCO₂ démontre une augmentation de la ventilation minute. :: Le CO₂ ramené aux poumons peut augmenter indépendamment de la ventilation.
-+ Une baisse tensionnelle liée à la redistribution du volume et à la reperfusion. :: Une partie du volume se redistribue vers le membre.
-+ Un œdème du membre qui se majore dans les heures suivantes. :: L’ischémie-reperfusion peut provoquer un gonflement retardé.
-- Un pansement serré prévient le gonflement sans risque pour la perfusion du membre. :: L’augmentation de volume rend une compression excessive problématique.
-> Le dégonflage renvoie dans la circulation le sang stagnant d'un membre en métabolisme anaérobie : acidose et potassium arrivent au cœur, la pression télé-expiratoire en CO₂ s'élève brutalement, et la pression artérielle chute par la levée de la vasoconstriction et la reperfusion. C'est un moment à anticiper, non à subir.
-@ 65–71
+QCM · Gonflage et dégonflage du garrot
+Concernant les effets du gonflage et du dégonflage d'un garrot pneumatique, quelles propositions sont exactes ?
++ Au gonflage, après chasse du sang, la volémie augmente brutalement. :: De l'ordre de 400 à 500 mL.
++ Au dégonflage, une hypotension peut survenir. :: Par baisse relative de la volémie et libération de métabolites.
++ Au dégonflage, l'EtCO2 augmente. :: Le sang du membre ischémié est riche en CO2.
++ Au dégonflage, une hyperkaliémie et une acidose peuvent survenir. :: Ce sont les produits de l'ischémie.
+- Le dégonflage doit être brutal pour limiter la durée d'ischémie. :: Il doit être progressif.
+> Gonflage : augmentation brutale de la volémie. Dégonflage progressif : hypotension, hypercapnie, hyperkaliémie, acidose, hypothermie, micro-emboles. Vérifier le pouls distal à la levée.
+@ p. 65 et 68
 
-QCM · Scellement : chronologie
-Quels éléments renforcent la suspicion de syndrome de scellement osseux ?
-+ Une désaturation et une hypotension qui débutent à l’impaction d’une tige. :: La concordance avec ce temps opératoire est évocatrice.
-- Une détérioration après réduction est trop tardive pour être compatible. :: La réduction figure parmi les temps à risque.
-+ Une chute soudaine de l’EtCO₂ sous AG pendant l’insertion. :: Elle peut refléter une baisse de perfusion pulmonaire.
-+ Une perte de conscience inattendue autour du scellement sous anesthésie régionale. :: Elle figure parmi les critères cliniques du syndrome.
-- Une complication liée au scellement aboutit à un arrêt circulatoire. :: La présentation est classée en plusieurs grades.
-> Le syndrome de scellement survient à un moment précis : insertion du ciment et de la prothèse, ou réduction de l'articulation. Sa reconnaissance tient à cette chronologie, associée à une hypotension brutale, une désaturation et une chute de la pression télé-expiratoire en CO₂, parfois des troubles du rythme.
-@ 76–79, 85–86
+QCU · Contre-indications du garrot
+Parmi ces situations, laquelle est une contre-indication relative au garrot ?
+- Une fracture de cheville :: C'est une indication habituelle du garrot.
++ Une drépanocytose :: L'ischémie et l'acidose favorisent la falciformation.
+- Un patient jeune sans antécédent :: Pas de contre-indication.
+- Une rupture du tendon d'Achille :: Le garrot est habituel dans cette chirurgie.
+- Une anesthésie générale :: Le type d'anesthésie n'est pas une contre-indication.
+> Contre-indications relatives : athérosclérose sévère, pontage, fistule artério-veineuse, thrombose veineuse, drépanocytose, vascularite, diabète compliqué, pathologie cérébrale sévère (hypercapnie au dégonflage).
+@ p. 70
 
-QCM · Scellement : ventricule droit
-Quelles propositions expliquent le tableau circulatoire d’un syndrome de scellement sévère ?
-+ L’obstruction et la vasoconstriction pulmonaires augmentent la postcharge droite. :: Les résistances pulmonaires peuvent augmenter brutalement.
-+ La dilatation droite peut limiter le remplissage du ventricule gauche. :: Le déplacement du septum et le débit pulmonaire réduit y contribuent.
-- Une hausse de la pression pulmonaire protège le débit en diminuant le travail du ventricule droit. :: Elle augmente sa charge.
-- Une baisse du débit impose un remplissage abondant sans réévaluation de la fonction droite. :: La surcharge du ventricule droit peut aggraver le tableau.
-+ Une HTAP préexistante réduit la marge de tolérance de l’accident. :: La réserve du ventricule droit peut être réduite.
-> Le mécanisme est une embolisation pulmonaire massive de graisse, de moelle et de ciment, qui élève brutalement les résistances pulmonaires. Le ventricule droit, qui ne peut pas s'adapter à une postcharge qui monte en quelques secondes, se dilate et défaille : c'est une insuffisance cardiaque droite aiguë.
-@ 82–87
+QCM · Syndrome de scellement osseux : mécanisme
+Concernant le syndrome de scellement osseux, quelles propositions sont exactes ?
++ Il est lié à des emboles de moelle osseuse, de graisse, de ciment et d'air vers les poumons. :: Accident embolique.
++ Il survient au moment de la cimentation, de la pose de la prothèse ou de la réduction. :: Parfois au dégonflage du garrot.
++ Il entraîne une défaillance aiguë du ventricule droit. :: Par hausse brutale des résistances pulmonaires.
+- Il ne concerne que les prothèses non cimentées. :: Le ciment est le principal facteur de risque.
+- Un foramen ovale perméable protège contre ses conséquences. :: Il expose au contraire à une embolie paradoxale vers le cerveau.
+> L'alésage ouvre les veines de l'os et le ciment fait monter la pression dans le canal médullaire : des emboles passent vers les poumons. Les artères pulmonaires se ferment, le ventricule droit se dilate, le débit et la PA s'effondrent.
+@ p. 76 et 77
 
-QCM · Scellement : prévention
-Quelles actions sont cohérentes avant l’insertion d’une longue tige cimentée chez un patient fragile ?
-+ Annoncer le temps de cimentation et renforcer la vigilance partagée. :: La chronologie guide la détection et la réponse.
-- Reporter la préparation du soutien tensionnel jusqu’à la désaturation. :: La préparation doit précéder le temps à risque.
-+ Vérifier l’oxygénation, la volémie et la possibilité de soutenir la pression. :: Le terrain rend une baisse de débit moins bien tolérée.
-+ Discuter les mesures chirurgicales limitant la pressurisation et les débris. :: Le lavage du fût et le drainage sont cités.
-- Un ciment contenant un antibiotique permet de ne pas vérifier les allergies. :: La composition du ciment peut au contraire être pertinente.
-> Avant l'insertion d'une tige cimentée chez un patient fragile : prévenir le chirurgien pour qu'il annonce le moment, optimiser la volémie, augmenter la fraction inspirée en oxygène, disposer d'un vasopresseur prêt, et surveiller étroitement la pression télé-expiratoire en CO₂, dont la chute est le signe le plus précoce.
-@ 85–89
+QCM · Syndrome de scellement osseux : diagnostic et traitement
+Concernant le diagnostic et le traitement du syndrome de scellement osseux, quelles propositions sont exactes ?
++ Sous anesthésie générale, une chute brutale de l'EtCO2 est souvent le premier signe. :: Le débit pulmonaire s'effondre.
++ Sous rachianesthésie, il peut se manifester par une agitation, un malaise ou une dyspnée. :: Le patient est conscient.
++ La noradrénaline maintient la perfusion coronaire du ventricule droit. :: C'est le traitement hémodynamique.
++ Le remplissage est prudent. :: Un ventricule droit dilaté le supporte mal.
+- Le protoxyde d'azote est recommandé pendant la cimentation. :: Il est évité, et la FiO2 est augmentée avant la cimentation.
+> Traitement : FiO2 100 %, contrôle des voies aériennes, noradrénaline, remplissage prudent, échographie cardiaque, soins intensifs. Prévention : discuter le ciment, FiO2 élevée, normovolémie, lavage du canal médullaire ; PA invasive chez le patient à haut risque.
+@ p. 77 et 86
 
-QCM · Prothèse de genou
-Quelles propositions sont exactes à propos de la PTG et de sa récupération ?
-+ Un cathéter du canal des adducteurs est une option antalgique. :: La stratégie vise notamment à faciliter la mobilisation.
-- Une PTG à charnière a le même profil d’impaction qu’un implant court, quelle que soit la longueur des tiges. :: Les tiges longues peuvent accroître la pressurisation.
-+ Le garrot peut améliorer le champ sans éliminer les pertes après relâchement. :: L’hémostase et les pertes doivent encore être évaluées.
-- Une analgésie efficace rend inutile la réévaluation des possibilités de lever. :: Le lever dépend de plusieurs critères fonctionnels et cliniques.
-+ Une PTG de reprise peut demander une préparation différente d’une PTG standard. :: La durée, les pertes et le type d’implant peuvent différer.
-> La prothèse de genou est l'une des chirurgies orthopédiques les plus douloureuses, et la récupération dépend directement de la qualité de l'analgésie et de la mobilisation précoce. L'analgésie associe blocs périphériques respectant la motricité du quadriceps, infiltration locale et antalgiques non morphiniques.
-@ 103, 106–110
+QCM · Prothèses
+Concernant l'anesthésie pour prothèse de genou, prothèse d'épaule et reprise de prothèse, quelles propositions sont exactes ?
++ La prothèse totale de genou est très douloureuse. :: Analgésie par cathéter du canal des adducteurs et infiltration.
++ Le saignement de la prothèse de genou survient surtout après l'intervention. :: Le garrot limite le saignement peropératoire.
++ La prothèse d'épaule est habituellement réalisée sous AG associée à un cathéter interscalénique. :: En position demi-assise.
++ La reprise de prothèse est plus longue et plus hémorragique qu'une première pose. :: Acide tranexamique, contrôles d'Hb, récupération sanguine.
++ La prothèse d'épaule est peu hémorragique. :: Son risque principal est hémodynamique, lié à la position.
+> PTG : AG ou RA, analgésie par bloc du canal des adducteurs et infiltration, acide tranexamique. Épaule : AG et bloc interscalénique, risque d'hypoperfusion cérébrale. Reprise : longue, hémorragique, tige longue cimentée, antibioprophylaxie après prélèvements.
+@ p. 103, 120 et 124
 
-QCM · Reprise prothétique
-Pour une reprise de prothèse de hanche potentiellement longue avec tige longue et prélèvements programmés, quelles propositions sont exactes ?
-+ Anticiper le risque hémorragique et la stratégie d’épargne sanguine. :: La préparation doit tenir compte de la durée et de la complexité.
-- Administrer l’antibioprophylaxie au même moment que pour une prothèse primaire, sans échange sur les prélèvements. :: La chronologie doit être coordonnée.
-+ Vérifier à quel moment les prélèvements doivent être réalisés et quand administrer l’antibioprophylaxie. :: Le cours décrit une coordination spécifique en reprise.
-+ La longueur de la tige est un élément d’évaluation du risque d’impaction. :: Une tige longue peut accroître la pressurisation du canal.
-- Un descellement exclut une infection associée. :: Plusieurs mécanismes peuvent être discutés lors d’une reprise.
-> Une reprise de prothèse de hanche cumule les difficultés : durée longue, saignement important par les surfaces osseuses, alésage et tige longue exposant au syndrome de scellement, et hypothermie. Les prélèvements bactériologiques se font avant toute antibiothérapie, ce qui conditionne le moment de l'antibioprophylaxie.
-@ 94–95, 107, 120
+QCM · Chirurgie du rachis
+Concernant la chirurgie du rachis, quelles propositions sont exactes ?
++ Elle est souvent hémorragique. :: D'où l'épargne sanguine et l'acide tranexamique.
+- Elle se fait habituellement en décubitus latéral, avec un accès facile au patient. :: Elle se fait souvent en décubitus ventral, avec un accès limité.
++ L'abdomen doit rester libre en décubitus ventral. :: Une compression abdominale gêne le retour veineux et augmente le saignement.
+- L'infiltration d'anesthésique local est indiquée même en cas de brèche de la dure-mère. :: Elle est contre-indiquée en cas de brèche durale.
+- La compression abdominale diminue le saignement péridural. :: Elle l'augmente, par congestion des veines épidurales.
+> Rachis : AG, épargne sanguine, monitorage adapté, décubitus ventral avec abdomen libre, analgésie par PCA et cathéter d'infiltration (sauf brèche de la dure-mère).
+@ p. 135
 
 QCM · Traumatologie
-Quelles propositions sont exactes en traumatologie orthopédique ?
-+ Documenter l’examen radial avant anesthésie d’une fracture diaphysaire humérale. :: Une paralysie peut précéder l’intervention.
-- Une fracture fermée exclut une urgence en l’absence de saignement externe. :: Une menace cutanée ou une compression neurologique peut modifier le délai.
-+ Une fracture diaphysaire du fémur peut provoquer des pertes importantes. :: Le saignement peut être profond.
-- Une analgésie régionale rend inutile la surveillance d’un membre à risque de syndrome des loges. :: Le bloc et la surveillance doivent être coordonnés.
-+ Une douleur nouvelle ou croissante doit être signalée et réévaluée. :: Elle peut constituer un signal d’alerte.
-> La traumatologie impose un double raisonnement : la lésion osseuse et le contexte. Le patient est à estomac plein, souvent douloureux et hypovolémique, parfois polytraumatisé. Le délai opératoire se décide selon l'urgence de la lésion, et le bilan ne doit pas retarder une chirurgie qui arrête un saignement.
-@ 140–142, 145–147
+Concernant la prise en charge anesthésique en traumatologie orthopédique, quelles propositions sont exactes ?
++ Une fracture ouverte est une urgence vraie. :: Comme une luxation, une compression nerveuse ou un délabrement de membre.
++ Le patient traumatisé est souvent considéré comme ayant l'estomac plein. :: La douleur et le traumatisme ralentissent la vidange.
++ L'examen neurologique du membre doit être noté avant l'anesthésie. :: Un déficit ne pourrait plus être évalué ensuite.
+- Un bloc périphérique est sans risque dans une fracture de jambe. :: Il peut masquer la douleur d'un syndrome des loges.
+- Une fracture de cheville relève habituellement d'une hospitalisation de plusieurs jours. :: L'ambulatoire est fréquent.
+> En traumatologie : urgences vraies, estomac plein, lésions associées, examen neurologique préalable. La fracture des deux os de la jambe expose au syndrome des loges, qu'un bloc peut masquer.
+@ p. 140 et 147
 
-QCM · Fracture de hanche
-En préparant un sujet âgé fragile pour une fracture de hanche, quelles propositions sont exactes ?
-+ Rechercher les comorbidités et les traitements qui modifient la stratégie. :: Les ordonnances renseignent sur le terrain et les contraintes.
-- Une échocardiographie doit être faite avant de programmer le bloc. :: Elle se discute si son résultat peut modifier la conduite.
-+ Éviter les examens qui retarderaient la chirurgie sans changer la prise en charge. :: La chirurgie doit être organisée rapidement.
-- L’impossibilité d’une rachianesthésie rend la chirurgie impossible. :: Une autre stratégie anesthésique peut être envisagée.
-+ Corriger en priorité les anomalies qui changent la prise en charge immédiate. :: Le bilan est orienté vers les interventions utiles.
-> Une fracture de hanche chez un sujet âgé fragile demande trois décisions : opérer tôt, idéalement dans les 48 heures, car le délai aggrave la mortalité ; ne pas retarder pour des examens qui ne changeront pas la prise en charge ; et traiter la douleur dès l'accueil, notamment par un bloc du nerf fémoral.
-@ 151, 165–167
+QCU · Classification de Garden
+Une patiente de 85 ans a une fracture du col du fémur très déplacée (Garden 4). Quel est le traitement chirurgical habituel ?
+- Un vissage :: Il est réservé aux fractures peu ou pas déplacées (Garden 1 et 2).
++ Une prothèse :: Les fractures très déplacées (Garden 3 et 4) sont traitées par prothèse.
+- Un clou gamma :: Il traite les fractures du massif trochantérien.
+- Une vis-plaque :: Elle traite aussi les fractures du massif trochantérien.
+- Un traitement orthopédique sans chirurgie :: Il n'est pas adapté chez le sujet âgé, qui doit être levé tôt.
+> Garden 1 et 2 (engrenée, non déplacée) : vissage. Garden 3 et 4 (déplacée) : prothèse. Massif trochantérien : clou ou vis-plaque.
+@ p. 154 et 159
 
-QCM · Sujet âgé : surveillance
-Quelles mesures s’intègrent à la prise en charge d’un sujet âgé opéré d’une fracture de hanche ?
-+ Prévenir l’hypothermie. :: C’est un point de vigilance peropératoire.
-+ Traiter rapidement une hypotension peropératoire. :: Une hypoperfusion expose notamment les reins et le myocarde.
-- Les plages de suppression EEG permettent d’affirmer qu’une anesthésie plus profonde est souhaitable. :: Elles invitent à réévaluer la profondeur et le contexte.
-+ Restituer lunettes et aides auditives dès que possible après le réveil. :: Elles facilitent la communication et les repères.
-- La remise en mouvement doit attendre la fin de toute analgésie. :: Une analgésie adaptée favorise au contraire la mobilisation.
-> La prise en charge dépasse le geste : prévention du délire par la réorientation et l'épargne des médicaments à risque, analgésie efficace permettant la mobilisation, lever précoce, dépistage et correction de l'anémie, et prévention thromboembolique. La mortalité à un an dépend de ces éléments autant que de la chirurgie.
-@ 168–169, 179–180
+QCM · Fracture de hanche du sujet âgé
+Concernant la fracture de hanche du sujet âgé, quelles propositions sont exactes ?
++ C'est une chirurgie urgente, à réaliser idéalement dans les 24 heures. :: Le retard augmente la morbi-mortalité.
++ Les antiagrégants plaquettaires ne doivent pas retarder la chirurgie. :: Les anticoagulants sont antagonisés si possible.
+- Une échographie cardiaque est recommandée avant l'intervention chez tout patient de plus de 80 ans. :: Elle n'est faite que si elle modifie la prise en charge.
+- Les anticholinergiques sont recommandés pour prévenir la confusion. :: Ils favorisent la confusion : on les évite.
+- La recherche de la cause de la chute est inutile. :: Il faut chercher une cause (malaise, trouble du rythme…).
+> Bilan minimal (NFS, hémostase, ionogramme, fonction rénale, ECG) qui ne doit pas retarder la chirurgie. Préparation : adapter les traitements, corriger les troubles hydroélectrolytiques, analgésie par bloc, thromboprophylaxie.
+@ p. 165 à 167
 
-QCM · Choix de technique
-Quelles propositions distinguent le choix de technique et les caractéristiques de la rachianesthésie continue ?
-+ Le terrain, les contraintes hémodynamiques et les anticoagulants entrent dans le choix. :: La technique s’individualise.
-- Les données sur la PTH programmée s’appliquent directement à la fracture de hanche. :: Les populations et les contraintes diffèrent.
-+ Un cathéter intrathécal permet une administration fractionnée. :: La dose et la vitesse d’installation peuvent être adaptées.
-- La possibilité de fractionner élimine les contraintes liées aux anticoagulants. :: La technique reste neuraxiale.
-- Une diffusion irrégulière est exclue si le cathéter est intrathécal. :: La position du cathéter peut influencer la répartition de l’anesthésique.
-> Aucune technique n'a démontré sa supériorité sur la mortalité ou le délire : rachianesthésie et anesthésie générale se valent, et le choix se fait sur le terrain et les traitements anticoagulants. La rachianesthésie continue, par cathéter, permet une titration des doses et une meilleure stabilité hémodynamique chez le sujet fragile.
-@ 113–115, 174–177
+QCM · Fracture de hanche : anesthésie
+Concernant l'anesthésie pour fracture de hanche du sujet âgé, quelles propositions sont exactes ?
+- La rachianesthésie diminue la mortalité par rapport à l'AG. :: Aucune technique n'a montré de supériorité sur la mortalité.
++ La rachianesthésie unilatérale ou continue entraîne moins d'hypotension. :: Elle est plus stable.
++ Un bloc fémoral ou un bloc PENG assure l'analgésie. :: Il permet d'épargner la morphine.
+- Une anesthésie profonde, avec des épisodes de burst suppression, protège le cerveau. :: Il faut éviter une anesthésie trop profonde : le BIS aide à l'éviter.
+- L'hypothermie est bien tolérée chez le sujet âgé. :: Sa prévention est une priorité.
+> Peropératoire : prévenir l'hypothermie, monitorer le BIS, éviter l'hypotension et l'anesthésie trop profonde, analgésie par bloc, dépister l'anémie. Postopératoire : lever précoce, lunettes et appareils auditifs, prévention de la confusion et des complications.
+@ p. 168, 169 et 174
 
-QCM · Fractures de hanche et implants
-Quelles associations sont cohérentes en distinguant fracture du col et fracture trochantérienne ?
-+ Une fracture du col peu déplacée peut relever d’un vissage. :: Ce geste est illustré pour certains types peu déplacés.
-+ La classification de Garden décrit le déplacement des fractures du col fémoral. :: Elle distingue notamment les fractures peu déplacées des fractures déplacées.
-+ Une fracture déplacée du col chez un sujet âgé peut conduire à une prothèse intermédiaire. :: Le support l’illustre pour les formes déplacées.
-+ Un clou peut stabiliser certaines fractures trochantériennes. :: Le cours illustre le clou et la vis-plaque.
-- Le choix de l’implant peut se déduire de l’intensité de la douleur sans localisation de fracture. :: La localisation et le déplacement orientent le geste.
-> Les fractures du col, intracapsulaires, menacent la vascularisation de la tête fémorale et conduisent souvent à une prothèse chez le sujet âgé. Les fractures trochantériennes, extracapsulaires, respectent cette vascularisation et relèvent d'une ostéosynthèse, mais saignent davantage dans les parties molles.
-@ 154–159
-
-QCM · RAAC
-Quelles propositions décrivent une démarche de réhabilitation améliorée après chirurgie ?
-+ Elle associe des mesures avant, pendant et après le geste. :: La récupération se prépare dès l’amont.
-- Elle se définit principalement par une sortie le jour même. :: Le retour fonctionnel est l’objectif, quel que soit le lieu de récupération.
-+ Une analgésie adaptée peut faciliter la reprise précoce de la marche. :: La mobilité et l’analgésie se planifient ensemble.
-- Le travail de l’équipe commence au premier lever. :: La préparation du patient et du parcours débute avant l’intervention.
-+ La récupération concerne aussi les fonctions psychiques et les repères. :: Le programme s’intéresse à la récupération globale.
-> La réhabilitation améliorée en orthopédie repose sur l'information du patient, la limitation du jeûne, l'anesthésie locorégionale et l'épargne morphinique, la prévention des nausées et de l'hypothermie, le lever le jour même, et le retrait précoce des sondes et drains. L'objectif est la récupération fonctionnelle, non la durée de séjour.
-@ 28, 94, 169, 182–185
-
-QCU · Causalité · Décubitus ventral
-Affirmation 1. Le décubitus ventral avec abdomen comprimé peut entraîner une hypotension.
-Affirmation 2. La compression des axes veineux peut réduire le retour veineux.
-Évalue les deux affirmations et leur lien explicatif.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux sont vraies et liées. Une diminution du retour veineux peut diminuer le débit cardiaque et la pression.
-@ 39–40
-
-QCU · Causalité · Temps du garrot
-Affirmation 1. Une hausse d’EtCO₂ après dégonflage prouve une diminution de ventilation minute.
-Affirmation 2. La reperfusion peut ramener du CO₂ accumulé dans le membre.
-Évalue les deux affirmations et leur lien explicatif.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-+ La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est fausse, la seconde est vraie. Même à ventilation inchangée, le retour de CO₂ du membre peut augmenter l’EtCO₂.
-@ 66–68
-
-QCU · Choix unique · Grade du scellement
-Lors d’une cimentation, un patient présente un collapsus nécessitant des compressions thoraciques. Quel grade correspond à ce tableau ?
-- Grade 1, si la SpO₂ reste au-dessus de 88 %.
-- Grade 2, dès lors que la PAS chute de plus de 40 %.
-+ Grade 3, du fait de la réanimation cardiopulmonaire.
-- Grade 2 si le rythme initial est organisé.
-- La classification dépend d’abord de la quantité d’emboles visualisés.
-> Le recours à une réanimation cardiopulmonaire pour le collapsus définit le grade 3, indépendamment de la valeur de SpO₂ disponible.
-@ 77–79
-
-QCU · Choix unique · Bilan préopératoire
-Une patiente de 88 ans doit être opérée d’une fracture de hanche. Quel critère justifie le mieux d’ajouter une échocardiographie à son bilan urgent ?
-- Son âge seul.
-+ La possibilité que le résultat modifie la stratégie anesthésique ou la prise en charge immédiate.
-- Le choix d’une anesthésie générale.
-- Le souhait de compléter le bilan de toute chirurgie fonctionnelle.
-- L’impossibilité de réaliser un bloc antalgique.
-> Le bilan doit rester orienté vers les éléments qui changent la conduite. L’échocardiographie est pertinente si elle peut modifier la stratégie sans faire perdre de temps inutilement.
-@ 165–167
+QCU · Rachianesthésie continue
+Quel est le principal intérêt de la rachianesthésie continue chez un sujet âgé cardiopathe ?
+- Elle permet une injection unique de forte dose. :: C'est le contraire : on injecte de petits bolus.
++ Elle permet de titrer l'anesthésique local, donc de maîtriser le niveau et la vitesse d'installation. :: D'où une très bonne stabilité hémodynamique.
+- Elle évite toute ponction lombaire. :: Elle nécessite une ponction avec pose d'un cathéter intrathécal.
+- Elle remplace la thromboprophylaxie. :: Elle n'a pas cet effet.
+- Elle est réservée à l'analgésie postopératoire. :: Elle sert à l'anesthésie chirurgicale.
+> Rachianesthésie continue : cathéter intrathécal, petits bolus d'anesthésique local, maîtrise du niveau et de la vitesse d'installation, très bonne stabilité. Indications : sujet âgé, fracture du col, cardiopathie (rétrécissement aortique serré, insuffisance cardiaque, coronarien).
+@ p. 176

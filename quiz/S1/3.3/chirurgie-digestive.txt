@@ -1,366 +1,265 @@
-// Quiz 6 – Chirurgie digestive (UE 3.3), d'après « QUIZZ 6 Chirurgie digestive.html »
+// Quiz – Chirurgie digestive (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Chirurgie digestive avec notes ».
+// Questions type examen sur les notions générales : anatomie, physiopathologie, pharmacologie, conduite périopératoire. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Chirurgie digestive
 
 QCM · Péritoine
 Concernant le péritoine, quelles propositions sont exactes ?
-+ Le feuillet pariétal tapisse la paroi abdominale et le feuillet viscéral recouvre les viscères :: Deux feuillets d'une même séreuse, qui glissent l'un sur l'autre
-+ Le liquide péritonéal participe au glissement des viscères et aux défenses locales :: Il assure le glissement et contient des cellules de défense
-- La cavité péritonéale contient normalement plusieurs litres de liquide libre :: La cavité est virtuelle : quelques millilitres seulement
-- Le péritoine constitue une membrane sans capacité d’échange :: Il échange activement, ce qui explique la résorption du CO₂ en cœlioscopie
-> Le péritoine est une séreuse à deux feuillets. Il facilite le glissement, soutient et protège les viscères. Le liquide physiologique est peu abondant, environ 20 à 30 mL, et contient notamment des lymphocytes et des macrophages. Ses capacités d’échange permettent la dialyse péritonéale.
-@ 6–7
++ C'est une séreuse à deux feuillets, pariétal et viscéral. :: Le feuillet pariétal tapisse la paroi, le feuillet viscéral recouvre les organes.
+- Le feuillet pariétal représente la plus grande partie de sa surface. :: C'est le feuillet viscéral, qui recouvre le tube digestif, le foie et la rate (environ 90 %).
++ Son liquide, riche en lymphocytes et en macrophages, participe à la lutte contre l'infection. :: Il facilite aussi le glissement des viscères.
++ Il est richement innervé : la traction des mésos déclenche des réflexes neurovégétatifs. :: C'est l'origine des réflexes vagaux peropératoires.
+- C'est une membrane imperméable, sans échanges avec le sang. :: C'est une membrane semi-perméable, richement vascularisée : c'est le principe de la dialyse péritonéale.
+> Le péritoine est une séreuse de 1,5 à 2 m² à deux feuillets. Il facilite le glissement des viscères, les soutient et participe à la défense anti-infectieuse. Les mésos contiennent les vaisseaux et les nerfs des viscères. L'épiploon est une deuxième ligne de défense : il colmate les brèches et isole les foyers infectés.
+@ p. 6 à 9
 
-QCM · Mésos et épiploon
-Quelles propositions décrivent correctement le rôle des mésos et de l’épiploon dans l’abdomen ?
-+ Les mésos contiennent des vaisseaux et des nerfs ; leur torsion peut compromettre la perfusion intestinale :: Une volvulus comprime les vaisseaux du méso et menace la viabilité de l'anse
-+ L’épiploon peut limiter une infection en isolant un foyer et en colmatant une brèche :: C'est son rôle de gendarme de l'abdomen
-- Les tractions sur les mésos sont dépourvues de retentissement réflexe cardiovasculaire :: Leur traction déclenche des réflexes vagaux, bradycardie et hypotension
-- L’épiploon empêche l’évolution vers une péritonite généralisée :: Il limite, il n'empêche pas : la péritonite généralisée reste possible
-> Les mésos relient les viscères et portent leur vascularisation et leur innervation. Une torsion ou une distension peut entraîner une ischémie ; une traction peut déclencher un réflexe vagal. L’épiploon contribue à la défense péritonéale, mais ses capacités peuvent être dépassées.
-@ 8–9
+QCM · Étages de l'abdomen
+Quels organes appartiennent à l'étage sus-mésocolique ?
++ Estomac :: Étage sus-mésocolique.
++ Rate :: Étage sus-mésocolique.
+- Côlon sigmoïde :: Étage sous-mésocolique.
++ Voies biliaires :: Étage sus-mésocolique.
+- Intestin grêle :: Étage sous-mésocolique.
+> Le côlon transverse et son méso séparent l'étage sus-mésocolique (œsophage abdominal, estomac, duodéno-pancréas, rate, foie, voies biliaires) de l'étage sous-mésocolique (intestin grêle, côlon, rectum). La chirurgie sus-mésocolique, plus proche du thorax, a le plus fort retentissement respiratoire.
+@ p. 10
 
-QCM · Étages abdominaux
-Concernant la division de l’abdomen en étages sus-mésocolique et sous-mésocolique, quelles propositions sont exactes ?
-+ Le côlon transverse constitue le repère séparant les deux étages :: Il sépare l'étage sus-mésocolique de l'étage sous-mésocolique
-+ L’estomac, le foie et la rate appartiennent à l’étage sus-mésocolique :: Avec le duodénum et le pancréas, au contact du diaphragme
-+ Le côlon et le rectum sont rattachés à l’étage sous-mésocolique :: Ils sont sous le mésocôlon transverse, loin du diaphragme
-- Le retentissement respiratoire est habituellement plus faible pour une chirurgie sus-mésocolique que sous-mésocolique :: C'est l'inverse : plus l'incision est haute, plus le retentissement respiratoire est marqué
-> Le côlon transverse sépare les deux étages. L’étage supérieur comprend notamment l’œsophage abdominal, l’estomac, le bloc duodéno-pancréatique, le foie, les voies biliaires et la rate. L’étage inférieur comprend le grêle, le côlon et le rectum. La chirurgie haute expose davantage aux complications respiratoires.
-@ 10–12
+QCM · Volumes pulmonaires
+Concernant les volumes pulmonaires, quelles propositions sont exactes ?
++ La capacité résiduelle fonctionnelle (CRF) est le volume restant dans les poumons à la fin d'une expiration normale. :: CRF = volume de réserve expiratoire + volume résiduel.
+- La capacité vitale comprend le volume résiduel. :: La capacité vitale ne comprend que les volumes mobilisables. C'est la capacité pulmonaire totale qui inclut le volume résiduel.
+- La CRF est égale au volume courant plus le volume de réserve inspiratoire. :: C'est la somme du volume de réserve expiratoire et du volume résiduel.
++ Le volume résiduel ne peut pas être mobilisé, même lors d'une expiration forcée. :: Il reste dans les poumons.
+- Après chirurgie abdominale, le rapport VEMS/CV s'effondre comme dans un syndrome obstructif. :: VEMS et CV diminuent en parallèle : le rapport reste constant, c'est un syndrome restrictif.
+> Capacité vitale = volume courant + réserve inspiratoire + réserve expiratoire. CRF = réserve expiratoire + volume résiduel. Capacité pulmonaire totale = capacité vitale + volume résiduel.
+@ p. 15 et 17
 
-QCM · Mécanique respiratoire
-Quels mécanismes contribuent à la réduction de la ventilation après une chirurgie abdominale ?
-+ La douleur peut limiter l’inspiration profonde et la toux :: Elle entraîne une respiration superficielle et un encombrement
-+ Les stimulations abdominales nociceptives peuvent inhiber réflexement l’activité diaphragmatique :: C'est le réflexe viscéro-diaphragmatique, indépendant de la douleur ressentie
-+ La distension liée à un iléus postopératoire peut gêner la mécanique diaphragmatique :: Un abdomen distendu refoule le diaphragme et abaisse la capacité résiduelle fonctionnelle
-+ La section de muscles par l’incision peut participer aux perturbations ventilatoires :: Une incision sous-costale ou médiane haute sectionne des muscles de la paroi
-- Une analgésie efficace suffit à rétablir une mécanique ventilatoire normale :: Elle lève la composante douloureuse, mais ni l'inhibition diaphragmatique réflexe, ni la distension, ni la section musculaire.
-> Plusieurs mécanismes s’additionnent : douleur, atteinte musculaire, inhibition réflexe du diaphragme et distension abdominale. La respiration devient plus thoracique et superficielle ; la toux moins efficace favorise l’encombrement. La dysfonction diaphragmatique ne s’explique donc pas par la seule douleur.
-@ 13, 19–21
+QCM · Retentissement respiratoire
+Concernant le retentissement respiratoire de la chirurgie abdominale, quelles propositions sont exactes ?
++ Elle entraîne un syndrome restrictif immédiat. :: Par l'incision, l'atteinte des muscles et la douleur.
+- Le retentissement est plus marqué en chirurgie sous-mésocolique qu'en sus-mésocolique. :: C'est l'inverse : l'incision sus-mésocolique, proche du diaphragme, a le plus fort retentissement.
+- La CRF baisse brutalement, de façon maximale dès la fin de l'intervention. :: Sa baisse est progressive et maximale vers la 16e heure.
+- Les volumes pulmonaires se normalisent en 24 à 48 heures. :: La normalisation est lente, sur 7 à 15 jours.
+- Une incision sous-ombilicale n'a pas de retentissement respiratoire. :: Toute incision abdominale a un retentissement, moindre en sous-mésocolique.
+> La chirurgie abdominale entraîne une baisse immédiate des volumes pulmonaires : capacité vitale maximale à la 4e heure, CRF progressive maximale vers la 16e heure. Hypoxie, atélectasies des bases, encombrement et surinfection sont maximaux les 3 premiers jours.
+@ p. 12, 16 à 18
 
-QCU · Volumes pulmonaires
-Quelle définition de la capacité résiduelle fonctionnelle (CRF) est exacte ?
-- La CRF est la somme du volume courant et du volume de réserve inspiratoire :: C'est la somme du volume de réserve inspiratoire et du volume courant
-- La CRF correspond au volume mobilisé entre une inspiration maximale et une expiration maximale :: C'est la capacité vitale
-+ La CRF est la somme du volume de réserve expiratoire et du volume résiduel :: Volume restant à la fin d'une expiration normale
-- La CRF correspond à la totalité de l’air contenu dans les poumons après une inspiration maximale :: C'est la capacité pulmonaire totale
-> La CRF = VRE + VR : c’est le volume restant dans les poumons après une expiration normale. La capacité vitale correspond au volume mobilisable maximal ; la capacité pulmonaire totale inclut aussi le volume résiduel. La baisse de CRF favorise la fermeture des petites voies aériennes.
-@ 15, 18, 22
+QCU · Dysfonction diaphragmatique
+Quel est le principal mécanisme de la dysfonction diaphragmatique après une chirurgie abdominale ?
+- La section chirurgicale des fibres du diaphragme :: Le diaphragme n'est pas incisé dans la chirurgie abdominale habituelle.
++ Une inhibition réflexe d'origine centrale, à partir des récepteurs nociceptifs abdominaux :: Les signaux nociceptifs de l'abdomen inhibent la commande du diaphragme.
+- Une curarisation résiduelle du diaphragme :: Le diaphragme est au contraire le muscle le plus résistant aux curares.
+- Une paralysie du nerf phrénique par l'anesthésie générale :: Ce n'est pas le mécanisme décrit.
+- Une fatigue du diaphragme liée à la ventilation mécanique :: Ce n'est pas le mécanisme principal.
+> La dysfonction diaphragmatique est immédiate, d'emblée maximale et dure environ 8 jours. Le diaphragme assure normalement 80 % du travail inspiratoire : les intercostaux prennent le relais, d'où une respiration thoracique, superficielle, à petits volumes.
+@ p. 19 à 21
 
-QCM · Restriction postopératoire
-Concernant le syndrome restrictif après chirurgie abdominale, quelles propositions sont exactes ?
-+ La capacité vitale diminue et le VEMS baisse parallèlement :: Les deux baissent ensemble : c'est un trouble restrictif
-+ Le rapport VEMS/CV reste généralement conservé :: Les deux termes diminuant dans les mêmes proportions, le rapport est conservé
-+ La baisse des volumes pulmonaires est plus marquée après une chirurgie sus-mésocolique :: Plus l'incision est proche du diaphragme, plus la restriction est importante
-- Les volumes pulmonaires reviennent à leur valeur initiale dès la fin de l’anesthésie :: La restriction persiste plusieurs jours, avec un maximum au premier ou deuxième jour
-> Le retentissement restrictif est immédiat : les volumes diminuent d’environ 40 % en chirurgie sous-mésocolique et de 60 % en sus-mésocolique. La baisse parallèle de la CV et du VEMS conserve leur rapport. La récupération se fait sur plusieurs jours, avec un repère de 7 à 15 jours pour les volumes, et non dès le réveil.
-@ 16–18
+QCM · Hypoxémie postopératoire
+Quels mécanismes expliquent l'hypoxémie après une chirurgie abdominale ?
++ Une curarisation ou un effet morphinique résiduel au réveil :: Mécanisme précoce.
++ Une augmentation de la consommation d'oxygène, par exemple lors de frissons :: Mécanisme précoce, à risque chez le coronarien.
++ Un effet shunt lié aux atélectasies :: Mécanisme qui se prolonge.
+- Une augmentation de la CRF :: La CRF diminue, de façon maximale vers la 16e heure.
+- Un effet espace mort lié à l'hyperperfusion des bases :: Le mécanisme décrit est l'effet shunt : des zones perfusées mais mal ventilées.
+> Hypoxémie précoce : effets résiduels des curares et des morphiniques, hausse de la VO2 (frissons). Hypoxémie prolongée : effet shunt (fermeture des petites voies aériennes, atélectasies), dysfonction diaphragmatique et baisse de la CRF.
+@ p. 22
 
-QCM · Hypoxémie
-Quels mécanismes peuvent expliquer une hypoxémie après chirurgie digestive ?
-+ Un effet résiduel des curares ou des morphiniques peut contribuer à l’hypoxémie précoce :: Curarisation résiduelle et dépression respiratoire se cumulent au réveil
-+ Les frissons augmentent la consommation d’oxygène :: Ils peuvent la multiplier par trois ou quatre, alors que la ventilation est limitée
-+ La fermeture des petites voies aériennes et les microatélectasies peuvent créer un effet shunt :: Des zones perfusées mais non ventilées abaissent la PaO₂
-- La diminution de la CRF s’oppose à la formation d’atélectasies :: Elle les favorise : moins de volume résiduel, plus de fermeture des voies aériennes déclives
-> Au réveil, les effets résiduels des médicaments et l’augmentation de consommation d’oxygène liée aux frissons peuvent intervenir. Une hypoxémie persistante peut être liée aux microatélectasies et à la fermeture des petites voies aériennes, favorisées par la baisse de CRF et la dysfonction diaphragmatique.
-@ 22
+QCM · Facteurs de risque respiratoire
+Parmi les éléments suivants, lesquels augmentent le risque de complications respiratoires postopératoires ?
++ Tabagisme :: Il multiplie le risque.
++ Incision sus-mésocolique :: C'est la chirurgie la plus à risque.
++ Dénutrition :: Elle diminue la force des muscles respiratoires.
++ Durée d'intervention prolongée :: Le risque augmente avec la durée.
+- Rachianesthésie pour une chirurgie de paroi :: Ce n'est pas un facteur de risque cité. Ce sont la curarisation et les morphiniques qui augmentent le risque.
+> Facteurs de risque : âge, surpoids, néoplasie, tabagisme, incision sus-mésocolique, dénutrition, antécédents respiratoires, sepsis, durée prolongée, écarteurs, Trendelenburg, curarisation et morphiniques. Le score ARISCAT additionne ces facteurs pour estimer le risque.
+@ p. 23 à 25
 
-QCU · Risque respiratoire
-Pour un score ARISCAT, un patient cumule les points suivants : âge 68 ans = 3, SpO₂ à 94 % = 8, incision abdominale haute = 15, durée de 2 h 30 = 16 ; tous les autres facteurs valent 0. Quelle association total / catégorie de risque est exacte ?
-- 26 points / risque faible :: Ce total ne correspond pas à la classe de risque faible
-- 42 points / risque élevé :: C'est le total, mais la classe est mal attribuée
-- 45 points / risque intermédiaire :: Le total ne correspond pas au score calculé
-+ 42 points / risque intermédiaire :: Le score situe le patient dans la classe intermédiaire
-> Le total est 3 + 8 + 15 + 16 = 42 points. Les seuils ARISCAT sont : moins de 26, risque faible ; 26 à 44, risque intermédiaire ; au moins 45, risque élevé. Le support associe ces catégories à environ 1,6 %, 13 % et 42 % de complications respiratoires, respectivement.
-@ 25
+QCM · Prévention des complications respiratoires
+Quelles mesures préviennent les complications respiratoires en chirurgie abdominale ?
++ Une ventilation protectrice avec un volume courant de 6 à 8 mL/kg de poids idéal. :: Associée à une PEP et à des manœuvres de recrutement.
+- Une décurarisation jugée sur la reprise d'une ventilation spontanée. :: Elle doit être vérifiée par un TOF ratio ≥ 0,9 à l'adducteur du pouce.
+- Un volume courant de 10 à 12 mL/kg de poids réel pour prévenir les atélectasies. :: Les grands volumes sont délétères : on raisonne en poids idéal, avec PEP et recrutements.
+- Une analgésie exclusivement morphinique à forte dose en cas de laparotomie. :: Les morphiniques favorisent l'hypoventilation ; la péridurale permet l'épargne morphinique.
+- Une CPAP postopératoire après toute laparotomie. :: Elle n'a pas montré de bénéfice en systématique.
+> La prévention est multimodale : ventilation protectrice (Vt 6-8 mL/kg de poids idéal, PEP ≥ 5 cmH2O, recrutements), décurarisation vérifiée, épargne morphinique, péridurale en laparotomie, kinésithérapie, mobilisation précoce.
+@ p. 26
 
-QCM · Protection respiratoire
-Quelles mesures participent à la prévention des complications respiratoires en chirurgie digestive ?
-+ Régler le volume courant autour de 6 à 8 mL/kg de poids idéal :: Le calcul se fait sur le poids idéal théorique, jamais sur le poids réel
-- Utiliser une PEP fixe de 5 cmH₂O sans adaptation au patient :: Elle doit être adaptée au patient et à la chirurgie, pas appliquée uniformément
-+ Vérifier quantitativement un TOF ratio au moins égal à 0,9 avant l’extubation :: Seule la mesure quantitative exclut une curarisation résiduelle
-- Faire de la spirométrie incitative isolée une mesure dont le bénéfice postopératoire est établi :: Isolée, son bénéfice n'est pas démontré : elle s'intègre à une stratégie plus large
-> La prévention associe ventilation protectrice, décurarisation complète, analgésie épargnant les opioïdes, kinésithérapie avec toux efficace et mobilisation précoce. La PEP et le recrutement s’adaptent au patient. Le support ne retrouve pas de bénéfice de la spirométrie incitative seule ni de la CPAP utilisée systématiquement en prévention.
-@ 26
+QCM · Retentissement hémodynamique
+Pourquoi l'hémodynamique est-elle instable en chirurgie abdominale ?
++ L'anesthésie augmente la capacitance veineuse, et la volémie efficace varie avec les positions. :: Le sang se stocke dans les territoires déclives.
++ Les billots, les écarteurs ou la luxation du foie compriment le retour veineux. :: La précharge baisse brutalement.
++ La traction du péritoine et des mésos peut déclencher un réflexe vagal. :: On approfondit l'anesthésie, puis on donne de l'atropine si besoin.
+- Le Trendelenburg diminue le retour veineux vers le cœur. :: Il l'augmente : c'est une surcharge à craindre chez l'insuffisant cardiaque.
++ Le choc septique, l'hémorragie ou une tumeur sécrétante peuvent rendre l'hémodynamique très instable. :: Ce sont des situations particulières d'instabilité.
+> L'instabilité vient de la volémie fluctuante (positions, compression), des réflexes neurovégétatifs (traction des mésos, dilatation des sphincters) et de situations particulières : choc septique, hémorragie, phéochromocytome, tumeur carcinoïde.
+@ p. 27 à 29
 
-QCM · Hémodynamique et position
-En chirurgie abdominale, quelles situations peuvent modifier l’hémodynamique ?
-+ La compression cave par un écarteur peut réduire le retour veineux :: Un écarteur appuyé sur la veine cave inférieure réduit la précharge
-+ Le Trendelenburg peut majorer la charge circulatoire et être mal toléré en cas d’insuffisance cardiaque :: Il augmente le retour veineux vers un cœur qui ne peut pas l'accepter
-+ Une traction péritonéale peut provoquer une bradycardie vagale :: C'est le réflexe viscéro-vagal, déclenché par la traction du péritoine
-- Abaisser les deux jambes en même temps, en fin de position gynécologique, est bien toléré sur le plan circulatoire :: Les deux jambes abaissées ensemble font chuter brutalement la précharge : il faut procéder par étapes
-> La capacitance veineuse accrue sous anesthésie, la position et les compressions chirurgicales modifient le retour veineux. Le Trendelenburg peut exposer à une surcharge. Les jambes sont abaissées progressivement et séparément sous surveillance. Devant une réaction vagale, communiquer avec le chirurgien, interrompre la stimulation et traiter le mécanisme.
-@ 27–28, 57
+QCM · Rein
+Concernant la fonction rénale en chirurgie abdominale, quelles propositions sont exactes ?
++ La baisse du débit sanguin rénal entraîne une baisse du débit de filtration glomérulaire. :: C'est la part fonctionnelle.
++ Les AINS aggravent l'atteinte rénale fonctionnelle. :: Comme l'hypotension et l'hypovolémie.
+- Une restriction hydrique stricte protège le rein. :: Elle augmente le risque d'insuffisance rénale aiguë.
++ L'objectif de PAM est d'au moins 65 mmHg. :: Pour préserver la perfusion rénale.
+- Une oligurie peropératoire isolée signe une hypovolémie et impose un remplissage. :: Une oligurie isolée ne suffit pas à affirmer une hypovolémie.
+> Part fonctionnelle : baisse du débit sanguin rénal, aggravée par hypotension, hypovolémie et AINS. Part organique : nécrose tubulaire aiguë (choc, sepsis, iode, antibiotiques) ou néphropathie interstitielle. Prévention : PAM ≥ 65 mmHg, pas de restriction hydrique stricte.
+@ p. 30 et 53
 
 QCM · Iléus postopératoire
-Concernant l’iléus postopératoire après chirurgie digestive, quelles propositions sont exactes ?
-+ Il peut résulter de mécanismes réflexes et inflammatoires :: Manipulation des anses, inflammation péritonéale et réflexes se combinent
-+ La récupération du grêle est habituellement plus précoce que celle du côlon et du rectum :: Le grêle reprend en quelques heures, le côlon en deux à trois jours
-+ Les opioïdes et la surcharge hydrique peuvent prolonger le ralentissement du transit :: Ce sont deux causes évitables d'iléus prolongé
-- La sonde nasogastrique est maintenue jusqu’à la reprise des gaz :: Elle est au contraire retirée précocement : son maintien n'accélère pas la reprise
-> Les repères de récupération sont : grêle 6 à 12 heures, estomac environ 24 heures, côlon et rectum 3 à 5 jours. La prévention repose notamment sur la chirurgie mini-invasive, l’épargne opioïde, l’absence de surcharge et la reprise alimentaire précoce. La sonde nasogastrique n’est pas systématique.
-@ 31
+Concernant l'iléus postopératoire, quelles propositions sont exactes ?
++ C'est un arrêt transitoire du transit, lié à des réflexes et à l'inflammation. :: Définition du cours.
++ Le côlon est le dernier segment à reprendre son activité. :: Il met 3 à 5 jours, contre 6 à 12 heures pour le grêle.
++ Les morphiniques et la surcharge hydrique le prolongent. :: D'où l'épargne morphinique et des apports équilibrés.
++ La réalimentation précoce et la gomme à mâcher aident à le prévenir. :: Comme la cœlioscopie et l'absence de sonde gastrique.
+- La sonde nasogastrique accélère la reprise du transit. :: Elle n'est pas recommandée : on évite la SNG.
+> Durées : grêle 6-12 h, estomac 24 h, côlon 3-5 jours. Prévention multimodale : cœlioscopie, épargne morphinique, pas de SNG, réalimentation précoce, gomme à mâcher, péridurale en laparotomie.
+@ p. 31
 
-QCM · NVPO : score d’Apfel
-Quels éléments appartiennent aux quatre facteurs du score simplifié d’Apfel pour les nausées et vomissements postopératoires ?
-+ Le sexe féminin :: L'un des quatre facteurs du score
-- Le tabagisme actif :: C'est le non-fumeur qui est à risque : le tabagisme est protecteur dans ce score
-+ Les antécédents de NVPO ou de mal des transports :: Antécédent personnel, l'un des quatre facteurs
-+ L’utilisation prévue d’opioïdes postopératoires :: Quatrième facteur du score
-> Les quatre facteurs sont le sexe féminin, le statut non-fumeur, les antécédents de NVPO ou de mal des transports et les opioïdes postopératoires. C’est donc l’absence de tabagisme, et non le tabagisme actif, qui entre dans ce score.
-@ 32–33
-
-QCM · Prévention des NVPO
-Quelles propositions sur la prévention des nausées et vomissements postopératoires en chirurgie digestive sont exactes ?
-+ Une stratégie associant plusieurs antiémétiques peut être adaptée au risque :: Le nombre d'antiémétiques s'adapte au nombre de facteurs de risque
-+ Le propofol et l’épargne opioïde contribuent à réduire le risque :: Le propofol est antiémétique, et les opioïdes sont émétisants
-+ La dexaméthasone à l’induction fait partie des options de prophylaxie :: Elle agit à distance de l'induction, sur plusieurs heures
-- Un score d’Apfel à trois ou quatre facteurs justifie un seul antiémétique :: À trois ou quatre facteurs, il faut au moins deux à trois antiémétiques
-> Le support propose deux antiémétiques pour un à deux facteurs et trois à quatre pour au moins trois facteurs, ainsi qu’une prophylaxie multimodale en RAAC. Dexaméthasone 4 à 8 mg à l’induction, ondansétron et d’autres classes peuvent être associés. L’épargne opioïde, le propofol, l’absence de N₂O et une hydratation adaptée complètent la stratégie.
-@ 32–33
+QCU · Score d'Apfel
+Lequel de ces éléments n'est pas un facteur de risque du score d'Apfel ?
++ Le sexe masculin :: C'est le sexe féminin qui est un facteur de risque.
+- Le statut de non-fumeur :: C'est un facteur de risque.
+- Un antécédent de NVPO ou de mal des transports :: C'est un facteur de risque.
+- L'utilisation de morphiniques en postopératoire :: C'est un facteur de risque.
+- Aucune, tous ces éléments en font partie :: Le sexe masculin n'en fait pas partie.
+> Le score d'Apfel compte 4 facteurs : sexe féminin, non-fumeur, antécédent de NVPO ou de mal des transports, morphiniques postopératoires. Avec 1 à 2 facteurs : 2 antiémétiques ; avec 3 ou plus : 3 à 4 antiémétiques. On réduit aussi le risque de base : propofol, épargne morphinique, pas de N2O.
+@ p. 33
 
 QCM · Antibioprophylaxie
-Chez un adulte sans allergie, quelles associations entre intervention digestive et antibioprophylaxie sont exactes ?
-+ Hernie avec mise en place d’une plaque : céfazoline 2 g :: Le matériel prothétique impose une antibioprophylaxie
-+ Chirurgie colorectale : céfoxitine 2 g IV à l’induction, avec réinjection de 1 g si la durée dépasse deux heures :: L'antibioprophylaxie se réinjecte si l'intervention se prolonge
-+ Duodénopancréatectomie après drainage biliaire préopératoire : pipéracilline-tazobactam 4 g :: Le drainage biliaire modifie la flore et impose un spectre élargi
-- Toute chirurgie biliaire par cœlioscopie sans facteur de risque : céfoxitine systématique prolongée plusieurs jours :: L'antibioprophylaxie est une dose à l'induction, non un traitement de plusieurs jours
-> Ces schémas figurent dans la diapositive d’antibioprophylaxie. En colorectal, une préparation antibiotique orale est également prévue la veille. Une chirurgie biliaire cœlioscopique sans facteur de risque ne reçoit pas d’ABP dans ce schéma. L’antibioprophylaxie prévient une infection autour du geste ; elle ne se prolonge pas comme une antibiothérapie de traitement.
-@ 34–35
+Concernant l'antibioprophylaxie en chirurgie digestive, quelles propositions sont exactes ?
++ Une cure de hernie sans plaque ne nécessite pas d'antibioprophylaxie. :: Il n'y a pas d'ouverture du tube digestif ni de matériel.
++ La chirurgie sus-mésocolique relève de la céfazoline. :: Céfazoline 2 g à l'induction.
+- La chirurgie colorectale relève de la céfazoline seule. :: Elle nécessite une couverture des anaérobies : céfoxitine à l'induction, précédée d'une préparation orale la veille.
+- La céfazoline couvre suffisamment les anaérobies de la flore colique. :: Elle les couvre mal : on utilise la céfoxitine en colorectal.
+- L'antibioprophylaxie débute après l'incision, une fois la contamination constatée. :: Elle est injectée à l'induction, avant l'incision.
+> Pas d'antibioprophylaxie : hernie sans plaque, cholécystectomie cœlioscopique sans facteur de risque. Céfazoline : hernie avec plaque, chirurgie sus-mésocolique. Colorectal : tobramycine et métronidazole per os la veille, céfoxitine à l'induction.
+@ p. 35
 
-QCM · Thromboprophylaxie
-Après une chirurgie abdomino-pelvienne oncologique majeure, quelles propositions sur la prévention thromboembolique sont exactes ?
-+ Le risque thromboembolique justifie une prophylaxie prolongée pendant quatre semaines :: Chirurgie carcinologique abdominale : le risque persiste après la sortie
-- La voie mini-invasive supprime l’indication de prophylaxie prolongée :: Le risque thromboembolique reste lié au terrain et à la pathologie, non à la voie d'abord
-+ La compression pneumatique intermittente peut être associée à l’HBPM chez un patient à haut risque :: Les deux moyens se complètent chez le patient à haut risque
-- Une récupération précoce dans un programme de RAAC permet de se passer d’HBPM :: La mobilisation précoce ne remplace pas la prophylaxie médicamenteuse
-> Le support retient quatre semaines d’HBPM après chirurgie abdomino-pelvienne oncologique majeure, y compris en mini-invasif et en RAAC. La compression pneumatique intermittente renforce la prévention chez les patients à haut risque. Une mobilisation rapide ne suffit pas à annuler ce risque.
-@ 36–37
+QCM · Hypothermie et thrombose
+Concernant la prévention de l'hypothermie et de la maladie thrombo-embolique en chirurgie digestive, quelles propositions sont exactes ?
++ L'objectif de température peropératoire est d'au moins 36 °C. :: Viser 37 °C n'apporte pas de bénéfice supplémentaire.
++ Le réchauffement associe réchauffement cutané actif et réchauffement des solutés. :: Avec monitorage de la température.
++ Les bas antithrombose sont réservés aux patients ayant une insuffisance veineuse. :: Ils n'apportent pas de bénéfice en plus de l'HBPM chez les autres.
++ La compression pneumatique intermittente complète l'HBPM chez les patients à haut risque. :: Y compris en peropératoire.
++ La prophylaxie par HBPM est prolongée 4 semaines après une chirurgie carcinologique abdomino-pelvienne majeure. :: Le risque persiste après la sortie.
+> Hypothermie : réchauffement actif dès l'accueil, solutés et produits sanguins réchauffés, objectif ≥ 36 °C. Thrombose : HBPM, compression pneumatique intermittente si haut risque, prophylaxie prolongée 4 semaines après chirurgie carcinologique majeure.
+@ p. 37 et 38
 
-QCM · Température
-Quelles propositions sur la prévention de l’hypothermie en chirurgie digestive sont exactes ?
-+ Un réchauffement actif peut débuter dès l’entrée au bloc :: L'hypothermie s'installe dès la première heure : il faut la prévenir, non la corriger
-+ La température doit être surveillée pendant l’intervention :: Elle permet de vérifier l'efficacité du réchauffement
-+ Les liquides de perfusion, le sang et les liquides de lavage peuvent être réchauffés :: Perfuser des liquides froids refroidit activement le patient
-+ L’objectif est de maintenir une température centrale au moins égale à 36 °C :: Seuil en dessous duquel les complications augmentent
-- Une température cutanée normale permet de se passer d'une mesure centrale :: La peau est le premier site refroidi : elle ne reflète pas la température centrale, seule pertinente.
-> Le réchauffement est anticipé, car la première heure expose à une baisse liée à la redistribution thermique. Le monitorage et le réchauffement actif, associés à celui des apports, visent une température ≥ 36 °C. Les interventions longues et les lavages abdominaux accentuent les pertes thermiques.
-@ 38–39
+QCM · Anesthésie locorégionale
+Concernant l'anesthésie locorégionale en chirurgie digestive, quelles propositions sont exactes ?
++ La rachianesthésie convient aux gestes courts de paroi et de chirurgie anale. :: Elle donne un bon relâchement musculaire.
++ La rachianesthésie n'est pas adaptée à la cœliochirurgie. :: Le pneumopéritoine et le Trendelenburg sont mal tolérés par un patient éveillé.
++ La péridurale est le plus souvent associée à l'anesthésie générale, pour l'analgésie per- et postopératoire. :: Elle diminue les doses de morphiniques.
++ Une péridurale thoracique haute impose une vigilance hémodynamique, surtout en chirurgie hémorragique. :: Le bloc sympathique étendu favorise l'hypotension.
++ Le niveau de la péridurale est choisi selon le territoire opéré. :: Plus haut pour l'œsophage ou l'estomac que pour une colectomie.
+> Aucune technique n'est supérieure en termes de mortalité : on choisit la mieux adaptée au patient et à la chirurgie. La rachianesthésie sert aux gestes courts de paroi et anaux. La péridurale, associée à l'AG, est la référence de l'analgésie des laparotomies.
+@ p. 41 à 44
 
-QCM · Choix anesthésique
-Concernant le choix de l’anesthésie en chirurgie digestive, quelles propositions sont exactes ?
-+ Une rachianesthésie peut convenir à certains gestes courts de paroi ou de proctologie :: Hernie, hémorroïdes, fissure : des gestes courts et bas situés
-+ La technique dépend du patient, du geste, de sa durée et des besoins analgésiques :: Il n'y a pas de technique unique : le choix se construit
-- La péridurale associée à l’anesthésie générale ne peut pas provoquer de vasoplégie :: Le bloc sympathique de la péridurale provoque une vasoplégie, à anticiper
-- Une anesthésie locorégionale isolée est adaptée à la chirurgie abdominale majeure :: L'abdomen majeur demande une anesthésie générale : une anesthésie locorégionale seule ne suffit pas
-> Le choix est individualisé. La rachianesthésie peut convenir à certains gestes courts, tandis que les interventions majeures nécessitent généralement une anesthésie générale avec contrôle des voies aériennes et ventilation. La péridurale peut compléter l’AG et assurer l’analgésie, mais son bloc sympathique expose à une vasoplégie ; les risques hémorragiques et de coagulation doivent être pris en compte.
-@ 41–45
+QCM · Curarisation
+Concernant la curarisation en chirurgie digestive, quelles propositions sont exactes ?
+- Les curares sont inutiles en chirurgie abdominale ouverte. :: Ils facilitent l'exposition, la dissection et la fermeture de la paroi.
++ Le TOF ratio est le rapport entre la quatrième et la première réponse du train de quatre. :: T4/T1.
+- L'extubation est possible dès que le TOF ratio atteint 0,7 à l'adducteur du pouce. :: Le seuil est de 0,9.
+- Le monitorage au sourcil suffit pour décider de l'extubation. :: Le sourcil reflète le diaphragme, plus résistant : on décide à l'adducteur du pouce.
++ La néostigmine n'est utilisée que si les 4 réponses du train de quatre sont présentes. :: Pour un bloc plus profond après rocuronium, on utilise le sugammadex.
+> Monitorage quantitatif dès qu'un curare est injecté, à l'adducteur du pouce. Extubation si TOF ratio ≥ 0,9. Sugammadex pour un bloc modéré ou profond, néostigmine seulement si TOF 4/4. Ne pas réveiller un patient curarisé.
+@ p. 49 à 51
+
+QCU · Contrôle des voies aériennes
+Dans quelle situation un masque laryngé peut-il être utilisé en chirurgie digestive ?
+- Cholécystectomie par cœlioscopie :: L'intubation est nécessaire : pression intra-abdominale et curarisation.
+- Gastrectomie :: Chirurgie sus-mésocolique : intubation.
++ Cure de hernie inguinale sous anesthésie générale :: Chirurgie de paroi : le masque laryngé est possible.
+- Colectomie par laparotomie :: Chirurgie curarisée et longue : intubation.
+- Péritonite :: Estomac plein : intubation en séquence rapide.
+> Intubation : cœlioscopie (pression intra-abdominale), curarisation, chirurgie sus-mésocolique, estomac plein. Masque laryngé : chirurgie de paroi.
+@ p. 52 et 60
+
+QCM · Remplissage vasculaire
+Concernant le remplissage en chirurgie digestive, quelles propositions sont exactes ?
++ L'objectif est la normovolémie : compenser les pertes réelles, sans restriction stricte ni surcharge. :: Les deux extrêmes sont délétères.
+- Le « troisième secteur » doit être compensé par de grands volumes de cristalloïdes. :: Ce concept est abandonné, car il n'est pas mesurable.
+- Le sérum salé isotonique est préféré aux cristalloïdes balancés. :: Les cristalloïdes balancés sont les solutés de base.
++ Le remplissage est utile tant qu'il augmente le volume d'éjection systolique. :: Au plateau de la courbe, il n'apporte plus rien et expose à la surcharge.
+- Les hydroxyéthylamidons sont les solutés de choix en chirurgie digestive. :: Ils ont été retirés du marché.
+> Pertes à compenser : perspiration insensible, diurèse, saignement. Débit cardiaque = VES × FC : une épreuve de remplissage est positive si le VES augmente de plus de 10 %. Chez le patient à haut risque, le remplissage est guidé par le VES.
+@ p. 53 à 56
+
+QCM · Hypotension peropératoire
+Un patient opéré d'une colectomie a une PAM à 58 mmHg. Quelles démarches sont adaptées ?
++ Vérifier la profondeur d'anesthésie : un surdosage en hypnotique peut expliquer l'hypotension. :: Si le BIS est bas, on allège l'anesthésie.
+- Une bradycardie lors d'une traction chirurgicale se traite d'abord par l'éphédrine. :: On arrête la stimulation, on approfondit l'anesthésie, puis on donne de l'atropine si besoin.
+- Une épreuve de remplissage est positive si le VES augmente de moins de 10 %. :: Elle est positive si le VES augmente de plus de 10 %.
+- Si le VES n'augmente pas après remplissage, poursuivre le remplissage jusqu'à correction de la PAM. :: Une épreuve négative oriente vers une vasoplégie ou une défaillance cardiaque : vasopresseurs ou inotropes.
+- Attendre que la PAM descende sous 50 mmHg avant d'intervenir. :: Le seuil est une PAM < 65 mmHg ou une baisse de plus de 20 %.
+> Devant une PAM < 65 mmHg : vérifier la profondeur d'anesthésie, la fréquence cardiaque (vagal) et l'hémoglobine, puis tester la réponse au remplissage. VES qui augmente : hypovolémie ; VES qui n'augmente pas : vasoplégie (vasopresseur) ou défaillance cardiaque (inotrope).
+@ p. 56 et 57
+
+QCU · TAP bloc
+Dans quel plan est injecté l'anesthésique local lors d'un TAP bloc ?
+- Entre la peau et le muscle oblique externe :: C'est un plan sous-cutané.
+- Entre les muscles oblique externe et oblique interne :: Ce n'est pas le bon plan.
++ Entre les muscles oblique interne et transverse de l'abdomen :: C'est le plan où cheminent les nerfs de la paroi.
+- Entre le muscle transverse et le péritoine :: Ce n'est pas le plan du TAP bloc.
+- Dans la gaine des muscles grands droits :: C'est un autre bloc de paroi.
+> Le TAP bloc (transversus abdominis plane) est un bloc de diffusion, réalisé sous échographie, dans le plan entre l'oblique interne et le transverse. Il assure l'analgésie de la paroi abdominale, par exemple pour une cure de hernie.
+@ p. 63
 
 QCM · Analgésie
-Quelles propositions sur l’analgésie en chirurgie digestive sont exactes ?
-+ La péridurale thoracique est une technique de référence pour une laparotomie majeure lorsque son utilisation est adaptée :: Elle couvre les métamères de l'incision et épargne les opioïdes
-+ En cœlioscopie, une analgésie multimodale peut associer antalgiques non opioïdes et infiltration des orifices de trocart :: L'infiltration traite la douleur pariétale des orifices
-- Une stratégie d’épargne opioïde impose de supprimer toute possibilité d’opioïde de secours :: L'épargne n'est pas la suppression : un recours doit rester possible
-- Cumuler plusieurs techniques utilisant des anesthésiques locaux ne pose pas de problème de dose totale :: Blocs, infiltration et perfusion de lidocaïne s'additionnent : la dose toxique est vite atteinte
-> L’épargne opioïde vise à réduire l’exposition tout en maintenant une analgésie efficace ; un recours de secours reste possible. La péridurale est une référence en laparotomie, avec des alternatives telles que des blocs de paroi ou des cathéters. En cœlioscopie, le support ne recommande pas la péridurale de routine. Les doses cumulées d’anesthésiques locaux doivent être surveillées.
-@ 47–48
-
-QCU · Décurarisation
-Quel critère permet de décider d’une extubation en tenant compte du risque de curarisation résiduelle ?
-- La présence de quatre réponses visibles au train-de-quatre, sans mesure de leur rapport :: Quatre réponses visibles peuvent coexister avec un rapport très abaissé
-+ Un TOF ratio quantitatif au moins égal à 0,9 à l’adducteur du pouce :: Seuil quantitatif qui exclut la curarisation résiduelle
-- Un TOF ratio égal à 0,5, à condition que la fréquence respiratoire soit normale :: Un rapport à 0,5 signe une curarisation résiduelle, quelle que soit la respiration
-- La récupération au sourcil permet de décider l’extubation :: Le sourcil récupère plus tôt que l'adducteur du pouce : il surestime la récupération
-> La décision repose sur un monitorage quantitatif à l’adducteur du pouce et un rapport T4/T1 ≥ 0,9. Quatre réponses qualitatives ne garantissent pas l’absence de bloc résiduel. Le sourcil n’est pas le site de décision pour l’extubation. Le résultat est vérifié après l’antagonisation.
-@ 50–51
-
-QCM · Antagonisation
-Concernant l’antagonisation du bloc neuromusculaire en chirurgie digestive, quelles propositions sont exactes ?
-+ Le sugammadex peut antagoniser un bloc au rocuronium ou au vécuronium :: Il encapsule les curares stéroïdiens
-+ La dose de sugammadex est choisie en fonction de la profondeur du bloc, évaluée par TOF ou PTC :: Bloc profond ou modéré n'appellent pas la même dose
-- La néostigmine peut être utilisée dès quatre réponses, même si le TOF ratio n’est que de 0,1 :: La néostigmine est inefficace sur un bloc aussi profond
-- Une injection d’antagoniste remplace le contrôle quantitatif avant l’extubation :: Seul le monitorage quantitatif autorise l'extubation, antagonisation ou non
-> La profondeur du bloc et le curare administré guident le choix et la dose de l’antagoniste. La néostigmine est réservée au bloc minime : quatre réponses et TOF ratio ≥ 0,2 ; elle n’est pas destinée au bloc profond. Même après antagonisation, il faut vérifier quantitativement un TOF ratio ≥ 0,9 avant l’extubation.
-@ 51
-
-QCM · Apports hydriques
-Chez un patient opéré de chirurgie digestive, quelles propositions sur les apports hydriques sont exactes ?
-+ Les apports visent la normovolémie en tenant compte des pertes réellement observées :: Ni surcharge ni restriction : on suit les pertes réelles
-- Une oligurie isolée prouve l’hypovolémie et impose un bolus de remplissage :: Elle peut relever d'une réponse hormonale au stress chirurgical
-+ Une restriction hydrique trop stricte peut augmenter le risque d’insuffisance rénale aiguë :: Une hypovolémie entretenue abaisse la perfusion rénale
-- Les pertes vers un « troisième secteur » se compensent par de gros volumes forfaitaires :: Cette notion est abandonnée : elle conduisait à des remplissages excessifs
-> Le support privilégie des cristalloïdes balancés et des apports adaptés aux pertes, avec un bilan légèrement positif en fin de chirurgie. L’oligurie isolée ne démontre pas une hypovolémie. Le « troisième secteur » non mesurable ne justifie pas d’apports automatiques ; la restriction excessive et la surcharge exposent toutes deux à des complications.
-@ 30, 53–54
-
-QCM · Volume d’éjection systolique
-Concernant le remplissage et le volume d’éjection systolique (VES), quelles propositions sont exactes ?
-+ Le débit cardiaque correspond au produit VES × fréquence cardiaque :: C'est la relation fondamentale du débit cardiaque
-+ Après atteinte du plateau de la relation précharge–VES, de nouveaux apports n’augmentent plus utilement le débit :: Au-delà du plateau de la courbe de Frank-Starling, le remplissage ne sert plus à rien
-+ Un excès de remplissage peut favoriser une congestion pulmonaire, rénale et intestinale :: Le remplissage excessif a ses propres complications, souvent tardives
-- Chaque bolus augmente le débit cardiaque, quelle que soit la précharge initiale :: Seul un cœur en partie ascendante de la courbe répond au remplissage
-> Le remplissage augmente le VES tant que le patient répond à une augmentation de précharge. Au plateau, poursuivre les apports expose à la congestion sans gain utile de débit, avec notamment un retard du transit. Il faut donc apprécier la réponse, et pas seulement administrer un volume.
-@ 55–56
-
-QCU · Hypotension peropératoire
-Pendant une chirurgie abdominale, la PAM est à 60 mmHg. Un bolus de 250 mL n’augmente le VES que de 5 %, et le VES reste normal. Une anesthésie trop profonde et une bradycardie ont été écartées. Quelle conduite correspond au mécanisme le plus probable ?
-- Répéter les bolus sans limite, car une hausse du VES de 5 % prouve une hypovolémie :: Une hausse de 5 % est dans le bruit de la mesure : elle ne prouve rien
-- Transfuser dès que la PAM passe sous 65 mmHg :: La transfusion se décide sur l'hémoglobine et la tolérance, non sur la pression
-+ Envisager une vasoplégie et un traitement vasopresseur adapté :: Les agents anesthésiques et la péridurale provoquent une vasoplégie, qui relève d'un vasopresseur
-- Administrer un inotrope en première intention, car un VES normal prouve une défaillance cardiaque :: Un volume d'éjection normal plaide contre une défaillance cardiaque
-> L’épreuve est négative : la hausse du VES est inférieure à 10 %. Avec un VES normal, l’algorithme oriente vers une vasoplégie et les vasopresseurs. Un VES bas ferait discuter une défaillance cardiaque. Le traitement d’une hypotension dépend de sa cause ; poursuivre les bolus n’est pas une réponse universelle.
-@ 56–57
-
-QCM · Chirurgie herniaire
-Concernant l’anesthésie d’une cure de hernie inguinale, quelles propositions sont exactes ?
-+ La pose d’une plaque modifie l’indication d’antibioprophylaxie :: Le matériel prothétique impose la céfazoline
-+ La cure par cœlioscopie nécessite généralement une anesthésie générale avec curarisation :: L'espace de travail exige un relâchement pariétal
-+ Une cure ouverte peut, selon le contexte, être réalisée sous anesthésie générale ou rachianesthésie :: Le choix dépend du terrain et des préférences
-- La chirurgie herniaire implique habituellement une ouverture du tube digestif :: La paroi est franchie, mais le tube digestif n'est pas ouvert
-> La hernie est une chirurgie de paroi, habituellement sans ouverture digestive. L’antibioprophylaxie est indiquée en cas de plaque. La cœlioscopie se fait sous AG avec curarisation ; la voie ouverte permet plusieurs choix anesthésiques et peut bénéficier d’une infiltration ou d’un bloc de paroi pour l’analgésie.
-@ 59–63, 35
-
-QCU · Bloc de paroi
-Dans quel plan s’effectue l’injection d’un bloc TAP (Transversus Abdominis Plane) ?
-+ Entre les muscles oblique interne et transverse de l’abdomen :: C'est le plan du bloc du plan transverse de l'abdomen, où cheminent les nerfs
-- Entre la peau et le muscle oblique externe :: Ce plan trop superficiel ne contient pas les nerfs visés
-- Dans l’espace péridural thoracique :: C'est une autre technique, neuraxiale
-- Dans la cavité péritonéale, au contact des anses intestinales :: Ce serait une injection intrapéritonéale, sans cible nerveuse
-> Le bloc TAP consiste à déposer l’anesthésique local dans le plan entre l’oblique interne et le transverse de l’abdomen, sous repérage échographique. Il assure une analgésie de la paroi abdominale et peut compléter la prise en charge d’une chirurgie herniaire.
-@ 63
-
-QCM · Cholécystectomie
-Concernant une cholécystectomie par cœlioscopie, quelles propositions sont exactes ?
-+ Le contrôle du canal cystique et de l’artère cystique fait partie du geste :: Ce sont les deux éléments à lier et sectionner
-+ Une exsufflation complète contribue à réduire les douleurs d’épaule liées au CO₂ résiduel :: Le gaz résiduel irrite le diaphragme et projette la douleur vers l'épaule
-+ Une lésion de l’artère cystique peut conduire à une conversion en laparotomie :: L'hémorragie impose le contrôle par voie ouverte
-- Une antibioprophylaxie est indiquée même en l’absence de facteur de risque :: Sans facteur de risque, la cholécystectomie n'en requiert pas
-> La cholécystectomie enlève la vésicule et nécessite le contrôle de son canal et de sa vascularisation. Le pneumopéritoine impose une AG adaptée ; son exsufflation limite les douleurs scapulaires liées au gaz résiduel. Une complication hémorragique peut nécessiter une conversion. Le schéma du support ne prévoit pas d’ABP sans facteur de risque.
-@ 64–66, 35
-
-QCM · Colectomie droite
-Concernant l’anatomie et le geste d’une colectomie droite, quelles propositions sont exactes ?
-+ La vascularisation du côlon droit dépend de l’artère mésentérique supérieure :: Par ses branches iléocoliques et coliques droites
-+ L’anastomose peut relier l’iléon au côlon transverse :: C'est l'anastomose iléo-transverse
-- La vascularisation du côlon droit dépend de l’artère mésentérique inférieure :: Elle vascularise le côlon gauche et le rectum
-- L’absence d’ouverture digestive permet de se passer d’antibioprophylaxie pour une colectomie droite :: Le côlon est ouvert : l'antibioprophylaxie est indispensable
-> La chirurgie colique ouvre le tube digestif, ce qui justifie l’antibioprophylaxie. Le côlon droit est vascularisé par l’artère mésentérique supérieure et sa résection est suivie d’une anastomose iléo-transverse. Le côlon gauche dépend de l’artère mésentérique inférieure.
-@ 67–75
-
-QCM · Chirurgie colorectale
-Quelles contraintes doivent être anticipées lors d’une chirurgie colorectale longue, avec bras le long du corps et position gynécologique ?
-+ L’accès aux voies veineuses peut devenir difficile après l’installation :: Les bras sont souvent le long du corps, sous les champs
-+ Les points d’appui et la position doivent être vérifiés avant le début du geste :: Après le drapage, plus rien n'est accessible
-- Le risque hémorragique est habituellement plus élevé pour une colectomie droite que pour une chirurgie rectale :: C'est l'inverse : la chirurgie rectale, dans le pelvis, saigne davantage
-- La voie cœlioscopique supprime le besoin d’antibioprophylaxie colorectale :: La voie d'abord ne change pas l'ouverture du côlon ni le risque infectieux
-> L’installation peut associer bottes, Trendelenburg et inclinaison latérale. Les voies veineuses, les appuis et la disponibilité du matériel se préparent avant que l’accès soit limité. Une chirurgie rectale peut être longue et hémorragique ; le risque de refroidissement et les besoins analgésiques sont anticipés. L’ABP reste indiquée en cœlioscopie.
-@ 71–85
-
-QCM · Chirurgie gastrique
-Lors d’une chirurgie gastrique majeure, quelles propositions sont exactes ?
-+ La localisation sus-mésocolique expose à un retentissement respiratoire important :: L'incision haute et la proximité du diaphragme majorent la restriction
-+ La proximité de gros vaisseaux et la durée opératoire font anticiper le risque hémorragique et l’hypothermie :: Chirurgie longue, près de l'aorte et du tronc cœliaque
-+ Les anastomoses et les structures voisines exposent notamment à des fistules ou lésions pancréatiques et biliaires :: Fistule anastomotique, plaie pancréatique ou biliaire
-- Une conversion de cœlioscopie en laparotomie ne modifie pas les besoins de surveillance ni d’analgésie :: La laparotomie impose une analgésie et une surveillance renforcées
-> Ces interventions sont souvent lourdes, de l’ordre de quatre à six heures. Le monitorage, les accès veineux et l’analgésie s’adaptent au risque du patient et du geste. Même si l’intervention débute en cœlioscopie, une conversion possible se prépare, notamment pour l’analgésie et la surveillance.
-@ 91–96
-
-QCM · Chirurgie pancréatique
-Concernant une duodénopancréatectomie céphalique, quelles propositions sont exactes ?
-+ La proximité de la tête du pancréas avec le duodénum et les grands vaisseaux contribue à la complexité du geste :: Chirurgie profonde, au contact de la veine porte et de l'artère mésentérique supérieure
-+ Les reconstructions digestives, biliaires et pancréatiques exposent à plusieurs sites possibles de fistule :: Fistule pancréatique, biliaire ou digestive : trois anastomoses, trois risques
-+ La durée, l’hémorragie potentielle et la douleur justifient une préparation anesthésique renforcée :: Voie veineuse de bon calibre, réchauffement, analgésie péridurale ou multimodale
-- Un drainage biliaire préopératoire n’influence pas le choix de l’antibioprophylaxie :: Il modifie la flore biliaire et impose un spectre élargi
-> La chirurgie de la tête du pancréas comporte des reconstructions multiples, contrairement à certaines résections de la queue plus limitées. Le risque hémorragique, la durée, la douleur et le risque thrombotique sont anticipés. Un drainage biliaire ou une sphinctérotomie préopératoire fait retenir pipéracilline-tazobactam dans le schéma d’ABP fourni.
-@ 97–100, 35
+Concernant l'analgésie en chirurgie digestive, quelles propositions sont exactes ?
++ En cœlioscopie, elle associe paracétamol, AINS et infiltration des orifices de trocarts. :: Analgésie multimodale avec épargne morphinique.
+- En laparotomie, l'infiltration des orifices de trocarts est la technique de référence. :: Il n'y a pas de trocarts : la péridurale thoracique est la référence.
+- L'anesthésie sans opioïde est la stratégie recommandée en chirurgie digestive. :: Le cours privilégie l'épargne morphinique multimodale, pas l'anesthésie sans opioïde stricte systématique.
+- Les morphiniques à forte dose favorisent la reprise du transit. :: Ils prolongent l'iléus.
+- L'analgésie postopératoire se décide en SSPI, selon l'EVA au réveil. :: Elle doit être anticipée dès le peropératoire, en suivant les temps douloureux.
+> L'analgésie est toujours multimodale avec épargne morphinique. Cœlioscopie : paracétamol, AINS, infiltration. Laparotomie : péridurale thoracique, ou TAP bloc, cathéter cicatriciel, morphine intrathécale.
+@ p. 47, 48 et 130
 
 QCM · Splénectomie
-Concernant les risques et la préparation d’une splénectomie, quelles propositions sont exactes ?
-+ Une rate volumineuse dans un contexte hématologique peut s’accompagner de séquestration plaquettaire et de thrombopénie :: La rate séquestre les plaquettes : la thrombopénie précède le geste
-+ Le risque hémorragique doit être anticipé, y compris pour une intervention programmée :: La rate est un organe très vascularisé, au contact du pancréas
-+ La prévention après splénectomie comprend des vaccinations contre des bactéries encapsulées :: Pneumocoque, méningocoque, Haemophilus : le risque infectieux est à vie
-- Une splénectomie réalisée en urgence annule définitivement la nécessité de vaccination :: L'urgence ne supprime pas l'asplénie : la vaccination se fait en postopératoire
-> La splénectomie peut être urgente pour rupture ou programmée pour une pathologie hématologique. La taille de la rate, la thrombopénie et l’hémorragie sont prises en compte. La prévention infectieuse associe vaccination, antibioprophylaxie au long cours selon le schéma fourni et éducation. Les vaccinations sont prévues au moins deux semaines avant, ou après une splénectomie urgente.
-@ 101–103
+Concernant la splénectomie, quelles propositions sont exactes ?
++ Les vaccinations sont réalisées au moins 2 semaines avant l'intervention programmée. :: Pneumocoque, méningocoques, Haemophilus, grippe.
++ Le patient est exposé à des infections graves à germes encapsulés. :: La rate joue un rôle majeur contre ces germes.
+- En urgence, les vaccins sont contre-indiqués. :: Ils sont réalisés après l'intervention.
++ Une antibioprophylaxie par pénicilline V est poursuivie au long cours. :: Avec une éducation du patient.
+- L'antibioprophylaxie peropératoire repose sur la céfoxitine. :: C'est une chirurgie sus-mésocolique : céfazoline 2 g.
+> Splénectomie : vaccins au moins 2 semaines avant (ou après en urgence), céfazoline 2 g à l'induction, puis pénicilline V au long cours et éducation sur le risque d'infection à germes encapsulés.
+@ p. 35 et 101 à 103
 
-QCM · Œsophage : voies d’abord
-Quelles propositions sur les voies d’abord d’une chirurgie œsophagienne sont exactes ?
-+ Une intervention de Lewis-Santy associe un temps abdominal et un temps thoracique :: Deux temps, deux installations, deux risques distincts
-+ Le passage d’un temps abdominal en décubitus dorsal à un temps thoracique latéral exige d’anticiper la réinstallation :: Le changement de position se prépare : lignes, sonde, points d'appui
-+ Une voie transhiatale peut éviter une thoracotomie chez certains patients :: Elle évite les complications respiratoires de la thoracotomie
-- La localisation de la lésion œsophagienne est sans influence sur le choix des voies d’abord :: Une lésion haute impose un temps cervical, une lésion basse un abord abdominal
-> L’œsophage traverse les régions cervicale, thoracique et abdominale. La localisation tumorale et le terrain guident donc les voies d’abord. Lewis-Santy associe un temps abdominal puis thoracique avec changement de position ; certaines interventions comportent trois abords. La voie transhiatale associe des temps abdominal et cervical sans thoracotomie.
-@ 104–110
+QCM · Œsophagectomie
+Concernant l'œsophagectomie, quelles propositions sont exactes ?
++ C'est une chirurgie longue, à morbidité élevée. :: Elle dure 6 à 8 heures.
++ Elle peut nécessiter une ventilation unipulmonaire. :: Pour le temps thoracique, avec une ventilation protectrice.
++ L'hypotension et la surcharge hydrique menacent la vascularisation de l'anastomose. :: D'où un remplissage guidé et des vasopresseurs si besoin.
+- L'extubation est volontairement retardée de plusieurs jours. :: On recherche une extubation précoce.
+- L'analgésie repose sur une infiltration des orifices de trocarts. :: La péridurale thoracique est la technique adaptée.
+> Œsophagectomie : monitorage invasif, péridurale thoracique, ventilation unipulmonaire protectrice, éviter hypotension et surcharge pour protéger l'anastomose, extubation précoce.
+@ p. 104 à 112
 
-QCM · Ventilation unipulmonaire
-Lors d’une chirurgie œsophagienne avec ventilation unipulmonaire, quelles propositions sont exactes ?
-+ Un volume courant de l’ordre de 4 à 5 mL/kg de poids idéal participe à une ventilation protectrice :: Volume réduit sur un seul poumon, pour limiter le volotraumatisme
-- Une PEP de 0 à 2 cmH₂O constitue le réglage de référence sur le poumon ventilé :: Une pression expiratoire positive est nécessaire pour limiter les atélectasies du poumon ventilé
-+ Le positionnement du dispositif d’exclusion pulmonaire peut être vérifié par fibroscopie :: C'est le seul moyen fiable de vérifier la position du dispositif
-- Le réglage du volume courant doit être augmenté proportionnellement au poids réel chez un patient obèse :: Le calcul se fait sur le poids idéal théorique, qui ne change pas avec l'obésité
-> Le support propose un volume courant de 4 à 5 mL/kg de poids idéal, une PEP adaptée avec un repère de 5 à 10 cmH₂O, le recrutement et l’acceptation d’une hypercapnie modérée. Une CPAP de faible niveau peut être envisagée sur le poumon exclu. La fibroscopie contrôle la position de la sonde à double lumière ou du bloqueur ; la protection pulmonaire se poursuit après le temps unipulmonaire.
-@ 111
+QCM · Péritonite : réanimation
+Un patient présente une péritonite avec choc septique. Quelles mesures de réanimation préopératoire sont adaptées ?
++ Hémocultures puis antibiothérapie probabiliste dans l'heure. :: Elle couvre entérobactéries et anaérobies.
+- Remplissage initial par hydroxyéthylamidons. :: Ils ont été retirés du marché : on utilise des cristalloïdes balancés, environ 30 mL/kg.
++ Noradrénaline en première intention pour une PAM ≥ 65 mmHg. :: C'est le vasopresseur du choc septique.
+- Retarder la chirurgie jusqu'à normalisation complète des lactates. :: Le contrôle de la source doit être le plus précoce possible.
+- Éviter l'aspiration gastrique, qui aggrave l'hypovolémie. :: L'aspiration gastrique fait partie de la réanimation initiale.
+> Péritonite : aspiration gastrique, cristalloïdes balancés, noradrénaline pour PAM ≥ 65 mmHg, hémocultures puis antibiotiques en moins d'une heure si choc, contrôle de la source le plus tôt possible, surveillance de la clairance du lactate.
+@ p. 116 et 117
 
-QCM · Suites d’œsophagectomie
-Quelles mesures sont cohérentes avec la prise en charge postopératoire d’une œsophagectomie ?
-+ Une surveillance en soins continus ou un passage court en réanimation selon l’état du patient :: L'œsophagectomie est l'une des chirurgies digestives les plus lourdes
-+ Une analgésie efficace et une kinésithérapie respiratoire, avec recours à la VNI si nécessaire :: La kinésithérapie et la ventilation non invasive préviennent les complications respiratoires
-+ Une nutrition entérale précoce par un accès adapté et une mobilisation précoce :: La nutrition entérale précoce réduit les complications infectieuses
-- L’alimentation parentérale est préférable à la nutrition entérale :: La voie entérale est préférée chaque fois qu'elle est possible
-> La prise en charge s’inscrit dans la récupération accélérée : surveillance adaptée, contrôle de la douleur, soins respiratoires, nutrition entérale par jéjunostomie ou sonde nasojéjunale et mobilisation. La surveillance des drains est importante ; un aspect lactescent constitue un signe d’alerte. L’extubation précoce dépend de la stabilité du patient.
-@ 110–112
+QCM · Péritonite : anesthésie
+Concernant l'anesthésie d'un patient opéré d'une péritonite, quelles propositions sont exactes ?
++ Le patient est considéré comme ayant l'estomac plein. :: Induction en séquence rapide.
++ L'induction est prudente, avec des catécholamines prêtes. :: Le risque d'instabilité hémodynamique est majeur.
++ Le rocuronium à 1,2 mg/kg est une alternative à la succinylcholine. :: Le sugammadex doit être disponible.
+- La manœuvre de Sellick a fait la preuve de son efficacité et doit être réalisée. :: Elle n'est plus considérée comme obligatoire.
+- Le patient est extubé en salle de réveil et retourne en chirurgie. :: Le transfert en réanimation est le plus souvent organisé.
+> Péritonite = estomac plein et instabilité hémodynamique : aspiration gastrique avant induction, préoxygénation (VNI si hypoxémie), vidéolaryngoscope, succinylcholine ou rocuronium 1,2 mg/kg, monitorage invasif, diurèse, transfert en réanimation.
+@ p. 118 à 120
 
-QCM · Péritonite : circulation
-Chez un patient présentant une péritonite avec choc septique, quelles propositions sur la prise en charge circulatoire sont exactes ?
-+ Des cristalloïdes balancés sont utilisés initialement, puis les apports sont adaptés à la réponse :: On corrige d'abord l'hypovolémie, puis on réévalue
-+ La noradrénaline est le vasopresseur de première intention pour soutenir une PAM au moins égale à 65 mmHg :: Vasopresseur de première intention dans le choc septique
-+ La lactatémie et son évolution contribuent à apprécier la gravité et l’efficacité du traitement :: Le lactate et sa décroissance suivent l'efficacité de la réanimation
-- Une pression artérielle initialement conservée chez un patient jeune exclut une instabilité à l’induction :: Un patient jeune compense jusqu'au moment où il décompense brutalement à l'induction
-> Le support donne un repère initial d’environ 30 mL/kg de cristalloïdes balancés, puis insiste sur une adaptation à la réponse. Le soutien vasopresseur et le monitorage sont préparés. Un patient jeune peut compenser avant l’anesthésie ; l’induction peut révéler brutalement une vasoplégie et une instabilité.
-@ 116–118
-
-QCM · Péritonite : infection
-Quelles propositions sur le traitement infectieux d’une péritonite avec choc septique sont exactes ?
-+ L’antibiothérapie probabiliste doit être administrée rapidement, avec un repère inférieur à une heure en cas de choc :: Chaque heure de retard augmente la mortalité dans le choc septique
-- Les antibiotiques doivent attendre les hémocultures, même si leur prélèvement retarde significativement le traitement :: Les hémocultures sont prélevées sans retarder l'antibiotique
-+ Le contrôle chirurgical de la source infectieuse doit être organisé le plus tôt possible :: Aucune antibiothérapie ne remplace le drainage du foyer
-- Après contrôle de la source, l’antibiothérapie est prolongée plusieurs semaines :: Après contrôle de la source, la durée est courte, de quelques jours
-> Les hémocultures précèdent les antibiotiques si elles peuvent être prélevées rapidement, sans retarder le traitement. Celui-ci associe antibiothérapie précoce et contrôle de la source, idéalement dans un délai inférieur à 6–12 heures. Le repère de quatre jours après contrôle est réévalué selon le contexte. Une péritonite postopératoire ou nosocomiale peut nécessiter une couverture ou une durée différente ; la poursuite n’est pas automatique.
-@ 115–117
-
-QCM · Urgence : induction
-Chez un patient occlus à risque d’inhalation, quelles propositions sur la préparation d’une induction en séquence rapide sont exactes ?
-+ Une aspiration gastrique est réalisée avant l’induction lorsque cela est possible :: Elle réduit le volume gastrique, sans jamais vider complètement l'estomac
-+ Une préoxygénation par VNI peut être utilisée si le patient est hypoxémique :: Elle maintient une oxygénation chez un patient qui ne tolère pas l'apnée
-+ Le rocuronium peut être utilisé à 1,2 mg/kg, avec sugammadex disponible :: Il permet une induction en séquence rapide avec une réversion possible
-- La manœuvre de Sellick est indispensable dans cette situation :: Son bénéfice n'est pas démontré, et elle peut gêner la laryngoscopie
-> La préparation associe aspiration gastrique, préoxygénation adaptée, anticipation de l’intubation et curare rapide. Le support propose le vidéolaryngoscope en première intention ; succinylcholine ou rocuronium sont les options citées. La manœuvre de Sellick n’y est pas obligatoire. Le soutien hémodynamique doit également être prêt.
-@ 118–119
-
-QCM · RAAC et préhabilitation
-Quelles propositions décrivent correctement la récupération améliorée après chirurgie (RAAC) et la préhabilitation ?
-+ La RAAC vise à limiter la baisse fonctionnelle et à accélérer le retour à l’état antérieur :: L'objectif est fonctionnel, non la seule durée de séjour
-+ La préhabilitation peut associer exercice, nutrition et soutien psychologique avant l’intervention :: Elle prépare le patient dans les semaines qui précèdent
-+ La RAAC repose sur une coordination des soins avant, pendant et après la chirurgie :: Elle engage le chirurgien, l'anesthésiste, les soignants et le patient
-- La RAAC vise à raccourcir la durée d’hospitalisation, indépendamment de l’état fonctionnel :: La durée de séjour est une conséquence, non l'objectif
-> La récupération, et pas seulement la sortie rapide, est l’objectif. La préhabilitation augmente les réserves avant le stress chirurgical ; la réhabilitation accompagne la récupération après celui-ci. Le support propose une préparation sur environ quatre semaines et une optimisation de l’anémie, de la dénutrition et des facteurs de risque, dans un parcours multidisciplinaire.
-@ 121–128
-
-QCM · RAAC : préparation colorectale
-Quelles propositions sur la préparation et les mesures peropératoires d’un parcours de RAAC colorectale sont exactes ?
-+ Une préparation mécanique colique isolée n’est pas recommandée de routine et peut déshydrater le patient :: Elle n'améliore pas les suites et déséquilibre l'hydratation
-- Les antibiotiques oraux de la veille remplacent l’antibioprophylaxie IV à l’incision :: Ils s'y ajoutent, ils ne la remplacent pas
-+ La voie mini-invasive est privilégiée lorsqu’elle est adaptée :: Elle réduit la douleur, l'iléus et les complications pariétales
-- L’objectif hydrique est une restriction maximale, même au prix d’une hypovolémie :: Une restriction excessive expose à l'insuffisance rénale aiguë
-> Le support distingue la préparation mécanique isolée, non systématique, de la préparation antibiotique orale de la veille, qui s’ajoute à l’ABP IV péri-incisionnelle. La mini-invasion, la prévention du froid et des NVPO, la décurarisation complète et des apports adaptés contribuent à la RAAC. Le bilan hydrique visé est légèrement positif, sans surcharge ni restriction excessive.
-@ 35, 129–131
-
-QCM · RAAC : postopératoire
-Après une chirurgie colorectale, quelles mesures contribuent à la récupération améliorée si l’état clinique le permet ?
-+ Reprendre les boissons dès J0 et l’alimentation à J0–J1 sans attendre systématiquement les gaz :: La reprise précoce accélère la récupération du transit
-+ Éviter le maintien systématique d’une sonde nasogastrique :: Son maintien n'apporte rien et gêne la mobilisation
-+ Mobiliser précocement, avec un objectif d’au moins trois heures hors du lit à J1 :: La mobilisation précoce est l'un des piliers du programme
-- Maintenir de routine la sonde urinaire jusqu’à la reprise complète du transit :: Elle expose à l'infection urinaire et empêche la mobilisation
-> Le parcours favorise l’alimentation et la mobilisation précoces, rendues possibles par une analgésie efficace. Il limite les dispositifs inutiles : pas de sonde nasogastrique de routine, retrait précoce de la sonde urinaire avec les repères ≤ 24 h en chirurgie colique et ≤ 48 h en chirurgie rectale. Les soins respiratoires et la prévention des complications accompagnent ces mesures.
-@ 132–133
+QCM · RAAC
+Concernant la récupération améliorée après chirurgie (RAAC) en chirurgie digestive, quelles propositions sont exactes ?
++ Le jeûne préopératoire est raccourci. :: Les liquides clairs sont autorisés jusqu'à peu avant l'intervention.
++ La chirurgie mini-invasive est privilégiée. :: Elle limite l'agression chirurgicale.
++ La sonde nasogastrique n'est pas laissée en postopératoire. :: Elle retarde la reprise de l'alimentation.
++ La boisson est reprise dès le jour de l'intervention. :: Avec une alimentation à J0-J1.
+- La mobilisation est différée à J3 pour limiter la douleur. :: La mobilisation commence dès J1, au moins 3 heures par jour.
+> RAAC : information, jeûne court, pas de prémédication systématique, correction de l'anémie, chirurgie mini-invasive, apports équilibrés, drains limités, extubation précoce, boissons dès J0, alimentation J0-J1, pas de SNG, mobilisation dès J1.
+@ p. 121 à 133
