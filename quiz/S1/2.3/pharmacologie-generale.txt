@@ -1,367 +1,265 @@
-// Quiz 2 – Pharmacologie générale (UE 2.3), d'après « QUIZZ 2 pharmaco.html », relu et corrigé.
+// Quiz – Pharmacologie générale (UE 2.3), réécrit le 18 novembre 2026 d'après le support « pharmaco générale avec notes ».
+// Questions type examen sur les notions générales : pharmacocinétique (ADME, biodisponibilité, liaison protéique, distribution, clairance, demi-vie, accumulation), pharmacodynamie (récepteurs, dose-effet, puissance, titration), modèles et AIVOC, calculs de dilution, sécurité médicamenteuse. Les constantes des modèles ne sont pas reprises.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Pharmacologie générale
 
-QCM · Bases
-Quelles distinctions entre pharmacocinétique et pharmacodynamie sont exactes ?
-+ La pharmacocinétique décrit l'évolution des concentrations au cours du temps :: Ce que l'organisme fait du médicament.
-+ La pharmacodynamie décrit les effets du médicament sur l'organisme :: Ce que le médicament fait à l'organisme.
-- L'alcoolémie est une mesure pharmacodynamique :: C'est une concentration, donc de la pharmacocinétique.
-- Les troubles du comportement sous éthanol illustrent sa pharmacocinétique :: Ce sont des effets : de la pharmacodynamie.
-> Deux questions distinctes : où va le produit et à quelle concentration (cinétique), et quel effet il produit (dynamie). L'alcool illustre bien les deux : l'alcoolémie est cinétique, l'ivresse dynamique.
-@ 4, 7, 10
+QCM · Pharmacocinétique et pharmacodynamie
+Concernant la pharmacocinétique et la pharmacodynamie, quelles propositions sont exactes ?
++ La pharmacocinétique décrit ce que l'organisme fait au médicament. :: Elle suit l'évolution des concentrations dans le temps.
+- La pharmacodynamie étudie l'absorption et l'élimination du médicament. :: Ces étapes relèvent de la pharmacocinétique.
++ La pharmacodynamie décrit les effets du médicament et son interaction avec le récepteur. :: C'est ce que le médicament fait à l'organisme.
+- L'alcoolémie est un paramètre pharmacodynamique de l'éthanol. :: C'est une concentration : un paramètre pharmacocinétique.
++ La chaîne dose, concentration, effet relie les deux disciplines. :: La concentration au site d'effet produit la réponse observée.
+> Pharmacocinétique : devenir du médicament (absorption, distribution, métabolisme, élimination) et concentrations. Pharmacodynamie : effets et interaction avec le récepteur. L'éthanol l'illustre : alcoolémie d'un côté, troubles du comportement de l'autre.
+@ p. 4 à 7 et 10
 
-QCM · Bases
-Quelles affirmations sur l'ADME et les métabolites sont exactes ?
-+ Le M de l'ADME correspond au métabolisme :: Absorption, distribution, métabolisme, élimination.
-+ Un médicament peut être éliminé sous forme inchangée :: Le métabolisme n'est pas une étape obligatoire.
-+ Un métabolite peut être actif :: Certains médicaments ne deviennent actifs qu'après transformation.
-- La distribution désigne la transformation enzymatique du produit :: C'est sa répartition dans les tissus ; la transformation est le métabolisme.
-> ADME : absorption, distribution, métabolisme, élimination. La distribution répartit, le métabolisme transforme, et les métabolites peuvent être actifs, inactifs ou toxiques.
-@ 5–6
+QCU · Absorption
+Concernant l'absorption d'un médicament, quelle proposition est exacte ?
+- Elle correspond au passage du médicament du plasma vers les tissus. :: C'est la distribution.
++ La voie intraveineuse sert de référence, toute la dose atteignant la circulation générale. :: Il n'y a pas d'étape d'absorption.
+- Elle est identique à jeun et après un repas. :: Le repas modifie les profils de concentration.
+- Elle ne dépend pas du débit sanguin local. :: Le produit doit être emporté depuis son site d'administration.
+- Elle ne concerne que la voie orale. :: Toutes les voies extravasculaires comportent une absorption.
+> Absorption : passage du site d'administration à la circulation générale. Elle dépend de la voie, de la formulation, du repas, de l'ionisation, du passage des membranes et du débit sanguin local. L'IV est la référence.
+@ p. 12, 14, 15 et 20
 
-QCM · Absorption
-Quelles affirmations sur l'absorption et la voie intraveineuse sont exactes ?
-+ L'absorption est le passage du site d'administration vers la circulation générale :: Elle n'existe donc pas pour la voie intraveineuse.
-+ La voie intraveineuse sert de référence car toute la dose rejoint la circulation générale :: Sa biodisponibilité est de 100 % par définition.
-+ La voie d'administration modifie le trajet et la quantité qui arrive au site d'action :: D'où des doses orales et intraveineuses différentes pour un même produit.
-- La voie intraveineuse supprime la variabilité des concentrations entre patients :: Elle supprime la variabilité d'absorption, pas celle de la distribution ni de l'élimination.
-> L'absorption est l'étape franchie avant d'atteindre le sang. La voie intraveineuse s'en passe : c'est pourquoi elle sert de référence pour mesurer la biodisponibilité des autres voies.
-@ 11–12, 19
+QCM · Voie orale et premier passage
+Concernant un médicament administré par voie orale, quelles propositions sont exactes ?
++ Après absorption digestive, il passe par le système porte et le foie avant la circulation générale. :: C'est le trajet du sang issu de l'intestin.
++ L'effet de premier passage hépatique peut réduire la quantité de produit initial disponible. :: Une partie est transformée avant d'atteindre l'organisme.
+- La voie sublinguale emprunte le même trajet que la voie orale avalée. :: Elle évite le passage initial par le foie.
++ Une dose orale peut devoir être plus élevée que la dose IV pour une même concentration. :: Selon l'importance du premier passage, propre à chaque molécule.
++ Un grêle court peut réduire son absorption. :: La surface d'absorption disponible est diminuée.
+> Voie orale : intestin → système porte → foie → circulation générale. Le premier passage hépatique transforme une part du produit, d'où une biodisponibilité parfois faible et des doses orales plus élevées.
+@ p. 17 à 19, 23 à 27
 
-QCM · Absorption
-Quelles affirmations sur le premier passage hépatique après une prise orale sont exactes ?
-+ Il survient après le passage par le système porte :: Tube digestif, système porte, foie, puis circulation générale.
-+ Il peut réduire la quantité de médicament qui atteint la circulation générale :: C'est la principale cause de biodisponibilité orale faible.
-+ Il explique qu'une même dose n'ait pas le même effet par voie orale et intraveineuse :: La dose orale doit souvent être majorée.
-- Il transforme nécessairement le produit en substance inactive :: Les métabolites peuvent être actifs, et certains médicaments ne s'activent que là.
-> Tout ce qui est absorbé par l'intestin traverse le foie avant d'atteindre la circulation générale. Ce premier passage peut abaisser fortement la fraction disponible, ou au contraire activer une prodrogue.
-@ 17–18, 23–24
+QCM · Biodisponibilité et paramètres de la courbe
+Concernant la courbe des concentrations en fonction du temps, quelles propositions sont exactes ?
+- Le Tmax est la concentration maximale atteinte. :: C'est le délai pour atteindre la concentration maximale (Cmax).
++ La biodisponibilité absolue compare l'aire sous la courbe à celle obtenue par voie IV. :: Le rapport F est compris entre 0 et 1.
+- Deux formulations de même biodisponibilité ont le même effet clinique. :: Leurs pics peuvent différer : l'une peut être toxique, l'autre insuffisante.
++ L'aire sous la courbe représente l'exposition au médicament dans le temps. :: Elle sert à comparer formes et voies d'administration.
+- Une biodisponibilité de 1 signifie que la moitié de la dose atteint la circulation. :: F = 1 signifie que toute la dose l'atteint, comme par voie IV.
+> Cmax : sommet de la courbe ; Tmax : délai pour l'atteindre ; ASC : exposition. Biodisponibilité : fraction de la dose atteignant la circulation générale, évaluée par le rapport des ASC par rapport à l'IV.
+@ p. 21, 22 et 28 à 30
 
-QCM · Absorption
-Quelles affirmations sur la biodisponibilité absolue sont exactes ?
-+ C'est la fraction de la dose administrée qui atteint la circulation générale :: Notée F, elle varie entre 0 et 1.
-+ Elle se mesure en comparant l'aire sous la courbe à celle d'une administration intraveineuse :: L'intraveineuse sert de référence à 100 %.
-+ Elle vaut 1 pour la voie intraveineuse :: Aucune étape d'absorption à franchir.
-- Elle se lit directement sur la Cmax :: La Cmax est la hauteur du pic ; la biodisponibilité porte sur l'exposition totale.
-> F compare l'exposition obtenue par une voie à celle de la voie intraveineuse, par le rapport des aires sous courbe. Un pic élevé ne signifie pas une biodisponibilité élevée.
-@ 28–29
+QCM · Facteurs modifiant la distribution
+Concernant les facteurs qui modifient la distribution d'un médicament, quelles propositions sont exactes ?
++ La baisse de l'albuminémie augmente la fraction libre des médicaments liés à l'albumine. :: Moins de protéines disponibles pour les fixer.
++ La déshydratation et l'âge modifient les volumes liquidiens disponibles. :: Le volume de répartition du produit change.
++ L'obésité favorise le stockage des produits liposolubles dans le tissu adipeux. :: Il faut l'anticiper pour le réveil.
++ L'état de choc modifie le transport du médicament vers sa cible. :: L'hémodynamique fait partie du raisonnement.
++ La grossesse, la cirrhose et la dénutrition peuvent abaisser l'albuminémie. :: L'équilibre entre forme liée et forme libre est alors déplacé.
+> La distribution dépend des volumes liquidiens, du rapport masse maigre/tissu adipeux, de l'hémodynamique et de la liaison protéique. Ces facteurs varient avec l'âge et l'état clinique du patient.
+@ p. 33, 34 et 39
 
-QCM · Absorption
-Quelles affirmations sur l'aire sous la courbe concentration-temps sont exactes ?
-+ Elle représente l'exposition au médicament au cours du temps :: Elle intègre la concentration sur toute la durée.
-+ Elle correspond à la surface située sous le profil de concentration :: D'où son nom.
-+ Elle permet de comparer deux modalités d'administration :: C'est la base du calcul de la biodisponibilité.
-- Elle correspond au délai d'apparition de la concentration maximale :: C'est le Tmax, lu sur l'axe du temps.
-> L'aire sous la courbe mesure la quantité de médicament à laquelle l'organisme a été exposé. Deux profils très différents peuvent partager la même aire.
-@ 22, 28–29
+QCM · Liaison protéique
+Concernant la liaison des médicaments aux protéines plasmatiques, quelles propositions sont exactes ?
++ Elle est réversible et obéit à la loi d'action de masse. :: Formes libre et liée s'équilibrent en permanence.
++ Seule la forme libre peut interagir avec le récepteur. :: C'est la clé capable d'entrer dans la serrure.
++ L'albumine et la glycoprotéine acide font partie des protéines de transport. :: Les lipoprotéines aussi.
+- Une hypoalbuminémie diminue la fraction libre d'un médicament très lié. :: Elle l'augmente : moins de complexes liés, plus de forme libre.
++ Chez le cirrhotique, une même dose de thiopental peut avoir un effet plus marqué. :: La fraction libre augmente quand l'albuminémie baisse : il faut titrer.
+> Le médicament circule lié (transport) et libre (actif, filtrable). Toute baisse des protéines (cirrhose, grossesse, dénutrition) augmente la fraction libre et donc l'effet : d'où la titration.
+@ p. 31 à 35 et 96
 
-QCM · Absorption
-Quelles affirmations sur la lecture d'une courbe concentration plasmatique-temps sont exactes ?
-+ La Cmax se lit au sommet de la courbe, sur l'axe des concentrations :: C'est le pic atteint par le produit.
-+ Le Tmax se lit sur l'axe du temps, à l'aplomb du pic :: C'est le délai pour atteindre la Cmax.
-+ Une Cmax élevée avec un Tmax court traduit une absorption rapide :: Profil recherché pour un antalgique d'urgence, redouté pour un produit à marge étroite.
-- Deux courbes de même Cmax ont la même aire sous la courbe :: L'aire dépend de tout le profil, pas du seul pic.
-> Cmax est une hauteur, Tmax un délai, l'aire sous la courbe une exposition. Ces trois repères sont indépendants : il faut les trois pour décrire un profil.
-@ 21–22, 28
+QCM · Passage des membranes
+Concernant le passage des membranes par les médicaments, quelles propositions sont exactes ?
++ La diffusion passive se fait selon le gradient de concentration. :: Le produit va du compartiment le plus concentré vers le moins concentré.
+- La diffusion passive consomme de l'énergie sous forme d'ATP. :: Elle ne nécessite pas d'énergie.
+- Le transport actif ne peut se faire que dans le sens du gradient. :: Il peut aller contre le gradient.
++ Le transport actif utilise des systèmes membranaires et nécessite de l'énergie. :: Il explique des concentrations très différentes de part et d'autre d'une membrane.
+- La charge électrique d'une molécule est sans effet sur son passage. :: L'ionisation influence le passage des membranes.
+> Diffusion passive : selon le gradient, sans énergie, jusqu'à l'équilibre. Transport actif : par transporteurs, avec énergie, éventuellement contre le gradient (exemple du potassium intracellulaire).
+@ p. 14 et 37
 
-QCM · Absorption
-Trois formulations d'un même médicament ont la même biodisponibilité. Quelles affirmations sont exactes ?
-+ L'une des formulations peut dépasser la zone de toxicité :: Avec un pic plus précoce et plus haut.
-+ Une autre peut rester sous la concentration minimale efficace :: Avec une libération trop étalée.
-+ Leurs profils de concentration peuvent être très différents :: Même exposition totale, répartition différente dans le temps.
-- Une même biodisponibilité garantit le même effet à chaque instant :: Elle ne dit rien de la vitesse d'absorption ni de la hauteur du pic.
-> Biodisponibilité identique signifie quantité totale identique, pas profil identique. Trois formulations peuvent se répartir de part et d'autre de la fenêtre thérapeutique : l'une toxique, l'une efficace, l'une inefficace.
-@ 30
-
-QCM · Distribution
-Quelles affirmations sur la liaison aux protéines plasmatiques sont exactes ?
-+ Les formes libre et liée sont en équilibre :: La liaison est réversible, le produit se fixe et se détache en permanence.
-+ Seule la forme libre peut diffuser et agir sur les récepteurs :: La fraction liée est un réservoir circulant, inactif.
-+ L'albumine est l'un des transporteurs plasmatiques :: Avec la glycoprotéine acide et les lipoprotéines.
-- La fixation aux protéines est irréversible jusqu'à l'élimination :: Si c'était le cas, le médicament lié n'aurait aucun effet, et le produit serait inactif.
-> La fraction libre fait l'effet, la fraction liée le réserve. Tout ce qui déplace cet équilibre, dénutrition, inflammation ou compétition entre médicaments, modifie l'effet sans modifier la dose.
-@ 31–32
-
-QCM · Distribution
-Chez un patient hypoalbuminémique, pour une même quantité totale d'un médicament fortement lié à l'albumine, quelles affirmations sont exactes ?
-+ La fraction libre peut devenir plus importante :: Moins de sites de fixation disponibles, donc plus de produit actif.
-+ Le risque de surdosage existe à dose usuelle :: C'est la fraction libre qui fait l'effet et la toxicité.
-+ Quantité totale et quantité libre sont deux informations différentes :: Un dosage total peut rassurer à tort.
-- Une concentration totale identique impose une fraction libre identique :: La répartition entre libre et lié dépend du nombre de sites de fixation.
-> Chez un patient dénutri, inflammatoire ou insuffisant hépatique, l'albumine baisse : la fraction libre d'un médicament fortement lié augmente et l'effet se majore à dose constante. C'est un argument pour réduire les doses initiales.
-@ 33–35, 96
-
-QCM · Distribution
-Quelles distinctions entre diffusion passive et transport actif sont exactes ?
-+ La diffusion passive suit le gradient de concentration :: Du plus concentré vers le moins concentré, sans énergie.
-+ Le transport actif peut déplacer une substance contre le gradient :: C'est son intérêt, et ce qui le rend saturable.
-+ Le transport actif consomme de l'énergie et utilise des systèmes membranaires :: Transporteurs spécifiques, donc compétition possible entre molécules.
-- La diffusion passive consomme de l'ATP :: Elle ne demande aucune dépense énergétique.
-> Diffusion passive : dans le sens du gradient, gratuite, non saturable. Transport actif : contre le gradient, coûteux, saturable et siège d'interactions.
-@ 36–37
-
-QCM · Distribution
-Quelles affirmations sur le volume de distribution Vd sont exactes ?
-+ C'est un volume théorique, calculé à partir de la concentration plasmatique :: Il exprime la dilution apparente du produit dans l'organisme.
-+ La quantité de médicament dans l'organisme vaut Q = Vd × C :: D'où le calcul d'une dose de charge.
-+ Un Vd très supérieur au volume sanguin traduit une fixation tissulaire importante :: Le produit a quitté le plasma pour les tissus.
-- À quantité identique, augmenter le Vd augmente la concentration :: C = Q / Vd : une distribution plus large dilue davantage et abaisse la concentration.
-> Le Vd est fictif : il ne mesure pas un volume anatomique mais la façon dont le produit se répartit. Un grand Vd signifie des concentrations plasmatiques basses pour une même quantité administrée.
-@ 21, 38
-
-QCM · Distribution
-Quels facteurs modifient la distribution d'un médicament ?
-+ Les volumes liquidiens de l'organisme :: Déshydratation et surcharge hydrosodée modifient la dilution.
-+ Le rapport entre masse maigre et tissu adipeux :: Déterminant pour les produits liposolubles, notamment chez l'obèse et le sujet âgé.
-+ L'état hémodynamique :: Un bas débit ralentit l'arrivée du produit dans les tissus.
-+ La liaison aux protéines plasmatiques :: Elle fixe la part réellement disponible pour diffuser.
-- Le pH urinaire :: Il modifie la réabsorption tubulaire, donc l'élimination, pas la distribution.
-> Volumes liquidiens, composition corporelle, débit cardiaque et fraction libre déterminent la distribution. C'est pourquoi un même mg/kg ne donne pas la même concentration chez un sujet jeune, un obèse ou un patient en état de choc.
-@ 39
+QCU · Volume de distribution
+Concernant le volume de distribution d'un médicament, quelle proposition est exacte ?
+- Il correspond au volume sanguin du patient. :: Il n'est pas forcément égal au seul volume vasculaire.
+- Il se mesure directement par imagerie. :: C'est un volume théorique, calculé.
++ C'est un volume fictif dans lequel le médicament serait réparti à la concentration plasmatique. :: Il relie quantité et concentration : Q = Vd × C.
+- Plus il est grand, plus la concentration plasmatique est élevée pour une même dose. :: C = Q / Vd : un grand Vd donne une concentration plus basse.
+- Il est propre à la molécule et ne varie pas selon le patient. :: Il varie avec l'âge, l'obésité, l'hydratation ou une insuffisance hépatique.
+> Vd : volume théorique de répartition à la concentration plasmatique. Q = Vd × C, donc C = Q / Vd. Il traduit l'étendue de la distribution, pas un volume anatomique.
+@ p. 21, 38 et 95
 
 QCM · Métabolisme
-Quelles affirmations illustrées par l'exemple de la succinylcholine sont exactes ?
-+ Sa dégradation dépend de la butyrylcholinestérase plasmatique :: Enzyme synthétisée par le foie, à activité variable selon les patients.
-+ Un déficit enzymatique prolonge la curarisation :: Le produit n'est plus hydrolysé au rythme attendu.
-+ La ventilation et l'hypnose doivent être maintenues tant que la curarisation persiste :: Le patient est paralysé mais pas endormi par le curare.
-- L'immobilité du patient prouve que l'hypnose persiste :: Le curare supprime le mouvement quel que soit l'état de conscience.
-> La variabilité enzymatique est une cause classique d'effet prolongé. Devant une curarisation qui dure, la réponse est l'attente sous ventilation, sédation et monitorage, jamais l'interprétation de l'immobilité comme un signe de sommeil.
-@ 40
+Concernant le métabolisme des médicaments, quelles propositions sont exactes ?
++ Il peut produire des métabolites actifs, voire plus actifs que la molécule mère. :: C'est le cas d'un métabolite de la morphine.
+- Il aboutit à des métabolites inactifs. :: Les métabolites peuvent être actifs ou inactifs.
++ Certaines molécules doivent être transformées pour devenir actives. :: La transformation ne signifie pas seulement disparition.
+- La succinylcholine est dégradée par le foie. :: Elle est dégradée par la butyrylcholinestérase plasmatique.
++ Un déficit en butyrylcholinestérase prolonge la curarisation par la succinylcholine. :: Le patient reste paralysé : ventiler et maintenir l'hypnose.
+> Le métabolisme, surtout hépatique mais aussi enzymatique plasmatique, transforme le médicament en métabolites actifs ou inactifs. Un déficit enzymatique, congénital ou acquis, prolonge l'effet : un patient immobile peut être conscient.
+@ p. 5, 23, 40 et 62
 
-QCM · Métabolisme
-Quelles affirmations sur l'induction enzymatique et la variabilité entre patients sont exactes ?
-+ L'équipement enzymatique varie d'un individu à l'autre :: D'origine génétique : métaboliseurs lents ou rapides.
-+ Un traitement peut accélérer la transformation d'autres médicaments :: C'est l'induction enzymatique, qui diminue leur effet.
-+ Deux patients recevant la même dose peuvent avoir des concentrations très différentes :: Génétique, traitements associés et fonction des organes se cumulent.
-- L'induction enzymatique correspond à une diminution de la transformation des médicaments :: Elle l'augmente ; c'est l'inhibition enzymatique qui la diminue.
-> L'induction stimule les systèmes enzymatiques et accélère le métabolisme : les concentrations baissent et l'effet s'émousse. L'inhibition fait l'inverse. À cela s'ajoute la variabilité génétique, qui justifie la titration.
-@ 41
+QCM · Variabilité enzymatique
+Concernant la variabilité de l'activité enzymatique, quelles propositions sont exactes ?
+- Une induction enzymatique ralentit le métabolisme des autres médicaments. :: Elle l'accélère : les produits sont dégradés plus vite.
++ La dotation génétique distingue des métaboliseurs lents, rapides et ultrarapides. :: Une même dose donne alors des réponses différentes.
+- L'activité enzymatique est identique d'un individu à l'autre. :: Elle varie avec la génétique, l'âge, la grossesse, la dénutrition et le foie.
+- Les traitements habituels du patient sont sans influence sur les produits de l'anesthésie. :: Ils peuvent induire ou modifier le métabolisme.
+- Un foie fonctionnant moins bien accélère la transformation du produit. :: La transformation est ralentie.
+> Le métabolisme varie entre individus (génétique, foie, âge, grossesse, dénutrition) et sous l'effet d'autres substances (induction enzymatique). D'où l'interrogatoire sur les traitements et la titration.
+@ p. 25, 40 et 41
 
-QCM · Élimination
-Quelles affirmations sur le cycle entérohépatique sont exactes ?
-+ Il associe une excrétion biliaire à une réabsorption intestinale possible :: Le produit revient vers le système porte.
-+ Il peut prolonger la présence du médicament dans l'organisme :: Le produit effectue plusieurs passages avant d'être éliminé.
-+ L'excrétion dans la bile n'est pas toujours une élimination définitive :: Tout dépend de ce que devient le produit dans l'intestin.
-- Il correspond à une filtration glomérulaire suivie d'une sécrétion tubulaire :: Ce trajet est rénal ; le cycle entérohépatique passe par la bile et l'intestin.
-> Excrétion biliaire, puis intestin, puis réabsorption vers le système porte : le médicament peut repartir pour un tour. Ce recyclage explique certaines durées d'action plus longues qu'attendu.
-@ 26, 42
+QCM · Élimination rénale
+Concernant l'élimination rénale des médicaments, quelles propositions sont exactes ?
++ Elle associe filtration glomérulaire, sécrétion tubulaire et réabsorption tubulaire. :: Clairance rénale = filtration + sécrétion − réabsorption.
++ La forme libre du médicament est celle qui est filtrée. :: La forme liée à une grosse protéine comme l'albumine ne passe pas.
++ L'insuffisance cardiaque peut la diminuer en réduisant la perfusion rénale. :: Le débit sanguin rénal conditionne l'élimination.
+- La fonction rénale augmente avec l'âge. :: Elle diminue avec l'âge.
++ Le pH urinaire peut modifier l'élimination de certaines molécules. :: Il change leur ionisation et leur réabsorption.
+> Le rein élimine le médicament inchangé et ses métabolites par filtration, sécrétion et réabsorption. Âge, perfusion, fraction libre et pH la modifient ; la fonction rénale estimée guide l'administration.
+@ p. 43 et 45 à 48
 
-QCM · Élimination
-Quelles affirmations sur la clairance rénale sont exactes ?
-+ Clairance rénale = filtration + sécrétion − réabsorption :: Deux mécanismes ajoutent à l'urine, un la soustrait.
-+ La sécrétion tubulaire fait passer des molécules du plasma vers l'urine :: Elle est active et saturable, donc source d'interactions.
-+ Seule la fraction libre est filtrée par le glomérule :: Un médicament fortement lié est peu filtré.
-- La réabsorption augmente la quantité finalement éliminée :: Elle la diminue : le produit retourne dans le sang.
-> Trois mécanismes rénaux : la filtration glomérulaire, qui ne concerne que la fraction libre, la sécrétion tubulaire, qui ajoute, et la réabsorption, qui retient. Leur bilan fait la clairance rénale.
-@ 43, 47–48
+QCM · Autres voies d'élimination
+Concernant les voies d'élimination autres que le rein, quelles propositions sont exactes ?
+- L'élimination biliaire est définitive, sans retour possible vers l'organisme. :: Une réabsorption intestinale est possible : cycle entérohépatique.
++ Les anesthésiques inhalés sont éliminés par les poumons. :: Le CO2 insufflé en cœlioscopie l'est aussi.
+- Le passage dans le lait maternel est sans conséquence pour l'enfant allaité. :: Les produits reçus par la mère peuvent passer à l'enfant.
++ La clairance totale est la somme des clairances des organes qui éliminent le médicament. :: Rénale, hépatique, intestinale, pulmonaire…
+- La salive est une voie d'élimination quantitativement majeure. :: Elle est limitée, mais utile pour détecter certaines substances.
+> Le médicament peut aussi être éliminé par la bile (avec un possible cycle entérohépatique), les poumons, la salive et le lait. La clairance totale additionne les clairances de chaque organe.
+@ p. 26, 42, 44 et 46
 
-QCM · Élimination
-Quelles affirmations sur la notion de clairance sont exactes ?
-+ Elle s'exprime comme un débit, par exemple en mL/min :: Un volume épuré par unité de temps.
-+ Elle représente le volume de plasma totalement épuré par unité de temps :: Image virtuelle, utile pour comparer les capacités d'épuration.
-+ Elle conditionne le débit d'entretien nécessaire pour maintenir une concentration :: Ce qui sort doit être compensé par ce qui entre.
-- Elle correspond au temps nécessaire pour réduire la concentration de moitié :: C'est la demi-vie, qui s'exprime en unités de temps.
-> La clairance est un débit d'épuration, la demi-vie une durée. Elles sont liées par le volume de distribution : une demi-vie longue peut venir d'une clairance basse comme d'un grand Vd.
-@ 45, 71
+QCU · Clairance
+Concernant la clairance d'un médicament, quelle proposition est exacte ?
+- Elle s'exprime en milligrammes. :: C'est un débit, en mL/min.
+- Une clairance élevée traduit une élimination lente. :: Elle traduit une élimination rapide.
+- Elle ne concerne que le rein. :: Elle réunit biotransformation et excrétion, par tous les organes.
++ C'est le volume de plasma totalement épuré du médicament par unité de temps. :: Elle mesure la capacité de l'organisme à éliminer la substance.
+- Elle est sans lien avec la demi-vie. :: Une clairance diminuée allonge la demi-vie et la durée d'action.
+> Clairance : volume de plasma totalement épuré par unité de temps (débit). Elle regroupe métabolisme et excrétion de tous les organes ; sa baisse ralentit l'élimination.
+@ p. 45, 46 et 71
 
-QCM · Élimination
-Quelles affirmations sur la clairance totale sont exactes ?
-+ Elle additionne les clairances des organes qui participent à l'élimination :: Rein, foie, intestin, poumon selon la molécule.
-+ Le foie et les poumons peuvent y contribuer :: Les halogénés sont éliminés par voie pulmonaire.
-+ L'altération d'une fonction d'organe peut modifier la disparition du produit :: Avec un risque d'accumulation si cet organe portait l'essentiel de l'élimination.
-- Elle est égale à la clairance rénale :: Le rein n'est qu'une voie parmi d'autres ; pour certains produits, sa part est faible.
-> La clairance totale est la somme des voies d'épuration. Savoir par quel organe un médicament est éliminé indique quelle défaillance imposera d'adapter la posologie.
-@ 44–46
+QCM · Demi-vie d'élimination
+Concernant la demi-vie d'élimination, quelles propositions sont exactes ?
+- Elle correspond au délai d'apparition de l'effet. :: Elle décrit la décroissance des concentrations.
++ C'est le temps nécessaire pour que la concentration plasmatique diminue de moitié. :: Après un bolus, la décroissance est exponentielle.
+- Après deux demi-vies, le médicament est éliminé. :: Il reste un quart de la concentration initiale.
+- Elle se lit sur la phase initiale, rapide, de la courbe à deux compartiments. :: Elle se lit sur la phase lente ; la phase rapide est la distribution.
+- Elle reste la même quelle que soit la durée de la perfusion. :: La demi-vie contextuelle dépend de la durée d'administration.
+> Demi-vie : temps de division par deux de la concentration. Chaque demi-vie supplémentaire divise à nouveau par deux. Dans un modèle à deux compartiments, elle se calcule sur la phase lente d'élimination.
+@ p. 21, 64, 75 et 76
 
-QCM · Demi-vie et accumulation
-Après un bolus unique, dans le modèle de décroissance exponentielle, quelles affirmations sont exactes ?
-+ La demi-vie est le temps nécessaire pour diviser la concentration par deux :: Elle reste constante tout au long de la décroissance.
-+ Après deux demi-vies, il reste 25 % de la concentration initiale :: 100 % puis 50 % puis 25 %.
-+ Après cinq demi-vies, il reste environ 3 % du produit :: Repère utilisé pour considérer l'élimination comme pratiquement complète.
-- Après trois demi-vies, il reste 33 % de la concentration initiale :: Il reste 12,5 % : à chaque demi-vie, on divise par deux, on ne retire pas un tiers.
-> À chaque demi-vie, la concentration est divisée par deux : 100, 50, 25, 12,5, 6,25, 3 %. Cinq demi-vies servent de repère, pour la disparition d'un produit comme pour l'atteinte d'un état d'équilibre.
-@ 21, 64, 71
+QCM · Administrations répétées
+Concernant les administrations répétées d'un médicament, quelles propositions sont exactes ?
++ Chaque nouvelle dose s'ajoute à ce qui reste de la précédente. :: La concentration ne repart pas de zéro.
++ Un état stationnaire est atteint après environ cinq demi-vies. :: Les concentrations oscillent alors entre deux valeurs stables.
++ Si la demi-vie s'allonge sans adaptation des doses, le médicament s'accumule. :: L'effet augmente, jusqu'à la toxicité.
++ Chez l'insuffisant rénal, la morphine expose à un surdosage. :: Ses dérivés, dont un métabolite actif, sont éliminés par le rein.
++ Espacer les administrations peut limiter l'accumulation. :: C'est l'enjeu des réglages de PCA chez l'insuffisant rénal.
+> Lors d'injections répétées, les doses s'additionnent jusqu'à un état stationnaire (environ cinq demi-vies). Si l'élimination ralentit, il faut adapter dose ou intervalle pour éviter l'accumulation.
+@ p. 62, 65 à 68
 
-QCM · Demi-vie et accumulation
-Un médicament est administré de façon répétée, à intervalle constant. Quelles affirmations sont exactes ?
-+ Chaque nouvelle dose s'ajoute à ce qui reste de la précédente :: C'est le mécanisme de l'accumulation.
-+ L'état d'équilibre présente un profil répétitif, avec des pics et des creux :: Ce qui entre à chaque intervalle égale ce qui sort.
-+ L'état d'équilibre est atteint après environ cinq demi-vies :: Même repère que pour l'élimination complète.
-- L'état d'équilibre suppose l'absence de médicament entre deux injections :: Il suppose l'inverse : une concentration résiduelle stable d'un cycle à l'autre.
-> En administration répétée, la concentration monte jusqu'à un plateau oscillant atteint après environ cinq demi-vies. Ce plateau comporte toujours des pics et des creux : c'est leur position par rapport à la fenêtre thérapeutique qui importe.
-@ 65–66
+QCM · Récepteurs
+Concernant l'interaction du médicament avec son récepteur, quelles propositions sont exactes ?
++ Elle est spécifique, comme une clé dans sa serrure. :: Un récepteur ne répond pas de la même façon à une autre molécule.
++ Elle est saturable. :: Une fois les récepteurs occupés, augmenter la dose n'augmente plus l'effet.
++ L'effet dépend du taux d'occupation des récepteurs. :: Il faut une occupation suffisante pour l'effet recherché.
+- Un antagoniste reproduit l'effet de l'agoniste. :: Il s'oppose à l'effet de l'agoniste.
++ La naloxone et le flumazénil sont des antagonistes. :: Des morphiniques et des benzodiazépines.
+> Le récepteur est la serrure, le médicament la clé : interaction spécifique et saturable, dont l'effet suit le taux d'occupation. Les antagonistes (naloxone, flumazénil) s'opposent à l'agoniste.
+@ p. 55
 
-QCM · Demi-vie et accumulation
-Chez un patient dont la demi-vie d'un médicament est allongée, à doses et rythme inchangés, quelles affirmations sont exactes ?
-+ Le produit s'accumule davantage :: Il reste plus de résiduel avant chaque nouvelle dose.
-+ L'effet et la toxicité peuvent augmenter :: Les concentrations d'équilibre sont plus élevées.
-+ Espacer les administrations limite l'accumulation :: On laisse le temps d'éliminer avant le nouvel apport.
-+ L'état d'équilibre est atteint plus tard :: Il dépend de la demi-vie, pas de la dose.
-- La quantité résiduelle avant la dose suivante diminue :: Une élimination plus lente laisse au contraire plus de produit.
-> Une demi-vie allongée, par exemple la morphine chez l'insuffisant rénal, impose d'adapter non pas seulement la dose mais l'intervalle. Réduire la dose abaisse les pics ; espacer les prises réduit l'accumulation.
-@ 67–68
+QCM · Courbe dose-effet
+Concernant la courbe dose-effet, quelles propositions sont exactes ?
++ La DE50 est la dose qui produit 50 % de l'effet maximal. :: Elle sert à comparer et à déterminer des doses.
+- Augmenter la dose augmente l'effet sans limite. :: La courbe atteint un plateau, l'Emax.
++ La fenêtre thérapeutique se situe entre la concentration minimale efficace et la concentration toxique. :: L'objectif est d'y rester.
+- La fenêtre thérapeutique ne dépend pas du patient. :: La réponse varie d'un patient à l'autre.
++ Les doses d'induction des curares s'appuient sur un multiple de la DE95. :: Pour obtenir un effet quasi maximal.
+> La courbe dose-effet monte puis atteint un plateau (Emax). DE50 et DE95 caractérisent le médicament ; la fenêtre thérapeutique sépare efficacité et toxicité.
+@ p. 30, 56 et 57
 
-QCM · Pharmacodynamie
-Quelles affirmations sur la titration sont exactes ?
-+ Elle consiste à administrer par petites fractions en réévaluant la réponse :: On cherche l'effet, pas une dose théorique.
-+ Elle s'adapte à la réponse du patient :: Elle répond à la variabilité interindividuelle.
-+ Elle suppose d'attendre le délai d'action avant de réinjecter :: Sans quoi on empile des doses dont l'effet n'est pas encore visible.
-- Elle recherche la dose qui produit le même effet chez tous les patients :: Cette dose n'existe pas : c'est précisément ce que la titration contourne.
-> Titrer, c'est ajuster à l'effet observé. Le décalage entre concentration plasmatique et effet, matérialisé par le compartiment effet, impose de respecter le délai d'action avant chaque réinjection.
-@ 25, 69, 80
+QCU · Puissance
+Deux curares produisent le même effet maximal. Le curare A atteint 50 % de l'effet à une concentration plus faible que le curare B. Quelle proposition est exacte ?
+- B est plus puissant que A. :: C'est l'inverse.
++ A est plus puissant que B. :: Une CE50 plus basse traduit une puissance plus élevée.
+- A a une efficacité maximale plus grande. :: Leur effet maximal est identique dans l'énoncé.
+- A a une durée d'action plus longue. :: La puissance ne renseigne pas sur la durée d'action.
+- Les deux ont la même puissance, puisque l'effet maximal est le même. :: La puissance se lit sur l'axe des concentrations, pas sur le plateau.
+> Puissance : plus la concentration nécessaire pour un même effet est faible, plus le médicament est puissant. Elle se compare à effet identique (par exemple 50 %), sur l'axe horizontal.
+@ p. 58 et 59
 
-QCM · Pharmacodynamie
-Quelles affirmations sur l'interaction entre un médicament et son récepteur sont exactes ?
-+ Elle est spécifique, selon l'analogie de la clé et de la serrure :: Une molécule pour un type de récepteur.
-+ Elle est saturable :: Le nombre de récepteurs est limité, d'où un plateau d'effet.
-+ Le taux d'occupation des récepteurs participe à l'intensité de l'effet :: Jusqu'à ce que les récepteurs disponibles soient occupés.
-- Au plateau d'effet, doubler la dose double l'effet :: Au plateau, augmenter la dose n'augmente plus l'effet, mais augmente les effets indésirables.
-> L'interaction est spécifique et saturable. Une fois le plateau atteint, insister sur la dose n'apporte plus de bénéfice et expose à la toxicité : c'est l'argument contre l'escalade de doses devant un effet insuffisant.
-@ 55–56
+QCM · Titration
+Concernant la titration d'un médicament, quelles propositions sont exactes ?
+- Elle consiste à administrer d'emblée la dose maximale pour gagner du temps. :: On administre progressivement.
+- Elle est inutile si la dose est calculée en mg/kg. :: Une même dose en mg/kg peut donner des concentrations et des effets différents.
++ Elle consiste à administrer progressivement en réévaluant la réponse après chaque apport. :: Jusqu'à l'effet recherché.
+- Elle permet de réinjecter dès la fin de l'injection précédente. :: Il faut respecter le délai d'action avant de réinjecter.
+- Elle augmente en général la quantité totale de médicament administrée. :: Elle vise au contraire à en donner moins et à limiter les effets indésirables.
+> La titration répond à la variabilité entre patients : administrer, attendre le délai d'action, observer, puis ajuster. Elle limite les doses et les effets indésirables.
+@ p. 25, 69, 80 et 101
 
-QCU · Pharmacodynamie
-Sur une courbe dose-effet, que désigne la DE50 ?
-+ La dose qui produit 50 % de l'effet maximal :: C'est un repère de puissance sur l'axe des doses.
-- La concentration plasmatique réduite de moitié après un bolus :: C'est la demi-vie, une notion de cinétique.
-- Le délai nécessaire pour obtenir l'effet maximal :: C'est le délai d'action.
-- La dose à partir de laquelle apparaît le plateau Emax :: Le plateau est bien au-delà de la DE50.
-> La DE50 se lit à mi-hauteur de l'effet maximal : c'est une dose, pas une durée. Elle sert à comparer la puissance de deux médicaments, alors que l'Emax compare leur efficacité maximale.
-@ 56
+QCM · Demi-vie contextuelle
+Concernant la demi-vie contextuelle, quelles propositions sont exactes ?
+- Elle est indépendante de la durée de la perfusion. :: Elle en dépend : c'est sa définition.
++ C'est le temps de baisse de moitié de la concentration après l'arrêt d'une perfusion. :: Elle dépend de la durée d'administration.
+- Celle du fentanyl reste stable lors d'une perfusion prolongée. :: Elle s'allonge nettement, comme celle du thiopental.
++ Celle du rémifentanil varie très peu, même après une longue perfusion. :: Il s'accumule peu : le réveil reste rapide.
+- Elle est sans intérêt pour choisir un produit de sédation prolongée. :: Elle aide à choisir selon la durée prévue et le réveil souhaité.
+> La demi-vie contextuelle tient compte de la durée de perfusion. Fentanyl et thiopental s'accumulent ; propofol un peu ; rémifentanil très peu.
+@ p. 76, 77 et 92
 
-QCM · Pharmacodynamie
-Quelles affirmations sur la puissance pharmacologique sont exactes ?
-+ Un médicament est plus puissant si une concentration plus faible suffit pour un même effet :: La puissance se lit sur l'axe des doses.
-+ Une CE50 plus basse traduit une puissance plus élevée :: Moins de produit pour la moitié de l'effet.
-+ Elle se compare à niveau de réponse identique :: Sinon on compare deux points qui ne sont pas comparables.
-- Elle se lit sur la hauteur du plateau Emax :: Cette hauteur décrit l'efficacité maximale, pas la puissance.
-> Puissance et efficacité sont deux axes de lecture : la puissance sur l'axe des doses (CE50), l'efficacité sur l'axe des effets (Emax). Un produit très puissant peut avoir une efficacité maximale modeste.
-@ 58–59
+QCM · Modèles compartimentaux
+Concernant les modèles pharmacocinétiques compartimentaux, quelles propositions sont exactes ?
++ Dans les modèles du cours, le médicament est injecté dans le compartiment central V1 et éliminé depuis lui. :: C'est une convention de calcul.
++ Le compartiment à distribution rapide correspond aux organes richement vascularisés. :: Cerveau, cœur, reins, foie.
+- La graisse appartient au compartiment à distribution rapide. :: Elle est peu perfusée : distribution lente.
++ Après l'arrêt, le médicament stocké en périphérie peut retourner vers le compartiment central. :: Cela retarde la baisse de concentration et le réveil.
++ Le compartiment effet représente le décalage entre concentration plasmatique et effet. :: L'effet n'apparaît pas au même moment que la concentration plasmatique.
+> Modèle à trois compartiments : V1 central (entrée, élimination), V2 rapide (organes très perfusés), V3 lent (graisse, os). Le compartiment effet, virtuel, rend compte du délai d'action.
+@ p. 73, 74 et 78 à 81
 
-QCM · Pharmacodynamie
-Quelles affirmations sur la fenêtre thérapeutique et la surveillance de l'hypnose sont exactes ?
-+ La fenêtre thérapeutique se situe entre la concentration minimale efficace et la concentration toxique :: Plus elle est étroite, plus la titration est nécessaire.
-+ Le BIS est un index issu de l'électroencéphalogramme :: Il traduit l'effet cérébral, pas la concentration.
-+ La fraction expirée d'halogéné sert à ajuster son administration :: Reflet indirect de la concentration au site d'effet.
-- Le BIS mesure la concentration plasmatique de propofol :: Aucun moniteur ne dose le propofol en continu : le BIS mesure un effet.
-> La fenêtre thérapeutique est l'intervalle à viser. En anesthésie, on la surveille par l'effet : le BIS pour l'hypnose, la fraction expirée pour les halogénés, le monitorage de la curarisation pour les curares.
-@ 57, 97
+QCM · AIVOC
+Concernant l'anesthésie intraveineuse à objectif de concentration, quelles propositions sont exactes ?
++ L'utilisateur choisit une concentration cible, plasmatique ou au site effet. :: La pompe calcule ensuite les débits.
+- Les concentrations affichées par la pompe sont mesurées dans le sang du patient. :: Ce sont des concentrations calculées par le modèle.
++ La pompe fait varier le débit au cours du temps pour atteindre puis maintenir la cible. :: Elle ne garde pas un débit fixe.
+- Un seul modèle sert à l'ensemble des molécules. :: Schnider ou Eleveld pour le propofol, Minto pour le rémifentanil.
++ La surveillance clinique reste nécessaire pour adapter la cible. :: Le modèle prédit ; le monitorage montre la réponse réelle.
+> En AIVOC, la pompe applique un modèle propre à chaque molécule pour calculer les débits menant à la cible choisie. Les concentrations affichées sont calculées : la cible s'adapte à la stimulation et à la réponse.
+@ p. 82 à 87 et 91
 
-QCM · Modèles et AIVOC
-Quelles affirmations sur les modèles compartimentaux sont exactes ?
-+ V1, le compartiment central, est le lieu d'entrée et d'élimination :: Le sang et les organes richement perfusés.
-+ V2 et V3 échangent avec le compartiment central dans les deux sens :: Ils se chargent, puis restituent le produit.
-+ Le modèle à trois compartiments distingue une distribution périphérique rapide et une lente :: V2 rapide, V3 lent, typiquement le tissu adipeux.
-- L'arrêt de l'apport supprime immédiatement le retour du produit depuis les tissus :: Les compartiments périphériques continuent de relarguer vers V1, ce qui entretient la concentration.
-> Le produit entre et sort par V1, et se distribue vers V2 puis V3. À l'arrêt de la perfusion, la décroissance est freinée par le retour des tissus : c'est ce qui explique le réveil retardé après une longue anesthésie.
-@ 73–75, 78–79
+QCU · Calcul de quantité
+Combien de chlorure de sodium contient une ampoule de 10 mL de NaCl à 20 % ?
+- 0,2 g :: Erreur d'un facteur 10.
+- 20 g :: C'est la quantité pour 100 mL.
++ 2 g :: 20 % = 20 g pour 100 mL, donc 2 g pour 10 mL.
+- 200 mg :: Cela correspond à 2 %.
+- 0,02 g :: Erreur d'un facteur 100.
+> x % = x g pour 100 mL. NaCl 20 % : 20 g/100 mL ; dans 10 mL : 20 × 10 / 100 = 2 g.
+@ p. 114 et 115
 
-QCM · Modèles et AIVOC
-Quelles affirmations sur la demi-vie contextuelle sont exactes ?
-+ Elle se mesure après l'arrêt d'une perfusion :: Et non après un bolus unique.
-+ C'est le temps nécessaire pour que la concentration diminue de moitié :: Mais rapporté au contexte d'administration.
-+ Elle dépend de la durée de la perfusion qui l'a précédée :: D'où son nom : le contexte, c'est cette durée.
-- Elle est identique au délai de réveil clinique :: Elle décrit une baisse de concentration, non un seuil d'éveil propre à chaque patient.
-> La demi-vie contextuelle répond à la question pratique : combien de temps pour que la concentration tombe de moitié après l'arrêt. Elle augmente avec la durée de la perfusion, car les tissus relarguent ce qu'ils ont accumulé.
-@ 76, 92
-
-QCM · Modèles et AIVOC
-Quelles affirmations sur la demi-vie contextuelle des agents d'anesthésie sont exactes ?
-+ Celle du fentanyl s'allonge nettement avec la durée de perfusion :: Il s'accumule dans les tissus.
-+ Celle du rémifentanil reste courte et varie très peu :: Son hydrolyse par les estérases plasmatiques est indépendante de la durée d'administration.
-+ Celle du propofol s'allonge de façon limitée :: Profil intermédiaire, compatible avec l'entretien d'une anesthésie intraveineuse.
-- Celle du thiopental ne dépend pas de la durée de perfusion :: Elle s'allonge fortement : il s'accumule dans les tissus, ce qui limite son usage en entretien.
-> Plus un produit s'accumule, plus sa demi-vie contextuelle s'allonge. Le rémifentanil est l'exception : sa décroissance est rapide même après des heures de perfusion, ce qui en fait un morphinique titrable mais impose une analgésie de relais.
-@ 77, 92
-
-QCM · Modèles et AIVOC
-Quelles affirmations sur le compartiment effet sont exactes ?
-+ C'est un compartiment virtuel qui représente le site d'action :: Le cerveau pour les hypnotiques.
-+ Il représente le décalage entre concentration plasmatique et effet :: L'effet suit la concentration avec un retard.
-+ Il justifie d'observer l'effet avant de réadministrer :: Le pic d'effet survient après le pic plasmatique.
-- C'est un réservoir anatomique dans lequel la pompe prélève du sang :: Rien n'est prélevé ni mesuré : c'est un élément de calcul du modèle.
-> Le compartiment effet est une construction du modèle, qui rend compte du délai entre la présence du produit dans le sang et son effet. C'est la raison physiologique de la titration : attendre le pic d'effet avant de juger une dose.
-@ 80–81
-
-QCM · Modèles et AIVOC
-Quelles affirmations sur le fonctionnement de l'AIVOC sont exactes ?
-+ L'opérateur choisit une concentration cible :: Plasmatique ou au site d'effet selon le réglage.
-+ La pompe calcule les débits à partir d'un modèle pharmacocinétique :: Elle résout les équations du modèle pour le patient saisi.
-+ Le débit varie dans le temps pour rejoindre puis maintenir la cible :: Débit fort au départ, puis décroissant à mesure que les compartiments se remplissent.
-- Les concentrations affichées sont des dosages sanguins réalisés en continu :: Elles sont estimées par le modèle, jamais mesurées : d'où la nécessité de surveiller l'effet.
-> L'AIVOC administre selon un calcul, pas selon une mesure. Le chiffre affiché est une prédiction : il ne remplace ni la clinique, ni le BIS, ni la fraction expirée.
-@ 82, 84–87, 91
-
-QCM · Modèles et AIVOC
-Quelles associations entre modèle pharmacocinétique et médicament sont exactes ?
-+ Schnider : propofol :: Modèle historique, construit sur une population restreinte.
-+ Eleveld : propofol :: Modèle plus récent, utilisable sur un éventail de patients plus large.
-+ Minto : rémifentanil :: Modèle de référence pour ce morphinique.
-- Minto : rocuronium :: Les curares ne s'administrent pas en AIVOC : ils se monitorent au train-de-quatre.
-> Pour le propofol, Schnider et Eleveld ; pour le rémifentanil, Minto. Ce sont les populations sur lesquelles le modèle a été construit qui en fixent les limites, et non les valeurs des constantes, qui n'ont pas à être mémorisées.
-@ 83, 85, 88, 93
-
-QCM · Effets indésirables
-Quels effets indésirables de la morphine sont exacts ?
-+ Dépression respiratoire et sédation :: Les deux surveillances prioritaires après administration.
-+ Constipation et nausées :: Effets digestifs les plus fréquents.
-+ Rétention urinaire :: À rechercher devant une agitation postopératoire.
-- Accélération du transit intestinal :: Elle le ralentit, d'où la constipation et la prescription systématique de laxatifs au long cours.
-> Un médicament a un effet recherché et des effets indésirables qui tiennent au même mécanisme. Pour la morphine, l'analgésie s'accompagne de sédation, de dépression respiratoire, d'un ralentissement du transit et d'une rétention urinaire.
-@ 63
-
-QCM · Effets indésirables
-Quelles affirmations sur la toxicité systémique des anesthésiques locaux sont exactes ?
-+ Une exposition systémique excessive peut provoquer des convulsions :: Les signes neurologiques précèdent souvent les signes cardiaques.
-+ Elle peut avoir des conséquences cardiovasculaires graves :: Jusqu'au trouble du rythme et à l'arrêt cardiaque.
-+ Un produit injecté près d'un nerf peut rejoindre la circulation générale :: La résorption, ou une injection intravasculaire accidentelle, expose à la toxicité.
-- La concentration totale reflète la fraction pharmacologiquement active :: Seule la fraction libre est active, et elle augmente si les protéines de transport sont basses.
-> La proximité de la cible nerveuse ne protège pas du passage systémique. La toxicité associe des signes neurologiques puis cardiovasculaires, et dépend de la fraction libre : un patient hypoalbuminémique est plus exposé à dose égale.
-@ 30, 98–99, 104
+QCU · Calcul de dilution
+Une ampoule de noradrénaline contient 4 mL à 2 mg/mL. On souhaite une concentration de 250 µg/mL. Quelle préparation est exacte ?
+- 4 mL de produit + 16 mL de NaCl, volume final 20 mL. :: Cela donne 0,4 mg/mL.
+- 4 mL de produit + 32 mL de NaCl, volume final 36 mL. :: 32 mL est le volume final, pas le volume de diluant.
++ 4 mL de produit + 28 mL de NaCl, volume final 32 mL. :: 8 mg / 0,25 mg/mL = 32 mL au total.
+- 2 mL de produit + 30 mL de NaCl, volume final 32 mL. :: Cela donne 4 mg dans 32 mL, soit 0,125 mg/mL.
+- 4 mL de produit + 46 mL de NaCl, volume final 50 mL. :: Cela donne 0,16 mg/mL.
+> C1 × V1 = C2 × V2 avec des unités identiques : 2 mg/mL × 4 mL = 0,25 mg/mL × V2, donc V2 = 32 mL. On ajoute 28 mL de NaCl 9 g/L à l'ampoule.
+@ p. 124 et 127 à 128
 
 QCM · Unités
-Quelles équivalences de masse sont exactes ?
-+ 1 gamma = 1 µg :: Appellation courante en anesthésie pour le microgramme.
-+ 150 µg = 0,15 mg :: 1 mg = 1 000 µg.
-+ Le symbole mcg désigne aussi le microgramme :: Notation utilisée pour éviter la confusion avec le préfixe milli.
-- 1 µg = 10⁻³ g :: 10⁻³ g, c'est le milligramme ; le microgramme vaut 10⁻⁶ g.
-> Gamma, µg et mcg désignent la même unité. Les morphiniques se prescrivent en microgrammes et les hypnotiques en milligrammes : une confusion d'unité représente un facteur mille.
-@ 119–120
+Concernant les unités utilisées en anesthésie, quelles propositions sont exactes ?
+- 150 µg correspondent à 1,5 mg. :: 150 µg = 0,15 mg.
+- 1 gamma correspond à 1 mg. :: 1 gamma = 1 µg.
++ L'abréviation « mcg » désigne le microgramme. :: Certains dispositifs n'ont pas le symbole µ.
+- 1 cm³ correspond à 10 mL. :: 1 cm³ = 1 mL.
+- Une poche de 500 mL de G5 contient 5 g de glucose. :: G5 = 5 g/100 mL, soit 25 g dans 500 mL.
+> 1 gamma = 1 µg = 0,001 mg ; mcg = µg ; 1 mL = 1 cm³. Une concentration en pourcentage se ramène au volume réel : 500 mL de G5 contiennent 25 g de glucose.
+@ p. 112 et 116 à 120
 
-QCM · Concentrations
-On mélange 10 mL de ropivacaïne à 7,5 mg/mL et 10 mL de ropivacaïne à 2 mg/mL. Quelles affirmations sont exactes ?
-+ La quantité totale est de 95 mg :: 10 × 7,5 = 75 mg, plus 10 × 2 = 20 mg.
-+ Le volume final est de 20 mL :: Les volumes s'additionnent.
-+ La concentration finale est de 4,75 mg/mL :: 95 mg répartis dans 20 mL.
-- La concentration finale est de 9,5 mg/mL :: Ce serait diviser la quantité par 10 mL au lieu de 20 : on oublie que le volume a doublé.
-> Dans un mélange, on additionne les quantités, on additionne les volumes, puis on divise. La concentration finale est toujours comprise entre les deux concentrations de départ : 4,75 mg/mL se situe bien entre 2 et 7,5.
-@ 118
-
-QCM · Dilutions
-On dispose de 1 mL d'éphédrine à 30 mg/mL et l'on veut obtenir une solution à 3 mg/mL. Quelles affirmations sont exactes ?
-+ La quantité de produit en jeu est de 30 mg :: La dilution ne change pas la quantité, seulement le volume.
-+ Le volume final doit être de 10 mL :: C₁V₁ = C₂V₂, soit 30 × 1 = 3 × V₂.
-+ Il faut ajouter 9 mL de diluant :: Le millilitre de produit est déjà compris dans les 10 mL finaux.
-- Il faut ajouter 10 mL de diluant au millilitre de produit :: Le volume final serait de 11 mL et la concentration de 2,7 mg/mL.
-> C₁V₁ = C₂V₂ donne le volume final, pas le volume de diluant. L'erreur classique est d'ajouter le volume final au produit : il faut retrancher le volume déjà présent.
-@ 124–125
-
-QCM · Dilutions
-Du fentanyl se présente à 100 µg/2 mL. On en prélève 1 mL, auquel on ajoute 4 mL de sérum physiologique. Quelles affirmations sont exactes ?
-+ La concentration initiale est de 50 µg/mL :: 100 µg répartis dans 2 mL.
-+ La concentration finale est de 10 µg/mL :: 50 µg dans 5 mL au total.
-+ Le volume correspondant à 5 µg est de 0,5 mL :: 5 ÷ 10 = 0,5.
-- La seringue finale contient 100 µg :: Elle contient 50 µg : seul un millilitre sur deux a été prélevé.
-> Revenir au mg/mL ou µg/mL avant toute administration. Ici 50 µg dans 5 mL donnent 10 µg/mL, concentration maniable pour une titration par 0,5 mL.
-@ 121–123
-
-QCM · Sécurité
-Quels principes sécurisent la préparation et l'administration des médicaments ?
-+ Annoncer la demande, la faire répéter, puis la confirmer :: Communication en boucle fermée, qui ferme la porte aux malentendus.
-+ Utiliser les protocoles communs de dilution et l'étiquetage standardisé :: Une même seringue a la même concentration pour toute l'équipe.
-+ Protéger la préparation des interruptions :: L'interruption de tâche est l'un des principaux facteurs d'erreur.
-+ Relire le nom et la concentration sur l'étiquette avant chaque administration :: Les présentations multiples d'une même molécule sont une source d'erreur fréquente.
-- Identifier le produit à son apparence habituelle sans relire l'étiquette :: Les ampoules se ressemblent et les présentations changent : la lecture reste indispensable.
-> Communication en boucle, dilutions standardisées, étiquetage et préparation sans interruption. Le code couleur et la forme de l'ampoule aident au repérage, mais ne remplacent jamais la lecture du nom et de la concentration.
-@ 110, 131–138
+QCM · Sécurité médicamenteuse
+Concernant la sécurité de la préparation et de l'administration, quelles propositions sont exactes ?
++ Les protocoles de dilution communs au service sont des garde-fous. :: Tout le monde prépare les mêmes concentrations.
++ La communication en boucle fait répéter puis confirmer le produit, la dose et la voie. :: Elle évite les confusions de noms proches.
++ L'étiquette doit être lue même pour une seringue préremplie. :: Un même produit existe sous plusieurs concentrations.
++ Les couleurs d'étiquetage sont normalisées par classe : opioïdes en bleu, curares en rouge, hypnotiques en jaune. :: Les antagonistes portent des bandes diagonales.
++ La préparation des médicaments doit être protégée des interruptions. :: Une sollicitation peut faire perdre le fil du calcul.
+> Sécurité : protocoles et étiquetage standardisés, lecture systématique des étiquettes (ampoules ressemblantes, changements de fournisseur), communication en boucle, aides cognitives et préparation sans interruption.
+@ p. 106 à 110 et 131 à 138
