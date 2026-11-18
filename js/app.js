@@ -552,13 +552,12 @@ function bilanEvaluations() {
   return n;
 }
 
-function grapheEvaluations() {
-  const n = bilanEvaluations();
+function grapheEvaluations(n = bilanEvaluations(), titre = 'Mes flashcards', unite = 'carte') {
   const total = n.reduce((a, b) => a + b, 0);
   if (!total) return '';
   const haut = Math.max(...n);
   return `
-    <p class="section-label">Mes auto-évaluations · ${plural(total, 'carte')}</p>
+    <p class="section-label">${titre} · ${plural(total, unite)}</p>
     <section class="panel">
       <ul class="eval-graph">
         ${NOTES_CARTES.map((g, i) => `
@@ -587,7 +586,8 @@ function renderResults() {
   const lignes = [...parQuiz.values()].sort((a, b) => String(b.date).localeCompare(String(a.date)));
   const moyenne = lignes.length ? lignes.reduce((s, r) => s + r.note, 0) / lignes.length : 0;
 
-  const graphe = grapheEvaluations();
+  // Les quiz sont comptés question par question, dès l'auto-évaluation (pas besoin de finir la série).
+  const graphe = grapheEvaluations() + grapheEvaluations(quiz.bilan(), 'Mes quizz', 'question');
 
   $app.innerHTML = `${topbarFolder('#/', 'Mes résultats')}
     <main class="page">

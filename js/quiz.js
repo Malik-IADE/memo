@@ -110,6 +110,12 @@ export function remember(key, grade) {
   try { localStorage.setItem(MEM_KEY, JSON.stringify(mem)); } catch {}
 }
 export const memoryOf = (key) => readMem()[key];
+/** Dernière auto-évaluation de chaque question déjà notée : nombre par niveau (0 à 3). */
+export function bilan() {
+  const n = [0, 0, 0, 0];
+  for (const m of Object.values(readMem())) if (Number.isInteger(m?.g) && m.g >= 0 && m.g <= 3) n[m.g] += 1;
+  return n;
+}
 
 /** Ordre aléatoire (Fisher-Yates). */
 export function shuffle(a) {
