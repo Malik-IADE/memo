@@ -1,348 +1,355 @@
-// Quiz 23 – Patient hypertendu (UE 3.3), d'après « QUIZZ 23 HTA.html »
+// Quiz – Patient hypertendu (UE 3.3), réécrit le 18 novembre 2026 d'après le support de cours « Patient HTA avec notes ».
+// Questions type examen sur les notions générales : définitions, physiopathologie, pharmacologie, conduite périopératoire. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Patient hypertendu
 
-QCM · Débit et résistances
-Concernant les déterminants de la pression artérielle, quelles propositions sont exactes ?
-+ La pression dépend du débit cardiaque et des résistances vasculaires. :: Le cours utilise PA = Q × R.
-- Deux patients ayant la même pression ont le même débit cardiaque. :: Des combinaisons différentes de Q et R peuvent produire la même PA.
-+ Une hausse des résistances peut augmenter la pression sans améliorer automatiquement le débit. :: C’est l’intérêt de distinguer le chiffre de PA de ses déterminants.
-- La pression renseigne sur l’ensemble des conditions de perfusion. :: La valeur doit être replacée dans le débit, les résistances et les organes à perfuser.
-+ Le raisonnement devant une hypotension doit considérer les mécanismes de débit et de tonus vasculaire.
-> La pression artérielle est le produit du débit cardiaque par les résistances vasculaires systémiques. Toute hypotension relève donc de l'une des deux, ou des deux : un débit insuffisant, par baisse de précharge, de contractilité ou de fréquence, ou une vasoplégie. Nommer le mécanisme conditionne le traitement, remplissage ou vasopresseur.
-@ p. 3, 91 et 111
+QCM · Déterminants de la pression artérielle
+Concernant les déterminants de la pression artérielle (PA), quelles propositions sont exactes ?
++ La PA est le produit du débit cardiaque par les résistances vasculaires systémiques. :: PA = Q × R, par analogie avec la loi d'Ohm.
++ Le débit cardiaque est le produit de la fréquence cardiaque par le volume d'éjection systolique. :: Q = FC × VES.
+- La précharge correspond à la résistance que le ventricule gauche doit vaincre pour éjecter. :: C'est la définition de la postcharge. La précharge correspond au remplissage du ventricule, lié au retour veineux.
+- Une hausse des résistances vasculaires augmente le débit cardiaque. :: Elle augmente la PA, mais elle augmente aussi la postcharge : le débit n'est pas amélioré, il peut même baisser.
+- Une PA normale permet d'affirmer que le débit cardiaque est normal. :: Une même PA peut résulter d'un débit bas compensé par des résistances élevées.
+> La PA est un compromis entre débit cardiaque et résistances vasculaires (PA = Q × R), et le débit dépend de la fréquence et du volume éjecté (Q = FC × VES). Devant une hypotension, il faut donc chercher lequel de ces déterminants est en cause : précharge, fréquence, contractilité ou tonus vasculaire.
+@ p. 3 et 91
 
-QCM · Fréquence et volume éjecté
-Une hypotension apparaît sous anesthésie. Quelles propositions concernant le débit cardiaque sont exactes ?
-+ Le débit dépend de la fréquence cardiaque et du volume d’éjection systolique. :: Q = FC × VES.
-+ Une bradycardie peut contribuer à une baisse de débit. :: Une diminution de FC peut diminuer Q.
-- Une baisse du retour veineux est sans effet si la fréquence reste normale. :: Le retour veineux influence le remplissage et le VES.
-- Les compensations sympathiques sous anesthésie sont identiques à celles d’un sujet éveillé faisant un effort.
-+ La correction d’un VES insuffisant par expansion volémique doit être titrée. :: Le ventricule rigide tolère mal manque de volume et excès de remplissage.
-> Le débit cardiaque est le produit du volume d'éjection par la fréquence. Devant une hypotension, on cherche lequel des deux a chuté, et pourquoi le volume d'éjection : précharge insuffisante, contractilité déprimée par les agents, ou postcharge excessive. Une fréquence élevée ne compense pas toujours : elle raccourcit le remplissage diastolique.
-@ p. 22, 39, 91 et 99
+QCU · Définition de l'HTA
+Selon la définition retenue dans le cours, à partir de quelles valeurs parle-t-on d'hypertension artérielle ?
+- PAS > 130 mmHg et/ou PAD > 80 mmHg :: Ces valeurs sont considérées comme normales dans la définition du cours.
++ PAS > 140 mmHg et/ou PAD > 90 mmHg :: La PA normale est < 140 mmHg de systolique et < 90 mmHg de diastolique.
+- PAS > 150 mmHg et/ou PAD > 95 mmHg :: Ce n'est pas un seuil de la classification.
+- PAS > 160 mmHg et/ou PAD > 100 mmHg :: C'est le seuil de l'HTA de grade 2.
+- PAS > 180 mmHg et/ou PAD > 110 mmHg :: C'est le seuil de l'HTA de grade 3 (sévère).
+> L'HTA est définie par une PAS > 140 mmHg et/ou une PAD > 90 mmHg. Grade 1 : 140–159 / 90–99 mmHg. Grade 2 : 160–179 / 100–109 mmHg. Grade 3 : > 180 / > 110 mmHg.
+@ p. 7 et 8
 
-QCM · Définition et sévérité
-Quelles propositions concernant l’évaluation d’une HTA sont exactes ?
-+ Une pression systolique inférieure à 140 mmHg et une diastolique inférieure à 90 mmHg se situent sous les seuils définissant une HTA. :: Les seuils utilisés sont 140 mmHg pour la systolique et 90 mmHg pour la diastolique.
-+ Un niveau supérieur à 180 mmHg de systolique ou 110 mmHg de diastolique attire particulièrement l’attention.
-- La sévérité du risque opératoire se déduit du chiffre mesuré le jour même. :: Il faut intégrer terrain, histoire, traitements et organes cibles.
-+ L’ancienneté de l’HTA et ses lésions d’organes participent à l’évaluation. :: Une HTA ancienne peut avoir un retentissement différent d’une HTA récemment apparue.
-- Un même seuil de pression permet de décider de l’anesthésie, en urgence comme en chirurgie programmée. :: Urgence, retentissement et équilibre habituel modifient la décision.
-> La sévérité d'une hypertension ne se juge pas sur le seul chiffre : elle se gradue, mais s'évalue surtout sur l'ancienneté, le contrôle habituel, le traitement en cours et le retentissement sur les organes cibles. Un chiffre isolé en consultation ne permet ni de poser le diagnostic ni d'en apprécier la gravité.
-@ p. 6–10, 57 et 59
+QCU · Grades de l'HTA
+Un patient a une PA à 172/104 mmHg, confirmée sur plusieurs mesures. Quel est le grade de son HTA ?
+- Il ne s'agit pas d'une HTA :: Les deux valeurs dépassent 140/90 mmHg.
+- HTA de grade 1 :: Le grade 1 correspond à 140–159 / 90–99 mmHg.
++ HTA de grade 2 :: 172 mmHg est entre 160 et 179, 104 mmHg entre 100 et 109.
+- HTA de grade 3 :: Le grade 3 commence au-delà de 180 / 110 mmHg.
+- HTA maligne :: L'HTA maligne associe une PAD > 130 mmHg, une souffrance viscérale et une rétinopathie de grade III ou IV.
+> Grade 1 : 140–159 / 90–99. Grade 2 : 160–179 / 100–109. Grade 3 : > 180 / > 110 mmHg. Le grade 3 est celui qui doit alerter, car il conduit à discuter l'intervention.
+@ p. 8 et 34
 
-QCM · Mesure et blouse blanche
-Un patient anxieux présente une pression élevée lors de la consultation. Quelles analyses sont pertinentes ?
-+ L’appréhension peut participer à la hausse de pression. :: C’est le phénomène expliqué.
-+ Un brassard trop petit ou trop serré peut surestimer la mesure. :: Le support insiste sur le brassard adapté.
-+ Un brassard trop large peut sous-estimer la pression. :: C’est l’autre sens d’erreur décrit.
-+ Une automesure permet de documenter la pression habituelle hors consultation.
-- Une mesure élevée permet d’exclure un effet blouse blanche. :: L’effet blouse blanche doit justement être envisagé et la mesure contextualisée.
-> Une pression élevée en consultation chez un patient anxieux peut être un effet blouse blanche. On la confronte aux mesures ambulatoires ou à l'automesure à domicile, et aux chiffres habituels du patient. Reporter une intervention sur une seule mesure élevée, sans retentissement, n'a pas de justification.
+QCM · Mesure de la pression artérielle
+Concernant la mesure de la PA pour poser le diagnostic d'HTA, quelles propositions sont exactes ?
++ Le diagnostic repose sur plusieurs mesures, réalisées lors de consultations différentes. :: Le cours retient 3 mesures lors de 2 consultations.
++ La PA est mesurée aux deux bras. :: C'est une règle de la mesure initiale.
+- Un brassard trop petit pour le bras du patient sous-estime la PA. :: Un brassard trop serré ou trop petit surestime la PA.
++ Un brassard trop large sous-estime la PA. :: Il faut un brassard adapté à la taille du bras.
+- L'effet blouse blanche correspond à une PA plus basse en consultation qu'à domicile. :: C'est l'inverse : l'appréhension augmente la PA au contact des soignants. Elle diminue au fil de la consultation.
+> Une mesure fiable demande des mesures répétées, aux deux bras, avec un brassard adapté. L'automesure aide à connaître les valeurs habituelles, en dehors de l'effet blouse blanche.
 @ p. 10 et 57
 
 QCM · HTA secondaire
-Quelles situations font partie des causes ou contextes d’HTA secondaire à rechercher ?
-+ Une cause rénale ou rénovasculaire. :: Ces causes sont mises en avant.
-+ Un trouble endocrinien surrénalien. :: Le support cite hyperaldostéronisme, hypercorticisme et phéochromocytome.
-+ Une consommation importante d’alcool. :: L’alcool est cité à l’interrogatoire.
-+ Une consommation importante de réglisse. :: L’acide glycyrrhizique est relié à la réglisse.
-- L’absence de toute recherche étiologique, puisque toutes les HTA sont primitives. :: La majorité est primitive, mais la recherche d’une cause secondaire reste pertinente.
-> Une hypertension secondaire se recherche devant un terrain évocateur : sujet jeune, hypertension résistante au traitement, hypokaliémie spontanée, ou poussées paroxystiques. Les causes à évoquer sont rénales, rénovasculaires et endocriniennes, dont le phéochromocytome, dont la méconnaissance au bloc peut être catastrophique.
-@ p. 11–12
+Parmi les pathologies suivantes, lesquelles peuvent être à l'origine d'une HTA secondaire ?
++ Hyperaldostéronisme :: Cause endocrinienne : l'excès d'aldostérone entraîne une rétention de sodium.
++ Phéochromocytome :: Cause endocrinienne : la tumeur sécrète des catécholamines.
++ Sténose de l'artère rénale :: Cause réno-vasculaire : le rein mal perfusé active le système rénine-angiotensine.
+- Insuffisance surrénalienne :: Le déficit en cortisol et en aldostérone entraîne au contraire une hypotension.
+- Hyperthermie maligne :: Elle peut provoquer une poussée hypertensive au bloc, mais ce n'est pas une cause d'HTA chronique.
+> L'HTA est primitive dans environ 90 % des cas. L'HTA secondaire a une cause identifiable, parfois curable : réno-vasculaire, endocrinienne (hyperaldostéronisme, hypercorticisme, phéochromocytome) ou iatrogène (alcool, réglisse).
+@ p. 11 et 12
 
-QCM · Organes cibles
-Quelles propositions décrivent le retentissement de l’HTA ?
-+ Une atteinte des reins peut évoluer vers l’insuffisance rénale chronique. :: Le cours décrit la néphrangiosclérose et l’évolution possible vers la dialyse.
-+ Des lacunes cérébrales peuvent exister sans accident neurologique immédiatement évident.
-+ La rétinopathie hypertensive appartient aux atteintes d’organes cibles. :: Les yeux font partie des organes cibles.
-- Sans antécédent coronaire identifié, une hypotension n’expose pas le myocarde. :: Le cas corrigé du support rejette cette banalisation.
-+ Les conséquences chroniques contribuent au risque du patient au-delà du chiffre de PA. :: C’est un message central de l’évaluation anesthésique.
-> L'hypertension chronique abîme quatre organes cibles : le cœur, par hypertrophie ventriculaire gauche puis dysfonction diastolique et maladie coronaire ; le cerveau, par accident vasculaire ; le rein, par néphroangiosclérose ; et la rétine. C'est ce retentissement, bien plus que le chiffre, qui définit le risque périopératoire.
-@ p. 6, 26–33 et 123
+QCM · Facteurs de risque
+Parmi les facteurs de risque d'HTA suivants, lesquels sont modifiables ?
++ Consommation de sel :: Facteur modifiable.
++ Sédentarité :: Facteur modifiable.
+- Âge :: Facteur non modifiable : la fréquence de l'HTA augmente avec l'âge.
++ Tabagisme :: Facteur modifiable.
++ Surcharge pondérale :: Facteur modifiable.
+> Facteurs non modifiables : âge, sexe, facteurs materno-fœtaux, génétique. Facteurs modifiables : sel, tabac, sédentarité, surcharge pondérale, alcool, stress.
+@ p. 13 et 14
 
-QCM · Baroréflexe
-Concernant le baroréflexe et l’anesthésie, quelles propositions sont exactes ?
-+ Il contribue à l’adaptation rapide lors d’une variation de pression. :: Le lever brutal sert d’exemple.
-+ Son altération favorise une moindre capacité de compensation chez l’hypertendu. :: La réponse est décrite comme altérée.
-- Il devient plus efficace sous anesthésie et compense la perte de volume. :: Les médicaments et le terrain réduisent les mécanismes d’adaptation.
-+ Une pression initialement élevée ne protège pas contre une chute après induction. :: L’instabilité concerne les deux directions.
-+ L’hypotension de l’hypertendu peut être amplifiée par l’inhibition du tonus sympathique.
-> Le baroréflexe ajuste en permanence la fréquence et les résistances aux variations de pression. L'hypertension chronique l'émousse et l'anesthésie le déprime encore : le patient ne compense plus. C'est la raison physiologique de l'instabilité tensionnelle observée chez l'hypertendu sous anesthésie.
-@ p. 18–20, 39 et 97
+QCM · Retentissement sur les organes cibles
+Quelles propositions décrivent des conséquences chroniques de l'HTA ?
++ Une néphroangiosclérose pouvant évoluer vers l'insuffisance rénale chronique :: Atteinte rénale de l'HTA, qui peut mener à la dialyse.
++ Des lacunes cérébrales, infarctus profonds souvent asymptomatiques :: Elles favorisent le déclin cognitif et la démence vasculaire.
++ Un anévrisme de l'aorte :: L'HTA favorise la maladie athéromateuse et l'atteinte de l'aorte.
+- Une dilatation du ventricule gauche avec baisse précoce de la fonction systolique :: L'HTA entraîne une hypertrophie. La fonction systolique reste longtemps préservée, c'est la fonction diastolique qui s'altère.
+- Une hypertension intracrânienne chronique :: L'HTIC peut faire monter la PA au bloc, mais ce n'est pas une conséquence de l'HTA.
+> Les organes cibles de l'HTA sont le cœur, les vaisseaux, le cerveau, les reins et les yeux. Les complications différées, longtemps silencieuses, sont fréquentes. Ce sont elles qui déterminent le risque opératoire, plus que le chiffre de PA du jour.
+@ p. 26 à 31
 
-QCM · Stress et laryngoscopie
-Un patient hypertendu est intubé. Quelles propositions sont exactes ?
-+ La laryngoscopie peut provoquer une stimulation adrénergique et une hausse de PA. :: C’est l’exemple principal du stress physique peropératoire.
-- La réponse est identique chez l’hypertendu équilibré et chez l’hypertendu sévère non traité.
-+ L’intensité de la réponse tensionnelle à la laryngoscopie varie avec le contrôle de l’HTA. :: Une HTA sévère non contrôlée expose à une réactivité plus importante ; chaque patient ne présente pas la même amplitude de réponse.
-- Une poussée transitoire justifie un antihypertenseur de longue durée d’action. :: L’effet du traitement peut durer plus longtemps que le stimulus.
-+ La disparition du stimulus peut être suivie d’une chute tensionnelle. :: C’est le risque d’un traitement excessif du pic.
-> La laryngoscopie provoque une décharge sympathique brutale, et la réponse est exagérée chez l'hypertendu. Elle expose à un pic hypertensif et à une tachycardie, mal tolérés sur un cœur hypertrophié et coronarien. La prévention tient à une anesthésie suffisamment profonde et à une analgésie anticipant le geste.
-@ p. 17, 19, 92 et 95–97
+QCM · Cœur de l'hypertendu
+Concernant le cœur du patient hypertendu, quelles propositions sont exactes ?
++ L'augmentation chronique de la postcharge entraîne une hypertrophie ventriculaire gauche. :: Le myocarde qui pousse en permanence contre une résistance augmente sa masse.
++ Le ventricule hypertrophié se relaxe mal : c'est une dysfonction diastolique. :: Le muscle épaissi est plus rigide et se remplit moins bien.
+- La fonction systolique est la première à s'altérer. :: Elle reste longtemps préservée, jusqu'à l'apparition d'une insuffisance cardiaque.
++ La perfusion coronaire, qui se fait surtout en diastole, est plus vulnérable. :: La postcharge élevée et l'épaississement du muscle diminuent la perfusion diastolique.
+- L'hypertrophie augmente la compliance du ventricule gauche et facilite son remplissage. :: L'hypertrophie diminue la compliance : le ventricule est plus rigide.
+> L'HTA entraîne une hypertrophie ventriculaire gauche. Le ventricule devient rigide (dysfonction diastolique) et sa perfusion coronaire est plus fragile. La fonction systolique est préservée longtemps. Le décès d'origine coronaire fait partie des conséquences de l'HTA.
+@ p. 21 à 23 et 128
 
-QCM · Autorégulation
-Quelles conséquences du déplacement de l’autorégulation chez l’hypertendu sont exactes ?
-+ Les organes peuvent nécessiter des niveaux de pression plus élevés pour conserver leur perfusion. :: Le plateau est décalé vers la droite.
-+ Une pression tolérée par un non-hypertendu peut être insuffisante pour un hypertendu chronique. :: C’est l’exemple donné avec cerveau et reins.
-- Le déplacement rend tout épisode d’hypotension mieux toléré. :: Le déplacement augmente au contraire la vulnérabilité à la baisse.
-+ La pression habituelle participe à l’individualisation de la cible. :: Le cours revient plusieurs fois à cette référence.
-- Une cible unique indépendante du terrain répond à tous les cas. :: Le terrain et les recommandations par population doivent être considérés.
-> Chez l'hypertendu chronique, la courbe d'autorégulation cérébrale se déplace vers la droite : le cerveau est habitué à des pressions élevées et sa perfusion chute pour des valeurs qu'un sujet normotendu tolérerait sans dommage. D'où la règle d'un objectif tensionnel personnalisé, fondé sur la pression habituelle du patient.
-@ p. 20, 49 et 88
+QCU · Fibrillation auriculaire
+Pourquoi le passage en fibrillation auriculaire (FA) est-il mal toléré chez un hypertendu avec hypertrophie ventriculaire gauche ?
+- La FA augmente la postcharge du ventricule gauche hypertrophié. :: La FA ne modifie pas directement les résistances vasculaires.
++ Le ventricule rigide dépend davantage de la systole auriculaire pour se remplir. :: Le remplissage passif est déjà gêné par la rigidité. La systole auriculaire devient une aide essentielle.
+- La FA entraîne une vasodilatation périphérique par voie réflexe. :: La FA agit sur le remplissage, pas sur le tonus vasculaire.
+- La FA diminue directement la contractilité du ventricule hypertrophié. :: Le problème est le remplissage, pas la contractilité.
+- La FA augmente le retour veineux et expose à une surcharge. :: La FA diminue le remplissage, elle ne l'augmente pas.
+> Le remplissage ventriculaire comprend une phase passive, puis la contraction de l'oreillette. Dans un ventricule rigide, la phase passive est diminuée. La perte de la systole auriculaire en FA fait donc chuter le remplissage, le VES, le débit cardiaque et la PA.
+@ p. 21, 24 et 53
 
-QCM · HVG et remplissage
-Quelles propositions décrivent le ventricule gauche hypertrophié du patient hypertendu ?
-+ Il peut devenir plus rigide et se remplir moins facilement. :: C’est le mécanisme de dysfonction diastolique expliqué.
-- Une hypertrophie améliore la tolérance aux variations de volémie. :: Il est vulnérable au manque de précharge et à la congestion.
-+ La difficulté de relaxation relève de la fonction diastolique. :: La diastole concerne notamment la relaxation et le remplissage.
-+ Une diminution du retour veineux peut entraîner une chute importante du volume d’éjection systolique. :: Le ventricule rigide se remplit moins facilement : son volume éjecté peut diminuer fortement lorsque le retour veineux baisse.
-- Une fonction systolique conservée exclut tout problème de remplissage. :: Les deux fonctions doivent être distinguées.
-> Le ventricule hypertrophié se contracte bien mais se remplit mal : c'est la dysfonction diastolique. Il dépend de façon critique du volume de remplissage, de la durée de la diastole, donc d'une fréquence modérée, et de la contraction auriculaire. Il tolère mal à la fois l'hypovolémie et la surcharge.
-@ p. 21–25 et 53
+QCM · Dysfonction diastolique et remplissage
+Chez un hypertendu avec dysfonction diastolique, quelles propositions sont exactes ?
++ Une faible baisse du retour veineux peut entraîner une forte baisse du volume d'éjection systolique. :: Le ventricule rigide a peu de marge : une baisse de précharge fait chuter le VES, le débit puis la PA.
++ Un remplissage excessif expose à une élévation des pressions de remplissage et à un œdème pulmonaire. :: Comme un ballon rigide, le ventricule voit ses pressions monter vite quand on ajoute du volume.
+- La ventilation en pression positive favorise le retour veineux. :: Elle augmente la pression intrathoracique et diminue le gradient du retour veineux.
++ L'expansion volémique doit être titrée. :: Ni trop, ni trop peu : on remplit par petites quantités en surveillant la réponse.
+- Une tachycardie améliore le remplissage en augmentant le nombre de cycles. :: La tachycardie raccourcit la diastole : le remplissage et la perfusion coronaire diminuent.
+> Le ventricule hypertrophié tolère mal le manque de volume (chute du VES) et l'excès de volume (congestion). La ventilation mécanique diminue le retour veineux. Le remplissage doit être prudent et titré.
+@ p. 22, 39, 53 et 99
 
-QCM · FA sur ventricule rigide
-Un hypertendu présentant une dysfonction diastolique passe en fibrillation auriculaire. Quelles propositions sont exactes ?
-+ La perte de la systole auriculaire peut réduire le remplissage ventriculaire. :: La contribution active de l’oreillette est perdue.
-+ Le remplissage passif peut déjà être altéré avant le trouble du rythme. :: Le ventricule rigide se remplit moins facilement.
-- La FA est mieux tolérée parce que le ventricule est plus musclé.
-+ Le volume d’éjection systolique peut diminuer. :: La baisse du remplissage peut réduire le VES puis le débit.
-- Une bonne saturation en oxygène prouve que le débit cardiaque n’a pas diminué. :: La saturation seule ne décrit pas le débit ; le mécanisme étudié est celui du remplissage.
-> La fibrillation auriculaire supprime la systole auriculaire, qui assure jusqu'à 30 % du remplissage d'un ventricule rigide, et accélère la fréquence, ce qui raccourcit encore la diastole. Les deux mécanismes se conjuguent : la décompensation peut être brutale, et le contrôle de la fréquence devient prioritaire.
-@ p. 24–25 et 53
+QCM · Physiopathologie de l'HTA
+Concernant la régulation de la PA et la physiopathologie de l'HTA, quelles propositions sont exactes ?
++ À court terme, la PA est régulée principalement par les barorécepteurs artériels. :: Le baroréflexe corrige minute par minute les variations de PA, par exemple au lever.
+- À long terme, la PA est régulée principalement par le baroréflexe. :: À long terme, la régulation repose sur l'équilibre sodé, sous le contrôle du rein et du système rénine-angiotensine-aldostérone.
++ Chez l'hypertendu, la sensibilité du baroréflexe est diminuée. :: Les variations de PA sont donc moins bien compensées.
++ Chez l'hypertendu, une faible variation du tonus vasculaire entraîne une forte variation de PA. :: La vasoréactivité est augmentée, dans les deux sens.
+- Chez l'hypertendu, la réponse tensionnelle à une stimulation adrénergique est atténuée. :: Elle est amplifiée : c'est l'hypersensibilité au stress adrénergique.
+> L'hypertendu a un baroréflexe moins sensible, des vaisseaux moins élastiques et une vasoréactivité augmentée. Il réagit trop à une stimulation sympathique (poussée hypertensive) comme à son inhibition par l'anesthésie (hypotension).
+@ p. 17 à 19, 97 et 124
 
-QCM · Ventilation mécanique et retour veineux
-Un patient hypertendu avec hypertrophie ventriculaire gauche est ventilé en pression positive pendant une anesthésie. Quelles conséquences hémodynamiques sont possibles ?
-+ L’augmentation de pression intrathoracique peut diminuer le gradient du retour veineux.
-+ Une baisse de retour veineux peut réduire le remplissage et le VES. :: C’est particulièrement important pour un ventricule rigide.
-- Le ventricule hypertrophié est peu sensible à cette diminution. :: Il peut payer plus fortement cette diminution de précharge.
-+ La ventilation mécanique peut contribuer à l’hypotension après induction. :: Elle fait partie des mécanismes décrits.
-+ L’effet doit être considéré avec la volémie et les compensations diminuées par l’anesthésie. :: Il ne s’agit pas d’un phénomène isolé des autres déterminants.
-> La ventilation en pression positive élève la pression intrathoracique et diminue le retour veineux. Sur un ventricule hypertrophié, dépendant de sa précharge, cet effet est amplifié : la pression chute à l'induction, d'autant que les agents anesthésiques ont levé le tonus sympathique qui la maintenait.
-@ p. 22 et 39
+QCU · Autorégulation
+Chez l'hypertendu chronique, la courbe d'autorégulation du débit sanguin cérébral et rénal est :
+- inchangée :: Le remodelage vasculaire modifie la courbe.
++ déplacée vers des pressions plus élevées :: Le débit de l'organe n'est maintenu qu'à des pressions plus hautes.
+- déplacée vers des pressions plus basses :: C'est l'inverse.
+- élargie vers les pressions basses et hautes :: La plage n'est pas élargie, elle est décalée.
+- abolie :: L'autorégulation existe toujours, mais sur une autre plage de pression.
+> L'autorégulation maintient un débit régional à peu près constant dans une plage de pression. Chez l'hypertendu, cette plage est décalée vers le haut : une PAM bien tolérée par un sujet normotendu peut être insuffisante pour son cerveau ou ses reins. C'est ce qui justifie des objectifs de PA plus élevés.
+@ p. 20
 
-QCM · Remplissage : éviter les deux extrêmes
-Chez un patient hypertendu avec dysfonction diastolique, quelles propositions sont exactes ?
-+ Une perte limitée de volume peut entraîner une baisse importante du VES. :: La relation précharge–VES est défavorable dans cette situation.
-+ Un remplissage excessif peut favoriser la congestion. :: Le ventricule peu compliant tolère mal un excès.
-- Une pression basse justifie plusieurs litres de remplissage sans réévaluation. :: Le cours met en garde contre cette logique.
-+ Le remplissage doit être titré et relié au mécanisme de l’hypotension. :: Le support mentionne explicitement la titration de l’expansion volémique.
-- Le raisonnement sur le tonus vasculaire devient inutile si une perfusion est en place. :: Les résistances constituent l’autre déterminant de PA.
-> Un ventricule à dysfonction diastolique est pris entre deux écueils : l'hypovolémie, qui fait chuter un débit dépendant du remplissage, et la surcharge, qui élève rapidement les pressions de remplissage et provoque l'œdème pulmonaire. La fenêtre est étroite : les apports se titrent sur la réponse, sans bolus massif.
-@ p. 22, 53, 91 et 99
+QCM · Urgences hypertensives
+Concernant les urgences hypertensives, quelles propositions sont exactes ?
++ La crise aiguë hypertensive associe une élévation rapide de la PA et un retentissement viscéral. :: C'est la souffrance d'organe qui définit la crise, pas le chiffre seul.
++ L'HTA maligne associe une PAD > 130 mmHg, une souffrance viscérale et une rétinopathie de grade III ou IV. :: Elle impose un traitement antihypertenseur urgent.
+- Une PA > 180/110 mmHg sans aucun signe de souffrance viscérale suffit à définir une crise aiguë hypertensive. :: Sans retentissement viscéral, il s'agit d'une HTA sévère, pas d'une crise aiguë.
++ Des céphalées, un flou visuel ou une douleur abdominale doivent faire rechercher une urgence hypertensive. :: Ce sont des signes de retentissement à rechercher devant une PA très élevée.
+- L'HTA maligne est la complication la plus fréquente de l'HTA. :: Les complications immédiates sont rares. Les complications différées, silencieuses, sont fréquentes.
+> L'urgence hypertensive se définit par l'atteinte d'organe : OAP, ischémie myocardique, dissection aortique, AVC, encéphalopathie, éclampsie, insuffisance rénale. Devant une PA > 180/110 mmHg, on recherche céphalées, flou visuel et douleur abdominale.
+@ p. 26, 34, 35 et 57
 
-QCM · OAP hypertensif
-Pourquoi un OAP peut-il survenir lors d’une poussée hypertensive sans surcharge volémique initiale majeure ? Quelles propositions sont exactes ?
-+ Une forte hausse de postcharge peut gêner l’éjection et augmenter les pressions en amont.
-- Il faut avoir administré plusieurs litres de remplissage auparavant. :: Il souligne précisément que ce n’est pas obligatoire.
-- La survenue d’un OAP prouve que le mécanisme principal est un excès de volume. :: Une forte postcharge peut être le mécanisme déterminant.
-+ La diminution des résistances vasculaires peut réduire la charge imposée au ventricule gauche. :: Réduire la postcharge facilite l’éjection dans ce mécanisme d’OAP hypertensif ; un excès initial de volume n’est pas obligatoire.
-+ La physiopathologie ne doit pas être réduite à la seule quantité de liquide perfusée. :: C’est la distinction pédagogique de l’exemple.
-> Une poussée hypertensive élève brutalement la postcharge d'un ventricule déjà rigide : il ne parvient plus à éjecter, les pressions de remplissage montent et se transmettent au capillaire pulmonaire. L'œdème est alors dû à la redistribution et à l'élévation des pressions, non à un excès de volume : le traitement est vasodilatateur.
-@ p. 34–35
+QCU · OAP hypertensif
+Quel est le mécanisme principal de l'œdème aigu du poumon lors d'une poussée hypertensive ?
++ Une hausse brutale de la postcharge, qui gêne l'éjection du ventricule gauche :: Les pressions montent en amont, dans les poumons, même sans excès de volume.
+- Une surcharge volémique, liée à la rétention de sodium :: L'OAP peut survenir sans excès de volume, par la seule hausse de la postcharge.
+- Une baisse brutale de la précharge, par vasodilatation veineuse :: Une baisse de précharge entraîne une hypotension, pas un OAP.
+- Une bradycardie réflexe, par stimulation du baroréflexe :: Ce n'est pas le mécanisme de l'OAP hypertensif.
+- Une hausse de la perméabilité capillaire pulmonaire :: L'OAP hypertensif est un œdème hémodynamique, lié à la hausse des pressions en amont du ventricule gauche.
+> Le cœur ne parvient plus à éjecter contre des résistances très élevées. Le sang stagne dans les poumons et les pressions capillaires pulmonaires augmentent. Le traitement repose donc surtout sur la baisse des résistances, sans considérer l'OAP comme une simple surcharge de volume.
+@ p. 35
 
-QCM · Hypotension post-induction
-Quelles propositions définissent correctement la fenêtre post-induction ?
-+ Elle débute après l’administration des médicaments d’induction. :: C’est le point de départ expliqué.
-+ Elle se termine avant l’incision.
-- Elle englobe tous les épisodes jusqu’à J3. :: Les suites postopératoires appartiennent à une autre fenêtre.
-+ La distinguer aide à séparer l’effet de l’induction des facteurs chirurgicaux ultérieurs. :: Après l’incision, clampage, traction et autres facteurs peuvent intervenir.
-- Elle est négligeable, puisque la laryngoscopie fera remonter la pression.
-> La période qui suit l'induction est la plus pourvoyeuse d'hypotension de toute l'anesthésie : les agents suppriment le tonus sympathique, la ventilation en pression positive réduit le retour veineux, et la stimulation chirurgicale n'a pas encore commencé. C'est une fenêtre connue, qui s'anticipe plutôt qu'elle ne se traite.
-@ p. 37–39 et 121
+QCM · Mécanismes de l'hypotension sous anesthésie
+Quels mécanismes expliquent l'hypotension sous anesthésie générale chez l'hypertendu ?
++ La vasodilatation induite par les agents anesthésiques. :: Les résistances vasculaires baissent.
++ L'altération du baroréflexe et de la réponse sympathique. :: Les compensations habituelles sont diminuées.
++ La ventilation mécanique, qui augmente la pression intrathoracique et diminue le retour veineux. :: La précharge baisse, donc le VES.
+- Une sensibilité accrue des barorécepteurs. :: Chez l'hypertendu, elle est diminuée.
+- Une hypervolémie liée à la vasoconstriction de base. :: Les vaisseaux constrictés au repos s'accompagnent au contraire d'une hypovolémie relative, parfois aggravée par les diurétiques.
+> Sous anesthésie se combinent vasodilatation, baisse du débit (bradycardie, hypovolémie), hausse de la pression intrathoracique et perte des compensations sympathiques et baroréflexes. L'hypertendu, qui réagit trop à l'inhibition sympathique, y est particulièrement exposé.
+@ p. 39 et 97
 
-QCM · Études et objectifs
-Concernant l’interprétation des études sur l’hypotension périopératoire, quelles propositions sont exactes ?
-- Une association entre hypotension et complication démontre un lien de causalité. :: Une association statistique ne suffit pas à établir un mécanisme causal.
-+ Les études peuvent utiliser une baisse absolue ou une baisse relative à la référence. :: Les deux approches sont montrées.
-+ La durée d’exposition à la baisse peut compter. :: Les durées apparaissent dans plusieurs publications.
-+ Un seuil associé à des complications dans une cohorte ne constitue pas, à lui seul, une cible thérapeutique applicable à tous les patients. :: Une définition d’exposition utilisée dans une étude et un objectif de traitement n’ont pas le même rôle.
-- Une absence de différence de mortalité prouve que toute hypotension est sans risque individuel. :: La conclusion ne peut pas être généralisée ainsi.
-> Les études associent l'hypotension périopératoire à des lésions rénales et myocardiques, mais il s'agit d'associations, et les seuils proposés varient selon les travaux. Il faut en retenir le principe, limiter la profondeur et la durée de l'hypotension, sans transformer un seuil statistique en règle absolue applicable à tous.
-@ p. 38, 41–49 et 88, 98–110
+QCM · Hypotension périopératoire
+Concernant l'hypotension périopératoire, quelles propositions sont exactes ?
+- Elle est définie de façon consensuelle par une PAM < 65 mmHg. :: Il n'existe pas de définition consensuelle : on utilise selon les cas un seuil absolu ou une baisse relative par rapport à la PA de base.
++ L'hypotension post-induction survient entre l'induction et l'incision. :: Après l'incision, la stimulation chirurgicale modifie la PA.
+- Une baisse de 20 % d'une PAS de base à 150 mmHg correspond à une PAS de 130 mmHg. :: 20 % de 150 = 30 mmHg : la PAS est alors de 120 mmHg.
++ Même une hypotension de courte durée peut exposer à des complications. :: Une minute pourrait suffire. Il ne faut pas attendre pour la traiter.
+- Une hypotension post-induction est sans conséquence, car le patient est oxygéné et consomme peu. :: Les organes restent exposés à l'hypoperfusion, même bien oxygénés.
+> Les définitions les plus utilisées sont PAS < 80 mmHg, baisse de 20 % de la PAS de base, ou PAS < 100 mmHg et/ou baisse de 30 %. Une hypotension, même brève, expose à des complications.
+@ p. 38 et 122
 
-QCM · Objectifs de PAM
-Concernant les objectifs de pression artérielle moyenne pendant une anesthésie, quelles propositions sont exactes ?
-+ Chez un patient non hypertendu chronique, il convient d’éviter une PAM inférieure à 60–70 mmHg. :: La recommandation périopératoire utilisée vise à éviter ce niveau de PAM chez le patient non hypertendu chronique.
-+ Chez un hypertendu chronique, un objectif possible est une PAM supérieure à 90 % de sa valeur habituelle ou supérieure à 70 mmHg. :: Le repère relatif et le repère absolu sont deux formulations alternatives de l’objectif.
-- Une PAM de 55 mmHg est la cible obligatoire de tout hypertendu. :: 55 mmHg apparaît comme seuil étudié, pas comme cible universelle.
-- Une PAM de 65 mmHg est un objectif suffisant pour tous les patients, quelle que soit leur pression habituelle. :: La pression habituelle et le terrain participent à l’individualisation de la cible ; un chiffre unique ne convient pas à tous.
-+ La pression habituelle peut contribuer à la définition de l’objectif. :: La référence habituelle fait partie du raisonnement.
-> Deux approches coexistent : un seuil absolu, une pression artérielle moyenne d'au moins 65 mmHg, et un seuil relatif, au moins 70 % de la pression habituelle du patient. Chez l'hypertendu chronique, le seuil relatif est plus pertinent, à condition de connaître la valeur de référence, mesurée avant l'induction.
-@ p. 87–88 et 144
+QCM · Complications de l'hypotension
+Quelles complications postopératoires sont associées à l'hypotension peropératoire ?
++ Insuffisance rénale aiguë :: Le rein, dont l'autorégulation est décalée, est très sensible à l'hypoperfusion.
++ Ischémie et lésions myocardiques :: La perfusion coronaire dépend de la pression diastolique.
++ Delirium postopératoire :: Le cerveau fait partie des organes exposés.
+- Rétinopathie hypertensive :: C'est une complication chronique de l'HTA, pas de l'hypotension.
+- Néphroangiosclérose :: C'est une lésion rénale chronique de l'HTA.
+> L'hypotension peropératoire est associée à l'insuffisance rénale aiguë, à l'ischémie myocardique, au delirium et à la mortalité. Ces complications apparaissent souvent dans les jours qui suivent, d'où l'importance de la surveillance après le bloc.
+@ p. 37, 40 et 54
 
-QCM · Consultation et score de Lee
-Quelles propositions concernant l’évaluation cardiovasculaire sont exactes ?
-- L’HTA isolée est un des six items du score de Lee. :: L’HTA isolée n’est pas l’un des six items ; son retentissement reste à rechercher.
-+ Un antécédent de cardiopathie ischémique est un item du score. :: Il figure dans la liste.
-- L’absence de l’HTA dans ce score rend inutile la recherche de ses organes cibles. :: L’évaluation des conséquences reste essentielle.
-+ L’insuffisance cardiaque et les antécédents cérébrovasculaires font partie des items. :: Ces deux catégories sont citées.
-+ Le score et l’évaluation physiopathologique ne sont pas des informations interchangeables. :: Un score ne résume pas tout le terrain clinique.
-> L'évaluation cardiovasculaire associe la capacité fonctionnelle, exprimée en équivalents métaboliques, au risque de la chirurgie et aux facteurs du score de Lee : coronaropathie, insuffisance cardiaque, antécédent cérébrovasculaire, diabète insulinorequérant, insuffisance rénale. Le score oriente les examens complémentaires, qui ne sont utiles que s'ils changent la prise en charge.
-@ p. 56–57
+QCU · Objectif de PAM
+Selon la recommandation retenue dans le cours, quel est l'objectif de PAM peropératoire chez un patient hypertendu chronique ?
+- PAM > 55 mmHg :: C'est un seuil d'étude associé aux complications, pas un objectif.
+- PAM entre 60 et 70 mmHg, comme chez le non-hypertendu :: C'est le seuil à ne pas franchir chez le non-hypertendu.
++ PAM > 70 mmHg ou > 90 % de la PAM habituelle :: L'objectif tient compte de la PA de référence du patient.
+- PAM > 65 mmHg, quelle que soit la PA habituelle :: Ce seuil n'est valable que chez les patients avec peu de comorbidités.
+- PAM > 100 mmHg :: Un tel objectif n'est pas recommandé.
+> Non-hypertendu : éviter une PAM < 60–70 mmHg. Hypertendu chronique : PAM > 90 % de la valeur habituelle ou > 70 mmHg. Le plus souvent, on garde la PAS dans un intervalle de 20 % autour de la valeur de base.
+@ p. 88 et 144
 
-QCM · Traitement agressif avant le geste
-Un patient connu hypertendu a une PAS de 160 mmHg avant une intervention programmée, sans nouveau signe de souffrance d’organe. Quelles analyses sont pertinentes ?
-- Ajouter un antihypertenseur rapide améliore la sécurité.
-+ Comparer cette mesure à sa valeur habituelle et à son niveau d’appréhension est pertinent. :: La blouse blanche et la référence doivent être considérées.
-+ Un traitement agressif peut favoriser l’hypotension ultérieure. :: C’est le risque mis en avant.
-+ Une décision se fonde aussi sur les traitements déjà reçus et le terrain. :: Les interactions avec l’anesthésie font partie du raisonnement.
-- Toute PAS à 160 mmHg impose d’annuler la chirurgie indépendamment du contexte. :: Le cours ne donne pas cette règle universelle.
-> Une pression systolique à 160 mmHg chez un hypertendu connu, sans signe de souffrance d'organe, ne justifie pas de reporter une intervention programmée ni de traiter agressivement dans l'immédiat. Abaisser brutalement la pression expose à l'hypoperfusion, chez un patient dont l'autorégulation est déplacée vers la droite.
-@ p. 57–59 et 120
+QCU · Calcul d'une borne de PAS
+Un patient hypertendu a une PAS de référence de 160 mmHg. Vous voulez garder sa PAS dans un intervalle de 20 % autour de cette valeur. Quelle est la borne basse ?
+- 120 mmHg :: Cela correspond à une baisse de 25 %.
++ 128 mmHg :: 20 % de 160 = 32 mmHg ; 160 − 32 = 128 mmHg.
+- 136 mmHg :: Cela correspond à une baisse de 15 %.
+- 140 mmHg :: Cela correspond à une baisse de 12,5 %.
+- 144 mmHg :: Cela correspond à une baisse de 10 %.
+> On calcule la baisse tolérée à partir de la PA de référence du patient, mesurée en consultation : 160 × 0,2 = 32, donc borne basse à 128 mmHg.
+@ p. 38 et 144
 
-QCM · HTA sévère : rechercher le retentissement
-Devant une pression très élevée, quels éléments peuvent orienter vers une souffrance viscérale ?
-+ Des céphalées et un trouble visuel. :: Ils sont cités à la consultation et dans les crises.
-+ Des signes d’OAP ou d’ischémie myocardique. :: Ce sont des complications décrites.
-+ Des manifestations neurologiques, notamment des convulsions.
-- Une mesure élevée répétée rend inutile la recherche clinique. :: La souffrance d’organe est centrale dans la notion d’urgence hypertensive.
-+ Le retentissement doit être interprété avec la rapidité de l’élévation et le contexte. :: Le chiffre seul ne résume pas la situation.
-> Devant une pression très élevée, ce sont les signes de souffrance viscérale qui font la décision : céphalées, troubles visuels ou neurologiques, douleur thoracique, dyspnée ou signes d'œdème pulmonaire, oligurie. Leur présence définit l'urgence hypertensive et impose un traitement immédiat ; leur absence autorise à poursuivre le programme.
-@ p. 34–35 et 57
+QCU · Score de Lee
+Parmi les items suivants, lequel ne fait pas partie du score de Lee ?
++ HTA :: L'HTA isolée ne figure pas dans le score, ce qui ne veut pas dire qu'elle est sans risque.
+- Diabète insulinodépendant :: C'est un item du score.
+- Insuffisance rénale chronique :: C'est un item du score.
+- Antécédent d'AVC ou d'AIT :: C'est un item du score.
+- Chirurgie à risque cardiaque élevé :: C'est un item du score.
+> Le score de Lee comporte six items : chirurgie à risque élevé, cardiopathie ischémique, insuffisance cardiaque, antécédent cérébrovasculaire, diabète insulinodépendant et insuffisance rénale chronique. L'HTA n'en fait pas partie, mais ses atteintes d'organes peuvent correspondre à plusieurs items.
+@ p. 56
 
-QCM · Bêtabloquants chroniques
-Un adulte prend un bêtabloquant au long cours et doit être anesthésié. Quelles propositions sont exactes ?
-+ La poursuite de son traitement chronique est prévue pendant la période périopératoire. :: La poursuite limite le risque de sevrage et de rebond à l’arrêt.
-+ L’arrêt peut provoquer un rebond avec risque coronaire.
-+ Son effet peut limiter la réponse tachycardique à l’hypovolémie. :: Le blocage bêta peut atténuer la tachycardie compensatrice : une fréquence normale ne suffit pas à exclure une hypovolémie.
-- Une fréquence normale sous bêtabloquant exclut toute perte de volume. :: L’effet sur la fréquence peut masquer ce signal de compensation.
-- La poursuite d’un traitement chronique signifie qu’il faut en introduire chez tous les patients non traités avant chirurgie. :: Il distingue les deux situations ; un rationnel ne justifie pas l’introduction universelle.
-> Un bêtabloquant pris au long cours se poursuit, y compris le matin de l'intervention : son arrêt brutal expose à un effet rebond, avec tachycardie, poussée hypertensive et ischémie myocardique. En revanche, l'introduction d'un bêtabloquant juste avant une chirurgie n'est pas recommandée.
-@ p. 62–63
+QCM · HTA découverte en consultation
+Un homme de 65 ans, programmé pour une prothèse de genou, a une PA à 172/98 mmHg en consultation d'anesthésie. Il n'a aucun symptôme. Quelles attitudes sont adaptées ?
++ Rechercher si cette HTA est déjà connue et traitée. :: C'est la première question à se poser.
++ Répéter les mesures, à la recherche d'un effet blouse blanche. :: La PA diminue souvent au fil de la consultation.
++ Rechercher une atteinte des organes cibles. :: Elle détermine le risque opératoire.
+- Débuter un traitement antihypertenseur rapide pour normaliser la PA avant l'intervention. :: Un traitement agressif expose à une hypotension peropératoire.
+- Reporter l'intervention jusqu'à normalisation de la PA. :: Le report n'est pas nécessaire si la PAS est < 180 mmHg et la PAD < 110 mmHg.
+> Devant une PA élevée en consultation, on cherche l'histoire de l'HTA, son traitement, un effet blouse blanche et le retentissement sur les organes. Il n'est pas nécessaire de reporter si la PA est < 180/110 mmHg, et on ne débute pas de traitement agressif avant l'intervention.
+@ p. 57, 59, 116 et 117
 
-QCM · Antihypertenseurs centraux
-Quelles propositions concernant les antihypertenseurs d’action centrale sont exactes ?
-+ La clonidine exerce une action antihypertensive centrale. :: La clonidine appartient aux antihypertenseurs d’action centrale.
-- Le traitement est interrompu pour éviter tout effet hémodynamique. :: Le cours demande au contraire la poursuite.
-+ La poursuite du traitement limite le risque de sevrage et de rebond hypertensif. :: Un arrêt brutal peut exposer à une réponse de sevrage ; la poursuite est prévue.
-+ Ils peuvent majorer l’hypotension associée à l’anesthésie. :: La diminution sympathique se combine avec celle de l’anesthésie.
-- Leur action ne demande pas de surveillance de la pression. :: Cette interaction impose au contraire une vigilance.
-> Les antihypertenseurs d'action centrale, la clonidine notamment, exposent à un rebond hypertensif sévère en cas d'arrêt brutal : ils se poursuivent. Ils potentialisent par ailleurs les agents anesthésiques, abaissent les besoins et exposent à la bradycardie et à l'hypotension sous anesthésie.
-@ p. 65 et 144
+QCM · Bêtabloquants : pharmacologie
+Concernant les effets des bêtabloquants, quelles propositions sont exactes ?
++ Le blocage β1 a un effet inotrope négatif. :: La contractilité cardiaque diminue.
++ Le blocage β1 a un effet chronotrope et dromotrope négatif. :: Il entraîne une bradycardie et ralentit la conduction.
+- Le blocage β2 vasculaire entraîne une vasodilatation. :: Le blocage β2 vasculaire entraîne une vasoconstriction.
++ Ils limitent la tachycardie réflexe qui compense une hypovolémie. :: Une FC normale ne permet donc pas d'éliminer une hypovolémie.
++ Ils ont un effet bathmotrope négatif. :: C'est l'origine de leur action anti-arythmique.
+> Effets β1 : inotrope, chronotrope, dromotrope et bathmotrope négatifs. Effet β2 vasculaire : vasoconstriction, compensée par l'activité sympathomimétique intrinsèque de certaines molécules. En contrôlant la fréquence, ils allongent la diastole et donc la perfusion coronaire.
+@ p. 62 et 63
 
-QCM · Diurétiques et kaliémie
-Un patient prend un diurétique pour une HTA isolée et doit subir une intervention programmée. Quelles propositions sont exactes ?
-+ Les diurétiques sont plutôt interrompus afin de limiter hypovolémie et troubles hydroélectrolytiques. :: C’est le raisonnement volémique donné.
-+ Les diurétiques de l’anse et les thiazidiques exposent à une hypokaliémie. :: Ces classes peuvent entraîner une perte potassique ; elles se distinguent des antialdostérones.
-+ Les antialdostérones sont associés à un risque d’hyperkaliémie. :: Le support distingue ce risque.
-- Tous les diurétiques entraînent le même trouble potassique. :: La classe doit être identifiée.
-+ Le jeûne et la perte des compensations sous anesthésie rendent la volémie importante.
-> Les diurétiques prescrits pour une hypertension isolée sont habituellement suspendus le jour de l'intervention : ils majorent l'hypovolémie et l'hypotension à l'induction, sans bénéfice sur cette courte période. Leur principal retentissement à vérifier est la kaliémie, dont l'anomalie expose aux troubles du rythme.
-@ p. 68–71 et 83
+QCM · Traitements à poursuivre
+Concernant la gestion périopératoire des antihypertenseurs, quelles propositions sont exactes ?
++ Un bêtabloquant pris au long cours est poursuivi. :: Son arrêt expose à un effet rebond.
++ L'arrêt brutal d'un bêtabloquant expose à une tachycardie et à un risque coronaire. :: C'est l'effet rebond.
++ La clonidine est poursuivie, car son arrêt expose à un rebond hypertensif. :: Les antihypertenseurs centraux ne sont pas interrompus.
+- Un bêtabloquant doit être introduit avant l'intervention chez tout hypertendu non traité. :: On poursuit un traitement chronique ; on ne l'introduit pas chez tous les opérés.
+- Les inhibiteurs calciques sont arrêtés la veille de l'intervention. :: Ils sont poursuivis et donnés avec la prémédication.
+> Poursuivis : bêtabloquants, antihypertenseurs centraux, alphabloquants, inhibiteurs calciques. Interrompus en l'absence d'insuffisance cardiaque : IEC, ARA2 et diurétiques. L'arrêt des bêtabloquants et des traitements centraux expose au sevrage et à l'HTA périopératoire.
+@ p. 63, 65, 67, 85 et 144
 
-QCM · IEC pour HTA isolée
-Un adulte reçoit un IEC pour une HTA, sans insuffisance cardiaque. Quelles propositions sur sa gestion préopératoire sont exactes ?
-+ L’indication du médicament doit être vérifiée. :: Elle distingue HTA et insuffisance cardiaque.
-+ La poursuite peut favoriser une hypotension profonde pendant l’anesthésie. :: La réduction des compensations sympathiques contribue au risque.
-+ Une interruption préopératoire supérieure à 12 heures est prévue pour limiter le risque d’hypotension. :: Pour une HTA isolée, le repère d’interruption retenu est supérieur à 12 heures ; l’indication du traitement doit être vérifiée.
-- La règle exige d’arrêter aussi tous les bêtabloquants. :: La conduite dépend de la classe et du rebond.
-- Une hausse de PA après omission du traitement justifie une correction rapide juste avant l’induction. :: Il faut anticiper l’anesthésie et éviter une correction agressive automatique.
-> Pour une hypertension isolée, les inhibiteurs de l'enzyme de conversion sont habituellement suspendus le matin de l'intervention : poursuivis, ils exposent à une hypotension profonde à l'induction, souvent réfractaire aux vasopresseurs usuels et nécessitant parfois de la vasopressine. Le bénéfice d'une dose manquée est nul.
-@ p. 72–75 et 85
+QCU · Mode d'action de la clonidine
+La clonidine est un antihypertenseur central. Comment agit-elle ?
++ Agoniste alpha-2 central, à effet sympatholytique :: Elle stimule les récepteurs alpha-2 présynaptiques des centres bulbaires et diminue le tonus sympathique.
+- Antagoniste alpha-1 périphérique, à effet vasodilatateur :: C'est le mécanisme des alphabloquants (prazosine, urapidil).
+- Antagoniste β1 cardiaque, à effet chronotrope négatif :: C'est le mécanisme des bêtabloquants.
+- Inhibiteur calcique, à effet vasodilatateur artériel :: C'est le mécanisme des inhibiteurs calciques.
+- Agoniste alpha-1 central, à effet sympatholytique :: Les récepteurs alpha-1 n'ont pas cet effet : leur stimulation entraîne une vasoconstriction (c'est le mécanisme de la phényléphrine).
+> La clonidine stimule les récepteurs alpha-2 centraux et diminue le tonus sympathique. Elle est poursuivie en périopératoire (risque de rebond à l'arrêt), mais elle peut majorer l'hypotension sous anesthésie.
+@ p. 65
 
-QCM · SRAA et insuffisance cardiaque
-Un patient reçoit un IEC ou un ARA2 pour une insuffisance cardiaque. Quelles propositions sont exactes ?
-+ Le cœur peut bénéficier de la diminution de postcharge. :: Un cœur insuffisant peut éjecter plus difficilement contre une charge élevée.
-+ L’indication conduit à discuter différemment le traitement que pour une HTA isolée. :: C’est le rationnel de la distinction.
-- La poursuite du traitement supprime le risque d’hypotension sous anesthésie. :: Le bénéfice de la diminution de postcharge n’annule pas le risque d’hypotension : la surveillance et l’anticipation restent nécessaires.
-+ Dans cette indication, la poursuite du traitement est prévue pour conserver son bénéfice sur la postcharge. :: Le cœur insuffisant peut dépendre d’une postcharge réduite pour fonctionner ; la décision diffère de celle d’une HTA isolée.
-- La décision consiste à recopier sans vérification la conduite de tous les patients hypertendus. :: Indication, contexte et traitement effectif doivent être connus.
-> La décision s'inverse quand le bloqueur du système rénine-angiotensine traite une insuffisance cardiaque et non une hypertension isolée : il s'agit alors d'un traitement de fond dont l'arrêt peut décompenser la cardiopathie. On le poursuit, en anticipant le risque d'hypotension à l'induction.
-@ p. 73–75 et 78–85
+QCM · Alphabloquants et inhibiteurs calciques
+Quelles propositions sont exactes ?
++ Les alphabloquants diminuent la PA en réduisant les résistances périphériques, sans modifier le débit cardiaque. :: Ils bloquent les récepteurs alpha-1.
+- Les alphabloquants entraînent une tachycardie réflexe importante. :: La baisse de PA se fait sans augmentation réflexe de la FC.
++ Les inhibiteurs calciques bloquent l'entrée du calcium dans les cellules musculaires lisses. :: Ils entraînent une vasodilatation.
++ Les inhibiteurs calciques peuvent entraîner une tachycardie réflexe au bloc. :: C'est l'effet signalé dans le cours, lié à la vasodilatation.
+- L'urapidil est un inhibiteur calcique. :: L'urapidil est un alphabloquant. La nicardipine est un inhibiteur calcique.
+> Alphabloquants (prazosine, urapidil) : blocage alpha-1, baisse des résistances sans tachycardie réflexe. Inhibiteurs calciques : vasodilatation, baisse de l'inotropisme et du chronotropisme. Les deux familles sont poursuivies en périopératoire.
+@ p. 64, 66 et 67
 
-QCM · Autres familles poursuivies
-Quelles propositions concernant alphabloquants et inhibiteurs calciques sont exactes ?
-+ Les alphabloquants réduisent les résistances périphériques. :: C’est l’effet périphérique décrit.
-+ La poursuite préopératoire d’un inhibiteur calcique est habituellement prévue. :: La poursuite s’accompagne de la surveillance de son effet combiné avec l’anesthésie.
-- Une même règle de fréquence cardiaque décrit toutes les molécules calciques.
-+ La poursuite ne dispense pas de surveiller l’effet combiné avec l’anesthésie. :: La vasodilatation et les autres effets doivent être intégrés.
-- La présence d’un traitement poursuivi interdit toute hypotension. :: Le patient reste exposé aux variations de volume, de débit et de tonus.
-> Les alphabloquants et les inhibiteurs calciques se poursuivent habituellement en périopératoire. Les inhibiteurs calciques ont peu d'effet rebond mais potentialisent la vasodilatation et, pour certains, la bradycardie. Les alphabloquants majorent l'hypotension par vasodilatation, ce qui s'anticipe à l'induction.
-@ p. 64 et 66–67
+QCM · Diurétiques
+Concernant les diurétiques, quelles propositions sont exactes ?
++ Le furosémide agit sur la branche ascendante de l'anse de Henlé. :: Il bloque la réabsorption du sodium et du chlore à ce niveau.
+- Les thiazidiques agissent sur la branche ascendante de l'anse de Henlé. :: Ils agissent sur le tube contourné distal.
+- La spironolactone expose à une hypokaliémie. :: C'est un épargneur de potassium (antialdostérone) : elle expose à une hyperkaliémie.
++ Chez l'hypertendu sans insuffisance cardiaque, ils sont interrompus avant une chirurgie programmée. :: Ils majorent l'hypovolémie liée au jeûne et les troubles hydroélectrolytiques.
+- Le furosémide augmente la réabsorption du calcium. :: Il l'inhibe. Ce sont les thiazidiques qui augmentent la réabsorption du calcium.
+> Trois classes : diurétiques de l'anse (furosémide), thiazidiques et épargneurs de potassium. Les deux premiers exposent à l'hypokaliémie, les antialdostérones à l'hyperkaliémie, avec un risque de troubles du rythme dans les deux cas. Ils sont interrompus dans l'HTA isolée.
+@ p. 68 à 71
 
-QCM · Vasopresseur et débit
-Concernant le choix et les effets hémodynamiques des vasopresseurs, quelles propositions sont exactes ?
-+ Augmenter les résistances et maintenir la contraction ne sont pas exactement la même action. :: PA = Q × R impose de distinguer les composantes.
-+ La noradrénaline associe un effet alpha vasoconstricteur et une activité bêta cardiaque. :: L’activité alpha augmente le tonus vasculaire ; la petite composante bêta peut soutenir la fonction cardiaque.
-+ La phényléphrine peut faire monter la PA tout en diminuant le débit cardiaque.
-- Une augmentation de la PA améliore le débit de tous les organes. :: Il faut intégrer débit, résistances et perfusion.
-+ La fréquence cardiaque et le mécanisme de l’hypotension participent au choix. :: L’algorithme présenté sert d’exemple de ce raisonnement.
-> Le choix du vasopresseur dépend du mécanisme : l'éphédrine agit indirectement, élève la fréquence et le débit, mais s'épuise par tachyphylaxie ; la phényléphrine est un vasoconstricteur pur, qui élève la pression en abaissant le débit par bradycardie réflexe ; la noradrénaline reste l'agent des vasoplégies profondes.
-@ p. 91 et 111–112
+QCM · Système rénine-angiotensine-aldostérone
+Concernant le système rénine-angiotensine-aldostérone (SRAA) et ses inhibiteurs, quelles propositions sont exactes ?
++ L'enzyme de conversion transforme l'angiotensine I en angiotensine II. :: C'est la cible des IEC.
++ L'angiotensine II entraîne une vasoconstriction et stimule la synthèse d'aldostérone par la surrénale. :: Ce sont ses deux effets présentés dans le cours.
+- Les ARA2 (sartans) inhibent l'enzyme de conversion. :: Ils bloquent le récepteur de l'angiotensine II.
+- La rénine transforme l'angiotensine I en angiotensine II. :: La rénine transforme l'angiotensinogène en angiotensine I.
+- Les inhibiteurs directs de la rénine bloquent le récepteur de l'angiotensine II. :: C'est le mode d'action des ARA2. Les inhibiteurs de la rénine agissent en amont, sur la formation d'angiotensine I.
+> Angiotensinogène → (rénine) → angiotensine I → (enzyme de conversion) → angiotensine II → vasoconstriction et aldostérone. Les inhibiteurs de la rénine agissent sur la première étape, les IEC sur la deuxième, les ARA2 sur le récepteur de l'angiotensine II.
+@ p. 72, 74 et 76
 
-QCM · Hypotension et hypnose
-Un patient hypertendu devient hypotendu sous anesthésie. Quelles propositions sont exactes ?
-- La pression basse prouve une hypnose profonde.
-+ Une inhibition sympathique peut expliquer la baisse même sans hypnose suffisante. :: L’origine peut être cardiovasculaire.
-+ Le BIS ou l’entropie apporte une information différente du seul chiffre de PA. :: Le monitorage de profondeur est discuté dans ce contexte.
-+ Raisonner uniquement sur la pression peut méconnaître un risque de mémorisation. :: C’est le risque évoqué.
-- Toute hypotension doit conduire automatiquement à diminuer l’hypnotique sans autre évaluation. :: Il faut identifier le mécanisme et évaluer la profondeur, pas déduire l’un de l’autre.
-> Devant une hypotension chez un hypertendu, la première question est celle de la profondeur d'anesthésie : une anesthésie trop profonde est la cause la plus fréquente, et la correction passe par la réduction des agents avant tout vasopresseur. On cherche ensuite l'hypovolémie, les traitements pris et une cause chirurgicale.
+QCM · IEC et ARA2 en périopératoire
+Concernant les IEC et les ARA2 en périopératoire, quelles propositions sont exactes ?
++ Chez un patient traité pour une HTA isolée, ils sont interrompus avant l'intervention. :: Le cours retient un arrêt de plus de 12 heures.
++ Leur poursuite expose à une hypotension sévère sous anesthésie. :: Le SRAA ne peut plus compenser la baisse du tonus sympathique.
+- Chez un insuffisant cardiaque, ils sont interrompus comme dans l'HTA isolée. :: Chez l'insuffisant cardiaque, ils sont poursuivis.
++ Chez l'insuffisant cardiaque, leur poursuite se justifie par la baisse de la postcharge, qui aide le ventricule à éjecter. :: Le bénéfice de la poursuite l'emporte.
+- Ils sont poursuivis car leur arrêt expose à un effet rebond, comme les bêtabloquants. :: L'effet rebond concerne les bêtabloquants et les antihypertenseurs centraux.
+> La décision dépend de l'indication : HTA isolée, on interrompt (risque d'hypotension sévère) ; insuffisance cardiaque, on poursuit (baisse de la postcharge utile).
+@ p. 73, 85 et 144
+
+QCM · Causes d'une poussée hypertensive au bloc
+Parmi les situations suivantes, lesquelles peuvent provoquer une poussée hypertensive peropératoire ?
++ Hypercapnie, notamment en cœlioscopie :: Le CO2 stimule le système sympathique.
++ Hypoxémie :: Elle entraîne une réaction sympathique.
++ Clampage aortique :: La postcharge augmente brutalement.
+- Rachianesthésie :: Le bloc sympathique entraîne une hypotension.
++ Globe urinaire :: Cause classique, aussi en fin d'intervention et au réveil.
+> Causes d'HTA peropératoire : arrêt du traitement, stimulation nociceptive (laryngoscopie, chirurgie), hypoxémie, hypercapnie, clampages, garrot prolongé, globe urinaire, HTIC, toxiques ou sevrage, hyperthermie maligne, phéochromocytome méconnu. On cherche la cause avant de traiter le chiffre.
+@ p. 93
+
+QCM · Laryngoscopie et induction
+Concernant l'induction et l'intubation d'un patient hypertendu, quelles propositions sont exactes ?
++ La réponse adrénergique à la laryngoscopie est majorée. :: La PA et la FC peuvent augmenter bien plus que chez le sujet sain.
+- La laryngoscopie entraîne habituellement une bradycardie. :: Elle entraîne une tachycardie, par stimulation sympathique.
++ Une poussée hypertensive peut être suivie d'une hypotension marquée. :: L'hypertendu réagit trop dans les deux sens.
++ La réponse est surtout marquée lorsque l'HTA n'est pas contrôlée. :: Un patient bien traité réagit moins fortement.
+- Une PA élevée avant l'induction protège contre l'hypotension post-induction. :: Une PA de départ élevée n'empêche pas une chute importante après l'induction.
+> L'hypertendu fait une poussée à la laryngoscopie, puis peut chuter sous anesthésie. Il faut anticiper les deux : vasopresseur prêt, et pas d'antihypertenseur donné juste pour corriger le chiffre avant le bloc.
+@ p. 17, 92, 96 et 120
+
+QCM · Traitement IV d'un accès hypertensif
+Quels médicaments peuvent être utilisés par voie intraveineuse pour traiter un accès hypertensif peropératoire ?
++ Nicardipine :: Inhibiteur calcique IV.
++ Urapidil :: Alphabloquant IV.
++ Esmolol :: Bêtabloquant IV de courte durée d'action.
+- Phényléphrine :: C'est un vasopresseur alpha, utilisé contre l'hypotension.
+- Éphédrine :: C'est un vasopresseur, utilisé contre l'hypotension.
+> Médicaments IV : nicardipine, urapidil, clonidine, bêtabloquants (esmolol, aténolol). Ils se titrent : la stimulation est souvent brève alors que le médicament continue d'agir, avec un risque d'hypotension secondaire.
+@ p. 95
+
+QCM · Vasopresseurs
+Concernant les vasopresseurs utilisés pour traiter une hypotension, quelles propositions sont exactes ?
++ La phényléphrine augmente les résistances vasculaires et peut ralentir la FC et diminuer le débit cardiaque. :: Effet alpha pur, avec une bradycardie réflexe.
++ L'éphédrine tend à accélérer la fréquence cardiaque. :: Elle a un effet bêta.
++ La noradrénaline associe un effet alpha prédominant et un léger effet bêta. :: Elle augmente les résistances tout en soutenant la contraction.
+- Remonter la PA avec un vasoconstricteur garantit le maintien du débit cardiaque. :: PA = Q × R : la PA peut remonter par les résistances alors que le débit baisse.
+- L'éphédrine est le vasopresseur le plus adapté chez un patient déjà tachycarde. :: Elle risque d'accélérer encore la fréquence.
+> Le choix du vasopresseur tient compte de la fréquence et du débit, pas seulement du chiffre de PA. La phényléphrine ralentit, l'éphédrine accélère, la noradrénaline est un compromis.
+@ p. 91, 111 et 112
+
+QCM · Hypotension et profondeur d'anesthésie
+Concernant un hypertendu qui devient hypotendu sous anesthésie, quelles propositions sont exactes ?
++ L'hypotension peut faire croire à tort à une anesthésie profonde. :: La PA ne mesure pas la profondeur de l'hypnose.
++ Le risque de mémorisation justifie le monitorage de la profondeur d'anesthésie (BIS, entropie). :: On évite de juger la profondeur sur la seule PA.
++ Une rachianesthésie peut entraîner chez lui une hypotension plus marquée. :: Le bloc sympathique est mal compensé.
+- Une PA basse permet d'affirmer que l'hypnose est suffisante. :: L'hypnose peut être insuffisante malgré une PA basse.
+- L'hypotension est moins marquée que chez le normotendu, car la PA de départ est plus haute. :: Elle est plus marquée, car l'hypertendu réagit trop à l'inhibition sympathique.
+> Les hypotensions liées à l'anesthésie (générale ou locorégionale) sont plus marquées chez l'hypertendu. Elles peuvent mimer une anesthésie profonde alors que l'hypnose est insuffisante, d'où l'intérêt du BIS ou de l'entropie.
 @ p. 100
 
 QCM · HTA en SSPI
-Un patient hypertendu présente une hausse de pression au réveil. Quelles causes ou attitudes sont pertinentes ?
-+ Rechercher douleur, frissons et NVPO. :: Ce sont des causes fréquentes citées.
-+ Rechercher hypercapnie, hypoxémie ou globe urinaire. :: Ces mécanismes sont explicitement listés.
-- Conclure immédiatement à l’oubli d’un comprimé et ne pas examiner le patient.
-+ Traiter la cause avant d’attribuer la hausse au seul terrain chronique. :: La prise en charge est d’abord étiologique.
-+ Si un médicament est nécessaire, éviter de provoquer ensuite une hypotension. :: La titration et la durée d’action restent importantes.
-> Une hypertension au réveil est presque toujours symptomatique : douleur, globe vésical, hypercapnie, hypoxémie, frissons, agitation, ou traitement de fond non repris. La règle est de traiter la cause avant le chiffre ; recourir d'emblée à un antihypertenseur masque le signal et expose à une hypotension secondaire.
-@ p. 113–114
+Un patient hypertendu a une PA à 185/100 mmHg en SSPI. Quelles causes faut-il rechercher avant de donner un antihypertenseur ?
++ Douleur :: Cause classique de stimulation adrénergique.
++ Globe urinaire :: À rechercher en particulier chez un patient peu douloureux.
++ Hypercapnie :: Liée par exemple aux morphiniques ou à un SAOS.
+- Hypovolémie :: Elle entraîne une hypotension, pas une HTA.
++ Frissons :: Ils augmentent la consommation d'oxygène et le tonus sympathique.
+> Causes classiques d'HTA en SSPI : douleur, frissons, NVPO, hypercapnie, confusion, globe urinaire, hypoxémie, arrêt des antihypertenseurs, toxiques, AINS. Le traitement est d'abord celui de la cause ; si besoin, un antihypertenseur IV est titré puis relayé.
+@ p. 113 et 114
 
-QCM · Continuité postopératoire
-Quelles propositions sur les suites postopératoires sont exactes ?
-+ Les hypotensions après le bloc peuvent participer aux complications ischémiques. :: Le cours insiste sur cette période.
-+ La mise en route d’une péridurale peut provoquer une hypotension. :: C’est un mécanisme cité.
-- Une surveillance parfaite pendant l’intervention rend toute surveillance ultérieure inutile.
-+ Hypovolémie, effet résiduel et médicaments de longue durée doivent rester envisagés. :: Le diagnostic reste étiologique après l’opération.
-+ La cible et les événements du bloc doivent être transmis au secteur d’aval. :: C’est l’application du message de continuité de la prise en charge.
-> La continuité du traitement antihypertenseur après l'intervention fait partie de la prise en charge : sa reprise se planifie dès que la voie orale est possible, et l'oubli prolongé est une cause fréquente de poussée hypertensive postopératoire. La surveillance tensionnelle se poursuit au-delà de la salle de réveil.
-@ p. 47 et 113–115
-
-QCU · Hypotension et sympathique
-1. Un patient hypertendu peut présenter une hypotension marquée après induction.
-2. L’inhibition du tonus sympathique peut entraîner chez lui une baisse tensionnelle amplifiée.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies et la seconde explique la première. L’hyperréactivité ne concerne pas seulement le stress pressif : la diminution du tonus peut aussi avoir un effet important.
-@ p. 19, 39 et 97
-
-QCU · IEC : indication
-1. Un IEC doit être poursuivi dans toutes les HTA isolées pour normaliser la pression avant induction.
-2. Dans l’insuffisance cardiaque, la diminution de postcharge peut aider le cœur à fonctionner.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première est vraie, la seconde est fausse.
-+ La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est fausse dans la stratégie enseignée : pour HTA isolée, interruption. Elle ne valide pas la première formulation.
-@ p. 73–75
-
-QCU · Définir une hypotension
-1. Toutes les études sur l’hypotension périopératoire utilisent la même définition de l’hypotension.
-2. Tous les patients doivent recevoir exactement la même cible de PAM, indépendamment de leur valeur habituelle.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-+ Les deux affirmations sont fausses.
-> Les deux affirmations sont fausses. Le support montre plusieurs définitions, seuils et durées. Les recommandations distinguent les terrains et prennent en compte la référence habituelle ; aucun lien explicatif valide ne relie les deux formulations.
-@ p. 38, 41 et 88
-
-QCU · Pression et profondeur
-1. Une hypotension peut être prise à tort pour une anesthésie profonde.
-2. La mesure de PA constitue une mesure directe de l’hypnose cérébrale.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-+ La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La seconde est fausse : pression et profondeur sont des informations distinctes, d’où la discussion du BIS ou de l’entropie. La seconde ne peut donc pas expliquer valablement la première.
-@ p. 100
+QCM · Hypotension postopératoire
+Concernant l'hypotension après l'intervention, quelles propositions sont exactes ?
++ Elle expose à des complications, en particulier à l'ischémie myocardique. :: Le risque persiste après la sortie du bloc.
++ Elle peut être favorisée par un antihypertenseur de longue durée d'action donné en périopératoire. :: C'est le cas des IEC et des ARA2.
++ Elle peut survenir au début de la perfusion d'une péridurale. :: Par bloc sympathique.
+- Elle ne survient plus lorsque le patient a quitté la SSPI. :: Des épisodes surviennent dans le service, avec une surveillance de la PA bien moins fréquente qu'au bloc.
+- Elle ne concerne que les patients ayant des antécédents coronariens ou rénaux connus. :: Les organes sont exposés même sans antécédent connu.
+> Une hypotension postopératoire fait rechercher hypovolémie, effet résiduel des anesthésiques, allergie, insuffisance surrénalienne, ischémie myocardique, péridurale et antihypertenseurs de longue durée d'action. La surveillance continue après le bloc.
+@ p. 47, 115 et 121
