@@ -1,397 +1,335 @@
-// Quiz 8 – Morphiniques (UE 2.4), d'après « QUIZZ 8 Morphiniques.html », relu et corrigé.
+// Quiz – Morphiniques et antagonistes (UE 2.4), réécrit le 18 novembre 2026 d'après le support de cours « Morphinique avec notes ».
+// Questions type examen sur les notions générales : nociception, récepteurs opioïdes, pharmacocinétique comparée, conduite peropératoire, effets indésirables, antagonistes, terrains particuliers. Partie historique non reprise.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Morphiniques
 
 QCM · Douleur et nociception
-Quelles affirmations distinguent la douleur de la nociception ?
-+ La nociception est le traitement neurophysiologique d'un stimulus potentiellement lésionnel :: Détection, transmission, modulation : un processus, pas une expérience.
-+ Une nociception peut persister chez un patient inconscient :: Le message circule sans être perçu : c'est la situation de l'anesthésie générale.
-+ La douleur est une expérience consciente et subjective :: Avec des dimensions sensorielle, émotionnelle et cognitive.
-- La douleur se réduit à la conduction d'un potentiel d'action dans un nerf périphérique :: Cette conduction n'est qu'une étape de la nociception.
-- Une réponse hémodynamique sous anesthésie prouve une douleur consciemment ressentie :: Elle traduit une nociception non contrôlée, sans rien dire de la conscience.
-> Nociception et douleur ne se superposent pas. Sous anesthésie, on traite la nociception, que l'on apprécie par des signes indirects, autonomes et moteurs. Ces signes imposent d'agir, mais ne démontrent pas que le patient souffre consciemment.
-@ 26–28
+Concernant la distinction entre douleur et nociception, quelles propositions sont exactes ?
++ La nociception est la détection et la transmission nerveuse d'un stimulus potentiellement lésionnel. :: C'est un processus neurophysiologique, qui peut se dérouler sans jamais atteindre la conscience.
++ La douleur est une expérience consciente, sensorielle, émotionnelle, cognitive, végétative et comportementale. :: Elle suppose une intégration corticale et un état de conscience.
+- Une anesthésie générale bien conduite supprime à la fois la douleur et la nociception. :: Elle supprime la perception consciente, mais la nociception et ses réponses réflexes peuvent persister.
+- Un patient endormi qui retire un membre à l'incision ressent consciemment une douleur. :: Il s'agit d'une boucle réflexe médullaire, qui précède toute perception consciente.
+- L'absence de mouvement permet de conclure à l'absence de nociception. :: La curarisation empêche le mouvement sans faire disparaître la réponse autonome.
+> La nociception est le circuit, la douleur est l'expérience vécue. Sous anesthésie générale, le message nociceptif peut circuler et déclencher des réponses motrices, autonomes et neuroendocriniennes sans que le patient vive une douleur consciente. C'est pour cela que l'analgésie reste un pilier à part entière de l'anesthésie, à côté de l'hypnose.
+@ p. 25, 27, 28 et 33
 
-QCM · Fibres périphériques
-Quelles affirmations sur la transmission périphérique du message nociceptif sont exactes ?
-+ Les fibres Aδ véhiculent un message rapide, à l'origine d'une douleur initiale vive et localisée :: Elles sont myélinisées, donc rapides.
-+ Les fibres C véhiculent un message lent, à l'origine d'une douleur secondaire diffuse et persistante :: Elles ne sont pas myélinisées.
-+ La transduction est la transformation du stimulus en message électrique au niveau du nocicepteur :: Elle débute à la lésion, avec la libération de médiateurs.
-- Les fibres C assurent la conduction la plus rapide :: Elles sont les plus lentes : d'où la douleur en deux temps.
-- La transduction désigne l'intégration émotionnelle du message dans le cortex :: C'est la première étape, périphérique, et non la dernière, centrale.
-> Quatre étapes : transduction au nocicepteur, conduction par les fibres Aδ et C, transmission dans la corne dorsale, intégration centrale. La différence de vitesse entre Aδ et C explique la douleur vive immédiate puis la douleur sourde qui s'installe.
-@ 29–30
+QCM · Message nociceptif
+Concernant le trajet du message nociceptif, quelles propositions sont exactes ?
++ Les fibres Aδ conduisent une douleur rapide, immédiate et vive. :: Les fibres C, plus lentes, portent une douleur secondaire, diffuse et persistante.
++ La corne dorsale de la moelle est un carrefour de régulation du message. :: Les interneurones inhibiteurs y limitent la quantité d'information transmise au cerveau.
+- Seules les voies descendantes venues du cerveau assurent cette inhibition. :: Les grosses fibres tactiles Aβ y participent aussi, par la théorie du Gate Control.
+- Les opioïdes endogènes n'interviennent pas à l'étage médullaire. :: Enképhalines, endorphines et dynorphines participent à cette modulation, avec les voies descendantes.
+- Sans cette régulation, la perception douloureuse resterait simplement identique. :: Elle serait amplifiée, avec un risque d'allodynie et de sensibilisation centrale.
+> Transduction, conduction périphérique par les fibres Aδ et C, puis entrée dans la corne dorsale. Ce relais n'est pas un simple passage : interneurones inhibiteurs, grosses fibres tactiles, voies descendantes et opioïdes endogènes y filtrent le message. C'est aussi la zone d'action principale des morphiniques, qui reproduisent pharmacologiquement cette inhibition.
+@ p. 30 à 32
 
-QCM · Réflexes sous anesthésie
-Chez un patient sous anesthésie générale, quelles affirmations sur les réponses à un stimulus nociceptif sont exactes ?
-+ Une boucle médullaire peut déclencher une réponse motrice avant toute perception consciente :: Le réflexe n'a pas besoin du cortex.
-+ Une curarisation empêche le mouvement sans supprimer la réponse autonome :: Tachycardie, hypertension et sudation persistent.
-+ Hypnose, antinociception et immobilité sont trois objectifs distincts :: Chacun demande son propre agent et son propre monitorage.
-- L'absence de mouvement sous curare montre que l'antinociception est suffisante :: Le curare supprime le signe, pas le message.
-- Approfondir l'hypnose supprime les réponses nociceptives médullaires :: L'hypnotique agit sur la conscience ; les réflexes spinaux peuvent persister.
-> Trois composantes à traiter séparément. Sous curare, le mouvement disparaît mais la réponse sympathique reste le seul indice de nociception : c'est pourquoi un patient immobile peut être insuffisamment analgésié, et un patient qui bouge n'est pas forcément conscient.
-@ 23–25, 33
+QCM · Récepteurs opioïdes
+Concernant les récepteurs opioïdes, quelles propositions sont exactes ?
++ Leur activation ferme des canaux calciques présynaptiques et ouvre des canaux potassiques postsynaptiques. :: Il en résulte une hyperpolarisation et une baisse de la libération des neurotransmetteurs.
++ Les morphiniques utilisés en anesthésie sont des agonistes du récepteur µ. :: Leur action est à la fois spinale, dans la corne dorsale, et supraspinale.
+- Le mécanisme cellulaire diffère entre un opioïde endogène et un morphinique administré. :: Il est identique : ce sont la localisation, l'intensité et la durée de l'activation qui changent.
+- La libération des opioïdes endogènes est continue et diffuse. :: Elle est brève, localisée et limitée, en réponse à une situation donnée, puis les médiateurs sont dégradés.
+- Les récepteurs opioïdes sont confinés à la corne dorsale de la moelle. :: Ils sont répartis du cortex au tube digestif, ce qui explique la diversité des effets.
+> L'activation des récepteurs opioïdes diminue la transmission synaptique du message nociceptif. Les morphiniques se fixent sur les mêmes récepteurs que les opioïdes produits par l'organisme, mais de façon plus intense, plus prolongée et plus diffuse. Ils sont efficaces parce qu'ils activent un système physiologique réel, et gênants parce qu'ils l'activent de façon moins physiologique.
+@ p. 40 à 42 et 47
 
-QCM · Modulation médullaire
-Quels mécanismes participent à l'inhibition du message nociceptif au niveau médullaire ?
-+ L'activation d'interneurones inhibiteurs dans la corne dorsale :: La corne dorsale n'est pas un simple relais : elle filtre.
-+ Le recrutement des grosses fibres tactiles Aβ, selon la théorie du Gate Control :: C'est pourquoi frotter une zone douloureuse soulage.
-+ L'action de voies descendantes inhibitrices et des opioïdes endogènes :: Les morphiniques thérapeutiques reproduisent cette inhibition.
-- La transmission directe au cortex de tout message périphérique, sans modulation :: Le message est filtré à chaque étage, à commencer par la corne dorsale.
-- Une perte de ces contrôles réduit le risque de sensibilisation centrale :: Elle l'augmente : c'est le mécanisme de l'hyperalgésie et de l'allodynie.
-> Le message nociceptif est modulé avant d'atteindre le cerveau : interneurones locaux, Gate Control par les fibres Aβ, voies descendantes et opioïdes endogènes. Les morphiniques agissent sur ces mêmes circuits ; leur défaillance ouvre la voie à la sensibilisation centrale.
-@ 31–32
-
-QCM · Conséquences d'une douleur non contrôlée
-Quelles conséquences peut avoir une douleur aiguë insuffisamment contrôlée ?
-+ Une activation sympathique qui augmente le travail cardiaque et les besoins en oxygène du myocarde :: Risque majeur chez le coronarien.
-+ Une respiration superficielle favorisant hypoventilation et atélectasies :: Surtout après chirurgie thoracique ou abdominale haute.
-+ Une limitation de la mobilité et des tensions musculaires :: Avec un risque thromboembolique et un retard de récupération.
-+ Un retentissement digestif et neuroendocrinien :: Iléus, hypercatabolisme, hyperglycémie de stress.
-- Une baisse constante de la fréquence cardiaque et de la pression artérielle :: La réponse habituelle est l'inverse ; une réaction vagale reste possible mais rare.
-> La douleur n'est pas seulement un inconfort : elle augmente la consommation d'oxygène du myocarde, dégrade la mécanique ventilatoire, immobilise et retarde la reprise du transit. C'est l'argument physiologique de l'analgésie postopératoire, pas seulement un argument de confort.
-@ 35–38
-
-QCM · Mécanisme cellulaire
-Quelles conséquences de l'activation des récepteurs opioïdes participent à l'antinociception ?
-+ Une réduction de l'entrée de calcium présynaptique :: Moins d'exocytose de neurotransmetteurs.
-+ Une ouverture de canaux potassiques postsynaptiques, avec hyperpolarisation :: Le neurone devient moins excitable.
-+ Une diminution de la libération de glutamate et de substance P :: Ce sont les médiateurs pro-nociceptifs de la corne dorsale.
-+ Une action aux niveaux spinal et supraspinal :: Les récepteurs µ sont présents aux deux étages.
-- Une stimulation de l'adénylate cyclase :: Les récepteurs opioïdes sont couplés aux protéines Gi/o : ils l'inhibent.
-> Les récepteurs opioïdes freinent la transmission de deux côtés de la synapse : moins de calcium et donc moins de libération en amont, hyperpolarisation en aval. Cette action s'exerce dans la moelle et au-dessus, ce qui explique à la fois l'analgésie et les effets centraux.
-@ 40, 50
+QCM · Localisation des récepteurs et effets
+Concernant le lien entre la localisation des récepteurs opioïdes et les effets observés, quelles associations sont exactes ?
++ Bulbe respiratoire : dépression respiratoire :: C'est l'effet indésirable majeur au bloc et au réveil.
++ Area postrema : nausées et vomissements :: Les nausées-vomissements postopératoires sont un effet de classe.
++ Système limbique : euphorie et dépendance :: Les circuits de la récompense sont impliqués.
++ Sphincter d'Oddi : spasme biliaire :: La vessie est également concernée, avec un risque de rétention urinaire.
++ Œil : myosis :: C'est un signe classique d'imprégnation opioïde.
+> La large distribution anatomique des récepteurs opioïdes explique la diversité des effets. Cortex, voies descendantes et corne dorsale portent l'analgésie recherchée ; le bulbe, l'area postrema, le tube digestif, la vessie, le sphincter d'Oddi, l'œil et le système limbique portent les effets subis. On ne peut pas isoler parfaitement l'effet antalgique des autres.
+@ p. 43, 44 et 51
 
 QCM · Classification
-Quelles associations entre médicament et profil opioïde sont exactes ?
-+ Morphine et méthadone : agonistes µ purs :: Pas d'effet plafond analgésique.
-+ Buprénorphine : agoniste partiel de forte affinité pour µ :: Forte affinité et effet plafond, difficile à antagoniser.
-+ Naloxone et naltrexone : antagonistes purs :: La première d'action courte, la seconde prolongée.
-+ Nalbuphine : agoniste κ et antagoniste ou agoniste très partiel µ :: D'où sa capacité à réduire l'effet d'un agoniste µ pur.
-- La nalbuphine est un agoniste µ pur sans composante antagoniste :: Sa composante antagoniste sur µ est précisément ce qui limite son association à la morphine.
-> Quatre profils : agoniste pur (morphine, fentanyl, méthadone), agoniste partiel (buprénorphine), agoniste-antagoniste (nalbuphine), antagoniste pur (naloxone, naltrexone). Le profil détermine ce qui arrive si l'on associe deux opioïdes, et la possibilité d'un sevrage provoqué.
-@ 49–52, 87
+Concernant la classification pharmacologique des opioïdes, quelles propositions sont exactes ?
++ La morphine, le sufentanil, l'alfentanil et le rémifentanil sont des agonistes purs. :: L'oxycodone et la méthadone appartiennent également à cette catégorie.
+- La buprénorphine est un antagoniste pur, utilisé en cas de surdosage. :: C'est un agoniste partiel, d'affinité très élevée pour µ, utilisé en substitution.
+- La nalbuphine est un agoniste µ pur de faible puissance. :: C'est un agoniste-antagoniste : agoniste κ et antagoniste µ, avec un effet plafond.
+- La naltrexone est un agoniste partiel à effet plafond. :: La naloxone et la naltrexone sont des antagonistes purs : elles se fixent sans activer le récepteur.
+- Le tramadol est un agoniste-antagoniste qui empêche la morphine d'agir. :: C'est un agoniste µ plein mais de très faible affinité : il ne déplace pas la morphine du récepteur.
+> Quatre catégories : agonistes purs, agoniste partiel (buprénorphine), agonistes-antagonistes mixtes (nalbuphine) et antagonistes purs (naloxone, naltrexone). Cette classification détermine ce qui se passe lorsqu'on associe deux produits : un agoniste-antagoniste peut réduire l'effet d'un agoniste pur, alors que le tramadol, simplement moins affin, ne le bloque pas.
+@ p. 52 et 90
 
-QCM · Récepteurs et effets
-Quelles affirmations sur les agonistes µ sont exactes ?
-+ Leur action produit une analgésie spinale et supraspinale :: Les deux étages contribuent.
-+ Leur activation provoque aussi une dépression respiratoire et un ralentissement du transit :: Mêmes récepteurs, autres localisations.
-+ Leurs différences utiles au bloc sont surtout pharmacocinétiques :: Le mécanisme est commun ; ce sont les délais et les durées qui les distinguent.
-- Changer d'agoniste µ supprime les effets indésirables de la classe :: Les effets de classe persistent : seule l'exposition totale les module.
-- Les récepteurs opioïdes se limitent aux voies nociceptives médullaires :: Ils sont aussi présents dans le tronc cérébral, le tube digestif et les voies urinaires.
-> La distribution large des récepteurs µ explique qu'on ne puisse pas séparer l'analgésie de la dépression respiratoire, de la constipation ou de la rétention urinaire. Choisir un morphinique, c'est choisir une cinétique, pas un profil d'effets indésirables.
-@ 43–44, 50–53
+QCM · Morphine
+Concernant la morphine, quelles propositions sont exactes ?
++ Sa faible liposolubilité ralentit le passage de la barrière hémato-encéphalique. :: Son délai intraveineux est de 5 à 10 minutes et son pic d'effet encore plus tardif, vers 20 minutes.
++ Son métabolite M6G est analgésique et dépresseur respiratoire, à élimination rénale. :: D'où la prudence et l'accumulation en cas d'insuffisance rénale.
++ Elle est histaminolibératrice par un mécanisme non immunologique. :: Flush, prurit et parfois hypotension : prudence chez l'asthmatique et l'hypovolémique.
+- Son délai et son pic la rendent adaptée à une titration fine en peropératoire. :: Ils sont trop longs : elle sert à la titration postopératoire et à l'analgésie périmédullaire.
+- Son métabolite M3G est le principal responsable de l'analgésie. :: Le M3G est neuroexcitateur : myoclonies, confusion. L'analgésie revient au M6G.
+> La morphine est la référence de puissance, cotée 1. Sa cinétique lente l'écarte de l'entretien peropératoire et la destine à la titration postopératoire et à la voie périmédullaire. Ses deux points de vigilance sont l'accumulation du M6G en insuffisance rénale et l'histaminolibération, qui n'est pas une allergie.
+@ p. 54 et 62
 
-QCM · Morphine : cinétique
-Quelles affirmations sur la morphine intraveineuse sont exactes ?
-+ Sa faible liposolubilité ralentit son passage de la barrière hémato-encéphalique :: D'où un pic d'effet tardif.
-+ Son délai d'action de 5 à 10 minutes ne correspond pas à son pic d'effet, vers 20 minutes :: Deux repères différents, souvent confondus.
-+ Sa cinétique convient à la titration postopératoire et à l'analgésie périmédullaire :: Installation lente mais durée de 3 à 4 heures.
-+ Elle sert de référence de puissance relative :: Les autres morphiniques sont exprimés en multiples de sa puissance.
-- Son pic précoce permet de s'adapter à chaque stimulation peropératoire :: Son pic tardif l'y rend inadaptée : on utilise sufentanil, alfentanil ou rémifentanil.
-> La morphine est lente à entrer et lente à sortir : délai de 5 à 10 minutes, pic vers 20 minutes, durée de 3 à 4 heures. C'est l'agent de la titration en salle de surveillance, pas celui du geste chirurgical.
-@ 54, 60, 62
+QCM · Fentanyl et sufentanil
+Concernant le fentanyl et le sufentanil, quelles propositions sont exactes ?
++ Leur forte liposolubilité permet un passage cérébral rapide, utile dès l'induction. :: Leur délai intraveineux est de 2 à 4 minutes, compatible avec la laryngoscopie.
++ Après un bolus unique de fentanyl, la fin de l'effet tient à la redistribution, pas à l'élimination. :: Sa demi-vie d'élimination de 3 à 4 heures contraste avec une durée clinique de 30 à 60 minutes.
+- Le fentanyl ne s'accumule pas en perfusion prolongée. :: Sa demi-vie contextuelle s'allonge au contraire fortement avec la durée d'administration.
+- La demi-vie contextuelle du sufentanil augmente plus que celle du fentanyl. :: Elle reste au contraire relativement stable : c'est l'argument de son emploi en chirurgie longue.
+- La stabilité de la demi-vie contextuelle du sufentanil permet d'ignorer la dernière réinjection. :: Un bolus important peu avant la fin peut retarder le réveil : il faut intégrer l'horaire et la dose totale.
+> Fentanyl et sufentanil sont rapides grâce à leur liposolubilité. Le fentanyl se distingue par une accumulation importante en perfusion prolongée, alors que la demi-vie contextuelle du sufentanil reste stable, ce qui en fait la référence des chirurgies réglées de durée moyenne à longue. Dans les deux cas, la dose totale et l'horaire du dernier bolus conditionnent le réveil.
+@ p. 56, 57, 61 et 62
 
-QCM · Métabolites de la morphine
-Quelles affirmations sur la morphine et ses métabolites sont exactes ?
-+ Le M6G est actif, analgésique et dépresseur respiratoire, et s'élimine par le rein :: C'est lui qui prolonge l'effet.
-+ L'insuffisance rénale favorise l'accumulation du M6G :: D'où le risque de dépression respiratoire retardée.
-+ Le M3G est neuroexcitateur et peut provoquer myoclonies ou confusion :: Il n'est pas analgésique.
-- Le M3G est responsable de l'analgésie et de la dépression respiratoire prolongées :: C'est le M6G ; le M3G a un profil opposé, excitateur.
-- Une histaminolibération après morphine démontre une allergie :: Elle est non immunologique et dose-dépendante, majorée par une injection rapide.
-> La glucuronoconjugaison hépatique donne deux métabolites de rôles opposés : M6G actif et dépresseur respiratoire, éliminé par le rein, et M3G neuroexcitateur. Chez l'insuffisant rénal, l'accumulation de M6G rend la morphine problématique.
-@ 54, 93
-
-QCM · Oxycodone
-Quelles affirmations sur l'oxycodone en relais oral postopératoire sont exactes ?
-+ Les formes à libération immédiate et prolongée ont des durées d'action différentes :: 4 à 6 heures contre 12 heures.
-+ Une accumulation est possible en insuffisance rénale ou hépatique :: Les doses doivent être réduites et espacées.
-+ Son délai oral est de 15 à 30 minutes :: Ce qui permet une titration orale en postopératoire.
-- Son principal piège d'interaction concerne le CYP2D6 plutôt que le CYP3A4 :: Les interactions à surveiller passent par le CYP3A4 : azolés, clarithromycine, ritonavir.
-- Une forme à libération prolongée supprime le potentiel de dépendance :: La galénique ne modifie pas le potentiel addictif de la molécule.
-> En relais postopératoire, on utilise la forme à libération immédiate, sur une durée courte. Les interactions passent par le CYP3A4, et l'insuffisance rénale ou hépatique impose de réduire les doses. La libération prolongée n'est pas une protection contre la dépendance.
-@ 18–19, 55
-
-QCU · Fentanyl
-Pourquoi l'effet d'un bolus unique de fentanyl cesse-t-il bien avant son élimination complète ?
-+ Parce qu'une redistribution tissulaire fait décroître la concentration cérébrale :: Durée clinique de 30 à 60 minutes, demi-vie d'élimination de 3 à 4 heures.
-- Parce qu'il est éliminé intégralement par le rein en quelques minutes :: Son métabolisme est hépatique, et son élimination bien plus lente.
-- Parce que sa demi-vie d'élimination est aussi brève que la durée du bolus :: Elle est cinq à huit fois plus longue.
-- Parce que sa demi-vie contextuelle est indépendante de la durée de perfusion :: C'est l'inverse : elle s'allonge fortement en perfusion prolongée.
-> C'est la redistribution, non l'élimination, qui met fin à l'effet d'un bolus de fentanyl. En perfusion prolongée, les réservoirs périphériques se remplissent : la redistribution ne joue plus et la demi-vie contextuelle s'allonge beaucoup, ce qui rend le réveil difficile à anticiper.
-@ 56, 61
-
-QCM · Sufentanil
-Quelles affirmations sur le sufentanil sont exactes ?
-+ Son délai d'action intraveineux est de 2 à 4 minutes :: Pic au site effet en 3 à 6 minutes.
-+ Sa demi-vie contextuelle relativement stable facilite son emploi en chirurgie longue :: Elle augmente beaucoup moins que celle du fentanyl.
-+ Un bolus important proche de la fin d'intervention peut laisser un effet résiduel au réveil :: La durée de bolus est de 30 à 60 minutes.
-+ Sa liaison protéique est forte :: La fraction libre, et donc l'effet, augmente si les protéines sont basses.
-- Sa puissance élevée permet d'ignorer l'horaire des dernières doses :: Dose totale, horaire de la dernière injection et temps opératoire restant doivent être intégrés.
-> Le sufentanil est maniable en chirurgie longue, mais sa maniabilité ne supprime pas le cumul. La question à se poser avant chaque réinjection est : combien de temps reste-t-il, et quand le patient doit-il respirer seul ?
-@ 57, 61–62, 104
-
-QCM · Alfentanil
-Quelles caractéristiques expliquent l'intérêt de l'alfentanil pour les gestes brefs et stimulants ?
-+ Un délai d'action intraveineux voisin d'une minute :: Pic au site effet très précoce.
-+ Une fraction non ionisée importante, qui accélère le passage cérébral :: Son pKa proche de 6,5 l'explique, malgré une liposolubilité moindre.
-+ Une durée de bolus de 10 à 15 minutes :: Adaptée à un geste court et stimulant.
-+ Un faible volume de distribution :: Il contribue à son profil bref.
-- Une durée d'action de plusieurs heures après chaque bolus :: Ce serait l'opposé de l'intérêt recherché pour un acte court.
-> L'alfentanil agit vite et brièvement, par sa fraction non ionisée élevée et son faible volume de distribution. Pour un geste court et douloureux, c'est un bon choix, à condition de prévoir le relais antalgique de sortie.
-@ 58, 62, 103
+QCU · Alfentanil
+Pour une réduction de fracture des os du nez chez un patient ambulatoire, quel morphinique correspond au profil décrit dans le cours ?
+- Morphine :: Son délai de 5 à 10 minutes et son pic tardif ne conviennent pas à un geste bref et stimulant.
++ Alfentanil :: Délai d'environ 1 minute et durée de bolus de 10 à 15 minutes, adaptés aux gestes brefs.
+- Fentanyl :: Sa durée de 30 à 60 minutes dépasse largement celle du geste.
+- Oxycodone :: C'est un opioïde oral, destiné au relais postopératoire, non à un geste au bloc.
+- Buprénorphine :: Agoniste partiel à effet plafond, utilisé en substitution, pas pour un geste court.
+> L'alfentanil a le délai le plus court avec le rémifentanil, environ une minute, grâce à une fraction non ionisée importante. Son faible volume de distribution donne une durée très brève, qui reflète ici une élimination réellement rapide. Contrairement au rémifentanil, il laisse un effet résiduel : le risque lié au relais antalgique est moindre.
+@ p. 58 et 103
 
 QCM · Rémifentanil
-Quelles affirmations sur le rémifentanil sont exactes ?
-+ Il est hydrolysé par des estérases plasmatiques et tissulaires non spécifiques :: Métabolisme indépendant des organes.
-+ Son métabolisme est largement indépendant des fonctions hépatique et rénale :: Avantage majeur chez le patient défaillant.
-+ La disparition rapide de son effet impose un relais analgésique anticipé :: Décroissance en 3 à 5 minutes après l'arrêt.
-+ Une exposition élevée favorise l'hyperalgésie et la tolérance aiguë :: Phénomène particulièrement documenté avec cette molécule.
-- Une perfusion prolongée fournit plusieurs heures d'analgésie résiduelle :: Sa demi-vie contextuelle reste brève, quelle que soit la durée : il n'y a pas de résiduel.
-> Le rémifentanil est un morphinique « ouvert-fermé » : délai d'une minute, disparition en quelques minutes, indépendamment de la durée de perfusion. Cette maniabilité peropératoire a deux revers : aucune analgésie résiduelle, et un risque d'hyperalgésie aux fortes expositions.
-@ 59, 61–62, 106
+Concernant le rémifentanil, quelles propositions sont exactes ?
++ Il est métabolisé par des estérases plasmatiques et tissulaires non spécifiques. :: Son élimination est donc indépendante des fonctions hépatique et rénale.
++ Sa demi-vie contextuelle reste quasiment identique quelle que soit la durée de perfusion. :: Il permet une titration fine, même sur les interventions longues.
+- Il laisse un effet analgésique résiduel de plusieurs dizaines de minutes. :: Son effet disparaît en 3 à 5 minutes après l'arrêt : aucun relais résiduel.
++ Il est associé de façon documentée à une hyperalgésie et à une tolérance aiguë postopératoires. :: Le risque augmente avec les doses cumulées et les pics élevés.
+- Sa maniabilité peropératoire dispense d'organiser l'analgésie postopératoire. :: C'est l'inverse : l'analgésie postopératoire s'anticipe, elle ne se rattrape pas après coup.
+> Le rémifentanil est le morphinique « on/off » : délai d'environ une minute, décroissance en 3 à 5 minutes à l'arrêt, métabolisme par les estérases. Il s'emploie quasi exclusivement en perfusion à objectif de concentration. Sa contrepartie est double : aucun relais analgésique résiduel et un risque documenté d'hyperalgésie.
+@ p. 59, 61 et 62
 
-QCU · Pic au site effet
-Après un bolus intraveineux unique, quelle série de délais jusqu'au pic d'effet est exacte ?
-+ Alfentanil et rémifentanil environ 1,5 minute, fentanyl et sufentanil 3 à 6 minutes, morphine 20 minutes :: Trois ordres de grandeur à distinguer.
-- Morphine 1,5 minute et alfentanil 20 minutes :: Les deux valeurs sont inversées.
-- Sufentanil 20 minutes et rémifentanil 30 minutes :: Ces délais sont très surestimés pour ces deux molécules.
-- Même pic à une minute pour tous les agonistes µ :: Leurs cinétiques diffèrent d'un facteur dix.
-> Trois groupes : pic quasi immédiat (alfentanil, rémifentanil), pic en quelques minutes (fentanyl, sufentanil), pic tardif (morphine). Attendre le plein effet avant de réinjecter évite d'empiler les bolus et de provoquer un surdosage retardé.
-@ 60, 104
-
-QCM · Demi-vie contextuelle
-Quelles affirmations définissent correctement la demi-vie contextuelle ?
-+ C'est le temps nécessaire pour que la concentration baisse de moitié après l'arrêt d'une perfusion :: Elle dépend de la durée de cette perfusion.
-+ Elle s'allonge fortement avec la durée d'administration du fentanyl :: Ses réservoirs tissulaires se chargent progressivement.
-+ Elle reste presque constante et courte pour le rémifentanil :: Son métabolisme ne dépend pas de la charge tissulaire.
-+ Elle augmente beaucoup moins pour le sufentanil et l'alfentanil que pour le fentanyl :: D'où leur maniabilité en chirurgie longue.
-- Elle correspond au délai entre l'injection d'un bolus et le premier signe d'action :: C'est le délai d'action, mesuré sur un bolus et non sur un arrêt de perfusion.
-> La demi-vie contextuelle est l'outil pour anticiper le réveil après une perfusion. Elle se distingue du délai d'action et du pic d'effet, qui décrivent un bolus. Fentanyl : allongement marqué ; sufentanil et alfentanil : modéré ; rémifentanil : négligeable.
-@ 61
-
-QCM · AIVOC
-Quelles affirmations sur l'anesthésie intraveineuse à objectif de concentration sont exactes ?
-+ La pompe utilise un modèle pharmacocinétique et pharmacodynamique pour piloter les apports :: Pour le rémifentanil, le modèle Minto tient compte de la masse maigre.
-+ La concentration affichée est une estimation, non une mesure :: Rien n'est dosé chez le patient.
-+ L'opérateur choisit et ajuste la cible selon la stimulation et la réponse clinique :: La machine administre, elle ne décide pas du besoin.
-+ La fiabilité du modèle diminue aux gabarits extrêmes et en état de choc :: Le patient s'éloigne de la population d'où le modèle est issu.
-- Une cible choisie au début rend inutile l'observation clinique :: La stimulation chirurgicale varie, et le modèle n'en sait rien.
-> L'AIVOC administre selon un calcul fondé sur une population. Le chiffre affiché est une prédiction, pas une mesure : chez un patient très âgé, très obèse ou en choc, il faut s'en méfier davantage et se fier à la clinique.
-@ 64, 68
-
-QCU · AIVOC : dépassement initial
-Quel énoncé décrit le dépassement plasmatique initial d'une AIVOC ciblant le site effet ?
-+ La concentration plasmatique dépasse temporairement la cible pour accélérer la montée au site effet :: Le modèle crée volontairement un gradient vers le cerveau.
-- La concentration au site effet dépasse la cible dans les mêmes proportions :: Le site effet monte progressivement, sans dépassement équivalent.
-- Il correspond à une mesure directe du médicament dans le cerveau :: Rien n'est mesuré : tout est calculé.
-- Il témoigne d'une erreur de préparation de la seringue :: C'est un comportement normal et voulu du modèle.
-> Plasma et site effet ne s'équilibrent pas instantanément. Pour atteindre vite la cible cérébrale, le modèle fait monter le plasma au-delà, puis réduit le débit. Ce dépassement transitoire explique l'hypotension ou la bradycardie du début d'une AIVOC.
-@ 65
-
-QCM · Unités
-Quelles associations entre grandeur et unité sont exactes pour les morphiniques ?
-+ Bolus pondéral : µg/kg :: Une dose rapportée au poids.
-+ Perfusion pondérale : µg/kg/min :: Un débit, qui n'est pas comparable à un bolus.
-+ Cible de concentration en AIVOC : ng/mL :: Une concentration, encore une autre grandeur.
-+ 1 mg correspond à 1 000 µg :: Conversion indispensable lors des reconstitutions.
-- Un bolus en µg/kg et un débit en µg/kg/min expriment la même chose :: L'un est une quantité, l'autre une quantité par unité de temps.
-> Dose, débit et concentration cible sont trois grandeurs distinctes : µg/kg, µg/kg/min, ng/mL. Les confondre, ou se tromper entre mg et µg, représente un facteur mille sur un médicament à marge étroite.
-@ 63–64, 91
-
-QCU · Calcul : rémifentanil
-Une préparation contient 2 mg de rémifentanil dans un volume final de 100 mL. Quelle est sa concentration ?
-+ 20 µg/mL :: 2 mg font 2 000 µg, répartis dans 100 mL.
-- 2 µg/mL :: Ce serait oublier la conversion des milligrammes en microgrammes.
-- 200 µg/mL :: Erreur d'un facteur dix sur le volume.
-- 2 mg/mL :: Ce serait la concentration si tout tenait dans 1 mL.
-> 2 mg = 2 000 µg ; 2 000 ÷ 100 = 20 µg/mL. Deux pièges : la conversion mg-µg, et la distinction entre volume final et volume de diluant ajouté. Le rémifentanil est une poudre : il faut la reconstituer avant de la diluer.
-@ 91
-
-QCM · Calcul : naloxone
-On ajoute 9 mL de diluant à une ampoule de 1 mL contenant 0,4 mg de naloxone. Quelles affirmations sont exactes ?
-+ Le volume final est de 10 mL :: 1 mL de produit plus 9 mL de diluant.
-+ La concentration finale est de 40 µg/mL :: 400 µg répartis dans 10 mL.
-+ Un volume de 2 mL contient 80 µg :: 2 × 40.
-- Un volume de 2 mL contient 8 µg :: Erreur d'un facteur dix : ce serait 4 µg/mL.
-- La préparation contient 400 µg par mL :: 400 µg est la quantité totale, dans 10 mL.
-> Trois temps : convertir (0,4 mg = 400 µg), établir le volume final (10 mL), puis diviser (40 µg/mL). Cette dilution permet d'antagoniser par fractions de 1 à 2 mL, ce qui est l'objectif : restaurer la ventilation sans supprimer l'analgésie.
-@ 91
-
-QCM · Voie périmédullaire
-Quelles affirmations sur la morphine intrathécale et le sufentanil péridural sont exactes ?
-+ La morphine intrathécale assure une analgésie de 12 à 24 heures :: Pour des doses de 100 à 300 µg.
-+ Elle expose à une dépression respiratoire retardée justifiant une surveillance en hospitalisation :: Sa diffusion lente dans le liquide céphalorachidien explique ce délai.
-+ Le sufentanil péridural permet de réduire la concentration d'anesthésique local et le bloc moteur :: Effet synergique, avec une installation rapide.
-- Les doses de morphine péridurale en mg se transposent à l'identique en intrathécal :: Les doses intrathécales sont en microgrammes : l'erreur de voie est un surdosage massif.
-> La morphine intrathécale se dose en microgrammes et agit 12 à 24 heures, au prix d'un risque de dépression respiratoire retardée. Vérifier la voie avant l'injection est une étape de sécurité : péridural et intrathécal n'ont ni les mêmes doses ni les mêmes conséquences.
-@ 63, 69, 111
-
-QCM · Titration en salle de surveillance
-Quelles affirmations sur la titration de morphine intraveineuse en salle de surveillance postinterventionnelle sont exactes ?
-+ La posologie se construit progressivement selon la réponse :: Repère de 2 à 3 mg toutes les 5 à 10 minutes, adapté au terrain.
-+ Douleur, fréquence respiratoire et niveau de sédation sont réévalués à chaque palier :: Les trois ensemble, pas la douleur seule.
-+ L'objectif est un niveau d'analgésie, non une quantité totale prédéfinie :: La dose nécessaire varie d'un patient à l'autre.
-- Une SpO₂ normale sous oxygène autorise à réinjecter malgré une somnolence croissante :: La somnolence est le signe d'alerte précoce ; l'oxygène masque l'hypoventilation.
-- Une dose totale fixe doit être administrée d'emblée :: Cela revient à ignorer le délai d'action et la variabilité individuelle.
-> Titrer, c'est injecter 2 à 3 mg, attendre 5 à 10 minutes, puis réévaluer trois choses : la douleur, la fréquence respiratoire et la vigilance. Sous oxygène, la saturation reste longtemps normale : c'est la somnolence qui annonce le surdosage.
-@ 70, 73
+QCU · Choix selon la cinétique
+Pour une chirurgie orthopédique réglée de longue durée chez un patient stable, quelle stratégie correspond aux protocoles du cours ?
+- Réinjections horaires de morphine :: La morphine n'est pas un agent d'entretien peropératoire : son délai et son pic sont trop longs.
+- Réinjections d'alfentanil répétées pendant trois heures :: L'alfentanil est destiné aux gestes brefs, pas à une chirurgie longue.
++ Sufentanil en réinjections ou en objectif de concentration, avec analgésie multimodale :: C'est le protocole retenu pour les chirurgies réglées de durée moyenne à longue.
+- Fentanyl en perfusion continue pendant toute l'intervention :: Son accumulation en perfusion prolongée rend le réveil difficile à anticiper.
+- Un hypnotique seul, sans morphinique, à concentration élevée :: L'hypnose ne supprime pas la nociception ni ses réponses réflexes.
+> Trois questions guident le choix : quelle durée prévisible, quel projet analgésique, et quel devenir immédiat après l'intervention. Geste court et stimulant : alfentanil. Chirurgie réglée de durée moyenne ou longue chez un patient stable : sufentanil. Chirurgie longue avec instabilité hémodynamique attendue : rémifentanil, avec un relais antalgique installé avant l'arrêt.
+@ p. 67, 103 à 105 et 112
 
 QCM · Dépression respiratoire
-Quelles affirmations sur la dépression respiratoire induite par les morphiniques sont exactes ?
-+ Elle associe une action sur les centres respiratoires et une baisse de la sensibilité au CO₂ :: La réponse ventilatoire à l'hypercapnie s'émousse.
-+ Une baisse de la fréquence respiratoire peut précéder celle du volume courant :: La fréquence est donc le paramètre à compter.
-+ L'oxygénothérapie peut maintenir une SpO₂ normale malgré une hypoventilation :: La saturation est un signe tardif et trompeur sous oxygène.
-+ Sujet âgé, syndrome d'apnées du sommeil et insuffisances d'organe majorent le risque :: Terrains à surveiller plus longtemps.
-- L'association à un hypnotique diminue le risque en limitant l'agitation :: Propofol et benzodiazépines majorent au contraire la dépression respiratoire.
-> La surveillance porte sur trois axes : ventilation (fréquence), sédation (vigilance) et oxygénation (SpO₂). Les deux premiers alertent avant le troisième, surtout sous oxygène. Toute association à un sédatif déplace le risque vers le haut.
-@ 73, 83
+Concernant la dépression respiratoire induite par les morphiniques, quelles propositions sont exactes ?
++ Elle associe une action sur les centres respiratoires du tronc cérébral et une baisse de la sensibilité au CO₂. :: Le stimulus qui entretient normalement la ventilation devient moins efficace.
++ La fréquence respiratoire diminue avant le volume courant. :: C'est donc le premier paramètre à surveiller.
++ Une SpO₂ normale sous oxygène n'exclut pas une hypoventilation. :: L'oxygène maintient la saturation malgré une ventilation insuffisante : la désaturation est un signe tardif.
++ Les benzodiazépines et le propofol majorent ce risque. :: Le sujet âgé, l'insuffisant rénal et le patient apnéique non appareillé y sont également plus exposés.
+- La surveillance de l'oxygénation suffit à dépister ce risque. :: Il faut surveiller conjointement la ventilation, la sédation et l'oxygénation.
+> La dépression respiratoire est l'effet indésirable majeur des morphiniques. Elle se surveille d'abord sur la fréquence respiratoire et le niveau de sédation, pas sur la SpO₂, qui se modifie tardivement sous oxygène. Les associations avec d'autres dépresseurs centraux et les terrains fragiles en augmentent nettement le risque.
+@ p. 73 et 116
 
 QCM · Rigidité thoracique
-Après un bolus rapide de morphinique, un thorax rigide rend la ventilation au masque inefficace. Quelles affirmations sont exactes ?
-+ Une rigidité thoracique induite par l'opioïde explique cette situation :: Elle peut concerner la paroi thoracique et les cordes vocales.
-+ Les bolus rapides à forte dose augmentent ce risque :: C'est le mécanisme déclenchant principal.
-+ Une injection lente est la mesure préventive :: Particulièrement chez le patient fragile.
-+ La curarisation permet de rétablir rapidement la ventilation :: C'est la réponse immédiate devant l'impossibilité de ventiler.
-- Il faut attendre l'élimination complète du morphinique avant de curariser :: Attendre, c'est laisser le patient en apnée sans ventilation possible.
-> Devant un thorax de bois, la conduite est la curarisation, qui lève immédiatement l'obstacle. La naloxone n'est qu'un dernier recours, car elle supprime aussi l'analgésie. La prévention tient à la vitesse d'injection.
-@ 74
+Concernant la rigidité thoracique sous morphiniques, quelles propositions sont exactes ?
++ Elle peut rendre la ventilation au masque inefficace. :: La paroi thoracique et les cordes vocales deviennent rigides.
++ Elle survient surtout lors de bolus rapides à forte dose. :: Le sufentanil et le rémifentanil sont les molécules citées.
+- Une injection rapide du bolus la prévient. :: C'est l'injection lente qui la prévient, en particulier chez le sujet âgé ou fragile.
+- Son mécanisme est périphérique, au niveau du muscle strié. :: Le mécanisme est central, avec une participation dopaminergique évoquée.
+- Devant l'impossibilité de ventiler, il faut d'abord insister sur la ventilation au masque. :: Le cours insiste sur la curarisation rapide ; l'antagonisation est un dernier recours, car elle lève aussi l'analgésie.
+> La rigidité thoracique est rare mais doit être reconnue : un thorax rigide rend la ventilation au masque inefficace. Elle suit les bolus rapides à forte dose. La prévention est l'injection lente ; le traitement en urgence est la curarisation rapide. En induction en séquence rapide, une curarisation d'emblée suffisamment profonde couvre ce risque.
+@ p. 74 et 107
 
 QCM · Bradycardie
-Chez un patient à fonction ventriculaire fragile, quelles affirmations sur la bradycardie induite par un morphinique sont exactes ?
-+ Elle peut abaisser le débit cardiaque si le volume d'éjection ne peut pas augmenter :: Débit = volume d'éjection × fréquence.
-+ Elle peut être majorée par un bolus rapide de sufentanil ou de rémifentanil :: La stimulation vagale centrale est dose-dépendante.
-+ La fréquence cardiaque doit entrer dans l'analyse d'une hypotension :: Une hypotension bradycarde ne se traite pas comme une hypotension tachycarde.
-- Les bêtabloquants protègent de cet effet vagal :: Ils le potentialisent au contraire.
-- L'atropine est inutile dans ce contexte :: Elle est indiquée en cas de bradycardie symptomatique, selon le contexte.
-> Sur un ventricule qui ne peut pas augmenter son volume d'éjection, le débit dépend de la fréquence : une bradycardie vagale induite par un bolus rapide fait chuter le débit. Injecter lentement, surveiller la fréquence, et disposer d'atropine.
-@ 75, 96
+Concernant la bradycardie induite par les morphiniques, quelles propositions sont exactes ?
++ Elle résulte d'une stimulation vagale centrale, dose-dépendante. :: Elle est plus marquée avec le sufentanil et le rémifentanil, surtout en bolus rapide.
+- Les bêtabloquants atténuent cette bradycardie. :: Ils la potentialisent, de même qu'une prémédication vagotonique.
++ Elle peut aggraver l'hypotension chez un patient dont le ventricule gauche est altéré. :: Le débit cardiaque est le produit du volume d'éjection systolique par la fréquence : un ventricule qui ne peut pas augmenter son volume d'éjection dépend de sa fréquence.
+- Devant une hypotension sous morphinique, la fréquence cardiaque n'a pas à être prise en compte. :: Restaurer la fréquence de base peut améliorer le débit et la pression, sans augmenter les vasopresseurs.
+- Une bradycardie symptomatique impose l'arrêt du morphinique avant tout traitement. :: Le cours retient l'atropine en cas de bradycardie symptomatique, en l'absence de contre-indication.
+> Débit cardiaque = volume d'éjection systolique × fréquence cardiaque. Chez un patient âgé ou dont la fonction ventriculaire est altérée, la compensation par le volume d'éjection est limitée : la bradycardie vagale des morphiniques, ajoutée à l'effet des hypnotiques, peut aggraver l'instabilité. Devant une hypotension, il faut regarder la fréquence avant d'empiler les vasopresseurs.
+@ p. 75
 
-QCM · Prurit, transit et miction
-Quelles affirmations sur ces effets indésirables des morphiniques sont exactes ?
-+ Le prurit périmédullaire relève surtout d'un mécanisme central non histaminique :: Il ne répond donc pas aux antihistaminiques.
-+ Une très faible dose de naloxone peut traiter ce prurit :: Elle cible le mécanisme central, à dose n'abolissant pas l'analgésie.
-+ Constipation et iléus accompagnent une exposition prolongée :: Effet de classe, sur les récepteurs digestifs.
-+ La rétention urinaire, notamment après voie périmédullaire, peut retarder la sortie :: À rechercher devant une agitation postopératoire.
-- Le prurit après voie périmédullaire est dû à une histaminolibération :: Les deux mécanismes sont distincts : l'histaminolibération concerne surtout la morphine intraveineuse injectée vite.
-> Le prurit périmédullaire est central, pas histaminique : son traitement est une faible dose de naloxone ou de nalbuphine, non un antihistaminique. S'y ajoutent les effets digestifs et urinaires, qui retardent la récupération autant que la douleur.
-@ 76
+QCM · Autres effets indésirables
+Concernant les autres effets indésirables des morphiniques, quelles propositions sont exactes ?
++ Le prurit induit par voie périmédullaire relève d'un mécanisme central, non histaminique. :: Les antihistaminiques ne correspondent donc pas à ce mécanisme.
++ Les nausées et vomissements postopératoires sont un effet de classe, par stimulation de l'area postrema. :: Ils font partie des facteurs du score d'Apfel.
+- La rétention urinaire ne survient qu'après administration intraveineuse prolongée. :: Elle est surtout décrite après voie périmédullaire, par inhibition du réflexe mictionnel.
++ La constipation et l'iléus relèvent des récepteurs du plexus myentérique. :: Ils apparaissent surtout lors d'une exposition prolongée.
+- Le prurit impose l'arrêt de l'analgésie morphinique en cours. :: Le cours propose un antagoniste à très faible dose, qui ne supprime pas l'analgésie.
+> Prurit, nausées-vomissements, constipation, iléus et rétention urinaire accompagnent l'analgésie. Le prurit périmédullaire n'est pas histaminique : c'est un mécanisme central, traité à très faible dose sans annuler l'analgésie. La rétention urinaire a un impact pratique direct, notamment après rachianalgésie morphinique en ambulatoire.
+@ p. 76 et 87
 
 QCM · Tolérance et hyperalgésie
-Quelles affirmations distinguent tolérance aiguë et hyperalgésie induite par les opioïdes ?
-+ La tolérance est un besoin croissant de dose pour maintenir le même effet :: Le même stimulus demande davantage de produit.
-+ L'hyperalgésie est une augmentation de la sensibilité, pouvant dépasser le site chirurgical :: Elle implique une sensibilisation centrale, notamment NMDA.
-+ L'allodynie est une douleur provoquée par un stimulus habituellement non douloureux :: Elle peut accompagner l'hyperalgésie.
-+ Une exposition élevée au rémifentanil est particulièrement en cause :: C'est la situation la mieux documentée.
-- L'hyperalgésie se corrige par une escalade de morphinique :: L'escalade l'entretient : il faut changer de mécanisme, par exemple la kétamine.
-> Tolérance et hyperalgésie se ressemblent au lit du patient : plus de morphine pour moins d'effet. Le repère pratique est qu'une augmentation de dose qui n'améliore pas la douleur doit faire reconsidérer le mécanisme, et non poursuivre l'escalade.
-@ 31, 77–79
-
-QCM · Douleur résistante
-En salle de surveillance, une douleur persiste malgré de nombreuses injections de morphine, après une forte exposition au rémifentanil. Quelles démarches sont pertinentes ?
-+ Rechercher une complication chirurgicale pouvant expliquer la douleur :: Hématome, ischémie, syndrome de loge, globe urinaire.
-+ Envisager une hyperalgésie et une stratégie agissant sur d'autres mécanismes :: La kétamine à visée antihyperalgésique, les antalgiques non opioïdes, un bloc.
-+ Réévaluer avant chaque nouvelle injection :: La persistance de la douleur ne prouve pas le sous-dosage.
-- Poursuivre les bolus sans réévaluation, puisque la douleur prouve un manque d'opioïde :: C'est le raisonnement qui conduit au surdosage et entretient l'hyperalgésie.
-- Administrer de la naloxone pour supprimer la sensibilisation centrale :: Elle lève l'occupation des récepteurs, sans traiter la sensibilisation, et supprime l'analgésie restante.
-> Deux questions avant toute nouvelle injection : y a-t-il une cause chirurgicale, et s'agit-il d'une hyperalgésie ? Dans le second cas, la réponse est de changer de mécanisme, pas d'augmenter la dose de morphine.
-@ 77–79
+Concernant la tolérance aiguë et l'hyperalgésie induite par les opioïdes, quelles propositions sont exactes ?
++ La tolérance aiguë est le besoin de doses croissantes pour maintenir le même niveau d'analgésie. :: C'est un phénomène quantitatif.
++ L'hyperalgésie est qualitativement différente : la sensibilité à la douleur augmente. :: Elle peut s'étendre au-delà du site opéré, parfois avec une allodynie.
++ Le mécanisme implique une sensibilisation centrale médiée par les récepteurs NMDA. :: Le contrôle descendant bascule vers une tonalité facilitatrice.
++ Le rémifentanil est la molécule la plus documentée sur ce phénomène. :: Le risque augmente avec les doses cumulées et les pics élevés.
+- Une douleur qui persiste malgré l'escalade doit faire augmenter encore les doses. :: C'est le repère d'alerte : il faut évoquer une hyperalgésie, et d'abord rechercher une cause chirurgicale.
+> Si l'augmentation des doses ne soulage pas la douleur, voire l'aggrave, il faut évoquer une hyperalgésie plutôt qu'un sous-dosage. La première démarche reste de rechercher une complication chirurgicale. La prise en charge change ensuite de mécanisme : kétamine à dose sub-anesthésique, analgésie multimodale, alpha-2-agonistes. Antagoniser le récepteur ne traite pas cette sensibilisation.
+@ p. 77 à 79
 
 QCM · Analgésie multimodale
-Quelles affirmations sur l'analgésie multimodale et l'anesthésie sans morphiniques sont exactes ?
-+ La multimodale associe des mécanismes différents pour renforcer l'analgésie et réduire l'exposition morphinique :: Paracétamol, anti-inflammatoires, kétamine, anesthésie locorégionale.
-+ L'anesthésie locorégionale est un levier majeur lorsqu'elle est réalisable :: Elle bloque le message à la source.
-+ La stratégie se prépare dès l'induction :: Les relais doivent être actifs avant la fin de l'intervention.
-- L'épargne morphinique impose zéro opioïde chez tous les patients :: Épargner n'est pas supprimer : la stratégie est adaptée au patient et au geste.
-- Les alternatives non opioïdes sont dépourvues d'effets indésirables :: Les alpha-2-agonistes exposent à la bradycardie et à des effets prolongés.
-> L'objectif est de réduire l'exposition morphinique, pas de l'abolir à tout prix. Chaque alternative a ses propres effets indésirables : une stratégie multimodale se raisonne par patient et par chirurgie, et s'anticipe dès l'induction.
-@ 80–81, 115
-
-QCM · Interactions
-Quelles affirmations sur les interactions impliquant les morphiniques sont exactes ?
-+ Propofol et benzodiazépines majorent la dépression respiratoire et l'hypotension :: Les effets dépresseurs s'additionnent.
-+ L'association d'un opioïde à un anesthésique local périmédullaire renforce l'analgésie et limite le bloc moteur :: Interaction recherchée, synergique.
-+ Tramadol ou fentanyl associés à certains antidépresseurs sérotoninergiques exposent à un syndrome sérotoninergique :: Agitation, hyperthermie, myoclonies.
-+ Le métabolite actif du tramadol dépend du CYP2D6 :: D'où une efficacité variable selon le patient, contrairement à la morphine qui est glucuronoconjuguée.
-- Le tramadol bloque les récepteurs µ et empêche la morphine d'agir :: Ce n'est pas un agoniste-antagoniste : il n'empêche pas la morphine d'agir.
-> Certaines interactions sont recherchées, comme opioïde et anesthésique local en périmédullaire. D'autres sont à éviter : sédatifs associés, ou associations sérotoninergiques avec le tramadol. Le tramadol, lui, dépend du CYP2D6 pour être actif.
-@ 83, 90
+Concernant l'analgésie multimodale, quelles propositions sont exactes ?
++ Elle associe plusieurs classes agissant par des mécanismes différents. :: L'effet est additif ou synergique, tout en réduisant la dose de chaque molécule.
++ Elle permet une épargne morphinique. :: C'est son objectif principal, les effets indésirables des morphiniques étant au centre du cours.
++ L'anesthésie locorégionale en est le levier le plus puissant lorsqu'elle est réalisable. :: Elle apporte aussi un bénéfice sur la mobilisation précoce.
++ Elle doit être démarrée dès l'induction. :: L'idée n'est pas d'empiler les antalgiques tardivement en salle de réveil.
+- Les gabapentinoïdes constituent le traitement usuel immédiat de la douleur postopératoire. :: Ils sont réservés à une composante neuropathique attendue, avec prudence sur la sédation.
+> La douleur postopératoire résulte de plusieurs mécanismes simultanés : aucune molécule seule ne les couvre tous. Paracétamol, anti-inflammatoires, kétamine à faible dose, anesthésie locorégionale, lidocaïne intraveineuse, alpha-2-agonistes et dexaméthasone sont les briques du dispositif. La combinaison se choisit selon la chirurgie et le patient, dès l'induction.
+@ p. 80 et 81
 
 QCM · Naloxone
-Quelles affirmations sur la naloxone en postopératoire sont exactes ?
-+ C'est un antagoniste compétitif pur, utilisé contre une dépression respiratoire sévère d'origine opioïde :: Elle n'antagonise ni le propofol ni les benzodiazépines.
-+ Sa titration vise à restaurer la ventilation en préservant autant que possible l'analgésie :: D'où l'intérêt d'une dilution et de petites fractions.
-+ Une antagonisation brutale peut provoquer douleur, réponse sympathique et sevrage :: Avec un risque d'œdème pulmonaire et de trouble du rythme.
-- Sa durée d'action écarte le risque de renarcotisation :: Sa demi-vie de 30 à 80 minutes est plus courte que celle des opioïdes antagonisés.
-- Son administration pour accélérer un réveil conserve l'analgésie :: Elle supprime l'analgésie en même temps que la dépression respiratoire : ce n'est pas un agent de réveil.
-> La naloxone se titre, par petites fractions, avec un objectif ventilatoire. Sa demi-vie plus courte que celle de l'opioïde antagonisé impose de poursuivre la surveillance : le patient peut se réendormir et réhypoventiler.
-@ 85
-
-QCM · Naltrexone
-Chez un patient traité au long cours par naltrexone, quelles affirmations sont exactes ?
-+ Ce traitement antagoniste réduit l'efficacité des opioïdes pour une douleur aiguë :: Les récepteurs sont occupés par un antagoniste de longue durée.
-+ Le projet analgésique doit être préparé avec le prescripteur :: En anticipant des alternatives : multimodale, kétamine, anesthésie locorégionale.
-+ Son identification en consultation préopératoire est déterminante :: C'est le moment où la stratégie peut encore être organisée.
-- La naltrexone est un agoniste µ pur qui renforce la morphine :: C'est un antagoniste pur, de longue durée d'action.
-- Le traitement chronique couvre l'analgésie chirurgicale :: Il ne fournit aucune analgésie : il la bloque.
-> La naltrexone est un antagoniste pur prolongé, utilisé en addictologie. Repérée en consultation, elle impose de bâtir une stratégie non opioïde. Elle ne se confond pas avec une substitution par méthadone ou buprénorphine, qui sont, elles, des agonistes.
-@ 86
+Concernant la naloxone, quelles propositions sont exactes ?
++ C'est un antagoniste compétitif pur, de forte affinité pour les récepteurs opioïdes, surtout µ. :: Son indication de référence est la dépression respiratoire sévère induite par un morphinique.
++ Sa demi-vie est plus courte que celle de la plupart des opioïdes qu'elle antagonise. :: D'où un risque de renarcotisation et la nécessité d'une surveillance prolongée.
++ Elle s'administre en titration, en visant la restauration d'une ventilation suffisante. :: L'objectif est de préserver autant que possible l'analgésie résiduelle.
++ Un réveil brutal en analgésie nulle expose à une douleur intense et à une poussée hypertensive. :: Une tachycardie, voire un œdème aigu du poumon, sont décrits.
+- C'est un moyen commode d'accélérer un réveil de routine. :: C'est un traitement d'urgence : l'utiliser ainsi expose à la renarcotisation et supprime l'analgésie au pire moment.
+> La naloxone traite une dépression respiratoire sévère, elle n'accélère pas un réveil. Elle se titre sur la ventilation, en particulier la fréquence respiratoire. Comme elle s'élimine avant les opioïdes antagonisés, une amélioration initiale ne met pas fin à la surveillance : réinjections ou relais en perfusion peuvent être nécessaires. Chez le patient dépendant, elle peut déclencher un sevrage aigu.
+@ p. 85
 
 QCM · Nalbuphine
-Quelles affirmations sur la nalbuphine sont exactes ?
-+ Elle peut antagoniser partiellement un agoniste µ pur coadministré :: Sa composante antagoniste sur µ s'oppose à la morphine.
-+ Elle peut précipiter un sevrage chez un patient dépendant aux opioïdes :: Elle est évitée chez le patient substitué.
-+ Son effet plafond rend l'escalade de dose inutile en cas d'échec :: Repère analgésique de 0,1 à 0,2 mg/kg, plafond vers 0,3 à 0,4 mg/kg.
-+ À faible dose, elle peut traiter un prurit induit par les opioïdes :: Objectif différent de l'analgésie.
-- Son association à la morphine donne une simple addition des effets analgésiques :: Son profil agoniste κ et antagoniste µ en fait un concurrent de la morphine, non un additif.
-> La nalbuphine a un plafond et une composante antagoniste sur µ : elle ne s'additionne pas à la morphine et peut déclencher un sevrage. Ses usages sont l'analgésie modérée seule, et le traitement du prurit à faible dose.
-@ 87–88
+Concernant la nalbuphine, quelles propositions sont exactes ?
++ C'est un agoniste κ et un antagoniste µ, avec un effet plafond analgésique. :: Au-delà du plafond, ni l'analgésie ni la dépression respiratoire n'augmentent.
++ Elle peut antagoniser partiellement un agoniste µ pur coadministré. :: L'associer dans le seul but de renforcer l'analgésie ne suit pas la logique d'addition habituelle.
+- Son traitement du prurit opioïde exige des doses supérieures aux doses analgésiques. :: Les doses utilisées sont nettement plus faibles, et n'annulent pas l'analgésie.
++ Elle peut précipiter un syndrome de sevrage chez un patient dépendant. :: Elle est à proscrire chez le patient sous traitement de substitution.
+- Son effet plafond dispense de vérifier la dilution et la dose en pédiatrie. :: Chez le nourrisson, une petite erreur de dilution a une grande portée clinique.
+> La nalbuphine occupe une place à part : agoniste-antagoniste, elle a un effet plafond et peut réduire l'effet d'un agoniste µ pur. Ses deux usages sont l'analgésie postopératoire de la douleur modérée à sévère et, à dose plus faible, le traitement du prurit induit par les opioïdes. Elle est à éviter chez le patient dépendant ou substitué.
+@ p. 87 et 88
 
-QCM · Traitement de substitution
-Pour un patient sous méthadone ou buprénorphine devant être opéré, quelles affirmations sont exactes ?
-+ La continuité du traitement de fond prévient le sevrage :: Il se poursuit pendant la période périopératoire.
-+ L'analgésie de la chirurgie s'ajoute au traitement de fond :: Celui-ci ne couvre pas la douleur du geste.
-+ Une tolérance croisée peut imposer des besoins plus élevés :: Les doses usuelles peuvent être insuffisantes.
-+ La nalbuphine est à éviter dans ce contexte :: Elle risque de précipiter un sevrage.
-- Le jeûne impose l'arrêt brutal du traitement de substitution :: L'arrêt expose au sevrage ; la gestion se coordonne avec le prescripteur.
-> Le traitement de substitution se poursuit et ne remplace pas l'analgésie : il faut l'ajouter, avec des besoins souvent majorés, une stratégie multimodale renforcée et une surveillance adaptée. Pour la méthadone, l'allongement du QT est un point de vigilance.
-@ 89, 97, 110
+QCM · Insuffisance rénale et hépatique
+Concernant le choix d'un morphinique selon la fonction rénale ou hépatique, quelles propositions sont exactes ?
++ La morphine est à éviter ou fortement réduire en insuffisance rénale. :: Son métabolite actif M6G s'accumule, avec un risque de dépression respiratoire retardée.
++ Le rémifentanil garde un avantage net en insuffisance hépatique sévère. :: Son métabolisme par les estérases est indépendant du foie.
+- Chez l'insuffisant rénal, aucune alternative à la morphine n'est proposée. :: Fentanyl, sufentanil et rémifentanil lui sont préférables, leur métabolisme n'étant pas rénal-dépendant.
+- En cirrhose évoluée, la clairance des morphiniques reste prévisible. :: Elle devient imprévisible, avec un risque d'accumulation.
+- L'oxycodone peut être prescrite sans adaptation en insuffisance rénale. :: Elle s'accumule en insuffisance rénale ou hépatique : les doses doivent être réduites.
+> En insuffisance rénale, la morphine est la molécule problématique, du fait de l'accumulation du M6G. Fentanyl, sufentanil et rémifentanil lui sont préférables. En insuffisance hépatique sévère, toutes les molécules à métabolisme hépatique demandent de la prudence, et le rémifentanil conserve l'avantage grâce aux estérases.
+@ p. 93
 
-QCM · Insuffisance rénale ou hépatique
-Chez un patient en insuffisance rénale ou hépatique sévère, quelles affirmations sont exactes ?
-+ L'accumulation du M6G impose une vigilance particulière avec la morphine :: Métabolite actif et dépresseur respiratoire, à élimination rénale.
-+ Le métabolisme par estérases donne au rémifentanil un avantage cinétique :: Il ne dépend ni du foie ni du rein.
-+ La clairance hépatique devient imprévisible en cirrhose évoluée :: Les morphiniques à métabolisme hépatique s'accumulent.
-- L'absence de métabolisme hépatique du rémifentanil supprime tout risque respiratoire :: Les effets de classe persistent pendant l'administration.
-- Une cirrhose évoluée ne modifie pas la clairance des morphiniques à métabolisme hépatique :: Elle l'altère de façon importante et difficile à prévoir.
-> Choisir une molécule dont la cinétique dépend peu du foie et du rein, le rémifentanil par exemple, limite l'accumulation, mais ne dispense ni de titrer ni de surveiller : la dépression respiratoire reste possible pendant l'administration.
-@ 54, 59, 93
+QCM · Sujet âgé et obésité
+Concernant l'adaptation des morphiniques au terrain, quelles propositions sont exactes ?
++ Chez le sujet âgé, les doses sont réduites et l'injection est systématiquement lente. :: La titration prime sur toute dose standardisée au poids.
+- Le sujet âgé est moins sensible à la dépression respiratoire que l'adulte jeune. :: Sa sensibilité est accrue : la surveillance doit en tenir compte.
++ Chez l'obèse, un dosage sur le poids total surestime les besoins. :: C'est particulièrement vrai pour le fentanyl et le sufentanil.
+- Les modèles fondés sur la masse maigre restent fiables quel que soit l'indice de masse corporelle. :: Leur fiabilité baisse dans l'obésité importante, par sous-estimation de la masse maigre.
+- Une concentration affichée par une pompe est une mesure directe chez le patient. :: C'est une estimation issue d'un modèle, dont la fiabilité baisse aux extrêmes de gabarit et en choc.
+> Le terrain modifie autant la stratégie que la chirurgie. Chez le sujet âgé : doses réduites, injection lente, titration. Chez l'obèse : discuter le poids utilisé, privilégier un modèle intégrant la masse maigre, viser un réveil rapidement efficace sur le plan ventilatoire, avec une surveillance prolongée en position demi-assise.
+@ p. 64, 65, 94 et 96
 
-QCM · Âge, obésité et apnées du sommeil
-Quelles affirmations sur l'adaptation des morphiniques à ces terrains sont exactes ?
-+ Chez le sujet âgé, l'injection lente et la titration prudente priment sur une dose standard :: Besoins réduits et sensibilité respiratoire accrue.
-+ Chez l'obèse, le poids total surestime les besoins de certaines molécules :: On raisonne sur un poids ajusté ou la masse maigre.
-+ En cas d'apnées du sommeil, l'épargne morphinique et une surveillance respiratoire prolongée sont pertinentes :: Le risque est majoré, surtout avec d'autres dépresseurs.
-- Un modèle d'AIVOC reste aussi fiable chez un patient très éloigné du gabarit étudié :: Les modèles de masse maigre ont des limites en obésité importante.
-> Trois terrains, une même logique : réduire l'exposition, injecter lentement, surveiller plus longtemps. Et se méfier des modèles d'AIVOC quand le patient est loin de la population sur laquelle ils ont été construits.
-@ 64, 94, 96, 109
+QCM · Grossesse et pédiatrie
+Concernant l'utilisation des morphiniques en obstétrique et en pédiatrie, quelles propositions sont exactes ?
++ Tous les morphiniques intraveineux franchissent la barrière placentaire. :: Le fentanyl et le rémifentanil la franchissent rapidement.
++ En césarienne en urgence sous anesthésie générale, on attend idéalement le clampage du cordon. :: C'est le moment d'administration qui limite l'exposition du nouveau-né.
+- En pédiatrie, une dose fixe par tranche d'âge est retenue. :: Les doses sont calculées au poids, en particulier chez le nourrisson.
++ Le nourrisson est plus sensible à la dépression respiratoire. :: Le sufentanil et le rémifentanil ont le profil le plus prévisible dans cette population.
+- La morphine intrathécale après césarienne programmée est contre-indiquée. :: Elle est au contraire retenue pour prolonger l'analgésie postopératoire, sous surveillance hospitalière.
+> En obstétrique, le passage placentaire fait du moment de l'administration une question centrale : on attend le clampage du cordon en césarienne en urgence. Pour la césarienne programmée, la morphine intrathécale prolonge l'analgésie. En pédiatrie, les doses sont pondérales et la sensibilité respiratoire du nourrisson impose une vigilance particulière.
+@ p. 95
 
-QCM · Réinjection peropératoire
-Devant une tachycardie ou une hypertension sous anesthésie, quelles affirmations guident la décision de réinjecter un morphinique ?
-+ Rechercher le contexte, la stimulation chirurgicale et les autres causes possibles :: Hypovolémie, hypercapnie, réveil, vessie pleine, garrot.
-+ Tenir compte des injections précédentes et de leur plein effet :: Une réinjection trop précoce additionne des effets retardés.
-+ Intégrer le temps opératoire restant et le risque d'effet résiduel :: La dernière injection conditionne le réveil.
-+ Faire coïncider le pic d'effet avec le temps le plus stimulant :: L'anticipation vaut mieux que la réaction.
-- Réinjecter d'emblée, puisque ces signes prouvent une antinociception insuffisante :: Les signes hémodynamiques ne sont pas spécifiques de la nociception.
-> Tachycardie et hypertension ne sont pas synonymes de douleur. Avant de réinjecter : chercher les autres causes, vérifier si l'injection précédente a atteint son pic, et regarder la montre, car l'analgésie peropératoire se planifie sur le temps restant.
-@ 100–104, 113–114
+QCM · Voie périmédullaire
+Concernant l'administration périmédullaire des morphiniques, quelles propositions sont exactes ?
++ La morphine intrathécale agit longtemps, de 12 à 24 heures, à très faible dose. :: Son installation est lente, par diffusion progressive dans le liquide céphalo-rachidien.
++ Elle expose à une dépression respiratoire retardée, jusqu'à 12 à 24 heures. :: Une hospitalisation est donc obligatoire après cette administration.
++ Le sufentanil péridural a un délai d'installation rapide, avec une action surtout locale. :: Sa liposolubilité explique cette action au site d'injection.
++ Associé à l'anesthésique local, il permet d'en réduire la concentration et donc le bloc moteur. :: En obstétrique, la patiente conserve la possibilité de bouger les jambes et de pousser.
+- Les doses intrathécales et péridurales de morphine s'expriment dans la même unité. :: La voie intrathécale se compte en microgrammes, la voie péridurale en milligrammes.
+> La voie périmédullaire permet une analgésie prolongée avec de très faibles quantités. La morphine intrathécale impose une surveillance hospitalière du fait du risque respiratoire retardé. Le sufentanil péridural agit vite et localement, et sa synergie avec l'anesthésique local renforce le bloc sensitif tout en limitant le bloc moteur. Attention à ne pas confondre les unités entre les deux voies.
+@ p. 63 et 69
 
-QCM · Relais postopératoire
-Une intervention sous rémifentanil se termine, avec un objectif d'extubation. Quelles affirmations sont exactes ?
-+ Le relais analgésique doit avoir eu le temps d'agir avant l'arrêt du rémifentanil :: Sinon le patient se réveille sans analgésie.
-+ Antalgiques non opioïdes, infiltration ou bloc peuvent être anticipés :: Ils agissent sans compromettre la ventilation.
-+ Le niveau d'analgésie doit être conciliable avec une ventilation efficace :: Un relais excessif compromet le réveil.
-- La disparition rapide du rémifentanil permet d'attendre l'arrivée en salle de surveillance :: La douleur apparaît en quelques minutes après l'arrêt : il est alors trop tard.
-> Le rémifentanil ne laisse aucune analgésie résiduelle : le relais s'organise avant la fin de l'intervention, en tenant compte du délai d'action de la molécule choisie. Trop peu, le patient se réveille en douleur ; trop, il ne respire pas.
-@ 59, 67, 99, 102, 106
+QCM · Patient dépendant ou substitué
+Concernant le patient dépendant aux opioïdes ou sous traitement de substitution, quelles propositions sont exactes ?
++ La tolérance croisée impose le plus souvent des doses peropératoires supérieures aux standards. :: Le cours cite des doses de sufentanil 1,5 à 2 fois supérieures.
++ Le traitement de substitution doit être maintenu en périopératoire. :: Le jeûne ne doit pas conduire à supprimer la prise du matin.
++ Un arrêt brutal expose à un sevrage avant même la chirurgie. :: Le jeûne ne justifie pas de suspendre la prise du matin.
++ La nalbuphine est à proscrire dans ce contexte. :: Son action antagoniste peut contrarier les opioïdes et déclencher un sevrage.
+- Un patient sous antagoniste chronique répond normalement aux morphiniques en cas de douleur aiguë. :: Il peut y être résistant : l'arrêt doit être anticipé en consultation avec le prescripteur.
+> Chez le patient dépendant ou substitué : maintenir le traitement de fond, majorer les doses peropératoires du fait de la tolérance croisée, renforcer l'analgésie multimodale dès l'induction et éviter la nalbuphine. Un traitement antagoniste chronique doit être repéré avant la chirurgie, car il peut rendre les morphiniques inefficaces : les alternatives se préparent en amont.
+@ p. 86 et 97
+
+QCM · Terrain respiratoire et cardiaque
+Concernant les terrains à risque respiratoire ou cardiaque, quelles propositions sont exactes ?
++ Le syndrome d'apnées du sommeil est un terrain à haut risque de dépression respiratoire. :: Le risque est majoré par l'association aux benzodiazépines.
++ Les stratégies d'épargne morphinique y sont pleinement justifiées. :: Kétamine, lidocaïne intraveineuse et anesthésie locorégionale en sont les leviers.
+- Une extubation précoce dispense d'une surveillance prolongée sur ce terrain. :: L'extubation se fait sur critères stricts, suivie d'une surveillance prolongée en position demi-assise.
++ Chez le patient à l'hémodynamique fragile, le sufentanil et le rémifentanil injectés lentement offrent une bonne stabilité. :: La bradycardie vagale après bolus rapide reste le point de vigilance.
+- L'anesthésie sans opioïdes est désormais le standard chez ces patients. :: Les essais récents n'ont pas montré de bénéfice net ; c'est un outil pour des indications ciblées, pas un standard.
+> Sur un terrain respiratoire fragile, l'épargne morphinique et la surveillance prolongée priment. Sur un terrain cardiaque, le sufentanil et le rémifentanil injectés lentement assurent une bonne stabilité, à condition d'intégrer la bradycardie. L'anesthésie sans opioïdes reste un outil pour des patients sélectionnés, et non une règle générale.
+@ p. 96 et 115
+
+QCM · Anticiper le stimulus
+Concernant la conduite peropératoire des morphiniques, quelles propositions sont exactes ?
++ Il faut chercher à faire coïncider le pic d'effet avec le stimulus attendu. :: Plutôt que de traiter tardivement sa conséquence hémodynamique.
++ Laryngoscopie, incision, pneumopéritoine et tractions viscérales sont des stimuli prévisibles. :: Les manipulations osseuses ou périostées et la pose d'un garrot en font également partie.
++ Avant chaque bolus, il faut estimer l'opioïde déjà actif et le temps opératoire restant. :: Sans quoi les effets s'additionnent de façon retardée, avec un surdosage relatif.
++ Il faut attendre le délai d'action avant toute nouvelle administration. :: Répéter un bolus avant son plein effet est l'une des erreurs listées par le cours.
+- Un bolus en fin d'intervention est sans conséquence si la dose est faible. :: L'effet résiduel doit être intégré : cet opioïde sera-t-il encore utile lorsque son effet maximal surviendra ?
+> La conduite tient en six temps : anticiper le stimulus, adapter l'opioïde à sa cinétique, administrer la dose nécessaire, attendre le délai d'action, analyser la réponse, puis anticiper le postopératoire. Le bon niveau dépend de l'intensité nociceptive, de l'opioïde déjà actif et du temps opératoire restant, jamais d'une dose fixe.
+@ p. 100, 113 et 114
+
+QCU · Tachycardie peropératoire
+Un patient présente une tachycardie et une poussée hypertensive en cours d'intervention. Quelle conduite correspond au raisonnement du cours ?
+- Administrer immédiatement un bolus de morphinique :: Tachycardie et hypertension ne signifient pas automatiquement un manque de morphinique.
++ Rechercher d'abord un stimulus chirurgical et les autres causes possibles avant de titrer :: Profondeur hypnotique, ventilation, volémie, curarisation, température, vessie pleine ou infiltration d'adrénaline doivent être examinées.
+- Approfondir uniquement l'hypnose, la nociception étant alors couverte :: L'hypnose ne couvre pas la nociception : ce sont deux piliers distincts.
+- Conclure à une hyperalgésie et administrer un antagoniste NMDA :: L'hyperalgésie se discute devant une douleur postopératoire rebelle à l'escalade, pas devant une réponse peropératoire isolée.
+- Ne rien faire, une stabilité hémodynamique n'étant pas un objectif :: Une réponse autonome non contrôlée peut être délétère selon le terrain.
+> Une tachycardie ou une hypertension ne signifient pas automatiquement un manque de morphinique. Il faut vérifier la présence d'un stimulus, la profondeur hypnotique, la ventilation, la volémie, la curarisation, la température, la vessie et les médicaments administrés. À l'inverse, une stabilité hémodynamique ne garantit pas une antinociception suffisante, notamment sous bêtabloquant, chez le sujet âgé ou sous anesthésie profonde.
+@ p. 101
+
+QCM · Dernier tiers d'intervention
+Concernant la fin d'intervention et la préparation du postopératoire, quelles propositions sont exactes ?
++ L'objectif change : il s'agit d'associer analgésie, réveil et ventilation efficace. :: Au début, il s'agissait de couvrir la nociception chirurgicale.
++ L'analgésie non opioïde s'installe avant l'émergence de la douleur. :: Paracétamol, anti-inflammatoires si indiqués, anesthésie locorégionale ou infiltration, adjuvants selon le terrain.
++ Avec le rémifentanil, le relais doit avoir eu le temps d'agir avant l'arrêt de la perfusion. :: Son effet analgésique disparaît en quelques minutes.
++ Avant tout nouveau bolus, il faut se demander si l'opioïde sera encore utile lors de son effet maximal. :: Si la réponse est non, il vaut mieux s'abstenir ou choisir une autre stratégie.
+- Une analgésie multimodale insuffisante se compense en augmentant les opioïdes. :: C'est l'une des erreurs listées : les leviers non opioïdes doivent être utilisés pour eux-mêmes.
+> Dans le dernier tiers, l'objectif devient un patient confortable, réveillable, ventilant efficacement et sans imprégnation excessive. L'analgésie postopératoire s'installe avant la fermeture, pas après l'arrêt du morphinique. Arrêter le rémifentanil sans relais organisé fait partie des erreurs à éviter.
+@ p. 102 et 113
+
+QCM · Titration en salle de réveil
+Concernant la titration morphinique en salle de surveillance postinterventionnelle, quelles propositions sont exactes ?
++ Elle se construit par bolus successifs, selon la réponse du patient. :: Le cours retient 2 à 3 mg toutes les 5 à 10 minutes jusqu'à l'objectif d'évaluation de la douleur.
++ La fréquence respiratoire et le niveau de sédation sont évalués à chaque palier. :: Ce sont les premiers indices d'imprégnation.
+- La saturation seule suffit à écarter un surdosage. :: Sous oxygène, l'hypoventilation précède nettement la désaturation.
+- La dose totale est fixée d'emblée, en fonction du poids. :: Contrairement au peropératoire, la posologie se construit à la demande, en temps réel.
+- Les réinjections s'enchaînent sur la seule plainte douloureuse. :: Elles se raisonnent avec le délai d'action et la réponse observée.
+> La titration construit la posologie progressivement, par paliers, en visant un score de douleur cible. À chaque palier, on réévalue la douleur, la fréquence respiratoire et la sédation. C'est l'inverse d'une dose calculée d'emblée : on administre, on attend le délai d'action, on observe, puis on adapte.
+@ p. 70
+
+QCM · Interactions
+Concernant les interactions médicamenteuses des morphiniques, quelles propositions sont exactes ?
++ L'association aux benzodiazépines et au propofol majore la dépression respiratoire et l'hypotension. :: C'est l'association la plus fréquemment retrouvée dans les incidents évitables.
++ L'association à certains antidépresseurs expose à un syndrome sérotoninergique. :: Le tramadol et le fentanyl sont cités, de même que l'association historique des inhibiteurs de la monoamine-oxydase à la péthidine.
++ Avec les anesthésiques locaux périmédullaires, la synergie analgésique est recherchée. :: Elle permet de réduire la concentration d'anesthésique local et donc le bloc moteur.
+- Le tramadol bloque l'action de la morphine administrée ensuite. :: Son affinité pour le récepteur µ est bien trop faible pour la déplacer : leurs effets sont additifs.
+- Les métabolismes du tramadol et de la morphine empruntent la même voie, d'où un risque de compétition. :: La morphine est glucuronoconjuguée, indépendamment du cytochrome impliqué dans le métabolite actif du tramadol.
+> Certaines interactions augmentent le risque : dépresseurs centraux pour la ventilation, associations sérotoninergiques pour le syndrome sérotoninergique. D'autres sont recherchées, comme la synergie avec les anesthésiques locaux périmédullaires. L'idée qu'un patient ayant reçu du tramadol ne pourrait plus être soulagé par la morphine est fausse : la question est la pertinence clinique d'ajouter un opioïde faible à un agoniste fort.
+@ p. 83 et 90
+
+QCU · Puissance relative
+En prenant la morphine comme référence de puissance, quel classement des morphiniques, du plus puissant au moins puissant, est exact ?
+- Morphine > sufentanil > fentanyl > alfentanil :: La morphine est la molécule de référence, cotée 1 : c'est la moins puissante de la liste.
++ Sufentanil > rémifentanil > fentanyl > alfentanil > morphine :: Environ 500 à 1 000 pour le sufentanil, 100 à 200 pour le rémifentanil, 100 pour le fentanyl, 10 à 25 pour l'alfentanil.
+- Alfentanil > fentanyl > sufentanil > morphine :: L'alfentanil est le moins puissant des dérivés, pas le plus puissant.
+- Fentanyl > sufentanil > morphine > alfentanil :: Le sufentanil est plus puissant que le fentanyl, et la morphine moins que l'alfentanil.
+- Rémifentanil > sufentanil > morphine > fentanyl :: Le sufentanil est le plus puissant, et le fentanyl plus puissant que la morphine.
+> Les puissances relatives, morphine = 1, sont d'environ 10 à 25 pour l'alfentanil, 100 pour le fentanyl, 100 à 200 pour le rémifentanil et 500 à 1 000 pour le sufentanil. Mais la puissance n'est pas à elle seule un critère de choix : au bloc, c'est la cinétique qui différencie ces molécules.
+@ p. 62
+
+QCU · Pic d'effet après un bolus
+Après un bolus intraveineux unique, quelle molécule atteint son pic de concentration au site d'effet le plus tardivement ?
++ Morphine :: Son pic survient vers 20 minutes, ce qui l'écarte de l'adaptation à une stimulation peropératoire ponctuelle.
+- Fentanyl :: Son pic survient entre 3 et 6 minutes.
+- Sufentanil :: Son pic survient également entre 3 et 6 minutes.
+- Alfentanil :: Son pic est très précoce, vers 1,5 minute.
+- Rémifentanil :: Son pic est lui aussi très précoce, vers 1,5 minute.
+> Le délai d'action ne se confond pas avec le pic d'effet. Les repères du cours sont : environ 1,5 minute pour l'alfentanil et le rémifentanil, 3 à 6 minutes pour le fentanyl et le sufentanil, environ 20 minutes pour la morphine. C'est ce pic qu'il faut faire coïncider avec le stimulus attendu, et non traiter la conséquence une fois qu'elle est installée.
+@ p. 60 et 100
+
+QCU · Relais après le rémifentanil
+Une chirurgie longue a été conduite sous rémifentanil. Que faut-il avoir fait avant d'arrêter la perfusion ?
+- Rien de particulier : son effet résiduel couvre les premières heures postopératoires :: Il ne laisse aucun relais analgésique : l'effet disparaît en quelques minutes.
++ Avoir installé l'analgésie non opioïde et, si nécessaire, l'opioïde postopératoire, en leur laissant le temps d'agir :: L'analgésie postopératoire s'anticipe, elle ne se rattrape pas après coup.
+- Avoir augmenté la cible dans les dernières minutes :: Cela retarde le réveil sans assurer l'analgésie après l'arrêt.
+- Avoir prévu une antagonisation au réveil :: Antagoniser supprime l'analgésie résiduelle au moment où elle est le plus nécessaire.
+- Avoir arrêté tout autre antalgique pour évaluer la douleur réelle :: C'est l'inverse de la stratégie multimodale, qui se met en place dès l'induction.
+> Le rémifentanil est maniable pendant l'intervention, mais son effet analgésique disparaît très vite à l'arrêt. Le relais s'installe avant la fermeture : analgésie non opioïde, anesthésie locorégionale ou infiltration si indiquée, et opioïde postopératoire administré assez tôt pour agir. Arrêter le rémifentanil sans relais organisé fait partie des erreurs listées par le cours.
+@ p. 59, 102 et 106
+
+QCU · Prurit après rachianalgésie
+Une patiente présente un prurit après une rachianalgésie morphinique. Quelle explication correspond au cours ?
+- Il s'agit d'une histaminolibération, à traiter par un antihistaminique :: Le prurit périmédullaire relève d'un mécanisme central, non histaminique.
++ Il s'agit d'un mécanisme central, que le cours propose de traiter par un antagoniste à très faible dose :: La dose utilisée ne supprime pas l'analgésie.
+- Il s'agit d'une réaction allergique, imposant l'arrêt de toute analgésie morphinique :: Ce n'est ni une allergie ni une indication d'arrêt de l'analgésie.
+- Il s'agit d'un signe précoce de surdosage, imposant une antagonisation complète :: Le prurit n'est pas un critère d'antagonisation complète.
+- Il s'agit d'un effet sans rapport avec la morphine administrée :: Le prurit est un effet connu de la voie périmédullaire.
+> Le prurit induit par voie périmédullaire n'est pas histaminique : c'est un mécanisme central. Les antihistaminiques ne correspondent donc pas à ce mécanisme ; le cours propose un antagoniste à très faible dose, ou la nalbuphine, qui soulage le prurit sans annuler l'analgésie. Il ne faut pas le confondre avec l'histaminolibération de la morphine intraveineuse.
+@ p. 76, 87 et 88

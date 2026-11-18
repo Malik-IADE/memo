@@ -1,323 +1,385 @@
-// Quiz 3 – Anesthésiques inhalés (UE 2.4), d'après « QUIZZ 3 Aneshtésiques inhalés 2.html », relu et corrigé.
+// Quiz – Anesthésiques inhalés (UE 2.4), réécrit le 18 novembre 2026 d'après le support de cours « Anesthésique inhalés avec notes ».
+// Questions type examen sur les notions générales : propriétés physiques, circuit filtre, pharmacocinétique, MAC, effets respiratoires, toxicité, réveil, N₂O. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Anesthésiques inhalés
 
-QCM · Propriétés
-Quelles affirmations sur la forme physique des anesthésiques inhalés sont exactes ?
-+ Le sévoflurane est un liquide volatil dans son flacon :: Volatil signifie liquide qui s'évapore facilement.
-+ Le protoxyde d'azote est gazeux dans les conditions ambiantes :: Il peut être liquéfié sous pression dans une bouteille.
-+ Un liquide volatil doit être vaporisé avant d'être inhalé :: D'où la nécessité d'un évaporateur, inutile pour un gaz.
-- Le protoxyde d'azote est un halogéné liquide volatil :: Ce n'est ni un halogéné, ni un liquide : c'est un gaz, et un adjuvant.
-> Les halogénés sont des liquides volatils, qu'il faut vaporiser. Le protoxyde d'azote est un gaz, délivré directement depuis sa bouteille : d'où la différence d'équipement sur le respirateur.
-@ 8, 15–16
+QCU · Volatil ou gazeux
+Parmi les agents suivants, lequel est un gaz à 20 °C, et non un liquide volatil à vaporiser ?
+- Halothane :: C'est un halogéné liquide dans son flacon, qui bout vers 50 °C : il doit passer par un évaporateur.
+- Isoflurane :: Liquide volatil (ébullition vers 49 °C), délivré par un évaporateur spécifique.
+- Sévoflurane :: Liquide volatil (ébullition vers 59 °C), délivré par un évaporateur à code couleur jaune.
+- Desflurane :: Il bout vers 23 °C, mais reste un liquide conditionné en flacon, d'où son évaporateur chauffé et pressurisé.
++ Protoxyde d'azote :: Il bout à −88 °C : c'est un gaz, liquéfié sous pression dans sa bouteille et délivré par prise murale.
+> Un agent volatil est liquide dans son flacon mais s'évapore facilement : c'est le cas des halogénés, qui doivent être vaporisés. Un agent gazeux est déjà un gaz à 20 °C : protoxyde d'azote et xénon. Au bloc, cela explique deux équipements distincts : un évaporateur par halogéné, un débitmètre pour le N₂O.
+@ p. 8, 15 et 16
 
-QCM · Solubilité et puissance
-Quelles associations entre propriété physico-chimique et conséquence clinique sont exactes ?
-+ Un coefficient sang/gaz faible favorise une installation rapide :: Le sang capte peu d'agent, donc la pression partielle monte vite.
-+ Le coefficient huile/gaz est lié à la puissance anesthésique :: C'est la relation de Meyer-Overton entre lipophilie et puissance.
-+ Un agent puissant agit à une concentration plus faible :: Sa MAC est donc basse.
-- Une MAC basse indique une faible puissance :: C'est l'inverse : puissance = 1 / MAC.
-- Une forte solubilité sanguine donne une induction rapide :: Le sang se comporte comme un réservoir à remplir : plus il est avide, plus la montée alvéolaire est lente.
-> Deux propriétés indépendantes : la solubilité sang/gaz commande la vitesse, le coefficient huile/gaz la puissance. Le desflurane, peu soluble, est rapide mais peu puissant (MAC 6,6 %) ; le sévoflurane est plus puissant (MAC 1,8 %).
-@ 9, 11, 30, 35, 42
+QCM · Structure et propriétés
+L'isoflurane et le desflurane ne diffèrent que par un atome : un chlore remplacé par un fluor. Concernant le desflurane comparé à l'isoflurane, quelles propositions sont exactes ?
++ Il est plus volatil, avec une pression de vapeur nettement plus élevée. :: 669 mmHg contre 238 mmHg à 20 °C : il bout vers 23 °C, d'où un évaporateur chauffé et pressurisé.
++ Il est moins soluble dans le sang. :: λ sang/gaz de 0,42 contre 1,46 : le sang en stocke moins, la pression alvéolaire monte plus vite.
+- Il est plus puissant, car il agit à une concentration plus faible. :: Sa MAC est de 6,6 % contre 1,17 % : il faut environ 6 fois plus de desflurane pour le même effet.
++ Il est moins lipophile. :: λ huile/gaz de 19 contre 91 : cette faible lipophilie va avec sa faible puissance.
++ Il est moins métabolisé par le foie. :: 0,02 % contre 0,2 % : remplacer le chlore par le fluor rend la molécule plus stable.
+> Remplacer un chlore par un fluor rend la molécule plus volatile, moins soluble, moins puissante et moins métabolisée. Chaque génération d'halogénés a recherché trois qualités : ininflammable, peu soluble (réveil rapide) et peu métabolisée. En pratique, il faut retenir que vitesse et puissance sont deux propriétés indépendantes.
+@ p. 8 et 9
 
-QCM · Mécanismes
-Quelles affirmations sur les mécanismes d'action des anesthésiques inhalés sont exactes ?
-+ Les cibles pertinentes aux concentrations cliniques restent en partie discutées :: Aucun mécanisme unique n'est démontré.
-+ Des interactions avec des protéines membranaires participent à leurs effets :: Récepteurs et canaux ioniques sont les hypothèses actuelles.
-+ La corrélation entre lipophilie et puissance est une relation statistique :: Elle oriente l'hypothèse sans la démontrer.
-- Un récepteur unique explique l'ensemble de leurs effets :: Amnésie, hypnose et immobilité relèvent de sites différents, à des niveaux différents du système nerveux.
-> Contrairement aux agents intraveineux, les halogénés n'ont pas de récepteur unique identifié. Leurs effets se répartissent du cortex à la moelle, ce qui explique que l'amnésie, la perte de conscience et l'immobilité apparaissent à des expositions distinctes.
-@ 10–13
+QCM · Meyer-Overton
+Concernant la relation entre lipophilie et puissance des anesthésiques inhalés, quelles propositions sont exactes ?
++ Plus un agent est soluble dans l'huile, plus sa MAC est basse. :: C'est la règle de Meyer-Overton : la lipophilie (λ huile/gaz) va avec la puissance.
+- Le coefficient sang/gaz est celui qui prédit la puissance d'un agent. :: Le λ sang/gaz renseigne sur la vitesse d'induction et de réveil. C'est le λ huile/gaz qui est relié à la puissance.
+- Cette relation démontre que les halogénés agissent en désorganisant la bicouche lipidique. :: Aux concentrations cliniques, les bicouches lipidiques ne sont pas modifiées. La même corrélation existe avec l'inhibition d'une enzyme : les cibles sont des protéines.
++ Le produit MAC × λ huile/gaz reste du même ordre de grandeur d'un agent à l'autre. :: Autour de 100, alors que la MAC varie d'un facteur 140 entre l'halothane et le N₂O.
+- Un agent très lipophile a une induction plus rapide qu'un agent peu lipophile. :: La lipophilie détermine la puissance, pas la vitesse. La vitesse dépend de la solubilité dans le sang.
+> La règle de Meyer-Overton relie lipophilie et puissance : plus un agent est soluble dans l'huile, plus sa MAC est basse. Il s'agit d'une corrélation, qui ne démontre pas un mécanisme lipidique. Il ne faut pas confondre les deux coefficients : huile/gaz pour la puissance, sang/gaz pour la vitesse.
+@ p. 11 et 16
+
+QCM · Cibles protéiques
+Concernant les cibles des anesthésiques inhalés, quelles associations sont exactes ?
++ Potentialisation du récepteur GABA-A : hypnose et amnésie :: Le GABA-A est un canal chlore inhibiteur : le renforcer freine l'activité neuronale corticale.
++ Potentialisation du récepteur à la glycine dans la moelle : immobilité :: La glycine est le principal neurotransmetteur inhibiteur médullaire, lieu de l'effet d'immobilité.
+- Blocage du récepteur NMDA : mécanisme principal du sévoflurane :: Le blocage NMDA concerne surtout le N₂O et le xénon, pas les halogénés.
++ Activation des canaux potassiques de fond : hyperpolarisation neuronale :: La sortie de K⁺ rend le neurone moins excitable.
+- Activation des récepteurs opioïdes μ : analgésie peropératoire :: Ce n'est pas une cible des halogénés. L'analgésie repose sur les morphiniques associés.
+> Les halogénés n'ont pas de récepteur unique. Ils agissent sur plusieurs protéines : renforcement des voies inhibitrices (GABA-A, glycine) et hyperpolarisation par les canaux K⁺ de fond. On ignore encore quelles cibles comptent le plus aux concentrations cliniques. C'est pourquoi hypnose et immobilité apparaissent à des niveaux d'exposition différents : elles ne passent pas par les mêmes structures.
+@ p. 12 et 13
 
 QCM · Évaporateur
-Quelles affirmations sur un évaporateur à dérivation sont exactes ?
-+ Une partie du gaz frais traverse une chambre saturée en vapeur anesthésique :: L'autre partie la contourne par la dérivation.
-+ La molette modifie la répartition entre chambre de vaporisation et dérivation :: C'est ce rapport qui fixe la concentration délivrée.
-+ Le gaz sortant est un mélange des deux flux :: D'où une concentration réglable et bien inférieure à la vapeur saturante.
-- La molette règle directement la concentration cérébrale :: Elle règle la fraction délivrée ; le circuit, le sang et les tissus s'interposent ensuite.
-> L'évaporateur délivre une fraction, pas un effet. Entre la molette et le cerveau s'intercalent le volume du circuit, la captation sanguine et la distribution tissulaire : c'est la fraction expirée qui renseigne sur l'exposition réelle.
-@ 17–18, 25
+Concernant l'évaporateur à dérivation utilisé pour les halogénés, quelles propositions sont exactes ?
++ Une partie du gaz frais traverse une chambre saturée en vapeur d'halogéné. :: L'autre partie contourne cette chambre par la dérivation (bypass).
++ La molette règle la proportion de gaz frais qui passe par la chambre de vaporisation. :: Le mélange des deux flux à la sortie donne la concentration délivrée.
+- La molette règle directement la concentration d'halogéné dans le cerveau du patient. :: Elle règle la fraction délivrée (FD). Le circuit, la captation sanguine et les tissus s'interposent ensuite.
++ Il est compensé en température et en pression pour délivrer une concentration stable. :: C'est le progrès décisif par rapport à l'éponge imbibée d'éther, dont la dose n'était pas maîtrisée.
++ Il est spécifique d'un agent, avec un remplissage à détrompeur et un code couleur. :: Sévoflurane jaune, isoflurane violet, desflurane bleu.
+> L'évaporateur à dérivation divise le gaz frais en deux flux, dont l'un se sature en vapeur. Le réglage de la molette n'est valable que pour l'agent prévu. Il fixe ce qui est délivré, pas ce qui agit : c'est la fraction expirée (FE) qui renseigne sur l'exposition du patient.
+@ p. 17, 18 et 25
+
+QCU · Erreur de remplissage
+Un évaporateur de sévoflurane est rempli par erreur avec de l'isoflurane, malgré le détrompeur, puis réglé sur 2 %. Que reçoit le patient ?
+- Moins d'anesthésique que prévu :: La chambre se sature à la vapeur de l'agent présent. L'isoflurane, plus volatil, enrichit davantage le mélange.
++ Plus d'anesthésique que prévu :: La vapeur saturante de l'isoflurane (environ 31 %) dépasse celle du sévoflurane (environ 21 %). Avec la même répartition des flux, la sortie est plus concentrée. L'isoflurane est en outre plus puissant.
+- Exactement 2 % d'isoflurane :: L'évaporateur est calibré pour la vapeur saturante du sévoflurane : le chiffre affiché ne vaut que pour cet agent.
+- Rien, car l'évaporateur se bloque :: L'évaporateur n'identifie pas le liquide : il continue de délivrer de la vapeur.
+- Du sévoflurane résiduel uniquement :: La chambre se sature avec le liquide présent, donc avec l'isoflurane.
+> L'évaporateur règle la part de gaz frais qui traverse une chambre saturée. Si l'agent est plus volatil que prévu, la sortie est plus concentrée : le patient est surdosé. C'est le rôle du détrompeur et du code couleur. Devant un doute sur le contenu, il faut se fier à l'analyseur de gaz (FI, FE), qui identifie l'agent et sa concentration.
+@ p. 16, 18 et 19
 
 QCM · Circuit filtre
-Quelles affirmations sur le circuit filtre d'anesthésie sont exactes ?
-+ Une partie du gaz expiré est réinhalée après absorption du CO₂ :: C'est le principe même du circuit filtre.
-+ Les valves unidirectionnelles imposent le sens de circulation du gaz :: Elles séparent la branche inspiratoire de la branche expiratoire.
-+ Le patient inspire un mélange de gaz recyclé et de gaz frais :: Dans une proportion qui dépend du débit de gaz frais.
-- La chaux sodée a pour fonction de retirer l'halogéné expiré :: Elle retire le CO₂ ; l'halogéné expiré est précisément ce que l'on recycle.
-> La chaux épure le CO₂, ce qui permet de réinhaler un gaz qui contient encore de l'halogéné et de l'oxygène. C'est ce recyclage qui autorise de ventiler 6 L/min avec 1 L/min de gaz frais.
-@ 20–23
+Concernant le circuit filtre du respirateur d'anesthésie, comparé au circuit d'un ventilateur de réanimation, quelles propositions sont exactes ?
++ Une partie du gaz expiré est réinhalée après absorption du CO₂ par la chaux sodée. :: En réanimation, le circuit est ouvert : tout le gaz expiré part à l'extérieur.
++ Les valves unidirectionnelles imposent le sens de circulation du gaz dans la boucle. :: Elles séparent la branche inspiratoire de la branche expiratoire.
+- La chaux sodée retire l'halogéné expiré avant la réinhalation. :: Elle retire le CO₂. L'halogéné expiré est justement ce que l'on recycle.
+- La valve d'échappement (APL) détecte l'effort inspiratoire du patient. :: C'est le rôle du trigger. L'APL laisse sortir l'excès de gaz au-delà d'un seuil de pression.
+- Le débit de gaz frais est égal à la ventilation minute, comme en réanimation. :: Au bloc, ce sont deux réglages indépendants grâce au recyclage.
+> Le circuit filtre fait tourner le gaz en boucle : le patient inspire un mélange de gaz expiré recyclé, débarrassé de son CO₂, et de gaz frais. Débitmètres, évaporateur, chaux sodée, valves et APL ont chacun leur fonction. Ce recyclage économise l'halogéné et réchauffe et humidifie les gaz inspirés.
+@ p. 20 à 23
 
-QCM · Deux débits
-Un patient est ventilé avec une ventilation minute de 6 L/min et un débit de gaz frais de 1 L/min. Quelles affirmations sont exactes ?
-+ Le débit de gaz frais est le volume de gaz neuf entrant dans le circuit chaque minute :: Il ne décrit pas ce que ventile le patient.
-+ Cette situation est possible grâce au recyclage d'une partie des gaz expirés :: Le volume manquant est fourni par le circuit.
-+ Ventilation minute et débit de gaz frais sont deux réglages indépendants :: L'un concerne le patient, l'autre l'alimentation du circuit.
-- Augmenter le débit de gaz frais augmente la fréquence respiratoire :: Les réglages ventilatoires sont inchangés : seul le renouvellement du mélange s'accélère.
-> La ventilation minute décrit le gaz qui ventile le patient, le débit de gaz frais l'apport neuf au circuit. Les confondre conduit à croire qu'un bas débit ventile insuffisamment le patient, ce qui est faux.
-@ 21–24
+QCM · Débit de gaz frais
+Concernant le débit de gaz frais (DGF), quelles propositions sont exactes ?
++ C'est le volume de gaz neufs qui entre dans le circuit par minute, en traversant l'évaporateur. :: Il apporte O₂, air ou N₂O et l'halogéné ajouté par l'évaporateur.
++ Il doit au moins compenser la consommation d'O₂, la captation des agents et les fuites. :: La consommation d'O₂ est d'environ 3,5 mL/kg/min, soit environ 250 mL/min chez l'adulte.
+- Le diminuer réduit d'autant la ventilation minute du patient. :: La ventilation minute est réglée sur le ventilateur. On peut ventiler à 6 L/min avec 0,5 L/min de gaz frais.
+- Un DGF de 1 L/min correspond à un circuit fermé au débit métabolique. :: 1 L/min est un bas débit. Le débit métabolique est d'environ 0,3 L/min.
++ Le gaz frais en excès sort par la valve d'échappement vers l'évacuation. :: Tout ce qui est apporté sans être nécessaire est perdu, puis rejeté dans l'atmosphère.
+> Le DGF règle l'apport de gaz neufs au circuit, pas la ventilation du patient. Repères : haut débit ≥ 4 L/min (induction, réveil, purge), bas débit 1 L/min, débit minimal 0,5 L/min, débit métabolique environ 0,3 L/min. En entretien, un bas débit suffit à condition de compenser consommation, captation et fuites.
+@ p. 22 et 24
+
+QCU · Réglé et expiré
+Un adulte est entretenu au sévoflurane avec une FE cible de 2 %. Le DGF est de 0,5 L/min. Quelle valeur d'évaporateur (FD) est la plus probable pour maintenir cette FE ?
+- 1,0 % :: Une FD inférieure à la FE cible ne permet pas de maintenir 2 % dans l'alvéole pendant que le patient capte encore l'agent.
+- 2,0 % :: À haut débit, FD et FI sont proches. À bas débit, le gaz recyclé, appauvri, domine le mélange inspiré.
++ 3,4 % :: À 0,5 L/min, plus de 90 % du gaz inspiré est du gaz expiré recyclé : le gaz frais doit être plus concentré pour compenser.
+- 6,6 % :: C'est la MAC du desflurane, sans rapport avec ce réglage.
+- 8,0 % :: C'est la valeur maximale de l'évaporateur de sévoflurane, utilisée pour une induction rapide à bas débit, pas pour l'entretien.
+> On règle l'évaporateur, mais on pilote sur la FE. À haut débit (6 L/min), FD ≈ FI : 2,1 % suffisent pour une FE de 2 %. À débit minimal, le gaz inspiré est surtout du gaz recyclé, déjà appauvri par la captation : il faut une FD d'environ 3,4 % pour la même FE. Au bloc, la molette ne dit donc pas ce que le patient respire : il faut lire FI et FE.
+@ p. 25
 
 QCM · FD, FI, FE
-Quelles affirmations sur le monitorage des fractions d'halogéné sont exactes ?
-+ La FI est la fraction inspirée par le patient :: Mesurée sur la branche inspiratoire.
-+ La FE est la fraction expirée, utilisée comme reflet de la fraction alvéolaire :: C'est elle qui s'approche de la concentration au site d'effet.
-+ La valeur de la molette et la FE peuvent différer notablement :: Par l'inertie du circuit et la captation par le patient.
-- La FD est la fraction expirée :: La FD est la fraction délivrée par l'évaporateur, en amont du circuit.
-> FD délivrée, FI inspirée, FE expirée : trois points de mesure successifs. L'écart entre FD et FE est maximal à l'induction, en bas débit, et se réduit à mesure que le circuit et le patient se chargent.
-@ 25, 75
+Concernant les fractions d'halogéné surveillées au bloc, quelles propositions sont exactes ?
+- La FD est la fraction mesurée en fin d'expiration. :: La FD est la fraction délivrée par l'évaporateur, en amont du circuit.
++ La FI est la fraction inspirée, mesurée côté patient. :: Elle résulte du mélange de gaz frais et de gaz recyclé.
++ La FE est utilisée comme reflet de la fraction alvéolaire. :: Les échanges alvéolaires sont efficaces : la FE renseigne sur la pression partielle qui atteint le sang puis le cerveau.
+- À bas débit, la FI est en général supérieure à la FD. :: C'est l'inverse : le gaz recyclé, appauvri par la captation, dilue le gaz frais, donc FI < FD.
+- La FE est le paramètre réglé par la molette de l'évaporateur. :: La molette règle la FD. La FE est mesurée, elle n'est pas réglée.
+> FD délivrée, FI inspirée, FE expirée : trois points de mesure successifs. L'écart entre FD et FE est maximal à l'induction et à bas débit. Il se réduit quand le circuit et le patient se chargent. L'analyseur de gaz permet de piloter l'anesthésie sur la FE, exprimée en MAC.
+@ p. 25 et 29
 
-QCM · Lavage du circuit
-Quelles affirmations sur la constante de temps d'un circuit, à volume constant, sont exactes ?
-+ Elle se calcule par le volume du circuit divisé par le débit de gaz frais :: τ = V / DGF.
-+ Augmenter le débit de gaz frais diminue la constante de temps :: Le mélange est renouvelé plus vite.
-+ Après environ trois constantes de temps, 95 % du changement est réalisé :: Repère pratique pour un changement de concentration.
-- Après une constante de temps, 95 % du changement est réalisé :: Une constante de temps correspond à environ 63 % du changement.
-> τ = V / DGF mesure l'inertie du circuit. 63 % du changement après une constante de temps, 95 % après trois : c'est le temps qu'il faut attendre avant que la molette se traduise dans la fraction expirée.
-@ 26–27
-
-QCM · Calcul utile
-Dans un circuit de 6 L alimenté par un débit de gaz frais de 2 L/min, sans captation par le patient, quelles affirmations sont exactes ?
-+ La constante de temps vaut 3 minutes :: 6 L ÷ 2 L/min.
-+ Environ 95 % d'un changement de concentration est obtenu en 9 minutes :: Trois constantes de temps.
-+ À 3 minutes, environ 63 % du changement est réalisé :: Une seule constante de temps écoulée.
-- La constante de temps vaut 12 minutes :: Ce serait multiplier le volume par le débit au lieu de le diviser.
-> τ = 6 / 2 = 3 min, et 3 τ = 9 min pour 95 %. En pratique, cela signifie qu'en bas débit un changement de molette met plusieurs minutes à se voir : c'est l'argument pour augmenter transitoirement le débit de gaz frais quand on veut agir vite.
-@ 26–27
+QCU · Constante de temps du circuit
+Le DGF est de 0,5 L/min et le volume circuit + poumons est d'environ 6 L. Vous passez l'évaporateur de 2 à 4 %. En combien de temps le circuit atteint-il environ 95 % du changement, sans tenir compte de la captation ?
+- Environ 1 minute :: Ce serait le cas avec un DGF de 6 L/min, qui donne une constante de temps d'une minute.
+- Environ 6 minutes :: C'est le volume du circuit, pas le temps de renouvellement.
+- Environ 12 minutes :: C'est une seule constante de temps (6 / 0,5), qui ne réalise qu'environ 63 % du changement.
++ Environ 36 minutes :: τ = 6 L / 0,5 L/min = 12 min. 95 % du changement demandent environ 3 τ, soit 36 min.
+- Environ 2 heures :: C'est l'ordre de grandeur de la constante de temps du muscle, pas du circuit.
+> La constante de temps du circuit est τ = V / DGF. Après 1 τ, environ 63 % du changement est réalisé ; après 3 τ, environ 95 %. À bas débit, l'inertie est forte : pour changer vite la concentration (approfondir, alléger, réveiller), il faut augmenter le DGF.
+@ p. 26 et 27
 
 QCM · Bas débit
-Quelles conséquences du bas débit de gaz frais sont exactes ?
-+ Il réduit la consommation d'agent et les rejets dans l'atmosphère :: Argument économique et écologique.
-+ Il augmente l'inertie du circuit :: La constante de temps s'allonge, donc les changements sont plus lents.
-+ Il conserve mieux la chaleur et l'humidité du mélange inspiré :: Les gaz réinhalés sont déjà conditionnés.
-- Il accélère les changements du mélange dans le circuit :: C'est l'inverse : τ = V / DGF augmente quand le débit baisse.
-- Il rend le monitorage des gaz facultatif :: Il le rend indispensable : l'écart entre la molette et ce que respire le patient est maximal en bas débit.
-> Le bas débit économise l'agent et conditionne mieux les gaz, au prix d'une inertie accrue. Il n'est praticable qu'avec un monitorage des fractions inspirées et expirées, en oxygène comme en halogéné.
-@ 24–28, 64–65
+Concernant l'entretien d'une anesthésie à bas débit de gaz frais, quelles propositions sont exactes ?
++ Il réduit la consommation d'halogéné. :: Passer de 6 à 1 L/min divise environ par 5 la quantité consommée.
++ Il limite les rejets de gaz à effet de serre. :: Moins de gaz frais en excès, donc moins de gaz évacué vers l'atmosphère.
++ Les gaz inspirés sont plus chauds et plus humides. :: Le gaz recyclé conserve la chaleur et l'humidité de l'expiration, ce qui protège l'épithélium respiratoire.
++ Les changements de concentration sont plus lents. :: La constante de temps du circuit augmente quand le DGF diminue.
++ Il impose un monitorage continu de la FiO₂, des fractions d'halogéné et de l'EtCO₂. :: Le mélange respiré peut s'éloigner du réglage : seul l'analyseur le décrit.
+> Le bas débit est économique et écologique, et il améliore la qualité des gaz inspirés. Sa contrepartie est l'inertie et la nécessité d'un monitorage continu. Il expose aussi aux réactions avec l'absorbant (composé A, monoxyde de carbone). En pratique : haut débit pour changer, bas débit pour entretenir.
+@ p. 26, 28 et 53
 
-QCM · Pression partielle
-Quelles affirmations sur les échanges d'un anesthésique entre gaz, sang et tissus sont exactes ?
-+ Les échanges suivent un gradient de pression partielle :: C'est la pression partielle, non la concentration, qui est le moteur.
-+ À l'équilibre, les pressions partielles s'égalisent malgré des concentrations différentes :: La solubilité fait la différence de concentration.
-+ La pression partielle d'un gaz est sa fraction multipliée par la pression totale :: D'où l'effet de l'altitude ou d'un caisson hyperbare.
-- Une même pression partielle implique une même quantité stockée dans tous les tissus :: Le stock dépend de la solubilité et du volume du tissu.
-> Les gaz circulent selon leurs pressions partielles jusqu'à l'équilibre. À cet équilibre, un tissu gras contient bien plus d'halogéné qu'un tissu pauvre en lipides, pour la même pression partielle.
-@ 29–32
+QCU · Pression partielle
+Au niveau de la mer (760 mmHg), quelle est la pression partielle alvéolaire de sévoflurane pour une fraction alvéolaire de 2 % ?
+- Environ 2 mmHg :: C'est confondre le pourcentage avec une pression.
+- Environ 7,6 mmHg :: Cela correspondrait à une fraction de 1 %.
++ Environ 15 mmHg :: Loi de Dalton : P = F × P totale = 0,02 × 760 ≈ 15 mmHg.
+- Environ 38 mmHg :: Cela correspondrait à une fraction de 5 %.
+- Environ 76 mmHg :: Cela correspondrait à une fraction de 10 %.
+> La pression partielle d'un gaz est sa fraction multipliée par la pression totale (loi de Dalton). C'est elle, et non la quantité de molécules, qui fait passer l'agent de l'alvéole au sang puis au cerveau. La FE, lue au monitorage, est le reflet de cette pression alvéolaire.
+@ p. 29
+
+QCM · Gradient et équilibre
+Concernant les échanges d'anesthésique inhalé entre l'alvéole, le sang et les tissus, quelles propositions sont exactes ?
++ L'agent passe des pressions partielles élevées vers les pressions partielles basses. :: À l'induction : alvéole → sang → tissus.
++ Au réveil, le sens des échanges s'inverse. :: Les tissus chargés rendent l'agent au sang, qui le rend à l'alvéole pour être expiré.
+- À l'équilibre, chaque compartiment contient la même quantité de molécules par millilitre. :: À l'équilibre, les pressions partielles sont égales. Les quantités dépendent de la solubilité de chaque milieu.
+- L'effet cérébral dépend de la quantité totale d'agent présente dans l'organisme. :: Le cerveau « voit » la pression partielle. Un gros stock graisseux ne signifie pas une anesthésie profonde.
+- Les échanges s'arrêtent dès que l'alvéole et le sang contiennent le même nombre de molécules. :: Ils s'arrêtent quand les pressions partielles sont égales, quel que soit le nombre de molécules.
+> La pression partielle est le moteur des échanges, la solubilité en est le frein. À l'équilibre, les pressions sont égales partout, mais les quantités stockées diffèrent selon le milieu. Au monitorage, c'est la FE qui renseigne sur la pression partielle qui agit au cerveau.
+@ p. 29 et 75
 
 QCM · Coefficient sang/gaz
-Quelles affirmations définissent correctement le coefficient de partage sang/gaz ?
-+ C'est le rapport des concentrations entre sang et gaz à l'équilibre :: Mesuré à pression partielle égale.
-+ Une valeur élevée signifie davantage d'agent stocké dans le sang :: Le sang se comporte comme un grand réservoir.
-+ Une valeur faible accélère l'installation et le réveil :: Moins à remplir, moins à vider.
-- C'est le rapport des pressions partielles entre sang et gaz à l'équilibre :: À l'équilibre, les pressions partielles sont égales : ce rapport vaudrait toujours 1.
-- Une valeur faible indique une MAC basse :: Cinétique et puissance sont indépendantes : le desflurane est rapide et peu puissant.
-> Le coefficient sang/gaz compare des concentrations à pression partielle égale, et renseigne sur la vitesse. La MAC renseigne sur la puissance. Les deux ne vont pas de pair.
-@ 9, 30, 42
+Concernant le coefficient de partage sang/gaz (λ sang/gaz), quelles propositions sont exactes ?
++ C'est le rapport des concentrations dans le sang et dans le gaz à l'équilibre. :: Mesuré pour une même pression partielle dans les deux milieux.
++ Un λ élevé signifie que le sang stocke beaucoup d'agent à une pression donnée. :: Halothane 2,5 : à volume égal, le sang en contient 2,5 fois plus que le gaz.
+- Un λ élevé fait monter plus vite la pression partielle alvéolaire. :: Le sang capte beaucoup d'agent, qui quitte l'alvéole : la pression alvéolaire monte plus lentement.
++ Le desflurane a le λ sang/gaz le plus faible des halogénés. :: 0,42, contre 0,65 pour le sévoflurane et 1,46 pour l'isoflurane.
+- Il détermine la concentration nécessaire pour obtenir l'immobilité. :: C'est la MAC, reliée au λ huile/gaz. Le λ sang/gaz détermine la vitesse.
+> Le λ sang/gaz mesure la capacité du sang à stocker l'agent. Plus il est élevé, plus le sang agit comme un réservoir à remplir avant que la pression alvéolaire monte. Un agent peu soluble (desflurane, sévoflurane) donne donc une induction et un réveil plus rapides.
+@ p. 16 et 30
 
-QCM · Réservoirs tissulaires
-À pression partielle identique, qu'est-ce qui détermine la quantité d'anesthésique stockée dans un tissu ?
-+ La solubilité de l'agent dans ce tissu :: Très élevée dans le tissu adipeux pour les halogénés.
-+ Le volume du tissu considéré :: Un grand réservoir stocke davantage.
-- La MAC de l'agent :: Elle décrit la puissance, pas la capacité de stockage.
-- La fraction affichée sur l'évaporateur :: Elle fixe la pression partielle d'entrée, laquelle est ici supposée identique.
-> Stock = solubilité × volume, à pression partielle donnée. Le tissu adipeux est volumineux et très soluble : il se charge lentement, mais stocke beaucoup, d'où un réveil retardé après une anesthésie longue chez un patient obèse.
-@ 31–33
+QCU · Chaîne gaz → sang → cerveau
+Pour l'isoflurane, λ sang/gaz ≈ 1,4 et λ cerveau/sang ≈ 2,2. À l'équilibre, combien de volumes de gaz alvéolaire contiennent autant d'isoflurane qu'un volume de cerveau ?
+- Environ 0,6 :: C'est le rapport 1,4 / 2,2. Les coefficients se multiplient, ils ne se divisent pas.
+- Environ 1,4 :: C'est le seul rapport sang/gaz, qui oublie l'étape sang/cerveau.
+- Environ 2,2 :: C'est le seul rapport cerveau/sang, qui oublie l'étape gaz/sang.
++ Environ 3 :: λ cerveau/gaz = λ cerveau/sang × λ sang/gaz = 2,2 × 1,4 ≈ 3,1.
+- Environ 3,6 :: C'est la somme 1,4 + 2,2. Les coefficients se multiplient le long de la chaîne.
+> Les coefficients de partage se multiplient : λ tissu/gaz = λ tissu/sang × λ sang/gaz. À même pression partielle, le cerveau contient donc environ trois fois plus d'isoflurane qu'un même volume de gaz alvéolaire. Le cerveau est à l'équilibre quand sa pression partielle égale celle du sang, pas quand il contient autant de molécules.
+@ p. 31
 
-QCM · Rapport FA/FI
-Pour une fraction inspirée stable, quelles interprétations du rapport FA/FI sont exactes ?
-+ FA désigne la fraction alvéolaire :: Reflet de la pression partielle qui atteindra le cerveau.
-+ Un rapport proche de 1 signifie que l'alvéole a rejoint le gaz inspiré :: La captation sanguine ne freine plus la montée.
-+ Une montée rapide du rapport traduit une installation rapide de l'anesthésie :: C'est le profil des agents peu solubles.
-- Un agent très soluble dans le sang fait monter ce rapport plus vite :: Le sang capte davantage d'agent, ce qui retarde la montée alvéolaire.
-> FA/FI compare l'alvéole au gaz inspiré. Le sang se comporte comme une fuite : plus il est avide, plus l'alvéole met de temps à rejoindre le gaz inspiré. D'où une induction plus rapide avec le desflurane qu'avec un agent soluble.
-@ 34–35
+QCU · Stock tissulaire
+Chez un adulte de 70 kg à l'équilibre sous sévoflurane, quel classement des compartiments, du plus grand stock d'agent au plus petit, est exact ? (Graisse 14 L, λ/gaz ≈ 31 ; muscle 35 L, λ/gaz ≈ 2 ; sang 5 L, λ/gaz 0,65 ; cerveau 1,4 L, λ/gaz ≈ 1,1.)
++ Graisse > muscle > sang > cerveau :: 14 × 31 ≈ 434 ; 35 × 2 ≈ 70 ; 5 × 0,65 ≈ 3,3 ; 1,4 × 1,1 ≈ 1,5.
+- Muscle > graisse > sang > cerveau :: Le muscle a le plus gros volume, mais la graisse est 15 fois plus capacitive par litre.
+- Cerveau > sang > muscle > graisse :: C'est l'ordre de remplissage, lié au débit sanguin, pas l'ordre des stocks à l'équilibre.
+- Graisse > cerveau > muscle > sang :: Le cerveau est peu volumineux : son stock total reste faible.
+- Sang > graisse > muscle > cerveau :: Le sang transporte l'agent mais en stocke peu.
+> Le stock d'un tissu dépend de sa capacité par millilitre (λ tissu/gaz) et de son volume. La graisse, très capacitive, est le plus grand réservoir. Mais elle est peu perfusée et se remplit très lentement. Après une longue anesthésie, ce réservoir relargue l'agent et peut retarder le réveil.
+@ p. 32 et 33
 
-QCM · Équilibrage tissulaire
-Quelles affirmations sur la vitesse d'équilibrage des tissus avec un halogéné sont exactes ?
-+ Volume, solubilité et débit sanguin du tissu interviennent :: Un petit réservoir bien perfusé s'équilibre vite.
-+ Le cerveau est presque équilibré après une trentaine de minutes :: C'est un organe richement perfusé.
-+ Le muscle et la graisse se chargent plus lentement que le cerveau :: Leur perfusion rapportée à leur volume est bien plus faible.
-- La graisse atteint l'équilibre avant le cerveau :: Elle est la dernière à s'équilibrer, et peut ne jamais l'être sur la durée d'une intervention.
-> Vitesse de remplissage et capacité de stockage sont deux choses différentes. Le cerveau se charge vite mais peu, la graisse lentement mais beaucoup : c'est ce qui sépare le délai d'endormissement du délai de réveil.
-@ 36–39, 66
+QCM · Vitesse de montée de FA/FI
+Concernant la vitesse à laquelle la fraction alvéolaire (FA) rejoint la fraction inspirée (FI) à l'induction, quelles propositions sont exactes ?
++ Une augmentation de la ventilation accélère la montée de FA. :: Le « robinet » coule plus fort : l'apport d'agent à l'alvéole augmente.
+- Une augmentation du débit cardiaque accélère la montée de FA. :: Le sang emporte plus d'agent hors de l'alvéole : la « bonde » est plus large, FA monte plus lentement.
++ Chez un patient en état de choc, FA monte plus vite, avec un risque de surdosage. :: Le bas débit cardiaque réduit la captation : la pression alvéolaire, puis cérébrale, monte rapidement.
++ Une augmentation de la FI accélère la montée de FA. :: L'objectif est plus haut : l'apport d'agent est plus important.
+- La MAC de l'agent est le principal déterminant de cette vitesse. :: La MAC détermine la puissance. La vitesse dépend surtout du λ sang/gaz.
+> FA monte d'autant plus vite que l'apport (ventilation × FI) dépasse la captation (débit cardiaque × solubilité). Les agents peu solubles approchent vite FA/FI = 1. En pratique, chez un patient choqué, l'induction inhalée est rapide et le surdosage hémodynamique fréquent : il faut réduire les concentrations.
+@ p. 34 à 36
+
+QCU · Vitesse d'induction
+À conditions comparables, quel classement des halogénés, de l'induction la plus rapide à la plus lente, est exact ?
+- Halothane > isoflurane > sévoflurane > desflurane :: C'est l'ordre de puissance (MAC croissante), pas de vitesse. L'halothane, le plus soluble dans le sang, est le plus lent.
++ Desflurane > sévoflurane > isoflurane > halothane :: L'ordre suit le λ sang/gaz croissant : 0,42 ; 0,65 ; 1,46 ; 2,5.
+- Sévoflurane > desflurane > halothane > isoflurane :: Le desflurane est moins soluble que le sévoflurane, l'isoflurane moins soluble que l'halothane.
+- Isoflurane > halothane > desflurane > sévoflurane :: Ce classement inverse presque la solubilité sanguine des agents.
+- Sévoflurane > isoflurane > desflurane > halothane :: Le desflurane, le moins soluble, devrait être en tête.
+> Un agent très soluble dans le sang endort moins vite, car le sang capte beaucoup d'agent avant que la pression alvéolaire monte. Moins soluble signifie induction et réveil plus rapides : desflurane > sévoflurane > isoflurane > halothane. Le classement par puissance (MAC) est différent : il ne faut pas confondre les deux.
+@ p. 4, 35 et 38
+
+QCM · Trois tempos tissulaires
+Concernant l'équilibrage des tissus sous sévoflurane chez l'adulte, quelles propositions sont exactes ?
++ Le cerveau, très perfusé, a une constante de temps d'environ 3 minutes. :: Les organes richement vascularisés (10 % de la masse) reçoivent 75 % du débit cardiaque.
+- Après 30 minutes d'anesthésie, muscle et graisse sont proches de leur équilibre. :: Le muscle n'est qu'à environ 23 % de son équilibre, la graisse à environ 1 %.
++ La constante de temps d'un tissu dépend de son volume, de sa solubilité et de son débit sanguin. :: τ = volume × λ tissu/sang / débit sanguin du tissu.
+- La graisse se remplit en premier parce qu'elle est la plus capacitive. :: La graisse ne reçoit qu'environ 6 % du débit cardiaque : sa constante de temps est d'environ 1,5 jour.
+- Le muscle atteint 95 % de son équilibre en une dizaine de minutes. :: C'est le cas du cerveau. Le muscle demande environ 6 heures (τ ≈ 2 h).
+> Trois tempos : cerveau τ ≈ 3 min (95 % en 10 min), muscle τ ≈ 2 h (95 % en 6 h), graisse τ ≈ 1,5 jour (95 % en 5 jours). Une anesthésie habituelle équilibre le cerveau sans saturer les autres tissus. Leur charge augmente avec la durée, ce qui explique un réveil plus lent après une longue intervention.
+@ p. 37, 39 et 66
 
 QCM · Définition de la MAC
-Quelles affirmations sur la MAC sont exactes ?
-+ Elle est définie par l'absence de mouvement à l'incision chez 50 % des patients :: C'est un repère de population.
-+ Elle correspond à une concentration alvéolaire :: D'où l'utilisation de la fraction expirée pour la suivre.
-+ À 1,3 MAC, environ 95 % des patients restent immobiles à l'incision :: Repère d'entretien usuel.
-- À 1 MAC, tous les patients sont immobiles :: Par définition, la moitié d'entre eux bouge encore.
-- Elle garantit l'absence de conscience chez chaque patient :: La perte de conscience survient plus bas, vers 0,3 à 0,5 MAC, mais avec une variabilité individuelle.
-> La MAC mesure l'immobilité, un effet essentiellement médullaire, sur une population : 50 % des patients à 1 MAC, 95 % à 1,3 MAC. Ce n'est ni une garantie individuelle, ni une mesure de l'hypnose.
-@ 40–41, 45–47
+Concernant la concentration alvéolaire minimale (MAC ou CAM), quelles propositions sont exactes ?
++ C'est la concentration alvéolaire qui supprime le mouvement à l'incision cutanée chez 50 % des patients. :: Elle est mesurée en fraction expirée, à l'équilibre.
+- Une concentration de 1 MAC garantit l'immobilité de l'ensemble des patients. :: 1 MAC n'immobilise que 50 % des patients. Il faut environ 1,3 MAC pour en immobiliser 95 %.
++ La puissance d'un agent est l'inverse de sa MAC. :: L'halothane (0,74 %) est plus puissant que le desflurane (6,6 %).
++ Les fractions de MAC de plusieurs agents s'additionnent. :: 0,5 MAC de sévoflurane + 0,5 MAC de N₂O ≈ 1 MAC.
+- La MAC mesure principalement la profondeur de la perte de conscience. :: Elle mesure l'immobilité, un effet surtout médullaire. Elle ne dit pas si le patient est inconscient.
+> La MAC est la concentration alvéolaire qui empêche le mouvement à l'incision chez 50 % des patients ; 1,3 MAC l'empêche chez 95 %. Elle permet de comparer les agents : plus elle est basse, plus l'agent est puissant. Au bloc, on pilote l'entretien sur la FE exprimée en MAC, en général entre 0,7 et 1,3 MAC.
+@ p. 41, 42 et 75
 
-QCM · Puissance et MAC
-Quelles affirmations reliant MAC et puissance sont exactes ?
-+ Un agent dont la MAC est basse est plus puissant :: Puissance = 1 / MAC.
-+ La MAC du sévoflurane est voisine de 2 %, celle du desflurane de 6,6 % :: Le desflurane est environ trois fois moins puissant.
-+ Les fractions de MAC de deux agents s'additionnent :: 0,5 MAC de sévoflurane et 0,5 MAC de protoxyde d'azote font environ 1 MAC.
-+ Le protoxyde d'azote ne peut pas atteindre 1 MAC seul :: Sa MAC est de 104 %, donc inatteignable : c'est un adjuvant.
-- Deux agents à la même fraction expirée donnent la même exposition :: Il faut raisonner en multiples de MAC, non en pourcentages bruts.
-> La MAC traduit la puissance et permet de raisonner en fractions additives. 2 % de sévoflurane et 2 % de desflurane ne représentent pas du tout la même profondeur d'anesthésie.
-@ 16, 42
+QCU · Addition des MAC
+Un adulte de 40 ans reçoit du sévoflurane avec une FE de 1 % et du protoxyde d'azote avec une FE de 52 %. En retenant 2 % pour 1 MAC de sévoflurane et 104 % pour le N₂O, à combien de MAC est-il exposé ?
+- Environ 0,5 MAC :: Ce n'est que la contribution du sévoflurane : celle du N₂O s'y ajoute.
+- Environ 0,75 MAC :: Le calcul sous-estime l'une des deux contributions.
++ Environ 1 MAC :: 1 / 2 = 0,5 MAC de sévoflurane, et 52 / 104 = 0,5 MAC de N₂O : 0,5 + 0,5 ≈ 1 MAC.
+- Environ 1,3 MAC :: Ce serait le cas avec une FE de sévoflurane de 1,6 %.
+- Environ 53 MAC :: C'est additionner des pourcentages bruts au lieu de fractions de MAC.
+> Les fractions de MAC des agents inhalés s'additionnent. Le N₂O seul ne peut pas atteindre 1 MAC (104 %, au-delà de 100 %) : c'est un adjuvant qui permet de réduire la dose d'halogéné. Au bloc, le moniteur affiche souvent cette MAC totale ; il faut savoir ce qu'il additionne.
+@ p. 41 et 42
 
-QCM · Besoins anesthésiques
-Quels éléments abaissent la MAC d'un patient ?
-+ L'âge avancé :: La MAC diminue d'environ 6 % par décennie après 40 ans.
-+ L'association d'un morphinique :: Les besoins en halogéné s'abaissent nettement.
-+ L'association de protoxyde d'azote :: Sa fraction de MAC s'ajoute à celle de l'halogéné.
-+ L'hypothermie :: Elle réduit les besoins anesthésiques.
-- L'augmentation du débit de gaz frais :: Elle accélère l'arrivée du produit, mais ne change pas les besoins du patient.
-> La MAC est une caractéristique du couple agent-patient : l'âge, la température et les médicaments associés la modifient. Le débit de gaz frais et le volume du circuit ne jouent que sur la vitesse d'administration.
-@ 26, 43
+QCM · Variations de la MAC
+Parmi les situations suivantes, lesquelles diminuent la MAC d'un halogéné ?
++ Âge avancé :: La MAC diminue d'environ 6 % par décennie : à 80 ans, elle vaut environ 78 % de la valeur à 40 ans.
++ Hypothermie :: Le besoin en anesthésique diminue avec la température.
+- Alcoolisme chronique :: Il augmente la MAC. C'est l'intoxication alcoolique aiguë qui la diminue.
++ Administration d'opioïdes :: Les morphiniques ont un effet d'épargne : ils réduisent la concentration d'halogéné nécessaire à l'immobilité.
++ Grossesse :: Elle diminue les besoins en halogéné, comme l'intoxication alcoolique aiguë.
+> La MAC de référence est celle d'un adulte de 40 ans. Elle diminue avec l'âge avancé, l'hypothermie, la grossesse, les opioïdes, les benzodiazépines, l'alcool aigu et les hypoxémies ou hypotensions sévères. Elle augmente chez le nourrisson, en cas d'hyperthermie, d'alcoolisme chronique ou chez les patients roux. Au bloc, il faut savoir si le moniteur affiche une MAC ajustée à l'âge.
+@ p. 43
 
-QCM · Effets distincts
-Quelles affirmations sur les différents effets de l'anesthésie inhalée sont exactes ?
-+ L'amnésie apparaît à une exposition plus basse que l'immobilité :: Vers 0,25 MAC, contre 1 MAC pour l'immobilité.
-+ La perte de conscience survient vers 0,3 à 0,5 MAC :: Avant l'immobilité, et bien avant le blocage de la réponse adrénergique.
-+ La MAC mesure surtout un effet médullaire d'immobilité :: Le mouvement à l'incision est un réflexe spinal.
-+ Le blocage de la réponse adrénergique demande environ 1,5 MAC :: C'est le seuil le plus élevé de la série.
-- Perte de conscience et immobilité sont le même effet :: Deux effets à deux niveaux différents du système nerveux, atteints à des expositions différentes.
-> Les seuils se succèdent : amnésie vers 0,25 MAC, perte de conscience 0,3 à 0,5 MAC, immobilité de la moitié des patients à 1 MAC, blocage de la réponse adrénergique vers 1,5 MAC. Un patient immobile peut donc être insuffisamment protégé de la réponse au stress, et un patient qui bouge n'est pas forcément conscient.
-@ 44–48
+QCU · MAC du sujet âgé
+Un patient de 80 ans est entretenu au sévoflurane (MAC de 1,8 % à 40 ans). La MAC diminue d'environ 6 % par décennie. Quelle FE correspond à peu près à 1 MAC chez lui ?
+- Environ 0,7 % :: Ce serait une baisse de plus de 60 %, très au-delà de l'effet de l'âge.
++ Environ 1,4 % :: À 80 ans, la MAC vaut environ 78 % de celle de 40 ans : 1,8 × 0,78 ≈ 1,4 %.
+- Environ 1,8 % :: C'est la MAC de l'adulte de 40 ans. Chez ce patient, elle exposerait à environ 1,3 MAC.
+- Environ 2,3 % :: Cela supposerait une MAC plus élevée avec l'âge, ce qui est l'inverse.
+- Environ 2,6 % :: C'est 1,3 MAC d'un adulte de 40 ans, avec l'arrondi à 2 %.
+> La MAC diminue avec l'âge, d'environ 6 % par décennie. Chez le sujet âgé, appliquer la MAC de l'adulte jeune expose au surdosage : hypotension et réveil retardé. Il faut lire une MAC ajustée à l'âge ou faire la correction soi-même.
+@ p. 42 et 43
+
+QCM · Seuils des effets
+Concernant les effets des halogénés selon la concentration exprimée en MAC, quelles propositions sont exactes ?
++ L'amnésie apparaît vers 0,25 MAC, avant la perte de conscience. :: La mémoire, qui passe par plusieurs relais synaptiques, est l'effet le plus sensible.
++ La perte de conscience survient vers 0,3 à 0,5 MAC. :: C'est la « MAC-awake », d'environ 0,34 MAC.
+- La perte de conscience nécessite au moins 1 MAC. :: Elle survient bien avant : 1 MAC est le seuil de l'immobilité chez 50 % des patients.
++ L'immobilité à l'incision est un effet surtout médullaire. :: Chez le rat, retirer le cerveau en avant du thalamus ne modifie pas la MAC de l'isoflurane.
++ Le blocage de la réponse adrénergique à l'incision demande environ 1,5 MAC. :: C'est la « MAC-BAR » : pas de tachycardie ni d'hypertension à l'incision.
+> Quand la concentration augmente : amnésie (≈ 0,25 MAC), perte de conscience (0,3–0,5 MAC), immobilité de 50 % des patients (1 MAC), blocage de la réponse adrénergique (≈ 1,5 MAC). Hypnose et immobilité ont deux cibles et deux seuils. Un patient immobile n'est donc pas forcément inconscient, surtout s'il est curarisé.
+@ p. 44 à 46 et 48
+
+QCM · Mémorisation peropératoire
+Concernant la mémorisation peropératoire sous anesthésie générale, quelles propositions sont exactes ?
+- C'est un événement fréquent, présent dans environ une anesthésie sur dix. :: Elle est rare, environ 0,1 à 0,2 % des anesthésies générales, mais traumatisante.
++ La curarisation est une situation à risque. :: Le patient curarisé ne peut pas bouger : une anesthésie trop légère passe inaperçue.
++ La césarienne et la chirurgie d'urgence sont des situations à risque. :: Les doses d'hypnotique y sont souvent limitées.
++ Un évaporateur vide expose à ce risque. :: L'apport d'halogéné s'arrête sans que le réglage change : d'où la vérification du remplissage.
++ Régler une alarme basse de FE fait partie de la prévention. :: Une FE cible de 0,7 à 1,3 MAC protège autant que le BIS.
+> La mémorisation peropératoire est rare mais traumatisante. Les situations à risque sont la curarisation, l'anesthésie intraveineuse seule, la césarienne, l'urgence, la chirurgie cardiaque et un antécédent de mémorisation. Au bloc, deux réflexes simples : une alarme basse de FE réglée et un évaporateur jamais vide.
+@ p. 47
 
 QCM · Effets bronchiques
-Quelles affirmations sur les effets bronchiques des halogénés sont exactes ?
-+ Le sévoflurane peut diminuer les résistances bronchiques :: Propriété utile chez l'asthmatique.
-+ Bronchodilatation et dépression ventilatoire peuvent coexister :: Deux effets simultanés, de sens opposé sur la ventilation.
-+ Le desflurane est irritant pour les voies aériennes :: Il peut provoquer toux et laryngospasme, et ne convient pas à l'induction au masque.
-- Une baisse des résistances bronchiques garantit une ventilation minute suffisante :: Des bronches ouvertes ne compensent pas une commande ventilatoire déprimée.
-> Le sévoflurane est bronchodilatateur et peu irritant : c'est l'agent de l'induction au masque. Le desflurane, irritant, est réservé à l'entretien. Dans les deux cas, la ventilation spontanée reste déprimée.
-@ 49–52, 55–57
+Concernant les effets des halogénés sur les bronches et l'épithélium respiratoire, quelles propositions sont exactes ?
++ Le sévoflurane relâche le muscle lisse bronchique. :: Vers 1 MAC, les résistances du système respiratoire baissent de 25 à 40 %.
+- Le desflurane est l'halogéné de choix en cas de bronchospasme. :: Il est irritant pour les voies aériennes et n'a pas d'effet bronchodilatateur en clinique.
+- Augmenter la concentration au-delà de 1,5 MAC majore la bronchodilatation sans limite. :: Au-delà de 1,5 MAC, la viscosité du gaz augmente et les résistances remontent.
+- Le sévoflurane diminue fortement les battements ciliaires. :: Il les modifie très peu. Ce sont l'isoflurane et l'halothane qui les diminuent, favorisant l'encombrement.
+- Les halogénés abolissent la vasoconstriction pulmonaire hypoxique dès 0,5 MAC. :: L'inhibition est dose-dépendante, mais son effet clinique reste faible vers 1 MAC.
+> Le sévoflurane est bronchodilatateur et modifie peu les cils : c'est l'halogéné de choix chez l'asthmatique ou en cas de bronchospasme. Le desflurane, irritant, est à éviter dans ces situations. La vasoconstriction pulmonaire hypoxique est peu modifiée vers 1 MAC, ce qui préserve l'oxygénation.
+@ p. 50 à 54
 
-QCM · Polypnée superficielle
-Quelles affirmations décrivent la polypnée superficielle observée sous halogéné en ventilation spontanée ?
-+ La fréquence respiratoire augmente :: Le patient respire plus souvent.
-+ Le volume courant diminue :: Chaque cycle mobilise moins d'air.
-+ La ventilation minute peut diminuer malgré la hausse de fréquence :: La baisse du volume courant l'emporte.
-+ La ventilation de l'espace mort prend une part croissante :: Plus les cycles sont petits, plus la part utile est faible.
-- Une fréquence respiratoire élevée exclut une hausse de la PaCO₂ :: C'est la ventilation alvéolaire qui élimine le CO₂, non la fréquence seule.
-> Compter la fréquence ne suffit pas : une respiration rapide et superficielle ventile mal, car l'espace mort est ventilé en priorité. Sous halogéné en ventilation spontanée, la PaCO₂ peut monter malgré une fréquence élevée.
-@ 50, 55
+QCU · Commande respiratoire
+Un patient en ventilation spontanée sous sévoflurane passe d'une fréquence de 14/min et d'un volume courant de 500 mL à une fréquence de 28/min et un volume courant de 200 mL. Quelle interprétation est exacte ?
+- Sa ventilation minute augmente : l'hypnose stimule la respiration. :: Elle passe de 7 L/min (14 × 0,5) à 5,6 L/min (28 × 0,2) : elle diminue.
++ C'est une polypnée superficielle, avec baisse de la ventilation minute et hausse de la PaCO₂. :: Les halogénés dépriment la ventilation de façon dose-dépendante ; la hausse de PaCO₂ stimule la fréquence.
+- La hausse de fréquence prouve une ventilation efficace. :: La ventilation minute dépend aussi du volume courant, qui chute ici fortement.
+- La PaCO₂ baisse car la fréquence a doublé. :: L'élimination du CO₂ dépend de la ventilation minute et alvéolaire, qui diminuent.
+- Ce profil traduit un bronchospasme lié au sévoflurane. :: Le sévoflurane est bronchodilatateur. Il s'agit d'une dépression de la commande respiratoire.
+> Les halogénés entraînent une polypnée superficielle : la fréquence augmente, le volume courant baisse, la ventilation minute diminue et la PaCO₂ monte. Ils diminuent aussi la réponse à l'hypoxie, même à faible concentration. En ventilation spontanée et en SSPI, il faut surveiller l'EtCO₂ et la fréquence, sans se fier à une fréquence élevée.
+@ p. 55
 
-QCM · Effets pulmonaires
-Quelles affirmations sur les autres effets pulmonaires des halogénés sont exactes ?
-+ La diminution des battements ciliaires peut favoriser l'encombrement :: Les cils assurent le transport du mucus.
-+ Les halogénés peuvent atténuer la vasoconstriction pulmonaire hypoxique :: La redistribution du sang vers les zones ventilées est moins efficace, ce qui majore le shunt.
-+ Cet effet sur la vasoconstriction hypoxique reste relativement préservé autour de 1 MAC :: Il devient significatif aux expositions plus élevées.
-- La vasoconstriction pulmonaire hypoxique dirige le sang vers les zones mal ventilées :: Elle fait l'inverse : elle en détourne le sang.
-> Deux effets délétères s'additionnent à l'hypoventilation : la clairance ciliaire diminue, et l'atténuation de la vasoconstriction hypoxique dégrade le rapport ventilation/perfusion. Autour de 1 MAC, cette atténuation reste modérée.
-@ 53–54
+QCM · Voies aériennes supérieures
+Concernant les voies aériennes supérieures sous halogénés, quelles propositions sont exactes ?
++ Le laryngospasme est une fermeture complète et prolongée de la glotte. :: Il est déclenché par des sécrétions, du sang ou un stimulus nociceptif.
++ L'induction et le réveil sont les moments à risque de laryngospasme. :: L'anesthésie y est légère : les réflexes sont présents mais mal contrôlés.
+- Le desflurane est adapté à l'induction au masque chez l'enfant. :: Il est irritant pour les voies aériennes. On utilise le sévoflurane.
+- Une concentration élevée d'halogéné renforce le réflexe de fermeture glottique. :: À partir de 1 à 1,3 MAC, ce réflexe diminue, avec un risque d'inhalation.
+- Le laryngospasme facilite la poursuite d'une induction inhalée. :: La glotte fermée empêche le gaz d'entrer : l'induction ne peut plus progresser.
+> Les halogénés diminuent les réflexes de protection et le tonus des voies aériennes : chute de la langue, obstruction, risque d'inhalation. Le laryngospasme survient surtout à l'induction et au réveil, en particulier chez l'enfant. En pratique : ne pas stimuler en phase légère et induire au masque avec du sévoflurane.
+@ p. 56 et 57
 
-QCM · Voies aériennes
-Quelles affirmations sur la protection des voies aériennes sous halogéné sont exactes ?
-+ Les réflexes de protection sont diminués :: D'où le risque d'inhalation du contenu gastrique.
-+ Un stimulus sous anesthésie trop légère peut déclencher un laryngospasme :: Sécrétions, sang ou manipulation des voies aériennes.
-+ L'induction et le réveil sont les périodes les plus exposées :: Ce sont les phases d'anesthésie légère.
-- Le laryngospasme correspond à une ouverture prolongée de la glotte :: C'est au contraire une fermeture complète et soutenue.
-> L'anesthésie légère est le moment du laryngospasme, l'anesthésie profonde celui de l'abolition des réflexes de protection. Les deux risques encadrent l'intervention : laryngospasme à l'induction et au réveil, inhalation tant que les voies aériennes ne sont pas protégées.
-@ 56
-
-QCM · Élimination
-Quelles affirmations sur le devenir des halogénés dans l'organisme sont exactes ?
-+ Leur élimination est principalement pulmonaire :: L'agent est expiré sans être transformé.
-+ La fraction métabolisée varie selon la molécule :: Elle conditionne le risque de toxicité des métabolites.
-+ Le métabolisme hépatique et la dégradation dans l'absorbant sont deux mécanismes distincts :: L'un se produit chez le patient, l'autre dans la machine.
-- Ils doivent être métabolisés avant de pouvoir être éliminés :: L'essentiel ressort par le poumon sous forme inchangée, ce qui explique la rapidité du réveil.
-> Les halogénés s'éliminent par où ils sont entrés : le poumon. C'est pourquoi ventiler, et laver le circuit, est la manœuvre qui accélère le réveil. Le métabolisme n'est qu'une voie minoritaire, variable d'un agent à l'autre.
-@ 58–59
+QCM · Métabolisme
+Concernant le métabolisme des halogénés, quelles propositions sont exactes ?
++ Leur élimination est principalement pulmonaire. :: Aucun métabolisme n'est nécessaire pour éliminer l'agent : il est expiré.
+- Le sévoflurane est l'halogéné le plus métabolisé. :: C'est l'halothane, métabolisé à 25 %, contre 2 à 5 % pour le sévoflurane.
+- Le desflurane est métabolisé à environ 25 % par le foie. :: Il ne l'est qu'à 0,02 %, ce qui en fait le plus stable.
+- Le sévoflurane expose à des hépatites immuno-allergiques fréquentes. :: C'est l'halothane qui exposait à des hépatites fulminantes. Le sévoflurane n'en donne pas.
+- La formation du composé A correspond au métabolisme hépatique du sévoflurane. :: Le composé A se forme dans le circuit, au contact de l'absorbant, et non dans le foie.
+> Les halogénés sont éliminés par les poumons. Leur métabolisme hépatique (CYP2E1) est très variable : halothane 25 %, sévoflurane 2 à 5 %, isoflurane 0,2 %, desflurane 0,02 %. La toxicité hépatique de l'halothane a guidé le développement d'agents peu métabolisés. Il ne faut pas confondre métabolisme dans l'organisme et dégradation dans l'absorbant.
+@ p. 59
 
 QCM · Composé A
-Quelles affirmations sur le composé A sont exactes ?
-+ Il provient de la dégradation du sévoflurane au contact de certains absorbants :: Ceux qui contiennent de la potasse ou de la soude.
-+ Sa formation dépend de la composition et de la température de l'absorbant :: Un absorbant chaud en favorise la production.
-+ Une néphrotoxicité a été décrite chez le rat :: Sans toxicité rénale démontrée chez l'homme.
-- Il est synonyme de monoxyde de carbone :: Deux produits différents : le composé A vient du sévoflurane, le monoxyde de carbone d'un absorbant desséché.
-> Le composé A est spécifique du sévoflurane et dépend de l'absorbant. Sa néphrotoxicité animale n'a pas de traduction clinique démontrée, mais justifie la surveillance des bas débits prolongés et le choix de l'absorbant.
-@ 60–61
+Concernant le composé A, quelles propositions sont exactes ?
++ Il provient de la dégradation du sévoflurane au contact de certains absorbants. :: Les absorbants contenant de la potasse (KOH) ou de la soude (NaOH) sont en cause.
+- Il se forme surtout à haut débit de gaz frais. :: C'est le bas débit ou le circuit fermé qui le favorise : le gaz recircule davantage dans l'absorbant.
++ Une température élevée de l'absorbant favorise sa formation. :: Tout comme un absorbant neuf ou une concentration élevée de sévoflurane.
+- Sa toxicité rénale est démontrée chez l'homme. :: Il est néphrotoxique chez le rat, sans toxicité rénale démontrée chez l'homme.
+- Il provoque une intoxication au monoxyde de carbone. :: Le CO provient d'un autre mécanisme : un absorbant desséché avec certains halogénés.
+> Le composé A naît de la réaction du sévoflurane avec un absorbant contenant KOH ou NaOH, favorisée par le bas débit, la chaleur et les fortes concentrations. Le fabricant recommande de ne pas dépasser 2 MAC-heures à un DGF de 1 à 2 L/min. En pratique, il faut connaître la composition de l'absorbant utilisé : les absorbants modernes sans KOH ni NaOH permettent des débits plus bas.
+@ p. 58 et 60
 
-QCM · Absorbant desséché
-Un respirateur est resté tout le week-end avec un débit d'oxygène de 5 L/min. Quelles affirmations sont exactes si un halogéné est ensuite utilisé sur cet absorbant desséché ?
-+ Une production de monoxyde de carbone est possible :: Réaction entre l'halogéné et un absorbant privé de son eau.
-+ Le monoxyde de carbone forme de la carboxyhémoglobine :: Avec une hypoxie tissulaire malgré une PaO₂ normale.
-+ La dessiccation de l'absorbant est l'élément déclenchant :: Un débit de gaz sec prolongé suffit à l'assécher.
-- Une SpO₂ normale écarte une intoxication au monoxyde de carbone :: L'oxymétrie de pouls conventionnelle ne distingue pas la carboxyhémoglobine de l'oxyhémoglobine : elle surestime la saturation.
-> Un débit de gaz frais laissé ouvert dessèche la chaux. Au contact d'un halogéné, elle peut produire du monoxyde de carbone, invisible sur une SpO₂ standard. D'où la vérification de la machine et le remplacement de l'absorbant en début de programme.
-@ 61–62
+QCU · Lundi matin
+Lundi matin, première intervention. La machine est restée tout le week-end avec 5 L/min d'O₂. Quel risque principal y a-t-il à utiliser du desflurane ?
+- Formation de composé A :: Le composé A est lié au sévoflurane, pas au desflurane.
++ Intoxication au monoxyde de carbone :: Le gaz sec a desséché la chaux. Un absorbant desséché dégrade le desflurane en CO.
+- Hyperthermie maligne déclenchée par la chaux :: L'hyperthermie maligne est une réaction génétique aux halogénés, sans lien avec l'absorbant.
+- Hypoxie par épuisement de la bouteille d'O₂ :: L'O₂ vient de la prise murale ; le problème est l'état de l'absorbant.
+- Néphrotoxicité par les fluorures :: Le desflurane est très peu métabolisé : ce risque ne concerne pas ce scénario.
+> Un débit de gaz sec laissé longtemps sans patient dessèche l'absorbant. Au contact d'un absorbant desséché, certains halogénés produisent du CO : desflurane en tête, sévoflurane très peu. L'oxymètre de pouls ne détecte pas la carboxyhémoglobine. Prévention : couper les gaz en fin de programme et changer la chaux au moindre doute.
+@ p. 61 et 62
 
-QCM · Débit et économie
-Quelles affirmations sur l'usage conjoint du débit de gaz frais et de l'évaporateur sont exactes ?
-+ Un réglage d'évaporateur plus élevé peut compenser un bas débit pour obtenir une montée comparable :: La quantité délivrée est le produit du débit par la concentration.
-+ La surveillance de la fraction expirée permet de suivre l'exposition réellement obtenue :: Seule mesure fiable, quel que soit le réglage.
-+ Pour une même exposition, le bas débit consomme moins d'agent :: C'est son intérêt économique.
-- Un bas débit impose une induction plus lente, quel que soit le réglage de l'évaporateur :: On peut compenser en augmentant la concentration délivrée.
-- Une molette réglée haut signifie une consommation totale plus élevée :: La consommation dépend aussi du débit : forte concentration à bas débit peut consommer moins que l'inverse.
-> La quantité d'agent consommée est le produit de la concentration délivrée et du débit de gaz frais. On peut donc viser une montée rapide à bas débit, en réglant la molette plus haut, et suivre le résultat sur la fraction expirée.
-@ 25, 64–65
+QCM · Induction à bas débit
+Concernant l'induction et l'entretien d'une anesthésie aux halogénés, quelles propositions sont exactes ?
++ Une induction à bas débit avec un évaporateur plus ouvert peut être aussi rapide qu'à haut débit. :: Bas débit (0,5–1,8 L/min) avec 5 à 8 %, contre haut débit (6 L/min) avec 3 à 3,7 %.
++ Cette stratégie délivre 2 à 4 fois moins d'agent. :: Moins de gaz est rejeté par la valve d'échappement.
++ La fonction pause du ventilateur évite de vider le circuit lors d'une déconnexion brève. :: Sans pause, le ventilateur continue de pousser et vide le ballon chargé en agent dans la salle.
+- Il vaut mieux attendre la fin de l'intubation pour démarrer l'halogéné. :: Démarrer tôt évite de devoir ouvrir largement le DGF pour rattraper le retard.
+- Un très bas DGF convient à l'entretien quelle que soit la durée de l'intervention. :: Lors d'une intervention très longue, le risque de composé A conduit à reconsidérer le débit.
+> On peut induire à bas débit en ouvrant davantage l'évaporateur : la vitesse est comparable et la consommation bien plus faible. L'entretien se fait à très bas DGF, en surveillant la FE. En fin d'intervention, on vise environ 0,8 MAC, puis on ferme l'évaporateur pour le réveil.
+@ p. 64 et 65
 
-QCM · Réveil
-Quelles actions favorisent l'élimination d'un halogéné en fin d'intervention ?
-+ Fermer l'évaporateur :: Cela arrête l'apport.
-+ Augmenter le débit de gaz frais :: Pour laver le circuit et abaisser la fraction inspirée.
-+ Maintenir une ventilation efficace :: L'élimination est pulmonaire : elle dépend de la ventilation alvéolaire.
-- Arrêter la ventilation pour éviter de réadministrer l'agent :: C'est contre-productif : sans ventilation, l'agent ne peut pas sortir.
-> Trois gestes complémentaires : couper l'apport, laver le circuit, ventiler. Fermer l'évaporateur sans augmenter le débit laisse un circuit encore chargé, que le patient continue de réinhaler.
-@ 65, 68–69, 75
+QCU · Réveil rapide
+En fin d'intervention, pour réveiller rapidement un patient anesthésié au sévoflurane, quelle conduite est adaptée ?
+- Fermer l'évaporateur et garder un DGF de 0,5 L/min :: Le circuit garde une forte inertie : l'agent expiré recircule au lieu d'être évacué.
++ Fermer l'évaporateur, augmenter le DGF (6 à 8 L/min d'O₂) et maintenir la ventilation :: On arrête l'apport, on lave le circuit et on garde l'élimination pulmonaire.
+- Laisser l'évaporateur ouvert et augmenter la FiO₂ :: L'administration d'agent continue.
+- Fermer l'évaporateur et arrêter de ventiler :: L'élimination de l'agent est pulmonaire : sans ventilation, elle s'arrête.
+- Fermer l'évaporateur et doubler la ventilation minute :: Surventiler fait chuter le CO₂ et expose à l'apnée, puis au rendormissement.
+> Le réveil est l'induction à l'envers : évaporateur fermé, DGF augmenté pour laver le circuit, ventilation minute maintenue. C'est le DGF qu'on augmente, pas la ventilation : une surventilation abaisse le CO₂ et favorise une apnée, alors que les tissus relarguent encore l'agent.
+@ p. 66, 68 et 69
 
-QCM · Relargage
-Quelles affirmations sur le réveil après une anesthésie inhalée prolongée sont exactes ?
-+ Le muscle et la graisse relarguent l'agent accumulé :: Les réservoirs se vident vers le sang, puis vers l'alvéole.
-+ La durée d'administration influence le temps de réveil :: Plus les tissus ont eu le temps de se charger, plus leur contribution dure.
-+ Une hypoventilation peut favoriser un rendormissement :: L'élimination est freinée alors que les tissus continuent de relarguer.
-- Fermer l'évaporateur vide instantanément les tissus :: Le stock tissulaire met d'autant plus de temps à se vider qu'il est important.
-> À l'arrêt, les tissus deviennent des sources. C'est pourquoi une anesthésie longue, chez un patient à masse grasse importante, avec un agent soluble, expose à un réveil retardé et à une somnolence prolongée en salle de surveillance.
-@ 66–68
+QCM · Décroissance contextuelle
+Concernant le réveil après une anesthésie aux halogénés, quelles propositions sont exactes ?
++ Après une longue anesthésie, le muscle et la graisse chargés relarguent l'agent dans le sang. :: Après 4 h, le muscle est à environ 88 % de son équilibre, contre 23 % après 30 min.
++ L'allongement du réveil avec la durée est plus marqué pour les agents solubles. :: Isoflurane : MAC-awake atteinte en 9 min après 30 min d'anesthésie, en plus de 20 min après 4 h.
++ Ce sont les dernières étapes de la décroissance (70 à 90 %) qui s'allongent avec la durée. :: Les 50 premiers % restent rapides pour tous les agents, en moins de 5 minutes.
++ Une hypoventilation en SSPI peut entraîner un rendormissement. :: L'agent relargué par les tissus n'est plus éliminé : la pression cérébrale repasse au-dessus du seuil d'éveil.
++ Le réveil sous desflurane est peu allongé par la durée d'anesthésie. :: Peu soluble, il atteint la MAC-awake en 5,2 min après 30 min, en 6,3 min après 4 h.
+> La décroissance contextuelle décrit la dépendance du réveil à la durée d'administration : plus les tissus ont été chargés, plus leur relargage prolonge la fin de l'élimination. Elle est plus marquée avec les agents solubles. En SSPI, opioïdes et curarisation résiduelle peuvent provoquer une hypoventilation et un rendormissement : ventilation efficace et surveillance rapprochée.
+@ p. 66 à 68
 
-QCM · Protoxyde d'azote
-Quelles affirmations sur le protoxyde d'azote et les cavités gazeuses sont exactes ?
-+ Il entre dans une cavité plus vite que l'azote n'en sort :: Sa solubilité sanguine est bien supérieure à celle de l'azote.
-+ Dans une cavité déformable, le volume augmente :: Pneumothorax, anses intestinales, ballonnet de sonde.
-+ Dans une cavité peu déformable, c'est la pression qui augmente :: Oreille moyenne, cavité close, œil après injection de gaz.
-- La présence d'une bulle de gaz intraoculaire est sans conséquence :: C'est une contre-indication : la pression intraoculaire peut monter dangereusement.
-> Le protoxyde d'azote entre plus vite qu'il ne laisse sortir l'azote : la quantité de gaz piégé augmente. Selon la rigidité des parois, cela se traduit par une expansion ou une hyperpression, d'où les contre-indications : pneumothorax, occlusion, chirurgie de l'oreille moyenne, bulle intraoculaire.
-@ 70–73
+QCM · Protoxyde d'azote et cavités
+Concernant le protoxyde d'azote et les cavités gazeuses, quelles propositions sont exactes ?
++ Le N₂O entre dans les cavités gazeuses beaucoup plus vite que l'azote n'en sort. :: L'azote est environ 34 fois moins soluble dans le sang que le N₂O.
++ Dans une cavité compliante, comme un pneumothorax, c'est le volume qui augmente. :: Le volume double à 50 % de N₂O et quadruple à 75 %.
++ Dans une cavité peu compliante, comme l'oreille moyenne, c'est la pression qui augmente. :: Le gaz ne peut pas se dilater : la pression monte.
++ La pression du ballonnet de la sonde d'intubation doit être surveillée. :: Le N₂O diffuse dans le ballonnet et fait monter sa pression.
+- Le N₂O seul permet d'obtenir 1 MAC à pression atmosphérique. :: Sa MAC est de 104 % : il ne peut être qu'un adjuvant.
+> Le N₂O diffuse rapidement dans tout espace gazeux, alors que l'azote en sort lentement : le volume ou la pression de la cavité augmente. Il faut s'en méfier devant un pneumothorax, une occlusion, une embolie gazeuse, un pneumencéphale ou une bulle intraoculaire. Au bloc : ophtalmologie, urgence, neurochirurgie et chirurgie digestive.
+@ p. 42, 71 et 75
 
-QCU · Causalité : débit de gaz frais
-Affirmation 1 : augmenter le débit de gaz frais permet de modifier plus rapidement le mélange du circuit.
-Affirmation 2 : augmenter le débit de gaz frais diminue la constante de temps du circuit.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies et liées par τ = V / DGF. À volume de circuit constant, un débit plus élevé raccourcit la constante de temps, donc accélère le renouvellement du mélange : c'est la manœuvre pour agir vite, à l'induction comme au réveil.
-@ 26–28
+QCU · Bulle intraoculaire
+Chez quel patient le protoxyde d'azote est-il contre-indiqué ?
+- Patient opéré d'une cataracte, sans gaz intraoculaire :: Sans bulle de gaz dans l'œil, le mécanisme d'expansion ne s'applique pas.
++ Patient ayant eu une vitrectomie avec bulle de SF₆ il y a 10 jours :: La bulle persiste environ 2 semaines : le N₂O ferait monter la pression intraoculaire jusqu'à l'ischémie rétinienne.
+- Patient opéré d'une appendicectomie, sans occlusion :: Il n'y a pas de cavité gazeuse piégée dans cet énoncé.
+- Patient asthmatique bien équilibré :: L'asthme n'est pas une contre-indication au N₂O.
+- Patient de 80 ans opéré d'une prothèse de hanche :: L'âge diminue la MAC, mais ne contre-indique pas le N₂O.
+> Le N₂O est contre-indiqué tant qu'une bulle de gaz persiste dans l'œil : environ 2 semaines pour le SF₆, 6 à 8 semaines pour le C₃F₈. L'expansion de la bulle fait monter la pression au-delà de la pression veineuse puis artérielle, avec un risque d'ischémie rétinienne. À la consultation, il faut rechercher un antécédent récent de chirurgie rétinienne avec gaz.
+@ p. 72 et 73
 
-QCU · Causalité : ventilation sous halogéné
-Affirmation 1 : sous halogéné, une hausse de la fréquence respiratoire garantit une élimination efficace du CO₂.
-Affirmation 2 : sous halogéné, la hausse de fréquence s'accompagne d'une baisse du volume courant.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n'explique pas la première.
-- La première est vraie, la seconde est fausse.
-+ La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est fausse : c'est la ventilation alvéolaire, et non la fréquence, qui élimine le CO₂. La seconde est vraie et décrit la polypnée superficielle : des cycles rapides et petits ventilent surtout l'espace mort, et la PaCO₂ peut monter.
-@ 55
-
-QCU · Monitorage
-Quelle grandeur surveillée reflète le mieux la fraction alvéolaire d'halogéné ?
-+ La fraction expirée d'halogéné :: Le gaz expiré en fin d'expiration provient des alvéoles.
-- La position de la molette de l'évaporateur :: Elle donne la fraction délivrée, en amont du circuit et du patient.
-- Le débit de gaz frais :: Il règle le renouvellement du circuit, pas la concentration alvéolaire.
-- La ventilation minute :: Elle conditionne les échanges, sans mesurer la concentration.
-> Seule la fraction expirée approche la pression partielle qui atteint le cerveau. La molette, le débit de gaz frais et la ventilation sont des moyens d'agir sur elle, non des mesures de l'exposition.
-@ 25, 75
-
-QCU · Contre-indication du protoxyde d'azote
-Chez quel patient le protoxyde d'azote est-il contre-indiqué en raison d'une cavité gazeuse piégée ?
-+ Une vitrectomie avec bulle de SF₆ encore présente à J10 :: Le gaz piégé dans l'œil est dans une cavité peu déformable.
-- Une cataracte opérée sans gaz intraoculaire :: Sans bulle de gaz, il n'y a pas de cavité piégée.
-- Un asthme isolé :: L'asthme ne crée pas de cavité gazeuse close.
-- Une appendicectomie sans occlusion :: Sans occlusion, les anses ne constituent pas une cavité fermée distendue.
-> Ce qui contre-indique, c'est la cavité gazeuse close, non l'organe ou la spécialité. Une bulle de SF₆ intraoculaire persistante est l'exemple type : le protoxyde d'azote y diffuse vite et fait monter la pression intraoculaire.
-@ 71–73
+QCM · Effet concentration et effet second gaz
+Concernant l'effet concentration et l'effet second gaz du protoxyde d'azote, quelles propositions sont exactes ?
++ L'effet concentration accélère la montée de la fraction alvéolaire de N₂O. :: Le volume alvéolaire diminue, donc la fraction de N₂O baisse moins que sa quantité.
++ La captation massive de N₂O réduit le volume alvéolaire. :: Le N₂O est administré à forte concentration : une grande quantité passe dans le sang.
++ L'halogéné associé se retrouve concentré dans un volume alvéolaire réduit. :: Sa fraction augmente : c'est l'effet second gaz.
++ Le gaz inspiré qui comble le volume perdu apporte davantage d'halogéné. :: Ce flux supplémentaire accélère encore la montée de l'halogéné.
+- L'effet second gaz diminue la fraction alvéolaire de l'halogéné associé. :: Il l'augmente, ce qui accélère l'induction.
+> La captation importante du N₂O réduit le volume alvéolaire. Sa propre fraction baisse moins que prévu (effet concentration) et l'halogéné associé se concentre (effet second gaz). Ces deux effets accélèrent l'induction quand le N₂O est associé à un halogéné.
+@ p. 35 et 74
