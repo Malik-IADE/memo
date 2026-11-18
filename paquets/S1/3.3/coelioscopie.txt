@@ -1,0 +1,41 @@
+// Cours 3.3 – Anesthésie pour cœliochirurgie
+// Questions inspirées d'Anki puis complétées par d'autres tirées du cours (situations, mécanismes), toutes vérifiées dans le support « Chirurgie coelioscopique avec notes » (le cours prime).
+// Non repris : historique, chiffres d'études, nombre de trocarts ; l'analgésie et l'intubation en cœlioscopie sont dans le paquet Chirurgie digestive, les complications du robot dans Chirurgie urologique.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Cœlioscopie
+
+// ---------- Principe, indications ----------
+Qu'est-ce qu'un pneumopéritoine ? :: L'espace de travail créé en insufflant du CO2 dans la cavité péritonéale\nIl augmente la pression intra-abdominale (PIA)\nL'insufflateur maintient une pression autorégulée, affichée en mmHg
+Quels terrains font préférer la cœlioscopie à la laparotomie ? :: Obésité\nInsuffisance respiratoire chronique\nGrossesse à un terme précoce\nLe bénéfice respiratoire postopératoire est le principal argument
+Quelles sont les contre-indications de la cœlioscopie ? :: Absolues : urgence extrême, choc non compensé, emphysème bulleux, pneumothorax spontané récidivant, dérivation ventriculo-péritonéale ou péritonéo-jugulaire, hypertension intracrânienne\nRelatives : grossesse à terme avancé, troubles de l'hémostase, hypertension portale
+Quels sont les avantages de la cœlioscopie sur la laparotomie ? :: Syndrome restrictif moins sévère et récupération respiratoire plus rapide\nDouleur moins intense et plus courte\nHospitalisation plus courte : l'avantage le mieux démontré\nTransit plus précoce, moins d'adhérences et d'éventrations\nMortalité comparable : les petites cicatrices ne doivent pas faussement rassurer
+Quelles sont les limites de la cœlioscopie ? :: Conversion si l'indication est mal adaptée (cholécystite aiguë par exemple)\nDurée opératoire souvent plus longue\nFormation spécifique des chirurgiens
+
+// ---------- Retentissement hémodynamique ----------
+Comment la pression intra-abdominale modifie-t-elle le débit cardiaque ? :: Il baisse d'autant plus que la PIA est élevée : environ un quart à 20 mmHg\nBaisse du retour veineux : compression cave, hausse de la pression intrathoracique\nHausse de la postcharge du ventricule gauche
+Pourquoi la pression artérielle peut-elle monter pendant le pneumopéritoine ? :: PA = débit cardiaque × résistances\nLes résistances vasculaires augmentent : compression des vaisseaux, sécrétion d'hormone antidiurétique\nLa PA peut donc monter alors que le débit baisse
+Quel est l'effet de la position sur le retentissement du pneumopéritoine ? :: Trendelenburg : limite la baisse du débit cardiaque\nProclive : l'aggrave, en diminuant encore le retour veineux
+Que faire devant une hypotension au moment de l'insufflation ? :: Vérifier la pression intra-abdominale et la faire baisser si elle est trop haute\nVérifier la position de la table (proclive)\nCorriger une hypovolémie\nSi elle persiste : exsufflation et discussion de la conversion
+Pourquoi l'hypovolémie est-elle dangereuse en cœlioscopie ? :: Le pneumopéritoine diminue déjà le retour veineux et le débit cardiaque\nAvec une hypovolémie ou une PIA trop haute : hypotension sévère, voire collapsus
+Quelles sont les conséquences régionales du pneumopéritoine ? :: Perfusion rénale et filtration glomérulaire diminuées : oligurie\nPerfusion mésentérique diminuée : reprise du transit retardée\nPression intracrânienne augmentée
+
+// ---------- Retentissement respiratoire ----------
+Pourquoi la capnie augmente-t-elle pendant une cœlioscopie ? :: Le CO2 insufflé est absorbé par le péritoine : la production de CO2 à éliminer augmente\nPaCO2 et EtCO2 montent pendant une vingtaine de minutes, puis atteignent un plateau\nLa consommation d'oxygène reste stable
+Quelles sont les conséquences respiratoires du pneumopéritoine ? :: Diaphragme repoussé : pression intrathoracique augmentée\nCompliance diminuée, résistances et pressions des voies aériennes augmentées\nRapports ventilation/perfusion altérés\nPeu de conséquences chez le patient ASA 1, beaucoup sur un terrain fragile
+
+// ---------- Conduite anesthésique ----------
+Quels sont les principes de l'anesthésie pour cœlioscopie ? :: AG avec intubation et ventilation contrôlée\nPas d'hypnotique spécifique (sévoflurane ou propofol)\nRelâchement musculaire parfait : il permet une pression d'insufflation plus basse\nPIA maintenue à 15 mmHg au plus
+Pourquoi la curarisation améliore-t-elle la tolérance du pneumopéritoine ? :: Une paroi relâchée offre le même espace de travail avec une pression d'insufflation plus basse\nMoins de baisse du débit cardiaque et moins de retentissement respiratoire\nElle évite aussi les mouvements brusques, sources de plaies viscérales
+Pourquoi une oligurie peropératoire est-elle fréquente en cœlioscopie ? :: La pression intra-abdominale comprime les vaisseaux rénaux et diminue la filtration glomérulaire\nL'hormone antidiurétique augmente\nElle ne signe pas à elle seule une hypovolémie
+Que surveiller après l'insufflation ? :: Auscultation pulmonaire : intubation sélective ?\nCapnographie\nPressions d'insufflation et spirométrie\nPression intra-abdominale sur l'insufflateur\nEn cas de problème : exsufflation et conversion
+Quelles préventions pendant l'installation en cœlioscopie ? :: Lésions viscérales : sonde gastrique (chirurgie viscérale), sonde vésicale (gynécologie)\nLésions nerveuses : épaulières en Trendelenburg, appuis jambiers (nerf fibulaire), étirement du plexus brachial\nHypothermie : réchauffement cutané
+
+// ---------- Complications ----------
+Pourquoi une intubation sélective peut-elle survenir après l'insufflation ? :: Le pneumopéritoine et le Trendelenburg font remonter le diaphragme, le médiastin et la carène\nUne sonde proche de la carène devient sélective droite\nSignes : SpO2 et murmure vésiculaire gauche diminués, pressions d'insufflation augmentées\nConduite : retirer légèrement la sonde
+Que faire devant une désaturation avec hausse des pressions d'insufflation, sans intubation sélective ? :: Évoquer un pneumothorax : barotraumatisme ou communication entre plèvre et péritoine\nExsuffler le pneumopéritoine, prévenir le chirurgien\nDiscuter la conversion, drainer si besoin
+Que faire devant une réaction vagale à l'insufflation ? :: Elle est due à la distension du péritoine ou à une traction des séreuses, favorisée par une anesthésie trop légère\nArrêter l'insufflation, atropine, approfondir l'anesthésie
+Que faire devant une EtCO2 qui monte sans plateau ? :: Évoquer une insufflation extrapéritonéale : emphysème sous-cutané (crépitation), sous-péritonéale, colique\nArrêter l'insufflation et replacer l'insufflateur\nAdapter la ventilation ; le CO2 se résorbe ensuite\nL'hypercapnie peut se prolonger en SSPI
+Comment reconnaître et traiter une embolie gazeuse au CO2 ? :: Surtout en début d'intervention (aiguille, trocarts, plaie veineuse)\nEtCO2 qui monte (embolie mineure) ou s'effondre (embolie majeure), désaturation, insuffisance cardiaque droite, collapsus\nFiO2 100 %, arrêt de l'insufflation, Trendelenburg + décubitus latéral gauche\nAspiration par cathéter central, massage si arrêt, oxygénothérapie hyperbare
+Quels signes doivent alerter en SSPI après une cœlioscopie ? :: Douleur abdominale diffuse ou scapulaire, intense et persistante\nRechercher hémorragie, perforation méconnue, pneumothorax\nUne douleur scapulaire droite modérée est habituelle : CO2 piégé sous le diaphragme
+Quelles précautions sur un terrain cardiorespiratoire fragile ? :: Monitorage invasif\nPIA la plus basse possible, conversion facile si mauvaise tolérance\nSurveillance prolongée en SSPI puis en soins intensifs : décompensation possible au réveil
