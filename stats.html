@@ -424,14 +424,18 @@
     for (const hit of hits || []) {
       const path = decode(hit.path || ''), n = hit.count || 0;
       let m;
-      // Événements : les auto-évaluations des quizz (« quiz-note-0 » à « quiz-note-3 »).
+      // Événements, envoyés seulement quand un quiz est terminé :
+      // « quiz-fini/<titre> », « quiz-fini-note-0 » à « -3 » (auto-évaluations du quiz terminé).
+      // Les anciens « quiz-note-* » (chaque question, quiz fini ou non) sont ignorés.
+      // Les annales terminées viennent du Worker (voir render).
       if (hit.event) {
-        if ((m = path.match(/^\/?quiz-note-([0-3])$/))) quizGrades[Number(m[1])] += n;
+        if ((m = path.match(/^\/?quiz-fini-note-([0-3])$/))) quizGrades[Number(m[1])] += n;
+        else if ((m = path.match(/^\/?quiz-fini\/(.+)$/))) { add(quizzes, m[1], n); quizTotal += n; }
         continue;
       }
-      if ((m = path.match(/^\/quiz-cours\/(.+)$/))) { add(quizzes, m[1], n); quizTotal += n; }
-      else if (path === '/quiz-aleatoire') { add(quizzes, 'Quiz aléatoire', n); quizTotal += n; }
-      else if (path === '/quiz') add(screens, 'Quizz', n);
+      // Quiz ou annale seulement ouverts : non comptés.
+      if (/^\/quiz-cours\//.test(path) || path === '/quiz-aleatoire') continue;
+      if (path === '/quiz') add(screens, 'Quizz', n);
       else if ((m = path.match(/^\/quiz\/(S\d+)$/i))) add(screens, `Quizz · ${m[1]}`, n);
       else if ((m = path.match(/^\/quiz\/(S\d+)\/([^/]+)$/i))) add(screens, `Quizz · UE ${m[2]} · ${m[1]}`, n);
       else if ((m = path.match(/^\/revision\/(.+)$/))) {
@@ -443,13 +447,9 @@
           revDays.set(st.day, arr);
         }
       } else if ((m = path.match(/annales(-nf)?\/(S\d+)\/(\d+\.\d+)(?:-(\d{4}-\d{4}))?(?:\.html?)?$/i))) {
-        // Quiz ouvert si le chemin porte une période ; sinon c'est la liste des annales de l'UE.
-        // Les anciens relevés (« /annales/S1/3.3.html ») sont comptés en 2022-2024, la seule
-        // période qui existait alors.
+        // Annale ouverte (chemin avec période) : non comptée. Sans période : la liste des annales de l'UE.
         const nf = !!m[1], ue = `UE ${m[3]} · S${m[2].slice(1)}`, kind = nf ? 'Non officielles' : 'Officielles';
-        if (m[4] || /\.html?$/i.test(path)) {
-          add(exams, `${ue} · ${m[4] || '2022-2024'}${nf ? ' (non off.)' : ''}`, n); examTotal += n;
-        } else add(screens, `Annales ${kind.toLowerCase()} · ${ue}`, n);
+        if (!(m[4] || /\.html?$/i.test(path))) add(screens, `Annales ${kind.toLowerCase()} · ${ue}`, n);
       } else if ((m = path.match(/^\/annales(-nf)?\/(S\d+)$/i))) {
         add(screens, `Annales ${m[1] ? 'non officielles' : 'officielles'} · ${m[2]}`, n);
       } else if (path === '/annales') add(screens, 'Annales officielles', n);
@@ -658,14 +658,14 @@
     return h('section', {class: 'card'},
       h('div', {class: 'card-head'},
         h('div', {}, h('h2', {}, 'Auto-évaluations des quizz'),
-          h('div', {class: 'sub'}, total ? `${plural(total, 'question')} notée${total > 1 ? 's' : ''} sur la période · tous les navigateurs` : 'Notes données après chaque correction'))),
+          h('div', {class: 'sub'}, total ? `${plural(total, 'question')} notée${total > 1 ? 's' : ''} dans des quiz terminés · tous les navigateurs` : 'Notes des quiz terminés seulement'))),
       pct ? h('ul', {class: 'notes-graph'}, gradeLabels.map((label, i) => h('li', {class: 'notes-col', tabindex: '0'},
         h('span', {class: 'tip notes-tip', role: 'tooltip'}, h('div', {class: 'dim'}, label), h('b', {}, plural(grades[i], 'question'))),
         h('span', {class: 'notes-n'}, nf1.format(pct[i]) + ' %'),
         h('span', {class: 'notes-zone', 'aria-hidden': 'true'},
           h('span', {class: 'notes-bar', style: `height:${Math.max(4, 100 * pct[i] / highest)}%`})),
         h('span', {class: 'notes-l'}, label))))
-        : h('p', {class: 'empty'}, 'Aucune question notée sur cette période.'));
+        : h('p', {class: 'empty'}, 'Aucun quiz terminé sur cette période.'));
   }
 
   function collectiveCards() {
@@ -784,6 +784,20 @@
     const data = last, P = PERIODS[period], M = METRICS[metric];
     const visits = data.total.total || 0, prevVisits = data.prevTotal.total || 0;
     const cur = data.sum, prev = data.prevSum;
+    // Annales terminées : relevé du Worker (une note envoyée à chaque correction, depuis le début).
+    // Une annale terminée = un navigateur qui l'a corrigée ce jour-là (« participants ») : les
+    // ajustements de note après correction ne comptent pas en double. Les notes de 0 ne sont pas envoyées.
+    const finished = (days) => {
+      const set = new Set(days.map(dayKey)), map = new Map();
+      for (const row of (DEMO ? demoCollective() : collectiveData)?.history || []) {
+        if (!set.has(row.day)) continue;
+        const info = examInfo(row.exam);
+        add(map, `${info.ue}${info.sem ? ' · ' + info.sem : ''}${info.period ? ' · ' + info.period : ''}${info.nf ? ' (non off.)' : ''}`, row.participants || 0);
+      }
+      return sorted(map);
+    };
+    cur.exams = finished(daysOf(data.r.start, P.days)); cur.examTotal = sumArr(cur.exams.map((x) => x[1]));
+    prev.exams = finished(daysOf(data.r.prevStart, P.days)); prev.examTotal = sumArr(prev.exams.map((x) => x[1]));
     const prevLabel = P.days === 1 ? 'hier à la même heure' : `les ${P.days} jours précédents`;
 
     const cells = grid(data, metric), prevCells = grid(data, metric, true);
@@ -821,8 +835,8 @@
         kpi({ key: 'visits', label: 'Visites', value: nf.format(visits), d: delta(visits, prevVisits), sub: `${nf.format(prevVisits)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(vGrid) }),
         kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(rGrid) }),
         kpi({ label: 'Cours ouverts', value: nf.format(cur.courses.length), sub: courseCount ? `sur ${courseCount} cours disponibles` : '', d: delta(cur.courses.length, prev.courses.length) }),
-        kpi({ label: 'Annales ouvertes', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
-        kpi({ label: 'Quiz lancés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => n !== 'Quiz aléatoire').length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
+        kpi({ label: 'Annales terminées', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
+        kpi({ label: 'Quiz terminés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => n !== 'Quiz aléatoire').length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
         P.days === 1
           ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
           : kpi({ label: 'Par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'visites en moyenne' }),
@@ -848,8 +862,8 @@
         rank('Cours les plus révisés', cur.revisions, 'Aucune révision sur cette période.'),
         rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.'),
         rank('UE les plus consultées', cur.ues, 'Aucune UE consultée sur cette période.'),
-        rank('Annales les plus ouvertes', cur.exams, 'Aucune annale ouverte sur cette période.'),
-        rank('Quiz les plus lancés', cur.quizzes, 'Aucun quiz lancé sur cette période.'),
+        rank('Annales les plus terminées', cur.exams, 'Aucune annale terminée sur cette période.'),
+        rank('Quiz les plus terminés', cur.quizzes, 'Aucun quiz terminé sur cette période.'),
         rank('Écrans les plus vus', cur.screens, 'Aucun écran de navigation vu sur cette période.'),
         rank('Appareils', sysRows.some((x) => x[1]) ? sysRows : sizeRows, 'Pas encore de données.'),
       ),
@@ -863,7 +877,7 @@
           if (!confirm('Retirer la clé de ce navigateur ? Il faudra la coller à nouveau pour revoir les statistiques.')) return;
           store.del(KEY); renderSetup();
         } }, 'Oublier la clé'),
-        h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Une annale ouverte = un quiz ouvert, compté par période (2013-2015, 2022-2024). Un quiz lancé = une série de QCM ouverte ; ses auto-évaluations sont comptées sur la période, sans les réponses. Vos propres visites comptent aussi.'),
+        h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Une annale terminée = une annale corrigée par un navigateur dans la journée, d\'après le relevé des notes (depuis le début ; les notes de 0 ne sont pas envoyées), par période (2013-2015, 2022-2024). Un quiz terminé = une série de QCM menée jusqu\'à la dernière question ; ses auto-évaluations sont comptées à ce moment-là, sans les réponses. Les quiz et annales abandonnés en cours de route ne comptent pas (quiz : relevé depuis le 19 novembre 2026). Vos propres visites comptent aussi.'),
       ),
     );
   }
@@ -1082,7 +1096,7 @@
     });
     const stats = mk(r.start, 1.3), prevStats = mk(r.prevStart, 1);
     const tot = (st) => sumArr(st.map((x) => x.daily));
-    const names = ['Estomac plein', 'Ventilation mécanique', 'États de choc', 'Curares', 'SSPI', 'Chirurgie orthopédique', 'Positions chirurgicales', 'Patient obèse', 'ECG', 'Cours mélangés', 'Morphiniques', 'AES et précautions'];
+    const names = ['Estomac plein', 'Ventilation mécanique', 'États de choc', 'Curares', 'SSPI', 'Chirurgie orthopédique', 'Positions chirurgicales', 'Patient obèse', 'ECG', 'Flashcards aléatoires', 'Morphiniques', 'AES et précautions'];
     const share = (st, f) => st.map((x) => { const hourly = x.hourly.map((v) => Math.round(v * f)); return { day: x.day, hourly, daily: sumArr(hourly) }; });
     const mkHits = (st) => [
       ...names.map((n, i) => { const s2 = share(st, .3 / (1 + i * .35)); return { path: '/revision/' + n, count: tot(s2), stats: s2 }; }),
@@ -1093,9 +1107,9 @@
       ...[['S1/2.3-2017-2019', .05], ['S1/3.1-2021-2023', .04]].map(([u, f]) => ({ path: '/annales-nf/' + u, count: Math.round(tot(st) * f) })),
       ...[['/accueil', .9], ['/flashcards', .4], ['/annales', .3], ['/annales/S1', .22],
         ['/annales/S1/3.3', .1], ['/annales-nf', .25], ['/annales-nf/S1', .18]].map(([p, f]) => ({ path: p, count: Math.round(tot(st) * f) })),
-      ...[['Estomac plein', .07], ['Curares', .05], ['ECG', .04], ['Ventilation mécanique', .03], ['États de choc', .02]].map(([n, f]) => ({ path: '/quiz-cours/' + n, count: Math.round(tot(st) * f) })),
-      { path: '/quiz-aleatoire', count: Math.round(tot(st) * .06) }, { path: '/quiz', count: Math.round(tot(st) * .2) }, { path: '/quiz/S1/3.3', count: Math.round(tot(st) * .08) },
-      ...[.6, 1.1, 1.9, 1].map((f, g) => ({ path: 'quiz-note-' + g, event: true, count: Math.round(tot(st) * f * .4) })),
+      ...[['Estomac plein', .07], ['Curares', .05], ['ECG', .04], ['Ventilation mécanique', .03], ['États de choc', .02]].map(([n, f]) => ({ path: 'quiz-fini/' + n, event: true, count: Math.round(tot(st) * f) })),
+      { path: 'quiz-fini/Quiz aléatoire', event: true, count: Math.round(tot(st) * .06) }, { path: '/quiz', count: Math.round(tot(st) * .2) }, { path: '/quiz/S1/3.3', count: Math.round(tot(st) * .08) },
+      ...[.6, 1.1, 1.9, 1].map((f, g) => ({ path: 'quiz-fini-note-' + g, event: true, count: Math.round(tot(st) * f * .4) })),
       { path: '/cours/Scores', count: Math.round(tot(st) * .12) },
       { path: '/Schemas', count: Math.round(tot(st) * .1) },
       { path: '/cours/Schémas', count: Math.round(tot(st) * .08) },
