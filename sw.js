@@ -1,10 +1,10 @@
 // Service worker : permet à l'app de fonctionner hors ligne.
 // Stratégie « réseau d'abord » : la dernière version est utilisée quand il y a
 // du réseau, la copie en cache sinon. Changez CACHE à chaque mise en ligne.
-const CACHE = 'memo-v69';
+const CACHE = 'memo-v70';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'manifest.webmanifest',
-  'js/app.js', 'js/store.js', 'js/srs.js', 'js/format.js', 'js/library.js', 'js/collectives.js', 'js/quiz.js',
+  'js/app.js', 'js/store.js', 'js/srs.js', 'js/format.js', 'js/library.js', 'js/collectives.js', 'js/quiz.js', 'js/reprise-annale.js',
   'icons/icon.svg', 'icons/icon-180.png', 'icons/icon-512.png',
   'exemples/capitales.txt',
 ];
