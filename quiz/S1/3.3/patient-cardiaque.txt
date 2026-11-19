@@ -1,0 +1,279 @@
+// Quiz – Patient cardiaque et vasculaire en chirurgie non cardiaque (UE 3.3), écrit le 19 novembre 2026 d'après le support « Patient cardiaque avec notes ».
+// Questions type examen : définitions, évaluation du risque, examens, traitements, agents, valvulopathies, complications, dispositifs implantés. Propositions plausibles, pas de chiffres d'études.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Patient cardiaque
+
+QCM · Insuffisance cardiaque
+Concernant l'insuffisance cardiaque, quelles propositions sont exactes ?
++ Elle se définit comme l'incapacité de la pompe cardiaque à satisfaire les besoins de l'organisme. :: C'est la définition du cours.
++ Une insuffisance cardiaque diastolique correspond à une incapacité du ventricule à se remplir. :: L'atteinte diastolique concerne le remplissage, l'atteinte systolique l'éjection.
++ La congestion d'amont d'une insuffisance cardiaque gauche peut se traduire par un œdème pulmonaire. :: En amont du cœur gauche se trouve la circulation pulmonaire.
++ Une hépatomégalie et une turgescence jugulaire orientent vers une congestion droite. :: Le foie, les jugulaires et le rein sont en amont du cœur droit.
++ Une baisse de la perfusion des organes traduit le retentissement d'aval. :: Le défaut de débit se paie en aval, la congestion en amont.
+> L'insuffisance cardiaque associe un retentissement d'aval (baisse de perfusion des organes) et une congestion d'amont : œdème pulmonaire à gauche ; foie, jugulaires et rein à droite. Elle peut être diastolique (remplissage) et/ou systolique (éjection).
+@ p. 3
+
+QCM · Insuffisance coronarienne
+Concernant l'insuffisance coronarienne, quelles propositions sont exactes ?
++ Elle résulte le plus souvent d'une athérosclérose qui réduit le débit sanguin myocardique. :: Le cours la définit comme une vasculopathie athéromateuse responsable d'ischémie.
+- Une sténose coronaire peu symptomatique au repos ne risque pas de se démasquer pendant une chirurgie. :: Le stress chirurgical augmente les besoins et peut révéler une sténose limitante.
++ Elle peut se manifester par des troubles du rythme. :: Le cours cite angor, syndrome coronarien aigu et troubles du rythme.
+- L'angor stable traduit une ischémie survenant au repos, sans facteur déclenchant. :: L'angor d'effort survient quand les besoins augmentent ; l'angor de repos évoque une forme instable.
++ Une séquelle d'infarctus peut évoluer vers une insuffisance cardiaque. :: Les atteintes coronarienne, myocardique et vasculaire se cumulent souvent.
+> L'insuffisance coronarienne est un déséquilibre entre apports et besoins du myocarde, lié le plus souvent à l'athérome. Peu symptomatique au repos, elle peut se révéler à l'effort, et donc lors du stress chirurgical. Elle s'associe souvent à une atteinte myocardique et à une atteinte vasculaire diffuse.
+@ p. 4 et 6
+
+QCM · Trois dimensions du risque
+Selon le cours, sur quels éléments repose l'évaluation du risque cardiaque périopératoire ?
+- Le score ASA seul, qui résume le risque cardiaque :: L'ASA décrit l'état général, il ne suffit pas à estimer le risque cardiaque.
+- La fraction d'éjection mesurée à l'échographie de repos :: L'ETT de repos ne prédit pas le risque coronaire.
++ La capacité du patient à l'effort :: C'est l'une des trois dimensions, avec le patient et la chirurgie.
+- Le résultat d'une épreuve d'effort, réalisée chez tout patient cardiaque :: Les examens ne sont demandés que s'ils peuvent changer la prise en charge.
+- Le traitement en cours, qui suffit à classer le patient :: Le traitement renseigne sur la cardiopathie, il ne mesure pas le risque.
+> Le risque cardiaque périopératoire combine trois dimensions : le patient (terrain, symptômes, score de Lee), la chirurgie (risque faible, intermédiaire ou élevé) et la capacité à l'effort, évaluée en MET.
+@ p. 9 et 14
+
+QCU · Score de Lee
+Parmi les éléments suivants, lequel ne fait pas partie du score de Lee ?
+- Une insuffisance rénale :: Item du score de Lee.
+- Un diabète traité par insuline :: Item du score de Lee ; le diabète non insulinotraité n'est pas compté.
++ Une hypertension artérielle traitée :: L'HTA est un facteur de risque cardiovasculaire, mais pas un item du score de Lee.
+- Un antécédent d'accident vasculaire cérébral :: Item du score de Lee (antécédent cérébrovasculaire).
+- Une chirurgie à haut risque :: Item du score de Lee.
+> Le score de Lee compte 6 items, d'un point chacun : chirurgie à haut risque, cardiopathie ischémique, insuffisance cardiaque, antécédent cérébrovasculaire, diabète insulinotraité, insuffisance rénale. Le risque de complication cardiaque majeure augmente avec le score.
+@ p. 13
+
+QCM · Interrogatoire et examen
+Lors de la consultation d'un patient cardiaque, quelles propositions sont exactes ?
++ Une dyspnée se gradue selon la classification NYHA. :: La NYHA gradue le retentissement fonctionnel.
++ On précise si les symptômes surviennent à l'effort ou au repos. :: Le cours insiste sur ce point et sur leur ancienneté.
+- Un reflux hépatojugulaire oriente vers une insuffisance ventriculaire gauche. :: Œdèmes, turgescence jugulaire et reflux hépatojugulaire orientent vers une insuffisance droite.
++ Un souffle à l'auscultation doit faire rechercher un rétrécissement aortique. :: Le cours cite le RAC comme valvulopathie à ne pas méconnaître.
+- Des crépitants pulmonaires orientent vers une insuffisance ventriculaire droite. :: Les crépitants traduisent une congestion pulmonaire, donc une insuffisance gauche.
+> L'interrogatoire recherche les facteurs de risque et les symptômes (douleur thoracique, dyspnée graduée par la NYHA, palpitations, syncope), à l'effort ou au repos. L'examen cherche une congestion droite (œdèmes, TJ, RHJ) ou gauche (crépitants) et un souffle, en particulier de RAC.
+@ p. 10 et 11
+
+QCM · Capacité à l'effort
+Concernant l'évaluation de la capacité à l'effort, quelles propositions sont exactes ?
++ Le repère retenu est de 4 MET. :: C'est le seuil utilisé dans l'algorithme.
++ Monter un ou deux étages sans s'arrêter témoigne d'une réserve d'au moins 4 MET. :: Le cours traduit le seuil en activités familières.
++ La survenue d'une douleur thoracique en faisant son ménage traduit une réserve insuffisante. :: Une dyspnée ou une douleur pendant ces activités signe une réserve faible.
+- Une capacité à l'effort satisfaisante dispense de prendre en compte le score de Lee. :: Le score et la capacité fonctionnelle se croisent, ils ne se remplacent pas.
++ Les questions doivent être adaptées aux habitudes et aux limitations du patient. :: Une limitation orthopédique peut empêcher l'effort sans cardiopathie limitante.
+> La capacité à l'effort se juge en MET, avec un seuil de 4 MET : monter un ou deux étages, faire son ménage ou son jardin. Elle s'interprète avec le score de Lee et la stabilité clinique, en tenant compte de ce que le patient peut réellement faire.
+@ p. 12, 19 et 20
+
+QCM · Patient instable
+Parmi les situations suivantes, lesquelles définissent un patient cardiaque instable avant une chirurgie ?
++ Un syndrome coronarien aigu datant de trois semaines :: Moins d'un mois : patient instable.
+- Un angor d'effort stable, sans aggravation récente :: C'est l'angor invalidant (classe III ou IV CCS) qui définit l'instabilité.
+- Une insuffisance cardiaque compensée, en classe NYHA II :: L'instabilité concerne l'insuffisance cardiaque décompensée ou en classe III-IV.
+- Une fibrillation atriale ancienne, bien tolérée et contrôlée :: Seuls les troubles significatifs du rythme ou de la conduction définissent l'instabilité.
+- Un antécédent de pose de stent coronaire il y a trois ans :: Un antécédent coronarien stabilisé ne suffit pas.
+> Est instable un patient qui présente : un syndrome coronarien aigu de moins d'un mois, un angor invalidant, une insuffisance cardiaque décompensée ou en classe III-IV, un trouble significatif du rythme ou de la conduction (BAV complet), une valvulopathie sténosante sévère ou symptomatique. Si le geste peut attendre, on traite d'abord la cardiopathie.
+@ p. 17
+
+QCM · Décision d'examens
+Concernant la décision de réaliser des examens cardiaques avant une chirurgie non cardiaque, quelles propositions sont exactes ?
++ En urgence, le délai disponible conditionne le bilan. :: La première question est celle de l'urgence.
++ Chez un patient stable, un geste à faible risque se fait souvent sans examen spécialisé. :: Bilan clinique et optimisation des traitements suffisent souvent.
+- Une chirurgie à haut risque justifie un examen spécialisé, quelle que soit la capacité à l'effort. :: Pour un risque intermédiaire ou élevé, on croise le score de Lee et la capacité fonctionnelle.
++ Un examen n'est utile que s'il peut modifier la prise en charge. :: C'est le principe qui guide l'algorithme.
+- Un test non invasif positif impose une revascularisation avant la chirurgie. :: La revascularisation se discute au cas par cas, elle ne découle pas d'un test isolé.
+> L'algorithme vérifie d'abord l'urgence, puis la stabilité, puis estime le risque (Lee) et cherche une capacité fonctionnelle insuffisante. Un examen se justifie s'il peut changer la conduite ; un test positif ouvre une discussion, pas une revascularisation automatique.
+@ p. 16 à 20 et 27, 28
+
+QCU · ECG de repos
+Quel est le principal intérêt de l'ECG de repos préopératoire chez un patient cardiaque, selon le cours ?
+- Il élimine une ischémie déclenchée par l'effort :: Sa sensibilité pour l'ischémie est faible, surtout dans le territoire de la coronaire droite.
++ Il sert de tracé de référence pour comparer en postopératoire :: C'est son intérêt principal dans le cours.
+- Il mesure la fraction d'éjection ventriculaire gauche :: C'est le rôle de l'échographie.
+- Il remplace l'évaluation de la capacité à l'effort :: Il ne renseigne pas sur la réserve fonctionnelle.
+- Il quantifie la sévérité d'une valvulopathie :: C'est le rôle de l'échographie.
+> L'ECG de repos est un tracé de référence : en cas d'anomalie après l'intervention, il permet de savoir ce qui est nouveau. Il ne suffit pas à exclure une ischémie d'effort.
+@ p. 22
+
+QCM · Examens d'effort et de stress
+Concernant les examens cardiaques préopératoires, quelles propositions sont exactes ?
+- L'ETT de repos est recommandée pour prédire le risque coronaire. :: Elle explore la fonction et les valves ; elle ne prédit pas le risque coronaire.
++ L'ECG d'effort perd de sa valeur si le patient n'atteint pas 85 % de la fréquence maximale théorique. :: La valeur dépend de l'effort atteint ; la FMT est estimée à 220 − âge.
+- La scintigraphie myocardique est indiquée en cas de rétrécissement aortique serré. :: Le RAC serré et la CMH sont des contre-indications des épreuves de stress.
++ L'échographie de stress à la dobutamine est utile quand l'effort physique est impossible. :: La dobutamine reproduit une partie du stress de l'effort.
+- L'ECG d'effort a une excellente sensibilité pour l'ischémie myocardique. :: Sa sensibilité et sa spécificité sont faibles ; c'est sa valeur prédictive négative qui est bonne.
+> Les examens n'explorent pas la même chose : l'ETT de repos regarde la FEVG et les valves ; l'ECG d'effort, l'échographie de stress et la scintigraphie cherchent une ischémie. Les épreuves de stress sont contre-indiquées en cas de RAC serré ou de CMH, et l'ECG d'effort n'a de valeur que si l'effort atteint est suffisant.
+@ p. 23 à 26
+
+QCM · ETT de repos
+Dans quelles situations le cours propose-t-il une échographie transthoracique de repos avant la chirurgie ?
+- Pour estimer le risque coronaire d'un patient asymptomatique :: Ce n'est pas l'indication retenue.
++ Devant une dyspnée faisant suspecter une insuffisance cardiaque :: Indication retenue par le cours.
++ Devant un souffle faisant suspecter une valvulopathie :: Indication retenue par le cours.
+- Chez tout patient de plus de 40 ans opéré d'une chirurgie à risque intermédiaire :: L'âge n'est qu'un facteur de risque ; l'ETT répond à une question clinique.
+- Pour remplacer l'échographie de stress chez un patient qui ne peut pas faire d'effort :: Une ETT de repos ne cherche pas l'ischémie induite.
+> L'ETT de repos se discute devant une dyspnée (suspicion d'insuffisance cardiaque) ou un souffle (suspicion de valvulopathie). Une FEVG préservée ne prédit pas l'absence de risque coronaire.
+@ p. 24
+
+QCU · IEC et ARA II
+Un patient prend un IEC uniquement pour une hypertension artérielle. Quelle conduite le cours propose-t-il avant une chirurgie programmée ?
+- Le poursuivre jusqu'au matin de l'intervention :: Cette conduite concerne l'IEC prescrit pour insuffisance cardiaque.
++ L'arrêter au moins 12 heures avant l'intervention :: Prescrit pour une HTA, il expose à une hypotension à l'induction.
+- L'arrêter une semaine avant, avec relais par un bêtabloquant :: Ce relais n'est pas proposé.
+- Le remplacer par un ARA II la veille :: Les ARA II ont le même risque d'hypotension.
+- L'arrêter seulement si la PA est inférieure à 120 mmHg :: La conduite dépend de l'indication, pas d'un seuil tensionnel.
+> Le cours distingue l'indication : IEC et ARA II sont maintenus chez l'insuffisant cardiaque, mais arrêtés au moins 12 h avant s'ils sont prescrits pour une HTA, à cause du risque d'hypotension à l'induction.
+@ p. 34
+
+QCM · Traitements cardiovasculaires
+Concernant la gestion des traitements cardiovasculaires avant une chirurgie, quelles propositions sont exactes ?
++ Un bêtabloquant déjà prescrit est poursuivi. :: Son arrêt expose à une tachycardie à l'arrivée au bloc.
++ Une statine déjà prescrite est poursuivie. :: Le cours la place parmi les traitements à maintenir.
++ L'arrêt d'un antiagrégant se discute avec le chirurgien, en pesant risque hémorragique et risque thrombotique. :: Surtout en cas de stent récent.
++ Un relais d'anticoagulant se discute en cas de valve mécanique. :: Comme en cas de FA avec événement embolique ou d'insuffisance cardiaque sévère.
++ La stratégie se construit entre anesthésiste, cardiologue et chirurgien. :: La décision est multidisciplinaire.
+> Bêtabloquants et statines sont poursuivis. Les antiagrégants se gèrent au cas par cas, selon le geste (une chirurgie en espace clos tolère mal le saignement) et le risque de thrombose. Les relais d'anticoagulant concernent surtout valve mécanique, FA avec antécédent embolique et insuffisance cardiaque sévère. La stratégie est multidisciplinaire.
+@ p. 32 à 36
+
+QCM · Monitorage
+Concernant le monitorage peropératoire du patient cardiaque, quelles propositions sont exactes ?
++ Une hypothermie peut provoquer frissons et tachycardie au réveil. :: Elle augmente les besoins du myocarde, comme une épreuve d'effort.
++ Un BIS inférieur à 45 est associé à davantage de complications postopératoires. :: D'où l'intérêt de suivre la profondeur anesthésique.
+- Le cathéter de Swan-Ganz est le monitorage de référence chez tout insuffisant cardiaque. :: Il est invasif et réservé à des situations très particulières.
++ Un cathéter artériel peut être posé avant l'induction en cas de valvulopathie ou d'instabilité. :: L'induction est la période la plus à risque d'hypotension.
++ L'ETO peut aider en cas de dysfonction ventriculaire droite ou de valvulopathie majeure. :: Elle demande toutefois une expertise.
+> Au monitorage standard (ECG, PNI, SpO2, EtCO2) s'ajoutent selon le terrain : température, BIS, pression artérielle invasive posée avant l'induction si besoin, Doppler œsophagien pour guider le remplissage. L'ETO et la Swan-Ganz sont réservées à des cas particuliers.
+@ p. 38 à 41
+
+QCM · Remplissage de l'insuffisant cardiaque
+Concernant le remplissage vasculaire chez l'insuffisant cardiaque sévère, quelles propositions sont exactes ?
+- Le débit cardiaque continue d'augmenter avec la précharge, comme chez le sujet sain. :: La courbe du cœur défaillant s'aplatit tôt.
++ Au-delà d'un certain volume, l'apport majore surtout la congestion. :: Le risque est l'œdème pulmonaire.
++ Le Doppler œsophagien peut guider l'arrêt du remplissage. :: Il suit l'évolution du VES.
+- Une baisse de pression artérielle se corrige d'abord par un remplissage. :: Le cours demande de ne pas traiter toute hypotension par du volume.
+- Une augmentation du VES après un apport montre que le patient est en surcharge. :: Elle montre au contraire une réponse au remplissage ; c'est l'absence d'augmentation qui fait arrêter.
+> Chez l'insuffisant cardiaque, la relation précharge–débit s'aplatit tôt : le volume en excès aggrave la congestion. Le remplissage se guide sur la réponse du VES (Doppler œsophagien), et une hypotension n'est pas toujours un manque de volume.
+@ p. 39, 40 et 53
+
+QCM · ALR et anesthésie neuraxiale
+Concernant le choix de la technique chez le patient cardiaque, quelles propositions sont exactes ?
++ Une ALR périphérique est privilégiée tant qu'elle est possible. :: Elle limite le retentissement hémodynamique.
+- Une rachianesthésie est la technique de choix, car elle n'a pas de retentissement hémodynamique. :: Le bloc sympathique expose à l'hypotension.
++ Un bloc neuraxial s'étendant au-dessus de T4 peut avoir des effets inotrope et chronotrope négatifs. :: Il touche les fibres sympathiques cardiaques.
++ Un rétrécissement aortique peut s'accompagner d'une anomalie de type Willebrand. :: Elle allonge le temps de saignement.
+- Le guidage échographique est inutile si le patient n'est pas anticoagulé. :: Le cours recommande l'ALR sous échographie.
+> L'ALR périphérique, sous échographie et après vérification des anticoagulants, est privilégiée. La rachianesthésie et la péridurale entraînent un bloc sympathique et une hypotension ; au-dessus de T4, la fréquence et la contractilité baissent aussi. Le RA peut s'associer à une anomalie de type Willebrand.
+@ p. 43 et 44
+
+QCM · Effets hémodynamiques des agents
+Concernant les effets hémodynamiques des agents anesthésiques, quelles propositions sont exactes ?
++ Le propofol provoque une vasodilatation artérielle et veineuse. :: Avec peu d'effet inotrope négatif direct.
++ L'étomidate a peu d'effet cardiovasculaire aux doses habituelles. :: C'est l'agent le plus stable du tableau.
++ La kétamine augmente les résistances vasculaires pulmonaires et la charge du ventricule droit. :: Malgré son effet sympathomimétique.
+- Le sévoflurane est vasoconstricteur, ce qui compense l'hypotension d'induction. :: Le sévoflurane est vasodilatateur.
++ Le thiopental est cardiodépresseur et s'accompagne d'une tachycardie. :: Le midazolam, lui, a peu d'effet hémodynamique.
+> Propofol et sévoflurane sont vasodilatateurs ; l'étomidate et le midazolam ont peu d'effet hémodynamique ; le thiopental est cardiodépresseur ; la kétamine est sympathomimétique mais augmente la charge du ventricule droit. Les morphiniques associés majorent l'hypotension.
+@ p. 46
+
+QCM · Rythme sinusal
+Pourquoi le maintien du rythme sinusal est-il un objectif chez le patient cardiaque anesthésié ?
+- Parce que la fibrillation atriale augmente la postcharge du ventricule gauche :: Le problème est la perte de contraction auriculaire.
++ Parce que la contraction de l'oreillette assure une part importante du remplissage ventriculaire :: Environ 40 % de la précharge, selon le support.
+- Parce que les agents anesthésiques sont contre-indiqués en cas de fibrillation atriale :: Ce n'est pas une contre-indication.
+- Parce que la fibrillation atriale empêche le monitorage du BIS :: Le BIS n'est pas lié au rythme cardiaque.
+- Parce qu'un rythme sinusal protège de l'hypothermie peropératoire :: Il n'y a pas de lien.
+> La contraction de l'oreillette participe au remplissage (environ 40 % de la précharge). Sa perte, en FA par exemple, est mal tolérée quand le ventricule est raide ou se remplit difficilement.
+@ p. 53 et 59
+
+QCU · Rétrécissement aortique
+Évaluez les deux affirmations et leur lien.
+1. Dans le rétrécissement aortique serré, une hypotension doit être traitée rapidement.
+2. La perfusion coronaire d'un ventricule gauche hypertrophié dépend de la pression artérielle diastolique.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Dans le RA, l'obstacle à l'éjection limite l'augmentation du débit, et le ventricule hypertrophié a des besoins élevés. Une chute de pression compromet la perfusion coronaire : il faut maintenir la PA, éviter la tachycardie et garder le rythme sinusal.
+@ p. 49
+
+QCU · Insuffisance aortique
+Évaluez les deux affirmations et leur lien.
+1. Dans l'insuffisance aortique, une bradycardie est souhaitable.
+2. Une diastole prolongée augmente le temps disponible pour la régurgitation.
+- Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
++ La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Dans l'insuffisance aortique (comme dans l'insuffisance mitrale), on évite la bradycardie : une diastole longue laisse plus de temps au reflux. Une fréquence un peu plus élevée favorise le débit vers l'avant.
+@ p. 50 et 52
+
+QCM · Valvulopathies
+Concernant les objectifs hémodynamiques selon la valvulopathie, quelles propositions sont exactes ?
+- Dans le rétrécissement mitral, une tachycardie améliore le remplissage du ventricule gauche. :: Elle raccourcit la diastole et aggrave la congestion en amont.
++ Dans le rétrécissement mitral, il faut laisser du temps au remplissage diastolique. :: La valve rétrécie demande du temps pour se vider.
+- Dans l'insuffisance mitrale, une postcharge élevée favorise le débit vers l'avant. :: Une postcharge élevée favorise au contraire le reflux.
++ Dans l'insuffisance mitrale, la ventilation en pression positive peut modifier la charge du ventricule gauche. :: Le cours l'évoque pour les insuffisances aortique et mitrale.
+- Dans le rétrécissement mitral, le retentissement se fait surtout en aval, sur le ventricule gauche. :: La congestion se fait en amont : circulation pulmonaire, puis ventricule droit.
+> Les rétrécissements (aortique, mitral) supportent mal la tachycardie. Les insuffisances (aortique, mitrale) supportent mal la bradycardie et une postcharge élevée : on cherche à favoriser le débit vers l'avant.
+@ p. 49 à 52
+
+QCM · Le réveil
+Concernant le réveil du patient cardiaque, quelles propositions sont exactes ?
++ Il est comparé à une épreuve d'effort. :: Douleur, frissons et tachycardie augmentent les besoins du myocarde.
+- Il est moins à risque que l'induction, car le patient est surveillé en SSPI. :: Le cours fait du réveil la période la plus à risque.
++ Le réchauffement peropératoire participe à sa prévention. :: Il évite les frissons et la tachycardie.
++ L'analgésie est préparée à l'avance. :: C'est le A de PREPA.
+- La préoxygénation n'a d'intérêt qu'au réveil. :: Elle prépare l'induction.
+> PREPA résume la stratégie : Préoxygénation, Réchauffement, Éviter les situations de stress, Période la plus à risque (le réveil, véritable épreuve d'effort), Analgésie.
+@ p. 45
+
+QCM · Ischémie myocardique postopératoire
+Concernant l'ischémie myocardique postopératoire, quelles propositions sont exactes ?
++ Elle est souvent silencieuse. :: L'analgésie et le contexte chirurgical masquent la douleur.
++ Une anémie peut la favoriser en réduisant les apports en oxygène. :: Comme l'hypoxémie et l'hypotension.
++ Une hypothermie peut la favoriser en augmentant les besoins. :: Par les frissons, comme la tachycardie et l'HTA.
++ Une troponine élevée doit conduire à une coronarographie à distance. :: Souvent sans traitement en aigu.
++ Une tachycardie raccourcit la diastole et augmente les besoins myocardiques. :: Elle déséquilibre apports et besoins.
+> L'ischémie postopératoire vient d'un déséquilibre apports–besoins. Tachycardie, HTA et hypothermie (frissons) augmentent les besoins ; hypoxémie, anémie et hypotension réduisent les apports. Souvent silencieuse, elle se dépiste à l'ECG et à la troponine, qui mène à une coronarographie à distance.
+@ p. 57
+
+QCM · Complications en SSPI
+Concernant les complications cardiaques en SSPI, quelles propositions sont exactes ?
+- Un OAP se manifeste par une dyspnée qui s'améliore en position allongée. :: L'orthopnée est une dyspnée en position allongée.
++ Un OAP peut se révéler à l'arrêt de la ventilation en pression positive. :: La pression positive masquait la surcharge.
+- Un trouble du rythme nouveau impose une cardioversion électrique. :: On évalue sa tolérance et on recherche une cause.
+- La VNI peut être utilisée chez un patient confus et non coopérant. :: Son recours dépend de la conscience et de la coopération.
+- Une troponine élevée impose une coronarographie en urgence. :: Elle mène le plus souvent à une coronarographie à distance.
+> L'OAP associe orthopnée, désaturation et sécrétions mousseuses, souvent après l'arrêt de la pression positive : on revoit les apports et la PA, avec une VNI si le patient est conscient et coopérant. Un trouble du rythme fait rechercher une cause métabolique ou respiratoire (ionogramme, gaz du sang).
+@ p. 56 à 58
+
+QCM · Pacemaker et défibrillateur en consultation
+Concernant la consultation d'un patient porteur d'un pacemaker ou d'un défibrillateur, quelles propositions sont exactes ?
++ L'ECG permet de savoir si le patient est stimulodépendant. :: Les spikes précèdent l'onde P, le QRS ou les deux.
++ La radiographie de thorax aide à identifier le dispositif et ses sondes. :: Elle peut montrer une fracture de sonde.
++ En chirurgie programmée, la réponse du dispositif à l'aimant est précisée avec le rythmologue. :: Ainsi que l'éventuelle déprogrammation.
+- En chirurgie urgente, un contrôle par programmateur est réalisé avant l'induction. :: En urgence, ce contrôle est illusoire : on garde un aimant à disposition.
+- Un contrôle du dispositif en SSPI est la règle après toute chirurgie. :: Il est illusoire en SSPI ; il se fait avant le retour à domicile si besoin.
+> On identifie le dispositif (carte, position, radiographie), on évalue la stimulodépendance (ECG) et, en programmé, on anticipe avec le rythmologue la réponse à l'aimant et une éventuelle reprogrammation. En urgence, on dispose d'un aimant. Après l'intervention, un DAI doit être de nouveau fonctionnel avant le retour à domicile.
+@ p. 61 à 63 et 67
+
+QCM · Aimant
+Concernant l'effet d'un aimant posé sur un dispositif implanté, quelles propositions sont exactes ?
++ Sur un pacemaker, il déclenche une stimulation asynchrone. :: À une fréquence propre à chaque marque.
+- Sur un défibrillateur, il déclenche une stimulation asynchrone à fréquence fixe. :: Sur un DAI, il suspend la fonction de défibrillation.
++ Sur un défibrillateur, il suspend les traitements antitachycardiques. :: D'où la nécessité de patchs de défibrillation externe.
++ La réponse réelle dépend du modèle et doit si possible être connue. :: Il existe un risque de reprogrammation.
+- Il rend inutile la surveillance par la SpO2 ou la pression invasive. :: L'ECG est parasité par le bistouri : il faut un signal de perfusion.
+> L'aimant met un pacemaker en mode asynchrone et suspend la fonction de défibrillation d'un DAI. La réponse dépend du modèle. La surveillance de la perfusion (SpO2, pression invasive) reste indispensable, et un défibrillateur externe doit être prêt.
+@ p. 64 et 66
+
+QCM · Bistouri électrique et dispositif implanté
+Chez un patient porteur d'un pacemaker, quelles mesures limitent le risque lié au bistouri électrique ?
++ Placer la plaque du bistouri près de la zone opératoire et loin du boîtier :: Le courant ne doit pas traverser le dispositif.
+- Placer les patchs de défibrillation au contact du boîtier :: Ils se placent à plus de 10 cm du boîtier.
+- Préférer le bistouri monopolaire à forte puissance, plus rapide :: Le bistouri monopolaire génère le plus d'interférences.
+- Surveiller le rythme uniquement à l'ECG du scope :: L'ECG est parasité : il faut un signal de perfusion.
+- Remplacer l'aimant par une perfusion d'atropine préparée :: Le cours prévoit un aimant et un pousse-seringue d'Isuprel.
+> On oriente le trajet du courant pour qu'il ne traverse pas le boîtier, on préfère le bipolaire ou des séquences courtes, on place les patchs à plus de 10 cm et on surveille la perfusion par la SpO2 ou la pression sanglante, avec un aimant et de l'Isuprel à portée. Les interférences peuvent inhiber la stimulation ou déclencher un choc inapproprié.
+@ p. 64 et 65

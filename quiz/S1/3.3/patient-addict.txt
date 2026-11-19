@@ -1,0 +1,287 @@
+// Quiz – Anesthésie du patient addictif (UE 3.3), écrit le 19 novembre 2026 d'après le support « Patient addict avec notes », en s'inspirant des annales officielles (tabac, opiacés, prise en charge).
+// Questions type examen : mécanismes, classes de substances, alcool, sevrage, tabac, opiacés, cocaïne, cannabis, protoxyde d'azote. Propositions plausibles, pas de chiffres épidémiologiques.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Patient addict
+
+QCM · Mécanismes de l'addiction
+Concernant les mécanismes de l'addiction, quelles propositions sont exactes ?
++ La première prise active le circuit de la récompense par libération de dopamine. :: Le plaisir est associé à cette libération.
+- La tolérance correspond à l'apparition de symptômes à l'arrêt de la consommation. :: C'est la définition du manque ; la tolérance est la baisse d'effet d'une même dose.
++ L'hippocampe mémorise le lien entre la consommation et le plaisir. :: Il participe à l'apprentissage qui pousse à la répétition.
+- Le cortex préfrontal contient les neurones dopaminergiques à l'origine du signal de récompense. :: Ils sont dans l'aire tegmentale ventrale ; le cortex préfrontal contrôle l'impulsion.
+- La pénibilité du manque n'intervient pas dans les rechutes. :: Le manque pousse à reconsommer et participe aux rechutes.
+> La prise active le circuit de la récompense (dopamine de l'aire tegmentale ventrale). L'hippocampe mémorise le lien produit–plaisir, le cortex préfrontal contrôle (de moins en moins) l'impulsion. Avec la répétition apparaissent tolérance (baisse d'effet), dépendance, perte de contrôle, puis manque à l'arrêt.
+@ p. 7 et 8
+
+QCM · Classes de substances
+Concernant la classification des substances psychoactives selon leur effet sur le SNC, quelles propositions sont exactes ?
++ L'alcool est un psycholeptique. :: Il ralentit le SNC, comme les benzodiazépines et les opioïdes.
+- La kétamine est un psychoanaleptique. :: À doses dissociatives, c'est un psychodysleptique.
++ La nicotine est un psychoanaleptique. :: Comme la cocaïne, les amphétamines et la caféine.
++ Le GHB est un psycholeptique. :: Désinhibition puis sédation, avec coma brutal possible.
++ Le cannabis est classé parmi les psychodysleptiques. :: Il perturbe les perceptions, surtout à forte teneur en THC.
+> Psychodysleptiques : perturbent les perceptions (LSD, psilocybine, kétamine, PCP, cannabis). Psycholeptiques : ralentissent le SNC (alcool, benzodiazépines, barbituriques, opioïdes, GHB). Psychoanaleptiques : stimulent le SNC (cocaïne, amphétamines, MDMA, nicotine, caféine).
+@ p. 9, 10, 12 et 14
+
+QCM · Mécanismes réceptoriels
+Concernant le mécanisme d'action des substances psychoactives, quelles propositions sont exactes ?
++ La kétamine est un antagoniste des récepteurs NMDA du glutamate. :: Comme la phencyclidine.
++ Le LSD agit principalement sur les récepteurs sérotoninergiques 5-HT2A. :: Comme les autres psychédéliques.
+- La caféine inhibe la recapture de la dopamine. :: Elle bloque les récepteurs à l'adénosine.
++ Les amphétamines augmentent la libération des monoamines. :: À la différence de la cocaïne, qui en bloque la recapture.
++ Le THC agit principalement sur les récepteurs cannabinoïdes CB1. :: Présents dans le SNC et en périphérie.
+> Un même comportement peut résulter de mécanismes différents : antagonisme NMDA (kétamine), récepteurs 5-HT2A (LSD), récepteurs CB1 (THC), inhibition de la recapture (cocaïne), libération de monoamines (amphétamines), blocage de l'adénosine (caféine), activation des récepteurs nicotiniques (nicotine).
+@ p. 11 et 15
+
+QCU · Unité d'alcool
+Un patient déclare boire « trois verres standard » par jour. Combien de grammes d'éthanol cela représente-t-il, avec l'unité française ?
+- 14 g :: C'est la valeur d'une seule unité américaine.
+- 21 g :: Ce chiffre ne correspond à aucune unité.
++ 30 g :: En France, 1 verre standard = 1 unité = 10 g d'éthanol.
+- 42 g :: Ce serait 3 unités américaines de 14 g.
+- 60 g :: Ce serait 6 unités : le seuil du binge drinking.
+> En France, une unité d'alcool correspond à 10 g d'éthanol (14 g aux États-Unis). La taille du verre et le degré doivent être précisés pour quantifier une consommation.
+@ p. 17
+
+QCU · Binge drinking
+Selon le cours, à partir de quelle quantité parle-t-on de binge drinking ?
+- Au moins 2 verres en une occasion :: Ce n'est pas un seuil du cours.
+- Au moins 4 verres en une occasion :: C'est le seuil de l'usage à risque ponctuel.
+- Plus de 40 g d'éthanol par jour chez la femme :: C'est un niveau de consommation chronique élevé.
++ Plus de 60 g d'éthanol en une seule occasion :: Soit 6 unités françaises.
+- Plus de 100 g d'éthanol par semaine :: Ce n'est pas un seuil du cours.
+> L'usage à risque ponctuel commence à 4 verres au cours d'une même occasion ; le binge drinking désigne une intoxication de plus de 60 g d'éthanol en une seule occasion.
+@ p. 19
+
+QCM · Niveaux de consommation chronique
+Concernant les niveaux de consommation chronique quotidienne d'alcool définis par l'OMS, quelles propositions sont exactes ?
+- Une consommation de 30 g par jour est « faible » chez la femme. :: Chez la femme, le niveau faible va de 1 à 20 g.
++ Une consommation de 50 g par jour est « modérée » chez l'homme. :: Le niveau modéré va de 40 à 60 g chez l'homme.
+- Une consommation de 30 g par jour est « élevée » chez la femme. :: 30 g correspond au niveau modéré chez la femme (20 à 40 g).
+- Les seuils sont identiques chez l'homme et chez la femme. :: Ils sont plus bas chez la femme, ce que le cours relie au volume de distribution.
+- Le questionnaire AUDIT-C se passe de la notion de verre standard. :: Le patient doit d'abord comprendre ce qu'est un verre standard.
+> Faible : 1–40 g chez l'homme, 1–20 g chez la femme. Modéré : 40–60 g et 20–40 g. Élevé : > 60 g et > 40 g. L'AUDIT-C explore fréquence, quantité habituelle et épisodes de forte consommation.
+@ p. 17 et 20
+
+QCM · Complications neurologiques de l'alcool
+Concernant les complications neurologiques de l'alcoolisme chronique, quelles propositions sont exactes ?
++ L'encéphalopathie de Gayet-Wernicke est liée à une carence en vitamine B1. :: Elle associe troubles de conscience, signes oculomoteurs et syndrome cérébelleux.
++ Une perfusion de glucosé chez un patient carencé peut la déclencher. :: D'où la supplémentation en thiamine.
++ La polynévrite alcoolique peut associer atteinte motrice, sensitive et végétative. :: Par carence en B1 et toxicité directe.
++ L'hématome sous-dural subaigu est fréquent chez l'éthylique chronique. :: Un trouble neurologique ne doit pas être attribué d'emblée à l'ivresse.
+- Le syndrome de Korsakoff est une forme aiguë et réversible d'encéphalopathie. :: Ce sont des séquelles cognitives lourdes.
+> L'alcoolisme chronique expose à la polynévrite, à l'encéphalopathie de Gayet-Wernicke (carence en B1, parfois déclenchée par un apport glucosé), avec des séquelles de type Korsakoff, et à l'hématome sous-dural subaigu.
+@ p. 22
+
+QCM · Atteintes hépatiques et cardiovasculaires
+Concernant les complications de l'alcoolisme chronique, quelles propositions sont exactes ?
++ La stéatose hépatique peut régresser après le sevrage. :: Elle est réversible.
+- La cirrhose est une accumulation réversible de graisses dans les hépatocytes. :: C'est la définition de la stéatose ; la cirrhose est une fibrose structurale.
++ L'alcool est la cause la plus fréquente d'hypertension artérielle réversible. :: L'arrêt peut normaliser certaines HTA.
++ L'alcool est une cause fréquente de fibrillation auriculaire. :: Et d'autres troubles du rythme.
+- L'alcool est responsable de la majorité des cardiomyopathies ischémiques. :: Il est responsable d'une part des cardiomyopathies dilatées non ischémiques.
+> La stéatose est réversible ; la cirrhose entraîne insuffisance hépatocellulaire et hypertension portale. Sur le plan cardiovasculaire, l'alcool cause HTA réversible, cardiomyopathie dilatée non ischémique et fibrillation auriculaire.
+@ p. 23 et 24
+
+QCM · Troubles métaboliques et hémostase
+Chez un patient éthylique, quelles anomalies faut-il rechercher ?
++ Une hypoglycémie :: Trouble métabolique cité, avec l'acidocétose et l'hyponatrémie.
+- Une hypernatrémie :: Le cours cite l'hyponatrémie.
++ Une thrombopénie, en cas de cirrhose :: Avec thrombopathie et baisse des facteurs de coagulation.
++ Une anémie macrocytaire :: Elle fait partie des autres atteintes de l'alcool.
+- Une hypercalcémie :: Elle ne fait pas partie des troubles cités.
+> Trois troubles métaboliques sont à rechercher : hypoglycémie, acidocétose et hyponatrémie. S'y ajoutent anémie macrocytaire, pancréatites, atteintes digestives et, chez le cirrhotique, des troubles de l'hémostase (thrombopénie, thrombopathie, baisse des facteurs).
+@ p. 27
+
+QCM · Intoxication alcoolique aiguë
+Un patient en intoxication alcoolique aiguë doit être opéré en urgence. Quelles propositions sont exactes ?
++ Il est considéré comme ayant l'estomac plein. :: Le cours insiste sur ce point.
+- La vasodilatation s'accompagne d'une bradycardie réflexe. :: Elle s'accompagne d'une tachycardie réflexe, mal tolérée sur une cardiomyopathie dilatée.
+- Ses besoins en hypnotiques sont augmentés par l'induction enzymatique. :: En aigu, la sensibilité aux hypnotiques et aux opioïdes augmente : il faut titrer.
+- Il est exposé à une hyperthermie, liée à la vasodilatation. :: La vasodilatation favorise au contraire l'hypothermie.
+- La tachycardie améliore le remplissage d'un ventricule dilaté. :: Elle raccourcit le temps de remplissage et peut déstabiliser la circulation.
+> L'intoxication aiguë associe dépression neurologique, vasodilatation avec tachycardie réflexe, troubles du rythme, hypothermie et estomac plein. Les besoins anesthésiques sont plutôt diminués : titration et surveillance.
+@ p. 29 et 35
+
+QCU · Physiopathologie du sevrage
+Évaluez les deux affirmations et leur lien.
+1. L'arrêt brutal de l'alcool chez un consommateur chronique provoque une hyperexcitabilité neurovégétative.
+2. La consommation répétée d'alcool entraîne une augmentation des récepteurs NMDA et une baisse de l'activité GABA.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> L'éthanol renforce la voie GABA et inhibe les récepteurs NMDA. Avec la répétition, le cerveau s'adapte (moins de GABA, plus de NMDA). À l'arrêt, ces adaptations persistent : excès d'excitation, tremblements, agitation et hyperactivité neurovégétative.
+@ p. 31
+
+QCM · Niveaux du sevrage alcoolique
+Concernant les niveaux du sevrage alcoolique, quelles propositions sont exactes ?
++ Les premiers signes peuvent apparaître dès 6 heures après l'arrêt. :: Le niveau 1 survient entre 6 et 24 h.
+- Les convulsions sont caractéristiques des premières heures de sevrage. :: Elles relèvent du niveau 3, après 48 h.
+- Les hallucinations définissent le delirium tremens. :: Elles apparaissent dès le niveau 2 ; le delirium tremens associe délire et hyperactivité végétative et métabolique.
++ Le delirium tremens peut s'accompagner de fièvre. :: Avec tachycardie, HTA et hyperventilation.
+- Les niveaux se succèdent dans un ordre strict, sans chevauchement. :: Ils peuvent se succéder ou se chevaucher.
+> Niveau 1 (6–24 h) : hyperréactivité neurovégétative. Niveau 2 (6–48 h) : troubles de l'attention, hallucinations. Niveau 3 (après 48 h) : tremblements intenses, convulsions. Niveau 4 : delirium tremens, qui relève de la réanimation.
+@ p. 32
+
+QCM · Évaluation du patient éthylique
+Lors de la consultation d'un patient éthylique chronique, quelles propositions sont exactes ?
++ La quantification de la consommation est l'élément prioritaire de l'interrogatoire. :: Le support le signale par « +++ ».
++ La parotidomégalie et l'érythrose palmaire sont des signes d'intoxication chronique. :: Comme l'élévation des GGT et la macrocytose.
++ L'examen neurologique est tracé avant une ALR. :: Pour connaître les déficits préexistants (polynévrite).
++ Un bilan d'hémostase est demandé. :: Le risque hémorragique est lié à l'atteinte hépatique.
++ Les signes d'hypertension portale sont recherchés. :: Circulation veineuse collatérale, angiomes stellaires.
+> On quantifie la consommation, on cherche les signes d'intoxication chronique (inconstants), les complications (épilepsie, SAOS, saignement, ulcère, reflux, polynévrite), les signes d'hypertension portale et de sevrage, on trace l'examen neurologique et on demande un bilan d'hémostase. On recherche aussi les co-intoxications.
+@ p. 34
+
+QCM · Agents anesthésiques et alcool
+Concernant l'adaptation des médicaments chez le patient éthylique, quelles propositions sont exactes ?
++ En consommation chronique, l'induction enzymatique peut diminuer la sensibilité aux agents anesthésiques. :: Hors insuffisance hépatique avancée.
++ Les curares à métabolisme extrahépatique sont privilégiés. :: En raison de l'atteinte hépatique.
++ Les AINS exposent le cirrhotique à un risque rénal. :: Le cours le souligne.
+- Le néfopam est l'antalgique de choix en cas d'antécédent de convulsions. :: Néfopam et tramadol sont proconvulsivants.
+- La naltrexone augmente l'effet des morphiniques. :: Antagoniste µ, elle diminue leur effet.
+> En aigu, la sensibilité aux hypnotiques et aux opioïdes augmente ; en chronique, l'induction enzymatique la diminue. On préfère les curares à métabolisme extrahépatique, on évite les AINS chez le cirrhotique et les antalgiques proconvulsivants (néfopam, tramadol) en cas d'antécédent convulsif.
+@ p. 35 et 36
+
+QCM · Sevrage alcoolique programmé et postopératoire
+Concernant la prise en charge du sevrage alcoolique, quelles propositions sont exactes ?
++ Un mois d'arrêt complet avant une chirurgie programmée réduit d'environ moitié les complications périopératoires. :: Notamment infectieuses.
++ La naltrexone est interrompue 48 heures avant l'intervention si possible. :: Pour préserver l'efficacité des morphiniques.
+- Les benzodiazépines sont administrées de façon systématique en postopératoire. :: Elles sont prescrites selon l'évaluation clinique (score de Cushman).
++ La vitamine B1 fait partie de la supplémentation postopératoire. :: Avec B6, PP et folates.
+- La correction du potassium et du phosphore est inutile si le patient s'hydrate. :: Les troubles hydroélectrolytiques sont à corriger.
+> En programmé, on encourage un sevrage d'un mois, avec l'addictologie, et on suspend la naltrexone 48 h avant si possible. En postopératoire : surveillance par le score de Cushman, benzodiazépines selon ce score, vitamines B1, B6, PP et folates, hydratation, correction du potassium et du phosphore.
+@ p. 36 et 37
+
+QCM · Conséquences physiologiques du tabac
+Concernant les conséquences physiologiques du tabac, quelles propositions sont exactes ?
++ Le tabac favorise un état pro-inflammatoire. :: Avec déstabilisation des plaques d'athérome.
+- Le tabac favorise un état hypoadrénergique. :: Il active le système sympathique et libère des catécholamines.
++ Le tabac favorise une hypoxie tissulaire. :: Par la carboxyhémoglobine, les dérivés cyanhydriques et les vasospasmes.
++ Le tabac favorise une dysfonction immunitaire. :: Le risque infectieux est multiplié.
++ Le tabac augmente l'agrégation plaquettaire. :: Avec polyglobulie et viscosité accrues.
+> Le tabac associe activation sympathique (vasoconstriction, tachycardie, hausse de PA), état pro-inflammatoire et prothrombotique (agrégation, polyglobulie), hypoxie tissulaire et dysfonction immunitaire, d'où infections, retards de cicatrisation et de consolidation.
+@ p. 44 à 46
+
+QCM · Monoxyde de carbone
+Concernant le monoxyde de carbone (CO) chez le fumeur, quelles propositions sont exactes ?
++ Son affinité pour l'hémoglobine est supérieure à celle de l'oxygène. :: Il occupe des sites de fixation de l'oxygène.
+- Il augmente la quantité d'oxygène délivrée aux tissus. :: La carboxyhémoglobine réduit le transport utile.
++ Sa demi-vie diminue sous FiO2 de 1 en normobare. :: Environ 90 minutes, d'où l'intérêt d'une préoxygénation soigneuse.
+- La cigarette électronique en produit autant que le tabac fumé. :: Sans combustion, elle ne produit pas de CO.
+- Son taux sanguin ne baisse qu'après plusieurs semaines d'arrêt. :: Il diminue dès les heures qui suivent l'arrêt.
+> Le CO a une affinité pour l'hémoglobine supérieure à celle de l'O2 : la carboxyhémoglobine (jusqu'à 15 %) diminue l'oxygène disponible pour les tissus. Elle baisse dès les premières heures d'arrêt et sa demi-vie est raccourcie sous FiO2 = 1, d'où la préoxygénation soigneuse.
+@ p. 41, 43, 45 et 52
+
+QCU · Délai d'arrêt du tabac
+Selon le cours, quel délai d'arrêt du tabac est probablement nécessaire pour réduire le risque infectieux respiratoire ?
+- 48 heures :: C'est le délai à partir duquel la réactivité bronchique commence à diminuer.
+- 10 à 15 jours :: C'est le délai de disparition de l'hyperréactivité bronchique.
++ 6 à 8 semaines :: Un arrêt court ne suffit pas pour ce bénéfice.
+- 6 mois :: Ce délai n'est pas celui du cours.
+- 1 an :: Ce délai n'est pas celui du cours.
+> Les bénéfices n'arrivent pas au même rythme : la réactivité bronchique diminue dès 48 h et disparaît en 10 à 15 jours ; le risque infectieux demande probablement 6 à 8 semaines. Tout arrêt, même tardif, reste bénéfique.
+@ p. 48 et 50
+
+QCM · Anesthésie du fumeur
+Concernant la conduite de l'anesthésie chez un patient fumeur, quelles propositions sont exactes ?
++ Un jeûne tabagique de 2 heures est demandé, mais sa rupture n'impose pas à elle seule une annulation. :: Il n'est pas rédhibitoire.
++ L'ALR est privilégiée quand elle convient au geste. :: Elle évite la manipulation des voies aériennes.
+- Une anesthésie légère limite le risque de bronchospasme à l'intubation. :: Il faut au contraire une AG assez profonde et des morphiniques.
++ Le sévoflurane, la kétamine et le propofol sont cités pour leur effet bronchodilatateur. :: Agents d'entretien conseillés.
++ Les besoins en morphiniques peuvent être augmentés. :: Dégradation accélérée et baisse des opioïdes endogènes.
+> Chez le fumeur : jeûne tabagique de 2 h (non rédhibitoire), préoxygénation soigneuse, ALR si possible, AG profonde avec morphiniques pour limiter la réactivité à l'intubation, agents bronchodilatateurs, vigilance sur les sécrétions et le laryngospasme au réveil. Les besoins analgésiques sont augmentés.
+@ p. 49 et 52
+
+QCM · Patient toxicomane en urgence
+Concernant la prise en soins anesthésique d'un patient toxicomane opéré en urgence, quelles propositions sont exactes ?
++ L'objectif n'est pas de débuter un sevrage préopératoire. :: En urgence, on traite le problème aigu et on prévient le manque.
+- La nalbuphine est l'antalgique postopératoire de choix. :: Agoniste-antagoniste, elle peut déclencher un sevrage aigu.
+- Des benzodiazépines sont proposées de façon systématique. :: Elles se discutent selon l'anxiété et l'évaluation.
+- Un patient substitué équilibré sous buprénorphine est considéré comme ayant l'estomac plein. :: C'est l'exception présentée par le cours.
+- Une ALR complique la gestion de la douleur en masquant le sevrage. :: Elle permet au contraire de dissocier douleur et sevrage.
+> En urgence, pas d'objectif de sevrage : on traite le problème aigu, on prévient le manque, on considère l'estomac plein (sauf patient substitué équilibré sous buprénorphine) et on privilégie l'ALR si possible, en lien avec l'addictologie.
+@ p. 62 et 65
+
+QCM · Évaluation et contrat de soins
+Concernant l'évaluation préopératoire d'un patient consommateur de substances illicites, quelles propositions sont exactes ?
++ L'interrogatoire précise les produits, les doses, les horaires et la dernière prise. :: Ces informations conditionnent la sécurité de l'anesthésie.
++ Un capital veineux altéré fait recourir précocement à l'échographie. :: Plutôt qu'à des tentatives multiples douloureuses.
+- Un bilan toxicologique est demandé dès qu'une consommation est déclarée. :: Il n'est justifié que s'il a un intérêt diagnostique ou thérapeutique.
++ Le contrat de soins engage l'équipe à prévenir l'état de manque. :: Et à traiter la douleur et l'angoisse.
+- Les sérologies virales sont réalisées sans l'accord du patient pour protéger l'équipe. :: Elles nécessitent son accord.
+> L'évaluation repose sur la confiance, un interrogatoire précis, la recherche des signes d'imprégnation, de manque et de complications, et l'anticipation des abords veineux. Le contrat de soins engage le patient (franchise, pas de produits non prescrits) et l'équipe (information, douleur, angoisse, manque). Les examens répondent à des questions précises.
+@ p. 59 à 61
+
+QCM · Sevrage selon la substance
+Concernant les signes de sevrage selon la substance, quelles propositions sont exactes ?
++ Le sevrage aux opiacés est maximal entre la 24e et la 72e heure. :: Il disparaît spontanément en 7 à 10 jours.
+- Le sevrage à la méthadone débute plus tôt que celui de l'héroïne. :: Il débute vers 12 h, contre 4 h pour l'héroïne.
++ Le sevrage en benzodiazépines peut aller jusqu'à l'état de mal convulsif. :: Le risque vital est souligné.
++ Le sevrage en cocaïne peut associer fatigue intense, sommeil prolongé et faim. :: Avec dépression et hallucinations.
+- Le sevrage aux opiacés commence par une diarrhée et des vomissements. :: Ces signes sont les plus tardifs ; l'anxiété et les bâillements sont les premiers.
+> Opiacés : début 4 h (héroïne) à 12 h (méthadone) après la dernière dose, maximum entre 24 et 72 h, d'abord anxiété, bâillements, sueurs, larmoiement, puis mydriase, piloérection, et enfin vomissements et diarrhée. Benzodiazépines : risque vital, état de mal convulsif. Cocaïne : fatigue, hypersomnie, faim, dépression.
+@ p. 57
+
+QCM · Anesthésie du patient dépendant aux opiacés
+Concernant l'anesthésie chez le patient addictif aux opiacés, quelles propositions sont exactes ?
+- La sensibilité aux stimuli nociceptifs est diminuée chez ces patients. :: Tolérance et hyperalgésie augmentent au contraire les besoins.
++ L'anesthésie locorégionale est à privilégier. :: Elle réduit les besoins en morphiniques.
+- La kétamine est contre-indiquée. :: Elle est recommandée contre l'hyperalgésie.
++ L'analgésie multimodale est préconisée. :: Toujours associée aux morphiniques.
++ Le traitement de substitution est poursuivi en préopératoire. :: Pour éviter une rupture brutale de l'équilibre.
+> Chez le patient dépendant aux opiacés : poursuivre la substitution, privilégier l'ALR, et sous AG utiliser des morphiniques de forte affinité µ titrés, de la kétamine contre l'hyperalgésie et une analgésie multimodale non morphinique. Naloxone et nalbuphine sont évitées (sevrage aigu).
+@ p. 64 et 65
+
+QCM · Opiacés en postopératoire
+Un patient dépendant aux opiacés, non substitué, présente des signes de manque en postopératoire. Quelles propositions sont exactes ?
++ Une titration de morphine IV est réalisée jusqu'à disparition des symptômes. :: Le cours la situe en SSPI.
++ La dose d'entretien s'appuie sur la dose titrée, administrée toutes les 4 heures. :: Puis elle est réévaluée selon l'évolution.
++ Une benzodiazépine peut être associée pour l'anxiété. :: Selon l'évaluation.
++ Cette prise en charge peut nécessiter une unité de surveillance renforcée. :: La titration expose à un risque de dépression respiratoire.
++ La morphine orale peut assurer la substitution en phase aiguë, avant une réduction progressive. :: Le relais se construit avec l'addictologie.
+> Le manque se traite par titration de morphine IV jusqu'à disparition des symptômes, puis une dose d'entretien toutes les 4 h, sous surveillance renforcée, avec une benzodiazépine pour l'anxiété. Le relais par morphine orale est suivi d'une réduction progressive à distance.
+@ p. 66
+
+QCU · Méthadone et buprénorphine
+Quelle proposition décrit correctement les traitements de substitution aux opiacés ?
+- La méthadone est un agoniste-antagoniste, la buprénorphine un agoniste pur. :: C'est l'inverse.
++ La méthadone est un agoniste pur, la buprénorphine un agoniste-antagoniste. :: Selon le cours.
+- Les deux sont des antagonistes purs des récepteurs µ. :: Ce sont les propriétés de la naloxone ou de la naltrexone.
+- Les deux sont des agonistes-antagonistes, comme la nalbuphine. :: Seule la buprénorphine l'est.
+- Les deux sont arrêtées 48 heures avant l'intervention. :: La substitution est poursuivie ; c'est la naltrexone qu'on interrompt.
+> Méthadone : agoniste pur ; buprénorphine (Subutex) : agoniste-antagoniste. La substitution est poursuivie en périopératoire ; la naltrexone, antagoniste utilisé dans le sevrage alcoolique, est interrompue 48 h avant si possible.
+@ p. 36 et 64
+
+QCM · Cocaïne
+Concernant la cocaïne, quelles propositions sont exactes ?
++ Elle bloque la recapture de la noradrénaline, d'où son effet sympathomimétique. :: Avec tachycardie, HTA, vasoconstriction.
++ Le blocage des canaux sodiques et calciques explique les troubles du rythme. :: Effet direct sur les canaux ioniques.
+- En chirurgie programmée, un sevrage de 24 heures suffit. :: Le sevrage recommandé est d'au moins une semaine.
++ Une numération plaquettaire est vérifiée avant une anesthésie périmédullaire. :: En raison d'un risque de thrombopénie.
+- Une anesthésie légère est préférée pour limiter les effets cardiovasculaires des agents. :: Une AG profonde limite les stimulations sympathiques.
+> La cocaïne bloque la recapture de la dopamine (plaisir), de la noradrénaline (effet sympathomimétique) et de la sérotonine (euphorie), et bloque les canaux sodiques et calciques (troubles du rythme). En programmé : sevrage d'au moins une semaine ; plaquettes avant une périmédullaire ; AG profonde.
+@ p. 67 et 68
+
+QCM · Cannabis
+Concernant le patient en intoxication aiguë au cannabis, quelles propositions sont exactes ?
++ Ses besoins en propofol peuvent être modifiés de façon peu prévisible. :: Le support évoque une variation importante des doses ; titration et monitorage.
+- Les effets respiratoires se limitent à une bronchodilatation. :: Elle est suivie d'une inflammation et d'une hyperréactivité des voies aériennes.
++ L'atropine et l'éphédrine sont à éviter. :: Comme la kétamine et l'adrénaline, car sympathomimétiques.
++ Il est considéré comme ayant probablement l'estomac plein. :: Prudence vis-à-vis de l'inhalation.
++ Un effet additif avec les halogénés est possible. :: Donnée issue de modèles animaux.
+> Chez le patient intoxiqué au cannabis : titration et monitorage, effet probablement additif avec les halogénés, éviter les sympathomimétiques (kétamine, atropine, éphédrine, adrénaline), estomac plein probable, et risque de bronchospasme et de laryngospasme.
+@ p. 71 et 72
+
+QCM · Protoxyde d'azote récréatif
+Un patient jeune, consommateur régulier de protoxyde d'azote, doit être opéré. Quelles propositions sont exactes ?
++ L'utilisation peropératoire de N2O est formellement contre-indiquée. :: Elle aggraverait brutalement le déficit en vitamine B12.
+- Un taux sérique normal de vitamine B12 élimine une atteinte liée au N2O. :: Il peut être faussement normal : seule la forme active est touchée.
++ Une supplémentation en vitamine B12 et en méthionine est proposée. :: Elle ne répare pas immédiatement les lésions constituées.
++ Une installation rigoureuse des points d'appui est nécessaire. :: Les nerfs peuvent être fragilisés par la démyélinisation.
++ L'examen neurologique est tracé avant l'anesthésie. :: Pour suivre les déficits préexistants.
+> La consommation répétée de N2O inactive la vitamine B12 : atteinte neurologique (myélopathie, ataxie, neuropathie), hématologique (anémie mégaloblastique) et hyperhomocystéinémie. Au bloc : N2O contre-indiqué, NFS, B12 et homocystéine, supplémentation, examen neurologique tracé, protection des appuis, thromboprophylaxie selon les indications habituelles.
+@ p. 73 et 74

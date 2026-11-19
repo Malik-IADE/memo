@@ -1,0 +1,237 @@
+// Quiz – Anesthésie hors bloc opératoire (UE 3.3), écrit le 19 novembre 2026 d'après le support « Chirurgie hors bloc avec notes ».
+// Questions type examen : définitions, risques, sécurité, niveaux de sédation, endoscopie, électroconvulsivothérapie, thrombectomie, radiologie interventionnelle. Propositions plausibles, pas de chiffres d'activité.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Anesthésie hors bloc
+
+QCM · Définition et activités
+Concernant l'anesthésie hors bloc opératoire, quelles propositions sont exactes ?
++ Elle désigne tout acte d'anesthésie réalisé en dehors d'un bloc opératoire. :: Pour un geste diagnostique ou thérapeutique.
+- Elle se limite aux sédations légères, sans anesthésie générale. :: Elle va de l'anxiolyse à l'anesthésie générale, avec parfois une ALR.
++ L'électroconvulsivothérapie en fait partie. :: Comme les endoscopies, la radiologie interventionnelle et la cardiologie interventionnelle.
+- Elle concerne uniquement des patients ambulatoires et programmés. :: Patients de tout âge, programmés ou urgents, ambulatoires ou hospitalisés.
+- Une IRM chez l'enfant relève du bloc opératoire, pas du hors bloc. :: L'IRM de l'enfant est un exemple d'activité hors bloc.
+> L'anesthésie hors bloc regroupe tous les actes d'anesthésie réalisés hors d'un bloc : endoscopies, radiologie diagnostique et interventionnelle, cardiologie interventionnelle, embolisations en traumatologie, électroconvulsivothérapie. Les patients et les techniques sont très variés.
+@ p. 3 à 6 et 16
+
+QCM · Difficultés de l'environnement
+Pourquoi l'anesthésie hors bloc est-elle considérée comme un exercice difficile ?
++ L'accès à la tête du patient est souvent difficile. :: L'espace est restreint et encombré par l'imagerie.
++ Le personnel du site est souvent moins habitué à l'urgence. :: Et le renfort arrive tardivement.
++ La SSPI est souvent éloignée. :: Le transfert doit être monitoré.
+- Les gestes y sont en général plus courts et moins douloureux qu'au bloc. :: Ils sont souvent longs, douloureux, anxiogènes ou inconfortables.
++ Le matériel peut différer de celui du bloc et les réserves être dispersées. :: D'où l'intérêt de standardiser.
+> Le hors bloc cumule un environnement peu adapté (rayons X, espace restreint, accès à la tête, froid, pénombre), l'isolement (renfort tardif, SSPI éloignée), un matériel différent et des patients de tous terrains.
+@ p. 7 et 23
+
+QCU · Principale cause de complications
+Selon le cours, quelle est la principale cause de complications en anesthésie hors bloc ?
+- Les erreurs d'identification du patient :: Ce n'est pas la cause principale retenue.
+- Les réactions allergiques aux produits de contraste :: Ce n'est pas la cause principale retenue.
++ L'inadéquation entre oxygénation et ventilation :: Souvent lors d'une sédation qui s'approfondit sans être repérée.
+- Les chutes lors des transferts vers la table d'imagerie :: Ce n'est pas la cause principale retenue.
+- L'irradiation du patient :: Ce n'est pas la cause principale retenue.
+> Les complications hors bloc sont dominées par l'inadéquation entre oxygénation et ventilation, souvent lors d'une sédation trop profonde non repérée. Elles sont souvent évitables par un monitorage adapté, en particulier respiratoire (capnographie).
+@ p. 22 et 26
+
+QCM · Exigences réglementaires et sécurité
+Concernant les exigences de sécurité de l'anesthésie hors bloc, quelles propositions sont exactes ?
++ Elles sont les mêmes que pour une anesthésie au bloc opératoire. :: Le décret de 1994 s'applique à tout site d'anesthésie.
++ Une consultation et une visite préanesthésiques sont requises. :: Comme pour toute anesthésie programmée.
++ La surveillance se poursuit après le geste, jusqu'en SSPI. :: Le transfert se fait monitoré, avec oxygène.
+- La présence d'un défibrillateur dans la salle suffit à garantir qu'il fonctionne. :: Dans un espace partagé, il a pu être débranché : on le vérifie à chaque vacation.
+- Une check-list est inutile, le geste étant réalisé par un non-chirurgien. :: Procédures écrites et check-list font partie de la sécurisation.
+> Chaque site hors bloc est un site d'anesthésie à part entière : mêmes exigences qu'au bloc, consultation et visite, matériel et oxygène, surveillance jusqu'en SSPI, procédures écrites et check-list, logistique rigoureuse (défibrillateur vérifié, stocks, péremptions).
+@ p. 18 à 21 et 24
+
+QCM · Organisation des sites
+Concernant l'organisation des sites d'anesthésie hors bloc, quelles propositions sont exactes ?
+- Regrouper les sites isole davantage les équipes. :: Le regroupement facilite au contraire le renfort et l'entraide.
++ Standardiser le matériel évite de chercher les commandes d'un respirateur inconnu en urgence. :: C'est l'intérêt de la standardisation.
+- La surveillance peut être interrompue pendant le transfert vers une SSPI éloignée. :: Elle commence en salle et ne s'interrompt pas pendant le transfert.
+- Une salle hybride supprime tout déplacement du patient et des circuits. :: Le patient et les circuits se déplacent toutefois lors des acquisitions d'images.
+- L'oxygène à haut débit est optionnel en dehors du bloc. :: Il fait partie des moyens matériels indispensables.
+> Pour sécuriser le hors bloc : regrouper les sites (renfort, homogénéité, trajet vers la SSPI), standardiser le matériel, rédiger des procédures, surveiller sans interruption jusqu'en SSPI. La salle hybride associe imagerie et environnement de bloc.
+@ p. 24 à 28 et 55
+
+QCM · Installation en radiologie
+Lors d'une anesthésie en salle de radiologie interventionnelle, quelles précautions d'installation sont adaptées ?
++ Fixer la sonde et les circuits avant la pose des champs :: L'accès sera ensuite difficile.
++ Vérifier que les tubulures ne se tendent pas lors des déplacements de l'arceau ou de la table :: Les circuits sont plus longs et l'imagerie bouge.
++ Garder le monitorage visible, au besoin sur un écran déporté derrière la vitre :: L'équipe se protège des rayons X tout en surveillant.
++ Porter un tablier plombé et un dosimètre :: La radioprotection fait partie des contraintes.
++ Anticiper la place du respirateur lors d'un transfert du lit vers la table d'imagerie :: Induction souvent sur le lit, puis transfert.
+> L'imagerie se déplace autour du patient : sonde et circuits fixés avant les champs, tubulures vérifiées, monitorage visible (écran déporté), radioprotection (tablier, dosimètre, distance, vitre), transferts anticipés.
+@ p. 7, 27 et 46
+
+QCU · Niveaux de sédation
+Un patient sédaté pour une endoscopie ne répond qu'après des stimulations répétées ou douloureuses. Quel est son niveau de sédation ?
+- Sédation minimale (anxiolyse) :: Le patient répond normalement à la voix.
+- Sédation modérée :: Le patient répond de façon adaptée à la voix ou au toucher.
++ Sédation profonde :: Réponse seulement après stimulation répétée ou douloureuse.
+- Anesthésie générale :: Aucune réponse aux stimuli douloureux.
+- Sédation consciente :: C'est un autre nom de la sédation modérée.
+> Sédation minimale : réponse normale à la voix. Sédation modérée (« consciente ») : réponse adaptée à la voix ou au toucher. Sédation profonde : réponse après stimulation répétée ou douloureuse, ventilation parfois insuffisante. Anesthésie générale : aucune réponse à la douleur.
+@ p. 17
+
+QCM · Sédation profonde
+Concernant la sédation profonde, quelles propositions sont exactes ?
++ Une intervention sur les voies aériennes peut être nécessaire. :: Les voies aériennes ne sont plus garanties.
++ La ventilation spontanée peut être insuffisante. :: D'où le monitorage de l'EtCO2.
+- La fonction cardiovasculaire est habituellement altérée, comme sous anesthésie générale. :: Elle est en général préservée ; c'est sous AG qu'elle peut être touchée.
+- Elle ne peut pas évoluer vers une anesthésie générale si les doses sont titrées. :: Les niveaux forment un continuum ; la sédation peut devenir plus profonde que prévu.
+- Le patient répond de façon adaptée à une simple consigne verbale. :: C'est le cas de la sédation minimale ou modérée.
+> En sédation profonde, la réponse n'apparaît qu'à la stimulation répétée ou douloureuse, les voies aériennes et la ventilation peuvent être compromises. Comme les niveaux forment un continuum, on titre, on surveille la ventilation et on dispose de quoi intervenir.
+@ p. 17
+
+QCM · Moyens de la sédation procédurale
+Avant de débuter une sédation procédurale, quels moyens doivent être réunis ?
++ Une voie veineuse fonctionnelle :: Pour titrer et traiter.
+- Une sonde d'intubation déjà en place :: L'intubation se discute selon le terrain et le geste.
++ L'oxygène et le matériel de ventilation :: Pour faire face à une apnée.
+- Une curarisation préventive pour éviter les mouvements :: Elle n'a pas sa place en sédation.
+- Une prescription de produits à dose fixe, sans titration :: Les produits sont titrés à la réponse du patient.
+> Une sédation procédurale demande une voie veineuse, l'oxygène et le matériel de ventilation, les antidotes, la connaissance des produits titrés à la réponse, un monitorage avec enregistrement (réponse verbale, EtCO2, SpO2, PA, FC) et une surveillance en SSPI.
+@ p. 17 et 26, 27
+
+QCM · Monitorage de la sédation
+Pendant une sédation pour un geste hors bloc, quels paramètres doivent être surveillés ?
++ La réponse verbale du patient :: Elle reflète la profondeur de la sédation.
++ Le CO2 expiré :: La capnographie dépiste l'apnée et l'obstruction.
++ La SpO2 :: Elle complète la capnographie, mais baisse plus tardivement.
++ La pression artérielle et la fréquence cardiaque :: Elles font partie du monitorage minimal.
++ L'enregistrement des paramètres :: Il fait partie des exigences.
+> Le monitorage d'une sédation associe la réponse verbale, la capnographie, la SpO2, la PA et la FC, avec enregistrement. La capnographie est essentielle : l'inadéquation oxygénation–ventilation est la première cause de complications.
+@ p. 26 et 27
+
+QCM · Endoscopie digestive
+Concernant l'anesthésie pour endoscopie digestive, quelles propositions sont exactes ?
++ Le propofol est le produit le plus utilisé. :: Parfois associé à une benzodiazépine ou à un morphinique.
++ L'oxygène est administré à haut débit. :: Pour limiter la désaturation en cas d'hypoventilation.
++ Le propofol peut être administré en bolus, en perfusion continue ou en AIVOC. :: Toujours titré à la réponse.
++ L'intubation se décide selon le terrain, le geste et le risque d'inhalation. :: Elle n'est pas systématique.
++ Si deux examens sont prévus, la fibroscopie haute est réalisée avant la coloscopie. :: C'est l'ordre proposé.
+> Les objectifs sont un patient calme, sans mémorisation, et une remise à la rue rapide et sûre. Propofol titré (bolus, continu ou AIVOC), oxygène à haut débit, capnographie, intubation selon le terrain et le risque d'inhalation ; fibroscopie haute puis coloscopie.
+@ p. 31 et 32
+
+QCM · Objectifs en endoscopie
+Concernant les objectifs de l'anesthésie en endoscopie digestive ambulatoire, quelles propositions sont exactes ?
++ Un patient calme et coopérant :: Pour la réalisation du geste.
++ L'absence de mémorisation d'un geste désagréable :: C'est un objectif cité.
+- Une sédation profonde systématique pour assurer l'immobilité :: Le niveau est adapté au geste et au patient.
++ Une remise à la rue rapide et sûre :: Le patient est le plus souvent ambulatoire.
++ L'utilisation possible de moyens non médicamenteux :: Hypnose, sophrologie, réalité virtuelle.
+> En endoscopie digestive, on cherche un patient calme et coopérant, sans mémorisation, avec une remise à la rue rapide et sûre. Le niveau de sédation est adapté ; des moyens non médicamenteux peuvent compléter.
+@ p. 31 et 32
+
+QCM · Électroconvulsivothérapie : indications et contre-indications
+Concernant l'électroconvulsivothérapie, quelles propositions sont exactes ?
++ Elle est indiquée dans la dépression sévère. :: Comme l'accès maniaque aigu et les troubles schizo-affectifs.
+- L'hypertension intracrânienne en est une contre-indication relative. :: C'est la contre-indication absolue.
++ Un décollement de rétine est une contre-indication relative. :: Comme le phéochromocytome ou un anévrisme à risque hémorragique.
+- Elle se réalise sous sédation légère, sans curare. :: Elle se fait sous AG brève avec curare.
+- Une visite préanesthésique unique suffit pour toute la série de séances. :: Une visite est faite avant chaque séance, l'état pouvant changer.
+> L'électroconvulsivothérapie traite la dépression sévère, l'accès maniaque et les troubles schizo-affectifs. Contre-indication absolue : HTIC. Relatives : risque anesthésique, décollement de rétine, processus expansif sans HTIC, anévrisme ou malformation vasculaire, phéochromocytome. Une visite précède chaque séance.
+@ p. 33
+
+QCM · Électroconvulsivothérapie : conduite de l'anesthésie
+Concernant la conduite de l'anesthésie pour une électroconvulsivothérapie, quelles propositions sont exactes ?
++ Elle se réalise au masque, avec un cale-dent. :: Après retrait des corps étrangers buccaux.
++ L'hypnotique peut être le propofol ou l'étomidate. :: Selon le cours.
+- Un morphinique est associé pour limiter la douleur au réveil. :: Les analgésiques élèvent le seuil épileptogène : pas d'analgésique.
++ La succinylcholine est le curare le plus souvent utilisé. :: Le besoin de curarisation est bref.
+- La curarisation a pour but de supprimer l'activité électrique de la crise. :: Elle limite les convulsions motrices ; la crise reste efficace sur le plan cérébral.
+> Anesthésie générale brève au masque, cale-dent, propofol ou étomidate, succinylcholine (ou rocuronium puis sugammadex), sans analgésique, avec un EEG pour vérifier la crise et sa durée. Le curare prévient luxations et fractures sans empêcher la crise.
+@ p. 33 et 34
+
+QCU · Absence de crise
+Lors d'une électroconvulsivothérapie, la stimulation ne déclenche pas de crise généralisée. Quelle mesure est adaptée pour la séance suivante ?
+- Augmenter la dose d'hypnotique :: Il faut au contraire la réduire, l'hypnotique élevant le seuil.
+- Ajouter une benzodiazépine en prémédication :: Les benzodiazépines élèvent le seuil épileptogène.
++ Administrer un produit qui prolonge la crise, comme la caféine :: C'est une des mesures proposées.
+- Remplacer la succinylcholine par une dose plus élevée de rocuronium :: Le curare ne déclenche pas la crise.
+- Ajouter un morphinique à l'induction :: Les analgésiques élèvent le seuil épileptogène.
+> Sans crise : réduire la dose d'hypnotique ou de curare, réduire ou arrêter benzodiazépines et antiépileptiques, donner un produit qui prolonge la crise (caféine) ou changer d'hypnotique. Si la crise dure plus de 180 secondes : hypnotique ou benzodiazépine d'action rapide, puis surveillance en SSPI.
+@ p. 35
+
+QCM · Complications de l'électroconvulsivothérapie
+Quelles complications peut entraîner une électroconvulsivothérapie ?
++ Un laryngospasme :: Complication respiratoire citée, avec l'inhalation et l'apnée prolongée.
++ Un traumatisme dentaire :: D'où le cale-dent.
+- Une hyperthermie maligne déclenchée par la crise :: Elle n'est pas citée parmi les complications.
++ Un état de mal épileptique :: D'où la surveillance si la crise se prolonge.
++ Une défaillance circulatoire :: Complication citée.
+> Les complications de l'électroconvulsivothérapie sont respiratoires (laryngospasme, inhalation, apnée prolongée), traumatiques (dents, luxations, fractures), circulatoires et neurologiques (état de mal, paralysie périphérique).
+@ p. 33 et 35
+
+QCM · Thrombectomie : organisation
+Concernant l'organisation de l'anesthésie pour une thrombectomie mécanique, quelles propositions sont exactes ?
++ Le site est préparé à l'avance pour ne pas retarder le geste. :: « Time is brain ».
++ L'évaluation préanesthésique est rapide et ciblée. :: Voies aériennes, hémodynamique, état neurologique.
++ L'équipe d'anesthésie reste présente pendant toute la procédure. :: Une conversion en AG peut être nécessaire.
++ La surveillance postopératoire se fait en SSPI ou en réanimation. :: Selon l'état neurologique.
++ La thrombectomie vise à sauver la zone de pénombre. :: Tissu hypoperfusé encore récupérable.
+> La thrombectomie retire le caillot d'une occlusion artérielle cérébrale proximale pour sauver la pénombre. Tout est organisé pour gagner du temps : site prêt, évaluation ciblée, équipe présente du début à la fin, surveillance en SSPI ou en réanimation.
+@ p. 36 et 37
+
+QCM · Thrombectomie : AG ou sédation
+Concernant le choix entre anesthésie générale et sédation pour une thrombectomie, quelles propositions sont exactes ?
+- L'anesthésie générale permet un examen neurologique pendant le geste. :: C'est un avantage de la sédation.
++ L'induction d'une anesthésie générale expose à une hypotension délétère pour un cerveau mal perfusé. :: C'est un de ses inconvénients.
+- La sédation garantit le contrôle des voies aériennes. :: Elle n'assure pas ce contrôle ; une intubation en urgence peut être nécessaire.
+- Une atteinte de la circulation postérieure fait préférer la sédation. :: Elle fait au contraire préférer l'AG avec intubation.
+- La sédation est préférée chez un patient agité qui vomit. :: L'agitation et les vomissements font préférer l'AG.
+> AG : immobilité et protection des voies aériennes, mais retard au geste, hypotension à l'induction et risque d'hypocapnie. Sédation : meilleure stabilité et examen neurologique possible, mais mouvements, douleur et absence de contrôle des voies aériennes. AG préférée si circulation postérieure, navigation difficile, NIHSS ≥ 15, vigilance altérée, défaillance respiratoire, agitation ou vomissements.
+@ p. 38 et 41
+
+QCM · Thrombectomie : objectifs physiologiques
+Concernant les objectifs physiologiques pendant et après une thrombectomie, quelles propositions sont exactes ?
++ Une PAS entre 130 et 180 mmHg est visée si la recanalisation est incomplète. :: TICI < 2b.
++ Une PAS entre 130 et 160 mmHg est visée si la recanalisation est réussie. :: TICI ≥ 2b.
++ La SpO2 est maintenue au moins à 95 %. :: Objectif cité.
++ L'EtCO2 est maintenue entre 35 et 40 mmHg sous anesthésie générale. :: Pour éviter l'hypocapnie.
+- Une hypocapnie modérée est recherchée pour diminuer l'œdème cérébral. :: Elle entraîne une vasoconstriction et réduit la perfusion de la pénombre.
+> Objectifs : PAS 130–180 mmHg si recanalisation incomplète, 130–160 mmHg si réussie ; SpO2 ≥ 95 % ; EtCO2 35–40 mmHg sous AG (l'hypocapnie réduit la perfusion de la pénombre) ; traiter l'hyperglycémie sans provoquer d'hypoglycémie.
+@ p. 42
+
+QCU · Hypocapnie et pénombre
+Évaluez les deux affirmations et leur lien.
+1. Pendant une thrombectomie sous anesthésie générale, l'hypocapnie doit être évitée.
+2. L'hypocapnie entraîne une vasoconstriction cérébrale.
++ Les deux affirmations sont vraies et la seconde explique la première.
+- Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> La vasoconstriction liée à l'hypocapnie réduit la perfusion de la zone de pénombre, qui peut alors évoluer vers l'infarctus. On vise une EtCO2 de 35 à 40 mmHg sous AG.
+@ p. 38 et 42
+
+QCM · Médicaments de la sédation en thrombectomie
+Concernant les médicaments de sédation discutés pour une thrombectomie, quelles propositions sont exactes ?
+- Le rémifentanil est sans risque respiratoire aux doses de sédation. :: Il expose à un risque d'apnée.
+- La dexmédétomidine provoque une dépression respiratoire marquée. :: Elle n'entraîne pas de dépression respiratoire.
++ La dexmédétomidine peut entraîner une hypertension, puis une hypotension ou une bradycardie. :: Ce sont ses effets hémodynamiques cités.
+- La sédation dispense de monitorer le CO2 expiré. :: L'EtCO2 vérifie la persistance de la ventilation spontanée d'un patient peu accessible.
+- Le rémifentanil n'a pas d'effet analgésique. :: C'est un morphinique analgésique.
+> Rémifentanil : analgésique, mais risque d'apnée. Dexmédétomidine : anxiolyse et analgésie sans dépression respiratoire, mais hypertension puis hypotension ou bradycardie. Sous sédation, l'EtCO2 surveille en continu la ventilation spontanée.
+@ p. 39 et 42
+
+QCM · Fin de thrombectomie
+Concernant la fin de procédure après une thrombectomie sous anesthésie générale, quelles propositions sont exactes ?
++ L'anesthésie est arrêtée dès la fin du geste, en l'absence de défaillance ventilatoire ou de complication neurologique. :: Pour permettre l'évaluation neurologique.
++ L'ouverture des yeux fait partie des critères d'extubation. :: Glasgow yeux ≥ 3.
+- La réponse aux ordres simples est exigée avant d'extuber. :: Elle n'est pas exigée : l'aphasie est fréquente.
++ La toux et la déglutition sont vérifiées si la circulation postérieure était atteinte. :: Le tronc cérébral contrôle ces réflexes.
+- L'aspirine est administrée pendant le geste pour prévenir la réocclusion. :: Pas d'aspirine pendant le geste : risque d'hémorragie cérébrale.
+> On arrête l'anesthésie dès la fin du geste et on extube selon les critères habituels et l'ouverture des yeux, sans exiger la réponse aux ordres. Pas d'aspirine pendant le geste ; si un stent est posé, l'antiagrégation est introduite après une imagerie excluant une hémorragie.
+@ p. 43 et 44
+
+QCM · Radiologie interventionnelle ostéo-articulaire
+Concernant l'anesthésie pour la radiologie interventionnelle ostéo-articulaire, quelles propositions sont exactes ?
++ Elle peut se faire sous anesthésie générale ou sous rachianesthésie. :: Selon le geste.
+- La douleur y est moindre que pour la chirurgie conventionnelle équivalente. :: Le risque hémorragique est moindre, mais la douleur pas forcément.
++ Les patients sont parfois âgés ou cancéreux, avec une hémostase modifiée par leurs traitements. :: Terrains variés.
+- La radioprotection ne concerne que le radiologue. :: Elle concerne toute l'équipe, dont l'anesthésie.
+- Le décubitus ventral impose de comprimer l'abdomen pour stabiliser le rachis. :: L'abdomen doit rester libre entre les appuis.
+> Gestes comme la cimentoplastie : AG ou rachianesthésie, risque hémorragique moindre mais douleur pas toujours moindre, terrains fragiles, décubitus ventral sur appuis avec abdomen libre, radioprotection de toute l'équipe.
+@ p. 45 à 47
