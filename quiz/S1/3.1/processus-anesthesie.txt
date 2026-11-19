@@ -1,348 +1,305 @@
-// Quiz 14 – Processus d’anesthésie (UE 3.1), d'après « QUIZZ 14 Processus d'anesthésie.html »
+// Quiz – Processus d'anesthésie (UE 3.1), réécrit le 18 novembre 2026 d'après le support « Processus d'anesthésie avec notes », sur le modèle du quiz Patient hypertendu.
+// Questions type examen sur les notions générales : cadre réglementaire, consultation et visite pré-anesthésique, évaluation du terrain et des voies aériennes, examens complémentaires, gestion du capital sanguin, site d'anesthésie et monitorage, anesthésie générale, SSPI, ALR. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Processus d’anesthésie
+# Processus d'anesthésie
 
-QCM · Parcours périopératoire
-Quelles propositions décrivent la prise en charge anesthésique périopératoire ?
-+ Elle comprend la préparation avant le geste :: Consultation, visite préanesthésique, optimisation du terrain
-- Elle commence à l’injection de l’hypnotique :: Elle commence bien avant, dès la consultation d'anesthésie
-+ Elle prévoit l’analgésie et la surveillance postopératoires :: Le parcours se poursuit en salle de surveillance et jusqu'au retour en chambre
-- Elle se termine dès que la sonde d’intubation est retirée :: L'extubation n'est qu'une étape : la surveillance postopératoire en fait partie
-+ Elle adapte la stratégie au terrain et à l’intervention :: Même geste et même terrain n'appellent pas la même stratégie selon le contexte
-> La médecine périopératoire associe préparation, anesthésie et suites. L’anticipation de la douleur, des risques et de la destination postopératoire fait partie de la stratégie. L’extubation n’en constitue pas la fin.
-@ 2, 5, 49-50, 82
+QCM · Cadre réglementaire
+Concernant les obligations réglementaires du décret de 1994, quelles propositions sont exactes ?
++ Une consultation d'anesthésie est obligatoire. :: Elle prépare la stratégie.
++ Le site d'anesthésie doit disposer des moyens de surveillance et de secours. :: Matériel vérifié avant utilisation.
++ Une surveillance post-interventionnelle est obligatoire. :: C'est le rôle de la SSPI.
++ Une organisation doit permettre de faire face à une complication. :: L'urgence se compte en secondes.
+- Ces obligations portent sur le résultat de l'anesthésie. :: Ce sont des obligations de moyens, pas de résultat.
+> Quatre piliers : consultation, site d'anesthésie sécurisé, surveillance post-interventionnelle, organisation face aux complications. Ce sont des obligations de moyens.
+@ p. 6 et 113
 
-QCM · Consultation et VPA
-Un patient doit bénéficier d’une chirurgie urgente non différable. Quelles propositions sont exactes ?
-- Il faut attendre 48 heures après l’évaluation anesthésique avant de l’opérer :: Ce délai concerne la consultation programmée, pas l'urgence
-+ Une évaluation anesthésique immédiate doit être réalisée avant le geste :: Même brève, elle recherche l'essentiel : terrain, jeûne, allergies, traitements
-- L’urgence permet de se passer de la recherche des allergies :: Les allergies se recherchent toujours : c'est le minimum vital de l'interrogatoire
-+ Les informations disponibles et les limites de l’interrogatoire doivent être tracées :: Dire ce qu'on n'a pas pu obtenir vaut mieux que de laisser le dossier muet
-- Un patient déjà intubé n’a plus besoin d’évaluation préopératoire :: Il en a d'autant plus besoin : il faut reconstituer le terrain et les traitements
-> Le délai de 48 h concerne le geste programmé. En urgence, on évalue au mieux juste avant le geste : terrain, médicaments, allergies et voies aériennes. Un patient non interrogeable reste évalué, avec une trace des données manquantes.
-@ 7, 50, 128-131
+QCU · Délai de la consultation
+Concernant le délai entre la consultation d'anesthésie et une intervention programmée, quelle proposition est exacte ?
+- La loi laisse le délai au choix de l'équipe. :: Un délai minimal existe pour la chirurgie programmée.
++ La consultation doit avoir lieu au moins 48 heures avant le geste programmé. :: Le délai laisse au patient le temps de réfléchir et à l'équipe celui de s'organiser.
+- La consultation doit avoir lieu au moins 15 jours avant le geste. :: Ce n'est pas le délai légal.
+- La visite pré-anesthésique remplace la consultation. :: Ce sont deux temps distincts.
+- Le délai s'applique aussi à la chirurgie urgente. :: En urgence, seule une consultation immédiate est exigée.
+> Chirurgie programmée : consultation au moins 48 h avant, puis visite pré-anesthésique la veille ou juste avant. Urgence : consultation pré-opératoire immédiate. Toujours par un médecin anesthésiste, avec trace écrite.
+@ p. 7 et 131
 
-QCM · Interrogatoire
-Lors de l’évaluation préanesthésique, quels éléments sont utiles ?
-+ Les traitements habituels et leur indication :: Un traitement n'a de sens qu'avec son indication, qui conditionne sa poursuite
-+ La tolérance à l’effort dans la vie quotidienne :: C'est le meilleur reflet de la réserve cardiorespiratoire
-- Les antécédents encore actifs, les anciens étant sans intérêt :: Un antécédent ancien peut avoir des conséquences actuelles, notamment allergiques
-+ Les antécédents de saignement anormal :: Ils orientent vers un trouble constitutionnel de l'hémostase
-+ Les antécédents d’allergie et les documents associés :: Un bilan allergologique antérieur désigne les produits à éviter
-> L’ordonnance peut révéler des maladies bien contrôlées que le patient ne mentionne plus. Capacité d’effort, histoire hémorragique et allergies participent à l’anticipation. Les documents antérieurs complètent l’interrogatoire.
-@ 10-12, 44
+QCU · Consultation en urgence
+Un homme de 45 ans doit être opéré en urgence d'une fracture ouverte de cheville. Concernant sa consultation d'anesthésie, quelle proposition est exacte ?
+- Il faut respecter un délai de 48 heures avant l'intervention. :: Ce délai concerne la chirurgie programmée.
++ La consultation peut être réalisée immédiatement, juste avant l'intervention. :: C'est la seule obligation en urgence.
+- La consultation peut être omise faute de temps. :: Elle reste obligatoire, adaptée au temps disponible.
+- L'examen de la bouche est inutile en urgence. :: Le risque d'intubation difficile doit être estimé.
+- La recherche d'allergie peut être différée après l'intervention. :: Elle fait partie de l'évaluation préalable.
+> En urgence, on adapte la préparation au temps disponible sans supprimer l'évaluation : terrain, voies aériennes, allergies, jeûne, stratégie (séquence rapide si estomac plein) et traçabilité.
+@ p. 50 et 128 à 131
 
-QCM · Réserve fonctionnelle
-Concernant la capacité fonctionnelle cardiovasculaire, quelles propositions sont exactes ?
-- Un score NYHA IV correspond à l’absence de limitation :: C'est le stade le plus sévère : symptômes au moindre effort ou au repos
-- Une capacité inférieure à 4 MET interdit automatiquement toute chirurgie :: Elle majore le risque et fait discuter l'optimisation, pas l'interdiction
-+ Les MET aident à exprimer la capacité à réaliser un effort :: Un équivalent métabolique correspond à la consommation d'oxygène au repos
-- La capacité fonctionnelle est identique au score ASA :: Le score ASA décrit le terrain, les MET mesurent la capacité à l'effort
-+ Des symptômes cardiaques au repos orientent vers un stade NYHA élevé :: C'est la définition du stade IV
-> Les MET caractérisent la capacité d’effort ; NYHA décrit le retentissement symptomatique de la cardiopathie. NYHA IV correspond à des symptômes au repos. Une faible réserve demande une réflexion plus approfondie, sans interdire systématiquement le geste.
-@ 13-18
+QCM · Buts de la consultation
+Concernant les buts de la consultation d'anesthésie, quelles propositions sont exactes ?
++ Évaluer le risque lié au terrain du patient. :: Comorbidités, traitements, tolérance à l'effort.
++ Évaluer le risque lié à la chirurgie. :: Un même geste n'a pas les mêmes conséquences selon le patient.
++ Informer le patient des risques encourus. :: L'information prépare un consentement éclairé.
++ Déterminer une stratégie adaptée au risque. :: Technique, monitorage, voies aériennes, transfusion, analgésie.
+- Imposer au patient la technique jugée la meilleure. :: Le patient, informé des avantages et inconvénients, choisit in fine.
+> La consultation croise terrain et chirurgie, informe et aboutit à une stratégie écrite et transmise : technique, NVPO, monitorage, voies aériennes, transfusion, analgésie, suites.
+@ p. 9, 46 et 143
 
-QCM · Risque hémorragique
-Concernant l’interrogatoire de saignement et le questionnaire HEMSTOP, quelles propositions sont exactes ?
-+ Les saignements après chirurgie ou extraction dentaire sont utiles à rechercher :: Ce sont les situations qui révèlent un trouble de l'hémostase resté méconnu
-- Un questionnaire rassurant autorise à ignorer un traitement anticoagulant :: Un traitement anticoagulant pose une question distincte, propre à sa gestion
-+ Un score HEMSTOP ≥ 2 fait suspecter un trouble hémorragique :: Seuil qui justifie un avis spécialisé avant le geste
-+ Les antécédents familiaux peuvent apporter une information :: Un trouble constitutionnel se transmet : la famille est une source d'information
-- Le questionnaire mesure directement la quantité de sang que la chirurgie fera perdre :: Il dépiste un trouble de l'hémostase ; le saignement chirurgical dépend du geste
-> HEMSTOP recherche une histoire personnelle et familiale compatible avec une diathèse hémorragique. Le seuil de suspicion est ≥ 2. Il ne quantifie pas les pertes du geste et ne remplace pas l’analyse des antithrombotiques.
-@ 11, 29
+QCM · Évaluation du terrain
+Concernant l'évaluation du terrain en consultation, quelles propositions sont exactes ?
++ Elle repose essentiellement sur l'interrogatoire. :: Antécédents, traitements, tolérance à l'effort.
++ L'ordonnance renseigne sur des maladies que le patient peut omettre. :: Exemple : un patient « sans HTA » sous plusieurs antihypertenseurs.
++ La tolérance à l'effort est plus pertinente que les examens de repos. :: Elle reflète la réserve fonctionnelle.
+- L'examen clinique se limite à l'auscultation cardiaque. :: Il cible aussi les poumons, le rachis et les voies aériennes.
+- La notion de saignement anormal lors d'une chirurgie passée est sans intérêt. :: Elle oriente vers un trouble de l'hémostase.
+> Interrogatoire (antécédents, ordonnance, effort, saignement) puis examen ciblé (cœur, poumons, rachis si ALR, voies aériennes). La capacité à l'effort (METs, NYHA) estime la réserve fonctionnelle.
+@ p. 10 à 13
+
+QCM · Risque cardiovasculaire
+Concernant l'évaluation du risque cardiovasculaire périopératoire, quelles propositions sont exactes ?
++ Le score de Lee compte notamment la cardiopathie ischémique, l'insuffisance cardiaque et l'AVC. :: Ainsi que le diabète, l'insuffisance rénale et la chirurgie à haut risque.
+- Une chirurgie à haut risque cardiovasculaire comporte moins de 1 % de complications. :: Plus de 5 % ; moins de 1 % correspond au risque faible.
++ L'évaluation croise le risque du patient et celui de la chirurgie. :: Plus les deux sont élevés, plus elle s'approfondit.
+- Un ECG est indiqué chez chaque patient, quel que soit le geste. :: Il est guidé par le risque du patient et du geste.
+- Un patient en insuffisance cardiaque NYHA IV peut être opéré sans avis spécialisé. :: Une cardiopathie instable justifie une optimisation avec le cardiologue.
+> Risque cardiovasculaire : score de Lee (6 items) et réserve fonctionnelle, croisés avec le risque de la chirurgie (faible < 1 %, intermédiaire 1 à 5 %, élevé > 5 %).
+@ p. 14, 16 à 18 et 27
 
 QCM · Examens complémentaires
-Un patient sans comorbidité doit bénéficier d’un geste à faible risque. Quelles propositions sur les examens préopératoires sont exactes ?
-- Une NFS, un ionogramme et un bilan d’hémostase sont un minimum obligatoire avant toute anesthésie :: Aucun examen n'est obligatoire : la prescription découle de l'évaluation
-+ Un examen doit répondre à une question susceptible de modifier la prise en charge :: C'est le critère : un examen dont le résultat ne change rien est inutile
-- La prescription d’un examen vaut validation, sans récupérer son résultat :: Un examen prescrit mais non lu expose à un risque plus grand que pas d'examen
-+ Groupe sanguin et RAI se raisonnent notamment sur la probabilité de transfusion :: Ils se raisonnent sur le saignement attendu et sur le terrain
-+ L’absence de bilan peut être une décision après une vraie évaluation :: Ne rien prescrire après évaluation est une décision, pas une négligence
-> Il n’existe pas de bilan minimum uniforme. Les examens sont ciblés sur terrain, médicaments et risque du geste. Une absence de prescription peut être justifiée ; un résultat demandé doit être lu et intégré à la décision.
-@ 19, 35, 135-137
+Concernant les examens complémentaires préopératoires, quelles propositions sont exactes ?
++ Ils ne sont prescrits que s'ils peuvent modifier la prise en charge. :: Il n'existe pas de bilan minimum obligatoire.
+- Une radiographie thoracique est systématique avant toute anesthésie générale. :: Elle n'est pas systématique.
+- Un bilan d'hémostase est indispensable même sans traitement ni saignement anormal. :: Il est réservé aux patients sous anticoagulant ou avec saignement anormal.
+- Un groupe sanguin et des RAI sont obligatoires avant toute chirurgie. :: Seulement si une transfusion est probable.
+- Un ionogramme est systématique chez le sujet jeune. :: Seulement si la fonction rénale peut modifier un traitement.
+> Pas de bilan systématique : chaque examen répond à une question (NFS si risque d'anémie, ionogramme si traitement adapté au rein, hémostase si anticoagulant ou saignement, groupe-RAI si transfusion probable).
+@ p. 19 et 135 à 137
 
-QCM · ASA et risque chirurgical
-Quelles propositions concernant le score ASA sont exactes ?
-+ Il résume principalement le terrain du patient :: État de santé général, indépendamment de l'intervention prévue
-- Il remplace la description détaillée des antécédents :: Il résume, il ne détaille pas : les antécédents restent à décrire
-- Il décrit directement le risque hémorragique de chaque intervention :: Le risque hémorragique dépend du geste, non du terrain
-+ Il doit être distingué du niveau de risque de la chirurgie :: Risque du patient et risque de la chirurgie se combinent sans se confondre
-- ASA I désigne un patient moribond :: ASA I désigne un patient en bonne santé ; ASA V le patient moribond
-> ASA résume l’état général ; ASA I correspond à un patient en bonne santé. Le score ne remplace ni les antécédents ni l’évaluation du geste. Terrain et risque chirurgical sont deux dimensions à combiner.
-@ 26-27, 138-139
+QCM · Ventilation au masque difficile
+Parmi les critères suivants, lesquels prédisent une ventilation au masque difficile ?
++ Le surpoids :: IMC supérieur à 26 kg/m².
++ La présence d'une barbe :: Elle compromet l'étanchéité du masque.
++ L'absence de dents :: Les joues s'affaissent et le masque fuit.
++ Le ronflement :: Il traduit une obstruction des voies aériennes supérieures.
++ Un âge supérieur à 55 ans :: C'est un des critères prédictifs.
+> Ventilation au masque difficile : surpoids, âge > 55 ans, barbe, édentation, ronflement, cou court. Ces critères se recherchent dès la consultation.
+@ p. 20
 
-QCM · Ventilation au masque
-Quels éléments peuvent compliquer la ventilation au masque facial ?
-+ Une barbe importante pouvant favoriser les fuites :: Le poil empêche l'application étanche du masque
-+ L’édentation pouvant rendre l’étanchéité plus difficile :: Sans dents, les joues se creusent et le masque fuit
-- Un antécédent d’intubation facile prédit une ventilation au masque facile :: Ce sont deux gestes différents, avec des facteurs de risque distincts
-+ L’obésité peut participer au risque :: Elle gêne l'étanchéité et augmente la pression nécessaire
-- Une bonne vue glottique à la vidéo supprime tout risque de fuite au masque :: Voir la glotte ne dit rien de la capacité à ventiler au masque
-> Barbe, édentation et obésité font partie des éléments de difficulté. Ventilation au masque et intubation sont évaluées séparément : la vue glottique ne renseigne pas directement sur l’étanchéité du masque.
-@ 20-21
+QCM · Intubation difficile
+Concernant les critères prédictifs d'intubation difficile, quelles propositions sont exactes ?
++ Un antécédent d'intubation difficile. :: C'est le critère le plus évident.
++ Une distance thyro-mentonnière inférieure à 6 cm. :: Espace mandibulaire réduit.
++ Une ouverture de bouche inférieure à 35 mm. :: La lame passe mal.
++ Une rigidité du rachis cervical. :: L'alignement des axes est limité.
+- Un Mallampati de classe I. :: Une luette entièrement visible est rassurante.
+> Intubation difficile : antécédent, Mallampati élevé, distance thyro-mentonnière < 6 cm, ouverture de bouche < 35 mm, protrusion mandibulaire limitée, rachis rigide, obésité, SAOS avec gros cou, tumeur.
+@ p. 20
 
-QCM · Scores des voies aériennes
-Quelles associations sont exactes ?
-- Mallampati : vue obtenue exclusivement après introduction du laryngoscope :: Il s'examine chez le patient éveillé, bouche ouverte, avant toute anesthésie
-+ Cormack-Lehane : description de la vue laryngoscopique :: Elle se cote en quatre grades, du larynx entièrement vu à l'épiglotte seule
-- POGO : durée de l’apnée tolérable en minutes :: C'est un pourcentage de glotte visible, non une durée
-+ Mallampati : examen de bouche chez le patient éveillé :: Il évalue l'espace oropharyngé disponible, sans instrument
-+ POGO : pourcentage de glotte visible :: Il complète le grade de Cormack par une mesure chiffrée
-> Mallampati se recherche en amont. Cormack-Lehane décrit l’exposition laryngoscopique ; POGO quantifie la vue glottique de 0 à 100 %. Ce ne sont pas des mesures d’autonomie en oxygène.
-@ 21, 89-92
+QCU · Mallampati et Cormack-Lehane
+Concernant la différence entre le score de Mallampati et celui de Cormack-Lehane, quelle proposition est exacte ?
++ Le Mallampati s'évalue chez le patient éveillé, bouche ouverte ; le Cormack-Lehane lors de la laryngoscopie. :: Les deux ne se correspondent pas parfaitement.
+- Les deux s'évaluent lors de la laryngoscopie. :: Le Mallampati se fait en consultation.
+- Le Cormack-Lehane s'évalue à la consultation. :: Il décrit la vue glottique après induction.
+- Un Mallampati I garantit un Cormack-Lehane I. :: Une discordance est possible.
+- Le Cormack-Lehane n'a pas à être noté sur la feuille d'anesthésie. :: Il doit être tracé ; en cas de difficulté, le patient reçoit un certificat.
+> Mallampati : structures visibles au fond de la gorge, patient éveillé. Cormack-Lehane : qualité de l'exposition glottique en laryngoscopie. Le POGO quantifie l'ouverture glottique visible en vidéolaryngoscopie.
+@ p. 21, 90 à 92 et 134
 
-QCM · Échec d’intubation
-Une intubation échoue et la SpO₂ commence à diminuer. Quelles actions s’intègrent à une stratégie de sécurité ?
-+ Préserver ou rétablir l’oxygénation :: C'est la priorité absolue : on oxygène avant de chercher à intuber
-- Répéter la même tentative sans limite dès qu’un nouvel opérateur arrive :: Le nombre de tentatives est limité : chacune aggrave l'œdème et le saignement
-+ Appeler à l’aide :: L'aide doit être appelée tôt, pas en dernier recours
-+ Envisager les moyens de ventilation alternatifs prévus dans l’algorithme :: Dispositif supraglottique, puis abord cervical si la ventilation reste impossible
-- Poursuivre la chirurgie avant d’avoir rétabli une ventilation efficace :: Rien ne commence tant que l'oxygénation n'est pas assurée
-> La priorité est l’oxygénation. Réoxygéner, optimiser et appeler à l’aide limitent l’effet tunnel. Le masque facial et le dispositif supraglottique sont des moyens de ventilation selon la situation ; l’échec ne justifie pas des tentatives identiques illimitées.
-@ 22-24, 88
+QCM · Voies aériennes, recommandations
+Concernant la prise en charge des voies aériennes au bloc selon les recommandations récentes, quelles propositions sont exactes ?
++ Le vidéolaryngoscope devient la stratégie de première intention. :: Même sans difficulté prévisible.
++ Après des tentatives infructueuses, il faut préserver l'oxygénation et appeler à l'aide. :: La désaturation impose de réoxygéner.
+- Multiplier les tentatives identiques augmente les chances de succès. :: Répéter le même geste n'est pas une nouvelle stratégie : c'est l'effet tunnel.
++ Le dispositif supraglottique de deuxième génération est une voie de ventilation de secours. :: Il prend une place centrale.
+- Les facteurs humains n'ont pas leur place dans ces recommandations. :: Briefing, simulation et débriefing y sont intégrés.
+> Priorité au succès au premier passage (vidéolaryngoscope), à l'oxygénation continue et aux facteurs humains. Après échec : réoxygéner, appeler, changer de stratégie (masque, dispositif supraglottique).
+@ p. 22 à 24
 
-QCM · Traitements habituels
-Quelles questions guident la gestion périopératoire d’un anticoagulant ?
-+ Pourquoi le patient prend-il ce traitement ? :: Une même molécule peut se poursuivre ou s'arrêter selon ce qu'elle traite
-+ La chirurgie impose-t-elle réellement son interruption ? :: Beaucoup d'arrêts sont décidés par habitude, sans bénéfice démontré
-+ S’il est arrêté, comment gérer l’intervalle et le risque thrombotique ? :: Un relais peut être nécessaire pendant la fenêtre d'arrêt
-+ Comment organiser sa reprise après le geste ? :: Un traitement arrêté et jamais repris est un risque en soi
-- Peut-on l’arrêter sans tenir compte de son indication dès qu’une anesthésie est prévue ? :: L'indication est précisément ce qui commande la décision
-> La décision combine indication du médicament, risque hémorragique du geste et risque thrombotique d’un arrêt. Arrêt, éventuel relais et reprise sont anticipés et expliqués. Une anesthésie n’impose pas à elle seule le même arrêt à tous.
-@ 25, 30, 82
+QCM · Traitements chroniques
+Concernant la gestion des traitements habituels avant une chirurgie, quelles propositions sont exactes ?
++ La décision dépend du médicament, du terrain, de l'indication et de la chirurgie. :: Pourquoi le patient le prend-il, faut-il l'arrêter, comment gérer l'intervalle ?
+- Les traitements habituels s'arrêtent la veille de l'intervention. :: L'arrêt se discute traitement par traitement.
++ Les consignes doivent être expliquées et remises par écrit. :: Pour garantir leur bonne compréhension.
+- Un anxiolytique est prescrit d'office la veille. :: Il n'est donné que si nécessaire, car il allonge le réveil.
+- Un AVK pour valve mécanique s'arrête sans relais. :: L'arrêt impose une stratégie adaptée au risque thrombotique.
+> La gestion des traitements est individualisée et expliquée par écrit. Un anticoagulant pour valve mécanique illustre la nécessité d'une stratégie de relais.
+@ p. 25
 
-QCM · PBM
-Quelles mesures appartiennent à une démarche de Patient Blood Management ?
-- Transfuser plusieurs CGR pour viser la même Hb chez tous les patients :: La transfusion se décide sur la tolérance et le contexte, non sur un chiffre unique
-+ Rechercher et corriger une anémie préopératoire lorsqu’une optimisation est indiquée :: Elle se traite en amont, par le fer ou l'érythropoïétine selon la cause
-+ Prévenir l’hypothermie pendant la chirurgie :: L'hypothermie aggrave le saignement en altérant l'hémostase
-- Attendre le bloc pour commencer toute réflexion sur l’anémie :: Corriger une anémie demande des semaines : la réflexion commence en consultation
-+ Adapter la transfusion postopératoire à la situation :: Les mêmes critères de tolérance s'appliquent après l'intervention
-> Le PBM associe optimisation du capital sanguin avant, réduction des pertes pendant et réévaluation après. La normothermie soutient l’hémostase. La transfusion est guidée ; elle ne remplace pas une préparation anticipée.
-@ 31-36
+QCU · Classification ASA
+Un patient a une insuffisance respiratoire chronique qui limite son activité sans être incapacitante. Quelle est sa classe ASA ?
+- ASA I :: C'est le patient en bonne santé.
+- ASA II :: Affection peu grave sans limitation fonctionnelle.
++ ASA III :: Affection systémique grave qui limite l'activité sans être incapacitante.
+- ASA IV :: Affection incapacitante représentant une menace vitale constante.
+- ASA V :: Patient moribond.
+> ASA I : bonne santé. II : affection légère. III : affection grave limitante. IV : affection incapacitante, menace vitale constante. V : moribond. U : urgence.
+@ p. 26 et 138
+
+QCM · Gestion du capital sanguin
+Concernant le Patient Blood Management (PBM), quelles propositions sont exactes ?
++ En préopératoire, il corrige l'anémie et la carence martiale. :: Par le fer et l'EPO.
++ En peropératoire, il limite le saignement, notamment par la normothermie. :: L'hypothermie altère l'hémostase.
++ Les antifibrinolytiques et la chirurgie mini-invasive limitent les pertes. :: Ce sont des leviers du pilier peropératoire.
++ En postopératoire, il respecte les seuils transfusionnels et privilégie la transfusion unitaire. :: Avec un apport de fer.
++ Une hémoglobine préopératoire basse augmente la probabilité de transfusion. :: À perte sanguine égale.
+> PBM : trois piliers. Avant : optimiser l'hémoglobine. Pendant : limiter les pertes. Après : corriger et transfuser de façon raisonnée. L'anémie préopératoire est associée à davantage de complications.
+@ p. 29 et 31 à 36
 
 QCM · Acide tranexamique
-Concernant l’acide tranexamique, quelles propositions sont exactes ?
-- Il réduit directement les besoins en oxygène en provoquant une curarisation :: Il n'a aucun effet sur la jonction neuromusculaire
-+ Il est un antifibrinolytique :: Il bloque la transformation du plasminogène en plasmine
-+ Il vise à limiter la dégradation de la fibrine :: En empêchant la lyse du caillot déjà formé
-- Il remplace la nécessité de contrôler une source de saignement chirurgical :: Aucun médicament ne remplace l'hémostase chirurgicale
-+ Son élimination rénale justifie une vigilance sur l’accumulation :: Les doses se réduisent en cas d'insuffisance rénale, sous peine de convulsions
-> Le TXA limite la fibrinolyse pour stabiliser le caillot ; il ne remplace pas l’hémostase chirurgicale. Son élimination est principalement rénale, ce qui explique l’attention au terrain rénal et à l’exposition.
-@ 38-39
+Concernant l'acide tranexamique, quelles propositions sont exactes ?
++ C'est un antifibrinolytique. :: Il limite la dégradation de la fibrine et stabilise le caillot.
++ C'est un analogue de la lysine qui inhibe l'activation du plasminogène. :: La plasmine n'est plus formée.
+- Il est éliminé surtout par le foie. :: Il est éliminé à 90 % par le rein.
++ Son élimination rénale impose d'adapter son emploi à la fonction rénale. :: Pour éviter l'accumulation.
+- Il expose à un risque allergique élevé. :: Le risque allergique est très faible.
+> L'acide tranexamique bloque la fibrinolyse. Peu coûteux, peu allergisant, il s'élimine par le rein. Il réduit le saignement et, associé au fer IV, la transfusion.
+@ p. 38 à 41
 
-QCM · Préparation transfusionnelle
-Concernant le MSBOS et l’organisation de la transfusion, quelles propositions sont exactes ?
-+ Le MSBOS peut s’appuyer sur les consommations transfusionnelles locales par type de geste :: Il adapte les réservations au saignement réellement observé pour chaque geste
-+ Une RAI positive peut compliquer la recherche de produits compatibles :: Il faut davantage de temps pour trouver des culots compatibles
-- Une quantité identique de CGR doit être réservée pour toutes les opérations :: C'est tout l'objet du MSBOS : réserver selon le geste
-+ Le risque du patient complète le risque du geste :: Un même geste n'expose pas au même risque selon l'anémie ou l'hémostase du patient
-- Une prescription de RAI assure que les CGR seront disponibles à la date voulue :: La recherche d'agglutinines irrégulières est un examen, pas une réservation de produits
-> Le MSBOS prépare à partir de données locales, puis s’adapte au patient. La disponibilité des produits doit être organisée avec l’EFS ; un profil complexe peut demander du temps. Prescrire l’examen n’équivaut pas à confirmer l’approvisionnement.
-@ 42-43
+QCM · Information du patient
+Concernant l'information du patient en consultation, quelles propositions sont exactes ?
++ Elle doit être claire, loyale et précise. :: Elle porte sur la technique, l'analgésie, la transfusion et les complications.
+- Les complications graves, comme le décès, n'ont pas à être évoquées. :: Elles font partie de l'information.
+- Une information orale suffit, sans trace écrite. :: L'information délivrée doit être tracée dans le dossier.
++ Un défaut d'information sur un risque rare peut engager la responsabilité. :: Même si la complication relève de l'aléa.
+- L'information remplace le consentement. :: Elle le prépare.
+> Information claire, loyale et précise, orale et tracée, incluant les complications graves : elle fonde la relation de confiance et le consentement éclairé.
+@ p. 44 et 159
 
-QCM · Information et stratégie
-Quelles propositions sur l’information préanesthésique sont exactes ?
-- Une fiche d’information écrite remplace l’échange avec le patient :: Elle la complète, elle ne la remplace pas : l'échange reste nécessaire
-+ Les avantages, limites et risques pertinents doivent être expliqués :: C'est la condition d'un consentement éclairé
-+ La trace de l’information contribue à la continuité de la prise en charge :: Elle permet à l'équipe suivante de savoir ce qui a été dit et décidé
-- La préférence personnelle de l’opérateur autorise à ignorer un refus tracé :: Un refus tracé s'impose, quelle que soit la préférence technique
-+ Un changement important de technique nécessite une nouvelle information adaptée :: Le consentement porte sur une technique donnée, non sur un blanc-seing
-> Le consentement repose sur une information compréhensible et un dialogue. La trace transmet ce qui a été expliqué et choisi. Un changement de stratégie ne se déduit pas d’une préférence de l’opérateur ; il doit être réévalué et discuté.
-@ 44-46, 159-164
+QCM · Visite pré-anesthésique
+Concernant la visite pré-anesthésique (VPA), quelles propositions sont exactes ?
++ Elle est réalisée par un médecin anesthésiste quelques heures avant le bloc. :: La veille ou juste avant l'intervention.
++ Elle recherche les éléments nouveaux depuis la consultation. :: Maladie récente, nouveau traitement.
++ Elle vérifie les résultats des examens demandés. :: Un résultat susceptible de changer la décision doit être récupéré.
+- Elle remplace la consultation pour une chirurgie programmée. :: Les deux sont distinctes et obligatoires.
+- Sa réalisation n'a pas à être vérifiable. :: Il faut pouvoir vérifier qu'elle a été faite.
+> La VPA est le dernier contrôle avant le bloc : éléments nouveaux, examens, compréhension du patient, protocole, prémédication.
+@ p. 48
 
-QCM · FOSO
-Quelles vérifications font partie de l’ouverture d’une salle d’anesthésie ?
-+ Le fonctionnement de l’aspiration :: Elle doit être opérationnelle avant toute induction
-+ La mobilité de la table opératoire :: Elle conditionne les manœuvres d'urgence, proclive ou déclive
-- Un contrôle visuel du respirateur, sans test automatique :: Le test automatique vérifie l'étanchéité et les valves, qu'un regard ne voit pas
-+ La disponibilité du matériel de ventilation et de secours :: Masque, dispositif supraglottique et matériel d'intubation difficile
-- L’absence de nécessité de dater la feuille d’ouverture :: La datation permet de savoir quand la vérification a été faite
-> La FOSO vérifie présence et fonctionnement, notamment aspiration, table, ventilation, monitorage et secours. Les contrôles sont datés et signés. Un appareil présent n’est pas forcément un appareil utilisable.
-@ 53-56
+QCM · Ouverture de salle
+Concernant la préparation du site d'anesthésie avant ouverture, quelles propositions sont exactes ?
++ Une feuille d'ouverture de salle est datée et signée par l'IADE et le médecin anesthésiste. :: C'est la FOSO.
++ L'aspiration doit être fonctionnelle. :: Elle doit être prête avant toute induction.
++ Le respirateur est testé, avec un moyen de ventilation manuelle disponible. :: Ballon, oxygène, circuit de secours.
++ Le matériel d'intubation et le chariot d'intubation difficile sont vérifiés. :: Laryngoscope, sondes, mandrins.
++ Le défibrillateur et les médicaments d'urgence doivent être accessibles. :: Une panne ou une crise ne laisse pas le temps de chercher.
+> FOSO : aspiration, table, ventilation, respirateur, intubation, monitorage, perfusion, médicaments, réchauffement, défibrillateur. Vérifier avant d'endormir, pas pendant la crise.
+@ p. 53 à 56
 
-QCM · ECG et surveillance
-Concernant le cardioscope peropératoire, quelles propositions sont exactes ?
-- Un rythme électrique visible traduit une circulation efficace :: Une activité électrique peut persister sans aucune éjection
-+ Il fournit des informations sur fréquence et rythme :: C'est sa fonction première au bloc
-- Trois électrodes suffisent à exclure toute ischémie myocardique :: Trois électrodes explorent un territoire limité : une ischémie peut passer inaperçue
-+ Cinq brins apportent davantage de vues qu’un montage à trois brins :: Cinq brins permettent de surveiller plusieurs territoires, dont l'antérieur
-+ Une anomalie doit être confrontée au contexte clinique et à la qualité du signal :: Un artefact ressemble à une arythmie : le contexte et le signal doivent être vérifiés
-> Le scope décrit une activité électrique et ne prouve pas seul une circulation efficace. Davantage de dérivations enrichissent la surveillance, sans remplacer un ECG diagnostique. Le patient, les autres signaux et les artefacts restent à examiner.
-@ 59-61
+QCM · Monitorage obligatoire
+Concernant le monitorage de toute anesthésie, quelles propositions sont exactes ?
++ Il comporte un électrocardioscope, une pression artérielle non invasive et une SpO2. :: C'est le monitorage de base.
++ Le premier monitorage est l'équipe d'anesthésie. :: Les appareils aident ; l'équipe observe et interprète.
++ L'intervalle de mesure de la pression est réduit autour de l'induction. :: Les médicaments peuvent provoquer une hypotension.
++ La pression artérielle moyenne est la valeur mesurée avec la plus grande précision par l'oscillométrie. :: PAS et PAD sont calculées.
+- Un scope sans anomalie exclut une ischémie myocardique. :: Il ne remplace pas un ECG diagnostique.
+> Monitorage de base : ECG, PNI (toutes les 5 min, 3 si instable), SpO2, température, gaz inspirés et expirés. Il complète l'observation clinique sans la remplacer.
+@ p. 57 à 62 et 64
 
-QCM · Pression non invasive
-Quelles propositions concernant la mesure de pression par brassard sont exactes ?
-+ Elle est intermittente :: Elle ne donne une valeur qu'à chaque cycle, pas en continu
-+ La taille du brassard doit être adaptée au bras :: Un brassard trop petit surestime la pression, trop grand la sous-estime
-+ Il est utile de rapprocher les mesures autour d’une induction à risque d’hypotension :: Entre deux mesures espacées, une hypotension peut passer inaperçue
-- La valeur affichée n’est pas influencée par les conditions de mesure :: Position du bras, taille du brassard et mouvements modifient la valeur
-- Un cycle toutes les cinq minutes permet de voir chaque variation entre deux mesures :: C'est précisément ce qu'elle ne permet pas : tout se joue entre les mesures
-> La pression non invasive est mesurée par cycles. Taille et conditions de mesure comptent ; un intervalle réduit autour de l’induction aide à détecter une hypotension. Une mesure intermittente ne montre pas chaque événement survenant entre deux mesures.
-@ 59, 62
+QCU · Bradycardie après induction
+Juste après l'induction, chez un patient très hypovolémique, la fréquence cardiaque chute brutalement avec une hypotension. Quel traitement est le plus adapté ?
+- L'atropine. :: Dans la bradycardie paradoxale de l'hypovolémie, l'atropine expose au désamorçage.
++ L'éphédrine. :: Elle accélère le cœur et vasoconstricte, ce qui améliore le retour veineux.
+- L'arrêt de la ventilation. :: Rien ne le justifie.
+- Un bolus supplémentaire d'hypnotique. :: Il aggraverait l'hypotension.
+- L'attente sans traitement. :: La situation peut évoluer vers l'arrêt circulatoire.
+> Bradycardie avant l'induction (pose de perfusion, ALR) : malaise vagal, atropine. Bradycardie après l'induction chez un hypovolémique sévère : réflexe de Bezold-Jarisch, éphédrine et remplissage.
+@ p. 61
 
-QCM · Oxygénation et capnométrie
-Quelles propositions sur SpO₂ et EtCO₂ sont exactes ?
-- La SpO₂ est une mesure directe de PaO₂ :: Elle mesure la saturation de l'hémoglobine, reliée à la PaO₂ par une courbe non linéaire
-+ L’EtCO₂ correspond au CO₂ de fin d’expiration :: Il approche la pression alvéolaire en CO₂ chez un patient aux poumons sains
-+ La forme du capnogramme peut apporter une information en plus de sa valeur finale :: Pente, plateau et ligne de base renseignent sur l'obstruction et la réinhalation
-- Une variation d’EtCO₂ reflète un changement de fréquence respiratoire :: Elle peut aussi venir du débit cardiaque, du métabolisme ou d'une embolie
-+ Le gradient entre PaCO₂ et EtCO₂ peut varier avec le rapport ventilation/perfusion :: Un espace mort accru, comme dans l'embolie, creuse ce gradient
-> SpO₂ est une saturation pulsée, pas une PaO₂. L’EtCO₂ et la courbe aident à suivre l’expiration ; débit cardiaque, production de CO₂ et ventilation/perfusion peuvent aussi modifier la valeur. Le gradient n’est pas constant chez tous.
-@ 63, 65-66, 93
+QCM · Capnométrie
+Concernant la capnométrie au bloc, quelles propositions sont exactes ?
++ L'EtCO2 est la valeur de CO2 en fin d'expiration. :: Le capnogramme est l'allure de la courbe.
++ Une pente à la place du plateau évoque une obstruction. :: Bronchospasme, sonde coudée.
++ Elle est obligatoire chez le patient intubé. :: Elle confirme aussi la position de la sonde.
+- L'EtCO2 est égale à la PaCO2. :: Elle en est le reflet avec un gradient d'environ 5 mmHg, plus large si le rapport ventilation/perfusion est perturbé.
+- À ventilation constante, une baisse de l'EtCO2 ne peut pas venir du débit cardiaque. :: Une baisse du débit cardiaque fait chuter l'EtCO2.
+> EtCO2 ≈ PaCO2 + 5 mmHg en l'absence de trouble ventilation/perfusion. À ventilation inchangée, elle varie avec le débit cardiaque, la production de CO2, une embolie ou la résorption du CO2 en cœlioscopie.
+@ p. 66
 
-QCM · Température et profondeur
-Quelles propositions sur la surveillance pendant l’AG sont exactes ?
-+ Le réchauffement d’un patient froid peut représenter un effort cardiovasculaire :: Il augmente la consommation d'oxygène et le travail cardiaque
-+ Un BIS proche de 40-60 constitue un repère de profondeur anesthésique :: Plage habituelle de l'anesthésie générale
-- Plus le BIS est bas, plus le bénéfice clinique est grand :: Un BIS trop bas expose à l'hypotension et n'apporte aucun bénéfice
-- L’absence de mouvement sous curare confirme une hypnose adaptée :: Le curare supprime le mouvement quel que soit l'état de conscience
-+ La prévention de l’hypothermie participe aussi à la préservation de l’hémostase :: L'hypothermie altère les plaquettes et les facteurs de la coagulation
-> Le réveil et le réchauffement sollicitent le patient ; la prévention est utile, aussi pour l’hémostase. BIS 40-60 est le repère du cours, avec les limites du signal. Ni une dépression maximale du BIS ni l’immobilité sous curare ne garantissent la qualité de l’hypnose.
-@ 33, 69-70, 94-95
-
-QCM · TOF
-Concernant le monitorage de curarisation, quelles propositions sont exactes ?
-- Quatre réponses au TOF prouvent une récupération complète :: Une fatigue résiduelle peut persister malgré quatre réponses visibles
-+ Le rapport T4/T1 complète le nombre de réponses :: Le comptage dit la profondeur, le rapport dit la qualité de la récupération
-+ Le repère de récupération quantitative est un rapport au moins égal à 0,9 :: Seuil quantitatif autorisant l'extubation
-+ Le monitorage peut aussi aider à apprécier l’installation du bloc avant intubation :: Il permet de vérifier que le bloc est installé avant la laryngoscopie
-- Le TOF mesure directement le niveau de conscience :: Il mesure la transmission neuromusculaire : la conscience relève du BIS et de la clinique
-> Le TOF suit la transmission neuromusculaire. Quatre réponses peuvent persister avec un rapport encore insuffisant. Le nombre et T4/T1 sont distincts ; ≥ 0,9 est le repère retenu. Ce monitorage renseigne aussi sur l’installation du bloc, sans mesurer l’hypnose.
-@ 67, 79, 95
-
-QCM · Familles de médicaments
-Quelles associations entre médicaments et fonctions sont exactes ?
-+ Hypnotique : perte de conscience et amnésie :: C'est son effet recherché, sans action antalgique
-+ Morphinique : analgésie :: Elle ne produit ni sommeil ni amnésie
-- Curare : sommeil et amnésie suffisants pour une chirurgie :: Un curare ne produit ni sommeil ni amnésie : c'est le risque de mémorisation
-+ Curare : relâchement musculaire facilitant l’intubation :: Il ouvre les cordes vocales et facilite le passage de la sonde
-- Anesthésique local : suppression irréversible de la conduction nerveuse recherchée :: Le bloc des anesthésiques locaux est temporaire et réversible
-> Hypnose, analgésie et relâchement sont trois fonctions différentes. Le curare n’endort pas. Les anesthésiques locaux cherchent un blocage temporaire et réversible de la conduction, distinct d’une lésion nerveuse.
-@ 84-85, 98
-
-QCM · Induction et entretien
-Après une induction d’AG avec intubation, quelles propositions sont exactes ?
-- L’effet de l’induction couvre l’intervention, quelle que soit sa durée :: La dose d'induction s'épuise en quelques minutes par redistribution
-+ L’entretien IV ou inhalé doit effectivement être lancé :: Oublier de lancer l'entretien expose à un réveil peropératoire
-+ La préoxygénation vise à augmenter les réserves en O₂ avant l’apnée :: Elle allonge le délai avant désaturation pendant l'apnée
-- La ventilation mécanique rend inutile la surveillance des gaz et des pressions :: Les pressions et les gaz expirés restent la seule preuve d'une ventilation efficace
-+ L’administration d’un curare ne remplace pas la continuité de l’hypnose :: Curariser sans entretenir l'hypnose, c'est paralyser un patient conscient
-> La préoxygénation prépare l’apnée ; l’induction n’assure pas seule un entretien prolongé. Il faut vérifier administration des anesthésiques et ventilation. Un patient curarisé peut se réveiller sans pouvoir bouger si l’hypnose est interrompue.
-@ 65, 84, 86, 94
+QCM · Monitorage de la curarisation
+Concernant le monitorage de la curarisation, quelles propositions sont exactes ?
++ Il est indiqué dès qu'un curare est utilisé. :: Dépolarisant ou non dépolarisant.
+- Pour l'intubation, on monitore de préférence l'adducteur du pouce. :: On préfère le muscle sourcilier, meilleur reflet des cordes vocales.
++ Un rapport T4/T1 inférieur à 90 % signe une curarisation résiduelle. :: L'extubation n'est pas sûre.
+- Le compte post-tétanique sert à juger la décurarisation. :: Il évalue une curarisation profonde.
+- Le curamètre s'étalonne après l'injection du curare. :: Il s'étalonne avant.
+> Curamètre étalonné avant le curare. Sourcilier pour l'intubation, adducteur du pouce pour la décurarisation. TOF, PTC (curarisation profonde) et T4/T1 > 90 % avant extubation.
+@ p. 67
 
 QCM · Séquence rapide
-Chez un patient devant être opéré sans délai, avec risque d’estomac plein, quelles propositions sont exactes ?
-+ Le risque d’inhalation doit être intégré à l’induction :: L'estomac plein change la stratégie d'induction
-+ Le choix du curare doit permettre une installation rapide du bloc :: Succinylcholine ou rocuronium à dose élevée, pour raccourcir le délai
-- L’urgence autorise à commencer sans matériel de ventilation disponible :: Rien ne commence sans masque, aspiration et matériel de secours prêts
-+ Le choix des médicaments tient aussi compte du terrain et de la durée attendue du geste :: Terrain et durée orientent le choix autant que la rapidité
-- Un patient non à jeun doit renoncer à une chirurgie urgente non différable :: L'urgence non différable se fait avec une stratégie adaptée, pas en renonçant au geste
-> La séquence rapide répond au risque d’inhalation avec une sécurisation rapide des voies aériennes. Les produits sont choisis selon leurs effets et le contexte, avec matériel prêt. L’urgence ne supprime pas la préparation et ne peut être gérée par une attente de jeûne systématique.
-@ 50, 87, 128-129
+Concernant l'induction en séquence rapide, quelles propositions sont exactes ?
+- Elle comporte une ventilation manuelle au masque avant l'intubation. :: La ventilation au masque est proscrite : risque d'inhalation.
++ Elle associe un hypnotique et un curare d'action rapide, suxaméthonium ou rocuronium. :: Pour intuber vite.
+- Elle est réservée à la chirurgie programmée à jeun. :: Elle concerne l'urgence et l'estomac plein.
+- Elle se passe de préoxygénation. :: La préoxygénation est d'autant plus importante qu'on ne ventilera pas au masque.
+- Le morphinique est injecté en premier, comme dans l'induction classique. :: La séquence rapide associe hypnotique et curare.
+> Séquence rapide (urgence, estomac plein) : préoxygénation, hypnotique + curare rapide, pas de ventilation au masque, intubation rapide.
+@ p. 86 et 87
 
-QCM · SSPI et sortie
-Quelles propositions concernant la récupération et la sortie de SSPI sont exactes ?
-- Chaque patient doit y rester exactement deux heures :: La durée dépend du patient, de l'anesthésie et de la chirurgie
-+ La douleur et la température font partie de l’évaluation :: Douleur et hypothermie sont deux critères de sortie à part entière
-+ Une ventilation spontanée efficace et une stabilité circulatoire sont recherchées :: Ce sont deux des critères principaux de la grille de sortie
-- Le retrait de la sonde d’intubation autorise le retour en chambre :: Un patient extubé peut encore être trop sédaté ou douloureux
-+ La décision de sortie repose sur la récupération et une validation médicale adaptée :: La sortie est une décision médicale, sur des critères explicites
-> La sortie dépend de critères de récupération et de la situation, avec validation du MAR. La durée écoulée seule et l’extubation seule ne suffisent pas. Respiration, circulation, conscience, douleur, température et complications sont prises en compte.
-@ 78-82
+QCM · Ventilation sous anesthésie générale
+Concernant le réglage de la ventilation sous anesthésie générale, quelles propositions sont exactes ?
+- Le volume courant se règle à 10 à 12 mL/kg. :: Il se règle à 6 à 8 mL/kg.
++ La ventilation minute est le produit du volume courant par la fréquence. :: Elle se règle sur l'EtCO2, reflet de la PaCO2.
+- La FiO2 se règle sur l'EtCO2. :: Elle se règle sur la SpO2, reflet de la PaO2.
+- La PEP vide les alvéoles en fin d'expiration. :: Elle les maintient ouvertes.
+- L'objectif est une PaCO2 la plus basse possible. :: L'objectif est une PaCO2 normale, autour de 40 mmHg.
+> Ventilation : volume courant 6 à 8 mL/kg, ventilation minute adaptée à l'EtCO2, FiO2 adaptée à la SpO2, PEP pour garder les alvéoles ouvertes.
+@ p. 93
 
-QCM · ALR et toxicité
-Concernant les anesthésiques locaux utilisés pour une ALR, quelles propositions sont exactes ?
-+ Ils bloquent temporairement et réversiblement la propagation des potentiels d’action :: Ils bloquent les canaux sodiques voltage-dépendants
-+ Ils peuvent agir sur les fibres sensitives, motrices et autonomes :: D'où un bloc parfois dissocié, sensitif sans bloc moteur complet
-+ Une injection intravasculaire peut exposer à une toxicité systémique :: Signes neurologiques puis cardiaques, jusqu'à l'arrêt cardiaque
-- L’échoguidage supprime toute possibilité d’échec et toute toxicité :: Il réduit le risque sans l'abolir : l'aiguille peut rester en position intravasculaire
-- Le patient peut cesser d’être surveillé dès l’injection parce qu’il reste éveillé :: La surveillance se poursuit pendant et après l'injection, précisément parce qu'il est éveillé
-> Les AL bloquent les canaux sodiques et la conduction nerveuse de façon réversible. La résorption et une injection intravasculaire peuvent entraîner une toxicité. L’échographie est une aide ; elle ne remplace pas la surveillance et l’évaluation de l’efficacité.
-@ 78, 98, 109
+QCM · Effets indésirables de l'anesthésie générale
+Concernant les effets indésirables de l'anesthésie générale, quelles propositions sont exactes ?
++ Une vasodilatation avec hypotension. :: Effet des hypnotiques.
++ Une dépression respiratoire et du réflexe de toux. :: Effet des morphiniques.
++ Des atélectasies. :: Par perte de la contraction du diaphragme.
++ Une allergie, en particulier aux curares. :: Mais aussi aux antibiotiques et aux gélatines.
+- Une protection contre les nausées et vomissements. :: L'AG expose aux NVPO.
+> Effets de l'AG : hypotension, dépression respiratoire, atélectasies, troubles de déglutition, NVPO, anaphylaxie, compressions nerveuses liées à l'installation.
+@ p. 96
 
-QCM · Compartiments neuraxiaux
-Quelles propositions distinguent rachianesthésie et péridurale ?
-- La rachianesthésie injecte le produit à l’extérieur de la dure-mère :: Elle injecte à l'intérieur de la dure-mère, dans le liquide céphalorachidien
-- La péridurale consiste en une injection dans le LCR :: Elle injecte à l'extérieur de la dure-mère, dans l'espace péridural
-+ La rachianesthésie atteint le compartiment contenant le LCR :: Quelques millilitres suffisent, avec une installation rapide
-+ Un cathéter péridural permet des réinjections :: D'où son intérêt pour l'analgésie prolongée, notamment en obstétrique
-- Les deux techniques utilisent le même volume et ont la même vitesse d’installation :: La péridurale demande des volumes bien supérieurs et s'installe plus lentement
-> La rachianesthésie injecte dans le LCR ; la péridurale se situe autour de la dure-mère. Le cathéter permet l’administration répétée et l’analgésie prolongée. Compartiment, volumes et installation diffèrent.
-@ 100-105
+QCU · Sédation en ventilation spontanée
+Concernant la sédation en ventilation spontanée, quelle proposition est exacte ?
+- Un curare facilite le geste. :: Il supprimerait la ventilation spontanée.
++ Il ne faut jamais utiliser de curare, et rester prêt à intuber à tout moment. :: Le patient doit garder sa ventilation spontanée.
+- La capnographie est inutile chez un patient qui respire. :: On surveille la ventilation par capnographie et fréquence respiratoire.
+- Le rémifentanil s'administre en bolus rapides. :: Il s'administre sans bolus, en titration.
+- Elle remplace l'anesthésie générale pour toute chirurgie. :: Elle concerne des gestes non faisables sous ALR seule, chez des patients pour qui l'AG est risquée.
+> Sédation en VS : perte de conscience sans perte de la ventilation, médicaments titrés, surveillance capnographique, matériel d'intubation prêt, pas de curare.
+@ p. 112
 
-QCM · Risques neuraxiaux
-Quelles propositions concernant les anesthésies neuraxiales sont exactes ?
-+ Le bloc sympathique peut participer à une hypotension :: La vasodilatation sous le niveau du bloc abaisse la pression artérielle
-+ Une ponction durale peut entraîner des céphalées :: C'est la céphalée post-brèche, posturale, parfois invalidante
-+ Un cathéter censé être péridural mais situé dans le LCR peut entraîner un bloc excessif :: Le même volume injecté dans le liquide céphalorachidien donne un bloc très étendu
-- La péridurale exclut toute possibilité de rétention urinaire :: La rétention urinaire est un effet classique des blocs neuraxiaux
-- Le refus de la technique n’a pas à intervenir dans la décision :: Le refus du patient est une contre-indication absolue
-> Hypotension, céphalées et rétention urinaire font partie des risques décrits. Un cathéter au mauvais compartiment peut entraîner une rachianesthésie totale. Le consentement reste une condition de la technique.
-@ 104-105, 147, 153-158
+QCM · SSPI
+Concernant la salle de surveillance post-interventionnelle (SSPI), quelles propositions sont exactes ?
++ Une surveillance continue y est obligatoire après toute AG ou ALR. :: Décret de 1994.
++ Elle vise la récupération d'une ventilation spontanée efficace et d'une hémodynamique stable. :: Ainsi que d'une déglutition.
++ Elle assure le contrôle de la douleur et la normalisation de la température. :: Avant le retour en chambre.
++ Les curares peuvent y être antagonisés par la néostigmine ou le sugammadex. :: Selon le curare utilisé.
++ Le matériel de SSPI est vérifié par une check-list tracée. :: Comme au bloc.
+> La SSPI surveille l'élimination des agents, la ventilation, l'hémodynamique, la douleur, la température et l'absence de complication chirurgicale immédiate.
+@ p. 75 à 79
 
-QCM · Association AG et ALR
-Une ALR est envisagée comme complément d’une AG. Quelles propositions sont exactes ?
-- Elle permet d’ignorer un refus du patient puisqu’il sera endormi :: Le consentement se recueille avant l'anesthésie, et il reste opposable
-+ Elle peut apporter une analgésie pendant et après la chirurgie :: C'est son intérêt principal : l'analgésie se prolonge après le réveil
-+ Sa durée et son territoire doivent correspondre aux besoins :: Un bloc qui ne couvre pas le territoire opéré ne sert à rien
-- Elle assure un réveil sans douleur, sans relais antalgique :: Un bloc qui s'épuise laisse le patient sans analgésie : le relais s'anticipe
-+ Une stratégie de recours doit être prévue si le bloc est insuffisant :: Il faut savoir quoi faire si le bloc est incomplet ou échoue
-> AG et ALR peuvent répondre à des besoins complémentaires. Le bloc nécessite accord, adéquation au geste et relais prévu ; il peut être insuffisant ou se lever. La sédation ou l’AG ne permet pas de contourner un refus.
-@ 83, 97, 106, 110, 148
+QCU · Sortie de SSPI
+Concernant la sortie de SSPI, quelle proposition est exacte ?
+- Une durée minimale légale de 2 heures s'impose. :: Aucune durée légale n'existe.
++ Le médecin anesthésiste signe l'aptitude au retour en chambre, par exemple sur un score d'Aldrete à 12. :: L'évaluation porte sur la récupération du patient.
+- L'IADE seul décide de la sortie. :: C'est une décision médicale.
+- Un score d'Aldrete à 8 autorise la sortie. :: La version présentée vise 12 points.
+- La responsabilité du médecin anesthésiste cesse à la sortie de SSPI. :: Il est responsable des 48 premières heures.
+> Sortie : aptitude signée par le médecin anesthésiste (Aldrete : motricité, respiration, pression, conscience, coloration, SpO2). Pas de durée légale. Il prescrit ensuite la surveillance des 48 premières heures.
+@ p. 80 à 82
 
-QCM · Facteurs humains
-Quelles attitudes contribuent à la sécurité d’équipe en anesthésie ?
-+ Utiliser une aide cognitive connue pour organiser une réponse à une crise :: Elles structurent la réponse quand la charge mentale est maximale
-- Considérer qu’appeler à l’aide traduit une faute :: Appeler tôt est une marque de compétence, pas d'échec
-+ Exprimer un désaccord motivé avant un geste jugé incohérent avec le projet du patient :: C'est l'objet même de la communication au sein de l'équipe
-+ Analyser les événements pour éviter leur répétition :: C'est le principe du retour d'expérience
-- Répéter la même tentative tant qu’un opérateur pense pouvoir réussir :: Chaque tentative supplémentaire aggrave les conditions : le nombre doit être limité
-> Communication, aides cognitives et analyse des événements soutiennent le travail collectif. Le signalement d’une difficulté ou d’un refus connu peut prévenir un dommage. Appeler à l’aide et sortir de l’effet tunnel font partie de la sécurité.
-@ 23, 119-123, 164
+QCM · Rachianesthésie et péridurale
+Concernant la rachianesthésie et la péridurale, quelles propositions sont exactes ?
++ La rachianesthésie injecte un petit volume d'anesthésique local dans le liquide cérébro-spinal. :: Après franchissement volontaire de la dure-mère.
++ La péridurale injecte un plus grand volume autour de la dure-mère, avec un cathéter possible. :: Le cathéter permet des réinjections.
++ La rachianesthésie s'installe plus vite, avec des effets hémodynamiques plus brutaux. :: Le bloc sympathique est rapide.
++ Elles exposent à l'hypotension, à la rétention urinaire et aux céphalées. :: Les céphalées surtout après brèche de la dure-mère.
++ Le refus du patient est une contre-indication. :: C'est la contre-indication essentielle.
+> Rachianesthésie : simple, rapide, complète, mais brutale sur l'hémodynamique et limitée en durée. Péridurale : progressive, prolongeable par cathéter, plus difficile. Indication : chirurgie sous-ombilicale de moins de 3 h.
+@ p. 100 à 105
 
-QCU · Causalité · curare et conscience
-Affirmation 1 : L’absence de mouvement chez un patient curarisé garantit qu’il est inconscient.
-Affirmation 2 : Le curare bloque la transmission neuromusculaire sans assurer l’hypnose.
-Évalue les deux affirmations et leur lien explicatif.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-+ La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première affirmation est fausse ; la seconde est vraie. Le curare explique l’immobilité, sans supprimer la conscience. Une hypnose insuffisante peut donc passer inaperçue si l’on surveille uniquement les mouvements. L’absence de mouvement ne démontre pas le sommeil.
-@ 70, 84-85, 94
-
-QCU · Causalité · anémie et transfusion
-Affirmation 1 : À perte sanguine comparable, un patient anémique avant l’intervention a davantage de risque de nécessiter une transfusion.
-Affirmation 2 : Une Hb initialement basse laisse une marge plus faible avant d’atteindre un seuil transfusionnel.
-Évalue les deux affirmations et leur lien explicatif.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies et la seconde explique la première. À perte comparable, partir d’une Hb basse rapproche davantage du besoin transfusionnel. C’est l’un des intérêts de l’optimisation préopératoire ; la transfusion reste adaptée à la situation et au terrain.
-@ 29, 31-36
-
-QCU · réaction à une injection
-Une patiente présente une apnée juste après l’injection dans un cathéter supposé péridural, sans administration d’hypnotique. Parmi ces mécanismes, lequel doit être suspecté et recherché ?
-- Une disparition immédiate de l’effet des anesthésiques locaux :: Les anesthésiques locaux agissent au contraire plus longtemps que prévu
-- Un malaise vagal lié à la douleur de la ponction :: Un malaise vagal ne provoque ni bloc étendu ni détresse respiratoire
-+ Un cathéter situé dans le compartiment du LCR, avec diffusion excessive du bloc :: Le volume prévu pour l'espace péridural se retrouve dans le liquide céphalorachidien
-- Une analgésie parfaitement limitée au pied, sans effet respiratoire possible :: Un bloc qui remonte peut atteindre les muscles respiratoires
-- Une simple modification du score de Mallampati :: Le score de Mallampati n'a aucun rapport avec cette situation
-> Un mauvais positionnement intrathécal peut provoquer un bloc excessif, voire une rachianesthésie totale avec apnée. La réaction impose une sécurisation et une réévaluation ; elle ne prouve pas que le cathéter est correctement péridural. Il s’agit du mécanisme décrit dans le cas du scanner.
-@ 153
-
-QCU · transmission d’une difficulté
-Après une intubation difficile, quelle transmission est la plus utile à une équipe qui prendra en charge le patient lors d’une autre intervention ?
-- La durée de l’intervention et le type de chirurgie :: Elles ne renseignent pas le prochain anesthésiste sur les voies aériennes
-- La mention « intubation difficile », sans détail du matériel ni des techniques utilisées :: Sans ces détails, l'information n'est pas exploitable
-- Un certificat remis sans explication et sans trace dans le dossier :: Sans trace dans le dossier, l'information se perd
-+ La vue obtenue, les difficultés rencontrées et les moyens ayant permis de sécuriser les voies aériennes :: Ces trois éléments permettent de reproduire la stratégie qui a marché
-- L’affirmation que toutes les prochaines anesthésies auront forcément le même déroulement :: Les conditions peuvent changer : l'information décrit un épisode, elle ne prédit pas
-> La description de la vue, des difficultés et des aides efficaces permet de préparer la prise en charge suivante. Elle est tracée dans le dossier, expliquée au patient et peut figurer dans le certificat de voies aériennes difficiles. Une formule vague ne transmet pas la stratégie utile.
-@ 90-92
+QCM · Blocs périphériques
+Concernant les blocs nerveux périphériques, quelles propositions sont exactes ?
+- Les blocs plexiques sont moins risqués que les blocs tronculaires. :: Proches de l'axe rachidien, ils sont plus complets mais plus risqués.
+- Un seul bloc tronculaire suffit en général pour une chirurgie du genou. :: Il en faut souvent plusieurs.
++ Ils sont souvent associés à une AG pour l'analgésie postopératoire. :: Leur effet antalgique dure plusieurs heures.
+- L'échoguidage supprime tout risque d'échec. :: Il réduit les risques sans les supprimer.
+- Ils se réalisent sans perfusion ni monitorage. :: L'ALR impose scope, perfusion et surveillance par un IADE ou un MAR.
+> Blocs plexiques (plus complets, plus risqués : diffusion péridurale, rachianesthésie totale) et tronculaires (échec, traumatisme nerveux, toxicité). Neurostimulation et échographie aident au repérage.
+@ p. 98 et 106 à 109

@@ -1,204 +1,255 @@
-// Quiz 22 – SpO2 et capnographie (UE 3.1), d'après « QUIZZ 22 SpO2 + CAPNO.html »
+// Quiz – SpO2 et capnographie (UE 3.1), réécrit le 18 novembre 2026 d'après les supports « L'oxymétrie de pouls » et « La capnographie », sur le modèle du quiz Patient hypertendu.
+// Questions type examen sur les notions générales : transport de l'oxygène, courbe de dissociation, principe et limites de l'oxymètre, choix du capteur ; physiologie du CO2, technologies, capnogramme, gradient avec la PaCO2, indications, causes de variation, arrêt cardiaque. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # SpO2 et capnographie
 
-QCM · Deux monitorages complémentaires
-Quelles associations entre un monitorage et l’information qu’il fournit sont exactes ?
-+ La SpO₂ fournit une estimation continue de la saturation artérielle en oxygène. :: La SpO₂ est une estimation de la SaO₂.
-+ La capnographie représente le CO₂ pendant le cycle respiratoire. :: Le capnogramme décrit les gaz inspirés et expirés au cours du cycle.
-- Une SpO₂ normale démontre que la ventilation alvéolaire est adéquate. :: L’oxymétrie renseigne sur l’oxygénation ; elle ne mesure pas la ventilation alvéolaire. L’analyse du CO₂ apporte une information complémentaire.
-- La PetCO₂ est une mesure directe de la PaO₂. :: La PetCO₂ est le CO₂ de fin d’expiration. La PaO₂ est la pression artérielle en oxygène.
-+ La pléthysmographie accompagne l’affichage de SpO₂ et aide à apprécier la qualité du signal. :: La courbe pulsatile et son contexte sont à examiner avant d’interpréter un chiffre isolé.
-> Deux moniteurs, deux fonctions distinctes : l'oxymétrie surveille l'oxygénation, la capnographie surveille la ventilation. Une SpO₂ normale sous oxygène peut coexister avec une hypoventilation profonde, parce que la réserve d'oxygène retarde la désaturation. C'est le couple des deux, avec la courbe de pléthysmographie, qui renseigne réellement.
-@ CAPNOGRAPHIE, p. 4 et 8–9; SpO2, p. 3, 7 et 11
+QCM · Cadre réglementaire
+Concernant la réglementation de l'oxymétrie de pouls et de la capnographie, quelles propositions sont exactes ?
++ Le contrôle continu de la saturation en oxygène est obligatoire. :: Au bloc comme en SSPI.
+- La capnographie est facultative chez le patient intubé. :: Elle est obligatoire chez tout patient intubé.
++ Le décret de 1994 impose un monitorage continu au bloc, incluant capnographie et oxymétrie. :: Il encadre aussi la consultation et la SSPI.
+- L'oxymétrie de pouls n'est exigée qu'en SSPI. :: Elle l'est aussi au bloc.
+- Ces monitorages sont de simples aides facultatives au diagnostic. :: Ce sont des obligations légales.
+> Oxymétrie de pouls et capnographie sont des monitorages obligatoires, garantissant la sécurité du patient anesthésié.
+@ SpO2 p. 2 ; Capnographie p. 4 et 13
 
-QCM · CO₂ · métabolisme et circulation
-Une variation de PetCO₂ ne se réduit pas toujours à une modification de la ventilation. Quelles propositions sont exactes ?
-+ La production de CO₂ dépend du métabolisme cellulaire. :: La production est le reflet de l’activité métabolique.
-+ Le transport du CO₂ jusqu’aux poumons dépend de la circulation. :: Le CO₂ produit dans les tissus doit être acheminé vers les poumons.
-- Une baisse du débit cardiaque ne peut pas modifier la PetCO₂ si le réglage ventilatoire reste identique. :: Le cours cite les baisses de débit, l’hypovolémie et l’hypotension parmi les causes circulatoires de baisse de PetCO₂.
-+ L’élimination du CO₂ dépend de la ventilation alvéolaire. :: La ventilation alvéolaire assure l’élimination.
-- Une PetCO₂ basse démontre une hyperventilation. :: Les causes peuvent être circulatoires, respiratoires, métaboliques ou matérielles.
-> La PetCO₂ se lit au bout d'une chaîne à trois maillons : production cellulaire, transport circulatoire, élimination ventilatoire. Une chute brutale à réglages ventilatoires inchangés désigne donc le maillon circulatoire, embolie ou effondrement du débit, avant d'évoquer une hyperventilation.
-@ CAPNOGRAPHIE, p. 4 et 9–10
+QCM · Transport de l'oxygène
+Concernant le transport de l'oxygène dans le sang, quelles propositions sont exactes ?
++ L'oxygène est surtout fixé à l'hémoglobine. :: À 97-99 %.
++ Le contenu artériel associe l'O2 lié à l'hémoglobine et l'O2 dissous. :: CaO2 = Hb × 1,34 × SaO2 + PaO2 × 0,003.
++ Une anémie diminue nettement le contenu artériel en oxygène. :: L'hémoglobine porte l'essentiel de l'oxygène.
+- Augmenter la FiO2 augmente fortement le contenu artériel. :: L'O2 dissous reste négligeable ; le gain est marginal.
++ L'oxymètre estime en continu la SaO2 et limite les gazométries répétées. :: La gazométrie mesure SaO2 et PaO2.
+> L'oxygène voyage presque entièrement lié à l'hémoglobine. Anémie et désaturation amputent le contenu artériel ; une FiO2 élevée l'augmente peu.
+@ SpO2 p. 3, 5 et 6
 
-QCM · SpO₂ · nature de la mesure
-Un moniteur affiche une SpO₂ de 98 %. Quelles conclusions sont justifiées ?
-- La PaO₂ est alors égale à 98 mmHg. :: Saturation en pourcentage et pression partielle en mmHg sont des grandeurs différentes.
-+ Le chiffre est une estimation de la SaO₂. :: La SpO₂ est l’estimation non invasive et continue de la SaO₂.
-- Le contenu artériel en oxygène se déduit de cette valeur. :: Le CaO₂ dépend notamment de l’Hb, de la SaO₂ et de l’oxygène dissous.
-+ La qualité de la courbe pulsatile participe à l’interprétation du résultat. :: La courbe de pléthysmographie doit être examinée avec la clinique et la position du capteur.
-- Cette valeur mesure directement la quantité d’oxygène livrée aux tissus par minute. :: Le transport artériel TaO₂ dépend aussi du contenu artériel et du débit cardiaque.
-> La SpO₂ estime un taux d'occupation de l'hémoglobine, rien de plus. Elle ne donne ni la PaO₂, ni le contenu artériel, qui dépend surtout du taux d'hémoglobine, ni le transport d'oxygène, qui dépend en plus du débit cardiaque. Un patient anémique peut afficher 98 % avec un transport d'oxygène effondré.
-@ SpO2, p. 3, 6–7 et 11
+QCM · Courbe de dissociation
+Concernant la courbe de dissociation de l'hémoglobine, quelles propositions sont exactes ?
++ Elle a une allure sigmoïde. :: En forme de S.
+- Au-dessus de 60 mmHg de PaO2, une petite baisse de PaO2 fait chuter fortement la saturation. :: La courbe est plate : la saturation varie peu.
++ En dessous de 60 mmHg, une faible variation de PaO2 entraîne une forte libération d'oxygène. :: C'est la zone de décharge tissulaire.
++ La P50 est la PaO2 pour laquelle l'hémoglobine est saturée à 50 %. :: Environ 27 mmHg chez l'adulte sain.
+- La P50 renseigne sur la concentration d'hémoglobine. :: Elle renseigne sur son affinité pour l'oxygène.
+> Courbe de Barcroft : plateau au-dessus de 60 mmHg (charge pulmonaire), pente raide en dessous (décharge tissulaire). La P50 mesure l'affinité de l'hémoglobine pour l'oxygène.
+@ SpO2 p. 4 et 5
 
-QCM · Capnogramme · phases du cycle
-Concernant les phases du capnogramme habituel, quelles propositions sont exactes ?
-+ La phase initiale correspond essentiellement à l’espace mort anatomique et instrumental. :: Ces gaz ne participent pas aux échanges pulmonaires et contiennent normalement très peu de CO₂.
-+ La montée expiratoire correspond au mélange progressif des gaz de l’espace mort et des gaz alvéolaires. :: Le gaz expiré s’enrichit progressivement en CO₂.
-- Le plateau alvéolaire est parfaitement horizontal chez le sujet sain. :: Le plateau habituel est légèrement ascendant.
-+ La PetCO₂ se mesure en fin d’expiration, à l’extrémité du plateau. :: Le cours repère ce point par la lettre C.
-+ La chute rapide du CO₂ marque le début de l’inspiration. :: L’arrivée des gaz inspirés entraîne une chute rapide de la concentration.
-> Le capnogramme se lit en quatre phases : une ligne de base correspondant à l'espace mort, une montée expiratoire par mélange, un plateau alvéolaire légèrement ascendant, et une chute inspiratoire rapide. La PetCO₂ se mesure à l'extrémité du plateau. La forme de la courbe renseigne autant que le chiffre.
-@ CAPNOGRAPHIE, p. 7–8
+QCM · Affinité de l'hémoglobine
+Concernant les facteurs qui modifient l'affinité de l'hémoglobine pour l'oxygène, quelles propositions sont exactes ?
++ L'acidose déplace la courbe vers la droite. :: L'oxygène est libéré plus facilement.
++ L'hypercapnie diminue l'affinité de l'hémoglobine pour l'oxygène. :: C'est l'effet Bohr.
++ L'hypothermie déplace la courbe vers la gauche. :: L'hémoglobine cède moins bien l'oxygène.
++ Une augmentation du 2,3-DPG augmente la P50. :: Comme pendant la grossesse.
++ L'hémoglobine fœtale a une affinité accrue pour l'oxygène. :: Physiologique jusqu'à 6 mois.
+> À droite (acidose, hypercapnie, hyperthermie, 2,3-DPG ↑) : P50 ↑, libération facilitée. À gauche (alcalose, hypocapnie, hypothermie) : P50 ↓, libération difficile.
+@ SpO2 p. 5
 
-QCM · Oxygène · lié à l’Hb ou dissous
-Chez un adulte en conditions physiologiques normobares, quelles propositions sur le transport sanguin de l’oxygène sont exactes ?
-- L’oxygène dissous représente la majeure partie de l’oxygène artériel. :: La fraction dissoute est minoritaire en conditions normobares.
-+ L’essentiel de l’oxygène est transporté fixé à l’hémoglobine. :: Le support situe cette part autour de 97–99 %.
-- Augmenter fortement la PaO₂ accroît proportionnellement toute la capacité de transport liée à l’Hb déjà saturée. :: Une hausse de PaO₂ accroît surtout le petit terme dissous lorsque l’Hb est déjà saturée ; elle ne remplace pas une quantité d’Hb insuffisante.
-+ La constante 1,34 exprime le volume maximal d’O₂ fixé par gramme d’Hb. :: La valeur est 1,34 mL d’O₂ par gramme d’Hb.
-+ Le terme PaO₂ × 0,003 correspond à l’oxygène dissous. :: C’est la fraction dissoute de la formule du CaO₂.
-> L'oxygène est transporté presque entièrement par l'hémoglobine : 1,34 mL par gramme, contre 0,003 mL par dL et par mmHg pour la forme dissoute. Une fois l'hémoglobine saturée, augmenter la PaO₂ n'ajoute presque rien. C'est pourquoi l'oxygène ne corrige pas une anémie.
-@ SpO2, p. 3 et 6
+QCM · Hémoglobines pathologiques
+Concernant les hémoglobines pathologiques, quelles propositions sont exactes ?
++ La méthémoglobine ne fixe pas l'oxygène. :: Elle fausse la SpO2.
++ La carboxyhémoglobine ne fixe pas l'oxygène. :: C'est le mécanisme de l'intoxication au monoxyde de carbone.
+- L'hémoglobine drépanocytaire fixe mieux l'oxygène après une hypoxémie. :: Elle polymérise et ne fixe plus l'oxygène.
+- L'oxymètre distingue la carboxyhémoglobine de l'oxyhémoglobine. :: Il ne la distingue pas : il surestime la saturation.
+- Ces formes sont sans conséquence sur la mesure de la SpO2. :: Elles faussent la mesure.
+> MetHb et HbCO ne transportent pas l'oxygène et faussent la SpO2 ; l'HbS polymérisée ne fixe plus l'oxygène.
+@ SpO2 p. 5 et 10
 
-QCM · Capnographie · technologie et surveillance
-Quelles propositions distinguent correctement les systèmes side stream et main stream ?
-+ Le side stream aspire un échantillon de gaz vers une cellule située dans le moniteur. :: Le gaz passe par une tubulure de prélèvement.
-- Le main stream aspire le gaz dans une longue ligne de prélèvement. :: Le main stream mesure au niveau du circuit, sans aspirer le gaz vers une cellule distante.
-+ En main stream, la cellule est placée entre la sonde d’intubation et le raccord en Y. :: C’est l’emplacement décrit pour la mesure directe.
-+ Une ligne de prélèvement non branchée peut expliquer l’absence de capnogramme en side stream. :: Il faut distinguer une disparition du signal mesuré d’une absence réelle de CO₂ expiré.
-- La capnographie ne peut être utilisée que chez un patient intubé. :: Le cours décrit aussi des dispositifs au masque ou sur canule nasale chez le non-intubé.
-> Le side stream aspire un échantillon vers le moniteur : il est pratique, utilisable chez le patient non intubé, mais introduit un délai et peut se boucher ou se débrancher. Le main stream mesure directement sur le circuit, entre la sonde et le raccord en Y : réponse immédiate, mais capteur encombrant et fragile.
-@ CAPNOGRAPHIE, p. 6–7 et 9
+QCM · Définitions
+Concernant les définitions liées à l'oxygénation, quelles propositions sont exactes ?
+- L'hypoxie désigne une baisse de l'oxygène dans le sang artériel. :: C'est l'hypoxémie.
+- L'hypoxémie désigne une insuffisance d'oxygénation des tissus. :: C'est l'hypoxie.
++ L'ischémie est une diminution ou un arrêt de l'apport sanguin artériel à un tissu. :: Elle peut entraîner une hypoxie.
+- L'hyperoxie est détectée par l'oxymètre de pouls. :: L'oxymètre ne la détecte pas.
+- L'hyperoxie est une PaO2 basse. :: C'est une PaO2 anormalement élevée.
+> Hypoxémie : oxygène artériel bas. Hypoxie : oxygénation tissulaire insuffisante. Ischémie : défaut d'apport sanguin. Hyperoxie : PaO2 trop élevée, invisible à l'oxymètre.
+@ SpO2 p. 5
 
-QCM · Affinité Hb–O₂ · déplacements de la courbe
-Quelles associations entre un contexte physiologique et la courbe de dissociation de l’hémoglobine sont exactes ?
-+ Acidose et hypercapnie favorisent un déplacement vers la droite. :: L’affinité diminue, la P50 augmente et l’O₂ est plus facilement libéré.
-- Un déplacement vers la droite s’accompagne d’une baisse de P50 et d’une affinité accrue. :: À droite, la P50 augmente et l’affinité diminue.
-+ L’hypothermie favorise un déplacement vers la gauche. :: Le cours associe hypothermie, alcalose et hypocapnie au déplacement vers la gauche.
-- Un déplacement vers la gauche facilite la délivrance d’O₂ aux tissus. :: À gauche, l’Hb capte plus avidement l’O₂ mais le cède plus difficilement.
-+ Une hausse du 2,3-DPG facilite le largage tissulaire d’O₂. :: La hausse du 2,3-DPG diminue l’affinité.
-> La courbe se déplace vers la droite quand les tissus ont besoin d'oxygène : acidose, hypercapnie, hyperthermie, hausse du 2,3-DPG. L'affinité diminue, la P50 monte, et l'hémoglobine libère plus facilement son oxygène. Vers la gauche, à l'inverse, l'hypothermie et l'alcalose retiennent l'oxygène dans le sang.
-@ SpO2, p. 4–5
+QCM · Transport artériel en oxygène
+Concernant le transport artériel en oxygène (TaO2), quelles propositions sont exactes ?
++ C'est le produit du contenu artériel en oxygène par le débit cardiaque. :: TaO2 = CaO2 × DC × 10.
++ Il diminue en cas de chute du débit cardiaque. :: Hypovolémie, choc hémorragique, défaillance myocardique.
++ Il diminue en cas d'anémie aiguë. :: Moins d'hémoglobine pour transporter l'oxygène.
++ Les tissus compensent d'abord une baisse du TaO2 en augmentant leur extraction. :: Ils prélèvent un pourcentage plus important.
+- Une baisse du TaO2 sous les besoins n'a pas de conséquence métabolique. :: Elle entraîne un métabolisme anaérobie et une acidose lactique.
+> TaO2 = CaO2 × débit cardiaque : il dépend de la saturation, de l'hémoglobine et du débit. Sous les besoins (VO2), la dette en oxygène produit lactates et souffrance tissulaire.
+@ SpO2 p. 6
 
-QCM · PetCO₂ et PaCO₂ · gradient
-Concernant l’écart entre PaCO₂ et PetCO₂, quelles propositions sont exactes ?
-+ Sous ventilation contrôlée, chez un sujet sédaté sain, le cours donne un écart d’environ 5 mmHg. :: Ce repère est associé à la modification du rapport ventilation/perfusion et à l’espace mort alvéolaire.
-- Chez tout patient, ajouter exactement 5 mmHg à la PetCO₂ permet de connaître la PaCO₂. :: Le gradient varie selon la situation et le patient ; ce n’est pas une correction universelle.
-+ Une pathologie pulmonaire peut porter le gradient à 15–20 mmHg. :: Le support souligne une variabilité interindividuelle importante.
-+ Le lien entre PetCO₂ et PaCO₂ suppose notamment une circulation et des échanges pulmonaires satisfaisants. :: Le reflet de la PaCO₂ par la PetCO₂ est présenté sous réserve d’un débit cardiaque normal et d’un échangeur pulmonaire sain.
-- La valeur de CO₂ expiré reste indépendante de l’espace mort alvéolaire. :: Les variations d’espace mort participent au gradient.
-> La PetCO₂ sous-estime la PaCO₂ d'environ 5 mmHg chez un sujet sain ventilé, par l'effet de l'espace mort alvéolaire. Ce gradient n'est pas une constante : il atteint 15 à 20 mmHg en pathologie pulmonaire, et se creuse avec toute augmentation de l'espace mort. On ne peut donc pas déduire la PaCO₂ d'une addition forfaitaire.
-@ CAPNOGRAPHIE, p. 9 et 13
+QCM · Principe de l'oxymètre
+Concernant le principe de l'oxymètre de pouls, quelles propositions sont exactes ?
++ Il mesure l'absorption de la lumière sur au moins deux longueurs d'onde. :: L'hémoglobine et l'oxyhémoglobine n'absorbent pas de la même façon.
++ Il affiche une courbe de pléthysmographie. :: Elle reflète les variations de volume sanguin local.
+- Il nécessite une calibration avant chaque utilisation. :: Il ne requiert aucune calibration.
++ Il est non invasif, indolore et peu coûteux. :: Avec une marge d'erreur d'environ 5 % en conditions optimales.
+- Il mesure directement la PaO2. :: Il estime la saturation.
+> L'oxymètre estime la SaO2 (SpO2) par l'absorption lumineuse du sang pulsatile et affiche la pléthysmographie et la fréquence cardiaque.
+@ SpO2 p. 6, 7 et 10
 
-QCM · Oxymètre · signal pulsatile
-Quelles propositions décrivent le principe de l’oxymétrie de pouls et sa courbe de pléthysmographie ?
-+ L’appareil compare l’absorption lumineuse sur au moins deux longueurs d’onde. :: Le traitement de l’absorption de l’Hb et de l’HbO₂ permet l’estimation de SpO₂.
-- La courbe de pléthysmographie est une courbe de concentration de CO₂ expiré. :: Cette définition correspond au capnogramme ; la pléthysmographie suit le signal pulsatile sanguin.
-+ L’onde pulsatile reflète des variations locales de volume sanguin. :: C’est le principe décrit dans le support.
-+ La pléthysmographie permet aussi l’affichage d’une fréquence cardiaque. :: Le moniteur tire une fréquence du signal pulsatile.
-- Une fréquence cardiaque affichée cohérente prouve que la mesure de SpO₂ est fiable. :: Les mouvements, l’hypoperfusion et d’autres perturbations imposent de contrôler la qualité du signal et le contexte.
-> L'oxymètre compare l'absorption de deux longueurs d'onde sur la composante pulsatile du signal : sans pouls exploitable, il n'y a pas de mesure. La courbe de pléthysmographie est donc le contrôle de qualité de la SpO₂. Une fréquence cardiaque cohérente ne suffit pas à valider la saturation.
-@ SpO2, p. 6–7 et 10–11
+QCM · Choix du capteur
+Concernant le choix du capteur d'oxymétrie, quelles propositions sont exactes ?
++ La pince digitale est réutilisable mais instable chez un patient agité. :: Elle se déplace facilement.
++ Le capteur autocollant donne une mesure stable chez un patient agité. :: Il est à usage unique et plus coûteux.
++ La pince auriculaire est une solution de repli en cas de mauvaise perfusion périphérique. :: Ou d'accès difficile aux membres.
++ Le capteur nasal reste fiable lors d'une chute importante de la pression artérielle. :: Il capte une branche de la circulation cérébrale.
+- La pince digitale est le capteur de choix en cas de vasoconstriction intense. :: La perfusion distale est alors insuffisante.
+> Adapter le capteur au patient : autocollant si agitation, auriculaire ou nasal si perfusion périphérique médiocre.
+@ SpO2 p. 8 et 9
 
-QCM · Capnographie · repères quantitatifs
-Chez un adulte sans pathologie pulmonaire ou circulatoire connue, quels repères sont exacts ?
-+ Une PetCO₂ de 35–40 mmHg est la plage de normocapnie présentée. :: Le support donne cette plage avec une PaCO₂ attendue de 38–42 mmHg.
-- La PetCO₂ est la pression de CO₂ mesurée au début de l’inspiration. :: La PetCO₂ se mesure en fin d’expiration ; la PiCO₂ concerne le gaz inspiré.
-+ Une PiCO₂ normalement nulle signifie que les gaz inspirés ne contiennent pas de CO₂ expiré réinhalé. :: Une PiCO₂ supérieure à zéro est un indice de réinhalation.
-- Une PetCO₂ inférieure à 30 mmHg signe une cause respiratoire. :: Une valeur basse peut aussi être circulatoire, métabolique ou matérielle.
-+ Une même valeur numérique de PetCO₂ peut nécessiter des interprétations différentes selon le débit cardiaque et les échanges pulmonaires. :: Il faut intégrer la physiologie et le contexte à l’interprétation.
-> Normocapnie entre 35 et 40 mmHg, et CO₂ inspiré normalement nul. Mais un même chiffre n'a pas le même sens selon le contexte : une PetCO₂ basse peut venir d'une hyperventilation, d'un bas débit ou d'une augmentation de l'espace mort. La valeur s'interprète avec la ventilation réglée et l'état circulatoire.
-@ CAPNOGRAPHIE, p. 8–10
+QCU · Limite de l'oxymètre
+Un patient reçoit de l'oxygène pur et affiche une SpO2 à 100 %. Quelle information l'oxymètre ne peut-il pas donner ?
+- La fréquence cardiaque. :: Il l'affiche à partir de la pléthysmographie.
++ La présence d'une hyperoxie. :: Une fois l'hémoglobine saturée, la SpO2 reste à 100 % quelle que soit la PaO2.
+- La saturation de l'hémoglobine. :: C'est ce qu'il estime.
+- La courbe de pléthysmographie. :: Il l'affiche.
+- La présence d'un pouls. :: La pléthysmographie le montre.
+> L'oxymètre est aveugle à l'hyperoxie : au-delà du plateau, la PaO2 peut être très élevée avec une SpO2 à 100 %.
+@ SpO2 p. 10 et 11
 
-QCM · Hémoglobines pathologiques · chiffre trompeur
-Quelles propositions sont exactes concernant les pièges liés à l’hémoglobine ?
-+ Une HbCO élevée peut rendre le chiffre de SpO₂ faussement rassurant. :: Le support cite notamment une surévaluation lorsque l’HbCO dépasse 5 %.
-- Un oxymètre standard identifie et quantifie les hémoglobines pathologiques. :: La mesure standard présente justement des limites en présence de ces formes.
-- Une valeur de SpO₂ apparemment correcte exclut toute anomalie du transport d’O₂. :: L’Hb, les formes pathologiques et le débit cardiaque interviennent dans le transport.
-+ La méthémoglobine peut perturber l’estimation fournie par l’oxymètre. :: Le sens de l’erreur peut varier selon la saturation de départ dans le tableau du cours.
-+ La présence d’HbCO ou de MetHb doit faire interpréter le chiffre avec prudence. :: L’oxymétrie ne dispense pas de confronter le chiffre à la situation clinique.
-> L'oxymètre standard ne distingue pas l'oxyhémoglobine de la carboxyhémoglobine : en cas d'intoxication au monoxyde de carbone, il affiche une saturation faussement rassurante. La méthémoglobine le fait converger vers 85 %. Devant un contexte évocateur, le chiffre ne vaut rien : il faut une mesure par co-oxymétrie.
-@ SpO2, p. 5, 10–11
+QCM · Sous-estimation de la SpO2
+Parmi les situations suivantes, lesquelles peuvent faire sous-estimer la saturation par l'oxymètre ?
++ Un membre en position déclive ou comprimé :: La perfusion locale est perturbée.
++ Une PEP supérieure à 10 cmH2O :: Elle modifie la perfusion périphérique.
++ Du vernis à ongles :: Il absorbe la lumière.
++ L'injection de bleu de méthylène :: Les colorants faussent la mesure à la baisse.
++ Une insuffisance cardiaque droite :: Elle modifie la pulsatilité veineuse.
+> SpO2 faussement basse : membre déclive ou comprimé, insuffisance cardiaque droite, PEP élevée, peau foncée, vernis, onychomycose, colorants, méthémoglobine (si SpO2 de base > 85 %).
+@ SpO2 p. 10
 
-QCM · PetCO₂ basse · diagnostics différentiels
-Quelles situations peuvent s’accompagner d’une baisse de PetCO₂ ?
-+ Une hypovolémie avec baisse du débit cardiaque. :: C’est une cause circulatoire, avec effet espace mort.
-+ Une hypothermie réduisant l’activité métabolique. :: C’est une cause métabolique décrite.
-+ Une hyperventilation. :: C’est une cause respiratoire décrite.
-+ Une fuite sur la ligne de prélèvement. :: C’est une cause matérielle pouvant altérer la mesure.
-- Des frissons entraînant une hausse de production de CO₂. :: Les frissons figurent au contraire parmi les causes de hausse de PetCO₂.
-> Une PetCO₂ qui baisse a quatre familles de causes : ventilatoire par hyperventilation, circulatoire par baisse du débit, métabolique par réduction de la production, et technique par fuite ou déconnexion de la ligne. Les frissons, eux, augmentent la production de CO₂ et font monter la PetCO₂.
-@ CAPNOGRAPHIE, p. 9–10
+QCU · Intoxication au monoxyde de carbone
+Chez un patient intoxiqué au monoxyde de carbone, comment l'oxymètre de pouls se comporte-t-il ?
+- Il sous-estime la saturation. :: Il la surestime.
++ Il surestime la saturation, car il confond carboxyhémoglobine et oxyhémoglobine. :: La SpO2 paraît rassurante malgré une hypoxie.
+- Il donne une mesure exacte. :: L'HbCO fausse la mesure.
+- Il affiche une SpO2 nulle. :: La SpO2 reste élevée.
+- Il détecte l'intoxication par une alarme spécifique. :: Il ne la distingue pas.
+> HbCO > 5 %, anémie ou méthémoglobine avec SpO2 initiale < 85 % : la SpO2 surestime la SaO2. Une gazométrie avec co-oxymétrie est nécessaire.
+@ SpO2 p. 10 et 11
 
-QCM · SpO₂ · hyperoxie et limites
-Quelles limites de l’oxymétrie doivent être intégrées à la pratique ?
-- Une SpO₂ à 100 % permet de chiffrer précisément la PaO₂. :: Le plateau de la courbe dissociation empêche d’en déduire une PaO₂ précise.
-+ L’oxymètre standard ne permet pas de détecter l’hyperoxie. :: C’est un angle mort explicitement souligné.
-+ En dessous de 70 %, la corrélation entre SpO₂ et SaO₂ n’est plus fiable. :: Le support fixe cette limite de fiabilité.
-- Une valeur inférieure à 70 % doit être considérée comme une mesure précise simplement parce que le moniteur affiche deux chiffres. :: La présence d’une valeur numérique n’annule pas la limite de mesure.
-+ Une saturation élevée se situe sur une zone où des variations importantes de PaO₂ peuvent peu modifier la saturation. :: Au-dessus d’environ 60 mmHg de PaO₂, la partie haute de la courbe est relativement plate.
-> L'oxymétrie travaille sur le plateau de la courbe de dissociation : entre 100 et 500 mmHg de PaO₂, la saturation reste à 100 %. Elle ne détecte donc pas l'hyperoxie, et ne permet pas de chiffrer la PaO₂. Sous 70 %, la corrélation avec la saturation réelle se dégrade : le chiffre affiché devient approximatif.
-@ SpO2, p. 4 et 10–11
+QCU · Alarme de désaturation brutale
+Au bloc, l'alarme de SpO2 sonne brutalement à 78 % chez un patient jusque-là stable. Quel est le premier réflexe ?
+- Augmenter immédiatement la FiO2 sans regarder le patient. :: Il faut d'abord valider la mesure et le patient.
++ Contrôler le positionnement du capteur et la qualité de la courbe de pléthysmographie, tout en regardant le patient. :: La clinique et la courbe priment sur le chiffre.
+- Changer d'oxymètre. :: La vérification du capteur et de la courbe vient avant.
+- Ignorer l'alarme, la valeur étant inférieure à 80 %. :: Une vraie désaturation est possible.
+- Faire une gazométrie avant toute autre action. :: Elle ne remplace pas la vérification immédiate.
+> Devant une désaturation brutale : patient, capteur et pléthysmographie d'abord. Sous 70 %, la valeur n'est plus corrélée de façon fiable à la SaO2. Mouvements, hypothermie, hypotension et arythmies rendent la mesure imprécise.
+@ SpO2 p. 10 et 11
 
-QCM · PetCO₂ élevée · raisonnement au réveil
-La PetCO₂ augmente progressivement au réveil. Quelles hypothèses ou analyses sont pertinentes ?
-+ Des frissons peuvent augmenter la production de CO₂. :: Le cours cite les frissons et la phase de réveil parmi les causes métaboliques.
-+ Une hypoventilation peut limiter l’élimination du CO₂. :: La hausse peut aussi avoir une origine respiratoire.
-+ Une chaux sodée saturée peut favoriser la réinhalation. :: Le défaut d’absorption favorise une réinhalation de CO₂.
-- Une SpO₂ normale permet d’écarter toutes ces hypothèses. :: La SpO₂ ne mesure ni la production ni l’élimination du CO₂.
-- Le phénomène s’explique par une embolie pulmonaire. :: L’embolie pulmonaire figure parmi les causes de baisse ; une valeur de PetCO₂ ne suffit de toute façon pas à imposer une cause unique.
-> Une PetCO₂ qui monte au réveil a trois explications à passer en revue : production accrue par les frissons, élimination insuffisante par hypoventilation, et réinhalation par chaux sodée épuisée. Une SpO₂ normale n'écarte aucune des trois, puisqu'elle surveille l'oxygénation et non la ventilation.
-@ CAPNOGRAPHIE, p. 9–10; SpO2, p. 3 et 11
+QCM · Imprécision de l'oxymètre
+Concernant les situations qui rendent la SpO2 imprécise, quelles propositions sont exactes ?
+- Une SpO2 affichée à 65 % reflète fidèlement la SaO2. :: Sous 70 %, la corrélation n'est plus fiable.
++ Une forte hypotension rend la mesure imprécise. :: Le signal pulsatile est faible.
+- Les troubles du rythme améliorent la mesure. :: Ils la rendent imprécise.
+- Les mouvements du patient sont sans effet. :: Ils perturbent la mesure.
+- L'hypothermie améliore le signal. :: La vasoconstriction le dégrade.
+> Mesure imprécise en cas d'hypotension marquée, d'arythmie, d'hypothermie, de mouvements, et en dessous de 70 %.
+@ SpO2 p. 10
 
-QCM · Perfusion et fiabilité du signal
-Chez un patient fortement hypotendu, le signal de pléthysmographie devient pauvre et la PetCO₂ diminue. Quelles propositions sont exactes ?
-+ La faible perfusion périphérique peut rendre l’oxymétrie imprécise. :: La forte hypotension figure parmi les facteurs d’imprécision de SpO₂.
-+ La diminution de PetCO₂ peut comporter une composante circulatoire. :: Une baisse du débit circulatoire diminue l’apport de CO₂ aux poumons.
-- Une courbe de pléthysmographie pauvre signifie une désaturation artérielle réelle. :: Un signal pauvre peut traduire un défaut de perfusion ou de mesure ; il ne prouve pas à lui seul une désaturation réelle.
-+ La clinique, l’hémodynamie et la qualité des signaux doivent être réévaluées ensemble. :: Les deux monitorages sont complémentaires et s’interprètent avec le patient.
-- La bonne fixation du capteur assure une SpO₂ précise malgré la forte hypotension. :: La fixation correcte est nécessaire, mais la forte hypotension peut rendre la mesure imprécise malgré cette fixation.
-> Chez un patient en bas débit, les deux moniteurs se dégradent ensemble et pour la même raison : la perfusion périphérique insuffisante rend l'oxymétrie imprécise, et la baisse du transport pulmonaire du CO₂ abaisse la PetCO₂. Les deux signaux parlent alors de circulation, non d'oxygénation ni de ventilation.
-@ CAPNOGRAPHIE, p. 4 et 9; SpO2, p. 10–11
+QCM · Vocabulaire de la capnographie
+Concernant le vocabulaire de la capnographie, quelles propositions sont exactes ?
++ La capnographie enregistre la concentration en CO2 pendant tout le cycle respiratoire. :: Gaz inspirés et expirés.
++ Le capnogramme est le tracé graphique. :: Il montre l'évolution du CO2 au cours du cycle.
++ La capnométrie est la mesure quantitative, donnée par une valeur numérique. :: Mesurée par un capnomètre.
+- La capnographie renseigne seulement sur la ventilation. :: Elle reflète aussi le métabolisme et la circulation.
+- Le CO2 est transporté surtout lié à l'hémoglobine. :: Il l'est surtout sous forme de bicarbonates.
+> Le CO2 expiré est une fenêtre sur la production (métabolisme), le transport (circulation) et l'élimination (ventilation alvéolaire).
+@ Capnographie p. 4
 
-QCM · Affinité · Bohr et Haldane
-Quelles propositions distinguent les effets Bohr et Haldane ?
-+ L’effet Bohr relie notamment acidose/hypercapnie et libération plus facile de l’O₂ par l’Hb. :: L’affinité de l’Hb pour l’O₂ diminue dans ces conditions.
-+ L’effet Haldane décrit l’augmentation de la capacité de transport du CO₂ quand le sang se désoxygène. :: Le support formule ainsi l’effet Haldane.
-- L’effet Haldane signifie qu’une Hb désoxygénée transporte moins de CO₂. :: C’est l’inverse de l’effet décrit.
-- L’effet Bohr se traduit par un déplacement de la courbe vers la gauche en cas d’hypercapnie. :: L’hypercapnie favorise le déplacement vers la droite.
-+ Les deux effets participent au couplage entre les échanges d’O₂ et de CO₂. :: Le cours les présente de manière couplée.
-> Les deux effets couplent les échanges des deux gaz. Bohr : le CO₂ et l'acidité des tissus font libérer l'oxygène là où il est nécessaire. Haldane : la désoxygénation de l'hémoglobine augmente sa capacité à charger le CO₂, et son oxygénation pulmonaire le fait relarguer. L'un sert la délivrance, l'autre le transport retour.
-@ SpO2, p. 5
+QCM · Technologies de mesure
+Concernant les technologies de mesure du CO2, quelles propositions sont exactes ?
++ Le système aspiratif (side stream) prélève un échantillon de gaz analysé dans le moniteur. :: C'est le plus répandu en anesthésie.
+- Le système non aspiratif (main stream) aspire les gaz vers le moniteur. :: Il mesure directement le flux, sans aspiration.
++ En main stream, le capteur est placé entre la sonde d'intubation et la pièce en Y. :: C'est un capteur infrarouge.
+- Un patient non intubé ne peut pas bénéficier d'une capnographie. :: Un capteur peut être placé sur un masque ou une canule nasale.
+- Le capteur mesure le CO2 par une réaction chimique colorée. :: Il utilise l'absorption infrarouge.
+> Side stream : aspiration vers le moniteur (le plus fréquent). Main stream : capteur infrarouge sur le circuit. La capnographie est possible chez le patient non intubé.
+@ Capnographie p. 6 et 7
 
-QCM · CaO₂ · calcul pratique
-Un patient a une Hb de 8 g/dL, une SaO₂ de 98 % et une PaO₂ de 100 mmHg. Pour le calcul du CaO₂, quelles propositions sont exactes ? Utilise les constantes 1,34 mL d’O₂/g d’Hb et 0,003 mL d’O₂/dL/mmHg.
-+ La SaO₂ doit être utilisée sous forme de fraction : 0,98. :: La formule utilise une fraction et non 98.
-+ Le CaO₂ est voisin de 10,8 mL d’O₂/dL. :: 8 × 1,34 × 0,98 + 100 × 0,003 = 10,8056, soit environ 10,8.
-+ L’oxygène lié à l’Hb est voisin de 10,5 mL d’O₂/dL. :: 8 × 1,34 × 0,98 = 10,5056.
-- Doubler la PaO₂ de 100 à 200 mmHg, sans modifier Hb et SaO₂, ajoute environ 10,5 mL d’O₂/dL. :: Le supplément dissous est seulement (200 − 100) × 0,003 = 0,3 mL/dL.
-+ La contribution de l’oxygène dissous est ici de 0,3 mL d’O₂/dL. :: 100 × 0,003 = 0,3.
-> Avec 8 g/dL d'hémoglobine : 1,34 × 8 × 0,98 = 10,5 mL/dL liés, plus 0,003 × 100 = 0,3 mL/dL dissous, soit 10,8 mL/dL. Doubler la PaO₂ n'ajouterait que 0,3 mL/dL. La démonstration est nette : face à un contenu artériel abaissé par l'anémie, l'oxygène ne remplace pas la transfusion.
-@ SpO2, p. 6
+QCM · Capnogramme
+Concernant les phases du capnogramme, quelles propositions sont exactes ?
++ La phase initiale correspond à l'espace mort, avec un CO2 nul. :: Aucun échange n'y a lieu.
++ La phase ascendante correspond au mélange des gaz de l'espace mort et des gaz alvéolaires. :: Le CO2 augmente progressivement.
++ Le plateau correspond à l'expiration des gaz alvéolaires. :: Il est légèrement ascendant.
++ La PetCO2 est mesurée à la fin du plateau, en fin d'expiration. :: C'est le point C.
+- La PiCO2 est mesurée en fin d'expiration. :: Elle est mesurée au début de l'inspiration.
+> Capnogramme : espace mort (0), phase ascendante, plateau alvéolaire, PetCO2 en fin d'expiration, chute rapide à l'inspiration jusqu'à la PiCO2.
+@ Capnographie p. 8
 
-QCM · CO₂ inspiré · circuit d’anesthésie
-La PiCO₂ reste supérieure à zéro pendant plusieurs cycles. Quelles propositions sont exactes ?
-+ Cela évoque une réinhalation du CO₂ expiré. :: Le cours associe PiCO₂ positive et réinhalation.
-+ L’état de la chaux sodée doit être considéré. :: Une chaux saturée est une cause matérielle citée.
-+ Les valves directionnelles du circuit peuvent être en cause. :: Une anomalie des valves est l’autre cause citée.
-- Une augmentation isolée du métabolisme suffit à rendre la PiCO₂ positive. :: Une hausse de production peut augmenter le CO₂ expiré sans imposer du CO₂ dans le gaz inspiré.
-- La PiCO₂ peut être ignorée si la valeur de PetCO₂ reste dans la plage habituelle. :: L’analyse de la ligne de base apporte une information distincte de la seule valeur de fin d’expiration.
-> Un CO₂ inspiré qui ne revient pas à zéro signe une réinhalation, et renvoie à la machine : chaux sodée épuisée ou valve unidirectionnelle incompétente. C'est un problème de circuit, non de métabolisme. Et il doit être corrigé même si la PetCO₂ reste dans sa plage habituelle.
-@ CAPNOGRAPHIE, p. 8–10 et 12
+QCU · Réinhalation de CO2
+Au bloc, la ligne de base du capnogramme ne redescend plus à zéro (PiCO2 > 0). Quelle cause rechercher en premier ?
+- Une hyperventilation. :: Elle fait baisser la PetCO2, sans réinhalation.
++ Une chaux sodée saturée ou un dysfonctionnement des valves du respirateur. :: Le CO2 expiré est réinhalé.
+- Une embolie pulmonaire. :: Elle fait chuter la PetCO2.
+- Une intubation œsophagienne. :: Elle donne des courbes absentes ou décroissantes.
+- Une hypothermie. :: Elle diminue la production de CO2.
+> PiCO2 > 0 signe une réinhalation de CO2 : chaux sodée épuisée ou valve unidirectionnelle défaillante.
+@ Capnographie p. 8, 9 et 12
 
-QCM · Dissociation Hb–O₂ · pente et plateau
-Quelles interprétations de la courbe de dissociation Hb–O₂ sont exactes ?
-+ La courbe possède une allure sigmoïde. :: La représentation est en S.
-+ Sous environ 60 mmHg de PaO₂, une baisse modeste de PaO₂ peut s’accompagner d’une baisse marquée de saturation. :: C’est la partie raide de la courbe.
-+ La P50 correspond à la PaO₂ pour laquelle l’Hb est saturée à 50 %. :: C’est sa définition.
-- Une P50 plus élevée traduit une affinité plus forte de l’Hb pour l’O₂. :: Une P50 élevée traduit une affinité diminuée.
-- Chez l’adulte sain, la P50 est située autour de 60 mmHg. :: Le repère donné est environ 27 mmHg ; 60 mmHg repère la transition vers la pente raide.
-> La courbe est sigmoïde, avec un plateau au-dessus de 60 mmHg et une pente raide en dessous : passé ce coude, la saturation chute vite pour une faible baisse de PaO₂. La P50 normale est voisine de 27 mmHg, et une P50 élevée traduit une affinité diminuée, donc une libération facilitée aux tissus.
-@ SpO2, p. 4–5
+QCM · Gradient PetCO2-PaCO2
+Concernant le gradient entre PetCO2 et PaCO2, quelles propositions sont exactes ?
++ Sous ventilation contrôlée chez un sujet sain sédaté, il est d'environ 5 mmHg. :: L'espace mort alvéolaire augmente.
+- La PetCO2 est en général supérieure à la PaCO2. :: Elle la sous-estime.
++ Il peut atteindre 15 à 20 mmHg en cas de pathologie pulmonaire. :: Avec une grande variabilité.
+- La PetCO2 reflète la PaCO2 même en cas de bas débit cardiaque. :: Le reflet suppose un débit normal et un poumon sain.
+- Une PetCO2 de 35 mmHg garantit une PaCO2 de 35 mmHg. :: La PaCO2 est plus élevée.
+> La PetCO2 sous-estime la PaCO2 : gradient d'environ 5 mmHg chez le sujet sain ventilé, jusqu'à 15-20 mmHg si le poumon est malade ou le débit bas.
+@ Capnographie p. 9 et 13
 
-QCM · Lecture du moniteur · priorité au signal
-Face à une alarme et à une valeur qui paraît incohérente, quelles attitudes d’interprétation sont pertinentes ?
-+ Examiner la courbe de pléthysmographie et le positionnement du capteur de SpO₂. :: C’est le contrôle mis en avant face à une alarme de SpO₂.
-+ Pour le CO₂, examiner la morphologie du capnogramme, pas seulement la PetCO₂. :: Une encoche, une pente modifiée ou une ligne de base élevée ajoutent des informations.
-- Assimiler tout changement brutal de PetCO₂ à une cause métabolique lente. :: Un changement brutal peut correspondre à un incident circulatoire, ventilatoire ou matériel.
-+ Confronter les deux monitorages à la clinique, à la circulation et au matériel. :: Les supports insistent sur les signaux, leurs limites et leur contexte.
-- Considérer qu’un chiffre affiché supprime le besoin de vérifier la qualité de la mesure. :: La valeur numérique ne prouve pas la fiabilité de la mesure.
-> Devant un chiffre surprenant, c'est le signal qu'il faut regarder avant la valeur : courbe de pléthysmographie et position du capteur pour la SpO₂, morphologie du capnogramme pour le CO₂. Un changement brutal de PetCO₂ est circulatoire ou technique, jamais métabolique, car le métabolisme varie lentement.
-@ CAPNOGRAPHIE, p. 8–13; SpO2, p. 10–11
+QCU · Confirmation de l'intubation
+Après une intubation, quel critère capnographique confirme la position trachéale de la sonde ?
+- Un seul capnogramme après la première insufflation. :: De l'air gastrique peut contenir du CO2 au début.
++ L'obtention de six capnogrammes réguliers. :: Une intubation œsophagienne donne des courbes qui disparaissent.
+- Une PetCO2 nulle. :: Elle évoque une intubation œsophagienne ou une déconnexion.
+- Une SpO2 à 100 %. :: La SpO2 peut rester normale un moment malgré une intubation œsophagienne.
+- Un plateau en aileron de requin. :: Il évoque un bronchospasme.
+> Six capnogrammes réguliers valident l'intubation trachéale. Une intubation œsophagienne donne quelques courbes décroissantes (air gastrique) puis plus rien.
+@ Capnographie p. 9, 11 et 13
+
+QCM · Indications de la capnographie
+Concernant l'intérêt de la capnographie, quelles propositions sont exactes ?
++ Elle contrôle la position de la sonde d'intubation. :: Et détecte une intubation œsophagienne.
++ Elle détecte une apnée en ventilation spontanée. :: La courbe disparaît.
++ Elle surveille les variations métaboliques et circulatoires. :: Production et transport du CO2.
++ Elle contrôle l'efficacité d'une réanimation cardio-pulmonaire. :: Son niveau suit le débit généré par le massage.
++ Elle détecte un dysfonctionnement du matériel. :: Respirateur, ballonnet, ligne de prélèvement.
+> La capnographie surveille ventilation, circulation, métabolisme et matériel. C'est le détecteur le plus précoce d'un incident au bloc.
+@ Capnographie p. 9 et 13
+
+QCM · Baisse de la PetCO2
+Parmi les situations suivantes, lesquelles peuvent faire baisser la PetCO2 ?
++ Une embolie pulmonaire :: Effet espace mort.
++ Une chute du débit cardiaque :: Moins de CO2 est apporté aux poumons.
++ Une hyperventilation :: Le CO2 est davantage éliminé.
++ Une hypothermie :: La production de CO2 diminue.
++ Une fuite du ballonnet ou de la ligne de prélèvement :: Cause matérielle.
+> PetCO2 ↓ : causes circulatoires (arrêt, hypotension, hypovolémie, embolie), respiratoires (hyperventilation, bronchospasme), métaboliques (hypothermie, narcose profonde), matérielles (fuite, déconnexion).
+@ Capnographie p. 9 et 10
+
+QCM · Hausse de la PetCO2
+Concernant les causes d'augmentation de la PetCO2, quelles propositions sont exactes ?
++ Une hyperthermie maligne. :: La production de CO2 explose.
++ La levée d'un garrot. :: Le CO2 accumulé dans le membre est libéré.
++ Une hypoventilation. :: Le CO2 est moins éliminé.
++ Des frissons ou la phase de réveil. :: Le métabolisme augmente.
+- Une hypothermie profonde. :: Elle diminue la production de CO2.
+> PetCO2 ↑ : causes métaboliques (réveil, frissons, fièvre, garrot, hyperthermie maligne), respiratoires (hypoventilation), circulatoires (débit augmenté), matérielles (chaux saturée, valves).
+@ Capnographie p. 10
+
+QCM · Lecture des tracés
+Concernant l'interprétation des tracés de capnographie, quelles propositions sont exactes ?
+- Un aspect en aileron de requin évoque une intubation sélective. :: Il évoque un bronchospasme sévère.
+- Une encoche sur le plateau signe un arrêt cardiaque. :: Elle évoque une reprise de ventilation spontanée, une asynchronie ou une fuite.
++ Une chute brutale de la courbe à zéro évoque un arrêt cardiaque, une extubation ou une déconnexion. :: C'est une urgence.
+- Une pente accrue du plateau est un aspect normal. :: Elle s'observe chez le patient BPCO.
+- Une ligne de base élevée évoque une hyperventilation. :: Elle évoque une réinhalation.
+> Aileron de requin : bronchospasme. Encoche : ventilation spontanée ou fuite. Chute à zéro : arrêt, extubation, déconnexion. Ligne de base élevée : réinhalation.
+@ Capnographie p. 11 et 12
+
+QCM · Capnographie et arrêt cardiaque
+Concernant la capnographie au cours de l'arrêt cardiaque, quelles propositions sont exactes ?
++ Elle confirme le bon positionnement de la sonde d'intubation. :: Pendant la réanimation.
++ Une PetCO2 inférieure à 10 mmHg après 20 minutes de réanimation est de mauvais pronostic. :: Sans justifier seule l'arrêt des soins.
++ Des valeurs plus élevées sont associées à un retour d'activité cardiaque spontanée. :: Autour de 25 mmHg.
+- Une valeur isolée suffit à décider l'arrêt de la réanimation. :: La tendance est plus pertinente qu'un chiffre isolé.
+- Après la reprise d'activité cardiaque, la surveillance s'appuie sur la seule PetCO2. :: Elle s'appuie sur la PaCO2.
+> Pendant l'arrêt cardiaque, la PetCO2 reflète le débit du massage : elle confirme la sonde, suit l'efficacité de la RCP et a une valeur pronostique, à interpréter en tendance.
+@ Capnographie p. 12 et 13

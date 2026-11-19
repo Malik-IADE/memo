@@ -1,154 +1,285 @@
-// Quiz 26 – Positions chirurgicales (UE 3.1), d'après « QUIZZ 26 Position chirurgicales.html », relu et corrigé.
+// Quiz – Positions chirurgicales (UE 3.1), réécrit le 18 novembre 2026 d'après le support « Positions chirurgicales avec notes », sur le modèle du quiz Patient hypertendu.
+// Questions type examen sur les notions générales : responsabilités, mobilisation, décubitus dorsal, position de Rose, proclive, déclive, décubitus latéral et ventral, génu-pectorale, lithotomie, position assise, table orthopédique, prévention des risques. Raisonnement : risque, mécanisme, conséquence, action.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Positions chirurgicales
 
-QCM · Préparation d'un retournement
-Avant de retourner un patient anesthésié en décubitus ventral, quelles vérifications doivent être faites ?
-+ Confirmer la stabilité respiratoire et hémodynamique, et une profondeur d'anesthésie adaptée :: Un patient instable ne se retourne pas, et une anesthésie trop légère expose à la toux et à l'extubation.
-+ Vérifier la fixation de la sonde et la longueur disponible des lignes et des câbles :: Une ligne trop courte s'arrache pendant le mouvement.
-+ Organiser un mouvement d'ensemble, commandé par le soignant placé à la tête :: C'est lui qui tient la tête et la sonde : il donne le signal.
-+ Disposer les billots avant le retournement :: Ils doivent être prêts pour recevoir le patient, non placés après coup.
-- Faire pivoter le bassin d'abord, puis le thorax :: Une mobilisation dissociée crée une torsion du rachis.
-> Un retournement se prépare : équipe briefée, billots en place, longueur des lignes vérifiée, sonde sécurisée, patient stable et suffisamment profond. Le mouvement se fait en monobloc, au signal de celui qui tient la tête.
-@ 9, 18, 46–49
+QCM · Responsabilités
+Concernant les responsabilités dans la mise en posture chirurgicale, quelles propositions sont exactes ?
++ La mise en posture se fait sous la responsabilité du chirurgien ou de l'IBODE, conjointement avec l'équipe d'anesthésie. :: La responsabilité est partagée, sans effacer celle de chacun.
++ L'IADE anticipe les équipements nécessaires : table, billots, appuis. :: C'est une compétence de son référentiel.
+- L'installation est une étape purement chirurgicale, sans rôle pour l'IADE. :: L'IADE assure la sécurité et les suppléances des fonctions vitales lors des changements de position.
++ La posture est tracée sur la checklist. :: Elle est vérifiée et verbalisée en équipe.
+- Une fois le patient endormi, on installe sans attendre le chirurgien pour gagner du temps. :: En l'absence du cadre prévu, mieux vaut attendre que se précipiter.
+> L'installation est une activité de coopération : chirurgien et IBODE installent, l'équipe d'anesthésie assure la sécurité vitale. Chacun observe, annonce et trace.
+@ p. 4 à 6 et 84
 
-QCM · Contrôles après mobilisation
-Un patient vient d'être tourné sur le côté. Quels contrôles sont nécessaires avant le drapage ?
-+ Auscultation des deux champs pulmonaires :: La sonde peut s'être déplacée pendant le mouvement.
-+ Vérification de la voie veineuse, de la sonde, de la capnographie et des constantes :: Les lignes peuvent s'être coudées ou arrachées.
-+ Nouveau contrôle des points d'appui, même après un déplacement court :: Les protections glissent et se plissent facilement.
-+ Traçabilité du changement de posture et des contrôles sur la feuille d'anesthésie :: La position est un élément du dossier d'anesthésie.
-- Les gels restent bien positionnés s'ils l'étaient avant le retournement :: Ils se déplacent avec le patient : il faut les revérifier à chaque mobilisation.
-> Toute mobilisation est une rupture : elle peut déplacer la sonde, couder une ligne, décaler une protection. Après chaque changement de position, on refait les contrôles — auscultation, lignes, appuis — et on les trace, car le drapage rendra ensuite tout inaccessible.
-@ 18–19, 40–45
+QCM · Checklist
+Concernant la checklist au bloc opératoire, quelles propositions sont exactes ?
+- Elle se limite à vérifier l'identité du patient. :: Elle couvre aussi le site, le côté et l'installation.
++ Elle comporte trois temps : avant l'induction, avant l'intervention, en fin d'intervention. :: C'est un temps de communication entre professionnels.
+- C'est la feuille de surveillance transmise à la SSPI. :: Elle reste au dossier.
++ Le dernier temps permet d'anticiper les suites, comme la prévention thromboembolique. :: C'est le bilan de fin.
+- Elle remplace le contrôle visuel des appuis. :: Regarder ensemble la position et les zones de compression reste nécessaire.
+> La checklist est un contrôle croisé verbalisé en trois temps. Elle permet de repérer un écart (site, côté, installation) avant de poursuivre.
+@ p. 7 et 8
 
-QCM · Membres supérieurs
-En décubitus dorsal, quelles précautions réduisent le risque de lésion d'un membre supérieur placé sur un appui-bras ?
-+ Limiter l'abduction à moins de 90° :: Au-delà, le plexus brachial est mis en tension.
-+ Placer la paume vers le haut lorsque c'est possible :: La supination dégage la gouttière ulnaire et protège le nerf ulnaire au coude.
-+ Installer une fixation non compressive :: Elle maintient sans créer de point de pression.
-+ Soutenir le poignet dans l'alignement de l'avant-bras :: Pour éviter une contrainte distale.
-- Rechercher une rétropulsion de l'épaule pour détendre le plexus brachial :: La rétropulsion le met au contraire en tension : elle est à éviter.
-> Deux nerfs sont en cause : le plexus brachial, étiré par l'abduction excessive et la rétropulsion, et le nerf ulnaire, comprimé dans la gouttière du coude en pronation. D'où la règle : abduction sous 90°, paume vers le haut, maintien sans compression.
-@ 17, 24
+QCM · Avant la mobilisation
+Avant de changer la position d'un patient anesthésié, quelles précautions sont exactes ?
++ Être en nombre suffisant selon la morphologie et la manœuvre. :: L'équipe se dimensionne avant de commencer.
++ Vérifier que le patient est stable sur les plans hémodynamique, respiratoire et de la profondeur d'anesthésie. :: L'IADE peut demander une pause avant le départ.
++ Fixer la sonde et donner du jeu aux tuyaux et aux câbles. :: Pour éviter un arrachement pendant le mouvement.
++ Mobiliser en monobloc, au signal de la personne placée à la tête. :: Tête, tronc et bassin se déplacent ensemble.
++ Anticiper les accès qui seront inaccessibles sous les champs. :: Voie veineuse et prolongateur avec robinet à portée.
+> Avant toute mobilisation : équipe suffisante, patient monitoré et stable, dispositifs fixés et assez longs, mouvement en monobloc coordonné par le responsable de la tête.
+@ p. 18
 
-QCM · Terrain et posture
-Quelles affirmations expliquent qu'une même position chirurgicale n'ait pas le même retentissement chez deux patients ?
-+ L'âge et les antécédents modifient la réserve et la tolérance aux appuis :: Artériopathie, diabète et dénutrition fragilisent les tissus et les nerfs.
-+ L'anesthésie générale atténue les réponses compensatrices :: Le patient ne peut plus adapter sa position ni compenser une baisse de retour veineux.
-+ Le pneumopéritoine ajoute une contrainte ventilatoire et circulatoire :: Les effets de la position et de l'insufflation se cumulent.
-- La durée d'une compression n'intervient pas si la peau était intacte au départ :: La durée est un facteur déterminant : une pression modérée et prolongée suffit à créer une ischémie.
-- L'absence de douleur exprimée sous anesthésie exclut une atteinte posturale :: Un patient anesthésié ne signale ni compression, ni étirement, ni douleur croissante.
-> Le risque posturale naît de la rencontre entre un terrain, une anesthésie qui supprime toute alerte, une technique chirurgicale et une durée. C'est pourquoi la prévention repose sur l'installation initiale et sur des contrôles répétés, non sur la réaction du patient.
-@ 3, 20, 30–31, 78–82
+QCM · Après la mobilisation
+Après un changement de position, quelles vérifications sont exactes ?
++ Ausculter les deux champs pulmonaires. :: La sonde peut avoir migré.
++ Vérifier la sonde, la capnographie, les voies veineuses et le monitorage. :: Reprendre la ventilation si elle a été interrompue.
++ Contrôler les appuis avant le drapage et après chaque mobilisation de la table. :: Un gel peut s'être déplacé ou plissé.
+- Se fier aux seuls chiffres du scope. :: Il faut aussi examiner le patient : thorax, pouls, auscultation.
++ Tracer l'heure, la posture et les contrôles. :: Une baisse tensionnelle se comprend mieux si on peut la relier à la bascule.
+> Après la mobilisation : reconnecter, ausculter des deux côtés, vérifier dispositifs et appuis, tracer. Positionner, maintenir, contrôler.
+@ p. 19
 
-QCM · Proclive
-Un patient anesthésié est basculé tête plus haute que les pieds. Quelles conséquences sont plausibles ?
-+ Une séquestration veineuse dans les membres inférieurs :: Le sang se redistribue vers les parties déclives.
-+ Une baisse de la pression artérielle moyenne par diminution du retour veineux :: Moins de précharge, moins de débit.
-+ Un glissement vers les pieds, qui peut tirer sur un bras fixé :: D'où la nécessité de contre-appuis et de vérifier les fixations.
-- Une hausse du débit cardiaque par majoration du retour veineux :: Le retour veineux diminue en proclive : c'est en déclive modéré qu'il augmente.
-- Une diminution du risque thrombotique grâce à l'immobilité :: L'immobilité et la stase veineuse majorent ce risque.
-> En proclive, le sang quitte le thorax pour les jambes : le retour veineux et la pression artérielle baissent, et la stase favorise la thrombose. S'y ajoute un risque mécanique de glissement, qui met en tension les membres fixés.
-@ 27–32
+QCM · Familles de risques
+Concernant le classement des risques liés aux postures, quelles propositions sont exactes ?
++ Une rougeur sur un appui en plan dur relève du risque cutané. :: Compression prolongée d'un relief osseux.
+- La luxation d'une prothèse de hanche en position gynécologique relève du risque nerveux. :: Elle relève du risque ostéo-articulaire.
++ L'étirement du nerf sciatique lors de cette même manœuvre relève du risque vasculo-nerveux. :: Une même manœuvre combine plusieurs risques.
+- Le patient anesthésié change spontanément d'appui quand il est gêné. :: Endormi ou curarisé, il ne peut plus faire ce mouvement protecteur.
+- La stase veineuse prolongée relève du risque respiratoire. :: Elle relève du risque thromboembolique.
+> Six familles : cutanéo-muqueux, vasculo-nerveux, ostéo-articulaire, thromboembolique, hémodynamique, respiratoire. Le patient anesthésié ne peut ni signaler ni corriger une gêne.
+@ p. 1 et 20
 
-QCM · Déclive et circulation
-Lors d'un Trendelenburg prononcé sous cœlioscopie, quelles affirmations sur le retentissement circulatoire sont exactes ?
-+ L'augmentation de la pression intrathoracique peut limiter le remplissage cardiaque :: Le refoulement du diaphragme comprime les cavités cardiaques.
-+ Le débit cardiaque et la pression artérielle moyenne peuvent diminuer :: Malgré une position qui semble favoriser le retour veineux.
-+ Le degré d'inclinaison et le pneumopéritoine doivent être considérés ensemble :: Leurs effets s'additionnent sur la mécanique thoracique.
-- Une forte inclinaison augmente le débit cardiaque :: Une bascule modérée peut l'augmenter ; une bascule forte avec pneumopéritoine fait l'inverse.
-- Une pression veineuse centrale plus élevée traduit un meilleur retour veineux :: Elle peut refléter la compression thoracique, non une précharge efficace.
-> Le Trendelenburg modéré augmente le retour veineux, mais prononcé et associé à un pneumopéritoine, il comprime le thorax et gêne le remplissage : débit et pression artérielle baissent alors que la pression veineuse centrale monte. Ce chiffre élevé est trompeur.
-@ 34–37, 78
+QCM · Décubitus dorsal
+Concernant le décubitus dorsal, quelles propositions sont exactes ?
++ C'est la position la plus physiologique et la plus courante. :: Globalement bien tolérée.
++ L'occiput, le sacrum et les talons sont des appuis à protéger. :: L'immobilité sur un plan dur les expose.
+- Ses répercussions respiratoires sont habituellement majeures. :: La baisse de CRF est habituellement modeste.
++ La baisse de CRF peut être plus marquée chez le sujet âgé ou obèse. :: Selon le terrain.
+- Il est sans risque chez la femme enceinte. :: L'utérus gravide comprime la veine cave.
+> Le décubitus dorsal est la position de référence : peu de répercussions hémodynamiques et respiratoires, mais des appuis à protéger et des terrains particuliers (obèse, âgé, grossesse).
+@ p. 21 à 25
 
-QCM · Déclive et position de la sonde
-Après une bascule en Trendelenburg, le patient intubé est moins bien ventilé à gauche. Quelles hypothèses ou actions sont pertinentes ?
-+ L'ascension de la carène peut rendre la sonde sélective malgré un repère inchangé à la bouche :: La sonde n'a pas bougé ; c'est la trachée qui s'est raccourcie au-dessus d'elle.
-+ Une intubation sélective droite est l'hypothèse la plus plausible :: La bronche souche droite est plus verticale.
-+ Il faut comparer l'auscultation des deux côtés et revoir les paramètres ventilatoires :: Avec les pressions, le volume expiré et la capnographie.
-- Le risque est écarté si le repère à la bouche n'a pas bougé :: C'est précisément le piège : le repère est inchangé et la sonde est pourtant trop profonde.
-- Le volume courant augmente après la bascule :: La compliance diminue : à pression constante, le volume baisse.
-> En Trendelenburg, le diaphragme et la carène remontent vers la sonde, qui devient relativement trop profonde et s'engage souvent dans la bronche droite. Le repère à la bouche ne permet donc pas de l'exclure : seule l'auscultation bilatérale après chaque bascule le fait.
-@ 38
+QCU · Bras sur appui
+Concernant l'installation d'un bras sur un appui-bras en décubitus dorsal, quelle proposition est exacte ?
+- Abduction à plus de 90°, paume vers le bas. :: L'abduction forcée étire le plexus brachial.
++ Abduction inférieure à 90°, paume vers le haut, fixation non compressive. :: La supination dégage la gouttière du nerf ulnaire.
+- Abduction à 90°, poignet pendant hors de l'appui. :: Le poignet doit être soutenu.
+- Épaule en arrière pour mieux dégager le champ. :: Cela étire le plexus brachial.
+- Fixation serrée pour éviter toute chute du bras. :: Une sangle ne doit pas faire garrot.
+> Bras : abduction < 90°, supination (paume vers le haut), poignet soutenu, fixation sans serrer. On protège ainsi le plexus brachial, le nerf ulnaire au coude et le nerf radial.
+@ p. 17 et 24
 
-QCM · Décubitus latéral
-Chez un patient anesthésié en décubitus latéral, quelles affirmations sur la ventilation et la perfusion pulmonaires sont exactes ?
-+ Le poumon déclive est mieux perfusé :: La gravité y dirige la perfusion.
-+ Le poumon supérieur est mieux ventilé mais moins perfusé :: D'où un rapport ventilation/perfusion élevé en haut et bas en bas.
-+ Ce déséquilibre peut contribuer à l'hypoxémie et aux atélectasies :: Le poumon déclive est comprimé et se referme.
-- Les sécrétions s'accumulent dans le poumon supérieur :: Elles migrent vers le poumon déclive, sous l'effet de la gravité.
-- Une compression thoracique ne modifie pas les pressions d'insufflation :: Un appui thoracique abaisse la compliance et élève les pressions.
-> En décubitus latéral sous ventilation mécanique, le poumon du dessus est ventilé sans être perfusé, et le poumon du dessous perfusé sans être bien ventilé : les deux mécanismes dégradent l'oxygénation. Les sécrétions, elles, descendent vers le poumon déclive.
-@ 44–45
+QCM · Nerfs du membre supérieur
+Concernant la protection des nerfs du membre supérieur, quelles propositions sont exactes ?
++ L'abduction forcée du bras étire le plexus brachial. :: D'où la limite de 90°.
++ Le nerf ulnaire peut être comprimé au coude. :: La supination dégage sa gouttière.
++ Le nerf radial peut être comprimé contre le bord de la table. :: Le bras doit reposer sur un appui.
++ Une tête tournée du côté opposé accentue la tension sur le plexus brachial. :: La rotation cervicale s'ajoute à l'abduction.
+- Un gel suffit à protéger un nerf, quelle que soit la position du membre. :: Le contrôle porte sur le trajet et la géométrie, pas sur la seule présence du gel.
+> Plexus brachial (abduction, rotation de la tête, épaulières), ulnaire (coude), radial (bord de table), médian (poignet) : le contrôle du trajet du nerf prime sur la présence d'une protection.
+@ p. 24, 39 et 81
 
-QCM · Mesure de la pression artérielle en latéral
-La pression artérielle est mesurée au brassard chez un patient en décubitus latéral. Quelles interprétations sont exactes par rapport à une référence au niveau du cœur ?
-+ Au bras supérieur, la valeur est sous-estimée :: Le brassard est au-dessus du niveau de référence : la colonne hydrostatique abaisse la mesure.
-+ Au bras inférieur, la valeur est surestimée :: Le brassard est en dessous : la mesure est majorée.
-+ Le niveau des bras doit être pris en compte pour interpréter une variation :: Un changement de valeur peut venir d'un changement de hauteur, non du patient.
-- Le choix du bras est indifférent si la taille du brassard est correcte :: La taille du brassard et sa hauteur sont deux sources d'erreur distinctes.
-- Le bras inférieur donne une valeur plus basse que le bras supérieur :: C'est l'inverse : plus bas signifie plus élevé.
-> Environ 7,5 mmHg par 10 cm de dénivelé : le bras du dessus lit trop bas, celui du dessous trop haut. Avant de traiter une hypotension apparue après un changement de position, il faut vérifier où se trouve le brassard.
-@ 42–43
+QCM · Position de Rose
+Concernant la position de Rose, quelles propositions sont exactes ?
++ C'est un décubitus dorsal avec hyperextension cervicale, souvent avec un billot sous les épaules. :: Elle expose la face antérieure du cou.
++ Elle est utilisée notamment en chirurgie thyroïdienne. :: Et parathyroïdienne.
+- La tête peut rester suspendue dans le vide. :: Elle doit rester soutenue.
++ Une hyperextension excessive peut comprimer les artères vertébrales ou la moelle. :: Surtout en cas d'arthrose cervicale.
+- Sa tolérance ne peut pas être testée avant l'induction. :: On la teste chez le patient éveillé : douleur et paresthésies guident les limites.
+> Position de Rose : extension du cou pour exposer la région cervicale antérieure. Tête soutenue, extension limitée, tolérance testée éveillé, yeux protégés, sonde vérifiée.
+@ p. 26
 
-QCM · Décubitus ventral et hypotension
-Juste après un retournement en décubitus ventral, la pression artérielle moyenne chute. Quelles affirmations sont compatibles avec un billot pelvien mal placé ?
-+ Une compression cave ou fémorale réduit le retour veineux et le débit cardiaque :: Billot trop haut comprimant l'abdomen, ou trop bas gênant le retour fémoral.
-+ La liberté abdominale et les appuis doivent être vérifiés avant tout autre traitement :: La cause est mécanique : elle se corrige par le repositionnement.
-- La pression sur l'abdomen augmente le remplissage cardiaque :: Elle le diminue en comprimant la veine cave inférieure.
-- La baisse de débit s'explique par un retour veineux augmenté :: Un retour veineux augmenté n'abaisse pas le débit.
-- La stabilité en décubitus dorsal permet d'exclure un effet hémodynamique du retournement :: Le retournement crée des contraintes qui n'existaient pas en décubitus dorsal.
-> Devant une hypotension survenant au retournement en ventral, la première hypothèse est mécanique : un billot mal placé qui comprime l'abdomen ou gêne le retour fémoral. La réponse est de rouvrir le champ abdominal, avant de remplir ou de prescrire un vasopresseur.
-@ 48–50
+QCM · Proclive et hémodynamique
+Concernant les effets hémodynamiques du proclive, quelles propositions sont exactes ?
++ Le sang se séquestre dans les membres inférieurs. :: Par gravité.
++ Le retour veineux et le débit cardiaque diminuent, ce qui fait baisser la PAM. :: Séquestration → retour veineux ↓ → débit ↓ → PAM ↓.
++ L'anesthésie générale diminue la compensation par le baroréflexe. :: La même bascule est mieux tolérée chez un sujet éveillé.
++ La mise en place doit être progressive, sous surveillance hémodynamique. :: Avec un angle limité (moins de 30°) et une durée limitée.
+- Le remplissage vasculaire est systématique avant tout proclive. :: Il est guidé par la réponse et le terrain, prudent chez l'insuffisant cardiaque.
+> Proclive : séquestration veineuse déclive, baisse du retour veineux et de la PAM, d'autant que l'anesthésie émousse les réflexes. Installer par paliers en surveillant la pression ; diminuer l'angle si l'hypotension persiste.
+@ p. 30 et 31
+
+QCM · Proclive, autres risques
+Concernant les autres risques du proclive, quelles propositions sont exactes ?
++ Le patient peut glisser progressivement hors de la table. :: Un repose-pieds protégé limite la descente.
+- La stase veineuse des membres inférieurs diminue le risque de thrombose. :: Elle l'augmente.
++ Si le corps glisse alors qu'un bras reste fixé, l'épaule subit une traction. :: Les appuis bras doivent être sécurisés.
+- Le sacrum est déchargé en proclive. :: Il reçoit une part importante de la charge.
+- Le proclive augmente le saignement de la région cervico-céphalique. :: Il le diminue : c'est un de ses objectifs en ORL.
+> Proclive : risque de glissement (repose-pieds), de traction sur l'épaule, d'appui sacré et de thrombose (bas antithrombose, compression pneumatique selon le contexte).
+@ p. 28 et 32
+
+QCM · Déclive et hémodynamique
+Concernant les effets hémodynamiques de la position déclive (Trendelenburg), quelles propositions sont exactes ?
++ Un déclive modéré peut augmenter légèrement le retour veineux. :: Avec une légère hausse du débit et de la pression.
+- Basculer fortement un patient hypovolémique est le moyen de faire remonter sa pression. :: Une forte inclinaison peut au contraire aggraver l'hypotension.
++ Un déclive prononcé augmente la pression intrathoracique et peut gêner le remplissage cardiaque. :: Les viscères repoussent le diaphragme.
+- Une PVC élevée en déclive prouve un meilleur retour veineux. :: Elle reflète aussi la contrainte thoracique.
+- Le déclive diminue la pression intracrânienne. :: La gêne au drainage veineux cérébral peut l'augmenter.
+> Le déclive modéré aide le retour veineux ; un déclive marqué gêne le remplissage cardiaque, peut faire baisser débit et PAM et augmenter la pression intracrânienne. Repères : 30° au maximum, durée inférieure à 1 h 30.
+@ p. 34 à 37
+
+QCU · Déclive et sonde d'intubation
+Après passage en Trendelenburg marqué pour une cœlioscopie pelvienne, les pressions d'insufflation montent, la SpO2 baisse et le murmure vésiculaire est diminué à gauche. Le repère de la sonde aux dents n'a pas bougé. Quelle est l'hypothèse principale ?
+- Un pneumothorax gauche spontané. :: Possible, mais l'explication la plus fréquente est mécanique et liée à la position.
++ Une intubation sélective droite par ascension de la carène. :: Les viscères repoussent le diaphragme, la carène remonte, la sonde devient relativement plus profonde.
+- Une extubation accidentelle. :: Le repère de la sonde n'a pas bougé et le patient est encore ventilé.
+- Un bronchospasme. :: Il diminuerait le murmure des deux côtés.
+- Un défaut de curarisation. :: Il n'explique pas l'asymétrie auscultatoire.
+> En déclive, l'ascension de la carène peut rendre l'intubation sélective (souvent à droite) sans que la sonde ait bougé aux dents. Ausculter des deux côtés après chaque bascule et comparer.
+@ p. 38
+
+QCM · Déclive, glissement
+Concernant la prévention du glissement en déclive, quelles propositions sont exactes ?
++ Il faut privilégier un matelas antiglisse aux épaulières. :: Les épaulières exposent à une compression du plexus brachial.
+- Les épaulières doivent être placées le plus près possible du cou. :: Trop médiales, elles compriment la région sus-claviculaire et les vaisseaux du cou.
+- Les bras en abduction à plus de 90° limitent le glissement. :: L'abduction forcée expose à une lésion du plexus.
+- Une remise à plat peut se faire sans prévenir l'équipe. :: Le mouvement doit être annoncé et accompagné.
+- Une seule épaulière suffit. :: Elles se placent par paire.
+> En déclive, le matelas antiglisse est préféré aux épaulières (risque de compression du plexus brachial). Si on en utilise, par paire et pas trop médiales ; bras de préférence le long du corps.
+@ p. 37 et 39
+
+QCM · Décubitus latéral et ventilation
+Concernant la ventilation en décubitus latéral, quelles propositions sont exactes ?
++ Le poumon inférieur est mieux perfusé mais moins ventilé. :: Par gravité et compression.
++ Le poumon supérieur est mieux ventilé mais moins perfusé. :: C'est la dissociation ventilation/perfusion.
++ Les sécrétions ont tendance à s'accumuler dans le poumon inférieur. :: D'où d'éventuelles aspirations.
++ Il peut en résulter une hypoxie, une hypercapnie et des atélectasies. :: Surveiller SpO2, EtCO2 et pressions d'insufflation.
+- Le décubitus latéral améliore le rapport ventilation/perfusion. :: Il le perturbe.
+> En latéral, le poumon du dessous est perfusé mais mal ventilé, celui du dessus l'inverse. Surveillance de la SpO2, de l'EtCO2 et des pressions ; adaptation de la ventilation, aspiration ou recrutement si besoin.
+@ p. 44 et 45
+
+QCM · Décubitus latéral, installation
+Concernant l'installation en décubitus latéral, quelles propositions sont exactes ?
++ La stabilité repose sur des cales antérieure et postérieure. :: Et non sur la jambe supérieure comme en position latérale de sécurité.
++ Un billot sous l'hémithorax dégage l'aisselle, sans être placé dans le creux axillaire. :: Trop haut, il comprime le creux axillaire.
+- Un billot ou une cassure de table sont sans effet hémodynamique. :: Ils peuvent comprimer la veine cave inférieure.
++ L'oreille et l'œil du côté déclive doivent être vérifiés. :: Une oreille pliée peut rester comprimée toute l'intervention.
+- Le décubitus latéral droit est recommandé chez la femme enceinte. :: Il est à éviter, sauf urgence : compression cave.
+> Latéral : cales, billot sous l'hémithorax hors de l'aisselle, protection entre les genoux, contrôle de l'œil et de l'oreille déclives. Billot et cassure se montent progressivement en surveillant la pression.
+@ p. 40, 42 et 43
+
+QCU · Brassard en décubitus latéral
+En décubitus latéral, la pression artérielle est mesurée au bras supérieur. Comment cette mesure se situe-t-elle par rapport à la pression au niveau du cœur ?
+- Elle est identique. :: Le niveau du brassard change la mesure.
++ Elle est sous-estimée. :: Le bras supérieur est au-dessus du cœur.
+- Elle est surestimée. :: C'est le cas au bras inférieur.
+- Elle est ininterprétable. :: Elle s'interprète en tenant compte de la hauteur.
+- Elle dépend du seul brassard utilisé. :: Elle dépend de la hauteur par rapport au cœur.
+> La pression mesurée dépend de la hauteur du brassard par rapport au cœur : bras supérieur = sous-estimation, bras inférieur = surestimation.
+@ p. 43
+
+QCM · Décubitus ventral et hémodynamique
+Concernant les effets hémodynamiques du décubitus ventral, quelles propositions sont exactes ?
++ La compression de la veine cave inférieure ou des veines fémorales diminue le retour veineux. :: Avec un risque de collapsus.
++ Les billots se placent sous les épaules et sous les crêtes iliaques pour libérer l'abdomen. :: Le ventre doit rester libre.
+- Un billot pelvien placé trop haut améliore le retour veineux. :: Il comprime l'abdomen.
++ Le retournement doit être progressif, sous surveillance hémodynamique. :: L'induction se fait souvent sur un brancard.
+- Une hypotension après retournement impose d'abord un vasopresseur. :: Vérifier d'abord la liberté de l'abdomen.
+> En ventral, l'hypotension vient surtout d'une compression abdominale (veine cave, veines fémorales). Placer correctement les billots et vérifier que l'abdomen est libre avant de traiter les chiffres.
+@ p. 48 et 49
+
+QCM · Décubitus ventral, ventilation et appuis
+Concernant la ventilation et les appuis en décubitus ventral, quelles propositions sont exactes ?
++ La compression thoracique diminue la compliance et la CRF. :: Avec un risque d'hypoventilation et d'hypercapnie.
++ Un coussin évidé dégage les yeux, le nez, la bouche et la sonde. :: L'appui porte sur le front et les pommettes.
++ L'auscultation se fait après le retournement. :: En se plaçant sous les omoplates.
++ La ventilation peut être adaptée : fréquence, volume courant, PEP. :: Selon les pressions, la SpO2 et l'EtCO2.
++ Aucun appui ne doit porter sur le globe oculaire. :: Risque de lésion oculaire grave.
+> En ventral : thorax libre (billots bien placés), yeux sans appui, sonde non coudée, auscultation et adaptation de la ventilation après le retournement.
+@ p. 48, 50 et 80
 
 QCM · Position génu-pectorale
-Quelles affirmations sur l'installation génu-pectorale sont exactes ?
-+ Le patient est d'abord retourné en décubitus ventral, puis installé sur le module :: C'est une variante de la position ventrale.
-+ Une rotation excessive de la tête peut diminuer le flux carotidien :: Avec un risque d'hypoperfusion cérébrale.
-+ La séquestration sanguine dans les jambes peut provoquer une hypotension :: Les membres inférieurs sont déclives.
-+ Un bon positionnement préserve la liberté abdominale et protège les genoux :: Les genoux portent une part du poids du corps.
-- Les appuis thoraciques suppriment tout risque d'altération ventilatoire :: Ils peuvent au contraire limiter l'expansion thoracique et élever les pressions.
-> La position génu-pectorale cumule les contraintes de la position ventrale : gêne ventilatoire par les appuis thoraciques, hypotension par séquestration dans les jambes, risque d'hypoperfusion cérébrale si le cou est en rotation, et appui sur les genoux.
-@ 51–55
+Concernant la position génu-pectorale, quelles propositions sont exactes ?
+- Elle s'installe en un seul temps depuis le décubitus dorsal. :: Elle s'installe en deux temps : ventral, puis module génu-pectoral.
++ Elle expose à une hypotension par séquestration dans les membres inférieurs et compression thoraco-abdominale. :: Jusqu'au collapsus.
++ Une rotation excessive de la tête peut réduire le flux carotidien. :: D'où une hypoperfusion cérébrale.
+- Ses répercussions respiratoires sont nulles. :: Elles sont comparables à celles du ventral.
+- Les genoux ne supportent qu'une faible pression. :: La pression sur les genoux est importante.
+> Génu-pectorale : variante ventrale, en deux temps. Risques : hypotension (abdomen comprimé, sang séquestré), hypoperfusion cérébrale si le cou tourne, contraintes thoraciques, appui des genoux.
+@ p. 51 à 55
 
 QCM · Lithotomie
-Quelles conséquences de l'élévation puis de la redescente des jambes en position de lithotomie sont exactes ?
-+ L'élévation abaisse la pression de perfusion distale des pieds :: Le pied est au-dessus du cœur : la pression de perfusion y diminue.
-+ La redescente des jambes peut réduire le retour veineux et provoquer une hypotension :: Le volume sanguin repart vers les membres inférieurs.
-+ Une flexion très forte des genoux peut entraver le retour veineux :: Elle plicature les vaisseaux au creux poplité.
-+ Une redescente par paliers permet de surveiller la réponse hémodynamique :: Elle évite la chute brutale de précharge.
-- Une jambière étroite diminue la pression locale à poids égal :: Elle la concentre au contraire sur une surface plus petite : la pression augmente.
-> La lithotomie se lit en deux temps, de sens inverse : l'élévation mobilise du volume vers le centre tout en abaissant la perfusion des pieds ; la redescente le renvoie vers les jambes et peut faire chuter la pression. D'où la descente par paliers, et des appuis larges plutôt qu'étroits.
-@ 57, 59–61
+Concernant la position de lithotomie (gynécologique), quelles propositions sont exactes ?
++ L'élévation des jambes diminue la pression de perfusion distale. :: La pression baisse avec la hauteur au-dessus du cœur.
++ Une jambière peut comprimer le mollet et favoriser un syndrome des loges si la position se prolonge. :: Un appui étroit concentre la pression.
++ Les jambes doivent être montées et descendues de façon coordonnée. :: Pour limiter la torsion lombaire.
++ Une flexion ou une rotation forcée de hanche peut étirer le nerf sciatique. :: Ou comprimer le nerf fémoral.
++ Une prothèse de hanche peut se luxer dans cette position. :: Risque ostéo-articulaire.
+> Lithotomie : perfusion distale réduite, compressions du mollet, étirements nerveux, contraintes lombaires et articulaires. Surveiller pouls et appuis ; ne pas accentuer la flexion par habitude.
+@ p. 56 à 59 et 82
+
+QCU · Pression distale
+En lithotomie, la PAM est de 90 mmHg au niveau du cœur. Quelle est la pression approximative au niveau d'un pied situé 50 cm plus haut ?
+- 90 mmHg :: La hauteur au-dessus du cœur diminue la pression.
+- 70 mmHg :: C'est la pression à environ 25 cm au-dessus du cœur.
++ 50 mmHg :: Environ 0,8 mmHg de moins par centimètre au-dessus du cœur.
+- 18 mmHg :: C'est la pression à environ 90 cm au-dessus du cœur.
+- 110 mmHg :: La pression augmente au-dessous du cœur, pas au-dessus.
+> La pression de perfusion du pied baisse à mesure qu'il s'élève au-dessus du cœur. Hypotension, hypovolémie, artériopathie et compression du mollet aggravent le risque d'ischémie.
+@ p. 59
+
+QCU · Fin de lithotomie
+En fin d'intervention en position de lithotomie, à quel moment le risque d'hypotension est-il le plus marqué ?
+- Au moment de l'extubation. :: Ce n'est pas lié à la posture.
++ À la redescente des jambes en décubitus dorsal. :: Le sang se redistribue vers les membres inférieurs : retour veineux et débit cardiaque chutent.
+- Pendant le maintien des jambes élevées. :: Le retour veineux y est plutôt augmenté.
+- Au moment du drapage. :: Sans effet hémodynamique propre.
+- À l'arrêt de la ventilation mécanique. :: Ce n'est pas lié à la posture.
+> À la redescente des jambes, le volume revenu vers le centre repart vers les membres : risque de collapsus. Vérifier une PAM adaptée, puis redescendre par paliers en surveillant PA et fréquence cardiaque.
+@ p. 60
 
 QCM · Position assise
-En neurochirurgie en position assise, avec un champ opératoire au-dessus du cœur, quels éléments sont compatibles avec une embolie gazeuse ?
-+ L'entrée d'air par une effraction veineuse :: Le gradient de pression entre le champ et le cœur aspire l'air.
-+ Une chute brutale de la pression télé-expiratoire en CO₂ :: Signe d'alerte le plus précoce.
-+ Une hypotension ou des troubles du rythme associés :: L'air bloque l'éjection du ventricule droit.
-- L'intubation supprime ce risque :: L'air entre par une veine ouverte, non par les voies aériennes.
-- L'hypovolémie protège de ce risque :: Elle le majore : elle abaisse la pression veineuse au niveau du champ.
-> En position assise, toute veine ouverte au-dessus du cœur peut aspirer de l'air. Le signe d'alerte est la chute brutale du CO₂ expiré, suivie d'une hypotension et de troubles du rythme. L'hypovolémie, qui abaisse encore la pression veineuse, aggrave le risque.
-@ 62, 65
+Concernant la position assise ou demi-assise, quelles propositions sont exactes ?
++ Elle s'installe progressivement : jambes levées, puis tronc redressé par paliers. :: Sinon le patient glisse.
++ Elle expose à une hypotension et à une hypoperfusion cérébrale. :: Par baisse du retour veineux.
++ Elle expose à une embolie gazeuse si le champ opératoire est au-dessus du cœur. :: L'air entre par une veine ouverte.
++ L'hypovolémie majore le risque d'embolie gazeuse. :: Le gradient de pression vers les cavités droites augmente.
++ Elle est favorable aux échanges gazeux. :: C'est la position la plus physiologique sur le plan respiratoire.
+> Position assise : favorable à la respiration, mais risque d'hypotension, d'hypoperfusion cérébrale et d'embolie gazeuse. Installation progressive, volémie correcte, surveillance de la pression et de l'EtCO2, voire ETO.
+@ p. 62 à 66
 
-QCM · Peau et yeux
-Quelles affirmations expliquent ou préviennent une lésion cutanée ou oculaire liée à la posture ?
-+ Une pression prolongée sur un relief osseux provoque une ischémie tissulaire :: Pression et durée se combinent.
-+ Un coussin adapté répartit les pressions :: Il augmente la surface d'appui et abaisse la pression locale.
-+ Le défaut de clignement sous anesthésie expose la cornée :: D'où l'occlusion palpébrale, et la vérification qu'aucun élément ne comprime le globe.
-+ Une rougeur d'appui doit faire suspecter une souffrance cutanée :: Elle impose de revoir l'appui et de la tracer.
-- Des paupières fermées protègent le globe de tout appui direct :: Elles protègent la cornée du dessèchement, pas le globe d'une compression, qui reste un risque en décubitus ventral.
-> Deux risques indépendants : la peau, où pression et durée créent l'ischémie sur les reliefs osseux, et l'œil, où le défaut de clignement dessèche la cornée et où un appui direct peut comprimer le globe. L'occlusion palpébrale traite le premier point, pas le second.
-@ 19–20, 48, 80–81
+QCU · Embolie gazeuse en position assise
+En neurochirurgie en position assise, quel signe de monitorage doit faire évoquer d'emblée une embolie gazeuse ?
+- Une hausse brutale de l'EtCO2. :: L'EtCO2 baisse.
++ Une chute brutale de l'EtCO2. :: L'air gêne la perfusion pulmonaire : l'espace mort augmente.
+- Une hausse isolée de la SpO2. :: Ce n'est pas un signe d'embolie.
+- Une bradycardie isolée sans autre signe. :: Les troubles du rythme accompagnent l'hypotension et la chute de l'EtCO2.
+- Une hausse de la pression artérielle. :: L'embolie entraîne une hypotension.
+> Embolie gazeuse : chute de l'EtCO2, hypotension, troubles du rythme, collapsus. Elle est favorisée par un site opératoire au-dessus du cœur et l'hypovolémie.
+@ p. 65
 
-QCM · Table orthopédique et traction
-Sur une table orthopédique, quelles vérifications restent nécessaires malgré la répartition des rôles dans l'équipe ?
-+ Vérifier que le pied est maintenu dans la botte sans compression excessive :: La traction s'exerce sur un pied immobilisé : le risque est ischémique et nerveux.
-+ Contrôler que le contre-appui ne comprime pas les organes génitaux externes :: Risque de lésion périnéale et du nerf pudendal.
-+ Recontrôler la stabilité et les appuis après l'installation :: L'installation définitive diffère de celle du transfert.
-- Abandonner la surveillance des voies aériennes et de la ventilation pendant le transfert :: C'est le moment où la sonde et les lignes sont le plus exposées.
-- Faire l'induction dans la configuration de traction :: L'induction se fait généralement sur un brancard, puis le patient est transféré.
-> Sur table orthopédique, la traction crée deux points de compression particuliers : le pied dans la botte et le périnée sur le contre-appui. La répartition des tâches avec l'équipe chirurgicale ne transfère pas la surveillance des voies aériennes, de la ventilation et des zones comprimées.
-@ 67–77
+QCM · Table orthopédique
+Concernant l'installation sur table orthopédique, quelles propositions sont exactes ?
+- L'induction se fait directement sur la table orthopédique. :: Elle se fait généralement sur un brancard, support stable.
+- Le contre-appui périnéal est sans risque de compression. :: Il peut comprimer les organes génitaux externes.
++ Le pied doit être maintenu dans la botte sans compression excessive. :: Le rembourrage ne dispense pas de vérifier.
+- La surveillance de l'IADE s'arrête aux réglages de la traction. :: L'IADE contrôle patient, voies, sonde et points de compression.
+- Une traction peut s'exercer sans contre-appui. :: Toute traction nécessite un contre-appui.
+> Table orthopédique : induction sur brancard, puis transfert. Deux zones clés : le pied dans la botte et le périnée au contact du contre-appui.
+@ p. 67 à 76
+
+QCM · Facteurs de risque
+Concernant les facteurs qui majorent les risques liés aux postures, quelles propositions sont exactes ?
++ Le risque vient de la combinaison du terrain, de l'anesthésie et de la chirurgie. :: Terrain × anesthésie × geste et durée.
+- Une bascule anodine chez un sujet éveillé l'est aussi sous anesthésie. :: L'anesthésie déprime les mécanismes d'adaptation.
+- La durée de l'intervention est sans influence. :: L'immobilité prolongée majore les risques.
+- Le pneumopéritoine n'interagit pas avec la posture. :: Il ajoute une hausse de pression abdominale.
+- La ventilation en pression positive est sans effet sur la tolérance des postures. :: Elle modifie déjà l'équilibre hémodynamique.
+> Le risque d'une posture se juge sur le terrain (âge, morphologie, pathologies), l'anesthésie (dépression des adaptations, pression positive) et la chirurgie (posture, durée, garrot, cœlioscopie).
+@ p. 78
+
+QCM · Risques oculaire et cutané
+Concernant les risques oculaire et cutané, quelles propositions sont exactes ?
+- Sous anesthésie, le clignement protège suffisamment la cornée. :: Il ne protège plus : occlure les paupières.
++ Un défaut d'occlusion palpébrale peut entraîner une kératite, voire un ulcère de cornée. :: Par dessiccation.
+- Un gel viscoélastique dispense de contrôler les rougeurs. :: La détection des rougeurs reste nécessaire.
+- Une escarre ne peut pas se constituer pendant une intervention. :: La pression prolongée sur un relief osseux peut y conduire.
+- Le risque oculaire concerne surtout le décubitus dorsal. :: Il est plus marqué en ventral et en latéral.
+> Peau : pression prolongée → ischémie → escarre ; prévenir par des appuis adaptés et détecter les rougeurs. Œil : gel oculaire, occlusion palpébrale, aucun appui sur le globe.
+@ p. 80

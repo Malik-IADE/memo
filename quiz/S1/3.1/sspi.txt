@@ -1,348 +1,285 @@
-// Quiz 20 – SSPI (UE 3.1), d'après « QUIZZ 20 SSPI.html »
+// Quiz – SSPI (UE 3.1), réécrit le 18 novembre 2026 d'après le support « SSPI avec notes », sur le modèle du quiz Patient hypertendu.
+// Questions type examen sur les notions générales : missions et organisation, transfert, surveillance, complications respiratoires, circulatoires et neurologiques, douleur et NVPO, hypothermie, extubation, spécificités chirurgicales, sortie. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # SSPI
 
 QCM · Missions de la SSPI
-Quelles missions appartiennent à la prise en charge d’un patient en SSPI ?
-+ Surveiller la récupération respiratoire, circulatoire et neurologique. :: Ces trois fonctions vitales constituent les priorités du réveil.
-+ Évaluer et traiter la douleur :: Avec une évaluation répétée, par une échelle adaptée à l'état de conscience.
-+ Prévenir et prendre en charge les nausées et vomissements postopératoires. :: Le confort et les NVPO font partie des missions décrites.
-- Prendre en charge les complications de l’anesthésie, celles de la chirurgie relevant du service. :: La surveillance porte aussi sur le saignement, les drains, la zone opératoire et les complications du geste.
-- Autoriser le retour à domicile dès l’ouverture des yeux. :: Le réveil apparent ne valide ni la sortie de SSPI ni le retour à domicile.
-> La salle de surveillance postinterventionnelle assure la surveillance des fonctions vitales pendant la phase de réveil, le traitement de la douleur et des nausées, le dépistage des complications chirurgicales et anesthésiques, et la décision de sortie. Ce n'est pas une salle d'attente : c'est un secteur de surveillance continue, réglementé.
-@ p. 2–3 et 18
+Concernant les missions de la SSPI, quelles propositions sont exactes ?
++ Assurer la récupération des fonctions respiratoire, circulatoire et neurologique. :: C'est la priorité.
++ Prévenir et traiter les complications liées à l'intervention ou à l'anesthésie. :: La période de réveil est une phase critique.
++ Évaluer et traiter la douleur et les NVPO. :: Confort et sécurité.
++ Mettre en route les prescriptions postopératoires. :: Avant le retour en service.
+- Elle ne concerne que les patients opérés sous anesthésie générale. :: Elle concerne aussi l'ALR.
+> La SSPI (décret de 1994) surveille le réveil après toute AG ou ALR : fonctions vitales d'abord, puis confort (douleur, NVPO), puis surveillance adaptée à la chirurgie.
+@ p. 2, 3 et 18
 
-QCM · Transfert sécurisé
-Quelles mesures participent à la sécurité du transfert entre le bloc opératoire et la SSPI ?
-+ Poursuivre la surveillance pendant le trajet. :: La surveillance ne s’interrompt pas pendant le transfert.
-+ Vérifier la disponibilité et la réserve d’oxygène adaptées au transport.
-+ Prévoir des moyens de ventilation et d’urgence adaptés au patient. :: Une dégradation peut survenir entre deux secteurs.
-- Reporter toute vérification des dispositifs à l’arrivée pour raccourcir le trajet. :: Le transfert doit être préparé et sécurisé avant le départ.
-- Quitter le patient dès qu’il se trouve physiquement dans la SSPI. :: Les accompagnants restent jusqu’à sa prise en charge effective.
-> Le transfert est une période à risque : le patient quitte un monitorage complet pour un couloir. Il se prépare : stabilité vérifiée avant de partir, oxygène et moyen de ventilation disponibles, surveillance maintenue pendant le trajet, et patient couvert pour préserver la normothermie.
-@ p. 7–8
+QCM · Transfert vers la SSPI
+Concernant le transfert du patient du bloc vers la SSPI, quelles propositions sont exactes ?
++ La surveillance commence au bloc et ne s'interrompt pas pendant le transfert. :: Code de la santé publique.
++ Le patient est accompagné par le médecin anesthésiste ou l'IADE. :: Avec l'IBODE.
++ Une transmission verbale est faite à l'arrivée en SSPI. :: Anesthésie, chirurgie, actes, soins à prévoir.
++ Les accompagnants restent jusqu'à la prise en charge effective par la SSPI. :: On ne dépose pas le patient.
++ Les informations de surveillance sont tracées dans le dossier. :: Traçabilité écrite.
+> Le transfert est une phase à risque : surveillance continue, accompagnement par l'équipe d'anesthésie, transmission orale structurée et traçabilité.
+@ p. 7, 8 et 15
 
-QCM · Transmissions
-Quels éléments sont utiles à transmettre à l’arrivée en SSPI ?
-+ Le terrain, les antécédents et les allergies. :: Ils permettent d’adapter la surveillance et les traitements.
-+ Les événements significatifs pendant l’anesthésie et la chirurgie. :: Instabilité, difficulté des voies aériennes ou hémorragie influencent la suite.
-+ Les traitements reçus, les apports, les pertes et les transfusions. :: Ils évitent de raisonner sur une prise en charge incomplète.
-+ Les examens à réaliser et les consignes pour le réveil. :: La transmission précise ce qui est déjà fait et ce qui reste à faire.
-- Le nom de l’intervention, le reste figurant dans le dossier informatique. :: Le dossier écrit complète une transmission orale structurée et une relève effective.
-> La transmission porte sur le patient, l'anesthésie et la chirurgie : terrain et allergies, technique et agents utilisés, curarisation et antagonisation, analgésie déjà administrée avec les horaires, pertes et remplissage, difficultés rencontrées, et consignes chirurgicales. Une transmission orale se double d'une trace écrite.
-@ p. 8 et 15
+QCM · Organisation de la SSPI
+Concernant l'organisation de la SSPI, quelles propositions sont exactes ?
++ Le personnel paramédical est exclusivement dédié à la SSPI pendant son fonctionnement. :: Il ne peut pas être appelé ailleurs.
++ Le personnel est placé sous la responsabilité d'un médecin anesthésiste joignable et pouvant intervenir sans délai. :: Le médecin décide de la sortie.
+- Une seule personne suffit, quel que soit le nombre de postes. :: Au moins deux personnes dès 6 postes.
++ La SSPI est située à proximité des sites opératoires. :: Elle peut servir de déchocage.
+- Elle ne fonctionne qu'aux heures du programme opératoire. :: Ses horaires tiennent compte de l'urgence.
+> SSPI : au moins 4 postes, proche du bloc, personnel formé et dédié (2 personnes au-delà de 6 postes), sous la responsabilité d'un médecin anesthésiste disponible sans délai.
+@ p. 10, 11 et 59
 
-QCM · Personnel et responsabilité
-Concernant l’organisation de la SSPI, quelles propositions sont exactes ?
-+ Le personnel affecté à la SSPI est dédié à cette salle pendant son utilisation. :: Le support précise qu’il ne peut pas être appelé simultanément dans un autre secteur.
-+ Le médecin anesthésiste-réanimateur doit être joignable et pouvoir intervenir sans délai. :: La disponibilité d’une réponse médicale fait partie de l’organisation décrite.
-+ Le personnel doit savoir reconnaître les accidents et alerter immédiatement. :: La formation à la surveillance et aux gestes indispensables est essentielle.
-- Un score d’Aldrete favorable permet une sortie sans validation du MAR. :: Le score complète l’évaluation ; la sortie est décidée et signée par le MAR.
-- Les horaires d’ouverture sont indépendants de la programmation opératoire. :: Ils doivent tenir compte de l’activité opératoire et des urgences.
-> La salle de surveillance relève d'une organisation réglementée : présence permanente d'au moins un infirmier formé, effectif adapté au nombre de patients, et médecin anesthésiste joignable à tout instant. La sortie reste une décision médicale, qui engage la responsabilité du médecin.
-@ p. 10–11 et 92,
+QCU · Nombre de postes
+Concernant les locaux d'une SSPI, combien de postes doit-elle comporter au minimum ?
+- 1 :: Insuffisant pour l'activité d'un bloc.
+- 2 :: Ce n'est pas la norme.
++ 4 :: C'est le minimum réglementaire.
+- 6 :: C'est le seuil à partir duquel deux personnes sont nécessaires.
+- 10 :: Ce n'est pas un minimum.
+> Une SSPI comporte au moins 4 postes ; à partir de 6 postes, au moins deux personnes sont présentes en permanence.
+@ p. 10
 
-QCM · Vérification du matériel
-Que recherche-t-on avec la check-list d’ouverture de SSPI ?
-+ Le fonctionnement du matériel de surveillance et de suppléance. :: La présence d’un appareil ne suffit pas à garantir sa disponibilité opérationnelle.
-+ Une vérification traçable, avec signature et contre-signature prévues. :: Le support insiste sur la traçabilité des contrôles.
-- Ne pas vérifier le ventilateur si le dernier patient n’a pas été ventilé. :: Le matériel doit être opérationnel en cas de besoin.
-- La possibilité d’attendre la première urgence pour localiser l’aspiration.
-- L’autorisation de commencer l’accueil avant de vérifier tout moyen de secours. :: La vérification d’ouverture vise précisément à préparer une prise en charge sûre.
-> La vérification d'ouverture porte sur ce qui doit fonctionner immédiatement en cas d'urgence : source d'oxygène et dispositifs d'administration, aspiration, matériel de ventilation et d'intubation, défibrillateur, moniteurs, et médicaments d'urgence. Elle se fait avant l'arrivée du premier patient et se trace.
-@ p. 12–13
+QCM · Équipement d'un poste
+Concernant l'équipement d'un poste de SSPI, quelles propositions sont exactes ?
++ Une arrivée de fluides médicaux. :: Oxygène notamment.
++ Une prise de vide pour l'aspiration. :: Indispensable en cas d'encombrement ou de vomissement.
++ Un monitorage ECG et un oxymètre de pouls. :: Surveillance continue.
++ Un appareil de mesure de la pression artérielle. :: Avec l'ECG et la SpO2.
++ Un moyen de réchauffement du patient. :: L'hypothermie est fréquente au réveil.
+> Chaque poste : fluides, vide, ECG, SpO2, pression artérielle, réchauffement. La SSPI dispose aussi d'un ventilateur avec alarmes, d'un défibrillateur, d'un curamètre et de chariots d'urgence.
+@ p. 12
 
-QCM · Installation et référence initiale
-À l’accueil d’un patient encore somnolent en SSPI, quelles actions sont pertinentes ?
-+ Vérifier l’alignement et les points d’appui. :: Le patient endormi ne se repositionne pas pour se protéger.
-+ Contrôler la perméabilité des voies veineuses et l’intégrité des lignes. :: Un accès présent peut être coudé, déplacé ou non fonctionnel.
-+ Comparer les signes neurologiques à l’état préopératoire transmis. :: Un déficit connu doit être distingué d’un déficit nouveau.
-- Considérer tout déficit moteur comme un effet attendu de l’anesthésie. :: L’interprétation dépend du bilan initial, du geste et des techniques utilisées.
-- Diriger le tuyau d’air chaud sur une petite zone de peau pour réchauffer plus vite.
-> L'accueil fixe les références : paramètres vitaux d'emblée, niveau de conscience, douleur, température, puis installation en position adaptée avec oxygène. Ces premières valeurs servent de point de comparaison pour toute la surveillance : sans elles, une dégradation ultérieure passe inaperçue.
-@ p. 14–16, 21 et 51
+QCM · Check-list d'ouverture
+Concernant la vérification de la SSPI, quelles propositions sont exactes ?
++ Elle est obligatoire selon le décret de 1994. :: Le matériel de surveillance et de suppléance doit être vérifié.
+- La présence du matériel suffit, sans test de fonctionnement. :: Un matériel présent n'est pas forcément fonctionnel.
++ L'IADE ou l'IDE signe la check-list, contresignée par le médecin responsable. :: Pour la traçabilité.
+- Elle ne concerne que le matériel de réanimation. :: Elle couvre aspiration, ventilateur, monitorage et matériel d'urgence.
+- Elle peut être faite après l'arrivée du premier patient. :: Elle précède l'accueil des patients.
+> La check-list d'ouverture vérifie le fonctionnement réel du matériel avant l'accueil, avec double signature.
+@ p. 13
 
-QCM · Ventilation et saturation
-Sous oxygénothérapie en SSPI, quelles propositions concernant la surveillance respiratoire sont exactes ?
-+ Une SpO₂ satisfaisante peut coexister avec une bradypnée. :: L’oxygène peut maintenir la saturation alors que la ventilation devient insuffisante.
-+ La fréquence respiratoire complète la mesure de SpO₂. :: Elle permet de repérer une dépression respiratoire que la saturation seule ne suffit pas à écarter.
-+ L’amplitude et la symétrie thoraciques apportent des informations utiles. :: Elles font partie de l’observation clinique respiratoire.
-- La saturation renseigne sur la fréquence respiratoire et le niveau de sédation. :: Ces dimensions nécessitent une évaluation distincte.
-- Le retrait de la sonde d’intubation supprime tout risque de dépression respiratoire. :: Des effets résiduels médicamenteux peuvent persister après l’extubation.
-> Sous oxygène, la saturation reste normale longtemps après le début d'une hypoventilation : elle est le dernier paramètre à se dégrader. La surveillance respiratoire repose donc sur la fréquence respiratoire, l'amplitude et le niveau de sédation, avant la SpO₂.
-@ p. 19, 28 et 31
+QCM · Facteurs de complications respiratoires
+Concernant les facteurs favorisant les complications respiratoires au réveil, quelles propositions sont exactes ?
++ L'obésité et le syndrome d'apnées obstructives du sommeil. :: Les réserves sont réduites.
++ Une chirurgie abdominale haute ou thoracique. :: Syndrome restrictif et douleur.
++ L'utilisation d'agents de longue durée d'action. :: Effets résiduels.
++ Une chirurgie de plus de 4 heures. :: Durée prolongée.
+- Un âge de 30 ans sans antécédent. :: Ce n'est pas un facteur de risque.
+> Le risque respiratoire se raisonne sur le terrain (âge, obésité, SAOS, BPCO, tabac), la chirurgie (abdominale, thoracique, cardiaque, ORL, longue, urgente) et l'anesthésie (agents longs, surdosage, curarisation résiduelle).
+@ p. 25 et 26
 
-QCM · Risque respiratoire
-Quels éléments peuvent favoriser une complication respiratoire postopératoire ?
-+ Obésité ou syndrome d’apnées obstructives du sommeil. :: Ces terrains figurent parmi les facteurs favorisants.
-+ Une chirurgie abdominale ou thoracopulmonaire. :: Le geste peut modifier les volumes et la mécanique respiratoire.
-+ Des agents de longue durée d’action ou une curarisation résiduelle. :: Les effets anesthésiques persistants peuvent compromettre la respiration.
-+ Une longue intervention. :: Le support cite une durée supérieure à quatre heures parmi les facteurs chirurgicaux.
-- Un geste bref ne comporte pas de risque anesthésique. :: Un acte court sous anesthésie ou sédation garde ses risques.
-> Les complications respiratoires sont la première cause de morbidité en salle de réveil. Elles se cumulent : curarisation résiduelle, effet résiduel des morphiniques et des hypnotiques, douleur limitant la ventilation, terrain à risque, obésité, apnées du sommeil, et chirurgie abdominale haute ou thoracique.
-@ p. 25–26 et 58
+QCM · Atélectasies
+Concernant les atélectasies liées à l'anesthésie, quelles propositions sont exactes ?
++ L'anesthésie générale diminue la capacité résiduelle fonctionnelle. :: D'environ 20 % par rapport à l'éveil.
++ Des microatélectasies apparaissent dès les premières minutes. :: Elles persistent après l'intervention.
+- Elles sont le plus souvent bruyantes cliniquement. :: Elles sont le plus souvent infracliniques.
++ Un territoire atélectasié peut rester perfusé. :: C'est un shunt : du sang passe sans être oxygéné.
+- Elles disparaissent dès l'extubation. :: Elles persistent souvent plusieurs heures.
+> L'AG réduit la CRF et la compliance : des atélectasies apparaissent vite et persistent. Perfusées mais non ventilées, elles créent un shunt et favorisent l'hypoxémie.
+@ p. 26 et 27
 
 QCM · Dépression respiratoire
-Quelles associations entre un effet résiduel et son mécanisme de dépression respiratoire sont exactes ?
-+ Hypnotiques : composante centrale. :: Le schéma les situe parmi les effets centraux.
-+ Morphiniques : composante centrale. :: Ils peuvent déprimer la commande respiratoire.
-+ Curares : composante périphérique. :: Une récupération neuromusculaire incomplète limite la fonction respiratoire.
-- Curares : preuve d’une perte de conscience proportionnelle au bloc moteur. :: Le bloc neuromusculaire ne mesure pas la conscience.
-- Morphiniques : risque respiratoire exclu dès que la douleur diminue. :: L’efficacité antalgique doit être rapprochée de la fréquence respiratoire et de la sédation.
-> Trois mécanismes distincts : les morphiniques dépriment les centres respiratoires et la réponse au CO₂ ; les hypnotiques résiduels abaissent la vigilance et le tonus des voies aériennes ; la curarisation résiduelle affaiblit les muscles respiratoires et les muscles pharyngés. Les trois peuvent coexister et s'additionner.
-@ p. 28, 31, 54 et 79
+Concernant la dépression respiratoire du réveil, quelles propositions sont exactes ?
++ Elle associe une hypoventilation alvéolaire, une hypoxie et une hypercapnie. :: C'est sa définition.
+- Elle ne peut pas venir des curares. :: Les curares résiduels agissent sur les muscles respiratoires.
++ Les morphiniques et les hypnotiques dépriment la réponse ventilatoire au CO2. :: Effet central.
+- Une SpO2 normale sous oxygène exclut une hypoventilation. :: L'oxygène peut maintenir la saturation pendant que le CO2 monte.
+- Elle ne survient qu'en cas de surdosage massif. :: Des effets résiduels modérés suffisent sur un terrain fragile.
+> Dépression respiratoire : causes centrales (hypnotiques, morphiniques) ou périphériques (curares). Observer la fréquence et l'amplitude respiratoires, car la SpO2 sous O2 peut rester rassurante.
+@ p. 19 et 28
 
-QCM · Ventilation / perfusion
-Quelles définitions des échanges ventilation-perfusion sont exactes ?
-+ Un shunt correspond à une zone perfusée mais non ventilée. :: Le sang traverse un territoire où les échanges avec l’air ne se font pas normalement.
-+ Un espace mort correspond à une zone ventilée mais non perfusée. :: Cette ventilation ne participe pas aux échanges gazeux.
-+ Une zone atélectasiée peut rester perfusée. :: C’est l’exemple utilisé pour expliquer le déséquilibre ventilation/perfusion.
-- Shunt et espace mort désignent le même déséquilibre. :: Ils décrivent deux situations opposées de défaut d’appariement.
-- Une modification du rapport ventilation/perfusion est indépendante des échanges gazeux. :: Elle aide précisément à comprendre les anomalies d’oxygénation.
-> Deux anomalies opposées : l'effet shunt, où des territoires perfusés sont mal ventilés, répond partiellement à l'oxygène ; l'espace mort, où des territoires ventilés ne sont plus perfusés, ne répond pas à l'oxygène. Au réveil, les atélectasies créent surtout de l'effet shunt.
-@ p. 26–27
-
-QCM · Protection des voies aériennes
-Concernant l’inhalation et la déglutition au réveil, quelles propositions sont exactes ?
-+ La déglutition repose sur une coordination de plusieurs structures.
-+ Les agents anesthésiques peuvent perturber cette protection. :: Le support décrit des effets sur le tonus et le mécanisme de déglutition.
-+ Une curarisation faible ou résiduelle peut perturber la déglutition. :: Les doses subcurarisantes sont citées dans le support.
-- Un patient insuffisamment réveillé est protégé de toute inhalation de sang.
-- L’ouverture des yeux permet de se passer de l’évaluation des réflexes de protection. :: La récupération ne se résume pas à un seul signe de réveil.
-> Au réveil, les réflexes de protection des voies aériennes reviennent plus tard que la conscience : un patient qui répond peut encore inhaler. La curarisation résiduelle altère particulièrement la déglutition. D'où l'installation en position adaptée et la prudence avant toute reprise de boissons.
-@ p. 29 et 83
-
-QCM · Orientation respiratoire
-Quelles associations entre signe clinique et orientation étiologique sont exactes ?
-+ Sibilants : bronchospasme. :: Les sibilants orientent vers un rétrécissement bronchique.
-+ Stridor : obstacle laryngé. :: Le contexte ORL ou cervical doit faire rechercher une obstruction haute.
-+ Bradypnée après morphinique : dépression respiratoire possible. :: Le contexte médicamenteux est une orientation majeure discutée.
-+ Expectoration mousseuse : œdème aigu pulmonaire possible. :: Cette orientation figure dans le support.
-- Une désaturation identifie la cause exacte de la détresse. :: Il faut intégrer les signes, le terrain, le geste et les traitements.
-> Les signes orientent : une bradypnée avec patient somnolent évoque un effet résiduel des morphiniques ; un tirage et un stridor évoquent une obstruction haute ou un laryngospasme ; une respiration paradoxale avec faiblesse évoque une curarisation résiduelle. Le traitement découle du mécanisme, non du chiffre de saturation.
-@ p. 31 et commentaires oraux
-
-QCM · Titration morphinique
-Pendant une titration morphinique en SSPI, quels paramètres faut-il évaluer pour apprécier son efficacité et sa tolérance ?
-+ L’intensité de la douleur. :: Elle renseigne sur l’efficacité de la titration.
-+ La fréquence respiratoire. :: La bradypnée peut signaler une dépression respiratoire.
-+ Le niveau de sédation ou de conscience. :: Il contribue à apprécier la tolérance des effets centraux.
-- La SpO₂, qui résume les trois évaluations. :: La SpO₂ ne mesure ni la douleur ni la sédation et ne suffit pas à écarter une bradypnée.
-- Le diamètre des pupilles, qui remplace l’évaluation du niveau de sédation. :: L’évaluation de la sédation ou de la conscience reste nécessaire ; un signe pupillaire seul ne la remplace pas.
-> Titrer, c'est évaluer trois choses à chaque palier : le soulagement obtenu, la fréquence respiratoire, et le niveau de sédation. C'est la somnolence croissante, et non la saturation, qui annonce le surdosage. On arrête la titration dès que le patient est soulagé ou devient somnolent.
-@ p. 19, 31 et 54
-
-QCM · Hypotension
-Quelles causes doivent être envisagées devant une hypotension en SSPI ?
-+ Une vasoplégie liée à l’anesthésie ou au bloc sympathique. :: Les agents anesthésiques et l’ALR périmédullaire sont cités.
-+ Une hémorragie ou une compensation insuffisante des pertes. :: Ces situations participent à l’hypovolémie.
-+ Une défaillance cardiaque. :: Elle fait partie des grandes catégories du support.
-- Une saturation normale exclut une hypovolémie. :: La saturation ne mesure pas le volume circulant.
-- L’absence de sang dans un drain exclut toute cause hémorragique. :: Les pertes doivent être rapprochées du contexte et de l’examen ; un drain peut ne pas refléter tout le saignement.
-> Devant une hypotension, passer en revue les trois mécanismes : hypovolémie par saignement persistant ou remplissage insuffisant, vasoplégie par effet résiduel des agents ou bloc neuraxial, et cause cardiaque. S'y ajoutent la douleur paradoxale par réaction vagale et l'erreur de mesure, brassard inadapté.
-@ p. 35 et 37
-
-QCM · Hypertension
-Devant une hypertension postopératoire, quelles propositions sont exactes ?
-+ Rechercher douleur, frissons, hypoxie ou hypercapnie. :: Ces facteurs peuvent provoquer une stimulation sympathique au réveil.
-+ Un globe vésical douloureux peut participer au pic hypertensif. :: C’est l’exemple de cause corrigeable développé.
-+ Le retentissement peut être hémorragique ou cardiaque. :: La chirurgie et le terrain déterminent les risques.
-- Le traitement étiologique consiste à faire baisser le chiffre de pression. :: Il consiste à traiter le problème responsable, par exemple douleur ou rétention urinaire.
-- La pression préopératoire est sans intérêt pour l’interprétation. :: Le niveau habituel aide à apprécier la variation et la tolérance.
-> Une hypertension au réveil est le plus souvent symptomatique : douleur, globe vésical, hypercapnie, hypoxémie, agitation, ou reprise insuffisante du traitement antihypertenseur habituel. La règle est de traiter la cause avant d'abaisser le chiffre, un antihypertenseur masquant un signal utile.
-@ p. 36 et 38
-
-QCM · Anomalie circulatoire
-Face à une anomalie de fréquence cardiaque en SSPI, quelles actions sont pertinentes ?
-+ Vérifier la qualité du signal et recueillir les autres constantes. :: Le support recommande de confirmer l’anomalie et d’évaluer le patient.
-+ Prévenir le médecin et réaliser un ECG selon la situation. :: Cela aide à identifier trouble du rythme, conduction ou ischémie.
-+ Rechercher un facteur déclenchant tel que douleur, hypoxie, hypovolémie ou trouble métabolique. :: Ces mécanismes sont décrits dans les causes de troubles du rythme.
-- Administrer réflexement de l’atropine devant toute bradycardie, sans avis. :: Le support indique de ne pas administrer d’atropine sans avis médical.
-- Traiter le chiffre du scope sans tenir compte de la conscience ou de la pression.
-> Devant une anomalie de fréquence, le premier geste est de vérifier le signal et la tolérance, puis de chercher la cause : douleur, hypovolémie, hypoxémie, hypercapnie, globe, ou effet résiduel des médicaments. Un électrocardiogramme s'impose si le trouble persiste ou s'il est mal toléré.
-@ p. 39–42
-
-QCM · Ischémie fonctionnelle
-Quelles propositions décrivent l’ischémie myocardique fonctionnelle au réveil ?
-+ Les besoins myocardiques en oxygène dépassent les apports. :: C’est la balance énergétique mise en avant.
-+ Douleur et frissons peuvent augmenter les besoins. :: Ils augmentent la demande métabolique du réveil.
-+ Hémorragie et hypovolémie peuvent contribuer au déséquilibre. :: Elles peuvent réduire les apports et la perfusion.
-- Elle traduit une nouvelle rupture de plaque coronaire. :: Le support distingue ischémie fonctionnelle et rupture de plaque.
-- Une saturation satisfaisante assure un transport d’oxygène adapté. :: Le débit cardiaque et l’hémoglobine interviennent aussi dans le transport artériel.
-> L'ischémie du réveil est souvent fonctionnelle : le déséquilibre entre apports et besoins du myocarde, créé par la tachycardie, l'hypertension, l'anémie, les frissons et la douleur, plutôt qu'une occlusion coronaire aiguë. Elle est fréquemment silencieuse. Le traitement passe par la correction de ces facteurs.
-@ p. 35 et 43–44
-
-QCM · Retard de réveil
-Quelles familles de causes doivent guider le raisonnement devant un retard de réveil ?
-+ Des causes pharmacologiques, dont surdosage ou interactions. :: Le surdosage est présenté comme la première cause à envisager.
-+ Des causes métaboliques, dont l’hypoglycémie. :: La glycémie fait partie des contrôles rapides.
-+ Des causes neurologiques, dont AVC ou épilepsie. :: Le contexte et l’évolution orientent les investigations médicales.
-- Une cause médicamenteuse, dès lors que le patient a reçu un hypnotique. :: Une complication organique ne doit pas être méconnue.
-- Une curarisation résiduelle peut être affirmée sans monitorage à partir de l’heure d’injection.
-> Trois familles de causes devant un retard de réveil : médicamenteuse, la plus fréquente, par effet résiduel ou surdosage ; métabolique, avec l'hypoglycémie, l'hyponatrémie, l'hypothermie et l'hypercapnie ; et neurologique, accident vasculaire ou convulsion. On vérifie d'abord la glycémie, la température et la capnie.
-@ p. 48–49
-
-QCM · Agitation au réveil
-Quelles propositions concernant une agitation postopératoire sont exactes ?
-+ Rechercher une douleur intense ou un globe vésical. :: Ce sont des causes évidentes à éliminer.
-+ Rechercher de principe une cause organique telle qu’hypoxémie ou trouble métabolique. :: L’agitation peut révéler une complication.
-+ Tenir compte des traitements habituels et d’un sevrage éventuel. :: Le contexte médicamenteux et neuropsychiatrique est important.
-- Une diminution de l’agitation après sédation prouve l’absence de complication. :: Calmer le patient ne suffit pas à identifier ni exclure la cause.
-- Des propos agressifs orientent vers un trouble du comportement volontaire. :: Ils peuvent survenir dans un état de confusion au réveil.
-> Une agitation au réveil n'est pas d'emblée psychologique : il faut chercher une hypoxémie, une hypercapnie, une douleur, un globe vésical, un sevrage ou un délire postopératoire. Sédater avant d'avoir cherché la cause expose à masquer une hypoxémie. Chez le sujet âgé, la forme hypoactive est la plus fréquente.
-@ p. 50
-
-QCM · Lésion nerveuse périphérique
-Quelles propositions sur un déficit périphérique constaté au réveil sont exactes ?
-+ Une compression liée à un point d’appui peut en être responsable. :: Le support cite notamment les nerfs proches de surfaces osseuses.
-+ Un étirement lié à la position peut en être responsable. :: Les plexus brachial et lombo-sacré sont cités.
-+ Le bilan préopératoire aide à repérer son caractère nouveau. :: La comparaison à l’état initial est essentielle.
-- Un déficit périphérique correspond à un AVC. :: Les causes comprennent installation et complications d’ALR.
-- Une installation correcte écarte les autres causes neurologiques. :: L’évaluation doit rester ouverte aux autres causes selon le contexte.
-> Un déficit constaté au réveil fait d'abord évoquer une complication posturale, liée à la compression ou à l'étirement d'un nerf pendant l'installation. Il doit être examiné, décrit précisément, tracé et signalé, et son évolution suivie. Un bloc résiduel peut en être le diagnostic différentiel.
-@ p. 14–16, 51 et 64
-
-QCM · Analgésie multimodale
-Quelles propositions décrivent l’analgésie multimodale et son organisation ?
-+ Elle peut associer plusieurs médicaments antalgiques. :: Le support cite une association de classes complémentaires.
-+ Elle peut associer des médicaments à une technique locorégionale. :: C’est l’exemple oral d’une stratégie multimodale.
-+ Elle vise notamment une épargne morphinique. :: La complémentarité peut réduire les besoins en morphiniques.
-+ Le relais antalgique peut être anticipé avant la fin de l’anesthésie.
-- L’absence d’analgésie résiduelle impose d’attendre une douleur intense pour traiter. :: Elle justifie au contraire un relais préparé en amont.
-> L'analgésie multimodale associe des mécanismes différents pour obtenir un meilleur soulagement avec moins de morphine : antalgiques non opioïdes administrés à heure fixe, anesthésie locorégionale ou infiltration, et morphine titrée en secours. Elle s'anticipe au bloc, pour être déjà efficace à l'arrivée.
-@ p. 53–54
-
-QCM · ALR en SSPI
-Quels éléments appartiennent à la surveillance après une anesthésie locorégionale ?
-+ Tracer l’état sensitif et moteur. :: Le support insiste sur cette traçabilité après bloc.
-+ Vérifier la fonctionnalité de la PCEA et le niveau analgésique si une péridurale est utilisée. :: Ce sont les contrôles spécifiques présentés.
-+ Informer le patient après un bloc périnerveux. :: L’information figure dans les repères de surveillance.
-- Assimiler tout déficit moteur à un déficit préexistant, sans consulter le bilan initial. :: Il faut distinguer état antérieur, effet attendu du bloc et anomalie nouvelle.
-- Considérer qu’une ALR dispense de surveillance postanesthésique. :: La possibilité de circuit particulier ne concerne que certaines situations définies.
-> Après une anesthésie locorégionale, la surveillance porte sur le niveau et la régression du bloc sensitif et moteur, la pression artérielle pour un bloc neuraxial, la reprise de la miction, et la protection du membre insensible. La prévention des lésions de positionnement reste nécessaire tant que le bloc persiste.
-@ p. 16, 55 et 95
-
-QCM · NVPO et Apfel
-Quels éléments constituent les quatre facteurs du score simplifié d’Apfel ?
-+ Sexe féminin. :: Il vaut un point.
-+ Statut non-fumeur. :: C’est le non-tabagisme qui figure dans ce score.
-+ Morphiniques postopératoires. :: Ils constituent un facteur supplémentaire.
-+ Antécédents de NVPO ou de mal des transports. :: L’un ou l’autre constitue cet item.
-- Une pression artérielle élevée au réveil. :: Elle ne fait pas partie des quatre facteurs d’Apfel présentés.
-> Quatre facteurs simples : sexe féminin, absence de tabagisme, antécédent de nausées postopératoires ou de mal des transports, et recours prévu aux morphiniques. Le nombre de facteurs détermine le nombre d'antiémétiques à associer en prophylaxie.
-@ p. 56–57; repères du score d’Apfel
-
-QCM · Chirurgie digestive et thoracique
-Quelles surveillances sont cohérentes après chirurgie digestive ou thoracique ?
-+ Après chirurgie abdominale douloureuse, apprécier la respiration profonde et la toux. :: La douleur peut limiter l’amplitude respiratoire et favoriser l’encombrement.
-+ Après cœlioscopie, envisager hypercapnie, emphysème sous-cutané ou pneumothorax selon les signes. :: Ces complications sont citées dans le cours.
-+ Après chirurgie thoracique, contrôler le drainage et la qualité de l’analgésie. :: Ils font partie des repères spécifiques.
-- Considérer l’analgésie comme indépendante de la récupération respiratoire. :: Une douleur importante limite les efforts ventilatoires et la toux.
-- Un gaz du sang ou une radiographie remplace l’observation clinique continue. :: Ces examens complètent la surveillance du patient.
-> Après chirurgie digestive : saignement, reprise du transit, état des drains et des redons, douleur et nausées. Après chirurgie thoracique : drainage avec bullage et oscillations, douleur conditionnant la ventilation, et dépistage du pneumothorax. Dans les deux cas, la kinésithérapie respiratoire est précoce.
-@ p. 30 et 61–62
-
-QCM · Neurochirurgie
-Quelles surveillances sont pertinentes après une neurochirurgie ?
-+ Comparer conscience et motricité à l’état préopératoire. :: Un déficit connu est une référence pour reconnaître une dégradation nouvelle.
-+ Repérer une absence de réveil ou une dégradation neurologique. :: Le support les signale parmi les éléments d’alerte.
-+ Adapter la surveillance de la déglutition au geste réalisé. :: Le support cite les gestes sur le tronc cérébral et les nerfs mixtes.
-+ Suivre la diurèse après chirurgie hypophysaire.
-- Un déficit présent avant l’intervention peut être omis dans la transmission. :: Il doit être transmis pour permettre une comparaison fiable.
-> Après neurochirurgie, la surveillance est neurologique avant tout : niveau de conscience, pupilles, déficit focal, et répétition régulière de l'examen. S'y ajoutent le contrôle strict de la pression artérielle, la prévention de l'hypercapnie qui élève la pression intracrânienne, et la position de la tête.
-@ p. 15–16, 20 et 63
-
-QCM · Urologie et obstétrique
-Quelles associations entre chirurgie et surveillance postopératoire sont exactes ?
-+ Résection endoscopique : rechercher une résorption de liquide d’irrigation avec hyperhydratation et hyponatrémie. :: C’est le TURP syndrome décrit.
-+ Chirurgie urologique avec lavage : vérifier la perméabilité de la sonde et l’évacuation. :: Les caillots ou un défaut de drainage peuvent compromettre le fonctionnement.
-+ Césarienne : surveiller globe utérin et saignement. :: Ces contrôles sont associés à la surveillance du réveil et du bloc.
-- Néphrectomie : toute complication possible est exclusivement urinaire. :: Le support cite aussi hémorragie et lésions pleuropulmonaires.
-- Après césarienne sous rachianesthésie, on surveille surtout les réponses motrices. :: Les fonctions vitales et les complications obstétricales restent à surveiller.
-> Après chirurgie urologique, on surveille l'aspect des urines, la perméabilité de la sonde et l'équilibre du lavage, avec la crainte du caillotage et, pour une résection de prostate, du syndrome de résorption. Après césarienne, la surveillance porte sur le globe utérin, les saignements et le niveau du bloc.
-@ p. 65–66
-
-QCM · Thyroïdectomie
-Après thyroïdectomie, quelles propositions sont exactes ?
-+ Un hématome cervical peut comprimer les voies aériennes. :: C’est l’une des complications immédiates majeures soulignées.
-- Un drain peu productif exclut un hématome.
-+ Une atteinte bilatérale des nerfs récurrents peut entraîner une obstruction respiratoire sévère. :: Leur rôle dans la mobilité des cordes vocales explique ce risque.
-+ Un stridor ou une modification de la voix justifie une alerte et une évaluation. :: Ces signes peuvent révéler une atteinte des voies aériennes.
-- Une intubation facile avant le geste annonce une réintubation facile après le geste. :: La chirurgie peut modifier l’anatomie fonctionnelle par œdème ou saignement.
-> Après thyroïdectomie, trois complications spécifiques : l'hématome compressif, qui impose une réouverture en urgence, la paralysie récurrentielle, avec dysphonie ou stridor, et l'hypocalcémie par atteinte parathyroïdienne, à rechercher par les paresthésies. Le matériel de réintubation reste disponible.
-@ p. 69, 78 et 86
-
-QCM · Planifier l’extubation
-Quelles propositions sur l’extubation sont exactes ?
-+ Elle doit être planifiée en fonction du terrain, de la chirurgie et des voies aériennes. :: La distinction faible risque/à risque structure la préparation.
-+ Aspiration, ventilation et matériel de réintubation doivent être anticipés. :: Les moyens de secours sont préparés avant le retrait.
-+ Le guide échangeur est une possibilité dans certaines extubations à risque. :: Il peut conserver un accès facilitant une réintubation.
-- La surveillance s’arrête immédiatement après le retrait de la sonde. :: Surveiller est le quatrième axe de la démarche.
-- Une reprise chirurgicale précoce probable est sans influence sur la décision. :: L’absence de complication immédiate justifiant une reprise fait partie des critères.
-> L'extubation se décide sur des critères réunis : patient réveillé et coopérant, décurarisation vérifiée par un rapport quantitatif, ventilation efficace, hémodynamique stable, normothermie, et réflexes de protection présents. Elle se prépare comme une intubation, avec le matériel de réintubation prêt.
-@ p. 71, 84 et 86–90
-
-QCM · Récupération neuromusculaire
-Concernant l’évaluation de la récupération d’un bloc neuromusculaire avant extubation, identifiez les propositions exactes.
-- Le temps écoulé depuis la dernière injection prouve la récupération.
-- Quatre réponses au TOF suffisent, quelle que soit leur amplitude relative. :: Le rapport quantitatif entre quatrième et première réponse doit être évalué.
-+ La mesure instrumentale du rapport T4/T1 à l’adducteur du pouce est nécessaire. :: Le support donne un rapport supérieur à 0,9 et rappelle l’importance du monitorage.
-- Une SpO₂ normale remplace la mesure neuromusculaire. :: Elle ne mesure pas la décurarisation.
-- Un patient somnolent est encore curarisé. :: La conscience et le bloc neuromusculaire sont deux dimensions distinctes.
-> Seule la mesure quantitative du rapport entre la quatrième et la première réponse, au moins égale à 0,9 et mesurée à l'adducteur du pouce, exclut une curarisation résiduelle. Quatre réponses visibles, une tête soulevée ou une poignée de main ne suffisent pas : ce sont des critères pris en défaut.
-@ p. 79–80 et 83
-
-QCM · Sortie de SSPI
-Quelles propositions concernant la sortie de SSPI sont exactes ?
-+ Elle est validée et signée par le médecin anesthésiste-réanimateur. :: Le score ne remplace pas la décision médicale.
-- Un bon score d’Aldrete permet de ne plus contrôler la douleur et les complications chirurgicales. :: Ces éléments complètent les fonctions évaluées par le score.
-+ La durée dépend de l’anesthésie, de l’intervention, du patient et des risques. :: Le support ne fixe pas une durée universelle pour toutes les situations.
-+ La sortie de SSPI et le retour à domicile en ambulatoire sont deux décisions distinctes. :: Ils correspondent à des niveaux de récupération et à des critères différents.
-- L’autorisation de rentrer à domicile implique que le patient peut conduire. :: Le patient ne conduit pas lors du trajet de retour et est accompagné.
-> La sortie repose sur des critères explicites, souvent regroupés en score : conscience, ventilation et oxygénation, stabilité hémodynamique, douleur contrôlée, absence de nausées, normothermie, et absence de saignement actif. Elle est validée par le médecin anesthésiste, et tracée.
-@ p. 47 et 92–96
-
-QCU · Oxygène et bradypnée
-Affirmation 1. Sous oxygénothérapie, une SpO₂ satisfaisante n’exclut pas une dépression respiratoire.
-Affirmation 2. L’oxygène peut maintenir la saturation alors que la fréquence respiratoire diminue.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies et la seconde explique la première. La SpO₂ renseigne sur l’oxygénation, pas à elle seule sur la ventilation. Il faut observer la fréquence respiratoire et l’état de conscience, notamment après morphinique.
+QCU · Bradypnée en SSPI
+En SSPI, un patient ayant reçu de la morphine a une fréquence respiratoire à 7/min et une SpO2 à 97 % sous oxygène. Quelle interprétation est exacte ?
+- La situation est rassurante, la SpO2 étant normale. :: L'oxygène masque l'hypoventilation.
++ Il s'agit d'une dépression respiratoire morphinique : la bradypnée alerte avant la désaturation. :: Le CO2 peut s'accumuler.
+- La bradypnée est due à une curarisation résiduelle. :: Elle donnerait plutôt une respiration superficielle et rapide.
+- Il faut retirer l'oxygène pour vérifier la SpO2 en air. :: Ce serait dangereux.
+- Il s'agit d'un bronchospasme. :: Il donnerait des sibilants et une polypnée.
+> Sous oxygène, la saturation peut rester correcte alors que la ventilation est insuffisante. La bradypnée après morphinique impose stimulation, appel du médecin et préparation de l'antagoniste.
 @ p. 19, 28 et 31
 
-QCU · Récupération neuromusculaire
-Affirmation 1. Quatre réponses présentes au TOF ne suffisent pas à prouver une décurarisation complète.
-Affirmation 2. Le temps écoulé depuis la dernière injection suffit à garantir cette décurarisation.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-+ La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première affirmation est vraie : il faut apprécier quantitativement le rapport T4/T1.
-@ p. 79 et 83
+QCM · Inhalation bronchique
+Concernant le risque d'inhalation au réveil, quelles propositions sont exactes ?
++ C'est la deuxième cause de morbi-mortalité respiratoire postinterventionnelle. :: Après la dépression respiratoire.
+- Le propofol renforce le tonus du sphincter supérieur de l'œsophage. :: Il le déprime.
++ Le midazolam allonge la latence de la déglutition plusieurs heures après l'injection. :: La déglutition reste perturbée.
+- Une curarisation résiduelle légère est sans effet sur la déglutition. :: Elle perturbe les mouvements du larynx.
+- La déglutition est récupérée dès l'extubation. :: Elle peut rester altérée.
+> La déglutition, mécanisme coordonné de protection, est perturbée par le propofol, le midazolam et les curares résiduels : risque d'inhalation au réveil.
+@ p. 29
 
-QCU · Score et décision de sortie
-Affirmation 1. Un score d’Aldrete modifié de 10 autorise à lui seul la sortie malgré une douleur importante.
-Affirmation 2. La décision de sortie doit aussi prendre en compte le contrôle de la douleur et les complications, puis être validée par le MAR.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première affirmation est vraie et la seconde est fausse.
-+ La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première affirmation est fausse : le score ne remplace pas l’ensemble de la prise en charge. La seconde est vraie : une douleur non maîtrisée ou un problème chirurgical doit être traité avant d’envisager la sortie. La validation médicale reste nécessaire.
-@ p. 92–94
+QCM · Orientation devant une détresse respiratoire
+Concernant l'orientation étiologique d'une détresse respiratoire au réveil, quelles propositions sont exactes ?
++ Des sibilants évoquent un bronchospasme. :: Obstruction bronchique.
++ Une bradypnée évoque un effet morphinique ou un trouble de conscience. :: Atteinte de la commande.
+- Un stridor évoque un œdème aigu du poumon. :: Il évoque une obstruction laryngée.
++ Une expectoration mousseuse évoque un œdème aigu du poumon. :: Origine cardiaque ou de surcharge.
+- Un balancement thoraco-abdominal est un signe rassurant. :: C'est un signe de lutte.
+> Détresse respiratoire : dyspnée, désaturation, signes de lutte. Sibilants → bronchospasme ; bradypnée → morphine ; stridor → obstacle laryngé ; expectoration mousseuse → OAP.
+@ p. 31
 
-QCU · Niveaux de récupération
-Affirmation 1. Le réveil intermédiaire correspond au retour complet de l’attention, de la mémoire et de la vigilance.
-Affirmation 2. L’autorisation de retour à domicile après une anesthésie permet au patient de conduire son véhicule.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien explicatif entre elles.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-+ Les deux affirmations sont fausses.
-> Les deux affirmations sont fausses. Le réveil intermédiaire correspond à la récupération psychomotrice ; les fonctions supérieures relèvent du réveil complet. Le retour à domicile n’autorise pas la conduite pour rentrer : le patient est accompagné par un tiers.
+QCU · Stridor après extubation
+Juste après l'extubation, un patient présente un bruit inspiratoire aigu, un tirage et une désaturation. Quelle cause évoquer en priorité ?
+- Un bronchospasme. :: Il donne des sibilants expiratoires.
++ Une obstruction laryngée, par spasme ou œdème. :: C'est un stridor, bruit inspiratoire haut.
+- Une dépression respiratoire morphinique. :: Elle donne une bradypnée, sans bruit.
+- Une embolie pulmonaire. :: Elle ne donne pas de stridor.
+- Un OAP. :: Il donne des crépitants et une expectoration mousseuse.
+> Le stridor oriente vers un obstacle des voies aériennes supérieures. Conduite : appel, oxygène, libération des voies aériennes, aérosols d'adrénaline et corticoïdes, préparation d'une réintubation considérée comme difficile.
+@ p. 31 et 32
+
+QCM · Prise en charge d'une détresse respiratoire
+Concernant la prise en charge d'une détresse respiratoire au réveil, quelles propositions sont exactes ?
++ Prévenir le médecin. :: Avant tout.
++ Préparer le matériel et les médicaments d'intubation. :: Une réintubation peut être nécessaire.
++ Libérer les voies aériennes : subluxation mandibulaire, position assise, canule de Guedel. :: Selon la cause.
++ Une réintubation est considérée comme difficile, en séquence rapide. :: Avec une sonde de plus petit diamètre.
+- La VNI est contre-indiquée chez l'obèse. :: Elle est au contraire utile chez l'obèse ou l'apnéique.
+> Devant une détresse respiratoire : alerter, oxygéner, libérer les voies aériennes, traiter la cause (aérosols, VNI, reprise chirurgicale) et préparer une réintubation difficile.
+@ p. 32
+
+QCM · Réveil et circulation
+Concernant les phénomènes circulatoires du réveil, quelles propositions sont exactes ?
++ Le réveil est une épreuve d'effort. :: La consommation d'oxygène globale et myocardique augmente.
++ Avant le réveil, l'arrêt de la stimulation chirurgicale peut faire baisser la pression. :: Les effets vasoplégiants persistent.
++ Douleur, hypoxie, hypercapnie et frissons stimulent le système sympathique. :: Ils peuvent provoquer une HTA et une tachycardie.
++ Un globe vésical peut expliquer une poussée hypertensive. :: C'est une cause corrigeable.
+- Une HTA au réveil se traite d'emblée par un antihypertenseur, sans chercher de cause. :: On traite d'abord la cause : douleur, froid, hypercapnie, globe.
+> Le réveil fait passer d'une vasoplégie à une stimulation sympathique (douleur, froid, hypoxie, hypercapnie, globe) : risque d'HTA, d'ischémie et de décompensation cardiaque.
+@ p. 35, 36 et 38
+
+QCM · Hypotension au réveil
+Concernant les causes d'hypotension en SSPI, quelles propositions sont exactes ?
++ Une vasoplégie liée aux agents anesthésiques. :: Ou au bloc sympathique d'une ALR périmédullaire.
++ Une hémorragie. :: Redons, pansements, globe utérin.
++ Une hypovolémie par compensation insuffisante des pertes. :: Jeûne, pertes insensibles.
++ Une anaphylaxie. :: Vasoplégie d'origine allergique.
++ Une décompensation cardiaque. :: Ou un infarctus, une embolie pulmonaire.
+> Hypotension : rechercher vasoplégie (agents, ALR, anaphylaxie, sepsis), hypovolémie (hémorragie, pertes) ou défaillance cardiaque (insuffisance cardiaque, IDM, embolie).
+@ p. 37
+
+QCM · Bradycardie en SSPI
+Devant une bradycardie en SSPI, quelles propositions sont exactes ?
+- L'atropine s'injecte d'emblée, sans avis médical. :: Jamais d'atropine sans avis.
++ On vérifie d'abord le signal, puis on recueille les autres paramètres et on fait un ECG. :: Avec appel du médecin.
+- Une bradycardie ne peut pas révéler une hypovolémie. :: Une hypovolémie peut donner une bradycardie paradoxale.
+- Les bêtabloquants ne peuvent pas expliquer une bradycardie postopératoire. :: Ils en sont une cause classique.
+- Une bradycardie sinusale est par nature bénigne. :: Elle peut révéler une ischémie ou un trouble de conduction.
+> Bradycardie : appeler, vérifier le signal, recueillir PA, SpO2, conscience, température, douleur, traitements, faire un ECG. Causes : médicaments, vagal, NVPO, conduction, ischémie, hypovolémie.
+@ p. 41 et 42
+
+QCM · Ischémie myocardique au réveil
+Concernant l'ischémie myocardique postopératoire, quelles propositions sont exactes ?
++ Elle est le plus souvent fonctionnelle : la consommation d'oxygène du myocarde dépasse les apports. :: Réveil brutal, douleur, hypothermie, hémorragie.
+- Elle est le plus souvent due à la rupture d'une plaque coronaire. :: Cette forme est rare, surtout liée à l'arrêt des antiagrégants.
++ Sa prise en charge vise à limiter le travail myocardique et optimiser la perfusion coronaire. :: Normothermie, analgésie, oxygénation, hémoglobine.
+- Le traitement bradycardisant doit être arrêté. :: Il doit être maintenu.
+- L'ECG est inutile au diagnostic. :: ECG et troponine font le diagnostic.
+> Ischémie fonctionnelle : déséquilibre entre besoins et apports. On corrige les facteurs (douleur, froid, HTA, tachycardie, anémie, hypoxie) et on maintient le bêtabloquant.
+@ p. 43 et 44
+
+QCM · Stades du réveil
+Concernant les stades du réveil, quelles propositions sont exactes ?
++ Le réveil immédiat correspond à la récupération de la conscience et des réflexes vitaux. :: Il conditionne la sortie de SSPI.
+- Le réveil intermédiaire est évalué par un score d'Aldrete. :: Il s'évalue par des tests psychomoteurs.
+- Le réveil complet est atteint à la sortie de SSPI. :: Il concerne les fonctions supérieures, récupérées bien plus tard.
+- Un patient ambulatoire peut conduire pour rentrer chez lui. :: Il ne doit pas conduire et doit être accompagné.
+- Le réveil intermédiaire conditionne la sortie de SSPI. :: Il conditionne le retour à domicile en ambulatoire.
+> Immédiat (conscience, réflexes) → sortie de SSPI. Intermédiaire (psychomoteur) → retour à domicile. Complet (fonctions supérieures) → conduite, décisions.
 @ p. 47 et 96
+
+QCM · Retard de réveil
+Concernant les causes d'un retard de réveil, quelles propositions sont exactes ?
++ Un surdosage ou un défaut d'élimination des agents anesthésiques. :: Insuffisance rénale ou hépatique, bas débit.
++ Un relargage depuis le tissu adipeux. :: Chez l'obèse ou après une anesthésie longue.
++ Une hypoglycémie ou une hyponatrémie. :: Causes métaboliques.
++ Une hypothermie. :: Elle ralentit l'élimination des médicaments.
++ Un accident vasculaire cérébral. :: Cause neurologique.
+> Retard de réveil : causes pharmacologiques (surdosage, élimination, relargage, interactions, curarisation résiduelle), métaboliques (glycémie, natrémie, hypothermie), neurologiques (AVC, épilepsie). Chercher d'abord ce qui se corrige vite.
+@ p. 48 et 49
+
+QCM · Agitation postopératoire
+Concernant l'agitation ou la confusion au réveil, quelles propositions sont exactes ?
++ Une douleur intense ou un globe vésical sont des causes évidentes à éliminer d'abord. :: Ainsi qu'une curarisation résiduelle.
+- L'agitation est une explication en soi qui ne demande pas d'enquête. :: Elle impose de chercher une cause.
++ Une hypoxémie ou une hypotension doivent être recherchées. :: Causes organiques à traiter.
+- Un sevrage alcoolique est sans rapport avec une confusion postopératoire. :: Le delirium tremens en fait partie.
+- Une sédation d'emblée est la conduite de choix. :: Elle peut masquer une cause organique.
+> Agitation : éliminer douleur, globe, curarisation résiduelle, puis rechercher une cause organique (hypoxémie, hypotension, troubles métaboliques, sepsis, médicaments, AVC, sevrage).
+@ p. 50
+
+QCM · Hypothermie au réveil
+Concernant l'hypothermie postopératoire, quelles propositions sont exactes ?
++ Le frisson multiplie le métabolisme et la consommation d'oxygène. :: Jusqu'à cinq fois.
++ Elle altère la fonction plaquettaire et augmente les pertes sanguines. :: Troubles de l'hémostase.
+- Elle accélère l'élimination des morphiniques et des curares. :: Elle allonge leur durée d'action.
++ Elle diminue les défenses immunitaires. :: Risque infectieux.
+- Le réchauffement ne commence qu'à l'arrivée en SSPI. :: Il commence dès l'entrée au bloc.
+> L'hypothermie a des conséquences cardiaques (frisson, VO2), hémorragiques, pharmacologiques (réveil retardé, curarisation prolongée) et infectieuses. On réchauffe activement dès l'entrée au bloc.
+@ p. 73 à 76
+
+QCU · Décurarisation
+Concernant le critère de décurarisation avant l'extubation, quelle proposition est exacte ?
+- Quatre réponses au TOF suffisent. :: Il faut mesurer le rapport.
+- Le délai écoulé depuis la dernière injection suffit. :: Seul le monitorage instrumental permet de conclure.
++ Un rapport T4/T1 supérieur à 0,9 à l'adducteur du pouce. :: Mesuré par un monitorage instrumental.
+- Le patient soulève la tête 5 secondes. :: Ce critère clinique est insuffisant.
+- Un TOF à 0/4. :: C'est un bloc profond.
+> Seul le monitorage instrumental constate une décurarisation complète : T4/T1 > 0,9. La curarisation résiduelle augmente les événements respiratoires et les pneumopathies ; l'antagonisation est une décision médicale.
+@ p. 79 et 80
+
+QCM · Critères d'extubation
+Concernant les critères d'extubation, quelles propositions sont exactes ?
++ Absence de complication chirurgicale justifiant une reprise. :: L'extubation n'est pas automatique en fin de geste.
++ Absence d'hypothermie. :: Température centrale autour de 36 °C.
++ Patient réveillé, répondant aux ordres simples. :: Avec réflexe de déglutition récupéré.
++ Ventilation spontanée efficace, avec un volume courant de 5 à 8 mL/kg. :: Fréquence de 12 à 25/min, normocapnie.
++ Hémodynamique stable. :: Pression et fréquence proches des valeurs préopératoires.
+> Extubation : pas de reprise chirurgicale prévisible, normothermie, conscience, voies aériennes libres, décurarisation (T4/T1 > 0,9), ventilation efficace, oxygénation avec FiO2 faible, hémodynamique stable.
+@ p. 71 à 83
+
+QCM · Extubation à risque
+Concernant l'extubation à risque, quelles propositions sont exactes ?
+- Une intubation facile garantit une extubation facile. :: La chirurgie ou le terrain peuvent modifier les voies aériennes.
++ Un guide échangeur permet de réintuber sans répéter la laryngoscopie. :: La sonde est retirée sur le guide.
+- La chirurgie thyroïdienne est une extubation à faible risque. :: La chirurgie cervicale est un facteur de risque.
+- Le matériel d'intubation se prépare après le retrait de la sonde. :: Il se prépare avant.
+- La surveillance s'arrête dès que la sonde est retirée. :: Elle se poursuit auprès du patient.
+> Extubation : planifier, préparer, réaliser, surveiller. Facteurs de risque : chirurgie céphalique ou cervicale, terrain respiratoire, difficulté de contrôle des voies aériennes.
+@ p. 84 à 90
+
+QCM · Spécificités chirurgicales
+Concernant les complications propres à certaines chirurgies, quelles propositions sont exactes ?
++ Après thyroïdectomie, un hématome cervical peut comprimer les voies aériennes, même avec un drain peu productif. :: Regarder le cou et la respiration.
+- Le TURP syndrome entraîne une hypernatrémie. :: Il entraîne une hyponatrémie par résorption du liquide d'irrigation.
+- Après neurochirurgie, une hypotension est sans retentissement cérébral. :: Elle entraîne une hypoperfusion cérébrale.
+- Après cœlioscopie, la douleur scapulaire signe une complication grave. :: Elle est fréquente, liée au CO2.
+- Après chirurgie ophtalmologique avec tamponnement au gaz, la position est libre. :: Une position particulière est prescrite.
+> Thyroïde : hématome compressif, paralysie récurrentielle, hypocalcémie. TURP : hyponatrémie, surcharge. Neurochirurgie : comparer à l'état préopératoire. Cœlioscopie : hypercapnie, emphysème, douleur scapulaire.
+@ p. 61 à 69
+
+QCU · Score d'Apfel
+Parmi les éléments suivants, lequel ne fait pas partie du score d'Apfel de risque de NVPO ?
+- Le sexe féminin. :: C'est un facteur du score.
+- L'absence de tabagisme. :: C'est un facteur du score.
+- Les morphiniques postopératoires. :: C'est un facteur du score.
+- Les antécédents de NVPO ou de mal des transports. :: C'est un facteur du score.
++ L'âge supérieur à 65 ans. :: Il ne fait pas partie du score.
+> Score d'Apfel : femme, non-fumeur, morphiniques postopératoires, antécédent de NVPO ou mal des transports (1 point chacun). Le risque croît avec le nombre de facteurs ; la prévention se prépare dès la consultation.
+@ p. 56 et 57
+
+QCU · Sortie de SSPI
+Concernant la durée de séjour en SSPI, quelle proposition est exacte ?
+- Elle est fixée à 2 heures, quel que soit le patient. :: Il n'existe pas de durée universelle.
++ Il n'existe pas de durée réglementaire, sauf après césarienne où une surveillance de 2 heures est recommandée. :: La durée dépend de la récupération et des risques.
+- Elle est fixée à 1 heure après une ALR. :: Aucune durée n'est fixée.
+- Un score d'Aldrete favorable autorise la sortie malgré une douleur non contrôlée. :: Douleur, globe ou complication persistante empêchent la sortie.
+- L'IDE de SSPI décide seule de la sortie. :: La sortie est une décision médicale signée.
+> Le passage en SSPI est obligatoire mais sans durée fixe (sauf césarienne : 2 h). La sortie est décidée et signée par le médecin anesthésiste, sur un score (Aldrete modifié) et l'absence de problème en cours.
+@ p. 92 à 95

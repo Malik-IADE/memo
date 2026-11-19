@@ -1,322 +1,285 @@
-// Quiz 11 – Ventilation mécanique (UE 3.1), d'après « QUIZZ 11 Ventilation mécanique.html »
+// Quiz – Ventilation mécanique (UE 3.1), réécrit le 18 novembre 2026 d'après le support « Ventilation mécanique avec notes », sur le modèle du quiz Patient hypertendu.
+// Questions type examen sur les notions générales : équation du mouvement, résistances et compliance, pression positive et interactions cœur-poumons, niveau d'assistance, interface, modes, expiration, PEP, pression de plateau, ventilation protectrice, surveillance des courbes, extubation.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Ventilation mécanique
 
-QCM · Mécanique
-Quelles relations décrivent les composantes de la pression des voies aériennes dans un modèle respiratoire passif ?
-+ Prés = R × débit inspiratoire :: La composante résistive est le produit de la résistance par le débit
-- Pél = C/Vt :: La formule est inversée : la pression élastique est le volume divisé par la compliance
-+ Pél = Vt/C :: Plus le poumon est raide, plus il faut de pression pour le même volume
-+ Paw = PEP + pression résistive + pression élastique :: La pression affichée additionne la pression de base, le coût de l'écoulement et celui de la distension
-> Une partie de la pression maintient la PEP, une autre permet l’écoulement dans les conduits et une autre distend le système. La pression élastique vaut Vt/C : la compliance n’est pas au numérateur.
-@ 4, 37
-
-QCM · Mécanique
-Concernant la compliance et l’élastance, quelles propositions sont exactes ?
-+ La compliance est une variation de volume divisée par une variation de pression :: C'est sa définition : le volume gagné par unité de pression
-+ Une compliance faible signifie qu’il faut plus de pression pour obtenir le même volume :: C'est la définition d'un poumon peu compliant, donc raide
-- La compliance s’exprime en cmH₂O/mL lorsque le volume est en mL :: Elle s'exprime en mL/cmH₂O : c'est l'élastance qui s'exprime en cmH₂O/mL
-- La compliance et l’élastance évoluent dans le même sens :: L'élastance est l'inverse de la compliance : elles varient en sens contraire
-> C = ΔV/ΔP, en mL/cmH₂O. L’élastance est l’inverse de la compliance. Un système moins compliant se distend plus difficilement.
-@ 5, 36
+QCM · Équation du mouvement
+Concernant l'équation du mouvement du système respiratoire (Paw = PEP + R × V′ + Vt/C), quelles propositions sont exactes ?
++ La composante résistive (R × V′) sert à faire circuler l'air dans les conduits. :: À résistance égale, plus de débit exige plus de pression.
++ La composante élastique (Vt/C) sert à distendre le système respiratoire. :: Elle dépend du volume et de la compliance.
++ La PEP est la pression de base, en fin d'expiration. :: Les autres composantes s'y ajoutent.
+- À débit nul, la composante résistive est maximale. :: Elle s'annule quand le débit est nul.
++ Une baisse de compliance augmente la pression nécessaire pour un même volume. :: Vt/C augmente.
+> Paw = PEP + pression résistive (débit dans les conduits) + pression élastique (distension). Le modèle compare les voies aériennes à une paille et le poumon à un ballon.
+@ p. 3 et 4
 
 QCM · Résistances
-Dans la relation R = 8ηl/(πr⁴), que se passe-t-il si le rayon du conduit est divisé par deux, toutes les autres grandeurs restant constantes ?
-- La résistance est multipliée par 2 :: Le rayon intervient à la puissance quatre, non à la puissance un
-- La résistance est multipliée par 4 :: Ce serait le cas si le rayon intervenait au carré
-- La résistance est divisée par 16 :: La résistance augmente, elle ne diminue pas
-+ La résistance est multipliée par 16 :: 2 à la puissance 4 : diviser le rayon par deux multiplie la résistance par seize
-> Le rayon est à la puissance quatre au dénominateur. Diviser r par 2 multiplie R par 2⁴ = 16. Cela explique l’effet important d’une réduction du calibre, notamment par des sécrétions.
-@ 5
+Concernant les résistances des voies aériennes et de la sonde, quelles propositions sont exactes ?
++ La résistance dépend surtout du rayon du conduit, à la puissance quatre. :: R = 8ηl/(πr⁴).
+- Une sonde deux fois plus longue a une résistance quatre fois plus grande. :: La longueur intervient de façon proportionnelle, pas à la puissance quatre.
++ Une petite réduction de calibre augmente fortement la résistance. :: Par exemple des sécrétions dans la sonde.
+- Les sécrétions n'augmentent la pression qu'en cas d'obstruction complète. :: Une obstruction partielle suffit.
+- Une sonde de plus petit diamètre diminue la résistance. :: Elle l'augmente.
+> La résistance dépend du rayon à la puissance 4 : une sonde fine ou encombrée augmente fortement la pression nécessaire pour un même débit.
+@ p. 5
+
+QCM · Compliance
+Concernant la compliance pulmonaire, quelles propositions sont exactes ?
++ C'est la variation de volume obtenue pour une variation de pression. :: C = ΔV/ΔP, en mL/cmH2O.
+- Les atélectasies augmentent la compliance globale. :: Moins d'alvéoles ventilables : la compliance diminue.
++ Les compliances des unités alvéolaires ouvertes s'additionnent. :: Si la moitié des unités se ferme, la compliance globale est divisée par deux.
+- Un poumon peu compliant se distend facilement. :: Il est rigide.
++ L'abdomen, certaines positions et la chirurgie favorisent les atélectasies. :: Par compression.
+> La compliance mesure la distensibilité. Les atélectasies retirent des alvéoles de la ventilation et réduisent la compliance globale.
+@ p. 5 et 6
 
 QCM · Pression transpulmonaire
-Une alvéole a une pression intérieure Palv = 8 cmH₂O et une pression pleurale Ppl = 10 cmH₂O. Quelles propositions sont exactes dans le modèle simplifié ?
-- PTP = +2 cmH₂O :: Le signe est inversé : la pression pleurale est ici la plus élevée
-+ La condition Palv > Ppl nécessaire à son ouverture n’est pas remplie :: Avec une pression pleurale supérieure, l'alvéole est comprimée et tend à se fermer
-+ PTP = −2 cmH₂O :: 8 moins 10 : la pression transpulmonaire est négative, l'alvéole se collabe
-- La pression alvéolaire positive assure son ouverture :: Ce qui compte n'est pas la pression alvéolaire seule, mais sa différence avec la pression pleurale
-> PTP = Palv − Ppl = 8 − 10 = −2 cmH₂O. Il faut comparer les deux pressions : une Palv positive isolée ne prouve pas que la pression de distension est positive.
-@ 7, 48
+Concernant la pression transpulmonaire et la ventilation spontanée, quelles propositions sont exactes ?
++ L'alvéole reste ouverte si sa pression interne dépasse la pression pleurale. :: PTP = Palv − Ppl > 0.
++ En ventilation spontanée, l'inspiration naît d'une baisse de la pression pleurale. :: Le diaphragme se contracte.
+- En fin d'expiration, le poumon est vide. :: Il garde la capacité résiduelle fonctionnelle.
++ La pression pleurale est négative en fin d'expiration. :: La PTP reste positive, ce qui garde les alvéoles ouvertes.
+- Une pression alvéolaire positive suffit à garder l'alvéole ouverte. :: Il faut qu'elle dépasse la pression qui l'entoure.
+> L'ouverture alvéolaire dépend de la PTP (Palv − Ppl). En ventilation spontanée, la dépression pleurale fait entrer l'air ; en fin d'expiration, la CRF persiste.
+@ p. 7 à 9
 
-QCM · Ventilation spontanée
-Quelles différences entre inspiration spontanée et insufflation mécanique sont exactes ?
-+ L’inspiration spontanée repose sur une baisse de la pression pleurale :: Le diaphragme en s'abaissant crée la dépression qui appelle l'air
-- La pression intrathoracique évolue de la même façon dans ces deux situations :: Elle devient plus négative en spontané, plus positive sous ventilateur : les effets hémodynamiques sont opposés
-+ Le ventilateur actuel insuffle le gaz en pression positive :: Il pousse l'air, là où le patient en spontané l'aspire
-- Le diaphragme fait entrer l’air en augmentant directement la pression alvéolaire :: Il abaisse la pression alvéolaire au lieu de l'augmenter : c'est ce gradient qui fait entrer l'air
-> Le diaphragme abaisse Ppl, puis Palv baisse légèrement et l’air entre. La ventilation mécanique actuelle pousse au contraire le gaz par une pression positive, ce qui explique aussi ses effets circulatoires.
-@ 8–11
+QCM · Pression positive
+Concernant la ventilation mécanique en pression positive, quelles propositions sont exactes ?
++ La machine pousse l'air dans les voies aériennes. :: Elle ne tire pas sur le thorax comme le diaphragme.
++ La pression intrathoracique est positive à l'inspiration. :: Contrairement à la ventilation spontanée.
++ Elle diminue le retour veineux au cœur droit. :: La pression autour des cavités droites s'oppose à leur remplissage.
++ Elle facilite l'éjection du cœur gauche. :: Selon le modèle présenté.
++ Le poumon d'acier fonctionnait au contraire en pression négative autour du thorax. :: Il imitait le diaphragme.
+> En pression positive, l'insufflation inverse le régime de pression : le retour veineux diminue, avec congestion veineuse et baisse possible du débit, mais l'éjection gauche est facilitée.
+@ p. 10 à 12
 
-QCM · Cœur-poumons
-Quelles propositions sur la ventilation en pression positive sont exactes ?
-+ Une défaillance cardiaque droite préalable rend sa mise en route plus risquée :: La pression positive gêne le remplissage d'un ventricule droit déjà en difficulté
-+ Une tamponnade ou un pneumothorax compressif peuvent être aggravés par ses effets sur le remplissage :: Dans les deux cas, le remplissage est déjà entravé : la pression positive l'aggrave
-- Une hypovolémie importante protège du désamorçage circulatoire :: Elle expose au contraire au désamorçage : sans précharge, la pression positive fait chuter le débit
-+ Elle peut diminuer le retour veineux au cœur droit :: C'est l'effet hémodynamique central de la ventilation en pression positive
-> La pression positive contrarie le remplissage droit. Le cours souligne le risque de désamorçage en cas de défaillance droite ou d’hypovolémie extrême, ainsi que dans les situations compressives. Un bénéfice sur l’éjection gauche n’annule pas la dépendance au remplissage.
-@ 12–13
+QCM · Interactions cœur-poumons
+Concernant les interactions cœur-poumons en pression positive, quelles propositions sont exactes ?
++ La baisse du retour veineux peut faire chuter le débit cardiaque. :: Et provoquer une congestion veineuse.
+- Elle améliore le remplissage du cœur droit. :: Elle le gêne.
++ L'oreillette droite, à paroi fine, est sensible aux pressions qui l'entourent. :: Elle se dilate en inspiration spontanée et se comprime en pression positive.
+- Le retour veineux augmente à l'inspiration mécanique. :: Il diminue.
+- Ces effets sont sans conséquence chez le patient hypovolémique. :: Ils sont majorés en cas d'hypovolémie.
+> Pression positive : retour veineux diminué, cœur droit gêné, cœur gauche aidé. L'hypovolémie majore l'hypotension à la mise sous ventilation.
+@ p. 12
+
+QCM · Risque de désamorçage
+Parmi les situations suivantes, lesquelles exposent à un arrêt circulatoire par désamorçage lors de la mise en pression positive ?
++ Une tamponnade :: Le liquide péricardique comprime déjà les cavités droites.
++ Un pneumothorax compressif :: La pression thoracique augmente encore.
++ Une hypertension artérielle pulmonaire sévère :: Le ventricule droit est déjà en difficulté.
++ Une embolie pulmonaire massive :: Obstacle à l'éjection du cœur droit.
+- Une hernie inguinale chez un sujet sain :: Le cœur droit est normal.
+> Pression positive + défaillance cardiaque droite préalable (obstacle au remplissage ou à l'éjection) = risque d'arrêt par désamorçage.
+@ p. 13
+
+QCM · Niveau d'assistance
+Concernant le choix du niveau d'assistance ventilatoire, quelles propositions sont exactes ?
++ En ventilation contrôlée, la machine impose les cycles et le patient ne fournit pas de travail. :: Pmus = 0.
+- Une chirurgie intra-abdominale avec curarisation se conduit en ventilation spontanée. :: Elle impose une ventilation contrôlée.
++ Une chirurgie superficielle courte et peu réflexogène peut se faire en ventilation spontanée. :: Comme une endoscopie digestive.
+- En ventilation spontanée, la machine fournit une pression d'aide. :: Pvent = 0 : le patient fait tout le travail.
+- Le niveau d'assistance est le même quelle que soit la chirurgie. :: Il dépend du geste et de la curarisation.
+> De la VS à la ventilation contrôlée, l'assistance augmente et le travail du patient diminue. Le niveau se choisit selon la chirurgie, la curarisation et la profondeur d'anesthésie.
+@ p. 15
 
 QCM · Préoxygénation
-Quelles propositions sur la préoxygénation avant l’induction sont exactes ?
-- Son objectif est d’accélérer la désaturation pendant l’apnée :: Elle la retarde : c'est tout son objectif
-+ Elle augmente la réserve pulmonaire en oxygène :: L'azote de la capacité résiduelle fonctionnelle est remplacé par de l'oxygène
-+ Une FeO₂ > 90 % est un repère d’efficacité :: C'est la fraction expirée d'oxygène qui atteste de la dénitrogénation
-+ Un masque facial étanche contribue à son efficacité :: Une fuite laisse entrer l'air ambiant et ruine la dénitrogénation
-> L’objectif est d’allonger le temps d’apnée avant désaturation. Le support propose 3 minutes à FiO₂ 100 %, avec un masque étanche et un contrôle de FeO₂. Chez l’obèse, le proclive et une aide avec PEP sont évoqués.
-@ 16
+Concernant la préoxygénation avant la ventilation mécanique, quelles propositions sont exactes ?
+- Elle raccourcit le temps d'apnée avant désaturation. :: Elle l'allonge.
++ Elle se fait au masque étanche, en FiO2 100 %, jusqu'à une FeO2 supérieure à 90 %. :: En VS ou VS-AI-PEP.
+- Elle se fait à faible débit d'oxygène pour économiser les gaz. :: Le débit doit être élevé.
+- Le proclive est déconseillé chez l'obèse. :: Il est recommandé chez l'obèse.
+- Elle est inutile chez l'adulte sain. :: Sans préoxygénation, la désaturation survient en environ une minute et demie.
+> La préoxygénation remplit la réserve en oxygène avant l'apnée : masque étanche, FiO2 100 %, haut débit, 3 min ou FeO2 > 90 %, proclive chez l'obèse.
+@ p. 16
 
 QCM · Interface
-Quelles propositions sur les interfaces ventilatoires sont exactes ?
-- L’étanchéité n’influence pas le volume réellement reçu par le patient :: Une fuite détourne une partie du volume insufflé : le patient reçoit moins que l'affichage
-+ Obésité, position et cœlioscopie peuvent augmenter les contraintes et le risque de fuite :: Elles augmentent la pression nécessaire, donc le risque que le gaz s'échappe
-+ Une sonde trachéale traverse les cordes vocales :: Elle est sous-glottique, et assure seule la protection de la trachée
-+ Un dispositif supraglottique est placé au-dessus de la glotte :: Il repose sur le larynx sans le franchir, d'où une protection moindre
-> Une fuite peut empêcher le débit ou le volume attendu d’arriver au poumon. Le choix de l’interface dépend donc des contraintes ventilatoires, de la chirurgie et de la position, et pas seulement d’une préférence habituelle.
-@ 17–18
+Concernant le choix entre masque laryngé et sonde d'intubation, quelles propositions sont exactes ?
++ Le masque laryngé se place au-dessus de la glotte. :: C'est un dispositif supraglottique.
++ Il est moins étanche qu'un ballonnet placé dans la trachée. :: L'air peut fuir si les pressions augmentent.
++ L'obésité, la cœlioscopie et certaines positions augmentent le risque de fuite avec un masque laryngé. :: Elles augmentent les pressions nécessaires.
+- Une fuite au masque laryngé est sans risque d'inhalation. :: Elle expose à l'hypoventilation et à l'inhalation.
+- Le choix de l'interface est sans lien avec les réglages ventilatoires. :: L'étanchéité conditionne la transmission des pressions.
+> L'interface doit transmettre les pressions au patient. Le masque laryngé, moins étanche, convient mal quand les pressions nécessaires augmentent (obésité, cœlioscopie, position).
+@ p. 17 et 18
 
-QCM · Assistance
-Chez un patient curarisé sans activité respiratoire, quelle proposition décrit le partage du travail en ventilation contrôlée ?
-- Chaque cycle exige un effort inspiratoire du patient :: Chaque cycle est intégralement délivré par la machine
-- La machine délivre seulement une aide déclenchée par le patient :: Ce serait de la ventilation assistée, qui suppose une activité du patient
-+ Le ventilateur assure le travail ventilatoire et Pmus = 0 :: Le patient curarisé ne fournit aucun travail : la pression musculaire est nulle
-- Le patient fournit tout le travail respiratoire :: Il ne peut en fournir aucun : il est curarisé
-> La curarisation empêche les muscles respiratoires d’assurer leur rôle de pompe. Les cycles contrôlés sont imposés et la machine remplace le travail musculaire. À l’autre extrême, en VS sans assistance, Pvent = 0.
-@ 15, 30
+QCM · Consignes du respirateur
+Concernant le cycle respiratoire et les consignes du respirateur, quelles propositions sont exactes ?
++ Le trigger déclenche l'insufflation. :: Il ouvre la valve inspiratoire.
++ Le cyclage arrête l'insufflation. :: La valve inspiratoire se ferme.
++ Le paramètre cible est un volume ou une pression. :: Selon le mode.
++ Le rapport I/E est habituellement voisin de 1/2. :: L'expiration dure deux fois plus que l'inspiration.
++ L'expiration reste passive en ventilation mécanique. :: Le respirateur ne pousse pas l'air hors des poumons.
+> Quatre consignes : déclenchement (trigger), cible (volume ou pression), arrêt (cyclage), PEP. Ttot = Ti + Te ; I/E ≈ 1/2 ; FR = cycles par minute.
+@ p. 19 à 21
 
-QCM · Déclenchement
-Quelles associations sont exactes ?
-+ PEP : pression maintenue en fin d’expiration :: C'est sa définition : elle empêche le collapsus alvéolaire en fin d'expiration
-+ Trigger : déclenchement de l’insufflation :: C'est le signal qui ouvre la valve inspiratoire, machine ou patient
-- Cyclage : nombre de cycles par minute :: Le nombre de cycles par minute est la fréquence respiratoire
-+ Cyclage : fin de l’insufflation :: C'est le critère qui termine l'insufflation : volume atteint, temps écoulé ou débit effondré
-> La FR compte les cycles par minute. Trigger et cyclage déterminent le début et la fin de l’insufflation ; la PEP fixe la pression de base à l’expiration. L’expiration reste passive.
-@ 19–21
+QCM · Volume contrôlé et pression contrôlée
+Concernant les modes en volume contrôlé et en pression contrôlée, quelles propositions sont exactes ?
++ En volume contrôlé, le débit inspiratoire est constant. :: Courbe de débit carrée.
++ En volume contrôlé, la pression varie selon la compliance et les résistances. :: C'est la variable à surveiller.
++ En pression contrôlée, le débit inspiratoire est décélérant. :: Élevé au début, il décroît à mesure que le poumon se remplit.
++ En pression contrôlée, le volume courant n'est pas garanti. :: Il faut le surveiller.
+- En pression contrôlée, la courbe de pression permet de distinguer résistances et compliance. :: Elle ne permet pas de les discriminer.
+> Volume contrôlé : débit constant, volume fixe, pression variable (crête, plateau). Pression contrôlée : pression fixe, débit décélérant, volume variable à surveiller.
+@ p. 23 à 25 et 39
 
-QCM · Modes
-Concernant la ventilation assistée-contrôlée (VAC), quelles propositions sont exactes ?
-- La VAC ne peut avoir qu’une cible de pression :: Elle existe en cible de volume comme en cible de pression
-+ Elle assure une fréquence minimale de sécurité :: Si le patient ne déclenche rien, la machine assure les cycles programmés
-- L’absence momentanée de cycles patient change le nom du mode :: Le mode reste le même : il est simplement utilisé en contrôlé pur
-+ Le patient peut déclencher des cycles supplémentaires :: C'est ce qui la distingue d'un mode purement contrôlé
-> La VAC associe cycles machine et possibilité de déclenchement patient. Elle peut avoir une cible de volume ou de pression.
-@ 21–22, 26, 30
+QCU · Variable à surveiller en pression contrôlée
+En pression contrôlée, quel paramètre faut-il surveiller en priorité, puisqu'il n'est pas fixé par la consigne ?
+- La pression d'insufflation. :: C'est la consigne.
++ Le volume courant obtenu. :: Il varie avec la compliance et les résistances.
+- Le rapport I/E. :: Il est réglé.
+- La fréquence respiratoire. :: Elle est réglée.
+- La PEP. :: Elle est réglée.
+> Consigne en volume → surveiller la pression. Consigne en pression → surveiller le volume. La machine peut respecter la pression demandée alors que le patient reçoit de moins en moins de volume.
+@ p. 23 et 65
 
-QCM · Consigne et résultat
-Quelles associations entre consigne et variable à surveiller sont exactes ?
-- Cible en pression : le volume est garanti quelle que soit la mécanique :: La pression est garantie, le volume est la conséquence et varie avec la mécanique
-+ Cible en pression : surveiller le volume délivré :: C'est la variable qui fluctue : elle peut chuter si la compliance baisse
-+ Cible en volume : surveiller les pressions :: C'est la variable qui fluctue : elle monte si la compliance baisse ou les résistances augmentent
-- Une cible en volume fixe indépendamment toutes les pressions :: Les pressions sont au contraire la conséquence directe de la mécanique
-> R et C relient pression et volume. On ne fixe pas indépendamment ces deux grandeurs dans le modèle. La grandeur qui n’est pas réglée doit être surveillée, car elle change avec le patient et le circuit.
-@ 23, 39, 65–67
+QCM · Ventilation spontanée avec aide inspiratoire
+Concernant la VS-AI, quelles propositions sont exactes ?
++ Le patient déclenche ses cycles, et la machine lui apporte une aide en pression. :: Grâce au trigger inspiratoire.
++ La fréquence et les volumes varient d'un cycle à l'autre. :: Selon l'activité du patient.
+- Elle convient à un patient curarisé. :: Le patient doit conserver une activité respiratoire.
++ Le volume obtenu doit être surveillé. :: Il n'est pas la cible.
+- La fréquence est imposée par la machine. :: Elle dépend du patient.
+> VS-AI : cycles déclenchés par le patient, aide en pression (8 à 20 cmH2O), PEP, trigger et cyclage réglés. Elle sert à la préoxygénation, à certaines chirurgies et au réveil.
+@ p. 28 et 29
 
-QCM · Courbes
-Quelles descriptions des profils inspiratoires sont exactes ?
-- Le débit décélérant assure le volume courant :: Il est la conséquence d'une pression maintenue, non la garantie d'un volume
-+ Pression contrôlée : pression approximativement constante et débit décélérant :: Le débit est maximal au début, puis décroît à mesure que la pression cible est atteinte
-+ Volume contrôlé à débit constant : débit carré :: Le débit reste constant pendant toute l'insufflation
-- Pression contrôlée : débit constant obligatoirement carré :: Le débit carré appartient au volume contrôlé ; en pression contrôlée il est décélérant
-> En volume contrôlé, le débit constant produit le Vt demandé. En pression contrôlée, le débit est élevé au début puis décroît. Le volume obtenu dépend de la pression, du temps, des résistances et de la compliance.
-@ 24–25
+QCM · Mode selon la phase
+Concernant l'évolution du mode ventilatoire au cours d'une anesthésie, quelles propositions sont exactes ?
+- La préoxygénation se fait en ventilation contrôlée. :: Elle se fait en VS ou VS-AI.
+- Le réveil se fait en ventilation contrôlée jusqu'à l'extubation. :: On rend progressivement le travail au patient en VS-AI.
+- Le mode reste identique du début à la fin. :: Il évolue avec les phases.
++ Pendant la chirurgie, le mode dépend du geste, de la curarisation et de la profondeur. :: VAC en volume ou en pression, ou VS-AI.
+- La VS-AI est contre-indiquée à l'extubation. :: Elle est utilisée au réveil et à l'extubation.
+> Préoxygénation : VS ou VS-AI. Chirurgie : VAC (volume ou pression) ou VS-AI. Réveil : VS-AI. Extubation : VS-AI ou VS.
+@ p. 31
 
-QCM · Pause inspiratoire
-Pendant une pause inspiratoire chez un patient passif, sans fuite, quelles propositions sont exactes ?
-+ Le débit est nul :: Les valves sont fermées : plus aucun gaz ne circule
-+ Les deux valves sont fermées et le volume insufflé est maintenu :: C'est ce qui permet de lire la pression de plateau, purement élastique
-- La résistance physique des voies aériennes disparaît :: Elle demeure : c'est le débit qui est nul, donc leur produit
-+ Le terme résistif R × V′ devient nul :: Sans débit, la composante résistive s'annule et la pression ne reflète plus que l'élastance
-> L’absence de débit supprime la différence de pression résistive, pas la résistance elle-même. La pression s’équilibre vers Pplat, qui conserve la PEP et la composante élastique.
-@ 35–38
+QCM · Expiration
+Concernant l'expiration en ventilation mécanique, quelles propositions sont exactes ?
++ Sa vitesse dépend des résistances et de la compliance. :: Constante de temps τ = R × C.
+- Le respirateur aspire l'air hors des poumons. :: L'expiration est passive.
++ Le débit expiratoire doit revenir à zéro avant le cycle suivant. :: Le temps expiratoire doit permettre la vidange.
+- Des résistances élevées accélèrent la vidange. :: Elles la ralentissent.
+- Le respirateur attend la fin de la vidange avant d'insuffler. :: Il insuffle selon les temps réglés.
+> L'expiration est passive, avec une constante de temps R × C. Il faut vérifier sur la courbe de débit que la vidange est complète avant l'insufflation suivante.
+@ p. 32 et 33
 
-QCM · Calcul · temps
-Une FR est réglée à 15 cycles/min. Quelle est la durée d’un cycle complet ?
-- 15 secondes :: Ce serait la durée d'un cycle à 4 cycles par minute
-- 0,25 seconde :: Ce serait la durée d'un cycle à 240 cycles par minute
-- 2 secondes :: Ce serait la durée d'un cycle à 30 cycles par minute
-+ 4 secondes :: 60 divisé par 15
-> Ttot = 60/FR = 60/15 = 4 secondes. Il s’agit du cycle complet Ti + Te, et non du seul temps inspiratoire.
-@ 19, 40
+QCM · PEP et pression de plateau
+Concernant la PEP et la pause inspiratoire, quelles propositions sont exactes ?
++ La PEP maintient une pression positive en fin d'expiration pour garder les alvéoles ouvertes. :: Paw = PEP quand débit et volume au-dessus de la base sont nuls.
++ Pendant la pause inspiratoire, les deux valves sont fermées et le débit est nul. :: Le volume courant est atteint.
++ La pression mesurée pendant la pause est la pression de plateau. :: Elle reflète la pression alvéolaire.
++ Pcrête − Pplat reflète les résistances. :: C'est la composante résistive.
++ Pplat − PEP reflète la compliance. :: C = Vt / (Pplat − PEP).
+> En volume contrôlé avec pause : Pcrête = PEP + Prés + Pél ; Pplat = PEP + Pél. L'écart crête-plateau isole les résistances, l'écart plateau-PEP la compliance.
+@ p. 34 à 38
 
-QCM · Comprendre I/E
-À FR = 15/min et Vt constant, on passe de I/E = 1/2 à I/E = 1/3 en volume contrôlé, sans pause. Quelles conséquences sont exactes ?
-- Le débit inspiratoire diminue :: À durée de cycle constante, il augmente puisque le temps inspiratoire se raccourcit
-+ Te augmente de 2,67 s environ à 3 s :: Le temps expiratoire passe des trois quarts aux trois quarts du cycle de 4 s
-+ Ti diminue de 1,33 s environ à 1 s :: Le temps inspiratoire passe du tiers au quart du cycle
-+ La durée totale du cycle reste 4 s :: Le rapport I/E redistribue le temps à l'intérieur du cycle, sans en changer la durée
-> Le cycle reste de 4 s. Ti passe de 4 × (1/3) à 4 × (1/4). Le même volume doit entrer plus vite : le débit augmente. Passer de 1/2 à 1/3 diminue la fraction inspiratoire.
-@ 40, 42–43
+QCU · Calcul de compliance
+En volume contrôlé, Vt = 500 mL, PEP = 5 cmH2O, pression de plateau = 20 cmH2O. Quelle est la compliance ?
+- 25 mL/cmH2O :: Ce serait 500 / 20, en oubliant la PEP.
++ 33 mL/cmH2O :: C = Vt / (Pplat − PEP) = 500 / 15.
+- 100 mL/cmH2O :: Ce serait 500 / 5.
+- 15 mL/cmH2O :: C'est l'écart de pression, pas la compliance.
+- 0,03 mL/cmH2O :: C'est l'inverse.
+> C = Vt / (Pplat − PEP) = 500 / (20 − 5) ≈ 33 mL/cmH2O. Il faut soustraire la PEP de la pression de plateau.
+@ p. 36
 
-QCM · Calcul · débit
-En volume contrôlé sans pause, Vt = 450 mL et Ti = 1 s. Quel est le débit inspiratoire ?
-- 7,5 L/min :: Erreur d'un facteur dix sur la conversion des millilitres
-- 450 L/min :: Confusion entre millilitres par seconde et litres par minute
-+ 27 L/min :: 0,45 L en 1 s, soit 0,45 × 60 litres par minute
-- 0,45 L/min :: Ce serait le débit en litres par seconde, non par minute
-> V′ = Vt/Ti = 450 mL/s = 0,45 L/s. Pour passer en L/min : 0,45 × 60 = 27. Ne pas confondre mL/s et L/min.
-@ 40, 42
+QCM · Liens entre réglages
+En volume contrôlé, concernant l'effet des modifications de réglage, quelles propositions sont exactes ?
++ Augmenter la fréquence de 15 à 20/min augmente le débit inspiratoire. :: Ti diminue, or V′ = Vt/Ti.
++ Passer le rapport I/E de 1/2 à 1/3 augmente le débit inspiratoire. :: Ti diminue à fréquence constante.
++ Augmenter la PEP de 5 à 10 cmH2O augmente la pression de crête. :: Pcrête = PEP + Prés + Pél.
++ Augmenter le volume courant augmente la pression de plateau. :: La partie élastique augmente.
+- Augmenter le volume courant raccourcit le temps inspiratoire. :: Ti dépend de la fréquence et de l'I/E.
+> En volume contrôlé, Ti = Ttot × I/E/(1 + I/E) et V′ = Vt/Ti : raccourcir Ti augmente le débit et la pression résistive ; augmenter Vt ou la PEP augmente les pressions.
+@ p. 40 et 42
 
-QCM · Calcul · ventilation minute
-Pour Vt = 500 mL et FR = 12/min, quelle ventilation minute obtient-on ?
-- 0,6 L/min :: Erreur d'un facteur dix sur la conversion
-- 24 L/min :: Ce serait le produit pour une fréquence de 48 par minute
-- 6 000 L/min :: Les millilitres n'ont pas été convertis en litres
-+ 6 L/min :: 0,5 × 12 : volume courant multiplié par la fréquence
-> Ventilation minute = Vt × FR = 0,5 × 12 = 6 L/min. On convertit 500 mL en 0,5 L avant de multiplier. Cette grandeur ne doit pas être confondue avec le débit pendant l’insufflation.
-@ 42–43, 74 (fiche finale)
-
-QCM · Calcul · compliance
-Chez un patient passif avec expiration complète, Vt = 400 mL, Pplat = 25 cmH₂O et PEP = 5 cmH₂O. Quelle compliance calcule-t-on ?
-- 80 mL/cmH₂O :: Ce serait le résultat avec un gradient de 5 cmH₂O au lieu de 20
-- 0,05 mL/cmH₂O :: Erreur de conversion : la compliance est en mL par cmH₂O
-+ 20 mL/cmH₂O :: 400 divisé par (25 − 5) : il faut retrancher la pression expiratoire positive
-- 16 mL/cmH₂O :: Ce serait oublier de retrancher la pression expiratoire positive au dénominateur
-> C = Vt/(Pplat − PEP) = 400/(25 − 5) = 20 mL/cmH₂O. Diviser par Pplat sans retirer la PEP donnerait 16 ; inverser le rapport calcule une élastance.
-@ 36, 38
-
-QCM · Calcul · résistances
-À débit constant, Pcrête = 30 cmH₂O, Pplat = 20 cmH₂O et V′ = 30 L/min. Quelle résistance obtient-on ?
-+ 20 cmH₂O·s/L :: 10 cmH₂O de différence divisés par 0,5 L/s, après conversion du débit
-- 0,33 cmH₂O·s/L :: Ce serait diviser le débit par la différence de pression
-- 10 cmH₂O·s/L :: Erreur d'un facteur deux sur la conversion du débit en litres par seconde
-- 60 cmH₂O·s/L :: Ce serait utiliser la pression de crête entière au lieu de la différence
-> Prés = 30 − 20 = 10 cmH₂O. Le débit vaut 30/60 = 0,5 L/s. R = Prés/V′ = 10/0,5 = 20 cmH₂O·s/L. Diviser directement par un débit en L/min produit une unité différente.
-@ 38, 40
-
-QCM · Comprendre les pressions
-En volume contrôlé sans pause, Vt, I/E, R, C et PEP restent constants tandis que la FR augmente. Quelles conséquences sont exactes ?
-+ Ti raccourcit :: Le cycle se raccourcit et le rapport I/E est conservé
-+ Le débit inspiratoire augmente :: Le même volume doit être délivré dans un temps plus court
-+ Pcrête peut augmenter sans hausse des résistances :: La composante résistive augmente avec le débit, sans que les résistances aient changé
-- Pplat augmente du fait de l’augmentation du débit :: Elle ne dépend que du volume et de la compliance, non du débit : elle reste stable
-> FR plus élevée → cycle et Ti plus courts → débit plus élevé → Prés plus élevée. R n’a pas changé. À Vt, C et PEP identiques, la pression de plateau reste inchangée dans ce modèle.
-@ 40, 42–43
-
-QCM · Calcul · expiration
-R = 20 cmH₂O·s/L et C = 50 mL/cmH₂O. Quelle constante de temps τ = R × C obtient-on ?
-+ 1 seconde :: Le piégeage se mesure en comparant la pression expiratoire positive totale à celle qui est réglée
-- 2,5 secondes :: Elle laisse les pressions s'équilibrer et révèle la pression réellement présente
-- 1 000 secondes :: C'est l'inverse : un temps expiratoire plus court aggrave le piégeage
-- 0,001 seconde :: Le poumon n'a pas fini de se vider quand la machine réinsuffle
-> Il faut convertir C : 50 mL/cmH₂O = 0,05 L/cmH₂O. τ = 20 × 0,05 = 1 s. Une constante de temps plus grande signifie une vidange plus lente.
-@ 32, 41, 74 (fiche finale)
-
-QCM · Fin d’expiration
-En fin d’expiration complète, quelles propositions sont exactes ?
-+ Le débit expiratoire revient à zéro :: Il n'y a plus de gradient entre l'alvéole et la machine
-- La pression revient à zéro malgré une PEP réglée :: Elle revient au niveau de la pression expiratoire positive réglée, non à zéro
-- Le poumon est vide de gaz :: Il contient toujours son volume résiduel, et la capacité résiduelle fonctionnelle
-+ Le volume courant au-dessus de la ligne de base est revenu à zéro :: Tout le volume insufflé a été expiré, ce qui définit une expiration complète
-> Le zéro du volume courant n’est pas un poumon vide : un volume de fin d’expiration persiste. Avec la PEP, une pression positive peut rester alors que le débit est nul.
-@ 8, 33–34
+QCM · Lésions induites par la ventilation
+Concernant les lésions induites par la ventilation, quelles propositions sont exactes ?
++ Le volotrauma et le barotrauma sont liés à une distension ou une pression excessives. :: Ils lèsent l'alvéole.
+- L'atélectrauma est lié à une PEP trop élevée. :: Il est lié aux fermetures et réouvertures répétées des alvéoles, faute de PEP suffisante.
++ Les complications respiratoires postopératoires sont fréquentes après chirurgie non cardiaque. :: Atélectasies, pneumothorax, réintubation.
+- Ces lésions ne concernent que la ventilation prolongée en réanimation. :: Elles concernent aussi la ventilation au bloc.
+- Une pression de plateau élevée est sans lien avec les complications postopératoires. :: Le risque augmente avec la pression de plateau.
+> Trop de volume ou de pression : volotrauma, barotrauma. Pas assez de pression en fin d'expiration : atélectrauma. D'où la ventilation protectrice, même au bloc.
+@ p. 44 à 47
 
 QCM · Ventilation protectrice
-Un patient pèse réellement 110 kg et son poids idéal théorique est de 60 kg. Pour une cible de 6–8 mL/kg de PIT, quelle plage de Vt correspond au calcul ?
-+ 360–480 mL :: Le calcul se fait sur le poids idéal théorique, jamais sur le poids réel
-- 60–80 mL :: Erreur d'un facteur dix sur le calcul
-- 480–660 mL :: Ce serait appliquer 8 à 11 mL/kg, au-delà de la cible protectrice
-- 660–880 mL :: Ce serait calculer sur le poids réel de 110 kg
-> On utilise le PIT, pas le poids réel : 6 × 60 = 360 mL et 8 × 60 = 480 mL. Le volume pulmonaire est relié à la taille ; l’excès de masse corporelle ne justifie pas un Vt proportionnel au poids réel.
-@ 50–52
+Concernant les réglages d'une ventilation protectrice au bloc, quelles propositions sont exactes ?
++ Volume courant de 6 à 8 mL/kg de poids idéal théorique. :: Pas de poids réel : les poumons ne grossissent pas avec le poids.
++ PEP d'au moins 5 cmH2O. :: Pour limiter le dérecrutement.
++ Recrutements alvéolaires réguliers. :: Toutes les 30 à 45 minutes.
++ Pression de plateau inférieure à 25 cmH2O. :: Pour limiter la surdistension.
++ EtCO2 entre 35 et 45 mmHg et SpO2 supérieure à 94 %. :: Avec un temps expiratoire suffisant.
+> Ventilation protectrice : Vt 6-8 mL/kg de PIT, PEP ≥ 5, recrutements, FiO2 40-50 %, FR 12-25, Pplat < 25 cmH2O, EtCO2 35-45 mmHg, SpO2 > 94 %. Aucun mode n'est recommandé plutôt qu'un autre.
+@ p. 46 à 50
 
-QCM · PEP et recrutement
-Quelles propositions distinguent recrutement et PEP ?
-- La meilleure PEP est la plus élevée possible :: Une pression élevée peut aussi venir d'une hyperdistension, et la tolérance hémodynamique se dégrade
-+ Le recrutement vise à ouvrir des alvéoles fermées :: Il ouvre les territoires collabés par une pression plus élevée et transitoire
-+ Une PEP adaptée aide à les maintenir ouvertes :: Recruter sans maintenir ne sert à rien : les alvéoles se referment
-+ Une PEP excessive peut provoquer une hyperdistension et altérer la tolérance hémodynamique :: Elle écrase les capillaires et gêne le retour veineux : la meilleure pression est un compromis
-> La titration recherche un compromis entre collapsus et hyperdistension, avec suivi de la compliance et de la tolérance circulatoire. Une valeur unique n’est pas adaptée à toutes les contraintes ni à toute l’intervention.
-@ 46, 48–49
+QCU · Volume courant
+Pour régler le volume courant d'un patient de 160 cm pesant 110 kg, sur quel poids se base-t-on ?
+- Le poids réel. :: Les poumons ne sont pas proportionnels à la masse grasse.
++ Le poids idéal théorique, calculé sur la taille. :: Le volume pulmonaire dépend de la taille.
+- Le poids réel augmenté de 20 %. :: Ce n'est pas la règle.
+- La surface corporelle. :: Ce n'est pas la référence retenue.
+- La moyenne entre poids réel et poids idéal. :: Ce n'est pas la règle du cours.
+> Le Vt (6-8 mL/kg) se calcule sur le poids idéal théorique, qui dépend de la taille et du sexe : régler sur le poids réel d'un obèse expose à la surdistension.
+@ p. 50 à 52
 
-QCM · Objectifs de surveillance
-Quelles associations de cibles pour un patient standard sous ventilation peropératoire sont exactes ?
-+ SpO₂ > 94 % :: Objectif usuel d'oxygénation en peropératoire
-- Une pression de crête élevée signe une surdistension alvéolaire :: Une crête élevée peut n'être que résistive : c'est la pression de plateau qui reflète la distension
-+ EtCO₂ entre 35 et 45 mmHg :: Objectif de normocapnie, qui traduit une ventilation alvéolaire adaptée
-+ Pplat < 25 cmH₂O :: Seuil de sécurité contre la surdistension alvéolaire
-> Les repères retenus sont Pplat < 25, EtCO₂ 35–45 et SpO₂ > 94 %. Les notes de la diapositive 53 corrigent explicitement le « < 20 » du tableau original. La crête associe résistances et composante élastique : elle ne suffit pas seule.
-@ 47, 50, 53
+QCU · Hausse de la pression de crête
+En volume contrôlé, la pression de crête augmente brutalement alors que la pression de plateau reste inchangée. Quelle est l'hypothèse principale ?
+- Une baisse de la compliance. :: La pression de plateau serait aussi augmentée.
++ Une augmentation des résistances : sécrétions, sonde mordue ou bronchospasme. :: L'écart crête-plateau augmente.
+- Un pneumothorax. :: Il ferait monter la pression de plateau.
+- Une intubation sélective. :: Elle ferait monter la pression de plateau.
+- Une PEP insuffisante. :: Elle n'explique pas une hausse de la crête seule.
+> Pcrête ↑ avec Pplat stable = résistances ↑ : rechercher sécrétions, sonde coudée ou mordue, sifflements de bronchospasme.
+@ p. 58, 59 et 64
 
-QCM · Analyser une hausse de crête
-En volume contrôlé, à Vt, débit et PEP constants, Pcrête augmente de 25 à 35 cmH₂O et Pplat reste à 20 cmH₂O. Quelles propositions sont exactes ?
-- Cette évolution prouve une baisse de compliance :: Une compliance abaissée ferait monter la pression de plateau, qui ici ne bouge pas
-+ Des sécrétions, une sonde coudée ou un bronchospasme sont à rechercher :: Les trois causes d'une résistance accrue sur le trajet du gaz
-+ La composante résistive augmente :: L'écart entre crête et plateau se creuse : tout vient du passage de l'air
-- La pression de plateau doit être ignorée :: Elle est au contraire la clé du diagnostic : son immobilité désigne une cause résistive
-> L’écart crête–plateau passe de 5 à 15 cmH₂O, à débit constant : R augmente. Le plateau inchangé ne va pas dans le sens d’une modification de compliance dans ce modèle. La recherche de la cause exige l’examen du patient et du circuit.
-@ 38, 58–59
+QCU · Hausse de la pression de plateau
+En volume contrôlé, la pression de crête et la pression de plateau augmentent ensemble, avec un écart inchangé. Quelle hypothèse est la plus probable ?
+- Des sécrétions dans la sonde. :: Elles augmenteraient l'écart crête-plateau.
+- Une morsure de la sonde. :: Elle augmenterait l'écart crête-plateau.
++ Une baisse de la compliance : intubation sélective, pneumothorax, atélectasie ou pneumopéritoine. :: La composante élastique augmente.
+- Une hyperinflation dynamique sans autre signe. :: Elle s'accompagne d'une PEP totale élevée et d'un débit expiratoire qui ne revient pas à zéro.
+- Une fuite du circuit. :: Elle ferait baisser les pressions.
+> Pplat ↑ avec écart crête-plateau stable = compliance ↓. Si la PEP totale est aussi élevée, penser à l'hyperinflation dynamique (Te trop court, bronchospasme).
+@ p. 60, 61 et 64
 
-QCM · Analyser une hausse de plateau
-À Vt, débit et PEP constants, Pcrête et Pplat montent ensemble, avec un écart crête–plateau inchangé et une PEP totale normale. Quelle interprétation est la plus cohérente ?
-- Un débit inspiratoire plus élevé :: Il ferait monter la crête mais pas le plateau, alors qu'ici les deux montent
-- Une augmentation isolée des résistances :: Elle ne ferait monter que la crête, en creusant l'écart avec le plateau
-+ Une baisse de compliance :: Les deux pressions montent ensemble : le poumon ou la paroi sont devenus plus raides
-- Une diminution certaine de la PEP :: Elle abaisserait les deux pressions, et la pression expiratoire positive totale est normale
-> À Vt constant, une hausse de Pplat − PEP signifie une baisse de C. L’écart résistif conservé ne suggère pas une hausse isolée de R. Les causes à rechercher comprennent sonde sélective, pneumothorax, atélectasie ou pneumopéritoine.
-@ 60–64
+QCU · Expiration incomplète
+Sur la courbe de débit, le débit expiratoire ne revient pas à zéro avant l'insufflation suivante. Quel réglage modifier en priorité ?
+- Augmenter la fréquence respiratoire. :: Le temps expiratoire serait encore plus court.
++ Allonger le temps expiratoire, en diminuant l'I/E ou la fréquence. :: Pour permettre la vidange complète.
+- Augmenter le volume courant. :: Il aggraverait le piégeage d'air.
+- Augmenter la PEP réglée. :: Elle ne corrige pas la vidange incomplète.
+- Passer en pression contrôlée sans autre modification. :: Le temps expiratoire resterait insuffisant.
+> Un débit expiratoire non nul en fin d'expiration signe une hyperinflation dynamique avec auto-PEP (PEP totale = PEP réglée + auto-PEP). On allonge Te ; on traite un éventuel bronchospasme.
+@ p. 54, 62 et 63
 
-QCM · Auto-PEP
-Quelles propositions sur l’auto-PEP sont exactes ?
-+ Auto-PEP = PEP totale − PEP réglée :: C'est la part de pression piégée que le réglage n'explique pas
-+ Une pause télé-expiratoire aide à mesurer la PEP totale chez un patient passif :: Elle laisse la pression s'équilibrer et révèle le piégeage
-- Raccourcir encore Te corrige le piégeage d’air :: Elle l'aggrave : un poumon qui ne se vide pas a besoin de plus de temps, pas de moins
-+ Un débit expiratoire non nul au départ du cycle suivant suggère une vidange incomplète :: Le poumon n'a pas fini de se vider au moment où le cycle suivant commence
-> Une expiration trop courte pour la mécanique du patient laisse de l’air piégé. Le cours propose d’augmenter le temps disponible en diminuant la FR ou le rapport I/E selon les paramètres maintenus constants, puis de vérifier les courbes et l’EtCO₂.
-@ 33, 54, 62–64
+QCM · Surveillance du patient ventilé
+Concernant la surveillance d'un patient ventilé, quelles propositions sont exactes ?
++ L'ampliation thoracique doit être symétrique. :: Une asymétrie fait rechercher une sonde sélective.
+- La pression du ballonnet n'a pas à être surveillée. :: Elle fait partie de la surveillance.
+- Le scope suffit, sans regarder le patient. :: On confronte le patient, le scope et le respirateur.
+- Une courbe de CO2 en aileron de requin évoque une intubation œsophagienne. :: Elle évoque une obstruction expiratoire.
+- Une fuite intrabuccale est sans signification. :: Elle traduit un défaut d'étanchéité.
+> Surveillance : patient (ampliation, symétrie, auscultation, ballonnet, fixation, fuites), scope (EtCO2 et forme de la courbe), respirateur (pressions, débits, volumes).
+@ p. 56 et 57
 
-QCM · Extubation
-Quelles propositions sont exactes avant ou au moment d’une extubation ?
-+ La décurarisation se vérifie par un monitorage quantitatif avec T4/T1 > 0,9 :: Le rapport quantitatif est le seul critère fiable de décurarisation
-+ La conscience, la déglutition et la stabilité générale participent à l’évaluation :: Le patient doit pouvoir protéger ses voies aériennes, pas seulement ventiler
-- Un bon Vt sous une aide inspiratoire encore élevée démontre l’autonomie :: Une aide élevée fait le travail à sa place : il faut l'abaisser avant de conclure
-- La FiO₂ doit être réglée à 100 %, sans tenir compte de la saturation :: Une FiO₂ de 100 % masque une oxygénation défaillante et favorise les atélectasies de dénitrogénation
-> L’extubation repose sur plusieurs critères et sur une activité respiratoire évaluée après réduction de l’aide. Les notes orales nuancent la FiO₂ 100 % de la diapositive 70 : l’oxygénation est titrée sur la saturation. La surveillance clinique se poursuit après le retrait.
-@ 68–71
+QCM · Critères d'extubation
+Concernant les critères d'extubation après une ventilation de courte durée, quelles propositions sont exactes ?
++ Une respiration spontanée régulière, sans tirage, avec un volume courant de 5 à 8 mL/kg. :: Fréquence de 12 à 25/min.
++ Une décurarisation complète, avec T4/T1 supérieur à 0,9. :: Mesurée par un monitorage quantitatif.
++ Une réponse aux ordres simples et un réflexe de déglutition récupéré. :: Pour protéger les voies aériennes.
++ Une température centrale supérieure à 36 °C. :: Avec une analgésie correcte.
+- Un patient sous vasopresseur peut être extubé sans réserve. :: L'absence de vasopresseur fait partie des critères.
+> Extubation : ventilation spontanée efficace, décurarisation quantitative, conscience et déglutition, hémodynamique proche de l'état initial sans vasopresseur, normothermie, analgésie, pas de complication chirurgicale.
+@ p. 69
 
-QCU · Lien de causalité
-Affirmation 1 : En volume contrôlé sans pause, à Vt, I/E, R, C et PEP constants, augmenter la FR augmente le débit inspiratoire.
-Affirmation 2 : Dans ces conditions, augmenter la FR raccourcit Ti, alors que V′ = Vt/Ti.
-Quel lien unit ces deux affirmations ?
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> Les deux affirmations sont vraies et le lien est causal : FR augmentée → cycle plus court → Ti plus court → même Vt délivré plus vite → débit plus élevé.
-@ 40, 42–43
-
-QCU · Lien de causalité
-Affirmation 1 : En volume contrôlé chez un patient passif, le terme R × V′ devient nul pendant une pause inspiratoire sans fuite.
-Affirmation 2 : Pendant cette pause, la résistance des voies aériennes disparaît.
-Quel lien unit ces deux affirmations ?
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-+ La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est vraie et la seconde est fausse. Le débit devient nul ; la résistance demeure. C’est le produit R × V′, et non R, qui vaut zéro.
-@ 35–38
-
-QCU · Lien de causalité
-Affirmation 1 : À Vt et PEP constants, une hausse de Pplat indique une compliance plus élevée chez un patient passif avec expiration complète.
-Affirmation 2 : La compliance se calcule par C = Vt/(Pplat − PEP).
-Quel lien unit ces deux affirmations ?
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-+ La première affirmation est fausse et la seconde est vraie.
-- Les deux affirmations sont fausses.
-> La première est fausse et la seconde est vraie. À Vt et PEP constants, augmenter Pplat augmente le dénominateur : C diminue.
-@ 36, 38
-
-QCU · Lien de causalité
-Affirmation 1 : Chez un patient dont le débit expiratoire n’est pas revenu à zéro avant le cycle suivant, raccourcir encore Te facilite la vidange complète.
-Affirmation 2 : L’expiration est une phase active pendant laquelle le respirateur aspire l’air hors du poumon.
-Quel lien unit ces deux affirmations ?
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, mais la seconde n’explique pas la première.
-- La première affirmation est vraie et la seconde est fausse.
-- La première affirmation est fausse et la seconde est vraie.
-+ Les deux affirmations sont fausses.
-> Les deux sont fausses. Une expiration interrompue nécessite davantage de temps disponible, pas moins. L’expiration reste passive et sa vitesse dépend de R et C.
-@ 32–34, 54, 62–63
+QCM · Technique d'extubation
+Concernant la technique d'extubation, quelles propositions sont exactes ?
+- L'aspiration se fait de préférence dans la trachée. :: Elle se fait dans la bouche, pas dans la trachée.
+- Le ballonnet se dégonfle d'un coup, après le retrait de la sonde. :: On le dégonfle lentement, avant le retrait.
++ Le retrait se fait en fin d'inspiration, en pression positive. :: Pour expulser les sécrétions vers la bouche.
+- La fixation de la sonde est retirée après l'extubation. :: Elle est retirée avant.
+- La surveillance clinique s'arrête une fois la sonde retirée. :: Elle se poursuit après l'extubation.
+> Extubation : aspiration endobuccale, proclive, fixation retirée, ballonnet dégonflé lentement, retrait en fin d'inspiration sous pression positive, oxygène selon la saturation, puis surveillance.
+@ p. 70 et 71
