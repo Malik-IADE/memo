@@ -441,5 +441,16 @@ a.search-box:active { transform: scale(.995); }
 }
 
 /* Reprise d'un quiz : lien discret pour repartir de zéro */
-.quiz-restart { display: block; margin: 14px auto 0; background: none; border: 0; color: var(--muted); font: inherit; font-size: .85rem; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; padding: 6px 10px; }
-.quiz-restart:hover { color: var(--text); }
+.quiz-restart-bar { display: flex; justify-content: flex-end; margin: 0 0 12px; }
+.quiz-restart { display: inline-flex; align-items: center; gap: 7px; padding: 8px 14px; border-radius: 999px; cursor: pointer;
+  font: inherit; font-size: .88rem; font-weight: 650; color: var(--accent); background: var(--accent-soft);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); }
+.quiz-restart svg { width: 16px; height: 16px; flex: none; }
+.quiz-restart:hover { filter: brightness(1.08); }
+.quiz-restart:active { transform: scale(.97); }
+.quiz-confirm { margin: 0 0 12px; padding: 14px 16px; border-radius: var(--radius); background: var(--surface);
+  border: 1px solid color-mix(in srgb, var(--danger) 45%, transparent); box-shadow: var(--shadow); animation: pop .18s ease; }
+.quiz-confirm p { margin: 0 0 12px; line-height: 1.45; font-size: .93rem; overflow-wrap: anywhere; }
+.quiz-confirm-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.quiz-confirm-actions .btn { flex: 1 1 140px; }
+.quiz-confirm .btn.danger { background: #dc2626; color: #fff; } /* rouge franc, lisible aussi en thème sombre */
