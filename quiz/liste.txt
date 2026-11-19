@@ -26,6 +26,7 @@ S1/3.1/respirateur.txt
 S1/3.1/spo2-capnographie.txt
 S1/3.1/sspi.txt
 S1/3.1/ventilation-mecanique.txt
+S1/3.1/accueil-patient.txt
 
 S1/3.3/chirurgie-digestive.txt
 S1/3.3/chirurgie-urologique.txt
@@ -37,6 +38,9 @@ S1/3.3/patient-hta.txt
 S1/3.3/patient-obese.txt
 S1/3.3/sujet-age.txt
 S1/3.3/sujet-denutri.txt
+S1/3.3/hors-bloc.txt
+S1/3.3/patient-addict.txt
+S1/3.3/patient-cardiaque.txt
 
 S1/4.4/aes-precautions.txt
 S1/4.4/hygiene-mains.txt
