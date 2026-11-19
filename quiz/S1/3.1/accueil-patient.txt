@@ -1,0 +1,217 @@
+// Quiz – L'accueil du patient au bloc opératoire (UE 3.1), écrit le 19 novembre 2026 d'après le support « L'accueil du patient », en s'inspirant des annales officielles (accueil, communication).
+// Questions type examen : causes et mécanismes de l'anxiété, stress et anxiété, conséquences, concept d'accueil, cadre réglementaire, besoins, confiance, information, communication thérapeutique. Pas de chiffres d'études.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Accueil du patient
+
+QCM · Causes d'anxiété liées à l'anesthésie
+Parmi les peurs suivantes, lesquelles font partie des causes fréquentes d'anxiété liées à l'anesthésie ?
++ La peur de ne pas se réveiller :: Cause citée.
++ La peur de se réveiller pendant l'intervention :: Cause citée.
++ La peur de la ponction veineuse :: Cause citée.
++ Le temps d'attente avant le passage au bloc :: Cause citée.
++ La peur des nausées et vomissements postopératoires :: Cause citée.
+> Les causes d'anxiété liées à l'anesthésie sont nombreuses : attente, inconnu et perte de contrôle, ponction veineuse, peur de mourir, de ne pas se réveiller ou de se réveiller pendant l'intervention, NVPO, fatigue et douleur postopératoires, intubation, erreurs médicamenteuses.
+@ p. 7
+
+QCM · Causes d'anxiété liées à la chirurgie
+Parmi les propositions suivantes, lesquelles sont des causes d'anxiété liées à la chirurgie plutôt qu'à l'anesthésie ?
++ La peur des infections nosocomiales :: Cause liée à la chirurgie.
+- La peur de l'intubation :: Elle est rangée parmi les causes liées à l'anesthésie.
++ La peur d'une atteinte à l'intégrité physique ou d'un handicap :: Cause liée à la chirurgie.
+- La peur de se réveiller pendant l'intervention :: Elle est liée à l'anesthésie.
++ La crainte de ne pas retrouver une vie normale :: Cause liée à la chirurgie.
+> Les peurs liées à la chirurgie portent sur l'erreur médicale, les infections nosocomiales, l'échec ou les complications, l'atteinte à l'intégrité physique et la difficulté à retrouver une vie normale. Celles liées à l'anesthésie portent sur l'endormissement, le réveil, la douleur et les gestes.
+@ p. 7 et 9
+
+QCM · Stress et anxiété
+Concernant le stress et l'anxiété, quelles propositions sont exactes ?
+- Le stress est une émotion. :: L'anxiété est une émotion ; le stress est un mécanisme de réponse.
++ Le stress est un mécanisme d'adaptation qui peut entraîner différentes émotions, dont l'anxiété. :: Il mobilise des moyens physiologiques et psychologiques.
++ L'anxiété est une émotion désagréable, dirigée vers le futur. :: Parfois exagérée par rapport à la menace.
++ Un stress qui se prolonge, faute de ressources suffisantes, peut se compliquer d'anxiété. :: Selon le cours.
+- Stress et anxiété désignent strictement le même phénomène. :: Les deux mots sont souvent confondus, mais ne désignent pas la même chose.
+> Le stress est l'ensemble des réponses d'adaptation à une contrainte ; c'est une dépense d'énergie qui dépend de la perception de la situation. L'anxiété est une émotion désagréable tournée vers le futur. Un stress prolongé peut donner lieu à de l'anxiété.
+@ p. 11 à 15
+
+QCU · Niveaux d'anxiété
+Un patient anxieux présente une atteinte de la perception et de l'analyse, avec des anomalies physiologiques, mais comprend encore la situation. Quel est son niveau d'anxiété ?
+- Anxiété légère :: Le patient est sur le qui-vive.
+- Anxiété modérée :: L'attention devient sélective.
++ Anxiété grave :: Atteinte de la perception, de l'analyse et anomalies physiologiques.
+- État de panique :: Le champ de perception est déformé ; la personne ne comprend plus la situation et réagit de façon imprévisible.
+- Transe spontanée négative :: Ce n'est pas un niveau d'anxiété, mais la focalisation du patient sur ses peurs.
+> Quatre niveaux : légère (sur le qui-vive), modérée (attention sélective), grave (perception et analyse altérées, anomalies physiologiques), panique (perception déformée, réactions imprévisibles à un stimulus mineur).
+@ p. 10 et 16
+
+QCM · Réponse immédiate au stress
+Concernant la réponse immédiate de l'organisme au stress, quelles propositions sont exactes ?
++ Elle passe par le système hypothalamo-sympatho-adrénergique. :: C'est la réponse rapide.
++ Elle entraîne une libération de noradrénaline et d'adrénaline. :: Par la médullosurrénale et le système sympathique.
+- Elle provoque une vasodilatation périphérique. :: Les catécholamines entraînent une vasoconstriction.
++ Elle explique la tachycardie et l'élévation tensionnelle des patients anxieux. :: Par stimulation des récepteurs alpha et bêta.
+- Elle provoque une bronchoconstriction. :: Elle entraîne une dilatation des bronches.
+> La réponse immédiate passe par l'hypothalamus et le système sympathique : les catécholamines provoquent vasoconstriction, tachycardie, hausse de la contractilité et du débit, bronchodilatation, d'où l'HTA et la tachycardie du patient anxieux.
+@ p. 17 et 19
+
+QCM · Réponse tardive au stress
+Concernant la réponse plus tardive de l'organisme au stress, quelles propositions sont exactes ?
++ Elle passe par l'axe hypothalamo-hypophyso-surrénalien. :: C'est la réponse lente.
++ Elle aboutit à une libération de cortisol et d'aldostérone. :: Par les corticosurrénales.
++ Le cortisol favorise la production de glucose par le foie. :: Ce qui peut déséquilibrer un diabète.
+- Le cortisol a un effet pro-inflammatoire. :: C'est un anti-inflammatoire puissant.
++ L'aldostérone contribue à l'hypertension. :: Par son action sur le sodium et une vasoconstriction.
+> La réponse lente passe par l'hypophyse et les corticosurrénales : le cortisol (anti-inflammatoire, hyperglycémiant, catabolisant) et l'aldostérone (rétention sodée, hypertension). Prolongées, ces réponses expliquent la toxicité du stress (HTA, tachycardie, arythmie), qui peut persister après l'intervention.
+@ p. 21 à 24
+
+QCM · Manifestations de l'anxiété
+Parmi les manifestations suivantes, lesquelles peuvent traduire une anxiété préopératoire ?
++ Une logorrhée :: Réaction comportementale citée.
++ Un mutisme :: Réaction comportementale citée, à l'opposé de la logorrhée.
++ Une agressivité verbale :: Réaction comportementale citée.
++ Une polypnée et des tremblements :: Réactions physiologiques citées.
++ Une euphorie :: Réaction comportementale citée, comme les pleurs.
+> Les réactions physiologiques de l'anxiété sont la tachycardie, l'HTA, la polypnée, l'augmentation du tonus musculaire, les tremblements, la sudation, le besoin d'uriner, les spasmes et les nausées. Les réactions comportementales vont dans les deux sens : agitation ou prostration, logorrhée ou mutisme, pleurs ou euphorie, agressivité verbale.
+@ p. 26
+
+QCM · Facteurs favorisants
+Concernant les facteurs favorisant l'anxiété préopératoire, quelles propositions sont exactes ?
++ Le jeûne est un facteur aggravant. :: Selon le cours.
+- Un haut niveau d'études protège de l'anxiété. :: Il est cité comme facteur favorisant.
++ Un excès d'informations peut favoriser l'anxiété, comme leur manque. :: L'information doit être adaptée et comprise.
+- Les patients classés ASA 1 sont les plus anxieux. :: Le cours cite la catégorie ASA 3.
++ Le transport sur un brancard est un facteur favorisant. :: Il renforce la passivité du patient.
+> L'anxiété est favorisée par le sexe féminin, l'âge (enfant, adolescent, personne âgée), un haut niveau d'études, la personnalité et le vécu, la catégorie ASA 3, une information insuffisante, mal comprise ou excessive, le jeûne, l'hospitalisation et le transport sur un brancard.
+@ p. 27 et 28
+
+QCM · Conséquences de l'anxiété
+Concernant les conséquences de l'anxiété préopératoire, quelles propositions sont exactes ?
++ Elle augmente la consommation d'agents anesthésiques. :: Et d'antalgiques.
+- Elle diminue l'incidence des NVPO. :: Elle les augmente.
++ Elle peut rendre l'induction plus difficile. :: Facteur d'incidents périopératoires.
++ Elle favorise un réveil plus lent et plus douloureux. :: Et une réhabilitation plus longue.
+- Chez l'enfant, elle est sans effet sur le comportement postopératoire. :: Elle augmente la fréquence des troubles du comportement postopératoires.
+> L'anxiété augmente la consommation d'anesthésiques et d'antalgiques, les NVPO, et favorise une induction difficile, un réveil plus lent, compliqué et douloureux, une réhabilitation plus longue et, chez l'enfant, des troubles du comportement postopératoires.
+@ p. 29
+
+QCU · Anxiolyse et induction
+Évaluez les deux affirmations et leur lien.
+1. Une anxiolyse réussie facilite l'induction et diminue les besoins en agents anesthésiques.
+2. Le patient se réveille dans le même état d'esprit qu'au moment de l'induction.
+- Les deux affirmations sont vraies et la seconde explique la première.
++ Les deux affirmations sont vraies, sans lien entre elles.
+- La première est vraie, la seconde est fausse.
+- La première est fausse, la seconde est vraie.
+- Les deux affirmations sont fausses.
+> Le cours relève une corrélation entre anxiolyse, facilité d'induction et baisse des produits anesthésiques, et constate que le patient se réveille dans l'état d'esprit de son induction. Ce sont deux constats distincts, qui justifient tous deux l'attention portée à l'accueil.
+@ p. 46
+
+QCM · Concept d'accueil
+Concernant le concept d'accueil au bloc opératoire, quelles propositions sont exactes ?
++ Être accueilli, c'est être attendu en vue d'une démarche personnalisée. :: Avec une disponibilité de temps et de lieu.
++ L'accueil est le premier maillon de la chaîne de soins. :: Point de départ de la relation soignant–soigné.
+- Un site d'accueil agréable compense un accueil relationnel de mauvaise qualité. :: L'inverse semble plus plausible : un accueil réussi peut rattraper un site peu adapté.
+- Le temps de rencontre avant le transfert en salle permet en général un entretien approfondi. :: Il est très court : l'IADE doit l'optimiser.
+- L'accueil relève du rôle prescrit, sur prescription médicale. :: La relation de confiance s'inscrit dans le rôle propre.
+> L'accueil, c'est recevoir quelqu'un qui est attendu, de façon personnalisée. Malgré les contraintes de lieu (bruit, promiscuité, pudeur) et de temps (très court), il crée la relation de confiance, qui fait partie du soin relationnel et du rôle propre.
+@ p. 31 à 34
+
+QCM · Cadre réglementaire
+Concernant le cadre réglementaire de l'accueil, quelles propositions sont exactes ?
++ Les soins infirmiers intègrent qualité technique et qualité des relations avec le malade. :: Article R. 4311-2 du code de la santé publique.
++ L'accueil et l'information du patient et de son entourage font partie du référentiel d'activités de l'IADE. :: Activité 4 : information, communication et accompagnement.
++ Établir et maintenir une relation de confiance fait partie des compétences de l'IADE. :: Compétence 5.
++ La loi du 4 mars 2002 impose de respecter l'intimité et la tranquillité de la personne hospitalisée. :: Ainsi que ses croyances.
+- L'accueil est une recommandation sans valeur d'obligation pour le soignant. :: C'est un droit du patient et un devoir du soignant.
+> Le décret de 2004, le référentiel de formation IADE (activité 4, compétence 5), les recommandations professionnelles et la loi du 4 mars 2002 font de l'accueil un droit du patient et un devoir du soignant.
+@ p. 35 à 38
+
+QCM · Besoins non satisfaits au bloc
+Selon la pyramide des besoins, quels besoins du patient sont mis à mal à son arrivée au bloc opératoire ?
++ Le besoin physiologique de boire et de manger :: Le patient est à jeun.
++ Le besoin de sécurité :: La peur de l'inconnu fait naître l'angoisse.
++ Le besoin d'appartenance :: La chemise d'opéré et la passivité sur le brancard déshumanisent.
+- Le besoin de respirer, du fait du masque de préoxygénation :: Ce besoin n'est pas cité parmi ceux qui sont non satisfaits.
+- Le besoin d'accomplissement, à satisfaire en priorité avant les autres :: Les besoins de la base passent avant ceux du niveau supérieur.
+> Au bloc, les besoins physiologiques (boire, manger), de sécurité et d'appartenance sont mis à mal. Le patient cherche à satisfaire chaque niveau avant le suivant : la mise en confiance comble le besoin de sécurité.
+@ p. 41 à 43
+
+QCM · Éléments de la confiance
+Parmi les qualités suivantes, lesquelles font partie des éléments de la confiance décrits dans le cours ?
++ La chaleur :: Sourire, regard adéquat et personnalisé.
++ L'humilité :: Le professionnel est conscient de ses limites.
++ L'humour :: Il allège une situation, chez un soignant capable de recul.
+- La sympathie, qui consiste à ressentir soi-même les émotions du patient :: L'empathie identifie les émotions de l'autre sans les ressentir soi-même.
++ L'authenticité :: C'est-à-dire la congruence.
+> Les éléments de la confiance sont la chaleur, l'écoute, la disponibilité, la simplicité, l'humilité, l'authenticité, l'humour et l'empathie, qui permet d'identifier les émotions de l'autre sans les ressentir soi-même.
+@ p. 44 et 45
+
+QCU · Empathie
+Selon le cours, que permet l'empathie dans la relation soignant–soigné ?
+- Partager les émotions du patient en les ressentant soi-même :: L'empathie ne consiste pas à ressentir ces émotions.
++ Observer et identifier les émotions du patient, sans les ressentir soi-même :: C'est la définition retenue.
+- Rassurer le patient en minimisant ses peurs :: Minimiser n'est pas reconnaître l'émotion.
+- Adopter un langage technique précis pour gagner sa confiance :: Le jargon est inadapté.
+- Remplacer l'information par une présence silencieuse :: L'information reste nécessaire.
+> L'empathie permet d'observer et d'identifier les émotions de l'autre sans les ressentir soi-même. Avec la congruence et la considération positive, elle fait partie des compétences émotionnelles utiles à la communication.
+@ p. 45 et 55
+
+QCM · Alliance thérapeutique
+Concernant la relation de confiance et l'alliance thérapeutique, quelles propositions sont exactes ?
++ La mise en confiance du futur opéré est une anxiolyse non médicamenteuse. :: Selon le cours.
++ La conviction du soignant se ressent dans sa façon de communiquer. :: Elle est indispensable pour acquérir la confiance du patient.
++ Une information claire aide le patient à prendre ses décisions. :: Et évite les malentendus.
++ L'alliance thérapeutique suppose un objectif de soin commun au patient et au soignant. :: Elle optimise la coopération.
+- La relation de confiance dispense de vérifier la compréhension du patient. :: L'information permet justement de la vérifier.
+> La confiance est une anxiolyse non médicamenteuse. L'alliance thérapeutique associe la conviction du soignant, une information claire et un objectif commun ; l'accueil permet aussi de vérifier les éléments de sécurité et la compréhension du patient.
+@ p. 47 et 48
+
+QCM · Information du patient
+Concernant l'information du patient avant une intervention, quelles propositions sont exactes ?
+- Elle est délivrée en une seule fois, lors de la consultation d'anesthésie. :: Elle est répétée : consultations, visite préanesthésique, voire visite paramédicale.
+- Un support unique, oral, est préférable pour ne pas surcharger le patient. :: Plus les supports sont nombreux, plus l'information est facile à retenir.
++ Il est recommandé que chacun des soignants se présente au patient. :: Avec identification de la fonction.
+- Le sas d'accueil est le moment privilégié pour délivrer l'information sur les options d'anesthésie. :: Elle est délivrée en amont, lors des consultations.
+- L'information porte uniquement sur les risques de l'anesthésie. :: Elle porte aussi sur le déroulement, les options, la douleur et le consentement.
+> L'information est délivrée en amont du sas (consultations, visite préanesthésique), sur plusieurs supports et à plusieurs reprises. Au bloc, chaque soignant se présente et explique son rôle, en binôme IADE–IBODE lors des vérifications.
+@ p. 50 et 51
+
+QCM · Trois langages
+Concernant les trois langages de la communication, quelles propositions sont exactes ?
++ Le ton de la voix et les silences relèvent du langage para-verbal. :: Comme la rythmicité et les pauses.
+- Le regard et les distances interpersonnelles relèvent du langage para-verbal. :: Ils relèvent du langage non verbal.
+- Les pauses et la rythmicité relèvent du langage non verbal. :: Elles relèvent du langage para-verbal.
+- Le jargon médical favorise la mémorisation des informations. :: Il est inadapté à la compréhension du patient.
+- Le langage verbal est le seul qui engage la confiance du patient. :: Les trois langages participent à la relation.
+> La communication passe par trois langages : verbal (un langage accessible et honnête), para-verbal (ton, rythme, pauses, silences) et non verbal (posture, regard, distance, gestes, expressions).
+@ p. 52 et 53
+
+QCM · Formulation positive
+Parmi les phrases suivantes, lesquelles respectent les principes de la formulation positive ?
+- « N'ayez pas peur, ça va bien se passer. » :: Elle contient une négation et le mot « peur ».
++ « Respirez tranquillement. » :: À privilégier plutôt que « essayez de vous détendre ».
+- « Ne bougez pas. » :: Formulation négative.
++ « Est-ce que la température vous convient ? » :: À privilégier plutôt que « vous n'avez pas froid ? ».
+- « Je vous mets les barrières. » :: On préfère « je vous mets des maintiens de sécurité ».
+> La formulation positive évite la négation et les mots chargés (peur, froid, barrières), qui focalisent l'attention sur ce qu'on veut éviter. On préfère par exemple « soyez tranquille », « est-ce que vous êtes confortable ? », « vous allez ressentir une petite fraîcheur ».
+@ p. 53 et 54
+
+QCM · Hypnose et sophrologie
+Concernant les techniques d'accompagnement de l'anxiété, quelles propositions sont exactes ?
++ L'hypnose conversationnelle focalise l'attention du patient sur un élément favorable pour lui. :: Elle l'aide à se détacher de l'environnement.
++ La sophrologie repose sur des exercices de respiration et de gestion de la pensée. :: Avec détente, visualisation et pensée positive.
+- L'hypnose conversationnelle suit un protocole écrit, identique pour chaque patient. :: Elle fait appel à l'improvisation, à la créativité et à la spontanéité.
++ Un support musical choisi par le patient peut être proposé dès la consultation. :: Particulièrement adapté aux ALR.
+- La sophrologie, contrairement à l'hypnose, ne modifie pas l'état de conscience. :: Elle est proche de l'hypnose et crée un état de conscience modifié.
+> L'hypnose conversationnelle et la sophrologie créent un état de conscience modifié et rendent le patient acteur. La musicothérapie (musique choisie, utile en ALR) et l'aromathérapie complètent ces approches.
+@ p. 57 à 59
+
+QCM · Accueil et confort
+Concernant les mesures de confort à l'accueil du patient, quelles propositions sont exactes ?
++ L'arrivée du patient debout au bloc peut contribuer à limiter son anxiété. :: Le patient est acteur, notamment en ambulatoire.
++ Le réchauffement commence dès l'arrivée au bloc. :: Couvertures, réchauffement autocontrôlé, tables et salles.
+- Le respect de la pudeur passe après les vérifications de sécurité. :: Il fait partie de l'accueil dès l'arrivée.
+- L'installation est réalisée rapidement, la douceur des manipulations venant au second plan. :: Le cours insiste sur une installation confortable et des manipulations douces.
+- L'IADE seul se présente, les autres membres de l'équipe restant anonymes. :: Chaque soignant se présente.
+> Dès l'accueil : patient acteur (arrivée debout possible), confort thermique, installation confortable et manipulations douces, respect de la pudeur, présentation de chacun. L'accueil conditionne un sommeil anesthésique de qualité, une mémorisation positive et un réveil calme.
+@ p. 60, 62 et 64
