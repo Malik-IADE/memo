@@ -1,0 +1,68 @@
+// Cours 3.3 – Anesthésie hors du bloc opératoire
+// Questions inspirées d'Anki puis complétées par d'autres tirées du cours (situations, mécanismes), toutes vérifiées dans le support « Chirurgie hors bloc avec notes » (le cours prime).
+// Non repris : historique et proportion d'actes hors bloc, analyses de sinistralité, détail des gestes de radiologie. Radioprotection (UE 4.4) et décubitus ventral (« Positions chirurgicales », UE 3.1) sont repris ici seulement sous l'angle du hors bloc.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Anesthésie hors bloc
+
+// ---------- Définition et enjeux ----------
+Qu'est-ce que l'anesthésie hors bloc opératoire ? :: Tout acte d'anesthésie réalisé en dehors d'un bloc opératoire\nPour permettre un geste diagnostique ou thérapeutique
+Quelles activités relèvent de l'anesthésie hors bloc ? :: Endoscopies digestives, bronchiques, urologiques\nRadiologie diagnostique (IRM de l'enfant) et interventionnelle : embolisation, drainage, cimentoplastie, neuroradiologie\nCardiologie interventionnelle : prothèses vasculaires ou valvulaires, rythmologie\nTraumatologie : embolisation d'une lésion hémorragique\nÉlectroconvulsivothérapie
+Pourquoi a-t-on besoin d'une équipe d'anesthésie pour ces actes ? :: Gestes longs, douloureux, anxiogènes ou inconfortables\nBesoin d'immobilité, ou au contraire de coopération\nRéanimation parfois nécessaire pendant le geste\nDe l'anxiolyse à l'anesthésie générale, avec parfois une ALR
+Pourquoi l'anesthésie hors bloc est-elle un exercice difficile ? :: Patients de tout âge et de tout terrain, programmés ou urgents, ambulatoires ou hospitalisés\nEnvironnement peu adapté : rayons X, espace restreint, accès difficile à la tête, froid, bruit, pénombre\nIsolement : personnel moins habitué à l'urgence, renfort tardif, SSPI éloignée\nMatériel différent et réserves dispersées
+Quelle est la principale cause de complications en anesthésie hors bloc ? :: L'inadéquation entre oxygénation et ventilation\nSouvent lors d'une sédation qui s'approfondit sans être repérée\nCe sont des événements souvent évitables par un monitorage adapté
+
+// ---------- Installation et environnement ----------
+Quelles précautions d'installation prendre quand l'appareil de radiologie se déplace autour du patient ? :: Fixer la sonde et les circuits avant la pose des champs\nVérifier que les tubulures, plus longues, ne se tendent pas lors des déplacements de l'arceau ou de la table\nGarder le monitorage visible, au besoin sur un écran déporté derrière la vitre
+Pourquoi vérifier le défibrillateur au début de chaque vacation hors bloc ? :: Dans un espace partagé, il peut avoir été débranché et sa batterie être vide\nSa présence ne garantit pas qu'il fonctionne
+Comment se déroule souvent une anesthésie générale pour un scanner ou une IRM ? :: Induction sur le lit, puis transfert sur la table d'imagerie\nAnticiper la place du respirateur, la longueur des circuits et la surveillance pendant le transfert
+Quelles sont les exigences de sécurité pour l'anesthésie hors bloc ? :: Les mêmes qu'au bloc opératoire\nConsultation et visite préanesthésiques\nMoyens matériels et humains adaptés, dont l'oxygène à haut débit\nSurveillance pendant et après le geste, jusqu'en SSPI
+Comment rendre l'anesthésie hors bloc plus sûre ? :: Considérer chaque site comme un site d'anesthésie à part entière\nProcédures écrites, connues de tous, et check-list\nMatériel standardisé\nLogistique rigoureuse : stocks, péremptions, défibrillateur\nMonitorage adapté, en particulier respiratoire
+Pourquoi standardiser le matériel entre les sites d'anesthésie ? :: Pour ne pas devoir retrouver les commandes d'un respirateur inconnu au moment où il faut agir vite
+Pourquoi regrouper les sites d'anesthésie hors bloc ? :: Faciliter le renfort et l'entraide\nHomogénéiser les pratiques\nConcentrer les moyens humains et matériels\nRaccourcir le trajet vers la SSPI
+Comment organiser la surveillance après un acte hors bloc ? :: Elle commence en salle et ne s'interrompt pas pendant le transfert\nTransfert monitoré, avec oxygène, vers une SSPI parfois éloignée\nJusqu'à récupération respiratoire, circulatoire et neurologique
+Qu'est-ce qu'une salle hybride ? :: Une salle qui associe imagerie interventionnelle et environnement de bloc opératoire\nHygiène, espace et accès au patient pensés pour les équipes, dont l'anesthésie\nLe patient et les circuits se déplacent toutefois lors des acquisitions d'images
+
+// ---------- Niveaux de sédation ----------
+Quels sont les quatre niveaux d'anesthésie, de la plus légère à la plus profonde ? :: Sédation minimale (anxiolyse)\nSédation modérée, dite « consciente »\nSédation profonde\nAnesthésie générale
+Comment le patient répond-il à chaque niveau de sédation ? :: Sédation minimale : réponse normale à la voix\nSédation modérée : réponse adaptée à la voix ou au toucher\nSédation profonde : réponse seulement après stimulation répétée ou douloureuse\nAnesthésie générale : aucune réponse aux stimuli douloureux
+Comment évoluent les voies aériennes et la ventilation selon le niveau de sédation ? :: Sédation minimale ou modérée : voies aériennes et ventilation préservées\nSédation profonde : une intervention sur les voies aériennes peut être nécessaire, la ventilation peut être insuffisante\nAnesthésie générale : intervention souvent nécessaire, fonction cardiovasculaire parfois touchée
+Pourquoi la sédation procédurale expose-t-elle à un risque respiratoire ? :: Les niveaux de sédation forment un continuum\nUne sédation peut devenir plus profonde que prévu, selon le patient et les doses\nObstruction des voies aériennes ou apnée peuvent passer inaperçues
+Que faut-il surveiller pendant une sédation procédurale ? :: Réponse verbale\nCO2 expiré (capnographie)\nSpO2, pression artérielle, fréquence cardiaque\nAvec enregistrement des paramètres
+Quels moyens réunir avant une sédation procédurale ? :: Voie veineuse fonctionnelle\nOxygène et matériel de ventilation\nAntidotes disponibles\nConnaissance de la pharmacocinétique des produits, titrés à la réponse\nSurveillance en SSPI après le geste
+
+// ---------- Endoscopie digestive ----------
+Quels sont les objectifs de l'anesthésie pour une endoscopie digestive ? :: Patient calme et coopérant\nAbsence de mémorisation d'un geste désagréable\nRemise à la rue rapide et sûre
+Quels produits utilise-t-on pour la sédation en endoscopie digestive ? :: Surtout le propofol\nParfois associé à une benzodiazépine ou à un morphinique\nMoyens non médicamenteux possibles : hypnose, sophrologie, réalité virtuelle
+Quelles sont les règles pratiques d'une sédation pour endoscopie digestive ? :: Titrer à la réponse du patient : bolus, perfusion continue ou AIVOC\nOxygène à haut débit\nMonitorage adapté, dont la capnographie\nIntuber selon le terrain, le geste et le risque d'inhalation\nSi deux examens : fibroscopie haute d'abord, puis coloscopie
+
+// ---------- Électroconvulsivothérapie ----------
+Quelles sont les indications de l'électroconvulsivothérapie ? :: Dépression sévère\nAccès maniaque aigu\nTroubles schizo-affectifs
+Pourquoi réalise-t-on l'électroconvulsivothérapie sous anesthésie générale avec curare ? :: L'anesthésie assure l'inconscience pendant la crise\nLe curare limite les convulsions motrices et leurs conséquences traumatiques (luxations, fractures)\nLa crise reste efficace sur le plan cérébral
+Quelles sont les contre-indications de l'électroconvulsivothérapie ? :: Absolue : hypertension intracrânienne\nRelatives : risques de l'anesthésie et de la curarisation, décollement de rétine, processus expansif intracrânien sans HTIC, anévrisme ou malformation vasculaire à risque hémorragique, phéochromocytome
+Quelles complications peut entraîner une électroconvulsivothérapie ? :: Laryngospasme, inhalation, apnée prolongée\nTraumatisme dentaire, luxation ou fracture\nDéfaillance circulatoire\nÉtat de mal épileptique, paralysie périphérique
+Comment se déroule l'anesthésie pour une électroconvulsivothérapie ? :: Site équipé pour l'anesthésie, collaboration avec le psychiatre, consentement\nAnesthésie générale au masque, cale-dent, retrait des corps étrangers buccaux\nHypnotique : propofol ou étomidate\nCurare : succinylcholine le plus souvent, ou rocuronium puis sugammadex\nPas d'analgésique : il élève le seuil épileptogène\nEEG pour vérifier la crise et sa durée
+Que faire si la crise ne se déclenche pas lors d'une électroconvulsivothérapie ? :: Réduire la dose d'hypnotique ou de curare\nRéduire ou arrêter les benzodiazépines et les antiépileptiques, qui élèvent le seuil épileptogène\nDonner un produit qui prolonge la crise, comme la caféine\nChanger d'hypnotique
+Que faire si la crise dure plus de 180 secondes lors d'une électroconvulsivothérapie ? :: Nouvelle dose d'hypnotique\nOu benzodiazépine d'action rapide\nSurveillance en SSPI, pour prévenir un état de mal épileptique
+
+// ---------- Thrombectomie mécanique ----------
+Qu'est-ce qu'une thrombectomie mécanique, et pour quels patients ? :: Le retrait endovasculaire du caillot\nAVC ischémique aigu par occlusion proximale d'une artère cérébrale\nPour sauver la zone de pénombre, tissu hypoperfusé encore récupérable
+Comment organiser l'anesthésie pour une thrombectomie ? :: « Time is brain » : site préparé à l'avance pour ne pas retarder le geste\nÉvaluation rapide et ciblée : voies aériennes, hémodynamique, état neurologique\nÉquipe d'anesthésie présente pendant toute la procédure\nSurveillance en SSPI ou en réanimation après le geste
+Quels sont les avantages et les inconvénients de l'anesthésie générale pour une thrombectomie ? :: Avantages : immobilité, protection des voies aériennes\nInconvénients : retard au début du geste, hypotension à l'induction sur un cerveau mal perfusé, risque d'hypocapnie, intubation en urgence
+Quels sont les avantages et les inconvénients de la sédation pour une thrombectomie ? :: Avantages : meilleure stabilité hémodynamique, examen neurologique possible pendant le geste\nInconvénients : douleur, agitation, mouvements, pas de contrôle des voies aériennes, intubation en urgence possible dans de mauvaises conditions
+Dans quelles situations préfère-t-on l'anesthésie générale avec intubation pour une thrombectomie ? :: Atteinte de la circulation postérieure\nNavigation radiologique difficile prévue\nAVC sévère (NIHSS ≥ 15)\nAltération de la vigilance\nDéfaillance respiratoire\nAgitation ou vomissements
+Quels médicaments de sédation sont discutés pour une thrombectomie, et avec quelles limites ? :: Rémifentanil : analgésique, mais risque d'apnée\nDexmédétomidine : anxiolyse et analgésie, sans dépression respiratoire, mais hypertension puis hypotension ou bradycardie
+Quels objectifs physiologiques maintenir pendant et après une thrombectomie ? :: PAS 130-180 mmHg si recanalisation incomplète (TICI < 2b), 130-160 mmHg si recanalisation réussie (TICI ≥ 2b)\nSpO2 ≥ 95 %\nEtCO2 35-40 mmHg sous anesthésie générale\nTraiter l'hyperglycémie sans provoquer d'hypoglycémie
+Pourquoi éviter l'hypocapnie pendant une thrombectomie sous anesthésie générale ? :: L'hypocapnie entraîne une vasoconstriction cérébrale\nElle réduit la perfusion de la zone de pénombre, qui peut évoluer vers l'infarctus
+Pourquoi monitorer le CO2 expiré pendant une thrombectomie sous sédation ? :: Pour vérifier en continu que la ventilation spontanée persiste\nLe patient est loin et peu accessible, une hypoventilation serait repérée tard
+Quand extuber un patient après une thrombectomie sous anesthésie générale ? :: Arrêter l'anesthésie dès la fin du geste, en l'absence de défaillance ventilatoire ou de complication neurologique\nExtuber si les critères habituels sont réunis et si les yeux s'ouvrent (Glasgow yeux ≥ 3)\nLa réponse aux ordres n'est pas exigée, l'aphasie étant fréquente\nVérifier toux et déglutition si la circulation postérieure était atteinte
+Quelle est la règle pour les antiagrégants pendant une thrombectomie ? :: Pas d'aspirine pendant le geste : risque d'hémorragie cérébrale\nSi un stent est posé, une antiagrégation est nécessaire\nL'introduire après la procédure seulement après une imagerie excluant une hémorragie
+
+// ---------- Radiologie interventionnelle ostéo-articulaire ----------
+Quelles sont les particularités anesthésiques de la radiologie ostéo-articulaire interventionnelle ? :: Anesthésie générale ou rachianesthésie selon le geste\nRisque hémorragique moindre, mais douleur pas toujours moindre\nTerrains variés, parfois âgés ou cancéreux, avec hémostase modifiée par les traitements\nRadioprotection de l'équipe
+
+// ---------- Notions de base, sous un autre angle ----------
+Comment l'équipe d'anesthésie se protège-t-elle des rayons X pendant un geste de radiologie interventionnelle ? :: Tablier plombé et dosimètre\nDistance par rapport à la source\nSurveillance derrière une vitre protectrice, avec un écran de monitorage déporté
+Comment installer un patient en décubitus ventral pour une cimentoplastie vertébrale ? :: Appuis thoraciques et pelviens, ou cadre\nAbdomen libre entre les appuis\nMêmes précautions que pour la chirurgie du rachis, en anticipant les mouvements de l'imagerie
+Pourquoi la consultation préanesthésique ne suffit-elle pas avant une série d'électroconvulsivothérapies ? :: Une visite préanesthésique est faite avant chaque séance\nL'état du patient et ses traitements peuvent changer d'une séance à l'autre\nUne nouvelle évaluation s'impose si l'état change
+Pourquoi la succinylcholine est-elle le curare le plus utilisé pour l'électroconvulsivothérapie ? :: Le besoin de curarisation est bref, juste le temps de la crise\nL'anesthésie se fait au masque, sans intubation\nAlternative : rocuronium puis sugammadex
