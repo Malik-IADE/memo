@@ -1,0 +1,95 @@
+// Cours 3.1 – Monitorage de la curarisation et décurarisation
+// Questions inspirées d'Anki puis complétées par d'autres tirées du cours (situations, mécanismes), toutes vérifiées dans le support « Décurarisation avec notes » (le cours prime).
+// Non repris : historique des recommandations, chiffres d'études. Les notions de base déjà vues dans « Curares », « Processus d'anesthésie » et « SSPI » (TOF, curarisation résiduelle, choix du curare) sont reprises sous un autre angle, sans répéter les mêmes cartes.
+// Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
+
+# IADE – Décurarisation
+
+// ---------- Pourquoi monitorer ----------
+Pourquoi monitorer la curarisation plutôt que se fier aux délais moyens des curares ? :: Variabilité entre patients : insuffisance rénale ou hépatique, obésité, maladie neuromusculaire, interactions, hypothermie\nVariabilité entre muscles d'un même patient : densité de récepteurs, vascularisation\nUne même dose ne donne pas le même effet
+Quels sont les trois objectifs du monitorage de la curarisation ? :: Induction : vérifier l'installation du bloc avant d'intuber\nEntretien : adapter la profondeur du bloc au geste\nRéveil : vérifier une récupération suffisante ou décider de décurariser
+Pourquoi les signes cliniques ne suffisent-ils pas à juger la curarisation ? :: Toux, mouvement, reprise de la ventilation ou « il pousse » alertent mais ne chiffrent pas le bloc\nIls n'excluent pas une curarisation résiduelle\nSeul un monitorage instrumental mesure la profondeur du bloc
+Sur quel principe repose le monitorage de la curarisation ? :: Stimuler électriquement un nerf périphérique\nÉtudier la réponse du muscle qu'il innerve\nLa réponse diminue d'autant plus que le bloc est profond
+
+// ---------- Matériel et installation ----------
+Pourquoi utiliser une intensité supramaximale, et laquelle au nerf ulnaire ? :: Pour recruter toutes les fibres musculaires et obtenir une réponse de référence fiable\nRepère : 40 à 50 mA au nerf ulnaire
+Pourquoi calibrer le curamètre avant d'injecter le curare ? :: Rechercher l'intensité supramaximale et régler le gain du capteur\nObtenir une réponse de référence stable à 100 %\nUne calibration faite sur un patient déjà curarisé perd cette référence
+Pourquoi le rapport T4/T1 peut-il dépasser 100 % pendant la calibration ? :: Le pouce ne revient pas à sa position initiale\nLibération accrue d'acétylcholine lors des stimulations répétées\nIl faut stabiliser les réponses avant d'injecter le curare
+Que mesurent l'accélérométrie et la cinémyographie ? :: Accélérométrie (TOF-Watch) : l'accélération du pouce ; force = masse × accélération\nCinémyographie (E-NMT) : le déplacement du pouce, par un capteur placé entre pouce et index\nLa mécanomyographie, qui mesure la force, reste une méthode de référence de laboratoire
+Comment installer les électrodes pour monitorer l'adducteur du pouce ? :: En regard du nerf ulnaire, séparées de 2 à 3 cm\nCathode (noire) distale\nCapteur sur le pouce, qui doit pouvoir bouger librement
+Où monitorer si la main n'est pas accessible ? :: À l'hallux\nÉlectrodes en arrière de la malléole interne
+Pourquoi ne pas monitorer la curarisation du côté d'une hémiplégie ? :: La dénervation augmente le nombre de récepteurs à l'acétylcholine\nLe muscle paraît moins curarisé, d'où une fausse impression de décurarisation\nStimuler le côté sain
+Quelles sont les particularités du monitorage au sourcilier ? :: Branche temporale du nerf facial, électrodes séparées de 1 à 2 cm\nIntensité plus faible, environ 25 mA, pour éviter de stimuler directement le muscle\nÉvaluation visuelle seulement ; ne pas confondre avec l'orbiculaire de l'œil, plus sensible\nPeu utilisé aujourd'hui en pratique
+
+// ---------- Sensibilité des muscles ----------
+Quels muscles sont résistants aux curares, et lesquels sont sensibles ? :: Résistants : adducteurs laryngés, diaphragme, muscles abdominaux\nSensibles : muscles de la déglutition et de la protection des voies aériennes, adducteur du pouce\nLa différence tient à la densité de récepteurs à l'acétylcholine
+Comment se curarisent l'adducteur du pouce et le diaphragme après une même dose ? :: Diaphragme et muscles laryngés : bloc plus rapide mais moins profond, récupération plus précoce\nAdducteur du pouce : bloc plus lent mais plus profond, récupération plus tardive
+Pourquoi un TOF nul au pouce ne garantit-il pas que le diaphragme est curarisé ? :: Le diaphragme est plus résistant, il peut garder ou retrouver une activité alors que le pouce ne répond plus\nIl faut un PTC pour juger la profondeur du bloc
+Pourquoi intube-t-on avec 2 à 3 DA95 de curare ? :: La DA95 est définie à l'adducteur du pouce\nLes muscles laryngés, plus résistants, demandent davantage de curare\nÀ cette dose, un TOF nul au pouce devient un repère utilisable pour intuber
+Un patient reçoit 0,3 mg/kg d'atracurium (DA95 0,25 mg/kg) et tousse à l'intubation malgré un TOF nul au pouce. Pourquoi ? :: La dose ne représente que 1,2 DA95, insuffisante pour bloquer les muscles laryngés\nLe moniteur ne corrige pas une sous-dose ; il faut 2 à 3 DA95
+
+// ---------- TOF, PTC et autres stimulations ----------
+Comment se déroule un train de quatre ? :: Quatre stimulations à 2 Hz, sur 1,5 seconde\nAu moins 10 à 20 secondes entre deux trains\nOn lit le nombre de réponses et le rapport T4/T1
+Pourquoi les réponses du TOF s'épuisent-elles sous curare non dépolarisant ? :: Les stimulations répétées libèrent de moins en moins d'acétylcholine\nLe curare agit aussi sur les récepteurs présynaptiques et freine cette libération\nLa compétition devient plus favorable au curare, d'où T4 < T1 (fading)
+Dans quel ordre disparaissent puis réapparaissent les réponses au TOF sous curare non dépolarisant ? :: À l'installation : T4, puis T3, T2 et T1\nÀ la récupération : T1, puis T2, T3 et T4
+À quel niveau de récupération correspondent quatre réponses visibles au TOF ? :: Environ 25 % de la force initiale au simple twitch\nUn rapport T4/T1 d'environ 30 à 40 %\nTrès loin du seuil de 90 %, d'où la nécessité de mesurer le rapport
+Qu'est-ce que le tétanos en monitorage de la curarisation ? :: Une stimulation à 50 Hz pendant 5 secondes, à l'adducteur du pouce\nElle provoque une contraction soutenue, qui s'épuise en présence d'un curare non dépolarisant\nDouloureuse chez un patient réveillé
+Comment se déroule un compte post-tétanique (PTC), et pourquoi fonctionne-t-il ? :: Tétanos à 50 Hz pendant 5 s, puis 10 à 20 stimulations simples à 1 Hz\nLe tétanos mobilise les vésicules de réserve d'acétylcholine (facilitation post-tétanique)\nOn obtient des réponses alors que le TOF est nul
+Comment interpréter le nombre de réponses au PTC ? :: Aucune réponse : bloc très (trop) profond\n5 réponses ou moins : bloc profond\nPlus de 5 réponses : la première réponse au TOF va bientôt réapparaître
+Quand utiliser le PTC plutôt que le TOF ? :: Seulement quand le TOF est nul, pour explorer un bloc profond\nAttendre environ 5 minutes avant de le répéter, car la facilitation reste locale et transitoire
+Pourquoi le double burst stimulation (DBS) ne doit-il plus être utilisé ? :: Évaluation seulement visuelle ou tactile, donc qualitative\nDeux réponses jugées identiques peuvent correspondre à un T4/T1 d'environ 60 %\nIl ne vérifie pas le seuil de 90 %
+
+// ---------- Curare dépolarisant ----------
+Comment se présente le TOF après une injection de succinylcholine ? :: Les quatre réponses diminuent et réapparaissent ensemble\nPas de fading : T4/T1 reste à 100 %\nPas de facilitation post-tétanique, sauf bloc de phase II
+Quel est l'intérêt de monitorer la curarisation après succinylcholine ? :: Repérer une durée anormale, qui fait évoquer un déficit en pseudocholinestérases\nRechercher un bloc de phase II\nCalibrer avant, si un curare non dépolarisant doit être utilisé ensuite
+
+// ---------- Objectifs selon le temps opératoire ----------
+Quel niveau de bloc viser pendant l'entretien, et comment le mesurer ? :: Bloc léger à modéré : 1 à 2 réponses au TOF à l'adducteur du pouce\nBloc profond (laparotomie, thoracotomie) : TOF nul et PTC ≤ 5
+Le chirurgien se plaint que le patient « pousse » alors que le TOF est nul au pouce. Que faire ? :: Mesurer le PTC pour connaître la profondeur réelle du bloc\nUn TOF nul ne prouve pas que les muscles abdominaux sont bloqués\nAdapter la réinjection au résultat
+Quels repères au pouce guident la fin de l'intervention ? :: TOF = 4 réponses : la néostigmine devient envisageable\nT4/T1 ≥ 0,9 : pas de curarisation résiduelle, extubation possible si les autres critères sont réunis
+
+// ---------- Curarisation résiduelle ----------
+Pourquoi le seuil de curarisation résiduelle est-il passé de 0,7 à 0,9 ? :: À T4/T1 = 0,7 persistent des troubles de la déglutition, des fausses routes et une moindre réponse à l'hypoxie\nSeul un rapport ≥ 0,9 à l'adducteur du pouce élimine la curarisation résiduelle
+Pourquoi vérifier la récupération à l'adducteur du pouce plutôt qu'au sourcilier ? :: Le pouce représente les muscles sensibles, qui récupèrent tard (déglutition, voies aériennes)\nUn muscle résistant comme le sourcilier peut avoir récupéré alors que le pouce reste bloqué
+Quels tests cliniques montrent un début de récupération, et quelle est leur limite ? :: Head lift > 5 s, jambe levée > 5 s, serrer la main > 5 s, retenir une canule de Guedel, ventilation minute correcte\nIls n'éliminent pas une curarisation résiduelle\nIls demandent la coopération du patient
+Pourquoi une ventilation minute normale ne prouve-t-elle pas la décurarisation ? :: 200 mL × 20/min et 400 mL × 10/min donnent la même ventilation minute\nUne respiration rapide et superficielle peut masquer un bloc résiduel\nLes muscles des voies aériennes peuvent rester atteints
+
+// ---------- Néostigmine ----------
+Comment la néostigmine décurarise-t-elle ? :: Elle inhibe l'acétylcholinestérase\nL'acétylcholine s'accumule dans la fente synaptique et déplace le curare non dépolarisant des récepteurs\nElle accélère une récupération déjà commencée
+Pourquoi faut-il quatre réponses au TOF à l'adducteur du pouce avant d'injecter la néostigmine ? :: Il faut que la concentration de curare ait suffisamment baissé\nSur un bloc profond, l'excès d'acétylcholine ne suffit pas à déplacer le curare
+Quel délai attendre après une injection de néostigmine ? :: TOF = 4 réponses au pouce : 15 à 30 min\nT4/T1 > 20 % : 10 à 15 min\nLe délai dépend aussi de la dose, du curare et de la présence d'halogénés
+Quelle dose de néostigmine et d'atropine pour décurariser ? :: Néostigmine : 40 µg/kg (40 à 50 µg/kg, sur la masse idéale)\nAtropine : 15 à 20 µg/kg\nLes deux sont injectées de façon rapprochée, sans les mélanger dans la même seringue
+Pourquoi associer l'atropine à la néostigmine ? :: L'acétylcholine en excès stimule aussi les récepteurs muscariniques\nBradycardie, troubles de conduction, voire asystolie\nBronchoconstriction, hypersécrétions, hypersalivation, nausées\nL'atropine bloque ces effets muscariniques
+Que se passe-t-il si l'on dépasse 50 à 60 µg/kg de néostigmine ? :: Crise cholinergique\nEffets muscariniques : hypersécrétions bronchique, salivaire, intestinale et sudorale\nEffets nicotiniques : fasciculations, crampes, paralysie paradoxale\nEffet plafond : augmenter la dose n'accélère pas la récupération
+Pourquoi ne pas injecter de néostigmine chez un patient déjà décurarisé ? :: Effet paradoxal : moindre perméabilité des voies aériennes supérieures, moins bonne dilatation du larynx\nAltération de la transmission neuromusculaire\nDose réduite de moitié si le bloc résiduel est très faible
+Quelles sont les contre-indications de la néostigmine ? :: Asthme sévère ou instable\nObstruction mécanique digestive ou urinaire\nMaladie de Parkinson\nMyotonie, dystrophie musculaire\nPrudence : cardiopathie rythmique ou ischémique instable, bêtabloquants
+Pourquoi éviter la néostigmine après du mivacurium ? :: Elle inhibe aussi les pseudocholinestérases plasmatiques qui éliminent le mivacurium\nLa curarisation peut s'allonger\nLaisser ce curare court récupérer spontanément sous monitorage
+Que faire après avoir injecté de la néostigmine ? :: Poursuivre le monitorage quantitatif à l'adducteur du pouce\nJusqu'à T4/T1 ≥ 0,9\nL'injection ne prouve pas l'efficacité
+
+// ---------- Sugammadex ----------
+Comment le sugammadex décurarise-t-il ? :: C'est une γ-cyclodextrine (cœur lipophile, couronne hydrophile)\nIl encapsule le curare stéroïdien libre dans le plasma\nLe gradient attire le curare des tissus vers le plasma, où il est capturé à son tour\nLe complexe ne se dissocie pas et s'élimine dans les urines
+Sur quels curares le sugammadex est-il actif ? :: Seulement les stéroïdiens : rocuronium et vécuronium\nAucune action sur la succinylcholine, l'atracurium, le cisatracurium et le mivacurium
+Quelles doses de sugammadex selon la profondeur du bloc au rocuronium ? :: Bloc modéré (TOF ≥ 2) : 2 mg/kg\nBloc profond (PTC ≥ 2) : 4 mg/kg\nRéversion immédiate après séquence rapide au rocuronium, en situation « ni intubable ni ventilable » : 16 mg/kg
+Pourquoi poursuivre le monitorage après du sugammadex ? :: Une dose insuffisante peut laisser du curare non capturé\nDes recurarisations ont été décrites\nObjectif : T4/T1 ≥ 0,9 au pouce
+Quels avantages le sugammadex a-t-il sur la néostigmine ? :: Décurarisation environ 10 fois plus rapide des curares stéroïdiens\nPossible sur un bloc profond\nPas influencé par les halogénés\nPas d'effet muscarinique, donc pas d'atropine
+Quels sont les effets indésirables et les limites du sugammadex ? :: Allergie, voire choc anaphylactique\nDysgueusie\nCapture de certains contraceptifs : prévenir les patientes en âge de procréer\nÉlimination urinaire : prudence si clairance < 30 mL/min
+Le patient doit être réopéré moins de 24 h après du sugammadex. Quel curare choisir ? :: Un curare non stéroïdien (atracurium, cisatracurium)\nLe sugammadex restant pourrait capturer un nouveau rocuronium
+Faut-il adapter la dose de sugammadex chez l'insuffisant rénal ? :: Non, utiliser les doses habituelles, pour ne pas sous-doser la capture\nL'efficacité est identique\nLe sugammadex et le complexe sont dialysables
+
+// ---------- Choix de la stratégie ----------
+Dans quelles situations choisir d'emblée le rocuronium pour pouvoir utiliser le sugammadex ? :: Intubation ou ventilation potentiellement difficile\nContre-indication à la néostigmine ou à l'atropine : asthme instable, cardiopathie\nMaladie neuromusculaire\nObésité morbide\nIntervention courte avec intubation
+Quel curare pour une intervention de moins de 30 min avec intubation ? :: Mivacurium\nOu rocuronium avec sugammadex en fin d'intervention
+Après de l'atracurium, le T4/T1 est à 30 % en fin d'intervention et le chirurgien demande du sugammadex. Que faire ? :: Le sugammadex est inefficace sur l'atracurium\nNéostigmine 40 µg/kg + atropine, les quatre réponses étant présentes\nMonitorer jusqu'à T4/T1 ≥ 0,9 avant d'extuber
+Faut-il un curare pour une endoscopie sous sédation en ventilation spontanée, sans intubation ? :: Non\nSans intubation ni besoin de relâchement chirurgical, pas de curare
+
+// ---------- Notions de base, sous un autre angle ----------
+Quand le monitorage instrumental de la curarisation est-il recommandé, et à quel site ? :: Dès qu'un curare est administré, au bloc comme en SSPI\nTrain de quatre au nerf ulnaire, réponse de l'adducteur du pouce\nAussi après succinylcholine, pour dépister un déficit en pseudocholinestérases
+À quoi sert chacune des deux mesures du train de quatre ? :: Nombre de réponses : situer la profondeur du bloc (intubation, entretien, possibilité de néostigmine)\nRapport T4/T1 : quantifier la récupération finale, avec un objectif ≥ 0,9
+Quels sont les trois éléments indispensables à une définition correcte de la curarisation résiduelle ? :: Le rapport T4/T1 et son seuil : < 0,9\nUne mesure quantitative, pas une estimation visuelle\nLe site : l'adducteur du pouce
+En fin d'intervention, le pouce donne quatre réponses au TOF. Que faire avant de réveiller ? :: Ne pas conclure à une décurarisation, cela peut correspondre à un T4/T1 de 30 à 40 %\nMesurer le rapport T4/T1\nS'il est < 0,9 : néostigmine + atropine, puis contrôle jusqu'à ≥ 0,9
+Pourquoi la curarisation résiduelle est-elle dangereuse au réveil ? :: Faiblesse pharyngée et laryngée : obstruction, troubles de la déglutition, fausses routes, inhalation\nMoindre réponse ventilatoire à l'hypoxémie, apnées\nPneumopathies, séjour prolongé en SSPI\nDiplopie, inaptitude à la rue en ambulatoire
+Parmi halogénés, propofol, pénicilline, magnésium et hypothermie, lesquels prolongent l'effet des curares ? :: Les halogénés\nLe magnésium\nL'hypothermie\nPas le propofol ni la pénicilline
+Un patient cirrhotique de 58 ans doit avoir une laparotomie colique de 3 h. Quel curare choisir ? :: Atracurium ou cisatracurium\nPas d'estomac plein : le délai d'installation n'est pas un critère, pas de succinylcholine\nDurée intermédiaire et élimination de Hofmann, indépendante du foie\nEn fin d'intervention : néostigmine, le sugammadex étant inactif sur ces curares
+Quel curare pour intuber un patient à l'estomac plein, et que prévoir ? :: Succinylcholine en première intention\nRocuronium à 0,9-1,2 mg/kg en cas de contre-indication\nAvec du sugammadex disponible pour une réversion immédiate
+Pourquoi privilégier le rocuronium chez un patient myopathe qui doit être intubé ? :: La succinylcholine est contre-indiquée\nLa sensibilité aux non dépolarisants et le risque de bloc résiduel sont accrus\nLe sugammadex permet une décurarisation fiable, la néostigmine pouvant interférer avec la maladie\nTitration, monitorage et surveillance prolongée
+Faut-il un curare pour une tumorectomie du sein sous masque laryngé ? :: Non en première intention\nNi intubation ni besoin de relâchement chirurgical
