@@ -31,6 +31,7 @@ S1/3.1/aivoc.txt
 S1/3.1/sspi.txt
 S1/3.1/ecg-traces.txt
 S1/3.1/positions-chirurgicales.txt
+S1/3.1/decurarisation.txt
 
 S1/3.3/chirurgie-urologique.txt
 S1/3.3/chirurgie-digestive.txt
@@ -43,6 +44,7 @@ S1/3.3/sujet-denutri.txt
 S1/3.3/patient-obese.txt
 S1/3.3/orthopedie.txt
 S1/3.3/coelioscopie.txt
+S1/3.3/hors-bloc.txt
 
 S1/4.4/hygiene-mains.txt
 S1/4.4/tenue-bloc.txt
