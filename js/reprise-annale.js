@@ -28,26 +28,28 @@
     return n ? { c: choix, x: textes, n: n, t: Date.now() } : null;
   }
 
+  // « minuterie » n'est non nulle que si un enregistrement attend : la remettre à null
+  // en l'annulant, sinon « pagehide » réécrirait des réponses qu'on vient d'effacer.
   var minuterie = null;
-  function enregistrer() {
-    clearTimeout(minuterie);
-    minuterie = setTimeout(function () {
-      if (corrige()) return;
-      var tout = lire(), r = releve();
-      if (r) tout[id] = r; else delete tout[id];
-      ecrire(tout);
-    }, 250);
+  function sauver() {
+    minuterie = null;
+    if (corrige()) return;
+    var tout = lire(), r = releve();
+    if (r) tout[id] = r; else delete tout[id];
+    ecrire(tout);
   }
+  function annuler() { clearTimeout(minuterie); minuterie = null; }
+  function enregistrer() { clearTimeout(minuterie); minuterie = setTimeout(sauver, 250); }
   form.addEventListener('input', enregistrer);
   form.addEventListener('change', enregistrer);
   // Fermeture de l'onglet ou retour à l'app pendant la saisie : on écrit tout de suite.
-  addEventListener('pagehide', function () { if (minuterie) { clearTimeout(minuterie); minuterie = null; if (!corrige()) { var tout = lire(), r = releve(); if (r) tout[id] = r; else delete tout[id]; ecrire(tout); } } });
+  addEventListener('pagehide', function () { if (minuterie) { clearTimeout(minuterie); sauver(); } });
 
   // Correction affichée : la tentative est terminée, plus rien à reprendre.
-  new MutationObserver(function () { if (corrige()) { clearTimeout(minuterie); effacer(); retirerBandeau(); } })
+  new MutationObserver(function () { if (corrige()) { annuler(); effacer(); retirerBandeau(); } })
     .observe(resultats, { attributes: true, attributeFilter: ['hidden'] });
   var reset = document.getElementById('reset');
-  if (reset) reset.addEventListener('click', function () { clearTimeout(minuterie); effacer(); });
+  if (reset) reset.addEventListener('click', function () { annuler(); effacer(); retirerBandeau(); });
 
   /* ---------- Remise en place ---------- */
   var sauve = lire()[id];
@@ -74,7 +76,9 @@
     ' remise' + (remis > 1 ? 's' : '') + ' en place.</span><button type="button">Repartir de zéro</button>';
   bandeau.querySelector('button').addEventListener('click', function () {
     if (!confirm('Effacer les réponses de cette tentative et repartir de zéro ?')) return;
-    clearTimeout(minuterie); effacer(); location.reload();
+    annuler(); effacer(); retirerBandeau();
+    // « Tout recommencer » de l'annale vide le formulaire sans recharger la page.
+    if (reset) reset.click(); else location.reload();
   });
   var style = document.createElement('style');
   style.textContent = '.memo-reprise{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 14px;' +
