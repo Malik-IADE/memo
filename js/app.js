@@ -70,6 +70,7 @@ const ico = {
   folder: svg('<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>'),
   cards: svg('<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>'),
   exam: svg('<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 14.5l2 2 4-4.5"/>'),
+  restart: svg('<path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/>'),
   shuffle: svg('<path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/>'),
   search: svg('<circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>'),
   medal: svg('<circle cx="12" cy="15" r="6"/><path d="M8.5 9.5 6 2h12l-2.5 7.5"/>'),
@@ -1307,6 +1308,15 @@ function renderQuizSession(id) {
       </header>
       <div class="progress"><span style="width:${pct}%"></span></div>
       <main class="quiz-main">
+        ${s.i > 0 ? (s.confirmRestart
+          ? `<div class="quiz-confirm" role="alert">
+              <p><strong>Repartir de zéro ?</strong> Ta progression dans ce quiz (question ${s.i + 1}/${s.items.length}) sera effacée. Tes auto-évaluations déjà données sont gardées.</p>
+              <div class="quiz-confirm-actions">
+                <button type="button" class="btn danger small" data-action="quiz-restart-yes">Oui, repartir de zéro</button>
+                <button type="button" class="btn ghost small" data-action="quiz-restart-no">Annuler</button>
+              </div>
+            </div>`
+          : `<div class="quiz-restart-bar"><button type="button" class="quiz-restart" data-action="quiz-restart">${ico.restart}<span>Repartir de zéro</span></button></div>`) : ''}
         <article class="quiz-card">
           <div class="quiz-meta">
             <span class="tag ${q.multi ? 'tag-qcm' : 'tag-qcu'}">${q.multi ? 'QCM · une ou plusieurs réponses' : 'QCU · une seule réponse'}</span>
@@ -1334,7 +1344,6 @@ function renderQuizSession(id) {
               ${q.ref ? `<p class="quiz-ref">Source : cours « ${esc(q.quizTitle)} », ${esc(refLabel(q.ref))}</p>` : ''}
             </section>` : ''}` : ''}
         </article>
-        ${s.i > 0 ? `<button type="button" class="quiz-restart" data-action="quiz-restart">Recommencer ce quiz depuis le début</button>` : ''}
       </main>
       <footer class="answer-bar">
         ${s.validated
@@ -1630,11 +1639,15 @@ $app.addEventListener('click', (e) => {
     case 'quiz-validate': return quizValidate();
     case 'quiz-grade': return quizGrade(Number(el.dataset.grade));
     case 'quiz-again': { if (qsession) quiz.clearRun(qsession.id); qsession = null; return render(); }
-    case 'quiz-restart': {
-      if (!qsession || !confirm('Recommencer ce quiz depuis la première question ?')) return;
+    // Confirmation affichée dans la page (pas de fenêtre « confirm », peu fiable sur mobile).
+    case 'quiz-restart': { if (qsession) { qsession.confirmRestart = true; render(); } return; }
+    case 'quiz-restart-no': { if (qsession) { qsession.confirmRestart = false; render(); } return; }
+    case 'quiz-restart-yes': {
+      if (!qsession) return;
       quiz.clearRun(qsession.id);
       qsession = buildQuizSession(qsession.id, true);
       window.scrollTo(0, 0);
+      toast('Quiz repris depuis le début');
       return render();
     }
     case 'grade': return grade(Number(el.dataset.grade));

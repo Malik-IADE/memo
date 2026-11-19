@@ -72,21 +72,43 @@
   var bandeau = document.createElement('div');
   bandeau.className = 'memo-reprise';
   bandeau.setAttribute('role', 'status');
-  bandeau.innerHTML = '<span>Tentative reprise : ' + remis + ' réponse' + (remis > 1 ? 's' : '') +
-    ' remise' + (remis > 1 ? 's' : '') + ' en place.</span><button type="button">Repartir de zéro</button>';
-  bandeau.querySelector('button').addEventListener('click', function () {
-    if (!confirm('Effacer les réponses de cette tentative et repartir de zéro ?')) return;
-    annuler(); effacer(); retirerBandeau();
-    // « Tout recommencer » de l'annale vide le formulaire sans recharger la page.
-    if (reset) reset.click(); else location.reload();
+  var message = 'Tentative reprise : ' + remis + ' réponse' + (remis > 1 ? 's' : '') +
+    ' remise' + (remis > 1 ? 's' : '') + ' en place.';
+  // Confirmation dans le bandeau lui-même (pas de fenêtre « confirm », peu fiable sur mobile).
+  function etatNormal() {
+    bandeau.classList.remove('confirmer');
+    bandeau.innerHTML = '<span>' + message + '</span><div class="memo-reprise-actions">' +
+      '<button type="button" data-r="demander">Repartir de zéro</button></div>';
+  }
+  function etatConfirmer() {
+    bandeau.classList.add('confirmer');
+    bandeau.innerHTML = '<span><b>Repartir de zéro ?</b> Les réponses de cette tentative seront effacées.</span>' +
+      '<div class="memo-reprise-actions"><button type="button" class="oui" data-r="oui">Oui, effacer</button>' +
+      '<button type="button" data-r="non">Annuler</button></div>';
+    bandeau.querySelector('[data-r="oui"]').focus();
+  }
+  bandeau.addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b) return;
+    if (b.dataset.r === 'demander') etatConfirmer();
+    else if (b.dataset.r === 'non') etatNormal();
+    else if (b.dataset.r === 'oui') {
+      annuler(); effacer(); retirerBandeau();
+      // « Tout recommencer » de l'annale vide le formulaire sans recharger la page.
+      if (reset) reset.click(); else location.reload();
+    }
   });
+  etatNormal();
   var style = document.createElement('style');
   style.textContent = '.memo-reprise{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 14px;' +
     'margin:0 0 16px;padding:12px 16px;border-radius:14px;border:1px solid rgba(139,92,246,.45);' +
     'background:linear-gradient(90deg,rgba(59,130,246,.14),rgba(139,92,246,.14),rgba(236,72,153,.12));font-weight:600;line-height:1.4}' +
     '.memo-reprise span{min-width:0;overflow-wrap:anywhere}' +
-    '.memo-reprise button{flex:none;font:inherit;font-size:.9em;padding:6px 12px;border-radius:999px;cursor:pointer;' +
-    'border:1px solid currentColor;background:transparent;color:inherit}';
+    '.memo-reprise-actions{display:flex;flex-wrap:wrap;gap:8px}' +
+    '.memo-reprise button{flex:none;font:inherit;font-size:.9em;padding:7px 14px;border-radius:999px;cursor:pointer;' +
+    'border:1px solid currentColor;background:transparent;color:inherit}' +
+    '.memo-reprise.confirmer{border-color:rgba(220,38,38,.55);background:rgba(220,38,38,.08)}' +
+    '.memo-reprise button.oui{background:#dc2626;border-color:#dc2626;color:#fff}';
   document.head.appendChild(style);
   form.parentNode.insertBefore(bandeau, form);
   function retirerBandeau() { if (bandeau && bandeau.parentNode) bandeau.parentNode.removeChild(bandeau); }
