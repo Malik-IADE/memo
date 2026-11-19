@@ -45,6 +45,7 @@ S1/3.3/patient-obese.txt
 S1/3.3/orthopedie.txt
 S1/3.3/coelioscopie.txt
 S1/3.3/hors-bloc.txt
+S1/3.3/patient-addict.txt
 
 S1/4.4/hygiene-mains.txt
 S1/4.4/tenue-bloc.txt
