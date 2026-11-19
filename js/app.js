@@ -122,10 +122,10 @@ function stats(deckId) {
   return { total: cs.length, due, dueAvail, backlog: due - dueAvail, fresh, newAvail, todo: dueAvail + newAvail };
 }
 
-/* « Cours mélangés » : toutes les cartes des cours partagés, tirées au hasard. */
+/* « Flashcards aléatoires » : les cartes des cours partagés, tirées au hasard (sans les Schémas). */
 const MIX = 'mix';
-const MIX_NAME = 'Cours mélangés';
-const mixDecks = () => store.decks().filter((d) => d.source);
+const MIX_NAME = 'Flashcards aléatoires';
+const mixDecks = () => store.decks().filter((d) => d.source && !isFcCat(locate(d).sem));
 function mixStats() {
   const ds = mixDecks().map((d) => stats(d.id));
   const st = store.settings();
@@ -686,7 +686,7 @@ function bySemester(rows) {
 const semRank = (k) => (/^S\d+$/i.test(k) ? 0 : k === 'perso' ? 3 : k === 'partages' ? 2 : 1);
 const sortSems = (keys) => [...keys].sort((a, b) => semRank(a) - semRank(b) || byKey(a, b));
 
-/** Accueil : Cours mélangés, Flashcards, Annales, puis les catégories (ex. « Scores »). */
+/** Accueil : Flashcards, Quizz, Annales, puis les catégories (ex. « Scores »). */
 function renderHome() {
   session = null;
   const rows = allRows();
@@ -727,8 +727,6 @@ function renderHome() {
         ${ico.search}<span>Chercher une notion…</span>
       </a>
       <ul class="folder-list">
-        ${mixDecks().length > 1 ? (() => { const m = mixStats(); return folderRow(
-          `#/review/${MIX}`, MIX_NAME, 'Questions de tous les cours, tirées au hasard', m.todo, ico.shuffle); })() : ''}
         ${fcRows.length ? folderRow('#/fc', 'Flashcards',
           [`${fcUes.size} UE`, plural(fcRows.length, 'cours')].join(' · '),
           sumTodo(fcRows) + sumTodo(FC_CATS.flatMap((k) => sems.get(k) || [])), ico.cards) : ''}
@@ -764,6 +762,8 @@ function renderFlashcards() {
       ${hero(sumTodo(rows) + sumTodo(catRows))}
       <ul class="folder-list">
         ${FC_CATS.filter((k) => catSems.has(k)).map((k) => catRow(k, catSems.get(k))).join('')}
+        ${mixDecks().length > 1 ? folderRow(`#/review/${MIX}`, MIX_NAME,
+          'Cartes de tous les cours, tirées au hasard', mixStats().todo, ico.shuffle) : ''}
         ${sortSems(sems.keys()).map((k) => {
           const rs = sems.get(k);
           const ues = new Set(rs.map((r) => r.loc.ue).filter(Boolean));
@@ -820,10 +820,14 @@ function renderAnnalesUE(sem, ue, kind) {
   const as = annalesOf(sem, ue, kind);
   if (!as.length) { location.hash = `#/${kind}/${enc(sem)}`; return; }
   const c = COLLECTIONS[kind];
+  // Tentative interrompue (gardée par js/reprise-annale.js dans chaque annale).
+  let enCours = {};
+  try { enCours = JSON.parse(localStorage.getItem('memo-annales-encours-v1')) || {}; } catch {}
   const meta = (a) => {
-    const y = annaleYears(a);
-    if (!y) return 'Quiz interactif';
-    return kind === 'annales-nf' ? `Promotion ${y} · quiz interactif` : `Sujets ${y} · quiz interactif`;
+    const y = annaleYears(a), run = enCours[a.href];
+    const reprise = run ? `En cours : ${plural(run.n, 'réponse')}` : 'quiz interactif';
+    if (!y) return run ? reprise : 'Quiz interactif';
+    return kind === 'annales-nf' ? `Promotion ${y} · ${reprise}` : `Sujets ${y} · ${reprise}`;
   };
 
   $app.innerHTML = `${topbarFolder(`#/${kind}/${enc(sem)}`, ueLabel(ue), `${c.short} · ${semLabel(sem)}`)}
@@ -1000,9 +1004,9 @@ function renderReview(id) {
   const mix = id === MIX;
   const d = mix ? { name: MIX_NAME } : store.deck(id);
   // En fermant, on revient au menu d'où part la révision (UE, accueil, recherche…).
-  // À défaut (lien direct, rechargement) : l'accueil pour « Cours mélangés » et
-  // « Scores », le dossier de l'UE pour un cours.
-  const backHref = menuPrecedent || (mix ? '#/' : folderHref(d));
+  // À défaut (lien direct, rechargement) : « Flashcards » pour les flashcards aléatoires,
+  // l'accueil pour « Scores », le dossier de l'UE pour un cours.
+  const backHref = menuPrecedent || (mix ? '#/fc' : folderHref(d));
   const c = session.queue.length ? store.card(session.queue[0]) : null;
 
   if (!c) {
@@ -1170,7 +1174,9 @@ const qCount = (zs) => zs.reduce((n, z) => n + z.questions.length, 0);
 const doneCount = (zs) => zs.reduce((n, z) => n + z.questions.filter((q) => quiz.memoryOf(q.key)).length, 0);
 const quizMeta = (zs) => {
   const n = qCount(zs), done = doneCount(zs);
-  return [plural(n, 'question'), done ? `${done} déjà faite${done > 1 ? 's' : ''}` : ''].filter(Boolean).join(' · ');
+  const run = zs.length === 1 ? quiz.runInfo(`${zs[0].sem}/${zs[0].ue}/${zs[0].slug}`) : null;
+  return [run ? `En cours : question ${run.i + 1}/${run.n}` : plural(n, 'question'),
+    done ? `${done} déjà faite${done > 1 ? 's' : ''}` : ''].filter(Boolean).join(' · ');
 };
 
 /** Quizz → semestres → UE → quiz d'un cours. « Quiz aléatoire » en tête. */
@@ -1186,8 +1192,10 @@ function renderQuizMenu(sem, ue) {
       <main class="page">
         <p class="hint center">QCM et QCU corrigés tout de suite, avec la source du cours.</p>
         <ul class="folder-list">
-          ${folderRow('#/quiz-aleatoire', 'Quiz aléatoire',
-            `${QUIZ_RANDOM_SIZE} questions tirées dans tous les cours`, 0, ico.shuffle)}
+          ${folderRow('#/quiz-aleatoire', 'Quiz aléatoire', (() => {
+            const run = quiz.runInfo(QUIZ_RANDOM);
+            return run ? `En cours : question ${run.i + 1}/${run.n}` : `${QUIZ_RANDOM_SIZE} questions tirées dans tous les cours`;
+          })(), 0, ico.shuffle)}
           ${sems.map((s) => {
             const zs = all.filter((z) => z.sem === s);
             const ues = new Set(zs.map((z) => z.ue));
@@ -1225,8 +1233,13 @@ function renderQuizMenu(sem, ue) {
 }
 
 /** Une série : toutes les questions d'un cours, ou un tirage dans tous les cours. */
-function buildQuizSession(id) {
+function buildQuizSession(id, fresh = false) {
   const all = quiz.loadedQuizzes();
+  if (!fresh) {
+    const pool = id === QUIZ_RANDOM ? all.flatMap((z) => z.questions) : quizBySlug(id)?.questions || [];
+    const back = quiz.restoreRun(id, pool);
+    if (back) { if (back.i > 0) toast(`Reprise à la question ${back.i + 1} sur ${back.items.length}`); return back; }
+  }
   const qs = id === QUIZ_RANDOM
     ? quiz.randomPick(all.flatMap((z) => z.questions), QUIZ_RANDOM_SIZE)
     : quiz.shuffle(quizBySlug(id)?.questions || []);
@@ -1321,6 +1334,7 @@ function renderQuizSession(id) {
               ${q.ref ? `<p class="quiz-ref">Source : cours « ${esc(q.quizTitle)} », ${esc(refLabel(q.ref))}</p>` : ''}
             </section>` : ''}` : ''}
         </article>
+        ${s.i > 0 ? `<button type="button" class="quiz-restart" data-action="quiz-restart">Recommencer ce quiz depuis le début</button>` : ''}
       </main>
       <footer class="answer-bar">
         ${s.validated
@@ -1339,6 +1353,7 @@ function quizPick(k) {
   const q = s.items[s.i].q;
   if (q.multi) { if (s.chosen.has(k)) s.chosen.delete(k); else s.chosen.add(k); }
   else s.chosen = new Set([k]);
+  quiz.saveRun(s);
   render();
 }
 
@@ -1347,6 +1362,7 @@ function quizValidate() {
   if (!s || s.validated || !s.chosen.size) return;
   s.validated = true;
   s.results[quiz.verdict(s.items[s.i].q, s.chosen)]++;
+  quiz.saveRun(s);
   render();
   document.querySelector('.quiz-verdict')?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -1357,12 +1373,37 @@ function quizGrade(g) {
   const q = s.items[s.i].q;
   quiz.remember(q.key, g);
   s.grades[g]++;
-  // Statistiques anonymes : seulement le nombre d'auto-évaluations de chaque niveau.
-  window.goatcounter?.count?.({ path: `quiz-note-${g}`, title: GRADE_NAMES[g], event: true });
   s.i++; s.chosen = new Set(); s.validated = false;
+  quiz.saveRun(s);
+  // Statistiques anonymes, seulement pour un quiz terminé : le quiz, puis le nombre
+  // d'auto-évaluations de chaque niveau (sans les réponses).
+  if (s.i >= s.items.length) {
+    const titre = s.id === QUIZ_RANDOM ? 'Quiz aléatoire' : quizTitle(s.id);
+    statEvents([{ path: `quiz-fini/${titre}`, title: titre },
+      ...s.grades.flatMap((n, k) => Array.from({ length: n }, () => ({ path: `quiz-fini-note-${k}`, title: GRADE_NAMES[k] })))]);
+  }
   window.scrollTo(0, 0);
   render();
 }
+
+/* Événements GoatCounter envoyés un par un (le compteur limite le débit), via une file
+   gardée en mémoire locale : si l'app est fermée pendant l'envoi, la suite part au prochain lancement. */
+const STAT_QUEUE = 'memo-stats-file-v1';
+const readQueue = () => { try { return JSON.parse(localStorage.getItem(STAT_QUEUE)) || []; } catch { return []; } };
+const writeQueue = (q) => { try { if (q.length) localStorage.setItem(STAT_QUEUE, JSON.stringify(q)); else localStorage.removeItem(STAT_QUEUE); } catch {} };
+function statEvents(events) { writeQueue([...readQueue(), ...events].slice(-500)); flushStats(); } // 500 au plus si le compteur est bloqué
+function flushStats() {
+  if (flushStats.busy) return;
+  const q = readQueue();
+  if (!q.length) return;
+  if (!window.goatcounter?.count || !navigator.onLine) { setTimeout(flushStats, 5000); return; }
+  flushStats.busy = true;
+  const [ev, ...rest] = q;
+  writeQueue(rest);
+  window.goatcounter.count({ path: ev.path, title: ev.title || ev.path, event: true });
+  setTimeout(() => { flushStats.busy = false; flushStats(); }, 400);
+}
+addEventListener('online', flushStats);
 
 /* ---------- Fenêtres modales ---------- */
 
@@ -1588,7 +1629,14 @@ $app.addEventListener('click', (e) => {
     case 'quiz-pick': return quizPick(Number(el.dataset.k));
     case 'quiz-validate': return quizValidate();
     case 'quiz-grade': return quizGrade(Number(el.dataset.grade));
-    case 'quiz-again': { qsession = null; return render(); }
+    case 'quiz-again': { if (qsession) quiz.clearRun(qsession.id); qsession = null; return render(); }
+    case 'quiz-restart': {
+      if (!qsession || !confirm('Recommencer ce quiz depuis la première question ?')) return;
+      quiz.clearRun(qsession.id);
+      qsession = buildQuizSession(qsession.id, true);
+      window.scrollTo(0, 0);
+      return render();
+    }
     case 'grade': return grade(Number(el.dataset.grade));
     case 'zoom': return safeSrc(el.dataset.src) && openViewer(el.dataset.src);
     case 'clear-results': {
@@ -1706,6 +1754,7 @@ if ('serviceWorker' in navigator) {
 
 render();
 trackView();
+flushStats();
 updateLibrary(true);
 loadAnnales();
 quiz.loadList().then(() => { if (route().view === 'home' && !modal.open) render(); });

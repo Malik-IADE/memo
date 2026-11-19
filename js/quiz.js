@@ -117,6 +117,55 @@ export function bilan() {
   return n;
 }
 
+/* ---------- Série en cours : reprise après avoir quitté ou fermé l'app ---------- */
+const RUN_KEY = 'memo-quiz-encours-v1';
+const RUN_MAX_AGE = 60 * 24 * 3600 * 1000; // une série abandonnée depuis 60 jours est oubliée
+const readRuns = () => { try { return JSON.parse(localStorage.getItem(RUN_KEY)) || {}; } catch { return {}; } };
+const writeRuns = (runs) => { try { localStorage.setItem(RUN_KEY, JSON.stringify(runs)); } catch {} };
+
+/** Enregistre la série (questions par leur clé, ordre des propositions, position, choix en cours). */
+export function saveRun(s) {
+  const runs = readRuns();
+  if (s.i >= s.items.length) delete runs[s.id];
+  else runs[s.id] = {
+    keys: s.items.map((it) => it.q.key), orders: s.items.map((it) => it.order),
+    i: s.i, chosen: [...s.chosen], validated: s.validated,
+    results: s.results, grades: s.grades, t: Date.now(),
+  };
+  writeRuns(runs);
+}
+export function clearRun(id) { const runs = readRuns(); if (id in runs) { delete runs[id]; writeRuns(runs); } }
+
+/** Série en cours d'un quiz : position et nombre de questions, ou null. */
+export function runInfo(id) {
+  const r = readRuns()[id];
+  return r && Date.now() - r.t < RUN_MAX_AGE && r.i > 0 ? { i: r.i, n: r.keys.length } : null;
+}
+
+/** Reconstruit une série enregistrée avec les questions actuelles (une question retirée du fichier est sautée). */
+export function restoreRun(id, questions) {
+  const r = readRuns()[id];
+  if (!r || Date.now() - r.t >= RUN_MAX_AGE) return null;
+  const byKey = new Map(questions.map((q) => [q.key, q]));
+  const items = [];
+  let i = 0;
+  r.keys.forEach((k, pos) => {
+    const q = byKey.get(k);
+    if (!q) return;
+    const order = Array.isArray(r.orders[pos]) && r.orders[pos].length === q.opts.length ? r.orders[pos] : optionOrder(q);
+    items.push({ q, order });
+    if (pos < r.i) i++;
+  });
+  if (!items.length || i >= items.length) { clearRun(id); return null; }
+  const same = r.keys[r.i] === items[i].q.key; // la question en cours existe toujours
+  return {
+    id, items, i,
+    chosen: new Set(same ? (r.chosen || []).filter((k) => k < items[i].q.opts.length) : []),
+    validated: same && !!r.validated && (r.chosen || []).length > 0,
+    results: { juste: 0, incomplet: 0, faux: 0, ...r.results }, grades: r.grades || [0, 0, 0, 0],
+  };
+}
+
 /** Ordre aléatoire (Fisher-Yates). */
 export function shuffle(a) {
   const r = [...a];
