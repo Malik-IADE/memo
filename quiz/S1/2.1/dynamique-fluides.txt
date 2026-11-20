@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : lois des gaz, oxygénation, réseau de gaz médicaux, secours, circuit d'anesthésie, vaporisateurs, cinétique des halogénés.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Dynamique des fluides
+# Biophysique – Dynamique des fluides
 
 QCM · Fraction et pression partielle
 Concernant la fraction et la pression partielle d'un gaz, quelles propositions sont exactes ?

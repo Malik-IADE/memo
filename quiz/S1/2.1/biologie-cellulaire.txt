@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : génome, transcription, épissage, traduction, structure des protéines, mutations, modes de transmission. Pas de chiffres ni de noms de maladies rares.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Biologie cellulaire
+# Biologie – Cellulaire
 
 QCU · Génome
 Concernant le génome humain, quelle proposition est exacte ?
