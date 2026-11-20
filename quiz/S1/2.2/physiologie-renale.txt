@@ -104,16 +104,6 @@ Concernant les déterminants des volumes liquidiens, quelle proposition est exac
 > Volume extracellulaire = bilan de sel ; volume intracellulaire = bilan d'eau, reflété par l'osmolarité. La natrémie est une concentration : elle renseigne sur l'hydratation des cellules, pas sur le volume extracellulaire, qui s'évalue à part (clinique, poids).
 @ p. 42, 47 et 162
 
-QCU · Osmolarité calculée
-Un patient a une natrémie à 140 mmol/L, une glycémie à 5 mmol/L et une urée à 5 mmol/L. Quelle est son osmolarité plasmatique calculée ?
-- 150 mOsm/L :: Résultat obtenu sans doubler la natrémie.
-- 280 mOsm/L :: Résultat obtenu en oubliant la glycémie et l'urée.
-+ 290 mOsm/L :: (2 × 140) + 5 + 5 = 290.
-- 300 mOsm/L :: Résultat obtenu en doublant aussi la glycémie et l'urée.
-- 310 mOsm/L :: Valeur d'une hyperosmolarité.
-> Osmolarité calculée = (2 × natrémie) + glycémie + urée, toutes en mmol/L. Normale : 280 à 295 mOsm/L.
-@ p. 46
-
 QCM · Déshydratation extracellulaire
 Concernant la déshydratation extracellulaire, quelles propositions sont exactes ?
 + Elle peut exister avec une natrémie normale. :: L'eau et le sel sont perdus en proportions égales.
@@ -203,16 +193,6 @@ Concernant la régulation du débit de filtration glomérulaire, quelles proposi
 - Grâce à l'autorégulation, la diurèse reste indépendante de la PA. :: La diurèse et la natriurèse de pression persistent.
 > L'autorégulation (appareil juxtaglomérulaire, macula densa) maintient le DFG dans une plage de PA, avec des limites (hypotension ou HTA marquées, anesthésie). Sympathique, catécholamines et angiotensine II diminuent le DFG.
 @ p. 83, 84 et 160
-
-QCU · Clairance de la créatinine
-Concernant la clairance de la créatinine d'un patient dont la créatinine urinaire est à 6 mmol/L, la créatininémie à 120 µmol/L et la diurèse à 1 440 mL/24 h, quelle proposition est exacte ?
-+ Elle est d'environ 50 mL/min. :: 6 000 µmol/L × 1 mL/min / 120 µmol/L = 50 mL/min.
-- Elle est d'environ 3 000 mL/min. :: Résultat obtenu avec un débit urinaire en mL/h.
-- Elle est d'environ 0,05 mL/min. :: Résultat obtenu sans convertir les mmol/L en µmol/L.
-- Elle est d'environ 100 mL/min. :: C'est le double du résultat.
-- Elle ne peut pas être calculée sans le poids du patient. :: Le poids sert aux formules d'estimation, pas au calcul sur les urines de 24 h.
-> Clairance = U × V / P. Mettre U et P dans la même unité (6 mmol/L = 6 000 µmol/L) et V en mL/min (1 440 mL / 1 440 min = 1 mL/min). Le résultat a l'unité de V.
-@ p. 86 à 88 et 163
 
 QCM · Estimation du DFG
 Concernant l'estimation du DFG à partir de la créatinine, quelles propositions sont exactes ?
