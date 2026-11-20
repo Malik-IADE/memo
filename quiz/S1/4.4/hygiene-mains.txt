@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : transmission manuportée, flores, lavage et friction, cinq indications, gants, moments clés en anesthésie, prérequis, technique, désinfection chirurgicale, ICSHA, tenue, masques et circulation au bloc. Les normes des produits ne sont pas reprises.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Hygiène des mains
+# Hygiène – Mains
 
 QCM · Transmission croisée
 Concernant la transmission croisée des micro-organismes, quelles propositions sont exactes ?

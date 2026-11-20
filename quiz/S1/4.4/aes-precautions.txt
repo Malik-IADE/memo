@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : définition et risques de l'AES, précautions standard (hygiène respiratoire, protections, excreta, environnement, déchets, objets piquants), conduite à tenir, précautions complémentaires contact et respiratoires au bloc. L'hygiène des mains a son propre quiz. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# AES et précautions
+# Hygiène – AES
 
 QCU · Définition de l'AES
 Concernant la définition d'un accident avec exposition au sang (AES), quelle proposition est exacte ?
