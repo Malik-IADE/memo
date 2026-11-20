@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : récepteurs, pharmacocinétique, profils comparés des hypnotiques, benzodiazépines, neuroleptiques, sujet âgé, prémédication.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Hypnotiques et benzodiazépines
+# Pharmacologie – Hypnotiques et benzodiazépines
 
 QCM · Récepteurs cibles
 Concernant les récepteurs sur lesquels agissent les hypnotiques, quelles propositions sont exactes ?

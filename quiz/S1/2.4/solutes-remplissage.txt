@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : bénéfice attendu, retour veineux, DO2, risques, monitorage et précharge-dépendance, familles de solutés, osmolarité, équilibre acido-basique, NaCl et cristalloïdes balancés, albumine, colloïdes, recommandations. Pas de cas clinique, pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Solutés de remplissage
+# Pharmacologie – Solutés de remplissage
 
 QCM · Objectifs du remplissage
 Concernant les objectifs du remplissage vasculaire, quelles propositions sont exactes ?

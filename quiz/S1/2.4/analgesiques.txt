@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : douleur aiguë et chronique, paracétamol, AINS, corticoïdes, néfopam, MEOPA, anesthésiques locaux, kétamine, analgésie multimodale, DCPC. Les chiffres d'études (NNT, épidémiologie) ne sont pas repris.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Analgésiques
+# Pharmacologie – Analgésiques non morphiniques
 
 QCU · Douleur chronique
 Concernant la douleur chronique, quelle proposition est exacte ?

@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : nociception, récepteurs opioïdes, pharmacocinétique comparée, conduite peropératoire, effets indésirables, antagonistes, terrains particuliers. Partie historique non reprise.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Morphiniques
+# Pharmacologie – Morphiniques
 
 QCM · Douleur et nociception
 Concernant la distinction entre douleur et nociception, quelles propositions sont exactes ?

@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : propriétés physiques, circuit filtre, pharmacocinétique, MAC, effets respiratoires, toxicité, réveil, N₂O. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Anesthésiques inhalés
+# Pharmacologie – Anesthésiques inhalés
 
 QCU · Volatil ou gazeux
 Parmi les agents suivants, lequel est un gaz à 20 °C, et non un liquide volatil à vaporiser ?
