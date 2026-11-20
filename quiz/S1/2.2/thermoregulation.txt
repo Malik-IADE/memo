@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : homéothermie, seuils, effets de l'anesthésie, redistribution, pertes, terrains à risque, conséquences, préchauffage, réchauffement cutané et des fluides, monitorage. Les chiffres des études ne sont pas repris.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Thermorégulation
+# Physiologie – Thermorégulation
 
 QCU · Homéothermie
 Concernant l'homéothermie, quelle proposition est exacte ?

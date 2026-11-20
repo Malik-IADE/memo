@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : compartiments, osmolarité, ADH et SRAA, troubles de l'hydratation, solutés, filtration glomérulaire, clairance, insuffisance rénale aiguë et chronique, potassium, calcium. Pas de chiffres épidémiologiques ni d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Physiologie rénale
+# Physiologie – Rénale
 
 QCM · Compartiments liquidiens
 Concernant la répartition de l'eau chez un adulte de 70 kg, quelles propositions sont exactes ?

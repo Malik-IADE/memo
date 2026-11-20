@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : anatomie, circulation pulmonaire, rapports ventilation/perfusion, mécanique, volumes, gaz du sang, transport des gaz, commande, effets de l'anesthésie. Pas de valeurs normales isolées à apprendre.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Physiologie respiratoire
+# Physiologie – Respiratoire
 
 QCM · Voies aériennes supérieures
 Concernant les voies aériennes supérieures, quelles propositions sont exactes ?

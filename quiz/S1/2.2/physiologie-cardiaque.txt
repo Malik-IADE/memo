@@ -1,7 +1,7 @@
 // Quiz – Physiologie cardiaque (UE 2.2), d'après « QUIZZ 7 Physiologie Cardiaque.html », relu et corrigé.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication, « > » correction, « @ » source.
 
-# Physiologie cardiaque
+# Physiologie – Cardiaque
 
 QCM · Circulations
 Quelles affirmations sur les circulations pulmonaire et systémique sont exactes ?

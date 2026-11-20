@@ -1,7 +1,7 @@
 // Quiz 27 – Curares (UE 2.2), d'après « QUIZZ 27 Curares.html », relu et corrigé.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Curares
+# Physiologie – Jonction neuromusculaire et curares
 
 QCM · Plaque motrice
 Quelles affirmations sur la transmission neuromusculaire, du bouton terminal du motoneurone au muscle, sont exactes ?

@@ -1,7 +1,7 @@
 // Quiz – Neurophysiologie (UE 2.2), d'après « QUIZZ 16 Neuro.html », relu et corrigé.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication, « > » correction, « @ » source.
 
-# Neurophysiologie
+# Physiologie – Système nerveux central
 
 QCM · Évaluation neurologique
 Quelles affirmations sur l'évaluation des fonctions du système nerveux central sont exactes ?
