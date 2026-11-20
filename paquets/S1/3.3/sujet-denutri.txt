@@ -3,7 +3,7 @@
 // Prévalences, études et dates de recommandations du support ne sont pas reprises.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Sujet dénutri
+# IADE – Anesthésie – Patient dénutri
 
 // ---------- Définitions ----------
 Qu'est-ce que la dénutrition ? :: Un déséquilibre nutritionnel par manque d'apports, hausse des dépenses ou des pertes, ou leur association

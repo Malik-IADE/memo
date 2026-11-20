@@ -3,7 +3,7 @@
 // Les incidences, pourcentages et études citées dans le support ne sont pas reprises.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Estomac plein
+# IADE – Anesthésie – Patient à estomac plein
 
 // ---------- Inhalation ----------
 Quels sont les trois noms de l'induction pour estomac plein ? :: Induction en séquence rapide (ISR)\nAnesthésie pour estomac plein\nCrush induction\nObjectif commun : éviter une inhalation bronchique

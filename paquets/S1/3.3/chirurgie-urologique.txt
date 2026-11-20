@@ -3,7 +3,7 @@
 // Chiffres d'activité, coûts, pourcentages de complications et études du support ne sont pas repris.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Chirurgie urologique
+# IADE – Chirurgie – Urologique
 
 // ---------- Généralités ----------
 Quels sont les trois grands risques de la chirurgie urologique ? :: Infectieux\nHémorragique\nThrombo-embolique

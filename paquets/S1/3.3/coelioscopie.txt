@@ -3,7 +3,7 @@
 // Non repris : historique, chiffres d'études, nombre de trocarts ; l'analgésie et l'intubation en cœlioscopie sont dans le paquet Chirurgie digestive, les complications du robot dans Chirurgie urologique.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Cœlioscopie
+# IADE – Chirurgie – Cœlioscopique
 
 // ---------- Principe, indications ----------
 Qu'est-ce qu'un pneumopéritoine ? :: L'espace de travail créé en insufflant du CO2 dans la cavité péritonéale\nIl augmente la pression intra-abdominale (PIA)\nL'insufflateur maintient une pression autorégulée, affichée en mmHg

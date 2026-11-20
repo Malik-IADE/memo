@@ -3,7 +3,7 @@
 // Non repris : historique et proportion d'actes hors bloc, analyses de sinistralité, détail des gestes de radiologie. Radioprotection (UE 4.4) et décubitus ventral (« Positions chirurgicales », UE 3.1) sont repris ici seulement sous l'angle du hors bloc.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Anesthésie hors bloc
+# IADE – Anesthésie – Hors bloc opératoire
 
 // ---------- Définition et enjeux ----------
 Qu'est-ce que l'anesthésie hors bloc opératoire ? :: Tout acte d'anesthésie réalisé en dehors d'un bloc opératoire\nPour permettre un geste diagnostique ou thérapeutique

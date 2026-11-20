@@ -4,7 +4,7 @@
 // « //= ancienne question » : carte reformulée, la progression est conservée.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Chirurgie orthopédique
+# IADE – Chirurgie – Orthopédique
 
 // ---------- Terrain ----------
 //= Qu'est-ce que la polyarthrite rhumatoïde, et quelles sont ses conséquences anesthésiques ?

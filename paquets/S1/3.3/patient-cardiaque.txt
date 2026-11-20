@@ -3,7 +3,7 @@
 // NYHA, MET et score de Lee sont détaillés dans le paquet « Scores » ; l'HTA dans « Patient hypertendu ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Patient cardiaque
+# IADE – Anesthésie – Patient cardiaque
 
 // ---------- Définitions ----------
 Qu'est-ce que l'insuffisance cardiaque ? :: Le cœur ne couvre plus les besoins de l'organisme\nDiastolique : il se remplit mal\nSystolique : il éjecte mal\nEn aval : organes mal perfusés\nEn amont, la congestion : œdème pulmonaire à gauche ; foie, jugulaires et reins à droite

@@ -3,7 +3,7 @@
 // Non repris : épidémiologie et chiffres de consommation, coûts, programme de l'OMS, détail ligne par ligne des tableaux de substances. Paracétamol chez l'alcoolique (« Analgésiques ») et MAC (« Anesthésiques inhalés ») sont abordés ici sous un autre angle.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Patient addict
+# IADE – Anesthésie – Patient addictif
 
 // ---------- Mécanismes et classes de substances ----------
 Comment une première consommation peut-elle mener à l'addiction ? :: Le produit active le circuit de la récompense : libération de dopamine, plaisir\nL'apprentissage mémorise le lien produit–sensation, ce qui pousse à recommencer\nDes adaptations cérébrales s'installent : tolérance, puis dépendance\nPerte de contrôle : la consommation continue malgré ses conséquences\nÀ l'arrêt, le manque pousse à reconsommer et favorise les rechutes

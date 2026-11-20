@@ -3,7 +3,7 @@
 // Épidémiologie, études et dates de recommandations du support ne sont pas reprises.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Sujet âgé
+# IADE – Anesthésie – Patient âgé
 
 // ---------- Vieillissement et fragilité ----------
 Qu'est-ce que la fragilité ? :: Une faible capacité à faire face à un événement aigu, avec un risque de basculer vers la dépendance\nLe patient fragile paraît robuste au repos mais a peu de réserves

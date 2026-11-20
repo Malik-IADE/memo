@@ -3,7 +3,7 @@
 // La physiologie détaillée du pneumopéritoine (PIA, embolie gazeuse…) n'est pas dans ce cours : cartes Anki correspondantes non reprises.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Chirurgie digestive
+# IADE – Chirurgie – Digestive
 
 // ---------- Anatomie ----------
 Que contiennent les étages sus- et sous-mésocolique ? :: Sus-mésocolique : œsophage abdominal, estomac, duodéno-pancréas, rate, foie, voies biliaires\nSous-mésocolique : intestin grêle, côlon, rectum\nLimite : le côlon transverse

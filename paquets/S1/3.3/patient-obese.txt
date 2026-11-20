@@ -3,7 +3,7 @@
 // « //= ancienne question » : carte reformulée, la progression est conservée.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Patient obèse
+# IADE – Anesthésie – Patient obèse
 
 // ---------- Définition ----------
 //= Comment calcule-t-on l'IMC, et quels sont ses seuils ?

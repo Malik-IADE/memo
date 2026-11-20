@@ -3,7 +3,7 @@
 // « //= ancienne question » : carte reformulée, la progression est conservée.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – États de choc
+# IADE – Anesthésie – États de choc
 
 // ---------- Définition ----------
 Qu'est-ce qu'un état de choc ? :: Une insuffisance circulatoire aiguë qui entraîne une hypoxie des tissus\nLes apports en oxygène ne couvrent plus les besoins\nUne urgence, à la fois diagnostique et thérapeutique

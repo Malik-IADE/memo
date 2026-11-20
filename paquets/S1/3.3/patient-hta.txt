@@ -3,7 +3,7 @@
 // Les cartes Anki sur l'insuffisance cardiaque, les valvulopathies et les pacemakers ne sont pas reprises : absentes de ce cours.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Patient hypertendu
+# IADE – Anesthésie – Patient hypertendu
 
 // ---------- Définition ----------
 Quelle est la pression artérielle normale ? :: PAS < 140 mmHg et PAD < 90 mmHg
