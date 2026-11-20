@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : pharmacocinétique (ADME, biodisponibilité, liaison protéique, distribution, clairance, demi-vie, accumulation), pharmacodynamie (récepteurs, dose-effet, puissance, titration), modèles et AIVOC, calculs de dilution, sécurité médicamenteuse. Les constantes des modèles ne sont pas reprises.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Pharmacologie générale
+# Pharmacologie – Générale
 
 QCM · Pharmacocinétique et pharmacodynamie
 Concernant la pharmacocinétique et la pharmacodynamie, quelles propositions sont exactes ?
