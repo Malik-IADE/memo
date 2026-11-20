@@ -3,7 +3,7 @@
 // Études, coûts et tonnages cités dans le support ne sont pas repris.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Gestion des déchets
+# IADE – Hygiène – Gestion des déchets
 
 // ---------- Tri ----------
 Qu'est-ce qu'un DASRI ? :: Un DAS à risque infectieux (micro-organismes viables ou toxines pathogènes)\nOu, même sans risque infectieux : piquants-coupants, produits sanguins incomplètement utilisés ou périmés, déchets anatomiques non identifiables

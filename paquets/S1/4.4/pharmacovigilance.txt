@@ -3,7 +3,7 @@
 // Non repris : historique (Thalidomide, Distilbène, Mediator), chiffres, liste des produits concernés. Hémovigilance et matériovigilance ont leur propre paquet.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Pharmacovigilance
+# IADE – Vigilances – Pharmacovigilance
 
 Qu'est-ce que la pharmacovigilance ? :: La surveillance des médicaments et la prévention du risque d'effet indésirable lié à leur utilisation, que ce risque soit potentiel ou avéré\nElle s'exerce tout au long de la vie du médicament
 Pourquoi faut-il surveiller un médicament après son AMM ? :: Les essais cliniques portent sur peu de patients : ils détectent surtout les effets indésirables fréquents\nAprès l'AMM, beaucoup plus de patients sont exposés : les effets rares, graves ou nouveaux apparaissent\nLe rapport bénéfice/risque peut alors changer

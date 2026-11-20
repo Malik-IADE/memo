@@ -2,7 +2,7 @@
 // Pas de paquet Anki pour ce cours : questions rédigées dans le style Anki à partir du support et de son complément oral.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Tenue au bloc
+# IADE – Hygiène – Tenue au bloc opératoire
 
 // ---------- Tenue de bloc ----------
 Pourquoi la tenue de bloc est-elle importante, et en quelle matière ? :: Le bloc est un secteur à environnement maîtrisé où se font des actes à haut risque infectieux\nLa tenue réduit la contamination de l'air par les squames du personnel et prévient l'infection du site opératoire, principal risque infectieux de la chirurgie\nMatière : non-tissé ou polyester-coton, jamais 100 % coton

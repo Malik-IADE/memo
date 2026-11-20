@@ -2,7 +2,7 @@
 // Questions inspirées d'Anki, vérifiées dans le support de cours. UE 4.4 : 10 cartes au plus, l'essentiel seulement.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Hémovigilance
+# IADE – Vigilances – Hémovigilance
 
 // ---------- Principes et contrôles ----------
 Qu'est-ce que l'hémovigilance, et qui en sont les acteurs ? :: La surveillance des incidents et des effets indésirables chez les donneurs et les receveurs de produits sanguins labiles (PSL)\nDans l'établissement : soignants, correspondant d'hémovigilance, CSTH\nL'EFS, qui délivre les produits\nARS, ANSM

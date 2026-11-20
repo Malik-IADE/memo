@@ -3,7 +3,7 @@
 // Non repris : historique (sang contaminé), lois et décrets, organigramme des agences. Pharmacovigilance, hémovigilance, matériovigilance et radioprotection ont leur propre paquet.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Vigilances sanitaires
+# IADE – Vigilances – Sanitaires
 
 Quel est l'objectif de la veille sanitaire ? :: Détecter au plus vite tout événement de santé inhabituel et répondre aux alertes sanitaires\nLes vigilances ont une triple finalité : alerte, gestion et prévention des risques
 Pourquoi les vigilances sont-elles nécessaires après la mise sur le marché d'un produit de santé ? :: Les études avant commercialisation ne peuvent pas révéler tous les risques\nLe recueil continu des incidents permet de surveiller la sécurité et le bon usage, puis de prendre des mesures correctives ou préventives

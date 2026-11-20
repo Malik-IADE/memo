@@ -2,7 +2,7 @@
 // Questions inspirées d'Anki, vérifiées dans le support de cours. UE 4.4 : 10 cartes au plus, l'essentiel seulement.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Matériovigilance
+# IADE – Vigilances – Matériovigilance
 
 // ---------- Définitions ----------
 Qu'est-ce que la matériovigilance ? :: La surveillance des incidents, des effets indésirables et des risques d'incident liés aux dispositifs médicaux\nIncident : un événement qui perturbe l'action en cours\nRisque d'incident : il aurait pu avoir des conséquences, mais a été évité ou rattrapé à temps\nBut : éviter qu'ils se reproduisent

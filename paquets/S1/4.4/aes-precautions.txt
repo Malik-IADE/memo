@@ -4,7 +4,7 @@
 // « //= ancienne question » : carte reformulée, la progression est conservée.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – AES et précautions
+# IADE – Hygiène – AES
 
 // ---------- AES ----------
 //= Qu'est-ce qu'un accident d'exposition au sang (AES), et quels risques fait-il courir ?

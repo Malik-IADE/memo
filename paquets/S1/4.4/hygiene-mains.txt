@@ -3,7 +3,7 @@
 // La tenue au bloc (complément oral du même cours) est traitée dans le paquet « Tenue au bloc ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Hygiène des mains
+# IADE – Hygiène – Mains
 
 // ---------- Principes ----------
 Quelle est la différence d'action entre le savon et le PHA ? :: Savon doux : enlève les salissures et réduit la flore transitoire\nPHA : désinfecte, élimine la flore transitoire et réduit la flore résidente\nLa friction hydroalcoolique est la technique de référence en routine
