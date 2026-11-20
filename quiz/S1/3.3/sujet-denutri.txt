@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : définition, diagnostic, conséquences, pharmacologie, renutrition, anesthésie. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Patient dénutri
+# Anesthésie – Patient dénutri
 
 QCM · Définitions
 Concernant la définition de la dénutrition et des notions voisines, quelles propositions sont exactes ?

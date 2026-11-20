@@ -2,7 +2,7 @@
 // Questions type examen : mécanismes, classes de substances, alcool, sevrage, tabac, opiacés, cocaïne, cannabis, protoxyde d'azote. Propositions plausibles, pas de chiffres épidémiologiques.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Patient addict
+# Anesthésie – Patient addictif
 
 QCM · Mécanismes de l'addiction
 Concernant les mécanismes de l'addiction, quelles propositions sont exactes ?

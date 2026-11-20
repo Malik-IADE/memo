@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : fragilité, physiologie du vieillissement, pharmacologie, anesthésie, troubles neurocognitifs. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Sujet âgé
+# Anesthésie – Patient âgé
 
 QCU · Fragilité
 Qu'est-ce qu'un sujet âgé « fragile » ?

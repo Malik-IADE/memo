@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : définition, physiopathologie, pharmacocinétique, voies aériennes, ventilation. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Patient obèse
+# Anesthésie – Patient obèse
 
 QCU · Calcul de l'IMC
 Un patient mesure 1,70 m et pèse 104 kg. Quelle est sa classe d'IMC ?

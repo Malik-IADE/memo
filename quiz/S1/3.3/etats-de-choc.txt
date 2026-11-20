@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : définition, transport de l'oxygène, retentissement, étiologies, traitement. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# États de choc
+# Anesthésie – États de choc
 
 QCU · Définition
 Quelle est la définition de l'état de choc ?

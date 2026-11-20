@@ -2,7 +2,7 @@
 // Questions type examen : définitions, évaluation du risque, examens, traitements, agents, valvulopathies, complications, dispositifs implantés. Propositions plausibles, pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Patient cardiaque
+# Anesthésie – Patient cardiaque
 
 QCM · Insuffisance cardiaque
 Concernant l'insuffisance cardiaque, quelles propositions sont exactes ?

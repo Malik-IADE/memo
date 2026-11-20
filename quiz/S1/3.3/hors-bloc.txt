@@ -2,7 +2,7 @@
 // Questions type examen : définitions, risques, sécurité, niveaux de sédation, endoscopie, électroconvulsivothérapie, thrombectomie, radiologie interventionnelle. Propositions plausibles, pas de chiffres d'activité.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Anesthésie hors bloc
+# Anesthésie – Hors bloc opératoire
 
 QCM · Définition et activités
 Concernant l'anesthésie hors bloc opératoire, quelles propositions sont exactes ?

@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : physiologie gastrique, physiopathologie de l'inhalation, pharmacologie, séquence rapide. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Estomac plein
+# Anesthésie – Patient à estomac plein
 
 QCM · Inhalation
 Concernant l'inhalation du contenu gastrique, quelles propositions sont exactes ?

@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : anatomie, physiopathologie, pharmacologie, conduite périopératoire. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Chirurgie digestive
+# Chirurgie – Digestive
 
 QCM · Péritoine
 Concernant le péritoine, quelles propositions sont exactes ?

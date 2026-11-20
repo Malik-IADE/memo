@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : définitions, physiopathologie, pharmacologie, conduite périopératoire. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Patient hypertendu
+# Anesthésie – Patient hypertendu
 
 QCM · Déterminants de la pression artérielle
 Concernant les déterminants de la pression artérielle (PA), quelles propositions sont exactes ?

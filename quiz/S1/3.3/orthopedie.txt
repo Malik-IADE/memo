@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : terrain, garrot, scellement osseux, installation, fracture de hanche. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Orthopédie
+# Chirurgie – Orthopédique
 
 QCM · Rhumatismes inflammatoires
 Concernant la polyarthrite rhumatoïde (PR) et la spondylarthrite ankylosante (SPA), quelles propositions sont exactes ?

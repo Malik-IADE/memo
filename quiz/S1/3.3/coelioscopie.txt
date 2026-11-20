@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : physiopathologie du pneumopéritoine, conduite anesthésique, complications. Pas de chiffres ni de noms d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Cœlioscopie
+# Chirurgie – Cœlioscopique
 
 QCM · Principe
 Concernant le principe de la cœlioscopie, quelles propositions sont exactes ?
