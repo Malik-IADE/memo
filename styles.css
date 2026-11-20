@@ -137,7 +137,9 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .folder-icon { width: 42px; height: 42px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--accent); background: var(--accent-soft); }
 .folder-icon svg { width: 22px; height: 22px; }
 .folder-text { flex: 1; min-width: 0; display: flex; flex-direction: column; }
-.folder-name { font-weight: 650; font-size: 1.02rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.folder-name { font-weight: 650; font-size: 1.02rem; line-height: 1.25; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 340px) { .folder-name { -webkit-line-clamp: 4; } }
 .folder-meta { font-size: .82rem; color: var(--muted); }
 .folder-chev { color: var(--muted); display: inline-flex; }
 .topbar-title { flex: 1; min-width: 0; display: flex; flex-direction: column; align-items: center; }
@@ -148,13 +150,19 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .deck-row { display: flex; align-items: center; gap: 12px; padding: 14px 14px 14px 18px; }
 .deck-row + .deck-row { border-top: 1px solid var(--border); }
 .deck-link { flex: 1; min-width: 0; display: flex; flex-direction: column; }
-.deck-name { font-weight: 600; line-height: 1.25; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow-wrap: anywhere; }
+.deck-name { font-weight: 600; line-height: 1.25; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow-wrap: anywhere; }
 .deck-meta { font-size: .82rem; color: var(--muted); }
 
 .counts { display: inline-flex; gap: 6px; }
 .count { min-width: 30px; padding: 2px 8px; border-radius: 99px; font-size: .82rem; font-weight: 700; text-align: center; font-variant-numeric: tabular-nums; }
 .count.new { color: var(--new); background: color-mix(in srgb, var(--new) 13%, transparent); }
 .count.due { color: var(--due); background: color-mix(in srgb, var(--due) 13%, transparent); }
+/* Sur téléphone, le nom du cours prend toute la largeur ; compteurs et « Réviser » passent dessous. */
+@media (max-width: 420px) {
+  .deck-row { flex-wrap: wrap; row-gap: 10px; }
+  .deck-link { flex-basis: 100%; }
+  .deck-row > .btn { margin-left: auto; }
+}
 
 /* ---------- État vide ---------- */
 .empty, .done { display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center; padding-top: 6vh; }
