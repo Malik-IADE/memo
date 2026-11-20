@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : cadre réglementaire, consultation et visite pré-anesthésique, évaluation du terrain et des voies aériennes, examens complémentaires, gestion du capital sanguin, site d'anesthésie et monitorage, anesthésie générale, SSPI, ALR. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Processus d'anesthésie
+# Anesthésie – Processus d'anesthésie
 
 QCM · Cadre réglementaire
 Concernant les obligations réglementaires du décret de 1994, quelles propositions sont exactes ?

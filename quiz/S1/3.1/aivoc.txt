@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : principe de l'AIVOC, modèles à compartiments, redistribution et accumulation, demi-vies, clairance, site effet, modèles de Marsh, Schnider, Minto, Gepts et Eleveld, bon usage de la pompe, AINOC. Les coefficients des modèles ne sont pas repris.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# AIVOC
+# Anesthésie – AIVOC
 
 QCU · Principe de l'AIVOC
 Concernant l'anesthésie intraveineuse à objectif de concentration (AIVOC), quelle proposition est exacte ?

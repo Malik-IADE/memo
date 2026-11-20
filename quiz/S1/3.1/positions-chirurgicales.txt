@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : responsabilités, mobilisation, décubitus dorsal, position de Rose, proclive, déclive, décubitus latéral et ventral, génu-pectorale, lithotomie, position assise, table orthopédique, prévention des risques. Raisonnement : risque, mécanisme, conséquence, action.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Positions chirurgicales
+# Chirurgie – Positions chirurgicales
 
 QCM · Responsabilités
 Concernant les responsabilités dans la mise en posture chirurgicale, quelles propositions sont exactes ?

@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : intérêt du monitorage cortical, mémorisation, lecture de l'EEG brut, burst-suppression, qualité du signal, indices dérivés, causes d'un BIS bas, artéfacts, nociception, EMG et curares, kétamine, sujet âgé. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# BIS et EEG
+# Monitorage – BIS
 
 QCM · Pourquoi monitorer l'activité corticale
 Concernant l'intérêt du monitorage de l'activité corticale, quelles propositions sont exactes ?

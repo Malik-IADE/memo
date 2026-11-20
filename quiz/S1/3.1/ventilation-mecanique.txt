@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : équation du mouvement, résistances et compliance, pression positive et interactions cœur-poumons, niveau d'assistance, interface, modes, expiration, PEP, pression de plateau, ventilation protectrice, surveillance des courbes, extubation.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Ventilation mécanique
+# Anesthésie – Ventilation mécanique
 
 QCM · Équation du mouvement
 Concernant l'équation du mouvement du système respiratoire (Paw = PEP + R × V′ + Vt/C), quelles propositions sont exactes ?

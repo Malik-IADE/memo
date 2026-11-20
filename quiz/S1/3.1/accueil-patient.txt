@@ -2,7 +2,7 @@
 // Questions type examen : causes et mécanismes de l'anxiété, stress et anxiété, conséquences, concept d'accueil, cadre réglementaire, besoins, confiance, information, communication thérapeutique. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Accueil du patient
+# Anesthésie – Accueil du patient
 
 QCM · Causes d'anxiété liées à l'anesthésie
 Parmi les peurs suivantes, lesquelles font partie des causes fréquentes d'anxiété liées à l'anesthésie ?

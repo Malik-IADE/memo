@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : missions et organisation, transfert, surveillance, complications respiratoires, circulatoires et neurologiques, douleur et NVPO, hypothermie, extubation, spécificités chirurgicales, sortie. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# SSPI
+# Anesthésie – SSPI
 
 QCM · Missions de la SSPI
 Concernant les missions de la SSPI, quelles propositions sont exactes ?

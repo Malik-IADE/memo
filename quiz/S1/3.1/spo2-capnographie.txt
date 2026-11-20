@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : transport de l'oxygène, courbe de dissociation, principe et limites de l'oxymètre, choix du capteur ; physiologie du CO2, technologies, capnogramme, gradient avec la PaCO2, indications, causes de variation, arrêt cardiaque. Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# SpO2 et capnographie
+# Monitorage – SpO2 et capnographie
 
 QCM · Cadre réglementaire
 Concernant la réglementation de l'oxymétrie de pouls et de la capnographie, quelles propositions sont exactes ?

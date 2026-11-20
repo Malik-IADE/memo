@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : but et mécanisme de la préoxygénation, réalisation, évaluation, séquence d'induction, risques, évaluation des effets, oxygénothérapie haut débit (indications, mécanismes, réglages, risques, surveillance). Pas de chiffres d'études.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Préoxygénation
+# Anesthésie – Préoxygénation
 
 QCM · Indication et but
 Concernant l'indication et le but de la préoxygénation, quelles propositions sont exactes ?

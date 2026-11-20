@@ -2,7 +2,7 @@
 // Questions type examen sur les notions générales : composants de la machine, gaz frais, sécurités, évaporateur, by-pass d'O2, circuits ouvert et filtre, chaux sodée, ballon, valve APL, test de fuite, débits selon la phase, ventilateurs, valves proportionnelles, évacuation des gaz.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Respirateur
+# Anesthésie – Respirateur
 
 QCM · Composants de la machine
 Concernant les composants de la machine d'anesthésie, quelles propositions sont exactes ?
