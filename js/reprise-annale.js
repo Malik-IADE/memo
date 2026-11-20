@@ -2,7 +2,8 @@
    Les réponses cochées ou écrites sont gardées au fil de l'eau, par annale,
    et remises en place à la réouverture. Elles sont effacées dès la correction,
    ou avec « Repartir de zéro » / « Tout recommencer ».
-   Script commun aux pages d'annales : il ne touche qu'au formulaire #quiz. */
+   Script commun aux pages d'annales : il ne touche qu'au formulaire #quiz.
+   Le second bloc, en fin de fichier, replie la barre de navigation sur mobile. */
 (function () {
   var CLE = 'memo-annales-encours-v1';
   var DUREE = 60 * 24 * 3600 * 1000; // une tentative abandonnée depuis 60 jours est oubliée
@@ -112,4 +113,46 @@
   document.head.appendChild(style);
   form.parentNode.insertBefore(bandeau, form);
   function retirerBandeau() { if (bandeau && bandeau.parentNode) bandeau.parentNode.removeChild(bandeau); }
+})();
+
+/* Mémo : sur mobile, la barre « QCM · QCU · Questions ouvertes · Corriger » se replie
+   quand on descend dans le sujet, pour lui laisser la place, et revient quand on
+   remonte, en haut de page et au moment de la correction. */
+(function () {
+  var nav = document.querySelector('nav.nav');
+  if (!nav) return;
+  var mobile = matchMedia('(max-width: 760px)');
+  var SEUIL = 24;          // pixels de défilement dans le même sens avant de changer d'état
+  var dernier = scrollY, cumul = 0, bloqueJusqua = 0;
+
+  var style = document.createElement('style');
+  style.textContent = 'nav.nav{transition:transform .25s ease,opacity .2s ease,visibility 0s}' +
+    'nav.nav.memo-nav-cachee{transform:translateY(-100%);opacity:0;visibility:hidden;pointer-events:none;' +
+    'transition:transform .25s ease,opacity .2s ease,visibility 0s linear .25s}' +
+    '@media (prefers-reduced-motion:reduce){nav.nav,nav.nav.memo-nav-cachee{transition:none}}';
+  document.head.appendChild(style);
+
+  function montrer() { nav.classList.remove('memo-nav-cachee'); }
+  function cacher() { if (!nav.contains(document.activeElement)) nav.classList.add('memo-nav-cachee'); }
+
+  addEventListener('scroll', function () {
+    var y = scrollY, d = y - dernier;
+    dernier = y;
+    if (!mobile.matches || y < 120) { montrer(); cumul = 0; return; }
+    if (Date.now() < bloqueJusqua) return;
+    if (d === 0) return;
+    if ((d > 0) !== (cumul > 0)) cumul = 0;   // changement de sens : on repart de zéro
+    cumul += d;
+    if (cumul > SEUIL) cacher();
+    else if (cumul < -SEUIL) montrer();
+  }, { passive: true });
+
+  if (mobile.addEventListener) mobile.addEventListener('change', montrer);
+
+  // Correction affichée : la barre revient, sans se replier aussitôt pendant
+  // le défilement automatique vers le résultat.
+  var resultats = document.getElementById('results');
+  if (resultats) new MutationObserver(function () {
+    if (!resultats.hidden) { montrer(); cumul = 0; bloqueJusqua = Date.now() + 1200; }
+  }).observe(resultats, { attributes: true, attributeFilter: ['hidden'] });
 })();
