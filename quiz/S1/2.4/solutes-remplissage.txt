@@ -1,0 +1,285 @@
+// Quiz – Solutés de remplissage (UE 2.4), écrit le 20 novembre 2026 d'après le support « remplissage avec notes » (diapositives et explications de l'oral).
+// Questions type examen sur les notions générales : bénéfice attendu, retour veineux, DO2, risques, monitorage et précharge-dépendance, familles de solutés, osmolarité, équilibre acido-basique, NaCl et cristalloïdes balancés, albumine, colloïdes, recommandations. Pas de cas clinique, pas de chiffres d'études.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Solutés de remplissage
+
+QCM · Objectifs du remplissage
+Concernant les objectifs du remplissage vasculaire, quelles propositions sont exactes ?
++ Le remplissage vise d'abord à augmenter le retour veineux. :: C'est le premier maillon de la chaîne recherchée.
++ Il n'améliore le débit cardiaque que si le patient est précharge-dépendant. :: Les deux ventricules doivent éjecter le volume reçu.
+- La présence d'une voie veineuse suffit à justifier un remplissage d'entretien. :: Une voie veineuse n'est pas une indication.
++ L'objectif final est d'adapter la délivrance en oxygène aux besoins des tissus. :: Retour veineux, débit, DO2, puis adéquation à la VO2.
++ Il se discute comme un traitement, avec une balance bénéfice-risque. :: Indication, monitorage, choix du soluté.
+> Avant de remplir : pourquoi (bénéfice attendu), comment vérifier l'effet (monitorage), avec quoi (soluté). La chaîne recherchée va du retour veineux au débit cardiaque, puis à la DO2 et à l'adéquation aux besoins en O2.
+@ p. 2 à 16
+
+QCU · Retour veineux
+Concernant le retour veineux, quelle proposition est exacte ?
+- Il augmente quand la pression de l'oreillette droite augmente. :: La POD s'oppose au retour : le gradient diminue.
++ Il dépend du gradient entre pression systémique moyenne et pression de l'oreillette droite. :: RV = (PSM − POD) / résistances au retour veineux.
+- Il est indépendant des résistances qui s'opposent à l'écoulement veineux. :: Les résistances sont au dénominateur de la relation.
+- La pression systémique moyenne est la pression artérielle moyenne mesurée au brassard. :: C'est la pression des vaisseaux à débit nul (7 à 12 mmHg).
+- Le remplissage l'augmente en diminuant la pression systémique moyenne. :: Il l'augmente en élevant la pression systémique moyenne.
+> Retour veineux = (pression systémique moyenne − POD) / résistances au retour veineux. Le remplissage élève la pression systémique moyenne ; une POD qui monte réduit le gradient moteur.
+@ p. 7 à 10
+
+QCM · Précharge-dépendance
+Concernant la relation entre remplissage et débit cardiaque, quelles propositions sont exactes ?
+- Sur le plateau de la courbe de Frank-Starling, un remplissage augmente nettement le VES. :: Le gain devient faible et le risque de surcharge augmente.
+- Une augmentation du débit cardiaque garantit une hausse de la pression artérielle. :: La PA est une étape distincte, qui dépend aussi des résistances.
++ Le débit n'augmente que si les deux ventricules éjectent le volume supplémentaire. :: C'est la définition de la précharge-dépendance.
+- La POD et la PAPO prédisent de façon fiable la réponse au remplissage. :: Ce sont des pressions statiques, qui prédisent mal la réponse.
+- Le cœur contrôle seul son débit, indépendamment du retour veineux. :: Le débit cardiaque dépend principalement du retour veineux.
+> Le débit cardiaque dépend du retour veineux, mais ne monte au remplissage que si le patient est précharge-dépendant (partie ascendante de la courbe). Les pressions de remplissage ne suffisent pas à prédire cette réponse.
+@ p. 11 à 13
+
+QCU · Contenu artériel en oxygène
+Concernant le contenu artériel en oxygène (CaO2 = 1,38 × Hb × SaO2 + 0,003 × PaO2), quelle proposition est exacte ?
+- L'oxygène dissous en représente la plus grande part. :: Son coefficient (0,003) le rend presque négligeable.
+- Il ne dépend pas de l'hémoglobine quand la SaO2 est normale. :: L'hémoglobine est le principal transporteur.
++ L'oxygène lié à l'hémoglobine en représente l'essentiel. :: D'où l'importance de l'Hb et de la SaO2.
+- Il suffit de connaître la PaO2 pour l'estimer. :: Il faut l'Hb et la SaO2.
+- Il est égal à la délivrance en oxygène (DO2). :: La DO2 = débit cardiaque × CaO2.
+> DO2 = débit cardiaque × CaO2. L'O2 dissous pèse peu : l'hémoglobine, la saturation et le débit déterminent l'oxygène apporté aux tissus. Une SpO2 rassurante ne remplace pas l'évaluation de l'Hb et du débit.
+@ p. 14
+
+QCM · DO2 et VO2
+Concernant la relation entre délivrance (DO2) et consommation (VO2) en oxygène, quelles propositions sont exactes ?
+- Augmenter la DO2 augmente la VO2, quel que soit le niveau de DO2. :: Au-dessus de la DO2 critique, la VO2 reste en plateau.
++ En dessous de la DO2 critique, la VO2 diminue. :: L'apport ne couvre plus les besoins.
+- La DO2 critique correspond à la DO2 maximale de l'organisme. :: C'est le seuil sous lequel la consommation baisse.
++ Sous la DO2 critique, la production de lactate augmente. :: Une partie de l'énergie est produite par métabolisme anaérobie.
+- La VO2 s'exprime en millimètres de mercure (mmHg). :: Elle s'exprime en mL d'O2 par minute.
+> Au-dessus de la DO2 critique, la consommation est indépendante de l'apport (plateau). En dessous, la VO2 chute, le métabolisme devient anaérobie et les lactates montent.
+@ p. 15
+
+QCM · Pression et débit
+Concernant la pression artérielle et le débit cardiaque, quelles propositions sont exactes ?
++ Une PA normale peut coexister avec un débit insuffisant. :: La PA est régulée, notamment par la vasoconstriction.
++ Une hypotension avec PAM < 65 mmHg n'est pas forcément liée à une hypovolémie. :: Elle est pathologique, mais ses causes sont multiples.
+- Le débit cardiaque se juge par rapport à une valeur normale fixe. :: Il n'a pas de valeur normale : il est adapté ou non aux besoins.
++ Les variations de PA sont relativement indépendantes de celles du débit, même sous anesthésie. :: C'est pourquoi la PA guide mal le remplissage.
+- Une PA normale témoigne d'une stabilité hémodynamique. :: Elle peut masquer un débit inadapté.
+> La PA renseigne sur la pression de perfusion des organes, mais elle est régulée : une valeur normale ne garantit pas un débit suffisant, et une hypotension n'est pas synonyme d'hypovolémie. Le débit s'apprécie par rapport aux besoins.
+@ p. 17, 31 et 32
+
+QCM · Risques du remplissage
+Concernant les risques d'un remplissage excessif, quelles propositions sont exactes ?
++ Il peut majorer un saignement sur le champ opératoire. :: Par l'augmentation de la pression hydrostatique.
++ Il peut aggraver une hypertension intracrânienne chez le cérébrolésé. :: Par l'œdème cérébral.
+- L'œdème interstitiel améliore l'oxygénation des tissus. :: L'œdème éloigne le globule rouge de la cellule et gêne la diffusion de l'O2.
++ Il peut gêner la récupération respiratoire et motrice. :: La surcharge hydrosodée alourdit les tissus.
+- Il protège de l'hypothermie peropératoire. :: De grands volumes à température ambiante refroidissent le patient.
+> La hausse de pression hydrostatique favorise saignement et œdème (poumon, rein, cerveau, microcirculation). La surcharge gêne la réhabilitation ; s'y ajoutent hypothermie et troubles hydroélectrolytiques et acido-basiques.
+@ p. 19 à 27
+
+QCM · Indices cliniques et statiques
+Concernant les paramètres utilisés de façon empirique pour guider le remplissage, quelles propositions sont exactes ?
++ La fréquence cardiaque varie avec la douleur ou la profondeur d'anesthésie. :: Ses variations sont multifactorielles.
++ Sous bêtabloquant, la FC peut ne pas augmenter malgré une baisse de précharge. :: De même avec le réflexe de Bezold-Jarisch.
++ La diurèse dépend de nombreux facteurs, dont la ventilation. :: Elle ne mesure pas le gain de débit.
+- Une PVC élevée prédit une bonne réponse au remplissage. :: Seule une PVC basse (< 5 mmHg) est en faveur d'une réponse possible.
++ La PA est un mauvais reflet des variations du débit. :: Elle est étroitement régulée.
+> FC, PA, diurèse et PVC sont des indices empiriques ou statiques, influencés par de nombreux facteurs. Ils ne mesurent pas directement la réponse au remplissage et doivent être complétés par une évaluation dynamique.
+@ p. 31 et 32
+
+QCM · Épreuve de remplissage
+Concernant l'épreuve de remplissage titrée, quelles propositions sont exactes ?
++ Elle repose sur la mesure du VES avant et après un bolus. :: C'est la variation obtenue qui compte.
++ Chaque bolus est habituellement de 250 mL. :: Suivi d'une nouvelle mesure du VES.
++ Si le VES n'augmente pas, le remplissage est interrompu. :: On n'empile pas les volumes sans effet.
++ Le Doppler œsophagien est un moyen de suivre le VES. :: D'autres moniteurs de débit existent.
++ Si le VES augmente, le besoin est réévalué avant un nouveau bolus. :: L'effet obtenu doit encore être nécessaire.
+> Stratégie titrée : bolus de 250 mL guidé par le VES, poursuivi tant que le VES augmente et que le besoin persiste, interrompu en l'absence de réponse. Elle réduit les complications et la durée de séjour.
+@ p. 33, 34 et 85
+
+QCM · Interactions cœur-poumon
+Chez un patient en ventilation mécanique, concernant l'effet de l'insufflation sur les ventricules, quelles propositions sont exactes ?
++ Le VES du ventricule droit diminue. :: Précharge diminuée, postcharge augmentée.
+- La précharge du ventricule droit augmente. :: La veine cave est comprimée et la POD augmente : la précharge diminue.
++ Le VES du ventricule gauche augmente transitoirement. :: Effet de chasse des capillaires pulmonaires et postcharge diminuée.
+- La postcharge du ventricule gauche augmente. :: Elle diminue avec la pression intrathoracique.
+- Ces variations disparaissent chez le patient hypovolémique. :: Elles sont au contraire plus marquées en cas de précharge-dépendance.
+> L'insufflation réduit l'éjection du VD et augmente transitoirement celle du VG ; la baisse droite se transmet au VG quelques battements plus tard. Ces variations cycliques fondent les indices dynamiques de précharge-dépendance.
+@ p. 35 et 36
+
+QCU · Seuils du delta-PP
+Concernant les variations respiratoires de la pression pulsée (delta-PP), quelle proposition est exacte ?
+- Un delta-PP de 5 % prédit une hausse du débit au remplissage. :: Sous 9 %, il n'y a pas de précharge-dépendance.
+- La pression pulsée est la différence entre PAM et PAD. :: C'est la différence entre PAS et PAD.
++ Un delta-PP supérieur à 12-13 % prédit une hausse du débit au remplissage. :: C'est le signe d'une précharge-dépendance.
+- Un delta-PP élevé contre-indique le remplissage. :: Il indique qu'un remplissage augmentera probablement le débit.
+- Le delta-PP s'interprète chez le patient en ventilation spontanée. :: Il suppose une ventilation mécanique.
+> Pression pulsée = PAS − PAD. Delta-PP > 12-13 % : précharge-dépendance ; < 9 % : absence de précharge-dépendance. Ces seuils ne valent que si les conditions d'interprétation sont réunies.
+@ p. 36 et 37
+
+QCM · Conditions d'interprétation du delta-PP
+Concernant les conditions d'interprétation du delta-PP, quelles propositions sont exactes ?
++ Le patient doit être en rythme sinusal. :: Une arythmie fait varier le VES indépendamment de la ventilation.
+- Une ventilation à petit volume courant (5 mL/kg) le rend plus fiable. :: Il faut un volume courant supérieur à 7 mL/kg.
+- Une chirurgie à thorax ouvert n'en modifie pas l'interprétation. :: Les conditions thoraciques doivent être intactes.
++ Une dysfonction ventriculaire en complique l'interprétation. :: Cœur pulmonaire ou défaillance du VG modifient la réponse.
+- Il reste valable chez le patient en arythmie complète. :: Le rythme doit être sinusal.
+> Le delta-PP n'est interprétable qu'en ventilation mécanique, rythme sinusal, volume courant > 7 mL/kg, thorax et abdomen fermés, sans défaillance ventriculaire. Sinon, il faut évaluer la réponse autrement (épreuve titrée).
+@ p. 38
+
+QCM · ScvO2 et objectifs
+Concernant la ScvO2 et le remplissage guidé par des objectifs, quelles propositions sont exactes ?
++ La ScvO2 reflète l'oxygène restant après l'extraction tissulaire. :: Elle renseigne sur l'équilibre entre apport et consommation.
++ L'objectif de ScvO2 retenu est supérieur à 73 %. :: Mesurée sur un cathéter central.
++ La ScvO2 dépend de la SaO2, de l'hémoglobine, du débit et de la VO2. :: ScvO2 = SaO2 − VO2 / (débit × Hb).
+- Un monitorage hémodynamique est utile même s'il ne modifie aucune décision. :: Il n'a d'intérêt que s'il est associé à des objectifs thérapeutiques.
++ Le remplissage guidé par des objectifs précise la variation recherchée et la conduite à tenir. :: C'est la « goal-directed therapy ».
+> La ScvO2 reflète l'O2 restant après extraction (objectif > 73 %). Le monitorage n'a de sens que s'il guide une décision : paramètre mesuré, variation recherchée, conduite selon la réponse.
+@ p. 39 et 40
+
+QCM · Familles de solutés
+Concernant la classification des solutés de remplissage, quelles propositions sont exactes ?
+- Le Ringer lactate est un colloïde. :: C'est un cristalloïde balancé.
+- L'albumine est un colloïde de synthèse. :: C'est un colloïde naturel, d'origine humaine.
+- Le Plasmion est un hydroxyéthylamidon. :: C'est une gélatine ; le Voluven est un hydroxyéthylamidon.
++ Le Plasmalyte est un cristalloïde. :: Cristalloïde balancé (acétate et gluconate).
+- Le NaCl 0,9 % est un cristalloïde balancé. :: C'est le cristalloïde non balancé de référence.
+> Cristalloïdes : NaCl 0,9 % (non balancé), Ringer lactate, Plasmalyte, Hémosol (balancés). Colloïdes naturels : albumine 4 % et 20 %. Colloïdes de synthèse : gélatines (Plasmion), hydroxyéthylamidons (Voluven), dextrans.
+@ p. 42 et 70
+
+QCM · Efficacité volémique
+Concernant l'efficacité volémique des solutés, quelles propositions sont exactes ?
++ Une faible part d'un cristalloïde perfusé reste dans le secteur vasculaire. :: Environ 20 à 25 mL pour 100 mL, chez le volontaire sain.
+- L'expansion volémique du NaCl 0,9 % dure plusieurs heures. :: Environ 30 minutes.
++ L'altération du glycocalyx chez le malade modifie le devenir du soluté perfusé. :: Les échanges avec les tissus augmentent.
+- Les valeurs mesurées chez le volontaire sain s'appliquent telles quelles au patient septique. :: L'état vasculaire du malade change ces valeurs.
+- L'albumine à 4 % a une efficacité volémique initiale inférieure à celle du Ringer lactate. :: Environ 80 mL pour 100 mL, contre 20 mL.
+> En théorie, pour 100 mL : NaCl 0,9 % 25 mL et Ringer lactate 20 mL (environ 30 min), albumine 4 % 80 mL (6 à 8 h), gélatine 80 à 100 mL (3 à 4 h). Chez le malade, l'altération du glycocalyx rend ces valeurs peu prévisibles.
+@ p. 44 et 46
+
+QCM · Osmolarité et cérébrolésé
+Concernant l'osmolarité des solutés, quelles propositions sont exactes ?
++ Un soluté hypotonique peut aggraver un œdème cérébral. :: L'eau entre dans les cellules cérébrales.
+- Le Ringer lactate est le soluté de choix chez le cérébrolésé. :: Légèrement hypotonique (279 mOsm/L), il n'est pas recommandé.
+- Un soluté isotonique fait entrer l'eau dans les cellules. :: Il ne crée pas de gradient osmotique.
++ Le NaCl 0,9 % est légèrement hypertonique par rapport au plasma. :: 308 mOsm/L contre environ 285.
+- Un soluté hypertonique augmente le volume intracellulaire. :: Il attire l'eau hors des cellules.
+> L'osmolarité du soluté détermine les mouvements d'eau entre cellules et secteur extracellulaire. Chez le cérébrolésé, éviter les solutés hypotoniques (Ringer lactate, 279 mOsm/L) : NaCl 0,9 % (308) ou balancé isotonique (Plasmalyte, 295).
+@ p. 52 à 58, 71, 81 et 87
+
+QCU · Trou anionique
+Un patient a une natrémie à 140 mmol/L, une chlorémie à 112 mmol/L et des bicarbonates à 16 mmol/L. Concernant son trou anionique, quelle proposition est exacte ?
++ Il est de 12 mEq/L, normal : l'acidose est hyperchlorémique. :: 140 − (112 + 16) = 12.
+- Il est de 28 mEq/L, augmenté : l'acidose est lactique. :: Résultat obtenu en oubliant les bicarbonates dans le calcul.
+- Il est de 44 mEq/L, augmenté : l'acidose est due à l'insuffisance rénale. :: Résultat obtenu en ajoutant les bicarbonates au lieu de les soustraire.
+- Il est de 4 mEq/L, abaissé : l'acidose est respiratoire. :: Le calcul est faux, et le trou anionique concerne les acidoses métaboliques.
+- Il ne peut pas être calculé sans la kaliémie. :: La formule n'utilise que Na⁺, Cl⁻ et HCO3⁻.
+> Trou anionique = Na⁺ − (Cl⁻ + HCO3⁻), normale 12 ± 4 mEq/L. Une acidose à trou anionique normal est hyperchlorémique : perte de bicarbonates ou apports massifs de NaCl.
+@ p. 62 à 64
+
+QCM · Acidose métabolique
+Concernant les acidoses métaboliques, quelles propositions sont exactes ?
+- Une acidose lactique s'accompagne d'un trou anionique normal. :: Le lactate augmente le trou anionique.
++ Une diarrhée abondante peut donner une acidose à trou anionique normal. :: Par perte digestive de bicarbonates.
+- Dans une acidose métabolique, la PaCO2 augmente en compensation. :: Elle diminue : la ventilation augmente.
++ L'insuffisance rénale peut donner une acidose à trou anionique augmenté. :: Par défaut d'excrétion des acides.
+- Les bicarbonates plasmatiques dépendent surtout de la ventilation. :: Ils dépendent surtout du rein ; la PaCO2 dépend de la ventilation.
+> Acidose métabolique : pH et HCO3⁻ bas, PaCO2 abaissée en compensation. Trou anionique augmenté : lactate, acétate, phosphate, insuffisance rénale. Trou anionique normal (hyperchlorémique) : diarrhée, fistule, acidose tubulaire, NaCl en excès.
+@ p. 60 à 64
+
+QCM · Composition du NaCl 0,9 %
+Concernant la composition du NaCl 0,9 %, quelles propositions sont exactes ?
+- Il contient 140 mmol/L de sodium, comme le plasma. :: Il en contient 154 mmol/L.
+- Sa chlorémie est proche de celle du plasma. :: 154 mmol/L de chlore, contre environ 100 dans le plasma.
+- Son pH est proche de 7,4. :: Il est d'environ 5,6.
+- Il apporte du potassium et du calcium. :: Il ne contient que du sodium et du chlore.
++ Il contient 9 g de NaCl par litre. :: 0,9 g pour 100 mL.
+> NaCl 0,9 % : 9 g/L, soit 154 mmol/L de sodium et de chlore, 308 mOsm/L, pH 5,6, sans potassium, calcium ni bicarbonates. Le terme « physiologique » ne décrit pas son effet sur le milieu intérieur.
+@ p. 65 à 67
+
+QCM · Risques du NaCl 0,9 %
+Concernant un remplissage abondant au NaCl 0,9 %, quelles propositions sont exactes ?
++ Il expose à une hyperchlorémie. :: Par l'apport important de chlore.
++ Il peut entraîner une acidose métabolique hyperchlorémique. :: À trou anionique normal.
++ Il peut augmenter la kaliémie par l'intermédiaire de l'acidose. :: L'acidose fait sortir le potassium des cellules.
+- Il est contre-indiqué chez le cérébrolésé en raison de son hypotonie. :: Il est légèrement hypertonique et utilisable chez le cérébrolésé.
++ Il a des effets rénaux défavorables. :: Avec des effets immunologiques.
+> Un remplissage abondant au NaCl 0,9 % entraîne hyperchlorémie et acidose hyperchlorémique, avec des effets rénaux et immunologiques et une possible hausse de la kaliémie par transfert. D'où la préférence pour les cristalloïdes balancés.
+@ p. 67, 68, 72 et 87
+
+QCM · Cristalloïdes balancés
+Concernant les cristalloïdes balancés, quelles propositions sont exactes ?
++ Une partie du chlore y est remplacée par un autre anion. :: C'est leur définition.
++ Le Ringer lactate contient du lactate à la place d'une partie du chlore. :: Environ 28 mmol/L.
++ Le Plasmalyte contient de l'acétate et du gluconate. :: Ses taux de sodium et de chlore sont proches du plasma.
++ Le lactate du Ringer est transformé en bicarbonate par le foie. :: Via le pyruvate et le cycle de Krebs.
++ Ils sont à privilégier pour un remplissage important. :: Ils limitent la charge en chlore.
+> Les cristalloïdes balancés remplacent une partie du chlore par du lactate (Ringer), de l'acétate et du gluconate (Plasmalyte) ou du bicarbonate (Hémosol). Ils limitent l'acidose hyperchlorémique et sont préférés pour les remplissages importants.
+@ p. 70 à 73
+
+QCM · Ringer lactate
+Concernant le Ringer lactate, quelles propositions sont exactes ?
+- Il est contre-indiqué en cas d'hyperkaliémie. :: Il contient peu de potassium et n'entraîne pas d'acidose hyperchlorémique.
+- Il est légèrement hypertonique par rapport au plasma. :: Il est légèrement hypotonique (279 mOsm/L).
++ Sa concentration en sodium est inférieure à celle du plasma. :: Environ 130 mmol/L.
+- Il est recommandé en première intention chez le cérébrolésé. :: Son hypotonie le fait déconseiller.
+- Il est un traitement reconnu de l'hyperkaliémie. :: La baisse observée en greffe rénale ne se généralise pas.
+> Ringer lactate : sodium 130, chlore environ 110, lactate 28 mmol/L, 279 mOsm/L, un peu de potassium et de calcium. Utilisable malgré une hyperkaliémie, déconseillé chez le cérébrolésé.
+@ p. 71, 72 et 87
+
+QCM · Albumine
+Concernant l'albumine, quelles propositions sont exactes ?
++ Elle est synthétisée par le foie, à raison de 10 à 15 g par jour. :: Sa demi-vie est d'environ 19 jours.
+- Elle est recommandée en première intention au bloc. :: Aucun argument ne la fait préférer aux autres solutés.
++ Elle participe au transport de la bilirubine, d'hormones et de médicaments. :: Ses rôles dépassent la pression oncotique.
+- Sa demi-vie plasmatique est de quelques heures seulement. :: Elle est d'environ 19 jours.
+- L'insuffisance cardiaque décompensée en est une indication. :: C'est une contre-indication, comme la surcharge volémique.
+> L'albumine (4 % ou 20 %) est un dérivé du sang humain, coûteux, avec un risque théorique de transmission et des contre-indications (surcharge, insuffisance cardiaque décompensée, allergie). Elle se discute dans des indications choisies (cirrhose, certains chocs septiques réfractaires).
+@ p. 75 à 78
+
+QCM · Colloïdes de synthèse
+Concernant les colloïdes de synthèse, quelles propositions sont exactes ?
++ Ils exposent à un risque d'anaphylaxie. :: Gélatines comme hydroxyéthylamidons.
++ Les hydroxyéthylamidons peuvent altérer la coagulation. :: Ils sont contre-indiqués en cas de coagulopathie sévère.
++ Les hydroxyéthylamidons sont contre-indiqués dans le sepsis. :: Ainsi qu'en insuffisance rénale.
++ Les gélatines ne doivent pas être mélangées à une transfusion. :: Précaution d'emploi du Plasmion.
++ Leur place est aujourd'hui très limitée. :: Ils ne sont presque plus utilisés.
+> Gélatines (Plasmion) et hydroxyéthylamidons (Voluven) exposent à l'anaphylaxie ; les hydroxyéthylamidons aussi aux troubles de la coagulation et à l'insuffisance rénale (contre-indiqués dans le sepsis). Ils ne sont presque plus utilisés.
+@ p. 79 et 80
+
+QCM · Choix du soluté
+Concernant le choix du soluté selon la situation, quelles propositions sont exactes ?
++ Les cristalloïdes sont les solutés de première intention. :: De préférence balancés.
++ Au bloc opératoire, les cristalloïdes balancés sont à privilégier. :: Ils limitent l'acidose hyperchlorémique.
++ Dans le choc septique, les cristalloïdes balancés sont recommandés. :: Ils limitent l'acidose hyperchlorémique.
++ Dans le choc anaphylactique, le remplissage se fait par cristalloïdes. :: Avec le traitement spécifique.
++ Le choix du soluté ne doit pas suivre une alternance fixe des poches. :: Il dépend de l'état du patient et de son équilibre acido-basique.
+> Cristalloïdes en première intention, de préférence balancés (anesthésie, choc septique). Cérébrolésé : NaCl 0,9 % ou balancé isotonique, pas de Ringer lactate. Choc hémorragique et anaphylaxie : cristalloïdes. Pas d'alternance automatique des poches.
+@ p. 81 et 87
+
+QCM · Recommandations en obstétrique
+Concernant le remplissage en obstétrique, quelles propositions sont exactes ?
+- Un remplissage systématique est recommandé avant une péridurale de travail. :: Il n'est pas recommandé ; l'éphédrine traite l'hypotension.
++ L'éphédrine reste le traitement de base de l'hypotension sous péridurale de travail. :: À faible dose.
+- Un pré-remplissage est recommandé avant une rachianesthésie pour césarienne. :: Il n'est pas recommandé.
++ Pour une césarienne sous rachianesthésie, cristalloïdes et vasoconstricteur sont associés à l'installation. :: 1 à 2 L de cristalloïdes avec de la phényléphrine.
+- Les colloïdes de synthèse sont recommandés pour prévenir l'hypotension de la rachianesthésie. :: Ce sont les cristalloïdes, associés à un vasoconstricteur.
+> Péridurale de travail : pas de remplissage systématique, éphédrine en cas d'hypotension. Rachianesthésie pour césarienne : pas de pré-remplissage, mais 1 à 2 L de cristalloïdes à l'installation avec un vasoconstricteur (phényléphrine).
+@ p. 84
+
+QCU · Chirurgie mineure
+Concernant le remplissage pour une chirurgie mineure de moins de 2 h, quelle proposition est exacte ?
+- Le remplissage n'est pas recommandé dans cette situation. :: Un apport est recommandé, pour réduire les NVPO.
++ Un apport de 15 à 30 mL/kg de cristalloïdes est recommandé. :: Il réduit les nausées-vomissements et le recours aux antiémétiques.
+- Un apport de 15 à 30 mL/kg d'albumine à 4 % est recommandé. :: Ce sont des cristalloïdes.
+- Un apport de 2 à 5 mL/kg de cristalloïdes suffit. :: Le volume recommandé est de 15 à 30 mL/kg.
+- L'apport a pour objectif de prévenir l'insuffisance rénale postopératoire. :: L'objectif cité est la réduction des NVPO.
+> En chirurgie mineure (< 2 h), 15 à 30 mL/kg de cristalloïdes réduisent les nausées-vomissements postopératoires et le recours aux antiémétiques.
+@ p. 83
+
+QCM · Patient à haut risque
+Concernant le remplissage du patient chirurgical à haut risque, quelles propositions sont exactes ?
++ Le remplissage est titré en se guidant sur le VES. :: Par épreuves successives.
+- La valeur absolue du VES suffit à décider du remplissage. :: C'est sa variation après remplissage qui compte.
++ Le remplissage est interrompu en l'absence d'augmentation du VES. :: Le patient ne répond plus.
++ Un delta-PP inférieur à 9 % dispense de tester l'augmentation du VES. :: Il indique l'absence de précharge-dépendance.
++ Cette stratégie vise à réduire la morbidité et la durée de séjour. :: Et à accélérer la reprise de l'alimentation en chirurgie digestive.
+> Chez le patient à haut risque : titrer sur la variation du VES (Doppler œsophagien de préférence), arrêter sans augmentation, réévaluer lors des instabilités. Objectifs : moins de morbidité, séjour plus court, reprise alimentaire plus rapide.
+@ p. 85
