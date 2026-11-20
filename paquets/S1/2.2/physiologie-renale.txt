@@ -3,7 +3,7 @@
 // Abordés ailleurs, repris ici sous un autre angle : ECG et rôle du calcium dans l'hyperkaliémie (« Physiologie cardiaque »), patient dialysé (« Chirurgie urologique »), créatinine du sujet âgé (« Sujet âgé »).
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Physiologie rénale
+# IADE – Physiologie – Rénale
 
 // ---------- Compartiments liquidiens ----------
 Comment se répartit l'eau d'un adulte de 70 kg ? :: Eau totale : 60 % du poids, soit 42 L\nIntracellulaire : 2/3, soit 28 L\nExtracellulaire : 1/3, soit 14 L\n- interstitium : 3/4, soit 11 L\n- plasma : 1/4, soit 3 L\nLa prise de sang n'explore que le plasma

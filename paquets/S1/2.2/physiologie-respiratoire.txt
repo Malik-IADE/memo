@@ -2,7 +2,7 @@
 // Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Physiologie respiratoire
+# IADE – Physiologie – Respiratoire
 
 // ---------- Anatomie des voies aériennes ----------
 Quelle est la différence entre la zone de conduction et la zone respiratoire de l'arbre bronchique ? :: Conduction (trachée et bronches jusqu'à la 16e génération) : transport de l'air, sans échange gazeux = espace mort anatomique\nRespiratoire (17e à 23e génération, alvéoles) : échanges gazeux

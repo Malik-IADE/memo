@@ -2,7 +2,7 @@
 // Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Neurophysiologie
+# IADE – Physiologie – Système nerveux central
 
 // ---------- Organisation du système nerveux ----------
 Jusqu'à quel niveau vertébral descend la moelle épinière chez l'adulte ? :: Jusqu'à L1-L2 (cône médullaire)

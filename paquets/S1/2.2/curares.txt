@@ -3,7 +3,7 @@
 // Le monitorage de la curarisation (TOF, PTC) est dans le paquet « Processus d'anesthésie ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Curares
+# IADE – Physiologie – Jonction neuromusculaire et curares
 
 // ---------- Jonction neuromusculaire ----------
 Comment s'arrête le signal à la jonction neuromusculaire ? :: L'acétylcholinestérase de la fente synaptique hydrolyse l'acétylcholine en choline et acétate, en quelques millisecondes

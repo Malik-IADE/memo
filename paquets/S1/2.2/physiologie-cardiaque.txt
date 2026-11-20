@@ -3,7 +3,7 @@
 // Le diagnostic sur tracé ECG est traité par les cartes à image du paquet ECG.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Physiologie cardiaque
+# IADE – Physiologie – Cardiaque
 
 // ---------- Anatomie fonctionnelle ----------
 À quel moment du cycle cardiaque la perfusion coronaire est-elle maximale ? :: En diastole\nEn systole, la contraction comprime les vaisseaux de la paroi
