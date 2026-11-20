@@ -17,6 +17,7 @@ S1/2.4/analgesiques.txt
 S1/2.4/anesthesiques-inhales.txt
 S1/2.4/hypnotiques-benzodiazepines.txt
 S1/2.4/morphiniques.txt
+S1/2.4/solutes-remplissage.txt
 
 S1/3.1/aivoc.txt
 S1/3.1/bis-eeg.txt
