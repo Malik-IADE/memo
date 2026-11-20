@@ -3,7 +3,7 @@
 // Durées d'apnée : repères du cours de ventilation mécanique (même UE).
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Préoxygénation et induction
+# IADE – Anesthésie – Préoxygénation
 
 // ---------- Préoxygénation ----------
 Quel est le but de la préoxygénation ? :: Augmenter les réserves en O2 par dénitrogénation\nPour allonger la durée d'apnée tolérée avant la désaturation

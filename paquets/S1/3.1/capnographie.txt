@@ -4,7 +4,7 @@
 // Image : [img:images/fichier.png] (chemin relatif au dossier de ce fichier). Tracés issus du support de cours (p. 10 à 12), repris du quiz de capnographie.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Capnographie
+# IADE – Monitorage – Capnographie
 
 // ---------- L'essentiel (cartes fusionnées) ----------
 Quelle est la différence entre capnographie, capnogramme et capnométrie ? :: Capnographie : enregistrement du CO2 sur tout le cycle respiratoire (capnographe)\nCapnogramme : le tracé\nCapnométrie : la valeur numérique (capnomètre)\nObligatoire chez tout patient intubé

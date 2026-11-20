@@ -3,7 +3,7 @@
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : » en gras.
 // Image : [img:images/fichier.jpg] (chemin relatif au dossier de ce fichier). Illustrations issues du support de cours.
 
-# IADE – Positions chirurgicales
+# IADE – Chirurgie – Positions chirurgicales
 
 [img:images/pos-dorsal.jpg] Quelle est cette position et quels sont ses principaux risques ? :: Décubitus dorsal : la position la plus physiologique, celle de l'induction\nIndications : chirurgie céphalique, thoraco-abdominale, ostéo-articulaire\nRisques :\n- Points d'appui : occiput, sacrum, talons\n- Nerfs du bras : plexus brachial (abduction > 90°), ulnaire (coude), médian (poignet)\n- Respiratoire : légère baisse de la CRF (sujet âgé, obèse)\n- Hémodynamique : peu, sauf chez la femme enceinte (compression de la veine cave → roulis à gauche)
 [img:images/pos-rose.jpg] Quelle est cette position et quels sont ses principaux risques ? :: Position de Rose : décubitus dorsal en hyperextension du cou, billot sous les épaules\nIndications : chirurgie du cou (thyroïde, parathyroïdes)\nRisques :\n- Hyperextension excessive : compression des artères vertébrales, voire de la moelle (arthrose cervicale)\n- Rotation excessive : étirement du plexus, gêne veineuse\nPrévention : tester la tolérance chez le patient éveillé, tête soutenue (pas suspendue), protéger les yeux, vérifier la sonde

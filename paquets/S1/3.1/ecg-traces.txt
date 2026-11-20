@@ -13,7 +13,7 @@
 //   ecg-09 : litfl.com/polymorphic-vt-and-torsades-de-pointes-tdp
 //   ecg-10 : litfl.com/ventricular-fibrillation-vf-ecg-library (exemple 2)
 
-# IADE – ECG
+# IADE – Monitorage – ECG
 
 //= [img:images/ecg-05.jpg] Bande de rythme : quel est le diagnostic ?
 [img:images/ecg-05.jpg] Quel est le diagnostic sur cette bande de rythme ? :: BAV du 2e degré Mobitz I (Wenckebach)\nLe PR s'allonge d'un battement à l'autre\nPuis une P n'est pas suivie de QRS\nLe cycle repart avec un PR plus court\nMobitz II : PR constant avant la P bloquée (plus grave)\nSource : LITFL ECG Library (CC BY-NC-SA 4.0)

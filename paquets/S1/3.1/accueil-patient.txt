@@ -3,7 +3,7 @@
 // Les chiffres d'études et la bibliographie du support ne sont pas repris.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Accueil du patient au bloc
+# IADE – Anesthésie – Accueil du patient
 
 // ---------- Anxiété ----------
 Quelle est la différence entre stress et anxiété ? :: Stress : ensemble des réponses physiologiques et psychologiques pour s'adapter à une contrainte\nAnxiété : émotion désagréable proche de la peur, tournée vers l'avenir\nUn stress qui dure peut se compliquer d'anxiété

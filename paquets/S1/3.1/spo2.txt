@@ -3,7 +3,7 @@
 // Courbe de Barcroft, CaO2 et TaO2 : voir « Physiologie respiratoire » (UE 2.2). L'historique du support n'est pas repris.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Oxymétrie de pouls
+# IADE – Monitorage – SpO2
 
 // ---------- Principe ----------
 Que mesure l'oxymètre de pouls ? :: Une estimation continue de la SaO2, appelée SpO2\nElle évite des gazométries artérielles répétées

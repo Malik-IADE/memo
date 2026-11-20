@@ -4,7 +4,7 @@
 // Les scores (Aldrete, Apfel…) sont réunis dans la catégorie « Scores ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – SSPI
+# IADE – Anesthésie – SSPI
 
 // ---------- Cadre ----------
 Qu'est-ce que la SSPI ? :: La salle de surveillance post-interventionnelle, ou salle de réveil\nElle surveille le patient après l'anesthésie et l'intervention

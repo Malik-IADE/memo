@@ -3,7 +3,7 @@
 // Les cas historiques, études, chiffres d'incidence et noms cités dans le support ne sont pas repris.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – BIS et monitorage de l'EEG
+# IADE – Monitorage – BIS
 
 // ---------- Pourquoi monitorer ----------
 Pourquoi l'immobilité du patient ne suffit-elle pas à exclure une mémorisation ? :: Un patient curarisé ne peut pas bouger\nL'immobilité ne dit rien de l'effet cortical de l'hypnotique

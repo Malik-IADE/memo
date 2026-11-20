@@ -3,7 +3,7 @@
 // Les études, effectifs et références citées dans le support ne sont pas reprises.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – AIVOC et AINOC
+# IADE – Anesthésie – AIVOC
 
 // ---------- Principe ----------
 Que signifient AIVOC et TCI ? :: AIVOC : anesthésie intraveineuse à objectif de concentration\nTCI : Target Controlled Infusion, le terme anglais

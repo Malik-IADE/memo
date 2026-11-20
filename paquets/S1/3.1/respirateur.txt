@@ -3,7 +3,7 @@
 // Évaporateurs, bas débit et chaux sodée desséchée : voir « Anesthésiques inhalés » ; réseaux de gaz : voir « Dynamique des fluides ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Machine d'anesthésie
+# IADE – Anesthésie – Respirateur
 
 // ---------- Alimentation en gaz frais ----------
 Quels sont les quatre ensembles d'une machine d'anesthésie ? :: Alimentation en gaz frais\nCircuit anesthésique\nVentilateur\nSystème antipollution

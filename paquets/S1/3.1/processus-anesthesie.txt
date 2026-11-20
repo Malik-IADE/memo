@@ -3,7 +3,7 @@
 // Les chiffres d'épidémiologie, études et cas médico-légaux du support ne sont pas repris.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Processus d'anesthésie
+# IADE – Anesthésie – Processus d'anesthésie
 
 // ---------- Cadre ----------
 Comment définir l'anesthésie ? :: Une médecine périopératoire : gérer l'avant, le pendant et l'après de l'intervention, en s'adaptant au patient et à la chirurgie

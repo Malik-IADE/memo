@@ -3,7 +3,7 @@
 // Pplat : seuil retenu à l'oral = 25 cmH2O. La préoxygénation est traitée dans le paquet « Préoxygénation et induction ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Ventilation mécanique
+# IADE – Anesthésie – Ventilation mécanique
 
 // ---------- Physiologie ----------
 Quelle est l'équation du mouvement du système respiratoire ? :: Paw = PEP + R × V′ + Vt/C\nLa pression mesurée associe une pression de base, une composante résistive et une composante élastique

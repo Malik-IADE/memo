@@ -3,7 +3,7 @@
 // Non repris : historique des recommandations, chiffres d'études. Les notions de base déjà vues dans « Curares », « Processus d'anesthésie » et « SSPI » (TOF, curarisation résiduelle, choix du curare) sont reprises sous un autre angle, sans répéter les mêmes cartes.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Décurarisation
+# IADE – Monitorage – Curarisation et décurarisation
 
 // ---------- Pourquoi monitorer ----------
 Pourquoi monitorer la curarisation plutôt que se fier aux délais moyens des curares ? :: Variabilité entre patients : insuffisance rénale ou hépatique, obésité, maladie neuromusculaire, interactions, hypothermie\nVariabilité entre muscles d'un même patient : densité de récepteurs, vascularisation\nUne même dose ne donne pas le même effet
