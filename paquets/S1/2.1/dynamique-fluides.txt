@@ -3,7 +3,7 @@
 // Les vaporisateurs, le circuit et les halogénés sont traités dans les paquets « Anesthésiques inhalés » et « Respirateur ».
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Dynamique des fluides
+# IADE – Biophysique – Dynamique des fluides
 
 // ---------- Physique des gaz ----------
 Quelle est la différence entre la fraction et la pression partielle d'un gaz ? :: Fraction : proportion du gaz dans le mélange, sans unité (0,21 = 21 %)\nPression partielle = fraction × pression totale, en mmHg
