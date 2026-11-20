@@ -1,0 +1,305 @@
+// Quiz – Physiologie rénale (UE 2.2), écrit le 20 novembre 2026 d'après le support « Physiologie rénale avec notes » (diapositives et explications de l'oral).
+// Questions type examen sur les notions générales : compartiments, osmolarité, ADH et SRAA, troubles de l'hydratation, solutés, filtration glomérulaire, clairance, insuffisance rénale aiguë et chronique, potassium, calcium. Pas de chiffres épidémiologiques ni d'études.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Physiologie rénale
+
+QCM · Compartiments liquidiens
+Concernant la répartition de l'eau chez un adulte de 70 kg, quelles propositions sont exactes ?
++ L'eau totale représente environ 60 % du poids, soit 42 L. :: 70 × 0,6 = 42 L.
++ Le secteur intracellulaire contient environ les deux tiers de l'eau totale. :: Soit environ 28 L.
++ Le secteur extracellulaire contient environ 14 L. :: Un tiers de l'eau totale.
++ L'interstitium représente environ les trois quarts du secteur extracellulaire. :: Soit environ 11 L.
++ Le plasma, exploré par la prise de sang, représente environ 3 L. :: Un quart du secteur extracellulaire.
+> Eau totale : 60 % du poids (42 L à 70 kg). Deux tiers intracellulaires (28 L), un tiers extracellulaire (14 L), lui-même réparti en interstitium (3/4, 11 L) et plasma (1/4, 3 L). La prise de sang n'explore qu'une petite partie de l'eau totale.
+@ p. 9
+
+QCM · Bilan de l'eau
+Concernant le bilan quotidien de l'eau chez l'adulte, quelles propositions sont exactes ?
++ L'oxydation des glucides produit une petite quantité d'eau. :: Environ 200 mL/24 h, en plus des aliments et des boissons.
++ Les pertes insensibles passent par la peau et les poumons. :: Environ 700 mL/24 h au total.
++ Les urines sont la principale variable d'ajustement du bilan. :: Le rein adapte la diurèse aux entrées et aux autres pertes.
+- Les pertes par les fèces dépassent habituellement les pertes respiratoires. :: Environ 100 mL/24 h, contre 350 mL/24 h par les poumons.
++ Une brûlure étendue peut fortement augmenter les pertes cutanées. :: Jusqu'à 3 à 5 L/24 h.
+> Entrées et sorties s'équilibrent autour de 2 300 mL/24 h. Les pertes insensibles (peau et poumons, 700 mL) augmentent avec les brûlures ; sueurs et diarrhée peuvent atteindre plusieurs litres. Les urines ajustent le bilan : une diurèse faible peut traduire une économie d'eau.
+@ p. 8 et 10
+
+QCU · Échanges capillaires
+Concernant les échanges d'eau entre plasma et interstitium, quelle proposition est exacte ?
+- La pression oncotique plasmatique favorise la sortie d'eau vers l'interstitium. :: Elle attire l'eau vers les protéines et la retient dans le vaisseau.
++ À l'extrémité artérielle du capillaire, les forces de sortie l'emportent et le liquide est filtré. :: Pression hydrostatique élevée : filtration nette d'environ 13 mmHg.
+- Plasma et interstitium diffèrent surtout par leur concentration en sodium. :: Ils ont la même composition, sauf pour les protéines.
+- À l'extrémité veineuse, la pression hydrostatique dépasse la pression oncotique. :: Elle baisse (environ 10 mmHg) : la pression oncotique l'emporte et le liquide est réabsorbé.
+- Le liquide non réabsorbé par les capillaires reste stocké dans l'interstitium. :: Les lymphatiques drainent les 10 % restants.
+> La membrane capillaire laisse passer l'eau et les solutés, sauf les protéines. Côté artériel, la pression hydrostatique l'emporte (filtration) ; côté veineux, la pression oncotique l'emporte (réabsorption). Les capillaires veineux réabsorbent 90 % du liquide filtré, les lymphatiques le reste.
+@ p. 12 à 18
+
+QCM · Œdèmes
+Concernant les mécanismes des œdèmes extracellulaires, quelles propositions sont exactes ?
++ Un syndrome néphrotique favorise les œdèmes par baisse de la pression oncotique plasmatique. :: Les protéines sont perdues dans les urines.
+- Une insuffisance hépatique favorise les œdèmes par hausse de la pression oncotique. :: Elle diminue la production d'albumine, donc la pression oncotique.
++ Un curage ganglionnaire peut donner un œdème par blocage lymphatique. :: Œdème local après certaines chirurgies tumorales.
+- Une inflammation favorise les œdèmes en diminuant la perméabilité capillaire. :: Elle l'augmente : le liquide fuit vers l'interstitium.
+- Une hypovolémie favorise les œdèmes en élevant la pression capillaire. :: Ce sont la rétention hydrosodée et la pression veineuse élevée qui élèvent la pression capillaire.
+> Quatre mécanismes : pression capillaire augmentée (rétention hydrosodée, insuffisance cardiaque), pression oncotique diminuée (pertes ou défaut de production de protéines), perméabilité augmentée (inflammation), blocage lymphatique (chirurgie, cancer).
+@ p. 19
+
+QCM · Osmose
+Concernant l'osmose et l'osmolarité, quelles propositions sont exactes ?
++ L'eau se déplace vers le milieu le plus concentré en substances dissoutes. :: C'est la définition de l'osmose.
+- La membrane cellulaire est très perméable aux électrolytes. :: Elle est perméable à l'eau, très peu aux électrolytes.
++ Les osmolarités intra- et extracellulaire s'égalisent en quelques minutes. :: L'eau traverse très vite la membrane cellulaire.
++ Une cellule placée en milieu hypotonique augmente de volume. :: L'eau entre dans la cellule.
+- L'osmolarité exprime la quantité d'eau par litre de plasma. :: C'est le nombre d'osmoles par litre.
+> L'osmose est le passage net d'eau vers le milieu le plus concentré en particules actives. La membrane cellulaire, perméable à l'eau mais pas aux électrolytes, fait dépendre le volume des cellules de l'osmolarité ; l'équilibre se fait en quelques minutes.
+@ p. 22 à 29
+
+QCU · Mannitol
+Un patient reçoit du mannitol pour un œdème cérébral. Concernant ses effets sur les compartiments, quelle proposition est exacte ?
++ L'eau quitte les cellules vers le secteur extracellulaire. :: Le mannitol augmente l'osmolarité plasmatique.
+- L'osmolarité plasmatique diminue. :: Elle augmente : c'est le principe de l'osmothérapie.
+- Le volume intracellulaire augmente. :: Il diminue.
+- Le transfert d'eau demande plusieurs heures pour s'installer. :: Il se fait en quelques minutes.
+- Il agit en retenant le sodium dans le secteur extracellulaire. :: Il agit par son propre pouvoir osmotique.
+> Le mannitol rend le plasma hyperosmolaire : l'eau sort des cellules en quelques minutes et le volume cellulaire diminue. C'est ainsi qu'on réduit un volume cellulaire en agissant depuis le plasma.
+@ p. 26 et 61
+
+QCM · Soif et ADH
+Concernant la régulation de l'eau libre, quelles propositions sont exactes ?
++ Une baisse du volume sanguin stimule la soif. :: Par les volorécepteurs : un patient qui saigne peut avoir soif.
+- L'ADH augmente l'élimination d'eau libre par le rein. :: Elle permet au contraire de la réabsorber.
+- La soif est stimulée par une baisse de l'osmolarité plasmatique. :: Par une hausse, détectée par les osmorécepteurs.
++ L'angiotensine II fait partie des stimulus de la soif. :: C'est un des stimulus de la soif.
+- La réabsorption rénale d'eau augmente sans limite avec l'ADH. :: La réabsorption d'eau sature ; la soif, elle, est inépuisable.
+> L'osmolarité dépend de l'eau libre : entrées réglées par la soif, sorties par les urines sous ADH. Hyperosmolarité, baisse du volume sanguin et de la PA stimulent la soif et l'ADH ; l'angiotensine II stimule aussi la soif.
+@ p. 31, 32 et 157
+
+QCM · Concentration des urines
+Concernant la concentration et la dilution des urines, quelles propositions sont exactes ?
++ En cas de manque d'eau, la diurèse peut descendre à environ 500 mL/24 h. :: Avec une osmolarité urinaire jusqu'à 1 400 mOsm/L.
++ Concentrer les urines suppose une ADH élevée et une médullaire rénale très concentrée. :: Le gradient médullaire attire l'eau hors du tubule.
+- L'ADH agit surtout sur le tube proximal. :: Elle agit sur le tube distal et le tube collecteur.
++ L'insuffisance rénale réduit la capacité à concentrer les urines. :: Le gradient cortico-médullaire se perd.
+- La branche ascendante de Henlé réabsorbe l'eau sous l'effet de l'ADH. :: Elle est imperméable à l'eau, avec ou sans ADH.
+> Excès d'eau : urines diluées (jusqu'à 20 L/24 h et 50 mOsm/L). Manque d'eau : urines concentrées (jusqu'à 500 mL/24 h et 1 400 mOsm/L), grâce à l'ADH (tube distal et collecteur) et au gradient osmotique de la médullaire.
+@ p. 37 à 39, 155 et 156
+
+QCM · Système rénine-angiotensine-aldostérone
+Concernant le système rénine-angiotensine-aldostérone, quelles propositions sont exactes ?
+- L'angiotensinogène est produit par le rein. :: Il est produit par le foie ; le rein produit la rénine.
+- L'enzyme de conversion transforme l'angiotensinogène en angiotensine I. :: C'est le rôle de la rénine ; l'enzyme de conversion forme l'angiotensine II.
++ L'angiotensine II stimule la sécrétion d'aldostérone et la réabsorption de NaCl. :: D'où la rétention hydrosodée.
+- Les ARA2 bloquent la formation de l'angiotensine II. :: Ils bloquent ses récepteurs ; les IEC bloquent sa formation.
+- L'angiotensine II provoque une vasodilatation artériolaire. :: Elle provoque une vasoconstriction.
+> Angiotensinogène (foie) → angiotensine I (rénine) → angiotensine II (enzyme de conversion). L'angiotensine II entraîne vasoconstriction, sécrétion d'aldostérone et d'ADH, réabsorption de NaCl et stimulation sympathique : rétention hydrosodée et hausse de la PA. IEC et ARA2 agissent sur cette cascade.
+@ p. 33 et 34
+
+QCU · Sel, eau et volumes
+Concernant les déterminants des volumes liquidiens, quelle proposition est exacte ?
+- Le volume intracellulaire dépend surtout du contenu en sel de l'organisme. :: Il dépend de l'eau, à travers l'osmolarité.
++ Le volume extracellulaire dépend surtout du contenu en chlorure de sodium. :: L'eau suit le sel et la natrémie reste constante.
+- Une natrémie normale permet d'écarter une déshydratation extracellulaire. :: Une perte d'eau et de sel en proportions égales laisse la natrémie normale.
+- Une hyponatrémie signe un déficit en sel de l'organisme. :: Elle traduit un excès relatif d'eau ; le stock de sel peut être augmenté.
+- La natrémie mesure la quantité totale de sodium de l'organisme. :: C'est une concentration, pas un stock.
+> Volume extracellulaire = bilan de sel ; volume intracellulaire = bilan d'eau, reflété par l'osmolarité. La natrémie est une concentration : elle renseigne sur l'hydratation des cellules, pas sur le volume extracellulaire, qui s'évalue à part (clinique, poids).
+@ p. 42, 47 et 162
+
+QCU · Osmolarité calculée
+Un patient a une natrémie à 140 mmol/L, une glycémie à 5 mmol/L et une urée à 5 mmol/L. Quelle est son osmolarité plasmatique calculée ?
+- 150 mOsm/L :: Résultat obtenu sans doubler la natrémie.
+- 280 mOsm/L :: Résultat obtenu en oubliant la glycémie et l'urée.
++ 290 mOsm/L :: (2 × 140) + 5 + 5 = 290.
+- 300 mOsm/L :: Résultat obtenu en doublant aussi la glycémie et l'urée.
+- 310 mOsm/L :: Valeur d'une hyperosmolarité.
+> Osmolarité calculée = (2 × natrémie) + glycémie + urée, toutes en mmol/L. Normale : 280 à 295 mOsm/L.
+@ p. 46
+
+QCM · Déshydratation extracellulaire
+Concernant la déshydratation extracellulaire, quelles propositions sont exactes ?
++ Elle peut exister avec une natrémie normale. :: L'eau et le sel sont perdus en proportions égales.
++ Elle peut entraîner une hémoconcentration avec un hématocrite élevé. :: Hématocrite > 50 %, protides > 75 g/L.
+- Elle se traite en priorité par un soluté glucosé hypotonique. :: Par un soluté iso-osmotique, qui apporte de l'eau et du sel.
++ Elle peut se compliquer d'une insuffisance rénale fonctionnelle. :: Par baisse de la perfusion rénale.
+- L'hypotension en décubitus en est le signe le plus précoce. :: Tachycardie et hypotension orthostatique la précèdent.
+> Perte iso-osmotique d'eau et de sel (bilan sodé négatif). Tachycardie, hypotension orthostatique puis couchée, oligurie, pli cutané ; hémoconcentration, insuffisance rénale fonctionnelle, alcalose de contraction. Traitement : soluté iso-osmotique et traitement de la cause.
+@ p. 47 et 51
+
+QCM · Origine des pertes de sel
+Devant une déshydratation extracellulaire, concernant l'origine des pertes, quelles propositions sont exactes ?
+- Une natriurèse supérieure à 20 mmol/L oriente vers des vomissements. :: Elle oriente vers une perte rénale ; après des vomissements, le rein économise le sodium.
++ Un traitement diurétique peut entretenir une perte urinaire de sel. :: C'est une perte rénale.
+- Une diarrhée s'accompagne d'urines abondantes et peu concentrées. :: Le rein économise l'eau et le sel : oligurie, urines concentrées.
+- La polyurie osmotique du diabète est une perte extrarénale. :: C'est une perte rénale.
+- Un troisième secteur augmente le volume extracellulaire utile. :: Le liquide séquestré ne participe plus aux échanges.
+> Pertes extrarénales (digestives, cutanées) : oligurie, natriurèse < 20 mmol/L, urines concentrées. Pertes rénales (diurétiques, polyurie osmotique, néphropathie) : diurèse conservée, natriurèse > 20 mmol/L. Troisième secteur : péritonite, pancréatite, occlusion, rhabdomyolyse.
+@ p. 48 à 50
+
+QCM · Déshydratation intracellulaire
+Concernant la déshydratation intracellulaire, quelles propositions sont exactes ?
++ Elle s'accompagne d'une hypernatrémie et d'une hyperosmolarité plasmatique. :: Natrémie > 145 mmol/L, osmolarité > 300 mOsm/L.
++ Une soif intense en est un signe évocateur. :: Avec la sécheresse des muqueuses.
+- Elle exclut une perte de sel associée. :: Dans la déshydratation globale, eau et sel sont perdus, l'eau davantage.
++ Sa gravité dépend de la rapidité d'installation et des signes neurologiques. :: Une même natrémie n'a pas le même retentissement selon sa cinétique.
+- Le déficit en eau calculé doit être perfusé en totalité dans l'heure. :: La correction est progressive : risque d'œdème cérébral.
+> Hyperosmolarité (hypernatrémie) : l'eau quitte les cellules. Soif, muqueuses sèches, signes neurologiques peu spécifiques. Évaluer à part le secteur extracellulaire (déshydratation globale, perte d'eau pure ou excès de sel). Déficit en eau = 0,6 × poids × (natrémie/140 − 1), corrigé progressivement.
+@ p. 54 à 59
+
+QCM · Hyponatrémie
+Devant une hyponatrémie, quelles propositions sont exactes ?
++ Une hyperglycémie majeure peut l'expliquer avec une osmolarité élevée. :: Le glucose attire l'eau hors des cellules et dilue le sodium.
+- Elle signe une hyperhydratation intracellulaire, quelle que soit l'osmolarité. :: Il faut d'abord éliminer les fausses hyponatrémies.
+- Un SIADH s'accompagne d'un secteur extracellulaire augmenté avec œdèmes. :: Le secteur extracellulaire est cliniquement normal : excès d'eau pure.
++ Une correction trop rapide expose à une myélinolyse centropontine. :: Complication neurologique grave, parfois retardée.
+- Une soif intense est un signe habituel d'hyperhydratation intracellulaire. :: Il n'y a pas de soif, voire un dégoût de l'eau.
+> Avant de conclure à une hyperhydratation intracellulaire, éliminer les fausses hyponatrémies (hyperprotidémie, hypertriglycéridémie, hyperglycémie, alcools, mannitol). Céphalées, nausées, obnubilation, pas de soif. Correction lente : restriction hydrique, avec ou sans NaCl selon le mécanisme.
+@ p. 60 à 65
+
+QCM · Solutés
+Concernant l'effet des solutés sur les compartiments, quelles propositions sont exactes ?
++ Un soluté isotonique augmente le volume extracellulaire sans modifier le volume cellulaire. :: Il ne crée pas de gradient osmotique.
+- Un soluté hypertonique augmente le volume intracellulaire. :: Il le diminue : l'eau sort des cellules.
++ Un soluté hypotonique augmente les volumes extra- et intracellulaire. :: Une partie de l'eau entre dans les cellules.
+- Un soluté hypotonique augmente l'osmolarité des deux compartiments. :: Il la diminue.
+- Un soluté hypertonique diminue le volume extracellulaire. :: Il l'augmente, par l'apport et par l'eau sortie des cellules.
+> Isotonique : seul le volume extracellulaire augmente. Hypertonique : l'eau sort des cellules (volume extracellulaire augmenté, intracellulaire diminué, osmolarité augmentée). Hypotonique : l'eau entre dans les cellules (deux volumes augmentés, osmolarité diminuée).
+@ p. 68 à 70
+
+QCM · Circulation rénale
+Concernant la circulation rénale, quelles propositions sont exactes ?
+- Les reins reçoivent environ 5 % du débit cardiaque. :: Environ 20 %, pour 0,5 % du poids du corps.
+- Le débit sanguin rénal correspond aux besoins métaboliques du rein. :: Il les dépasse largement : il sert à la filtration.
++ Le rein possède deux réseaux capillaires placés en série. :: Glomérulaire puis péritubulaire.
+- Les capillaires glomérulaires sont le lieu principal de la réabsorption. :: Ils filtrent ; les capillaires péritubulaires réabsorbent.
+- Le sang quitte le glomérule par l'artériole afférente. :: Il arrive par l'artériole afférente et repart par l'efférente.
+> Les reins reçoivent environ 20 % du débit cardiaque, bien au-delà de leurs besoins, pour filtrer. Artériole afférente → capillaires glomérulaires (filtration) → artériole efférente → capillaires péritubulaires (réabsorption).
+@ p. 74 et 75
+
+QCM · Filtration glomérulaire
+Concernant les forces de la filtration glomérulaire, quelles propositions sont exactes ?
+- La pression oncotique glomérulaire favorise la filtration. :: Elle s'y oppose, avec la pression hydrostatique capsulaire.
++ La pression nette de filtration est d'environ 10 mmHg. :: 60 − 32 − 18 = 10 mmHg.
+- La pression hydrostatique dans la capsule de Bowman favorise la filtration. :: Elle s'y oppose.
+- La fraction de filtration représente environ la moitié du débit sanguin rénal. :: Elle est d'environ 0,2.
+- L'urine primitive est riche en protéines. :: Elle en contient très peu : pas de pression oncotique capsulaire notable.
+> Pression hydrostatique glomérulaire (60 mmHg) contre pression oncotique glomérulaire (32 mmHg) et pression hydrostatique capsulaire (18 mmHg) : pression nette d'environ 10 mmHg. DFG = coefficient de filtration × pression nette ; fraction de filtration ≈ 0,2.
+@ p. 79 et 80
+
+QCU · Artériole efférente
+Concernant une vasoconstriction de l'artériole efférente, quelle proposition est exacte ?
+- Elle diminue d'emblée la pression hydrostatique glomérulaire. :: C'est l'effet d'une vasoconstriction afférente.
++ Elle augmente d'abord la filtration, puis la limite par hausse de la pression oncotique. :: Le débit baisse et les protéines se concentrent dans le capillaire.
+- Elle augmente le débit sanguin qui traverse le rein. :: Elle le diminue.
+- Elle diminue la part du plasma filtrée par le glomérule. :: Elle l'augmente.
+- Elle est sans effet sur la filtration, étant située après le glomérule. :: Elle modifie la pression dans le glomérule.
+> Vasoconstriction afférente : pression glomérulaire et filtration diminuées. Vasoconstriction efférente : pression et filtration d'abord augmentées, puis débit sanguin rénal diminué, fraction filtrée augmentée, pression oncotique augmentée, d'où une filtration de nouveau diminuée.
+@ p. 81 et 82
+
+QCM · Régulation du DFG
+Concernant la régulation du débit de filtration glomérulaire, quelles propositions sont exactes ?
++ L'autorégulation maintient le DFG malgré les variations de PA, dans une plage physiologique. :: Par exemple lors du passage à la position debout.
+- La stimulation sympathique augmente le DFG. :: Elle le diminue, par vasoconstriction afférente et efférente.
++ La macula densa participe à l'autorégulation selon le NaCl qui lui arrive. :: Elle appartient à l'appareil juxtaglomérulaire.
+- L'anesthésie renforce l'autorégulation rénale. :: L'anesthésie et les médicaments peuvent la perturber.
+- Grâce à l'autorégulation, la diurèse reste indépendante de la PA. :: La diurèse et la natriurèse de pression persistent.
+> L'autorégulation (appareil juxtaglomérulaire, macula densa) maintient le DFG dans une plage de PA, avec des limites (hypotension ou HTA marquées, anesthésie). Sympathique, catécholamines et angiotensine II diminuent le DFG.
+@ p. 83, 84 et 160
+
+QCU · Clairance de la créatinine
+Concernant la clairance de la créatinine d'un patient dont la créatinine urinaire est à 6 mmol/L, la créatininémie à 120 µmol/L et la diurèse à 1 440 mL/24 h, quelle proposition est exacte ?
++ Elle est d'environ 50 mL/min. :: 6 000 µmol/L × 1 mL/min / 120 µmol/L = 50 mL/min.
+- Elle est d'environ 3 000 mL/min. :: Résultat obtenu avec un débit urinaire en mL/h.
+- Elle est d'environ 0,05 mL/min. :: Résultat obtenu sans convertir les mmol/L en µmol/L.
+- Elle est d'environ 100 mL/min. :: C'est le double du résultat.
+- Elle ne peut pas être calculée sans le poids du patient. :: Le poids sert aux formules d'estimation, pas au calcul sur les urines de 24 h.
+> Clairance = U × V / P. Mettre U et P dans la même unité (6 mmol/L = 6 000 µmol/L) et V en mL/min (1 440 mL / 1 440 min = 1 mL/min). Le résultat a l'unité de V.
+@ p. 86 à 88 et 163
+
+QCM · Estimation du DFG
+Concernant l'estimation du DFG à partir de la créatinine, quelles propositions sont exactes ?
++ La formule de Cockcroft et Gault tient compte de l'âge, du poids et de la créatininémie. :: Avec un coefficient selon le sexe.
++ Les formules d'estimation sont peu fiables en insuffisance rénale aiguë. :: La fonction rénale change trop vite.
+- Une même créatininémie correspond au même DFG chez deux adultes. :: Elle dépend notamment de la masse musculaire.
++ La clairance de l'inuline reflète le DFG, car l'inuline est filtrée sans être réabsorbée ni sécrétée. :: C'est la référence, peu utilisée en pratique.
+- Ces formules sont particulièrement adaptées au patient obèse ou à la femme enceinte. :: Ce sont justement des limites.
+> La clairance d'une substance filtrée, ni réabsorbée ni sécrétée, mesure le DFG. La créatinine est pratique mais dépend de la masse musculaire. Cockcroft et Gault, MDRD : non valables chez l'obèse, au-delà de 75 ans, pendant la grossesse, en réanimation et en insuffisance rénale aiguë.
+@ p. 87 à 91
+
+QCM · Insuffisance rénale aiguë
+Concernant l'insuffisance rénale aiguë, quelles propositions sont exactes ?
++ Elle peut s'installer avec une diurèse conservée. :: Filtrer et produire de l'urine sont deux choses distinctes.
++ La classification KDIGO compare la créatinine à sa valeur de base. :: Elle utilise aussi la diurèse mesurée sur une durée connue.
++ Une hyperkaliémie impose un ECG sans attendre. :: C'est un signe de gravité.
+- Une anémie suffit à affirmer le caractère chronique. :: Une hémorragie peut l'expliquer au cours d'une IRA.
++ Une rétention urinaire doit être éliminée, même chez un patient sondé. :: La sonde peut être bouchée ou coudée.
+> IRA : baisse brutale de la filtration, avec diurèse conservée ou oligo-anurie. Comparer la créatinine aux valeurs antérieures (KDIGO). Gravité : surcharge (OAP), hyperkaliémie (ECG), acidose. Éliminer une rétention urinaire.
+@ p. 93 à 96
+
+QCM · IRA fonctionnelle et organique
+Concernant l'insuffisance rénale aiguë fonctionnelle et organique, quelles propositions sont exactes ?
++ L'IRA fonctionnelle est liée à une hypoperfusion rénale. :: Elle est dite pré-rénale.
++ Dans l'IRA fonctionnelle, la natriurèse est habituellement inférieure à 20 mmol/L. :: L'aldostérone fait réabsorber le sodium.
++ Une fraction excrétée du sodium inférieure à 1 % oriente vers une IRA fonctionnelle. :: Elle traduit une économie de sodium.
++ Dans l'IRA fonctionnelle, l'urée augmente proportionnellement plus que la créatinine. :: Réabsorption d'eau sous ADH : urée/créatinine > 100.
++ Dans le rein septique, l'atteinte associe inflammation, apoptose et microthromboses. :: Le remplissage seul ne suffit donc pas.
+> IRA fonctionnelle : hypoperfusion, vasoconstriction efférente, aldostérone (Na/K urinaire < 1) et ADH (oligurie). Natriurèse < 20 mmol/L, FeNa < 1 %. IRA organique : atteinte tubulaire, glomérulaire, interstitielle ou vasculaire, natriurèse > 40 mmol/L. Ces marqueurs orientent sans trancher.
+@ p. 101 à 104
+
+QCM · Prévention de l'IRA
+Concernant la prévention de l'insuffisance rénale aiguë périopératoire, quelles propositions sont exactes ?
++ Le diabète est un terrain à risque d'insuffisance rénale aiguë. :: Comme l'athérome et l'HTA.
++ Les AINS sont à éviter chez le patient à risque rénal. :: Ils sont néphrotoxiques.
++ Les aminosides font partie des néphrotoxiques à surveiller. :: Dose, durée de perfusion et conditions de réinjection.
+- L'hyperhydratation préventive protège le rein quel que soit le terrain. :: Il faut éviter le déficit comme l'excès d'eau.
++ Les produits de contraste iodés exposent à une atteinte rénale. :: Surtout chez le patient à risque.
+> Prévenir : repérer les terrains (diabète, athérome, HTA), éviter les néphrotoxiques (AINS, aminosides, produits de contraste ; IEC selon l'indication) et maintenir une hydratation adaptée.
+@ p. 105
+
+QCM · Anesthésie de l'insuffisant rénal chronique
+Concernant l'anesthésie de l'insuffisant rénal chronique, quelles propositions sont exactes ?
++ La morphine expose à l'accumulation de métabolites actifs. :: Ils sont éliminés par le rein.
++ Le rémifentanil s'utilise sans adaptation liée à la fonction rénale. :: Comme le sufentanil et le fentanyl.
++ La succinylcholine expose à une hausse de la kaliémie. :: Contrôler la kaliémie avant de l'utiliser.
++ L'hypoprotidémie augmente la fraction libre des médicaments. :: Leur effet est renforcé : titrer.
+- L'atracurium est à éviter en raison de son élimination rénale. :: Il n'est pas modifié par l'insuffisance rénale ; le monitorage reste obligatoire.
+> Hypnotiques (propofol, midazolam, étomidate) : pas d'accumulation, mais fraction libre augmentée et hypotension au bolus. Morphine : métabolites actifs qui s'accumulent. Sufentanil, fentanyl, rémifentanil : inchangés. Succinylcholine : hyperkaliémie. Atracurium : inchangé.
+@ p. 112, 114 et 115
+
+QCM · Transferts de potassium
+Concernant les mouvements de potassium entre les cellules et le plasma, quelles propositions sont exactes ?
+- L'alcalose fait sortir le potassium des cellules. :: Elle le fait entrer : risque d'hypokaliémie.
+- L'insuline fait sortir le potassium des cellules. :: Elle le fait entrer.
++ Une lyse cellulaire peut provoquer une hyperkaliémie. :: Rhabdomyolyse, lyse tumorale, hémolyse.
+- La kaliémie représente environ la moitié du potassium de l'organisme. :: Seulement 2 % : le reste est intracellulaire.
+- Les bêta-2-mimétiques favorisent l'hyperkaliémie. :: Ils font entrer le potassium dans les cellules.
+> La kaliémie ne représente que 2 % du potassium : un petit transfert la modifie beaucoup. Sortie des cellules : acidose, lyse, bêtabloquants, déficit en insuline ou en aldostérone. Entrée : alcalose, insuline, bêta-2-mimétiques, aldostérone.
+@ p. 120 à 126
+
+QCM · Hyperkaliémie
+Concernant une hyperkaliémie menaçante, quelles propositions sont exactes ?
+- Le gluconate de calcium fait baisser rapidement la kaliémie. :: Il protège le cœur sans abaisser la kaliémie.
++ L'insuline-glucose fait entrer le potassium dans les cellules. :: Son action est rapide.
+- Le Kayexalate agit en quelques minutes. :: L'élimination digestive est lente.
+- L'épuration extrarénale remplace les traitements de transfert. :: Elle demande du temps : on traite la menace pendant sa préparation.
+- Un garrot prolongé lors du prélèvement peut sous-estimer la kaliémie. :: Il la surestime, par hémolyse.
+> Trois temps : protéger le cœur (gluconate de calcium), faire entrer le potassium dans les cellules (insuline-glucose, aérosols de bêta-2-mimétiques, bicarbonates si acidose), éliminer (Kayexalate, furosémide, épuration extrarénale). Éliminer une fausse hyperkaliémie par hémolyse.
+@ p. 106, 130 et 132
+
+QCM · Hypokaliémie
+Concernant l'hypokaliémie, quelles propositions sont exactes ?
++ Elle peut faire apparaître une onde U à l'ECG. :: Avec un sous-décalage de ST et une onde T aplatie.
++ Les diurétiques de l'anse et les thiazidiques peuvent en être la cause. :: Ce sont des pertes rénales.
+- Une kaliurèse inférieure à 20 mmol/L oriente vers une perte rénale. :: Elle oriente vers une perte digestive.
++ Elle peut se compliquer de torsades de pointes. :: Parmi les troubles du rythme ventriculaire.
+- Le KCl d'urgence se donne en bolus intraveineux rapide. :: À la seringue électrique, sur voie centrale, 1,5 g/h au maximum.
+> Kaliémie < 3,5 mmol/L. ECG : sous-décalage de ST, onde T aplatie, onde U, QRS élargis, extrasystoles, torsades, FV. Causes : apports insuffisants, pertes digestives (kaliurèse < 20) ou rénales (diurétiques, hyperaldostéronisme), transfert (alcalose, insuline, salbutamol).
+@ p. 138 à 142
+
+QCU · Calcémie
+Concernant l'interprétation de la calcémie, quelle proposition est exacte ?
+- Environ 90 % du calcium plasmatique est lié aux protéines. :: Environ 40 % ; la moitié est ionisée.
++ Une hypoalbuminémie abaisse la calcémie totale sans modifier le calcium ionisé. :: Fausse hypocalcémie : corriger ou doser le calcium ionisé.
+- La PTH diminue la calcémie et augmente la phosphorémie. :: C'est l'inverse : calcémie augmentée, phosphorémie diminuée.
+- La vitamine D diminue l'absorption digestive du calcium. :: Elle l'augmente.
+- La calcitonine augmente la calcémie et la phosphorémie. :: Elle diminue les deux.
+> Calcémie ≈ 2,4 mmol/L : 50 % ionisée, 40 % liée aux protéines, 10 % liée aux anions. Calcémie corrigée = calcium + 0,02 × (40 − albumine), ou dosage du calcium ionisé. PTH et vitamine D augmentent la calcémie, la calcitonine la diminue.
+@ p. 144 à 146
