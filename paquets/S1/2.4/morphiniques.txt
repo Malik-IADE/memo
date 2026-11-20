@@ -2,7 +2,7 @@
 // Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Morphiniques
+# IADE – Pharmacologie – Morphiniques
 
 // ---------- Bases ----------
 Quelle est la différence entre nociception et douleur ? :: Nociception : détection et transmission d'un stimulus lésionnel, même sans conscience\nDouleur : expérience consciente qui naît de l'intégration de ce message

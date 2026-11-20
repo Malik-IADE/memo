@@ -3,7 +3,7 @@
 // Les études, dates et statistiques citées dans le support ne sont pas reprises.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Analgésiques non morphiniques
+# IADE – Pharmacologie – Analgésiques non morphiniques
 
 // ---------- Douleur ----------
 Quelle est la différence entre douleur aiguë et douleur chronique ? :: Douleur aiguë : signal d'alarme, prise en charge curative\nDouleur chronique : plus de 3 mois, prise en charge biopsychosociale

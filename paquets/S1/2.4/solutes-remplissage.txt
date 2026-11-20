@@ -3,7 +3,7 @@
 // Abordés ailleurs, repris ici sous l'angle du remplissage : Frank-Starling, définition du delta-PP et ScvO2 (« Physiologie cardiaque »), effets des solutés iso-, hyper- et hypotoniques et compartiments (« Physiologie rénale »), remplissage en chirurgie digestive (« Chirurgie digestive »).
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
-# IADE – Solutés de remplissage
+# IADE – Pharmacologie – Solutés de remplissage
 
 // ---------- Pourquoi remplir ----------
 Quelles questions se poser avant de remplir un patient ? :: Pourquoi je remplis : quel bénéfice est attendu\nComment je vérifie l'effet : quel monitorage\nAvec quoi : quel soluté\nLe remplissage est un traitement, avec une balance bénéfice-risque ; une voie veineuse n'est pas une indication
