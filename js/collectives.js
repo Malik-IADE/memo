@@ -88,5 +88,48 @@
     if (pending) submit(pending);
   }
 
+  // Visites par navigateur : une visite = ouverture de Mémo (app ou annale) ou retour après
+  // 30 min sans activité. Hors ligne, la visite attend (avec sa date) et part au retour du réseau.
+  const lastSeenKey = 'memo-visite-vue';
+  const waitingKey = 'memo-visites-attente';
+  const PAUSE = 30 * 60_000;
+  const readWaiting = () => { try { return JSON.parse(localStorage.getItem(waitingKey)) || []; } catch { return []; } };
+  let flushing = false;
+  async function flushVisits() {
+    if (flushing || !navigator.onLine) return;
+    flushing = true;
+    try {
+      for (const revision of readWaiting()) {
+        await send('/visite', {revision});
+        localStorage.setItem(waitingKey, JSON.stringify(readWaiting().filter((r) => r !== revision)));
+      }
+    } catch { /* Nouvel essai au prochain retour du réseau ou à la prochaine visite. */ }
+    flushing = false;
+  }
+  function seen() {
+    try {
+      const now = Date.now();
+      const last = Number(localStorage.getItem(lastSeenKey)) || 0;
+      localStorage.setItem(lastSeenKey, String(now));
+      if (now - last > PAUSE) localStorage.setItem(waitingKey, JSON.stringify([...readWaiting(), now].slice(-50)));
+    } catch { return; }
+    flushVisits();
+  }
+  seen();
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') seen();
+    else try { localStorage.setItem(lastSeenKey, String(Date.now())); } catch {}
+  });
+  window.addEventListener('online', flushVisits);
+  // Activité dans la page : la visite en cours se prolonge (au plus une écriture par minute).
+  let touched = 0;
+  const touch = () => {
+    if (Date.now() - touched < 60_000) return;
+    touched = Date.now();
+    try { localStorage.setItem(lastSeenKey, String(touched)); } catch {}
+  };
+  ['pointerdown', 'keydown', 'scroll'].forEach((t) => window.addEventListener(t, touch, {passive: true}));
+  window.addEventListener('pagehide', () => { try { localStorage.setItem(lastSeenKey, String(Date.now())); } catch {} });
+
   window.memoCollectives = {shareFlashcards, endpoint};
 })();
