@@ -32,3 +32,7 @@ Quels scores évaluent le risque nutritionnel, et quels sont leurs niveaux ? :: 
 // ---------- Douleur (UE 2.4) ----------
 À quoi sert l'échelle DN4 ? :: Intérêt : dépister une douleur neuropathique\nUne douleur neuropathique postopératoire précoce doit alerter (risque de chronicisation)
 À quoi servent les paliers antalgiques de l'OMS, et quels sont-ils ? :: Intérêt : classer les antalgiques selon leur puissance (conçus pour la douleur du cancer)\nPalier 1 : non opioïdes\nPalier 2 : opioïdes faibles\nPalier 3 : opioïdes forts
+
+// ---------- Addictologie (UE 3.3) ----------
+// Le paquet « Patient addictif » dit à quoi sert l'AUDIT-C ; ici, le détail du score et ses seuils.
+À quoi sert le score AUDIT-C, et comment l'interpréter ? :: Intérêt : repérer un mésusage d'alcool en consultation ; le patient doit d'abord comprendre ce qu'est un verre standard (10 g d'alcool)\n3 questions notées de 0 à 4 (score sur 12) :\n- fréquence de consommation d'alcool\n- nombre de verres standard un jour ordinaire où il boit\n- fréquence des occasions à 6 verres ou plus\n≥ 3 chez la femme, ≥ 4 chez l'homme : mésusage à évoquer\n≥ 10 dans les deux sexes : dépendance à évoquer
