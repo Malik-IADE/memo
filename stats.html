@@ -615,7 +615,8 @@
   function demoVisitors(days, r) {
     const daily = daysOf(r.start, days).map((d, i) => ({ day: dayKey(d), browsers: 6 + ((i * 5) % 7) }));
     const b = Math.round(9 + days * 1.6);
-    return { browsers: b, visits: Math.round(b * 3.4), visitBrowsers: b - 2,
+    const hourly = days === 1 ? Array.from({ length: new Date().getHours() + 1 }, (_, i) => ({ hour: `${dayKey(r.start)} ${String(i).padStart(2, '0')}`, browsers: i < 7 ? 0 : 1 + (i % 4) })) : [];
+    return { browsers: b, visits: Math.round(b * 3.4), visitBrowsers: b - 2, hourly,
       prev: { browsers: Math.round(b * .85), visits: Math.round(b * 2.9), visitBrowsers: Math.round(b * .8) }, daily, since: +r.prevStart };
   }
 
@@ -853,7 +854,9 @@
 
     // Série principale : par heure pour « aujourd'hui », par jour sinon.
     const main1 = P.days === 1
-      ? Array.from({ length: 24 }, (_, i) => ({ label: `${i} h`, full: `Aujourd'hui, ${i} h – ${i + 1} h`, v: i <= nowH ? curGrid[0][i] : null, p: prevGrid[0][i] }))
+      ? Array.from({ length: 24 }, (_, i) => ({ label: `${i} h`, full: `Aujourd'hui, ${i} h – ${i + 1} h`, v: i <= nowH ? curGrid[0][i] : null, p: prevGrid[0][i],
+          // Courbe des visites : navigateurs uniques de l'heure (Worker).
+          extra: metric === 'visits' && data.visitors && i <= nowH ? uniques((data.visitors.hourly || []).find((x) => x.hour === `${dayKey(cells[0].d)} ${String(i).padStart(2, '0')}`)?.browsers || 0) : null }))
       : cells.map((c, i) => ({
           label: P.days <= 7 ? c.d.toLocaleDateString('fr-FR', { weekday: 'short' }) : c.d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' }),
           full: c.d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }),
