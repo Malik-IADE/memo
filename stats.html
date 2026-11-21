@@ -799,6 +799,7 @@
     return seg;
   }
 
+  const uniques = (n) => `${plural(n, 'navigateur')} unique${n > 1 ? 's' : ''}`;
   // « Navigateurs uniques » : navigateurs différents sur la période (relevé du Worker).
   function visitorsKpi(data, P, prevLabel) {
     const v = data.visitors;
@@ -857,6 +858,8 @@
           label: P.days <= 7 ? c.d.toLocaleDateString('fr-FR', { weekday: 'short' }) : c.d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' }),
           full: c.d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }),
           v: sumArr(c.hours), p: sumArr(prevGrid[i]),
+          // Courbe des visites : navigateurs uniques du jour (Worker), affichés dans l'infobulle.
+          extra: metric === 'visits' && data.visitors ? uniques((data.visitors.daily || []).find((x) => x.day === dayKey(c.d))?.browsers || 0) : null,
         }));
     const byHour = Array.from({ length: 24 }, (_, i) => ({ label: `${i} h`, full: `Entre ${i} h et ${i + 1} h`, v: sumArr(curGrid.map((d) => d[i])) }));
     const WD = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
@@ -1028,7 +1031,8 @@
         tip.replaceChildren(
           h('div', { class: 'dim' }, p.full),
           h('div', {}, h('span', { class: 'k', style: 'border-color:var(--a2)' }), h('b', {}, p.v == null ? '—' : scoreScale ? nf1.format(p.v) + ' / 20' : plural(p.v, unit))),
-          ...(p.tip ? p.tip.map((x) => h('div', { class: 'dim' }, x)) : [scoreScale ? null : h('div', { class: 'dim' }, h('span', { class: 'k', style: 'border-top-style:dashed' }), `${nf.format(p.p || 0)} avant`)].filter(Boolean)));
+          ...(p.tip ? p.tip.map((x) => h('div', { class: 'dim' }, x)) : [scoreScale ? null : h('div', { class: 'dim' }, h('span', { class: 'k', style: 'border-top-style:dashed' }), `${nf.format(p.p || 0)} avant`)].filter(Boolean)),
+          ...(p.extra ? [h('div', { class: 'dim' }, p.extra)] : []));
         placeTip(tip, X, Math.min(y(p.v || 0), y(p.p || 0)));
       };
       zone.addEventListener('pointermove', (e) => show(e.clientX));
