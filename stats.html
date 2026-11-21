@@ -141,9 +141,8 @@
   .notes-l { font-size: .8rem; font-weight: 600; color: var(--muted); text-align: center;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
   .notes-pct { font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
-  .kpis { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; }
-  /* Six indicateurs : une ligne sur grand écran, deux lignes de trois en dessous. */
-  @media (max-width: 1100px) { .kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+  /* Huit indicateurs : deux lignes de quatre, puis deux colonnes sur téléphone. */
   .kpi { text-align: left; display: flex; flex-direction: column; gap: 2px; padding: 16px 18px 12px; overflow: hidden; }
   button.kpi { cursor: pointer; transition: border-color .2s, transform .1s; }
   button.kpi:hover { border-color: var(--line-strong); }
@@ -501,8 +500,9 @@
     const P = PERIODS[period], r = range(P.days);
     const q = (a, b) => ({ start: iso(a), end: iso(b) });
     let raw;
-    if (DEMO) raw = demoData(P.days, r);
+    if (DEMO) raw = { ...demoData(P.days, r), visitors: demoVisitors(P.days, r) };
     else {
+      const visitorsP = loadVisitors(r); // Worker, en parallèle de GoatCounter
       // Appels un par un : GoatCounter limite le nombre de demandes par seconde.
       const total = await api('/api/v0/stats/total', q(r.prevStart, r.end));
       const hits = await api('/api/v0/stats/hits', { ...q(r.prevStart, r.end), limit: 100 });
@@ -514,6 +514,7 @@
         total: splitTotal(total, r.start, r.end), prevTotal: splitTotal(total, r.prevStart, r.prevEnd),
         hits: splitHits(hits.hits, r.start, r.end), prevHits: splitHits(hits.hits, r.prevStart, r.prevEnd),
         systems: systems.stats || [], sizes: sizes.stats || [],
+        visitors: await visitorsP,
       };
     }
     return { ...raw, r, days: P.days, sum: summarize(raw.hits), prevSum: summarize(raw.prevHits), at: new Date() };
@@ -598,6 +599,24 @@
     } catch {
       collectiveFailed = true;
     }
+  }
+
+  // Navigateurs uniques (Worker) : navigateurs qui ont ouvert Mémo sur la période, plus ceux déjà
+  // connus par leurs flashcards ou leurs annales (seule source avant le relevé des visites).
+  const visitorsEndpoint = collectiveEndpoint.replace(/\/stats$/, '/visiteurs');
+  async function loadVisitors(r) {
+    try {
+      const p = new URLSearchParams({ start: +r.start, end: +r.end, prevStart: +r.prevStart, prevEnd: +r.prevEnd, tz: new Date().getTimezoneOffset() });
+      const response = await fetch(`${visitorsEndpoint}?${p}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error('Visiteurs indisponibles');
+      return await response.json();
+    } catch { return null; }
+  }
+  function demoVisitors(days, r) {
+    const daily = daysOf(r.start, days).map((d, i) => ({ day: dayKey(d), browsers: 6 + ((i * 5) % 7) }));
+    const b = Math.round(9 + days * 1.6);
+    return { browsers: b, visits: Math.round(b * 3.4), visitBrowsers: b - 2,
+      prev: { browsers: Math.round(b * .85), visits: Math.round(b * 2.9), visitBrowsers: Math.round(b * .8) }, daily, since: +r.prevStart };
   }
 
   // Données collectives fictives pour ?demo (mêmes formes que la réponse du Worker).
@@ -780,6 +799,32 @@
     return seg;
   }
 
+  // « Navigateurs uniques » : navigateurs différents sur la période (relevé du Worker).
+  function visitorsKpi(data, P, prevLabel) {
+    const v = data.visitors;
+    if (!v) return kpi({ label: 'Navigateurs uniques', value: '—', sub: 'Indisponible' });
+    const byDay = new Map((v.daily || []).map((x) => [x.day, x.browsers || 0]));
+    const spark = P.days === 1 ? null : daysOf(data.r.start, P.days).map((d) => byDay.get(dayKey(d)) || 0);
+    return kpi({ label: 'Navigateurs uniques', value: nf.format(v.browsers), d: delta(v.browsers, v.prev.browsers),
+      sub: `${nf.format(v.prev.browsers)} ${P.days === 1 ? 'hier' : 'avant'}`,
+      title: `Navigateurs différents qui ont ouvert Mémo, comparé à ${prevLabel}. Avant le relevé des visites, seuls les navigateurs qui ont enregistré des flashcards ou corrigé une annale sont connus.`,
+      spark });
+  }
+  // « Visites par navigateur » : visites relevées par le Worker / navigateurs qui les ont faites.
+  function visitsPerBrowserKpi(data, P) {
+    const v = data.visitors;
+    const label = 'Visites par navigateur';
+    if (!v) return kpi({ label, value: '—', sub: 'Indisponible' });
+    const ratio = (x) => (x.visitBrowsers ? x.visits / x.visitBrowsers : 0);
+    const since = v.since ? new Date(v.since) : null;
+    const partial = !since || since > data.r.start;
+    return kpi({ label, value: v.visitBrowsers ? nf1.format(ratio(v)) : '—',
+      d: v.prev.visitBrowsers ? delta(ratio(v), ratio(v.prev)) : null,
+      sub: partial ? (since ? `relevé depuis le ${since.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' })}` : 'relevé pas encore commencé')
+        : `${plural(v.visits, 'visite')} relevée${v.visits > 1 ? 's' : ''}`,
+      title: 'Nombre moyen de visites (ouverture de Mémo, ou retour après 30 min) par navigateur sur la période.' });
+  }
+
   function renderDash(error) {
     const data = last, P = PERIODS[period], M = METRICS[metric];
     const visits = data.total.total || 0, prevVisits = data.prevTotal.total || 0;
@@ -833,6 +878,7 @@
       error ? h('div', { class: 'err' }, error) : null,
       h('section', { class: 'kpis' },
         kpi({ key: 'visits', label: 'Visites', value: nf.format(visits), d: delta(visits, prevVisits), sub: `${nf.format(prevVisits)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(vGrid) }),
+        visitorsKpi(data, P, prevLabel),
         kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(rGrid) }),
         kpi({ label: 'Cours ouverts', value: nf.format(cur.courses.length), sub: courseCount ? `sur ${courseCount} cours disponibles` : '', d: delta(cur.courses.length, prev.courses.length) }),
         kpi({ label: 'Annales terminées', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
@@ -840,6 +886,7 @@
         P.days === 1
           ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
           : kpi({ label: 'Par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'visites en moyenne' }),
+        visitsPerBrowserKpi(data, P),
       ),
       h('section', { class: 'card' },
         h('div', { class: 'card-head' },
