@@ -176,8 +176,11 @@ export function pruneLibraryDecks(files) {
   return n;
 }
 
-export function importDecks(parsed, { prune = false, source = null } = {}) {
+// - autosave : false → l'appelant enregistre lui-même (la Bibliothèque enregistre une seule
+//              fois après tous les cours). Dans tous les cas, rien n'est écrit si rien n'a changé.
+export function importDecks(parsed, { prune = false, source = null, autosave = true } = {}) {
   let added = 0, updated = 0, removed = 0;
+  let changed = false; // modification sans effet sur les compteurs (source, nom, marque « lib »)
   const names = [];
   parsed.forEach((p, i) => {
     const src = source ? `${source}#${i}` : null;
@@ -186,6 +189,7 @@ export function importDecks(parsed, { prune = false, source = null } = {}) {
       || createDeck(p.name);
     if (src && (d.source !== src || d.name !== p.name)) {
       Object.assign(d, { source: src, name: p.name, updated: now() });
+      changed = true;
     }
     names.push(d.name);
     const existing = new Map(cards(d.id).map((c) => [norm(c.front), c]));
@@ -212,7 +216,7 @@ export function importDecks(parsed, { prune = false, source = null } = {}) {
       }
       if (ex) {
         if (ex.back !== back) { Object.assign(ex, { back, updated: now() }); updated++; }
-        if (src && !ex.lib) Object.assign(ex, { lib: true, updated: now() });
+        if (src && !ex.lib) { Object.assign(ex, { lib: true, updated: now() }); changed = true; }
       } else {
         const c = newCard(d.id, front, back);
         c.lib = !!src;
@@ -222,8 +226,9 @@ export function importDecks(parsed, { prune = false, source = null } = {}) {
       }
     }
   });
-  save();
-  return { added, updated, removed, names };
+  changed ||= added + updated + removed > 0;
+  if (changed && autosave) save();
+  return { added, updated, removed, names, changed };
 }
 
 /* ---------- Compteurs du jour (limites de nouvelles cartes / révisions) ---------- */

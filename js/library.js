@@ -30,6 +30,7 @@ export function syncLibrary({ force = false } = {}) {
         .filter((l) => l && !l.startsWith('//') && !l.startsWith('#'));
 
       const total = { added: 0, updated: 0, removed: 0 };
+      let changed = false;
       // Téléchargements en parallèle (6 à la fois), puis mise à jour dans l'ordre de la liste.
       const texts = new Array(files.length);
       let next = 0;
@@ -49,7 +50,10 @@ export function syncLibrary({ force = false } = {}) {
           const dir = `paquets/${file.replace(/[^/]*$/, '')}`;
           const fix = (s) => s.replace(/\[img:(?!https?:|paquets\/)([^\]]+)\]/g, (_, p) => `[img:${dir}${p.trim()}]`);
           decks.forEach((d) => d.cards.forEach((c) => { c.front = fix(c.front); c.back = fix(c.back); if (c.was) c.was = c.was.map(fix); }));
-          const r = store.importDecks(decks, { prune: true, source: file });
+          // Enregistrement unique après la boucle : réécrire les données (plusieurs centaines de Ko)
+          // pour chacun des cours bloquait l'app à chaque ouverture, même sans aucun changement.
+          const r = store.importDecks(decks, { prune: true, source: file, autosave: false });
+          changed ||= r.changed;
           total.added += r.added;
           total.updated += r.updated;
           total.removed += r.removed;
@@ -57,6 +61,7 @@ export function syncLibrary({ force = false } = {}) {
           console.warn('Cours non chargé :', err.message);
         }
       }
+      if (changed) store.save();
       // Cours retirés de liste.txt : on retire aussi leur paquet de l'app
       if (files.length) total.removed += store.pruneLibraryDecks(files);
       lastSync = Date.now();

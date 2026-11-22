@@ -102,7 +102,15 @@ export async function loadQuizzes() {
 export const loadedQuizzes = () => cache;
 
 /* ---------- Mémoire locale : dernière auto-évaluation de chaque question ---------- */
-const readMem = () => { try { return JSON.parse(localStorage.getItem(MEM_KEY)) || {}; } catch { return {}; } };
+// Lue une seule fois puis gardée en mémoire : les menus interrogent chaque question
+// (près de 1 000), et relire tout l'historique à chaque fois ralentissait l'affichage.
+// Relue si un autre onglet de Mémo la modifie.
+let memCache = null;
+const readMem = () => {
+  if (!memCache) { try { memCache = JSON.parse(localStorage.getItem(MEM_KEY)) || {}; } catch { memCache = {}; } }
+  return memCache;
+};
+addEventListener('storage', (e) => { if (e.key === MEM_KEY || e.key === null) memCache = null; });
 export function remember(key, grade) {
   const mem = readMem();
   const prev = mem[key] || { n: 0 };

@@ -18,13 +18,19 @@
       body: JSON.stringify({browser: identity(), revision: Date.now(), ...data}),
       keepalive: true,
     });
-    if (!response.ok) throw new Error('Contribution indisponible');
+    if (!response.ok) { const err = new Error('Contribution indisponible'); err.status = response.status; throw err; }
   }
+  // Refus définitif du serveur (date trop ancienne, annale inconnue…) : inutile de renvoyer.
+  // « Trop d'envois » (429), erreur serveur ou réseau : on garde pour plus tard.
+  const refused = (err) => err.status >= 400 && err.status < 500 && err.status !== 408 && err.status !== 429;
 
-  let timer;
+  // Au plus un envoi par minute (le décompte remplace le précédent : rien n'est perdu) : une salle
+  // de cours partage souvent la même adresse IP, et le Worker limite les envois par adresse.
+  let timer, lastSent = 0;
   function shareFlashcards() {
     clearTimeout(timer);
     timer = setTimeout(async () => {
+      lastSent = Date.now();
       try {
         const data = JSON.parse(localStorage.getItem('memo-data-v1'));
         const grades = [0, 0, 0, 0];
@@ -39,7 +45,7 @@
         await send('/flashcards', {grades});
         localStorage.setItem('memo-stats-last-grades', snapshot);
       } catch { /* La progression locale reste disponible hors ligne. */ }
-    }, 750);
+    }, Math.max(750, 60_000 - (Date.now() - lastSent)));
   }
 
   const info = window.MEMO_QUIZ;
@@ -53,7 +59,8 @@
 
     async function submit(note) {
       try {
-        await send('/annales', {exam, ...note});
+        try { await send('/annales', {exam, ...note}); }
+        catch (err) { if (!refused(err)) throw err; } // refusée pour de bon : on l'oublie
         if (pending === note) pending = null;
         const stored = JSON.parse(localStorage.getItem(pendingKey));
         if (stored?.revision === note.revision) localStorage.removeItem(pendingKey);
@@ -112,7 +119,8 @@
     flushing = true;
     try {
       for (const revision of readWaiting()) {
-        await send('/visite', {revision, device: deviceType()});
+        try { await send('/visite', {revision, device: deviceType()}); }
+        catch (err) { if (!refused(err)) throw err; } // visite refusée pour de bon : retirée de la file
         localStorage.setItem(waitingKey, JSON.stringify(readWaiting().filter((r) => r !== revision)));
       }
     } catch { /* Nouvel essai au prochain retour du réseau ou à la prochaine visite. */ }
