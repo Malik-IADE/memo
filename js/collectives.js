@@ -95,12 +95,24 @@
   const PAUSE = 30 * 60_000;
   const readWaiting = () => { try { return JSON.parse(localStorage.getItem(waitingKey)) || []; } catch { return []; } };
   let flushing = false;
+  // Type d'appareil (pour compter les appareils uniques dans les stats) : rien d'autre n'est envoyé.
+  function deviceType() {
+    const ua = navigator.userAgent || '';
+    if (/iPhone|iPod/.test(ua)) return 'iphone';
+    if (/iPad/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) return 'ipad'; // iPadOS se présente comme un Mac
+    if (/Android/.test(ua)) return /Mobile/.test(ua) ? 'android' : 'android-tablette';
+    if (/CrOS/.test(ua)) return 'chromeos';
+    if (/Macintosh|Mac OS X/.test(ua)) return 'mac';
+    if (/Windows/.test(ua)) return 'windows';
+    if (/Linux/.test(ua)) return 'linux';
+    return 'autre';
+  }
   async function flushVisits() {
     if (flushing || !navigator.onLine) return;
     flushing = true;
     try {
       for (const revision of readWaiting()) {
-        await send('/visite', {revision});
+        await send('/visite', {revision, device: deviceType()});
         localStorage.setItem(waitingKey, JSON.stringify(readWaiting().filter((r) => r !== revision)));
       }
     } catch { /* Nouvel essai au prochain retour du réseau ou à la prochaine visite. */ }
