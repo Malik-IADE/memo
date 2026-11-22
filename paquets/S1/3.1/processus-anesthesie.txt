@@ -18,7 +18,7 @@ Quelle règle suivre pour prescrire des examens complémentaires préopératoire
 
 // ---------- Voies aériennes ----------
 Quels critères prédisent une ventilation au masque difficile ? :: IMC > 26 kg/m²\nÂge > 55 ans\nRonflements\nBarbe\nÉdentation\nCou court
-Quels critères prédisent une intubation difficile ? :: Antécédent d'intubation difficile\nMallampati > 2\nDistance thyro-mentonnière < 6 cm, ouverture de bouche < 35 mm\nProtrusion mandibulaire limitée, rachis cervical rigide\nIMC > 35 kg/m², apnée du sommeil avec tour de cou > 45 cm\nTumeur, chirurgie ou radiothérapie cervicale, goitre, macroglossie
+Quels critères prédisent une intubation difficile ? :: Antécédent d'intubation difficile\nMallampati ≥ 2\nDistance thyro-mentonnière < 6 cm, ouverture de bouche < 35 mm\nProtrusion mandibulaire limitée, rachis cervical rigide\nIMC > 35 kg/m², apnée du sommeil avec tour de cou > 45 cm\nTumeur, chirurgie ou radiothérapie cervicale, goitre, macroglossie
 Que faire après une intubation difficile ? :: Noter le score (Cormack-Lehane ou POGO) sur la feuille d'anesthésie\nInformer le patient et lui remettre un certificat d'intubation difficile
 Combien de tentatives de vidéolaryngoscopie au maximum en cas d'intubation difficile ? :: Trois au maximum, puis changer de stratégie\nEn cas de désaturation : réoxygéner en priorité
 
