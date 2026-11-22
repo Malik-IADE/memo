@@ -67,6 +67,7 @@ const ico = {
   close: svg('<path d="M18 6 6 18M6 6l12 12"/>'),
   more: svg('<circle cx="5" cy="12" r="1.2"/><circle cx="12" cy="12" r="1.2"/><circle cx="19" cy="12" r="1.2"/>'),
   chevron: svg('<path d="M9 18l6-6-6-6"/>'),
+  chevDown: svg('<path d="M6 9l6 6 6-6"/>'),
   folder: svg('<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>'),
   cards: svg('<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>'),
   exam: svg('<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 14.5l2 2 4-4.5"/>'),
@@ -1264,21 +1265,13 @@ function renderQuizSession(id) {
   const item = s.items[s.i];
 
   if (!item) {
-    const r = s.results, n = s.items.length;
     $app.innerHTML = `
       <header class="topbar">
         <a class="icon-btn" href="${esc(back)}" aria-label="Retour">${ico.back}</a>
         <h1 class="title-sm">${esc(title)}</h1><span class="icon-btn" aria-hidden="true"></span>
       </header>
       <main class="page done">
-        <div class="empty-art">🎉</div>
-        <h2>Quiz terminé</h2>
-        <p class="muted">${plural(n, 'question')}</p>
-        <div class="quiz-summary">
-          <div class="qs v-juste"><span class="qs-n">${r.juste}</span><span class="qs-l">juste${r.juste > 1 ? 's' : ''}</span></div>
-          <div class="qs v-incomplet"><span class="qs-n">${r.incomplet}</span><span class="qs-l">incomplète${r.incomplet > 1 ? 's' : ''}</span></div>
-          <div class="qs v-faux"><span class="qs-n">${r.faux}</span><span class="qs-l">fausse${r.faux > 1 ? 's' : ''}</span></div>
-        </div>
+        ${quizNoteHtml(s, random)}
         <div class="stack">
           <button class="btn primary wide" data-action="quiz-again">${random ? 'Nouveau quiz aléatoire' : 'Recommencer ce quiz'}</button>
           <a class="btn ghost wide" href="${esc(back)}">Retour aux quizz</a>
@@ -1356,6 +1349,60 @@ function renderQuizSession(id) {
     </div>`;
 }
 
+/** Fin de série : note sur 20 (sans erreur 1 point, une erreur 0,5, deux ou plus 0) et détail par question. */
+function quizNoteHtml(s, random) {
+  const fmt = (x) => String(x).replace('.', ',');
+  const rows = s.items.map((it, idx) => ({ it, idx,
+    pts: it.answer ? quiz.points(it.q, it.answer) : null, err: it.answer ? quiz.errors(it.q, it.answer) : null }));
+  const done = rows.filter((r) => r.pts != null);
+  const note = done.length ? Math.round((done.reduce((a, r) => a + r.pts, 0) / done.length) * 40) / 2 : null;
+  const count = (p) => done.filter((r) => r.pts === p).length;
+  const cls = (p) => (p === 1 ? 'p1' : p === 0.5 ? 'p05' : 'p0');
+  const detail = ({ it, pts, err }) => {
+    const q = it.q;
+    if (!it.answer) return '<p class="qn-reason">Réponse non enregistrée (question faite avant cette mise à jour).</p>';
+    const ch = new Set(it.answer);
+    const wrongN = q.opts.filter((o, i) => !o.ok && ch.has(i)).length, missedN = q.opts.filter((o, i) => o.ok && !ch.has(i)).length;
+    const parts = [];
+    if (wrongN) parts.push(`${wrongN} proposition${wrongN > 1 ? 's' : ''} cochée${wrongN > 1 ? 's' : ''} à tort`);
+    if (missedN) parts.push(`${missedN} bonne${missedN > 1 ? 's' : ''} réponse${missedN > 1 ? 's' : ''} oubliée${missedN > 1 ? 's' : ''}`);
+    return `<p class="qn-stem">${rich(q.stem)}</p>
+      <ul class="qn-opts">${it.order.map((k, pos) => {
+        const o = q.opts[k], c = ch.has(k);
+        const st = o.ok && c ? 'right' : o.ok ? 'missed' : c ? 'wrong' : 'off';
+        return `<li class="qn-opt ${st}"><span class="qn-l">${st === 'wrong' ? '✗' : st === 'off' ? LETTERS[pos] : '✓'}</span><span>${nb(esc(o.text))}</span></li>`;
+      }).join('')}</ul>
+      <div class="qn-legend"><span class="right">cochée et juste</span><span class="missed">juste, non cochée</span><span class="wrong">cochée à tort</span></div>
+      <p class="qn-reason ${cls(pts)}"><b>${err ? `${err} erreur${err > 1 ? 's' : ''}` : 'Aucune erreur'}</b>${parts.length ? ` : ${parts.join(', ')}` : ''} → ${fmt(pts)} point</p>
+      <button type="button" class="qn-hide" data-action="quiz-hide">Masquer la question</button>`;
+  };
+  return `
+    <div class="qn-hero">
+      <div class="qn-note">${note == null ? '—' : fmt(note)}<small> / 20</small></div>
+      <div class="muted">${plural(s.items.length, 'question')}</div>
+      <h2>Quiz terminé</h2>
+      <p class="qn-bareme">Barème : sans erreur 1 point · une erreur 0,5 · deux erreurs ou plus 0</p>
+    </div>
+    <div class="qn-split">
+      <div class="qn-sp p1"><b>${count(1)}</b><span>sans erreur<br>1 point</span></div>
+      <div class="qn-sp p05"><b>${count(0.5)}</b><span>une erreur<br>0,5 point</span></div>
+      <div class="qn-sp p0"><b>${count(0)}</b><span>2&nbsp;erreurs ou&nbsp;+<br>0 point</span></div>
+    </div>
+    <section class="qn-list">
+      <h3>Détail des questions</h3>
+      <div class="qn-rows">${rows.map((r) => `
+        <details class="qn-row">
+          <summary>
+            <span class="qn-num">${r.idx + 1}</span>
+            <span class="qn-txt"><span class="qn-theme">${esc(random ? r.it.q.quizTitle : r.it.q.theme || r.it.q.quizTitle)}</span><span class="qn-short">${nb(esc(r.it.q.stem))}</span></span>
+            <span class="qn-pts ${r.pts == null ? '' : cls(r.pts)}">${r.pts == null ? '—' : fmt(r.pts)}</span>
+            <span class="qn-chev" aria-hidden="true">${ico.chevDown}</span>
+          </summary>
+          <div class="qn-body">${detail(r)}</div>
+        </details>`).join('')}</div>
+    </section>`;
+}
+
 function quizPick(k) {
   const s = qsession;
   if (!s || s.validated) return;
@@ -1370,6 +1417,7 @@ function quizValidate() {
   const s = qsession;
   if (!s || s.validated || !s.chosen.size) return;
   s.validated = true;
+  s.items[s.i].answer = [...s.chosen]; // pour le détail de la note en fin de série
   s.results[quiz.verdict(s.items[s.i].q, s.chosen)]++;
   quiz.saveRun(s);
   render();
@@ -1637,6 +1685,7 @@ $app.addEventListener('click', (e) => {
     case 'reveal': return reveal();
     case 'quiz-pick': return quizPick(Number(el.dataset.k));
     case 'quiz-validate': return quizValidate();
+    case 'quiz-hide': { const d = el.closest('details'); if (d) { d.open = false; d.querySelector('summary')?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }); } return; }
     case 'quiz-grade': return quizGrade(Number(el.dataset.grade));
     case 'quiz-again': { if (qsession) quiz.clearRun(qsession.id); qsession = null; return render(); }
     // Confirmation affichée dans la page (pas de fenêtre « confirm », peu fiable sur mobile).

@@ -34,12 +34,27 @@ function load() {
         meta: { ...e.meta, ...d.meta, settings: { ...e.meta.settings, ...d.meta?.settings } },
       };
       migrate(data, d.meta?.version || 1);
+      purge(data);
       return data;
     }
   } catch (err) {
     console.warn('Lecture des données impossible', err);
   }
   return empty();
+}
+
+// Ménage à l'ouverture, pour limiter la place prise sur l'appareil : les cartes retirées des
+// cours partagés sont effacées pour de bon (la bibliothèque est rechargée depuis le site) ;
+// les autres suppressions (cartes et paquets personnels) sont gardées 90 jours, puis effacées.
+function purge(data) {
+  const old = now() - 90 * 864e5;
+  for (const [id, c] of Object.entries(data.cards)) {
+    if (c?.deleted && (c.lib || (c.updated || 0) < old)) delete data.cards[id];
+  }
+  const used = new Set(Object.values(data.cards).map((c) => c.deckId));
+  for (const [id, d] of Object.entries(data.decks)) {
+    if (d?.deleted && (d.updated || 0) < old && !used.has(id)) delete data.decks[id];
+  }
 }
 
 function migrate(data, from) {

@@ -130,6 +130,7 @@ export function saveRun(s) {
   else runs[s.id] = {
     keys: s.items.map((it) => it.q.key), orders: s.items.map((it) => it.order),
     i: s.i, chosen: [...s.chosen], validated: s.validated,
+    answers: s.items.slice(0, s.i + 1).map((it) => it.answer || null), // cases cochées des questions déjà validées
     results: s.results, grades: s.grades, t: Date.now(),
   };
   writeRuns(runs);
@@ -153,7 +154,8 @@ export function restoreRun(id, questions) {
     const q = byKey.get(k);
     if (!q) return;
     const order = Array.isArray(r.orders[pos]) && r.orders[pos].length === q.opts.length ? r.orders[pos] : optionOrder(q);
-    items.push({ q, order });
+    const ans = Array.isArray(r.answers) ? r.answers[pos] : null;
+    items.push({ q, order, ...(Array.isArray(ans) ? { answer: ans.filter((k) => Number.isInteger(k) && k >= 0 && k < q.opts.length) } : {}) });
     if (pos < r.i) i++;
   });
   if (!items.length || i >= items.length) { clearRun(id); return null; }
@@ -201,6 +203,17 @@ export function randomPick(questions, n = 20) {
 }
 
 /** Résultat d'une réponse : exacte, incomplète (rien de faux mais un oubli) ou fausse. */
+/** Erreurs d'une réponse : propositions cochées à tort + bonnes réponses oubliées. */
+export function errors(q, chosen) {
+  const c = new Set(chosen);
+  return q.opts.reduce((n, o, i) => n + (!!o.ok !== c.has(i) ? 1 : 0), 0);
+}
+/** Points d'une question pour la note sur 20 : sans erreur 1, une erreur 0,5, deux ou plus 0. */
+export function points(q, chosen) {
+  const e = errors(q, chosen);
+  return e === 0 ? 1 : e === 1 ? 0.5 : 0;
+}
+
 export function verdict(q, chosen) {
   const wrong = [...chosen].some((i) => !q.opts[i].ok);
   const missed = q.opts.some((o, i) => o.ok && !chosen.has(i));
