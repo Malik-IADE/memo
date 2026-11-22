@@ -31,7 +31,7 @@ Concernant l'organisation de la SSPI, quelles propositions sont exactes ?
 - Une seule personne suffit, quel que soit le nombre de postes. :: Au moins deux personnes dès 6 postes.
 + La SSPI est située à proximité des sites opératoires. :: Elle peut servir de déchocage.
 - Elle ne fonctionne qu'aux heures du programme opératoire. :: Ses horaires tiennent compte de l'urgence.
-> SSPI : au moins 4 postes, proche du bloc, personnel formé et dédié (2 personnes au-delà de 6 postes), sous la responsabilité d'un médecin anesthésiste disponible sans délai.
+> SSPI : au moins 4 postes, proche du bloc, personnel formé et dédié (2 personnes dès 6 postes), sous la responsabilité d'un médecin anesthésiste disponible sans délai.
 @ p. 10, 11 et 59
 
 QCU · Nombre de postes
