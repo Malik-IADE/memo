@@ -473,10 +473,6 @@
 
   // Écrans de catégorie : nom affiché dans l'app (dossier « Schemas » sans accent sur le serveur).
   const SCREEN_LABELS = { perso: 'Mes paquets', partages: 'Cours partagés', scores: 'Scores', schemas: 'Schémas' };
-  const SYS = { ios: 'iPhone / iPad', macos: 'Mac', android: 'Android', windows: 'Windows', linux: 'Linux', chromeos: 'ChromeOS', 'chrome os': 'ChromeOS' };
-  const sysName = (n) => SYS[String(n || '').toLowerCase()] || n || 'Autre';
-  const SIZES = { phone: 'Téléphone', largephone: 'Grand téléphone', tablet: 'Tablette', desktop: 'Ordinateur', desktophd: 'Grand écran', unknown: 'Inconnu' };
-  const sizeName = (st) => SIZES[String(st.id || '').toLowerCase()] || SIZES[String(st.name || '').toLowerCase().replace(/\s/g, '')] || st.name || 'Autre';
 
   /* ---------- Chargement ---------- */
   let courseCount = null, examCount = null, quizCount = null, last = null, busy = false;
@@ -506,14 +502,9 @@
       // Appels un par un : GoatCounter limite le nombre de demandes par seconde.
       const total = await api('/api/v0/stats/total', q(r.prevStart, r.end));
       const hits = await api('/api/v0/stats/hits', { ...q(r.prevStart, r.end), limit: 100 });
-      // Facultatifs : certains navigateurs bloquent ces demandes, la page s'affiche quand même.
-      const optional = (path) => api(path, { ...q(r.start, r.end), limit: 10 }, undefined, 1).catch((e) => { if (e.auth) throw e; return { stats: [] }; });
-      const sizes = await optional('/api/v0/stats/sizes');
-      const systems = await optional('/api/v0/stats/systems');
       raw = {
         total: splitTotal(total, r.start, r.end), prevTotal: splitTotal(total, r.prevStart, r.prevEnd),
         hits: splitHits(hits.hits, r.start, r.end), prevHits: splitHits(hits.hits, r.prevStart, r.prevEnd),
-        systems: systems.stats || [], sizes: sizes.stats || [],
         visitors: await visitorsP,
       };
     }
@@ -616,7 +607,8 @@
     const daily = daysOf(r.start, days).map((d, i) => ({ day: dayKey(d), browsers: 6 + ((i * 5) % 7) }));
     const b = Math.round(9 + days * 1.6);
     const hourly = days === 1 ? Array.from({ length: new Date().getHours() + 1 }, (_, i) => ({ hour: `${dayKey(r.start)} ${String(i).padStart(2, '0')}`, browsers: i < 7 ? 0 : 1 + (i % 4) })) : [];
-    return { browsers: b, visits: Math.round(b * 3.4), visitBrowsers: b - 2, hourly,
+    const devices = [['iphone', Math.round(b * .45)], ['mac', Math.round(b * .2)], ['android', Math.round(b * .15)], ['windows', Math.round(b * .1)]].map(([device, browsers]) => ({ device, browsers }));
+    return { browsers: b, visits: Math.round(b * 3.4), visitBrowsers: b - 2, hourly, devices,
       prev: { browsers: Math.round(b * .85), visits: Math.round(b * 2.9), visitBrowsers: Math.round(b * .8) }, daily, since: +r.prevStart };
   }
 
@@ -801,6 +793,19 @@
   }
 
   const uniques = (n) => `${plural(n, 'navigateur')} unique${n > 1 ? 's' : ''}`;
+  // « Appareils uniques » (Worker) : un appareil venu plusieurs fois ne compte qu'une fois.
+  // Le type est envoyé avec chaque visite depuis le 22 nov. : les navigateurs connus sans type
+  // (pas revenus depuis) sont regroupés dans « Non identifié ».
+  const DEVICE_LABELS = { iphone: 'iPhone', ipad: 'iPad', android: 'Téléphone Android', 'android-tablette': 'Tablette Android',
+    mac: 'Mac', windows: 'PC Windows', linux: 'Linux', chromeos: 'Chromebook', autre: 'Autre' };
+  function deviceRows(data) {
+    const v = data.visitors;
+    if (!v) return [];
+    const rows = (v.devices || []).map((x) => [DEVICE_LABELS[x.device] || x.device, x.browsers || 0]);
+    const unknown = (v.browsers || 0) - rows.reduce((a, r) => a + r[1], 0);
+    if (unknown > 0) rows.push(['Non identifié', unknown]);
+    return rows;
+  }
   // « Navigateurs uniques » : navigateurs différents sur la période (relevé du Worker).
   function visitorsKpi(data, P, prevLabel) {
     const v = data.visitors;
@@ -870,8 +875,6 @@
     const heat = WD.map(() => Array(24).fill(0));
     cells.forEach((c) => { const wd = (c.d.getDay() + 6) % 7; byWd[wd].v += sumArr(c.hours); c.hours.forEach((v, i) => { heat[wd][i] += v; }); });
 
-    const sysRows = sorted(new Map(data.systems.map((x) => [sysName(x.name), x.count || 0])));
-    const sizeRows = sorted(new Map(data.sizes.map((x) => [sizeName(x), x.count || 0])));
     const pk = peak(byHour), pw = peak(byWd);
     const sparkOf = (g) => (P.days === 1 ? g[0].hours.slice(0, nowH + 1) : g.map((c) => sumArr(c.hours)));
 
@@ -918,7 +921,7 @@
         rank('Annales les plus terminées', cur.exams, 'Aucune annale terminée sur cette période.'),
         rank('Quiz les plus terminés', cur.quizzes, 'Aucun quiz terminé sur cette période.'),
         rank('Écrans les plus vus', cur.screens, 'Aucun écran de navigation vu sur cette période.'),
-        rank('Appareils', sysRows.some((x) => x[1]) ? sysRows : sizeRows, 'Pas encore de données.'),
+        rank('Appareils uniques', deviceRows(data), 'Pas encore de données.'),
       ),
       h('footer', { class: 'foot' },
         h('span', {}, DEMO ? 'Données fictives' : 'Mis à jour à ' + data.at.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })),
