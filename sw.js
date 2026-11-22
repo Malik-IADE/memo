@@ -1,7 +1,7 @@
 // Service worker : permet à l'app de fonctionner hors ligne.
 // Stratégie « réseau d'abord » : la dernière version est utilisée quand il y a
 // du réseau, la copie en cache sinon. Changez CACHE à chaque mise en ligne.
-const CACHE = 'memo-v85';
+const CACHE = 'memo-v86';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'manifest.webmanifest',
   'js/app.js', 'js/store.js', 'js/srs.js', 'js/format.js', 'js/library.js', 'js/collectives.js', 'js/quiz.js', 'js/reprise-annale.js',
@@ -40,7 +40,8 @@ function fresh(req) {
 
 function store(req, res) {
   // On ne garde que les vraies réponses du site (pas les erreurs 404/500).
-  if (res.ok && res.type === 'basic') { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); }
+  // Clé sans « ?… » : une seule copie par fichier (la lecture se fait déjà avec ignoreSearch).
+  if (res.ok && res.type === 'basic') { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req.url.split(/[?#]/)[0], copy)); }
   return res;
 }
 
@@ -51,7 +52,7 @@ self.addEventListener('fetch', (e) => {
     .then((r) => r || (req.mode === 'navigate' ? caches.match('index.html') : Response.error()));
 
   if (IMAGE.test(url.pathname)) {
-    e.respondWith(caches.match(req).then((hit) => hit || fetch(req).then((res) => store(req, res))));
+    e.respondWith(caches.match(req, { ignoreSearch: true }).then((hit) => hit || fetch(req).then((res) => store(req, res))));
     return;
   }
   // Cours partagés : toujours la version du serveur quand le réseau répond, même lentement
