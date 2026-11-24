@@ -96,11 +96,11 @@ Concernant le choix de la technique d'anesthésie chez le sujet âgé, quelles p
 
 QCM · Monitorage peropératoire
 Quels objectifs peropératoires sont adaptés chez le sujet âgé ?
-+ Maintenir la PAM au-dessus de 70 % de la PAM préopératoire. :: Et traiter toute hypotension sans délai.
-+ Éviter une anesthésie trop profonde grâce au BIS. :: Cible 40 à 60 ; cela pourrait réduire le délire.
-+ Prévenir l'hypothermie dès l'arrivée au bloc. :: Le sujet âgé se refroidit vite et se réchauffe mal.
-+ Traiter sans délai toute hypotension. :: Pour limiter les complications rénales et myocardiques.
-+ Viser un BIS entre 40 et 60. :: C'est la cible recommandée.
++ Maintenir la PAM au-dessus de 70 % de la PAM préopératoire et traiter sans délai toute hypotension. :: Pour limiter les complications rénales et myocardiques.
++ Surveiller la profondeur d'anesthésie au BIS (cible 40 à 60) pour éviter un surdosage. :: Éviter les bouffées-suppressions pourrait réduire le délire postopératoire.
++ Prévenir l'hypothermie dès l'arrivée au bloc par un réchauffement actif. :: Le sujet âgé se refroidit vite et se réchauffe mal.
++ Monitorer quantitativement la curarisation avant extubation. :: La récupération neuromusculaire peut être prolongée chez le sujet âgé.
+- Viser une anesthésie très profonde (BIS < 30) pour limiter les réactions tensionnelles. :: Une anesthésie trop profonde expose à l'hypotension et au délire postopératoire.
 > Connaître la PAM de base, éviter une PAM < 60-70 mmHg (ou < 70 % de la base), traiter sans délai. BIS entre 40 et 60. Réchauffer avant l'induction et à chaque étape : l'hypothermie expose à l'ischémie myocardique, aux troubles du rythme et de la coagulation, à l'infection.
 @ p. 46, 47 et 49
 
@@ -130,7 +130,7 @@ Concernant les troubles neurocognitifs postopératoires du sujet âgé, quelles 
 - Le trouble neurocognitif postopératoire se définit dès les premières 48 heures. :: Il se définit de J30 à 12 mois ; avant J7, on parle de délire postopératoire, puis de retard de récupération jusqu'à J30.
 + Une évaluation cognitive préopératoire est nécessaire pour parler de déclin. :: Sinon on ne peut pas comparer.
 - Le syndrome confusionnel apparaît plusieurs semaines après l'intervention. :: Il survient dans les 24 à 48 heures.
-- Le délire au réveil est sans conséquence. :: Il expose à l'arrachement des dispositifs (sonde, voies veineuses, drains).
+- Le délire au réveil est bénin et ne modifie pas la sécurité des dispositifs en place. :: Il expose à l'arrachement des dispositifs (sonde, voies veineuses, drains) et à des complications traumatiques.
 > Trois types : délire au réveil, syndrome confusionnel (24-48 h), dysfonction cognitive prolongée. Nomenclature : délire jusqu'à J7, retard de récupération jusqu'à J30, trouble neurocognitif de J30 à 12 mois.
 @ p. 58 et 59
 

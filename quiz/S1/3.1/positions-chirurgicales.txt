@@ -8,7 +8,7 @@ QCM · Responsabilités
 Concernant les responsabilités dans la mise en posture chirurgicale, quelles propositions sont exactes ?
 + La mise en posture se fait sous la responsabilité du chirurgien ou de l'IBODE, conjointement avec l'équipe d'anesthésie. :: La responsabilité est partagée, sans effacer celle de chacun.
 + L'IADE anticipe les équipements nécessaires : table, billots, appuis. :: C'est une compétence de son référentiel.
-- L'installation est une étape purement chirurgicale, sans rôle pour l'IADE. :: L'IADE assure la sécurité et les suppléances des fonctions vitales lors des changements de position.
+- La responsabilité de l'installation repose sur le seul opérateur, l'IADE n'intervenant qu'après le drapage. :: L'installation est une responsabilité partagée où l'IADE assure la sécurité, les voies aériennes et les suppléances vitales.
 + La posture est tracée sur la checklist. :: Elle est vérifiée et verbalisée en équipe.
 - Une fois le patient endormi, on installe sans attendre le chirurgien pour gagner du temps. :: En l'absence du cadre prévu, mieux vaut attendre que se précipiter.
 > L'installation est une activité de coopération : chirurgien et IBODE installent, l'équipe d'anesthésie assure la sécurité vitale. Chacun observe, annonce et trace.
@@ -49,7 +49,7 @@ Concernant le classement des risques liés aux postures, quelles propositions so
 + Une rougeur sur un appui en plan dur relève du risque cutané. :: Compression prolongée d'un relief osseux.
 - La luxation d'une prothèse de hanche en position gynécologique relève du risque nerveux. :: Elle relève du risque ostéo-articulaire.
 + L'étirement du nerf sciatique lors de cette même manœuvre relève du risque vasculo-nerveux. :: Une même manœuvre combine plusieurs risques.
-- Le patient anesthésié change spontanément d'appui quand il est gêné. :: Endormi ou curarisé, il ne peut plus faire ce mouvement protecteur.
+- Les réflexes de repositionnement persistent sous anesthésie générale légère dès qu'un nerf est comprimé. :: Sous anesthésie générale ou locorégionale, le patient ne perçoit ni la douleur ni la gêne et ne peut changer d'appui.
 - La stase veineuse prolongée relève du risque respiratoire. :: Elle relève du risque thromboembolique.
 > Six familles : cutanéo-muqueux, vasculo-nerveux, ostéo-articulaire, thromboembolique, hémodynamique, respiratoire. Le patient anesthésié ne peut ni signaler ni corriger une gêne.
 @ p. 1 et 20
@@ -214,14 +214,14 @@ Concernant la position de lithotomie (gynécologique), quelles propositions sont
 > Lithotomie : perfusion distale réduite, compressions du mollet, étirements nerveux, contraintes lombaires et articulaires. Surveiller pouls et appuis ; ne pas accentuer la flexion par habitude.
 @ p. 56 à 59 et 82
 
-QCU · Pression distale
-En lithotomie, la PAM est de 90 mmHg au niveau du cœur. Quelle est la pression approximative au niveau d'un pied situé 50 cm plus haut ?
-- 90 mmHg :: La hauteur au-dessus du cœur diminue la pression.
-- 70 mmHg :: C'est la pression à environ 25 cm au-dessus du cœur.
-+ 50 mmHg :: Environ 0,8 mmHg de moins par centimètre au-dessus du cœur.
-- 18 mmHg :: C'est la pression à environ 90 cm au-dessus du cœur.
-- 110 mmHg :: La pression augmente au-dessous du cœur, pas au-dessus.
-> La pression de perfusion du pied baisse à mesure qu'il s'élève au-dessus du cœur. Hypotension, hypovolémie, artériopathie et compression du mollet aggravent le risque d'ischémie.
+QCU · Pression de perfusion distale en lithotomie
+En position de lithotomie avec jambes fortement surélevées au-dessus du niveau du cœur, quelle conséquence hémodynamique locale doit anticiper l'IADE ?
+- La pression artérielle au niveau du pied reste identique à la PAM mesurée au niveau du cœur. :: La colonne hydrostatique soustrait environ 0,8 mmHg par centimètre au-dessus du cœur.
+- La surélévation des jambes augmente la pression artérielle distale et protège de l'ischémie. :: La pression augmente au-dessous du cœur mais diminue nettement au-dessus du cœur.
++ La pression de perfusion du pied diminue avec la hauteur, exposant à l'ischémie et au syndrome des loges en cas d'hypotension ou de compression du mollet. :: Le risque est majoré par une artériopathie, une hypovolémie ou une durée prolongée.
+- Le risque d'ischémie distale ne concerne que les patients sous rachianesthésie. :: Le gradient hydrostatique et la compression des loges existent aussi sous anesthésie générale.
+- Un brassard placé à la cheville surestime la pression artérielle réelle au niveau du cœur dans cette position. :: Le pied étant au-dessus du cœur, la pression mesurée en distalité y est au contraire plus basse.
+> La pression de perfusion du pied baisse d'environ 0,8 mmHg par centimètre au-dessus du cœur. Hypotension, hypovolémie, artériopathie et compression du mollet aggravent le risque d'ischémie et de syndrome des loges.
 @ p. 59
 
 QCU · Fin de lithotomie

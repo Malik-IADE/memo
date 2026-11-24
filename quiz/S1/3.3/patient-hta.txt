@@ -128,7 +128,7 @@ QCM · Urgences hypertensives
 Concernant les urgences hypertensives, quelles propositions sont exactes ?
 + La crise aiguë hypertensive associe une élévation rapide de la PA et un retentissement viscéral. :: C'est la souffrance d'organe qui définit la crise, pas le chiffre seul.
 - L'HTA maligne se définit par une PAS > 180 mmHg isolée. :: Elle associe une PAD > 130 mmHg, une souffrance viscérale et une rétinopathie de grade III ou IV.
-- Une PA > 180/110 mmHg sans aucun signe de souffrance viscérale suffit à définir une crise aiguë hypertensive. :: Sans retentissement viscéral, il s'agit d'une HTA sévère, pas d'une crise aiguë.
+- Une PA > 180/110 mmHg isolée, sans souffrance viscérale, suffit à définir une crise aiguë hypertensive. :: Sans retentissement viscéral, il s'agit d'une HTA sévère, pas d'une crise aiguë.
 + Des céphalées, un flou visuel ou une douleur abdominale doivent faire rechercher une urgence hypertensive. :: Ce sont des signes de retentissement à rechercher devant une PA très élevée.
 - L'HTA maligne est la complication la plus fréquente de l'HTA. :: Les complications immédiates sont rares. Les complications différées, silencieuses, sont fréquentes.
 > L'urgence hypertensive se définit par l'atteinte d'organe : OAP, ischémie myocardique, dissection aortique, AVC, encéphalopathie, éclampsie, insuffisance rénale. Devant une PA > 180/110 mmHg, on recherche céphalées, flou visuel et douleur abdominale.
@@ -149,18 +149,18 @@ Quels mécanismes expliquent l'hypotension sous anesthésie générale chez l'hy
 + La vasodilatation induite par les agents anesthésiques. :: Les résistances vasculaires baissent.
 + L'altération du baroréflexe et de la réponse sympathique. :: Les compensations habituelles sont diminuées.
 + La ventilation mécanique, qui augmente la pression intrathoracique et diminue le retour veineux. :: La précharge baisse, donc le VES.
-+ Une diminution de la sensibilité des barorécepteurs. :: Les variations de PA sont moins bien compensées.
++ Une baisse de la contractilité myocardique induite par certains hypnotiques ou halogénés. :: Elle participe à la chute du volume d'éjection systolique et du débit cardiaque.
 + Une hypovolémie relative, parfois aggravée par les diurétiques. :: Les vaisseaux sont constrictés à l'état basal.
 > Sous anesthésie se combinent vasodilatation, baisse du débit (bradycardie, hypovolémie), hausse de la pression intrathoracique et perte des compensations sympathiques et baroréflexes. L'hypertendu, qui réagit trop à l'inhibition sympathique, y est particulièrement exposé.
 @ p. 39 et 97
 
 QCM · Hypotension périopératoire
-Concernant l'hypotension périopératoire, quelles propositions sont exactes ?
-- Elle est définie de façon consensuelle par une PAM < 65 mmHg. :: Il n'existe pas de définition consensuelle : on utilise selon les cas un seuil absolu ou une baisse relative par rapport à la PA de base.
-+ L'hypotension post-induction survient entre l'induction et l'incision. :: Après l'incision, la stimulation chirurgicale modifie la PA.
-- Une baisse de 20 % d'une PAS de base à 150 mmHg correspond à une PAS de 130 mmHg. :: 20 % de 150 = 30 mmHg : la PAS est alors de 120 mmHg.
-+ Même une hypotension de courte durée peut exposer à des complications. :: Une minute pourrait suffire. Il ne faut pas attendre pour la traiter.
-- Une hypotension post-induction est sans conséquence, car le patient est oxygéné et consomme peu. :: Les organes restent exposés à l'hypoperfusion, même bien oxygénés.
+Concernant l'hypotension périopératoire chez l'hypertendu, quelles propositions sont exactes ?
+- Elle est définie de façon consensuelle par un seuil unique de PAM < 65 mmHg quel que soit le terrain. :: Il n'existe pas de définition consensuelle : on combine seuil absolu et baisse relative par rapport à la PA de base.
++ L'hypotension post-induction survient entre l'induction et l'incision chirurgicale. :: Après l'incision, la stimulation chirurgicale tend à faire remonter la PA.
+- Une hypotension brève de quelques minutes reste sans impact tant que l'oxygénation artérielle est conservée. :: Même une hypotension de courte durée expose le rein, le myocarde et le cerveau à une hypoperfusion.
++ Même une hypotension de courte durée peut exposer à des complications postopératoires. :: Une minute pourrait suffire : il ne faut pas attendre pour la traiter.
+- La tolérance tensionnelle d'un hypertendu chronique est identique à celle d'un sujet normotendu. :: L'autorégulation d'organe étant décalée vers des pressions plus élevées, la baisse relative par rapport à sa PA habituelle prime.
 > Les définitions les plus utilisées sont PAS < 80 mmHg, baisse de 20 % de la PAS de base, ou PAS < 100 mmHg et/ou baisse de 30 %. Une hypotension, même brève, expose à des complications.
 @ p. 38 et 122
 
@@ -184,14 +184,14 @@ Quel est l'objectif de PAM peropératoire chez un patient hypertendu chronique ?
 > Non-hypertendu : éviter une PAM < 60–70 mmHg. Hypertendu chronique : PAM > 90 % de la valeur habituelle ou > 70 mmHg. Le plus souvent, on garde la PAS dans un intervalle de 20 % autour de la valeur de base.
 @ p. 88 et 144
 
-QCU · Calcul d'une borne de PAS
-Un patient hypertendu a une PAS de référence de 160 mmHg. Vous voulez garder sa PAS dans un intervalle de 20 % autour de cette valeur. Quelle est la borne basse ?
-- 120 mmHg :: Cela correspond à une baisse de 25 %.
-+ 128 mmHg :: 20 % de 160 = 32 mmHg ; 160 − 32 = 128 mmHg.
-- 136 mmHg :: Cela correspond à une baisse de 15 %.
-- 140 mmHg :: Cela correspond à une baisse de 12,5 %.
-- 144 mmHg :: Cela correspond à une baisse de 10 %.
-> On calcule la baisse tolérée à partir de la PA de référence du patient, mesurée en consultation : 160 × 0,2 = 32, donc borne basse à 128 mmHg.
+QCU · Objectif tensionnel relatif chez l'hypertendu
+Chez un patient hypertendu chronique pris en charge au bloc opératoire, sur quelle référence s'appuie-t-on pour fixer la borne basse de pression artérielle ?
+- Sur la valeur mesurée en salle d'opération juste avant l'induction, même en cas de stress aigu. :: Le stress pré-induction élève artificiellement la PA ; la référence doit être la PA habituelle mesurée en consultation ou en automesure.
++ Sur sa pression artérielle habituelle de consultation, en évitant généralement une baisse supérieure à 20 % autour de cette valeur. :: Raisonner en baisse relative tient compte du décalage de l'autorégulation chez l'hypertendu chronique.
+- Sur un seuil fixe de PAS à 90 mmHg identique quel que soit le niveau tensionnel habituel. :: Un seuil absolu fixe peut représenter une chute sévère chez un hypertendu chronique.
+- Sur la pression artérielle mesurée après le premier bolus d'hypnotique. :: L'hypnotique abaisse déjà la pression artérielle et ne reflète pas la PA basale.
+- Sur la pression diastolique seule, la systolique n'intervenant pas dans la définition de l'hypotension. :: Les définitions usuelles de l'hypotension périopératoire s'appuient sur la PAM ou sur la baisse relative de la PAS de base.
+> Chez l'hypertendu, on fixe la cible à partir de la PA de référence mesurée en consultation (ou automesure), en évitant une baisse de plus de 20 % (ou 20 à 30 % selon les protocoles).
 @ p. 38 et 144
 
 QCU · Score de Lee

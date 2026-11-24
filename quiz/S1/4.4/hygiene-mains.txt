@@ -1,245 +1,125 @@
-// Quiz – Hygiène des mains et tenue au bloc (UE 4.4), réécrit le 18 novembre 2026 d'après le support « Hygiène des mains avec notes », sur le modèle du quiz Patient hypertendu.
-// Questions type examen sur les notions générales : transmission manuportée, flores, lavage et friction, cinq indications, gants, moments clés en anesthésie, prérequis, technique, désinfection chirurgicale, ICSHA, tenue, masques et circulation au bloc. Les normes des produits ne sont pas reprises.
+// Quiz – Hygiène des mains et tenue au bloc (UE 4.4), amélioré le 24 novembre 2026 d'après le support « Hygiène - Mains - UE 4.4 - avec notes ».
+// Questions orientées pratique IADE au bloc : flores cutanées, FHA vs lavage, gants, moments clés d'anesthésie, prérequis, désinfection chirurgicale, ICSHA, tenue de bloc, masques et asepsie progressive.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Hygiène – Mains
 
-QCM · Transmission croisée
-Concernant la transmission croisée des micro-organismes, quelles propositions sont exactes ?
-+ Les mains servent d'intermédiaire lors de contacts successifs. :: C'est la transmission manuportée.
-+ L'environnement du patient peut porter ses micro-organismes. :: Même sans contact direct avec lui.
-- Un soin sans contact avec le patient ne peut pas contaminer les mains. :: Toucher le lit ou le brancard suffit.
-+ L'hygiène des mains protège à la fois les patients et les soignants. :: C'est une mesure prioritaire de prévention.
-- Les gants rendent l'hygiène des mains inutile. :: Elle encadre le port des gants.
-> Les mains transportent les micro-organismes d'un patient, d'une surface ou d'un soin à l'autre. L'hygiène des mains est la mesure prioritaire contre la transmission croisée.
-@ p. 1, 2 et 11
+QCM · Flores cutanées et transmission croisée
+Concernant les flores cutanées des mains et la transmission croisée au bloc, quelles propositions sont exactes ?
++ La flore résidente, durablement présente sur la peau, joue un rôle de barrière contre la colonisation par des pathogènes. :: Elle se reconstitue rapidement et n'est pas la cible principale de l'hygiène de routine.
++ La flore transitoire, acquise au contact des patients ou de l'environnement, est la principale responsable des transmissions croisées. :: Elle varie au cours de la journée et est plus facile à éliminer que la flore résidente.
++ Toucher le brancard, le respirateur ou le clavier du poste d'anesthésie suffit à contaminer les mains par la flore transitoire. :: L'environnement du patient porte ses micro-organismes même sans contact cutané direct.
+- L'hygiène des mains de routine a pour objectif d'éradiquer définitivement la flore résidente. :: L'hygiène de routine vise la flore transitoire ; seule la désinfection chirurgicale vise une réduction durable de la flore résidente.
+- La flore transitoire reste stable toute la journée tant que le soignant ne réalise pas de geste invasif. :: Elle se modifie à chaque contact avec un patient, une surface ou la sphère ORL/digestive.
+> Flore résidente : permanente, protectrice. Flore transitoire : acquise par contact (patient ou environnement), variable, principale vectrice de transmission croisée, cible de la FHA de routine.
+@ p. 1, 2, 9 et 11
 
-QCM · Flores cutanées
-Concernant les flores des mains, quelles propositions sont exactes ?
-+ La flore résidente est durablement présente sur la peau. :: Elle se reconstitue vite.
-+ La flore résidente joue un rôle de barrière. :: Elle s'oppose à la colonisation par des pathogènes.
-+ La flore transitoire est acquise après un contact contaminant. :: Patients, environnement, sphère ORL ou digestive.
-+ La flore transitoire est plus facile à éliminer que la flore résidente. :: C'est elle que vise l'hygiène des mains de routine.
-- La flore transitoire est stable au cours de la journée. :: Elle varie avec l'activité.
-> Flore résidente : permanente, protectrice, difficile à éliminer. Flore transitoire : acquise par contact, variable, souvent en cause dans la transmission, plus facilement éliminée.
-@ p. 9
+QCM · Savon doux et produit hydro-alcoolique (PHA)
+Concernant le choix entre lavage simple au savon doux et friction hydro-alcoolique (FHA), quelles propositions sont exactes ?
++ Le savon doux nettoie les souillures par action mécanique et rinçage, tandis que le PHA désinfecte en éliminant la flore transitoire. :: Les deux gestes n'ont pas la même fonction.
++ En routine sur mains propres et sèches, la FHA est la technique de référence, plus efficace et mieux tolérée que les lavages répétés. :: Les émollients du PHA protègent mieux la peau que les lavages répétés qui retirent le film lipidique.
++ La FHA peut s'enchaîner sans limite fixée de nombre tant que les mains restent visuellement propres et sèches. :: Il n'est pas nécessaire de faire un lavage systématique après un certain nombre de frictions.
+- Après un lavage simple de 30 secondes au savon doux, la flore transitoire est éliminée aussi efficacement qu'après une FHA. :: Les prélèvements montrent que la FHA est nettement plus efficace que le lavage simple pour la désinfection.
+- Les frictions hydro-alcooliques irritent davantage la peau que les lavages répétés à l'eau et au savon. :: C'est l'inverse : les lavages répétés altèrent davantage la barrière cutanée, surtout si les mains sont mal rincées ou mal séchées.
+> Le savon nettoie, le PHA désinfecte. En routine : FHA privilégiée, plus efficace et mieux tolérée. Lavage réservé aux mains visiblement souillées, à la prise de poste, aux gestes de la vie courante, à la gale et à Clostridioides difficile.
+@ p. 3 à 5, 8, 13, 24 et 26
 
-QCM · Freins à l'hygiène des mains
-Concernant les freins à l'hygiène des mains, quelles propositions sont exactes ?
-+ La surcharge de travail et l'enchaînement des gestes favorisent l'oubli. :: Comme les interruptions.
-- La FHA abîme davantage la peau que les lavages répétés. :: C'est l'inverse : les lavages répétés retirent la couche protectrice.
-+ Le manque de points d'eau ou de produit freine le geste. :: Un PHA au plus près des soins lève ce frein.
-- L'efficacité du geste suffit à garantir son observance. :: Améliorer les habitudes reste difficile.
-- La confusion entre lavage et friction est rare. :: C'est une difficulté fréquente.
-> Freins : surcharge, oubli, manque de temps, méconnaissance des indications, peau irritée par les lavages, matériel peu accessible. Un PHA au point de soin et bien toléré facilite l'observance.
-@ p. 3 et 4
+QCU · Mains visiblement souillées ou humides
+Après avoir manipulé un bocal d'aspiration, un soignant constate une souillure sur sa main, se lave les mains au savon doux puis réalise immédiatement une FHA sur mains encore humides. Quelle proposition analyse correctement cette situation ?
+- La FHA seule aurait suffi dès le départ sans passer par le lavage au savon. :: Une souillure visible impose d'abord un lavage simple, car le PHA ne nettoie pas les matières organiques.
+- L'humidité résiduelle améliore la diffusion de l'alcool et renforce l'efficacité de la friction. :: L'eau dilue le PHA, diminue son efficacité antimicrobienne et augmente l'irritation cutanée.
++ Le lavage préalable était justifié par la souillure, mais la FHA sur mains humides perd en efficacité et irrite la peau. :: Après un lavage simple, un séchage complet par tamponnement est indispensable avant la friction.
+- Le lavage simple au savon suffisait totalement et rendait la friction ultérieure inutile. :: Sur mains souillées, le lavage retire la souillure puis la FHA sur mains sèches assure la désinfection.
+- Il aurait fallu frictionner pendant deux minutes pour compenser l'humidité des mains. :: Prolonger la friction ne corrige pas la dilution par l'eau ni l'irritation : les mains doivent être sèches.
+> Mains visiblement souillées : lavage simple au savon doux → rinçage abondant → séchage complet par tamponnement → FHA sur mains sèches.
+@ p. 14 et 17 à 19
 
-QCM · Savon ou produit hydro-alcoolique
-Concernant le choix entre savon et produit hydro-alcoolique, quelles propositions sont exactes ?
-+ Le savon enlève les salissures. :: Par action mécanique et rinçage.
-+ Le produit hydro-alcoolique désinfecte les mains. :: Il élimine la flore transitoire et réduit la flore résidente.
-+ La friction hydro-alcoolique est la technique de référence en routine. :: Recommandations françaises et mondiales.
-- Après un lavage simple de 30 secondes, il ne reste plus de micro-organismes. :: Les cultures en montrent encore.
-- Le lavage simple est plus efficace que la friction pour la désinfection. :: La friction est plus efficace.
-> Le savon nettoie, le PHA désinfecte. En routine, la friction est privilégiée ; le lavage est réservé aux mains sales ou souillées et à quelques situations particulières.
-@ p. 5, 8 et 13
+QCM · Indications et moments clés en anesthésie
+Parmi les situations suivantes au bloc opératoire, lesquelles imposent une hygiène des mains ?
++ Avant la préparation des médicaments d'anesthésie et avant tout geste invasif (VVP, intubation, sondage). :: Indication « avant un geste aseptique ».
++ Juste avant d'enfiler des gants et immédiatement après leur retrait. :: Le retrait des gants peut contaminer les mains.
++ Entre deux soins sur des sites différents chez un même patient (par exemple d'un site contaminé vers une voie veineuse). :: L'hygiène des mains ne se limite pas au changement de patient.
++ Après le transfert du patient sur la table d'opération ou après manipulation du brancard. :: Indication « après un contact avec le patient ou son environnement ».
++ Après un bionettoyage du poste d'anesthésie, même réalisé avec des gants. :: La FHA encadre le port des gants lors du bionettoyage (précédée d'un lavage si souillure).
+> Cinq indications OMS déclinées au bloc : avant contact patient, avant geste aseptique (préparation drogues, VVP, intubation), après risque biologique (extubation, aspiration), après contact patient, après contact environnement.
+@ p. 11 et 14 à 18
 
-QCU · Mains visiblement souillées
-Après l'évacuation d'un bocal d'aspiration, les mains sont visiblement souillées. Quelle conduite est exacte ?
-- Une friction hydro-alcoolique suffit. :: Elle ne retire pas les souillures.
-+ Un lavage simple au savon doux, puis une friction hydro-alcoolique sur mains sèches. :: Le lavage enlève la souillure, la friction désinfecte.
-- Un essuyage avec une compresse puis une friction. :: Il ne nettoie pas la souillure.
-- Une friction prolongée à 2 minutes. :: Le temps ne compense pas la souillure.
-- Aucune mesure si des gants étaient portés. :: Le retrait des gants peut contaminer les mains.
-> Mains souillées par du sang, des urines, des selles ou un médicament : lavage simple d'abord, puis friction une fois les mains sèches.
-@ p. 17 et 18
+QCM · Prérequis et bijoux au bloc
+Concernant les prérequis à l'hygiène des mains au bloc opératoire, quelles propositions sont exactes ?
++ Les ongles doivent être courts, sans vernis (même incolore ou semi-permanent) ni faux ongles. :: Vernis et faux ongles retiennent les micro-organismes et nuisent à l'efficacité de la FHA.
++ Aucun bijou n'est porté aux mains et poignets, alliance lisse et montre comprises. :: Les cultures montrent la persistance de colonies sous les bagues malgré lavage ou friction.
++ En cas de plaie de la main du soignant, on lave la main, on couvre la lésion d'un pansement et on porte des gants pour les soins. :: La FHA sur peau lésée est à éviter (douleur, irritation).
+- Une alliance lisse en or peut être conservée lors des soins si une friction soigneuse de 30 secondes est réalisée. :: Même une alliance lisse retient des micro-organismes et peut en ramener au domicile.
+- Une montre à bracelet métallique désinfectée au début de la journée reste compatible avec les soins d'anesthésie. :: Les avant-bras et poignets doivent être dégagés : la montre se range en poche ou s'accroche à la tenue.
+> Prérequis stricts : manches courtes, avant-bras dégagés, ongles courts sans vernis ni faux ongles, zéro bijou (alliance et montre comprises), mains propres, sèches et intactes.
+@ p. 17 et 19 à 22
 
-QCU · Mains mouillées
-Un soignant sort du lavabo, les mains encore humides, et réalise aussitôt une friction. Quelle est la conséquence ?
-- Aucune, l'eau aide à répartir le produit. :: L'eau diminue l'efficacité de l'alcool.
-+ La friction est moins efficace et la peau plus irritée. :: Les mains doivent être sèches avant la friction.
-- La friction devient plus efficace. :: C'est l'inverse.
-- Le produit sèche plus vite. :: L'eau dilue le produit.
-- La friction remplace alors le séchage. :: Le séchage reste nécessaire avant la friction.
-> La friction se fait sur des mains propres, sèches et intactes. Bien rincer puis bien sécher après un lavage ; ne pas frictionner des mains mouillées.
-@ p. 14, 18 et 19
-
-QCM · Cinq indications
-Parmi les situations suivantes, lesquelles font partie des cinq indications de l'hygiène des mains ?
-+ Avant un contact avec le patient :: Première indication.
-+ Avant un geste aseptique :: Exemple : préparation d'une perfusion.
-+ Après un risque d'exposition à un liquide biologique :: Même avec des gants.
-+ Après un contact avec le patient :: Pour ne pas transférer sa flore.
-+ Après un contact avec l'environnement du patient :: Lit, brancard, matériel.
-> Cinq indications : avant le contact patient, avant un geste aseptique, après un risque biologique, après le contact patient, après le contact avec son environnement.
-@ p. 11
-
-QCM · Friction et gants
-Concernant l'articulation entre friction et port de gants, quelles propositions sont exactes ?
-+ Une friction précède la mise des gants. :: Sur des mains propres et sèches.
-+ Une friction suit immédiatement leur retrait. :: Le retrait peut contaminer les mains.
-+ Une paire de gants correspond à un acte et à un patient. :: On la retire à la fin de l'acte.
-+ Une friction est nécessaire entre deux soins chez un même patient. :: Pas seulement entre deux patients.
-- Les gants dispensent de la friction s'ils sont changés entre deux patients. :: La friction encadre chaque port de gants.
-> Le port de gants ne supprime pas l'hygiène des mains : friction avant, friction après, une paire par acte et par patient.
-@ p. 14 et 35
-
-QCM · Moments clés en anesthésie
-Au bloc, parmi les moments suivants, lesquels imposent une hygiène des mains ?
-+ À l'entrée en salle, après avoir revêtu la tenue de bloc :: Avant tout contact.
-+ Avant la préparation des médicaments d'anesthésie :: Geste aseptique.
-+ Avant l'intubation :: Geste invasif.
-+ Après l'extubation :: Contact avec les sécrétions.
-+ Après le transfert du patient sur la table d'opération :: Contact avec le patient et son environnement.
-> En anesthésie, la friction ponctue chaque étape : entrée en salle, préparation du matériel et des médicaments, installation, induction, intubation, extubation, réveil. Il faut repérer ces moments dans l'organisation réelle.
-@ p. 15 et 16
-
-QCM · Gestes invasifs et bionettoyage
-Concernant l'hygiène des mains lors des gestes invasifs et du bionettoyage, quelles propositions sont exactes ?
-+ Une friction précède la pose d'une voie veineuse ou un sondage urinaire. :: Ce sont des gestes invasifs.
-- Le bionettoyage se fait sans hygiène des mains, avec des gants. :: Friction avant les gants et après leur retrait.
-- Après l'évacuation des déchets, aucune hygiène des mains n'est nécessaire. :: Une friction est indiquée, précédée d'un lavage si les mains sont souillées.
-+ Pour une plaie de la main, on lave, on protège par un pansement et on porte des gants. :: La friction sur peau lésée est à éviter.
-- L'intubation ne fait pas partie des gestes invasifs. :: Elle en fait partie.
-> Avant tout geste invasif (voie veineuse, ponction lombaire, sondage, intubation) : friction. Bionettoyage : friction, gants, nettoyage, retrait, friction.
-@ p. 17 et 18
-
-QCM · Prérequis
-Concernant les prérequis à l'hygiène des mains, quelles propositions sont exactes ?
-+ Les ongles sont courts, sans vernis ni faux ongles. :: Même un vernis incolore ou semi-permanent est exclu.
-+ Les avant-bras sont dégagés, avec des manches courtes. :: Pour frictionner jusqu'aux poignets.
-+ Aucun bijou n'est porté, alliance comprise. :: Les bijoux retiennent des micro-organismes.
-+ La montre est retirée du poignet. :: Elle peut être rangée dans une poche ou accrochée à la tenue.
-+ Les mains sont propres, sèches et non lésées. :: Conditions d'efficacité de la friction.
-> Prérequis : manches courtes, ongles courts sans vernis ni faux ongles, ni bague, ni alliance, ni montre, ni bracelet, mains propres et sèches.
-@ p. 19
-
-QCM · Bijoux
-Concernant les bijoux et l'hygiène des mains, quelles propositions sont exactes ?
-- Une friction soigneuse permet de garder son alliance. :: Il reste des colonies sur les bagues après friction.
-- Les bijoux ne retiennent pas de micro-organismes. :: Les cultures montrent de nombreuses colonies.
-+ Les bijoux peuvent ramener au domicile des micro-organismes du soin. :: Ils sont un réservoir.
-- La montre au poignet est sans risque si elle est en métal. :: Elle reste un support de contamination.
-- Le lavage au savon décontamine efficacement les bagues. :: Il en reste aussi après lavage.
-> Les bijoux et la montre gardent des micro-organismes malgré lavage et friction : ils sont retirés pendant les soins.
-@ p. 20 à 22
-
-QCM · Équipement du point d'eau
-Concernant l'équipement d'un point de lavage des mains, quelles propositions sont exactes ?
-+ Un robinet à commande non manuelle. :: Au pied ou par détection.
-+ Un distributeur de savon. :: Savon doux liquide.
-+ Des essuie-mains à usage unique. :: Pour sécher en tamponnant.
-- Une serviette en tissu partagée. :: Elle recontamine les mains.
-- Un savon en pain. :: Il retient les micro-organismes.
-> Point d'eau : robinet sans contact manuel, savon liquide, essuie-mains à usage unique et sac à déchets. On touche le moins de surfaces possible après le lavage.
-@ p. 23
-
-QCM · Technique du lavage simple
-Concernant la technique du lavage simple des mains, quelles propositions sont exactes ?
-+ On mouille les mains avant d'appliquer le savon. :: Le savon se répartit mieux.
-+ On frictionne toutes les surfaces, y compris pouces et pulpes des doigts. :: Zones souvent oubliées.
-+ On rince abondamment pour éliminer le savon. :: Les résidus irritent la peau.
-+ On sèche en tamponnant avec un essuie-mains à usage unique. :: Et on ferme le robinet avec l'essuie-mains s'il est manuel.
-- Le lavage se limite à 10 secondes. :: La procédure complète dure 40 à 60 secondes.
-> Lavage simple : mouiller, savonner toutes les surfaces, rincer, sécher en tamponnant. Indications : prise de poste, mains souillées, gestes de la vie courante, gale, Clostridioides difficile.
-@ p. 12, 13 et 25
-
-QCU · Durée de la friction
-Concernant la durée d'une friction hydro-alcoolique, quelle proposition est exacte ?
-- 5 secondes suffisent. :: La durée est insuffisante.
-+ 20 à 30 secondes, jusqu'au séchage complet des mains. :: Si les mains restent humides, on recommence les gestes.
-- 2 minutes, quel que soit l'état des mains. :: La fin est le séchage complet.
-- On s'arrête dès que le produit commence à accrocher. :: Il faut continuer jusqu'au séchage.
-- On agite les mains pour accélérer le séchage. :: Il ne faut pas les agiter.
-> FHA : environ 3 mL (le creux de la main), toutes les surfaces, 20 à 30 secondes, jusqu'au séchage complet. Le séchage fait partie de la technique.
+QCU · Technique et durée de la FHA
+Concernant la réalisation technique d'une friction hydro-alcoolique de routine, quelle proposition est exacte ?
+- Un demi-coup de pompe suffit si l'on frotte vigoureusement pendant 15 secondes. :: Il faut environ 3 mL (le creux de la main) pour couvrir toutes les surfaces pendant 20 à 30 secondes.
++ Elle utilise une quantité suffisante (environ 3 mL) sur toutes les surfaces, pendant 20 à 30 secondes, jusqu'au séchage complet. :: Si les mains restent humides après les étapes, on poursuit la friction jusqu'à séchage complet sans agiter les mains.
+- Elle s'arrête dès que les sept étapes gestuelles sont achevées, même si les mains sont encore humides. :: Le séchage complet fait partie intégrante de la technique et de la répartition des émollients.
+- Elle doit être suivie d'un essuyage à l'essuie-mains à usage unique pour accélérer le séchage. :: Essuyer retire le produit avant son action complète et peut recontaminer les mains.
+- Elle impose en routine une durée minimale de deux minutes pour être efficace. :: La durée de la FHA de routine est de 20 à 30 secondes ; la friction prolongée concerne la désinfection chirurgicale.
+> FHA de routine : ≈ 3 mL, toutes les surfaces (dont pouces, espaces interdigitaux, pulpes, poignets), 20 à 30 secondes, jusqu'au séchage complet sans essuyer ni agiter les mains.
 @ p. 26 et 27
 
-QCM · Technique de la friction
-Concernant la technique de la friction hydro-alcoolique, quelles propositions sont exactes ?
-- Un lavage est obligatoire après un nombre fixé de frictions. :: Ce n'est pas nécessaire si les mains restent propres.
-- Les pouces et les pulpes des doigts peuvent être négligés. :: Ce sont des zones à frictionner.
-+ Les émollients du produit protègent la peau, à condition de frictionner jusqu'au bout. :: Ils se répartissent pendant toute la friction.
-- On peut s'arrêter avant le séchage une fois les étapes réalisées. :: On recommence jusqu'au séchage.
-- Un demi-coup de pompe suffit. :: Il faut une quantité suffisante pour couvrir toutes les surfaces.
-> Les frictions peuvent s'enchaîner tant que les mains restent visuellement propres. Les émollients du produit protègent la peau : la FHA est mieux tolérée que les lavages répétés.
-@ p. 26 et 27
-
-QCU · Clostridioides difficile
-Après la prise en charge d'un patient ayant une diarrhée à Clostridioides difficile, quelle hygiène des mains est exacte ?
-- Une friction hydro-alcoolique seule. :: Les spores résistent à l'alcool.
-+ Un lavage simple au savon, puis une friction hydro-alcoolique. :: Le lavage élimine mécaniquement les spores.
-- Un lavage seul, sans friction. :: La friction complète le geste.
-- Aucune, si des gants ont été portés. :: Les mains se contaminent au retrait.
-- Une friction prolongée à 1 minute. :: La durée ne compense pas la résistance des spores.
-> Clostridioides difficile et gale : la FHA seule ne suffit pas. Lavage (élimination mécanique) puis friction sur mains sèches.
-@ p. 12 et 18
-
-QCM · Désinfection chirurgicale
-Concernant la désinfection chirurgicale des mains, quelles propositions sont exactes ?
-+ La désinfection chirurgicale par friction est préférée au lavage chirurgical au savon antiseptique. :: Recommandation de 2009.
-- Elle a le même objectif que la FHA de routine. :: Elle vise une réduction durable de la flore résidente.
-+ Elle est précédée d'un lavage simple à l'arrivée au bloc. :: Avec séchage complet avant la friction.
-- La friction chirurgicale dure 20 à 30 secondes. :: Elle est plus longue et remonte aux avant-bras.
-- Les micro-organismes restants ne se développent pas sous les gants. :: Chaleur et humidité les favorisent.
-> Désinfection chirurgicale : lavage simple à l'arrivée, séchage, puis friction chirurgicale prolongée jusqu'aux coudes. Elle réduit durablement la flore résidente, même sous gants stériles.
+QCM · Désinfection chirurgicale des mains
+Concernant la désinfection chirurgicale des mains au bloc opératoire, quelles propositions sont exactes ?
++ La désinfection chirurgicale par friction est recommandée en première intention par rapport au lavage chirurgical au savon antiseptique. :: Elle est plus efficace et mieux tolérée.
++ Elle vise non seulement la flore transitoire mais aussi une réduction durable de la flore résidente sous les gants stériles. :: La chaleur et l'humidité sous gants favorisent sinon la prolifération des germes résiduels.
++ Elle est précédée d'un lavage simple au savon doux à l'arrivée au bloc, suivi d'un séchage complet. :: La friction chirurgicale s'effectue ensuite sur mains et avant-bras secs.
+- Elle a la même durée (20 à 30 secondes) et la même zone d'application que la FHA de routine. :: Elle est plus longue et remonte jusqu'aux coudes.
+- Les micro-organismes de la flore résidente ne peuvent pas proliférer sous des gants stériles intacts. :: Chaleur et humidité sous les gants favorisent leur développement, d'où l'intérêt de la réduction durable.
+> Désinfection chirurgicale : lavage simple à l'arrivée + séchage complet, puis friction chirurgicale prolongée jusqu'aux coudes pour réduire durablement la flore résidente sous gants stériles.
 @ p. 12, 18, 28 et 29
 
 QCU · Indicateur ICSHA
-Concernant l'indicateur ICSHA, quelle proposition est exacte ?
-- Il mesure directement le nombre de frictions observées par un auditeur. :: Il est indirect.
-+ Il estime la pratique de friction à partir de la consommation de produit hydro-alcoolique. :: Rapportée à l'activité du service.
-- Il mesure la quantité de savon utilisée. :: Il porte sur les produits hydro-alcooliques.
-- Il s'exprime en litres par soignant. :: Il s'exprime en frictions par journée d'hospitalisation.
-- Il ne concerne que les médecins. :: Il concerne tous les personnels auprès du patient.
-> ICSHA : indicateur de consommation des produits hydro-alcooliques, mesure indirecte de la pratique de friction, exprimée en nombre de frictions par journée d'hospitalisation.
+Concernant l'indicateur ICSHA utilisé dans les établissements de santé, quelle proposition est exacte ?
+- Il mesure par observation directe le pourcentage de frictions correctement réalisées dans un bloc. :: L'ICSHA est une mesure indirecte, et non un audit d'observation directe.
++ Il estime la pratique de friction à partir de la consommation de PHA rapportée à l'activité du service, en frictions par journée d'hospitalisation. :: Il reflète la pratique de l'ensemble des personnels au contact des patients.
+- Il additionne les volumes de savon doux et de PHA consommés par chaque soignant. :: Il ne porte que sur les produits hydro-alcooliques.
+- Il s'exprime en litres de produit consommés par salle d'opération et par mois. :: Son unité est le nombre de frictions par journée d'hospitalisation (rapporté à un objectif personnalisé par spécialité).
+- Il évalue uniquement la consommation des équipes médicales et chirurgicales. :: Il concerne l'ensemble des personnels soignants auprès du patient.
+> ICSHA : indicateur de consommation des produits hydro-alcooliques, mesure indirecte de la pratique d'hygiène des mains exprimée en nombre de frictions par journée d'hospitalisation.
 @ p. 31
 
-QCM · Avantages de la friction
-Concernant les avantages de la friction hydro-alcoolique, quelles propositions sont exactes ?
-- Elle nécessite un point d'eau. :: Elle s'en passe.
-- Elle est moins bien tolérée que les lavages. :: Elle est mieux tolérée.
-+ Elle est rapide et disponible au plus près des soins. :: Petit format, chariot, support mural.
-- Elle convient aux mains visiblement souillées. :: Elles demandent un lavage.
-- Elle est moins efficace que le savon sur les bactéries multirésistantes. :: Elle est plus efficace.
-> La FHA est simple, rapide, efficace et bien tolérée, sans point d'eau. Ses limites : mains souillées, mouillées ou lésées, spores et parasites.
-@ p. 24 et 32
+QCM · Tenue professionnelle et asepsie progressive au bloc
+Concernant la tenue professionnelle et les règles de circulation au bloc opératoire, quelles propositions sont exactes ?
++ La tenue est dédiée au bloc, entretenue par l'établissement, changée chaque jour et immédiatement si elle est souillée. :: Elle limite la dispersion des squames cutanées dans l'air et vers le site opératoire.
++ Les chaussures dédiées sont fermées à l'avant, lavables et antidérapantes, et la coiffe couvre toute la chevelure sans être manipulée ensuite. :: La fermeture à l'avant protège des objets tombés ou piquants.
++ Une veste passe-couloir entretenue par l'hôpital peut se porter contre le froid hors soin, mais se retire pour tout soin. :: Les vêtements personnels (polaire) sont exclus au bloc.
++ Les portes de la salle restent fermées et les allées et venues ainsi que le bruit sont limités, en respectant les circuits d'asepsie progressive. :: Les ouvertures de portes perturbent le traitement d'air et augmentent la contamination aéroportée.
+- En l'absence de patient dans la salle d'opération, le masque peut être retiré pour préparer le respirateur et les drogues. :: Le masque se porte dès la sortie du vestiaire et en salle même sans patient.
+> Asepsie progressive : vestiaire comme sas, tenue et sabots dédiés, coiffe couvrant les cheveux, masque dès la sortie du vestiaire, manches courtes pour tout soin, portes fermées et mouvements limités.
+@ p. 34 et 37 à 39
 
-QCM · Tenue au bloc
-Concernant la tenue professionnelle au bloc, quelles propositions sont exactes ?
-+ La tenue est dédiée au bloc et changée chaque jour. :: Et aussitôt si elle est souillée.
-+ Les chaussures sont fermées à l'avant, lavables et antidérapantes. :: Pour limiter les blessures par objets tombés.
-- Une polaire personnelle peut se porter contre le froid. :: On utilise une veste passe-couloir entretenue par l'hôpital.
-+ La coiffe couvre toute la chevelure. :: Mise devant un miroir, puis plus manipulée.
-- La veste à manches longues peut se garder pendant les soins. :: Elle se retire pour tout soin.
-> Tenue de bloc : dédiée, entretenue par l'établissement, manches courtes pour les soins, sabots dédiés, coiffe couvrant les cheveux. Elle limite la dispersion des squames dans l'air et vers le site opératoire.
-@ p. 34, 37 et 38
-
-QCM · Gants et masques
-Concernant les gants et les masques au bloc, quelles propositions sont exactes ?
-+ Les gants stériles sont réservés aux gestes aseptiques. :: Comme la pose d'un cathéter artériel.
-- Les lunettes de vue suffisent contre les projections. :: Elles ne protègent pas les côtés.
-+ Un masque retiré est jeté, et non gardé au menton ou dans une poche. :: Il ne se réutilise pas.
-- Le masque chirurgical protège le porteur contre la tuberculose. :: Il faut un FFP2 ajusté.
-- On peut ajuster son masque pendant l'intervention sans hygiène des mains. :: Une fois posé, on ne le manipule plus.
-> Gants non stériles contre les liquides biologiques, stériles pour les gestes aseptiques. Masque : FHA avant la pose et après le retrait, couvrant nez, bouche et barbe, jeté une fois retiré.
+QCU · Masque chirurgical et appareil FFP2
+Concernant la différence fonctionnelle entre un masque chirurgical (à usage médical) et un appareil de protection respiratoire FFP2, quelle proposition est exacte ?
+- Le masque chirurgical filtre l'air inspiré pour protéger le soignant contre la tuberculose. :: Il filtre l'air expiré ; contre les agents aéroportés comme la tuberculose, seul un FFP2 ajusté protège le porteur.
++ Le masque chirurgical protège le patient et le site opératoire (air expiré), tandis que le FFP2 protège le porteur (air inspiré) à condition d'être bien ajusté. :: Une fuite au visage annule l'efficacité de filtration du FFP2.
+- Les deux dispositifs assurent le même sens de filtration, seul le temps de port maximal diffère. :: Leurs sens de filtration et leurs indications diffèrent fondamentalement.
+- Un masque chirurgical bien plaqué remplace un FFP2 lors d'une intubation chez un patient suspect de tuberculose. :: L'intubation génère des aérosols et la tuberculose relève de la catégorie B : le FFP2 est indispensable.
+- Un masque retiré brièvement peut être réutilisé tant que sa face externe n'a pas été touchée. :: Tout masque retiré est jeté immédiatement (jamais gardé au menton, au cou ou en poche), suivi d'une FHA.
+> Masque chirurgical = protection du patient/environnement (air expiré). FFP2 = protection du porteur (air inspiré, ajusté), requis en précautions respiratoires B et lors des gestes à aérosols.
 @ p. 35 et 36
 
-QCU · Masque chirurgical et FFP2
-Concernant la différence entre masque chirurgical et appareil de protection respiratoire FFP2, quelle proposition est exacte ?
-- Le masque chirurgical protège le porteur contre les agents aéroportés. :: Il filtre l'air expiré.
-+ Le masque chirurgical protège le patient et l'environnement ; le FFP2 protège le porteur. :: Le FFP2 filtre l'air inspiré et doit être ajusté.
-- Les deux protègent de la même façon. :: Leur sens de filtration diffère.
-- Le FFP2 n'a pas besoin d'être ajusté au visage. :: Une fuite annule sa protection.
-- Le FFP2 se garde au cou entre deux soins. :: Un masque retiré est jeté.
-> Masque chirurgical : protège le patient et le site opératoire (air expiré). FFP2 : protège le soignant (air inspiré), ajusté, pour la tuberculose et les gestes à aérosols.
-@ p. 36
+QCM · Bon usage des gants et des masques au bloc
+Concernant les règles d'utilisation des gants et des masques au bloc opératoire, quelles propositions sont exactes ?
++ Les gants stériles sont réservés aux gestes aseptiques (comme la pose d'un cathéter artériel ou d'une voie centrale). :: Les gants non stériles servent contre le risque de contact avec les liquides biologiques.
++ Le masque couvre le nez, la bouche et la barbe ; une fois en place, il ne doit plus être ajusté pendant l'intervention. :: Le manipuler contamine les mains par la flore ORL ou la face externe.
+- Une paire de gants non stériles peut être frictionnée au PHA entre deux gestes propres chez le même patient. :: Les gants ne se frictionnent ni ne se lavent : ils se retirent et se changent.
+- En cas de port de gants lors d'une pose de voie veineuse, la FHA avant l'enfilage est facultative. :: La FHA précède la mise des gants et suit immédiatement leur retrait.
+- Les lunettes de vue suffisent contre les projections lors de l'extubation si un masque chirurgical est porté. :: Des lunettes de protection à coques latérales ou une visière sont nécessaires en cas de risque de projection.
+> Gants : stériles pour gestes aseptiques, non stériles pour liquides biologiques, jamais frictionnés, encadrés par une FHA. Masque : posé après FHA, couvrant nez/bouche/barbe, non manipulé puis jeté dès le retrait.
+@ p. 14, 35 et 36
 
-QCM · Circulation au bloc
-Concernant la circulation et la discipline au bloc, quelles propositions sont exactes ?
-- Le masque peut être retiré en salle d'opération vide. :: Il se porte en salle même sans patient.
-+ Les portes restent fermées et les allées et venues limitées. :: Pour réduire les courants d'air et la contamination.
-- Les conversations sont sans conséquence au bloc. :: Le bruit gêne la communication de l'équipe.
-- Les circuits des patients et des opérateurs sont interchangeables. :: Ils respectent l'asepsie progressive.
-- La tenue de bloc peut se porter hors du bloc sans précaution. :: On se change au retour d'une sortie exceptionnelle.
-> Asepsie progressive : vestiaire comme sas, masque dès la sortie du vestiaire, portes fermées, mouvements et bruit limités, circuits respectés.
-@ p. 37 et 39
+QCM · Freins à l'observance de l'hygiène des mains
+Concernant les facteurs influençant l'observance de l'hygiène des mains au bloc opératoire, quelles propositions sont exactes ?
++ La surcharge de travail, l'enchaînement rapide des gestes et les interruptions de tâche favorisent les oublis de FHA. :: D'où l'intérêt d'intégrer la FHA dans des routines clés d'anesthésie.
++ Disposer de flacons de PHA au plus près du point de soin (chariot, respirateur, format poche) lève un frein matériel majeur. :: L'éloignement du produit réduit directement l'observance.
+- La connaissance théorique de l'efficacité de la FHA suffit en pratique à garantir une observance élevée. :: Modifier les habitudes de soin sous charge de travail reste un enjeu organisationnel constant.
+- La confusion entre les indications respectives du lavage simple et de la FHA est devenue exceptionnelle. :: Elle reste un frein fréquent, menant parfois à des lavages inutiles et irritants.
+- Le port permanent de gants dès l'entrée en salle améliore l'observance globale de l'hygiène des mains. :: Le port abusif de gants s'associe au contraire à une baisse de l'observance de la FHA.
+> Améliorer l'observance passe par l'accessibilité du PHA au point de soin, sa bonne tolérance cutanée, la clarté des indications (FHA vs lavage) et la prise en compte des interruptions de tâche.
+@ p. 3, 4, 15 et 16

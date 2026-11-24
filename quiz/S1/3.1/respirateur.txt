@@ -20,7 +20,7 @@ Concernant les gaz frais, quelles propositions sont exactes ?
 - Un débit de 2 L/min à 33 % d'O2 correspond à de l'oxygène pur. :: C'est un mélange air/oxygène.
 + Le débit et la fraction d'O2 du gaz vecteur se règlent indépendamment de l'halogéné. :: Ce sont deux étapes de réglage.
 - L'évaporateur est indispensable en anesthésie intraveineuse. :: Il ne sert que si un halogéné est administré.
-- Le vide médical est un gaz vecteur. :: C'est un réseau d'aspiration.
+- Le protoxyde d'azote est le seul gaz vecteur autorisé avec les évaporateurs modernes. :: Les gaz vecteurs usuels sont l'oxygène, l'air médical et éventuellement le protoxyde d'azote.
 > Gaz frais = gaz vecteur (O2, air, historiquement N2O) ± vapeur halogénée. Le débit et la FiO2 se règlent au mélangeur, l'halogéné à l'évaporateur.
 @ p. 6, 7 et 10
 
@@ -76,7 +76,7 @@ Concernant l'évaporateur d'halogéné, quelles propositions sont exactes ?
 
 QCU · Fonctionnement de l'évaporateur
 L'évaporateur de sévoflurane est réglé sur 2 %, alors que la vapeur saturée dans la chambre est d'environ 21 %. Comment s'explique cette différence ?
-- Le patient absorbe 19 % du sévoflurane dans la chambre. :: Le patient n'est pas en contact avec la chambre.
+- Le gaz frais traverse en totalité la chambre de vaporisation avant d'être dilué à la sortie. :: Seule une faible fraction du gaz frais passe par la chambre saturée ; la majeure partie emprunte la voie de dérivation (by-pass).
 + Le flux qui traverse la chambre est dilué par le flux qui la contourne. :: La molette règle cette répartition.
 - La chaux sodée absorbe l'excédent de sévoflurane. :: La chaux absorbe le CO2.
 - Le ventilateur dilue le sévoflurane. :: La dilution se fait dans l'évaporateur.
@@ -146,11 +146,11 @@ Concernant le ballon réservoir, quelles propositions sont exactes ?
 
 QCU · Valve APL en ventilation mécanique
 Un patient est en ventilation mécanique contrôlée. On modifie le réglage de la valve APL. Quel est l'effet sur la pression d'insufflation ?
-- Elle augmente. :: L'APL n'agit pas en ventilation mécanique.
-- Elle diminue. :: L'APL n'agit pas en ventilation mécanique.
-+ Aucun effet : l'APL ne fonctionne qu'en mode manuel ou spontané. :: La pression est réglée sur le ventilateur.
-- La PEP augmente. :: La PEP se règle sur le ventilateur, par la valve expiratoire.
-- Le ventilateur passe en alarme. :: L'APL est hors du trajet actif.
+- La pression de crête augmente proportionnellement au seuil affiché sur l'APL. :: L'APL n'agit pas en ventilation mécanique contrôlée.
+- La pression de plateau diminue par ouverture de l'échappement expiratoire. :: L'APL est isolée du circuit en mode mécanique.
++ Aucun effet : l'APL ne fonctionne qu'en ventilation manuelle ou spontanée. :: Les pressions en mode contrôlé sont gérées par le ventilateur.
+- La PEP augmente immédiatement du même niveau que le réglage de l'APL. :: La PEP se règle sur le ventilateur, via la valve expiratoire.
+- Le ventilateur déclenche une alarme de surpression et bascule en mode manuel. :: L'APL est hors du trajet actif en ventilation mécanique.
 > L'APL (Adjustable Pressure Limiting) est une valve d'échappement à seuil réglable, active seulement en ventilation manuelle ou spontanée. En ventilation mécanique, elle n'a aucun rôle.
 @ p. 28 et 41
 
@@ -226,11 +226,11 @@ Concernant la spirométrie du respirateur, quelles propositions sont exactes ?
 
 QCU · Organe moteur
 Quelle est la fonction de l'organe moteur (soufflet, piston ou turbine) dans la machine d'anesthésie ?
-- Enrichir le gaz vecteur en halogéné. :: C'est l'évaporateur.
-+ Déplacer les gaz du circuit pour produire les cycles de ventilation mécanique. :: Il se distingue de l'évaporateur et de l'APL.
-- Absorber le CO2. :: C'est la chaux sodée.
-- Servir de réserve pour la ventilation manuelle. :: C'est le ballon.
-- Évacuer les gaz en excès. :: C'est le système antipollution.
+- Enrichir le gaz vecteur en agent halogéné à la concentration réglée. :: C'est le rôle de l'évaporateur.
++ Déplacer les gaz du circuit pour produire les cycles de ventilation mécanique. :: Il assure la propulsion des gaz, distinctement de l'évaporateur et de l'APL.
+- Absorber le dioxyde de carbone expiré dans le circuit filtre. :: C'est le rôle de la chaux sodée.
+- Servir de réservoir souple pour ventiler le patient à la main. :: C'est le rôle du ballon de ventilation manuelle.
+- Évacuer les gaz anesthésiques en excès hors de la salle d'opération. :: C'est le rôle du système antipollution (SEGA).
 > Chaque organe a sa fonction : évaporateur (halogéné), ventilateur (propulsion), chaux (CO2), ballon (réserve, manuel), APL (pressurisation en manuel ou spontané), système d'évacuation (antipollution).
 @ p. 48 et 49
 

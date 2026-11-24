@@ -70,7 +70,7 @@ Concernant les risques de la préoxygénation, quelles propositions sont exactes
 + Un patient claustrophobe peut mal tolérer le masque. :: On le rassure ; il peut tenir lui-même le masque.
 + Une manipulation maladroite du masque peut léser les yeux. :: Surtout chez un patient somnolent après prémédication.
 - La préoxygénation expose à une hypercapnie sévère. :: Le patient respire et élimine son CO2.
-- Le masque doit être appliqué fermement sur les yeux pour assurer l'étanchéité. :: Les yeux doivent être protégés.
+- Un masque légèrement trop grand appuyant sur l'arête nasale protège mieux la cornée des fuites. :: Un masque mal adapté peut léser les yeux ou comprimer le globe oculaire : la taille doit être ajustée et les yeux protégés.
 > Les risques de la préoxygénation sont la fuite (inefficacité), l'angoisse du masque et la lésion oculaire. Rassurer, protéger les yeux, assurer l'étanchéité.
 @ p. 11
 
@@ -118,7 +118,7 @@ QCM · Curare et dispositif
 Concernant la curarisation à l'induction, quelles propositions sont exactes ?
 - Elle est nécessaire à la pose d'un masque laryngé. :: Le masque laryngé est supraglottique : il n'impose pas l'ouverture des cordes vocales.
 + Elle est recommandée pour toute intubation. :: Elle facilite le passage de la sonde entre les cordes.
-- Elle se fait avant la perte de conscience pour gagner du temps. :: Une curarisation chez un patient conscient est extrêmement désagréable.
+- Le curare non dépolarisant s'injecte avant l'hypnotique pour raccourcir le délai d'intubation. :: Hors technique très encadrée, on vérifie la perte de conscience avant de curariser afin d'éviter une paralysie chez un patient conscient.
 + Le curamètre doit être lancé avant l'injection du curare. :: Pour son étalonnage et la sécurité.
 - Un curare de longue durée est préférable quand le nerf récurrent doit être monitoré. :: Il faut au contraire un curare court, dont l'effet aura disparu.
 > Curare recommandé pour l'intubation, pas indispensable pour le masque laryngé. Il s'injecte après la perte de conscience, curamètre lancé.
@@ -165,12 +165,12 @@ Concernant l'évaluation des effets des médicaments d'induction, quelles propos
 @ p. 21
 
 QCU · TOF à 0/4
-Que signifie un TOF à 0/4 au curamètre ?
-- Le patient est décurarisé. :: C'est l'inverse.
-- Le patient est en hypnose profonde. :: Le TOF n'évalue pas l'hypnose.
-+ Aucune réponse n'est détectée aux quatre stimulations : le bloc neuromusculaire est profond. :: Le signal nerveux n'entraîne plus de contraction.
-- Le rapport T4/T1 est de 0 %, ce qui autorise l'extubation. :: L'extubation demande une décurarisation.
-- Le curamètre est mal étalonné. :: C'est un résultat attendu après curarisation.
+Que signifie un TOF à 0/4 au curamètre après l'injection d'un curare ?
+- Le patient a totalement récupéré sa force musculaire et peut être extubé. :: C'est l'inverse : 0/4 traduit un bloc profond.
+- Le patient est en hypnose profonde et protégé contre la mémorisation. :: Le TOF n'évalue que la jonction neuromusculaire, pas l'hypnose.
++ Aucune réponse n'est détectée aux quatre stimulations : le bloc est profond. :: Le signal nerveux n'entraîne plus de contraction, ce qui correspond aux conditions d'intubation.
+- Le rapport T4/T1 est nul, ce qui exclut toute curarisation résiduelle. :: L'extubation demande un rapport T4/T1 ≥ 0,90.
+- Le curamètre est probablement débranché ou mal étalonné. :: Un TOF à 0/4 est le résultat attendu après une dose d'intubation.
 > TOF (train de quatre) : quatre stimulations du nerf, comptage des réponses du pouce. 0/4 = aucune réponse : bloc profond, conditions d'intubation. Ne pas confondre avec le T4/T1 de la décurarisation.
 @ p. 21
 
@@ -235,12 +235,12 @@ Concernant les réglages habituels de l'oxygénothérapie haut débit, quelle pr
 @ p. 36 et 37
 
 QCU · Risque de l'OHD
-Un patient en SSPI sous OHD a une SpO2 à 99 %, mais il est somnolent et sa fréquence respiratoire est à 6/min. Quel est le risque principal ?
-- L'hyperoxie isolée sans conséquence. :: Le problème est ventilatoire.
-+ L'hypercapnie par hypoventilation, masquée par une saturation correcte. :: L'oxygène corrige l'hypoxémie, pas l'élimination du CO2.
-- Une lésion des muqueuses nasales. :: C'est un risque de l'OHD, mais pas le danger immédiat ici.
-- Une hypoxémie imminente. :: La saturation est normale.
-- Un effet PEP excessif. :: Il est minime chez l'adulte.
+Un patient en SSPI sous oxygénothérapie à haut débit (OHD) a une SpO2 à 99 %, mais il est somnolent et sa fréquence respiratoire est à 6/min. Quel est le risque principal ?
+- Une hyperoxie isolée sans retentissement sur la ventilation alvéolaire. :: Le problème immédiat est une hypoventilation sévère.
++ Une hypercapnie par hypoventilation, masquée par une SpO2 rassurante. :: L'oxygène corrige l'hypoxémie mais n'assure pas l'élimination du CO2.
+- Une lésion des muqueuses nasales liée au débit élevé d'oxygène. :: C'est un risque secondaire de l'OHD, pas le danger immédiat ici.
+- Une hypoxémie brutale immédiate liée à un défaut d'humidification. :: La saturation est encore normale à 99 %, c'est l'accumulation de CO2 qui menace.
+- Un effet PEP excessif provoquant un barotraumatisme pulmonaire. :: L'effet PEP de l'OHD reste modeste chez l'adulte.
 > L'OHD peut maintenir la saturation pendant que le CO2 s'accumule. Une SpO2 normale ne prouve pas une ventilation efficace : évaluer la fréquence, la clinique et la capnie, puis réévaluer le support.
 @ p. 33 et 38
 

@@ -174,14 +174,14 @@ Concernant la PEP et la pause inspiratoire, quelles propositions sont exactes ?
 > En volume contrôlé avec pause : Pcrête = PEP + Prés + Pél ; Pplat = PEP + Pél. L'écart crête-plateau isole les résistances, l'écart plateau-PEP la compliance.
 @ p. 34 à 38
 
-QCU · Calcul de compliance
-En volume contrôlé, Vt = 500 mL, PEP = 5 cmH2O, pression de plateau = 20 cmH2O. Quelle est la compliance ?
-- 25 mL/cmH2O :: Ce serait 500 / 20, en oubliant la PEP.
-+ 33 mL/cmH2O :: C = Vt / (Pplat − PEP) = 500 / 15.
-- 100 mL/cmH2O :: Ce serait 500 / 5.
-- 15 mL/cmH2O :: C'est l'écart de pression, pas la compliance.
-- 0,03 mL/cmH2O :: C'est l'inverse.
-> C = Vt / (Pplat − PEP) = 500 / (20 − 5) ≈ 33 mL/cmH2O. Il faut soustraire la PEP de la pression de plateau.
+QCU · Compliance statique pulmonaire
+En ventilation en volume contrôlé, comment évalue-t-on la compliance statique du système respiratoire ?
+- En divisant le volume courant par la pression de crête seule. :: La pression de crête inclut les résistances des voies aériennes ; il faut utiliser la pression de plateau et soustraire la PEP.
++ En divisant le volume courant par la pression motrice (pression de plateau moins PEP). :: C = Vt / (Pplat − PEP) : soustraire la PEP isole l'écart de pression réellement lié à l'élasticité.
+- En multipliant le volume courant par la différence entre pression de crête et pression de plateau. :: L'écart (Pcrête − Pplat) explore les résistances des voies aériennes, non la compliance.
+- En divisant la pression de plateau par le volume courant, sans tenir compte de la PEP. :: C'est l'inverse (élastance) et sans soustraire la PEP.
+- En mesurant la pression de crête en fin d'expiration. :: En fin d'expiration, la pression correspond à la PEP (plus éventuelle auto-PEP).
+> Compliance statique : C = Vt / (Pplat − PEP). La pression motrice (Pplat − PEP) reflète la distension alvéolaire, indépendamment des résistances bronchiques.
 @ p. 36
 
 QCM · Liens entre réglages
@@ -226,21 +226,21 @@ Pour régler le volume courant d'un patient de 160 cm pesant 110 kg, sur quel po
 
 QCU · Hausse de la pression de crête
 En volume contrôlé, la pression de crête augmente brutalement alors que la pression de plateau reste inchangée. Quelle est l'hypothèse principale ?
-- Une baisse de la compliance. :: La pression de plateau serait aussi augmentée.
-+ Une augmentation des résistances : sécrétions, sonde mordue ou bronchospasme. :: L'écart crête-plateau augmente.
-- Un pneumothorax. :: Il ferait monter la pression de plateau.
-- Une intubation sélective. :: Elle ferait monter la pression de plateau.
-- Une PEP insuffisante. :: Elle n'explique pas une hausse de la crête seule.
+- Une baisse aiguë de la compliance thoraco-pulmonaire. :: Une baisse de compliance élève également la pression de plateau.
++ Une augmentation des résistances des voies aériennes (sécrétions, sonde coudée, bronchospasme). :: L'écart entre pression de crête et pression de plateau s'élargit.
+- Un pneumothorax compressif en cours de constitution. :: Un pneumothorax élève la pression de plateau en réduisant la compliance.
+- Une intubation sélective dans la bronche souche droite. :: L'exclusion d'un poumon réduit la compliance et fait monter la pression de plateau.
+- Un réglage de PEP insuffisant pour recruter les bases. :: Une PEP trop basse ne provoque pas une hausse isolée de la pression de crête.
 > Pcrête ↑ avec Pplat stable = résistances ↑ : rechercher sécrétions, sonde coudée ou mordue, sifflements de bronchospasme.
 @ p. 58, 59 et 64
 
 QCU · Hausse de la pression de plateau
 En volume contrôlé, la pression de crête et la pression de plateau augmentent ensemble, avec un écart inchangé. Quelle hypothèse est la plus probable ?
-- Des sécrétions dans la sonde. :: Elles augmenteraient l'écart crête-plateau.
-- Une morsure de la sonde. :: Elle augmenterait l'écart crête-plateau.
-+ Une baisse de la compliance : intubation sélective, pneumothorax, atélectasie ou pneumopéritoine. :: La composante élastique augmente.
-- Une hyperinflation dynamique sans autre signe. :: Elle s'accompagne d'une PEP totale élevée et d'un débit expiratoire qui ne revient pas à zéro.
-- Une fuite du circuit. :: Elle ferait baisser les pressions.
+- Une accumulation de sécrétions épaisses dans la sonde d'intubation. :: Elle augmenterait les résistances et l'écart crête-plateau.
+- Une morsure ou une coudure partielle de la sonde d'intubation. :: Elle augmenterait la pression de crête sans élever la pression de plateau.
++ Une baisse de la compliance (intubation sélective, pneumothorax, atélectasie, pneumopéritoine). :: La composante élastique augmente, ce qui élève à la fois Pplat et Pcrête.
+- Une hyperinflation dynamique avec retour normal du débit expiratoire à zéro. :: L'hyperinflation dynamique s'accompagne d'une PEP totale élevée et d'un débit expiratoire incomplet.
+- Une fuite importante sur le circuit ventilatoire ou le ballonnet. :: Une fuite fait chuter les pressions d'insufflation et le volume expiré.
 > Pplat ↑ avec écart crête-plateau stable = compliance ↓. Si la PEP totale est aussi élevée, penser à l'hyperinflation dynamique (Te trop court, bronchospasme).
 @ p. 60, 61 et 64
 
@@ -258,7 +258,7 @@ QCM · Surveillance du patient ventilé
 Concernant la surveillance d'un patient ventilé, quelles propositions sont exactes ?
 + L'ampliation thoracique doit être symétrique. :: Une asymétrie fait rechercher une sonde sélective.
 - La pression du ballonnet n'a pas à être surveillée. :: Elle fait partie de la surveillance.
-- Le scope suffit, sans regarder le patient. :: On confronte le patient, le scope et le respirateur.
+- La lecture des valeurs numériques du scope et du respirateur dispense d'observer la cinétique thoracique. :: On confronte toujours l'examen clinique du patient (ampliation, auscultation), le scope et les courbes du respirateur.
 - Une courbe de CO2 en aileron de requin évoque une intubation œsophagienne. :: Elle évoque une obstruction expiratoire.
 - Une fuite intrabuccale est sans signification. :: Elle traduit un défaut d'étanchéité.
 > Surveillance : patient (ampliation, symétrie, auscultation, ballonnet, fixation, fuites), scope (EtCO2 et forme de la courbe), respirateur (pressions, débits, volumes).
@@ -277,7 +277,7 @@ Concernant les critères d'extubation après une ventilation de courte durée, q
 QCM · Technique d'extubation
 Concernant la technique d'extubation, quelles propositions sont exactes ?
 - L'aspiration se fait de préférence dans la trachée. :: Elle se fait dans la bouche, pas dans la trachée.
-- Le ballonnet se dégonfle d'un coup, après le retrait de la sonde. :: On le dégonfle lentement, avant le retrait.
+- Le ballonnet est dégonflé rapidement juste après le début du retrait pour éviter un réflexe de toux. :: Le ballonnet doit être dégonflé lentement et complètement avant le retrait de la sonde pour éviter un traumatisme laryngé.
 + Le retrait se fait en fin d'inspiration, en pression positive. :: Pour expulser les sécrétions vers la bouche.
 - La fixation de la sonde est retirée après l'extubation. :: Elle est retirée avant.
 - La surveillance clinique s'arrête une fois la sonde retirée. :: Elle se poursuit après l'extubation.

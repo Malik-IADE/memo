@@ -77,7 +77,7 @@ Concernant le passage des membranes par les médicaments, quelles propositions s
 QCU · Volume de distribution
 Concernant le volume de distribution d'un médicament, quelle proposition est exacte ?
 - Il correspond au volume sanguin du patient. :: Il n'est pas forcément égal au seul volume vasculaire.
-- Il se mesure directement par imagerie. :: C'est un volume théorique, calculé.
+- Il se mesure directement à partir de l'hématocrite et du poids du patient. :: C'est un volume théorique calculé (Q / C), qui peut largement dépasser le volume sanguin.
 + C'est un volume fictif dans lequel le médicament serait réparti à la concentration plasmatique. :: Il relie quantité et concentration : Q = Vd × C.
 - Plus il est grand, plus la concentration plasmatique est élevée pour une même dose. :: C = Q / Vd : un grand Vd donne une concentration plus basse.
 - Il est propre à la molécule et ne varie pas selon le patient. :: Il varie avec l'âge, l'obésité, l'hydratation ou une insuffisance hépatique.
@@ -87,7 +87,7 @@ Concernant le volume de distribution d'un médicament, quelle proposition est ex
 QCM · Métabolisme
 Concernant le métabolisme des médicaments, quelles propositions sont exactes ?
 + Il peut produire des métabolites actifs, voire plus actifs que la molécule mère. :: C'est le cas d'un métabolite de la morphine.
-- Il aboutit à des métabolites inactifs. :: Les métabolites peuvent être actifs ou inactifs.
+- Il a pour seul effet d'inactiver le médicament avant son élimination. :: Les métabolites peuvent être inactifs, actifs, voire plus actifs que la molécule mère (promédicaments, morphine).
 + Certaines molécules doivent être transformées pour devenir actives. :: La transformation ne signifie pas seulement disparition.
 - La succinylcholine est dégradée par le foie. :: Elle est dégradée par la butyrylcholinestérase plasmatique.
 + Un déficit en butyrylcholinestérase prolonge la curarisation par la succinylcholine. :: Le patient reste paralysé : ventiler et maintenir l'hypnose.
@@ -126,11 +126,11 @@ Concernant les voies d'élimination autres que le rein, quelles propositions son
 
 QCU · Clairance
 Concernant la clairance d'un médicament, quelle proposition est exacte ?
-- Elle s'exprime en milligrammes. :: C'est un débit, en mL/min.
-- Une clairance élevée traduit une élimination lente. :: Elle traduit une élimination rapide.
-- Elle ne concerne que le rein. :: Elle réunit biotransformation et excrétion, par tous les organes.
-+ C'est le volume de plasma totalement épuré du médicament par unité de temps. :: Elle mesure la capacité de l'organisme à éliminer la substance.
-- Elle est sans lien avec la demi-vie. :: Une clairance diminuée allonge la demi-vie et la durée d'action.
+- Elle s'exprime en milligrammes éliminés par heure de perfusion. :: C'est un débit volumique (mL/min ou L/h), pas une masse par unité de temps.
+- Une clairance élevée traduit une élimination lente et un risque d'accumulation. :: Une clairance élevée traduit au contraire une élimination rapide.
+- Elle reflète exclusivement la filtration glomérulaire rénale. :: Elle réunit biotransformation et excrétion, par l'ensemble des organes d'élimination.
++ C'est le volume de plasma totalement épuré du médicament par unité de temps. :: Elle mesure la capacité globale de l'organisme à éliminer la substance.
+- Elle est indépendante de la demi-vie d'élimination de la molécule. :: À volume de distribution constant, une baisse de clairance allonge la demi-vie et la durée d'action.
 > Clairance : volume de plasma totalement épuré par unité de temps (débit). Elle regroupe métabolisme et excrétion de tous les organes ; sa baisse ralentit l'élimination.
 @ p. 45, 46 et 71
 
@@ -186,7 +186,7 @@ Deux curares produisent le même effet maximal. Le curare A atteint 50 % de l'ef
 
 QCM · Titration
 Concernant la titration d'un médicament, quelles propositions sont exactes ?
-- Elle consiste à administrer d'emblée la dose maximale pour gagner du temps. :: On administre progressivement.
+- Elle consiste à administrer d'emblée la dose théorique maximale puis à réduire secondairement. :: On administre au contraire par paliers progressifs en observant l'effet clinique.
 - Elle est inutile si la dose est calculée en mg/kg. :: Une même dose en mg/kg peut donner des concentrations et des effets différents.
 + Elle consiste à administrer progressivement en réévaluant la réponse après chaque apport. :: Jusqu'à l'effet recherché.
 - Elle permet de réinjecter dès la fin de l'injection précédente. :: Il faut respecter le délai d'action avant de réinjecter.
@@ -224,34 +224,34 @@ Concernant l'anesthésie intraveineuse à objectif de concentration, quelles pro
 > En AIVOC, la pompe applique un modèle propre à chaque molécule pour calculer les débits menant à la cible choisie. Les concentrations affichées sont calculées : la cible s'adapte à la stimulation et à la réponse.
 @ p. 82 à 87 et 91
 
-QCU · Calcul de quantité
-Combien de chlorure de sodium contient une ampoule de 10 mL de NaCl à 20 % ?
-- 0,2 g :: Erreur d'un facteur 10.
-- 20 g :: C'est la quantité pour 100 mL.
-+ 2 g :: 20 % = 20 g pour 100 mL, donc 2 g pour 10 mL.
-- 200 mg :: Cela correspond à 2 %.
-- 0,02 g :: Erreur d'un facteur 100.
-> x % = x g pour 100 mL. NaCl 20 % : 20 g/100 mL ; dans 10 mL : 20 × 10 / 100 = 2 g.
+QCU · Concentrations en pourcentage
+Concernant l'interprétation d'une solution exprimée en pourcentage (comme du NaCl 20 % ou du G5 %), quelle proposition est exacte ?
+- Une solution à x % contient x milligrammes de principe actif par millilitre. :: x % correspond à x grammes pour 100 mL (soit 10 × x mg/mL), pas x mg/mL.
+- Une solution à x % contient x grammes de principe actif dans toute ampoule ou poche, quel que soit son volume. :: La concentration en pourcentage se rapporte à 100 mL : la quantité totale dépend toujours du volume du contenant.
++ Une solution à x % correspond à x grammes de principe actif pour 100 mL de solution. :: Il faut donc toujours rapporter le pourcentage au volume réel de l'ampoule ou de la poche avant de préparer.
+- Une solution à x % exprime la masse de soluté contenue dans un litre de solution. :: C'est pour 100 mL (et non pour 1 000 mL), erreur classique d'un facteur 10.
+- Une concentration en pourcentage ne s'utilise pas pour les anesthésiques locaux ni pour le glucose. :: Elle est d'usage courant pour le glucose (G5 %, G30 %), les électrolytes (NaCl 20 %) et les anesthésiques locaux (lidocaïne 1 % ou 2 %).
+> x % = x g pour 100 mL. Toujours rapporter la concentration au volume réel du flacon ou de l'ampoule et vérifier les unités pour prévenir les erreurs de facteur 10.
 @ p. 114 et 115
 
-QCU · Calcul de dilution
-Une ampoule de noradrénaline contient 4 mL à 2 mg/mL. On souhaite une concentration de 250 µg/mL. Quelle préparation est exacte ?
-- 4 mL de produit + 16 mL de NaCl, volume final 20 mL. :: Cela donne 0,4 mg/mL.
-- 4 mL de produit + 32 mL de NaCl, volume final 36 mL. :: 32 mL est le volume final, pas le volume de diluant.
-+ 4 mL de produit + 28 mL de NaCl, volume final 32 mL. :: 8 mg / 0,25 mg/mL = 32 mL au total.
-- 2 mL de produit + 30 mL de NaCl, volume final 32 mL. :: Cela donne 4 mg dans 32 mL, soit 0,125 mg/mL.
-- 4 mL de produit + 46 mL de NaCl, volume final 50 mL. :: Cela donne 0,16 mg/mL.
-> C1 × V1 = C2 × V2 avec des unités identiques : 2 mg/mL × 4 mL = 0,25 mg/mL × V2, donc V2 = 32 mL. On ajoute 28 mL de NaCl 9 g/L à l'ampoule.
+QCU · Règle de dilution
+Lors de la préparation d'une seringue de catécholamine à partir d'une ampoule concentrée (règle C1 × V1 = C2 × V2), quel est le piège de préparation le plus fréquent ?
+- Utiliser du sérum physiologique à la place d'eau pour préparation injectable sans vérifier la compatibilité. :: Le NaCl 0,9 % est un diluant usuel ; le piège principal de la formule porte sur le volume final.
+- Exprimer les deux concentrations dans la même unité avant d'appliquer la formule. :: C'est au contraire indispensable : mélanger mg/mL et µg/mL fausse le calcul d'un facteur 1 000.
++ Confondre le volume final total (V2) avec le volume de diluant à ajouter à l'ampoule. :: Si l'on ajoute V2 de diluant au lieu de compléter jusqu'au volume final V2, la solution est trop diluée.
+- Prélever d'abord la totalité de l'ampoule concentrée avant de compléter avec le diluant. :: C'est une pratique courante, à condition de s'arrêter au volume total V2.
+- Étiqueter la seringue avec la concentration finale en µg/mL ou mg/mL. :: L'étiquetage normalisé avec la concentration finale est une règle de sécurité indispensable.
+> C1 × V1 = C2 × V2 avec des unités identiques. V2 est le volume final total : le volume de diluant à ajouter est égal à V2 − V1.
 @ p. 124 et 127 à 128
 
-QCM · Unités
-Concernant les unités utilisées en anesthésie, quelles propositions sont exactes ?
-- 150 µg correspondent à 1,5 mg. :: 150 µg = 0,15 mg.
-- 1 gamma correspond à 1 mg. :: 1 gamma = 1 µg.
-+ L'abréviation « mcg » désigne le microgramme. :: Certains dispositifs n'ont pas le symbole µ.
-- 1 cm³ correspond à 10 mL. :: 1 cm³ = 1 mL.
-- Une poche de 500 mL de G5 contient 5 g de glucose. :: G5 = 5 g/100 mL, soit 25 g dans 500 mL.
-> 1 gamma = 1 µg = 0,001 mg ; mcg = µg ; 1 mL = 1 cm³. Une concentration en pourcentage se ramène au volume réel : 500 mL de G5 contiennent 25 g de glucose.
+QCM · Unités en anesthésie
+Concernant les unités et notations utilisées en anesthésie, quelles propositions sont exactes ?
++ Un gamma correspond à un microgramme (µg). :: Notation ancienne encore rencontrée dans les prescriptions (1 gamma = 1 µg).
++ L'abréviation « mcg » désigne le microgramme (µg). :: Certains dispositifs ou écrans n'affichent pas le symbole µ.
++ Un centimètre cube (1 cm³) correspond exactement à un millilitre (1 mL). :: Les deux notations désignent le même volume.
+- Un milligramme (1 mg) correspond à cent microgrammes (100 µg). :: 1 mg = 1 000 µg (facteur 1 000, et non 100).
+- Une concentration en pourcentage se lit directement en milligrammes par millilitre sans conversion. :: 1 % correspond à 1 g/100 mL, soit 10 mg/mL (facteur 10).
+> Repères d'unités : 1 gamma = 1 µg = 1 mcg ; 1 mg = 1 000 µg ; 1 cm³ = 1 mL ; 1 % = 1 g/100 mL = 10 mg/mL.
 @ p. 112 et 116 à 120
 
 QCM · Sécurité médicamenteuse

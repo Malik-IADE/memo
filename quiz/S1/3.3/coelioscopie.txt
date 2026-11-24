@@ -9,7 +9,7 @@ Concernant le principe de la cœlioscopie, quelles propositions sont exactes ?
 + Le pneumopéritoine est créé par insufflation de CO2 dans la cavité péritonéale. :: Il crée l'espace de travail.
 + L'insufflateur maintient une pression intra-abdominale autorégulée, affichée en mmHg. :: Elle fait partie de la surveillance.
 - Le premier trocart est introduit sous contrôle de la caméra. :: Le premier geste est aveugle, sauf mini-laparotomie : c'est un temps à risque de plaie vasculaire ou viscérale.
-- Le gaz d'insufflation est l'air ambiant. :: C'est du CO2.
+- Le gaz d'insufflation de référence est le protoxyde d'azote pour son caractère incombustible. :: Le gaz d'insufflation utilisé est le CO2 (incombustible et très soluble dans le sang).
 + La chirurgie se fait à ventre fermé, par plusieurs petits orifices de trocarts. :: La vision passe par une caméra et un écran.
 > La cœlioscopie est une chirurgie à ventre fermé : quelques trocarts, une caméra, et un pneumopéritoine au CO2 qui augmente la pression intra-abdominale. Le patient est installé en Trendelenburg ou en proclive selon la chirurgie.
 @ p. 3 et 4
@@ -129,7 +129,7 @@ Concernant les suites d'une cœlioscopie, quelles propositions sont exactes ?
 + Les NVPO sont fréquentes et justifient une prophylaxie. :: Dexaméthasone, dropéridol, ondansétron.
 + La douleur de l'épaule droite est liée au CO2 piégé sous le diaphragme. :: Avec la traction des ligaments phréno-hépatiques.
 + Une exsufflation soigneuse en fin d'intervention diminue la douleur. :: Elle se fait en Trendelenburg, avant la remise à plat.
-- Une douleur abdominale diffuse, intense et persistante est habituelle et sans valeur d'alarme. :: Elle doit faire rechercher une hémorragie ou une perforation.
+- Une douleur abdominale diffuse qui s'intensifie en postopératoire traduit habituellement une simple résorption résiduelle du CO2. :: Une douleur abdominale diffuse, intense et persistante est un signe d'alarme qui impose de rechercher une hémorragie ou une perforation.
 + Un pneumothorax ou une hémorragie peuvent se révéler après la sortie de SSPI. :: Ces complications retardées sont rares mais graves.
 > Après cœlioscopie : prévention des NVPO, analgésie multimodale (AINS, infiltration des orifices), exsufflation soigneuse. Une douleur diffuse ou scapulaire intense et persistante est un signe d'alarme : la cœlioscopie a une fausse réputation d'innocuité.
 @ p. 13, 33 et 34

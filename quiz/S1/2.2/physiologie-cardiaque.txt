@@ -1,364 +1,239 @@
-// Quiz – Physiologie cardiaque (UE 2.2), d'après « QUIZZ 7 Physiologie Cardiaque.html », relu et corrigé.
-// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication, « > » correction, « @ » source.
+// Quiz – Physiologie cardiaque (UE 2.2), refondu le 24 novembre 2026 d'après le support « Physiologie - Cardiaque - UE 2.2 - avec notes ».
+// Questions orientées pratique IADE : anatomie et coronaires, électrophysiologie et ECG, hyperkaliémie, cycle cardiaque et Frank-Starling, monitorage du débit, pression artérielle, catécholamines, interactions cœur-poumon et choc cardiogénique. Sans calcul arithmétique.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Physiologie – Cardiaque
 
-QCM · Circulations
-Quelles affirmations sur les circulations pulmonaire et systémique sont exactes ?
-+ La circulation pulmonaire va du cœur droit aux poumons, puis au cœur gauche :: C'est la petite circulation.
-+ Une artère quitte le cœur, quelle que soit l'oxygénation de son sang :: L'artère pulmonaire transporte du sang désaturé.
-- Les veines pulmonaires se jettent dans l'oreillette droite :: Elles ramènent le sang oxygéné à l'oreillette gauche.
-- La circulation systémique part du ventricule droit :: Elle part du ventricule gauche, par l'aorte.
-> Artère et veine se définissent par le sens du sang (quitter ou rejoindre le cœur), pas par sa teneur en oxygène.
-@ 5, 8
-
-QCM · Valves
-Quelles affirmations sur les valves cardiaques sont exactes ?
-+ La tricuspide sépare l'oreillette droite du ventricule droit :: Valve atrioventriculaire droite.
-+ La mitrale sépare l'oreillette gauche du ventricule gauche :: Valve atrioventriculaire gauche.
-- La valve aortique sépare l'oreillette gauche du ventricule gauche :: Elle est à la sortie du ventricule gauche, vers l'aorte.
-- Les valves s'ouvrent grâce à leurs propres fibres musculaires :: Leur mouvement est passif, commandé par les différences de pression.
-> Les valves s'ouvrent et se ferment passivement selon les gradients de pression : elles assurent un écoulement à sens unique.
-@ 6–7, 62–63
+QCM · Circulations et valves cardiaques
+Concernant l'organisation anatomique des circulations et des valves cardiaques, quelles propositions sont exactes ?
++ Une artère se définit par le fait qu'elle quitte le cœur, indépendamment de la teneur en oxygène du sang qu'elle transporte. :: L'artère pulmonaire quitte le ventricule droit avec du sang désoxygéné ; les veines pulmonaires ramènent du sang oxygéné à l'oreillette gauche.
++ Les valves cardiaques s'ouvrent et se ferment passivement sous l'effet des gradients de pression entre cavités. :: Elles ne possèdent pas d'activité contractile propre et imposent un sens unique au flux sanguin.
+- La valve mitrale sépare l'oreillette droite du ventricule droit et prévient le reflux lors de la systole droite. :: C'est la valve tricuspide qui siège à droite ; la valve mitrale sépare l'oreillette gauche du ventricule gauche.
+- La petite circulation part du ventricule gauche pour irriguer les capillaires pulmonaires avant de revenir à l'oreillette droite. :: La circulation pulmonaire va du ventricule droit aux poumons puis à l'oreillette gauche.
+- La valve aortique s'ouvre dès le début de la dépolarisation ventriculaire pour permettre une éjection immédiate. :: Elle ne s'ouvre qu'au terme de la contraction isovolumique, lorsque la pression ventriculaire dépasse la pression aortique.
+> Petite circulation : VD → artère pulmonaire → poumons → veines pulmonaires → OG. Grande circulation : VG → aorte → organes → veines caves → OD. Valves atrioventriculaires : tricuspide (droite), mitrale (gauche), toutes commandées passivement par les gradients de pression.
+@ p. 5 à 8, 62 et 63
 
 QCM · Circulation coronaire
-Quelles affirmations sur la perfusion coronaire sont exactes ?
-+ Les coronaires naissent à la racine de l'aorte :: Juste au-dessus de la valve aortique.
-- La perfusion coronaire est maximale pendant la systole :: Elle a lieu surtout en diastole.
-+ Le tronc commun gauche se divise en interventriculaire antérieure et circonflexe :: Son occlusion menace un très grand territoire.
-+ La contraction du myocarde comprime ses propres vaisseaux pendant la systole :: D'où une perfusion surtout diastolique, en particulier pour le ventricule gauche.
-> Le ventricule gauche est perfusé en diastole : une tachycardie, qui raccourcit la diastole, et une PA diastolique basse menacent sa perfusion.
-@ 11–15
+Concernant la vascularisation et la perfusion coronaire du myocarde, quelles propositions sont exactes ?
++ Les artères coronaires naissent à la racine de l'aorte, juste au-dessus de la valve aortique. :: Elles s'alimentent directement à partir de la pression aortique.
++ Le tronc commun coronaire gauche se divise en artère interventriculaire antérieure (IVA) et artère circonflexe. :: Une sténose du tronc commun menace ainsi une large part du ventricule gauche.
++ La perfusion du ventricule gauche a lieu principalement en diastole car la contraction systolique comprime les vaisseaux intramyocardiques. :: Une pression artérielle diastolique basse ou une tachycardie (qui raccourcit la diastole) compromettent sa perfusion.
+- La perfusion coronaire est maximale en systole grâce au pic de pression généré par l'éjection ventriculaire. :: La tension pariétale systolique écrase les coronaires du VG : l'essentiel du débit coronaire gauche est diastolique.
+- Les artères coronaires sont dépourvues d'autorégulation et suivent passivement la pression aortique quelle que soit sa valeur. :: La circulation coronaire dispose d'une autorégulation qui maintient le débit sur une plage de pression, avant de devenir pression-dépendante en cas d'hypotension ou de sténose.
+> Le ventricule gauche se perfuse surtout en diastole : maintenir une PAD suffisante et éviter la tachycardie protège la balance apports/besoins en oxygène du myocarde.
+@ p. 11 à 15
 
-QCM · Propriétés cardiaques
-Quelles associations entre propriété et définition sont exactes ?
-+ Inotropisme : force de contraction :: Augmenté par la dobutamine.
-+ Chronotropisme : fréquence cardiaque :: Augmenté par l'atropine.
-+ Dromotropisme : vitesse de conduction :: Ralenti dans un BAV.
-- Bathmotropisme : relaxation du myocarde :: C'est l'excitabilité ; la relaxation est le lusitropisme.
-> Ino- (contraction), chrono- (fréquence), dromo- (conduction), bathmo- (excitabilité), lusi- (relaxation) : ces termes décrivent l'effet des médicaments.
-@ 17, 20, 59
+QCM · Propriétés cardiaques et système nerveux autonome
+Concernant les propriétés du myocarde et leur régulation par le système nerveux autonome, quelles propositions sont exactes ?
++ Le parasympathique exerce au repos un frein vagal permanent qui maintient la fréquence sous l'automatisme sinusal intrinsèque. :: Sans frein vagal, la fréquence sinusale spontanée se situe autour de 100/min.
++ Le sympathique augmente à la fois la fréquence (chronotropisme), la contractilité (inotropisme) et l'excitabilité (bathmotropisme). :: Il agit principalement via les récepteurs β1, ce qui explique aussi le risque arythmogène des catécholamines.
++ Le dromotropisme désigne la vitesse de conduction de l'influx électrique, et le lusitropisme la capacité de relaxation myocardique. :: Ces termes servent à caractériser l'effet des drogues cardiovasculaires et anesthésiques.
+- Le bathmotropisme correspond à la capacité du ventricule à se relaxer pendant la diastole. :: Le bathmotropisme est l'excitabilité ; la relaxation correspond au lusitropisme.
+- Le frein vagal ne se manifeste que lors de stimulations chirurgicales particulières comme une traction péritonéale. :: Le tonus vagal est permanent au repos ; une traction péritonéale ne fait que le renforcer brutalement.
+> Inotropisme (contractilité), chronotropisme (fréquence), dromotropisme (conduction), bathmotropisme (excitabilité), lusitropisme (relaxation). Au repos, le frein vagal prédomine sur l'automatisme sinusal.
+@ p. 16, 17, 20 et 59
 
-QCM · Système nerveux autonome
-Quelles affirmations sur l'innervation autonome du cœur sont exactes ?
-+ Le parasympathique exerce un frein vagal permanent :: Sans lui, la fréquence de repos serait d'environ 100/min.
-+ Le sympathique augmente la fréquence et la force de contraction :: Par les récepteurs β1.
-- Le sympathique diminue l'excitabilité :: Il l'augmente, d'où un risque d'arythmie.
-- Le frein vagal n'apparaît que lors d'une stimulation chirurgicale :: Il agit en permanence au repos.
-> L'automatisme cardiaque est modulé en permanence : le vague freine, le sympathique accélère.
-@ 16–17
+QCM · Cœur transplanté au bloc opératoire
+Un patient ayant bénéficié d'une transplantation cardiaque est programmé pour une chirurgie non cardiaque. Quelles propositions sont exactes ?
++ Le cœur greffé conserve son automatisme propre grâce au nœud sinusal, sans nécessiter d'innervation externe. :: Il bat spontanément sans qu'un stimulateur permanent soit requis pour chaque battement.
++ Sa fréquence cardiaque de repos est plus élevée que la normale, autour de 90 à 100/min, en raison de la perte du frein vagal. :: L'innervation autonome parasympathique et sympathique est interrompue lors de la greffe.
++ Les agents à action indirecte comme l'atropine ou l'éphédrine sont peu ou pas efficaces : on privilégie des agents directs comme l'isoprénaline ou la noradrénaline. :: L'atropine ne peut lever un frein vagal absent, et les terminaisons nerveuses sont dénervées.
+- L'innervation autonome est restaurée dès la fin des anastomoses vasculaires de la transplantation. :: Les sutures vasculaires ne reconnectent pas les fibres nerveuses autonomes.
+- Une bradycardie peropératoire chez un greffé cardiaque se traite en première intention par de fortes doses d'atropine IV. :: En l'absence de tonus vagal sur le greffon, l'atropine est inefficace : on recourt à un agoniste β direct (isoprénaline) ou à un entraînement électrosystolique.
+> Le cœur transplanté est dénervé : fréquence basale élevée (~100/min), adaptation plus lente à l'hypovolémie, inefficacité de l'atropine et réponse diminuée à l'éphédrine → utiliser des agents à action directe.
+@ p. 18
 
-QCM · Cœur transplanté
-Après une transplantation cardiaque, quelles affirmations sont exactes ?
-+ Le cœur garde son automatisme :: Le nœud sinusal fonctionne sans innervation.
-+ La fréquence de repos est plus élevée, autour de 100/min :: Le frein vagal a disparu.
-- L'innervation autonome est rétablie avec les sutures vasculaires :: Les nerfs ne sont pas reconnectés.
-- Un stimulateur est indispensable à chaque battement :: L'automatisme propre suffit.
-> Le cœur dénervé bat seul, plus vite, et répond mal aux médicaments à action indirecte (atropine, éphédrine). On utilise des agents directs comme l'isoprénaline.
-@ 18
+QCU · Trajet normal de la conduction cardiaque
+Quel est l'enchaînement physiologique de la conduction de l'influx électrique dans le cœur ?
+- Nœud sinusal → faisceau de His → nœud auriculo-ventriculaire → branches → réseau de Purkinje. :: Le nœud auriculo-ventriculaire précède le faisceau de His et ralentit l'influx pour laisser les oreillettes se contracter.
++ Nœud sinusal → nœud auriculo-ventriculaire → faisceau de His → branches → réseau de Purkinje. :: Cet ordre assure une contraction séquentielle des oreillettes puis des ventricules.
+- Nœud auriculo-ventriculaire → nœud sinusal → faisceau de His → réseau de Purkinje → branches. :: Le nœud sinusal est le stimulateur physiologique initial et les branches précèdent le réseau de Purkinje.
+- Nœud sinusal → réseau de Purkinje → nœud auriculo-ventriculaire → faisceau de His → branches. :: Le réseau de Purkinje est l'étage terminal qui diffuse l'influx dans le myocarde ventriculaire.
+- Faisceau de His → nœud sinusal → nœud auriculo-ventriculaire → branches → réseau de Purkinje. :: L'influx naît dans le nœud sinusal (oreillette droite), jamais dans le faisceau de His en situation normale.
+> L'influx naît au nœud sinusal, est freiné au nœud AV (intervalle PR, laissant temps au remplissage actif des ventricules), puis descend rapidement par le His, les branches droite et gauche et le réseau de Purkinje.
+@ p. 21 et 22
 
-QCM · Cellules cardiaques
-Quelles affirmations sur les cellules nodales et myocardiques sont exactes ?
-+ Les cellules nodales sont à l'origine de l'automatisme :: Elles se dépolarisent spontanément.
-+ Le système nerveux autonome module l'activité des cellules nodales :: Il change la fréquence de décharge.
-+ Les cellules myocardiques assurent la contraction :: Ce sont les cellules contractiles.
-- Le muscle cardiaque peut se contracter de façon soutenue, comme un muscle squelettique en tétanie :: Sa longue période réfractaire le rend non tétanisable.
-> La longue période réfractaire empêche la tétanisation du cœur : chaque contraction est suivie d'une relaxation, indispensable au remplissage.
-@ 21
+QCM · Cellules myocardiques, gradients ioniques et période réfractaire
+Concernant l'électrophysiologie cellulaire du myocarde contractile, quelles propositions sont exactes ?
++ La longue période réfractaire du cardiomyocyte empêche le cœur de se tétaniser et garantit une phase de relaxation entre deux battements. :: Cette relaxation est indispensable au remplissage ventriculaire.
++ Un canal ionique au repos est fermé mais activable, tandis qu'un canal inactivé est fermé et momentanément non activable. :: L'état inactivé des canaux sodiques fonde la période réfractaire absolue.
++ La pompe Na+/K+-ATPase consomme de l'ATP pour restaurer les gradients après le potentiel d'action en faisant sortir le sodium et rentrer le potassium. :: Ce transport actif agit contre les gradients électrochimiques (Na+ surtout extracellulaire, K+ surtout intracellulaire).
+- Lors de l'ouverture des canaux voltage-dépendants, le sodium sort de la cellule et le potassium y entre selon son gradient. :: C'est l'inverse : le sodium entre (dépolarisation) et le potassium sort (repolarisation).
+- La restauration des concentrations ioniques après chaque battement se fait par simple diffusion passive sans dépense énergétique. :: Remettre Na+ dehors et K+ dedans va contre leurs gradients : cela exige un transport actif consommateur d'ATP.
+> Na+ extracellulaire (~142 mEq/L), K+ intracellulaire (~140 mEq/L). L'ouverture des canaux suit les gradients (passif), la pompe Na+/K+-ATPase les rétablit (actif, ATP). La longue période réfractaire rend le myocarde non tétanisable.
+@ p. 21, 23, 24, 29 et 32
 
-QCU · Conduction
-Quel est le trajet normal de l'influx dans le cœur ?
-- Nœud sinusal → faisceau de His → réseau de Purkinje → nœud auriculo-ventriculaire :: Le nœud AV précède le His.
-- Nœud auriculo-ventriculaire → nœud sinusal → branches → faisceau de His :: Le nœud sinusal est le point de départ.
-+ Nœud sinusal → nœud auriculo-ventriculaire → faisceau de His → branches → réseau de Purkinje :: Activation des oreillettes puis des ventricules.
-- Réseau de Purkinje → branches → nœud sinusal → nœud auriculo-ventriculaire :: Trajet inversé.
-> Le nœud AV ralentit l'influx : les oreillettes se contractent avant les ventricules, ce qui complète leur remplissage.
-@ 22
+QCM · Phases du potentiel d'action myocardique
+Concernant les phases du potentiel d'action d'une cellule myocardique contractile, quelles associations sont exactes ?
++ Phase 0 : dépolarisation rapide par entrée massive de sodium. :: Le potentiel de membrane passe rapidement d'environ −90 mV à +25 mV.
++ Phase 2 : plateau de dépolarisation maintenu par l'entrée de calcium via les canaux calciques lents. :: Cet apport calcique déclenche le couplage excitation-contraction.
++ Phase 3 : repolarisation par fermeture des canaux calciques et sortie importante de potassium. :: La membrane revient vers son potentiel de repos.
++ Phase 4 : potentiel de repos membranaire autour de −90 mV. :: Maintenu par les gradients ioniques et la perméabilité de repos.
+- Phase 1 : entrée prolongée de calcium prolongeant la contraction ventriculaire. :: La phase 1 est une brève repolarisation initiale (fermeture des canaux Na+ et sortie initiale de K+) ; le plateau calcique est la phase 2.
+> Potentiel d'action myocardique : 0 = entrée Na+, 1 = repolarisation initiale (K+), 2 = plateau (entrée Ca2+), 3 = repolarisation (sortie K+), 4 = repos (−90 mV).
+@ p. 25 à 31
 
-QCM · Gradients ioniques
-Quelles affirmations sur les ions de part et d'autre de la membrane sont exactes ?
-+ Le sodium est plus concentré à l'extérieur de la cellule :: Environ 142 mEq/L dehors, 14 dedans.
-+ Le potassium est plus concentré à l'intérieur de la cellule :: Environ 140 mEq/L dedans, 4 dehors.
-+ Un canal au repos est fermé mais activable ; un canal inactivé ne peut pas s'ouvrir :: C'est la base de la période réfractaire.
-- L'ouverture des canaux fait sortir le sodium et entrer le potassium :: C'est l'inverse : le sodium entre, le potassium sort.
-> Les ions suivent leur gradient : le sodium entre (dépolarisation), le potassium sort (repolarisation).
-@ 23–24
+QCM · Antiarythmiques (classification de Vaughan-Williams)
+Concernant les classes d'antiarythmiques et leur mécanisme principal, quelles propositions sont exactes ?
++ Les antiarythmiques de classe I bloquent les canaux sodiques rapides, comme la lidocaïne. :: Ils ralentissent la phase 0 de dépolarisation rapide.
++ Les antiarythmiques de classe II correspondent aux bêtabloquants, qui réduisent l'influence sympathique sur le cœur. :: Ils ralentissent la fréquence cardiaque et la conduction auriculo-ventriculaire.
++ Les antiarythmiques de classe III, comme l'amiodarone, bloquent principalement les canaux potassiques et allongent la repolarisation. :: Ils prolongent la durée du potentiel d'action et la période réfractaire.
++ Les antiarythmiques de classe IV sont des inhibiteurs calciques qui freinent le nœud auriculo-ventriculaire. :: Ils agissent sur les canaux calciques lents (vérapamil, diltiazem).
+- Les antiarythmiques de classe III sont dépourvus de tout effet pro-arythmogène car ils stabilisent la repolarisation. :: L'allongement de la repolarisation (QT) peut favoriser des arythmies : toutes les classes peuvent être pro-arythmogènes.
+> Vaughan-Williams : I = canaux Na+ (lidocaïne), II = bêtabloquants, III = canaux K+ (amiodarone), IV = inhibiteurs calciques. Tous peuvent induire des troubles du rythme.
+@ p. 33
 
-QCM · Potentiel d'action
-Pour le potentiel d'action d'une cellule myocardique contractile, quelles associations sont exactes ?
-+ Phase 0 : entrée rapide de sodium :: Dépolarisation rapide.
-+ Phase 2 : plateau dû à l'entrée de calcium :: Le calcium déclenche la contraction.
-+ Phase 3 : repolarisation par sortie de potassium :: Retour vers le potentiel de repos.
-- Phase 4 : plateau entretenu par l'entrée de sodium :: La phase 4 est le potentiel de repos, autour de −90 mV.
-> Phase 0 (Na+ entre), 1 (début de repolarisation), 2 (plateau calcique), 3 (K+ sort), 4 (repos).
-@ 25–31
+QCM · Lecture de l'ECG et surveillance au scope
+Concernant l'interprétation de l'ECG et du scope au bloc opératoire, quelles propositions sont exactes ?
++ L'onde P traduit la dépolarisation auriculaire, l'intervalle PR la conduction auriculo-ventriculaire et l'onde T la repolarisation ventriculaire. :: Le complexe QRS correspond à la dépolarisation ventriculaire.
++ Un bloc de branche retarde l'activation d'un ventricule et se traduit par un élargissement du complexe QRS. :: Le premier repère à examiner devant un aspect inhabituel est la largeur du QRS.
++ Un sus-décalage du segment ST apparu au scope constitue une alerte qui doit être confirmée par un ECG 12 dérivations. :: Le filtrage et le nombre limité de dérivations du scope ne suffisent pas à poser seuls un diagnostic de SCA ST+.
+- En fibrillation auriculaire, chaque complexe QRS reste précédé d'une onde P régulière mais de faible amplitude. :: La FA abolit l'onde P organisée au profit d'une trémulation de la ligne de base avec des QRS irréguliers.
+- Un tracé de fibrillation ventriculaire au scope laisse un débit cardiaque résiduel permettant d'attendre l'ECG 12 dérivations avant de choquer. :: La FV est un arrêt circulatoire immédiat imposant réanimation cardiopulmonaire et défibrillation sans délai.
+> Onde P (oreillettes), PR (nœud AV), QRS (dépolarisation ventriculaire, élargi si bloc de branche), T (repolarisation). Le scope alerte (ST), l'ECG 12 dérivations confirme ; devant une FV, c'est l'arrêt cardiaque immédiat.
+@ p. 22, 35 à 42 et 49 à 52
 
-QCU · Restauration des gradients
-Quel mécanisme rétablit les gradients ioniques après un potentiel d'action ?
-+ Un transport actif consommant de l'ATP :: La pompe Na+/K+ ATPase fait sortir le sodium et rentrer le potassium.
-- Une diffusion passive du sodium vers l'extérieur :: Le sodium devrait aller contre son gradient : il faut de l'énergie.
-- Un retour passif du potassium dans la cellule :: Idem : c'est contre le gradient.
-- Le plateau calcique :: Il ne restaure pas les concentrations de sodium et de potassium.
-> Remettre les ions contre leur gradient demande de l'énergie : c'est le rôle de la pompe Na+/K+ ATPase.
-@ 29, 32
+QCM · Hyperkaliémie : signes ECG et traitement d'urgence
+Un patient insuffisant rénal présente au bloc une hyperkaliémie sévère (> 6 mmol/L) avec anomalies à l'ECG. Quelles propositions sont exactes ?
++ Les premiers signes ECG associent des ondes T amples et pointues, suivies d'un aplatissement des ondes P, d'un allongement du PR puis d'un élargissement des QRS. :: L'hyperkaliémie ralentit l'automatisme et la conduction, avec un risque d'aspect sinusoïdal et d'arrêt cardiaque.
++ Le calcium intraveineux protège rapidement le myocarde en stabilisant la membrane cellulaire, sans faire baisser la kaliémie. :: Son effet est quasi immédiat mais transitoire.
++ L'insuline (associée au glucose pour prévenir l'hypoglycémie) et les β2-mimétiques font entrer le potassium dans les cellules. :: Ils abaissent la kaliémie plasmatique en 15 à 30 minutes par transfert intracellulaire.
+- L'administration de calcium IV fait baisser la kaliémie plasmatique en favorisant son élimination rénale immédiate. :: Le calcium n'abaisse pas la kaliémie : il antagonise la toxicité membranaire du potassium sur le cœur.
+- Un affinement progressif des complexes QRS traduit l'aggravation électrique de l'hyperkaliémie. :: L'aggravation se traduit au contraire par un élargissement progressif des QRS jusqu'à la fibrillation ventriculaire ou l'asystolie.
+> Hyperkaliémie menaçante (> 6 mmol/L ou signes ECG) : 1) protéger le cœur (calcium IV, sans baisser la K+), 2) transférer le K+ dans les cellules (insuline-glucose, salbutamol), 3) éliminer le K+ (diurétiques, épuration extrarénale).
+@ p. 43 à 48
 
-QCM · Antiarythmiques
-Quelles associations entre classe d'antiarythmiques et mécanisme sont exactes ?
-+ Classe I : bloqueurs des canaux sodiques, comme la lidocaïne :: Ils ralentissent la dépolarisation.
-+ Classe II : bêtabloquants :: Ils diminuent l'influence sympathique.
-- Classe III : inhibiteurs calciques, comme l'amiodarone :: L'amiodarone est en classe III, mais elle bloque surtout les canaux potassiques.
-- Classe IV : bloqueurs des canaux potassiques :: La classe IV regroupe les inhibiteurs calciques.
-> Classification de Vaughan-Williams : I (sodium), II (bêtabloquants), III (potassium, amiodarone), IV (calcium). Tous peuvent eux-mêmes provoquer des arythmies.
-@ 33
+QCM · Débit cardiaque, index cardiaque et adaptation à l'effort
+Concernant le débit cardiaque (DC), l'index cardiaque (IC) et la distribution du débit, quelles propositions sont exactes ?
++ Le débit cardiaque est le produit de la fréquence cardiaque par le volume d'éjection systolique (DC = FC × VES). :: Au repos chez l'adulte, il se situe autour de 5 à 6 L/min.
++ L'index cardiaque rapporte le débit cardiaque à la surface corporelle afin de comparer des patients de gabarits différents. :: Sa valeur normale se situe entre 2,5 et 4 L/min/m².
++ À l'effort musculaire, le débit cardiaque augmente fortement et se redistribue vers les muscles, tandis que le débit cérébral reste stable et le débit rénal diminue. :: Le débit peut atteindre 15 à 20 L/min à l'effort intense par vasodilatation musculaire et vasoconstriction splanchnique/rénale.
+- Le volume d'éjection systolique correspond à la somme du volume télédiastolique et du volume télésystolique. :: VES = VTD − VTS (différence entre le volume en fin de remplissage et le volume restant après l'éjection).
+- À l'échographie cardiaque, le débit se déduit de la seule fréquence cardiaque sans mesurer l'intégrale temps-vitesse (ITV). :: L'échographie estime le VES par le produit ITV sous-aortique × surface de la chambre de chasse, puis le multiplie par la FC.
+> DC = FC × VES ; IC = DC / surface corporelle (2,5–4 L/min/m²) ; VES = VTD − VTS (largeur de la boucle pression-volume). À l'effort, le débit augmente et se redistribue vers les muscles tout en préservant le cerveau.
+@ p. 54 à 58, 65, 71, 72 et 90
 
-QCM · ECG
-Quelles associations entre un élément de l'ECG et l'activité électrique sont exactes ?
-+ Onde P : dépolarisation des oreillettes :: Elle précède leur contraction.
-+ Intervalle PR : conduction auriculo-ventriculaire :: Il s'allonge dans un BAV du 1er degré.
-- Complexe QRS : repolarisation des ventricules :: C'est leur dépolarisation.
-+ Onde T : repolarisation des ventricules :: Elle est modifiée par la kaliémie et l'ischémie.
-> P : oreillettes. PR : passage par le nœud AV. QRS : dépolarisation ventriculaire. T : repolarisation ventriculaire.
-@ 22, 35
+QCM · Cycle cardiaque et remplissage ventriculaire
+Concernant les phases du cycle cardiaque gauche, quelles propositions sont exactes ?
++ Pendant la contraction et la relaxation isovolumiques, les valves mitrale et aortique sont fermées toutes les deux et le volume ventriculaire reste constant. :: Seule la pression ventriculaire varie fortement jusqu'à l'ouverture de la valve suivante.
++ La valve mitrale s'ouvre lorsque la pression du ventricule gauche devient inférieure à celle de l'oreillette gauche, déclenchant le remplissage rapide. :: Suivent le diastasis (remplissage lent) puis la systole auriculaire.
++ La systole auriculaire suit l'onde P et apporte 20 à 30 % du remplissage ventriculaire, ce qui devient crucial chez un patient au ventricule rigide. :: D'où la mauvaise tolérance fréquente d'un passage en fibrillation auriculaire.
+- La relaxation isovolumique correspond à la phase initiale de remplissage rapide du ventricule gauche. :: Tant que la mitrale est fermée (relaxation isovolumique), aucun sang n'entre dans le ventricule.
+- Une tachycardie modérée allonge proportionnellement la diastole et améliore le remplissage ventriculaire. :: La tachycardie raccourcit préférentiellement la diastole, réduisant à la fois le remplissage ventriculaire et la perfusion coronaire.
+> Cycle gauche : contraction isovolumique (valves fermées) → éjection (ouverture aortique) → relaxation isovolumique (valves fermées) → remplissage rapide, diastasis et systole auriculaire (ouverture mitrale).
+@ p. 60 à 69
 
-QCM · Rythme et conduction
-Quelles affirmations sur les troubles du rythme et de la conduction sont exactes ?
-+ Un bloc de branche élargit le QRS :: Une partie du ventricule s'active en retard.
-- En fibrillation auriculaire, chaque QRS est précédé d'une onde P :: Il n'y a plus d'onde P organisée ; les QRS sont irréguliers.
-+ Un sus-décalage du ST au scope doit être confirmé par un ECG 12 dérivations :: Le scope sert d'alerte.
-- La fibrillation ventriculaire conserve un débit qui permet de différer la réanimation :: C'est un arrêt cardiaque : réanimation et choc électrique immédiats.
-> Le scope alerte, l'ECG 12 dérivations confirme. La fibrillation ventriculaire est un arrêt circulatoire.
-@ 37–42, 49–52
+QCM · Précharge, postcharge, contractilité et loi de Frank-Starling
+Concernant les déterminants du volume d'éjection systolique et la précharge-dépendance, quelles propositions sont exactes ?
++ La précharge correspond à l'étirement des fibres myocardiques en fin de diastole, tandis que la postcharge correspond aux forces s'opposant à l'éjection. :: Un obstacle comme un rétrécissement aortique augmente la postcharge, élève le VTS et réduit le VES.
++ Sur la partie ascendante de la courbe de Frank-Starling, le remplissage augmente le VES (patient précharge-dépendant) ; sur le plateau, il expose à la congestion pulmonaire sans gain de débit. :: La pente de la courbe dépend de la contractilité myocardique, propre à chaque patient.
++ Le lever passif de jambes mobilise environ 300 mL de sang veineux de façon réversible pour tester la précharge-dépendance sans perfuser. :: Le test n'est interprétable que si l'on mesure la variation du VES ou du débit (gain > 10 à 15 % = répondeur).
+- Augmenter la précharge par un remplissage vasculaire améliore directement la contractilité intrinsèque (inotropisme) du myocarde. :: Le remplissage augmente le VES via la loi de Frank-Starling (étirement des fibres), mais la contractilité intrinsèque reste inchangée.
+- Une pression veineuse centrale ou une PAPO basse suffit à affirmer que le patient augmentera son débit après un remplissage. :: Les pressions statiques ne prédisent pas la réponse au remplissage ; seuls les tests dynamiques (variation du VES) le font.
+> Le VES dépend de précharge, postcharge et contractilité. Remplir ne change pas l'inotropisme. Pour savoir si un patient est sur la partie ascendante de Starling, on réalise un test dynamique (lever de jambes, épreuve de remplissage) en mesurant le VES.
+@ p. 59 et 74 à 85
 
-QCM · Hyperkaliémie à l'ECG
-Quels signes ECG peuvent accompagner une hyperkaliémie menaçante ?
-+ Des ondes T amples et pointues :: C'est le premier signe.
-+ Une bradycardie et des troubles de conduction :: Le potassium ralentit l'automatisme et la conduction.
-+ Une onde P aplatie et élargie, voire absente :: Atteinte de la conduction auriculaire.
-- Des QRS de plus en plus fins :: Les QRS s'élargissent, jusqu'à l'aspect sinusoïdal puis l'arrêt.
-> T pointues, puis P aplaties, PR allongé, QRS larges : une hyperkaliémie avec signes ECG est une urgence vitale.
-@ 43–47
+QCM · Monitorage hémodynamique : Swan-Ganz, ScvO2 et lactate
+Concernant le cathéter de Swan-Ganz et les marqueurs d'adéquation entre apports et besoins en oxygène, quelles propositions sont exactes ?
++ Le cathéter de Swan-Ganz mesure les pressions droites, la pression artérielle pulmonaire d'occlusion (reflet de l'oreillette gauche) et le débit cardiaque par thermodilution. :: Invasif, il est réservé à des situations sélectionnées.
++ La ScvO2 reflète l'équilibre entre apport et consommation d'oxygène et doit être prélevée sur une voie cave supérieure (et non fémorale). :: Elle chute en cas de bas débit, d'anémie, d'hypoxémie ou d'hyperconsommation d'O2.
++ Dans un choc septique, une ScvO2 normale ou élevée associée à une hyperlactatémie peut traduire un défaut d'extraction tissulaire de l'oxygène. :: Les tissus ne parviennent plus à utiliser l'oxygène apporté.
+- La ScvO2 et le dosage du lactate fournissent une mesure directe et chiffrée du débit cardiaque en L/min. :: Ce sont des indicateurs indirects de la perfusion et de l'oxygénation tissulaires, jamais une mesure directe du débit.
+- Une PAPO basse mesurée au Swan-Ganz garantit une réponse positive au remplissage vasculaire. :: Comme la PVC, la PAPO est un indice statique insuffisant à lui seul pour prédire la précharge-dépendance.
+> Swan-Ganz : thermodilution (référence du débit) et PAPO (précharge gauche). ScvO2 (voie cave supérieure) + lactate : évaluent l'adéquation apports/besoins en O2 (basse si bas débit/anémie/hypoxie ; haute + lactate élevé si défaut d'extraction dans le sepsis).
+@ p. 87 à 92
 
-QCM · Traitement de l'hyperkaliémie
-Chez un patient en hyperkaliémie avec signes ECG, quelles affirmations sur les traitements urgents sont exactes ?
-+ Le calcium IV protège le cœur des effets électriques du potassium :: Il stabilise la membrane en quelques minutes.
-+ L'insuline fait entrer le potassium dans les cellules :: La kaliémie baisse en 15 à 30 minutes.
-+ On associe du glucose à l'insuline pour éviter l'hypoglycémie :: Sauf hyperglycémie initiale.
-- Le calcium fait baisser la kaliémie, comme l'insuline :: Le calcium ne modifie pas la kaliémie : il protège le cœur.
-> Calcium : protection cardiaque immédiate, sans baisser la kaliémie. Insuline-glucose (et salbutamol) : transfert intracellulaire. Épuration (diurétiques, dialyse) : élimination.
-@ 48
+QCM · Effet Windkessel, baroréflexe et régulation hormonale
+Concernant la régulation de la pression artérielle à court et moyen terme, quelles propositions sont exactes ?
++ L'effet Windkessel correspond au stockage d'énergie par les grosses artères élastiques en systole puis à sa restitution en diastole, transformant une éjection intermittente en écoulement continu. :: Avec le vieillissement et la rigidité artérielle, la PAS monte et la PAD baisse.
++ En réponse à une hausse brutale de PA, le baroréflexe augmente le tonus vagal et diminue le tonus sympathique en quelques secondes. :: Les agents anesthésiques (propofol, halogénés) émoussent ce réflexe, favorisant l'hypotension d'induction.
++ Face à une hypovolémie, le système rénine-angiotensine-aldostérone (SRAA) vasoconstricte et retient le sodium, tandis que l'ADH retient l'eau libre de façon adaptée. :: Les IEC et ARA II bloquent le SRAA, ce qui expose à des hypotensions marquées à l'induction.
+- Le baroréflexe corrige les variations tensionnelles de la laryngoscopie principalement grâce à la sécrétion rapide d'aldostérone. :: Le baroréflexe est une boucle nerveuse immédiate (secondes), alors que le SRAA et l'ADH agissent en minutes à heures.
+- Une sécrétion d'ADH déclenchée par une hypovolémie aiguë constitue une anomalie hormonale inappropriée. :: La libération d'ADH en hypovolémie est une réponse physiologique adaptée visant à défendre la volémie.
+> Court terme (secondes) : baroréflexe (émoussé sous AG) et effet Windkessel des grosses artères. Moyen terme (heures) : SRAA (angiotensine II, aldostérone) et ADH.
+@ p. 98 à 109
 
-QCU · Débit cardiaque
-Un patient a une fréquence cardiaque de 80/min et un volume d'éjection systolique de 75 mL. Quel est son débit cardiaque ?
-- 0,94 L/min :: Erreur de calcul (division au lieu de multiplication).
-+ 6 L/min :: 80 × 75 = 6 000 mL/min.
-- 60 L/min :: Erreur d'unité.
-- 155 mL/min :: On a additionné au lieu de multiplier.
-> Débit = FC × VES. 80 × 75 mL = 6 000 mL/min, soit 6 L/min.
-@ 54–56
+QCM · Mesure de la pression artérielle et pression pulsée
+Deux patients en hypotension présentent la même PAM à 60 mmHg : le premier a une PA à 108/35 mmHg (pression pulsée élargie), le second a une PA à 75/45 mmHg (pression pulsée pincée). Quelles propositions sont exactes ?
++ La PAM est la pression qui varie le moins entre l'aorte et les artères périphériques, ce qui en fait le repère principal de perfusion d'organe. :: La PAS subit en revanche un phénomène d'amplification périphérique et peut être plus élevée en radiale qu'en aortique.
++ Une PAD très basse avec pression pulsée large oriente plutôt vers une vasoplégie (comme dans le sepsis) ou une rigidité artérielle. :: Une même PAM peut ainsi recouvrir des mécanismes hémodynamiques opposés.
++ Une pression pulsée pincée oriente vers un volume d'éjection systolique abaissé, comme dans une hypovolémie ou une défaillance myocardique. :: La pression pulsée (PAS − PAD) dépend du VES et de la compliance artérielle.
++ En mesure auscultatoire, l'apparition du premier bruit de Korotkoff correspond à la PAS et la disparition des bruits à la PAD. :: La qualité de la mesure dépend aussi d'un brassard adapté au tour de bras.
+- La PAS mesurée sur une artère radiale est identique à la PAS aortique centrale chez le sujet jeune. :: L'amplification de l'onde de pouls rend la PAS radiale plus élevée que la PAS aortique centrale.
+> PAM = DC × RVS, stable d'un site artériel à l'autre. Analyser conjointement PAS, PAD et pression pulsée (PP = PAS − PAD) aide à distinguer vasoplégie (PAD basse, PP large) et bas VES (PP pincée).
+@ p. 110 à 125
 
-QCM · Index cardiaque
-Un patient a un débit cardiaque de 6 L/min et une surface corporelle de 2 m². Quelles affirmations sont exactes ?
-+ Son index cardiaque est de 3 L/min/m² :: 6 ÷ 2 = 3.
-+ L'index rapporte le débit à la corpulence du patient :: Il permet de comparer des patients de gabarits différents.
-- Son index cardiaque est de 12 L/min/m² :: On divise par la surface, on ne multiplie pas.
-> Index cardiaque = débit ÷ surface corporelle ; valeur normale entre 2,5 et 4 L/min/m².
-@ 54–56
+QCM · Catécholamines et vasopresseurs au bloc
+Concernant les récepteurs adrénergiques et les principaux agents vasoactifs utilisés en anesthésie, quelles propositions sont exactes ?
++ La noradrénaline exerce un effet vasoconstricteur α1 prédominant, ce qui en fait le vasopresseur de choix pour restaurer la pression artérielle. :: Elle soutient les résistances vasculaires systémiques sans tachycardie marquée.
++ La dobutamine stimule principalement les récepteurs β1 (inotropisme) mais son effet β2 associé peut aggraver une hypotension artérielle. :: Elle s'utilise pour un bas débit cardiaque, souvent associée à un vasopresseur si la PA est basse.
++ L'éphédrine agit principalement de façon indirecte en libérant la noradrénaline endogène, ce qui expose à une tachyphylaxie lors d'injections répétées. :: Les stocks de noradrénaline des terminaisons nerveuses s'épuisent progressivement.
++ La phényléphrine est un agoniste α1 pur pouvant élever la pression artérielle tout en réduisant le débit cardiaque par augmentation de postcharge et bradycardie réflexe. :: Elle convient surtout à une hypotension par vasoplégie avec fréquence cardiaque conservée ou rapide.
+- L'isoprénaline est un vasoconstricteur α1 pur indiqué en première intention dans les chocs vasoplégiques sévères. :: L'isoprénaline est un agoniste β pur (chronotrope et vasodilatateur), utilisé dans les bradycardies sévères ou BAV.
+> α1 = vasoconstriction (noradrénaline, phényléphrine) ; β1 = FC et contractilité (dobutamine, adrénaline, isoprénaline) ; β2 = vasodilatation/bronchodilatation. L'adrénaline agit sur α et β au prix d'une hausse de la consommation d'O2 et d'arythmies.
+@ p. 127 à 137
 
-QCM · Effort
-Pendant un effort musculaire, quelles adaptations circulatoires sont exactes ?
-+ Le débit cardiaque augmente, jusqu'à 15–20 L/min :: Au repos, il est de 5–6 L/min.
-+ Le débit vers les muscles augmente fortement :: Grâce à la vasodilatation musculaire.
-+ Le débit cérébral reste stable tandis que le débit rénal diminue :: Le sang est redistribué.
-- La répartition du débit entre les organes reste la même qu'au repos :: Le débit est redistribué vers les muscles.
-> À l'effort, le débit augmente et se redistribue : muscles favorisés, cerveau préservé, territoires digestifs et rénaux réduits.
-@ 57–58
+QCU · Lien entre ventilation en pression positive et hémodynamique
+Évaluez les deux affirmations et leur lien.
+1. La mise sous ventilation en pression positive avec une PEP élevée peut provoquer une chute brutale du débit cardiaque chez un patient hypovolémique.
+2. L'augmentation de la pression intrathoracique réduit le retour veineux vers le cœur droit et augmente la postcharge du ventricule droit.
++ Les deux affirmations sont vraies et la seconde explique la première. :: La baisse de précharge du VD et la hausse de sa postcharge diminuent le débit droit, donc le remplissage gauche et le débit cardiaque, effet majoré en hypovolémie.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première. :: Le lien est direct : c'est précisément la réduction du retour veineux qui effondre le débit chez le patient hypovolémique.
+- La première affirmation est vraie, la seconde est fausse. :: La seconde est vraie : la pression intrathoracique positive comprime les veines caves (précharge VD ↓) et les vaisseaux pulmonaires (postcharge VD ↑).
+- La première affirmation est fausse, la seconde est vraie. :: La première est vraie : le « désamorçage » à l'induction d'un patient hypovolémique est un piège classique au bloc.
+- Les deux affirmations sont fausses. :: Les deux sont vraies ; à l'inverse, la pression positive diminue la postcharge du ventricule gauche (bénéfice de la VNI dans l'OAP).
+> La ventilation en pression positive pénalise le cœur droit (retour veineux ↓, postcharge VD ↑) et aide le cœur gauche (postcharge VG ↓) : mal tolérée en choc hémorragique/hypovolémie, bénéfique dans l'OAP cardiogénique.
+@ p. 138 à 140
 
-QCM · Phases isovolumiques
-Pendant la contraction et la relaxation isovolumiques du ventricule gauche, quelles affirmations sont exactes ?
-+ Le volume du ventricule ne change pas :: Aucune entrée ni sortie de sang.
-+ La mitrale et la valve aortique sont toutes les deux fermées :: C'est ce qui rend le volume constant.
-+ La pression monte pendant la contraction et chute pendant la relaxation :: Jusqu'à l'ouverture de la valve suivante.
-- La relaxation isovolumique correspond au remplissage rapide :: Le remplissage ne commence qu'à l'ouverture de la mitrale.
-> Contraction isovolumique : la pression monte jusqu'à ouvrir la valve aortique. Relaxation isovolumique : elle chute jusqu'à ouvrir la mitrale.
-@ 60, 62, 65, 69
+QCM · Insuffisance cardiaque et choc cardiogénique
+Concernant la physiopathologie de l'insuffisance cardiaque et du choc cardiogénique, quelles propositions sont exactes ?
++ L'insuffisance ventriculaire gauche se manifeste principalement par une congestion pulmonaire (œdème aigu du poumon), tandis que l'insuffisance droite donne une congestion veineuse systémique. :: Turgescence jugulaire, hépatalgie et œdèmes périphériques caractérisent l'atteinte droite.
++ Le choc cardiogénique associe un bas débit cardiaque à des signes d'hypoperfusion d'organes au repos (hyperlactatémie, oligurie, marbrures). :: Il peut en outre comporter une composante vasodilatatrice inflammatoire secondaire.
+- Une dyspnée survenant au moindre repos correspond au stade II de la classification NYHA. :: La dyspnée au repos correspond au stade IV (I : aucune gêne, II : effort important, III : effort modéré, IV : repos).
+- Le diagnostic de choc cardiogénique exclut l'existence d'une vasodilatation inflammatoire associée. :: Une réponse inflammatoire systémique peut s'y associer et compliquer le profil hémodynamique.
+- En cas d'inefficacité de la dobutamine dans un choc cardiogénique, la seule mesure consiste à doubler sa posologie sans bilan complémentaire. :: Il faut réévaluer le mécanisme (échographie, précharge, obstacle, ischémie, composante vasoplégique) avant d'escalader les doses.
+> Insuffisance gauche → congestion pulmonaire ; droite → congestion périphérique. NYHA I à IV (repos). Choc cardiogénique = bas débit + hypoperfusion tissulaire au repos, parfois compliqué d'une vasoplégie inflammatoire.
+@ p. 141 à 147
 
-QCM · Ouverture des valves
-Quelles affirmations sur l'ouverture des valves du cœur gauche sont exactes ?
-+ La valve aortique s'ouvre quand la pression ventriculaire dépasse la pression aortique :: L'éjection commence alors.
-+ La mitrale s'ouvre quand la pression ventriculaire devient inférieure à la pression de l'oreillette :: Le remplissage commence.
-- La valve aortique s'ouvre dès le début de la contraction :: Il faut d'abord dépasser la pression aortique (contraction isovolumique).
-- Le remplissage rapide commence à mitrale fermée :: Il commence à l'ouverture de la mitrale.
-> Les valves suivent les gradients de pression : c'est la pression, pas la contraction, qui les ouvre.
-@ 62–66
+QCM · Rétrécissement aortique et postcharge
+Un patient porteur d'un rétrécissement aortique serré est pris en charge au bloc opératoire. Quelles propositions sont exactes ?
++ L'obstacle à l'éjection élève la pression intraventriculaire gauche, augmente le volume télésystolique et induit une hypertrophie ventriculaire chronique. :: Cette hypertrophie compense transitoirement l'obstacle mais rend le ventricule rigide et vulnérable à l'ischémie.
+- L'hypertrophie ventriculaire gauche compense définitivement l'obstacle sans risque d'évolution vers l'insuffisance cardiaque. :: La surcharge de pression finit par dépasser les capacités d'adaptation et évolue vers la défaillance myocardique.
+- L'obstacle à l'éjection réduit le travail mécanique du ventricule gauche puisque le volume éjecté diminue. :: Le ventricule doit générer une pression beaucoup plus élevée pour franchir l'obstacle, ce qui accroît fortement son travail et ses besoins en O2.
+- Une baisse modérée de la pression artérielle diastolique est bien tolérée car elle soulage la postcharge du ventricule gauche. :: La postcharge reste fixée par la valve sténosée : l'hypotension chute la perfusion coronaire du myocarde hypertrophié et précipite le collapsus.
+- Un passage en fibrillation auriculaire rapide est généralement sans conséquence hémodynamique chez ce patient. :: Le ventricule rigide dépend de la systole auriculaire et d'une diastole suffisamment longue : la FA rapide est très mal tolérée.
+> Le rétrécissement aortique impose une postcharge fixe élevée : le myocarde hypertrophié tolère très mal l'hypotension (chute de perfusion coronaire), la tachycardie et la perte du rythme sinusal.
+@ p. 82 à 84
 
-QCM · Remplissage ventriculaire
-Quelles affirmations sur le remplissage du ventricule sont exactes ?
-+ La systole auriculaire suit l'onde P et complète le remplissage :: Elle apporte 20 à 30 % du remplissage.
-+ Le diastasis est la phase de remplissage lent :: Entre le remplissage rapide et la contraction auriculaire.
-- Une tachycardie allonge le temps de remplissage :: Elle raccourcit surtout la diastole.
-- Sans contraction auriculaire, le ventricule ne peut plus se remplir :: Le remplissage passif persiste ; seul le complément auriculaire est perdu.
-> La tachycardie raccourcit la diastole ; la FA supprime la contraction auriculaire. Les deux sont mal tolérés par un ventricule rigide.
-@ 61, 66–68
+QCM · Déterminants de la perfusion coronaire et de la balance en O2
+Parmi les situations suivantes au bloc opératoire, lesquelles menacent l'équilibre entre apports et besoins en oxygène du myocarde ?
++ Une pression artérielle diastolique basse. :: Elle diminue directement la pression de perfusion coronaire du ventricule gauche.
++ Une tachycardie peropératoire soutenue. :: Elle raccourcit la diastole (apports ↓) et augmente la consommation myocardique en O2 (besoins ↑).
++ Une anémie aiguë ou une hypoxémie. :: Elles réduisent le contenu artériel en oxygène délivré aux coronaires.
++ Une augmentation brutale de la postcharge ou de la contractilité sous catécholamines. :: Elles majorent la tension pariétale et la consommation en O2 du myocarde.
++ Une élévation importante de la pression télédiastolique du ventricule gauche. :: Elle s'oppose à la perfusion sous-endocardique pendant la diastole.
+> La perfusion coronaire gauche dépend de (PAD − PTDVG), de la durée de la diastole et du contenu artériel en O2 (Hb, SpO2) ; les besoins augmentent avec FC, postcharge et inotropisme.
+@ p. 15, 61, 82 à 84 et 130 à 132
 
-QCM · Volume d'éjection
-Le volume télédiastolique d'un ventricule gauche est de 120 mL et son volume télésystolique de 50 mL. Quelles affirmations sont exactes ?
-+ Le volume d'éjection systolique est de 70 mL :: VES = VTD − VTS.
-+ Le volume télésystolique est le sang qui reste après l'éjection :: 50 mL ici.
-+ La largeur de la boucle pression-volume représente le VES :: Elle va du VTS au VTD.
-- Le VES est la somme du VTD et du VTS :: C'est leur différence.
-> VES = VTD − VTS = 70 mL. La fraction d'éjection = VES ÷ VTD ≈ 58 %.
-@ 65, 71–72, 85
+QCU · Choix d'une catécholamine en urgence
+Un patient en choc septique reste hypotendu (PA 75/38 mmHg, FC 115/min) malgré un remplissage vasculaire initial adapté. Quel agent vasoactif est le plus cohérent en première intention pour restaurer la pression artérielle ?
+- La dobutamine en perfusion continue. :: Son effet β1/β2 risque d'aggraver la tachycardie et la vasodilatation sans corriger la vasoplégie.
+- L'isoprénaline en titration IV. :: Agoniste β pur, elle accélère encore le cœur et vasodilate, ce qui aggraverait l'hypotension.
++ La noradrénaline en perfusion continue. :: Son effet α1 prédominant restaure les résistances vasculaires systémiques et la PAD dans un tableau vasoplégique.
+- Des bolus répétés d'éphédrine jusqu'à normalisation de la PAM. :: L'éphédrine est un agent indirect exposé à la tachyphylaxie et mal adapté à une vasoplégie sévère persistante.
+- L'atropine IV pour stimuler le retour veineux. :: L'atropine est un parasympatholytique indiqué dans les bradycardies vagales, pas dans un choc vasoplégique tachycarde.
+> Devant une hypotension vasoplégique (PAD basse, FC élevée) persistante, la noradrénaline (α1 prédominant) est le vasopresseur de référence pour restaurer la PAM et la perfusion d'organes.
+@ p. 120 à 125 et 130 à 137
 
-QCM · Précharge et postcharge
-Quelles définitions sont exactes ?
-+ Précharge : étirement des fibres avant la contraction :: Elle dépend du remplissage.
-+ Postcharge : force qui s'oppose à l'éjection :: Elle dépend surtout de la pression aortique.
-+ Lusitropisme : capacité de relaxation :: Elle conditionne le remplissage.
-+ Inotropisme : force de contraction :: Indépendante du remplissage.
-- Un remplissage plus important augmente la contractilité du myocarde :: Il augmente la précharge, donc le volume d'éjection par la loi de Starling, mais la contractilité reste inchangée.
-> Le VES dépend de la précharge, de la postcharge et de la contractilité : remplir ne rend pas le cœur plus contractile.
-@ 59, 82, 85
-
-QCM · Loi de Frank-Starling
-Quelles affirmations sur la précharge-dépendance sont exactes ?
-+ Sur la partie ascendante de la courbe, remplir augmente le VES :: Le patient est précharge-dépendant.
-+ Sur le plateau, remplir n'augmente plus le débit et expose à l'œdème pulmonaire :: Le cœur ne peut pas éjecter davantage.
-- Une pression de remplissage basse prouve que le remplissage augmentera le débit :: Une valeur statique ne prédit pas la réponse.
-- Deux patients également remplis répondent de la même façon :: La pente de la courbe dépend de la fonction cardiaque.
-> On teste la précharge-dépendance de façon dynamique (lever de jambes, petit remplissage) en regardant si le VES augmente.
-@ 74–78
-
-QCM · Contractilité et réponse au remplissage
-Quelles affirmations sont exactes ?
-+ Une meilleure contractilité donne plus de débit pour une même précharge :: La courbe de Frank-Starling monte.
-+ Une contractilité diminuée donne moins de débit pour une même précharge :: La courbe s'aplatit.
-+ Le lever passif de jambes teste la réponse au remplissage sans perfuser :: Il mobilise environ 300 mL de sang veineux, de façon réversible.
-- Mesurer la précharge suffit, sans regarder le VES après le test :: C'est la variation du VES ou du débit qui répond à la question.
-> Un test de remplissage n'a de sens que si l'on mesure la réponse : une augmentation du VES de plus de 10 à 15 % signe la précharge-dépendance.
-@ 79–81
-
-QCM · Obstacle à l'éjection
-Quelles affirmations sur une augmentation de postcharge, comme un rétrécissement aortique, sont exactes ?
-+ Le rétrécissement aortique crée un gradient de pression entre le ventricule gauche et l'aorte :: Le ventricule doit générer plus de pression.
-+ Une postcharge élevée augmente le volume télésystolique et réduit le VES :: Le ventricule se vide moins.
-- Un obstacle à l'éjection diminue le travail du ventricule :: Il l'augmente.
-- L'hypertrophie compense définitivement l'obstacle :: Elle finit par évoluer vers l'insuffisance cardiaque.
-> L'obstacle fait travailler le ventricule contre une pression plus élevée : hypertrophie, puis défaillance. Le ventricule hypertrophié tolère mal la tachycardie et l'hypotension.
-@ 82–84
-
-QCM · Cathéter de Swan-Ganz
-Quelles affirmations sur le cathéter de Swan-Ganz sont exactes ?
-+ Il passe par l'oreillette droite et le ventricule droit jusqu'à l'artère pulmonaire :: Introduit par une veine centrale.
-+ La thermodilution mesure le débit cardiaque :: Gold standard de la mesure du débit.
-+ La pression artérielle pulmonaire d'occlusion (PAPO) reflète la pression de l'oreillette gauche :: Elle estime la précharge gauche.
-- Une PAPO basse prouve que le patient répondra au remplissage :: Une valeur statique ne prédit pas la réponse.
-> Le Swan-Ganz mesure pressions droites, PAPO et débit. Il est invasif et réservé à des situations particulières.
-@ 87–89
-
-QCU · Débit à l'échographie
-L'ITV sous-aortique est de 20 cm, la surface aortique de 3 cm² et la fréquence de 100/min. Quel est le débit cardiaque ?
-- 0,6 L/min :: Erreur d'unité.
-- 2 L/min :: Calcul incomplet.
-- 60 L/min :: Erreur d'unité (cm³ et L).
-+ 6 L/min :: VES = 20 × 3 = 60 mL ; débit = 60 × 100 = 6 000 mL/min.
-> VES = ITV × surface de la chambre de chasse ; débit = VES × FC.
-@ 90
-
-QCM · ScvO2 et lactate
-Quelles affirmations sur la ScvO2 et le lactate sont exactes ?
-+ La ScvO2 reflète l'équilibre entre apport et consommation d'oxygène :: Elle baisse si l'apport diminue ou si la consommation augmente.
-+ Une ScvO2 élevée dans un choc septique peut traduire un défaut d'extraction :: Les tissus n'utilisent plus l'oxygène.
-- La ScvO2 et le lactate mesurent directement le débit cardiaque :: Ce sont des indicateurs indirects.
-- Une ScvO2 prélevée sur une voie fémorale équivaut à une ScvO2 centrale :: La ScvO2 se prélève sur une voie cave supérieure.
-> ScvO2 basse : apport insuffisant (bas débit, anémie, hypoxémie). ScvO2 haute et lactate élevé : défaut d'extraction, comme dans le sepsis.
-@ 91–92
-
-QCM · Effet Windkessel
-Quelles affirmations définissent l'effet Windkessel ?
-+ Les grosses artères élastiques stockent de l'énergie pendant la systole :: L'aorte se distend.
-+ Cette énergie est restituée pendant la diastole et entretient l'écoulement :: Le débit devient continu.
-+ Il maintient la pression aortique entre deux éjections :: La PAD ne retombe pas à zéro.
-- Il correspond à la contraction des valves entre deux systoles :: Il dépend de l'élasticité des artères.
-> L'aorte transforme une éjection intermittente en un écoulement continu. Avec l'âge, elle se rigidifie : la PAS monte et la PAD baisse.
-@ 98
-
-QCM · Baroréflexe
-Après une hausse brutale de pression artérielle, quelles réponses du baroréflexe sont exactes ?
-+ Le tonus parasympathique cardiaque augmente :: La fréquence diminue.
-+ Le tonus sympathique cardiaque et vasculaire diminue :: Moins de vasoconstriction.
-+ La fréquence, la contractilité et les résistances vasculaires baissent :: La pression revient vers la normale.
-- La réponse passe d'abord par la sécrétion d'aldostérone :: Le baroréflexe est une réponse nerveuse, en quelques secondes.
-> Le baroréflexe corrige la PA battement par battement. Le propofol et les halogénés l'atténuent : c'est une cause de l'hypotension à l'induction.
-@ 99–103
-
-QCM · Régulation hormonale
-En réponse à une baisse du volume circulant, quelles affirmations sur le SRAA et l'ADH sont exactes ?
-+ L'angiotensine II provoque une vasoconstriction et stimule l'aldostérone :: Elle soutient la pression.
-+ L'aldostérone fait réabsorber du sodium et de l'eau :: Au niveau du tube distal.
-+ L'ADH retient de l'eau libre :: Elle concentre les urines.
-- Une sécrétion d'ADH déclenchée par une hypovolémie est inappropriée :: C'est une réponse adaptée à l'hypovolémie.
-> Le SRAA et l'ADH défendent la volémie en quelques heures. Les IEC et ARA II bloquent ce système, d'où des hypotensions à l'induction.
-@ 106–109
-
-QCM · Mesure de la pression artérielle
-Quelles affirmations sur la mesure de la pression artérielle sont exactes ?
-+ En auscultation, le premier bruit correspond à la PAS et la disparition des bruits à la PAD :: Bruits de Korotkoff.
-+ La PAS et la forme de l'onde varient selon l'artère où l'on mesure :: La PAS est plus élevée en périphérie (amplification).
-+ La PAM varie peu entre l'aorte et la périphérie :: C'est la valeur la plus fiable.
-- La PAS radiale est toujours égale à la PAS aortique :: Elle est souvent plus élevée chez le sujet jeune.
-> La PAM est la pression qui perfuse les organes et la plus stable d'un site à l'autre : c'est la cible habituelle.
-@ 110–117
-
-QCM · Pression pulsée
-Deux patients ont une PA de 108/35 et de 75/45 mmHg, soit une PAM de 60 mmHg pour chacun. Quelles affirmations sont exactes ?
-+ Le premier a une pression pulsée de 73 mmHg et le second de 30 mmHg :: PP = PAS − PAD.
-+ La PAD très basse du premier peut orienter vers une vasoplégie :: Par exemple dans un sepsis.
-+ La pression pulsée pincée du second peut orienter vers un VES bas :: Par exemple une hypovolémie ou une défaillance cardiaque.
-- Une même PAM signifie le même débit et les mêmes résistances :: Une même PAM peut cacher des mécanismes opposés.
-> PAM = débit × résistances ; PP dépend du VES et de la rigidité artérielle. Lire PAS, PAD et PP aide à comprendre le mécanisme d'une hypotension.
-@ 118–125
-
-QCM · Récepteurs adrénergiques
-Quelles associations entre récepteur et effet principal sont exactes ?
-+ α1 : vasoconstriction :: Cible de la phényléphrine et de la noradrénaline.
-+ β1 : augmentation de la fréquence et de la contractilité :: Cible de la dobutamine.
-+ β2 : bronchodilatation et vasodilatation :: Cible du salbutamol.
-- β2 : vasoconstriction artériolaire :: Le β2 est vasodilatateur.
-> α1 serre les vaisseaux, β1 stimule le cœur, β2 dilate bronches et vaisseaux.
-@ 127–128, 136
-
-QCM · Catécholamines
-Quelles affirmations sur la noradrénaline, la dobutamine et l'adrénaline sont exactes ?
-+ La noradrénaline est surtout vasoconstrictrice :: Effet α1 prédominant.
-+ La dobutamine augmente la contractilité, mais peut aggraver une hypotension par vasodilatation :: Effet β2 associé.
-- L'adrénaline n'agit que sur les récepteurs α1 :: Elle agit sur α et β, et augmente la consommation d'O2 du myocarde.
-- Si la dobutamine est inefficace, on augmente les doses sans réévaluer :: Il faut réévaluer le mécanisme de la défaillance.
-> Noradrénaline : pression. Dobutamine : contractilité. Adrénaline : les deux, au prix d'un coût en oxygène et d'arythmies.
-@ 130–132, 136–137
-
-QCM · Éphédrine, phényléphrine, isoprénaline
-Quelles affirmations sont exactes ?
-+ L'éphédrine agit surtout en libérant la noradrénaline des terminaisons nerveuses :: C'est une action indirecte.
-+ Ses doses répétées perdent de leur efficacité :: Les stocks de noradrénaline s'épuisent (tachyphylaxie).
-+ La phényléphrine peut augmenter la PA tout en diminuant le débit cardiaque :: Vasoconstriction pure, avec bradycardie réflexe.
-- L'isoprénaline est utilisée pour sa vasoconstriction :: C'est un agoniste β, utilisé pour accélérer le cœur (BAV).
-> Éphédrine : indirecte, tachyphylaxie. Phényléphrine : α1 pur. Isoprénaline : β pur, chronotrope.
-@ 133–135
-
-QCM · Interactions cœur-poumon
-Quelles affirmations sur les effets de la ventilation en pression positive sont exactes ?
-+ La pression intrathoracique positive réduit le retour veineux :: La précharge du ventricule droit diminue.
-+ Elle augmente la postcharge du ventricule droit :: Les vaisseaux pulmonaires sont comprimés.
-+ Elle diminue la postcharge du ventricule gauche :: C'est l'un des bénéfices de la VNI dans l'OAP.
-- Une PEP élevée améliore la circulation en choc hémorragique :: Elle réduit encore le retour veineux.
-> La pression positive pénalise le cœur droit et aide le cœur gauche. Elle est mal tolérée en hypovolémie et bénéfique dans l'insuffisance ventriculaire gauche.
-@ 138–140
-
-QCM · Insuffisance cardiaque et choc
-Quelles affirmations sur la défaillance cardiaque sont exactes ?
-+ Le choc cardiogénique associe un bas débit et une hypoperfusion des organes au repos :: Lactates élevés, oligurie, marbrures.
-+ L'insuffisance gauche donne une congestion pulmonaire, l'insuffisance droite une congestion veineuse périphérique :: OAP à gauche ; œdèmes, foie cardiaque à droite.
-- Le choc cardiogénique exclut toute vasodilatation inflammatoire :: Une composante inflammatoire est possible.
-- Une dyspnée au repos correspond au stade II de la NYHA :: C'est le stade IV.
-> NYHA I : pas de gêne ; II : effort important ; III : effort modéré ; IV : repos. Le choc cardiogénique, c'est l'hypoperfusion au repos.
-@ 141–147
+QCU · Lien entre tachycardie et ischémie myocardique
+Évaluez les deux affirmations et leur lien.
+1. Une tachycardie peropératoire expose particulièrement un patient coronarien ou porteur d'un rétrécissement aortique à une ischémie myocardique.
+2. La tachycardie raccourcit préférentiellement la durée de la diastole tout en augmentant la consommation myocardique en oxygène.
++ Les deux affirmations sont vraies et la seconde explique la première. :: La diastole plus courte réduit le temps de perfusion coronaire gauche au moment même où les besoins en O2 du myocarde augmentent.
+- Les deux affirmations sont vraies, mais la seconde n'explique pas la première. :: La seconde affirmation explique directement le double déséquilibre apports/besoins responsable de l'ischémie.
+- La première affirmation est vraie, la seconde est fausse. :: La seconde est vraie : l'accélération de la fréquence ampute surtout la diastole et élève la consommation en O2.
+- La première affirmation est fausse, la seconde est vraie. :: La première est vraie : chez le coronarien ou le rétrécissement aortique hypertrophié, contrôler la FC est une priorité au bloc.
+- Les deux affirmations sont fausses. :: Les deux affirmations sont vraies et directement liées par la physiologie de la perfusion coronaire diastolique.
+> La perfusion du ventricule gauche étant surtout diastolique, toute tachycardie réduit les apports coronaires (diastole raccourcie) tout en majorant les besoins en O2 : double pénalité chez le coronarien et le ventricule hypertrophié.
+@ p. 15, 61, 66 et 82 à 84

@@ -120,7 +120,7 @@ Concernant les conditions d'interprétation du delta-PP, quelles propositions so
 - Une ventilation à petit volume courant (5 mL/kg) le rend plus fiable. :: Il faut un volume courant supérieur à 7 mL/kg.
 - Une chirurgie à thorax ouvert n'en modifie pas l'interprétation. :: Les conditions thoraciques doivent être intactes.
 + Une dysfonction ventriculaire en complique l'interprétation. :: Cœur pulmonaire ou défaillance du VG modifient la réponse.
-- Il reste valable chez le patient en arythmie complète. :: Le rythme doit être sinusal.
+- Il reste interprétable chez un patient en ventilation spontanée sans assistance. :: Le delta-PP suppose une ventilation mécanique contrôlée sans effort inspiratoire du patient.
 > Le delta-PP n'est interprétable qu'en ventilation mécanique, rythme sinusal, volume courant > 7 mL/kg, thorax et abdomen fermés, sans défaillance ventriculaire. Sinon, il faut évaluer la réponse autrement (épreuve titrée).
 @ p. 38
 
@@ -164,14 +164,14 @@ Concernant l'osmolarité des solutés, quelles propositions sont exactes ?
 > L'osmolarité du soluté détermine les mouvements d'eau entre cellules et secteur extracellulaire. Chez le cérébrolésé, éviter les solutés hypotoniques (Ringer lactate, 279 mOsm/L) : NaCl 0,9 % (308) ou balancé isotonique (Plasmalyte, 295).
 @ p. 52 à 58, 71, 81 et 87
 
-QCU · Trou anionique
-Un patient a une natrémie à 140 mmol/L, une chlorémie à 112 mmol/L et des bicarbonates à 16 mmol/L. Concernant son trou anionique, quelle proposition est exacte ?
-+ Il est de 12 mEq/L, normal : l'acidose est hyperchlorémique. :: 140 − (112 + 16) = 12.
-- Il est de 28 mEq/L, augmenté : l'acidose est lactique. :: Résultat obtenu en oubliant les bicarbonates dans le calcul.
-- Il est de 44 mEq/L, augmenté : l'acidose est due à l'insuffisance rénale. :: Résultat obtenu en ajoutant les bicarbonates au lieu de les soustraire.
-- Il est de 4 mEq/L, abaissé : l'acidose est respiratoire. :: Le calcul est faux, et le trou anionique concerne les acidoses métaboliques.
-- Il ne peut pas être calculé sans la kaliémie. :: La formule n'utilise que Na⁺, Cl⁻ et HCO3⁻.
-> Trou anionique = Na⁺ − (Cl⁻ + HCO3⁻), normale 12 ± 4 mEq/L. Une acidose à trou anionique normal est hyperchlorémique : perte de bicarbonates ou apports massifs de NaCl.
+QCU · Trou anionique et acidose métabolique
+Après un remplissage massif au NaCl 0,9 %, un patient développe une acidose métabolique avec hyperchlorémie et baisse des bicarbonates, tandis que son trou anionique reste normal (environ 12 mEq/L). Quelle interprétation est exacte ?
++ Il s'agit d'une acidose métabolique hyperchlorémique à trou anionique normal, liée à l'apport excessif de chlore. :: Le trou anionique = Na⁺ − (Cl⁻ + HCO3⁻) reste normal quand la baisse de HCO3⁻ est compensée par la hausse de Cl⁻.
+- Il s'agit d'une acidose lactique par hypoperfusion tissulaire, caractérisée par un trou anionique normal. :: Une acidose lactique accumule des anions indosés (lactates) et augmente donc le trou anionique.
+- Le trou anionique normal élimine toute acidose métabolique et oriente vers une acidose respiratoire. :: Le trou anionique sert précisément à classer les acidoses métaboliques (normal = hyperchlorémique ; augmenté = anions indosés).
+- Une acidose à trou anionique normal traduit principalement une insuffisance rénale aiguë avec accumulation d'acides organiques. :: L'accumulation d'acides organiques (insuffisance rénale, lactates, cétones) élève le trou anionique.
+- Le trou anionique ne peut pas être interprété sans connaître la kaliémie du patient. :: La formule usuelle repose sur Na⁺, Cl⁻ et HCO3⁻ (normale 12 ± 4 mEq/L).
+> Trou anionique = Na⁺ − (Cl⁻ + HCO3⁻), normale 12 ± 4 mEq/L. Une acidose à trou anionique normal est hyperchlorémique (apports massifs de NaCl 0,9 % ou perte de bicarbonates) ; un trou anionique élevé oriente vers des anions indosés (lactates, cétones, insuffisance rénale).
 @ p. 62 à 64
 
 QCM · Acidose métabolique

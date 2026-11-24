@@ -26,11 +26,11 @@ Concernant le risque infectieux en orthopédie, quelles propositions sont exacte
 
 QCU · Position « beach chair »
 Pour une prothèse d'épaule en position demi-assise, le brassard est placé au bras. Quel est le principal danger ?
-- Une surestimation de la saturation en oxygène :: Ce n'est pas le danger de cette position.
-+ Une hypoperfusion cérébrale, car la pression au niveau du cerveau est plus basse que celle mesurée au bras :: La tête est au-dessus du brassard.
-- Une compression du nerf fibulaire :: C'est un risque de la position gynécologique.
-- Une augmentation du retour veineux :: La position assise diminue au contraire le retour veineux.
-- Une hyperpression intracrânienne :: Le risque est l'inverse : une pression de perfusion cérébrale trop basse.
+- Une surestimation systématique de la saturation périphérique en oxygène :: Ce n'est pas le danger principal de cette position.
++ Une hypoperfusion cérébrale liée au gradient hydrostatique entre bras et cerveau :: La tête étant au-dessus du brassard, la PAM cérébrale est inférieure à la PAM affichée.
+- Une compression du nerf fibulaire commun au col du péroné :: C'est un risque classique de la position gynécologique (lithotomie).
+- Une surcharge volémique par augmentation brutale du retour veineux :: La position demi-assise diminue au contraire le retour veineux.
+- Une hypertension intracrânienne par stase veineuse céphalique :: Le risque est inverse : une pression de perfusion cérébrale trop basse.
 > En position demi-assise, la pression cérébrale est inférieure à celle affichée : il faut éviter l'hypotension (contention, vasoconstricteurs), surveiller le BIS ou la NIRS. La tête est inaccessible : aligner le cou, protéger les yeux, fixer les tuyaux.
 @ p. 36 et 124
 
@@ -48,7 +48,7 @@ QCM · Garrot pneumatique
 Concernant le garrot pneumatique, quelles propositions sont exactes ?
 + Il diminue le saignement en rendant le champ opératoire exsangue. :: Il facilite le travail du chirurgien et raccourcit l'intervention.
 - Sa durée peut atteindre 4 heures sans risque si la pression est basse. :: La durée idéale est d'environ une heure, sans dépasser deux heures ; la nécrose musculaire apparaît au-delà de 3 heures.
-- Une compression nerveuse n'apparaît qu'après plusieurs heures. :: Une douleur de garrot peut apparaître après 30 à 60 minutes.
+- Une douleur liée au garrot n'apparaît qu'après plus de deux heures de gonflage. :: Une douleur de garrot peut apparaître dès 30 à 60 minutes, et le risque de TVP augmente au-delà de 60 minutes.
 + La pression de gonflage ne dépasse pas 350 mmHg. :: Elle est adaptée à la pression d'occlusion artérielle.
 - Il est placé de préférence à la racine du membre. :: On évite la racine des membres.
 > Garrot : taille adaptée, bien placé, rembourré. Durée idéale 60 min, maximum 2 h ; un dégonflage de 10 min est possible après 45-60 min, mais pas après 90 min. La nécrose musculaire apparaît au-delà de 3 heures.
@@ -150,7 +150,7 @@ Concernant l'anesthésie pour fracture de hanche du sujet âgé, quelles proposi
 + La rachianesthésie unilatérale ou continue entraîne moins d'hypotension. :: Elle est plus stable.
 + Un bloc fémoral ou un bloc PENG assure l'analgésie. :: Il permet d'épargner la morphine.
 - Une anesthésie profonde, avec des épisodes de burst suppression, protège le cerveau. :: Il faut éviter une anesthésie trop profonde : le BIS aide à l'éviter.
-- L'hypothermie est bien tolérée chez le sujet âgé. :: Sa prévention est une priorité.
+- Une hypothermie modérée à 35 °C est sans retentissement cardiovasculaire chez le sujet âgé opéré d'une fracture de hanche. :: L'hypothermie majore le risque d'ischémie myocardique, d'infection et de saignement : sa prévention est une priorité.
 > Peropératoire : prévenir l'hypothermie, monitorer le BIS, éviter l'hypotension et l'anesthésie trop profonde, analgésie par bloc, dépister l'anémie. Postopératoire : lever précoce, lunettes et appareils auditifs, prévention de la confusion et des complications.
 @ p. 168, 169 et 174
 
@@ -158,7 +158,7 @@ QCU · Rachianesthésie continue
 Quel est le principal intérêt de la rachianesthésie continue chez un sujet âgé cardiopathe ?
 - Elle permet une injection unique de forte dose. :: C'est le contraire : on injecte de petits bolus.
 + Elle permet de titrer l'anesthésique local, donc de maîtriser le niveau et la vitesse d'installation. :: D'où une très bonne stabilité hémodynamique.
-- Elle évite toute ponction lombaire. :: Elle nécessite une ponction avec pose d'un cathéter intrathécal.
+- Elle s'administre en injection intrathécale unique sans mise en place de cathéter. :: Elle repose précisément sur la pose d'un cathéter intrathécal permettant de titrer de faibles doses.
 - Elle remplace la thromboprophylaxie. :: Elle n'a pas cet effet.
 - Elle est réservée à l'analgésie postopératoire. :: Elle sert à l'anesthésie chirurgicale.
 > Rachianesthésie continue : cathéter intrathécal, petits bolus d'anesthésique local, maîtrise du niveau et de la vitesse d'installation, très bonne stabilité. Indications : sujet âgé, fracture du col, cardiopathie (rétrécissement aortique serré, insuffisance cardiaque, coronarien).

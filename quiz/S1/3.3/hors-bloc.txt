@@ -212,7 +212,7 @@ Concernant les médicaments de sédation discutés pour une thrombectomie, quell
 - La dexmédétomidine provoque une dépression respiratoire marquée. :: Elle n'entraîne pas de dépression respiratoire.
 + La dexmédétomidine peut entraîner une hypertension, puis une hypotension ou une bradycardie. :: Ce sont ses effets hémodynamiques cités.
 - La sédation dispense de monitorer le CO2 expiré. :: L'EtCO2 vérifie la persistance de la ventilation spontanée d'un patient peu accessible.
-- Le rémifentanil n'a pas d'effet analgésique. :: C'est un morphinique analgésique.
+- Le rémifentanil assure seul une anxiolyse sans risque de dépression respiratoire. :: C'est un morphinique puissant qui expose à une dépression respiratoire et à l'apnée, imposant une titration prudente.
 > Rémifentanil : analgésique, mais risque d'apnée. Dexmédétomidine : anxiolyse et analgésie sans dépression respiratoire, mais hypertension puis hypotension ou bradycardie. Sous sédation, l'EtCO2 surveille en continu la ventilation spontanée.
 @ p. 39 et 42
 
@@ -231,7 +231,7 @@ Concernant l'anesthésie pour la radiologie interventionnelle ostéo-articulaire
 + Elle peut se faire sous anesthésie générale ou sous rachianesthésie. :: Selon le geste.
 - La douleur y est moindre que pour la chirurgie conventionnelle équivalente. :: Le risque hémorragique est moindre, mais la douleur pas forcément.
 + Les patients sont parfois âgés ou cancéreux, avec une hémostase modifiée par leurs traitements. :: Terrains variés.
-- La radioprotection ne concerne que le radiologue. :: Elle concerne toute l'équipe, dont l'anesthésie.
+- La radioprotection relève uniquement du manipulateur et du radiologue, l'équipe d'anesthésie étant protégée par le champ opératoire. :: La radioprotection (tablier plombé, cache-thyroïde, dosimètre, distance) concerne toute l'équipe en salle, dont l'anesthésie.
 - Le décubitus ventral impose de comprimer l'abdomen pour stabiliser le rachis. :: L'abdomen doit rester libre entre les appuis.
 > Gestes comme la cimentoplastie : AG ou rachianesthésie, risque hémorragique moindre mais douleur pas toujours moindre, terrains fragiles, décubitus ventral sur appuis avec abdomen libre, radioprotection de toute l'équipe.
 @ p. 45 à 47

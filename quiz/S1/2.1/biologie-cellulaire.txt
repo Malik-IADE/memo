@@ -19,7 +19,7 @@ Concernant le passage de l'information génétique à une fonction cellulaire, q
 + La transcription produit un ARN messager à partir de l'ADN. :: L'ADN conserve l'information, l'ARN messager permet son utilisation.
 + La traduction lit l'ARN messager pour fabriquer une chaîne d'acides aminés. :: Elle change de « langage » : des nucléotides aux acides aminés.
 + L'ARN messager est un intermédiaire transitoire. :: Il transporte l'information d'un gène vers la fabrication de la protéine.
-- Une protéine peut transmettre son information à l'ARN puis à l'ADN. :: Le flux ne remonte pas : une protéine ne redevient ni messager ni ADN.
+- La traduction remonte de la protéine vers l'ARN messager pour corriger l'ADN. :: Le flux de l'information ne remonte pas : une protéine ne sert pas de matrice pour synthétiser un ARN ou de l'ADN.
 + Le génotype correspond à l'information encodée, le phénotype à la fonction décodée. :: C'est le sens du schéma ADN → ARN → protéine.
 > ADN → ARN messager (transcription, dans le noyau) → protéine (traduction, par les ribosomes). L'information encodée (génotype) devient une fonction (phénotype).
 @ p. 3 à 5 et 11
@@ -88,7 +88,7 @@ QCM · Épissage alternatif
 Concernant l'épissage alternatif, quelles propositions sont exactes ?
 + Il explique que l'organisme compte beaucoup plus de protéines que de gènes codants. :: Un gène donne en moyenne plusieurs transcrits.
 - Le choix des exons conservés nécessite une mutation de l'ADN. :: Le choix se fait sur l'ARN, sans changer la séquence d'ADN.
-- La machinerie d'épissage coupe l'ARN à des endroits choisis au hasard. :: Elle reconnaît des séquences précises sur l'ARN.
+- La machinerie d'épissage retire indifféremment des introns ou des exons sans signal spécifique sur l'ARN. :: Elle reconnaît des séquences précises de sites d'épissage sur le pré-ARN messager.
 + Une mutation qui masque un site d'épissage peut modifier le messager final. :: La machinerie poursuit jusqu'à un autre site : une portion plus grande est retirée, ou un segment est conservé à tort.
 - Il produit des isoformes de propriétés biologiques identiques. :: Les isoformes peuvent différer par leurs interactions, leur localisation ou leur activité.
 > L'épissage alternatif multiplie la diversité des protéines. Il repose sur la reconnaissance de sites précis : une mutation de ces sites peut altérer le messager.

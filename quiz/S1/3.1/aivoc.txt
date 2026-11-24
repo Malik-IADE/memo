@@ -6,11 +6,11 @@
 
 QCU · Principe de l'AIVOC
 Concernant l'anesthésie intraveineuse à objectif de concentration (AIVOC), quelle proposition est exacte ?
-- L'utilisateur règle un débit massique fixe, en mg/h. :: C'est la perfusion continue classique. En AIVOC, on règle une concentration, et la pompe en déduit le débit.
+- L'utilisateur règle un débit massique fixe en mg/h que la pompe maintient constant. :: C'est la perfusion continue classique. En AIVOC, on règle une concentration, et la pompe en déduit le débit.
 + L'utilisateur choisit une concentration cible, et la pompe calcule les débits pour l'atteindre et la maintenir. :: La pompe applique un modèle pharmacocinétique propre à la molécule.
-- La pompe dose en continu le médicament dans le sang du patient. :: Les concentrations affichées sont calculées par le modèle, jamais mesurées.
-- La cible renseigne sur la profondeur de l'hypnose. :: Elle ne dit rien de l'effet : c'est l'EEG et la clinique qui le renseignent.
-- L'AIVOC remplace le monitorage de l'EEG. :: Elle optimise la pharmacocinétique ; l'EEG reste l'outil pharmacodynamique.
+- La pompe dose en continu la concentration sanguine réelle du médicament chez le patient. :: Les concentrations affichées sont calculées par le modèle, jamais mesurées.
+- La concentration cible choisie mesure directement la profondeur d'hypnose obtenue. :: Elle ne dit rien de l'effet : c'est l'EEG et la clinique qui le renseignent.
+- Le pilotage en AIVOC rend superflu le monitorage de l'EEG frontal au bloc. :: Elle optimise la pharmacocinétique ; l'EEG reste l'outil pharmacodynamique.
 > L'AIVOC (TCI, Target Controlled Infusion) calcule bolus et débits pour atteindre puis maintenir une concentration cible, plasmatique ou au site effet. C'est un outil pharmacocinétique : la cible se choisit et s'adapte selon l'effet observé (EEG, clinique).
 @ p. 1 à 3
 
@@ -44,14 +44,14 @@ Concernant les limites de l'AIVOC, quelles propositions sont exactes ?
 > L'AIVOC stabilise une concentration calculée ; elle ne mesure ni la concentration réelle ni l'effet. La cible se choisit et se corrige sur l'EEG et la clinique.
 @ p. 4 et 36
 
-QCU · Volume de dilution
-On injecte 20 mg d'un médicament dont le volume central (V1) est de 4 L. Quelle est la concentration juste après l'injection ?
-- 80 mg/L :: C'est le produit 20 × 4, et non le quotient.
-- 0,2 mg/L :: C'est le résultat pour un volume de 100 L.
-+ 5 mg/L :: Concentration = quantité / volume = 20 / 4.
-- 20 mg/L :: Ce serait vrai pour un volume de 1 L.
-- 2 mg/L :: C'est le résultat pour un volume de 10 L.
-> Concentration = quantité / volume. À quantité égale, plus le volume de dilution est grand, plus la concentration est faible. Cette concentration initiale baisse ensuite par distribution vers les tissus et par élimination.
+QCU · Volume de dilution central
+Concernant la relation entre la dose injectée, le volume central (V1) et la concentration plasmatique initiale en AIVOC, quelle proposition est exacte ?
+- À dose égale, plus le volume central V1 est grand, plus la concentration plasmatique initiale est élevée. :: C'est l'inverse : Concentration = quantité / volume, donc un grand V1 dilue davantage le bolus.
+- La concentration initiale reste stable tant que le médicament n'a pas été métabolisé par le foie. :: Elle baisse très rapidement dès l'injection par redistribution vers les compartiments périphériques.
++ À dose égale, une réduction du volume central (sujet âgé, hypovolémie) élève la concentration initiale et majore l'effet hémodynamique. :: Concentration = quantité / V1 : un V1 plus petit donne un pic de concentration plus haut.
+- Le volume central V1 correspond au volume total des tissus graisseux de l'organisme. :: Le tissu graisseux correspond au compartiment profond (V3), à équilibration lente.
+- En AIVOC, le modèle ajuste automatiquement V1 à partir de la pression artérielle mesurée au scope. :: Le modèle estime V1 à partir des covariables saisies (âge, poids, taille, sexe), sans lien avec le scope.
+> Concentration = quantité / volume. À quantité égale, plus le volume central V1 est petit, plus la concentration initiale est élevée. Elle baisse ensuite par distribution vers les tissus et par élimination.
 @ p. 6 et 7
 
 QCM · Modèle à trois compartiments
@@ -104,14 +104,14 @@ Concernant la clairance et la vitesse d'élimination, quelles propositions sont 
 > Clairance (L/min) : volume épuré par unité de temps, propre au médicament. Vitesse d'élimination (mg/min) = clairance × concentration : elle baisse avec la concentration.
 @ p. 14 et 15
 
-QCU · Calcul de clairance
-Un compartiment de 4 L contient 8 mg d'un médicament. Sa clairance est de 1 L/min. Combien de médicament est éliminé pendant la première minute ?
-- 1 mg :: La clairance est un volume (1 L), pas une masse.
-+ 2 mg :: La concentration est de 8 / 4 = 2 mg/L ; épurer 1 L retire 2 mg.
-- 4 mg :: Ce serait épurer 2 L.
-- 8 mg :: Tout le médicament ne peut pas être éliminé en une minute.
-- 0,5 mg :: Erreur de calcul de concentration.
-> La première minute retire 2 mg. Il reste 6 mg, soit 1,5 mg/L : la minute suivante n'en retire plus que 1,5 mg. La clairance reste 1 L/min, mais la vitesse d'élimination diminue.
+QCU · Clairance et vitesse d'élimination
+Concernant la clairance d'élimination d'un agent administré en AIVOC, quelle proposition est exacte ?
+- Elle s'exprime en milligrammes éliminés par minute et reste fixe quelle que soit la concentration. :: La clairance est un volume épuré par unité de temps (L/min), pas une masse par minute.
++ Elle représente le volume de plasma totalement épuré par unité de temps : à clairance constante, la quantité éliminée diminue quand la concentration baisse. :: En cinétique d'ordre 1, la vitesse d'élimination (mg/min) est proportionnelle à la concentration restante.
+- Lorsque la concentration plasmatique est divisée par deux, la clairance est également divisée par deux. :: La clairance (en L/min) reste constante tant que les mécanismes d'élimination ne sont pas saturés.
+- Une clairance élevée signifie que le médicament s'accumule fortement dans le compartiment central. :: Une clairance élevée traduit au contraire une élimination rapide du médicament.
+- Elle dépend uniquement de la vitesse de perfusion réglée sur le pousse-seringue. :: La clairance est une propriété pharmacocinétique du couple patient–médicament.
+> La clairance (en L/min) est le volume épuré par unité de temps. Comme la concentration diminue au fil du temps, une clairance constante retire une quantité de médicament (en mg/min) de plus en plus faible.
 @ p. 15
 
 QCM · Ordre de l'élimination

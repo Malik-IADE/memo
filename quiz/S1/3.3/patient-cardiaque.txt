@@ -180,7 +180,7 @@ Pourquoi le maintien du rythme sinusal est-il un objectif chez le patient cardia
 + Parce que la contraction de l'oreillette assure une part importante du remplissage ventriculaire :: Environ 40 % de la précharge.
 - Parce que les agents anesthésiques sont contre-indiqués en cas de fibrillation atriale :: Ce n'est pas une contre-indication.
 - Parce que la fibrillation atriale empêche le monitorage du BIS :: Le BIS n'est pas lié au rythme cardiaque.
-- Parce qu'un rythme sinusal protège de l'hypothermie peropératoire :: Il n'y a pas de lien.
+- Parce qu'un rythme sinusal supprime le besoin d'antihypertenseurs en période périopératoire :: Le maintien du rythme sinusal est recherché pour préserver la systole auriculaire et le remplissage ventriculaire.
 > La contraction de l'oreillette participe au remplissage (environ 40 % de la précharge). Sa perte, en FA par exemple, est mal tolérée quand le ventricule est raide ou se remplit difficilement.
 @ p. 53 et 59
 
@@ -224,7 +224,7 @@ Concernant le réveil du patient cardiaque, quelles propositions sont exactes ?
 - Il est moins à risque que l'induction, car le patient est surveillé en SSPI. :: Le réveil est la période la plus à risque.
 + Le réchauffement peropératoire participe à sa prévention. :: Il évite les frissons et la tachycardie.
 + L'analgésie est préparée à l'avance. :: C'est le A de PREPA.
-- La préoxygénation n'a d'intérêt qu'au réveil. :: Elle prépare l'induction.
+- La préoxygénation avant l'extubation est inutile dès que la SpO2 dépasse 95 % sous air ambiant. :: L'extubation du patient cardiaque expose à une hausse de la VO2 et à une désaturation rapide : la préoxygénation est indispensable.
 > PREPA résume la stratégie : Préoxygénation, Réchauffement, Éviter les situations de stress, Période la plus à risque (le réveil, véritable épreuve d'effort), Analgésie.
 @ p. 45
 

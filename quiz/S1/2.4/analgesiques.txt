@@ -66,7 +66,7 @@ Concernant l'adaptation du paracétamol au terrain, quelles propositions sont ex
 
 QCU · Intoxication au paracétamol
 Concernant l'intoxication au paracétamol, quelle proposition est exacte ?
-- L'antidote est la naloxone par voie IV. :: La naloxone est l'antidote des opioïdes.
+- L'antidote de référence est le flumazénil par voie intraveineuse. :: Le flumazénil est l'antidote des benzodiazépines ; celui du paracétamol est la N-acétylcystéine.
 - Le patient présente des signes graves dès la première heure. :: Il n'y a aucun symptôme au début.
 - Passé la 8e heure, l'antidote n'a plus d'intérêt. :: Son efficacité est moindre, mais un patient vu tardivement doit être traité.
 + L'antidote est la N-acétylcystéine, à débuter si possible dans les 8 heures. :: Elle reconstitue le glutathion, qui neutralise le NAPQI.
@@ -168,7 +168,7 @@ QCM · Kétamine
 Concernant la kétamine, quelles propositions sont exactes ?
 - C'est un agoniste du récepteur NMDA. :: C'est un antagoniste non compétitif.
 + À faible dose, elle a un effet antihyperalgésique et prévient la tolérance aux opioïdes. :: Elle est anesthésique à forte dose.
-- Son métabolite, la norkétamine, est inactif. :: Il est actif et prolonge l'analgésie.
+- Son métabolite, la norkétamine, est totalement dépourvu d'activité pharmacologique. :: Bien que peu active par rapport à la kétamine, la norkétamine conserve une action antihyperalgésique et est pro-épileptogène.
 + Ses effets psychodysleptiques sont dose-dépendants. :: Sensations ébrieuses, hallucinations.
 - Prolonger la perfusion après l'opération réduit nettement la DCPC. :: Pas de bénéfice démontré, et davantage d'hallucinations.
 > Kétamine : antagoniste NMDA, antihyperalgésique à faible dose. En périopératoire, 0,5 mg/kg au plus après l'induction, ± perfusion arrêtée 30 min avant la fin de la chirurgie.
@@ -249,8 +249,8 @@ Concernant les interactions médicamenteuses des AINS, quelle proposition est ex
 - L'association à l'héparine ou à un AVK est sans conséquence hémorragique. :: Elle est fortement déconseillée : risque hémorragique net.
 - L'association au méthotrexate est interdite même à faible dose. :: L'interdiction concerne les fortes doses (oncologie).
 + L'association au lithium peut augmenter la lithémie, y compris avec les coxibs. :: Par baisse de la filtration glomérulaire.
-- L'association à un corticoïde protège la muqueuse digestive. :: Elle augmente les complications digestives.
-- L'association à un diurétique et un IEC améliore la filtration glomérulaire. :: Elle expose à l'insuffisance rénale.
+- L'association à un corticoïde limite le risque ulcéreux grâce à son effet anti-inflammatoire. :: Elle majore au contraire nettement le risque de complications digestives.
+- L'association à un diurétique et un IEC stabilise la filtration glomérulaire chez le sujet âgé. :: La triple association AINS + IEC/ARA2 + diurétique expose à l'insuffisance rénale aiguë.
 > Interactions des AINS : aspirine, anticoagulants et antiagrégants (saignement), IEC et diurétiques (rein), lithium (lithémie), corticoïdes (digestif), méthotrexate à forte dose (toxicité hématologique).
 @ Cours, diapo 35
 

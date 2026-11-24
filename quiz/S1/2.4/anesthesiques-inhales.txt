@@ -105,12 +105,12 @@ Concernant les fractions d'halogéné surveillées au bloc, quelles propositions
 @ p. 25 et 29
 
 QCU · Constante de temps du circuit
-Le DGF est de 0,5 L/min et le volume circuit + poumons est d'environ 6 L. Vous passez l'évaporateur de 2 à 4 %. En combien de temps le circuit atteint-il environ 95 % du changement, sans tenir compte de la captation ?
-- Environ 1 minute :: Ce serait le cas avec un DGF de 6 L/min, qui donne une constante de temps d'une minute.
-- Environ 6 minutes :: C'est le volume du circuit, pas le temps de renouvellement.
-- Environ 12 minutes :: C'est une seule constante de temps (6 / 0,5), qui ne réalise qu'environ 63 % du changement.
-+ Environ 36 minutes :: τ = 6 L / 0,5 L/min = 12 min. 95 % du changement demandent environ 3 τ, soit 36 min.
-- Environ 2 heures :: C'est l'ordre de grandeur de la constante de temps du muscle, pas du circuit.
+Lors d'un entretien en circuit filtre à très bas débit de gaz frais (0,5 L/min), vous augmentez brutalement le réglage de l'évaporateur pour approfondir l'anesthésie. Quelle proposition décrit le mieux le comportement du circuit ?
+- La concentration inspirée rejoint la nouvelle cible en moins d'une minute grâce à l'évaporateur. :: À bas débit, l'inertie du circuit est élevée (τ = V / DGF) : le renouvellement du volume circuit + poumons prend plusieurs dizaines de minutes.
+- Une seule constante de temps suffit à atteindre 95 % de la nouvelle concentration cible. :: Une constante de temps τ réalise environ 63 % du changement ; il faut environ 3 τ pour atteindre 95 %.
++ Le renouvellement du circuit est très lent ; pour approfondir rapidement, il faut augmenter le débit de gaz frais. :: La constante de temps τ = V / DGF diminue quand on monte le DGF, ce qui accélère le changement de concentration.
+- Le volume interne du circuit filtre n'influence pas le délai d'atteinte de la nouvelle concentration. :: Plus le volume circuit + poumons est grand, plus la constante de temps est longue.
+- La constante de temps du circuit est identique à celle du tissu musculaire. :: Le circuit se renouvelle en quelques minutes à fort DGF, alors que la constante de temps du muscle se compte en heures.
 > La constante de temps du circuit est τ = V / DGF. Après 1 τ, environ 63 % du changement est réalisé ; après 3 τ, environ 95 %. À bas débit, l'inertie est forte : pour changer vite la concentration (approfondir, alléger, réveiller), il faut augmenter le DGF.
 @ p. 26 et 27
 
@@ -125,12 +125,12 @@ Concernant l'entretien d'une anesthésie à bas débit de gaz frais, quelles pro
 @ p. 26, 28 et 53
 
 QCU · Pression partielle
-Au niveau de la mer (760 mmHg), quelle est la pression partielle alvéolaire de sévoflurane pour une fraction alvéolaire de 2 % ?
-- Environ 2 mmHg :: C'est confondre le pourcentage avec une pression.
-- Environ 7,6 mmHg :: Cela correspondrait à une fraction de 1 %.
-+ Environ 15 mmHg :: Loi de Dalton : P = F × P totale = 0,02 × 760 ≈ 15 mmHg.
-- Environ 38 mmHg :: Cela correspondrait à une fraction de 5 %.
-- Environ 76 mmHg :: Cela correspondrait à une fraction de 10 %.
+Concernant la pression partielle d'un agent anesthésique inhalé (loi de Dalton), quelle proposition est exacte ?
+- Elle correspond à la quantité totale de molécules d'halogéné stockées dans l'organisme. :: La pression partielle reflète la tension du gaz (fraction × pression totale), non la quantité totale stockée.
+- Elle reste identique quelle que soit la pression atmosphérique pour une même fraction inspirée. :: Selon la loi de Dalton (P = F × P totale), la pression partielle dépend de la pression totale.
++ C'est le gradient de pression partielle qui commande le passage de l'agent de l'alvéole au sang puis au cerveau. :: La fraction expirée (FE) lue au monitorage est le reflet de cette pression partielle alvéolaire.
+- Le cerveau est à l'équilibre lorsqu'il contient exactement le même nombre de molécules par litre que le sang. :: L'équilibre est atteint lorsque les pressions partielles s'égalisent, même si les concentrations en molécules diffèrent selon la solubilité.
+- Un halogéné de forte solubilité sanguine atteint sa pression partielle d'équilibre cérébrale plus vite qu'un agent peu soluble. :: Une forte solubilité sanguine retient davantage d'agent dans le sang et ralentit la montée de la pression partielle alvéolaire et cérébrale.
 > La pression partielle d'un gaz est sa fraction multipliée par la pression totale (loi de Dalton). C'est elle, et non la quantité de molécules, qui fait passer l'agent de l'alvéole au sang puis au cerveau. La FE, lue au monitorage, est le reflet de cette pression alvéolaire.
 @ p. 29
 
@@ -155,22 +155,22 @@ Concernant le coefficient de partage sang/gaz (λ sang/gaz), quelles proposition
 @ p. 16 et 30
 
 QCU · Chaîne gaz → sang → cerveau
-Pour l'isoflurane, λ sang/gaz ≈ 1,4 et λ cerveau/sang ≈ 2,2. À l'équilibre, combien de volumes de gaz alvéolaire contiennent autant d'isoflurane qu'un volume de cerveau ?
-- Environ 0,6 :: C'est le rapport 1,4 / 2,2. Les coefficients se multiplient, ils ne se divisent pas.
-- Environ 1,4 :: C'est le seul rapport sang/gaz, qui oublie l'étape sang/cerveau.
-- Environ 2,2 :: C'est le seul rapport cerveau/sang, qui oublie l'étape gaz/sang.
-+ Environ 3 :: λ cerveau/gaz = λ cerveau/sang × λ sang/gaz = 2,2 × 1,4 ≈ 3,1.
-- Environ 3,6 :: C'est la somme 1,4 + 2,2. Les coefficients se multiplient le long de la chaîne.
-> Les coefficients de partage se multiplient : λ tissu/gaz = λ tissu/sang × λ sang/gaz. À même pression partielle, le cerveau contient donc environ trois fois plus d'isoflurane qu'un même volume de gaz alvéolaire. Le cerveau est à l'équilibre quand sa pression partielle égale celle du sang, pas quand il contient autant de molécules.
+Concernant les coefficients de partage (λ) le long de la chaîne gaz alvéolaire → sang → cerveau à l'équilibre, quelle proposition est exacte ?
+- Le coefficient cerveau/gaz s'obtient en additionnant les coefficients sang/gaz et cerveau/sang. :: Les coefficients de partage se multiplient le long de la chaîne : λ tissu/gaz = λ tissu/sang × λ sang/gaz.
+- Le coefficient cerveau/gaz dépend uniquement de la solubilité sang/gaz de l'agent. :: Il dépend à la fois de λ sang/gaz et de λ cerveau/sang.
++ À même pression partielle à l'équilibre, un tissu plus soluble contient davantage de molécules d'halogéné que le gaz alvéolaire. :: Les pressions partielles sont égales à l'équilibre, mais les concentrations diffèrent selon les coefficients de partage.
+- Le passage de l'agent du sang vers le cerveau s'arrête dès que leurs concentrations molaires sont égales. :: Le transfert s'arrête lorsque leurs pressions partielles s'égalisent, pas lorsque leurs concentrations sont égales.
+- Un coefficient de partage sang/gaz élevé accélère l'induction et le réveil. :: C'est l'inverse : un faible λ sang/gaz (desflurane, sévoflurane) assure une induction et un réveil rapides.
+> Les coefficients de partage se multiplient : λ tissu/gaz = λ tissu/sang × λ sang/gaz. À l'équilibre, les pressions partielles sont égales dans l'alvéole, le sang et le cerveau, mais les quantités dissoutes varient selon la solubilité de chaque compartiment.
 @ p. 31
 
 QCU · Stock tissulaire
-Chez un adulte de 70 kg à l'équilibre sous sévoflurane, quel classement des compartiments, du plus grand stock d'agent au plus petit, est exact ? (Graisse 14 L, λ/gaz ≈ 31 ; muscle 35 L, λ/gaz ≈ 2 ; sang 5 L, λ/gaz 0,65 ; cerveau 1,4 L, λ/gaz ≈ 1,1.)
-+ Graisse > muscle > sang > cerveau :: 14 × 31 ≈ 434 ; 35 × 2 ≈ 70 ; 5 × 0,65 ≈ 3,3 ; 1,4 × 1,1 ≈ 1,5.
-- Muscle > graisse > sang > cerveau :: Le muscle a le plus gros volume, mais la graisse est 15 fois plus capacitive par litre.
-- Cerveau > sang > muscle > graisse :: C'est l'ordre de remplissage, lié au débit sanguin, pas l'ordre des stocks à l'équilibre.
-- Graisse > cerveau > muscle > sang :: Le cerveau est peu volumineux : son stock total reste faible.
-- Sang > graisse > muscle > cerveau :: Le sang transporte l'agent mais en stocke peu.
+Chez un adulte à l'équilibre sous sévoflurane, quel classement des compartiments, du plus grand réservoir d'agent au plus petit, est exact ?
++ Graisse > muscle > sang > cerveau :: La graisse est très lipophile (forte capacité par litre) et volumineuse : c'est le plus grand réservoir à l'équilibre.
+- Muscle > graisse > sang > cerveau :: Le muscle a un volume important, mais la graisse est beaucoup plus capacitive par litre pour les halogénés liposolubles.
+- Cerveau > sang > muscle > graisse :: C'est plutôt l'ordre de rapidité d'équilibration (lié au débit sanguin), pas l'ordre des stocks à l'équilibre.
+- Graisse > cerveau > muscle > sang :: Le cerveau est très perfusé mais peu volumineux : son stock total reste faible.
+- Sang > graisse > muscle > cerveau :: Le sang transporte l'agent mais son volume et sa capacité de stockage restent modestes.
 > Le stock d'un tissu dépend de sa capacité par millilitre (λ tissu/gaz) et de son volume. La graisse, très capacitive, est le plus grand réservoir. Mais elle est peu perfusée et se remplit très lentement. Après une longue anesthésie, ce réservoir relargue l'agent et peut retarder le réveil.
 @ p. 32 et 33
 
@@ -214,13 +214,13 @@ Concernant la concentration alvéolaire minimale (MAC ou CAM), quelles propositi
 > La MAC est la concentration alvéolaire qui empêche le mouvement à l'incision chez 50 % des patients ; 1,3 MAC l'empêche chez 95 %. Elle permet de comparer les agents : plus elle est basse, plus l'agent est puissant. Au bloc, on pilote l'entretien sur la FE exprimée en MAC, en général entre 0,7 et 1,3 MAC.
 @ p. 41, 42 et 75
 
-QCU · Addition des MAC
-Un adulte de 40 ans reçoit du sévoflurane avec une FE de 1 % et du protoxyde d'azote avec une FE de 52 %. En retenant 2 % pour 1 MAC de sévoflurane et 104 % pour le N₂O, à combien de MAC est-il exposé ?
-- Environ 0,5 MAC :: Ce n'est que la contribution du sévoflurane : celle du N₂O s'y ajoute.
-- Environ 0,75 MAC :: Le calcul sous-estime l'une des deux contributions.
-+ Environ 1 MAC :: 1 / 2 = 0,5 MAC de sévoflurane, et 52 / 104 = 0,5 MAC de N₂O : 0,5 + 0,5 ≈ 1 MAC.
-- Environ 1,3 MAC :: Ce serait le cas avec une FE de sévoflurane de 1,6 %.
-- Environ 53 MAC :: C'est additionner des pourcentages bruts au lieu de fractions de MAC.
+QCU · Addition des MAC et protoxyde d'azote
+Concernant l'association d'un halogéné avec le protoxyde d'azote (N₂O) au bloc opératoire, quelle proposition est exacte ?
+- Le N₂O possède une MAC inférieure à 50 % et permet donc d'assurer seul une anesthésie chirurgicale complète. :: Sa MAC est d'environ 104 % (au-delà de 100 %) : il ne peut pas assurer seul 1 MAC à pression atmosphérique.
+- Les pourcentages expirés d'halogéné et de N₂O s'additionnent directement pour obtenir la MAC totale. :: Ce sont les fractions de MAC qui s'additionnent, pas les pourcentages bruts.
++ Les fractions de MAC s'additionnent, ce qui permet au N₂O de réduire la concentration nécessaire d'halogéné. :: Le N₂O agit comme adjuvant et le moniteur affiche la MAC totale cumulée.
+- L'ajout de N₂O diminue uniquement l'effet amnésiant sans modifier la concentration d'halogéné requise pour l'immobilité. :: Il contribue à la MAC totale d'immobilité en s'additionnant à l'halogéné.
+- L'association de N₂O à un halogéné empêche le moniteur de gaz de calculer la MAC affichée. :: Le moniteur additionne automatiquement les fractions de MAC des agents détectés ; il faut savoir ce qu'il cumule.
 > Les fractions de MAC des agents inhalés s'additionnent. Le N₂O seul ne peut pas atteindre 1 MAC (104 %, au-delà de 100 %) : c'est un adjuvant qui permet de réduire la dose d'halogéné. Au bloc, le moniteur affiche souvent cette MAC totale ; il faut savoir ce qu'il additionne.
 @ p. 41 et 42
 
@@ -235,13 +235,13 @@ Parmi les situations suivantes, lesquelles diminuent la MAC d'un halogéné ?
 @ p. 43
 
 QCU · MAC du sujet âgé
-Un patient de 80 ans est entretenu au sévoflurane (MAC de 1,8 % à 40 ans). La MAC diminue d'environ 6 % par décennie. Quelle FE correspond à peu près à 1 MAC chez lui ?
-- Environ 0,7 % :: Ce serait une baisse de plus de 60 %, très au-delà de l'effet de l'âge.
-+ Environ 1,4 % :: À 80 ans, la MAC vaut environ 78 % de celle de 40 ans : 1,8 × 0,78 ≈ 1,4 %.
-- Environ 1,8 % :: C'est la MAC de l'adulte de 40 ans. Chez ce patient, elle exposerait à environ 1,3 MAC.
-- Environ 2,3 % :: Cela supposerait une MAC plus élevée avec l'âge, ce qui est l'inverse.
-- Environ 2,6 % :: C'est 1,3 MAC d'un adulte de 40 ans, avec l'arrondi à 2 %.
-> La MAC diminue avec l'âge, d'environ 6 % par décennie. Chez le sujet âgé, appliquer la MAC de l'adulte jeune expose au surdosage : hypotension et réveil retardé. Il faut lire une MAC ajustée à l'âge ou faire la correction soi-même.
+Un patient de 80 ans est entretenu au sévoflurane. Pourquoi régler la même fraction expirée que chez un adulte de 40 ans pose-t-il problème ?
+- Parce que la MAC augmente avec l'âge, ce qui expose le patient de 80 ans à une mémorisation peropératoire. :: La MAC diminue au contraire d'environ 6 % par décennie d'âge.
++ Parce que la MAC diminue avec l'âge, ce qui expose le sujet âgé à un surdosage, une hypotension et un réveil retardé. :: Il faut vérifier que le moniteur affiche une MAC ajustée à l'âge (MAC-age) et titrer la concentration.
+- Parce que le sévoflurane est davantage métabolisé par le foie chez le sujet âgé, réduisant son efficacité. :: La baisse de la MAC est un phénomène pharmacodynamique lié au vieillissement cérébral, pas à un hypermétabolisme.
+- Parce que le moniteur de gaz ne peut pas mesurer la fraction expirée chez un patient de plus de 75 ans. :: Le moniteur mesure parfaitement la FE, mais sa conversion en MAC n'est juste que si l'âge est renseigné.
+- Parce que la sensibilité cérébrale aux halogénés ne varie qu'au-dessous de 18 ans et reste fixe chez l'adulte. :: La MAC décroît régulièrement tout au long de la vie adulte (environ −6 % par décennie).
+> La MAC diminue avec l'âge, d'environ 6 % par décennie. Chez le sujet âgé, appliquer la MAC de l'adulte jeune expose au surdosage : hypotension et réveil retardé. Il faut lire une MAC ajustée à l'âge ou adapter la cible.
 @ p. 42 et 43
 
 QCM · Seuils des effets
@@ -256,7 +256,7 @@ Concernant les effets des halogénés selon la concentration exprimée en MAC, q
 
 QCM · Mémorisation peropératoire
 Concernant la mémorisation peropératoire sous anesthésie générale, quelles propositions sont exactes ?
-- C'est un événement fréquent, présent dans environ une anesthésie sur dix. :: Elle est rare, environ 0,1 à 0,2 % des anesthésies générales, mais traumatisante.
+- C'est un événement fréquent, rapporté dans environ 1 à 2 % des anesthésies générales courantes. :: Elle reste rare, environ 0,1 à 0,2 % (1 à 2 pour 1 000) des anesthésies générales, mais potentiellement traumatisante.
 + La curarisation est une situation à risque. :: Le patient curarisé ne peut pas bouger : une anesthésie trop légère passe inaperçue.
 + La césarienne et la chirurgie d'urgence sont des situations à risque. :: Les doses d'hypnotique y sont souvent limitées.
 + Un évaporateur vide expose à ce risque. :: L'apport d'halogéné s'arrête sans que le réglage change : d'où la vérification du remplissage.
@@ -290,7 +290,7 @@ Concernant les voies aériennes supérieures sous halogénés, quelles propositi
 + L'induction et le réveil sont les moments à risque de laryngospasme. :: L'anesthésie y est légère : les réflexes sont présents mais mal contrôlés.
 - Le desflurane est adapté à l'induction au masque chez l'enfant. :: Il est irritant pour les voies aériennes. On utilise le sévoflurane.
 - Une concentration élevée d'halogéné renforce le réflexe de fermeture glottique. :: À partir de 1 à 1,3 MAC, ce réflexe diminue, avec un risque d'inhalation.
-- Le laryngospasme facilite la poursuite d'une induction inhalée. :: La glotte fermée empêche le gaz d'entrer : l'induction ne peut plus progresser.
+- Un laryngospasme léger s'améliore en augmentant rapidement la concentration de sévoflurane au masque. :: La glotte fermée empêche le gaz d'entrer : l'induction ne peut plus progresser tant que le spasme n'est pas levé.
 > Les halogénés diminuent les réflexes de protection et le tonus des voies aériennes : chute de la langue, obstruction, risque d'inhalation. Le laryngospasme survient surtout à l'induction et au réveil, en particulier chez l'enfant. En pratique : ne pas stimuler en phase légère et induire au masque avec du sévoflurane.
 @ p. 56 et 57
 
@@ -338,8 +338,8 @@ QCU · Réveil rapide
 En fin d'intervention, pour réveiller rapidement un patient anesthésié au sévoflurane, quelle conduite est adaptée ?
 - Fermer l'évaporateur et garder un DGF de 0,5 L/min :: Le circuit garde une forte inertie : l'agent expiré recircule au lieu d'être évacué.
 + Fermer l'évaporateur, augmenter le DGF (6 à 8 L/min d'O₂) et maintenir la ventilation :: On arrête l'apport, on lave le circuit et on garde l'élimination pulmonaire.
-- Laisser l'évaporateur ouvert et augmenter la FiO₂ :: L'administration d'agent continue.
-- Fermer l'évaporateur et arrêter de ventiler :: L'élimination de l'agent est pulmonaire : sans ventilation, elle s'arrête.
+- Réduire l'évaporateur à 0,5 MAC et augmenter la FiO₂ à 100 % en gardant le même DGF :: Maintenir l'évaporateur ouvert et un DGF bas ralentit fortement l'élimination de l'agent.
+- Fermer l'évaporateur et suspendre brièvement la ventilation pour laisser monter le CO₂ :: L'élimination de l'agent est pulmonaire : sans ventilation, le lavage de l'halogéné s'interrompt.
 - Fermer l'évaporateur et doubler la ventilation minute :: Surventiler fait chuter le CO₂ et expose à l'apnée, puis au rendormissement.
 > Le réveil est l'induction à l'envers : évaporateur fermé, DGF augmenté pour laver le circuit, ventilation minute maintenue. C'est le DGF qu'on augmente, pas la ventilation : une surventilation abaisse le CO₂ et favorise une apnée, alors que les tissus relarguent encore l'agent.
 @ p. 66, 68 et 69

@@ -4,14 +4,14 @@
 
 # Anesthésie – Patient obèse
 
-QCU · Calcul de l'IMC
-Un patient mesure 1,70 m et pèse 104 kg. Quelle est sa classe d'IMC ?
-- Surpoids :: Le surpoids correspond à un IMC de 25 à 29,9.
-- Obésité modérée (grade 1) :: Elle correspond à un IMC de 30 à 34,9.
-+ Obésité sévère (grade 2) :: IMC = 104 / (1,70 × 1,70) = 104 / 2,89 ≈ 36 kg/m².
-- Obésité morbide (grade 3) :: Elle commence à 40 kg/m².
-- Poids normal :: Le poids normal correspond à un IMC de 18,5 à 24,9.
-> IMC = poids (kg) / taille² (m). Surpoids 25-29,9 ; obésité modérée 30-34,9 ; sévère 35-39,9 ; morbide ≥ 40 kg/m².
+QCU · Classification de l'IMC
+Selon la classification de l'IMC utilisée en anesthésie, à partir de quel seuil parle-t-on d'obésité morbide (grade 3) ?
+- À partir de 25 kg/m². :: 25 à 29,9 kg/m² correspond au surpoids.
+- À partir de 30 kg/m². :: 30 à 34,9 kg/m² correspond à l'obésité modérée (grade 1).
+- À partir de 35 kg/m². :: 35 à 39,9 kg/m² correspond à l'obésité sévère (grade 2).
++ À partir de 40 kg/m². :: L'obésité morbide (ou massive, grade 3) commence à 40 kg/m².
+- À partir de 45 kg/m². :: Le seuil de l'obésité morbide est 40 kg/m² (super-obésité à partir de 50 kg/m²).
+> IMC = poids (kg) / taille² (m). Poids normal 18,5–24,9 ; surpoids 25–29,9 ; obésité modérée (grade 1) 30–34,9 ; sévère (grade 2) 35–39,9 ; morbide (grade 3) ≥ 40 kg/m².
 @ p. 6
 
 QCM · Retentissement respiratoire
@@ -54,14 +54,14 @@ Concernant la pharmacocinétique chez le patient obèse, quelles propositions so
 > L'obésité augmente le volume de distribution (surtout des liposolubles), le volume sanguin et la masse maigre. La relation PK/PD n'est pas modifiée : on choisit le poids de calcul selon le médicament, puis on titre.
 @ p. 17 à 19
 
-QCU · Poids de calcul
-Un homme mesure 1,80 m et pèse 140 kg. Avec l'approximation taille (cm) − 100, quel est son poids idéal théorique ?
-- 70 kg :: C'est l'approximation pour une femme : taille − 110.
-+ 80 kg :: Chez l'homme : taille (cm) − 100 = 180 − 100 = 80 kg.
-- 104 kg :: C'est le poids ajusté : 80 + 0,4 × (140 − 80) = 104 kg.
-- 110 kg :: Ce n'est ni le poids idéal ni le poids ajusté.
-- 140 kg :: C'est le poids réel.
-> Poids idéal (approximation) : taille − 100 chez l'homme, taille − 110 chez la femme. Poids ajusté = poids idéal + 0,4 × (poids réel − poids idéal).
+QCU · Poids idéal et poids ajusté
+Chez le patient obèse, quelle proposition distingue correctement le poids idéal théorique du poids ajusté (masse maigre) ?
+- Le poids ajusté est inférieur au poids idéal théorique car la masse musculaire fond avec l'obésité. :: L'obèse a une masse maigre augmentée : le poids ajusté se situe entre le poids idéal théorique et le poids réel.
++ Le poids idéal théorique dépend uniquement de la taille et du sexe, tandis que le poids ajusté ajoute 40 % de l'excès de poids au poids idéal. :: Poids ajusté = poids idéal + 0,4 × (poids réel − poids idéal).
+- Le poids idéal théorique s'estime par taille (cm) − 110 chez l'homme et taille (cm) − 100 chez la femme. :: C'est l'inverse : taille − 100 chez l'homme, taille − 110 chez la femme.
+- Le poids ajusté correspond à la moyenne exacte entre le poids réel et zéro. :: Il ajoute 40 % (0,4) de l'écart entre poids réel et poids idéal, puis l'on titre à l'effet clinique.
+- Le poids idéal théorique dispense de toute titration puisqu'il prédit exactement la dose efficace. :: Les doses calculées ne sont qu'un repère de départ : la titration guidée par le monitorage reste la règle.
+> Poids idéal (approximation) : taille − 100 chez l'homme, taille − 110 chez la femme. Poids ajusté = poids idéal + 0,4 × (poids réel − poids idéal). Les doses calculées ne sont qu'un point de départ : on titre.
 @ p. 18
 
 QCM · Choix du poids pour les doses
@@ -71,7 +71,7 @@ Chez le patient obèse, quels médicaments sont dosés sur le poids réel ?
 - Rocuronium :: Dose sur le poids idéal.
 - Propofol :: Dose sur le poids ajusté.
 - Rémifentanil :: Dose sur le poids idéal.
-> Poids réel : succinylcholine, sufentanil, alfentanil. Poids idéal : étomidate, rocuronium, rémifentanil, sugammadex. Poids ajusté : propofol, kétamine, curares non dépolarisants, lidocaïne, agents décurarisants. Puis titration.
+> Poids réel : succinylcholine, sufentanil, alfentanil. Poids idéal : étomidate, rocuronium, rémifentanil, sugammadex. Poids ajusté (masse maigre) : propofol, kétamine, autres curares non dépolarisants, lidocaïne, autres agents décurarisants. Puis titration.
 @ p. 19 et 34
 
 QCM · Préparation et installation

@@ -115,12 +115,12 @@ Concernant l'iléus postopératoire, quelles propositions sont exactes ?
 @ p. 31
 
 QCU · Score d'Apfel
-Lequel de ces éléments n'est pas un facteur de risque du score d'Apfel ?
+Lequel de ces éléments ne fait pas partie des quatre facteurs de risque du score d'Apfel ?
 + Le sexe masculin :: C'est le sexe féminin qui est un facteur de risque.
 - Le statut de non-fumeur :: C'est un facteur de risque.
 - Un antécédent de NVPO ou de mal des transports :: C'est un facteur de risque.
 - L'utilisation de morphiniques en postopératoire :: C'est un facteur de risque.
-- Aucune, tous ces éléments en font partie :: Le sexe masculin n'en fait pas partie.
+- L'ensemble de ces quatre propositions en fait partie :: Le sexe masculin n'en fait pas partie.
 > Le score d'Apfel compte 4 facteurs : sexe féminin, non-fumeur, antécédent de NVPO ou de mal des transports, morphiniques postopératoires. Avec 1 à 2 facteurs : 2 antiémétiques ; avec 3 ou plus : 3 à 4 antiémétiques. On réduit aussi le risque de base : propofol, épargne morphinique, pas de N2O.
 @ p. 33
 
@@ -207,7 +207,7 @@ Dans quel plan est injecté l'anesthésique local lors d'un TAP bloc ?
 QCM · Analgésie
 Concernant l'analgésie en chirurgie digestive, quelles propositions sont exactes ?
 + En cœlioscopie, elle associe paracétamol, AINS et infiltration des orifices de trocarts. :: Analgésie multimodale avec épargne morphinique.
-- En laparotomie, l'infiltration des orifices de trocarts est la technique de référence. :: Il n'y a pas de trocarts : la péridurale thoracique est la référence.
+- En laparotomie médiane, une rachianesthésie unique suffit à couvrir l'analgésie des 48 premières heures. :: La péridurale thoracique (ou TAP bloc / cathéter cicatriciel) est la technique adaptée en laparotomie.
 - L'anesthésie sans opioïde est la stratégie recommandée en chirurgie digestive. :: On privilégie l'épargne morphinique multimodale, pas l'anesthésie sans opioïde stricte systématique.
 - Les morphiniques à forte dose favorisent la reprise du transit. :: Ils prolongent l'iléus.
 - L'analgésie postopératoire se décide en SSPI, selon l'EVA au réveil. :: Elle doit être anticipée dès le peropératoire, en suivant les temps douloureux.
@@ -230,7 +230,7 @@ Concernant l'œsophagectomie, quelles propositions sont exactes ?
 + Elle peut nécessiter une ventilation unipulmonaire. :: Pour le temps thoracique, avec une ventilation protectrice.
 + L'hypotension et la surcharge hydrique menacent la vascularisation de l'anastomose. :: D'où un remplissage guidé et des vasopresseurs si besoin.
 - L'extubation est volontairement retardée de plusieurs jours. :: On recherche une extubation précoce.
-- L'analgésie repose sur une infiltration des orifices de trocarts. :: La péridurale thoracique est la technique adaptée.
+- L'analgésie postopératoire repose sur des morphiniques IV seuls, la péridurale thoracique étant contre-indiquée. :: La péridurale thoracique est au contraire la technique d'analgésie adaptée à l'œsophagectomie.
 > Œsophagectomie : monitorage invasif, péridurale thoracique, ventilation unipulmonaire protectrice, éviter hypotension et surcharge pour protéger l'anastomose, extubation précoce.
 @ p. 104 à 112
 

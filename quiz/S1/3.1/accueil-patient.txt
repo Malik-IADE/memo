@@ -181,7 +181,7 @@ Concernant les trois langages de la communication, quelles propositions sont exa
 + Le ton de la voix et les silences relèvent du langage para-verbal. :: Comme la rythmicité et les pauses.
 - Le regard et les distances interpersonnelles relèvent du langage para-verbal. :: Ils relèvent du langage non verbal.
 - Les pauses et la rythmicité relèvent du langage non verbal. :: Elles relèvent du langage para-verbal.
-- Le jargon médical favorise la mémorisation des informations. :: Il est inadapté à la compréhension du patient.
+- L'utilisation systématique du vocabulaire technique rassure le patient et améliore la mémorisation. :: Le jargon médical nuit à la compréhension ; on adapte le langage à l'interlocuteur.
 - Le langage verbal est le seul qui engage la confiance du patient. :: Les trois langages participent à la relation.
 > La communication passe par trois langages : verbal (un langage accessible et honnête), para-verbal (ton, rythme, pauses, silences) et non verbal (posture, regard, distance, gestes, expressions).
 @ p. 52 et 53
@@ -210,7 +210,7 @@ QCM · Accueil et confort
 Concernant les mesures de confort à l'accueil du patient, quelles propositions sont exactes ?
 + L'arrivée du patient debout au bloc peut contribuer à limiter son anxiété. :: Le patient est acteur, notamment en ambulatoire.
 + Le réchauffement commence dès l'arrivée au bloc. :: Couvertures, réchauffement autocontrôlé, tables et salles.
-- Le respect de la pudeur passe après les vérifications de sécurité. :: Il fait partie de l'accueil dès l'arrivée.
+- La préservation de la pudeur ne s'envisage qu'une fois l'induction anesthésique terminée. :: Le respect de la pudeur et du confort fait partie de l'accueil dès l'arrivée au bloc.
 - L'installation est réalisée rapidement, la douceur des manipulations venant au second plan. :: On privilégie une installation confortable et des manipulations douces.
 - L'IADE seul se présente, les autres membres de l'équipe restant anonymes. :: Chaque soignant se présente.
 > Dès l'accueil : patient acteur (arrivée debout possible), confort thermique, installation confortable et manipulations douces, respect de la pudeur, présentation de chacun. L'accueil conditionne un sommeil anesthésique de qualité, une mémorisation positive et un réveil calme.

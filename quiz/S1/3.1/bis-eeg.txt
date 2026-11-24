@@ -84,14 +84,14 @@ En augmentant progressivement la cible de propofol, concernant l'évolution du t
 > Éveil → bêta → alpha-delta (entretien) → pré-burst (perte de l'alpha) → burst-suppression → tracé plat. La perte de l'alpha est le premier signe d'excès, avant même la suppression.
 @ p. 20 à 30
 
-QCU · Ratio de suppression
-Sur une fenêtre d'analyse de 100 secondes, le tracé est plat pendant 20 secondes au total. Quel est le ratio de suppression ?
-- 2 % :: Erreur d'un facteur 10.
-+ 20 % :: SR = durée des plages de suppression / durée de la fenêtre × 100.
-- 80 % :: C'est la part du temps avec activité.
-- 5 % :: Ce serait diviser 100 par 20.
-- Il dépend du nombre de bouffées. :: Il porte sur le temps passé en suppression, pas sur le nombre de bouffées.
-> SR (ou BSR) = temps plat / temps analysé × 100. En entretien courant, l'objectif est 0 % : un SR positif témoigne d'un ralentissement excessif.
+QCU · Ratio de suppression (SR / BSR)
+Concernant le ratio de suppression (SR ou BSR) affiché sur le moniteur de profondeur d'anesthésie, quelle proposition est exacte ?
+- Il mesure le pourcentage de temps pendant lequel le patient présente des ondes rapides d'éveil. :: Il mesure la part de tracé isoélectrique (plat), qui traduit au contraire un surdosage profond.
++ Il correspond à la proportion de temps passé en tracé isoélectrique sur la fenêtre d'analyse, avec un objectif à 0 % en entretien courant. :: Un SR positif signale des plages de burst-suppression, donc une anesthésie trop profonde.
+- Il compte le nombre de bouffées électriques survenues depuis le début de l'intervention. :: Il exprime un pourcentage de temps en suppression sur une fenêtre glissante, pas un nombre cumulé de bouffées.
+- Un ratio de suppression élevé autour de 30 % est recherché chez le sujet âgé pour prévenir le délire postopératoire. :: Les plages de burst-suppression sont au contraire associées à un risque accru de confusion postopératoire chez le sujet âgé.
+- Il reste à 0 % même lorsque le tracé EEG brut est complètement plat. :: Un tracé totalement plat correspond à un SR proche de 100 %.
+> SR (ou BSR) = proportion du temps passé en tracé plat sur la fenêtre analysée. En entretien courant, l'objectif est 0 % : un SR positif témoigne d'un ralentissement excessif.
 @ p. 34
 
 QCM · Burst-suppression
@@ -256,11 +256,11 @@ Concernant l'effet des curares et de leur antagonisation sur le BIS, quelles pro
 
 QCU · Kétamine sous propofol
 Sous propofol, on injecte de la kétamine ; le BIS monte et la SEF95 augmente. Quelle interprétation est la plus juste ?
-- Le patient se réveille : il faut augmenter le propofol. :: Une hausse du chiffre après kétamine ne suffit pas à conclure au réveil.
-+ La kétamine déplace l'activité vers des fréquences plus élevées et rend l'indice difficile à interpréter. :: Les indices sont calibrés pour les hypnotiques GABAergiques.
-- La kétamine approfondit l'hypnose et fait baisser l'indice. :: L'indice monte.
-- Il s'agit d'un artéfact électrique. :: Le changement est lié à l'injection.
-- L'EEG devient isoélectrique. :: L'activité devient plus rapide.
+- Le patient s'allège franchement : il faut augmenter la cible de propofol. :: Une hausse du chiffre après kétamine ne suffit pas à conclure au réveil.
++ La kétamine déplace l'activité vers des fréquences plus rapides et fausse l'indice. :: Les indices sont calibrés pour les hypnotiques GABAergiques.
+- La kétamine approfondit l'hypnose GABAergique et devrait faire baisser le BIS. :: La kétamine est non GABAergique et élève au contraire l'indice.
+- L'augmentation simultanée du BIS et de la SEF95 traduit un artéfact de bistouri électrique. :: Le changement est directement lié à l'effet électrophysiologique de la kétamine.
+- L'EEG évolue vers des plages de burst-suppression puis un tracé isoélectrique. :: L'activité devient au contraire plus rapide (fréquences bêta/gamma).
 > Les indices sont calibrés pour les GABAergiques. La kétamine, non GABAergique, fait monter l'indice sans réveil : tenir compte du moment de l'injection, de l'hypnotique en cours et du tracé.
 @ p. 103 et 104
 

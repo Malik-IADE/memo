@@ -96,11 +96,11 @@ Concernant la dépression respiratoire du réveil, quelles propositions sont exa
 
 QCU · Bradypnée en SSPI
 En SSPI, un patient ayant reçu de la morphine a une fréquence respiratoire à 7/min et une SpO2 à 97 % sous oxygène. Quelle interprétation est exacte ?
-- La situation est rassurante, la SpO2 étant normale. :: L'oxygène masque l'hypoventilation.
-+ Il s'agit d'une dépression respiratoire morphinique : la bradypnée alerte avant la désaturation. :: Le CO2 peut s'accumuler.
-- La bradypnée est due à une curarisation résiduelle. :: Elle donnerait plutôt une respiration superficielle et rapide.
-- Il faut retirer l'oxygène pour vérifier la SpO2 en air. :: Ce serait dangereux.
-- Il s'agit d'un bronchospasme. :: Il donnerait des sibilants et une polypnée.
+- La situation reste rassurante tant que la SpO2 se maintient au-dessus de 95 %. :: L'oxygénothérapie masque l'hypoventilation alvéolaire et l'hypercapnie.
++ Il s'agit d'une dépression respiratoire morphinique : la bradypnée alerte avant la désaturation. :: Le CO2 s'accumule avant que la SpO2 ne chute sous oxygène.
+- Cette bradypnée évoque en premier lieu une curarisation résiduelle modérée. :: La curarisation résiduelle donne plutôt une respiration rapide et superficielle avec signes de lutte.
+- Il faut retirer l'oxygène pour évaluer la tolérance ventilatoire réelle en air ambiant. :: Retirer l'oxygène chez un patient hypoventilé expose à une désaturation brutale.
+- Ce tableau traduit un bronchospasme silencieux au réveil. :: Un bronchospasme s'accompagne de sibilants expiratoires et plutôt d'une polypnée.
 > Sous oxygène, la saturation peut rester correcte alors que la ventilation est insuffisante. La bradypnée après morphinique impose stimulation, appel du médecin et préparation de l'antagoniste.
 @ p. 19, 28 et 31
 
@@ -120,7 +120,7 @@ Concernant l'orientation étiologique d'une détresse respiratoire au réveil, q
 + Une bradypnée évoque un effet morphinique ou un trouble de conscience. :: Atteinte de la commande.
 - Un stridor évoque un œdème aigu du poumon. :: Il évoque une obstruction laryngée.
 + Une expectoration mousseuse évoque un œdème aigu du poumon. :: Origine cardiaque ou de surcharge.
-- Un balancement thoraco-abdominal est un signe rassurant. :: C'est un signe de lutte.
+- Un balancement thoraco-abdominal traduit une reprise ventilatoire physiologique après décurarisation. :: C'est un signe de lutte respiratoire évoquant une obstruction des voies aériennes ou une faiblesse musculaire.
 > Détresse respiratoire : dyspnée, désaturation, signes de lutte. Sibilants → bronchospasme ; bradypnée → morphine ; stridor → obstacle laryngé ; expectoration mousseuse → OAP.
 @ p. 31
 
@@ -249,7 +249,7 @@ Concernant l'extubation à risque, quelles propositions sont exactes ?
 - Une intubation facile garantit une extubation facile. :: La chirurgie ou le terrain peuvent modifier les voies aériennes.
 + Un guide échangeur permet de réintuber sans répéter la laryngoscopie. :: La sonde est retirée sur le guide.
 - La chirurgie thyroïdienne est une extubation à faible risque. :: La chirurgie cervicale est un facteur de risque.
-- Le matériel d'intubation se prépare après le retrait de la sonde. :: Il se prépare avant.
+- La préparation du matériel de réintubation peut attendre les premiers signes de détresse après extubation. :: Pour une extubation à risque, le matériel d'oxygénation et de réintubation est prêt avant le retrait de la sonde.
 - La surveillance s'arrête dès que la sonde est retirée. :: Elle se poursuit auprès du patient.
 > Extubation : planifier, préparer, réaliser, surveiller. Facteurs de risque : chirurgie céphalique ou cervicale, terrain respiratoire, difficulté de contrôle des voies aériennes.
 @ p. 84 à 90
@@ -276,10 +276,10 @@ Parmi les éléments suivants, lequel ne fait pas partie du score d'Apfel de ris
 
 QCU · Sortie de SSPI
 Concernant la durée de séjour en SSPI, quelle proposition est exacte ?
-- Elle est fixée à 2 heures, quel que soit le patient. :: Il n'existe pas de durée universelle.
-+ Il n'existe pas de durée réglementaire, sauf après césarienne où une surveillance de 2 heures est recommandée. :: La durée dépend de la récupération et des risques.
-- Elle est fixée à 1 heure après une ALR. :: Aucune durée n'est fixée.
-- Un score d'Aldrete favorable autorise la sortie malgré une douleur non contrôlée. :: Douleur, globe ou complication persistante empêchent la sortie.
-- L'IDE de SSPI décide seule de la sortie. :: La sortie est une décision médicale signée.
+- Elle est fixée réglementairement à 2 heures après toute anesthésie générale. :: Il n'existe pas de durée universelle obligatoire.
++ Il n'existe pas de durée réglementaire fixe, sauf 2 heures recommandées après césarienne. :: La durée dépend de la récupération clinique et des risques chirurgicaux.
+- Elle est limitée réglementairement à 1 heure après une anesthésie locorégionale. :: Aucune durée fixe n'est imposée pour une ALR.
+- Un score d'Aldrete favorable autorise la sortie même si une douleur aiguë persiste. :: Douleur non contrôlée, globe urinaire ou complication en cours diffèrent la sortie.
+- L'IDE de SSPI peut signer seule l'autorisation de retour en chambre. :: La sortie de SSPI est une décision médicale signée par le médecin anesthésiste.
 > Le passage en SSPI est obligatoire mais sans durée fixe (sauf césarienne : 2 h). La sortie est décidée et signée par le médecin anesthésiste, sur un score (Aldrete modifié) et l'absence de problème en cours.
 @ p. 92 à 95

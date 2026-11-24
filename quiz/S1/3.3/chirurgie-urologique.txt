@@ -100,7 +100,7 @@ Concernant la transplantation rénale, quelles propositions sont exactes ?
 + Le greffon est placé dans la fosse iliaque, en position extrapéritonéale. :: C'est une chirurgie peu hémorragique.
 + L'hypotension doit être évitée, surtout au déclampage du greffon. :: Pour assurer la perfusion du greffon.
 + Le bilan préopératoire comprend la kaliémie et le statut volémique. :: Avec une dialyse la veille si besoin.
-- Le receveur n'a pas de traitement immunosuppresseur. :: L'immunosuppression commence dès la greffe et se poursuit au long cours.
+- Le traitement immunosuppresseur n'est débuté qu'après la sortie de SSPI pour éviter le risque infectieux peropératoire. :: L'immunosuppression commence dès la greffe et se poursuit au long cours.
 > Avant la greffe : bilan cardiovasculaire, diabète, poids sec, hémoglobine, kaliémie, dialyse si besoin. Pendant : éviter l'hypotension, surtout au déclampage, pour assurer la perfusion du greffon.
 @ p. 39 à 41
 
@@ -129,8 +129,8 @@ Quel est l'intérêt principal de la rachianesthésie pour une RTUP ?
 - Elle supprime tout risque de TURP syndrome. :: Elle ne prévient pas l'absorption du liquide d'irrigation.
 - Elle diminue le saignement prostatique. :: Ce n'est pas l'intérêt mis en avant.
 + Le patient éveillé signale précocement les complications. :: Douleur des épaules en cas de perforation vésicale, troubles visuels au début d'un TURP syndrome.
-- Elle évite la position gynécologique. :: La position est la même quelle que soit l'anesthésie.
-- Elle permet de se passer de l'irrigation vésicale. :: L'irrigation est indispensable à la résection.
+- Elle évite l'installation en position gynécologique de lithotomie. :: La position opératoire reste identique quelle que soit l'anesthésie.
+- Elle dispense de surveiller le bilan entrées-sorties du liquide d'irrigation. :: L'irrigation et le suivi des entrées-sorties restent indispensables pour dépister une résorption excessive.
 > Sous rachianesthésie, le patient reste conscient : une perforation vésicale donne une douleur irradiant aux épaules, et le TURP syndrome commence par des troubles visuels. Ces signes sont masqués sous AG.
 @ p. 49
 
@@ -157,8 +157,8 @@ Concernant la clinique et le traitement du TURP syndrome, quelles propositions s
 QCM · Prévention du TURP syndrome
 Quelles mesures préviennent le TURP syndrome ?
 + Une résection bipolaire au sérum physiologique. :: Elle supprime le glycocolle.
-- Une durée de résection supérieure à 2 heures pour limiter le saignement. :: La résection doit durer moins de 60 minutes (règle des 3 × 60).
-- Une poche d'irrigation placée le plus haut possible pour améliorer la vision. :: La poche doit rester à moins de 60 cm au-dessus de la loge prostatique : la pression augmente l'absorption.
+- Une durée de résection prolongée jusqu'à deux heures pour assurer une hémostase complète. :: La résection doit rester inférieure à 60 minutes (règle des 3 × 60).
+- Une poche d'irrigation placée à plus de 100 cm au-dessus de la loge prostatique pour optimiser la visibilité. :: La poche doit rester à moins de 60 cm au-dessus de la prostate car la pression hydrostatique majore la résorption.
 - Un bilan entrées-sorties n'est utile qu'en résection monopolaire. :: Il est utile dans tous les cas : la surcharge reste possible au sérum physiologique.
 - Un remplissage vasculaire généreux pendant la résection. :: Il aggrave la surcharge.
 > Règle des 3 × 60 : adénome < 60 g, résection < 60 min, poche < 60 cm au-dessus de la prostate. Pas d'hyperpression, résection bipolaire, ALR, bilan entrées-sorties.

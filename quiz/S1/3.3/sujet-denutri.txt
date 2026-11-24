@@ -34,14 +34,14 @@ Parmi ces éléments, lesquels sont des critères phénotypiques de dénutrition
 > Critères phénotypiques : perte de poids, IMC (< 18,5 avant 70 ans, < 22 après), masse ou fonction musculaire. Critères étiologiques : baisse des apports, malabsorption ou maldigestion, situation d'agression (aiguë, chronique, maligne), chirurgie à risque.
 @ p. 7
 
-QCU · IMC chez le sujet âgé
-Une patiente de 78 ans pèse 50 kg pour 1,55 m. Que peut-on dire de son IMC ?
-- Il est normal, car supérieur à 18,5 kg/m². :: Le seuil de 18,5 s'applique avant 70 ans.
-+ Il est d'environ 20,8 kg/m², ce qui est un critère phénotypique de dénutrition à son âge. :: 50 / (1,55 × 1,55) = 50 / 2,40 ≈ 20,8 ; seuil < 22 après 70 ans.
-- Il signe une dénutrition sévère. :: Après 70 ans, la dénutrition sévère correspond à un IMC < 20.
-- Il est d'environ 32 kg/m². :: Le calcul a oublié d'élever la taille au carré.
-- Il ne peut pas être interprété après 70 ans. :: Il s'interprète avec des seuils adaptés à l'âge.
-> IMC = poids / taille². Dénutrition : < 18,5 avant 70 ans, < 22 après. Dénutrition sévère : ≤ 17 avant 70 ans, < 20 après.
+QCU · Seuils d'IMC et dénutrition selon l'âge
+Chez une patiente de 78 ans présentant un IMC mesuré à 20,8 kg/m², quelle interprétation est exacte selon les critères de dénutrition ?
+- Son IMC est normal car il reste supérieur au seuil général de 18,5 kg/m². :: Le seuil de 18,5 kg/m² s'applique avant 70 ans ; après 70 ans, le seuil de dénutrition est relevé à 22 kg/m².
++ Son IMC est inférieur à 22 kg/m², ce qui constitue un critère phénotypique de dénutrition à son âge. :: Après 70 ans, la dénutrition débute sous 22 kg/m² et la dénutrition sévère sous 20 kg/m².
+- Son IMC signe d'emblée une dénutrition sévère car il est inférieur à 21 kg/m². :: Après 70 ans, le seuil de dénutrition sévère est un IMC < 20 kg/m².
+- L'IMC ne peut plus servir de critère de dénutrition après 70 ans en raison du tassement vertébral. :: Il reste un critère phénotypique majeur, à condition d'appliquer les seuils spécifiques aux plus de 70 ans.
+- Un IMC inférieur à 22 kg/m² suffit à lui seul à affirmer la dénutrition sans rechercher de critère étiologique. :: Le diagnostic de dénutrition associe un critère phénotypique (dont l'IMC) et un critère étiologique.
+> Seuils d'IMC de dénutrition : < 18,5 avant 70 ans, < 22 à partir de 70 ans. Dénutrition sévère : ≤ 17 avant 70 ans, < 20 à partir de 70 ans.
 @ p. 6
 
 QCM · Sévérité et marqueurs
@@ -70,7 +70,7 @@ Concernant les médicaments chez le patient dénutri, quelles propositions sont 
 + La baisse de la masse maigre diminue le volume de distribution. :: Risque de surdosage.
 - Les doses sont augmentées pour compenser la perte de poids. :: Elles sont titrées selon l'effet.
 - La dénutrition raccourcit la durée d'action des médicaments. :: Elle allonge souvent la durée d'action, selon la fixation protéique du produit.
-- Les médicaments à fenêtre thérapeutique étroite sont sans risque. :: Ce sont eux qui exposent le plus au surdosage.
+- Les médicaments à fenêtre thérapeutique étroite voient leur toxicité réduite par la baisse de l'albumine. :: La hausse de fraction libre expose au contraire ces médicaments à un risque accru de surdosage.
 > La dénutrition modifie la résorption, la distribution, le métabolisme hépatique (moins de protéines de transport) et l'excrétion rénale. Elle expose au surdosage : on titre.
 @ p. 11 à 13 et 25
 
@@ -115,12 +115,12 @@ Concernant le syndrome de renutrition inappropriée, quelles propositions sont e
 @ p. 22
 
 QCU · Prévention du syndrome de renutrition
-Quelle mesure prévient le syndrome de renutrition inappropriée ?
-- Débuter d'emblée à 30 kcal/kg/j pour corriger vite le déficit :: Il faut débuter bas, vers 10 kcal/kg/j.
-+ Corriger potassium, phosphore et magnésium, administrer de la thiamine, puis augmenter progressivement les apports :: Avec un ionogramme et un ECG quotidiens les premiers jours.
-- Débuter par une nutrition parentérale exclusive :: La voie n'est pas la cause : c'est la vitesse de reprise qui compte.
-- Supprimer la thiamine, qui aggrave l'hypophosphorémie :: La thiamine (vitamine B1) fait partie de la prévention.
-- Attendre la normalisation de l'albuminémie avant de renourrir :: Ce n'est pas un préalable.
+Quelle stratégie prévient le syndrome de renutrition inappropriée chez un patient sévèrement dénutri ?
+- Débuter d'emblée à 30 kcal/kg/j pour corriger rapidement le déficit énergétique :: Il faut débuter bas, vers 10 kcal/kg/j, puis augmenter par paliers progressifs.
++ Corriger K+, phosphore et Mg2+, supplémenter en thiamine et reprendre les apports progressivement :: Avec un suivi quotidien de l'ionogramme et de l'ECG les premiers jours.
+- Privilégier une nutrition parentérale exclusive dès le premier jour :: La voie d'administration n'empêche pas le syndrome : c'est la vitesse de reprise qui compte.
+- Éviter la supplémentation en thiamine tant que la phosphorémie reste basse :: La thiamine (vitamine B1, 200 à 300 mg/j) fait partie intégrante de la prévention.
+- Attendre la normalisation complète de l'albuminémie avant de débuter les apports :: Ce n'est pas un préalable à la reprise nutritionnelle progressive.
 > Prévention : corriger K, phosphore et Mg avant de commencer, thiamine 200 à 300 mg/j et micronutriments, débuter vers 10 kcal/kg/j puis paliers de 25 % sur 7 à 10 jours, ionogramme et ECG quotidiens les premiers jours.
 @ p. 22
 
@@ -130,6 +130,6 @@ Quelles propositions sont exactes chez le patient dénutri ?
 + Les points d'appui doivent être protégés. :: Risque d'escarres et de fractures.
 + Un réchauffement actif est nécessaire. :: La déperdition est rapide et le réchauffement lent.
 + La glycémie est surveillée. :: Renutrition et insulinorésistance.
-- Les doses sont augmentées pour compenser la perte de poids. :: Elles sont titrées : fraction libre augmentée et volume de distribution réduit.
+- Un jeûne préopératoire prolongé de plus de 12 heures est recommandé pour réduire le risque d'inhalation. :: Le jeûne prolongé aggrave la dénutrition ; on respecte le jeûne moderne et les principes de la RAAC.
 > Chez le dénutri : titrer, protéger les appuis, réchauffer activement, monitorer BIS, curarisation et glycémie, penser à la suite (RAAC, épargne morphinique, prévention des NVPO).
 @ p. 25

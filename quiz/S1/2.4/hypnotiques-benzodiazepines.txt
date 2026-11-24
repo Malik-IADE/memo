@@ -34,14 +34,14 @@ Parmi les effets suivants, lesquels font partie des cinq effets classiques des b
 > Les cinq effets classiques sont : anxiolytique, hypnotique, anticonvulsivant, myorelaxant et amnésiant antérograde. On y ajoute un sixième effet, la tolérance : l'usage chronique augmente les besoins et expose à un syndrome de sevrage à l'arrêt brutal. Aucun de ces effets n'est antalgique.
 @ p. 76 et 94
 
-QCU · Volume de distribution
-Un médicament est présent dans l'organisme à la quantité de 15 g, pour une concentration plasmatique de 0,2 g/L. Quel est son volume de distribution apparent ?
-- 3 L :: C'est le produit 15 × 0,2, et non le quotient.
-- 30 L :: Le calcul doit donner un volume nettement supérieur.
-+ 75 L :: Vd = quantité / concentration plasmatique = 15 / 0,2 = 75 L.
-- 150 L :: Ce serait le résultat pour une concentration de 0,1 g/L, c'est-à-dire une molécule plus lipophile.
-- 300 L :: Ce résultat ne correspond pas aux valeurs de l'énoncé.
-> Le volume de distribution apparent est le volume théorique dans lequel le médicament serait dilué si le corps était homogène. Il augmente avec la liposolubilité et diminue avec la fixation aux protéines plasmatiques. Il peut dépasser le volume réel du corps : d'où le mot « apparent ». Un Vd élevé signale une molécule qui quitte le sang pour se stocker dans les tissus.
+QCU · Volume de distribution apparent
+Concernant le volume de distribution apparent (Vd) d'un hypnotique, quelle proposition est exacte ?
+- Il ne peut pas dépasser le volume d'eau totale de l'organisme du patient. :: C'est un volume théorique : une molécule très lipophile stockée dans les tissus peut avoir un Vd très supérieur au volume corporel.
+- Il diminue lorsque la liposolubilité de la molécule augmente. :: La liposolubilité favorise le passage dans les tissus, abaisse la concentration plasmatique et augmente donc le Vd.
++ Il traduit l'étendue de la diffusion tissulaire : plus il est grand, plus la molécule quitte le plasma pour se distribuer dans les tissus. :: Vd = quantité / concentration plasmatique ; il augmente avec la liposolubilité et diminue avec la liaison aux protéines plasmatiques.
+- Une forte liaison aux protéines plasmatiques augmente le volume de distribution apparent. :: Retenir la molécule dans le compartiment vasculaire maintient une concentration plasmatique plus haute, donc un Vd plus faible.
+- Il correspond au volume sanguin circulant mesuré chez le patient avant l'induction. :: Il ne correspond pas à un volume anatomique réel, mais à un repère pharmacocinétique théorique.
+> Le volume de distribution apparent est le volume théorique dans lequel le médicament serait dilué si le corps était homogène. Il augmente avec la liposolubilité et diminue avec la fixation aux protéines plasmatiques. Un Vd élevé signale une molécule qui quitte le sang pour se stocker dans les tissus.
 @ p. 23
 
 QCM · Redistribution
@@ -90,7 +90,7 @@ Concernant les effets cardiovasculaires du propofol, quelles propositions sont e
 + Son effet sympatholytique limite la tachycardie réflexe. :: Le baroréflexe est modifié : la fréquence ne monte pas pour compenser la chute de pression.
 + L'absence de tachycardie après l'injection ne permet pas d'écarter une hypovolémie. :: Le médicament freine précisément la compensation attendue.
 - Une injection plus rapide diminue la dose totale nécessaire. :: C'est l'inverse : injecter lentement réduit la dose, la chute tensionnelle et la fréquence des apnées.
-- Le patient porteur d'un rétrécissement aortique serré tolère bien cette baisse de pression. :: Il la tolère au contraire très mal, comme l'hypovolémique et le sujet âgé.
+- Le patient porteur d'un rétrécissement aortique serré compense bien cette baisse par vasoconstriction réflexe. :: Il la tolère au contraire très mal (postcharge fixe et dépendance à la PAD), comme l'hypovolémique et le sujet âgé.
 > Le propofol fait chuter la pression artérielle par vasodilatation, sans tachycardie réflexe. Chez l'hypovolémique, le sujet âgé ou le patient porteur d'un rétrécissement aortique serré, il faut réduire la dose, injecter lentement et préparer un vasopresseur. Titrer protège autant que choisir la bonne molécule.
 @ p. 36 et 40
 
@@ -298,8 +298,8 @@ QCU · Conduite devant cette dépression respiratoire
 Devant cette patiente aréactive avec une fréquence respiratoire à 6/min, quelle est la priorité immédiate ?
 + Stimuler, libérer les voies aériennes, oxygéner et ventiler au masque si besoin :: L'antagoniste vient en complément de cette prise en charge, une fois la ventilation assurée.
 - Administrer d'emblée la dose maximale d'antagoniste :: L'antagonisation se fait en titration, et ne remplace pas la prise en charge ventilatoire.
-- Attendre que l'hypercapnie stimule spontanément la ventilation :: Laisser le patient en apnée en attendant une stimulation par le CO₂ n'est pas une solution.
-- Vérifier la SpO₂ et ne rien faire tant qu'elle reste au-dessus de 90 % :: Sous oxygène, la saturation peut rester correcte malgré une hypoventilation majeure.
-- Remonter la patiente dans le service pour surveillance :: La resédation est précisément le risque : la surveillance doit être prolongée en SSPI.
+- Attendre quelques minutes que la hausse de PaCO₂ stimule spontanément la reprise ventilatoire :: Laisser la patiente en hypoventilation sévère expose à l'hypoxie et à l'acidose respiratoire.
+- Poursuivre simplement l'oxygénothérapie au masque tant que la SpO₂ reste supérieure à 90 % :: Sous oxygène, la saturation peut rester correcte malgré une hypoventilation majeure et une hypercapnie.
+- Organiser le retour en service d'hospitalisation dès que le flumazénil a levé la somnolence :: Le flumazénil s'élimine avant la benzodiazépine : la surveillance prolongée en SSPI est indispensable contre la resédation.
 > Ventiler d'abord, antagoniser ensuite, surveiller longtemps. On stimule, on libère les voies aériennes, on oxygène et on ventile au masque si nécessaire, en appelant le médecin anesthésiste. L'antagoniste est ensuite titré. Comme il s'élimine avant la benzodiazépine, dont la demi-vie est ici allongée par l'âge et la clarithromycine, la patiente ne peut pas regagner le service : la surveillance se poursuit en SSPI.
 @ p. 133

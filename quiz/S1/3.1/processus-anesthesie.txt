@@ -198,9 +198,9 @@ QCU · Bradycardie après induction
 Juste après l'induction, chez un patient très hypovolémique, la fréquence cardiaque chute brutalement avec une hypotension. Quel traitement est le plus adapté ?
 - L'atropine. :: Dans la bradycardie paradoxale de l'hypovolémie, l'atropine expose au désamorçage.
 + L'éphédrine. :: Elle accélère le cœur et vasoconstricte, ce qui améliore le retour veineux.
-- L'arrêt de la ventilation. :: Rien ne le justifie.
-- Un bolus supplémentaire d'hypnotique. :: Il aggraverait l'hypotension.
-- L'attente sans traitement. :: La situation peut évoluer vers l'arrêt circulatoire.
+- La phényléphrine seule. :: Son effet α1 pur risque d'aggraver la bradycardie par réflexe barorécepteur dans ce réflexe de Bezold-Jarisch.
+- Un bolus d'amiodarone IV. :: Il s'agit d'un réflexe de Bezold-Jarisch lié à l'hypovolémie, non d'une tachyarythmie.
+- L'administration isolée de naloxone. :: Le mécanisme est une bradycardie réflexe sur hypovolémie sévère, qui relève d'éphédrine et de remplissage.
 > Bradycardie avant l'induction (pose de perfusion, ALR) : malaise vagal, atropine. Bradycardie après l'induction chez un hypovolémique sévère : réflexe de Bezold-Jarisch, éphédrine et remplissage.
 @ p. 61
 
@@ -211,7 +211,7 @@ Concernant la capnométrie au bloc, quelles propositions sont exactes ?
 + Elle est obligatoire chez le patient intubé. :: Elle confirme aussi la position de la sonde.
 - L'EtCO2 est égale à la PaCO2. :: Elle en est le reflet avec un gradient d'environ 5 mmHg, plus large si le rapport ventilation/perfusion est perturbé.
 - À ventilation constante, une baisse de l'EtCO2 ne peut pas venir du débit cardiaque. :: Une baisse du débit cardiaque fait chuter l'EtCO2.
-> EtCO2 ≈ PaCO2 + 5 mmHg en l'absence de trouble ventilation/perfusion. À ventilation inchangée, elle varie avec le débit cardiaque, la production de CO2, une embolie ou la résorption du CO2 en cœlioscopie.
+> EtCO2 ≈ PaCO2 − 5 mmHg en l'absence de trouble ventilation/perfusion (gradient alvéolo-artériel d'environ 5 mmHg). À ventilation inchangée, elle varie avec le débit cardiaque, la production de CO2, une embolie ou la résorption du CO2 en cœlioscopie.
 @ p. 66
 
 QCM · Monitorage de la curarisation
@@ -239,7 +239,7 @@ Concernant le réglage de la ventilation sous anesthésie générale, quelles pr
 - Le volume courant se règle à 10 à 12 mL/kg. :: Il se règle à 6 à 8 mL/kg.
 + La ventilation minute est le produit du volume courant par la fréquence. :: Elle se règle sur l'EtCO2, reflet de la PaCO2.
 - La FiO2 se règle sur l'EtCO2. :: Elle se règle sur la SpO2, reflet de la PaO2.
-- La PEP vide les alvéoles en fin d'expiration. :: Elle les maintient ouvertes.
+- Une PEP modérée augmente le risque d'atélectasies en fin d'expiration. :: La PEP maintient au contraire une pression positive en fin d'expiration qui limite le collapsus alvéolaire.
 - L'objectif est une PaCO2 la plus basse possible. :: L'objectif est une PaCO2 normale, autour de 40 mmHg.
 > Ventilation : volume courant 6 à 8 mL/kg, ventilation minute adaptée à l'EtCO2, FiO2 adaptée à la SpO2, PEP pour garder les alvéoles ouvertes.
 @ p. 93
@@ -250,7 +250,7 @@ Concernant les effets indésirables de l'anesthésie générale, quelles proposi
 + Une dépression respiratoire et du réflexe de toux. :: Effet des morphiniques.
 + Des atélectasies. :: Par perte de la contraction du diaphragme.
 + Une allergie, en particulier aux curares. :: Mais aussi aux antibiotiques et aux gélatines.
-- Une protection contre les nausées et vomissements. :: L'AG expose aux NVPO.
+- Une suppression durable de l'hypothermie peropératoire. :: L'anesthésie générale altère au contraire la thermorégulation et expose à l'hypothermie.
 > Effets de l'AG : hypotension, dépression respiratoire, atélectasies, troubles de déglutition, NVPO, anaphylaxie, compressions nerveuses liées à l'installation.
 @ p. 96
 
@@ -276,11 +276,11 @@ Concernant la salle de surveillance post-interventionnelle (SSPI), quelles propo
 
 QCU · Sortie de SSPI
 Concernant la sortie de SSPI, quelle proposition est exacte ?
-- Une durée minimale légale de 2 heures s'impose. :: Aucune durée légale n'existe.
-+ Le médecin anesthésiste signe l'aptitude au retour en chambre, par exemple sur un score d'Aldrete à 12. :: L'évaluation porte sur la récupération du patient.
-- L'IADE seul décide de la sortie. :: C'est une décision médicale.
-- Un score d'Aldrete à 8 autorise la sortie. :: La version présentée vise 12 points.
-- La responsabilité du médecin anesthésiste cesse à la sortie de SSPI. :: Il est responsable des 48 premières heures.
+- Une durée minimale réglementaire de 2 heures s'impose après toute AG. :: Aucune durée réglementaire fixe n'existe (hors césarienne où 2 h sont recommandées).
++ Le médecin anesthésiste signe l'aptitude au retour en chambre, par exemple sur un Aldrete modifié à 12. :: L'évaluation porte sur la récupération globale et l'absence de complication en cours.
+- L'IADE de SSPI valide et signe seul la sortie dès que la SpO2 dépasse 95 %. :: La sortie de SSPI est une décision médicale signée par le médecin anesthésiste.
+- Un score d'Aldrete modifié à 8/12 autorise la sortie en chirurgie ambulatoire. :: La version présentée vise 12 points sur 12.
+- La responsabilité du médecin anesthésiste s'arrête dès le départ du patient de la SSPI. :: Il prescrit et reste impliqué dans la surveillance des 48 premières heures.
 > Sortie : aptitude signée par le médecin anesthésiste (Aldrete : motricité, respiration, pression, conscience, coloration, SpO2). Pas de durée légale. Il prescrit ensuite la surveillance des 48 premières heures.
 @ p. 80 à 82
 

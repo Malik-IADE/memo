@@ -35,13 +35,13 @@ Concernant le mécanisme d'action des substances psychoactives, quelles proposit
 @ p. 11 et 15
 
 QCU · Unité d'alcool
-Un patient déclare boire « trois verres standard » par jour. Combien de grammes d'éthanol cela représente-t-il, avec l'unité française ?
-- 14 g :: C'est la valeur d'une seule unité américaine.
-- 21 g :: Ce chiffre ne correspond à aucune unité.
-+ 30 g :: En France, 1 verre standard = 1 unité = 10 g d'éthanol.
-- 42 g :: Ce serait 3 unités américaines de 14 g.
-- 60 g :: Ce serait 6 unités : le seuil du binge drinking.
-> En France, une unité d'alcool correspond à 10 g d'éthanol (14 g aux États-Unis). La taille du verre et le degré doivent être précisés pour quantifier une consommation.
+En consultation d'anesthésie en France, que représente une unité d'alcool (un verre standard) ?
+- 5 g d'éthanol pur, quelle que soit la boisson servie. :: L'unité française correspond à 10 g d'éthanol pur.
++ 10 g d'éthanol pur, en précisant toujours le volume réel et le degré consommés. :: En France, 1 verre standard = 1 unité = 10 g d'éthanol (14 g aux États-Unis).
+- 14 g d'éthanol pur, comme dans les recommandations européennes. :: 14 g correspond à l'unité standard américaine, pas française.
+- 20 g d'éthanol pur, correspondant à un verre de spiritueux maison. :: Un verre servi à domicile dépasse souvent le verre standard, mais la définition de l'unité française reste 10 g.
+- 60 g d'éthanol pur, seuil retenu pour quantifier la consommation quotidienne. :: 60 g (6 unités en une occasion) correspond au seuil du binge drinking, pas à une unité.
+> En France, une unité d'alcool correspond à 10 g d'éthanol (14 g aux États-Unis). La taille réelle du verre et le degré d'alcool doivent être précisés pour évaluer la consommation.
 @ p. 17
 
 QCU · Binge drinking

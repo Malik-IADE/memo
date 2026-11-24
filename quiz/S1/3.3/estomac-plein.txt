@@ -75,12 +75,12 @@ Quels facteurs ralentissent la vidange gastrique ?
 @ p. 26, 27, 36 et 39
 
 QCU · Gravité de l'inhalation
-Lequel de ces éléments n'est pas un facteur de gravité d'une inhalation ?
-- Un pH très acide du liquide inhalé :: Plus le pH est bas, plus les lésions sont graves.
-- Un volume inhalé important :: La gravité est proportionnelle au volume.
-- La présence de particules alimentaires :: Les débris solides aggravent les lésions.
-+ Une température élevée du liquide inhalé :: Ce n'est pas un facteur de gravité retenu.
-- Aucun, tous sont des facteurs de gravité :: La température n'en fait pas partie.
+Lequel de ces éléments n'est pas un facteur de gravité retenu lors d'une inhalation bronchique ?
+- Un pH très acide (< 2,5) du liquide inhalé :: Plus le pH est bas, plus l'agression chimique alvéolaire est sévère.
+- Un volume liquidien inhalé important :: La sévérité des lésions est proportionnelle au volume inhalé.
+- La présence de particules alimentaires solides :: Les débris solides obstruent les bronches et aggravent les lésions.
++ La température du liquide gastrique inhalé :: La température du liquide n'est pas un facteur de gravité retenu.
+- La combinaison d'un pH acide et de particules solides :: Elle majore fortement le risque de détresse respiratoire.
 > Trois facteurs de gravité : le pH (lésions graves si pH < 2,5), le volume inhalé et la présence de particules solides.
 @ p. 37
 
@@ -110,7 +110,7 @@ Concernant la préoxygénation, quelles propositions sont exactes ?
 + Elle se fait avec une FiO2 de 100 %. :: L'objectif est une FeO2 > 90 %.
 - Le décubitus dorsal strict est la position de référence de la préoxygénation. :: Le proclive de 20 à 30° améliore la CRF et la durée d'apnée sans désaturation.
 - L'obèse désature moins vite que l'adulte mince après préoxygénation. :: Il désature plus vite : sa CRF est diminuée.
-- Elle est facultative si l'intubation doit être rapide. :: Elle est primordiale dans la séquence rapide.
+- Elle peut être écourtée à quelques secondes si le patient a une SpO2 à 100 % en air ambiant. :: Une SpO2 à 100 % ne renseigne pas sur la réserve en O2 de la CRF : la préoxygénation jusqu'à FeO2 > 90 % reste primordiale.
 > La préoxygénation remplit la CRF d'oxygène et allonge le temps d'apnée sans désaturation. Méthode : FiO2 100 % pendant 3 minutes, jusqu'à FeO2 > 90 %, en proclive. La VNI ou l'oxygène à haut débit peuvent être utiles chez le patient hypoxémique.
 @ p. 53 à 55 et 69
 
@@ -195,11 +195,11 @@ Concernant l'extubation d'un patient à estomac plein, quelles propositions sont
 @ p. 91 à 96
 
 QCM · Conduite à tenir en cas d'inhalation
-Un patient non intubé vomit à l'induction. Quelles mesures sont adaptées ?
-+ Mettre le patient en Trendelenburg et en décubitus latéral. :: Pour drainer le contenu hors des voies aériennes.
-+ Aspirer le pharynx. :: L'aspiration a été préparée pour cela.
-+ Intuber sans délai et gonfler le ballonnet. :: Pour protéger les voies aériennes.
-+ Préoxygéner puis réaliser une séquence rapide. :: Pour sécuriser rapidement les voies aériennes.
-- Retirer immédiatement une sonde placée par erreur dans l'œsophage. :: On la laisse en place, ballonnet gonflé, pour drainer l'estomac, et on réintube la trachée.
-> En cas d'inhalation chez un patient intubé : vérifier le ballonnet, aspirer par la sonde gastrique et par la sonde d'intubation. Ensuite, selon la gravité : ventilation, gaz du sang, fibroscopie, radiographie. Les antibiotiques ne sont pas systématiques et les corticoïdes n'ont pas montré d'efficacité.
+Un patient non intubé vomit lors de l'induction. Quelles mesures sont adaptées ?
++ Mettre le patient en Trendelenburg et en décubitus latéral. :: Pour limiter le passage du contenu gastrique vers la trachée.
++ Aspirer le pharynx avant d'intuber. :: L'aspiration a été préparée à portée de main pour cela.
++ Intuber sans hésiter et gonfler le ballonnet pour sécuriser les voies aériennes. :: Même si la sonde passe dans l'œsophage, on la laisse en place ballonnet gonflé pour la deuxième laryngoscopie.
+- Ventiler au masque en pression positive avant l'intubation pour corriger l'hypoxie. :: La ventilation manuelle au masque est évitée car elle aggrave l'inhalation, sauf en cas de désaturation menaçante.
+- Retirer immédiatement une sonde placée par erreur dans l'œsophage. :: On la laisse en place, ballonnet gonflé, pour drainer l'estomac, et on réalise une deuxième laryngoscopie pour intuber la trachée.
+> Patient non intubé qui vomit à l'induction : Trendelenburg, décubitus latéral, aspiration, intubation sans hésiter (si œsophagienne, la laisser en place et réintuber), pas de ventilation au masque sauf désaturation, lavage trachéal au sérum physiologique. Ensuite, selon la gravité : ventilation, gaz du sang, fibroscopie et radiographie ; antibiotiques non systématiques et corticoïdes sans preuve d'efficacité.
 @ p. 99 à 101

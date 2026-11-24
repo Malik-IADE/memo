@@ -100,7 +100,7 @@ Les prises murales d'air et d'oxygène sont détrompées. Quel risque persiste m
 + Ouvrir le débitmètre d'air en croyant ouvrir celui d'oxygène. :: Les deux débitmètres branchés peuvent se ressembler.
 - Une rétropollution du réseau par le débitmètre. :: Elle relève d'un défaut de valve antiretour, pas du débitmètre mural.
 - Une baisse de pression du réseau secondaire. :: Le détrompage n'a pas d'effet sur la pression.
-- Une explosion liée au détrompage. :: Ce n'est pas un risque lié au raccord.
+- Une inversion interne de pression dans le débitmètre liée au détrompage. :: Le détrompage empêche l'erreur de branchement mais ne modifie pas les pressions internes.
 > Le détrompage sécurise le branchement, pas l'usage : il faut lire l'étiquette du débitmètre avant de l'ouvrir.
 @ p. 17
 
@@ -116,12 +116,12 @@ Concernant la rétropollution d'un réseau de gaz, quelles propositions sont exa
 
 QCM · Secours en oxygène
 Concernant le secours en oxygène au bloc opératoire, quelles propositions sont exactes ?
-+ Un secours raccordé au même réseau peut se vider par une fuite située en aval. :: Son emplacement conditionne son efficacité.
-- Une réserve centrale rend inutile une bouteille d'oxygène en salle. :: La bouteille locale reste la solution la plus sûre.
-- La bouteille de secours peut rester vide tant que le réseau fonctionne. :: Elle doit être remplie, équipée et prête à l'emploi.
-- Une panne de gaz se gère par improvisation de chaque membre de l'équipe. :: Une aide cognitive donne une procédure commune et répartit les tâches.
-- L'enclenchement des systèmes de secours est manuel, sur décision médicale. :: La réglementation impose un enclenchement automatique.
-> La bouteille d'O2 en salle, à commutation manuelle sur alarme de pression, est la solution la plus sûre. Les aides cognitives organisent la réponse sous stress.
++ Un secours raccordé en amont sur le même réseau peut se vider rapidement par une fuite située en aval. :: Son emplacement par rapport à la fuite conditionne son efficacité.
++ La bouteille d'oxygène dédiée en salle, à commutation manuelle sur alarme de pression, isole de la fuite du réseau. :: Elle doit être remplie, équipée et réservée au secours.
+- Une réserve centrale à commutation automatique rend inutile la présence d'une bouteille d'oxygène en salle. :: Si la fuite se situe sur le réseau aval, la réserve centrale se vide par la même fuite.
+- L'enclenchement du secours central du réseau est manuel et attend une décision médicale. :: La réglementation impose un enclenchement automatique du secours central du réseau.
+- Le recours aux aides cognitives est réservé à la formation et ralentit la réaction lors d'une panne réelle. :: Les aides cognitives structurent la procédure commune et la répartition des tâches sous stress.
+> Le secours central du réseau s'enclenche automatiquement (obligation réglementaire), mais une fuite en aval peut le vider. La bouteille d'O2 dédiée en salle, à commutation manuelle sur alarme de pression, est la solution la plus sûre. Les aides cognitives organisent la réponse sous stress.
 @ p. 12 et 22 à 25
 
 QCM · Bouteilles d'oxygène

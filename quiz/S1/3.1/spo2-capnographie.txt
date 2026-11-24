@@ -116,11 +116,11 @@ Parmi les situations suivantes, lesquelles peuvent faire sous-estimer la saturat
 
 QCU · Intoxication au monoxyde de carbone
 Chez un patient intoxiqué au monoxyde de carbone, comment l'oxymètre de pouls se comporte-t-il ?
-- Il sous-estime la saturation. :: Il la surestime.
-+ Il surestime la saturation, car il confond carboxyhémoglobine et oxyhémoglobine. :: La SpO2 paraît rassurante malgré une hypoxie.
-- Il donne une mesure exacte. :: L'HbCO fausse la mesure.
-- Il affiche une SpO2 nulle. :: La SpO2 reste élevée.
-- Il détecte l'intoxication par une alarme spécifique. :: Il ne la distingue pas.
+- Il sous-estime fortement la saturation et affiche une hypoxie sévère. :: Il la surestime au contraire.
++ Il surestime la saturation, car il confond carboxyhémoglobine et oxyhémoglobine. :: La SpO2 paraît faussement rassurante malgré une hypoxie tissulaire.
+- Il fournit une mesure exacte de la SaO2 grâce à ses deux longueurs d'onde. :: Les deux longueurs d'onde ne distinguent pas l'HbCO de l'HbO2 : il faut une co-oxymétrie.
+- Il affiche une saturation nulle tant que l'HbCO dépasse 5 %. :: La SpO2 reste artificiellement élevée.
+- Il déclenche une alarme spécifique identifiant la présence de carboxyhémoglobine. :: Un oxymètre standard ne distingue pas l'HbCO.
 > HbCO > 5 %, anémie ou méthémoglobine avec SpO2 initiale < 85 % : la SpO2 surestime la SaO2. Une gazométrie avec co-oxymétrie est nécessaire.
 @ SpO2 p. 10 et 11
 
@@ -129,7 +129,7 @@ Au bloc, l'alarme de SpO2 sonne brutalement à 78 % chez un patient jusque-là s
 - Augmenter immédiatement la FiO2 sans regarder le patient. :: Il faut d'abord valider la mesure et le patient.
 + Contrôler le positionnement du capteur et la qualité de la courbe de pléthysmographie, tout en regardant le patient. :: La clinique et la courbe priment sur le chiffre.
 - Changer d'oxymètre. :: La vérification du capteur et de la courbe vient avant.
-- Ignorer l'alarme, la valeur étant inférieure à 80 %. :: Une vraie désaturation est possible.
+- Attendre deux minutes la stabilisation du capteur avant de vérifier le patient et le circuit. :: Devant une désaturation brutale, on vérifie d'abord la clinique, la FiO2, le circuit et la courbe de pléthysmographie sans attendre.
 - Faire une gazométrie avant toute autre action. :: Elle ne remplace pas la vérification immédiate.
 > Devant une désaturation brutale : patient, capteur et pléthysmographie d'abord. Sous 70 %, la valeur n'est plus corrélée de façon fiable à la SaO2. Mouvements, hypothermie, hypotension et arythmies rendent la mesure imprécise.
 @ SpO2 p. 10 et 11
@@ -138,7 +138,7 @@ QCM · Imprécision de l'oxymètre
 Concernant les situations qui rendent la SpO2 imprécise, quelles propositions sont exactes ?
 - Une SpO2 affichée à 65 % reflète fidèlement la SaO2. :: Sous 70 %, la corrélation n'est plus fiable.
 + Une forte hypotension rend la mesure imprécise. :: Le signal pulsatile est faible.
-- Les troubles du rythme améliorent la mesure. :: Ils la rendent imprécise.
+- Les troubles du rythme cardiaque n'altèrent pas la fiabilité de l'oxymètre de pouls. :: Les arythmies perturbent le signal pulsatile et peuvent rendre la mesure imprécise.
 - Les mouvements du patient sont sans effet. :: Ils perturbent la mesure.
 - L'hypothermie améliore le signal. :: La vasoconstriction le dégrade.
 > Mesure imprécise en cas d'hypotension marquée, d'arythmie, d'hypothermie, de mouvements, et en dessous de 70 %.
@@ -176,11 +176,11 @@ Concernant les phases du capnogramme, quelles propositions sont exactes ?
 
 QCU · Réinhalation de CO2
 Au bloc, la ligne de base du capnogramme ne redescend plus à zéro (PiCO2 > 0). Quelle cause rechercher en premier ?
-- Une hyperventilation. :: Elle fait baisser la PetCO2, sans réinhalation.
-+ Une chaux sodée saturée ou un dysfonctionnement des valves du respirateur. :: Le CO2 expiré est réinhalé.
-- Une embolie pulmonaire. :: Elle fait chuter la PetCO2.
-- Une intubation œsophagienne. :: Elle donne des courbes absentes ou décroissantes.
-- Une hypothermie. :: Elle diminue la production de CO2.
+- Une hyperventilation mécanique réglée trop haut. :: Elle fait baisser la PetCO2, sans remonter la ligne de base inspiratoire.
++ Une chaux sodée saturée ou une défaillance des valves du respirateur. :: Le CO2 expiré n'est plus éliminé et est réinhalé à l'inspiration suivante.
+- Une embolie pulmonaire ou une chute brutale du débit cardiaque. :: Elles font chuter brutalement la PetCO2 sans élever la PiCO2.
+- Une intubation œsophagienne accidentelle à l'induction. :: Elle donne des courbes absentes ou rapidement décroissantes.
+- Une hypothermie peropératoire modérée. :: Elle diminue la production métabolique de CO2 et la PetCO2.
 > PiCO2 > 0 signe une réinhalation de CO2 : chaux sodée épuisée ou valve unidirectionnelle défaillante.
 @ Capnographie p. 8, 9 et 12
 
