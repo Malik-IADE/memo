@@ -98,11 +98,11 @@ QCU · Anxiolyse et induction
 Évaluez les deux affirmations et leur lien.
 1. Une anxiolyse réussie facilite l'induction et diminue les besoins en agents anesthésiques.
 2. Le patient se réveille dans le même état d'esprit qu'au moment de l'induction.
-- Les deux affirmations sont vraies et la seconde explique la première.
-+ Les deux affirmations sont vraies, sans lien entre elles.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
+- Les deux affirmations sont vraies et la seconde explique la première. :: Le réveil dans l'état d'esprit de l'induction n'explique pas la baisse des besoins en agents : ce sont deux constats distincts.
++ Les deux affirmations sont vraies, sans lien entre elles. :: Deux constats vrais et indépendants, qui justifient tous deux l'attention portée à l'accueil.
+- La première est vraie, la seconde est fausse. :: La seconde est vraie : le patient se réveille dans l'état d'esprit de son induction.
+- La première est fausse, la seconde est vraie. :: La première est vraie : l'anxiolyse facilite l'induction et réduit les besoins en agents.
+- Les deux affirmations sont fausses. :: Les deux sont vraies d'après le cours.
 > Le cours relève une corrélation entre anxiolyse, facilité d'induction et baisse des produits anesthésiques, et constate que le patient se réveille dans l'état d'esprit de son induction. Ce sont deux constats distincts, qui justifient tous deux l'attention portée à l'accueil.
 @ p. 46
 

@@ -198,11 +198,11 @@ QCU · Hypocapnie et pénombre
 Évaluez les deux affirmations et leur lien.
 1. Pendant une thrombectomie sous anesthésie générale, l'hypocapnie doit être évitée.
 2. L'hypocapnie entraîne une vasoconstriction cérébrale.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien entre elles.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
++ Les deux affirmations sont vraies et la seconde explique la première. :: La vasoconstriction due à l'hypocapnie réduit la perfusion de la pénombre : c'est pourquoi on l'évite (EtCO2 35 à 40 mmHg).
+- Les deux affirmations sont vraies, sans lien entre elles. :: Il y a un lien direct : la vasoconstriction est la raison pour laquelle on évite l'hypocapnie.
+- La première est vraie, la seconde est fausse. :: La seconde est vraie : le CO2 règle le tonus vasculaire cérébral, l'hypocapnie le contracte.
+- La première est fausse, la seconde est vraie. :: La première est vraie : l'hypocapnie menace la zone de pénombre pendant la thrombectomie.
+- Les deux affirmations sont fausses. :: Les deux sont vraies : objectif de normocapnie sous AG.
 > La vasoconstriction liée à l'hypocapnie réduit la perfusion de la zone de pénombre, qui peut alors évoluer vers l'infarctus. On vise une EtCO2 de 35 à 40 mmHg sous AG.
 @ p. 38 et 42
 

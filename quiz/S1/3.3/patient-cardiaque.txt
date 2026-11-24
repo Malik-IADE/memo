@@ -188,11 +188,11 @@ QCU · Rétrécissement aortique
 Évaluez les deux affirmations et leur lien.
 1. Dans le rétrécissement aortique serré, une hypotension doit être traitée rapidement.
 2. La perfusion coronaire d'un ventricule gauche hypertrophié dépend de la pression artérielle diastolique.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien entre elles.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
++ Les deux affirmations sont vraies et la seconde explique la première. :: Le VG hypertrophié se perfuse en diastole, selon la PA diastolique : une hypotension compromet la perfusion coronaire, d'où un traitement rapide.
+- Les deux affirmations sont vraies, sans lien entre elles. :: Il y a un lien : la dépendance coronaire à la PA diastolique justifie de traiter vite l'hypotension.
+- La première est vraie, la seconde est fausse. :: La seconde est vraie : la perfusion coronaire du VG se fait en diastole et dépend de la PA diastolique.
+- La première est fausse, la seconde est vraie. :: La première est vraie : l'hypotension est mal tolérée dans le RA serré.
+- Les deux affirmations sont fausses. :: Les deux sont vraies et liées.
 > Dans le RA, l'obstacle à l'éjection limite l'augmentation du débit, et le ventricule hypertrophié a des besoins élevés. Une chute de pression compromet la perfusion coronaire : il faut maintenir la PA, éviter la tachycardie et garder le rythme sinusal.
 @ p. 49
 
@@ -200,11 +200,11 @@ QCU · Insuffisance aortique
 Évaluez les deux affirmations et leur lien.
 1. Dans l'insuffisance aortique, une bradycardie est souhaitable.
 2. Une diastole prolongée augmente le temps disponible pour la régurgitation.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien entre elles.
-- La première est vraie, la seconde est fausse.
-+ La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
+- Les deux affirmations sont vraies et la seconde explique la première. :: La première est fausse, donc la seconde ne peut pas la justifier : elle explique au contraire qu'on évite la bradycardie.
+- Les deux affirmations sont vraies, sans lien entre elles. :: La première est fausse : on évite la bradycardie dans l'insuffisance aortique.
+- La première est vraie, la seconde est fausse. :: C'est l'inverse : la première est fausse, la seconde est vraie.
++ La première est fausse, la seconde est vraie. :: On évite la bradycardie : une diastole longue laisse plus de temps au reflux ; une fréquence un peu plus élevée favorise le débit antérograde.
+- Les deux affirmations sont fausses. :: La seconde est vraie : plus la diastole est longue, plus la régurgitation dure.
 > Dans l'insuffisance aortique (comme dans l'insuffisance mitrale), on évite la bradycardie : une diastole longue laisse plus de temps au reflux. Une fréquence un peu plus élevée favorise le débit vers l'avant.
 @ p. 50 et 52
 

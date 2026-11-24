@@ -208,11 +208,11 @@ QCU · Mutation synonyme
 Évaluez les deux affirmations et leur lien.
 1. Une substitution d'une base peut laisser inchangé l'acide aminé codé.
 2. Plusieurs codons peuvent coder le même acide aminé.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien entre elles.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
++ Les deux affirmations sont vraies et la seconde explique la première. :: La redondance du code génétique (plusieurs codons pour un acide aminé) explique qu'une substitution puisse rester sans effet.
+- Les deux affirmations sont vraies, sans lien entre elles. :: Il y a bien un lien : c'est la redondance du code qui rend la mutation synonyme possible.
+- La première est vraie, la seconde est fausse. :: La seconde est vraie : le code génétique est redondant (dégénéré).
+- La première est fausse, la seconde est vraie. :: La première est vraie : c'est la définition d'une mutation synonyme.
+- Les deux affirmations sont fausses. :: Les deux sont vraies : mutation synonyme et redondance du code.
 > Les deux sont vraies et liées : grâce à la redondance du code, le codon modifié peut coder le même acide aminé. C'est une mutation synonyme.
 @ p. 22 et 39
 
@@ -220,10 +220,10 @@ QCU · Expression sélective
 Évaluez les deux affirmations et leur lien.
 1. Deux cellules nucléées d'un même individu produisent les mêmes protéines, en mêmes quantités.
 2. La transcription des gènes est régulée selon le type de cellule et ses besoins.
-- Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien entre elles.
-- La première est vraie, la seconde est fausse.
-+ La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
+- Les deux affirmations sont vraies et la seconde explique la première. :: La première est fausse, donc la seconde ne peut pas l'expliquer.
+- Les deux affirmations sont vraies, sans lien entre elles. :: La première est fausse : chaque type cellulaire exprime ses propres protéines.
+- La première est vraie, la seconde est fausse. :: C'est l'inverse : la première est fausse, la seconde est vraie.
++ La première est fausse, la seconde est vraie. :: Un même génome s'exprime différemment selon la cellule ; la transcription est régulée selon le type cellulaire.
+- Les deux affirmations sont fausses. :: La seconde est vraie : la transcription est régulée selon la cellule et ses besoins.
 > La première est fausse : un même génome est utilisé différemment selon la cellule. La seconde est vraie, et c'est elle qui explique cette différence.
 @ p. 2 et 11 à 15

@@ -108,11 +108,11 @@ QCU · Physiopathologie du sevrage
 Évaluez les deux affirmations et leur lien.
 1. L'arrêt brutal de l'alcool chez un consommateur chronique provoque une hyperexcitabilité neurovégétative.
 2. La consommation répétée d'alcool entraîne une augmentation des récepteurs NMDA et une baisse de l'activité GABA.
-+ Les deux affirmations sont vraies et la seconde explique la première.
-- Les deux affirmations sont vraies, sans lien entre elles.
-- La première est vraie, la seconde est fausse.
-- La première est fausse, la seconde est vraie.
-- Les deux affirmations sont fausses.
++ Les deux affirmations sont vraies et la seconde explique la première. :: L'adaptation (plus de NMDA, moins de GABA) persiste à l'arrêt et produit l'hyperexcitabilité du sevrage.
+- Les deux affirmations sont vraies, sans lien entre elles. :: Il y a un lien : ces adaptations sont le mécanisme même du sevrage.
+- La première est vraie, la seconde est fausse. :: La seconde est vraie : le cerveau compense l'effet de l'alcool en augmentant les récepteurs NMDA et en réduisant l'activité GABA.
+- La première est fausse, la seconde est vraie. :: La première est vraie : tremblements, agitation, hyperactivité neurovégétative.
+- Les deux affirmations sont fausses. :: Les deux sont vraies et liées.
 > L'éthanol renforce la voie GABA et inhibe les récepteurs NMDA. Avec la répétition, le cerveau s'adapte (moins de GABA, plus de NMDA). À l'arrêt, ces adaptations persistent : excès d'excitation, tremblements, agitation et hyperactivité neurovégétative.
 @ p. 31
 
