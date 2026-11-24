@@ -609,7 +609,10 @@
     const b = Math.round(9 + days * 1.6);
     const hourly = days === 1 ? Array.from({ length: new Date().getHours() + 1 }, (_, i) => ({ hour: `${dayKey(r.start)} ${String(i).padStart(2, '0')}`, browsers: i < 7 ? 0 : 1 + (i % 4) })) : [];
     const devices = [['iphone', Math.round(b * .45)], ['mac', Math.round(b * .2)], ['android', Math.round(b * .15)], ['windows', Math.round(b * .1)]].map(([device, browsers]) => ({ device, browsers }));
-    return { browsers: b, visits: Math.round(b * 3.4), visitBrowsers: b - 2, hourly, devices,
+    const hours = Array.from({ length: 24 }, (_, h) => ({ h, browsers: h < 7 ? 0 : Math.round(b * (0.2 + ((h * 7) % 10) / 25)) }));
+    const weekdays = Array.from({ length: 7 }, (_, wd) => ({ wd, browsers: Math.round(b * (0.3 + ((wd * 3) % 7) / 12)) }));
+    const cells = weekdays.flatMap(({ wd }) => hours.filter((x) => x.browsers).map(({ h }) => ({ wd, h, browsers: 1 + ((wd + h) % 4) })));
+    return { browsers: b, visits: Math.round(b * 3.4), visitBrowsers: b - 2, hourly, devices, hours, weekdays, cells,
       prev: { browsers: Math.round(b * .85), visits: Math.round(b * 2.9), visitBrowsers: Math.round(b * .8) }, daily, since: +r.prevStart };
   }
 
@@ -883,6 +886,17 @@
     const byWd = WD.map((w) => ({ label: w.slice(0, 3) + '.', full: w, v: 0 }));
     const heat = WD.map(() => Array(24).fill(0));
     cells.forEach((c) => { const wd = (c.d.getDay() + 6) % 7; byWd[wd].v += sumArr(c.hours); c.hours.forEach((v, i) => { heat[wd][i] += v; }); });
+    // Navigateurs uniques (Worker) sur la période, affichés dans les infobulles des trois graphes.
+    // Le Worker numérote les jours de 0 (dimanche) à 6 ; ici, lundi = 0.
+    let heatUniques = null;
+    if (data.visitors) {
+      const vh = new Map((data.visitors.hours || []).map((x) => [x.h, x.browsers || 0]));
+      const vw = new Map((data.visitors.weekdays || []).map((x) => [(x.wd + 6) % 7, x.browsers || 0]));
+      byHour.forEach((p, i) => { p.tip = [uniques(vh.get(i) || 0)]; });
+      byWd.forEach((p, i) => { p.tip = [uniques(vw.get(i) || 0)]; });
+      heatUniques = WD.map(() => Array(24).fill(0));
+      for (const x of data.visitors.cells || []) heatUniques[(x.wd + 6) % 7][x.h] = x.browsers || 0;
+    }
 
     const pk = peak(byHour), pw = peak(byWd);
     const sparkOf = (g) => (P.days === 1 ? g[0].hours.slice(0, nowH + 1) : g.map((c) => sumArr(c.hours)));
@@ -920,7 +934,7 @@
         h('section', { class: 'card' },
           h('div', { class: 'card-head' }, h('h2', {}, 'Jours de la semaine'), pw ? h('span', { class: 'pill' }, `Pic le ${pw.full}`) : null),
           barChart(byWd, { height: 170, unit: M.unit }))),
-      P.days === 1 ? null : heatmap(heat, M.unit),
+      P.days === 1 ? null : heatmap(heat, M.unit, heatUniques),
       collectiveCards(),
       quizNotesCard(cur.quizGrades),
       h('div', { class: 'grid2' },
@@ -1107,7 +1121,7 @@
   }
 
   /* ---------- Carte de chaleur jour × heure ---------- */
-  function heatmap(heat, unit) {
+  function heatmap(heat, unit, uniq = null) {
     const max = Math.max(1, ...heat.flat());
     const level = (v) => (v <= 0 ? 0 : Math.min(4, Math.ceil((v / max) * 4)));
     const shade = ['var(--cell0)', 'color-mix(in oklab, var(--a2) 28%, var(--cell0))', 'color-mix(in oklab, var(--a2) 52%, var(--cell0))', 'color-mix(in oklab, var(--a2) 78%, var(--cell0))', 'var(--a2)'];
@@ -1121,7 +1135,8 @@
       row.forEach((v, hr) => {
         const c = h('span', { class: 'c', style: `background:${shade[level(v)]}` });
         const show = () => {
-          tip.replaceChildren(h('div', { class: 'dim' }, `Le ${WDL[d]}, ${hr} h – ${hr + 1} h`), h('b', {}, plural(v, unit)));
+          tip.replaceChildren(h('div', { class: 'dim' }, `Le ${WDL[d]}, ${hr} h – ${hr + 1} h`), h('b', {}, plural(v, unit)),
+            ...(uniq ? [h('div', { class: 'dim' }, uniques(uniq[d][hr]))] : []));
           const b = wrap.getBoundingClientRect(), r = c.getBoundingClientRect();
           placeTip(tip, r.left - b.left + r.width / 2, r.top - b.top);
         };
