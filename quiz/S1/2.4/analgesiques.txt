@@ -1,4 +1,4 @@
-// Quiz – Analgésiques non morphiniques (UE 2.4), réécrit le 18 novembre 2026 d'après le « Support analgésiques » (document de référence, octobre 2026).
+// Quiz – Analgésiques non morphiniques (UE 2.4), réécrit le 18 novembre 2026 d'après le « Support analgésiques », complété le 24 novembre 2026 d'après le cours (diaporama du 15 octobre 2026 avec notes), qui prime en cas d'écart.
 // Questions type examen sur les notions générales : douleur aiguë et chronique, paracétamol, AINS, corticoïdes, néfopam, MEOPA, anesthésiques locaux, kétamine, analgésie multimodale, DCPC. Les chiffres d'études (NNT, épidémiologie) ne sont pas repris.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
@@ -40,7 +40,7 @@ Concernant le paracétamol, quelles propositions sont exactes ?
 - Il devient anti-inflammatoire à forte dose. :: Il n'est anti-inflammatoire à aucune dose : pas d'inhibition des COX périphériques.
 + Son hépatotoxicité est due au métabolite NAPQI, détoxifié par le glutathion. :: Le jeûne, la dénutrition et l'alcool diminuent cette défense.
 - Il est contre-indiqué pendant la grossesse. :: C'est l'antalgique de référence de la grossesse.
-- Par voie IV, son effet maximal est obtenu en 5 minutes. :: Le soulagement débute en 5 à 10 min, l'effet maximal vient en 1 heure.
+- Par voie IV, son effet maximal est obtenu en 5 minutes. :: Le soulagement débute en 10 à 15 min, l'effet maximal vient en 30 minutes.
 > Pro-médicament à action centrale, antipyrétique, non anti-inflammatoire. Toxicité hépatique par le NAPQI quand le glutathion est épuisé.
 @ p. 2, 3 et 8
 
@@ -59,7 +59,7 @@ Concernant l'adaptation du paracétamol au terrain, quelles propositions sont ex
 + Chez l'adulte de moins de 50 kg ou dénutri, la dose est limitée à 3 g par jour. :: Avec 60 mg/kg/j au maximum.
 + En cas d'alcoolisme chronique, la dose maximale est de 2 g par jour. :: Comme pour l'insuffisance hépatique légère à modérée.
 + L'insuffisance hépatique sévère est une contre-indication. :: Le risque d'hépatotoxicité est majeur.
-+ Chez l'insuffisant rénal sévère, on espace les prises et on réduit la dose. :: Clairance < 10 mL/min : 8 h entre les prises, 2 g/j au maximum.
++ Chez l'insuffisant rénal sévère, on espace les prises et on réduit la dose. :: Clairance < 15 mL/min : dose divisée par deux, 8 h entre les prises.
 - Chez le patient sous AVK, une prise prolongée à 4 g par jour est sans conséquence. :: L'effet anticoagulant peut augmenter : contrôler l'INR.
 > Le paracétamol s'adapte au poids, à l'état nutritionnel, au foie et au rein. À forte dose prolongée, il potentialise les AVK.
 @ p. 2 et 3
@@ -68,10 +68,10 @@ QCU · Intoxication au paracétamol
 Concernant l'intoxication au paracétamol, quelle proposition est exacte ?
 - L'antidote est la naloxone par voie IV. :: La naloxone est l'antidote des opioïdes.
 - Le patient présente des signes graves dès la première heure. :: Il n'y a aucun symptôme au début.
-- Passé la 10e heure, l'antidote n'a plus d'intérêt. :: Un effet protecteur reste possible jusqu'à 48 h : il faut traiter.
-+ L'antidote est la N-acétylcystéine, à débuter si possible avant la 10e heure. :: Elle restaure la détoxification du NAPQI.
-- Une dose unique de 4 g expose l'adulte sain à une hépatite grave. :: Le risque d'hépatite grave débute vers 8 à 10 g en prise unique.
-> Hépatite grave possible dès 8 à 10 g en une prise, ou lors de surdosages répétés chez le sujet fragile. Début asymptomatique. Antidote : N-acétylcystéine, au plus tôt, mais utile même tardivement.
+- Passé la 8e heure, l'antidote n'a plus d'intérêt. :: Son efficacité est moindre, mais un patient vu tardivement doit être traité.
++ L'antidote est la N-acétylcystéine, à débuter si possible dans les 8 heures. :: Elle reconstitue le glutathion, qui neutralise le NAPQI.
+- Une dose unique de 4 g expose l'adulte sain à une hépatite grave. :: Le seuil est de 10 g en prise unique chez l'adulte (150 mg/kg chez l'enfant).
+> Hépatite grave possible dès 10 g en une prise chez l'adulte (150 mg/kg chez l'enfant), ou lors de surdosages répétés juste au-dessus de 4 g/j chez le sujet âgé, éthylique ou dénutri. Début asymptomatique. Antidote : N-acétylcystéine, efficacité optimale dans les 8 heures, mais à donner même tardivement.
 @ p. 2, 3 et 10
 
 QCM · AINS, mécanisme
@@ -127,32 +127,32 @@ Concernant les AINS pendant la grossesse, quelles propositions sont exactes ?
 QCM · Corticoïdes
 Concernant les corticoïdes, quelles propositions sont exactes ?
 + Ils inhibent la phospholipase A2, en amont des cyclo-oxygénases. :: Ils bloquent prostaglandines et leucotriènes.
-- Ils ont une activité antalgique propre importante. :: Ils n'en ont pas, même si la dexaméthasone réduit la douleur postopératoire.
-+ Une cure de moins de 15 jours s'arrête sans décroissance. :: Le risque d'insuffisance surrénale concerne les traitements plus longs.
-+ La dexaméthasone IV réduit la consommation d'opioïdes et prolonge les blocs nerveux. :: Elle prévient aussi les nausées-vomissements.
-- Associés à un AINS, ils réduisent le risque digestif. :: Ils l'augmentent : envisager un protecteur gastrique.
-> Les corticoïdes agissent en amont des COX. Sans effet antalgique propre, la dexaméthasone complète l'analgésie multimodale, au prix d'un risque digestif accru avec les AINS.
-@ p. 5, 9 et 11
+- Ils ont une activité antalgique propre importante. :: Ils soulagent en réduisant l'inflammation et l'œdème.
++ Une cure de 10 à 15 jours s'arrête sans décroissance. :: Le risque surrénalien concerne les traitements plus longs.
++ Après plus de 3 mois, l'arrêt est progressif avec une supplémentation en hydrocortisone. :: L'axe hypothalamo-hypophysaire est freiné : risque d'insuffisance surrénalienne.
+- Associés à un AINS, ils réduisent le risque digestif. :: Ils l'augmentent.
+> Les corticoïdes agissent en amont des COX, sans effet antalgique propre. Corticothérapie prolongée (plus de 3 mois) : prise le matin, arrêt lent avec hydrocortisone ; aucun schéma unique n'est validé. Les inducteurs enzymatiques diminuent leur efficacité.
+@ p. 5, 9 et 11 ; cours, diapos 40 et 41
 
 QCM · Néfopam
 Concernant le néfopam, quelles propositions sont exactes ?
-+ Il inhibe la recapture des monoamines. :: Noradrénaline, sérotonine, dopamine.
++ Il inhibe la recapture des catécholamines et de la sérotonine. :: Antalgique central non opioïde.
 + Il n'entraîne pas de dépression respiratoire. :: Ce n'est pas un opioïde.
-- Il est anti-inflammatoire et antipyrétique. :: Il n'a aucune de ces deux propriétés.
-+ Par voie IV, il s'administre en perfusion lente, patient allongé. :: Pour limiter les effets indésirables (tachycardie, sueurs, nausées).
-+ Il est contre-indiqué en cas d'antécédent de convulsions, de glaucome par fermeture de l'angle ou de risque de rétention urinaire. :: Effets anticholinergiques et abaissement du seuil épileptogène.
-> Néfopam : inhibiteur de la recapture des monoamines, anticholinergique, sans dépression respiratoire. Perfusion lente. Déconseillé chez le sujet âgé, indiqué en douleur aiguë et non chronique.
-@ p. 6
+- Sa biodisponibilité par voie orale est bonne. :: Elle est faible.
++ Sa tachycardie doit alerter chez le patient cardiaque. :: Effet atropinique.
++ Il est contre-indiqué en cas d'épilepsie, de risque de glaucome par fermeture de l'angle ou de rétention urinaire. :: Effets anticholinergiques et abaissement du seuil épileptogène.
+> Néfopam : ni anti-inflammatoire ni antipyrétique. 20 mg en IM ou en IV lente toutes les 4 à 6 heures, 120 mg par 24 heures au maximum. Effets atropiniques (tachycardie, rétention urinaire, mydriase, confusion), convulsions en surdosage ; prudence chez le sujet âgé, l'insuffisant rénal ou hépatique.
+@ p. 6 ; cours, diapo 50
 
 QCM · MEOPA
 Concernant le MEOPA, quelles propositions sont exactes ?
-+ Son efficacité est pleine après au moins 3 minutes d'inhalation. :: Le soin peut alors commencer.
-+ Son effet cesse rapidement à l'arrêt de l'inhalation. :: Il ne dure que le temps de l'inhalation.
++ Le soin peut commencer après 3 minutes d'inhalation. :: Son effet dure le temps de l'inhalation.
 + Il est contre-indiqué en cas de pneumothorax ou de distension abdominale. :: Le N2O diffuse dans les cavités closes et en augmente le volume.
-+ L'inhalation continue est limitée à 1 heure. :: Et les administrations successives à 15 jours (carence en B12/B9).
-+ L'administration doit être interrompue en cas de perte du contact verbal. :: La surveillance clinique est continue.
-> MEOPA : délai de 3 min, effet bref, médicament de choix des douleurs provoquées par les soins. Contre-indiqué en cas d'épanchement aérique, de gaz ophtalmique ou de déficit en B12/B9. Ni l'âge ni l'absence de médecin ne l'interdisent.
-@ p. 6 et 11
++ L'auto-administration est conseillée dès 4 ans. :: L'enfant peut alors coopérer ; il est utilisable dès 1 mois.
+- Il est contre-indiqué chez le sujet âgé atteint de démence. :: L'âge seul n'est pas une contre-indication, démence comprise.
+- Il permet une induction anesthésique comme le protoxyde d'azote au mélangeur. :: Mélange fixe réservé à l'analgésie des soins.
+> MEOPA : mélange fixe équimolaire N2O-O2, médicament de choix des douleurs provoquées par les soins, par un personnel formé. Inhalation limitée à 1 heure. Contre-indiqué en cas d'épanchement aérique, de gaz ophtalmique ou de déficit en B12/B9.
+@ p. 6 et 11 ; cours, diapo 52
 
 QCM · Anesthésiques locaux
 Concernant les anesthésiques locaux, quelles propositions sont exactes ?
@@ -184,16 +184,6 @@ Concernant l'opioïde fort recommandé en postopératoire, quelle proposition es
 > En postopératoire : morphine ou oxycodone, plutôt per os, associée aux AINS et au paracétamol (épargne morphinique).
 @ p. 1, 8 et 9
 
-QCU · Délai d'action
-Concernant le délai d'action d'un antalgique pour programmer un soin douloureux, quelle proposition est exacte ?
-- Il correspond au Tmax du médicament. :: Le Tmax est le moment de la concentration maximale.
-- Après de la morphine IV, le soin peut commencer immédiatement. :: Il faut attendre environ 10 minutes.
-+ C'est le moment où le patient commence à être soulagé, souvent avant le Tmax. :: Peu de RCP le chiffrent.
-- Le MEOPA nécessite 30 minutes d'inhalation avant le soin. :: 3 minutes d'inhalation suffisent.
-- Le paracétamol IV agit en une minute. :: Le soulagement débute en 5 à 10 minutes.
-> Délai d'action ≠ Tmax. Repères : MEOPA ≥ 3 min, morphine IV 5 à 10 min, paracétamol IV 5 à 10 min (effet maximal en 1 h).
-@ p. 8
-
 QCM · Analgésie multimodale
 Concernant l'analgésie multimodale postopératoire, quelles propositions sont exactes ?
 + Le paracétamol et un AINS sont la base, donnés de façon systématique et programmée. :: Pas à la demande, sauf contre-indication.
@@ -216,10 +206,140 @@ Concernant la douleur chronique post-chirurgicale, quelles propositions sont exa
 
 QCM · Autres adjuvants
 Concernant les adjuvants de l'analgésie, quelles propositions sont exactes ?
-- Les gabapentinoïdes sont recommandés de façon systématique en périopératoire. :: Pas d'usage systématique, y compris en ambulatoire.
+- Les gabapentinoïdes sont recommandés de façon systématique en périopératoire. :: Sédation, vertiges, et aucun effet sur la douleur chronique post-chirurgicale.
 + Les agonistes α2 permettent une épargne morphinique au prix d'une bradycardie et d'une hypotension. :: Clonidine, dexmédétomidine, avec une sédation prolongée.
-- La lidocaïne IV a une indication antalgique en chirurgie orthopédique. :: Seul Xylocard a une indication, en chirurgie abdominale.
-- L'anesthésie sans opioïdes améliore nettement la douleur postopératoire. :: Son bénéfice se limite aux nausées-vomissements.
-- Le méthoxyflurane est un morphinique inhalé. :: C'est un analgésique inhalé non morphinique.
-> Adjuvants : α2-agonistes (bradycardie, hypotension), lidocaïne IV (indication limitée, sous ECG), méthoxyflurane aux urgences. Pas de gabapentinoïdes systématiques ; l'anesthésie sans opioïdes a un bénéfice limité.
-@ p. 6 à 9
++ La lidocaïne IV a une AMM en chirurgie abdominale, 24 heures au plus, sous ECG continu. :: Elle se discute en chirurgie majeure sans ALR.
++ La dexaméthasone donnée avant l'induction prévient les nausées-vomissements. :: C'est le corticoïde le plus étudié dans cette situation.
+- La kétamine à faible dose augmente le risque de nausées-vomissements. :: Elle diminue la consommation de morphine et ce risque.
+> Adjuvants : α2-agonistes, lidocaïne IV (indication limitée, sous ECG), dexaméthasone, kétamine à faible dose, méthoxyflurane aux urgences. Pas de gabapentinoïdes systématiques. Évaluer aussi l'anxiété et la douleur (APAIS, EN, DN4, FLACC).
+@ p. 6 à 9 ; cours, diapo 60
+
+QCM · AINS, demi-vie
+Concernant la demi-vie des AINS, quelles propositions sont exactes ?
++ L'ibuprofène et le kétoprofène ont une demi-vie courte et se donnent en 3 prises par jour. :: Demi-vie de 2 à 6 heures.
++ Le naproxène a une demi-vie moyenne et se donne en 2 prises par jour. :: Demi-vie de 12 à 18 heures, comme le célécoxib.
++ Les oxicams ont une demi-vie longue, compatible avec une prise par jour. :: Piroxicam, méloxicam : plus de 24 heures.
+- Chez le sujet âgé, une demi-vie longue est préférée pour limiter le nombre de prises. :: On préfère la demi-vie la plus courte.
+- Une demi-vie courte supprime le risque d'effet indésirable. :: Elle permet seulement d'arrêter l'exposition plus vite.
+> Une demi-vie courte rend l'AINS plus facile à arrêter en cas d'effet indésirable, sans annuler le risque. C'est le choix à privilégier, surtout chez le sujet âgé.
+@ Cours, diapos 28 et 29
+
+QCM · AINS, alertes européennes
+Concernant les alertes européennes sur les AINS par voie générale, quelles propositions sont exactes ?
++ Les coxibs font l'objet d'une alerte pour le risque cardiovasculaire. :: Le rofécoxib a été retiré du marché pour ce risque.
++ Le diclofénac fait l'objet d'une alerte pour le risque cardiovasculaire. :: Il est cité comme molécule à surveiller.
+- Le naproxène est l'AINS le plus visé pour le risque cardiovasculaire. :: Son profil cardiovasculaire est plutôt plus favorable.
++ Le piroxicam fait l'objet d'une alerte pour un risque digestif et cutané grave. :: Les oxicams exposent aux syndromes de Lyell et de Stevens-Johnson.
+- Une forme topique exclut tout passage systémique. :: L'absorption dépend du site et des conditions d'application.
+> Alertes : coxibs et diclofénac (cardiovasculaire), piroxicam (digestif et cutané grave). La voie locale limite l'exposition sans la supprimer.
+@ Cours, diapos 24, 29 à 31
+
+QCM · AINS, complications graves
+Concernant les complications des AINS, quelles propositions sont exactes ?
++ Les syndromes de Lyell et de Stevens-Johnson concernent surtout les oxicams, les premières semaines. :: Ils sont rares mais graves.
++ Une atteinte hépatique est possible, y compris avec les coxibs. :: Souvent silencieuse, découverte par un bilan biologique.
+- Un ulcère évolutif reste compatible avec un coxib. :: Il reste une contre-indication aux coxibs.
++ Les AINS pyrazolés exposent à l'agranulocytose. :: Métamizole, phénylbutazone, plus disponibles en France.
+- Les réactions cutanées bénignes sont exceptionnelles. :: Les éruptions maculo-papuleuses et l'urticaire sont fréquentes.
+> Effets graves des AINS : digestifs, rénaux, cardiovasculaires, cutanés (oxicams), hépatiques, allergiques (asthme, œdème de Quincke), hématologiques (pyrazolés).
+@ Cours, diapo 32
+
+QCU · Interactions des AINS
+Concernant les interactions médicamenteuses des AINS, quelle proposition est exacte ?
+- L'association à l'héparine ou à un AVK est sans conséquence hémorragique. :: Elle est fortement déconseillée : risque hémorragique net.
+- L'association au méthotrexate est interdite même à faible dose. :: L'interdiction concerne les fortes doses (oncologie).
++ L'association au lithium peut augmenter la lithémie, y compris avec les coxibs. :: Par baisse de la filtration glomérulaire.
+- L'association à un corticoïde protège la muqueuse digestive. :: Elle augmente les complications digestives.
+- L'association à un diurétique et un IEC améliore la filtration glomérulaire. :: Elle expose à l'insuffisance rénale.
+> Interactions des AINS : aspirine, anticoagulants et antiagrégants (saignement), IEC et diurétiques (rein), lithium (lithémie), corticoïdes (digestif), méthotrexate à forte dose (toxicité hématologique).
+@ Cours, diapo 35
+
+QCM · AINS chez l'enfant
+Concernant les AINS chez l'enfant, quelles propositions sont exactes ?
++ L'ibuprofène est l'AINS de référence en pédiatrie, dès 3 mois. :: Pour la fièvre ou la douleur.
++ L'aspirine est contre-indiquée en cas de varicelle. :: Risque de syndrome de Reye.
+- Couper un suppositoire adulte permet une dose pédiatrique fiable. :: La dose délivrée et l'absorption sont imprévisibles.
++ Ils demandent de la prudence en cas d'infection ORL, pulmonaire ou cutanée sévère. :: Ils peuvent masquer les signes et retarder la prise en charge.
++ Les conditions d'AMM varient selon la molécule et la forme galénique. :: Suspension, comprimé et suppositoire n'ont pas les mêmes limites.
+> En pédiatrie : ibuprofène en référence, AMM propres à chaque molécule et à chaque forme. Aspirine contre-indiquée dans la varicelle ; prudence en cas d'infection sévère.
+@ Cours, diapo 34
+
+QCM · AINS, sujet âgé et grossesse
+Concernant les AINS chez le sujet âgé et la femme enceinte, quelles propositions sont exactes ?
++ Chez le sujet âgé, on choisit la plus petite dose, la demi-vie la plus courte et une durée brève. :: Avec une surveillance, si l'AINS est vraiment nécessaire.
++ Chez le sujet âgé, ils peuvent provoquer un syndrome confusionnel. :: Effet neurosensoriel et psychique.
++ Ils sont possibles au 2e trimestre de la grossesse. :: Ils sont à éviter au 1er trimestre et interdits dès 24 SA.
++ À partir de 24 SA, l'aspirine à plus de 500 mg/j est interdite comme les autres AINS. :: Les collyres restent possibles.
+- Ils diminuent l'efficacité du dispositif intra-utérin. :: Le cours écarte cette ancienne idée.
+> Sujet âgé : éviter les AINS et la polymédication, sinon petite dose, demi-vie courte, durée brève. Grossesse : éviter au 1er trimestre, possibles au 2e, interdits dès 24 SA (début du 6e mois).
+@ Cours, diapo 33
+
+QCU · Équivalences des corticoïdes
+Concernant la puissance anti-inflammatoire des corticoïdes, quelle proposition est exacte ?
+- La prednisone a la même activité anti-inflammatoire que l'hydrocortisone. :: Elle est 4 fois plus active.
++ 0,75 mg de dexaméthasone équivaut à environ 5 mg de prednisone. :: Et à 20 mg d'hydrocortisone.
+- La dexaméthasone a la demi-vie la plus courte des corticoïdes. :: Sa demi-vie est de 36 à 54 heures.
+- La méthylprednisolone est moins active que l'hydrocortisone. :: Elle est 5 fois plus active.
+- La cortisone est plus puissante que la bétaméthasone. :: La bétaméthasone est 25 à 30 fois plus active que l'hydrocortisone.
+> Les corticoïdes ne sont pas équivalents milligramme pour milligramme : bétaméthasone et dexaméthasone sont les plus puissantes et les plus longues.
+@ Cours, diapo 42
+
+QCM · Corticoïdes, effets indésirables
+Concernant les effets indésirables des corticoïdes, quelles propositions sont exactes ?
++ Ils peuvent provoquer une hypokaliémie et une hyperglycémie. :: Avec rétention hydrosodée et élévation de la pression artérielle.
+- La myopathie cortisonique touche surtout les muscles distaux des mains. :: C'est une myopathie proximale, quadriceps en tête.
++ Ils provoquent une hyperleucocytose à polynucléaires par démargination. :: Elle ne signe donc pas une infection.
+- Ils sont tératogènes et à éviter au premier trimestre. :: Ils n'ont pas d'effet tératogène et sont utilisables à tous les trimestres.
++ Ils donnent moins d'ulcères que les AINS, mais ne doivent pas leur être associés. :: Les risques digestifs s'additionnent.
+> Effets des corticoïdes : Cushing iatrogène, troubles hydro-électrolytiques et métaboliques, myopathie, ostéoporose, infections, troubles neuropsychiques, cataracte, glaucome. Fréquence et gravité dépendent de la dose, de la durée et de la voie.
+@ Cours, diapos 45 et 46
+
+QCM · Infiltrations de corticoïdes
+Concernant les infiltrations de corticoïdes, quelles propositions sont exactes ?
++ L'injection intra-articulaire est possible dans certaines indications. :: Ce n'est pas une contre-indication générale à la classe.
++ Elles associent souvent un anesthésique local et un corticoïde retard. :: Par exemple lidocaïne à 0,5 % et triamcinolone.
++ Elles imposent une asepsie stricte et parfois un repérage radioscopique. :: Les contre-indications locales et générales sont respectées.
++ Des effets systémiques restent possibles, surtout chez l'enfant. :: Notamment si l'inflammation est forte et vascularisée.
++ Dans une douleur chronique, elles agissent au mieux sur la composante inflammatoire locale. :: Elles ne traitent pas les autres mécanismes.
+> Infiltrations : tendinites, syndromes canalaires, radiculalgies, douleurs articulaires. Les spécialités ne sont pas interchangeables selon la voie.
+@ Cours, diapo 47
+
+QCM · Bloc différentiel
+Concernant le bloc des anesthésiques locaux, quelles propositions sont exactes ?
++ Les fibres sympathiques sont bloquées avant les fibres sensitives, puis motrices. :: C'est le bloc différentiel.
++ La régression du bloc se fait dans le sens inverse de son installation. :: La motricité revient en premier.
+- La profondeur du bloc dépend surtout du type de molécule. :: Elle dépend de la concentration ; délai et durée dépendent de la molécule.
+- La lidocaïne est réservée aux blocs de longue durée. :: Elle sert aux actes de courte durée (moins d'une heure).
++ L'adrénaline, la clonidine et les opiacés peuvent être associés pour prolonger le bloc. :: Ils réduisent aussi le délai et augmentent la puissance.
+> Les AL bloquent l'entrée du sodium. Bloc sympathique, puis sensitif, puis moteur. Lidocaïne : actes courts ; bupivacaïne : anesthésies médullaires ; ropivacaïne, lévobupivacaïne : blocs et anesthésies médullaires.
+@ Cours, diapos 53 et 55
+
+QCU · Pharmacocinétique de la kétamine
+Concernant la pharmacocinétique de la kétamine, quelle proposition est exacte ?
+- La voie orale offre la meilleure biodisponibilité. :: Environ 50 % après le premier passage hépatique.
++ La forme S(+) est environ deux fois plus active que la forme lévogyre. :: La France utilise un mélange racémique.
+- Sa demi-vie d'élimination est d'environ 30 heures. :: Elle est d'environ 3 heures.
+- Elle est éliminée sans métabolisme. :: Elle est métabolisée en norkétamine, foie surtout.
+- Sa biodisponibilité intramusculaire est inférieure à 20 %. :: Elle dépasse 90 %.
+> Kétamine : anesthésique à forte dose, analgésique à faible dose. Voies IV, IM (> 90 %), nasale (> 50 %), orale (≈ 50 %), rectale (≈ 30 %). Norkétamine peu active, pro-épileptogène, antihyperalgésique.
+@ Cours, diapo 56
+
+QCU · Récepteur NMDA
+Concernant le récepteur NMDA dans la douleur, quelle proposition est exacte ?
+- Il est activé dès la moindre douleur aiguë brève. :: Il n'est pas mis en jeu dans la douleur aiguë simple.
+- La kétamine se fixe sur le site de l'ion magnésium. :: Elle se fixe sur le site PCP.
++ Au repos, le magnésium bloque le canal ; sa levée laisse entrer le calcium lors de la sensibilisation. :: L'activation renforce la réponse du neurone.
+- Il est situé sur la terminaison périphérique du nocicepteur. :: Il est sur le neurone postsynaptique médullaire.
+- Son activation diminue la sensibilisation centrale. :: Elle l'amplifie.
+> La stimulation répétée lève le bloc magnésium du récepteur NMDA : le calcium entre, la sensibilisation centrale s'installe. La kétamine bloque le canal au site PCP : effet antihyperalgésique.
+@ Cours, diapo 57
+
+QCM · Cinétique des antalgiques
+Concernant la cinétique d'action des antalgiques, quelles propositions sont exactes ?
++ Par voie orale, le paracétamol commence à agir vers 45 minutes et atteint son effet maximal en 1 à 2 heures. :: Un patient encore douloureux peu après la prise n'est pas en échec.
++ La voie rectale du paracétamol a une résorption lente et imprévisible. :: Délai de 2 à 3 heures.
++ Le paracétamol IV ne soulage pas davantage que la voie orale. :: Il agit seulement plus vite.
+- Le paracétamol IV atteint son effet maximal plus tard que par voie orale. :: 30 minutes en IV, 1 à 2 heures per os.
+- Après de la morphine IV, le soin peut commencer immédiatement. :: Délai de 5 min, effet maximal en 5 à 20 min : attendre au moins 10 min.
+> Délai d'action (début du soulagement), effet maximal et durée ne se confondent pas, ni avec le Tmax. Repères : MEOPA 3 min ; morphine IV 5 min ; paracétamol IV 10 à 15 min, maximum à 30 min ; néfopam IV 15 min, maximum à 60-90 min.
+@ p. 8 ; cours, diapos 17 et 58
