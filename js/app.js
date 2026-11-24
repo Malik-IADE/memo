@@ -14,8 +14,8 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&
 /** Images : « [img:chemin] » n'importe où dans la question ou la réponse. */
 const IMG = /\[img:([^\]]+)\]\s*/g;
 const takeImgs = (s) => ({ imgs: [...s.matchAll(IMG)].map((m) => m[1].trim()), text: s.replace(IMG, '').trim() });
-// Seulement des images : chemin du site, https ou data:image (jamais javascript:…).
-const safeSrc = (src) => /^(https:|data:image\/)/i.test(src) || !/^[a-z][\w+.-]*:/i.test(src);
+// Seulement des images sûres : chemins du site, https ou images bitmap en data URI (jamais javascript:, //… ni SVG).
+const safeSrc = (src) => /^(https:\/\/|paquets\/|icons\/|data:image\/(png|jpeg|webp|gif);base64,)/i.test(src);
 const imgsHtml = (imgs) => imgs.filter(safeSrc).map((src) => `<button type="button" class="card-img" data-action="zoom" data-src="${esc(src)}" aria-label="Agrandir l'image">
     <img src="${esc(src)}" alt="" loading="lazy"><span class="card-img-hint">Touchez pour agrandir</span></button>`).join('');
 const plainText = (s) => (takeImgs(s).imgs.length ? '🖼 ' : '') + takeImgs(s).text;
@@ -128,8 +128,10 @@ function stats(deckId) {
 const MIX = 'mix';
 const MIX_NAME = 'Flashcards aléatoires';
 const mixDecks = () => store.decks().filter((d) => d.source && !isFcCat(locate(d).sem));
-function mixStats() {
-  const ds = mixDecks().map((d) => stats(d.id));
+function mixStats(precomputed = null) {
+  const ds = precomputed
+    ? precomputed.filter((r) => r.d.source && !isFcCat(r.loc.sem)).map((r) => r.s)
+    : mixDecks().map((d) => stats(d.id));
   const st = store.settings();
   const dueAvail = ds.reduce((n, s) => n + s.dueAvail, 0);
   const fresh = ds.reduce((n, s) => n + s.fresh, 0);
@@ -316,6 +318,17 @@ function topbarFolder(backHref, title, eyebrow = '') {
 const fold = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/[^a-z0-9]+/g, ' ').trim();
 
+// Cache du texte normalisé par carte : évite de recalculer normalize/regex sur toutes les cartes à chaque frappe.
+const foldCache = new Map();
+function foldedCard(c, nom) {
+  const hit = foldCache.get(c.id);
+  if (hit && hit.u === c.updated && hit.nom === nom) return hit.hay;
+  const hay = fold(`${c.front} ${c.back} ${nom}`);
+  foldCache.set(c.id, { u: c.updated, nom, hay });
+  return hay;
+}
+function invalidateSearch() { notions = null; foldCache.clear(); }
+
 /** Toutes les cartes qui contiennent tous les mots cherchés, les cours partagés d'abord. */
 function searchCards(q) {
   const mots = fold(q).split(' ').filter(Boolean);
@@ -324,7 +337,7 @@ function searchCards(q) {
   for (const d of store.decks()) {
     const nom = shortName(d.name);
     for (const c of store.cards(d.id)) {
-      const hay = fold(`${c.front} ${c.back} ${nom}`);
+      const hay = foldedCard(c, nom);
       if (mots.every((m) => hay.includes(m))) out.push({ c, d, nom });
       if (out.length > 300) return out;
     }
@@ -433,7 +446,7 @@ function renderSearch(q = '') {
       <section class="panel flush">
         <ul class="card-list">${res.slice(0, 60).map(({ c, d, nom }) => `
           <li class="search-hit">
-            <a class="card-row hit-link" href="#/carte/${c.id}">
+            <a class="card-row hit-link" href="#/carte/${esc(c.id)}">
               <span class="card-text">
                 <span class="card-front">${surligne(c.front, mots)}</span>
                 <span class="card-back">${surligne(c.back, mots)}</span>
@@ -523,8 +536,10 @@ function renderSearch(q = '') {
 // Chaque quiz enregistre sa note ici (même origine, donc même stockage que l'app).
 const RESULTATS_KEY = 'memo-resultats';
 const lireResultats = () => {
-  try { return (JSON.parse(localStorage.getItem(RESULTATS_KEY)) || []).filter((r) => r && r.href && isFinite(r.note)); }
-  catch { return []; }
+  try {
+    return (JSON.parse(localStorage.getItem(RESULTATS_KEY)) || [])
+      .filter((r) => r && typeof r.href === 'string' && /^annales(?:-nf)?\//.test(r.href) && isFinite(r.note));
+  } catch { return []; }
 };
 const dateCourte = (iso) => {
   const d = new Date(iso);
@@ -574,6 +589,8 @@ function grapheEvaluations(n = bilanEvaluations(), titre = 'Mes flashcards', uni
     </section>`;
 }
 
+let confirmClearResults = false;
+
 function renderResults() {
   session = null;
   const toutes = lireResultats();
@@ -620,7 +637,15 @@ function renderResults() {
               </a>
             </li>`).join('')}
         </ul>
-        <button class="btn ghost wide danger-text" data-action="clear-results">Effacer mes résultats</button>`
+        ${confirmClearResults
+          ? `<div class="quiz-confirm" role="alert">
+              <p><strong>Effacer toutes vos notes d'annales ?</strong> Les annales elles-mêmes sont conservées.</p>
+              <div class="quiz-confirm-actions">
+                <button type="button" class="btn danger small" data-action="clear-results-yes">Oui, effacer</button>
+                <button type="button" class="btn ghost small" data-action="clear-results-no">Annuler</button>
+              </div>
+            </div>`
+          : `<button class="btn ghost wide danger-text" data-action="clear-results">Effacer mes résultats</button>`}`
       : `<section class="empty">
           <div class="empty-art">🏅</div>
           <h2>${graphe ? 'Pas encore d\'annale faite' : 'Pas encore de résultat'}</h2>
@@ -645,11 +670,11 @@ function hero(todo) {
 function folderRow(href, name, meta, todo, icon = ico.folder) {
   return `
     <li>
-      <a class="folder-row" href="${href}">
+      <a class="folder-row" href="${esc(href)}">
         <span class="folder-icon">${icon}</span>
         <span class="folder-text">
           <span class="folder-name">${esc(name)}</span>
-          <span class="folder-meta">${meta}</span>
+          <span class="folder-meta">${esc(meta)}</span>
         </span>
         ${todo ? `<span class="count due" title="À réviser aujourd'hui">${todo}</span>` : ''}
         <span class="folder-chev">${ico.chevron}</span>
@@ -662,7 +687,7 @@ function deckRows(rows) {
     <ul class="deck-list">
       ${rows.map(({ d, s }) => `
         <li class="deck-row">
-          <a class="deck-link" href="#/review/${d.id}">
+          <a class="deck-link" href="#/review/${esc(d.id)}">
             <span class="deck-name">${esc(shortName(d.name))}</span>
             <span class="deck-meta">${plural(s.total, 'carte')}</span>
           </a>
@@ -670,7 +695,7 @@ function deckRows(rows) {
             <span class="count new" title="Nouvelles">${s.newAvail}</span>
             <span class="count due" title="À revoir">${s.dueAvail}</span>
           </span>
-          <a class="btn small ${s.todo ? 'primary' : 'soft'}" href="#/review/${d.id}">Réviser</a>
+          <a class="btn small ${s.todo ? 'primary' : 'soft'}" href="#/review/${esc(d.id)}">Réviser</a>
         </li>`).join('')}
     </ul>`;
 }
@@ -764,8 +789,8 @@ function renderFlashcards() {
       ${hero(sumTodo(rows) + sumTodo(catRows))}
       <ul class="folder-list">
         ${FC_CATS.filter((k) => catSems.has(k)).map((k) => catRow(k, catSems.get(k))).join('')}
-        ${mixDecks().length > 1 ? folderRow(`#/review/${MIX}`, MIX_NAME,
-          'Cartes de tous les cours, tirées au hasard', mixStats().todo, ico.shuffle) : ''}
+        ${(() => { const ms = mixStats(all); return ms.decks > 1 ? folderRow(`#/review/${MIX}`, MIX_NAME,
+          'Cartes de tous les cours, tirées au hasard', ms.todo, ico.shuffle) : ''; })()}
         ${sortSems(sems.keys()).map((k) => {
           const rs = sems.get(k);
           const ues = new Set(rs.map((r) => r.loc.ue).filter(Boolean));
@@ -883,67 +908,6 @@ function renderUE(sem, ue) {
             plural(annalesOf(sem, ue, k).length, 'annale'), 0, ico.exam));
         return rows.length ? `<p class="section-label">Annales</p><ul class="folder-list">${rows.join('')}</ul>` : '';
       })()}
-    </main>`;
-}
-
-/* ---------- Page d'un paquet ---------- */
-
-// Une carte de la liste s'ouvre en flashcard (lecture seule) : les cours sont partagés,
-// une modification locale serait écrasée à la prochaine mise à jour.
-function cardRows(cs) {
-  if (!cs.length) return `<li class="muted center pad">Aucune carte pour l'instant.</li>`;
-  return cs.map((c) => `
-    <li class="card-row-item" data-q="${esc(fold(`${c.front} ${c.back}`))}">
-      <a class="card-row" href="#/carte/${c.id}">
-        <span class="card-text">
-          <span class="card-front">${esc(plainText(c.front))}</span>
-          <span class="card-back">${esc(c.back)}</span>
-        </span>
-        <span class="tag ${c.seen ? '' : 'tag-new'}">${dueLabel(c)}</span>
-      </a>
-    </li>`).join('');
-}
-
-function renderDeck(id) {
-  session = null;
-  const d = store.deck(id);
-  const s = stats(id);
-  $app.innerHTML = `
-    <header class="topbar">
-      <a class="icon-btn" href="${folderHref(d)}" aria-label="Retour">${ico.back}</a>
-      <h1 class="title-sm">${esc(shortName(d.name))}</h1>
-      <button class="icon-btn" data-action="deck-menu" data-id="${id}" aria-label="Options du paquet">${ico.more}</button>
-    </header>
-    <main class="page">
-      <section class="stats">
-        <div class="stat"><span class="stat-v c-new">${s.newAvail}</span><span class="stat-l">Nouvelles</span></div>
-        <div class="stat"><span class="stat-v c-due">${s.dueAvail}</span><span class="stat-l">À revoir</span></div>
-        <div class="stat"><span class="stat-v">${s.total}</span><span class="stat-l">Total</span></div>
-      </section>
-      ${s.backlog ? `<p class="hint center">+ ${plural(s.backlog, 'révision')} reportée${s.backlog > 1 ? 's' : ''} aux prochaines sessions (limite quotidienne)</p>` : ''}
-      <a class="btn ${s.todo ? 'primary' : 'soft'} wide big" href="#/review/${id}">
-        ${s.todo ? `Réviser · ${s.todo}` : 'Rien à réviser pour le moment'}
-      </a>
-
-      <form class="panel" id="add-form" data-id="${id}">
-        <h2>Ajouter une carte</h2>
-        ${d.source ? '<p class="hint">Cours partagé : il se met à jour tout seul. Les cartes que vous ajoutez ici restent personnelles.</p>' : ''}
-        <label>Question<textarea name="front" rows="2" required placeholder="Ex. Capitale du Japon ?"></textarea></label>
-        <label>Réponse<textarea name="back" rows="2" required placeholder="Ex. Tokyo"></textarea></label>
-        <div class="row">
-          <button class="btn primary" type="submit">${ico.plus} Ajouter</button>
-          <button class="btn ghost" type="button" data-action="import" data-id="${id}">${ico.upload} Coller une liste</button>
-        </div>
-        <p class="hint hide-touch">⌘ + Entrée pour ajouter rapidement</p>
-      </form>
-
-      <section class="panel">
-        <div class="list-head">
-          <h2>Cartes <span class="muted">${s.total}</span></h2>
-          ${s.total > 5 ? `<input type="search" id="search" placeholder="Rechercher…" aria-label="Rechercher">` : ''}
-        </div>
-        <ul class="card-list" id="card-list">${cardRows(store.cards(id))}</ul>
-      </section>
     </main>`;
 }
 
@@ -1115,8 +1079,8 @@ function renderCard(cardId) {
       <footer class="answer-bar">
         ${carteVue.revealed
           ? `<div class="stack">
-              <a class="btn primary wide big" href="#/review/${d.id}">Réviser ce cours</a>
-              <a class="btn ghost wide" href="${retour}">${retourLabel}</a>
+              <a class="btn primary wide big" href="#/review/${esc(d.id)}">Réviser ce cours</a>
+              <a class="btn ghost wide" href="${esc(retour)}">${retourLabel}</a>
             </div>`
           : '<button class="btn primary wide big" data-action="reveal-one">Afficher la réponse</button>'}
       </footer>
@@ -1134,10 +1098,11 @@ function grade(g) {
   const c = store.card(session.queue[0]);
   if (!c) return;
   const wasNew = !c.seen;
-  store.updateCard(c.id, schedule(c, g));
+  store.updateCard(c.id, schedule(c, g), { autosave: false });
+  store.bumpToday(c.deckId, wasNew ? 'new' : 'rev', { autosave: false });
+  if (session.deckId === MIX) store.bumpToday(MIX, wasNew ? 'new' : 'rev', { autosave: false });
+  store.save();
   window.memoCollectives?.shareFlashcards();
-  store.bumpToday(c.deckId, wasNew ? 'new' : 'rev');
-  if (session.deckId === MIX) store.bumpToday(MIX, wasNew ? 'new' : 'rev');
   session.queue.shift();
   session.reviewed++;
   if (g === 0) session.again++; // ne revient pas dans cette session : 1 à 3 jours plus tard
@@ -1410,7 +1375,16 @@ function quizPick(k) {
   if (q.multi) { if (s.chosen.has(k)) s.chosen.delete(k); else s.chosen.add(k); }
   else s.chosen = new Set([k]);
   quiz.saveRun(s);
-  render();
+  // Mise à jour ciblée du DOM sans reconstruire toute la page (préserve le focus clavier et évite le clignotement).
+  const opts = $app.querySelectorAll('.quiz-opt[data-k]');
+  if (!opts.length) return render();
+  opts.forEach((btn) => {
+    const on = s.chosen.has(Number(btn.dataset.k));
+    btn.classList.toggle('is-chosen', on);
+    btn.setAttribute('aria-checked', String(on));
+  });
+  const valBtn = $app.querySelector('[data-action="quiz-validate"]');
+  if (valBtn) valBtn.disabled = !s.chosen.size;
 }
 
 function quizValidate() {
@@ -1542,6 +1516,7 @@ function runImport(text, defaultName, prune = false) {
     return false;
   }
   const r = store.importDecks(decks, { prune });
+  if (r.changed) invalidateSearch();
   const s = r.added > 1 ? 's' : '';
   const parts = [`${r.added} nouvelle${s} carte${s}`];
   if (r.updated) parts.push(`${r.updated} mise(s) à jour`);
@@ -1615,7 +1590,7 @@ function settingsModal() {
     ${store.hiddenDecks().length ? `
       <h3>Cours masqués</h3>
       <div class="menu">${store.hiddenDecks().map((d) => `
-        <button class="menu-item" type="button" data-unhide="${d.id}">Réafficher « ${esc(d.name)} »</button>`).join('')}
+        <button class="menu-item" type="button" data-unhide="${esc(d.id)}">Réafficher « ${esc(d.name)} »</button>`).join('')}
       </div>` : ''}
     <h3>Cartes</h3>
     <p class="muted">Ajoutez vos propres cartes depuis un fichier texte ou un copier-coller.</p>
@@ -1651,7 +1626,7 @@ function settingsModal() {
   });
   modal.querySelector('[data-restore]').addEventListener('click', () => {
     pickFile('.json,application/json', (text) => {
-      try { store.importBackup(text); modal.close(); render(); toast('Sauvegarde restaurée'); }
+      try { store.importBackup(text); invalidateSearch(); modal.close(); render(); toast('Sauvegarde restaurée'); }
       catch (err) { toast(err.message); }
     });
   });
@@ -1701,8 +1676,10 @@ $app.addEventListener('click', (e) => {
     }
     case 'grade': return grade(Number(el.dataset.grade));
     case 'zoom': return safeSrc(el.dataset.src) && openViewer(el.dataset.src);
-    case 'clear-results': {
-      if (!confirm('Effacer toutes vos notes d\'annales ? Les annales elles-mêmes sont conservées.')) return;
+    case 'clear-results': { confirmClearResults = true; return render(); }
+    case 'clear-results-no': { confirmClearResults = false; return render(); }
+    case 'clear-results-yes': {
+      confirmClearResults = false;
       try { localStorage.removeItem(RESULTATS_KEY); } catch {}
       toast('Résultats effacés');
       return render();
@@ -1743,33 +1720,6 @@ function openViewer(src) {
   document.body.appendChild(v);
 }
 
-$app.addEventListener('submit', (e) => {
-  if (e.target.id !== 'add-form') return;
-  e.preventDefault();
-  const f = new FormData(e.target);
-  const front = f.get('front').trim(), back = f.get('back').trim();
-  if (!front || !back) return;
-  store.addCard(e.target.dataset.id, front, back);
-  render();
-  document.querySelector('#add-form [name=front]')?.focus();
-  toast('Carte ajoutée');
-});
-
-$app.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' && (e.metaKey || e.ctrlKey) && e.target.closest('#add-form')) {
-    e.preventDefault();
-    e.target.closest('form').requestSubmit();
-  }
-});
-
-$app.addEventListener('input', (e) => {
-  if (e.target.id !== 'search') return;
-  const q = fold(e.target.value);   // sans accents, comme la recherche globale
-  document.querySelectorAll('#card-list .card-row-item').forEach((li) => {
-    li.hidden = q && !li.dataset.q.includes(q);
-  });
-});
-
 document.addEventListener('keydown', (e) => {
   if (!qsession || modal.open || e.metaKey || e.ctrlKey || e.altKey || e.target.matches('input, textarea')) return;
   const r = route();
@@ -1799,7 +1749,8 @@ async function updateLibrary(force = false) {
   const r = await syncLibrary({ force });
   window.memoCollectives?.shareFlashcards();
   if (!r) return;
-  if ((force || r.added || r.updated || r.removed) && route().view !== 'review' && !modal.open) render();
+  if (r.added || r.updated || r.removed || r.changed) invalidateSearch();
+  if ((r.changed || r.added || r.updated || r.removed) && route().view !== 'review' && !modal.open) render();
   if (r.added) toast(`Cours mis à jour : ${r.added} nouvelle${r.added > 1 ? 's' : ''} question${r.added > 1 ? 's' : ''}`);
 }
 
@@ -1819,4 +1770,7 @@ trackView();
 flushStats();
 updateLibrary(true);
 loadAnnales();
-quiz.loadList().then(() => { if (route().view === 'home' && !modal.open) render(); });
+const prevQuizList = JSON.stringify(quiz.knownList());
+quiz.loadList().then((list) => {
+  if (JSON.stringify(list) !== prevQuizList && route().view === 'home' && !modal.open) render();
+});

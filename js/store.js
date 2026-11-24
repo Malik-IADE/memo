@@ -22,6 +22,8 @@ function empty() {
   };
 }
 
+let dirty = false;
+
 function load() {
   try {
     const raw = localStorage.getItem(KEY);
@@ -33,13 +35,14 @@ function load() {
         cards: d.cards || {},
         meta: { ...e.meta, ...d.meta, settings: { ...e.meta.settings, ...d.meta?.settings } },
       };
-      migrate(data, d.meta?.version || 1);
-      purge(data);
+      if (migrate(data, d.meta?.version || 1)) dirty = true;
+      if (purge(data)) dirty = true;
       return data;
     }
   } catch (err) {
     console.warn('Lecture des données impossible', err);
   }
+  dirty = true;
   return empty();
 }
 
@@ -47,17 +50,20 @@ function load() {
 // cours partagés sont effacées pour de bon (la bibliothèque est rechargée depuis le site) ;
 // les autres suppressions (cartes et paquets personnels) sont gardées 90 jours, puis effacées.
 function purge(data) {
+  let removed = false;
   const old = now() - 90 * 864e5;
   for (const [id, c] of Object.entries(data.cards)) {
-    if (c?.deleted && (c.lib || (c.updated || 0) < old)) delete data.cards[id];
+    if (c?.deleted && (c.lib || (c.updated || 0) < old)) { delete data.cards[id]; removed = true; }
   }
   const used = new Set(Object.values(data.cards).map((c) => c.deckId));
   for (const [id, d] of Object.entries(data.decks)) {
-    if (d?.deleted && (d.updated || 0) < old && !used.has(id)) delete data.decks[id];
+    if (d?.deleted && (d.updated || 0) < old && !used.has(id)) { delete data.decks[id]; removed = true; }
   }
+  return removed;
 }
 
 function migrate(data, from) {
+  if (from >= VERSION) return false;
   if (from < 2) {
     // v1 : les cartes ratées revenaient dans la minute. On les répartit sur 1 à 3 jours.
     const tomorrow = dueInDays(1);
@@ -70,10 +76,11 @@ function migrate(data, from) {
     delete data.meta.introduced;
   }
   data.meta.version = VERSION;
+  return true;
 }
 
 let db = load();
-save();
+if (dirty) save();
 
 export function save() {
   try {
@@ -120,10 +127,27 @@ export function deleteDeck(id) {
   for (const c of Object.values(db.cards)) {
     if (c.deckId === id && !c.deleted) Object.assign(c, { deleted: true, updated: t });
   }
+  invalidateCards();
   save();
 }
 
 /* ---------- Cartes ---------- */
+
+// Index en mémoire par paquet : évite de parcourir les ~1 150 cartes à chaque appel.
+let cardsIndex = null;
+const invalidateCards = () => { cardsIndex = null; };
+function getCardsIndex() {
+  if (!cardsIndex) {
+    cardsIndex = new Map();
+    for (const c of Object.values(db.cards)) {
+      if (!alive(c)) continue;
+      let list = cardsIndex.get(c.deckId);
+      if (!list) { list = []; cardsIndex.set(c.deckId, list); }
+      list.push(c);
+    }
+  }
+  return cardsIndex;
+}
 
 function newCard(deckId, front, back) {
   const t = now();
@@ -134,20 +158,22 @@ function newCard(deckId, front, back) {
   };
 }
 
-export const cards = (deckId) =>
-  Object.values(db.cards).filter((c) => alive(c) && c.deckId === deckId);
+export const cards = (deckId) => getCardsIndex().get(deckId) || [];
 export const card = (id) => (alive(db.cards[id]) ? db.cards[id] : null);
 
 export function addCard(deckId, front, back) {
   const c = newCard(deckId, front, back);
   db.cards[c.id] = c;
+  invalidateCards();
   save();
   return c;
 }
 
-export function updateCard(id, patch) {
-  Object.assign(db.cards[id], patch, { updated: now() });
-  save();
+export function updateCard(id, patch, { autosave = true } = {}) {
+  const prev = db.cards[id];
+  Object.assign(prev, patch, { updated: now() });
+  if ('deleted' in patch || 'deckId' in patch) invalidateCards();
+  if (autosave) save();
 }
 
 export const deleteCard = (id) => updateCard(id, { deleted: true });
@@ -227,6 +253,7 @@ export function importDecks(parsed, { prune = false, source = null, autosave = t
     }
   });
   changed ||= added + updated + removed > 0;
+  if (added || removed) invalidateCards();
   if (changed && autosave) save();
   return { added, updated, removed, names, changed };
 }
@@ -236,12 +263,12 @@ export function importDecks(parsed, { prune = false, source = null, autosave = t
 /** kind = 'new' (nouvelles cartes vues) ou 'rev' (révisions faites) aujourd'hui. */
 export const countToday = (deckId, kind) => db.meta.daily[today()]?.[deckId]?.[kind] || 0;
 
-export function bumpToday(deckId, kind) {
+export function bumpToday(deckId, kind, { autosave = true } = {}) {
   const k = today();
   db.meta.daily = { [k]: db.meta.daily[k] || {} }; // on ne garde que le jour en cours
   const d = (db.meta.daily[k][deckId] ??= { new: 0, rev: 0 });
   d[kind]++;
-  save();
+  if (autosave) save();
 }
 
 /* ---------- Réglages & sauvegarde ---------- */
@@ -263,19 +290,43 @@ export function importBackup(json) {
     throw new Error('Fichier de sauvegarde invalide');
   }
   // Un fichier de sauvegarde peut venir de quelqu'un d'autre : on n'accepte que des objets
-  // bien formés (id simples, textes en texte), pour qu'aucun contenu ne s'injecte dans la page.
-  const okId = (v) => typeof v === 'string' && /^[\w-]{1,64}$/.test(v);
+  // bien formés (id simples, sans clés réservées, champs autorisés uniquement).
+  const FORBIDDEN = new Set(['__proto__', 'constructor', 'prototype']);
+  const okId = (v) => typeof v === 'string' && /^[\w-]{1,64}$/.test(v) && !FORBIDDEN.has(v);
   const okStr = (v) => typeof v === 'string' && v.length <= 20000;
-  const valid = {
-    decks: (o, id) => o.id === id && okStr(o.name) && (o.source == null || okStr(o.source)),
-    cards: (o, id) => o.id === id && okId(o.deckId) && okStr(o.front) && okStr(o.back),
+  const okNum = (v, def = 0) => (typeof v === 'number' && Number.isFinite(v) ? v : def);
+  const sanitize = {
+    decks: (o, id) => {
+      if (o.id !== id || !okStr(o.name) || (o.source != null && !okStr(o.source))) return null;
+      const out = {
+        id, name: o.name, created: okNum(o.created), updated: okNum(o.updated),
+        deleted: !!o.deleted, hidden: !!o.hidden,
+      };
+      if (o.source != null) out.source = o.source;
+      return out;
+    },
+    cards: (o, id) => {
+      if (o.id !== id || !okId(o.deckId) || !okStr(o.front) || !okStr(o.back)) return null;
+      const out = {
+        id, deckId: o.deckId, front: o.front, back: o.back,
+        created: okNum(o.created), updated: okNum(o.updated), deleted: !!o.deleted,
+        seen: !!o.seen, reps: okNum(o.reps), interval: okNum(o.interval),
+        ease: okNum(o.ease, 2.5), lapses: okNum(o.lapses), due: okNum(o.due),
+      };
+      if (o.lib) out.lib = true;
+      if (Number.isInteger(o.lastGrade) && o.lastGrade >= 0 && o.lastGrade <= 3) out.lastGrade = o.lastGrade;
+      return out;
+    },
   };
   for (const kind of ['decks', 'cards']) {
     for (const [id, obj] of Object.entries(d[kind])) {
-      if (!okId(id) || !obj || typeof obj !== 'object' || !valid[kind](obj, id)) continue;
+      if (!okId(id) || !obj || typeof obj !== 'object') continue;
+      const clean = sanitize[kind](obj, id);
+      if (!clean) continue;
       const cur = db[kind][id];
-      if (!cur || (obj.updated || 0) > (cur.updated || 0)) db[kind][id] = obj;
+      if (!cur || clean.updated > (cur.updated || 0)) db[kind][id] = clean;
     }
   }
+  invalidateCards();
   save();
 }

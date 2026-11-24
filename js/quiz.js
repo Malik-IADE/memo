@@ -82,22 +82,38 @@ export const knownList = () => {
   try { return JSON.parse(localStorage.getItem('memo-quiz-list')) || []; } catch { return []; }
 };
 
+let loading = null;
 export async function loadQuizzes() {
   if (cache) return cache;
-  const list = await loadList();
-  const all = await Promise.all(list.map(async ({ file, sem, ue }) => {
+  if (loading) return loading;
+  loading = (async () => {
     try {
-      const res = await fetch(`quiz/${file}`, { cache: 'no-cache' });
-      if (!res.ok) return null;
-      const quiz = parseQuiz(await res.text(), file);
-      quiz.sem = sem; quiz.ue = ue;
-      quiz.slug = file.replace(/^.*\//, '').replace(/\.txt$/, '');
-      for (const x of quiz.questions) { x.sem = sem; x.ue = ue; }
-      return quiz.questions.length ? quiz : null;
-    } catch { return null; }
-  }));
-  cache = all.filter(Boolean);
-  return cache;
+      const list = await loadList();
+      const all = new Array(list.length);
+      let next = 0;
+      const worker = async () => {
+        while (next < list.length) {
+          const i = next++;
+          const { file, sem, ue } = list[i];
+          try {
+            const res = await fetch(`quiz/${file}`, { cache: 'no-cache' });
+            if (!res.ok) continue;
+            const quiz = parseQuiz(await res.text(), file);
+            quiz.sem = sem; quiz.ue = ue;
+            quiz.slug = file.replace(/^.*\//, '').replace(/\.txt$/, '');
+            for (const x of quiz.questions) { x.sem = sem; x.ue = ue; }
+            if (quiz.questions.length) all[i] = quiz;
+          } catch {}
+        }
+      };
+      await Promise.all(Array.from({ length: Math.min(6, list.length) }, worker));
+      cache = all.filter(Boolean);
+      return cache;
+    } finally {
+      loading = null;
+    }
+  })();
+  return loading;
 }
 export const loadedQuizzes = () => cache;
 
@@ -128,8 +144,13 @@ export function bilan() {
 /* ---------- Série en cours : reprise après avoir quitté ou fermé l'app ---------- */
 const RUN_KEY = 'memo-quiz-encours-v1';
 const RUN_MAX_AGE = 60 * 24 * 3600 * 1000; // une série abandonnée depuis 60 jours est oubliée
-const readRuns = () => { try { return JSON.parse(localStorage.getItem(RUN_KEY)) || {}; } catch { return {}; } };
-const writeRuns = (runs) => { try { localStorage.setItem(RUN_KEY, JSON.stringify(runs)); } catch {} };
+let runsCache = null;
+const readRuns = () => {
+  if (!runsCache) { try { runsCache = JSON.parse(localStorage.getItem(RUN_KEY)) || {}; } catch { runsCache = {}; } }
+  return runsCache;
+};
+const writeRuns = (runs) => { runsCache = runs; try { localStorage.setItem(RUN_KEY, JSON.stringify(runs)); } catch {} };
+addEventListener('storage', (e) => { if (e.key === RUN_KEY || e.key === null) runsCache = null; });
 
 /** Enregistre la série (questions par leur clé, ordre des propositions, position, choix en cours). */
 export function saveRun(s) {

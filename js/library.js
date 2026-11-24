@@ -64,6 +64,7 @@ export function syncLibrary({ force = false } = {}) {
       if (changed) store.save();
       // Cours retirés de liste.txt : on retire aussi leur paquet de l'app
       if (files.length) total.removed += store.pruneLibraryDecks(files);
+      total.changed = changed || total.removed > 0;
       lastSync = Date.now();
       return total;
     } catch {
