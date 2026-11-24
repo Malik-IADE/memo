@@ -220,7 +220,7 @@ Pour régler le volume courant d'un patient de 160 cm pesant 110 kg, sur quel po
 + Le poids idéal théorique, calculé sur la taille. :: Le volume pulmonaire dépend de la taille.
 - Le poids réel augmenté de 20 %. :: Ce n'est pas la règle.
 - La surface corporelle. :: Ce n'est pas la référence retenue.
-- La moyenne entre poids réel et poids idéal. :: Ce n'est pas la règle du cours.
+- La moyenne entre poids réel et poids idéal. :: Ce n'est pas la règle retenue.
 > Le Vt (6-8 mL/kg) se calcule sur le poids idéal théorique, qui dépend de la taille et du sexe : régler sur le poids réel d'un obèse expose à la surdistension.
 @ p. 50 à 52
 

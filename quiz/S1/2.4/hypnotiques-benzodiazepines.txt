@@ -31,7 +31,7 @@ Parmi les effets suivants, lesquels font partie des cinq effets classiques des b
 - Curarisant :: Les benzodiazépines sont myorelaxantes, ce qui n'est pas un bloc neuromusculaire.
 + Amnésiant antérograde :: Le patient mémorise mal ce qui suit la prise, ce qui pose problème pour les consignes en ambulatoire.
 - Analgésique :: Les benzodiazépines ne sont pas antalgiques. L'analgésie repose sur d'autres classes.
-> Les cinq effets classiques sont : anxiolytique, hypnotique, anticonvulsivant, myorelaxant et amnésiant antérograde. Le cours ajoute un sixième effet, la tolérance : l'usage chronique augmente les besoins et expose à un syndrome de sevrage à l'arrêt brutal. Aucun de ces effets n'est antalgique.
+> Les cinq effets classiques sont : anxiolytique, hypnotique, anticonvulsivant, myorelaxant et amnésiant antérograde. On y ajoute un sixième effet, la tolérance : l'usage chronique augmente les besoins et expose à un syndrome de sevrage à l'arrêt brutal. Aucun de ces effets n'est antalgique.
 @ p. 76 et 94
 
 QCU · Volume de distribution
@@ -95,10 +95,10 @@ Concernant les effets cardiovasculaires du propofol, quelles propositions sont e
 @ p. 36 et 40
 
 QCU · Syndrome de perfusion du propofol
-Quel ensemble de conditions correspond au syndrome de perfusion du propofol décrit dans le cours ?
+Quel ensemble de conditions correspond au syndrome de perfusion du propofol ?
 - Un bolus unique de 3 mg/kg chez un adulte jeune :: Le syndrome est lié à une perfusion prolongée à forte dose, pas à un bolus d'induction.
 + Une perfusion de plus de 4 mg/kg/h poursuivie au-delà de 48 heures :: Les autres facteurs de risque sont l'enfant, les catécholamines, les corticoïdes et le jeûne glucidique.
-- Une perfusion de 2 mg/kg/h pendant 6 heures au bloc :: Cette exposition reste très en deçà des repères de risque du cours.
+- Une perfusion de 2 mg/kg/h pendant 6 heures au bloc :: Cette exposition reste très en deçà des seuils de risque.
 - Une administration chez un patient allergique à l'œuf :: Ce n'est pas le mécanisme : il n'y a pas de protéine allergisante dans l'émulsion.
 - Une injection sur une veine du dos de la main :: Cette situation expose à la douleur à l'injection, pas à ce syndrome.
 > Le syndrome de perfusion du propofol survient lors d'une perfusion prolongée et à forte dose : plus de 4 mg/kg/h au-delà de 48 heures. Il associe acidose métabolique lactique, rhabdomyolyse, hyperkaliémie, atteinte rénale et défaillance cardiaque ; des urines vertes sont évocatrices mais non spécifiques. Devant une suspicion, la conduite est l'arrêt immédiat de la perfusion.
@@ -168,7 +168,7 @@ QCM · Effet paradoxal
 Concernant l'effet paradoxal des benzodiazépines, quelles propositions sont exactes ?
 + Il se manifeste par une agitation ou une désinhibition au lieu de la sédation attendue. :: On observe logorrhée, euphorie, agressivité ou affabulations.
 - Il survient surtout aux doses les plus fortes. :: Il apparaît volontiers à doses modérées, par inhibition des centres inhibiteurs.
-+ L'enfant, le sujet âgé et le patient alcoolique y sont particulièrement exposés. :: Ce sont les terrains cités par le cours.
++ L'enfant, le sujet âgé et le patient alcoolique y sont particulièrement exposés. :: Ce sont les terrains les plus exposés.
 - Il faut augmenter les doses jusqu'à obtenir la sédation. :: Empiler les doses expose à une dépression respiratoire : il faut d'abord sécuriser et rassurer.
 - Il traduit un surdosage, et impose donc de réduire la dose suivante de moitié. :: Il survient volontiers à dose modérée : ce n'est pas une question de surdosage.
 > L'effet paradoxal transforme la sédation attendue en agitation. La conduite est de sécuriser le patient et de le rassurer, sans augmenter automatiquement les doses ; une titration de flumazénil est discutée. Ce réflexe de ne pas réinjecter devant un comportement inattendu rejoint celui des myoclonies sous étomidate.
@@ -185,13 +185,13 @@ Concernant le midazolam, quelles propositions sont exactes ?
 @ p. 86 à 89
 
 QCU · Titration en sédation procédurale
-Chez une patiente âgée et fragile qui doit recevoir du midazolam en sédation procédurale, associé à un morphinique, quelle conduite correspond aux repères du cours ?
+Chez une patiente âgée et fragile qui doit recevoir du midazolam en sédation procédurale, associé à un morphinique, quelle conduite est adaptée ?
 - Un bolus initial de 5 mg, puis réévaluation à 15 minutes :: Cette dose est très supérieure aux repères pour ce terrain et expose à une dépression respiratoire.
 + Un bolus initial de 0,5 à 1 mg, puis des fractions de 0,5 mg en attendant l'effet maximal :: La dose totale reste souvent inférieure à 3,5 mg sur ce terrain.
 - Un bolus initial de 2,5 mg, renouvelé chaque minute jusqu'à la sédation :: C'est la dose de l'adulte sans fragilité, et réinjecter avant l'effet maximal superpose les doses.
 - Une dose unique calculée sur le poids, sans réévaluation :: La titration prime sur toute dose standardisée chez le sujet fragile.
 - Aucune surveillance particulière si la dose initiale est faible :: Une dose faible n'élimine pas le risque d'apnée.
-> Chez l'adulte, le cours retient 1 à 2,5 mg en bolus initial, puis 1 mg toutes les 3 à 5 minutes. Chez le sujet âgé, fragile ou recevant un morphinique : 0,5 à 1 mg, puis des fractions de 0,5 mg, en attendant l'effet maximal entre chaque. Dans tous les cas, oxygène, aspiration, ballon-masque et antagoniste doivent être à portée de main, avec surveillance de la sédation, de la fréquence respiratoire et de la SpO₂.
+> Chez l'adulte : 1 à 2,5 mg en bolus initial, puis 1 mg toutes les 3 à 5 minutes. Chez le sujet âgé, fragile ou recevant un morphinique : 0,5 à 1 mg, puis des fractions de 0,5 mg, en attendant l'effet maximal entre chaque. Dans tous les cas, oxygène, aspiration, ballon-masque et antagoniste doivent être à portée de main, avec surveillance de la sédation, de la fréquence respiratoire et de la SpO₂.
 @ p. 90
 
 QCM · Rémimazolam
@@ -225,11 +225,11 @@ Concernant le flumazénil, quelles propositions sont exactes ?
 @ p. 96 à 99
 
 QCM · Précautions avec le flumazénil
-Dans quelles situations le cours demande-t-il une prudence particulière avant d'administrer du flumazénil ?
+Dans quelles situations faut-il une prudence particulière avant d'administrer du flumazénil ?
 + Patient épileptique traité par benzodiazépines :: Lever l'effet anticonvulsivant peut déclencher une crise.
 + Intoxication associée à des antidépresseurs tricycliques :: Ces produits sont pro-convulsivants : l'association est particulièrement dangereuse.
 + Patient dépendant aux benzodiazépines au long cours :: L'antagonisation brutale peut provoquer un sevrage aigu.
-- Sédation procédurale trop profonde chez un patient sans antécédent :: C'est au contraire une indication retenue par le cours.
+- Sédation procédurale trop profonde chez un patient sans antécédent :: C'est au contraire une indication.
 - Patient de plus de 65 ans :: L'âge n'est pas en soi une précaution citée ; c'est au contraire un terrain fréquent de surdosage à traiter.
 > Le flumazénil n'est pas un test anodin devant tout trouble de la conscience. Il est pro-convulsivant : prudence chez l'épileptique traité, en cas de co-ingestion de tricycliques ou d'autres pro-convulsivants, et chez le patient dépendant, chez qui il peut déclencher un sevrage brutal.
 @ p. 96, 98 et 99
@@ -269,8 +269,8 @@ Concernant l'administration des hypnotiques chez le sujet âgé, quelles proposi
 + La sensibilité cérébrale augmente : l'effet est obtenu à une concentration plus faible. :: Les courbes dose-effet sont déplacées vers la gauche avec l'âge.
 - La composition corporelle change peu avec l'âge. :: La masse grasse augmente et la masse maigre diminue : pic initial plus élevé et stockage tissulaire.
 - La rigidité artérielle protège le sujet âgé de l'hypotension à l'induction. :: Le système sympathique est moins efficace : l'hypotension est plus fréquente et plus profonde après 70 ans.
-+ Les benzodiazépines favorisent confusion, delirium, chutes et dysfonction cognitive postopératoire. :: Le cours invite à les éviter en prémédication sur ce terrain.
-- Les doses de l'adulte jeune rapportées au poids restent valables après 80 ans. :: Le repère du cours est d'environ 1 mg/kg de propofol après 65 ans et 0,3 à 0,5 mg/kg après 80 ans.
++ Les benzodiazépines favorisent confusion, delirium, chutes et dysfonction cognitive postopératoire. :: Mieux vaut les éviter en prémédication sur ce terrain.
+- Les doses de l'adulte jeune rapportées au poids restent valables après 80 ans. :: Le repère est d'environ 1 mg/kg de propofol après 65 ans et 0,3 à 0,5 mg/kg après 80 ans.
 > Chez le sujet âgé, le même médicament rencontre un autre patient : cerveau plus sensible, composition corporelle modifiée, compensation hémodynamique limitée. Il faut réduire les doses, injecter lentement, attendre l'effet et préparer un vasopresseur avant l'induction. Une très petite dose peut suffire à provoquer une apnée.
 @ p. 110 à 114
 
@@ -281,7 +281,7 @@ Concernant la prémédication avant une intervention programmée, quelles propos
 - L'effet amnésiant est sans conséquence en ambulatoire. :: Le patient peut oublier les consignes de sortie, ce qui est un inconvénient pratique important.
 + L'hydroxyzine n'est pas dépourvue de risque. :: Elle allonge le QT et a des effets anticholinergiques, source de confusion chez le sujet âgé.
 - Devant une femme enceinte très anxieuse avant une césarienne programmée, une benzodiazépine est le premier choix. :: Le passage placentaire expose le nouveau-né à une détresse respiratoire et à une hypotonie : on privilégie les mesures non médicamenteuses.
-> La prémédication médicamenteuse n'apporte pas le bénéfice attendu et ajoute des inconvénients : amnésie des consignes, confusion chez le sujet âgé, passage placentaire. Le cours met en avant la prémédication comportementale : informer, établir le contact, choisir des mots neutres ou positifs, proposer de la musique, faire entrer un proche.
+> La prémédication médicamenteuse n'apporte pas le bénéfice attendu et ajoute des inconvénients : amnésie des consignes, confusion chez le sujet âgé, passage placentaire. On privilégie la prémédication comportementale : informer, établir le contact, choisir des mots neutres ou positifs, proposer de la musique, faire entrer un proche.
 @ p. 118 à 122 et 130
 
 QCM · Dépression respiratoire en sédation

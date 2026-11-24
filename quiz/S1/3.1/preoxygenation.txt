@@ -76,7 +76,7 @@ Concernant les risques de la préoxygénation, quelles propositions sont exactes
 
 QCM · Évaluation de la préoxygénation
 Concernant l'évaluation de la préoxygénation, quelles propositions sont exactes ?
-+ La FeO2 doit être supérieure à 90 %. :: C'est l'objectif du cours.
++ La FeO2 doit être supérieure à 90 %. :: C'est l'objectif à atteindre.
 + Le patient ne doit pas désaturer. :: Une désaturation fait rechercher un problème.
 + Il ne doit pas y avoir de fuite. :: Elle diminue l'efficacité.
 + Il ne doit pas y avoir de réinhalation. :: Une capnie qui monte malgré de grandes inspirations fait rechercher un mauvais réglage.

@@ -206,7 +206,7 @@ Concernant la demi-vie contextuelle, quelles propositions sont exactes ?
 
 QCM · Modèles compartimentaux
 Concernant les modèles pharmacocinétiques compartimentaux, quelles propositions sont exactes ?
-+ Dans les modèles du cours, le médicament est injecté dans le compartiment central V1 et éliminé depuis lui. :: C'est une convention de calcul.
++ Dans les modèles compartimentaux usuels, le médicament est injecté dans le compartiment central V1 et éliminé depuis lui. :: C'est une convention de calcul.
 + Le compartiment à distribution rapide correspond aux organes richement vascularisés. :: Cerveau, cœur, reins, foie.
 - La graisse appartient au compartiment à distribution rapide. :: Elle est peu perfusée : distribution lente.
 + Après l'arrêt, le médicament stocké en périphérie peut retourner vers le compartiment central. :: Cela retarde la baisse de concentration et le réveil.

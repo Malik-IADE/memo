@@ -130,7 +130,7 @@ Concernant les pressions au cours du cycle respiratoire, quelles propositions so
 + En ventilation spontanée, l'air sort quand la pression alvéolaire dépasse la pression atmosphérique. :: Le relâchement musculaire la fait remonter.
 + En fin d'inspiration et en fin d'expiration, les pressions alvéolaire et atmosphérique s'égalisent. :: Le débit s'annule.
 + En ventilation mécanique, le respirateur insuffle l'air sous pression positive. :: Le régime de pression est inversé par rapport à la ventilation spontanée.
-+ Cette inversion peut déstabiliser un patient hémodynamiquement fragile à l'intubation. :: Le cours évoque un « désamorçage » de la pompe cardiaque.
++ Cette inversion peut déstabiliser un patient hémodynamiquement fragile à l'intubation. :: On parle de « désamorçage » de la pompe cardiaque.
 > Ventilation spontanée : Palv < Patm à l'inspiration, Palv > Patm à l'expiration, égalité en fin de phase. La ventilation mécanique pousse l'air en pression positive, ce qui retentit sur l'hémodynamique.
 @ p. 75 à 81
 

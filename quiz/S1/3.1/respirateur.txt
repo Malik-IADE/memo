@@ -30,7 +30,7 @@ Concernant la distribution des gaz médicaux au bloc, quelles propositions sont 
 + Les prises comportent des détrompeurs et des codes couleur. :: Pour éviter les erreurs de raccordement.
 - La pression d'alimentation s'exprime en cmH2O, comme les réglages ventilatoires. :: Elle s'exprime en bars ; le circuit respiratoire en cmH2O.
 + L'oxygène est stocké sous forme liquide puis vaporisé. :: Un litre d'O2 liquide donne environ 850 L d'O2 gazeux.
-- La SFAR recommande d'étendre les réseaux de N2O. :: Elle appelle à arrêter leur approvisionnement.
+- Il est recommandé d'étendre les réseaux de N2O. :: Il est recommandé au contraire d'arrêter leur approvisionnement.
 > Les gaz médicaux (oxygène stocké liquide, air, N2O de moins en moins utilisé, vide) arrivent sous pression, détendus, avec des prises détrompées et un code couleur.
 @ p. 8 à 10
 

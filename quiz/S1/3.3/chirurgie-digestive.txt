@@ -106,7 +106,7 @@ Concernant la fonction rénale en chirurgie abdominale, quelles propositions son
 
 QCM · Iléus postopératoire
 Concernant l'iléus postopératoire, quelles propositions sont exactes ?
-+ C'est un arrêt transitoire du transit, lié à des réflexes et à l'inflammation. :: Définition du cours.
++ C'est un arrêt transitoire du transit, lié à des réflexes et à l'inflammation. :: C'est sa définition.
 + Le côlon est le dernier segment à reprendre son activité. :: Il met 3 à 5 jours, contre 6 à 12 heures pour le grêle.
 + Les morphiniques et la surcharge hydrique le prolongent. :: D'où l'épargne morphinique et des apports équilibrés.
 + La réalimentation précoce et la gomme à mâcher aident à le prévenir. :: Comme la cœlioscopie et l'absence de sonde gastrique.
@@ -208,7 +208,7 @@ QCM · Analgésie
 Concernant l'analgésie en chirurgie digestive, quelles propositions sont exactes ?
 + En cœlioscopie, elle associe paracétamol, AINS et infiltration des orifices de trocarts. :: Analgésie multimodale avec épargne morphinique.
 - En laparotomie, l'infiltration des orifices de trocarts est la technique de référence. :: Il n'y a pas de trocarts : la péridurale thoracique est la référence.
-- L'anesthésie sans opioïde est la stratégie recommandée en chirurgie digestive. :: Le cours privilégie l'épargne morphinique multimodale, pas l'anesthésie sans opioïde stricte systématique.
+- L'anesthésie sans opioïde est la stratégie recommandée en chirurgie digestive. :: On privilégie l'épargne morphinique multimodale, pas l'anesthésie sans opioïde stricte systématique.
 - Les morphiniques à forte dose favorisent la reprise du transit. :: Ils prolongent l'iléus.
 - L'analgésie postopératoire se décide en SSPI, selon l'EVA au réveil. :: Elle doit être anticipée dès le peropératoire, en suivant les temps douloureux.
 > L'analgésie est toujours multimodale avec épargne morphinique. Cœlioscopie : paracétamol, AINS, infiltration. Laparotomie : péridurale thoracique, ou TAP bloc, cathéter cicatriciel, morphine intrathécale.

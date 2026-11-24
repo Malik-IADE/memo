@@ -29,8 +29,8 @@ Parmi ces boissons, laquelle est un liquide clair, autorisé jusqu'à 2 heures a
 - Un café au lait :: Le lait en fait un liquide non clair.
 - Un jus d'orange avec pulpe :: La pulpe en fait un liquide non clair.
 + Un thé sucré sans lait :: Eau, thé ou café sans lait et jus sans pulpe sont des liquides clairs, même sucrés.
-- Un soda gazeux :: Les boissons gazeuses sont des liquides non clairs dans le cours.
-- Un bouillon de légumes :: Ce n'est pas un liquide clair au sens du cours.
+- Un soda gazeux :: Les boissons gazeuses sont des liquides non clairs.
+- Un bouillon de légumes :: Ce n'est pas un liquide clair au sens des règles de jeûne.
 > Jeûne : 6 heures pour un repas léger et pour les liquides non clairs (lait, pulpe, boissons gazeuses) ; liquides clairs sucrés jusqu'à 2 heures avant, jusqu'à 400 mL ; ni alcool ni tabac.
 @ p. 19 et 21
 
@@ -96,7 +96,7 @@ Concernant la prévention médicamenteuse de l'inhalation, quelles propositions 
 
 QCU · Principe de la séquence rapide
 Quel est le principe de l'induction en séquence rapide ?
-+ Réduire au minimum le délai entre la perte des réflexes de protection des voies aériennes et la mise en place de la sonde d'intubation. :: C'est la définition du cours.
++ Réduire au minimum le délai entre la perte des réflexes de protection des voies aériennes et la mise en place de la sonde d'intubation. :: C'est sa définition.
 - Endormir le patient plus profondément pour éviter les vomissements. :: Ce n'est pas le principe ; une anesthésie trop légère favorise toutefois les vomissements.
 - Ventiler au masque à forte pression pour oxygéner avant l'intubation. :: La ventilation au masque est évitée, car elle insuffle de l'air dans l'estomac.
 - Intuber le patient vigile sous anesthésie locale. :: L'intubation vigile est réservée à l'intubation difficile prévue ; l'ISR utilise un hypnotique et un curare d'action rapide.
@@ -167,7 +167,7 @@ Concernant les morphiniques en séquence rapide, quelles propositions sont exact
 QCU · Ordre de la séquence rapide
 Quel est l'ordre correct des étapes de la séquence rapide ?
 - Hypnotique, préoxygénation, curare, intubation, vérification :: La préoxygénation se fait avant l'hypnotique.
-+ Vérification du matériel, préoxygénation, hypnotique, curare, intubation, ballonnet, vérification par l'EtCO2 :: C'est l'enchaînement du cours.
++ Vérification du matériel, préoxygénation, hypnotique, curare, intubation, ballonnet, vérification par l'EtCO2 :: C'est l'enchaînement attendu.
 - Préoxygénation, curare, ventilation au masque, hypnotique, intubation :: On ne ventile pas au masque, et l'hypnotique précède le curare.
 - Vérification du matériel, hypnotique, ventilation au masque, curare, intubation :: Pas de ventilation au masque, et pas de préoxygénation dans cet ordre.
 - Préoxygénation, intubation vigile, hypnotique, curare, vérification :: L'intubation vigile est réservée à une intubation difficile prévue.

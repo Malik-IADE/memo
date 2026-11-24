@@ -100,7 +100,7 @@ Quels objectifs peropératoires sont adaptés chez le sujet âgé ?
 + Éviter une anesthésie trop profonde grâce au BIS. :: Cible 40 à 60 ; cela pourrait réduire le délire.
 + Prévenir l'hypothermie dès l'arrivée au bloc. :: Le sujet âgé se refroidit vite et se réchauffe mal.
 + Traiter sans délai toute hypotension. :: Pour limiter les complications rénales et myocardiques.
-+ Viser un BIS entre 40 et 60. :: C'est la cible citée dans le cours.
++ Viser un BIS entre 40 et 60. :: C'est la cible recommandée.
 > Connaître la PAM de base, éviter une PAM < 60-70 mmHg (ou < 70 % de la base), traiter sans délai. BIS entre 40 et 60. Réchauffer avant l'induction et à chaque étape : l'hypothermie expose à l'ischémie myocardique, aux troubles du rythme et de la coagulation, à l'infection.
 @ p. 46, 47 et 49
 

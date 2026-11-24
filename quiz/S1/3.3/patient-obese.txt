@@ -55,7 +55,7 @@ Concernant la pharmacocinétique chez le patient obèse, quelles propositions so
 @ p. 17 à 19
 
 QCU · Poids de calcul
-Un homme mesure 1,80 m et pèse 140 kg. En utilisant l'approximation du cours, quel est son poids idéal théorique ?
+Un homme mesure 1,80 m et pèse 140 kg. Avec l'approximation taille (cm) − 100, quel est son poids idéal théorique ?
 - 70 kg :: C'est l'approximation pour une femme : taille − 110.
 + 80 kg :: Chez l'homme : taille (cm) − 100 = 180 − 100 = 80 kg.
 - 104 kg :: C'est le poids ajusté : 80 + 0,4 × (140 − 80) = 104 kg.
@@ -115,7 +115,7 @@ Concernant le risque d'estomac plein et d'intubation difficile chez l'obèse, qu
 @ p. 36, 41 et 43
 
 QCU · Séquence rapide
-Selon le cours, quand l'induction en séquence rapide est-elle recommandée chez le patient obèse ?
+Quand l'induction en séquence rapide est-elle recommandée chez le patient obèse ?
 - Dès un IMC supérieur à 30 kg/m² :: Pas de recommandation à ce niveau.
 - À partir d'un IMC de 35 kg/m² :: Entre 35 et 40, la décision se prend au cas par cas.
 + À partir d'un IMC de 40 kg/m² :: Avec un curare de délai court (succinylcholine ou rocuronium).

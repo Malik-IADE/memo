@@ -76,7 +76,7 @@ Concernant l'aspect de l'EEG frontal, quelles propositions sont exactes ?
 
 QCM · Séquence sous propofol
 En augmentant progressivement la cible de propofol, concernant l'évolution du tracé EEG, quelles propositions sont exactes ?
-+ Une phase bêta de sédation légère peut précéder le motif d'entretien. :: Le cours la compare à l'ivresse.
++ Une phase bêta de sédation légère peut précéder le motif d'entretien. :: Elle ressemble à une ivresse.
 + Le motif alpha-delta continu est compatible avec l'hypnose recherchée. :: C'est le motif frontal typique sous propofol.
 + La perte de l'alpha au profit de grandes ondes delta évoque un pré-burst. :: Elle doit faire réexaminer la profondeur.
 + Le burst-suppression alterne bouffées d'activité et plages plates. :: Le ratio de suppression augmente.

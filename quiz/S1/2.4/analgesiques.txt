@@ -110,7 +110,7 @@ Concernant les AINS et la fonction rénale, quelles propositions sont exactes ?
 + Ils peuvent provoquer une hyperkaliémie et une rétention hydrosodée. :: Effets liés à l'inhibition des COX rénales.
 + La déshydratation et l'âge aggravent le risque rénal. :: Le rein dépend davantage des prostaglandines.
 - L'association à un IEC et un diurétique est sans risque particulier. :: La triple association AINS + IEC/ARA2 + diurétique est la plus dangereuse.
-+ L'insuffisance rénale sévère est une contre-indication. :: Selon le RCP ; la SFAR retient un seuil plus restrictif.
++ L'insuffisance rénale sévère est une contre-indication. :: Selon le RCP ; un seuil plus restrictif est souvent retenu.
 > Les AINS menacent un rein dont la perfusion dépend des prostaglandines : âge, déshydratation, IEC/ARA2 et diurétiques aggravent le risque. Hydrater et surveiller la fonction rénale.
 @ p. 4 et 5
 
@@ -178,7 +178,7 @@ QCU · Opioïde postopératoire
 Concernant l'opioïde fort recommandé en postopératoire, quelle proposition est exacte ?
 - Tramadol par voie IV en première intention. :: C'est un opioïde faible.
 - Morphine par voie intramusculaire de préférence. :: Les voies IM et SC sont déconseillées.
-+ Morphine ou oxycodone, de préférence par voie orale. :: Recommandation forte de la SFAR.
++ Morphine ou oxycodone, de préférence par voie orale. :: C'est une recommandation forte.
 - Association morphine-kétamine dans la même PCA. :: Elle n'est pas recommandée.
 - Opioïde seul, sans AINS, pour éviter les interactions. :: L'AINS associé à la morphine est recommandé sans contre-indication.
 > En postopératoire : morphine ou oxycodone, plutôt per os, associée aux AINS et au paracétamol (épargne morphinique).
@@ -270,7 +270,7 @@ Concernant les AINS chez le sujet âgé et la femme enceinte, quelles propositio
 + Chez le sujet âgé, ils peuvent provoquer un syndrome confusionnel. :: Effet neurosensoriel et psychique.
 + Ils sont possibles au 2e trimestre de la grossesse. :: Ils sont à éviter au 1er trimestre et interdits dès 24 SA.
 + À partir de 24 SA, l'aspirine à plus de 500 mg/j est interdite comme les autres AINS. :: Les collyres restent possibles.
-- Ils diminuent l'efficacité du dispositif intra-utérin. :: Le cours écarte cette ancienne idée.
+- Ils diminuent l'efficacité du dispositif intra-utérin. :: C'est une idée ancienne, abandonnée.
 > Sujet âgé : éviter les AINS et la polymédication, sinon petite dose, demi-vie courte, durée brève. Grossesse : éviter au 1er trimestre, possibles au 2e, interdits dès 24 SA (début du 6e mois).
 @ Cours, diapo 33
 

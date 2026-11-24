@@ -149,7 +149,7 @@ Concernant l'objectif de température en anesthésie, quelle proposition est exa
 - Atteindre 36 °C en fin d'intervention suffit. :: 36 °C est le seuil qui définit l'hypothermie, pas l'objectif.
 - Une température de 35,5 °C est acceptable si le patient ne frissonne pas. :: L'absence de frisson ne protège pas des complications.
 + Viser une température centrale d'au moins 36,5 °C à l'arrivée en SSPI. :: Cible plus proche de la température physiologique, à comparer à la mesure préopératoire.
-- Une légère hypothermie est recherchée pour protéger les organes. :: Le cours traite de l'hypothermie involontaire, à prévenir.
+- Une légère hypothermie est recherchée pour protéger les organes. :: L'hypothermie périopératoire est involontaire et à prévenir.
 - La température préopératoire est sans intérêt pour l'évaluation. :: Retrouver la température de départ signe une prévention efficace.
 > L'objectif est une Tc ≥ 36,5 °C à l'arrivée en SSPI, et idéalement la température mesurée avant l'anesthésie.
 @ p. 17 à 20

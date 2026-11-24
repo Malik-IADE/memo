@@ -29,7 +29,7 @@ Concernant le stress et l'anxiété, quelles propositions sont exactes ?
 - Le stress est une émotion. :: L'anxiété est une émotion ; le stress est un mécanisme de réponse.
 + Le stress est un mécanisme d'adaptation qui peut entraîner différentes émotions, dont l'anxiété. :: Il mobilise des moyens physiologiques et psychologiques.
 + L'anxiété est une émotion désagréable, dirigée vers le futur. :: Parfois exagérée par rapport à la menace.
-+ Un stress qui se prolonge, faute de ressources suffisantes, peut se compliquer d'anxiété. :: Selon le cours.
++ Un stress qui se prolonge, faute de ressources suffisantes, peut se compliquer d'anxiété. :: Le stress devient alors pathologique.
 - Stress et anxiété désignent strictement le même phénomène. :: Les deux mots sont souvent confondus, mais ne désignent pas la même chose.
 > Le stress est l'ensemble des réponses d'adaptation à une contrainte ; c'est une dépense d'énergie qui dépend de la perception de la situation. L'anxiété est une émotion désagréable tournée vers le futur. Un stress prolongé peut donner lieu à de l'anxiété.
 @ p. 11 à 15
@@ -76,10 +76,10 @@ Parmi les manifestations suivantes, lesquelles peuvent traduire une anxiété pr
 
 QCM · Facteurs favorisants
 Concernant les facteurs favorisant l'anxiété préopératoire, quelles propositions sont exactes ?
-+ Le jeûne est un facteur aggravant. :: Selon le cours.
++ Le jeûne est un facteur aggravant. :: Faim et soif majorent l'inconfort et l'anxiété.
 - Un haut niveau d'études protège de l'anxiété. :: Il est cité comme facteur favorisant.
 + Un excès d'informations peut favoriser l'anxiété, comme leur manque. :: L'information doit être adaptée et comprise.
-- Les patients classés ASA 1 sont les plus anxieux. :: Le cours cite la catégorie ASA 3.
+- Les patients classés ASA 1 sont les plus anxieux. :: Ce sont plutôt les patients ASA 3.
 + Le transport sur un brancard est un facteur favorisant. :: Il renforce la passivité du patient.
 > L'anxiété est favorisée par le sexe féminin, l'âge (enfant, adolescent, personne âgée), un haut niveau d'études, la personnalité et le vécu, la catégorie ASA 3, une information insuffisante, mal comprise ou excessive, le jeûne, l'hospitalisation et le transport sur un brancard.
 @ p. 27 et 28
@@ -102,8 +102,8 @@ QCU · Anxiolyse et induction
 + Les deux affirmations sont vraies, sans lien entre elles. :: Deux constats vrais et indépendants, qui justifient tous deux l'attention portée à l'accueil.
 - La première est vraie, la seconde est fausse. :: La seconde est vraie : le patient se réveille dans l'état d'esprit de son induction.
 - La première est fausse, la seconde est vraie. :: La première est vraie : l'anxiolyse facilite l'induction et réduit les besoins en agents.
-- Les deux affirmations sont fausses. :: Les deux sont vraies d'après le cours.
-> Le cours relève une corrélation entre anxiolyse, facilité d'induction et baisse des produits anesthésiques, et constate que le patient se réveille dans l'état d'esprit de son induction. Ce sont deux constats distincts, qui justifient tous deux l'attention portée à l'accueil.
+- Les deux affirmations sont fausses. :: Les deux sont vraies.
+> On observe une corrélation entre anxiolyse, facilité d'induction et baisse des produits anesthésiques, et le patient se réveille dans l'état d'esprit de son induction. Ce sont deux constats distincts, qui justifient tous deux l'attention portée à l'accueil.
 @ p. 46
 
 QCM · Concept d'accueil
@@ -137,7 +137,7 @@ Selon la pyramide des besoins, quels besoins du patient sont mis à mal à son a
 @ p. 41 à 43
 
 QCM · Éléments de la confiance
-Parmi les qualités suivantes, lesquelles font partie des éléments de la confiance décrits dans le cours ?
+Parmi les qualités suivantes, lesquelles font partie des éléments de la confiance soignant–soigné ?
 + La chaleur :: Sourire, regard adéquat et personnalisé.
 + L'humilité :: Le professionnel est conscient de ses limites.
 + L'humour :: Il allège une situation, chez un soignant capable de recul.
@@ -147,7 +147,7 @@ Parmi les qualités suivantes, lesquelles font partie des éléments de la confi
 @ p. 44 et 45
 
 QCU · Empathie
-Selon le cours, que permet l'empathie dans la relation soignant–soigné ?
+Que permet l'empathie dans la relation soignant–soigné ?
 - Partager les émotions du patient en les ressentant soi-même :: L'empathie ne consiste pas à ressentir ces émotions.
 + Observer et identifier les émotions du patient, sans les ressentir soi-même :: C'est la définition retenue.
 - Rassurer le patient en minimisant ses peurs :: Minimiser n'est pas reconnaître l'émotion.
@@ -158,7 +158,7 @@ Selon le cours, que permet l'empathie dans la relation soignant–soigné ?
 
 QCM · Alliance thérapeutique
 Concernant la relation de confiance et l'alliance thérapeutique, quelles propositions sont exactes ?
-+ La mise en confiance du futur opéré est une anxiolyse non médicamenteuse. :: Selon le cours.
++ La mise en confiance du futur opéré est une anxiolyse non médicamenteuse. :: Elle réduit le recours aux anxiolytiques.
 + La conviction du soignant se ressent dans sa façon de communiquer. :: Elle est indispensable pour acquérir la confiance du patient.
 + Une information claire aide le patient à prendre ses décisions. :: Et évite les malentendus.
 + L'alliance thérapeutique suppose un objectif de soin commun au patient et au soignant. :: Elle optimise la coopération.
@@ -211,7 +211,7 @@ Concernant les mesures de confort à l'accueil du patient, quelles propositions 
 + L'arrivée du patient debout au bloc peut contribuer à limiter son anxiété. :: Le patient est acteur, notamment en ambulatoire.
 + Le réchauffement commence dès l'arrivée au bloc. :: Couvertures, réchauffement autocontrôlé, tables et salles.
 - Le respect de la pudeur passe après les vérifications de sécurité. :: Il fait partie de l'accueil dès l'arrivée.
-- L'installation est réalisée rapidement, la douceur des manipulations venant au second plan. :: Le cours insiste sur une installation confortable et des manipulations douces.
+- L'installation est réalisée rapidement, la douceur des manipulations venant au second plan. :: On privilégie une installation confortable et des manipulations douces.
 - L'IADE seul se présente, les autres membres de l'équipe restant anonymes. :: Chaque soignant se présente.
 > Dès l'accueil : patient acteur (arrivée debout possible), confort thermique, installation confortable et manipulations douces, respect de la pudeur, présentation de chacun. L'accueil conditionne un sommeil anesthésique de qualité, une mémorisation positive et un réveil calme.
 @ p. 60, 62 et 64

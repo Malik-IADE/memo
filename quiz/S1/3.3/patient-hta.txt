@@ -15,8 +15,8 @@ Concernant les déterminants de la pression artérielle (PA), quelles propositio
 @ p. 3 et 91
 
 QCU · Définition de l'HTA
-Selon la définition retenue dans le cours, à partir de quelles valeurs parle-t-on d'hypertension artérielle ?
-- PAS > 130 mmHg et/ou PAD > 80 mmHg :: Ces valeurs sont considérées comme normales dans la définition du cours.
+À partir de quelles valeurs parle-t-on d'hypertension artérielle ?
+- PAS > 130 mmHg et/ou PAD > 80 mmHg :: Ces valeurs sont considérées comme normales dans la définition actuelle.
 + PAS > 140 mmHg et/ou PAD > 90 mmHg :: La PA normale est < 140 mmHg de systolique et < 90 mmHg de diastolique.
 - PAS > 150 mmHg et/ou PAD > 95 mmHg :: Ce n'est pas un seuil de la classification.
 - PAS > 160 mmHg et/ou PAD > 100 mmHg :: C'est le seuil de l'HTA de grade 2.
@@ -36,11 +36,11 @@ Un patient a une PA à 172/104 mmHg, confirmée sur plusieurs mesures. Quel est 
 
 QCM · Mesure de la pression artérielle
 Concernant la mesure de la PA pour poser le diagnostic d'HTA, quelles propositions sont exactes ?
-+ Le diagnostic repose sur plusieurs mesures, réalisées lors de consultations différentes. :: Le cours retient 3 mesures lors de 2 consultations.
++ Le diagnostic repose sur plusieurs mesures, réalisées lors de consultations différentes. :: On retient 3 mesures lors de 2 consultations.
 + La PA est mesurée aux deux bras. :: C'est une règle de la mesure initiale.
 - Un brassard trop petit pour le bras du patient sous-estime la PA. :: Un brassard trop serré ou trop petit surestime la PA.
 + Un brassard trop large sous-estime la PA. :: Il faut un brassard adapté à la taille du bras.
-+ L'automesure aide à connaître les valeurs habituelles en dehors de l'effet blouse blanche. :: Elle est valorisée par le cours.
++ L'automesure aide à connaître les valeurs habituelles en dehors de l'effet blouse blanche. :: Elle est recommandée.
 > Une mesure fiable demande des mesures répétées, aux deux bras, avec un brassard adapté. L'automesure aide à connaître les valeurs habituelles, en dehors de l'effet blouse blanche.
 @ p. 10 et 57
 
@@ -175,7 +175,7 @@ Quelles complications postopératoires sont associées à l'hypotension peropér
 @ p. 37, 40 et 54
 
 QCU · Objectif de PAM
-Selon la recommandation retenue dans le cours, quel est l'objectif de PAM peropératoire chez un patient hypertendu chronique ?
+Quel est l'objectif de PAM peropératoire chez un patient hypertendu chronique ?
 - PAM > 55 mmHg :: C'est un seuil d'étude associé aux complications, pas un objectif.
 - PAM entre 60 et 70 mmHg, comme chez le non-hypertendu :: C'est le seuil à ne pas franchir chez le non-hypertendu.
 + PAM > 70 mmHg ou > 90 % de la PAM habituelle :: L'objectif tient compte de la PA de référence du patient.
@@ -249,7 +249,7 @@ Concernant les alphabloquants et les inhibiteurs calciques, quelles propositions
 + Les alphabloquants diminuent la PA en réduisant les résistances périphériques, sans modifier le débit cardiaque. :: Ils bloquent les récepteurs alpha-1.
 - Les alphabloquants entraînent une tachycardie réflexe importante. :: La baisse de PA se fait sans augmentation réflexe de la FC.
 + Les inhibiteurs calciques bloquent l'entrée du calcium dans les cellules musculaires lisses. :: Ils entraînent une vasodilatation.
-+ Les inhibiteurs calciques peuvent entraîner une tachycardie réflexe au bloc. :: C'est l'effet signalé dans le cours, lié à la vasodilatation.
++ Les inhibiteurs calciques peuvent entraîner une tachycardie réflexe au bloc. :: C'est un effet lié à la vasodilatation.
 + L'urapidil est un alphabloquant utilisable par voie IV. :: La nicardipine est l'inhibiteur calcique IV.
 > Alphabloquants (prazosine, urapidil) : blocage alpha-1, baisse des résistances sans tachycardie réflexe. Inhibiteurs calciques : vasodilatation, baisse de l'inotropisme et du chronotropisme. Les deux familles sont poursuivies en périopératoire.
 @ p. 64, 66 et 67
@@ -267,7 +267,7 @@ Concernant les diurétiques, quelles propositions sont exactes ?
 QCM · Système rénine-angiotensine-aldostérone
 Concernant le système rénine-angiotensine-aldostérone (SRAA) et ses inhibiteurs, quelles propositions sont exactes ?
 + L'enzyme de conversion transforme l'angiotensine I en angiotensine II. :: C'est la cible des IEC.
-+ L'angiotensine II entraîne une vasoconstriction et stimule la synthèse d'aldostérone par la surrénale. :: Ce sont ses deux effets présentés dans le cours.
++ L'angiotensine II entraîne une vasoconstriction et stimule la synthèse d'aldostérone par la surrénale. :: Ce sont ses deux effets principaux.
 - Les ARA2 (sartans) inhibent l'enzyme de conversion. :: Ils bloquent le récepteur de l'angiotensine II.
 - La rénine transforme l'angiotensine I en angiotensine II. :: La rénine transforme l'angiotensinogène en angiotensine I.
 - Les inhibiteurs directs de la rénine bloquent le récepteur de l'angiotensine II. :: C'est le mode d'action des ARA2. Les inhibiteurs de la rénine agissent en amont, sur la formation d'angiotensine I.
@@ -276,7 +276,7 @@ Concernant le système rénine-angiotensine-aldostérone (SRAA) et ses inhibiteu
 
 QCM · IEC et ARA2 en périopératoire
 Concernant les IEC et les ARA2 en périopératoire, quelles propositions sont exactes ?
-+ Chez un patient traité pour une HTA isolée, ils sont interrompus avant l'intervention. :: Le cours retient un arrêt de plus de 12 heures.
++ Chez un patient traité pour une HTA isolée, ils sont interrompus avant l'intervention. :: On retient un arrêt de plus de 12 heures.
 + Leur poursuite expose à une hypotension sévère sous anesthésie. :: Le SRAA ne peut plus compenser la baisse du tonus sympathique.
 - Chez un insuffisant cardiaque, ils sont interrompus comme dans l'HTA isolée. :: Chez l'insuffisant cardiaque, ils sont poursuivis.
 + Chez l'insuffisant cardiaque, leur poursuite se justifie par la baisse de la postcharge, qui aide le ventricule à éjecter. :: Le bénéfice de la poursuite l'emporte.

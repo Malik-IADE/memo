@@ -6,7 +6,7 @@
 
 QCM · Définitions
 Concernant la définition de la dénutrition et des notions voisines, quelles propositions sont exactes ?
-+ La dénutrition est un déséquilibre nutritionnel par carence d'apports, hausse des dépenses ou des pertes, ou leur association. :: Définition du cours.
++ La dénutrition est un déséquilibre nutritionnel par carence d'apports, hausse des dépenses ou des pertes, ou leur association. :: C'est sa définition.
 + Une dénutrition est possible avec un IMC normal ou élevé. :: En cas d'œdèmes ou d'obésité sarcopénique.
 - Le kwashiorkor correspond à l'adaptation à un jeûne prolongé. :: C'est le marasme ; le kwashiorkor est une carence protéino-calorique.
 - Le marasme est une carence protéique pure, avec œdèmes. :: Le marasme est l'adaptation à un jeûne prolongé ; la carence protéino-calorique correspond au kwashiorkor.

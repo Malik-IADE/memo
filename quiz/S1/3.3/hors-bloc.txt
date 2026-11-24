@@ -25,7 +25,7 @@ Pourquoi l'anesthésie hors bloc est-elle considérée comme un exercice diffici
 @ p. 7 et 23
 
 QCU · Principale cause de complications
-Selon le cours, quelle est la principale cause de complications en anesthésie hors bloc ?
+Quelle est la principale cause de complications en anesthésie hors bloc ?
 - Les erreurs d'identification du patient :: Ce n'est pas la cause principale retenue.
 - Les réactions allergiques aux produits de contraste :: Ce n'est pas la cause principale retenue.
 + L'inadéquation entre oxygénation et ventilation :: Souvent lors d'une sédation qui s'approfondit sans être repérée.
@@ -137,7 +137,7 @@ Concernant l'électroconvulsivothérapie, quelles propositions sont exactes ?
 QCM · Électroconvulsivothérapie : conduite de l'anesthésie
 Concernant la conduite de l'anesthésie pour une électroconvulsivothérapie, quelles propositions sont exactes ?
 + Elle se réalise au masque, avec un cale-dent. :: Après retrait des corps étrangers buccaux.
-+ L'hypnotique peut être le propofol ou l'étomidate. :: Selon le cours.
++ L'hypnotique peut être le propofol ou l'étomidate. :: Ce sont les deux hypnotiques utilisés.
 - Un morphinique est associé pour limiter la douleur au réveil. :: Les analgésiques élèvent le seuil épileptogène : pas d'analgésique.
 + La succinylcholine est le curare le plus souvent utilisé. :: Le besoin de curarisation est bref.
 - La curarisation a pour but de supprimer l'activité électrique de la crise. :: Elle limite les convulsions motrices ; la crise reste efficace sur le plan cérébral.

@@ -45,12 +45,12 @@ Un patient déclare boire « trois verres standard » par jour. Combien de gramm
 @ p. 17
 
 QCU · Binge drinking
-Selon le cours, à partir de quelle quantité parle-t-on de binge drinking ?
-- Au moins 2 verres en une occasion :: Ce n'est pas un seuil du cours.
+À partir de quelle quantité parle-t-on de binge drinking ?
+- Au moins 2 verres en une occasion :: Ce seuil n'est pas retenu.
 - Au moins 4 verres en une occasion :: C'est le seuil de l'usage à risque ponctuel.
 - Plus de 40 g d'éthanol par jour chez la femme :: C'est un niveau de consommation chronique élevé.
 + Plus de 60 g d'éthanol en une seule occasion :: Soit 6 unités françaises.
-- Plus de 100 g d'éthanol par semaine :: Ce n'est pas un seuil du cours.
+- Plus de 100 g d'éthanol par semaine :: Ce seuil n'est pas retenu.
 > L'usage à risque ponctuel commence à 4 verres au cours d'une même occasion ; le binge drinking désigne une intoxication de plus de 60 g d'éthanol en une seule occasion.
 @ p. 19
 
@@ -59,7 +59,7 @@ Concernant les niveaux de consommation chronique quotidienne d'alcool définis p
 - Une consommation de 30 g par jour est « faible » chez la femme. :: Chez la femme, le niveau faible va de 1 à 20 g.
 + Une consommation de 50 g par jour est « modérée » chez l'homme. :: Le niveau modéré va de 40 à 60 g chez l'homme.
 - Une consommation de 30 g par jour est « élevée » chez la femme. :: 30 g correspond au niveau modéré chez la femme (20 à 40 g).
-- Les seuils sont identiques chez l'homme et chez la femme. :: Ils sont plus bas chez la femme, ce que le cours relie au volume de distribution.
+- Les seuils sont identiques chez l'homme et chez la femme. :: Ils sont plus bas chez la femme, en lien avec un volume de distribution plus faible.
 - Le questionnaire AUDIT-C se passe de la notion de verre standard. :: Le patient doit d'abord comprendre ce qu'est un verre standard.
 > Faible : 1–40 g chez l'homme, 1–20 g chez la femme. Modéré : 40–60 g et 20–40 g. Élevé : > 60 g et > 40 g. L'AUDIT-C explore fréquence, quantité habituelle et épisodes de forte consommation.
 @ p. 17 et 20
@@ -87,7 +87,7 @@ Concernant les complications de l'alcoolisme chronique, quelles propositions son
 QCM · Troubles métaboliques et hémostase
 Chez un patient éthylique, quelles anomalies faut-il rechercher ?
 + Une hypoglycémie :: Trouble métabolique cité, avec l'acidocétose et l'hyponatrémie.
-- Une hypernatrémie :: Le cours cite l'hyponatrémie.
+- Une hypernatrémie :: C'est l'hyponatrémie qui est observée.
 + Une thrombopénie, en cas de cirrhose :: Avec thrombopathie et baisse des facteurs de coagulation.
 + Une anémie macrocytaire :: Elle fait partie des autres atteintes de l'alcool.
 - Une hypercalcémie :: Elle ne fait pas partie des troubles cités.
@@ -96,7 +96,7 @@ Chez un patient éthylique, quelles anomalies faut-il rechercher ?
 
 QCM · Intoxication alcoolique aiguë
 Un patient en intoxication alcoolique aiguë doit être opéré en urgence. Quelles propositions sont exactes ?
-+ Il est considéré comme ayant l'estomac plein. :: Le cours insiste sur ce point.
++ Il est considéré comme ayant l'estomac plein. :: L'intoxication alcoolique ralentit la vidange gastrique.
 - La vasodilatation s'accompagne d'une bradycardie réflexe. :: Elle s'accompagne d'une tachycardie réflexe, mal tolérée sur une cardiomyopathie dilatée.
 - Ses besoins en hypnotiques sont augmentés par l'induction enzymatique. :: En aigu, la sensibilité aux hypnotiques et aux opioïdes augmente : il faut titrer.
 - Il est exposé à une hyperthermie, liée à la vasodilatation. :: La vasodilatation favorise au contraire l'hypothermie.
@@ -128,7 +128,7 @@ Concernant les niveaux du sevrage alcoolique, quelles propositions sont exactes 
 
 QCM · Évaluation du patient éthylique
 Lors de la consultation d'un patient éthylique chronique, quelles propositions sont exactes ?
-+ La quantification de la consommation est l'élément prioritaire de l'interrogatoire. :: Le support le signale par « +++ ».
++ La quantification de la consommation est l'élément prioritaire de l'interrogatoire. :: Elle oriente toute la prise en charge.
 + La parotidomégalie et l'érythrose palmaire sont des signes d'intoxication chronique. :: Comme l'élévation des GGT et la macrocytose.
 + L'examen neurologique est tracé avant une ALR. :: Pour connaître les déficits préexistants (polynévrite).
 + Un bilan d'hémostase est demandé. :: Le risque hémorragique est lié à l'atteinte hépatique.
@@ -140,7 +140,7 @@ QCM · Agents anesthésiques et alcool
 Concernant l'adaptation des médicaments chez le patient éthylique, quelles propositions sont exactes ?
 + En consommation chronique, l'induction enzymatique peut diminuer la sensibilité aux agents anesthésiques. :: Hors insuffisance hépatique avancée.
 + Les curares à métabolisme extrahépatique sont privilégiés. :: En raison de l'atteinte hépatique.
-+ Les AINS exposent le cirrhotique à un risque rénal. :: Le cours le souligne.
++ Les AINS exposent le cirrhotique à un risque rénal. :: Ils sont à éviter sur ce terrain.
 - Le néfopam est l'antalgique de choix en cas d'antécédent de convulsions. :: Néfopam et tramadol sont proconvulsivants.
 - La naltrexone augmente l'effet des morphiniques. :: Antagoniste µ, elle diminue leur effet.
 > En aigu, la sensibilité aux hypnotiques et aux opioïdes augmente ; en chronique, l'induction enzymatique la diminue. On préfère les curares à métabolisme extrahépatique, on évite les AINS chez le cirrhotique et les antalgiques proconvulsivants (néfopam, tramadol) en cas d'antécédent convulsif.
@@ -177,12 +177,12 @@ Concernant le monoxyde de carbone (CO) chez le fumeur, quelles propositions sont
 @ p. 41, 43, 45 et 52
 
 QCU · Délai d'arrêt du tabac
-Selon le cours, quel délai d'arrêt du tabac est probablement nécessaire pour réduire le risque infectieux respiratoire ?
+Quel délai d'arrêt du tabac est probablement nécessaire pour réduire le risque infectieux respiratoire ?
 - 48 heures :: C'est le délai à partir duquel la réactivité bronchique commence à diminuer.
 - 10 à 15 jours :: C'est le délai de disparition de l'hyperréactivité bronchique.
 + 6 à 8 semaines :: Un arrêt court ne suffit pas pour ce bénéfice.
-- 6 mois :: Ce délai n'est pas celui du cours.
-- 1 an :: Ce délai n'est pas celui du cours.
+- 6 mois :: Ce n'est pas le délai retenu.
+- 1 an :: Ce n'est pas le délai retenu.
 > Les bénéfices n'arrivent pas au même rythme : la réactivité bronchique diminue dès 48 h et disparaît en 10 à 15 jours ; le risque infectieux demande probablement 6 à 8 semaines. Tout arrêt, même tardif, reste bénéfique.
 @ p. 48 et 50
 
@@ -201,7 +201,7 @@ Concernant la prise en soins anesthésique d'un patient toxicomane opéré en ur
 + L'objectif n'est pas de débuter un sevrage préopératoire. :: En urgence, on traite le problème aigu et on prévient le manque.
 - La nalbuphine est l'antalgique postopératoire de choix. :: Agoniste-antagoniste, elle peut déclencher un sevrage aigu.
 - Des benzodiazépines sont proposées de façon systématique. :: Elles se discutent selon l'anxiété et l'évaluation.
-- Un patient substitué équilibré sous buprénorphine est considéré comme ayant l'estomac plein. :: C'est l'exception présentée par le cours.
+- Un patient substitué équilibré sous buprénorphine est considéré comme ayant l'estomac plein. :: C'est l'exception à connaître.
 - Une ALR complique la gestion de la douleur en masquant le sevrage. :: Elle permet au contraire de dissocier douleur et sevrage.
 > En urgence, pas d'objectif de sevrage : on traite le problème aigu, on prévient le manque, on considère l'estomac plein (sauf patient substitué équilibré sous buprénorphine) et on privilégie l'ALR si possible, en lien avec l'addictologie.
 @ p. 62 et 65
@@ -238,7 +238,7 @@ Concernant l'anesthésie chez le patient addictif aux opiacés, quelles proposit
 
 QCM · Opiacés en postopératoire
 Un patient dépendant aux opiacés, non substitué, présente des signes de manque en postopératoire. Quelles propositions sont exactes ?
-+ Une titration de morphine IV est réalisée jusqu'à disparition des symptômes. :: Le cours la situe en SSPI.
++ Une titration de morphine IV est réalisée jusqu'à disparition des symptômes. :: Elle se fait en SSPI.
 + La dose d'entretien s'appuie sur la dose titrée, administrée toutes les 4 heures. :: Puis elle est réévaluée selon l'évolution.
 + Une benzodiazépine peut être associée pour l'anxiété. :: Selon l'évaluation.
 + Cette prise en charge peut nécessiter une unité de surveillance renforcée. :: La titration expose à un risque de dépression respiratoire.
@@ -249,7 +249,7 @@ Un patient dépendant aux opiacés, non substitué, présente des signes de manq
 QCU · Méthadone et buprénorphine
 Quelle proposition décrit correctement les traitements de substitution aux opiacés ?
 - La méthadone est un agoniste-antagoniste, la buprénorphine un agoniste pur. :: C'est l'inverse.
-+ La méthadone est un agoniste pur, la buprénorphine un agoniste-antagoniste. :: Selon le cours.
++ La méthadone est un agoniste pur, la buprénorphine un agoniste-antagoniste. :: D'où leurs différences de prise en charge.
 - Les deux sont des antagonistes purs des récepteurs µ. :: Ce sont les propriétés de la naloxone ou de la naltrexone.
 - Les deux sont des agonistes-antagonistes, comme la nalbuphine. :: Seule la buprénorphine l'est.
 - Les deux sont arrêtées 48 heures avant l'intervention. :: La substitution est poursuivie ; c'est la naltrexone qu'on interrompt.
@@ -268,7 +268,7 @@ Concernant la cocaïne, quelles propositions sont exactes ?
 
 QCM · Cannabis
 Concernant le patient en intoxication aiguë au cannabis, quelles propositions sont exactes ?
-+ Ses besoins en propofol peuvent être modifiés de façon peu prévisible. :: Le support évoque une variation importante des doses ; titration et monitorage.
++ Ses besoins en propofol peuvent être modifiés de façon peu prévisible. :: Les doses peuvent varier fortement : titration et monitorage.
 - Les effets respiratoires se limitent à une bronchodilatation. :: Elle est suivie d'une inflammation et d'une hyperréactivité des voies aériennes.
 + L'atropine et l'éphédrine sont à éviter. :: Comme la kétamine et l'adrénaline, car sympathomimétiques.
 + Il est considéré comme ayant probablement l'estomac plein. :: Prudence vis-à-vis de l'inhalation.

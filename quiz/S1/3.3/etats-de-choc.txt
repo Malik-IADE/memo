@@ -110,7 +110,7 @@ Concernant le choc hémorragique, quelles propositions sont exactes ?
 - La triade létale associe hyperthermie, alcalose et thrombose. :: Elle associe hypothermie, acidose et coagulopathie.
 - La transfusion repose sur les globules rouges seuls, le plasma étant réservé à la fin. :: Globules rouges et plasma sont transfusés à ratio équilibré, avec plaquettes, fibrinogène, acide tranexamique et calcium.
 - L'hypothermie améliore l'hémostase. :: Elle aggrave la coagulopathie : d'où le réchauffeur-accélérateur.
-- Le calcium n'a pas de place dans la transfusion massive. :: Le cours insiste sur sa correction.
+- Le calcium n'a pas de place dans la transfusion massive. :: L'hypocalcémie aggrave la coagulopathie : le calcium est corrigé.
 > Choc hémorragique : stopper le saignement, lutter contre la triade létale, transfusion 1/1 CGR/PFC, plaquettes, fibrinogène, acide tranexamique (Exacyl), calcium, produits réchauffés. Une atteinte hépatique peut aggraver la coagulopathie.
 @ p. 18 et 27
 

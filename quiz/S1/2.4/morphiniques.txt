@@ -75,7 +75,7 @@ Concernant le fentanyl et le sufentanil, quelles propositions sont exactes ?
 @ p. 56, 57, 61 et 62
 
 QCU · Alfentanil
-Pour une réduction de fracture des os du nez chez un patient ambulatoire, quel morphinique correspond au profil décrit dans le cours ?
+Pour une réduction de fracture des os du nez chez un patient ambulatoire, quel morphinique est le plus adapté ?
 - Morphine :: Son délai de 5 à 10 minutes et son pic tardif ne conviennent pas à un geste bref et stimulant.
 + Alfentanil :: Délai d'environ 1 minute et durée de bolus de 10 à 15 minutes, adaptés aux gestes brefs.
 - Fentanyl :: Sa durée de 30 à 60 minutes dépasse largement celle du geste.
@@ -95,7 +95,7 @@ Concernant le rémifentanil, quelles propositions sont exactes ?
 @ p. 59, 61 et 62
 
 QCU · Choix selon la cinétique
-Pour une chirurgie orthopédique réglée de longue durée chez un patient stable, quelle stratégie correspond aux protocoles du cours ?
+Pour une chirurgie orthopédique réglée de longue durée chez un patient stable, quelle stratégie est adaptée ?
 - Réinjections horaires de morphine :: La morphine n'est pas un agent d'entretien peropératoire : son délai et son pic sont trop longs.
 - Réinjections d'alfentanil répétées pendant trois heures :: L'alfentanil est destiné aux gestes brefs, pas à une chirurgie longue.
 + Sufentanil en réinjections ou en objectif de concentration, avec analgésie multimodale :: C'est le protocole retenu pour les chirurgies réglées de durée moyenne à longue.
@@ -120,7 +120,7 @@ Concernant la rigidité thoracique sous morphiniques, quelles propositions sont 
 + Elle survient surtout lors de bolus rapides à forte dose. :: Le sufentanil et le rémifentanil sont les molécules citées.
 - Une injection rapide du bolus la prévient. :: C'est l'injection lente qui la prévient, en particulier chez le sujet âgé ou fragile.
 - Son mécanisme est périphérique, au niveau du muscle strié. :: Le mécanisme est central, avec une participation dopaminergique évoquée.
-- Devant l'impossibilité de ventiler, il faut d'abord insister sur la ventilation au masque. :: Le cours insiste sur la curarisation rapide ; l'antagonisation est un dernier recours, car elle lève aussi l'analgésie.
+- Devant l'impossibilité de ventiler, il faut d'abord insister sur la ventilation au masque. :: Priorité à la curarisation rapide ; l'antagonisation est un dernier recours, car elle lève aussi l'analgésie.
 > La rigidité thoracique est rare mais doit être reconnue : un thorax rigide rend la ventilation au masque inefficace. Elle suit les bolus rapides à forte dose. La prévention est l'injection lente ; le traitement en urgence est la curarisation rapide. En induction en séquence rapide, une curarisation d'emblée suffisamment profonde couvre ce risque.
 @ p. 74 et 107
 
@@ -130,7 +130,7 @@ Concernant la bradycardie induite par les morphiniques, quelles propositions son
 - Les bêtabloquants atténuent cette bradycardie. :: Ils la potentialisent, de même qu'une prémédication vagotonique.
 + Elle peut aggraver l'hypotension chez un patient dont le ventricule gauche est altéré. :: Le débit cardiaque est le produit du volume d'éjection systolique par la fréquence : un ventricule qui ne peut pas augmenter son volume d'éjection dépend de sa fréquence.
 - Devant une hypotension sous morphinique, la fréquence cardiaque n'a pas à être prise en compte. :: Restaurer la fréquence de base peut améliorer le débit et la pression, sans augmenter les vasopresseurs.
-- Une bradycardie symptomatique impose l'arrêt du morphinique avant tout traitement. :: Le cours retient l'atropine en cas de bradycardie symptomatique, en l'absence de contre-indication.
+- Une bradycardie symptomatique impose l'arrêt du morphinique avant tout traitement. :: On utilise l'atropine en cas de bradycardie symptomatique, en l'absence de contre-indication.
 > Débit cardiaque = volume d'éjection systolique × fréquence cardiaque. Chez un patient âgé ou dont la fonction ventriculaire est altérée, la compensation par le volume d'éjection est limitée : la bradycardie vagale des morphiniques, ajoutée à l'effet des hypnotiques, peut aggraver l'instabilité. Devant une hypotension, il faut regarder la fréquence avant d'empiler les vasopresseurs.
 @ p. 75
 
@@ -140,7 +140,7 @@ Concernant les autres effets indésirables des morphiniques, quelles proposition
 + Les nausées et vomissements postopératoires sont un effet de classe, par stimulation de l'area postrema. :: Ils font partie des facteurs du score d'Apfel.
 - La rétention urinaire ne survient qu'après administration intraveineuse prolongée. :: Elle est surtout décrite après voie périmédullaire, par inhibition du réflexe mictionnel.
 + La constipation et l'iléus relèvent des récepteurs du plexus myentérique. :: Ils apparaissent surtout lors d'une exposition prolongée.
-- Le prurit impose l'arrêt de l'analgésie morphinique en cours. :: Le cours propose un antagoniste à très faible dose, qui ne supprime pas l'analgésie.
+- Le prurit impose l'arrêt de l'analgésie morphinique en cours. :: Un antagoniste à très faible dose le traite, sans supprimer l'analgésie.
 > Prurit, nausées-vomissements, constipation, iléus et rétention urinaire accompagnent l'analgésie. Le prurit périmédullaire n'est pas histaminique : c'est un mécanisme central, traité à très faible dose sans annuler l'analgésie. La rétention urinaire a un impact pratique direct, notamment après rachianalgésie morphinique en ambulatoire.
 @ p. 76 et 87
 
@@ -157,7 +157,7 @@ Concernant la tolérance aiguë et l'hyperalgésie induite par les opioïdes, qu
 QCM · Analgésie multimodale
 Concernant l'analgésie multimodale, quelles propositions sont exactes ?
 + Elle associe plusieurs classes agissant par des mécanismes différents. :: L'effet est additif ou synergique, tout en réduisant la dose de chaque molécule.
-+ Elle permet une épargne morphinique. :: C'est son objectif principal, les effets indésirables des morphiniques étant au centre du cours.
++ Elle permet une épargne morphinique. :: C'est son objectif principal, pour limiter leurs effets indésirables.
 + L'anesthésie locorégionale en est le levier le plus puissant lorsqu'elle est réalisable. :: Elle apporte aussi un bénéfice sur la mobilisation précoce.
 + Elle doit être démarrée dès l'induction. :: L'idée n'est pas d'empiler les antalgiques tardivement en salle de réveil.
 - Les gabapentinoïdes constituent le traitement usuel immédiat de la douleur postopératoire. :: Ils sont réservés à une composante neuropathique attendue, avec prudence sur la sédation.
@@ -226,7 +226,7 @@ Concernant l'administration périmédullaire des morphiniques, quelles propositi
 
 QCM · Patient dépendant ou substitué
 Concernant le patient dépendant aux opioïdes ou sous traitement de substitution, quelles propositions sont exactes ?
-+ La tolérance croisée impose le plus souvent des doses peropératoires supérieures aux standards. :: Le cours cite des doses de sufentanil 1,5 à 2 fois supérieures.
++ La tolérance croisée impose le plus souvent des doses peropératoires supérieures aux standards. :: Les doses de sufentanil 1,5 à 2 fois supérieures sont habituelles.
 + Le traitement de substitution doit être maintenu en périopératoire. :: Le jeûne ne doit pas conduire à supprimer la prise du matin.
 + Un arrêt brutal expose à un sevrage avant même la chirurgie. :: Le jeûne ne justifie pas de suspendre la prise du matin.
 + La nalbuphine est à proscrire dans ce contexte. :: Son action antagoniste peut contrarier les opioïdes et déclencher un sevrage.
@@ -249,13 +249,13 @@ Concernant la conduite peropératoire des morphiniques, quelles propositions son
 + Il faut chercher à faire coïncider le pic d'effet avec le stimulus attendu. :: Plutôt que de traiter tardivement sa conséquence hémodynamique.
 + Laryngoscopie, incision, pneumopéritoine et tractions viscérales sont des stimuli prévisibles. :: Les manipulations osseuses ou périostées et la pose d'un garrot en font également partie.
 + Avant chaque bolus, il faut estimer l'opioïde déjà actif et le temps opératoire restant. :: Sans quoi les effets s'additionnent de façon retardée, avec un surdosage relatif.
-+ Il faut attendre le délai d'action avant toute nouvelle administration. :: Répéter un bolus avant son plein effet est l'une des erreurs listées par le cours.
++ Il faut attendre le délai d'action avant toute nouvelle administration. :: Répéter un bolus avant son plein effet est une erreur fréquente.
 - Un bolus en fin d'intervention est sans conséquence si la dose est faible. :: L'effet résiduel doit être intégré : cet opioïde sera-t-il encore utile lorsque son effet maximal surviendra ?
 > La conduite tient en six temps : anticiper le stimulus, adapter l'opioïde à sa cinétique, administrer la dose nécessaire, attendre le délai d'action, analyser la réponse, puis anticiper le postopératoire. Le bon niveau dépend de l'intensité nociceptive, de l'opioïde déjà actif et du temps opératoire restant, jamais d'une dose fixe.
 @ p. 100, 113 et 114
 
 QCU · Tachycardie peropératoire
-Un patient présente une tachycardie et une poussée hypertensive en cours d'intervention. Quelle conduite correspond au raisonnement du cours ?
+Un patient présente une tachycardie et une poussée hypertensive en cours d'intervention. Quelle conduite adopter ?
 - Administrer immédiatement un bolus de morphinique :: Tachycardie et hypertension ne signifient pas automatiquement un manque de morphinique.
 + Rechercher d'abord un stimulus chirurgical et les autres causes possibles avant de titrer :: Profondeur hypnotique, ventilation, volémie, curarisation, température, vessie pleine ou infiltration d'adrénaline doivent être examinées.
 - Approfondir uniquement l'hypnose, la nociception étant alors couverte :: L'hypnose ne couvre pas la nociception : ce sont deux piliers distincts.
@@ -276,7 +276,7 @@ Concernant la fin d'intervention et la préparation du postopératoire, quelles 
 
 QCM · Titration en salle de réveil
 Concernant la titration morphinique en salle de surveillance postinterventionnelle, quelles propositions sont exactes ?
-+ Elle se construit par bolus successifs, selon la réponse du patient. :: Le cours retient 2 à 3 mg toutes les 5 à 10 minutes jusqu'à l'objectif d'évaluation de la douleur.
++ Elle se construit par bolus successifs, selon la réponse du patient. :: 2 à 3 mg toutes les 5 à 10 minutes jusqu'à l'objectif d'évaluation de la douleur.
 + La fréquence respiratoire et le niveau de sédation sont évalués à chaque palier. :: Ce sont les premiers indices d'imprégnation.
 - La saturation seule suffit à écarter un surdosage. :: Sous oxygène, l'hypoventilation précède nettement la désaturation.
 - La dose totale est fixée d'emblée, en fonction du poids. :: Contrairement au peropératoire, la posologie se construit à la demande, en temps réel.
@@ -311,7 +311,7 @@ Après un bolus intraveineux unique, quelle molécule atteint son pic de concent
 - Sufentanil :: Son pic survient également entre 3 et 6 minutes.
 - Alfentanil :: Son pic est très précoce, vers 1,5 minute.
 - Rémifentanil :: Son pic est lui aussi très précoce, vers 1,5 minute.
-> Le délai d'action ne se confond pas avec le pic d'effet. Les repères du cours sont : environ 1,5 minute pour l'alfentanil et le rémifentanil, 3 à 6 minutes pour le fentanyl et le sufentanil, environ 20 minutes pour la morphine. C'est ce pic qu'il faut faire coïncider avec le stimulus attendu, et non traiter la conséquence une fois qu'elle est installée.
+> Le délai d'action ne se confond pas avec le pic d'effet. Les repères sont : environ 1,5 minute pour l'alfentanil et le rémifentanil, 3 à 6 minutes pour le fentanyl et le sufentanil, environ 20 minutes pour la morphine. C'est ce pic qu'il faut faire coïncider avec le stimulus attendu, et non traiter la conséquence une fois qu'elle est installée.
 @ p. 60 et 100
 
 QCU · Relais après le rémifentanil
@@ -321,15 +321,15 @@ Une chirurgie longue a été conduite sous rémifentanil. Que faut-il avoir fait
 - Avoir augmenté la cible dans les dernières minutes :: Cela retarde le réveil sans assurer l'analgésie après l'arrêt.
 - Avoir prévu une antagonisation au réveil :: Antagoniser supprime l'analgésie résiduelle au moment où elle est le plus nécessaire.
 - Avoir arrêté tout autre antalgique pour évaluer la douleur réelle :: C'est l'inverse de la stratégie multimodale, qui se met en place dès l'induction.
-> Le rémifentanil est maniable pendant l'intervention, mais son effet analgésique disparaît très vite à l'arrêt. Le relais s'installe avant la fermeture : analgésie non opioïde, anesthésie locorégionale ou infiltration si indiquée, et opioïde postopératoire administré assez tôt pour agir. Arrêter le rémifentanil sans relais organisé fait partie des erreurs listées par le cours.
+> Le rémifentanil est maniable pendant l'intervention, mais son effet analgésique disparaît très vite à l'arrêt. Le relais s'installe avant la fermeture : analgésie non opioïde, anesthésie locorégionale ou infiltration si indiquée, et opioïde postopératoire administré assez tôt pour agir. Arrêter le rémifentanil sans relais organisé est une erreur fréquente.
 @ p. 59, 102 et 106
 
 QCU · Prurit après rachianalgésie
-Une patiente présente un prurit après une rachianalgésie morphinique. Quelle explication correspond au cours ?
+Une patiente présente un prurit après une rachianalgésie morphinique. Quelle explication est exacte ?
 - Il s'agit d'une histaminolibération, à traiter par un antihistaminique :: Le prurit périmédullaire relève d'un mécanisme central, non histaminique.
-+ Il s'agit d'un mécanisme central, que le cours propose de traiter par un antagoniste à très faible dose :: La dose utilisée ne supprime pas l'analgésie.
++ Il s'agit d'un mécanisme central, que l'on traite par un antagoniste à très faible dose :: La dose utilisée ne supprime pas l'analgésie.
 - Il s'agit d'une réaction allergique, imposant l'arrêt de toute analgésie morphinique :: Ce n'est ni une allergie ni une indication d'arrêt de l'analgésie.
 - Il s'agit d'un signe précoce de surdosage, imposant une antagonisation complète :: Le prurit n'est pas un critère d'antagonisation complète.
 - Il s'agit d'un effet sans rapport avec la morphine administrée :: Le prurit est un effet connu de la voie périmédullaire.
-> Le prurit induit par voie périmédullaire n'est pas histaminique : c'est un mécanisme central. Les antihistaminiques ne correspondent donc pas à ce mécanisme ; le cours propose un antagoniste à très faible dose, ou la nalbuphine, qui soulage le prurit sans annuler l'analgésie. Il ne faut pas le confondre avec l'histaminolibération de la morphine intraveineuse.
+> Le prurit induit par voie périmédullaire n'est pas histaminique : c'est un mécanisme central. Les antihistaminiques ne correspondent donc pas à ce mécanisme ; on utilise un antagoniste à très faible dose, ou la nalbuphine, qui soulage le prurit sans annuler l'analgésie. Il ne faut pas le confondre avec l'histaminolibération de la morphine intraveineuse.
 @ p. 76, 87 et 88

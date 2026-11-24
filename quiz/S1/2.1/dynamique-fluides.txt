@@ -110,7 +110,7 @@ Concernant la rétropollution d'un réseau de gaz, quelles propositions sont exa
 + Elle suppose une valve antiretour défaillante. :: Une valve fonctionnelle empêche le retour du gaz.
 - Le réseau contaminé perd sa pression, ce qui déclenche l'alarme. :: Il reste sous pression : le manomètre ne détecte rien.
 + L'analyseur de gaz de la machine d'anesthésie peut la révéler. :: Il affiche une FiO2 anormale.
-+ Du protoxyde d'azote peut ainsi contaminer le réseau d'oxygène. :: C'est l'exemple du support.
++ Du protoxyde d'azote peut ainsi contaminer le réseau d'oxygène. :: C'est l'exemple type.
 > Rétropollution = un gaz remonte dans un autre réseau par un gradient de pression et une valve antiretour défectueuse. Elle est invisible au manomètre.
 @ p. 19 à 21
 
