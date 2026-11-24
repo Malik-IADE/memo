@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://memo-iade.goatcounter.com https://memo-statistiques.malikbm88.workers.dev; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#f6f6fa" media="(prefers-color-scheme: light)">
@@ -686,8 +687,14 @@
     const counts = data?.counts;
     const highest = percentages ? Math.max(1, ...percentages) : 1;
     const history = (data?.history || []).filter((r) => r.average > 0).sort((a, b) => a.day.localeCompare(b.day));
+    const histByExam = new Map();
+    for (const r of history) {
+      let list = histByExam.get(r.exam);
+      if (!list) { list = []; histByExam.set(r.exam, list); }
+      list.push(r);
+    }
     const exams = (data?.exams || []).filter((r) => r.average > 0)
-      .map((r) => ({...r, info: examInfo(r.exam), tries: history.filter((x) => x.exam === r.exam).reduce((s, x) => s + (x.attempts ?? x.participants ?? 0), 0)}))
+      .map((r) => ({...r, info: examInfo(r.exam), tries: (histByExam.get(r.exam) || []).reduce((s, x) => s + (x.attempts ?? x.participants ?? 0), 0)}))
       .sort((a, b) => b.tries - a.tries || b.participants - a.participants || a.info.ue.localeCompare(b.info.ue, 'fr', {numeric: true}) || a.info.period.localeCompare(b.info.period));
     const unavailable = collectiveFailed ? 'Statistiques collectives indisponibles.' : null;
 
@@ -707,7 +714,7 @@
       if (i < 0) return;
       const cols = getComputedStyle(list).gridTemplateColumns.split(' ').length;
       const after = items[Math.min(items.length - 1, i - (i % cols) + cols - 1)];
-      const panel = h('li', {class: 'exam-panel'}, examDetail(exams.find((r) => r.exam === openExam), history.filter((r) => r.exam === openExam)));
+      const panel = h('li', {class: 'exam-panel'}, examDetail(exams.find((r) => r.exam === openExam), histByExam.get(openExam) || []));
       after.after(panel);
     };
     const toggle = (id) => { openExam = openExam === id ? '' : id; place(); };
@@ -858,16 +865,18 @@
     const nowH = new Date().getHours();
 
     // Série principale : par heure pour « aujourd'hui », par jour sinon.
+    const vHourly = new Map((data.visitors?.hourly || []).map((x) => [x.hour, x.browsers || 0]));
+    const vDaily = new Map((data.visitors?.daily || []).map((x) => [x.day, x.browsers || 0]));
     const main1 = P.days === 1
       ? Array.from({ length: 24 }, (_, i) => ({ label: `${i} h`, full: `Aujourd'hui, ${i} h – ${i + 1} h`, v: i <= nowH ? curGrid[0][i] : null, p: prevGrid[0][i],
           // Courbe des visites : navigateurs uniques de l'heure (Worker).
-          extra: metric === 'visits' && data.visitors && i <= nowH ? uniques((data.visitors.hourly || []).find((x) => x.hour === `${dayKey(cells[0].d)} ${String(i).padStart(2, '0')}`)?.browsers || 0) : null }))
+          extra: metric === 'visits' && data.visitors && i <= nowH ? uniques(vHourly.get(`${dayKey(cells[0].d)} ${String(i).padStart(2, '0')}`) || 0) : null }))
       : cells.map((c, i) => ({
           label: P.days <= 7 ? c.d.toLocaleDateString('fr-FR', { weekday: 'short' }) : c.d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' }),
           full: c.d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }),
           v: sumArr(c.hours), p: sumArr(prevGrid[i]),
           // Courbe des visites : navigateurs uniques du jour (Worker), affichés dans l'infobulle.
-          extra: metric === 'visits' && data.visitors ? uniques((data.visitors.daily || []).find((x) => x.day === dayKey(c.d))?.browsers || 0) : null,
+          extra: metric === 'visits' && data.visitors ? uniques(vDaily.get(dayKey(c.d)) || 0) : null,
         }));
     const byHour = Array.from({ length: 24 }, (_, i) => ({ label: `${i} h`, full: `Entre ${i} h et ${i + 1} h`, v: sumArr(curGrid.map((d) => d[i])) }));
     const WD = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
@@ -928,11 +937,18 @@
         h('span', {}, '·'),
         h('a', { class: 'link', href: SITE, target: '_blank', rel: 'noopener' }, 'Ouvrir GoatCounter'),
         DEMO ? null : h('span', {}, '·'),
-        DEMO ? null : h('a', { class: 'link', href: '#', onclick: (e) => {
-          e.preventDefault();
-          if (!confirm('Retirer la clé de ce navigateur ? Il faudra la coller à nouveau pour revoir les statistiques.')) return;
-          store.del(KEY); renderSetup();
-        } }, 'Oublier la clé'),
+        DEMO ? null : (() => {
+          const box = h('span', {});
+          const ask = () => box.replaceChildren(h('a', { class: 'link', href: '#', onclick: (e) => { e.preventDefault(); confirmBox(); } }, 'Oublier la clé'));
+          const confirmBox = () => box.replaceChildren(
+            'Retirer la clé ? ',
+            h('a', { class: 'link', href: '#', style: 'color:var(--down)', onclick: (e) => { e.preventDefault(); store.del(KEY); renderSetup(); } }, 'Oui, retirer'),
+            ' · ',
+            h('a', { class: 'link', href: '#', onclick: (e) => { e.preventDefault(); ask(); } }, 'Annuler'),
+          );
+          ask();
+          return box;
+        })(),
         h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Une annale terminée = une annale corrigée par un navigateur dans la journée, d\'après le relevé des notes (depuis le début ; les notes de 0 ne sont pas envoyées), par période (2013-2015, 2022-2024). Un quiz terminé = une série de QCM menée jusqu\'à la dernière question ; ses auto-évaluations sont comptées à ce moment-là, sans les réponses. Les quiz et annales abandonnés en cours de route ne comptent pas (quiz : relevé depuis le 19 novembre 2026). Vos propres visites comptent aussi.'),
       ),
     );
