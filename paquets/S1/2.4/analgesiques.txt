@@ -1,61 +1,78 @@
-// Cours 2.4 – Analgésiques non morphiniques
-// Questions inspirées d'Anki, réadaptées au support de cours (seules les notions présentes dans le cours sont gardées).
-// Les études, dates et statistiques citées dans le support ne sont pas reprises.
+// Cours 2.4 – Analgésiques non morphiniques : diaporama du 15 octobre 2026 avec notes (prime sur l'ancienne fiche mémo), questions inspirées d'Anki et réadaptées.
+// Non repris : études, dates, statistiques, noms de spécialités peu utiles, AMM pédiatriques molécule par molécule.
 // Format Mémo : « question :: réponse » ; \n = puce ; \n- = sous-puce ; « Titre : texte » en gras.
 
 # IADE – Pharmacologie – Analgésiques non morphiniques
 
 // ---------- Douleur ----------
-Quelle est la différence entre douleur aiguë et douleur chronique ? :: Douleur aiguë : signal d'alarme, prise en charge curative\nDouleur chronique : plus de 3 mois, prise en charge biopsychosociale
-Quels sont les trois mécanismes de la douleur ? :: Nociceptif\nNeuropathique\nNociplastique
+Quelle est la différence entre douleur aiguë et douleur chronique ? :: Douleur aiguë : signal d'alarme, prise en charge curative\nDouleur chronique : plus de 3 mois, maladie à part entière, prise en charge biopsychosociale
+Quels sont les trois mécanismes de la douleur ? :: Nociceptif : activation des nocicepteurs\nNeuropathique : atteinte neurologique, dépistée par le DN4 (positif dès 4 sur 10)\nNociplastique : amplification de la perception
+Quelles sont les quatre composantes de la douleur à évaluer ? :: Sensori-discriminative : localisation, qualité, intensité (EN, EVA)\nÉmotionnelle : caractère désagréable\nCognitive : interprétation, croyances, inquiétudes\nComportementale : mimiques, cris, posture antalgique
+Pourquoi les paliers de l'OMS sont-ils mal adaptés à la douleur aiguë ? :: Ils ont été conçus pour la douleur du cancer\nIls ne tiennent pas compte du mécanisme : un AINS peut être plus pertinent qu'un opioïde fort sur une douleur inflammatoire\nCertains produits, comme le néfopam, n'y trouvent pas leur place
+Comment la classification de Lussier et Beaulieu range-t-elle les antalgiques ? :: Par mécanisme d'action\n- Antinociceptifs : non opioïdes et opioïdes\n- Antihyperalgésiques : antagonistes NMDA (kétamine)\n- Modulateurs des contrôles descendants : antidépresseurs\n- Modulateurs de la transmission périphérique : anesthésiques locaux, capsaïcine\n- Mixtes : tramadol
 
 // ---------- Paracétamol ----------
-Quelle est la dose maximale de paracétamol par défaut chez l'adulte ? :: 3 g par 24 h\n4 g par 24 h seulement sur avis médical, au-delà de 50 kg et sans facteur de risque d'hépatotoxicité\nAu moins 4 h entre deux prises
-Quelle dose de paracétamol chez un adulte de moins de 50 kg ou dénutri ? :: 3 g par 24 h et 60 mg/kg/j au maximum
-Quelle dose de paracétamol en cas d'alcoolisme chronique ou d'insuffisance hépatique légère à modérée ? :: 2 g par 24 h au maximum\nContre-indiqué en cas d'insuffisance hépatique sévère
-Comment adapter le paracétamol à l'insuffisance rénale ? :: Clairance de 10 à 50 mL/min : 6 h entre les prises, 3 g/j au maximum\nClairance < 10 mL/min : 8 h entre les prises, 2 g/j au maximum
+Comment agit le paracétamol, et quelles propriétés n'a-t-il pas ? :: Action centrale : un métabolite agit sur TRPV1 et renforce les contrôles inhibiteurs descendants\nAntalgique et antipyrétique\nNi anti-inflammatoire ni inhibiteur des COX périphériques
+//= Quel est le délai d'action du paracétamol IV ?
+Quel est le délai d'action du paracétamol selon la voie ? :: IV : 10 à 15 min, effet maximal en 30 min, pas plus efficace que la voie orale\nComprimé effervescent : 15 min\nVoie orale : 30 à 60 min, plein effet en 1 à 2 h\nVoie rectale : 2 à 3 h, résorption lente et imprévisible
+Quelle est la dose maximale de paracétamol par défaut chez l'adulte ? :: 3 g par 24 h, au moins 4 h entre deux prises ; sujet âgé : 3 g au maximum\n4 g seulement sur avis médical, au-delà de 50 kg et sans facteur de risque\nMoins de 50 kg ou dénutri : 3 g et 60 mg/kg/j au maximum\nAlcoolisme chronique, insuffisance hépatique légère à modérée : 2 g ; insuffisance hépatique sévère : contre-indiqué
+//= Comment adapter le paracétamol à l'insuffisance rénale ?
+Comment adapter le paracétamol à l'insuffisance rénale sévère ? :: Clairance < 15 mL/min\nDose divisée par deux\n8 h entre deux prises
 Quelle est la posologie du paracétamol chez l'enfant ? :: 60 mg/kg par 24 h en 4 prises (soit 15 mg/kg toutes les 6 h)\nÉviter la voie rectale
-Quel est le délai d'action du paracétamol IV ? :: Soulagement en 5 à 10 min\nEffet maximal en 1 h\nDurée de 4 à 6 h
-À partir de quelle dose le paracétamol expose-t-il à une hépatite grave ? :: Dès 8 à 10 g en prise unique\nEt en cas de surdosages répétés au-dessus de 4 g/j chez le sujet âgé, éthylique ou dénutri
-Quel est l'antidote du paracétamol et quand l'administrer ? :: La N-acétylcystéine, qui reconstitue le glutathion\nSi possible avant la 10e heure, mais un patient vu tardivement doit quand même être traité
-Quel antalgique est la référence pendant la grossesse ? :: Le paracétamol
+À partir de quelle dose le paracétamol expose-t-il à une hépatite grave ? :: Prise unique de 10 g chez l'adulte, 150 mg/kg chez l'enfant\nSurdosages répétés juste au-dessus de 4 g/j chez le sujet âgé, éthylique ou dénutri
+Quel est l'antidote du paracétamol et quand l'administrer ? :: La N-acétylcystéine, qui reconstitue le glutathion et neutralise le NAPQI\nEfficacité optimale dans les 8 h suivant la prise, mais un patient vu tardivement doit quand même être traité\nTransplantation hépatique parfois nécessaire
+Quelles précautions avec le paracétamol en dehors de la dose ? :: Rechercher les autres spécialités qui en contiennent\nSurveiller la pression artérielle chez l'hypertendu ou le coronarien\nSous AVK, à forte dose prolongée : surveiller l'INR
 
 // ---------- AINS ----------
-Quel est le mécanisme d'action des AINS ? :: Inhibition des cyclo-oxygénases (COX), donc de la synthèse des prostaglandines
-Quelle est la différence entre la COX-1 et la COX-2 ? :: COX-1 : constitutive (muqueuse gastrique, rein, plaquettes)\nCOX-2 : induite dans les tissus inflammés, mais aussi constitutive dans le rein et l'endothélium
-Pourquoi associer systématiquement un AINS à la morphine en postopératoire ? :: Les AINS sont les non-morphiniques qui épargnent le plus la morphine\nAssociation recommandée en l'absence de contre-indication
-Quels sont les effets indésirables digestifs des AINS ? :: Ulcère, hémorragie, perforation\nL'ibuprofène est l'AINS non sélectif le moins à risque, surtout à dose antalgique
-Quels sont les effets rénaux des AINS ? :: Insuffisance rénale fonctionnelle\nHyperkaliémie\nRétention hydrosodée
-Quelle association de médicaments avec un AINS est la plus dangereuse pour le rein ? :: AINS + IEC ou ARA2 + diurétique\nAutres facteurs aggravants : déshydratation, âge
-Quel est l'effet des AINS chez un patient asthmatique sensible à l'aspirine ? :: Ils peuvent déclencher un asthme (asthme induit par l'aspirine)
-Pourquoi les AINS demandent-ils de la prudence en cas d'infection ? :: Ils peuvent masquer les symptômes d'une infection\nPrudence surtout en cas d'infection cutanée ou pulmonaire
-À partir de quand les AINS sont-ils formellement contre-indiqués pendant la grossesse ? :: À partir de 24 SA (début du 6e mois), même en prise unique et quelle que soit la voie\nLes coxibs sont contre-indiqués pendant toute la grossesse
+//= Quel est le mécanisme d'action des AINS ?
+Où agissent les AINS et les corticoïdes dans la cascade de l'acide arachidonique ? :: Corticoïdes : en amont, sur la phospholipase A2 (moins de prostaglandines et de leucotriènes)\nAINS : en aval, sur les cyclo-oxygénases (moins de prostaglandines, thromboxane, prostacycline)
+Quelle est la différence entre la COX-1 et la COX-2 ? :: COX-1 : constitutive (agrégation plaquettaire par le thromboxane, protection gastrique, rein)\nCOX-2 : induite par l'inflammation (PGE2 : inflammation, douleur, fièvre), mais aussi constitutive dans le rein et l'endothélium\nTous les AINS inhibent la COX-2
+Comment classer les AINS selon leur demi-vie ? :: Courte (2 à 6 h, 3 prises par jour) : ibuprofène, kétoprofène, diclofénac\nMoyenne (12 à 18 h, 2 prises) : naproxène, célécoxib\nLongue (> 24 h, 1 prise) : oxicams (piroxicam, méloxicam)\nPréférer une demi-vie courte, plus facile à arrêter en cas d'effet indésirable
+Quels AINS font l'objet d'alertes européennes ? :: Coxibs et diclofénac : risque cardiovasculaire (rofécoxib retiré)\nPiroxicam : risque digestif et cutané grave\nLe naproxène a un profil cardiovasculaire relativement plus favorable\nUn coxib garde un risque d'ulcère : l'ulcère évolutif reste une contre-indication
+Pourquoi associer systématiquement un AINS à la morphine en postopératoire ? :: Épargne morphinique, la plus forte des non-morphiniques\nMoins de nausées-vomissements, de sédation et d'iléus\nEffet plafond : augmenter la dose ajoute surtout des effets indésirables
+Quels sont les effets indésirables digestifs des AINS ? :: Mineurs : gastralgies, vomissements\nGraves : ulcère, perforation, hémorragie\nAussi : ulcère œsophagien, aggravation d'une diverticulose
+Quels sont les effets rénaux des AINS ? :: Insuffisance rénale fonctionnelle\nHyperkaliémie\nRétention hydrosodée\nPlus rarement néphropathie interstitielle
+Quels effets cutanés, hépatiques et hématologiques graves peuvent donner les AINS ? :: Syndromes de Lyell et de Stevens-Johnson : rares, surtout les oxicams, les 8 premières semaines\nHépatite, souvent silencieuse, possible avec tous les AINS\nAgranulocytose avec les AINS pyrazolés
+Quelles interactions des AINS faut-il connaître ? :: Aspirine : ulcère et hémorragie digestive\nHéparine, AVK, antiagrégants : risque hémorragique\nIEC ou ARA2 + diurétique : insuffisance rénale (association la plus dangereuse, surtout si déshydratation ou âge)\nLithium : lithémie augmentée, coxibs compris\nCorticoïdes : complications digestives\nMéthotrexate à forte dose : toxicité hématologique
+Quel est l'effet des AINS chez un patient asthmatique sensible à l'aspirine ? :: Ils peuvent déclencher un asthme (asthme induit par l'aspirine) ou un œdème de Quincke
+Pourquoi les AINS demandent-ils de la prudence en cas d'infection ? :: Ils peuvent masquer les symptômes et retarder la prise en charge\nPrudence en cas d'infection pulmonaire, ORL ou cutanée sévère\nAspirine contre-indiquée en cas de varicelle (syndrome de Reye)
+Comment prescrire un AINS chez le sujet âgé ? :: Les éviter si possible, comme la polymédication\nSinon : plus petite dose, demi-vie la plus courte, durée brève, surveillance\nRisque de syndrome confusionnel
+//= À partir de quand les AINS sont-ils formellement contre-indiqués pendant la grossesse ?
+Comment utiliser les AINS pendant la grossesse ? :: Paracétamol : antalgique de référence\n1er trimestre : AINS à éviter (potentiellement tératogènes)\n2e trimestre : possibles\nÀ partir de 24 SA (début du 6e mois) : interdits, même en prise unique, aspirine > 500 mg/j comprise ; collyres possibles\nCoxibs contre-indiqués pendant toute la grossesse
 
 // ---------- Corticoïdes ----------
-Quels sont les intérêts de la dexaméthasone en périopératoire ? :: Épargne morphinique\nPrévention des nausées-vomissements\nProlongation des blocs nerveux périphériques (par voie IV)
+Quels corticoïdes sont les plus puissants ? :: Bétaméthasone et dexaméthasone : 25 à 30 fois l'hydrocortisone, demi-vie de 36 à 54 h\nPrednisone, prednisolone : 4 fois\n0,75 mg de dexaméthasone équivaut à 5 mg de prednisone et 20 mg d'hydrocortisone
+Quand faut-il arrêter progressivement une corticothérapie ? :: Après plus de 3 mois (corticothérapie prolongée) : arrêt progressif avec hydrocortisone\nRisque d'insuffisance surrénalienne par freinage de l'axe hypothalamo-hypophysaire\nCure courte (10 à 15 jours) : arrêt sans décroissance
+Quels sont les principaux effets indésirables des corticoïdes au long cours ? :: Cushing iatrogène\nHypokaliémie, rétention hydrosodée, HTA, hyperglycémie\nMyopathie proximale, ostéoporose, ostéonécrose (hanche)\nInfections, troubles neuropsychiques, retard de cicatrisation\nCataracte, glaucome
+Pourquoi éviter d'associer un corticoïde et un AINS ? :: Les complications digestives s'additionnent\nLe corticoïde seul donne moins d'ulcères et de saignements que l'AINS
+Quels sont les intérêts de la dexaméthasone en périopératoire ? :: Sans activité antalgique propre, elle agit en réduisant l'inflammation et l'œdème\nÉpargne morphinique\nPrévention des nausées-vomissements (donnée avant l'induction)\nProlongation des blocs nerveux périphériques (par voie IV)
 
 // ---------- Néfopam ----------
-Comment administrer le néfopam par voie IV ? :: 20 mg en perfusion lente de plus de 15 min, patient allongé\nToutes les 4 h, 120 mg par 24 h au maximum
-Quelles sont les contre-indications du néfopam ? :: Convulsions ou antécédents de convulsions\nRisque de glaucome par fermeture de l'angle\nRisque de rétention urinaire\nMoins de 15 ans
-Quels sont les effets indésirables du néfopam ? :: Somnolence, sueurs, nausées\nTachycardie, bouche sèche, vertiges\nConfusion, convulsions
+Comment agit le néfopam ? :: Antalgique central non opioïde : inhibition de la recapture des catécholamines et de la sérotonine\nNi anti-inflammatoire ni antipyrétique, pas de dépression respiratoire\nDouleurs aiguës modérées à sévères, ou peropératoire
+//= Comment administrer le néfopam par voie IV ?
+Comment administrer le néfopam ? :: 20 mg en IM ou en IV lente, patient allongé\nToutes les 4 à 6 h, 120 mg par 24 h au maximum\nBiodisponibilité orale faible
+Quelles sont les contre-indications du néfopam ? :: Épilepsie\nRisque de glaucome par fermeture de l'angle\nRisque de rétention urinaire\nEnfant de moins de 15 ans
+Quels sont les effets indésirables du néfopam ? :: Atropiniques : bouche sèche, constipation, rétention urinaire, tachycardie, mydriase, confusion\nSueurs, vertiges, nausées, somnolence\nSurdosage : convulsions, hallucinations\nPrudence chez le cardiaque, le sujet âgé, l'insuffisant rénal ou hépatique
 
-// ---------- MEOPA et autres ----------
-Pour quelles douleurs le MEOPA est-il le médicament de choix ? :: Les douleurs provoquées par les soins\nUtilisable dès 1 mois, en auto-administration
+// ---------- MEOPA ----------
+//= Pour quelles douleurs le MEOPA est-il le médicament de choix ?
+Comment utiliser le MEOPA pour un soin douloureux ? :: Médicament de choix des douleurs provoquées par les soins, par un personnel formé\nDébuter le soin après 3 min d'inhalation ; l'effet dure le temps de l'inhalation\nDès 1 mois, auto-administration conseillée dès 4 ans ; possible chez le sujet âgé\nInhalation limitée à 1 h par soin
 Quelles sont les contre-indications du MEOPA ? :: Gaz ophtalmique tant que la bulle persiste\nÉpanchement aérique : pneumothorax, distension abdominale\nChirurgie de l'oreille moyenne, de l'oreille interne et des sinus\nDéficit non substitué en vitamine B12 ou B9
 
-// ---------- Anesthésiques locaux et lidocaïne ----------
-Quels sont les signes précurseurs d'une toxicité systémique aux anesthésiques locaux ? :: Goût métallique, fourmillements autour de la bouche\nAcouphènes, troubles visuels\nDifficultés d'élocution\nPuis convulsions et troubles du rythme
-Quel est l'antidote de la toxicité systémique des anesthésiques locaux ? :: L'émulsion lipidique à 20 % (Intralipide®)
-Comment prévenir la toxicité systémique des anesthésiques locaux ? :: Injection lente et fractionnée\nTest d'aspiration\nRespect des doses maximales
+// ---------- Anesthésiques locaux ----------
+Qu'est-ce que le bloc différentiel des anesthésiques locaux ? :: Les fibres sont bloquées successivement : sympathiques, puis sensitives, puis motrices\nLa régression se fait en sens inverse\nDélai et durée dépendent de la molécule, profondeur du bloc de la concentration
+Quelles sont les signes précurseurs d'une toxicité systémique aux anesthésiques locaux ? :: Goût métallique, fourmillements autour de la bouche\nAcouphènes, troubles visuels\nDifficultés d'élocution\nPuis convulsions et troubles du rythme
+Quel est l'antidote de la toxicité systémique des anesthésiques locaux, et comment la prévenir ? :: Antidote : émulsion lipidique à 20 % (Intralipide®)\nPrévention : injection lente et fractionnée, test d'aspiration, respect des doses maximales
 Pourquoi anticiper le relais après un bloc nerveux périphérique en injection unique ? :: Pour éviter la douleur de rebond à la levée du bloc
 
 // ---------- Kétamine ----------
-Pourquoi la kétamine est-elle anti-hyperalgésique ? :: C'est un antagoniste non compétitif du récepteur NMDA\nElle prévient aussi la tolérance aiguë aux opioïdes
-Quelle est la posologie de la kétamine en peropératoire pour l'analgésie ? :: 0,5 mg/kg au plus après l'induction, ou perfusion de 0,125 à 0,25 mg/kg/h\nArrêt 30 min avant la fin de la chirurgie
-Quels sont les effets indésirables de la kétamine ? :: Effets psychodysleptiques dose-dépendants (sensations ébrieuses, hallucinations)\nEn usage répété : atteintes hépatiques, complications urinaires
+Pourquoi la kétamine est-elle anti-hyperalgésique ? :: Au repos, le magnésium bloque le récepteur NMDA ; lors d'une stimulation répétée, il s'ouvre et le calcium entre (sensibilisation centrale)\nLa kétamine bloque le canal au site PCP\nElle prévient aussi la tolérance aiguë aux opioïdes
+Quelle est la posologie de la kétamine en peropératoire pour l'analgésie ? :: 0,5 mg/kg au plus après l'induction, ± perfusion de 0,125 à 0,25 mg/kg/h\nArrêt 30 min avant la fin de la chirurgie\nLa prolonger après l'opération n'apporte pas de bénéfice démontré
+Quels sont les effets indésirables de la kétamine ? :: Effets psychodysleptiques dose-dépendants (sensations ébrieuses, hallucinations), négligeables à faible dose\nUsages détournés\nEn usage répété : atteintes hépatiques, complications urinaires
 
 // ---------- Délais et analgésie multimodale ----------
-Combien de temps attendre après la morphine IV avant un soin douloureux ? :: Délai de 5 à 10 min : attendre 10 min avant le soin
+Quels sont les facteurs de risque de douleur chronique post-chirurgicale ? :: Douleur élevée pendant les 24 premières heures\nChirurgies thoracique, mammaire, prothèses de hanche et de genou\nHyperalgésie induite par les opioïdes\nUne chirurgie réussie ne l'exclut pas
 Quels analgésiques de base donner en postopératoire, et comment ? :: Paracétamol + AINS, de façon systématique et programmée (pas à la demande), sauf contre-indication\nDexaméthasone en complément selon la chirurgie
-Quel opioïde fort privilégier en postopératoire, et par quelle voie ? :: Morphine ou oxycodone, de préférence par voie orale
-Quelle est la différence entre un effet additif et un effet synergique ? :: Additif : l'effet de l'association égale la somme des effets\nSynergique : il la dépasse\nExemple : paracétamol + ibuprofène est additif
+Quelle est la place de la lidocaïne IV et de la gabapentine en postopératoire ? :: Lidocaïne IV : chirurgie majeure sans ALR ; AMM (Xylocard®) en chirurgie abdominale, 24 h au plus, sous ECG continu\nGabapentine, prégabaline : pas d'usage systématique (sédation, vertiges, aucun effet sur la douleur chronique)
+Quelle est la différence entre un effet additif et un effet synergique ? :: Additif : l'effet de l'association égale la somme des effets\nSynergique : il la dépasse\nAntagoniste : il est inférieur\nExemple : paracétamol + ibuprofène est additif
+
