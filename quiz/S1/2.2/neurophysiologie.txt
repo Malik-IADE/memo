@@ -250,7 +250,7 @@ Un patient présente une lésion médullaire traumatique cervicale ou thoracique
 + Une lésion au-dessus de T6 expose à un choc neurogène associant hypotension et bradycardie, mais impose aussi de rechercher une hémorragie associée. :: L'interruption sympathique entraîne une vasoplégie et empêche le cœur de s'accélérer (fibres T1–T4).
 + À distance de la phase aiguë, une lésion en T6 ou au-dessus expose à une hyperréflexie autonome (HTA brutale et bradycardie) lors d'un geste chirurgical sous-lésionnel. :: C'est pourquoi un patient paraplégique doit être anesthésié même s'il ne ressent pas la douleur.
 + La succinylcholine ne peut être utilisée que dans les 48 premières heures suivant le traumatisme médullaire. :: Au-delà de 48 h, la surexpression des récepteurs nicotiniques expose à une hyperkaliémie gravissime.
-- Chez un traumatisé médullaire aigu, la PAM doit être maintenue basse (autour de 55 mmHg) pour limiter l'œdème médullaire. :: Il faut au contraire perfuser la moelle (repère AO Spine 2024 : PAM ≥ 75–80 mmHg sans dépasser activement 90–95 mmHg pendant 3 à 7 jours).
+- Chez un traumatisé médullaire aigu, la PAM doit être maintenue basse (autour de 55 mmHg) pour limiter l'œdème médullaire. :: Il faut au contraire perfuser la moelle : PAM ≥ 75–80 mmHg sans dépasser activement 90–95 mmHg, pendant 3 à 7 jours.
 > Traumatisé médullaire : rachis en rectitude à l'intubation, risque ventilatoire cervical (C3–C5 phrénique), choc neurogène (> T6, atropine prête à l'aspiration), succinylcholine ≤ 48 h seulement, perfusion médullaire maintenue, et risque chronique d'hyperréflexie autonome (> T6).
 @ p. 73
 

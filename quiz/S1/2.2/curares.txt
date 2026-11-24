@@ -1,5 +1,5 @@
 // Quiz – Jonction neuromusculaire et curares (UE 2.2), amélioré le 24 novembre 2026 d'après le support « Physiologie - Jonction neuromusculaire et curares - UE 2.2 - avec notes ».
-// Questions orientées pratique IADE : physiologie de la plaque motrice, pharmacocinétique, non-dépolarisants, succinylcholine, interactions, allergie, RFE voies aériennes et terrains particuliers. Sans calcul arithmétique.
+// Questions orientées pratique IADE : physiologie de la plaque motrice, pharmacocinétique, non-dépolarisants, succinylcholine, interactions, allergie, recommandations sur les voies aériennes et terrains particuliers. Sans calcul arithmétique.
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
 # Physiologie – Jonction neuromusculaire et curares
@@ -108,7 +108,7 @@ QCM · Présentations, dilutions et chaîne du froid
 Concernant la préparation et la conservation des curares au bloc opératoire, quelles propositions sont exactes ?
 + Le cisatracurium existe en deux concentrations différentes : 2 mg/mL en ampoule (10 mg/5 mL ou 20 mg/10 mL) et 5 mg/mL en flacon de 150 mg/30 mL. :: Toujours vérifier la concentration sur le conditionnement pour éviter une erreur d'un facteur 2,5.
 + Les deux ampoules de mivacurium (10 mg/5 mL et 20 mg/10 mL) ont la même concentration de 2 mg/mL. :: Seul le volume total change, pas la concentration en mg/mL.
-+ La succinylcholine doit être conservée entre 2 et 8 °C et ne doit pas être réutilisée en cas de rupture de la chaîne du froid ou de congélation. :: Une alerte ANSM a conduit à ces règles strictes face à l'hypothèse d'un lien avec le risque anaphylactique.
++ La succinylcholine doit être conservée entre 2 et 8 °C et ne doit pas être réutilisée en cas de rupture de la chaîne du froid ou de congélation. :: Une alerte sanitaire a conduit à ces règles strictes, face à l'hypothèse d'un lien avec le risque anaphylactique.
 + Pour la succinylcholine, les ampoules sont d'utilisation immédiate tandis que les seringues préremplies (10 mg/mL) sont utilisables dans les 30 jours. :: Les conditions d'utilisation ne se transposent pas d'une présentation à l'autre.
 - L'ampoule de succinylcholine à 100 mg/2 mL a la même concentration que la seringue préremplie prête à l'emploi. :: L'ampoule brute est à 50 mg/mL et se dilue chez l'adulte dans un volume final de 10 mL pour obtenir 10 mg/mL.
 > Sécurité de préparation : vérifier le mg/mL (double concentration du cisatracurium), diluer la succinylcholine en volume final de 10 mL (10 mg/mL) et respecter strictement la chaîne du froid (2–8 °C).
@@ -155,9 +155,9 @@ Concernant le mécanisme d'action de la succinylcholine et le bloc de phase II, 
 @ p. 65 à 67 et 74
 
 QCU · Indications actuelles de la succinylcholine
-Selon les recommandations actuelles (rapport ANSM), dans quelle situation la succinylcholine conserve-t-elle une indication validée chez l'adulte sans contre-indication ?
+Dans quelle situation la succinylcholine conserve-t-elle aujourd'hui une indication validée chez l'adulte sans contre-indication ?
 - Une intubation programmée pour une chirurgie courte de 15 minutes chez un patient à jeun. :: Les interventions de durée brève chez un patient à jeun ne sont plus une indication de la succinylcholine.
-- Une intubation difficile prévisible chez un patient à jeun, pour bénéficier d'une récupération spontanée rapide. :: L'intubation difficile prévisible ne fait plus partie des indications retenues par l'ANSM.
+- Une intubation difficile prévisible chez un patient à jeun, pour bénéficier d'une récupération spontanée rapide. :: L'intubation difficile prévisible ne fait plus partie des indications retenues.
 + Une anesthésie générale pour césarienne ou une induction en séquence rapide sur estomac plein. :: Les indications conservées sont l'estomac plein / risque d'inhalation, l'IOT en urgence, l'AG de césarienne et l'électroconvulsivothérapie.
 - La pose programmée d'un dispositif supraglottique de deuxième génération chez un patient obèse à jeun. :: Un curare n'est pas recommandé systématiquement pour la pose d'un DSG, et la succinylcholine n'est pas indiquée hors urgence ou risque d'inhalation.
 - L'entretien d'un relâchement profond par bolus répétés lors d'une chirurgie ORL au laser. :: Les injections répétées exposent au bloc de phase II et aux effets indésirables ; on utilise un curare non dépolarisant.
@@ -224,14 +224,14 @@ Concernant l'anaphylaxie peranesthésique liée aux curares, quelle proposition 
 > Curares = > 50 % des anaphylaxies peranesthésiques (60 %), délai souvent de quelques minutes (< 30 min), grades I (cutanéomuqueux) à IV (arrêt), mortalité ~4 % malgré adrénaline. Le risque par molécule s'interprète toujours au regard de son exposition.
 @ p. 76 à 78
 
-QCM · Voies aériennes et curares (RFE SFAR)
-Concernant les recommandations formalisées d'experts (RFE 2018 et contexte 2026) sur la ventilation au masque et l'intubation chez l'adulte sans critère de difficulté, quelles propositions sont exactes ?
+QCM · Voies aériennes et curares
+Concernant la ventilation au masque et l'intubation chez l'adulte sans critère de difficulté, quelles propositions sont exactes ?
 + En l'absence de critère de ventilation au masque difficile, il n'est probablement pas recommandé de tester la ventilation au masque avant d'administrer le curare. :: Recommandation Grade 2− : ce test n'a pas de bénéfice démontré et allonge le temps d'apnée.
 + Il est probablement recommandé d'administrer un curare pour faciliter la ventilation au masque facial. :: Recommandation Grade 2+ : le relâchement musculaire améliore les conditions de ventilation au masque.
 + Il est recommandé d'administrer un curare pour faciliter l'intubation trachéale et réduire les traumatismes pharyngés et laryngés. :: Recommandations fortes (Grade 1+) : l'intubation sans curare est un facteur de risque indépendant d'intubation difficile.
-+ En l'absence de critère d'intubation difficile, le vidéolaryngoscope est recommandé en première intention, et les experts suggèrent d'y associer un curare. :: Meilleure visibilité ne supprime pas l'intérêt du relâchement des cordes vocales (avis d'expert RFE 2026).
++ En l'absence de critère d'intubation difficile, le vidéolaryngoscope est recommandé en première intention, et les experts suggèrent d'y associer un curare. :: Meilleure visibilité ne supprime pas l'intérêt du relâchement des cordes vocales (avis d'expert).
 - Une recommandation classée « Grade 2− » signifie que le niveau de preuve est nul et que la pratique est laissée au libre choix sans orientation. :: En méthodologie GRADE, le chiffre indique la force (1 forte, 2 faible) et le signe le sens (+ faire, − ne pas faire) : Grade 2− = « il n'est probablement pas recommandé de faire ».
-> RFE voies aériennes adulte sans critère de difficulté : ne probablement pas tester la VMF avant curare (2−), curare pour faciliter VMF (2+), curare recommandé pour IOT et limiter les traumatismes (1+), vidéolaryngoscope en 1re intention (1+) avec curare suggéré (avis d'expert).
+> Voies aériennes de l'adulte sans critère de difficulté : ne probablement pas tester la VMF avant curare (2−), curare pour faciliter VMF (2+), curare recommandé pour IOT et limiter les traumatismes (1+), vidéolaryngoscope en 1re intention (1+) avec curare suggéré (avis d'expert).
 @ p. 83 et 85 à 87
 
 QCM · Séquence rapide et intubation difficile prévue
@@ -270,7 +270,7 @@ Concernant la curarisation chez l'enfant et chez le sujet âgé, quelles proposi
 + Chez le sujet âgé, la baisse du débit cardiaque allonge le délai d'installation, et la baisse de clairance rénale ralentit l'élimination du rocuronium. :: Installation comme récupération peuvent être prolongées, imposant le monitorage.
 - Chez l'enfant en séquence rapide classique, les curares non dépolarisants à installation lente sont préférés à la succinylcholine en première intention. :: En ISR classique chez l'enfant, un curare d'action rapide est recommandé (Grade 1+), avec la succinylcholine en première intention (rocuronium en cas de CI).
 - L'absence de recommandation chez l'enfant pour la curarisation sous dispositif supraglottique équivaut à une contre-indication formelle. :: « Pas de recommandation » traduit un manque de données dans la littérature, non une interdiction.
-- Chez le sujet âgé, les RFE recommandent de diviser par deux la dose initiale d'atracurium ou de cisatracurium. :: Les données sont insuffisantes pour établir une recommandation spécifique de réduction de dose sur le seul critère de l'âge.
+- Chez le sujet âgé, il est recommandé de diviser par deux la dose initiale d'atracurium ou de cisatracurium. :: Les données sont insuffisantes pour établir une recommandation spécifique de réduction de dose sur le seul critère de l'âge.
 > Enfant : CND recommandé en induction IV hors ISR (2+) ; en ISR, curare rapide (1+) avec succinylcholine en 1re intention ou rocuronium si CI (2+). Sujet âgé : délai plus lent (débit cardiaque) et élimination plus lente du rocuronium, sans recommandation de baisse systématique de dose.
 @ p. 35, 96 et 97
 
@@ -303,7 +303,7 @@ QCU · Lien entre cisatracurium, élimination et histaminolibération
 - Les deux affirmations sont vraies et la seconde explique la première. :: L'intérêt en insuffisance rénale ou hépatique ne dépend pas de l'histaminolibération mais de la dégradation chimique par la voie de Hofmann.
 + Les deux affirmations sont vraies, mais la seconde n'explique pas la première. :: Les deux propriétés sont exactes mais indépendantes : la première relève de la voie de Hofmann, la seconde de la tolérance hémodynamique.
 - La première affirmation est vraie, la seconde est fausse. :: La seconde est vraie : le cisatracurium provoque quasiment pas d'histaminolibération, contrairement à l'atracurium.
-- La première affirmation est fausse, la seconde est vraie. :: La première est vraie : la voie de Hofmann est indépendante du foie et du rein (RFE Grade 2+).
+- La première affirmation est fausse, la seconde est vraie. :: La première est vraie : la voie de Hofmann est indépendante du foie et du rein (Grade 2+).
 - Les deux affirmations sont fausses. :: Les deux affirmations sont vraies, sans relation de cause à effet entre elles.
 > L'intérêt du cisatracurium en dysfonction rénale ou hépatique vient de la voie de Hofmann (dégradation chimique spontanée) ; son très faible pouvoir histaminolibérateur est une propriété distincte, qui explique sa bonne tolérance hémodynamique.
 @ p. 46, 50 à 52 et 98
