@@ -157,12 +157,6 @@ code, .mono { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size:
 .count { min-width: 30px; padding: 2px 8px; border-radius: 99px; font-size: .82rem; font-weight: 700; text-align: center; font-variant-numeric: tabular-nums; }
 .count.new { color: var(--new); background: color-mix(in srgb, var(--new) 13%, transparent); }
 .count.due { color: var(--due); background: color-mix(in srgb, var(--due) 13%, transparent); }
-/* Sur téléphone, le nom du cours prend toute la largeur ; compteurs et « Réviser » passent dessous. */
-@media (max-width: 420px) {
-  .deck-row { flex-wrap: wrap; row-gap: 10px; }
-  .deck-link { flex-basis: 100%; }
-  .deck-row > .btn { margin-left: auto; }
-}
 
 /* ---------- État vide ---------- */
 .empty, .done { display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center; padding-top: 6vh; }

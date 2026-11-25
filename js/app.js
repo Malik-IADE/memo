@@ -691,10 +691,6 @@ function deckRows(rows) {
             <span class="deck-name">${esc(shortName(d.name))}</span>
             <span class="deck-meta">${plural(s.total, 'carte')}</span>
           </a>
-          <span class="counts">
-            <span class="count new" title="Nouvelles">${s.newAvail}</span>
-            <span class="count due" title="À revoir">${s.dueAvail}</span>
-          </span>
           <a class="btn small ${s.todo ? 'primary' : 'soft'}" href="#/review/${esc(d.id)}">Réviser</a>
         </li>`).join('')}
     </ul>`;
