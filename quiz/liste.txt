@@ -43,6 +43,7 @@ S1/3.3/sujet-denutri.txt
 S1/3.3/hors-bloc.txt
 S1/3.3/patient-addict.txt
 S1/3.3/patient-cardiaque.txt
+S1/3.3/patient-psychiatrique.txt
 
 S1/4.4/aes-precautions.txt
 S1/4.4/hygiene-mains.txt
