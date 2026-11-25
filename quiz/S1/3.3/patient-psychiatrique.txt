@@ -1,0 +1,205 @@
+// Quiz – Anesthésie du patient psychiatrique, dément ou IMC (UE 3.3), créé le 25 novembre 2026 d'après le support de cours avec notes.
+// Questions type examen centrées sur l'essentiel au bloc opératoire et en périopératoire (psychiatrie, sujet dément, IMC).
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Anesthésie – Patient psychiatrique, dément ou IMC
+
+QCM · Accueil au bloc et prémédication en psychiatrie
+Concernant l'accueil au bloc et la prémédication d'un patient anxieux ou présentant un trouble du neurodéveloppement, quelles propositions sont exactes ?
++ En l'absence d'indication particulière, ne pas donner de prémédication anxiolytique reste la meilleure option au bloc. :: Les molécules de prémédication anxiolytique sont globalement délétères ; les benzodiazépines sont limitées.
++ Chez un patient autiste (TSA), le maintien des routines, le calme et la présence d'un proche facilitent l'induction. :: Ces patients présentent une intolérance au changement et une hyper- ou hyporéactivité sensorielle (bruit, lumière).
+- Une prémédication par hydroxyzine ou benzodiazépine courte est préférable pour limiter le stress chirurgical et les rechutes. :: Les molécules de prémédication anxiolytique sont à éviter (effets cognitifs, dépendance, charge anticholinergique pour l'hydroxyzine).
+- Un jeûne préopératoire strict d'au moins 8 heures s'impose pour éviter l'absorption gastrique des psychotropes à l'induction. :: Il faut raccourcir le jeûne au maximum : la prise des psychotropes reste possible jusqu'à H − 2 avec un peu d'eau.
+- Le dépistage d'une consommation addictive est réservé à la consultation d'anesthésie et inutile en visite pré-anesthésique. :: Il faut réinterroger le patient en consultation et en VPA pour dépister une consommation non déclarée (risque de sevrage et de délirium).
+> Au bloc : éviter la prémédication anxiolytique médicamenteuse, raccourcir le jeûne (prise possible jusqu'à H − 2 avec eau), dépister anxiété (HADS, APAIS) et consommations addictives en CPA et VPA, et adapter l'environnement (calme, routines, proche) pour les patients TSA/TDAH.
+@ p. 8, 9, 10, 12 et 13
+
+QCM · Préopératoire et bilan du patient psychiatrique
+Concernant la préparation préopératoire d'un patient traité par psychotropes, quelles propositions sont exactes ?
++ Un avis psychiatrique demandé au moins 4 semaines avant une chirurgie programmée permet d'évaluer un ajustement thérapeutique. :: Ce délai correspond au temps d'action des antidépresseurs ou d'évaluation d'un changement de posologie.
++ Le bilan préopératoire comprend un ECG, un ionogramme (K+, Na+), une glycémie, une TSH et une lithémie sous lithium. :: Il dépiste un allongement du QT, des troubles ioniques, un syndrome métabolique et des troubles endocriniens.
++ Un traitement par lithium, IMAO, antidépresseur tricyclique ou clozapine fait classer le patient ASA 3 au vu du risque d'interaction. :: Ces quatre classes exposent à des interactions périopératoires majeures.
++ En cas de jeûne prolongé postopératoire (iléus, chirurgie digestive lourde), un relais par sonde, voie IV ou IM doit être prévu. :: L'interruption des psychotropes expose au sevrage et à une rechute psychiatrique.
++ Une insuffisance rénale ou hépatique favorise l'accumulation des psychotropes et augmente le risque de délirium postopératoire. :: Rein et foie étant les principales voies d'élimination, ces terrains fragiles majorent les effets indésirables.
+> Préopératoire : poursuivre les psychotropes (relais SNG/IV/IM si jeûne prolongé), avis psy ≥ 4 semaines en programmé, bilan (ECG, ionogramme, lithémie, glycémie, TSH), classe ASA 3 si lithium/IMAO/tricycliques/clozapine, vigilance sur les fonctions rénale et hépatique.
+@ p. 12 et 13
+
+QCU · Exceptions à la poursuite des psychotropes
+Parmi les couples de traitements suivants, lequel correspond aux deux exceptions classiques à la règle de poursuite en périopératoire ?
+- Les ISRS poursuivis en chirurgie mineure et les benzodiazépines arrêtées la veille. :: Les ISRS et les benzodiazépines sont poursuivis ; l'arrêt brutal des BZD expose aux convulsions.
+- Les antipsychotiques de 2e génération et le valproate arrêtés 48 heures avant le bloc. :: Les antipsychotiques sont poursuivis (risque de décompensation psychotique), tout comme le valproate.
++ Le lithium en cas de chirurgie majeure et les IMAO avec relais psychiatrique préalable. :: Le lithium est arrêté ≥ 72 h avant une chirurgie majeure (poursuivi en mineure) et les IMAO sont arrêtés 2 semaines avant.
+- Les antidépresseurs tricycliques et la carbamazépine arrêtés 72 heures avant l'induction. :: Les tricycliques et la carbamazépine sont poursuivis en anticipant leurs interactions peropératoires.
+- Les antipsychotiques de 1re génération et le lithium arrêtés avant toute intervention. :: Les antipsychotiques sont poursuivis, et le lithium n'est arrêté qu'en cas de chirurgie majeure (≥ 72 h).
+> Règle générale : poursuivre tous les psychotropes. Deux exceptions : le lithium (arrêt ≥ 72 h uniquement si chirurgie majeure) et les IMAO (arrêt 2 semaines avant, avec relais décidé par le psychiatre).
+@ p. 12, 14, 16 et 17
+
+QCM · Antipsychotiques au bloc opératoire
+Concernant un patient traité au long cours par antipsychotiques (neuroleptiques), quelles propositions sont exactes au bloc ?
++ Leur effet alpha-bloquant expose à une hypotension artérielle marquée à l'induction anesthésique. :: Hypotension, allongement du QT et hypothermie forment le triptyque peropératoire à surveiller.
++ Ils allongent l'intervalle QT et exposent aux torsades de pointes, surtout en cas d'hypokaliémie. :: Il faut surveiller l'ECG, la kaliémie et la magnésémie.
++ Pour la prévention des NVPO, l'ondansétron 4 mg est préférable au dropéridol ou au métoclopramide. :: Dropéridol, halopéridol et métoclopramide cumulent les effets neuroleptiques (QT long, syndrome malin).
+- L'AIVOC est contre-indiquée chez le schizophrène au profit d'un entretien exclusif par sévoflurane. :: L'AIVOC n'est pas contre-indiquée ; la titration guidée par le BIS reste un très bon choix.
+- Un relais par métoclopramide IV est conseillé en fin d'intervention pour prévenir l'iléus postopératoire. :: Le métoclopramide agit comme un neuroleptique et s'additionne aux antipsychotiques (risque de syndrome malin et de QT long).
+> Antipsychotiques (= neuroleptiques) : à poursuivre. Risques au bloc : hypotension à l'induction, QT long (ECG, K+, Mg2+), hypothermie, syndrome malin des neuroleptiques. Éviter dropéridol/métoclopramide (préférer ondansétron 4 mg) ; AIVOC + BIS utilisable.
+@ p. 14, 17 et 18
+
+QCM · Antidépresseurs et vasopresseurs au bloc
+Concernant les interactions anesthésiques des antidépresseurs au bloc opératoire, quelles propositions sont exactes ?
++ Les ISRS et IRSNa majorent le risque hémorragique périopératoire, en particulier avec les AINS ou les anticoagulants. :: L'inhibition de la recapture empêche la captation de sérotonine par les plaquettes.
++ Sous IMAO, l'éphédrine est contre-indiquée au profit de vasopresseurs directs titrés comme la noradrénaline. :: L'éphédrine (vasopresseur indirect) libère la noradrénaline accumulée et déclenche une crise hypertensive massive.
+- Sous antidépresseurs tricycliques au long cours, l'éphédrine déclenche une crise hypertensive par libération excessive de noradrénaline. :: La crise hypertensive survient en phase aiguë ; au long cours, les stocks neuronaux sont épuisés et l'éphédrine devient inefficace.
+- Sous ISRS, le tramadol constitue un antalgique de choix car son mécanisme opioïde évite les interactions sérotoninergiques. :: Le tramadol est fortement prosérotoninergique et doit être évité sous ISRS (comme sous IMAO) devant le risque de syndrome sérotoninergique.
+- Les antidépresseurs tricycliques doivent être interrompus 72 heures avant le bloc pour prévenir l'allongement du QT. :: Les tricycliques sont poursuivis en périopératoire, sous surveillance ECG (QT long, arythmies) et en évitant éphédrine et anticholinergiques.
+> ISRS/IRSNa : à poursuivre, risque de saignement et de syndrome sérotoninergique (bannir le tramadol). Tricycliques : à poursuivre, QT long, effet anticholinergique, pas d'éphédrine (crise HTA en aigu, inefficace au long cours). IMAO : arrêt 2 semaines avant, jamais d'éphédrine, de tramadol ni de péthidine ; préférer la noradrénaline titrée.
+@ p. 16
+
+QCM · Lithium et benzodiazépines au bloc
+Concernant les répercussions au bloc du lithium et des benzodiazépines au long cours, quelles propositions sont exactes ?
++ Le lithium prolonge la durée d'action des curares et impose un monitorage de la curarisation par TOF. :: Son élimination rénale expose également à une accumulation toxique (convulsions, coma).
++ Les AINS sont à éviter chez un patient sous lithium car ils favorisent son accumulation rénale. :: Ils diminuent l'élimination rénale du lithium et majorent sa toxicité.
++ Le lithium diminue les besoins en halogénés (CAM abaissée) par un effet sédatif non GABAergique. :: À l'inverse, l'usage chronique de benzodiazépines augmente la CAM par épuisement des récepteurs GABA.
+- L'usage chronique de benzodiazépines diminue la CAM des halogénés par synergie prolongée sur les récepteurs GABA. :: L'usage chronique induit une tolérance et un épuisement des récepteurs GABA : les besoins en hypnotiques et la CAM augmentent.
+- En chirurgie mineure (appendicectomie), le lithium doit être interrompu 72 heures avant l'induction. :: En chirurgie mineure, on le poursuit pour éviter une rechute ; l'arrêt ≥ 72 h est réservé aux chirurgies majeures.
+> Lithium : élimination rénale, curares prolongés (TOF), CAM ↓, pas d'AINS, arrêt ≥ 72 h uniquement si chirurgie majeure. Benzodiazépines : à poursuivre (arrêt brutal → convulsions), CAM ↑ par tolérance GABA, potentialisation de la dépression respiratoire.
+@ p. 14 et 17
+
+QCM · Agents anesthésiques en périopératoire chez le patient psychiatrique
+Concernant les effets périopératoires des agents anesthésiques chez le patient psychiatrique, quelles propositions sont exactes ?
++ L'administration conjointe de benzodiazépines diminue l'effet antidépresseur de la kétamine. :: C'est une interaction à prendre en compte lors de son utilisation en périopératoire.
++ La dexmédétomidine réduit le délirium et l'agitation postopératoires sans induire de dépression respiratoire. :: Elle ne possède toutefois pas d'effet antidépresseur propre.
+- La kétamine injectée en peropératoire prévient efficacement la survenue d'une dépression postopératoire. :: En périopératoire, elle ne prévient pas la dépression postopératoire, bien qu'elle puisse traiter une rechute.
+- Le propofol possède un effet antidépresseur propre qui justifie son choix privilégié chez le patient déprimé. :: Le propofol est l'anesthésique de l'ECT et a un effet anxiolytique à faible dose, mais aucun effet antidépresseur propre.
+- Le protoxyde d'azote est recommandé pour l'entretien chez le patient déprimé grâce à son profil de tolérance. :: Malgré un effet antidépresseur décrit, la tendance est de le bannir du bloc (toxicité, carence en B12, pollution).
+> Au bloc : kétamine (effet antidépresseur diminué par BZD, ne prévient pas la dépression postop), dexmédétomidine (↓ délirium/agitation sans dépression respiratoire), propofol (ECT, anxiolytique à faible dose, non antidépresseur), N2O évité.
+@ p. 15
+
+QCU · Différencier les trois syndromes hyperthermiques
+Un patient traité par ISRS reçoit du tramadol en fin d'intervention. En SSPI, il présente une fièvre à 39,5 °C, des sueurs, une tachycardie, une hyperréflexie, un clonus et une diarrhée. Quel diagnostic évoquer en priorité ?
++ Un syndrome sérotoninergique déclenché par l'association ISRS et tramadol. :: Délai court (< 12 h, typiquement en SSPI), clonus, hyperréflexie, diarrhée, signes sympathiques ; traitement : arrêt + cyproheptadine.
+- Un syndrome malin des neuroleptiques à révélation précoce en SSPI. :: Il survient plus tardivement (1 à 14 jours, après la sortie de SSPI), sous antipsychotiques, avec rigidité « en tuyau de plomb » et réflexes diminués.
+- Une hyperthermie maligne déclenchée par les halogénés de l'entretien. :: Elle survient en peropératoire (minutes à heures), avec spasme des masséters et hypercapnie, sans lien avec les psychotropes.
+- Un syndrome de sevrage aigu lié à l'interruption matinale de l'ISRS. :: Le tableau associe clonus, hyperréflexie et diarrhée juste après tramadol sur ISRS, typique d'un excès sérotoninergique.
+- Une réaction extrapyramidale aiguë secondaire aux antiémétiques du bloc. :: Une réaction extrapyramidale ne donne pas ce tableau hyperthermique avec clonus, diarrhée et hyperréflexie.
+> Repère temporel des 3 syndromes (signe commun : hyperthermie 39–40 °C) : hyperthermie maligne = peropératoire (halogénés/succinylcholine, spasme masséters, hypercapnie → dantrolène) ; syndrome sérotoninergique = SSPI (< 12 h, clonus, hyperréflexie → arrêt + cyproheptadine) ; syndrome malin des neuroleptiques = tardif (1–14 j, rigidité « en tuyau de plomb », réflexes ↓ → arrêt + dantrolène ou bromocriptine).
+@ p. 18
+
+QCM · Douleur et SSPI en psychiatrie
+Concernant la douleur et la prise en charge en SSPI des patients psychiatriques, quelles propositions sont exactes ?
++ L'hyposensibilité à la douleur du patient schizophrène impose un examen clinique actif en SSPI pour ne pas méconnaître une complication. :: Une douleur peu exprimée peut masquer une appendicite, une perforation, une péritonite ou un infarctus du myocarde.
++ Les patients dépressifs et les patients TDAH présentent habituellement une hypersensibilité à la douleur nécessitant d'anticiper l'analgésie. :: Contrairement au schizophrène, leur plainte douloureuse est majorée.
++ Chez le patient bipolaire, l'expression douloureuse varie selon la phase thymique (moindre en phase maniaque, majorée en phase dépressive). :: L'évaluation de la douleur doit tenir compte de l'état thymique du moment.
++ En cas d'agitation postopératoire, la désescalade verbale précède le recours éventuel à la loxapine inhalée (sans dépression respiratoire). :: Ordre : dialogue, coopération, désescalade verbale, puis loxapine inhalée (ou dexmédétomidine/clonidine/loxapine en réa).
+- En cas de sevrage iatrogène en postopératoire, les premiers signes apparaissent en règle générale au-delà du 5e jour. :: Le sevrage est précoce (typiquement 24 à 48 h après l'arrêt), alors que la rechute psychiatrique est plus tardive.
+> Sensibilité à la douleur : ↑ (dépression, TDAH), ↓ (schizophrénie → examen clinique actif en SSPI), variable selon l'humeur (bipolaire). Reprendre les psychotropes per os dès que possible (sinon IV/IM) ; agitation : désescalade verbale puis loxapine inhalée.
+@ p. 19
+
+QCM · Implications au bloc selon le terrain de démence
+Concernant l'impact du type de démence sur la conduite anesthésique au bloc opératoire, quelles propositions sont exactes ?
++ Dans la démence à corps de Lewy, l'halopéridol et le dropéridol sont à proscrire devant une hypersensibilité sévère aux neuroleptiques. :: Elle associe un déficit dopaminergique et un syndrome parkinsonien.
++ Dans la démence à corps de Lewy, les fortes doses de morphiniques peuvent provoquer une rigidité thoracique majorant le syndrome parkinsonien. :: Les opioïdes ne sont pas contre-indiqués mais doivent être titrés strictement.
++ Dans la maladie d'Alzheimer, le déficit basal en acétylcholine impose de limiter la charge anticholinergique et d'anticiper les interactions des IAChE. :: Les IAChE exposent à la bradycardie et modifient la réponse aux curares.
++ Dans la démence vasculaire, le terrain athéromateux carotidien impose de maintenir des objectifs tensionnels élevés en peropératoire. :: La vasoplégie induite par les hypnotiques expose particulièrement à l'ischémie cérébrale.
+- Dans la démence à corps de Lewy, les morphiniques sont contre-indiqués en raison du déficit dopaminergique. :: Ils ne sont pas contre-indiqués, mais nécessitent une titration stricte pour éviter une rigidité majorant le syndrome parkinsonien.
+> Au bloc : Alzheimer → déficit ACh (éviter anticholinergiques, interactions IAChE) ; vasculaire → objectifs tensionnels élevés ; corps de Lewy → éviter halopéridol/dropéridol et titrer strictement les opioïdes.
+@ p. 28, 29, 30, 33, 38 et 39
+
+QCM · Chronologie des troubles neurocognitifs périopératoires
+Concernant la terminologie des troubles neurocognitifs périopératoires selon leur délai après la chirurgie, quelles propositions sont exactes ?
++ Un trouble cognitif aigu et fluctuant survenant entre J0 et J7, ou jusqu'à la sortie, correspond à un délirium postopératoire. :: C'est la première fenêtre après la chirurgie, celle de la SSPI et des premiers jours.
++ Un trouble cognitif encore présent à J20 sans retour à l'état antérieur relève d'une récupération neurocognitive retardée. :: Cette fenêtre s'étend jusqu'à J30 ; le retour à l'état antérieur peut prendre environ un mois.
++ Un déclin cognitif persistant entre J30 et 1 an après l'intervention définit les troubles neurocognitifs postopératoires. :: C'est la fenêtre la plus tardive de la nomenclature périopératoire.
+- Un trouble cognitif constaté au 3e mois postopératoire relève encore d'une récupération neurocognitive retardée. :: Au-delà de J30, on parle de troubles neurocognitifs postopératoires ; la récupération retardée s'arrête à J30.
+- Des troubles cognitifs repérés en consultation d'anesthésie avant l'intervention sont classés en délirium préopératoire. :: Avant la chirurgie, on parle de troubles neurocognitifs mineurs ou majeurs préexistants, à dépister (Mini-Cog).
+> Chronologie périopératoire : avant la chirurgie (troubles neurocognitifs mineurs ou majeurs préexistants), J0 → J7 ou sortie (délirium postopératoire), jusqu'à J30 (récupération neurocognitive retardée), J30 → 1 an (troubles neurocognitifs postopératoires). Cette terminologie évite de confondre un délirium aigu avec un déclin prolongé ou une démence préexistante.
+@ p. 26
+
+QCM · Consultation et organisation au bloc du sujet dément
+Concernant la consultation d'anesthésie et l'organisation au bloc d'un patient dément, quelles propositions sont exactes ?
++ Le score de fragilité (CFS) prédit mieux les complications périopératoires que l'âge civil seul. :: L'âge physiologique et la dépendance priment sur l'âge chronologique.
++ En consultation d'anesthésie, le dépistage utilise des outils rapides comme le Mini-Cog (3 mots + horloge). :: Le MMSE complet (~1 h) relève du gériatre ou du neuropsychologue en cas de doute.
++ La chirurgie ambulatoire est réalisable si l'entourage assure le pré- et le postopératoire, car le retour rapide réduit le délirium. :: À l'inverse, une hospitalisation prolongée majore les troubles cognitifs et le recours aux antipsychotiques.
++ Programmer en début de journée et garder lunettes et appareils auditifs jusqu'à l'induction aide à prévenir le délirium. :: Cela raccourcit le jeûne, préserve le rythme veille-sommeil et limite la désorientation ; les aides et aidants reviennent dès la SSPI.
+- La réalisation d'un MMSE complet en consultation d'anesthésie est requise avant une chirurgie programmée après 60 ans. :: L'anesthésiste dépiste par des outils rapides (Mini-Cog, AMT-10, QMCI) et adresse au gériatre en cas de doute.
+> Préopératoire et organisation : dépistage rapide (Mini-Cog), score de fragilité (CFS), 1re position au programme, ambulatoire possible si entourage présent, aides sensorielles et aidants jusqu'à l'induction et dès la SSPI, fiche « This is me ».
+@ p. 35 et 36
+
+QCM · Conduite anesthésique et monitorage du sujet dément
+Concernant la conduite anesthésique et le monitorage au bloc chez le sujet dément, quelles propositions sont exactes ?
++ La conduite anesthésique (titration stricte, agents courts, épargne morphinique par ALR) prime sur le choix entre AG et ALR. :: Il n'existe pas de différence démontrée entre AG et ALR sur le devenir cognitif.
++ Même si le BIS basal éveillé est abaissé par la démence, sa décroissance reste fiable pour guider la titration des hypnotiques. :: Le monitorage EEG/BIS réduit les doses d'anesthésiques, le délirium et les troubles cognitifs à 3 mois.
+- L'anesthésie locorégionale seule est supérieure à l'anesthésie générale sur le pronostic cognitif à long terme. :: Aucune différence n'est démontrée entre AG et ALR sur le devenir cognitif ; l'ALR analgésique associée à l'AG est toutefois encouragée.
+- Le monitorage de l'oxygénation cérébrale par rSO2 (NIRS) a démontré une supériorité sur le BIS pour prévenir le délirium. :: Le bénéfice de la rSO2 (NIRS) pour la prévention du délirium n'est pas démontré ; le BIS reste à privilégier.
+- Le propofol à forte concentration protège contre l'accumulation de protéines bêta-amyloïdes contrairement aux halogénés. :: L'effet du propofol est dose-dépendant : bénéfique in vitro à faible concentration, mais délétère à forte concentration.
+> Conduite anesthésique > choix AG/ALR. Titration stricte (AIVOC + BIS, doses minimales efficaces), agents courts, ALR analgésique, réduction de la charge anticholinergique (éviter atropine, néfopam, hydroxyzine, tramadol, BZD), objectifs tensionnels élevés (PNI / 2 min).
+@ p. 37, 38 et 39
+
+QCM · Interactions entre IAChE et curares au bloc
+Concernant un patient traité par inhibiteur de l'acétylcholinestérase (IAChE) au bloc opératoire, quelles propositions sont exactes ?
++ La succinylcholine expose à un bloc neuromusculaire prolongé sans antagoniste disponible, aggravé par la néostigmine. :: L'excès d'acétylcholine sous IAChE prolonge la dépolarisation ; la néostigmine étant aussi un IAChE, elle prolonge ce bloc.
++ L'efficacité des curares non dépolarisants est diminuée par compétition, tandis que le sugammadex reste pleinement efficace. :: L'excès d'acétylcholine s'oppose aux curares non dépolarisants, mais le sugammadex encapsule directement le rocuronium.
++ En chirurgie urgente nécessitant une curarisation, on privilégie l'atracurium/cisatracurium ou le rocuronium + sugammadex sous TOF. :: Hors urgence, éviter la curarisation (masque laryngé, intubation sans curare) reste une très bonne stratégie.
+- En cas de bloc prolongé après succinylcholine sous IAChE, une dose test de néostigmine permet d'accélérer la décurarisation. :: La néostigmine n'antagonise pas la succinylcholine et aggrave au contraire la prolongation du bloc.
+- Sous donépézil, l'arrêt du traitement 7 jours avant une anesthésie sans curare est conseillé pour prévenir la bradycardie. :: Sans curare, les IAChE sont poursuivis ; même avec curare, le donépézil est maintenu sous TOF (arrêt à J-1 pour galantamine/rivastigmine si curarisation) devant le risque de déclin cognitif.
+> Sous IAChE (↑ ACh) : succinylcholine = bloc prolongé sans antagoniste (néostigmine la prolonge) ; non dépolarisants = efficacité ↓, sugammadex efficace. Éviter les curares si possible, sinon TOF et atracurium/cisatracurium ou rocuronium + sugammadex.
+@ p. 40 et 64
+
+QCM · Délirium en SSPI et en postopératoire
+Concernant le délirium postopératoire chez le sujet dément, quelle(s) proposition(s) est (sont) exacte(s) ?
++ La forme hypoactive est la plus fréquente, la plus silencieuse et impose un dépistage actif par 4AT ou CAM-ICU de J0 à J3. :: Contrairement à la forme hyperactive, elle passe facilement inaperçue et ne dispose pas de traitement médicamenteux efficace.
+- En cas d'agitation dangereuse sur démence à corps de Lewy, l'halopéridol titré 0,5 mg IV reste le traitement de première intention. :: L'halopéridol 0,5 mg IV titré est indiqué dans l'agitation dangereuse, sauf dans la maladie de Parkinson et la démence à corps de Lewy (hypersensibilité sévère aux neuroleptiques).
+- L'ondansétron constitue un antiémétique idéal en postopératoire chez le dément car il accélère le transit et prévient le fécalome. :: L'ondansétron est constipant et doit être évité en cas de constipation ; le fécalome et la RAU sont des facteurs déclenchants de délirium.
+- Le néfopam et l'hydroxyzine sont privilégiés en SSPI pour l'épargne morphinique chez le sujet dément. :: Néfopam et hydroxyzine sont à éviter chez le sujet dément (charge anticholinergique confusogène) ; privilégier ALR et morphine titrée à faible dose.
+- Une benzodiazépine à demi-vie courte est recommandée en première intention devant une agitation nocturne du sujet âgé. :: Les benzodiazépines sont à éviter chez le sujet âgé confus, sauf en cas de sevrage alcoolique.
+> Délirium : forme hypoactive majoritaire, dépistage 4AT/CAM-ICU (J0–J3). Prévention d'abord non médicamenteuse (HELP) + analgésie adaptée (Algoplus, Doloplus-2, Abbey ; ALR, morphine titrée ; éviter néfopam, hydroxyzine) + prévention RAU/constipation. Agitation dangereuse : halopéridol 0,5 mg IV titré (sauf Parkinson/Lewy).
+@ p. 42 et 43
+
+QCM · Aspects médicolégaux périopératoires chez le sujet dément
+Concernant le consentement, la LATA, la réanimation et la contention chez le sujet dément opéré, quelles propositions sont exactes ?
++ La capacité décisionnelle pouvant être partielle ou fluctuante, l'avis du patient doit être recherché avant celui du représentant légal. :: La démence n'équivaut pas automatiquement à une incapacité.
++ Accepter d'opérer un patient dément implique d'assumer les complications précoces, sans refus d'USC ou de réanimation sur la seule démence. :: Toute limitation impose une procédure collégiale (directives anticipées > personne de confiance > proches).
++ La contention favorise le délirium et reste un dernier recours prescrit pour une durée minimale, réévalué en cas de danger immédiat. :: Uniquement pour prévenir une chute ou l'arrachage d'un dispositif vital, sur prescription protocolisée.
+- En cas d'incapacité décisionnelle du patient dément, la personne de confiance signe le consentement opératoire à sa place. :: La personne de confiance témoigne de la volonté du patient mais ne consent pas ; le consentement relève du représentant légal.
+- En urgence vitale chez un patient dément, la recherche des directives anticipées prime sur la mise en route des soins indispensables. :: En urgence vitale, on réalise d'abord les soins indispensables puis on réévalue les directives anticipées de façon différée.
+> Démence ≠ incapacité, ≠ LATA, ≠ refus de réa/USC, ≠ contention systématique. Personne de confiance : témoigne, ne consent pas. Urgence vitale : soins indispensables d'abord.
+@ p. 41 et 45
+
+QCM · Risques majeurs au bloc chez le patient IMC
+Concernant les risques périopératoires d'un patient atteint d'infirmité motrice cérébrale (IMC), quelles propositions sont exactes ?
++ L'atteinte respiratoire représente la première cause de morbi-mortalité (inhalations, bronchospasme, syndrome restrictif sur scoliose). :: Elle conditionne la préparation préopératoire, la gestion des voies aériennes et le sevrage ventilatoire.
++ L'hypotension artérielle est la première complication peropératoire par sensibilité accrue aux anesthésiques et réponse adrénergique réduite. :: Elle impose une titration prudente et une anticipation du remplissage.
++ Le risque d'intubation difficile est majoré par l'atteinte de l'ATM, les dents fragiles ou mobiles et la raideur du rachis cervical. :: Un chariot d'intubation difficile doit être préparé à proximité.
+- L'hypertonie spastique protège le patient IMC de l'hypothermie peropératoire grâce à une thermogenèse musculaire augmentée. :: La maigreur et la faible masse maigre exposent au contraire à une hypothermie rapide (réveil retardé).
+- Une déficience intellectuelle accompagne habituellement l'IMC et dispense de rechercher une communication directe avec le patient. :: Elle est absente chez environ un tiers des patients : il ne faut pas la présumer.
+> IMC au bloc : 1re cause de morbi-mortalité = respiratoire ; 1re complication peropératoire = hypotension. Anticiper IOT difficile, RGO, hypersalivation, hypothermie rapide, épilepsie fréquente (jusqu'à 50 %), allergie au latex et rétractions.
+@ p. 49, 50 et 51
+
+QCM · Préparation et gestion des traitements chez le patient IMC
+Concernant la préparation au bloc et les traitements habituels d'un patient IMC, quelles propositions sont exactes ?
++ Tous les traitements habituels (baclofène, antiépileptiques, antireflux) sont poursuivis, avec un arrêt brutal du baclofène à proscrire. :: Il faut anticiper leurs effets : reprise de ventilation spontanée retardée sous baclofène, dépression respiratoire sous BZD.
++ Le glycopyrrolate IV est utile contre l'hypersalivation car il n'entraîne pas d'effet neurologique central. :: Il complète les aspirations oropharyngées répétées.
++ La carbamazépine (inducteur enzymatique) réduit la durée d'action du vécuronium, tandis que le valproate expose au saignement. :: Ce sont les deux interactions principales des antiépileptiques à anticiper chez le patient IMC.
++ En cas d'abord veineux impossible par rétractions ou agitation, on recourt à l'échoguidage ou à une induction inhalatoire au sévoflurane. :: L'EMLA aide également à faciliter la pose de VVP.
++ Une pneumopathie impose de reporter une chirurgie programmée, et la salle doit être préparée sans latex en 1re position. :: Ces patients sont fréquemment colonisés et exposés à l'allergie au latex par soins répétés.
+> Préparation IMC : poursuivre tous les traitements (baclofène, carbamazépine, valproate), salle sans latex en 1re position, chariot IOT difficile, glycopyrrolate IV, antiacides + métoclopramide (RGO), report si pneumopathie, VVP échoguidée ou induction inhalatoire.
+@ p. 51 à 54
+
+QCM · Peropératoire du patient IMC : agents et voies aériennes
+Concernant la gestion des agents anesthésiques et des voies aériennes chez un patient IMC au bloc, quelles propositions sont exactes ?
++ Les besoins en halogénés sont diminués (CAM abaissée) et nécessitent une titration sous BIS pour éviter un réveil retardé. :: Sensibilité accrue, antiépileptiques, antispastiques et hypothermie abaissent la CAM.
++ On observe une sensibilité augmentée à la succinylcholine et une résistance au rocuronium, imposant un monitorage par TOF. :: Il n'y a aucune contre-indication aux curares, mais l'adaptation des doses et le TOF sont indispensables.
+- En cas d'hyperréactivité bronchique chez le patient IMC, le thiopental est préféré à la kétamine pour l'induction. :: C'est l'inverse : en cas d'hyperréactivité bronchique, la kétamine est préférée et le thiopental évité.
+- Les curares non dépolarisants sont contre-indiqués chez le patient IMC en raison d'un risque de curarisation prolongée par la toxine botulique. :: Il n'existe pas de contre-indication aux curares ; la potentialisation par la toxine botulique n'est pas démontrée.
+- Les besoins en halogénés sont augmentés (CAM élevée) chez le patient IMC traité par antiépileptiques. :: Les besoins en halogénés sont au contraire diminués (CAM abaissée), d'autant plus sous antiépileptiques.
+> IMC en peropératoire : CAM ↓ (titration BIS), curares autorisés sous TOF (sensibilité ↑ succinylcholine, résistance rocuronium), kétamine si HRB (pas de thiopental), protection des appuis (escarres, luxations), réchauffement actif (salle, solutés, Bair Hugger).
+@ p. 54, 55 et 56
+
+QCM · Réveil, douleur et chirurgie de scoliose chez le patient IMC
+Concernant le réveil, l'analgésie et les suites opératoires d'un patient IMC, quelle(s) proposition(s) est (sont) exacte(s) ?
++ Le risque de dépression respiratoire sous morphiniques est doublé, justifiant une épargne morphinique maximale (AG + ALR/péridurale, AINS, paracétamol). :: L'extubation se fait uniquement bien réveillé et décurarisé (TOF), après aspirations répétées ; appeler l'aidant en SSPI pour évaluer la douleur.
+- Une extubation profonde avant le réveil complet est recommandée pour éviter le bronchospasme chez le patient IMC. :: Au contraire, devant l'hypersalivation, le RGO et la toux inefficace, l'extubation se fait uniquement chez un patient bien réveillé et décurarisé.
+- La réalisation d'EFR préopératoires permet de prédire avec fiabilité le risque de décompensation respiratoire après chirurgie de scoliose. :: Les EFR sont peu prédictives ; la chirurgie de scoliose sur syndrome restrictif expose au recours à la PPC nasale, à la ventilation prolongée ou à la trachéotomie de sevrage.
+- La péridurale postopératoire est contre-indiquée dans la chirurgie de scoliose de l'IMC en raison des spasmes musculaires. :: Réalisée par un anesthésiste expérimenté, la péridurale est au contraire privilégiée (épargne morphinique, contrôle des spasmes par clonidine en APD ou diazépam IV).
+- La présence de l'aidant en SSPI est différée jusqu'au retour en service afin de limiter l'agitation au réveil. :: L'aidant doit être appelé dès le réveil en SSPI pour aider à évaluer la douleur (échelles comportementales : grimaces, gémissements, irritabilité).
+> Postopératoire IMC : extubation bien réveillé et décurarisé après aspirations, aidant dès la SSPI + échelles comportementales, épargne morphinique (dépression respiratoire ×2), vigilance respiratoire majeure après chirurgie de scoliose (EFR peu prédictives, AG + péridurale privilégiée).
+@ p. 57 et 58

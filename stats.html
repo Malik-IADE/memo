@@ -358,7 +358,10 @@
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
   async function api(path, params = {}, key = store.get(KEY), tries = 4) {
     const url = new URL(SITE + path);
-    for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
+    for (const [k, v] of Object.entries(params)) {
+      if (Array.isArray(v)) v.forEach((x) => url.searchParams.append(k, x));
+      else url.searchParams.set(k, v);
+    }
     // GoatCounter limite le débit (quelques demandes par seconde) et répond alors sans
     // en-tête CORS, ce que le navigateur signale comme une erreur réseau : on espace
     // les demandes et on réessaie un peu plus tard.
@@ -502,14 +505,34 @@
       const visitorsP = loadVisitors(r); // Worker, en parallèle de GoatCounter
       // Appels un par un : GoatCounter limite le nombre de demandes par seconde.
       const total = await api('/api/v0/stats/total', q(r.prevStart, r.end));
-      const hits = await api('/api/v0/stats/hits', { ...q(r.prevStart, r.end), limit: 100 });
+      const hits = await loadHits(q(r.prevStart, r.end));
       raw = {
         total: splitTotal(total, r.start, r.end), prevTotal: splitTotal(total, r.prevStart, r.prevEnd),
-        hits: splitHits(hits.hits, r.start, r.end), prevHits: splitHits(hits.hits, r.prevStart, r.prevEnd),
+        hits: splitHits(hits, r.start, r.end), prevHits: splitHits(hits, r.prevStart, r.prevEnd),
         visitors: await visitorsP,
       };
     }
     return { ...raw, r, days: P.days, sum: summarize(raw.hits), prevSum: summarize(raw.prevHits), at: new Date() };
+  }
+
+  // GoatCounter plafonne /stats/hits à 100 chemins par appel : si « more » est vrai (périodes
+  // longues avec tous les cours, quiz et annales), on récupère les pages suivantes via exclude_paths.
+  async function loadHits(rangeParams) {
+    const all = [], seen = [];
+    for (let page = 0; page < 4; page++) {
+      const params = { ...rangeParams, limit: 100 };
+      if (seen.length) params.exclude_paths = seen;
+      let res;
+      try { res = await api('/api/v0/stats/hits', params); }
+      catch (e) { if (page === 0) throw e; break; }
+      const batch = res.hits || [];
+      if (!batch.length) break;
+      all.push(...batch);
+      const ids = batch.map((h) => h.path_id).filter((id) => id != null);
+      if (!res.more || !ids.length) break;
+      seen.push(...ids);
+    }
+    return all;
   }
 
   // Lignes utiles d'un fichier « liste.txt » (sans les commentaires).
