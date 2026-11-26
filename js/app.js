@@ -235,6 +235,8 @@ const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
 
 // Dans un dossier d'UE, le préfixe « IADE – » est superflu.
 const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
+/** Ordre alphabétique français des cours (accents et majuscules ignorés, nombres dans l'ordre). */
+const byName = new Intl.Collator('fr', { sensitivity: 'base', numeric: true }).compare;
 
 /* ---------- Annales : des quiz HTML rangés par semestre puis par UE ---------- */
 // Deux collections : les sujets officiels de l'école (dossier « annales/ ») et les
@@ -892,7 +894,8 @@ function renderFolder(sem) {
 /** Dossier d'une UE : les cours (quiz). */
 function renderUE(sem, ue) {
   session = null;
-  const rows = allRows().filter((r) => r.loc.sem === sem && r.loc.ue === ue);
+  const rows = allRows().filter((r) => r.loc.sem === sem && r.loc.ue === ue)
+    .sort((a, b) => byName(shortName(a.d.name), shortName(b.d.name)));
   if (!rows.length) { location.hash = `#/f/${enc(sem)}`; return; }
   $app.innerHTML = `${topbarFolder(`#/f/${enc(sem)}`, ueLabel(ue), semLabel(sem))}
     <main class="page">
@@ -1185,7 +1188,7 @@ function renderQuizMenu(sem, ue) {
       </main>`;
     return;
   }
-  const zs = all.filter((z) => z.sem === sem && z.ue === ue).sort((a, b) => a.title.localeCompare(b.title, 'fr'));
+  const zs = all.filter((z) => z.sem === sem && z.ue === ue).sort((a, b) => byName(a.title, b.title));
   if (!zs.length) { location.hash = `#/quiz/${enc(sem)}`; return; }
   $app.innerHTML = `${topbarFolder(`#/quiz/${enc(sem)}`, ueLabel(ue), `Quizz · ${semLabel(sem)}`)}
     <main class="page">
