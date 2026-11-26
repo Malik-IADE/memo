@@ -1,0 +1,195 @@
+// Quiz – Anesthésie du patient transplanté (UE 3.3), d'après le cours avec notes du 25 novembre 2026.
+// Recentré sur le bloc et le périopératoire d'une chirurgie à distance de la greffe : immunosuppresseurs, corticoïdes, particularités par organe, transfusion et suites.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Anesthésie – Patient transplanté
+
+QCM · Avant d'opérer un patient transplanté
+Concernant la préparation d'un patient transplanté programmé pour une chirurgie sans lien avec sa greffe, quelles propositions sont exactes ?
++ Le centre de transplantation est contacté pour connaître les particularités du patient et coordonner la reprise du traitement. :: Le but n'est pas de lui transférer le patient, mais d'obtenir taux résiduels, interactions et consignes.
++ Une admission le matin même est possible, à condition que le patient prenne ses immunosuppresseurs avant de venir. :: La prise matinale des immunosuppresseurs évite le risque de rejet.
+- Le patient doit être opéré dans son centre de transplantation, même pour une intervention courante. :: Il peut être opéré dans son hôpital ; l'équipe échange avec le centre de greffe.
+- Les prophylaxies anti-infectieuses en cours sont suspendues 48 heures avant l'intervention pour limiter les interactions. :: Les prophylaxies en cours sont poursuivies sans interruption.
+- Le risque opératoire dépend surtout de l'ancienneté de la greffe, plus que de la fonction actuelle du greffon. :: Un greffon qui fonctionne normalement se comporte comme un organe normal : c'est sa fonction actuelle qui compte.
+> Avant d'endormir un transplanté : quel organe, comment fonctionne-t-il aujourd'hui, quels traitements ? Appeler le centre de greffe, poursuivre les prophylaxies, admission à J0 possible avec prise matinale des immunosuppresseurs.
+@ p. 11, 12, 13 et 49
+
+QCM · Immunosuppresseurs de fond autour de l'intervention
+Concernant la gestion du tacrolimus, de la ciclosporine et du mycophénolate autour d'une intervention, quelles propositions sont exactes ?
++ La dose habituelle est donnée le matin de l'intervention, ou avant l'induction avec un peu d'eau si elle a été oubliée. :: Leur interruption expose à un rejet du greffon.
++ La reprise orale est prévue dès le soir si possible, ou par sonde gastrique, avec un dosage quotidien des taux. :: La voie digestive est privilégiée.
++ La leucopénie est l'effet indésirable principal du mycophénolate, sans conséquence sur la conduite anesthésique. :: Il est poursuivi en périopératoire.
+- La ciclosporine est suspendue le matin d'une anesthésie générale pour limiter l'hypertension peropératoire. :: La ciclosporine, comme le tacrolimus et le mycophénolate, est donnée le matin même.
+- Le tacrolimus est passé en IV dès le bloc, pour garantir des taux stables pendant le jeûne postopératoire. :: Le tacrolimus IV est très néphrotoxique : dernier recours si la voie digestive est impossible plus de 24 à 48 h.
+> Immunosuppresseurs de fond : pris le matin de l'intervention, repris par voie orale dès le soir (ou par sonde gastrique) avec dosage des taux. Tacrolimus IV en dernier recours (néphrotoxicité). Mycophénolate : leucopénie, sans incidence anesthésique.
+@ p. 14, 17, 25, 26 et 31
+
+QCM · Inhibiteurs de mTOR et chirurgie
+Concernant les inhibiteurs de mTOR (sirolimus, évérolimus) chez un patient à opérer, quelles propositions sont exactes ?
++ Ils gênent la cicatrisation et exposent à des désunions et à des abcès. :: Ils inhibent la croissance cellulaire.
++ Ils sont arrêtés 7 à 15 jours avant une chirurgie programmée, avec un relais décidé par le centre de greffe. :: Le relais se fait en général par une anticalcineurine.
+- Ils sont poursuivis jusqu'au matin de l'intervention, comme le tacrolimus. :: Contrairement aux autres immunosuppresseurs de fond, ils sont arrêtés à l'avance.
+- Un patient arrivé au bloc encore sous évérolimus est opéré, avec une antibioprophylaxie renforcée. :: Le geste programmé est reporté d'environ 15 jours.
+- Ils sont arrêtés la veille de l'intervention et repris dès le lendemain. :: Un arrêt la veille ne suffit pas : l'arrêt se fait 7 à 15 jours avant.
+> Inhibiteurs de mTOR (sirolimus, évérolimus) : arrêt 7 à 15 jours avant une chirurgie programmée (défauts de cicatrisation, abcès), relais décidé avec le centre de greffe ; report d'environ 15 jours si le patient est encore sous évérolimus.
+@ p. 14, 19, 20 et 21
+
+QCU · Interaction avec le tacrolimus
+Un transplanté rénal sous tacrolimus fait une poussée hypertensive en SSPI. Quel traitement risque de faire monter fortement son taux de tacrolimus ?
++ La nicardipine IV (Loxen®). :: Certains inhibiteurs calciques comme la nicardipine bloquent le CYP3A4 et exposent à un surdosage en tacrolimus.
+- L'urapidil IV titré. :: L'urapidil n'inhibe pas le CYP3A4 et ne fait pas monter la tacrolémie.
+- Le labétalol IV titré. :: Le labétalol ne bloque pas le métabolisme du tacrolimus et n'expose pas à un surdosage.
+- La clonidine IV lente. :: La clonidine n'interagit pas avec le CYP3A4 et ne majore pas la tacrolémie.
+- Le furosémide IV titré. :: Le furosémide ne fait pas monter la tacrolémie par interaction enzymatique.
+> Anticalcineurines (tacrolimus, ciclosporine) : surdosage par interactions avec les azolés, les macrolides, certains inhibiteurs calciques (nicardipine) et le jus de pamplemousse. Néphrotoxicité : pas d'AINS.
+@ p. 22 et 25
+
+QCM · Corticothérapie au long cours et stress chirurgical
+Concernant un patient transplanté sous corticoïdes au long cours, quelles propositions sont exactes ?
++ Les corticoïdes au long cours exposent à une insuffisance surrénale aiguë lors du stress chirurgical. :: Elle est à évoquer devant une hypotension inexpliquée.
++ L'hydrocortisone de stress débute dès l'induction, en plus du traitement corticoïde habituel. :: Le stress chirurgical commence dès le début de l'intervention.
++ Chez un patient qui reçoit de l'hydrocortisone de stress, la dexaméthasone contre les NVPO est inutile. :: L'hydrocortisone assure déjà l'effet corticoïde.
+- L'hydrocortisone de stress remplace le traitement habituel, qui est interrompu le matin de l'intervention. :: Le traitement habituel est poursuivi ; l'hydrocortisone s'y ajoute.
+- L'hydrocortisone de stress est débutée en SSPI, une fois l'intervention terminée. :: Elle débute dès l'induction.
+> Corticoïdes au long cours : poursuivre le traitement habituel et ajouter de l'hydrocortisone dès l'induction (50 mg × 3/j si risque modéré, 100 mg × 3/j si haut risque, pendant 48 h). Dexaméthasone inutile sous hydrocortisone. Hypotension inexpliquée = penser à l'insuffisance surrénale.
+@ p. 27, 28 et 29
+
+QCM · Risque infectieux chez le transplanté
+Concernant le risque infectieux au bloc chez un patient transplanté, quelle(s) proposition(s) est (sont) exacte(s) ?
++ L'absence de fièvre ne permet pas d'écarter une infection chez ce patient immunodéprimé. :: L'immunosuppression masque la fièvre et les signes inflammatoires.
+- Une colonisation connue à bactérie multirésistante impose d'élargir l'antibioprophylaxie en chirurgie programmée. :: Elle ne modifie pas l'antibioprophylaxie standard en chirurgie programmée.
+- En urgence vitale, l'incision est différée jusqu'aux résultats des prélèvements bactériologiques. :: On prélève si une infection est suspectée, sans retarder une urgence vitale.
+- Une voie veineuse centrale est posée dès l'induction pour faciliter les prélèvements, même pour une chirurgie courte. :: Les cathéters sont limités au nécessaire, en raison du risque infectieux.
+- Les prophylaxies anti-infectieuses sont arrêtées le jour de l'intervention pour éviter les interactions avec les anesthésiques. :: Elles sont poursuivies.
+> Risque infectieux : asepsie irréprochable, cathéters limités au nécessaire, absence de fièvre ≠ absence d'infection, prélèvements sans retarder l'urgence, prophylaxies poursuivies, antibioprophylaxie standard malgré une colonisation à BMR.
+@ p. 30, 34 et 61
+
+QCM · Patient greffé hépatique opéré à distance
+Concernant un patient greffé hépatique opéré à distance de sa greffe, quelles propositions sont exactes ?
++ Si le bilan hépatique, le TP et les plaquettes sont normaux, le paracétamol et les benzodiazépines sont utilisables. :: Un greffon qui fonctionne se comporte comme un foie normal.
++ Le patient n'a plus de vésicule biliaire, et ses complications tardives sont surtout biliaires. :: La vésicule est retirée lors de la greffe.
++ Une thrombose de l'artère hépatique du greffon est une urgence de retransplantation. :: Les collatérales artérielles ont été sectionnées lors de la greffe.
+- Les règles du cirrhotique s'appliquent à tout greffé hépatique, même si son greffon fonctionne normalement. :: Elles s'appliquent seulement en cas de dysfonction, de rejet ou de cirrhose récidivante.
+- La rachianesthésie est contre-indiquée chez le greffé hépatique, même avec un bilan d'hémostase normal. :: Elle est possible après vérification de l'hémostase et des plaquettes.
+> Greffé hépatique : greffon fonctionnel = foie normal (paracétamol, benzodiazépines et agents usuels utilisables) ; règles du cirrhotique si dysfonction. Pas de vésicule, complications surtout biliaires, thrombose artérielle = retransplantation.
+@ p. 33, 34, 49 et 61
+
+QCM · Patient transplanté rénal au bloc
+Concernant la prise en charge au bloc d'un transplanté rénal, quelles propositions sont exactes ?
++ Le rein greffé n'autorégule plus son débit sanguin et souffre de l'hypotension et de l'hypovolémie. :: Le terrain cardiovasculaire (coronaropathie, HTA) impose aussi une grande vigilance hémodynamique.
++ La jugulaire interne et la fémorale du côté opposé au greffon sont les voies centrales utilisables. :: La fémorale du côté du greffon risque de léser l'anastomose iliaque.
+- Une diurèse peropératoire conservée suffit à affirmer que le greffon fonctionne bien. :: Il faut aussi suivre la créatinine et la kaliémie, voire faire un Doppler.
+- La voie sous-clavière est préférée chez le transplanté rénal, car elle épargne les axes iliaques. :: Une thrombose sous-clavière empêcherait la création d'une future fistule de dialyse.
+- Un apport de potassium est ajouté au remplissage pour protéger le greffon. :: Il faut au contraire éviter l'hyperkaliémie.
+> Transplanté rénal : greffon sans autorégulation (éviter hypotension et hypovolémie), terrain cardiovasculaire lourd, pas de néphrotoxiques ni d'hyperkaliémie. Voies centrales : jugulaire interne ou fémorale du côté opposé ; ni fémorale côté greffon, ni sous-clavière.
+@ p. 35, 36, 37 et 60
+
+QCM · Physiologie du cœur transplanté
+Concernant le cœur transplanté (dénervé) au bloc opératoire, quelles propositions sont exactes ?
++ La perte du tonus vagal donne une fréquence cardiaque de base élevée, de 90 à 100/min. :: Le cœur bat à sa fréquence propre.
++ Sans baroréflexe, le débit cardiaque dépend de la précharge : la volémie doit être maintenue. :: Lors d'une induction ou d'une cœlioscopie, le cœur ne compense pas par une tachycardie réflexe.
++ L'ECG peut montrer un bloc de branche droit, un BAV du premier degré ou deux ondes P. :: Ces anomalies sont fréquentes et posent rarement problème.
++ Une ischémie myocardique peut passer inaperçue, car le greffon est dénervé. :: La douleur angineuse peut manquer.
+- Lors de l'insufflation d'une cœlioscopie, le transplanté cardiaque réagit par une tachycardie réflexe marquée. :: Sans baroréflexe, il ne peut pas accélérer : la baisse de précharge entraîne une baisse du débit.
+> Cœur dénervé : fréquence de base 90–100/min, pas de baroréflexe (débit dépendant de la précharge, maintenir la volémie), troubles de conduction et 2 ondes P fréquents, ischémie possiblement silencieuse.
+@ p. 38, 39, 40 et 41
+
+QCM · Médicaments cardiovasculaires sur cœur transplanté
+Concernant l'effet des médicaments cardiovasculaires chez un transplanté cardiaque, quelle(s) proposition(s) est (sont) exacte(s) ?
++ La noradrénaline et l'adrénaline ont un effet exagéré et se titrent à petites doses. :: Les récepteurs du cœur dénervé sont hypersensibles aux catécholamines directes.
+- L'éphédrine est le vasopresseur de choix pour corriger une hypotension à l'induction. :: L'éphédrine agit de façon indirecte et reste quasiment inefficace sur un cœur dénervé.
+- L'atropine reste le traitement de première intention d'une bradycardie mal tolérée. :: Sans innervation vagale, l'atropine est inefficace.
+- La dobutamine perd son effet inotrope sur le cœur transplanté. :: La dobutamine agit directement et garde son effet.
+- Les doses de noradrénaline sont doublées pour compenser l'absence de tonus sympathique. :: Les catécholamines directes ont au contraire un effet exagéré.
+> Cœur dénervé : atropine inefficace, éphédrine quasiment inefficace, noradrénaline et adrénaline à effet exagéré (titrer), dobutamine efficace.
+@ p. 38, 41 et 65
+
+QCM · Patient transplanté pulmonaire au bloc
+Concernant un patient transplanté pulmonaire opéré d'une chirurgie non thoracique, quelles propositions sont exactes ?
++ Le risque d'infection respiratoire est élevé, car la clairance mucociliaire est altérée. :: La toux peut aussi être moins efficace.
++ L'ALR est privilégiée lorsque c'est possible, pour éviter la ventilation mécanique. :: Si une anesthésie générale est nécessaire : ventilation protectrice.
++ Une désaturation ou une toux inhabituelle doit faire rechercher une infection ou un rejet. :: Ces signes ne sont pas à banaliser chez le greffé pulmonaire.
+- Une ventilation à grands volumes courants est conseillée pour prévenir les atélectasies du greffon. :: On applique une ventilation protectrice, avec des pressions surveillées.
+- L'analgésie postopératoire repose sur la morphine à fortes doses pour faciliter la kinésithérapie. :: On vise une épargne morphinique pour préserver la toux et la ventilation.
+> Transplanté pulmonaire : risque infectieux et protection ventilatoire au premier plan. ALR privilégiée, sinon ventilation protectrice ; toux ou désaturation inhabituelle = infection ou rejet ; kinésithérapie et épargne morphinique après l'intervention.
+@ p. 42, 43 et 53
+
+QCM · Jeûne et induction chez le transplanté
+Concernant le jeûne et l'induction d'un patient transplanté, quelles propositions sont exactes ?
++ Chez les transplantés cardiaques et pulmonaires, la vagotomie chirurgicale entraîne une gastroparésie et impose un jeûne strict. :: Les délais de jeûne ne sont pas raccourcis.
++ Chez un transplanté cardiaque programmé dont le jeûne est incertain, mieux vaut décaler l'intervention de quelques heures. :: Une induction en séquence rapide sans baroréflexe expose à une forte instabilité hémodynamique.
+- L'induction en séquence rapide s'applique à chaque transplanté, cœur, poumon, rein ou foie, sans évaluer son risque d'inhalation. :: Elle dépend du risque réel d'inhalation (gastroparésie, diabète, opioïdes, reflux, urgence).
+- Chez le transplanté cardiaque, les boissons sucrées sont autorisées jusqu'à 2 heures avant l'intervention, comme en réhabilitation rapide. :: La gastroparésie impose un jeûne strict, sans raccourcir les délais.
+- Le jeûne du transplanté pulmonaire est raccourci pour limiter la déshydratation et la thrombose des anastomoses. :: La gastroparésie liée à la vagotomie impose un jeûne strict.
+> Greffes cardiaque et pulmonaire : vagotomie → gastroparésie → jeûne strict. Transplanté cardiaque au jeûne incertain : décaler plutôt qu'une induction en séquence rapide sans baroréflexe. L'induction en séquence rapide dépend du risque d'inhalation, pas du seul statut de transplanté.
+@ p. 47 et 48
+
+QCU · Technique d'anesthésie chez le transplanté cardiaque
+Un transplanté cardiaque stable doit avoir une prothèse totale de genou programmée. Quelle technique est à éviter ?
++ La rachianesthésie ou la péridurale. :: La vasodilatation d'un bloc central n'est pas compensée par un cœur sans baroréflexe : hypotension sévère.
+- Une anesthésie générale au sévoflurane avec une titration hémodynamique. :: Les halogénés sont utilisables en maintenant la précharge.
+- Une anesthésie intraveineuse au propofol associée à un bloc périphérique. :: Un bloc périphérique apporte l'analgésie sans vasodilatation étendue.
+- Un bloc périphérique échoguidé avec une sédation légère titrée. :: Les blocs périphériques n'entraînent pas de sympatholyse étendue.
+- Une anesthésie générale avec un cathéter artériel et de la noradrénaline titrée si besoin. :: Ce monitorage et ce vasopresseur direct sont adaptés.
+> Transplanté cardiaque : éviter rachianesthésie et péridurale (hypotension sans baroréflexe). À l'inverse, chez le transplanté pulmonaire, l'ALR est privilégiée.
+@ p. 38, 53, 54, 56 et 60
+
+QCM · Entretien de l'anesthésie et curares
+Concernant l'entretien de l'anesthésie et la curarisation chez un patient transplanté, quelles propositions sont exactes ?
++ La TIVA et les halogénés sont utilisables, sans supériorité de l'une sur l'autre. :: Le choix suit les habitudes de l'équipe.
++ Si le rein et le foie fonctionnent normalement, le rocuronium, l'atracurium et le cisatracurium sont utilisables. :: La dose se titre selon la fonction réelle des organes et les interactions.
++ Un monitorage par TOF et une décurarisation vérifiée sont nécessaires avant l'extubation. :: Une curarisation résiduelle est mal tolérée sur ce terrain fragile.
+- Le rocuronium est contre-indiqué chez le transplanté, même si son greffon fonctionne normalement. :: Les curares habituels sont utilisables si les fonctions rénale et hépatique sont normales.
+- Chez le transplanté cardiaque, la néostigmine provoque une bradycardie vagale brutale. :: Sans innervation vagale, la néostigmine n'a pas son effet cardiaque habituel.
+> Entretien : TIVA ou halogénés, sans différence. Curares habituels si rein et foie fonctionnent, avec TOF et décurarisation vérifiée avant l'extubation. Cœur greffé : pas d'effet vagal de la néostigmine.
+@ p. 41, 55, 56 et 58
+
+QCM · Protéger les anastomoses du greffon
+Concernant la conduite peropératoire pour protéger les anastomoses vasculaires d'un greffon, quelles propositions sont exactes ?
++ La déshydratation et l'hémoconcentration sont à éviter, car elles favorisent la thrombose des anastomoses. :: La volémie doit être maintenue, sans remplissage excessif.
++ En chirurgie courante, on vise une PAM autour de 65–70 mmHg, adaptée au terrain. :: La cible de 80–90 mmHg concerne la reperfusion lors de la greffe rénale.
++ Sans saignement actif, on ne transfuse pas de plaquettes en prévention, même devant une thrombopénie sévère. :: Les plaquettes favorisent la thrombose des anastomoses.
++ L'hypoxémie, l'acidose et l'hypothermie sont à éviter pendant l'intervention. :: Elles fragilisent la perfusion du greffon.
+- Une PAM de 80 à 90 mmHg est maintenue pour chaque chirurgie ultérieure d'un transplanté rénal. :: Cette cible concerne la reperfusion pendant la greffe, pas les chirurgies ultérieures.
+> Protéger les anastomoses : volémie maintenue (pas de déshydratation ni d'hémoconcentration), PAM autour de 65–70 mmHg, pas d'hypoxémie, d'acidose ni d'hypothermie, pas de plaquettes ni de fibrinogène en prévention sans saignement.
+@ p. 13, 50, 59 et 60
+
+QCU · Syndrome des lymphocytes passagers
+Un patient de groupe A, greffé du foie il y a un mois avec un greffon de groupe O, fait une anémie par hémolyse et doit être transfusé au bloc. Quels culots globulaires choisir ?
++ Des culots de groupe O, groupe du greffon. :: Les lymphocytes du greffon O produisent des anticorps anti-A qui détruisent les globules rouges A.
+- Des culots de groupe A, groupe du receveur. :: Ils seraient détruits par les anticorps anti-A produits par les lymphocytes du greffon.
+- Des culots de groupe AB, pour couvrir les deux groupes. :: Les globules rouges AB portent l'antigène A et seraient détruits.
+- Des culots de groupe B, pour éviter l'antigène A. :: Les globules rouges B seraient détruits par les anticorps anti-B d'un greffon O.
+- Une transfusion différée à la fin de l'hémolyse, sans culot au bloc. :: Une anémie qui impose une transfusion doit être corrigée avec des culots du groupe du greffon.
+> Syndrome des lymphocytes passagers (greffe ABO compatible non identique, ex. greffon O chez un receveur A) : transfuser des culots du groupe du greffon, pendant environ 2 à 3 mois.
+@ p. 50 et 70
+
+QCM · Produits sanguins chez le transplanté
+Concernant la transfusion d'un patient transplanté, quelles propositions sont exactes ?
++ Le groupe du receveur et celui du greffon sont vérifiés avant de transfuser. :: Ils peuvent différer.
++ Les RAI sont souvent positives et doivent être anticipées avant le bloc. :: Ces patients sont souvent immunisés.
++ Les culots et plaquettes CMV négatifs sont indiqués chez le greffé pulmonaire. :: Pour les autres greffes, il n'y a pas d'indication systématique.
+- Les produits irradiés sont indiqués chez tout patient transplanté, même stable. :: Ils sont réservés aux immunodépressions sévères.
+- Le plasma frais congelé doit être CMV négatif et irradié chez le transplanté. :: Le PFC n'a pas de règle particulière dans ce cadre.
+> Transfusion du transplanté : vérifier groupe du receveur et du greffon, RAI (souvent positives) et statut CMV. CMV négatif chez le greffé pulmonaire ; produits irradiés si immunodépression sévère ; PFC sans règle particulière.
+@ p. 50 et 51
+
+QCM · Analgésie du patient transplanté
+Concernant l'analgésie périopératoire d'un patient transplanté, quelles propositions sont exactes ?
++ Les AINS sont proscrits chez un patient sous tacrolimus ou ciclosporine. :: Leur association expose à une insuffisance rénale aiguë.
++ Le paracétamol est utilisable lorsque la fonction hépatique est normale. :: Il fait partie de l'analgésie multimodale.
++ Les blocs de paroi (TAP, carré des lombes, ESPB) favorisent l'épargne morphinique. :: Ils préservent la toux et la récupération respiratoire.
++ La lidocaïne IV est déconseillée chez le transplanté cardiaque. :: Elle émousse encore davantage les réponses réflexes du cœur dénervé.
+- Le kétoprofène est préféré au paracétamol chez le transplanté rénal dont la créatinine est normale. :: Les AINS sont proscrits sous anticalcineurines, même si la fonction rénale est normale.
+> Analgésie du transplanté : multimodale (paracétamol si foie normal, blocs de paroi), AINS proscrits sous anticalcineurines ou en insuffisance rénale, lidocaïne IV déconseillée chez le transplanté cardiaque.
+@ p. 52, 54, 63 et 64
+
+QCM · Suites opératoires du patient transplanté
+Concernant la surveillance après la chirurgie d'un patient transplanté, quelles propositions sont exactes ?
++ Une surveillance en USC ou en soins critiques est à privilégier lorsque c'est possible. :: Elle sécurise la reprise des immunosuppresseurs et la volémie.
++ Le centre de transplantation est informé de l'intervention et des suites. :: Il participe à l'adaptation des immunosuppresseurs.
++ La surveillance porte sur la fonction du greffon, le saignement, l'infection, le rejet et la thrombose. :: Une oligurie ou une hypoxémie inexpliquée doit alerter.
++ Les taux d'immunosuppresseurs sont dosés chaque jour après la reprise du traitement. :: Vomissements, iléus ou interactions peuvent les modifier.
++ Le lever et la reprise alimentaire sont précoces, en tenant compte d'une gastroparésie chez les greffés cardiaques et pulmonaires. :: Ils s'associent à la thromboprophylaxie.
+> Après la chirurgie : USC ou soins critiques si possible, surveillance du greffon (saignement, infection, rejet, thrombose), dosage des immunosuppresseurs, lever et reprise alimentaire précoces, centre de greffe informé, transmission structurée.
+@ p. 14, 26, 62, 66, 67 et 68

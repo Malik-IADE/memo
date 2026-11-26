@@ -1,0 +1,225 @@
+// Quiz – Anesthésie du patient insuffisant hépatique et cirrhotique (UE 3.3), d'après le cours avec notes du 25 novembre 2026.
+// Recentré sur le bloc et le périopératoire : insuffisance hépatique aiguë au bloc, terrain, décision opératoire, hémostase, médicaments, peropératoire et suites. Scores de Child-Pugh et MELD abordés de façon générale seulement.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Anesthésie – Patient insuffisant hépatique et cirrhotique
+
+QCM · Vascularisation du foie et risque hémorragique
+Concernant la vascularisation du foie et ses conséquences au bloc, quelles propositions sont exactes ?
++ La résection du segment 1 expose à un saignement massif, car ce segment est accolé à la veine cave inférieure. :: Il se draine directement dans la veine cave par les veines de Spiegel : prévoir des voies veineuses de gros calibre.
++ Le foie reçoit environ 70 % de son sang par la veine porte et 30 % par l'artère hépatique. :: Au total, il reçoit 25 à 30 % du débit cardiaque.
+- Le drainage veineux du foie se fait par la veine porte, qui rejoint ensuite la veine cave inférieure. :: La veine porte est une voie d'entrée ; la sortie se fait par les 3 veines sus-hépatiques et les veines de Spiegel.
+- Le segment 1 est le plus facile à réséquer, car il est éloigné des gros axes veineux. :: C'est l'inverse : son contact direct avec la veine cave rend sa résection particulièrement hémorragique.
+- L'artère hépatique assure l'essentiel de l'apport sanguin du foie, la veine porte n'en fournissant qu'une faible part. :: La veine porte apporte environ 70 % du sang hépatique, l'artère hépatique environ 30 %.
+> Le foie reçoit 25 à 30 % du débit cardiaque (70 % par la veine porte, 30 % par l'artère hépatique) et se draine par les veines sus-hépatiques et les veines de Spiegel. Le segment 1, accolé à la veine cave, expose à un saignement massif lors de sa résection.
+@ p. 2, 3 et 4
+
+QCM · Insuffisance hépatique aiguë sur foie sain
+Concernant l'insuffisance hépatique aiguë (IHA) survenant sur un foie sain, quelles propositions sont exactes ?
++ L'IHA est dite grave lorsqu'une encéphalopathie s'associe à un TP ou un facteur V inférieur à 50 %. :: Sans encéphalopathie, on parle d'IHA sévère ; l'encéphalopathie fait orienter le patient vers un centre de transplantation.
++ Sans transplantation, le décès est surtout lié à l'œdème cérébral, à l'hypertension intracrânienne et à l'engagement. :: Le danger premier est neurologique, avant le saignement ou l'infection.
+- La gravité se juge surtout sur la valeur de l'ammoniémie, plus que sur l'état neurologique du patient. :: C'est l'évolution neurologique clinique qui fait la gravité ; l'ammoniémie, l'INR ou le lactate isolés ont peu de valeur.
+- Un TP inférieur à 50 % expose ce patient à des hémorragies spontanées fréquentes, même sans geste invasif. :: L'hémostase est rééquilibrée : sans geste invasif, il ne saigne pas plus qu'un sujet sain.
+- L'IHA sur foie sain correspond le plus souvent à la décompensation d'une cirrhose ancienne méconnue. :: Elle survient sur un foie sain (paracétamol, hépatite virale, toxiques) ; la décompensation de cirrhose est un tableau distinct.
+> IHA sur foie sain : sévère si TP ou facteur V < 50 %, grave si encéphalopathie associée. La gravité est neurologique (œdème cérébral, HTIC, engagement) et conduit vers un centre de transplantation. Hémostase rééquilibrée : pas de saignement spontané sans geste invasif.
+@ p. 5, 8, 10, 11 et 23
+
+QCM · Patient en insuffisance hépatique aiguë grave au bloc
+Un patient en insuffisance hépatique aiguë grave, encéphalopathe, est amené au bloc pour un geste invasif avant sa transplantation. Concernant sa prise en charge anesthésique, quelles propositions sont exactes ?
++ La protection cérébrale suit les mêmes principes que chez un traumatisé crânien grave. :: L'œdème cérébral et l'HTIC sont la principale menace vitale.
++ Une intubation avec sédation est indiquée si le score de Glasgow est inférieur à 8. :: Elle protège les voies aériennes et permet de contrôler la ventilation.
++ La glycémie est surveillée de près, car l'hypoglycémie est fréquente et doit être corrigée. :: Le foie défaillant ne maintient plus la glycémie.
++ La sédation est réduite au minimum et ne fait pas appel aux benzodiazépines. :: Les benzodiazépines empêchent d'évaluer l'encéphalopathie et prolongent leur effet.
+- Le geste invasif est précédé d'une correction du TP par plasma frais congelé, même sans saignement. :: L'hémostase est rééquilibrée ; le risque de saignement tient au geste lui-même, et le TP ne le prédit pas.
+> IHA grave au bloc : protection cérébrale comme chez le traumatisé crânien grave, intubation si Glasgow < 8, sédation minimale sans benzodiazépines, surveillance et correction de la glycémie. L'hémostase est rééquilibrée : le TP ne guide pas la correction.
+@ p. 10, 17, 23 et 133
+
+QCM · Hypertension portale et complications de la cirrhose
+Concernant les conséquences de l'hypertension portale chez le cirrhotique, quelles propositions sont exactes ?
++ L'hypertension portale explique la plupart des complications périopératoires de la cirrhose, davantage que l'insuffisance hépatocellulaire. :: Elle est responsable des varices, de l'ascite, de l'hypersplénisme, des shunts et du syndrome hépatorénal.
++ L'hypersplénisme entraîne une thrombopénie, qui peut être le premier signe d'une cirrhose méconnue. :: Une thrombopénie inexpliquée au bilan préopératoire doit faire évoquer une cirrhose.
++ Les shunts porto-caves favorisent l'encéphalopathie hépatique, car l'ammoniaque d'origine digestive échappe au foie. :: Le sang portal rejoint la circulation générale sans être détoxifié.
+- La vasodilatation splanchnique protège le rein du cirrhotique en augmentant le débit sanguin rénal. :: Elle baisse au contraire le volume sanguin efficace et favorise l'insuffisance rénale et le syndrome hépatorénal.
+- L'ascite résulte surtout d'une baisse de la pression portale, liée à l'ouverture des shunts porto-caves. :: L'ascite est une transsudation liée à l'hypertension portale, pas à sa baisse.
+> La cirrhose associe une insuffisance hépatocellulaire, tardive, et une hypertension portale, qui domine le risque opératoire : varices (hémorragie), ascite (infection), hypersplénisme (thrombopénie, leucopénie), shunts (encéphalopathie), vasodilatation splanchnique (syndrome hépatorénal).
+@ p. 41, 42, 43, 47, 57 et 58
+
+QCM · Ce qui décompense le cirrhotique opéré
+Concernant le mécanisme et le moment de la décompensation d'un cirrhotique opéré, quelles propositions sont exactes ?
++ La manipulation intestinale lors d'une laparotomie élève la pression portale et peut déclencher la décompensation. :: C'est le geste chirurgical, et non l'anesthésie, qui fait monter la pression portale.
++ Un cirrhotique qui a bien toléré l'intervention peut décompenser dans les jours ou les semaines suivantes. :: Le danger est surtout postopératoire : infection, ascite, hémorragie digestive, encéphalopathie, insuffisance rénale.
+- L'anesthésie générale aux halogénés est le principal facteur d'élévation de la pression portale au bloc. :: L'anesthésie seule ne fait pas monter la pression portale ; c'est la chirurgie, surtout abdominale, qui la majore.
+- Une chirurgie mineure sous ALR met le cirrhotique à l'abri d'une décompensation postopératoire. :: Chez le cirrhotique, une chirurgie même mineure peut enclencher la décompensation.
+- La décompensation survient le plus souvent au bloc, dans les premières minutes de l'incision. :: Le temps opératoire est en général bien toléré ; la décompensation est différée en postopératoire.
+> La chirurgie (laparotomie, manipulation intestinale), et non l'anesthésie, élève la pression portale et décompense le cirrhotique. Le danger est différé : surveillance en USC ou réanimation après une chirurgie à risque, et recherche des complications pendant plusieurs semaines.
+@ p. 46, 49, 50, 115 et 118
+
+QCM · Scores de Child-Pugh et MELD
+Concernant l'intérêt des scores de Child-Pugh et de MELD avant une chirurgie programmée chez le cirrhotique, quelles propositions sont exactes ?
++ Ils évaluent la sévérité de la cirrhose et aident à estimer le risque opératoire. :: Ils guident la décision : opérer après préparation, discuter en centre expert, ou ne pas opérer.
++ Un patient classé Child C ne relève pas d'une chirurgie programmée ; une transplantation hépatique est à discuter d'abord. :: Le risque opératoire est alors majeur.
+- Un patient classé Child B peut être opéré sans précaution particulière, comme un patient sans cirrhose. :: Le Child B est une zone intermédiaire : discuter l'intérêt du geste, préparer le patient et demander l'avis d'un centre expert.
+- Le score MELD est utilisé pour évaluer la douleur postopératoire du cirrhotique. :: Le score MELD évalue la sévérité de la cirrhose (il sert aussi à l'attribution des greffons hépatiques).
+- Un patient classé Child A a un risque opératoire identique à celui de la population générale. :: Même en Child A, le risque reste supérieur à celui d'un patient sans cirrhose : préparation et vigilance postopératoire.
+> Child-Pugh et MELD mesurent la sévérité de la cirrhose et le risque opératoire. Child A, MELD bas : chirurgie possible après préparation ; Child B : zone intermédiaire, avis d'un centre expert ; Child C, MELD élevé : pas de chirurgie programmée, discuter une transplantation.
+@ p. 69, 73, 81, 82 et 83
+
+QCM · Chirurgie urgente chez le cirrhotique
+Concernant la prise en charge d'une chirurgie urgente chez un patient cirrhotique, quelles propositions sont exactes ?
++ La mortalité est nettement plus élevée en urgence qu'en chirurgie programmée chez le cirrhotique. :: Il faut d'abord vérifier que l'intervention est réellement indispensable.
++ La présence d'un chirurgien et d'un anesthésiste seniors est recommandée pour ces interventions. :: L'expérience de l'équipe réduit la durée du geste et les complications.
++ Le geste le plus court et le plus simple est privilégié, par exemple une cœlioscopie sans anastomose digestive. :: Moins le geste est agressif, moins la pression portale monte.
++ Une surveillance postopératoire en USC ou en réanimation est à prévoir. :: La décompensation est différée et peut évoluer vers des défaillances d'organes.
+- Les anastomoses digestives sont préférées aux stomies, car elles raccourcissent la durée d'hospitalisation. :: Chez le cirrhotique opéré en urgence, on évite au contraire les anastomoses digestives.
+> Urgence chez le cirrhotique : vérifier que le geste est indispensable, équipe senior, geste court et simple (cœlioscopie, pas d'anastomose digestive), USC ou réanimation en postopératoire.
+@ p. 77, 78 et 79
+
+QCU · Baisser la pression portale avant d'opérer
+Chez un cirrhotique programmé pour une chirurgie digestive, quelle affirmation sur la baisse préopératoire de la pression portale est exacte ?
++ Les traitements essayés n'ont pas fait la preuve de leur efficacité pour sécuriser la chirurgie en abaissant la pression portale. :: Ni la Sandostatine ni le TIPS n'ont réduit la mortalité postopératoire.
+- Un TIPS posé quelques semaines avant l'intervention réduit la mortalité postopératoire. :: Le TIPS préopératoire ne réduit pas la mortalité et peut aggraver la fonction hépatique et l'encéphalopathie.
+- La Sandostatine peropératoire baisse fortement la pression portale chez les patients Child C. :: Son effet est modeste et nul en Child C.
+- Un remplissage généreux avant l'incision fait baisser la pression portale. :: Un remplissage excessif augmente au contraire la PVC et la pression portale.
+- Le plasma frais congelé préopératoire baisse la pression portale en corrigeant l'INR. :: Le PFC augmente la volémie, la PVC et la pression portale.
+> Aucun moyen n'est validé pour abaisser la pression portale avant une chirurgie : la Sandostatine n'a pas de bénéfice peropératoire démontré et le TIPS préopératoire peut aggraver la cirrhose.
+@ p. 91, 93 et 95
+
+QCM · Cardiomyopathie du cirrhotique
+Concernant le retentissement cardiaque de la cirrhose et son évaluation avant une chirurgie, quelles propositions sont exactes ?
++ La cirrhose entraîne une circulation hyperdynamique, avec un débit cardiaque élevé qui compense des résistances vasculaires effondrées. :: Le débit peut atteindre 7 à 12 L/min au repos.
++ Une échographie cardiaque est réalisée avant une chirurgie pour évaluer le débit et rechercher une dysfonction systolique au repos. :: Une dysfonction systolique au repos contre-indique l'effort chirurgical.
++ La cardiomyopathie du cirrhotique peut associer une dysfonction diastolique et un allongement du QT. :: Le QT long impose d'éviter les médicaments qui l'allongent.
+- Le débit cardiaque élevé du cirrhotique lui donne une bonne réserve pour faire face au stress chirurgical. :: Le cœur travaille déjà près de son maximum et s'adapte mal à l'effort.
+- Les résistances vasculaires systémiques du cirrhotique sont élevées, d'où une hypertension artérielle fréquente. :: Elles sont au contraire effondrées, avec une pression artérielle souvent basse.
+> Cardiomyopathie du cirrhotique : circulation hyperdynamique sur des résistances effondrées, dysfonction diastolique, QT long, faible réserve à l'effort. Échographie cardiaque avant la chirurgie : une dysfonction systolique au repos contre-indique l'intervention.
+@ p. 83, 103 et 104
+
+QCM · Avant d'endormir un cirrhotique
+Concernant l'évaluation d'un cirrhotique juste avant l'anesthésie, quelles propositions sont exactes ?
++ Une ascite augmente le risque de régurgitation et conduit à une induction en séquence rapide. :: L'ascite élève la pression abdominale.
++ Chez un cirrhotique dénutri, une créatininémie normale peut masquer une atteinte rénale. :: La fonte musculaire diminue la production de créatinine.
++ Une température normale ne permet pas d'écarter une infection chez le cirrhotique. :: Rechercher une pneumonie, une infection urinaire ou une infection du liquide d'ascite avant d'anesthésier.
++ Le syndrome hépato-pulmonaire, lié à une vasodilatation pulmonaire, peut entraîner une hypoxémie. :: À distinguer de l'hypertension porto-pulmonaire, liée à une vasoconstriction (HTAP).
+- La dénutrition et la fonte musculaire sont rares avant le stade Child C. :: Elles sont fréquentes dès le stade Child A, souvent masquées par l'ascite.
+> Avant d'endormir un cirrhotique : ascite = induction en séquence rapide ; créatininémie trompeuse si dénutrition ; absence de fièvre ≠ absence d'infection ; rechercher une hypoxémie (syndrome hépato-pulmonaire) ou une HTAP (hypertension porto-pulmonaire).
+@ p. 105, 106, 107 et 108
+
+QCM · Hémostase rééquilibrée du cirrhotique
+Concernant l'hémostase du patient cirrhotique, quelles propositions sont exactes ?
++ Les facteurs procoagulants et les anticoagulants naturels (protéines C et S, antithrombine) diminuent ensemble. :: L'hémostase est rééquilibrée, mais fragile.
++ Le TP et l'INR ne prédisent pas le risque hémorragique, car ils n'explorent que la voie procoagulante. :: Un INR élevé ne signifie pas que le patient est « anticoagulé ».
++ Les tests viscoélastiques (ROTEM, TEG) montrent souvent un profil normal, voire hypercoagulable. :: Ils aident à cibler une correction en cas de saignement actif.
+- Un INR supérieur à 1,5 protège le cirrhotique des thromboses veineuses postopératoires. :: Le risque de thrombose est au contraire augmenté ; la thromboprophylaxie reste indispensable.
+- En l'absence de geste invasif, un INR élevé provoque fréquemment des hémorragies spontanées. :: Grâce à l'hémostase rééquilibrée, le cirrhotique saigne peu spontanément.
+> L'hémostase du cirrhotique est rééquilibrée (baisse conjointe des facteurs pro- et anticoagulants). TP et INR ne prédisent pas le saignement ; au ROTEM ou TEG, le profil est souvent normal ou hypercoagulable, avec un risque de thrombose augmenté.
+@ p. 23, 97 et 99
+
+QCM · Seuils d'hémostase et produits sanguins
+Concernant la préparation d'un geste invasif chez un cirrhotique, quelle(s) proposition(s) est (sont) exacte(s) ?
++ Pour une rachianesthésie ou une chirurgie majeure, on vise des plaquettes > 50 000/mm³ et un fibrinogène > 1 g/L. :: Pour un geste à bas risque (VVC, paracentèse, ALR périphérique), le seuil est de 30 000 plaquettes/mm³.
+- Avant la pose d'une VVC, il faut corriger un INR supérieur à 1,5 par du plasma frais congelé. :: L'INR n'est pas un critère ; le PFC préventif augmente la pression portale et aggrave le saignement.
+- En cas de saignement actif nécessitant des facteurs, le PFC est préféré aux PPSB pour son apport de volume. :: Ce volume augmente la PVC et la pression portale ; les PPSB, de faible volume, sont préférés.
+- L'acide tranexamique est injecté à l'induction pour prévenir le saignement en chirurgie hépatique. :: Il n'a pas d'intérêt en prévention tant que le patient ne saigne pas.
+- Une transfusion préventive de plaquettes est indiquée dès que leur taux passe sous 100 000/mm³. :: Les seuils sont de 30 000/mm³ (bas risque) et 50 000/mm³ (haut risque), et la transfusion préventive est à éviter.
+> Ne pas tenir compte de l'INR : plaquettes > 30 000/mm³ pour un geste à bas risque, > 50 000/mm³ et fibrinogène > 1 g/L pour un geste à haut risque. Pas de PFC, de facteurs ni d'acide tranexamique en prévention ; PPSB si saignement actif nécessitant des facteurs.
+@ p. 79, 100, 101 et 109
+
+QCM · Thromboprophylaxie et ALR chez le cirrhotique
+Concernant la thromboprophylaxie et l'anesthésie locorégionale chez le cirrhotique opéré, quelles propositions sont exactes ?
++ Une thromboprophylaxie postopératoire (HBPM ou héparine IVSE) est prescrite, car le risque de thrombose est augmenté. :: Elle débute dès H+6 et ne majore pas le risque de saignement.
++ La péridurale est possible chez un patient Child A, voire B, lorsque les seuils d'hémostase sont respectés. :: Le terrain cirrhotique ne contre-indique pas l'ALR en soi.
++ L'ALR et l'anesthésie générale donnent une mortalité comparable chez le cirrhotique. :: Le pronostic dépend surtout du geste chirurgical et des transfusions.
+- La thromboprophylaxie est contre-indiquée chez le cirrhotique dont l'INR est élevé. :: Un INR élevé ne protège pas de la thrombose ; la prophylaxie reste indiquée.
+- L'ALR réduit de moitié la mortalité par rapport à l'anesthésie générale chez le cirrhotique. :: Aucune différence de mortalité n'est démontrée entre les deux techniques.
+> Thromboprophylaxie dès H+6 (HBPM ou héparine IVSE). ALR et AG : mortalité comparable ; péridurale possible en Child A ou B si plaquettes > 50 000/mm³ et fibrinogène > 1 g/L.
+@ p. 120, 129 et 131
+
+QCM · Pharmacologie des agents anesthésiques chez le cirrhotique
+Concernant les modifications de l'effet des médicaments chez le cirrhotique, quelles propositions sont exactes ?
++ La rétention hydrosodée augmente le volume de distribution des médicaments hydrosolubles. :: Les doses de charge (antibiotiques notamment) peuvent devoir être augmentées.
++ L'hypoalbuminémie augmente la fraction libre, active, des médicaments liés aux protéines. :: L'effet de ces médicaments est majoré à dose égale.
++ La baisse du débit sanguin hépatique ralentit l'élimination de nombreux agents. :: Leur effet peut être prolongé.
++ La sensibilité aux effets centraux de la morphine est augmentée. :: Doses réduites et réinjections espacées.
++ La conduite repose sur une dose initiale réduite, une titration et un monitorage par BIS et TOF. :: La réponse de chaque patient est difficile à prévoir.
+> Cirrhose : volume de distribution augmenté, fraction libre augmentée, élimination ralentie, sensibilité accrue à la morphine. Au bloc : dose initiale réduite, titration et monitorage (BIS, TOF).
+@ p. 25, 27, 110 et 111
+
+QCM · Médicaments à éviter chez le cirrhotique
+Concernant les médicaments à éviter chez le cirrhotique au bloc et en postopératoire, quelles propositions sont exactes ?
++ Les benzodiazépines sont à éviter, car un trouble de conscience au réveil ne permet plus de distinguer encéphalopathie et effet médicamenteux. :: Leur métabolisme hépatique ralenti prolonge leur effet.
++ Le tramadol et la codéine sont à proscrire, car ils déclenchent des encéphalopathies hépatiques. :: Préférer une analgésie multimodale avec morphine titrée.
+- Le sévoflurane est contre-indiqué chez le cirrhotique en raison de sa toxicité hépatique. :: Seul l'halothane, abandonné, était hépatotoxique ; sévoflurane et desflurane sont utilisables.
+- Le propofol est à éviter, car il s'accumule dans le foie cirrhotique et retarde le réveil. :: Le propofol n'est pas hépatotoxique et permet un réveil rapide, plus rapide qu'avec le midazolam.
+- Le rémifentanil est déconseillé, car son élimination dépend entièrement de la fonction hépatique. :: Le rémifentanil est éliminé par des estérases plasmatiques, indépendamment du foie.
+> À proscrire chez le cirrhotique : benzodiazépines (confusion avec une encéphalopathie), tramadol et codéine (encéphalopathie), AINS (rein). Utilisables : propofol, sévoflurane, desflurane, rémifentanil.
+@ p. 26, 28, 112 et 125
+
+QCU · Sédation d'une endoscopie chez le cirrhotique
+Un patient cirrhotique Child A doit avoir une endoscopie digestive haute programmée sous sédation. Quel agent est le plus adapté ?
++ Le propofol titré. :: Non hépatotoxique, peu modifié en cirrhose compensée, il permet un réveil rapide.
+- Le midazolam titré par bolus de 1 mg. :: Les benzodiazépines sont à éviter : effet prolongé et confusion difficile à distinguer d'une encéphalopathie.
+- Le diazépam per os une heure avant le geste. :: Les benzodiazépines s'accumulent chez le cirrhotique.
+- L'association de kétamine et de midazolam à faible dose. :: Le midazolam est à éviter et la kétamine impose la prudence (risque de cytolyse).
+- L'alfentanil en bolus répétés. :: L'alfentanil a un effet prolongé en insuffisance hépatique sévère.
+> Pour une sédation chez le cirrhotique, le propofol titré est l'agent de choix ; les benzodiazépines sont à éviter.
+@ p. 26, 28, 29 et 112
+
+QCM · Opioïdes et curares chez le cirrhotique
+Concernant le choix des opioïdes et des curares chez un patient cirrhotique, quelles propositions sont exactes ?
++ L'atracurium et le cisatracurium sont les curares de choix, car leur élimination ne dépend pas du foie. :: Leur délai d'action peut être un peu allongé par l'augmentation du volume de distribution.
++ La durée d'action de la succinylcholine peut être prolongée par la baisse des cholinestérases plasmatiques. :: Elle reste utilisable en injection unique, avec un monitorage par TOF.
++ La morphine est utilisable en titration, avec des doses réduites et des réinjections espacées. :: Surveiller la sédation et la constipation, qui favorise l'encéphalopathie.
++ L'alfentanil est à éviter en insuffisance hépatique sévère, car ses effets sont prolongés. :: Le rémifentanil et le fentanyl sont préférés.
+- Le vécuronium est le curare à privilégier en insuffisance hépatique sévère, car il est éliminé par le rein. :: Le vécuronium a un effet prolongé en insuffisance hépatique ; le monitorage par TOF est nécessaire.
+> Opioïdes : rémifentanil et fentanyl utilisables, morphine titrée à doses réduites, alfentanil à éviter en insuffisance sévère. Curares : atracurium et cisatracurium de choix ; succinylcholine et vécuronium prolongés ; TOF.
+@ p. 29, 30 et 113
+
+QCU · Analgésie postopératoire du cirrhotique
+Après une cholécystectomie par laparotomie chez un cirrhotique Child A sans insuffisance rénale, quel schéma d'analgésie est le plus adapté ?
++ Blocs de paroi, paracétamol 2 à 3 g/j, néfopam et morphine titrée. :: Le paracétamol à cette dose n'est pas contre-indiqué chez le cirrhotique.
+- Tramadol IV à heures fixes et paracétamol 4 g/j. :: Le tramadol est à proscrire (encéphalopathie) et la dose de paracétamol est à limiter à 2–3 g/j.
+- Kétoprofène IV, néfopam et codéine per os. :: Les AINS menacent le rein et la codéine favorise l'encéphalopathie.
+- Morphine en bolus de dose fixe à heures fixes, sans titration. :: Chez le cirrhotique, la morphine se titre, avec des doses réduites et des réinjections espacées.
+- Midazolam au coucher et paracétamol 2 g/j. :: Les benzodiazépines sont à éviter (confusion, encéphalopathie).
+> Analgésie du cirrhotique : multimodale (blocs de paroi, paracétamol 2–3 g/j, néfopam, morphine titrée), sans tramadol, codéine, AINS ni benzodiazépines.
+@ p. 123, 125 et 133
+
+QCM · Hémodynamique peropératoire et albumine
+Concernant la conduite hémodynamique et l'albumine chez un cirrhotique opéré, quelles propositions sont exactes ?
++ En chirurgie majeure, le débit cardiaque est monitoré (cathéter artériel, Doppler œsophagien, ETO) pour guider le remplissage et les catécholamines. :: Les résistances vasculaires effondrées rendent un remplissage « à l'aveugle » risqué.
++ Lorsque la noradrénaline remonte mal la pression artérielle, un inotrope comme la dobutamine, guidé par le débit cardiaque, peut être utilisé. :: Les résistances vasculaires du cirrhotique répondent peu aux vasoconstricteurs.
++ L'albumine est indiquée lors d'une paracentèse évacuatrice de plus de 4 litres. :: Ses deux autres indications sont l'infection du liquide d'ascite et le syndrome hépatorénal.
+- Un remplissage généreux par sérum salé isotonique est conseillé pour compenser l'ascite. :: Un remplissage excessif aggrave l'ascite, la PVC et la pression portale.
+- L'albumine est le soluté de remplissage de première intention en peropératoire chez le cirrhotique. :: L'albumine a trois indications ; les cristalloïdes restent le remplissage de première intention.
+> Peropératoire : monitorage du débit cardiaque, cristalloïdes en remplissage prudent, noradrénaline et si besoin dobutamine. Albumine : infection du liquide d'ascite, paracentèse de plus de 4 L, syndrome hépatorénal.
+@ p. 109, 129, 131 et 142
+
+QCM · Prescriptions postopératoires du cirrhotique
+Concernant les prescriptions après une chirurgie chez un patient cirrhotique, quelles propositions sont exactes ?
++ La réalimentation est reprise précocement, dès la sortie de SSPI. :: Elle limite la dénutrition et les complications infectieuses.
++ Au moindre doute d'infection, les prélèvements (dont une ponction d'ascite) sont suivis d'une antibiothérapie sans attendre les résultats. :: L'infection est la première complication et peut déclencher une décompensation grave.
++ La ventilation non invasive peut être utilisée en cas d'insuffisance respiratoire. :: Elle n'est pas contre-indiquée chez le cirrhotique.
++ Les antiulcéreux ne sont pas prescrits en routine après la chirurgie. :: Ils sont réservés à des situations précises, comme une hémorragie digestive.
++ La sonde gastrique est à éviter après une ligature de varices œsophagiennes. :: Elle expose à la chute d'escarre et à une hémorragie grave.
+> Après la chirurgie : réalimentation dès la sortie de SSPI, thromboprophylaxie, analgésie sans benzodiazépines ni tramadol, antibiotiques rapides au moindre doute d'infection, VNI possible, pas d'antiulcéreux en routine, pas de sonde gastrique après ligature de varices.
+@ p. 120, 122, 129 et 133
+
+QCU · Confusion en SSPI chez un cirrhotique
+En SSPI, un cirrhotique opéré d'une hernie ombilicale est confus et somnolent. Il a reçu 2 mg de midazolam à l'induction et du tramadol en fin d'intervention. Quelle est la principale difficulté posée par ces deux médicaments ?
++ Ils peuvent provoquer ou mimer une encéphalopathie hépatique, ce qui rend la confusion difficile à interpréter. :: Le midazolam a un effet prolongé chez le cirrhotique et le tramadol peut déclencher une encéphalopathie.
+- Ils exposent surtout à une curarisation résiduelle, qu'il faut rechercher au TOF. :: La confusion évoque ici une encéphalopathie, favorisée ou imitée par ces deux médicaments.
+- Ils provoquent une hypoglycémie, cause principale de cette confusion. :: L'hypoglycémie est à rechercher, mais ces médicaments posent surtout le problème de l'encéphalopathie.
+- Ils sont sans conséquence chez le cirrhotique compensé, car leur métabolisme reste normal. :: Le métabolisme des benzodiazépines est ralenti chez le cirrhotique et le tramadol favorise l'encéphalopathie.
+- Ils exposent surtout à une hémorragie digestive par rupture de varices. :: Leur risque est neurologique : encéphalopathie ou confusion difficile à distinguer d'une encéphalopathie.
+> Chez le cirrhotique, benzodiazépines et tramadol sont à éviter : un trouble de conscience au réveil ne permet plus de distinguer encéphalopathie hépatique et effet médicamenteux, et le tramadol peut lui-même déclencher une encéphalopathie.
+@ p. 28, 112 et 125
+
+QCM · Ordonnance postopératoire à vérifier chez un cirrhotique
+L'ordonnance de sortie de SSPI d'un cirrhotique Child B comporte : paracétamol 1 g × 4/j, tramadol 100 mg × 3/j, kétoprofène 100 mg × 2/j, HBPM préventive et alprazolam au coucher. Quelle(s) ligne(s) peut-on garder telle(s) quelle(s) ?
++ L'HBPM préventive. :: La thromboprophylaxie est indiquée : le risque de thrombose est augmenté chez le cirrhotique.
+- Le paracétamol 1 g × 4/j. :: Le paracétamol reste utilisable, mais à 2 à 3 g/j chez le cirrhotique.
+- Le tramadol 100 mg × 3/j. :: Le tramadol peut déclencher une encéphalopathie hépatique : à remplacer, par exemple par de la morphine titrée.
+- Le kétoprofène 100 mg × 2/j. :: Les AINS exposent à l'insuffisance rénale et au syndrome hépatorénal.
+- L'alprazolam au coucher. :: Les benzodiazépines ont un effet prolongé et brouillent l'évaluation d'une encéphalopathie.
+> Ordonnance du cirrhotique : thromboprophylaxie, paracétamol limité à 2–3 g/j, pas de tramadol ni de codéine, pas d'AINS, pas de benzodiazépines ; morphine titrée et blocs de paroi si besoin.
+@ p. 120, 123, 125 et 133

@@ -1,0 +1,186 @@
+// Quiz – Anesthésie du patient allergique (UE 3.3), d'après le cours avec notes du 26 novembre 2026 (version de Gemini relue et reprise par Claude).
+// Centré sur la conduite au bloc : orientation en allergo-anesthésie, dossier à transmettre, allergies alimentaires, latex, alpha-gal, pholcodine, pénicillines, vancomycine et atracurium, curares, urgence sans bilan, anesthésiques locaux.
+// Non repris : traitement du choc anaphylactique, pourcentages de réactions croisées, tests allergologiques pendant la grossesse.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Anesthésie – Patient allergique
+
+QCM · Orientation en allergo-anesthésie avant une chirurgie programmée
+Concernant l'orientation d'un patient vers une consultation d'allergo-anesthésie avant une chirurgie programmée, quelles propositions sont exactes ?
++ Une suspicion d'allergie au latex ou à la viande de mammifères non explorée fait partie des indications de consultation. :: Les deux autres sont une réaction périopératoire récente et un antécédent de réaction périopératoire non exploré.
++ La demande se fait dès la consultation d'anesthésie, car le délai d'attente est de 4 à 6 semaines. :: Ce délai doit être intégré au calendrier opératoire.
+- Une chirurgie carcinologique est reportée de 6 semaines pour obtenir le bilan allergologique avant d'opérer. :: Un geste dont le report nuit au pronostic (cancer, fonction, douleur majeure) relève de la stratégie de chirurgie non différable.
+- Une allergie alimentaire à l'arachide non explorée impose une consultation d'allergo-anesthésie avant l'intervention. :: Les allergies alimentaires hors groupe latex et viande de mammifères ne modifient pas la prise en charge.
+- Un antécédent de réaction périopératoire suivi d'une nouvelle anesthésie aux mêmes produits, bien tolérée, impose encore une consultation. :: Une réexposition bien tolérée aux mêmes produits permet de garder le protocole habituel.
+> Chirurgie différable : demander la consultation d'allergo-anesthésie dès la consultation d'anesthésie (4 à 6 semaines d'attente) en cas de réaction périopératoire récente, d'antécédent de réaction non exploré, de suspicion d'allergie au latex ou à la viande de mammifères. Si le geste ne peut pas attendre, stratégie de chirurgie non différable.
+@ p. 3, 5 et 7
+
+QCU · Réaction peropératoire et tryptase normale
+Cinq minutes après l'injection de céfazoline, un patient présente un érythème diffus et une hypotension qui cèdent au traitement. La tryptase prélevée est normale. Quelle conduite adopter pour la suite ?
++ Adresser le patient en allergo-anesthésie, car une tryptase normale n'exclut pas une allergie. :: Le taux de tryptase dépend de l'heure du prélèvement et de la sévérité de la réaction ; c'est la clinique qui décide de l'orientation.
+- Conclure à une réaction non allergique et réutiliser la céfazoline lors de la prochaine anesthésie. :: Une tryptase normale n'écarte pas une allergie IgE-médiée.
+- Refaire une injection test de céfazoline en SSPI pour confirmer le diagnostic. :: L'exploration relève de l'allergologue, à distance et dans un cadre adapté.
+- Orienter en allergologie seulement si un second dosage de tryptase revient élevé. :: L'orientation ne dépend pas du bilan biologique initial.
+- Inscrire une allergie aux bêta-lactamines dans le dossier, sans autre exploration. :: Le patient doit être exploré pour identifier l'agent en cause et éviter des évictions inutiles.
+> Devant une réaction évocatrice au bloc, adresser le patient en allergo-anesthésie même si la tryptase est normale ou n'a pas été dosée : son taux dépend du délai de prélèvement et de la sévérité.
+@ p. 5
+
+QCM · Dossier transmis à l'allergologue
+Après une réaction d'hypersensibilité immédiate au bloc, quels éléments faut-il transmettre en allergo-anesthésie ?
++ La feuille d'anesthésie, la feuille de SSPI et la consultation d'anesthésie. :: Elles permettent de reconstituer le déroulement de l'anesthésie.
++ La chronologie exacte des produits reçus, antiseptique, latex, gélatines, colorants et colles compris. :: Un allergène caché oublié empêche d'identifier le responsable.
++ L'heure des prélèvements de tryptase par rapport au début de la réaction. :: Leur interprétation dépend de ce délai.
++ La description des signes cliniques et des traitements administrés. :: Ils permettent d'apprécier la sévérité de la réaction.
+- La liste des médicaments injectés dans les 5 minutes précédant la réaction. :: Tous les produits reçus sont listés, y compris les allergènes cachés, avec leur horaire.
+> Dossier complet pour l'allergologue : consultation, feuille d'anesthésie et de SSPI, chronologie de tous les produits (allergènes cachés compris), signes cliniques, traitements et heure des prélèvements ; déclaration en pharmacovigilance et information du patient.
+@ p. 6
+
+QCU · Allergie alimentaire déclarée au moment de l'induction
+Au moment de l'induction, une patiente signale une allergie non explorée à l'œuf et aux crevettes. Quelle conduite adopter ?
++ Garder le protocole prévu, propofol et povidone iodée compris. :: Ces allergies alimentaires n'entraînent pas de réaction croisée avec les médicaments de l'anesthésie.
+- Remplacer le propofol par de l'étomidate en raison de l'allergie à l'œuf. :: Le propofol reste utilisable malgré une allergie à l'œuf, au soja ou à l'arachide.
+- Remplacer la povidone iodée par de la chlorhexidine en raison de l'allergie aux crevettes. :: La povidone iodée reste autorisée ; la chlorhexidine est au contraire un allergène en forte hausse.
+- Reporter l'intervention pour une consultation d'allergo-anesthésie. :: Ces allergies alimentaires ne font pas partie des indications de consultation.
+- Préparer un bloc sans latex en raison de l'allergie aux crevettes. :: Le groupe latex concerne l'avocat, la banane, le kiwi, la papaye et la châtaigne.
+> Allergie alimentaire à l'œuf, au soja, à l'arachide, au poisson ou aux fruits de mer : protocole inchangé (propofol, protamine, povidone iodée et produits de contraste iodés autorisés). Exceptions : fruits du groupe latex et viande de mammifères.
+@ p. 10 et 31
+
+QCM · Suspicion d'allergie au latex
+Concernant un patient suspect d'allergie au latex, sans exposition au latex tolérée depuis, quelles propositions sont exactes ?
++ Le patient est programmé en première position, dans un environnement sans latex. :: L'allergie est signalée dans le dossier et le patient adressé ensuite en allergologie.
++ L'interrogatoire recherche une allergie à l'avocat, la banane, le kiwi, la papaye ou la châtaigne. :: Ces fruits font partie du syndrome latex-fruit ; papaye et châtaigne sont souvent oubliées.
+- Le temps de pause avant son intervention est allongé pour évacuer les particules de latex. :: La ventilation du bloc suffit : la pause habituelle n'est pas allongée.
+- Les gélatines fluides sont proscrites en raison d'une parenté avec le latex. :: L'éviction des gélatines concerne le syndrome alpha-gal, pas l'allergie au latex.
+- Une allergie au kiwi isolée ne fait pas évoquer d'allergie au latex. :: Sans exposition au latex tolérée, une allergie au kiwi fait suspecter un syndrome latex-fruit.
+> Suspicion d'allergie au latex ou syndrome latex-fruit : éviction du latex, signalement dans le dossier, première position au programme, sans allonger la pause ; consultation d'allergologie ensuite.
+@ p. 5 et 10
+
+QCU · Syndrome alpha-gal au bloc
+Un patient de groupe O, piqué plusieurs fois par des tiques, évite la viande rouge depuis deux ans à cause de réactions allergiques retardées. Il doit être opéré en urgence d'une péritonite. Quelle précaution découle de ce terrain ?
++ Ne pas utiliser de gélatines fluides et se méfier d'une transfusion de plasma ou de plaquettes de groupe B ou AB. :: Les IgE visent un sucre présent dans les gélatines et proche de l'antigène du groupe B.
+- Remplacer le propofol par de la kétamine à l'induction. :: Le propofol n'est pas concerné par le syndrome alpha-gal.
+- Remplacer la céfazoline par de la vancomycine. :: Le syndrome alpha-gal ne concerne pas la céfazoline.
+- Préparer un bloc sans latex en première position. :: Le syndrome alpha-gal est distinct du syndrome latex-fruit.
+- Préférer l'albumine aux cristalloïdes pour le remplissage. :: Seules les gélatines sont à éviter ; les cristalloïdes restent le remplissage de base.
+> Syndrome alpha-gal : allergie retardée à la viande de mammifères après des piqûres de tiques. Au bloc : le rechercher à l'interrogatoire, éviter les gélatines, prudence avec le plasma et les plaquettes de groupe B ou AB chez un receveur O, attention aux bioprothèses valvulaires d'origine animale.
+@ p. 10 et 11
+
+QCM · Pholcodine et ammoniums quaternaires
+Concernant un patient qui a pris de la pholcodine dans le passé, quelle(s) proposition(s) est (sont) exacte(s) ?
++ Le protocole anesthésique reste inchangé, sans bilan allergologique prévu pour ce motif. :: Le produit est retiré du marché et le bilan n'apporterait pas de bénéfice suffisant.
+- La chirurgie programmée est reportée pour réaliser des tests cutanés aux curares. :: Une prise de pholcodine ne justifie ni bilan ni report.
+- Les curares sont évités chez lui, au profit d'une intubation sans curare. :: Le protocole reste inchangé.
+- La pholcodine sensibilise aux céphalosporines par une chaîne latérale commune. :: La pholcodine partage des ammoniums quaternaires avec les curares, pas de chaîne latérale avec les bêta-lactamines.
+- Un coiffeur exposé aux ammoniums quaternaires doit avoir un bilan allergologique avant une anesthésie programmée. :: Cette exposition augmente le risque de sensibilisation aux curares, mais ne fait pas partie des indications de consultation.
+> La pholcodine (retirée du marché) et certains produits professionnels (coiffure, détergents) partagent des ammoniums quaternaires avec les curares. Une prise passée de pholcodine ne modifie pas le protocole et ne justifie pas de bilan.
+@ p. 12, 13 et 14
+
+QCM · Pénicillines et céphalosporines
+Concernant l'allergie déclarée à la pénicilline et l'antibioprophylaxie, quelles propositions sont exactes ?
++ Écarter à tort les bêta-lactamines double le risque d'infection du site opératoire. :: Les alternatives augmentent aussi les infections à Clostridioides difficile et à SARM.
++ Les réactions croisées entre pénicillines et céphalosporines dépendent d'une chaîne latérale R1 commune. :: Le noyau bêta-lactame n'est pas en cause.
++ La céfazoline n'a pas de chaîne latérale R1 commune avec les pénicillines. :: Le risque de réaction croisée avec l'amoxicilline est donc très faible.
+- Une dose unique de vancomycine en alternative est sans conséquence pour le patient. :: Même en dose unique, les alternatives exposent à la néphrotoxicité, à l'ototoxicité et aux infections à C. difficile.
+- Les réactions croisées entre amoxicilline et céfazoline sont fréquentes, car elles partagent le même noyau bêta-lactame. :: Le noyau n'explique pas les réactions croisées ; la céfazoline n'a pas de chaîne R1 commune avec l'amoxicilline.
+> Écarter à tort les bêta-lactamines double le risque d'infection du site opératoire et expose aux effets des alternatives. Les réactions croisées dépendent de la chaîne R1 : pas de chaîne commune entre pénicillines et céfazoline ou céphalosporines de 3e à 5e génération.
+@ p. 17, 18, 19 et 20
+
+QCM · Interrogatoire d'une allergie déclarée à la pénicilline
+Chez un patient qui se dit allergique à la pénicilline, quelles situations rapportées à l'interrogatoire autorisent une bêta-lactamine ou la céfazoline ?
++ Une allergie à la pénicilline chez sa mère, sans réaction personnelle. :: L'allergie IgE-médiée n'est pas héréditaire.
++ Des troubles digestifs ou des céphalées sous amoxicilline. :: Ces signes ne traduisent pas une allergie.
++ Une nouvelle prise d'amoxicilline bien tolérée après l'épisode initial. :: Une réexposition tolérée écarte l'allergie à cette molécule.
++ Une éruption cutanée isolée, sans gravité, sous amoxicilline à l'âge de 3 ans. :: Avant 6 ans, une éruption isolée est souvent d'origine virale : la céfazoline est autorisée.
+- Une urticaire généralisée avec gêne respiratoire 30 minutes après une prise d'amoxicilline. :: C'est une réaction immédiate grave : une alternative aux céphalosporines s'impose.
+> Bêta-lactamines autorisées : antécédent familial seul, reprise sans symptôme, troubles digestifs, céphalées ou signes non évocateurs. Céfazoline autorisée : éruption cutanée isolée sans gravité avant 6 ans. Ne pas effacer la mention du dossier, mais tracer l'interrogatoire et la décision.
+@ p. 21
+
+QCM · Quand choisir une alternative aux céphalosporines
+Chez un patient qui se dit allergique à la pénicilline, sans bilan allergologique, quelles situations conduisent à une alternative aux céphalosporines pour l'antibioprophylaxie ?
++ Une réaction survenue plus de 6 heures après la prise. :: Les réactions retardées font partie des trois situations à risque.
++ Une réaction immédiate avec angio-œdème, malaise ou bronchospasme. :: Les signes de gravité imposent une alternative.
++ Une réaction mal décrite mais qui a nécessité une consultation ou un traitement. :: Sans détail, ce critère fait craindre une réaction sévère.
+- Une diarrhée isolée pendant un traitement par amoxicilline-acide clavulanique. :: Des troubles digestifs isolés ne sont pas une allergie.
+- Une allergie déclarée chez le père, sans réaction personnelle. :: Un antécédent familial seul n'interdit pas les bêta-lactamines.
+> Trois situations imposent une alternative aux céphalosporines : réaction retardée de plus de 6 h, réaction immédiate grave (urticaire généralisée, angio-œdème, malaise, hypotension, bronchospasme), réaction inconnue ayant nécessité une consultation ou un traitement.
+@ p. 23
+
+QCU · Antibioprophylaxie d'une prothèse de hanche
+Un homme de 68 ans doit avoir une prothèse totale de hanche. Son dossier mentionne « allergie pénicilline ». Il raconte une diarrhée sous amoxicilline il y a 15 ans, puis une nouvelle prise d'amoxicilline sans incident deux ans plus tard. Quelle conduite adopter ?
++ Prescrire la céfazoline, garder la mention dans le dossier et y tracer l'interrogatoire et la décision. :: Troubles digestifs isolés et reprise tolérée : la céfazoline est autorisée, et elle protège mieux la prothèse de l'infection.
+- Prescrire de la vancomycine sur 15 minutes avant le garrot. :: Elle est inutile ici, et une perfusion rapide expose à une réaction de type « homme rouge ».
+- Effacer la mention « allergie pénicilline » du dossier informatisé. :: La mention n'est pas effacée : on trace l'interrogatoire et la justification de la prescription.
+- Reporter la prothèse de 6 semaines pour un bilan allergologique. :: L'interrogatoire suffit à autoriser la céfazoline.
+- Prescrire de la clindamycine associée à un aminoside. :: Écarter la céfazoline à tort augmente le risque d'infection de la prothèse et expose à la toxicité des alternatives.
+> Troubles digestifs isolés et reprise tolérée de l'amoxicilline : céfazoline autorisée. En chirurgie prothétique, écarter à tort la céfazoline double le risque d'infection. Ne pas effacer la mention : tracer l'interrogatoire et la décision.
+@ p. 17, 21, 25 et 26
+
+QCM · Vancomycine et atracurium : vitesse d'injection
+Concernant l'administration de la vancomycine et de l'atracurium au bloc, quelles propositions sont exactes ?
++ La vancomycine passe sur 1 heure au pousse-seringue. :: Une perfusion trop rapide provoque une réaction de type « homme rouge » qui peut mimer un choc anaphylactique grave.
++ L'atracurium s'injecte lentement, sur environ 30 secondes. :: Une injection rapide libère de l'histamine par activation directe des mastocytes.
+- En cas de retard au programme, la vancomycine peut passer sur 20 minutes. :: Le retard ne justifie pas d'accélérer la perfusion.
+- La réaction de type « homme rouge » se limite à une rougeur du tronc, sans effet sur la pression artérielle. :: Elle peut s'accompagner d'une hypotension sévère, comme un choc anaphylactique.
+- Les réactions dues à une injection trop rapide sont des allergies vraies, qui imposent une éviction définitive. :: Ce sont des réactions non allergiques liées à la vitesse d'injection.
+> Vancomycine sur 1 heure au pousse-seringue, atracurium injecté lentement (environ 30 secondes) : une injection rapide active directement les mastocytes et peut mimer une anaphylaxie grave (réaction non allergique).
+@ p. 26
+
+QCM · Réactions croisées entre curares
+Concernant les réactions croisées entre curares, quelles propositions sont exactes ?
++ Elles s'expliquent par des groupements ammoniums quaternaires communs, reconnus par les IgE. :: Ils sont présents dans tous les curares, malgré des structures différentes.
++ Elles ne peuvent pas être prédites sans tests cutanés. :: Elles existent dans une même classe et entre classes différentes.
++ Le rocuronium et la succinylcholine ont des réactions croisées fréquentes, ce qui complique l'induction en séquence rapide. :: Chez un patient allergique au rocuronium, la succinylcholine n'est pas une solution sûre.
+- Une allergie à l'atracurium permet d'utiliser le cisatracurium à la place. :: Ce sont des stéréoisomères, avec des réactions croisées fréquentes.
+- Une allergie à un curare protège des réactions aux autres curares de la même classe. :: Les réactions croisées sont fréquentes au sein d'une même classe.
+> Les curares partagent des ammoniums quaternaires : réactions croisées fréquentes et imprévisibles sans tests cutanés. Rocuronium et succinylcholine : croisements fréquents (ISR compliquée). Atracurium et cisatracurium : stéréoisomères.
+@ p. 28 et 29
+
+QCM · Urgence chez un patient avec une réaction non explorée
+Un patient ayant fait une réaction lors d'une anesthésie générale, jamais explorée et sans nouvelle anesthésie depuis, doit être opéré en urgence. Quelles mesures sont adaptées ?
++ Écarter le latex, la chlorhexidine et les gélatines, et peser l'intérêt des bêta-lactamines. :: Ce sont les évictions à appliquer sans attendre de bilan.
++ Préférer une ALR lorsque le geste le permet. :: Elle évite l'exposition aux agents de l'anesthésie générale, curares compris.
++ En anesthésie générale, se passer de curare si l'intubation s'annonce facile, en le justifiant par écrit. :: Par exemple Mallampati 1 ; pas en cas de critère d'intubation difficile.
++ Si un curare est indispensable et que le curare en cause est inconnu, utiliser le cisatracurium. :: C'est le curare le moins allergisant en France ; le choix est tracé dans le dossier.
++ Organiser la consultation d'allergo-anesthésie après l'intervention. :: Avec la check-list complète, dès que le patient est stabilisé.
+> Urgence sans bilan : éviction du latex, de la chlorhexidine et des gélatines, ALR si possible, AG sans curare si l'intubation s'annonce facile (justifié par écrit), sinon autre classe si le curare est connu ou cisatracurium s'il est inconnu ; consultation d'allergo-anesthésie ensuite.
+@ p. 30 et 31
+
+QCM · Choc antérieur à l'atracurium et péritonite
+Un patient doit être opéré en urgence d'une péritonite. Son carnet mentionne un choc anaphylactique à l'atracurium il y a 3 ans, sans bilan depuis. Quelle(s) proposition(s) est (sont) exacte(s) ?
++ Le cisatracurium est à écarter, car c'est un stéréoisomère de l'atracurium. :: Quand le curare en cause est connu, on change de classe.
+- Le cisatracurium est le bon choix, puisque c'est le curare le moins allergisant. :: Ce choix vaut seulement quand le curare en cause est inconnu.
+- Le mivacurium est une alternative sûre à l'atracurium. :: C'est aussi une benzylisoquinoline, avec des réactions croisées fréquentes.
+- L'intervention est différée jusqu'au bilan allergologique. :: Une péritonite ne peut pas attendre : stratégie de chirurgie non différable.
+- La chlorhexidine reste utilisable, puisque l'agent suspect est un curare. :: Sans bilan, latex, chlorhexidine et gélatines sont écartés.
+> Curare en cause connu (atracurium) : changer de classe, sans cisatracurium ni mivacurium (même classe, réactions croisées fréquentes). Le cisatracurium est le choix par défaut seulement si le curare en cause est inconnu.
+@ p. 29 et 30
+
+QCM · Allergènes cachés au bloc
+Concernant les allergènes cachés à rechercher autour d'une réaction au bloc, quelles propositions sont exactes ?
++ La chlorhexidine peut être présente dans un cathéter imprégné ou un bain de bouche. :: Son allergie est en forte hausse, du fait d'une exposition quotidienne.
++ Les gélatines fluides font partie des produits à noter dans la chronologie. :: Elles sont écartées en urgence chez un patient avec une réaction non explorée.
++ Les colorants et les colles utilisés pendant l'intervention sont à inclure dans la liste des produits reçus. :: Leur oubli peut empêcher d'identifier l'allergène.
+- L'antiseptique cutané n'est pas noté, car il n'est pas injecté. :: Les antiseptiques font partie des allergènes à tracer, la chlorhexidine en premier lieu.
+- Le latex n'est à signaler que si le patient a été intubé. :: Le latex peut être présent dans de nombreux dispositifs : il est noté dans tous les cas.
+> Allergènes cachés au bloc : antiseptiques (chlorhexidine, y compris cathéters imprégnés), latex, gélatines, colorants, colles, antibiotiques, produits de contraste. Ils figurent dans la chronologie transmise à l'allergologue.
+@ p. 6 et 30
+
+QCU · Allergie déclarée aux anesthésiques locaux
+Une patiente à terme souhaite une péridurale mais déclare une « allergie aux anesthésiques locaux » après un malaise chez le dentiste, sans bilan. Le bénéfice de l'ALR est jugé important. Quelle conduite est adaptée ?
++ Injecter en sous-cutané 0,5 à 1 mL d'anesthésique local non dilué et non adrénaliné, sous monitorage, puis surveiller 30 minutes. :: Sans réaction au bout de 30 minutes, l'anesthésique local est utilisable ; une papule impose l'éviction.
+- Injecter en sous-cutané un anesthésique local dilué et adrénaliné. :: L'adrénaline masque la réaction locale et donne un faux négatif.
+- Injecter 2 mL de lidocaïne en IV et surveiller 15 minutes. :: Le test se fait en sous-cutané avec une surveillance de 30 minutes.
+- Renoncer à l'ALR, car une réaction chez le dentiste traduit une allergie vraie. :: La vraie allergie aux anesthésiques locaux est exceptionnelle ; au dentiste, il s'agit surtout d'un passage intravasculaire ou d'un malaise vagal.
+- Poser la péridurale à demi-dose d'anesthésique local si une papule apparaît au test. :: Une papule traduit une réaction : les anesthésiques locaux sont alors évités.
+> Allergie vraie aux anesthésiques locaux exceptionnelle. Test de réintroduction en urgence (protocole d'obstétrique, transposable à une rachianesthésie urgente) : équipe prévenue, monitorage, 0,5 à 1 mL non dilué et non adrénaliné en sous-cutané, surveillance 30 minutes ; négatif = usage habituel, papule = éviction.
+@ p. 15, 30 et 33
+
+QCM · Prémédication et induction chez l'allergique à un curare inconnu
+Concernant un patient allergique à un curare inconnu qui nécessite une induction en séquence rapide, quelles propositions sont exactes ?
++ Une prémédication antihistaminique n'est pas indiquée, car elle ne prévient pas l'anaphylaxie. :: Sa seule place est l'allergie aux produits de contraste iodés en imagerie.
++ Une intubation vigile sous fibroscope peut être discutée. :: Elle évite le curare et l'hypotension de l'induction.
+- Le propofol avec un bolus de rémifentanil, sans curare, est l'option à privilégier chez le sujet âgé. :: Cette stratégie donne moins de succès au premier essai, plus de lésions laryngées et plus d'hypotension : elle est réservée au sujet jeune sans comorbidité.
+- La dexchlorphéniramine (Polaramine®) avant le rocuronium atténue un éventuel choc. :: Les antihistaminiques en prémédication ne préviennent pas le choc anaphylactique.
+- L'intubation sans curare est envisageable même avec un Mallampati 4. :: Elle se discute seulement sans critère d'intubation difficile.
+> Pas de prémédication antihistaminique en anesthésie (sauf produits de contraste iodés). Curare en cause inconnu et ISR nécessaire : discuter une intubation vigile sous fibroscope, ou propofol et rémifentanil sans curare chez un sujet jeune sans comorbidité ni choc.
+@ p. 30 et 33
