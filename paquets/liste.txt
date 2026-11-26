@@ -49,6 +49,9 @@ S1/3.3/coelioscopie.txt
 S1/3.3/hors-bloc.txt
 S1/3.3/patient-addict.txt
 S1/3.3/patient-psychiatrique.txt
+S1/3.3/patient-insuffisant-hepatique.txt
+S1/3.3/patient-transplante.txt
+S1/3.3/patient-allergique.txt
 
 S1/4.4/hygiene-mains.txt
 S1/4.4/tenue-bloc.txt
