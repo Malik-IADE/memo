@@ -1,8 +1,8 @@
-// Quiz – Anesthésie du patient psychiatrique, dément ou IMC (UE 3.3), créé le 25 novembre 2026 d'après le support de cours avec notes.
-// Questions type examen centrées sur l'essentiel au bloc opératoire et en périopératoire (psychiatrie, sujet dément, IMC).
+// Quiz – Anesthésie du patient psychiatrique, dément ou infirme moteur cérébral (UE 3.3), créé le 25 novembre 2026 d'après le support de cours avec notes.
+// Questions type examen centrées sur l'essentiel au bloc opératoire et en périopératoire (psychiatrie, sujet dément, infirmité motrice cérébrale).
 // Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
 
-# Anesthésie – Patient psychiatrique, dément ou IMC
+# Anesthésie – Patient psychiatrique, dément ou infirme moteur cérébral
 
 QCM · Accueil au bloc et prémédication en psychiatrie
 Concernant l'accueil au bloc et la prémédication d'un patient anxieux ou présentant un trouble du neurodéveloppement, quelles propositions sont exactes ?
@@ -164,42 +164,42 @@ Concernant le consentement, la LATA, la réanimation et la contention chez le su
 > Démence ≠ incapacité, ≠ LATA, ≠ refus de réa/USC, ≠ contention systématique. Personne de confiance : témoigne, ne consent pas. Urgence vitale : soins indispensables d'abord.
 @ p. 41 et 45
 
-QCM · Risques majeurs au bloc chez le patient IMC
-Concernant les risques périopératoires d'un patient atteint d'infirmité motrice cérébrale (IMC), quelles propositions sont exactes ?
+QCM · Risques majeurs au bloc chez le patient infirme moteur cérébral
+Concernant les risques périopératoires d'un patient atteint d'infirmité motrice cérébrale, quelles propositions sont exactes ?
 + L'atteinte respiratoire représente la première cause de morbi-mortalité (inhalations, bronchospasme, syndrome restrictif sur scoliose). :: Elle conditionne la préparation préopératoire, la gestion des voies aériennes et le sevrage ventilatoire.
 + L'hypotension artérielle est la première complication peropératoire par sensibilité accrue aux anesthésiques et réponse adrénergique réduite. :: Elle impose une titration prudente et une anticipation du remplissage.
 + Le risque d'intubation difficile est majoré par l'atteinte de l'ATM, les dents fragiles ou mobiles et la raideur du rachis cervical. :: Un chariot d'intubation difficile doit être préparé à proximité.
-- L'hypertonie spastique protège le patient IMC de l'hypothermie peropératoire grâce à une thermogenèse musculaire augmentée. :: La maigreur et la faible masse maigre exposent au contraire à une hypothermie rapide (réveil retardé).
-- Une déficience intellectuelle accompagne habituellement l'IMC et dispense de rechercher une communication directe avec le patient. :: Elle est absente chez environ un tiers des patients : il ne faut pas la présumer.
-> IMC au bloc : 1re cause de morbi-mortalité = respiratoire ; 1re complication peropératoire = hypotension. Anticiper IOT difficile, RGO, hypersalivation, hypothermie rapide, épilepsie fréquente (jusqu'à 50 %), allergie au latex et rétractions.
+- L'hypertonie spastique protège le patient infirme moteur cérébral de l'hypothermie peropératoire grâce à une thermogenèse musculaire augmentée. :: La maigreur et la faible masse maigre exposent au contraire à une hypothermie rapide (réveil retardé).
+- Une déficience intellectuelle accompagne habituellement l'infirmité motrice cérébrale et dispense de rechercher une communication directe avec le patient. :: Elle est absente chez environ un tiers des patients : il ne faut pas la présumer.
+> Infirmité motrice cérébrale au bloc : 1re cause de morbi-mortalité = respiratoire ; 1re complication peropératoire = hypotension. Anticiper IOT difficile, RGO, hypersalivation, hypothermie rapide, épilepsie fréquente (jusqu'à 50 %), allergie au latex et rétractions.
 @ p. 49, 50 et 51
 
-QCM · Préparation et gestion des traitements chez le patient IMC
-Concernant la préparation au bloc et les traitements habituels d'un patient IMC, quelles propositions sont exactes ?
+QCM · Préparation et gestion des traitements chez le patient infirme moteur cérébral
+Concernant la préparation au bloc et les traitements habituels d'un patient infirme moteur cérébral, quelles propositions sont exactes ?
 + Tous les traitements habituels (baclofène, antiépileptiques, antireflux) sont poursuivis, avec un arrêt brutal du baclofène à proscrire. :: Il faut anticiper leurs effets : reprise de ventilation spontanée retardée sous baclofène, dépression respiratoire sous BZD.
 + Le glycopyrrolate IV est utile contre l'hypersalivation car il n'entraîne pas d'effet neurologique central. :: Il complète les aspirations oropharyngées répétées.
-+ La carbamazépine (inducteur enzymatique) réduit la durée d'action du vécuronium, tandis que le valproate expose au saignement. :: Ce sont les deux interactions principales des antiépileptiques à anticiper chez le patient IMC.
++ La carbamazépine (inducteur enzymatique) réduit la durée d'action du vécuronium, tandis que le valproate expose au saignement. :: Ce sont les deux interactions principales des antiépileptiques à anticiper chez le patient infirme moteur cérébral.
 + En cas d'abord veineux impossible par rétractions ou agitation, on recourt à l'échoguidage ou à une induction inhalatoire au sévoflurane. :: L'EMLA aide également à faciliter la pose de VVP.
 + Une pneumopathie impose de reporter une chirurgie programmée, et la salle doit être préparée sans latex en 1re position. :: Ces patients sont fréquemment colonisés et exposés à l'allergie au latex par soins répétés.
-> Préparation IMC : poursuivre tous les traitements (baclofène, carbamazépine, valproate), salle sans latex en 1re position, chariot IOT difficile, glycopyrrolate IV, antiacides + métoclopramide (RGO), report si pneumopathie, VVP échoguidée ou induction inhalatoire.
+> Préparation de l'infirme moteur cérébral : poursuivre tous les traitements (baclofène, carbamazépine, valproate), salle sans latex en 1re position, chariot IOT difficile, glycopyrrolate IV, antiacides + métoclopramide (RGO), report si pneumopathie, VVP échoguidée ou induction inhalatoire.
 @ p. 51 à 54
 
-QCM · Peropératoire du patient IMC : agents et voies aériennes
-Concernant la gestion des agents anesthésiques et des voies aériennes chez un patient IMC au bloc, quelles propositions sont exactes ?
+QCM · Peropératoire du patient infirme moteur cérébral : agents et voies aériennes
+Concernant la gestion des agents anesthésiques et des voies aériennes chez un patient infirme moteur cérébral au bloc, quelles propositions sont exactes ?
 + Les besoins en halogénés sont diminués (CAM abaissée) et nécessitent une titration sous BIS pour éviter un réveil retardé. :: Sensibilité accrue, antiépileptiques, antispastiques et hypothermie abaissent la CAM.
 + On observe une sensibilité augmentée à la succinylcholine et une résistance au rocuronium, imposant un monitorage par TOF. :: Il n'y a aucune contre-indication aux curares, mais l'adaptation des doses et le TOF sont indispensables.
-- En cas d'hyperréactivité bronchique chez le patient IMC, le thiopental est préféré à la kétamine pour l'induction. :: C'est l'inverse : en cas d'hyperréactivité bronchique, la kétamine est préférée et le thiopental évité.
-- Les curares non dépolarisants sont contre-indiqués chez le patient IMC en raison d'un risque de curarisation prolongée par la toxine botulique. :: Il n'existe pas de contre-indication aux curares ; la potentialisation par la toxine botulique n'est pas démontrée.
-- Les besoins en halogénés sont augmentés (CAM élevée) chez le patient IMC traité par antiépileptiques. :: Les besoins en halogénés sont au contraire diminués (CAM abaissée), d'autant plus sous antiépileptiques.
-> IMC en peropératoire : CAM ↓ (titration BIS), curares autorisés sous TOF (sensibilité ↑ succinylcholine, résistance rocuronium), kétamine si HRB (pas de thiopental), protection des appuis (escarres, luxations), réchauffement actif (salle, solutés, Bair Hugger).
+- En cas d'hyperréactivité bronchique chez le patient infirme moteur cérébral, le thiopental est préféré à la kétamine pour l'induction. :: C'est l'inverse : en cas d'hyperréactivité bronchique, la kétamine est préférée et le thiopental évité.
+- Les curares non dépolarisants sont contre-indiqués chez le patient infirme moteur cérébral en raison d'un risque de curarisation prolongée par la toxine botulique. :: Il n'existe pas de contre-indication aux curares ; la potentialisation par la toxine botulique n'est pas démontrée.
+- Les besoins en halogénés sont augmentés (CAM élevée) chez le patient infirme moteur cérébral traité par antiépileptiques. :: Les besoins en halogénés sont au contraire diminués (CAM abaissée), d'autant plus sous antiépileptiques.
+> Infirmité motrice cérébrale en peropératoire : CAM ↓ (titration BIS), curares autorisés sous TOF (sensibilité ↑ succinylcholine, résistance rocuronium), kétamine si HRB (pas de thiopental), protection des appuis (escarres, luxations), réchauffement actif (salle, solutés, Bair Hugger).
 @ p. 54, 55 et 56
 
-QCM · Réveil, douleur et chirurgie de scoliose chez le patient IMC
-Concernant le réveil, l'analgésie et les suites opératoires d'un patient IMC, quelle(s) proposition(s) est (sont) exacte(s) ?
+QCM · Réveil, douleur et chirurgie de scoliose chez le patient infirme moteur cérébral
+Concernant le réveil, l'analgésie et les suites opératoires d'un patient infirme moteur cérébral, quelle(s) proposition(s) est (sont) exacte(s) ?
 + Le risque de dépression respiratoire sous morphiniques est doublé, justifiant une épargne morphinique maximale (AG + ALR/péridurale, AINS, paracétamol). :: L'extubation se fait uniquement bien réveillé et décurarisé (TOF), après aspirations répétées ; appeler l'aidant en SSPI pour évaluer la douleur.
-- Une extubation profonde avant le réveil complet est recommandée pour éviter le bronchospasme chez le patient IMC. :: Au contraire, devant l'hypersalivation, le RGO et la toux inefficace, l'extubation se fait uniquement chez un patient bien réveillé et décurarisé.
+- Une extubation profonde avant le réveil complet est recommandée pour éviter le bronchospasme chez le patient infirme moteur cérébral. :: Au contraire, devant l'hypersalivation, le RGO et la toux inefficace, l'extubation se fait uniquement chez un patient bien réveillé et décurarisé.
 - La réalisation d'EFR préopératoires permet de prédire avec fiabilité le risque de décompensation respiratoire après chirurgie de scoliose. :: Les EFR sont peu prédictives ; la chirurgie de scoliose sur syndrome restrictif expose au recours à la PPC nasale, à la ventilation prolongée ou à la trachéotomie de sevrage.
-- La péridurale postopératoire est contre-indiquée dans la chirurgie de scoliose de l'IMC en raison des spasmes musculaires. :: Réalisée par un anesthésiste expérimenté, la péridurale est au contraire privilégiée (épargne morphinique, contrôle des spasmes par clonidine en APD ou diazépam IV).
+- La péridurale postopératoire est contre-indiquée dans la chirurgie de scoliose de l'infirmité motrice cérébrale en raison des spasmes musculaires. :: Réalisée par un anesthésiste expérimenté, la péridurale est au contraire privilégiée (épargne morphinique, contrôle des spasmes par clonidine en APD ou diazépam IV).
 - La présence de l'aidant en SSPI est différée jusqu'au retour en service afin de limiter l'agitation au réveil. :: L'aidant doit être appelé dès le réveil en SSPI pour aider à évaluer la douleur (échelles comportementales : grimaces, gémissements, irritabilité).
-> Postopératoire IMC : extubation bien réveillé et décurarisé après aspirations, aidant dès la SSPI + échelles comportementales, épargne morphinique (dépression respiratoire ×2), vigilance respiratoire majeure après chirurgie de scoliose (EFR peu prédictives, AG + péridurale privilégiée).
+> Postopératoire de l'infirme moteur cérébral : extubation bien réveillé et décurarisé après aspirations, aidant dès la SSPI + échelles comportementales, épargne morphinique (dépression respiratoire ×2), vigilance respiratoire majeure après chirurgie de scoliose (EFR peu prédictives, AG + péridurale privilégiée).
 @ p. 57 et 58
