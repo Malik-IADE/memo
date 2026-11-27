@@ -1,0 +1,205 @@
+// Quiz – Chirurgie ambulatoire (UE 3.3), écrit par Gemini d'après « Chirurgie - Ambulatoire - UE 3.3 - avec notes » (Dre Diane Commandeur, 27 novembre 2026), relu et allégé par Claude le 27 novembre 2026.
+// Centré sur le bloc, la SSPI et la sortie : éligibilité, accompagnant, anesthésie, douleur, NVPO, rétention, pédiatrie, scores de sortie. Organisation et appels téléphoniques gardés en questions simples.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Chirurgie – Ambulatoire
+
+QCM · Définition de la chirurgie ambulatoire
+Concernant la chirurgie ambulatoire, quelles propositions sont exactes ?
++ C'est une hospitalisation sans nuitée, de 12 heures au plus, pour un acte réalisé au bloc. :: Sous anesthésie générale, locorégionale ou locale.
++ Elle impose une surveillance adaptée, en SSPI puis dans l'unité ambulatoire. :: Le patient doit avoir le même bénéfice, sans sur-risque, qu'en hospitalisation classique.
+- Une urgence, comme une plaie de la main, ne peut pas être prise en charge en ambulatoire. :: Des filières d'urgence ambulatoire existent.
+- Une endoscopie digestive sous AG passée par l'unité relève de la chirurgie ambulatoire. :: Sans acte chirurgical, elle n'en fait pas partie au sens strict.
+- L'anesthésie générale est une contre-indication relative à l'ambulatoire. :: On adapte les agents pour une récupération compatible avec le retour à domicile.
+> Ambulatoire : sans nuitée (≤ 12 h), acte au bloc, surveillance en SSPI puis en unité. Ce n'est pas l'acte qui est ambulatoire, mais le patient dans une organisation dédiée.
+@ p. 7 et 9
+
+QCM · Obligatoire ou recommandé ?
+Dans une unité de chirurgie ambulatoire, quels éléments sont des obligations réglementaires ?
++ Un médecin anesthésiste et au moins un infirmier présents pendant l'ouverture. :: Avec des locaux et une équipe dédiés.
++ Un bulletin de sortie signé par un médecin, avec consignes et contacts d'urgence. :: La sortie est validée par un médecin.
+- Les appels téléphoniques de la veille et du lendemain. :: Ils sont fortement recommandés, mais pas imposés.
+- Le score PADSS pour valider la sortie. :: Il est recommandé ; l'obligation porte sur la validation médicale.
+- La présence d'un adulte la première nuit pour tout acte. :: Elle s'évalue selon l'acte et l'autonomie du patient.
+> Obligatoire : autorisation, équipe et locaux dédiés, anesthésiste et infirmier présents, passage en SSPI (sauf contournement encadré), bulletin de sortie signé. Recommandé : appels J-1 et J+1, score de sortie.
+@ p. 8, 19 à 23, 74 et 83
+
+QCM · Passage en SSPI et organisation du flux
+Concernant le passage en SSPI et l'organisation d'une unité ambulatoire, quelles propositions sont exactes ?
++ Après une ALR sans sédation, la SSPI peut être contournée dans un cadre organisé. :: Les infirmiers de l'unité doivent être formés aux complications de l'ALR.
++ Le patient avance dans son parcours sans revenir en arrière (marche en avant). :: Sans croiser les flux de l'hospitalisation classique.
++ Le patient suivant est appelé quand la place en aval se libère (flux tirés). :: Avec une convocation échelonnée, cela réduit l'attente et le jeûne.
+- Convoquer l'ensemble des patients de la matinée à 7 h 30 sécurise le début de vacation. :: Cela allonge l'attente, l'anxiété et le jeûne.
+- Une cataracte sous anesthésie topique suit le même circuit qu'une cholécystectomie. :: Elle relève d'un circuit ultra-court, la cholécystectomie d'un circuit long.
+> Marche en avant, flux tirés, convocation échelonnée ; circuit ultra-court, court ou long selon l'acte et l'anesthésie. Contournement de la SSPI possible après ALR sans sédation, dans un cadre organisé.
+@ p. 20, 23, 25 et 26
+
+QCU · Ordre de passage
+Quatre patients sont prévus le matin : A, diabétique insulinotraité (hernie) ; B, cholécystectomie ; C, cataracte sous anesthésie topique ; D, canal carpien sous ALR. Quel ordre convient le mieux ?
++ A, puis B, puis D, puis C. :: Le jeûne court du diabétique d'abord, puis la récupération longue ; les circuits courts ensuite.
+- C, puis D, puis A, puis B. :: La cholécystectomie en fin de matinée laisse peu de temps de surveillance.
+- B, puis C, puis D, puis A. :: Le diabétique insulinotraité resterait à jeun toute la matinée.
+- D, puis C, puis B, puis A. :: L'ordre suit les contraintes cliniques, pas l'arrivée des dossiers.
+- C, puis D, puis B, puis A. :: Le diabétique passe en premier pour limiter son jeûne.
+> Passent en premier les patients sensibles au jeûne (diabétique, enfant), puis les actes à récupération longue ; les circuits courts et ultra-courts ensuite.
+@ p. 27 et 28
+
+QCM · Éligibilité
+Concernant l'éligibilité à la chirurgie ambulatoire, quelles propositions sont exactes ?
++ Un patient ASA III stable peut être éligible selon l'acte et la structure. :: Il n'y a pas de seuil ASA : on raisonne sur le trio patient, acte et structure.
++ Le domicile doit être à moins d'une heure d'une structure de soins. :: Pas forcément de l'établissement qui opère.
++ L'éligibilité est réévaluée le jour J à la visite préanesthésique. :: Jeûne, traitements, accompagnant, état clinique.
+- Une durée opératoire de plus de deux heures contre-indique l'ambulatoire. :: La durée seule ne tranche pas : douleur, saignement et récupération comptent.
+- Un patient âgé avec des troubles cognitifs légers est récusé, même pour une cataracte avec un aidant. :: L'âge ou une fragilité ne sont pas une exclusion automatique.
+> Décision individuelle fondée sur le patient, l'acte et la structure, réévaluée le jour J. Un ASA III stable peut être opéré en ambulatoire ; la durée opératoire seule ne décide pas.
+@ p. 32, 33, 36, 39 et 40
+
+QCU · Patient venu seul
+Un homme de 40 ans, ASA I, arrive seul pour une hernie inguinale sous AG en ambulatoire. Il rentrera en taxi ; un voisin passera le voir le soir. Que faites-vous ?
++ Signaler que le retour n'est pas sécurisé et chercher une solution avec l'équipe. :: Après AG, un accompagnant est exigé pour le retour.
+- Maintenir le parcours puisqu'il est ASA I et qu'un voisin passera. :: Sans accompagnant à la sortie, le retour n'est pas sécurisé.
+- Accepter le taxi si le chauffeur signe le bulletin de sortie. :: Un chauffeur de taxi n'est pas un accompagnant.
+- L'autoriser à conduire s'il obtient un PADSS de 10/10. :: Il ne conduit pas après une anesthésie.
+- Programmer directement 48 heures d'hospitalisation. :: On cherche d'abord un accompagnant, puis le médecin décide.
+> Un accompagnant est indispensable au retour après anesthésie (sauf anesthésie topique ou locale sans sédation chez un patient autonome). Un taxi ou un voisin le soir ne le remplacent pas.
+@ p. 35, 37 à 40, 74 et 83
+
+QCM · Jeûne et technique anesthésique
+Concernant la préparation et l'anesthésie en ambulatoire, quelles propositions sont exactes ?
++ Les liquides clairs sont autorisés jusqu'à 2 heures avant l'intervention. :: Le lait n'est pas un liquide clair.
++ Les benzodiazépines sont évitées chez le sujet âgé. :: Elles favorisent confusion et chutes.
++ L'ALR périphérique est un atout : épargne morphinique et récupération rapide. :: En évitant un bloc moteur qui empêcherait la marche.
++ La sortie est possible avant la levée d'un bloc périphérique, si le patient est informé et protégé. :: Pour un membre inférieur : cannes et savoir s'en servir.
+- La rachianesthésie est le premier choix chez un homme âgé aux antécédents prostatiques. :: Elle expose à la rétention d'urine : on l'évite sur ce terrain.
+> Jeûne court (liquides clairs 2 h, lait maternel 4 h, repas léger 6 h), pas de benzodiazépine chez le sujet âgé, ALR périphérique privilégiée, prudence avec la rachianesthésie (rétention d'urine).
+@ p. 16, 48 à 51 et 56
+
+QCM · Agents et effets résiduels
+Pour un réveil compatible avec une sortie le soir même, quelles mesures sont adaptées au bloc ?
++ Le propofol, moins émétisant, ou un halogéné titré. :: Pour un réveil rapide et prévisible.
++ Un morphinique court, avec un relais antalgique prévu avant le réveil. :: Sinon, la douleur surgit à l'arrêt du rémifentanil.
++ Une décurarisation complète vérifiée au TOF avant l'extubation. :: Une curarisation résiduelle peut faire annuler la sortie.
+- Une benzodiazépine de longue durée pour un réveil calme. :: Elle prolonge la somnolence et retarde la sortie.
+- Un morphinique de longue durée en fin d'intervention pour couvrir la soirée. :: Il prolonge la sédation et majore les NVPO.
+> Agents courts et titrables (propofol, halogéné titré, rémifentanil avec relais), curarisation monitorée, pas de benzodiazépine ni de morphinique de longue durée.
+@ p. 50 et 51
+
+QCM · Douleur et douleur rebond
+Concernant la douleur en chirurgie ambulatoire, quelles propositions sont exactes ?
++ Les ordonnances d'antalgiques sont remises dès la consultation d'anesthésie. :: Le patient a son traitement chez lui avant l'intervention.
++ La douleur s'évalue au lever et à la marche avant la sortie. :: Un patient confortable couché peut souffrir à la mobilisation.
++ Après une ALR, le patient prend ses antalgiques avant la levée du bloc. :: Cela prévient la douleur rebond.
+- Un bloc périphérique efficace dispense d'ordonnance d'antalgiques pour la nuit. :: Le bloc se lève à domicile : sans relais, la douleur rebond est forte.
+- Une douleur nécessitant une PCA reste compatible avec une sortie le soir. :: Elle relève d'une hospitalisation.
+> La douleur s'anticipe (ordonnances remises tôt), se prévient (analgésie multimodale), s'évalue à la marche ; après ALR, les antalgiques se prennent avant la levée du bloc.
+@ p. 10, 34 et 52
+
+QCU · Prévenir les NVPO
+Un homme de 45 ans, non-fumeur, aux antécédents de NVPO sévères, est opéré d'une hernie par cœlioscopie en ambulatoire, sans morphinique prévu après l'intervention. Quelle stratégie retenez-vous ?
++ Apfel 2, risque d'environ 40 % : prévention multimodale dès l'induction. :: Propofol, deux antiémétiques de classes différentes, épargne morphinique.
+- Apfel 1 : sévoflurane sans prophylaxie, antiémétique en SSPI si besoin. :: Non-fumeur et antécédent de NVPO font deux points.
+- Apfel 3 : contre-indication à l'ambulatoire. :: Il a deux facteurs ; un risque élevé impose une prévention, pas une exclusion.
+- Apfel 0 : pas d'antiémétique, car c'est un homme. :: Il cumule déjà deux facteurs.
+- Apfel 2 : un antiémétique isolé en fin d'intervention, sous sévoflurane. :: Une prévention efficace est multimodale et commence à l'induction.
+> Apfel : un point par facteur (sexe féminin, non-fumeur, antécédent de NVPO ou mal des transports, morphiniques après l'intervention). Deux facteurs : risque d'environ 40 %, prévention multimodale dès l'induction.
+@ p. 53 à 55
+
+QCM · Terrains particuliers
+Concernant les terrains particuliers en ambulatoire, quelles propositions sont exactes ?
++ Un patient porteur d'un SAOS appareillé apporte sa machine de PPC. :: Avec épargne morphinique et surveillance respiratoire prolongée.
++ Un SAOS non appareillé avec ALR et sédation expose à une dépression respiratoire. :: L'ambulatoire est alors récusé ou très encadré.
++ Un diabétique a un plan écrit de ses traitements et passe tôt dans le programme. :: Avec surveillance glycémique et jeûne court.
++ Un patient sous anticoagulant ou antiagrégant a un plan écrit d'arrêt ou de relais. :: Certains gestes à risque hémorragique le font récuser.
+- Un diabète insulinotraité impose de refuser l'ambulatoire. :: Un terrain particulier impose un plan écrit, pas une exclusion.
+> Adapter plutôt qu'exclure : SAOS, sujet âgé, diabète, antithrombotiques demandent un plan écrit dès la consultation et une stratégie adaptée.
+@ p. 33, 34, 37, 38 et 57
+
+QCM · Rétention d'urine et conversion
+Concernant la rétention aiguë d'urine et la conversion en hospitalisation, quelles propositions sont exactes ?
++ La rétention aiguë d'urine est une cause fréquente d'échec de l'ambulatoire. :: Surtout en urologie, en proctologie, après rachianesthésie ou morphiniques.
+- Une conversion en hospitalisation traduit un échec à éviter. :: Elle montre au contraire que les barrières de sécurité fonctionnent.
+- La reprise de la miction fait partie des cinq items du PADSS. :: Le PADSS ne la comprend pas : elle s'évalue à part, selon l'acte et le terrain.
+- Un homme de 70 ans aux antécédents prostatiques sort sans consigne s'il a un PADSS de 10/10 sans avoir uriné. :: On vérifie le résidu vésical et on lui dit de rappeler s'il n'urine pas.
+- Une sédation résiduelle permet la sortie si l'accompagnant est prévenu. :: Elle fait partie des motifs de conversion.
+> La rétention d'urine, absente du PADSS, se recherche selon l'acte et le terrain. Douleur, NVPO, saignement, hypoxémie, sédation résiduelle ou absence d'accompagnant motivent une conversion, signe que les barrières fonctionnent.
+@ p. 43, 58 et 71
+
+QCM · Enfant en ambulatoire
+Concernant l'enfant en chirurgie ambulatoire, quelles propositions sont exactes ?
++ Pour une chirurgie programmée, l'accord écrit des deux parents est requis. :: L'enfant est informé avec des mots adaptés.
++ Chez un ancien prématuré, l'âge post-conceptuel est pris en compte. :: Pour le risque d'apnée après l'anesthésie.
++ Le retour en voiture demande deux adultes : un conducteur et un pour surveiller l'enfant. :: Le conducteur ne peut pas faire les deux.
+- Une fièvre à 38,2 °C avec toux grasse le matin n'empêche pas une circoncision sous antibioprophylaxie. :: Une infection respiratoire fébrile fait réévaluer et souvent reporter.
+- Une prémédication sédative est donnée à chaque enfant. :: Elle se discute au cas par cas ; préparation ludique et distraction d'abord.
+> Accord des deux parents, vigilance chez l'ancien prématuré et devant une infection fébrile le jour J, doses au poids, lutte contre l'hypothermie et l'anxiété, retour avec deux adultes.
+@ p. 37, 38, 60 à 63 et 67
+
+QCU · Enfant agité en SSPI
+Un enfant de 3 ans se réveille en SSPI après une adénoïdectomie, en pleurs, très agité et tachycarde. Que faites-vous d'abord ?
++ Écarter une obstruction ou une hypoxémie, une douleur et un saignement dégluti. :: L'agitation d'émergence est un diagnostic d'exclusion.
+- Faire entrer les parents avant de contrôler la SpO2. :: Une complication respiratoire ou hémorragique peut être en cours.
+- Faire un bolus sédatif pour calmer l'agitation. :: Sédater un enfant hypoxique peut aggraver l'obstruction.
+- Conclure à une agitation due au sévoflurane en l'absence de sang aux lèvres. :: L'enfant peut avaler son sang.
+- Le transférer vite dans l'unité, plus calme, près des parents. :: Il est évalué sur place avant tout transfert.
+> Après chirurgie ORL, on écarte d'abord obstruction et hypoxémie, douleur, saignement dégluti (déglutitions répétées, pâleur, tachycardie) et besoins de base, avant toute sédation.
+@ p. 64 à 66
+
+QCU · Vomissements après amygdalectomie
+Un enfant de 5 ans opéré d'une amygdalectomie est bien éveillé, douleur à 3/10, sans saignement visible, mais il a vomi deux fois. Que décidez-vous ?
++ Le garder, rechercher un sang dégluti et demander un avis médical. :: Deux vomissements font passer le Ped-PADSS sous 9.
+- Le laisser sortir avec un antiémétique par voie orale. :: Un enfant qui vomit ne peut pas boire en sécurité chez lui.
+- Le laisser sortir dès que les parents le souhaitent, 30 minutes plus tard. :: La sortie exige des vomissements contrôlés et une validation médicale.
+- Valider la sortie sur son score d'Aldrete de 10/10. :: L'Aldrete valide la sortie de SSPI, pas le retour à domicile.
+- Lui donner un repas solide pour tester la tolérance. :: On examine l'enfant et on traite les vomissements d'abord.
+> Après amygdalectomie, des vomissements répétés bloquent la sortie : rechercher un saignement dégluti, réévaluer douleur, hydratation et respiration, avis médical.
+@ p. 66, 72, 78 et 79
+
+QCM · Scores de sortie
+Concernant les scores de récupération en ambulatoire, quelles propositions sont exactes ?
++ Le score d'Aldrete modifié valide la sortie de SSPI, pas le retour à domicile. :: Il évalue les fonctions vitales.
++ Le PADSS (score de Chung) évalue l'aptitude au retour à domicile, seuil 9 sur 10. :: Constantes, activité, NVPO, douleur, saignement.
++ Le Ped-PADSS bloque la sortie en cas de voix rauque ou si les parents demandent à revoir l'anesthésiste. :: Même avec un score parfait.
+- Un PADSS de 10/10 relevé chez un patient allongé suffit à valider la sortie. :: L'activité et les vertiges s'évaluent debout, à la marche.
+- Un PADSS de 8/10 permet la sortie si le patient est accompagné. :: Le seuil est de 9 ; sinon, réévaluation et avis médical.
+> Aldrete modifié en SSPI (fonctions vitales), PADSS (score de Chung) ou Ped-PADSS dans l'unité (retour à domicile, seuil ≥ 9/10). Le Ped-PADSS ajoute des critères bloquants.
+@ p. 69 à 72, 75 et 81
+
+QCU · Score parfait mais patient somnolent
+Pour un patient opéré d'une arthroscopie, le médecin a signé une sortie sous condition (PADSS ≥ 9 et pas de signe clinique anormal). À 16 h, le PADSS est à 10/10, mais le patient est somnolent et désature à l'air. Que faites-vous ?
++ Bloquer la sortie et rappeler le médecin : la clinique prime sur le score. :: La signature anticipée ne vaut qu'en l'absence de signe clinique anormal.
+- Le laisser sortir avec des consignes renforcées, puisque la sortie est signée. :: La condition de la signature n'est plus remplie.
+- Lui donner de l'oxygène 15 minutes et le laisser sortir si la SpO2 remonte. :: Somnolence et désaturation imposent un avis médical.
+- Refaire le PADSS 30 minutes plus tard et le laisser sortir s'il reste ≥ 9. :: Un signe clinique de gravité ne se lève pas par un nouveau score.
+- Faire signer une décharge à l'accompagnant avant la fermeture. :: Un patient instable est réévalué et hospitalisé si besoin.
+> La signature anticipée sous condition fluidifie le parcours, mais le jugement clinique prime : somnolence, désaturation, saignement ou douleur à la marche bloquent la sortie et font rappeler le médecin.
+@ p. 73, 75, 80 et 81
+
+QCM · Gestes à risque et sortie
+Concernant les gestes à risque et la sortie, quelles propositions sont exactes ?
++ Un proche à domicile ne remplace pas une surveillance médicale nécessaire. :: Si une surveillance rapprochée est requise, on hospitalise.
++ Une thyroïdectomie expose à un hématome cervical compressif. :: Sélection stricte, passage tôt le matin et surveillance prolongée.
++ Une douleur inexpliquée au point de ponction d'une ALR bloque la sortie. :: Elle peut révéler une complication, comme un pneumothorax.
+- Une patiente sous anticoagulant vivant loin d'un hôpital est éligible à une thyroïdectomie ambulatoire. :: Elle ne l'est pas en l'état.
+- L'absence de douleur chirurgicale permet la sortie malgré une douleur thoracique après bloc. :: Toute douleur inexpliquée fait réévaluer.
+> Gestes à risque : sélection et surveillance strictes ; l'hospitalisation prime si une surveillance médicale est nécessaire. Toute douleur inexpliquée bloque la sortie.
+@ p. 34, 45, 46, 74, 83 et 84
+
+QCM · Appels de la veille et du lendemain
+Concernant les appels téléphoniques autour de l'intervention, quelles propositions sont exactes ?
++ L'appel de la veille vérifie la venue, le jeûne, les traitements et l'accompagnant. :: Il évite des annulations le jour J.
+- L'appel du lendemain dispense de donner un numéro d'urgence joignable jour et nuit. :: Il complète la continuité des soins sans la remplacer.
+- Devant une fièvre signalée la veille, l'infirmière annule l'intervention elle-même. :: Toute anomalie est transmise au médecin, qui décide.
+- L'appel du lendemain se limite à demander si le patient est satisfait. :: Il recherche douleur, NVPO, saignement, fièvre et miction.
+- Un patient injoignable le lendemain est considéré comme allant bien. :: On renouvelle les appels et on alerte en cas de doute.
+> Veille : venue, jeûne, traitements, accompagnant, état clinique. Lendemain : douleur, NVPO, saignement, fièvre, miction, avec orientation et traçabilité.
+@ p. 11 et 87 à 89
+
+QCU · Saignement le lendemain d'une amygdalectomie
+À l'appel du lendemain, la mère d'un enfant de 6 ans opéré d'une amygdalectomie dit qu'il « crache du sang rouge depuis ce matin ». Que faites-vous ?
++ Évaluer la gravité et demander un retour immédiat aux urgences ORL, ou appeler le 15. :: Un saignement rouge après amygdalectomie est une urgence.
+- Rassurer la mère : un peu de sang est habituel le lendemain. :: Un saignement rouge ne se banalise pas.
+- Lui demander de surveiller 4 heures et de rappeler si cela persiste. :: Attendre expose à une hémorragie grave ou à une inhalation.
+- Augmenter les antalgiques et prévoir une consultation dans 48 heures. :: L'hémorragie impose un retour immédiat.
+- Prévenir le chirurgien à sa visite, à la fin des appels. :: L'orientation est immédiate, puis tracée.
+> Un saignement rouge après amygdalectomie impose un retour immédiat aux urgences ORL (ou le 15 si abondant).
+@ p. 90 et 91
