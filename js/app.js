@@ -209,7 +209,7 @@ window.addEventListener('hashchange', (e) => {
 // Paquets perso → dossier « perso ».
 function locate(d) {
   const parts = (d.source || '').split('#')[0].split('/');
-  if (parts.length >= 3) return { sem: parts[0], ue: parts[1] };
+  if (parts.length >= 3) return { sem: parts[0], ue: parts[1], group: parts.length >= 4 ? parts[2] : null };
   if (parts.length === 2) return { sem: parts[0], ue: null };
   return { sem: d.source ? 'partages' : 'perso', ue: null };
 }
@@ -236,6 +236,12 @@ const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
 // Dans un dossier d'UE, le préfixe « IADE – » est superflu.
 const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
 /** Ordre alphabétique français des cours (accents et majuscules ignorés, nombres dans l'ordre). */
+// Rubriques d'une UE (sous-dossiers, ex. « Terrains », « Chirurgie ») : une section par rubrique.
+const grouped = (items, groupOf, html) => {
+  const groups = [...new Set(items.map(groupOf))].sort((a, b) => (a == null) - (b == null) || byName(a || '', b || ''));
+  if (groups.length < 2 && groups[0] == null) return html(items);
+  return groups.map((g) => `${g ? `<p class="section-label">${esc(g)}</p>` : ''}${html(items.filter((x) => groupOf(x) === g))}`).join('');
+};
 const byName = new Intl.Collator('fr', { sensitivity: 'base', numeric: true }).compare;
 
 /* ---------- Annales : des quiz HTML rangés par semestre puis par UE ---------- */
@@ -899,7 +905,7 @@ function renderUE(sem, ue) {
   if (!rows.length) { location.hash = `#/f/${enc(sem)}`; return; }
   $app.innerHTML = `${topbarFolder(`#/f/${enc(sem)}`, ueLabel(ue), semLabel(sem))}
     <main class="page">
-      ${hero(sumTodo(rows))}${deckRows(rows)}
+      ${hero(sumTodo(rows))}${grouped(rows, (r) => r.loc.group, deckRows)}
       ${(() => {
         const rows = Object.keys(COLLECTIONS)
           .filter((k) => annalesOf(sem, ue, k).length)
@@ -1192,9 +1198,9 @@ function renderQuizMenu(sem, ue) {
   if (!zs.length) { location.hash = `#/quiz/${enc(sem)}`; return; }
   $app.innerHTML = `${topbarFolder(`#/quiz/${enc(sem)}`, ueLabel(ue), `Quizz · ${semLabel(sem)}`)}
     <main class="page">
-      <ul class="folder-list">
-        ${zs.map((z) => folderRow(quizHref(z), z.title, quizMeta([z]), 0, ico.quiz)).join('')}
-      </ul>
+      ${grouped(zs, (z) => z.group, (list) => `<ul class="folder-list">
+        ${list.map((z) => folderRow(quizHref(z), z.title, quizMeta([z]), 0, ico.quiz)).join('')}
+      </ul>`)}
     </main>`;
 }
 

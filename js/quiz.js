@@ -23,13 +23,17 @@ function hash(s) {
   return (h >>> 0).toString(36);
 }
 
+// Clé de progression indépendante de la rubrique : « S1/3.3/Terrains/x.txt » → « S1/3.3/x.txt »
+// (les quiz rangés en rubriques le 27 nov. gardent ainsi leurs auto-évaluations).
+const keyFile = (file) => file.replace(/^([^/]+\/[^/]+\/)[^/]+\/(?=[^/]+$)/, '$1');
+
 export function parseQuiz(text, file) {
   const quiz = { file, title: '', questions: [] };
   let q = null;
   const flush = () => {
     if (q && q.stem.length && q.opts.length && q.opts.some((o) => o.ok)) {
       q.stem = q.stem.join('\n');
-      q.key = `${file}#${hash(q.stem)}`;
+      q.key = `${keyFile(file)}#${hash(q.stem)}`;
       q.multi = q.type !== 'QCU';
       quiz.questions.push(q);
     }
@@ -60,8 +64,9 @@ export function parseQuiz(text, file) {
 let cache = null;
 let listCache = null;
 const pathInfo = (file) => {
-  const [sem, ue] = file.split('/');
-  return { sem, ue: /^\d+\.\d+$/.test(ue) ? ue : null };
+  const parts = file.split('/');
+  const [sem, ue] = parts;
+  return { sem, ue: /^\d+\.\d+$/.test(ue) ? ue : null, group: parts.length === 4 ? parts[2] : null };
 };
 
 export async function loadList() {
@@ -99,7 +104,7 @@ export async function loadQuizzes() {
             const res = await fetch(`quiz/${file}`, { cache: 'no-cache' });
             if (!res.ok) continue;
             const quiz = parseQuiz(await res.text(), file);
-            quiz.sem = sem; quiz.ue = ue;
+            quiz.sem = sem; quiz.ue = ue; quiz.group = list[i].group;
             quiz.slug = file.replace(/^.*\//, '').replace(/\.txt$/, '');
             for (const x of quiz.questions) { x.sem = sem; x.ue = ue; }
             if (quiz.questions.length) all[i] = quiz;
