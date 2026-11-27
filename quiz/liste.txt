@@ -50,4 +50,11 @@ S1/3.3/Terrains/patient-allergique.txt
 S1/3.3/Chirurgie/chirurgie-oesophagienne.txt
 
 S1/4.4/aes-precautions.txt
+S1/4.4/gestion-dechets.txt
+S1/4.4/hemovigilance.txt
 S1/4.4/hygiene-mains.txt
+S1/4.4/materiovigilance.txt
+S1/4.4/pharmacovigilance.txt
+S1/4.4/radioprotection.txt
+S1/4.4/tenue-bloc.txt
+S1/4.4/vigilances-sanitaires.txt
