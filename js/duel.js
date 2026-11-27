@@ -45,7 +45,16 @@ export function init(outils) {
     if (co && !co.ferme && (!co.ws || co.ws.readyState > 1)) { clearTimeout(co.relance); ouvrir(co); }
   };
   window.addEventListener('online', relancerVite);
-  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') relancerVite(); });
+  // Page en arrière-plan (autre application, écran verrouillé) : le serveur est prévenu tout de suite,
+  // le décompte du forfait commence ; au retour, « present » l'arrête.
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') envoyer({ t: 'absent' });
+    else { envoyer({ t: 'present' }); relancerVite(); }
+  });
+  // Décompte « forfait dans X s » affiché chez l'adversaire qui reste.
+  setInterval(() => {
+    document.querySelectorAll('.duel-decompte').forEach((el) => { el.textContent = Math.max(0, Math.ceil((+el.dataset.fin - Date.now()) / 1000)); });
+  }, 1000);
 }
 
 /* ---------- Partie gardée dans le navigateur ---------- */
@@ -258,7 +267,8 @@ function ouvrir(c) {
     // Réponse validée par le chrono pendant la coupure : renvoyée (le serveur l'accepte dans sa marge).
     if (c.enAttente) { ws.send(JSON.stringify(c.enAttente)); c.enAttente = null; }
     clearInterval(c.ping);
-    c.ping = setInterval(() => { if (ws.readyState === 1) ws.send('ping'); }, 25000); // garde la connexion ouverte
+    // Toutes les 10 s : le serveur sait que le joueur est encore là (sans nouvelles depuis 30 s, il le compte comme parti).
+    c.ping = setInterval(() => { if (ws.readyState === 1) ws.send('ping'); }, 10000);
   };
   ws.onmessage = (e) => {
     if (perimee() || e.data === 'pong') return;
@@ -421,7 +431,10 @@ function vueAttenteInvite(s) {
     </main>`;
 }
 
-const advPastille = (s) => `<span class="duel-av b">A</span> Adversaire : ${s.adv.fini ? 'fini' : `${Math.min(s.adv.faites + 1, s.nq)}/${s.nq}`}`;
+const decompte = (s) => `<b class="duel-decompte" data-fin="${co.recu + s.adv.forfaitDans}">${Math.ceil(s.adv.forfaitDans / 1000)}</b>`;
+const advPastille = (s) => (s.adv.forfaitDans != null
+  ? `<span class="duel-av b">A</span> Adversaire parti · forfait dans ${decompte(s)} s`
+  : `<span class="duel-av b">A</span> Adversaire : ${s.adv.fini ? 'fini' : `${Math.min(s.adv.faites + 1, s.nq)}/${s.nq}`}`);
 
 // Compte à rebours : le serveur n'envoie la question 1 qu'à sa fin (personne ne la lit en avance).
 function vueCompte(s) {
@@ -524,7 +537,7 @@ function valider(auto = false) {
   const s = co?.etat;
   if (!s || s.phase !== 'jeu' || !s.q || co.envoye === co.choixDe || Date.now() < co.debut) return;
   if (!auto && !co.choix.size) return;
-  const m = { t: 'reponse', i: s.q.i, choix: [...co.choix] };
+  const m = { t: 'reponse', i: s.q.i, choix: [...co.choix], ...(auto ? { auto: true } : {}) }; // « auto » : validée par le chrono
   if (!envoyer(m)) {
     if (!auto) { h.toast('Connexion perdue : réessaie dans un instant.'); return; }
     co.enAttente = m; // chrono à 0 hors ligne : plus de choix possible, envoi à la reconnexion
@@ -541,6 +554,7 @@ function bloquer() {
 
 const progAdv = (s) => `<div class="duel-prog">
     <div class="duel-prog-l"><span>Adversaire</span><span>${s.adv.fini ? 'Terminé' : `Question ${Math.min(s.adv.faites + 1, s.nq)} / ${s.nq}`}</span></div>
+    ${s.adv.forfaitDans != null ? `<p class="duel-parti">Ton adversaire a quitté l’application : victoire par forfait dans ${decompte(s)} s s’il ne revient pas.</p>` : ''}
     <div class="duel-prog-barre"><i style="width:${(s.adv.faites / s.nq) * 100}%"></i></div>
   </div>`;
 

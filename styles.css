@@ -568,8 +568,10 @@ a.search-box:active { transform: scale(.995); }
 .duel-set { display: flex; justify-content: space-between; align-items: baseline; font-weight: 650; }
 .duel-set output { font-weight: 800; font-size: 1.1rem; font-variant-numeric: tabular-nums; color: var(--accent); }
 .duel-seg { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; background: var(--surface-2); padding: 4px; border-radius: 12px; }
-.duel-seg button { font: inherit; font-weight: 650; font-size: .92rem; color: var(--muted); border: 0; background: none; padding: 9px 0; border-radius: 9px; cursor: pointer; }
-.duel-seg button.on { background: var(--surface); color: var(--text); box-shadow: 0 1px 4px rgba(0,0,0,.18); }
+/* Choix des réglages : chiffres bien contrastés (blancs en thème sombre), choix actif en dégradé plein. */
+.duel-seg button { font: inherit; font-weight: 700; font-size: .95rem; color: var(--text); border: 0; background: none; padding: 9px 0; border-radius: 9px; cursor: pointer; transition: background-color .15s; }
+.duel-seg button:hover { background: color-mix(in srgb, var(--text) 8%, transparent); }
+.duel-seg button.on { background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899); color: #fff; box-shadow: 0 4px 14px rgba(139, 92, 246, .35); text-shadow: 0 1px 1px rgba(0, 0, 0, .15); }
 .duel button.folder-row { width: 100%; border: 0; background: none; font: inherit; color: inherit; text-align: left; cursor: pointer; }
 .duel button.folder-row.is-busy { opacity: .6; cursor: progress; }
 .duel-info { flex-direction: row; align-items: center; gap: 12px; }
@@ -662,3 +664,5 @@ a.search-box:active { transform: scale(.995); }
 #duel-zone-revanche { display: flex; flex-direction: column; gap: 10px; margin-top: 6px; }
 .duel-confettis { position: fixed; inset: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 40; }
 @media (prefers-reduced-motion: reduce) { .duel-dots i, .duel-sablier svg, .duel-compte b { animation: none; } }
+.duel-adv .duel-decompte, .duel-parti .duel-decompte { color: var(--hard); font-variant-numeric: tabular-nums; }
+.duel-parti { margin: 4px 0 0 !important; font-size: .85rem; color: var(--hard) !important; font-weight: 600; }
