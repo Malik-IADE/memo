@@ -1,0 +1,245 @@
+// Quiz – Anesthésie du patient insuffisant respiratoire (UE 3.3), d'après « Anesthésie - Patient insuffisant respiratoire - UE 3.3 - avec notes » (27 novembre 2026).
+// Recentré sur le bloc, la SSPI et le périopératoire : terrain, évaluation, préparation, technique anesthésique, ventilation, bronchospasme et suites.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Anesthésie – Patient insuffisant respiratoire
+
+QCM · Insuffisance respiratoire chronique et stades
+Concernant la définition et l'évolution de l'insuffisance respiratoire chronique (IRC), quelles propositions sont exactes ?
++ L'IRC est définie en air ambiant par une PaO2 inférieure à 60 mmHg. :: Elle peut être latente (à l'effort), partielle (au repos sans hypercapnie) ou globale (avec hypercapnie).
++ L'IRC de type 2 associe une hypoxémie à une PaCO2 supérieure à 50 mmHg. :: L'apparition d'une hypercapnie témoigne d'une hypoventilation alvéolaire et d'une perte de compensation.
+- Les premiers signes cliniques apparaissent dès que 15 à 20 % du poumon est atteint. :: L'installation est insidieuse : plus de 50 % du poumon est détruit avant les premiers signes cliniques.
+- Une IRC de type 1 se caractérise par une hypercapnie supérieure à 50 mmHg au repos. :: Le type 1 correspond à une hypoxémie sans hypercapnie (PaCO2 inférieure à 50 mmHg).
+- Une SpO2 de base à 91 % en air ambiant signe une décompensation aiguë chez l'IRC. :: Une SpO2 habituelle de 90 à 92 % fait partie du tableau de base de l'insuffisant respiratoire chronique.
+> L'IRC se définit par une PaO2 < 60 mmHg en air ambiant (type 1 si PaCO2 < 50 mmHg, type 2 si PaCO2 > 50 mmHg). Son installation est insidieuse (> 50 % du poumon détruit avant les premiers signes) et la SpO2 de base se situe souvent autour de 90 à 92 %.
+@ p. 10, 11 et 12
+
+QCU · Commande ventilatoire et oxygénothérapie chez l'IRC
+Chez un patient insuffisant respiratoire chronique hypercapnique, quelle proposition sur le contrôle ventilatoire est exacte ?
++ Un apport excessif d'oxygène peut abolir le stimulus hypoxémique et aggraver l'hypercapnie. :: Chez l'IRC, la commande ventilatoire repose largement sur l'hypoxémie (PaO2 < 60 mmHg) : trop d'O2 expose à la narcose au CO2.
+- La baisse de la PaCO2 reste le principal stimulus qui maintient sa ventilation spontanée. :: Chez le sujet sain, c'est l'élévation de la PaCO2 qui stimule la ventilation ; chez l'IRC, le stimulus hypoxémique prédomine.
+- L'oxygénothérapie à fort débit réduit l'hypercapnie en stimulant les chimiorécepteurs centraux. :: Elle produit l'effet inverse en supprimant le stimulus hypoxémique, ce qui entraîne une hypoventilation.
+- Les chimiorécepteurs de la crosse aortique ne répondent qu'aux variations de la PaCO2. :: Les chimiorécepteurs périphériques (aorte et carotide) surveillent surtout la PaO2 et s'activent sous 60 mmHg.
+- Une baisse modérée de la PaO2 au-dessus de 65 mmHg double immédiatement la ventilation minute. :: Au-dessus de 60 mmHg, la baisse de PaO2 a peu d'effet ; c'est en dessous de 60 mmHg que la ventilation double.
+> Contrairement au sujet sain où la PaCO2 est le stimulus ventilatoire majeur, la commande de l'IRC dépend fortement du stimulus hypoxémique (PaO2 < 60 mmHg). Un excès d'O2 supprime ce stimulus, majore l'hypoventilation et expose à la narcose au CO2.
+@ p. 22, 23 et 24
+
+QCM · Classification GOLD et mécanique de la BPCO
+Concernant la classification GOLD et la mécanique respiratoire de la BPCO, quelles propositions sont exactes ?
++ Le diagnostic repose sur un rapport VEMS/CVF inférieur à 0,70 après bronchodilatateur. :: Ce rapport (coefficient de Tiffeneau) confirme le syndrome obstructif.
++ Un VEMS inférieur à 30 % de la valeur prédite définit une BPCO très sévère. :: La sévérité est jugée sur le VEMS : > 80 % légère, 50 à 80 % modérée, 30 à 50 % sévère, < 30 % très sévère.
++ L'obstruction prédomine à l'expiration passive et favorise le trapping aérien. :: L'air entre à l'inspiration active mais peine à sortir, ce qui augmente le volume résiduel et la CPT.
+- Une BPCO modérée correspond à un VEMS compris entre 30 et 50 % de la valeur prédite. :: Entre 30 et 50 %, la BPCO est déjà sévère (seuil d'alerte à 50 %) ; la forme modérée se situe entre 50 et 80 %.
+- Chez le patient BPCO, la capacité pulmonaire totale et le volume résiduel diminuent. :: Le trapping expiratoire distend au contraire le poumon, augmentant le volume résiduel et la CPT.
+> La BPCO se définit par un rapport VEMS/CVF < 0,70 post-bronchodilatateur et sa sévérité repose sur le VEMS (< 50 % sévère, < 30 % très sévère). L'obstruction gêne surtout l'expiration passive, créant un trapping aérien (hausse du VR et de la CPT) et une auto-PEP.
+@ p. 20, 38 et 39
+
+QCM · Emphysème bulleux et constante de temps
+Un patient porteur d'un emphysème bulleux sévère doit subir une chirurgie programmée. Quelle(s) proposition(s) est (sont) exacte(s) ?
++ La compliance et les résistances élevées allongent la constante de temps expiratoire. :: La constante de temps vaut compliance × résistance : chez l'emphysémateux, les deux augmentent.
+- La compliance pulmonaire est effondrée dans l'emphysème, ce qui raccourcit l'expiration. :: La destruction des cloisons alvéolaires augmente la compliance, et non l'inverse.
+- Les bulles d'emphysème tolèrent sans dommage des pressions d'insufflation élevées. :: Leur paroi fragile peut éclater sous pression : le risque majeur est le pneumothorax.
+- Un emphysème sévère impose de récuser le patient pour une chirurgie programmée. :: Il est exceptionnel de récuser un patient BPCO ou emphysémateux si la préparation et le parcours sont adaptés.
+- Une préparation la veille suffit en cas d'emphysème bulleux géant avant chirurgie majeure. :: Devant un emphysème bulleux géant, on prévoit une hospitalisation 3 jours avant (kiné, aérosols) et une information claire.
+> Dans l'emphysème, la compliance et les résistances augmentent ensemble, ce qui allonge la constante de temps (compliance × résistance) et l'expiration. Les bulles fragiles exposent au pneumothorax sous ventilation mécanique ; un emphysème géant se prépare 3 jours avant.
+@ p. 2, 41, 43, 75 et 77
+
+QCM · Syndromes obstructif, restrictif et mixte
+Concernant la distinction entre syndromes obstructif, restrictif et mixte, quelles propositions sont exactes ?
++ Un syndrome restrictif diminue la capacité vitale avec un Tiffeneau normal ou élevé. :: La limitation porte sur les volumes (expansion pulmonaire) et non sur les débits bronchiques.
++ La dilatation des bronches et la mucoviscidose relèvent du syndrome obstructif. :: La perte de contractilité bronchique et la stagnation du mucus obstruent les voies aériennes.
++ Sur la courbe débit-volume, une concavité expiratoire évoque un trouble obstructif. :: À l'inverse, un syndrome restrictif donne une boucle miniaturisée sur l'ensemble des volumes.
+- Un syndrome mixte associe une baisse du VEMS à un rapport de Tiffeneau élevé. :: Le syndrome mixte (ex. BPCO + obésité) cumule baisse du VEMS, baisse de la CV et Tiffeneau bas.
+- La fibrose après radiothérapie thoracique constitue un syndrome restrictif extrinsèque. :: Elle atteint directement le parenchyme : c'est une cause intrinsèque (l'extrinsèque comprime le poumon de l'extérieur).
+> Obstructif (BPCO, asthme, DDB, mucoviscidose) = baisse des débits (VEMS, Tiffeneau < 70 %, courbe creusée). Restrictif (extrinsèque : obésité, cyphoscoliose, épanchement ; intrinsèque : fibrose, résection, radiothérapie) = baisse des volumes (CV basse, Tiffeneau normal ou élevé, courbe miniaturisée). Mixte = baisse VEMS, CV et Tiffeneau.
+@ p. 45, 46, 47, 48, 56 et 57
+
+QCM · Asthme et hyperréactivité bronchique
+Concernant l'asthme et son évaluation avant une anesthésie, quelles propositions sont exactes ?
++ L'hyperréactivité bronchique peut être déclenchée par la douleur ou une anesthésie légère. :: Elle correspond à une bronchoconstriction exagérée face à un stimulus spécifique ou non spécifique.
++ Des hospitalisations récentes en réanimation signalent un risque élevé de bronchospasme. :: Elles traduisent une inflammation bronchique majeure et un asthme sévère.
++ La triade de Fernand Widal associe asthme, polypose naso-sinusienne et intolérance aux AINS. :: Cette triade fréquente en ORL peut faire découvrir un asthme jusque-là méconnu.
++ La gravité s'apprécie sur le traitement de fond, la fréquence des crises et l'observance. :: Beaucoup de crises résultent d'un défaut d'observance du traitement inhalé quotidien.
+- L'obstruction bronchique de l'asthme est liée à une destruction définitive des alvéoles. :: Elle associe inflammation pariétale, contraction du muscle lisse et mucus ; la destruction alvéolaire définit l'emphysème.
+> L'hyperréactivité bronchique expose au bronchospasme face à un stimulus nociceptif sous anesthésie insuffisante. L'évaluation préopératoire recherche la lourdeur du traitement de fond, l'observance, la fréquence des crises, les séjours en réanimation et une éventuelle triade de Fernand Widal.
+@ p. 49, 52, 53 et 68
+
+QCM · Évaluation clinique préopératoire
+Concernant l'évaluation préopératoire d'un patient insuffisant respiratoire, quelles propositions sont exactes ?
++ L'examen clinique et l'interrogatoire priment sur les EFR pour apprécier le risque opératoire. :: Les EFR complètent le bilan mais leur valeur prédictive reste inférieure à celle de la clinique.
++ L'incapacité à monter deux étages à pied tranquillement oriente vers une atteinte sévère. :: Il faut vérifier que le patient n'utilise pas l'ascenseur ; une dyspnée à la parole correspond au grade 4.
+- L'interrogatoire professionnel est inutile si le patient déclare ne pas fumer. :: Certaines professions exposées aux particules (mine, bâtiment, textile, bois) exposent à la BPCO.
+- Une dyspnée apparaissant lors des gestes de la vie courante correspond au grade 1. :: La dyspnée pour les activités habituelles correspond au grade 3 (grade 1 = après 2 étages, grade 2 = avant le 2e étage).
+- L'état anxiodépressif est rare chez les patients porteurs d'une BPCO évoluée. :: Il touche une grande part des patients BPCO et doit être anticipé en périopératoire.
+> L'évaluation préopératoire repose d'abord sur la clinique : expositions professionnelles, tabac, observance, autonomie (ex. douche) et dyspnée (grades 0 à 4, repère des 2 étages). Les EFR ont une valeur inférieure à celle de l'examen clinique pour estimer le risque.
+@ p. 6, 68, 69, 70 et 109
+
+QCU · Patient BPCO présentant des sibilants le matin du bloc
+Un patient BPCO programmé pour une chirurgie herniaire non urgente arrive au bloc avec des sibilants diffus et une SpO2 à 86 % (habituellement à 91 %). Quelle conduite adopter ?
++ Différer l'induction, installer le patient assis et réaliser des aérosols bronchodilatateurs. :: L'état respiratoire du jour de l'anesthésie prime sur la consultation : hors urgence vitale, on n'endort pas un patient qui siffle.
+- Poursuivre l'induction au propofol, car son effet bronchodilatateur lèvera les sibilants. :: Induire un patient en bronchoconstriction active expose à un bronchospasme peropératoire sévère.
+- Administrer 1 mg d'atropine IV avant l'induction pour assécher les sécrétions bronchiques. :: L'atropine est déconseillée car elle épaissit les sécrétions et bloque les réflexes bronchiques.
+- Placer le patient sous oxygène à haut débit en décubitus dorsal et induire après 5 minutes. :: Le décubitus dorsal baisse la CRF et l'oxygène à haut débit ne traite pas la bronchoconstriction active.
+- Réaliser une rachianesthésie immédiate afin d'éviter l'intubation sans retarder le programme. :: Un bronchospasme peut survenir ou s'aggraver sous ALR, et un bloc central peut paralyser les muscles accessoires.
+> L'état clinique du jour du bloc prime sur celui de la consultation. Devant des sibilants ou une désaturation par rapport à la base (hors urgence vitale), il faut différer l'induction, asseoir le patient et administrer des aérosols bronchodilatateurs jusqu'à amélioration.
+@ p. 71, 80 et 82
+
+QCM · Examens complémentaires préopératoires
+Concernant les examens complémentaires préopératoires chez un insuffisant respiratoire sévère, quelles propositions sont exactes ?
++ Aux EFR, une réversibilité sous bronchodilatateur est un élément rassurant avant le bloc. :: À l'inverse, un VEMS très bas sans réversibilité constitue un signe de gravité.
++ La gazométrie de référence recherche surtout l'existence d'une hypercapnie chronique. :: L'hypercapnie de base signe un stade avancé et sert de repère pour la ventilation peropératoire.
++ L'ECG et l'échographie cardiaque dépistent une HTAP et un retentissement cardiaque droit. :: Une HTAP expose au cœur pulmonaire aigu en cas de bronchospasme ou d'hyperinflation dynamique.
+- Une radiographie de BPCO montre des côtes verticales et une baisse du volume thoracique. :: Elle montre au contraire une hyperclarté, des côtes horizontales et un thorax distendu.
+- Au scanner thoracique, les bulles d'emphysème apparaissent comme des plages denses blanches. :: Ce sont des zones noires vides sans trame vasculaire, entourées de parois fines fragiles.
+> Chez l'IRC sévère, on vérifie les EFR (VEMS et réversibilité), les gaz du sang de base (hypercapnie), l'imagerie (distension, bulles d'emphysème exposant au pneumothorax) ainsi que l'ECG et l'échographie cardiaque (HTAP, cœur droit).
+@ p. 72, 74, 75, 76 et 88
+
+QCM · Préparation préopératoire et sevrage tabagique
+Concernant la préparation préopératoire d'un patient insuffisant respiratoire avant une chirurgie programmée, quelles propositions sont exactes ?
++ Les aérosols bronchodilatateurs et la kinésithérapie diminuent les résistances bronchiques. :: Le drainage bronchique et les bronchodilatateurs réduisent l'encombrement et le travail respiratoire.
++ L'évacuation d'un épanchement pleural abondant améliore la compliance thoraco-pulmonaire. :: Un épanchement abondant comprime le poumon et ajoute un syndrome restrictif extrinsèque.
++ L'acidose, l'hypokaliémie, l'hypomagnésémie et l'hypophosphorémie doivent être corrigées. :: Ces désordres altèrent directement la contractilité et le rendement des muscles respiratoires.
++ Un sevrage tabagique de plus de 8 semaines réduit la morbidité respiratoire périopératoire. :: Un arrêt la veille a peu d'impact respiratoire ; un bénéfice net demande plusieurs semaines.
+- Une antibiothérapie probabiliste préopératoire est indiquée chez le BPCO même sans infection. :: L'antibiothérapie n'est indiquée qu'en cas de surinfection bronchique ou de pneumopathie.
+> La préparation cible les résistances (kiné, aérosols, antibiotiques si surinfection), la compliance (drainage d'épanchement, traitement d'un OAP) et les muscles respiratoires (correction de l'acidose et des troubles ioniques, renutrition). Le sevrage tabagique est efficace au-delà de 8 semaines.
+@ p. 78, 79, 101 et 110
+
+QCM · Chirurgie ambulatoire et insuffisance respiratoire
+Concernant la prise en charge en chirurgie ambulatoire d'un patient insuffisant respiratoire, quelles propositions sont exactes ?
++ Une insuffisance respiratoire sévère contre-indique la prise en charge en ambulatoire. :: Ces patients nécessitent une surveillance postopératoire hospitalière rapprochée.
++ Un patient léger et stable opéré du poignet sous bloc axillaire peut être éligible au cas par cas. :: La décision évalue conjointement l'impact de la chirurgie et celui de l'anesthésie sur la ventilation.
+- Un asthmatique équilibré ne peut pas être pris en charge en chirurgie ambulatoire. :: L'ambulatoire peut s'envisager au cas par cas chez un asthmatique bien équilibré, selon le geste.
+- Une chirurgie digestive mineure chez un BPCO léger reste compatible avec une sortie le jour même. :: Une chirurgie digestive ou ORL susceptible de retentir sur la ventilation impose l'hospitalisation.
+- La décision d'ambulatoire prise en consultation reste définitive même après un mauvais réveil. :: Un patient qui va mal au réveil doit être hospitalisé, même si l'ambulatoire était prévu.
+> L'ambulatoire est contre-indiqué chez l'insuffisant respiratoire sévère. Il se discute au cas par cas pour un stade léger ou un asthme équilibré selon le retentissement du geste et de l'anesthésie ; toute anomalie au réveil impose l'hospitalisation.
+@ p. 116
+
+QCM · Impact de l'anesthésie et de la chirurgie sur la CRF
+Concernant les modifications respiratoires induites par l'anesthésie et la chirurgie, quelles propositions sont exactes ?
++ La CRF diminue d'environ 20 % dès l'induction anesthésique, avec ou sans curarisation. :: Cette baisse immédiate est liée à la remontée du diaphragme et entraîne des atélectasies basales.
++ La position de Trendelenburg réduit davantage la CRF que la station debout ou assise. :: Le poids des viscères abdominaux repousse les coupoles diaphragmatiques vers le thorax.
++ Une durée opératoire supérieure à 3 h 30 constitue un facteur de risque respiratoire. :: Sur une chirurgie longue, des manœuvres de recrutement complètent la PEP.
++ Les chirurgies abdominale haute et thoracique ouverte exposent au risque postopératoire maximal. :: Elles associent dysfonction diaphragmatique majeure et douleur limitant l'inspiration profonde.
++ La cœlioscopie baisse la CRF de 20 % au bloc mais améliore les suites face à la laparotomie. :: Elle provoque moins de douleur et de cicatrices, ce qui facilite la mécanique ventilatoire postopératoire.
+> Dès l'induction, la CRF chute de ~20 % (atélectasies basales). Le Trendelenburg, la cœlioscopie (~20 % en peropératoire), une durée > 3 h 30 et surtout les chirurgies abdominale haute et thoracique ouverte majorent le risque respiratoire.
+@ p. 61, 62, 63, 64 et 65
+
+QCM · Choix entre anesthésie générale et locorégionale
+Concernant le choix entre anesthésie locorégionale (ALR) et anesthésie générale (AG) chez l'insuffisant respiratoire, quelles propositions sont exactes ?
++ L'ALR est la technique de choix en chirurgie périphérique et sous-ombilicale. :: Une ALR limitée évite l'intubation, la ventilation mécanique et la dépression respiratoire.
++ L'AG reste indispensable pour les chirurgies abdominale haute et thoracique. :: Elle permet le contrôle ventilatoire et le confort opératoire lors des gestes longs ou thoraco-abdominaux.
++ Le matériel d'intubation et de bronchodilatation doit être prêt même lors d'une ALR. :: Un bronchospasme ou un laryngospasme peut survenir sous ALR.
+- Un bloc central (rachianesthésie ou péridurale) préserve intégralement la force de la toux. :: Il peut paralyser les muscles intercostaux, abdominaux et accessoires, rendant la toux inefficace.
+- La supériorité de l'ALR sur l'AG en termes de mortalité est clairement établie chez le BPCO. :: Il n'existe pas de supériorité globale formellement établie entre AG et ALR.
+> L'ALR est privilégiée en chirurgie périphérique et sous-ombilicale, mais sans supériorité globale démontrée sur l'AG et avec un risque de paralysie des muscles accessoires en cas de bloc central. Le matériel d'AG et de bronchodilatation doit être préparé même sous ALR.
+@ p. 80, 81 et 111
+
+QCM · Innervation diaphragmatique et chirurgie de l'épaule
+Un patient BPCO sévère doit être opéré de l'épaule. Concernant l'innervation diaphragmatique et les blocs nerveux, quelle(s) proposition(s) est (sont) exacte(s) ?
++ Le bloc interscalénique et le bloc cervical profond sont contre-indiqués chez l'insuffisant respiratoire. :: Ils exposent à un blocage du nerf phrénique (C3-C5) et à une paralysie diaphragmatique.
+- Le nerf phrénique naît des racines cervicales C6 à C8 et échappe au bloc interscalénique. :: Le nerf phrénique provient des racines C3 à C5 de chaque côté.
+- Une lésion médullaire située en dessous de C5 supprime l'autonomie respiratoire diaphragmatique. :: L'autonomie diaphragmatique est conservée en dessous de C5 et perdue au-dessus de C3.
+- La coupole diaphragmatique droite se projette plus bas que la gauche en raison du cœur. :: La coupole droite est plus haute (4e espace intercostal en expiration forcée) à cause du foie.
+- Les muscles intercostaux internes assurent l'essentiel de l'inspiration calme au repos. :: Le diaphragme est le muscle inspiratoire principal ; les intercostaux externes sont inspiratoires et les internes expiratoires.
+> Le diaphragme, muscle inspiratoire principal, est innervé par le nerf phrénique (C3-C5) : le bloc interscalénique et le bloc cervical profond sont contre-indiqués chez l'insuffisant respiratoire. En expiration forcée, la coupole droite remonte au 4e EIC (foie), la gauche au 5e EIC.
+@ p. 15, 16, 17 et 80
+
+QCM · Prémédication de l'insuffisant respiratoire
+Concernant la prémédication d'un patient insuffisant respiratoire anxieux avant son entrée au bloc, quelles propositions sont exactes ?
++ Les aérosols de bronchodilatateurs constituent la meilleure préparation avant le bloc. :: Les β2-mimétiques, l'ipratropium et les corticoïdes inhalés réduisent l'hyperréactivité bronchique.
++ L'hydroxyzine (1 mg/kg) est utilisable en cas d'anxiété sans provoquer de dépression respiratoire. :: Elle évite l'effet dépresseur respiratoire des sédatifs classiques chez l'IRC.
+- L'atropine est recommandée en prémédication pour prévenir la bronchoconstriction réflexe. :: Elle est à éviter car elle épaissit les sécrétions bronchiques et bloque les réflexes.
+- Une benzodiazépine par voie orale est indiquée pour limiter la dyspnée liée à l'anxiété. :: Il faut éviter les dépresseurs respiratoires en prémédication chez l'insuffisant respiratoire.
+- La théophylline peut être poursuivie sans contrôle biologique particulier avant l'intervention. :: Si le patient reçoit de la théophylline, un dosage préopératoire de la théophyllinémie est nécessaire.
+> En prémédication, éviter les dépresseurs respiratoires et l'atropine (épaississement des sécrétions). Privilégier les aérosols bronchodilatateurs et, si besoin pour l'anxiété, l'hydroxyzine (1 mg/kg).
+@ p. 82
+
+QCM · Agents anesthésiques à l'induction et à l'entretien
+Concernant le choix des agents anesthésiques chez un patient BPCO ou asthmatique sous anesthésie générale, quelles propositions sont exactes ?
++ Le propofol et la kétamine sont privilégiés à l'induction car ils limitent le bronchospasme. :: Le propofol n'est pas bronchoconstricteur et la kétamine est bronchodilatatrice à forte dose.
++ L'intubation doit être réalisée sous narcose profonde avec une sonde de bon calibre. :: Une narcose insuffisante déclenche un bronchospasme ; une grosse sonde réduit les résistances et facilite l'aspiration.
++ Le sévoflurane est privilégié en ventilation mécanique pour son effet bronchodilatateur. :: Il agit et s'élimine vite ; le desflurane, irritant pour les voies aériennes, est évité.
++ La dexaméthasone IV (4 ou 8 mg) est recommandée en AG pour son effet anti-inflammatoire bronchique. :: Elle contribue en parallèle à la prévention des nausées et vomissements postopératoires.
+- La morphine IV est le morphinique de choix à l'induction chez le patient asthmatique. :: On privilégie les morphiniques non histaminolibérateurs (rémifentanil, sufentanil, fentanyl, alfentanil).
+> Induction : propofol ou kétamine, narcose profonde et grosse sonde. Entretien : sévoflurane (bronchodilatateur), morphiniques non histaminolibérateurs (dérivés du fentanyl) et dexaméthasone IV (4 ou 8 mg).
+@ p. 60, 84, 85 et 87
+
+QCM · Monitorage, capnographie et cathéter artériel chez le BPCO
+Concernant le monitorage peropératoire d'un patient BPCO sévère sous anesthésie générale, quelles propositions sont exactes ?
++ Chez le BPCO, le gradient PaCO2 − EtCO2 peut atteindre 15 à 20 mmHg ou davantage. :: L'altération de la barrière alvéolo-capillaire et l'espace mort rendent la capnographie peu fiable.
++ Une gazométrie de référence après induction permet de connaître le gradient réel de CO2. :: On note simultanément le volume courant, la fréquence respiratoire et l'EtCO2.
++ Le cathéter artériel est réservé aux patients très sévères nécessitant des gazométries répétées. :: Il n'est pas posé chez le BPCO léger ou modéré, mais se justifie si des GDS per- et postopératoires sont prévus.
+- Une baisse de l'EtCO2 au bloc traduit une cause respiratoire sans lien avec l'hémodynamique. :: Une EtCO2 basse peut aussi révéler un bas débit cardiaque ou une hypovolémie.
+- Une courbe de capnographie plate sans plateau franc évoque une baisse des résistances bronchiques. :: Cet aspect dit « résistif » traduit au contraire une augmentation des résistances aériennes.
+> Chez le BPCO, la capnographie montre souvent une courbe résistive et sous-estime largement la PaCO2 (gradient de 15 à 20 mmHg ou plus vs ~5 mmHg chez le sujet sain). Le cathéter artériel est réservé aux patients très sévères pour répéter les gazométries.
+@ p. 13, 27, 83 et 98
+
+QCM · Ventilation protectrice du patient obstructif
+Concernant les réglages de ventilation mécanique chez un patient BPCO ou emphysémateux, quelles propositions sont exactes ?
++ Le volume courant est réglé entre 6 et 8 mL/kg de poids idéal en ventilation bipulmonaire. :: En ventilation unipulmonaire, il est réduit à 5 à 6 mL/kg de poids idéal.
++ La pression de plateau doit rester inférieure à 30 cmH2O pour limiter le barotraumatisme. :: La FiO2 est réglée au minimum nécessaire pour maintenir une SpO2 supérieure à 92 %.
++ Une PEP adaptée (≥ 5 cmH2O) est maintenue pour prévenir la fermeture alvéolaire. :: Elle aide à limiter les atélectasies tout en surveillant l'apparition d'une hyperinflation dynamique.
++ Il faut diminuer le rapport I/E afin d'allonger le temps expiratoire et vider l'air piégé. :: Allonger l'expiration limite le trapping aérien et l'auto-PEP.
+- Ajouter plusieurs raccords sur le circuit améliore l'élimination du CO2 chez le BPCO. :: Les tuyaux et raccords augmentent l'espace mort instrumental et favorisent l'hypercapnie.
+> Ventilation protectrice chez l'obstructif : VT 6 à 8 mL/kg de poids idéal (5 à 6 en unipulmonaire), Pplat < 30 cmH2O, PEP ≥ 5 cmH2O, FiO2 minimale pour SpO2 > 92 %, diminution du rapport I/E (temps expiratoire allongé) et limitation de l'espace mort instrumental.
+@ p. 59 et 86
+
+QCU · Réglages ventilatoires dans les pathologies restrictives
+Concernant la ventilation mécanique peropératoire d'un patient porteur d'un syndrome restrictif sévère, quelle proposition est exacte ?
++ On ajuste les alarmes de pression, on augmente la PEP et on rapproche le rapport I/E de 1/1. :: En l'absence d'obstruction, le temps expiratoire est raccourci, à l'inverse du patient obstructif.
+- On diminue le rapport I/E vers 1/4 afin d'allonger au maximum le temps expiratoire. :: L'allongement du temps expiratoire concerne les syndromes obstructifs avec trapping, pas les restrictifs.
+- On supprime la PEP pour éviter d'élever les pressions dans un poumon peu compliant. :: Une PEP augmentée est au contraire utile dans les pathologies restrictives.
+- Des pressions de crête élevées imposent de passer en ventilation manuelle sans PEP. :: Dans les pathologies restrictives, des pressions élevées sont souvent inévitables et les alarmes doivent être adaptées.
+- Le syndrome restrictif se ventile avec des volumes courants supérieurs à 10 mL/kg de poids idéal. :: La ventilation protectrice s'applique aussi aux insuffisants respiratoires pour éviter le volotraumatisme.
+> Dans les pathologies restrictives, les pressions élevées sont souvent inévitables : on ajuste les alarmes de pression de crête, on augmente la PEP et on raccourcit le temps expiratoire pour rapprocher le rapport I/E de 1/1 (réglage inverse de l'obstructif).
+@ p. 86 et 87
+
+QCM · Complications peropératoires chez l'insuffisant respiratoire
+Concernant les complications peropératoires chez l'insuffisant respiratoire, quelles propositions sont exactes ?
++ L'hyperinflation dynamique (auto-PEP) peut provoquer un collapsus par baisse du retour veineux. :: L'élévation des pressions intrathoraciques gêne le remplissage cardiaque.
++ Un bronchospasme ou une auto-PEP peut précipiter une décompensation cardiaque droite. :: Ce risque de cœur pulmonaire aigu sur HTAP justifie l'échographie cardiaque préopératoire.
++ Chez un patient sévère, le recrutement programmé du respirateur est préféré au manuel. :: Le respirateur maîtrise mieux les pressions sur plusieurs cycles et limite le risque de pneumothorax.
+- La ventilation manuelle énergique au ballon protège les bulles d'emphysème contre les atélectasies. :: Une pression excessive au ballon peut rompre une bulle et déclencher un pneumothorax : il faut ventiler doucement.
+- Un bronchospasme peropératoire ne survient pas en l'absence d'antécédent respiratoire. :: Il survient fréquemment chez des patients sans aucun antécédent respiratoire connu.
+> Les complications peropératoires incluent l'hypoxémie/hypercapnie, le bronchospasme, l'auto-PEP (chute du retour veineux), la décompensation cardiaque droite sur HTAP et le pneumothorax (ventilation manuelle douce, recrutement programmé préféré).
+@ p. 67, 88 et 92
+
+QCM · Hausse brutale des pressions chez un patient intubé
+Au cours d'une cœlioscopie en Trendelenburg chez un patient BPCO intubé, les pressions d'insufflation montent brutalement à 50 cmH2O et la courbe de capnographie perd son plateau. Quelles propositions sont exactes ?
++ Une cause mécanique sur le circuit ou la sonde est à écarter avant de conclure au bronchospasme. :: Vérifier tuyau comprimé, sonde pliée ou bouchée par des sécrétions, hernie du ballonnet et intubation sélective.
++ Un silence auscultatoire avec sonde bien placée constitue un signe d'extrême gravité. :: Il indique que presque plus aucun air ne circule ; penser aussi à une anaphylaxie ou à une inhalation.
+- Un laryngospasme est le premier diagnostic différentiel à évoquer chez ce patient intubé. :: Un patient intubé ne fait pas de laryngospasme, qui concerne le patient non intubé.
+- Une asymétrie auscultatoire élimine une intubation sélective et confirme un bronchospasme pur. :: Une asymétrie oriente au contraire vers une intubation sélective (fréquente en Trendelenburg) ou un pneumothorax.
+- L'absence d'hypotension artérielle suffit à écarter le diagnostic de pneumothorax au bloc. :: Un pneumothorax associe souvent mauvaise tolérance hémodynamique et hautes pressions, mais reste à rechercher à l'auscultation.
+> Devant une hausse brutale des pressions chez un patient intubé : éliminer d'abord une cause mécanique (circuit, sonde pliée/obstruée/sélective) et un pneumothorax, puis ausculter (sibilants = bronchospasme ; silence auscultatoire = extrême gravité). Pas de laryngospasme chez le patient intubé.
+@ p. 80, 86, 95, 96 et 100
+
+QCM · Conduite d'urgence devant un bronchospasme peropératoire
+Un bronchospasme sévère est confirmé à l'auscultation chez un patient intubé, avec une pression artérielle à 80/45 mmHg. Quelles mesures immédiates sont adaptées ?
++ Appeler immédiatement à l'aide et passer la FiO2 à 100 % sans attendre. :: Le bronchospasme engage le pronostic vital et doit être traité avant l'installation d'œdème et de mucus.
++ Approfondir l'anesthésie (sévoflurane, propofol ou kétamine) et l'analgésie par un morphinique. :: L'inadéquation entre profondeur d'anesthésie et stimulation nociceptive entretient le spasme.
++ Approfondir la narcose malgré l'hypotension initiale, en soutenant la pression par un vasopresseur. :: La levée des pressions intrathoraciques améliore secondairement le retour veineux et l'hémodynamique.
++ Allonger le temps expiratoire, baisser la fréquence et limiter les pressions sous 50 cmH2O. :: Cela réduit l'auto-PEP et prévient le pneumothorax ; passer en ventilation manuelle douce si besoin.
++ Administrer un curare si le patient tousse ou lutte sur la sonde d'intubation. :: Une fois le patient endormi, la curarisation réduit l'impédance thoracique et améliore la compliance.
+> Devant un bronchospasme peropératoire : appel à l'aide, FiO2 100 %, approfondissement simultané de l'anesthésie et de l'analgésie (même si hypotension, avec vasopresseur ; kétamine utile si instable), allongement du temps expiratoire, pressions < 50 cmH2O, curare si lutte sur sonde, et bronchodilatateurs.
+@ p. 92, 93, 102, 103, 104 et 108
+
+QCM · Bronchodilatateurs dans le bronchospasme sévère
+Concernant l'administration des bronchodilatateurs au cours d'un bronchospasme peropératoire chez un patient intubé, quelle(s) proposition(s) est (sont) exacte(s) ?
++ Plus de 80 % du produit inhalé se dépose sur la sonde, ce qui impose 10 à 15 bouffées. :: Une chambre d'inhalation améliore la délivrance, mais 10 à 15 bouffées restent nécessaires.
+- Deux bouffées de salbutamol dans la sonde suffisent pour obtenir un effet maximal. :: La majeure partie du spray reste sur la paroi de la sonde : une ou deux bouffées sont inefficaces.
+- En cas de choc associé, le salbutamol IV est préféré à l'adrénaline en première intention. :: L'adrénaline IV s'impose en cas de choc associé ou d'échec (0,1 µg/kg/min après bolus titrés de 0,1 mg).
+- Un bronchospasme isolé sans éruption cutanée permet d'écarter une réaction anaphylactique. :: Un bronchospasme isolé peut être la manifestation d'un choc anaphylactique à expression respiratoire pure.
+- La lidocaïne IV (1,5 à 2 mg/kg) possède une efficacité constante supérieure aux β2-mimétiques. :: Son efficacité est inconstante ; les β2-mimétiques restent un élément thérapeutique essentiel.
+> Chez l'intubé, > 80 % du β2-mimétique se dépose sur la sonde : réaliser 10 à 15 bouffées (chambre d'inhalation). Si échec : salbutamol IV (0,1 à 0,5 µg/kg/min) ou adrénaline IV (0,1 µg/kg/min après bolus de 0,1 mg), indiquée en cas de choc associé. Toujours évoquer une anaphylaxie devant un bronchospasme sévère isolé.
+@ p. 105, 106 et 107
+
+QCM · Réveil, extubation et suites en SSPI
+Un patient BPCO (SpO2 habituelle 91 %) est en fin d'intervention après une chirurgie abdominale. Quelles propositions sur le réveil et le postopératoire sont exactes ?
++ L'extubation précoce est visée après réveil complet et décurarisation totale au curamètre. :: La ventilation mécanique prolongée accroît le risque de bronchospasme et de surinfection sans prévenir les atélectasies.
++ L'oxygénothérapie au réveil est titrée en respectant la SpO2 de base autour de 90 à 92 %. :: Éviter les FiO2 excessives sans nécessité pour ne pas déprimer la commande ventilatoire.
++ La ventilation non invasive (VNI) dès l'extubation ré-expand les bases atélectasiées. :: La VNI est la technique de référence en postopératoire pour corriger le shunt et prévenir les complications.
++ L'analgésie multimodale, l'ALR, la kinésithérapie et le lever dans les 12 h réduisent les atélectasies. :: Une analgésie efficace avec épargne morphinique permet la toux, le drainage et l'inspiration profonde.
+- Une ventilation mécanique postopératoire prolongée prévient les atélectasies chez le BPCO. :: Elle ne prévient pas les atélectasies et augmente les risques de bronchospasme et de surinfection.
+> Le réveil est une phase critique (hausse de VO2). Viser une extubation précoce après décurarisation complète, respecter la SpO2 de base (90-92 %), anticiper la VNI dès l'extubation, associer analgésie multimodale/ALR (épargne morphinique), kinésithérapie dès la SSPI et mobilisation précoce (< 12 h).
+@ p. 60, 67, 89, 90, 91 et 111
