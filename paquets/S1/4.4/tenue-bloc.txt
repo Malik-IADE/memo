@@ -16,3 +16,5 @@ Quelle est la différence entre un masque chirurgical et un FFP2 ? :: Chirurgica
 
 // ---------- Circulation et discipline ----------
 Quelles sont les étapes d'accès au bloc opératoire ? :: Vestiaire central : tenue de base, objets personnels et bijoux déposés, cheveux attachés\nVestiaire du bloc : tenue de bloc, sabots, coiffe, dosimètre\nZone de préparation des opérateurs : masque obligatoire
+Comment se protéger du froid au bloc opératoire ? :: Veste à manches longues dédiée au bloc (non-tissé à usage unique ou réutilisable)\nÀ proscrire pendant les soins au patient\nNe pas utiliser une casaque chirurgicale stérile ni de vêtement personnel visible sous la tenue
+Quelles règles de discipline en salle d'opération protègent contre l'ISO ? :: Maintenir les portes de la salle fermées\nLimiter les allées et venues et les mouvements internes au strict nécessaire (éviter les courants d'air)\nLocal déchets / réception : tablier de protection (± gants), puis retrait et FHA au retour en zone protégée
