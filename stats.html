@@ -458,6 +458,7 @@
       } else if (path === '/annales') add(screens, 'Annales officielles', n);
       else if (path === '/annales-nf') add(screens, 'Annales non officielles', n);
       else if (path === '/flashcards') add(screens, 'Flashcards', n);
+      else if (path === '/flashcards-aleatoires') add(screens, 'Flashcards aléatoires', n);
       else if (path === '/accueil') add(screens, 'Accueil', n);
       else if ((m = path.match(/^\/cours\/(.+)$/))) add(courses, m[1], n);
       else if ((m = path.match(/^\/(S\d+)\/([^/]+)$/i))) add(ues, `UE ${m[2]} · S${m[1].slice(1)}`, n);
@@ -937,7 +938,7 @@
         kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(rGrid) }),
         kpi({ label: 'Cours ouverts', value: nf.format(cur.courses.length), sub: courseCount ? `sur ${courseCount} cours disponibles` : '', d: delta(cur.courses.length, prev.courses.length) }),
         kpi({ label: 'Annales terminées', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
-        kpi({ label: 'Quiz terminés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => !n.startsWith('Quiz aléatoire')).length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
+        kpi({ label: 'Quiz terminés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => !/^Quizz? aléatoire/.test(n)).length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
         P.days === 1
           ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
           : kpi({ label: 'Par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'visites en moyenne' }),

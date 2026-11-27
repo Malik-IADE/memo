@@ -124,18 +124,29 @@ function stats(deckId) {
   return { total: cs.length, due, dueAvail, backlog: due - dueAvail, fresh, newAvail, todo: dueAvail + newAvail };
 }
 
-/* « Flashcards aléatoires » : les cartes des cours partagés, tirées au hasard (sans les Schémas). */
+/* « Flashcards aléatoires » : les cartes des cours partagés, tirées au hasard (sans les Schémas).
+   « mix » tire dans toutes les UE ; « mix~S1~3.3 » dans les cours d'une UE (#/review/mix~S1~3.3). */
 const MIX = 'mix';
 const MIX_NAME = 'Flashcards aléatoires';
-const mixDecks = () => store.decks().filter((d) => d.source && !isFcCat(locate(d).sem));
-function mixStats(precomputed = null) {
+const isMix = (id) => id === MIX || String(id).startsWith(`${MIX}~`);
+const mixId = (sem, ue) => `${MIX}~${sem}~${ue}`;
+const mixUe = (id) => (id === MIX ? null : id.split('~').slice(1)); // [sem, ue]
+const mixName = (id) => (id === MIX ? MIX_NAME : `${MIX_NAME} ${ueLabel(mixUe(id)[1])}`);
+const inMix = (id, loc, src) => {
+  if (!src || isFcCat(loc.sem)) return false;
+  if (id === MIX) return true;
+  const [sem, ue] = mixUe(id);
+  return loc.sem === sem && loc.ue === ue;
+};
+const mixDecks = (id = MIX) => store.decks().filter((d) => inMix(id, locate(d), d.source));
+function mixStats(precomputed = null, id = MIX) {
   const ds = precomputed
-    ? precomputed.filter((r) => r.d.source && !isFcCat(r.loc.sem)).map((r) => r.s)
-    : mixDecks().map((d) => stats(d.id));
+    ? precomputed.filter((r) => inMix(id, r.loc, r.d.source)).map((r) => r.s)
+    : mixDecks(id).map((d) => stats(d.id));
   const st = store.settings();
   const dueAvail = ds.reduce((n, s) => n + s.dueAvail, 0);
   const fresh = ds.reduce((n, s) => n + s.fresh, 0);
-  const newLeft = Math.max(0, st.newPerDay - store.countToday(MIX, 'new'));
+  const newLeft = Math.max(0, st.newPerDay - store.countToday(id, 'new'));
   const newAvail = Math.min(fresh, newLeft);
   return { dueAvail, newAvail, todo: dueAvail + newAvail, decks: ds.length };
 }
@@ -154,7 +165,8 @@ function render() {
   const r = route();
   // L'écran d'un cours n'existe plus : ouvrir un cours lance directement sa révision.
   if (r.view === 'deck' && store.deck(r.id)) { location.replace(`#/review/${enc(r.id)}`); return; }
-  if (r.view === 'review' && (r.id === MIX || store.deck(r.id))) return renderReview(r.id);
+  if (r.view === 'review' && ((isMix(r.id) && mixDecks(r.id).length) || store.deck(r.id))) return renderReview(r.id);
+  if (r.view === 'fc-aleatoire') return renderMixMenu();
   if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub, rubrique(r.item)) : renderFolder(r.id);
   if (r.view === 'fc') return renderFlashcards();
   if (r.view === 'quiz') return r.item && !rubrique(r.item) ? renderQuizSession(`${r.id}/${r.sub}/${r.item}`) : renderQuizMenu(r.id, r.sub, rubrique(r.item));
@@ -176,9 +188,10 @@ function render() {
  */
 function trackView() {
   const r = route();
-  const name = (id) => { if (id === MIX) return MIX_NAME; const d = store.deck(id); return d ? shortName(d.name) : 'inconnu'; };
+  const name = (id) => { if (isMix(id)) return mixName(id); const d = store.deck(id); return d ? shortName(d.name) : 'inconnu'; };
   const path = r.view === 'f' ? `/${[r.id, r.sub].filter(Boolean).join('/')}`
     : r.view === 'fc' ? '/flashcards'
+    : r.view === 'fc-aleatoire' ? '/flashcards-aleatoires'
     : r.view === 'quiz' ? (r.item ? `/quiz-cours/${quizTitle(`${r.id}/${r.sub}/${r.item}`)}`
       : `/quiz${[r.id, r.sub].filter(Boolean).map((x) => `/${x}`).join('')}`)
     : r.view === 'quiz-aleatoire' ? `/quiz-aleatoire${[r.id, r.sub].filter(Boolean).map((x) => `/${x}`).join('')}`
@@ -791,8 +804,8 @@ function renderFlashcards() {
       ${hero(sumTodo(rows) + sumTodo(catRows))}
       <ul class="folder-list">
         ${FC_CATS.filter((k) => catSems.has(k)).map((k) => catRow(k, catSems.get(k))).join('')}
-        ${(() => { const ms = mixStats(all); return ms.decks > 1 ? folderRow(`#/review/${MIX}`, MIX_NAME,
-          'Cartes de tous les cours, tirées au hasard', ms.todo, ico.shuffle) : ''; })()}
+        ${(() => { const ms = mixStats(all); return ms.decks > 1 ? folderRow('#/fc-aleatoire', MIX_NAME,
+          'Toutes les UE ou une seule UE', ms.todo, ico.shuffle) : ''; })()}
         ${sortSems(sems.keys()).map((k) => {
           const rs = sems.get(k);
           const ues = new Set(rs.map((r) => r.loc.ue).filter(Boolean));
@@ -938,21 +951,48 @@ function shuffle(a) {
   return a;
 }
 
+/** Flashcards aléatoires : toutes les UE en tête, puis une ligne par UE. */
+function renderMixMenu() {
+  session = null;
+  const all = allRows();
+  const ues = [...new Set(all.filter((r) => r.d.source && r.loc.ue && !isFcCat(r.loc.sem)).map((r) => `${r.loc.sem}~${r.loc.ue}`))]
+    .sort((a, b) => byKey(a.split('~')[0], b.split('~')[0]) || byKey(a.split('~')[1], b.split('~')[1]));
+  if (!ues.length) { location.hash = '#/fc'; return; }
+  const sems = new Set(ues.map((k) => k.split('~')[0]));
+  const tout = mixStats(all);
+  $app.innerHTML = `${topbarFolder('#/fc', MIX_NAME, 'Flashcards')}
+    <main class="page">
+      <ul class="folder-list">
+        ${folderRow(`#/review/${MIX}`, 'Flashcards aléatoires toutes les UE', 'Cartes de tous les cours', tout.todo, ico.shuffle)}
+      </ul>
+      <p class="section-label">Par UE</p>
+      <ul class="folder-list">
+        ${ues.map((k) => {
+          const [sem, ue] = k.split('~');
+          const id = mixId(sem, ue);
+          const ms = mixStats(all, id);
+          const label = sems.size > 1 ? `${mixName(id)} · ${semLabel(sem)}` : mixName(id);
+          return folderRow(`#/review/${enc(id)}`, label, plural(ms.decks, 'cours'), ms.todo, ico.shuffle);
+        }).join('')}
+      </ul>
+    </main>`;
+}
+
 function buildSession(deckId) {
   const end = endOfToday();
   let due, fresh;
-  if (deckId === MIX) {
+  if (isMix(deckId)) {
     // Tous les cours partagés : les révisions dues de chaque cours (dans sa limite du jour)
     // et des nouvelles cartes tirées au hasard dans l'ensemble des cours.
     due = []; const pool = [];
-    for (const d of mixDecks()) {
+    for (const d of mixDecks(deckId)) {
       const cs = store.cards(d.id);
       const s = stats(d.id);
       due.push(...cs.filter((c) => c.seen && c.due <= end).sort((a, b) => a.due - b.due)
         .slice(0, s.dueAvail).map((c) => c.id));
       pool.push(...cs.filter((c) => !c.seen).map((c) => c.id));
     }
-    fresh = shuffle(pool).slice(0, mixStats().newAvail);
+    fresh = shuffle(pool).slice(0, mixStats(null, deckId).newAvail);
   } else {
     const cs = store.cards(deckId);
     const s = stats(deckId);
@@ -984,12 +1024,12 @@ function buildSession(deckId) {
 
 function renderReview(id) {
   if (!session || session.deckId !== id) session = buildSession(id);
-  const mix = id === MIX;
-  const d = mix ? { name: MIX_NAME } : store.deck(id);
+  const mix = isMix(id);
+  const d = mix ? { name: mixName(id) } : store.deck(id);
   // En fermant, on revient au menu d'où part la révision (UE, accueil, recherche…).
   // À défaut (lien direct, rechargement) : « Flashcards » pour les flashcards aléatoires,
   // l'accueil pour « Scores », le dossier de l'UE pour un cours.
-  const backHref = menuPrecedent || (mix ? '#/fc' : folderHref(d));
+  const backHref = menuPrecedent || (mix ? '#/fc-aleatoire' : folderHref(d));
   const c = session.queue.length ? store.card(session.queue[0]) : null;
 
   if (!c) {
@@ -1117,7 +1157,7 @@ function grade(g) {
   const wasNew = !c.seen;
   store.updateCard(c.id, schedule(c, g), { autosave: false });
   store.bumpToday(c.deckId, wasNew ? 'new' : 'rev', { autosave: false });
-  if (session.deckId === MIX) store.bumpToday(MIX, wasNew ? 'new' : 'rev', { autosave: false });
+  if (isMix(session.deckId)) store.bumpToday(session.deckId, wasNew ? 'new' : 'rev', { autosave: false });
   store.save();
   window.memoCollectives?.shareFlashcards();
   session.queue.shift();
@@ -1142,7 +1182,7 @@ const randomPool = (id, all) => {
   const [, sem, ue] = id.split('/');
   return all.filter((z) => z.sem === sem && z.ue === ue).flatMap((z) => z.questions);
 };
-const randomTitle = (id) => (id === QUIZ_RANDOM ? 'Quiz aléatoire' : `Quiz aléatoire – ${ueLabel(id.split('/')[2])}`);
+const randomTitle = (id) => (id === QUIZ_RANDOM ? 'Quiz aléatoire' : `Quizz aléatoire ${ueLabel(id.split('/')[2])}`);
 const randomMeta = (id, zs) => {
   const run = quiz.runInfo(id);
   if (run) return `En cours : question ${run.i + 1}/${run.n}`;
@@ -1252,7 +1292,7 @@ function renderRandomMenu() {
   $app.innerHTML = `${topbarFolder('#/quiz', 'Quiz aléatoire', 'Quizz')}
     <main class="page">
       <ul class="folder-list">
-        ${folderRow(randomHref(QUIZ_RANDOM), 'Quiz aléatoire toutes les UE', randomMeta(QUIZ_RANDOM, all), 0, ico.shuffle)}
+        ${folderRow(randomHref(QUIZ_RANDOM), 'Quizz aléatoire toutes les UE', randomMeta(QUIZ_RANDOM, all), 0, ico.shuffle)}
       </ul>
       <p class="section-label">Par UE</p>
       <ul class="folder-list">
@@ -1260,7 +1300,7 @@ function renderRandomMenu() {
           const [sem, ue] = k.split('/');
           const id = randomId(sem, ue);
           const zs = all.filter((z) => z.sem === sem && z.ue === ue);
-          const label = sems.size > 1 ? `${ueLabel(ue)} · ${semLabel(sem)}` : ueLabel(ue);
+          const label = sems.size > 1 ? `${randomTitle(id)} · ${semLabel(sem)}` : randomTitle(id);
           return folderRow(randomHref(id), label, randomMeta(id, zs), 0, ico.shuffle);
         }).join('')}
       </ul>
