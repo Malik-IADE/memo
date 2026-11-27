@@ -155,9 +155,9 @@ function render() {
   // L'écran d'un cours n'existe plus : ouvrir un cours lance directement sa révision.
   if (r.view === 'deck' && store.deck(r.id)) { location.replace(`#/review/${enc(r.id)}`); return; }
   if (r.view === 'review' && (r.id === MIX || store.deck(r.id))) return renderReview(r.id);
-  if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub) : renderFolder(r.id);
+  if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub, rubrique(r.item)) : renderFolder(r.id);
   if (r.view === 'fc') return renderFlashcards();
-  if (r.view === 'quiz') return r.item ? renderQuizSession(`${r.id}/${r.sub}/${r.item}`) : renderQuizMenu(r.id, r.sub);
+  if (r.view === 'quiz') return r.item && !rubrique(r.item) ? renderQuizSession(`${r.id}/${r.sub}/${r.item}`) : renderQuizMenu(r.id, r.sub, rubrique(r.item));
   if (r.view === 'quiz-aleatoire') return renderQuizSession(QUIZ_RANDOM);
   if (r.view === 'recherche') return renderSearch(searchQuery);
   if (r.view === 'carte' && r.id) return renderCard(r.id);
@@ -198,7 +198,7 @@ let menuPrecedent = null;
 window.addEventListener('hashchange', (e) => {
   const avant = new URL(e.oldURL).hash || '#/';
   if (!avant.startsWith('#/carte/')) hashPrecedent = avant;
-  if (!/^#\/(review|carte|deck)\//.test(avant) && !/^#\/quiz(-aleatoire|\/[^/]+\/[^/]+\/[^/]+)/.test(avant)) menuPrecedent = avant;
+  if (!/^#\/(review|carte|deck)\//.test(avant) && !/^#\/quiz(-aleatoire|\/[^/]+\/[^/]+\/[^~/])/.test(avant)) menuPrecedent = avant;
   window.scrollTo(0, 0); render(); trackView();
 });
 
@@ -227,21 +227,19 @@ const semLabel = (sem) => sem === 'perso' ? 'Mes paquets'
 const ueLabel = (ue) => `UE ${ue}`;
 const enc = encodeURIComponent;
 const folderHref = (d) => {
-  const { sem, ue } = locate(d);
+  const { sem, ue, group } = locate(d);
   if (!ue && isSingleCategory(sem)) return isFcCat(sem) ? '#/fc' : '#/';
-  return ue ? `#/f/${enc(sem)}/${enc(ue)}` : `#/f/${enc(sem)}`;
+  return ue ? `#/f/${enc(sem)}/${enc(ue)}${group ? `/~${enc(group)}` : ''}` : `#/f/${enc(sem)}`;
 };
 const byKey = (a, b) => a.localeCompare(b, 'fr', { numeric: true });
 
 // Dans un dossier d'UE, le préfixe « IADE – » est superflu.
 const shortName = (name) => name.replace(/^IADE\s*[–-]\s*/, '');
 /** Ordre alphabétique français des cours (accents et majuscules ignorés, nombres dans l'ordre). */
-// Rubriques d'une UE (sous-dossiers, ex. « Terrains », « Chirurgie ») : une section par rubrique.
-const grouped = (items, groupOf, html) => {
-  const groups = [...new Set(items.map(groupOf))].sort((a, b) => (a == null) - (b == null) || byName(a || '', b || ''));
-  if (groups.length < 2 && groups[0] == null) return html(items);
-  return groups.map((g) => `${g ? `<p class="section-label">${esc(g)}</p>` : ''}${html(items.filter((x) => groupOf(x) === g))}`).join('');
-};
+// Rubriques d'une UE (sous-dossiers, ex. « Terrains », « Chirurgie ») : un dossier cliquable par rubrique,
+// adresse « …/<UE>/~<rubrique> » (le « ~ » distingue une rubrique d'un quiz).
+const rubrique = (seg) => (seg && seg.startsWith('~') ? seg.slice(1) : null);
+const rubriquesOf = (items, groupOf) => [...new Set(items.map(groupOf).filter(Boolean))].sort((a, b) => byName(a, b));
 const byName = new Intl.Collator('fr', { sensitivity: 'base', numeric: true }).compare;
 
 /* ---------- Annales : des quiz HTML rangés par semestre puis par UE ---------- */
@@ -898,14 +896,28 @@ function renderFolder(sem) {
 }
 
 /** Dossier d'une UE : les cours (quiz). */
-function renderUE(sem, ue) {
+function renderUE(sem, ue, group = null) {
   session = null;
-  const rows = allRows().filter((r) => r.loc.sem === sem && r.loc.ue === ue)
+  const ueHref = `#/f/${enc(sem)}/${enc(ue)}`;
+  const all = allRows().filter((r) => r.loc.sem === sem && r.loc.ue === ue);
+  const rows = all.filter((r) => !group || r.loc.group === group)
     .sort((a, b) => byName(shortName(a.d.name), shortName(b.d.name)));
-  if (!rows.length) { location.hash = `#/f/${enc(sem)}`; return; }
+  if (!rows.length) { location.hash = group ? ueHref : `#/f/${enc(sem)}`; return; }
+  if (group) {
+    $app.innerHTML = `${topbarFolder(ueHref, group, ueLabel(ue))}
+      <main class="page">${hero(sumTodo(rows))}${deckRows(rows)}</main>`;
+    return;
+  }
+  const groups = rubriquesOf(rows, (r) => r.loc.group);
+  const loose = rows.filter((r) => !r.loc.group);
   $app.innerHTML = `${topbarFolder(`#/f/${enc(sem)}`, ueLabel(ue), semLabel(sem))}
     <main class="page">
-      ${hero(sumTodo(rows))}${grouped(rows, (r) => r.loc.group, deckRows)}
+      ${hero(sumTodo(rows))}
+      ${groups.length ? `<ul class="folder-list">${groups.map((g) => {
+        const rs = rows.filter((r) => r.loc.group === g);
+        return folderRow(`${ueHref}/~${enc(g)}`, g, plural(rs.length, 'cours'), sumTodo(rs));
+      }).join('')}</ul>` : ''}
+      ${loose.length ? deckRows(loose) : ''}
       ${(() => {
         const rows = Object.keys(COLLECTIONS)
           .filter((k) => annalesOf(sem, ue, k).length)
@@ -1152,7 +1164,7 @@ const quizMeta = (zs) => {
 };
 
 /** Quizz → semestres → UE → quiz d'un cours. « Quiz aléatoire » en tête. */
-function renderQuizMenu(sem, ue) {
+function renderQuizMenu(sem, ue, group = null) {
   qsession = null;
   const all = quiz.loadedQuizzes();
   if (!all) return quizLoading(sem ? '#/quiz' : '#/', sem ? semLabel(sem) : 'Quizz');
@@ -1194,13 +1206,22 @@ function renderQuizMenu(sem, ue) {
       </main>`;
     return;
   }
-  const zs = all.filter((z) => z.sem === sem && z.ue === ue).sort((a, b) => byName(a.title, b.title));
-  if (!zs.length) { location.hash = `#/quiz/${enc(sem)}`; return; }
-  $app.innerHTML = `${topbarFolder(`#/quiz/${enc(sem)}`, ueLabel(ue), `Quizz · ${semLabel(sem)}`)}
+  const ueHref = `#/quiz/${enc(sem)}/${enc(ue)}`;
+  const zs = all.filter((z) => z.sem === sem && z.ue === ue && (!group || z.group === group))
+    .sort((a, b) => byName(a.title, b.title));
+  if (!zs.length) { location.hash = group ? ueHref : `#/quiz/${enc(sem)}`; return; }
+  const groups = group ? [] : rubriquesOf(zs, (z) => z.group);
+  const loose = group ? zs : zs.filter((z) => !z.group);
+  $app.innerHTML = `${group ? topbarFolder(ueHref, group, `Quizz · ${ueLabel(ue)}`)
+    : topbarFolder(`#/quiz/${enc(sem)}`, ueLabel(ue), `Quizz · ${semLabel(sem)}`)}
     <main class="page">
-      ${grouped(zs, (z) => z.group, (list) => `<ul class="folder-list">
-        ${list.map((z) => folderRow(quizHref(z), z.title, quizMeta([z]), 0, ico.quiz)).join('')}
-      </ul>`)}
+      <ul class="folder-list">
+        ${groups.map((g) => {
+          const zg = zs.filter((z) => z.group === g);
+          return folderRow(`${ueHref}/~${enc(g)}`, g, `${zg.length} quiz · ${quizMeta(zg)}`, 0, ico.folder);
+        }).join('')}
+        ${loose.map((z) => folderRow(quizHref(z), z.title, quizMeta([z]), 0, ico.quiz)).join('')}
+      </ul>
     </main>`;
 }
 
@@ -1226,7 +1247,7 @@ function renderQuizSession(id) {
   const all = quiz.loadedQuizzes();
   const random = id === QUIZ_RANDOM;
   const back = menuPrecedent && menuPrecedent.startsWith('#/quiz') ? menuPrecedent
-    : random ? '#/quiz' : `#/quiz/${id.split('/').slice(0, 2).map(enc).join('/')}`;
+    : random ? '#/quiz' : `#/quiz/${id.split('/').slice(0, 2).map(enc).join('/')}${quizBySlug(id)?.group ? `/~${enc(quizBySlug(id).group)}` : ''}`;
   if (!all) return quizLoading(back, 'Quizz');
   if (!random && !quizBySlug(id)) { location.hash = '#/quiz'; return; }
   if (!qsession || qsession.id !== id) qsession = buildQuizSession(id);
