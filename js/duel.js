@@ -39,6 +39,10 @@ export function init(outils) {
   $app = outils.$app;
   document.addEventListener('click', clic);
   document.addEventListener('keydown', clavier);
+  // Retour du réseau : reconnexion tout de suite, sans attendre la fin du délai d'essai.
+  window.addEventListener('online', () => {
+    if (co && !co.ferme && (!co.ws || co.ws.readyState > 1)) { clearTimeout(co.relance); ouvrir(co); }
+  });
 }
 
 /* ---------- Partie gardée dans le navigateur ---------- */
@@ -203,30 +207,42 @@ function connecter(s) {
 function ouvrir(c) {
   const ws = new WebSocket(`${SERVEUR.replace(/^http/, 'ws')}/ws?code=${encodeURIComponent(c.code)}&jeton=${encodeURIComponent(c.jeton)}`);
   c.ws = ws;
+  // Chaque gestionnaire ignore une connexion qui n'est plus la connexion en cours (retour du réseau :
+  // l'ancienne peut finir de se fermer après l'ouverture de la nouvelle).
+  const perimee = () => co !== c || c.ws !== ws || c.ferme;
   ws.onopen = () => {
+    if (perimee()) return;
     c.essais = 0; c.ouvert = true; reseau(false);
+    // Réponse validée par le chrono pendant la coupure : renvoyée (le serveur l'accepte dans sa marge).
+    if (c.enAttente) { ws.send(JSON.stringify(c.enAttente)); c.enAttente = null; }
     clearInterval(c.ping);
     c.ping = setInterval(() => { if (ws.readyState === 1) ws.send('ping'); }, 25000); // garde la connexion ouverte
   };
   ws.onmessage = (e) => {
-    if (co !== c || e.data === 'pong') return;
+    if (perimee() || e.data === 'pong') return;
     let s;
     try { s = JSON.parse(e.data); } catch { return; }
+    if (s.t === 'info') { if (s.m === 'revanche-echec' && enPartie()) h.toast('La revanche n’a pas pu démarrer. Réessaie dans un instant.'); return; }
     if (s.t !== 'etat') return;
+    // Les messages de revanche arrivent sans les corrections, déjà reçues : on garde les précédentes.
+    if (s.phase === 'resultat' && !s.resultat) {
+      if (c.etat?.resultat && c.etat.manche === s.manche) s.resultat = c.etat.resultat;
+      else { envoyer({ t: 'etat' }); return; }
+    }
     c.etat = s;
     c.recu = Date.now(); // les durées du serveur (reste, dans) partent de cet instant
     if (enPartie()) afficher(s);
   };
   ws.onclose = (e) => {
+    if (perimee()) return;
     clearInterval(c.ping);
-    if (co !== c || c.ferme) return;
     if (e.code === 4001) return terminer(e.reason in FIN ? e.reason : 'fin');
     if (e.code === 4000) return terminer('remplacee', true);
     if (navigator.onLine !== false) c.essais++;
     // Jamais ouverte après 3 essais en ligne : la partie (ou le jeton) n'existe plus.
     if (!c.ouvert && c.essais >= 3) return terminer('introuvable');
     reseau(true);
-    setTimeout(() => { if (co === c && !c.ferme) ouvrir(c); }, Math.min(8000, 500 * 2 ** Math.min(c.essais, 4)));
+    c.relance = setTimeout(() => { if (co === c && !c.ferme) ouvrir(c); }, Math.min(8000, 500 * 2 ** Math.min(c.essais, 4)));
   };
 }
 
@@ -234,7 +250,7 @@ function ouvrir(c) {
 export function detacher() {
   if (!co) return;
   co.ferme = true;
-  clearInterval(co.ping); clearInterval(co.minuteur); clearInterval(co.rebours);
+  clearInterval(co.ping); clearInterval(co.minuteur); clearInterval(co.rebours); clearTimeout(co.relance);
   try { co.ws?.close(1000); } catch {}
   co = null;
   document.querySelector('.duel-compte')?.remove();
@@ -273,14 +289,14 @@ function barre(titre, droite = '<span class="icon-btn" aria-hidden="true"></span
 }
 
 function afficher(s, force = false) {
-  const cle = s.phase === 'jeu' ? `jeu-${s.manche}-${s.q.i}`
+  const cle = s.phase === 'jeu' ? `jeu-${s.manche}-${s.q ? s.q.i : 'compte'}`
     : s.phase === 'resultat' ? `res-${s.manche}-${s.revanche === 'moi' ? 'r' : ''}` : `${s.phase}-${s.manche}`;
   if (!force && cle === co.vue) return majPartielle(s);
   if (cle !== co.vue) co.confirmer = false; // une confirmation ne survit pas au changement d'écran
   co.vue = cle;
   clearInterval(co.minuteur);
   if (s.phase === 'attente') return vueAttente(s);
-  if (s.phase === 'jeu') return vueQuestion(s);
+  if (s.phase === 'jeu') return s.q ? vueQuestion(s) : vueCompte(s);
   if (s.phase === 'fini') return vueFini(s);
   if (s.phase === 'resultat') return s.revanche === 'moi' ? vueRevancheAttente(s) : vueResultat(s);
 }
@@ -327,7 +343,7 @@ function confirmation(s) {
 }
 
 function vueAttente(s) {
-  const code = s.code;
+  const code = h.esc(s.code);
   const minutes = Math.max(1, Math.ceil(s.expire / 60000));
   $app.innerHTML = `${barre('Partie créée')}
     <main class="page duel">
@@ -346,6 +362,14 @@ function vueAttente(s) {
 
 const advPastille = (s) => `<span class="duel-av b">A</span> Adversaire : ${s.adv.fini ? 'fini' : `${Math.min(s.adv.faites + 1, s.nq)}/${s.nq}`}`;
 
+// Compte à rebours : le serveur n'envoie la question 1 qu'à sa fin (personne ne la lit en avance).
+function vueCompte(s) {
+  $app.innerHTML = `${barre(s.titre)}
+    <main class="page duel">${confirmation(s)}${joueursHtml({ ...s, enLigne: true }, 'Prêt')}${infoQuiz(s)}</main>`;
+  const fin = co.recu + s.dans;
+  if (fin > Date.now() && co.rebours == null) compteARebours(fin - Date.now());
+}
+
 function vueQuestion(s) {
   const q = s.q;
   const multi = q.type !== 'QCU';
@@ -353,6 +377,7 @@ function vueQuestion(s) {
   if (co.choixDe !== cleQ) { co.choix = new Set(); co.choixDe = cleQ; }
   const total = s.temps * 1000;
   co.limite = co.recu + q.reste;
+  co.sec = null;
   co.debut = co.recu + (s.dans || 0);
   $app.innerHTML = `<div class="review quiz duel-jeu">
       ${barre(s.titre, `<span class="quiz-count">${q.i + 1}<span class="muted"> / ${s.nq}</span></span>`)}
@@ -369,7 +394,7 @@ function vueQuestion(s) {
           <ol class="quiz-opts" role="${multi ? 'group' : 'radiogroup'}">
             ${q.opts.map((o, k) => `<li><button type="button" class="quiz-opt ${co.choix.has(k) ? 'is-chosen' : ''}" data-duel="choix" data-k="${k}"
                 role="${multi ? 'checkbox' : 'radio'}" aria-checked="${co.choix.has(k)}">
-              <span class="opt-letter">${LETTRES[k]}</span><span class="opt-body"><span class="opt-text">${h.nb(h.esc(o))}</span></span>
+              <span class="opt-letter">${LETTRES[k] || k + 1}</span><span class="opt-body"><span class="opt-text">${h.nb(h.esc(o))}</span></span>
             </button></li>`).join('')}
           </ol>
         </article>
@@ -388,13 +413,20 @@ function vueQuestion(s) {
     const now = Date.now();
     const reste = Math.max(0, Math.min(co.limite - now, total));
     barreEl.style.transform = `scaleX(${reste / total})`;
-    txt.textContent = `${Math.ceil(reste / 1000)} s`;
+    const sec = Math.ceil(reste / 1000);
+    if (sec !== co.sec) { co.sec = sec; txt.textContent = `${sec} s`; }
     boite.classList.toggle('bas', reste <= 5000 && now >= co.debut);
     if (reste <= 0) { clearInterval(co.minuteur); valider(true); }
   };
   tic();
   co.minuteur = setInterval(tic, 100);
-  if (co.debut > Date.now() && co.rebours == null) compteARebours(co.debut - Date.now());
+  finCompte(); // la question est là : le compte à rebours local, s'il traîne, disparaît
+}
+
+function finCompte() {
+  clearInterval(co?.rebours);
+  if (co) co.rebours = undefined;
+  document.querySelector('.duel-compte')?.remove();
 }
 
 function compteARebours(ms) {
@@ -415,7 +447,7 @@ function compteARebours(ms) {
 
 function choisir(k) {
   const s = co?.etat;
-  if (!s || s.phase !== 'jeu' || co.envoye === co.choixDe || k >= s.q.opts.length) return;
+  if (!s || s.phase !== 'jeu' || !s.q || co.envoye === co.choixDe || k >= s.q.opts.length) return;
   if (s.q.type === 'QCU') co.choix = co.choix.has(k) ? new Set() : new Set([k]);
   else if (co.choix.has(k)) co.choix.delete(k); else co.choix.add(k);
   $app.querySelectorAll('.quiz-opt[data-k]').forEach((b) => {
@@ -429,9 +461,13 @@ function choisir(k) {
 
 function valider(auto = false) {
   const s = co?.etat;
-  if (!s || s.phase !== 'jeu' || co.envoye === co.choixDe || Date.now() < co.debut) return;
+  if (!s || s.phase !== 'jeu' || !s.q || co.envoye === co.choixDe || Date.now() < co.debut) return;
   if (!auto && !co.choix.size) return;
-  if (!envoyer({ t: 'reponse', i: s.q.i, choix: [...co.choix] })) return; // hors ligne : le serveur comptera la question à la fin du chrono
+  const m = { t: 'reponse', i: s.q.i, choix: [...co.choix] };
+  if (!envoyer(m)) {
+    if (!auto) { h.toast('Connexion perdue : réessaie dans un instant.'); return; }
+    co.enAttente = m; // chrono à 0 hors ligne : plus de choix possible, envoi à la reconnexion
+  }
   co.envoye = co.choixDe;
   bloquer();
 }
@@ -528,7 +564,7 @@ function corrections(r, qui) {
         <ul class="qn-opts">${q.opts.map((o, k) => {
           const c = ch.has(k);
           const st = o.ok && c ? 'right' : o.ok ? 'missed' : c ? 'wrong' : 'off';
-          return `<li class="qn-opt ${st}"><span class="qn-l">${st === 'wrong' ? '✗' : st === 'off' ? LETTRES[k] : '✓'}</span><span>${h.nb(h.esc(o.t))}${o.n ? `<span class="opt-note">${h.nb(h.esc(o.n))}</span>` : ''}</span></li>`;
+          return `<li class="qn-opt ${st}"><span class="qn-l">${st === 'wrong' ? '✗' : st === 'off' ? (LETTRES[k] || k + 1) : '✓'}</span><span>${h.nb(h.esc(o.t))}${o.n ? `<span class="opt-note">${h.nb(h.esc(o.n))}</span>` : ''}</span></li>`;
         }).join('')}</ul>
         <div class="qn-legend"><span class="right">cochée et juste</span><span class="missed">juste, non cochée</span><span class="wrong">cochée à tort</span></div>
         ${q.exp.length || q.ref ? `<section class="quiz-correction"><h3>Correction</h3>
@@ -550,7 +586,7 @@ function bandeauRevanche(s) {
 
 function zoneRevanche(s) {
   return `${s.refus ? '<p class="duel-refus">Ton adversaire a refusé la revanche.</p>' : ''}
-    ${!s.enLigne ? '<p class="duel-tip">Ton adversaire a quitté la page : une revanche lui sera proposée s’il revient.</p>' : ''}
+    ${!s.enLigne ? '<p class="duel-tip">Ton adversaire a quitté la page.</p>' : ''}
     <div class="stack">
       ${s.revanche === 'adv' ? '' : '<button type="button" class="btn primary wide big duel-grad" data-duel="revanche">Revanche</button>'}
       <button type="button" class="btn ghost wide" data-duel="sortir">Retour à l’accueil</button>
@@ -639,16 +675,17 @@ function clic(e) {
     $app.querySelectorAll('.duel-onglets button').forEach((x) => x.setAttribute('aria-selected', String(x === b)));
     $app.querySelector('#duel-corrections').innerHTML = corrections(co.etat.resultat, co.onglet);
   } else if (a === 'revanche') envoyer({ t: 'revanche' }) || h.toast('Connexion perdue : réessaie dans un instant.');
-  else if (a === 'revanche-oui') envoyer({ t: 'revanche-oui' });
-  else if (a === 'revanche-non') envoyer({ t: 'revanche-non' });
-  else if (a === 'revanche-annuler') envoyer({ t: 'revanche-annuler' });
+  else if (['revanche-oui', 'revanche-non', 'revanche-annuler'].includes(a)) envoyer({ t: a }) || h.toast('Connexion perdue : réessaie dans un instant.');
   else if (a === 'sortir') { ecrireSession(null); detacher(); location.hash = '#/'; }
 }
 
 function quitter() {
   const s = co?.etat;
   if (!s) { detacher(); location.hash = '#/duel'; return; }
-  if (s.phase === 'resultat') { ecrireSession(null); detacher(); location.hash = '#/'; return; }
+  if (s.phase === 'resultat') {
+    if (s.revanche === 'moi') envoyer({ t: 'revanche-annuler' }); // pas d'invitation fantôme chez l'adversaire
+    ecrireSession(null); detacher(); location.hash = '#/'; return;
+  }
   if (s.phase === 'fini') { location.hash = '#/duel'; return; } // le résultat reste à voir via « Reprendre »
   co.confirmer = true;
   afficher(s, true);
@@ -656,7 +693,7 @@ function quitter() {
 }
 
 function clavier(e) {
-  if (!co?.etat || co.etat.phase !== 'jeu' || !enPartie() || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (!co?.etat || co.etat.phase !== 'jeu' || !co.etat.q || !enPartie() || e.metaKey || e.ctrlKey || e.altKey) return;
   if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
   const k = LETTRES.indexOf(e.key.toUpperCase());
   if (k >= 0 && e.key.length === 1) { e.preventDefault(); choisir(k); }
