@@ -1,0 +1,105 @@
+// Quiz – Hémovigilance (UE 4.4), écrit par Gemini d'après « Vigilances - Hémovigilance - UE 4.4 - avec notes », relu et repris par Claude le 27 novembre 2026.
+// Retirés car absents du cours : délai de déclaration en 8 h, pose du CGR en 6 h, validité de la RAI, conservation des concentrés plaquettaires. Conservation des poches et cartes corrigée (4 h). Dépôts de sang et détails des plasmas allégés.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Vigilances – Hémovigilance
+
+QCM · Contrôles à réception et au lit du patient
+Concernant les contrôles pré-transfusionnels au bloc opératoire, quelles propositions sont exactes ?
++ À réception, on vérifie le destinataire, le contenu, la péremption et la concordance avec la commande. :: C'est le premier temps du contrôle, sur l'ensemble de la livraison.
++ Le contrôle ultime se fait au lit du patient, juste avant de poser chaque poche. :: C'est le second temps, poche par poche.
++ Chez un patient endormi, l'identité se vérifie notamment sur le bracelet. :: Le patient ne peut pas décliner son identité.
+- Au bloc, désigner le patient par sa salle (« le patient de la salle 2 ») sécurise les transmissions. :: Ce langage favorise les erreurs : on utilise les traits d'identité du patient.
+- Un test ABO compatible prouve que la poche est destinée à ce patient. :: Une poche compatible peut appartenir à un autre patient : l'identité et le numéro de poche se vérifient aussi.
+> Deux temps : contrôle à réception (destinataire, contenu, péremption, concordance), puis contrôle ultime au lit, avant chaque poche. Au bloc, patients endormis et succession de patients dans une même salle majorent le risque d'erreur d'identité.
+@ p. 5 à 10
+
+QCU · Contrôle ultime pour une seconde poche
+Sous anesthésie générale, vous avez posé un premier CGR après un contrôle ultime complet. Que faites-vous avant de poser le second CGR ?
++ Refaire le contrôle ultime complet, documents et test ABO, avec la seconde poche. :: Le contrôle ultime se fait pour chaque poche, juste avant sa pose.
+- Vérifier les documents de la seconde poche sans refaire le test ABO déjà fait. :: Le test ABO se refait pour chaque CGR, pour détecter une erreur sur la seconde poche.
+- Tester la seconde poche avec du sang prélevé sur la tubulure de la première. :: Le sang du patient se prélève chez le patient, pas sur une ligne transfusée.
+- Réutiliser la carte de contrôle de la première poche pour gagner du temps. :: Chaque poche a sa propre carte de contrôle.
+- Faire réaliser le test ABO par un collègue en salle de préparation. :: Le contrôle ultime se fait au lit du patient, juste avant la pose.
+> Le contrôle ultime (concordance de l'identité, des documents, du numéro et des qualifications de la poche, puis test biologique ABO pour un CGR) se fait au lit du patient avant chaque poche.
+@ p. 5, 9 à 13
+
+QCM · Compatibilité ABO
+Concernant la compatibilité ABO des produits sanguins, quelles propositions sont exactes ?
++ Pour un CGR, on raisonne sur les antigènes des hématies du donneur. :: Les hématies transfusées ne doivent pas porter un antigène contre lequel le receveur a des anticorps.
++ Pour un plasma, on raisonne sur les anticorps du donneur. :: Le plasma transfusé ne doit pas apporter d'anticorps contre les hématies du receveur.
++ Un plasma de groupe AB peut être transfusé à un receveur de groupe O, A, B ou AB. :: Il ne contient ni anti-A ni anti-B.
+- Un plasma de groupe O peut être transfusé à un receveur de groupe A. :: Il contient des anti-A qui agiraient contre les hématies du receveur.
+- Un CGR de groupe A peut être transfusé à un receveur de groupe O. :: Le receveur O a des anti-A qui détruiraient ces hématies.
+> CGR : le groupe O, sans antigène A ni B, est donneur universel. Plasma : la logique s'inverse, le plasma AB, sans anti-A ni anti-B, est universel.
+@ p. 17 et 39
+
+QCM · Surveillance et traçabilité
+Concernant la surveillance et la traçabilité d'une transfusion, quelles propositions sont exactes ?
++ La surveillance est étroite pendant les 15 premières minutes, puis régulière jusqu'à 2 heures après la transfusion. :: Température, pression artérielle, fréquence cardiaque, SpO2, fréquence respiratoire et signes cliniques.
++ Les poches et les cartes de contrôle ABO sont conservées 4 heures après la transfusion. :: En cas d'incident, elles sont renvoyées à l'EFS pour l'enquête.
++ La traçabilité établit le lien entre le donneur et le receveur. :: Elle permet de retrouver les receveurs si une information survient après le don.
+- Une poche délivrée mais non transfusée n'a pas à être tracée. :: L'EFS doit connaître le devenir de chaque poche délivrée.
+- Le premier quart d'heure passé sans incident permet d'arrêter la surveillance. :: Une réaction ou une extravasation peut survenir plus tard.
+> Surveillance rapprochée les 15 premières minutes puis jusqu'à 2 h après la transfusion. Poches et cartes ABO gardées 4 h. Traçabilité de chaque poche (lien donneur-receveur, conservé 30 ans).
+@ p. 18, 19 et 21
+
+QCU · Effet indésirable pendant une transfusion
+Vingt minutes après le début d'un CGR au bloc, le patient présente une hypotension, une tachycardie, une hyperthermie et des urines foncées. Quelle est la conduite immédiate ?
++ Arrêter la transfusion, garder la voie veineuse au sérum physiologique, alerter et conserver la poche. :: La poche et sa tubulure servent à l'enquête de l'EFS.
+- Réduire le débit de moitié et donner un antipyrétique en surveillant l'évolution. :: Tout signe nouveau impose l'arrêt de la transfusion.
+- Débrancher la poche et la jeter en DASRI pour éviter une reprise accidentelle. :: La poche, la tubulure et les cartes sont conservées pour l'enquête.
+- Rincer la tubulure de transfusion au sérum physiologique pour garder la voie perméable. :: Cela injecterait le sang restant : on change de tubulure.
+- Attendre le bilan d'hémolyse avant de prévenir l'EFS et l'hémovigilance. :: L'EFS est alerté immédiatement et l'effet indésirable déclaré au correspondant d'hémovigilance.
+> Devant tout changement clinique : arrêt de la transfusion, voie d'abord maintenue au sérum physiologique, alerte du médecin et de l'EFS, envoi des poches à l'EFS, déclaration au correspondant d'hémovigilance.
+@ p. 20 et 21
+
+QCM · Effets indésirables graves
+Concernant les effets indésirables graves de la transfusion, quelles propositions sont exactes ?
++ L'œdème pulmonaire de surcharge (TACO) est la première cause de décès liée à la transfusion. :: Il touche surtout les patients âgés, insuffisants cardiaques ou rénaux : adapter le débit.
++ Le TRALI est un œdème pulmonaire lésionnel, parfois avec fièvre ou hypotension. :: Ce n'est pas un œdème de surcharge.
++ Les réactions allergiques sont les plus fréquentes des accidents graves. :: Elles vont jusqu'au choc anaphylactique ou au bronchospasme.
+- Sous anesthésie générale, l'absence de frissons écarte une incompatibilité ABO. :: L'anesthésie masque les signes subjectifs : hypotension, saignement en nappe et urines foncées alertent.
+- Une réaction fébrile non hémolytique impose de poursuivre la transfusion pour en juger l'évolution. :: Devant tout signe nouveau, on arrête la transfusion.
+> Accidents graves : allergie (la plus fréquente), TACO (première cause de décès), hémolyse retardée du drépanocytaire, TRALI, incompatibilité, infection. Sous AG, les signes subjectifs sont masqués.
+@ p. 22 et 23
+
+QCM · Phénotypé et compatibilisé
+Concernant les CGR phénotypés et compatibilisés, quelles propositions sont exactes ?
++ Un CGR phénotypé RH-KEL n'apporte pas d'antigène Rhésus ou Kell que le patient n'a pas. :: Il prévient l'immunisation.
++ Le phénotypage RH-KEL est obligatoire chez la femme en âge de procréer. :: Ainsi que chez les patients immunisés et drépanocytaires.
++ Un CGR compatibilisé a fait l'objet d'une épreuve entre le sérum du patient et la poche. :: Cette épreuve est réalisée par l'EFS.
+- Un CGR compatibilisé est réservé aux patients de groupe O. :: Il est obligatoire chez les patients immunisés et drépanocytaires, quel que soit le groupe.
+- Une RAI négative le jour J permet d'ignorer un ancien anticorps connu. :: Un anticorps devenu indétectable reste dangereux : l'historique compte.
+> Phénotypé : ne pas apporter un antigène RH-KEL absent chez le patient (prévenir l'immunisation). Compatibilisé : épreuve sérum du patient / poche par l'EFS (immunisés, drépanocytaires). L'historique immunohématologique s'ajoute à la RAI du jour.
+@ p. 24, 30 et 31
+
+QCU · Urgence vitale immédiate
+Une femme de 29 ans en choc hémorragique arrive au bloc, sans groupe sanguin connu. Le médecin prescrit des produits sanguins en urgence vitale immédiate (UVI). Quelle conduite est adaptée ?
++ Prélever groupe et RAI avant la première poche, puis transfuser CGR O RH:-1 et plasma AB avec contrôle ultime. :: En UVI, la délivrance est immédiate ; le contrôle ultime reste fait pour chaque poche.
+- Attendre le résultat du groupe et de la RAI avant de transfuser le premier CGR. :: En UVI, les produits sont délivrés sans attendre les résultats.
+- Transfuser des CGR O RH:1 pour préserver le stock de CGR O RH:-1. :: Le RH:1 est réservé aux hommes et aux femmes de plus de 50 ans.
+- Prélever le groupe après les deux premiers CGR pour ne pas retarder la réanimation. :: Après transfusion, les hématies du donneur gênent l'interprétation du groupe.
+- Supprimer le test ABO au lit pour les premières poches afin de gagner du temps. :: Même en urgence, le contrôle ultime et le test ABO sont réalisés.
+> UVI : délivrance immédiate de CGR O (RH:-1 chez la femme en âge de procréer, RH:1 chez l'homme et la femme de plus de 50 ans) et de plasma AB. Prélever le bilan avant la première poche et garder les contrôles ultimes.
+@ p. 33 et 34
+
+QCM · Hémorragie massive
+Au cours d'une hémorragie massive au bloc opératoire, quelles mesures sont adaptées ?
++ Maintenir la température du patient. :: L'hypothermie aggrave le saignement.
++ Administrer de l'acide tranexamique. :: Il limite l'aggravation du saignement.
++ Apporter tôt du plasma avec les CGR, selon un ratio PFC:CGR entre 1:1 et 1:2. :: L'apport précoce de facteurs de coagulation limite la coagulopathie.
++ Anticiper la demande de plaquettes dès la deuxième prescription de CGR et de plasma. :: Pour ne pas retarder leur administration.
+- Transfuser plusieurs CGR avant de commander le premier plasma. :: Le plasma s'apporte tôt, avec les CGR.
+> Hémorragie massive : température maintenue, objectif de PAS autour de 80-90 mmHg, acide tranexamique, plasma précoce (PFC:CGR entre 1:1 et 1:2), plaquettes anticipées. Connaître la procédure d'urgence de l'établissement.
+@ p. 35
+
+QCM · Plasmas en urgence
+Concernant les plasmas utilisés au bloc opératoire, quelles propositions sont exactes ?
++ La décongélation d'un plasma frais congelé demande environ 20 à 30 minutes à l'EFS. :: Ce délai s'anticipe lors de la commande.
++ Le plasma lyophilisé se reconstitue avec de l'eau pour préparation injectable en quelques minutes. :: Il évite le délai de décongélation.
+- Le plasma solvant-détergent est un produit sanguin labile délivré par l'EFS. :: C'est un médicament dérivé du sang, géré par la pharmacie.
+- Le plasma lyophilisé se conserve au congélateur. :: Il se conserve à température ambiante.
+- Le plasma se transfuse en raisonnant sur les antigènes des hématies du donneur. :: Pour le plasma, on raisonne sur les anticorps qu'il apporte.
+> Anticiper les 20 à 30 minutes de décongélation d'un plasma frais congelé. Le plasma lyophilisé (température ambiante, reconstitution en quelques minutes) et le plasma déjà décongelé réduisent ce délai. Le plasma solvant-détergent relève de la pharmacie.
+@ p. 37 et 38

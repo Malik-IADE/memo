@@ -1,0 +1,95 @@
+// Quiz – Radioprotection (UE 4.4), écrit par Gemini d'après « Radioprotection - Cours - UE 4.4 », relu et allégé par Claude le 27 novembre 2026.
+// Centré sur l'exposition de l'équipe au bloc (amplificateur de brillance) : rayonnement diffusé, temps-distance-écran, dosimètres, voyants, grossesse. Retirés : unités et grandeurs, classement A/B et suivi médical, stades tératogènes détaillés.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Radioprotection
+
+QCM · Rayonnements et sources au bloc
+Concernant les rayonnements ionisants rencontrés à l'hôpital, quelles propositions sont exactes ?
++ Les rayons X sont atténués par un matériau dense, sans être arrêtés en totalité. :: D'où l'intérêt du tablier plombé, qui réduit l'exposition sans l'annuler.
++ Une source non scellée, comme en médecine nucléaire, expose à une contamination. :: Elle peut se disperser sur la peau, les surfaces ou dans l'organisme.
++ Un patient qui a reçu un produit radioactif devient lui-même une source temporaire. :: Ses liquides biologiques peuvent aussi être radioactifs.
+- L'amplificateur de brillance rend radioactifs les vêtements de l'équipe. :: Les rayons X irradient sans laisser de matière radioactive.
+- L'exposition aux rayons X persiste dans la salle après l'arrêt de l'émission. :: L'irradiation cesse dès que le générateur n'émet plus.
+> Au bloc, l'amplificateur de brillance expose à une irradiation externe, qui cesse à l'arrêt de l'émission. Les sources non scellées de médecine nucléaire exposent en plus à la contamination.
+@ p. 8 à 14, 17 et 20
+
+QCM · Rayonnement diffusé
+Au bloc, pendant l'utilisation d'un amplificateur de brillance, quelles propositions sont exactes ?
++ Le rayonnement diffusé par le patient est la principale source d'exposition de l'équipe. :: Le faisceau qui traverse le patient est dévié dans toute la salle.
++ Réduire le champ au strict minimum (collimation) est le moyen le plus efficace de limiter le diffusé. :: Un grand champ irradie une large surface et diffuse davantage.
++ Le diffusé est maximal du côté où le faisceau entre dans le patient. :: Repérer la position du tube permet de se placer du côté le moins exposé.
++ Un patient de forte corpulence diffuse davantage. :: L'épaisseur traversée augmente le rayonnement diffusé.
+- Rapprocher le tube de la peau du patient réduit le diffusé dans la salle. :: Un tube trop proche augmente au contraire l'exposition.
+> Le patient irradié est la principale source d'exposition de l'équipe. Le diffusé augmente avec la taille du champ, l'épaisseur du patient, la proximité du tube et la durée ; il est maximal du côté d'entrée du faisceau.
+@ p. 18 et 19
+
+QCU · Se protéger pendant la scopie
+Pendant une longue procédure sous scopie, vous devez surveiller le patient pendant les tirs. Quelle conduite applique le mieux les règles de protection ?
++ S'éloigner du tube pendant les tirs, limiter son temps de présence et porter tablier et cache-thyroïde. :: Distance, temps et écran sont les trois leviers contre l'exposition externe.
+- Rester du côté d'entrée du faisceau pour surveiller la voie veineuse. :: C'est le côté où le diffusé est le plus fort.
+- Demander d'ouvrir le champ au maximum pour limiter les repositionnements. :: Un grand champ augmente fortement le diffusé.
+- Retirer le tablier plombé dès qu'on se tient à plus d'un mètre de la table. :: Le tablier reste porté pendant l'émission de rayons X.
+- Se placer derrière l'opérateur, qui fait écran, sans tablier. :: Une personne n'est pas un écran : le tablier reste nécessaire.
+> Contre l'irradiation externe : réduire le temps, augmenter la distance, interposer un écran (tablier plombé, cache-thyroïde, paravent), en plus de la collimation du faisceau.
+@ p. 19, 40 et 41
+
+QCM · Effets des rayonnements
+Concernant les effets des rayonnements ionisants, quelles propositions sont exactes ?
++ Les effets déterministes apparaissent au-delà d'un seuil de dose. :: Radiodermite ou cataracte, par exemple ; leur gravité augmente avec la dose.
++ Les effets stochastiques, comme les cancers, n'ont pas de seuil connu. :: Leur probabilité augmente avec la dose.
+- La gravité d'un cancer radio-induit augmente avec la dose reçue. :: C'est sa probabilité qui augmente ; sa gravité ne dépend pas de la dose.
+- Les effets déterministes surviennent au hasard, même à très faible dose. :: Ce sont des effets à seuil, à forte dose.
+- Le risque pendant la grossesse est identique à chaque terme. :: Il varie selon le stade de développement.
+> Effets déterministes : à seuil, précoces, gravité liée à la dose (radiodermite, cataracte). Effets stochastiques : sans seuil, tardifs, probabilité liée à la dose (cancers, leucémies). Pendant la grossesse, le risque dépend du terme.
+@ p. 22 à 25
+
+QCM · Grandeurs à connaître
+Concernant les grandeurs utilisées en radioprotection, quelles propositions sont exactes ?
+- La dose reçue par un soignant s'exprime en becquerels. :: Le becquerel mesure l'activité d'une source.
++ La dose efficace, qui sert aux limites réglementaires, s'exprime en sieverts. :: Elle tient compte du rayonnement et de la sensibilité des organes.
+- Le gray mesure le nombre de désintégrations par seconde d'une source. :: Le gray mesure l'énergie absorbée par unité de masse.
+- La période d'une source est le temps nécessaire pour qu'elle cesse d'émettre. :: C'est le temps au bout duquel son activité diminue de moitié.
+- Le dosimètre d'un soignant exprime sa dose en grays par seconde. :: Les doses des travailleurs s'expriment en sieverts (souvent en millisieverts).
+> Becquerel : activité d'une source. Gray : énergie absorbée. Sievert : dose efficace, celle des limites réglementaires et des dosimètres.
+@ p. 11 et 26
+
+QCM · Principes et limites
+Concernant les principes de radioprotection, quelles propositions sont exactes ?
++ La radioprotection repose sur la justification, l'optimisation et la limitation. :: Chaque exposition doit être utile, aussi faible que possible et sous les limites.
++ Pour le public et les travailleurs non classés, la limite est de 1 mSv sur 12 mois. :: Au-delà d'une exposition prévisible de 1 mSv par an, la zone devient réglementée.
++ Une professionnelle qui allaite n'est pas affectée à un poste à risque de contamination. :: Pour éviter un transfert vers le nourrisson.
+- Les limites annuelles s'appliquent aussi aux examens d'imagerie du patient. :: Chez le patient, l'exposition est encadrée par la justification et l'optimisation.
+- Une soignante enceinte peut garder son poste sans déclarer sa grossesse. :: La déclaration permet de limiter à 1 mSv la dose reçue par l'enfant à naître.
+> Justification, optimisation, limitation. Public et travailleurs non classés : 1 mSv sur 12 mois. Grossesse déclarée : dose à l'enfant à naître inférieure à 1 mSv. Allaitement : pas de poste à risque de contamination.
+@ p. 29, 32 et 38
+
+QCU · Voyants au-dessus de la porte
+Au-dessus de la porte d'une salle équipée d'un amplificateur de brillance, les deux voyants sont allumés. Qu'est-ce que cela signifie ?
++ Émission de rayons X en cours : zone contrôlée, dosimètres et protections obligatoires. :: Dosimètre passif, dosimètre opérationnel et équipements de protection.
+- Générateur sous tension sans émission : zone surveillée, dosimètre passif suffisant. :: C'est la signification du voyant rouge seul.
+- Générateur hors tension : zone non réglementée, sans consigne particulière. :: C'est la signification des deux voyants éteints.
+- Panne du tube imposant l'évacuation du patient. :: C'est le fonctionnement normal pendant l'émission.
+- Entrée libre sans dosimètre pour un passage de moins de cinq minutes. :: L'accès en zone contrôlée est réservé au personnel autorisé et équipé.
+> Deux voyants éteints : hors tension. Voyant rouge seul : sous tension sans émission (zone surveillée, dosimètre passif). Deux voyants allumés : émission de rayons X (zone contrôlée, dosimètres passif et opérationnel, protections).
+@ p. 31 et 42
+
+QCU · Porter son dosimètre passif
+En salle d'orthopédie, l'amplificateur de brillance est utilisé toute la matinée. Comment portez-vous votre dosimètre passif ?
++ À la poitrine, sous le tablier plombé, puis rangé sur le tableau dédié après le service. :: Il mesure la dose réellement reçue par l'organisme.
+- Sur le col, par-dessus le tablier, pour mesurer l'exposition de la salle. :: Le dosimètre passif poitrine se porte sous le tablier.
+- Emprunté à un collègue absent si vous avez oublié le vôtre. :: Le dosimètre est nominatif et ne se prête pas.
+- Gardé dans la poche de la blouse, y compris au domicile, pour ne pas l'oublier. :: Il ne s'emporte pas au domicile.
+- Passé sous le faisceau en fin de mois pour vérifier qu'il fonctionne. :: Une irradiation volontaire fausse le suivi.
+> Le dosimètre passif est nominatif, porté à la poitrine sous le tablier, rangé sur le tableau dédié hors service, jamais emporté ni irradié volontairement.
+@ p. 33 et 35
+
+QCM · Dosimètre opérationnel et zones
+Concernant la dosimétrie et les zones réglementées, quelles propositions sont exactes ?
++ Le dosimètre opérationnel affiche en temps réel la dose reçue et peut sonner au-delà d'un seuil. :: Il aide à réduire l'exposition pendant l'intervention.
++ En zone contrôlée, il complète le dosimètre passif. :: Les deux sont portés.
++ Une bague ou un dosimètre du cristallin peut compléter le suivi selon le poste. :: Pour les extrémités ou les yeux, proches du faisceau.
+- Le dosimètre opérationnel remplace le dosimètre passif en zone contrôlée. :: Le passif reste le suivi réglementaire.
+- Le dosimètre opérationnel détecte une contamination interne. :: Il mesure l'exposition externe.
+> En zone contrôlée : dosimètre passif (suivi réglementaire) et dosimètre opérationnel (temps réel, alarme). Bague ou dosimètre du cristallin selon le poste.
+@ p. 31, 33 et 34

@@ -1,0 +1,85 @@
+// Quiz – Vigilances sanitaires (UE 4.4), écrit par Gemini d'après « Vigilances - Sanitaires - UE 4.4 - avec notes », relu et allégé par Claude le 27 novembre 2026.
+// Centré sur le bloc : reconnaître la bonne vigilance, réflexes devant un matériel défaillant, alertes, identitovigilance, traçabilité d'un implant. Retirés : organigramme des agences, visite de certification, identité nationale de santé (absente du cours).
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Vigilances – Sanitaires
+
+QCM · Finalité des vigilances
+Concernant les vigilances sanitaires, quelles propositions sont exactes ?
++ Elles détectent les événements inhabituels, répondent aux alertes et préviennent leur répétition. :: Pour la sécurité des patients, des donneurs et des professionnels.
++ Elles reposent sur la déclaration, la traçabilité des produits et la mobilisation des acteurs. :: Avec une culture de sécurité et des retours d'expérience.
++ Un presque accident, sans conséquence pour le patient, se signale aussi. :: Il montre qu'une barrière a failli céder.
+- La surveillance d'un produit s'arrête une fois sa balance bénéfice-risque jugée favorable. :: Elle se poursuit pendant toute la vie du produit.
+- Un événement se signale après avoir établi sa cause exacte. :: On signale le doute ; l'enquête qualifie ensuite l'événement.
+> Les vigilances détectent, analysent et préviennent les risques liés aux produits de santé et aux soins, tout au long de la vie des produits. Elles reposent sur la déclaration (presque accidents compris), la traçabilité et l'implication des professionnels.
+@ p. 3, 14 et 15
+
+QCM · Rattacher l'événement à la bonne vigilance
+Quelles situations sont correctement rattachées à leur vigilance ?
++ Des bandelettes de glycémie donnant des résultats incohérents : réactovigilance. :: Elle surveille les dispositifs de diagnostic in vitro.
++ Une réaction grave après une transfusion de CGR : hémovigilance. :: Elle concerne les produits sanguins labiles.
++ Un abus de médicament psychoactif : addictovigilance. :: Hors alcool et tabac.
+- Une aiguille bouchée ou une tubulure qui fuit : réactovigilance. :: Ce sont des dispositifs de soin : matériovigilance.
+- Un effet indésirable de l'albumine : hémovigilance. :: L'albumine est un médicament dérivé du sang : pharmacovigilance.
+> Médicament (dont dérivés du sang) : pharmacovigilance. Produit sanguin labile : hémovigilance. Dispositif de soin : matériovigilance. Diagnostic in vitro : réactovigilance. Substance psychoactive : addictovigilance.
+@ p. 17 à 24 et 30
+
+QCU · Vidéolaryngoscope défaillant
+En fin d'intervention, un vidéolaryngoscope présente une perte d'image intermittente. Un autre appareil a permis de terminer. Après avoir signalé l'anomalie, quel est le réflexe immédiat ?
++ Mettre l'appareil à l'écart, marqué « hors service », avec la lame et l'emballage. :: Personne ne doit le reprendre pour le patient suivant.
+- Le laisser sur le chariot d'intubation difficile après avoir fait le signalement. :: Un collègue pourrait le réutiliser dès l'intervention suivante.
+- Jeter la lame à usage unique et son emballage avant de rédiger le signalement. :: Ils servent à tracer le lot et à l'enquête.
+- Attendre que la panne se reproduise pour exclure une erreur de manipulation. :: On sécurise et on signale sans attendre de récidive.
+- Le confier au bionettoyage pour qu'il le remette au biomédical en fin de programme. :: L'équipe assure elle-même la mise hors service et sa traçabilité.
+> Matériel suspect : sécuriser le patient, isoler le matériel marqué « hors service », garder le produit et son emballage, signaler sans attendre d'en connaître la cause.
+@ p. 15, 16 et 20
+
+QCM · Alertes ascendantes et descendantes
+Concernant les circuits d'alerte, quelles propositions sont exactes ?
++ Une alerte ascendante part du terrain et remonte vers le correspondant local puis les autorités. :: Elle repère un défaut de lot ou un risque nouveau.
++ Une alerte descendante transmet un retrait de lot ou une consigne de sécurité vers les services. :: L'équipe vérifie si son stock ou ses patients sont concernés.
++ Si un implant rappelé a déjà été posé, l'établissement retrouve les patients porteurs. :: La traçabilité interne permet de les informer et de les suivre.
+- Les alertes descendantes concernent les médicaments, pas les dispositifs implantables. :: Elles concernent aussi dispositifs, implants et réactifs.
+- Une alerte ascendante suppose que le soignant ait prouvé un défaut de fabrication. :: Une anomalie constatée suffit à alerter.
+> Ascendante : du terrain vers les correspondants et les autorités. Descendante : consigne ou retrait vers les services. La traçabilité relie chaque produit à son patient.
+@ p. 13, 16 et 39 à 41
+
+QCM · Identitovigilance au bloc
+Concernant l'identitovigilance, premier acte de soins, quelles propositions sont exactes ?
++ Elle se vérifie à chaque étape : accueil au bloc, avant l'induction, avant l'incision. :: Un changement de programme de dernière minute majore le risque.
++ On fait dire au patient son nom, son prénom et sa date de naissance. :: Une question fermée appelant un « oui » favorise les erreurs.
++ Un contrôle déjà fait dans le service ne dispense pas de le refaire avant l'induction. :: Les erreurs viennent souvent de barrières manquées à la suite.
++ Devant un doute sur l'identité ou le côté, on le dit et on marque un arrêt. :: La pause lève l'ambiguïté avant un geste irréversible.
+- Un bracelet conforme dispense de vérifier la concordance avec le dossier et le programme. :: On confronte patient, bracelet, dossier et intervention prévue.
+> L'identitovigilance est le premier acte de soins : question ouverte, vérification à chaque étape (accueil, induction, incision), confrontation patient-bracelet-dossier-programme, arrêt en cas de doute.
+@ p. 26 et 27
+
+QCU · Où signaler dans un nouveau bloc
+En stage dans un nouveau bloc, vous constatez un événement indésirable impliquant un équipement d'anesthésie. Quelle démarche est adaptée ?
++ Utiliser l'outil de déclaration interne de l'établissement et repérer les correspondants affichés. :: Le correspondant qualifie le signal et le transmet aux autorités si nécessaire.
+- Déclarer sur le portail national sans prévenir l'encadrement. :: Le signalement interne permet de sécuriser sur place et d'analyser en équipe.
+- Attendre la fin du stage pour avoir du recul sur l'organisation. :: Un signalement tardif expose d'autres patients au même risque.
+- Écrire à la Haute Autorité de santé pour demander un audit du bloc. :: Elle ne reçoit pas les signalements courants d'incidents.
+- En parler oralement à la relève, sans trace écrite. :: Une déclaration écrite est nécessaire pour analyser et prévenir la récidive.
+> Chaque établissement a son circuit interne (logiciel de déclaration, affiche des correspondants). Le soignant détecte, sécurise et déclare en interne ; le correspondant évalue et transmet si besoin.
+@ p. 31 à 34 et 39
+
+QCM · Risque lié aux rayons X
+Concernant la gestion du risque lié aux rayons X en secteur interventionnel, quelles propositions sont exactes ?
+- Un dépassement de dose justifié par le bénéfice pour le patient n'a pas à être analysé. :: Il est évalué pour vérifier l'optimisation et organiser un éventuel suivi.
++ Une brûlure cutanée tardive après un geste long sous rayons X est un événement à signaler. :: Il relève de la radiovigilance, et de la matériovigilance si un défaut machine est suspecté.
+- Le dosimètre passif donne une lecture en temps réel de l'exposition. :: C'est le dosimètre opérationnel ; le passif est lu de façon différée.
+- Les équipements de protection relèvent de la détection d'un dépassement de dose. :: Ils relèvent de la prévention.
+- Un dépassement de dose relève de l'informatique, pas des vigilances. :: Il mobilise la personne compétente en radioprotection et le physicien médical.
+> Trois niveaux de barrières : prévention (zonage, protections, formation), détection (dosimètres, alertes de dose), atténuation (information et suivi du patient). Un dépassement de dose ou une brûlure s'analyse avec la personne compétente en radioprotection et le physicien médical.
+@ p. 21 et 22
+
+QCU · Traçabilité d'un implant
+Pendant une intervention, plusieurs implants d'aspect proche sont essayés avant de poser le modèle définitif. Quel risque faut-il prévenir en fin d'intervention ?
++ Un écart entre l'implant posé, la référence notée au dossier et le document remis au patient. :: La traçabilité peut rester sur un modèle essayé mais non posé.
+- L'impossibilité de facturer les implants déballés puis écartés. :: L'enjeu est de pouvoir retrouver le patient en cas d'alerte.
+- L'obligation de déclarer en matériovigilance chaque implant de taille inadaptée. :: Un changement de taille sans défaillance n'est pas un incident.
+- La perte du dossier d'autorisation de mise sur le marché du fabricant. :: Le bloc trace le lot et la référence, pas les documents réglementaires.
+- L'obligation de garder les emballages des implants essayés dans le dossier. :: Seule la référence de l'implant posé doit y figurer.
+> Quand plusieurs implants sont essayés, vérifier en fin d'intervention la concordance entre l'implant posé, le dossier et le document de sortie : c'est ce qui permet de retrouver le patient en cas d'alerte.
+@ p. 38, 40 et 41

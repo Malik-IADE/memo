@@ -1,0 +1,105 @@
+// Quiz – Gestion des déchets (UE 4.4), écrit par Gemini d'après « Hygiène - Gestion des déchets - UE 4.4 », relu et allégé par Claude le 27 novembre 2026.
+// Centré sur le tri au bloc et en SSPI, les médicaments (propofol), les gaz d'anesthésie et le recyclage. Pas de chiffres de détail (PRG, températures, critères de certification).
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Hygiène – Gestion des déchets
+
+QCM · Définition des DASRI et responsabilité du tri
+Concernant les déchets d'activités de soins à risque infectieux (DASRI), quelles propositions sont exactes ?
++ Un déchet contenant des micro-organismes viables responsables d'une infection est un DASRI. :: C'est la définition du risque infectieux : les agents de l'infection présente chez le patient.
++ Un objet piquant ou coupant destiné à l'abandon relève des DASRI, même non utilisé. :: Le risque de blessure suffit à le classer en DASRI.
++ Le soignant qui produit le déchet choisit sa filière, car il connaît le contexte du soin. :: Il n'existe pas de liste figée : c'est le contexte clinique qui guide le tri.
+- Un dispositif ayant touché un patient hospitalisé part en DASRI par précaution. :: Sans risque infectieux ni caractère piquant, il relève des déchets non dangereux (DAOM).
+- Le tri des déchets d'une anesthésie revient à l'agent qui évacue les sacs. :: Le tri se fait à la source, par le soignant qui produit le déchet.
+> Sont des DASRI : les déchets à risque infectieux avéré, les piquants-coupants (utilisés ou non), les produits sanguins incomplètement utilisés ou périmés et les déchets anatomiques non identifiables. Le soignant producteur choisit la filière selon le contexte du soin.
+@ p. 2 à 5, 7 et 57
+
+QCM · Tri pratique au bloc et en SSPI
+Au bloc opératoire et en SSPI, quels déchets vont en filière DASRI ?
++ Un pansement imbibé de pus. :: Il contient les micro-organismes d'une infection active.
++ Une aiguille déballée mais non utilisée. :: Les piquants-coupants vont en DASRI, qu'ils aient servi ou non.
++ Une poche de globules rouges incomplètement transfusée. :: Les produits sanguins non terminés ou périmés suivent la filière DASRI.
+- Une poche de transfusion vide. :: Vide, elle ne relève plus des DASRI.
+- Une compresse simplement tachée de sang. :: Une souillure sanguine sans infection ne suffit pas à en faire un DASRI.
+> DASRI : pus ou infection active, piquants-coupants (même non utilisés), produits sanguins non terminés ou périmés, déchets anatomiques non identifiables. Hors DASRI : poches vides, compresses tachées de sang, emballages.
+@ p. 6
+
+QCM · Patient porteur de BMR
+Un patient porteur sain d'une bactérie multirésistante (BMR), sans infection, est opéré. Concernant le tri de ses déchets, quelles propositions sont exactes ?
+- Sa sonde urinaire et ses tubulures vont en DASRI du fait du portage. :: Un portage n'est pas une infection : ces déchets ne vont pas en DASRI.
++ Les aiguilles utilisées pour ce patient vont en conteneur à OPCT. :: Comme pour tout patient : le caractère piquant suffit.
+- Ses seringues sans aiguille vont en DASRI pour éviter la diffusion de la BMR. :: Sans infection active ni caractère piquant, elles suivent les déchets non dangereux.
+- Les emballages des dispositifs ouverts pour lui vont en DASRI. :: Les emballages relèvent des déchets non dangereux ou du recyclage.
+- Le portage de BMR impose une filière DASRI pour l'ensemble des déchets de la salle. :: Le tri dépend du déchet et du contexte, pas du seul statut de porteur.
+> Un portage de BMR n'est pas une maladie infectieuse : les déchets du patient suivent les filières habituelles. Les piquants-coupants vont en OPCT comme pour tout patient.
+@ p. 6
+
+QCU · Boîte à objets piquants, coupants, tranchants (OPCT)
+Vous venez de préparer des ampoules de verre et de poser une voie veineuse. Quelle conduite est adaptée pour la boîte à OPCT ?
++ Y jeter aiguilles et mandrins, et orienter le verre et les autres déchets vers leurs filières. :: Réserver la boîte aux piquants-coupants réduit son poids, son volume et son coût.
+- Y jeter aiguilles, flacons vides, seringues et compresses utilisées à l'induction. :: Les déchets non piquants alourdissent inutilement cette filière coûteuse.
+- Jeter les aiguilles non souillées avec les déchets ménagers pour gagner de la place. :: Tout piquant destiné à l'abandon, utilisé ou non, va en OPCT pour prévenir les AES.
+- Regrouper flacons de verre et tubulures dans un sac DASRI souple. :: Un sac souple ne protège pas des coupures : il faut un contenant rigide adapté.
+- Jeter les ampoules vides avec les cartons dans la filière papier-carton. :: Le verre médical suit sa filière propre et ne se mélange pas au papier-carton.
+> La boîte à OPCT est réservée aux piquants, coupants et tranchants. Le verre médical et les déchets non dangereux ont leurs propres filières.
+@ p. 24 à 27
+
+QCM · Médicaments et propofol
+Concernant l'élimination des médicaments au bloc opératoire, quelles propositions sont exactes ?
++ Le propofol est toxique et persistant pour les milieux aquatiques. :: Il pollue les eaux et les sols : ses restes suivent la filière des déchets médicamenteux (DIMED).
++ Une seringue contenant un reste de propofol part en filière DIMED. :: Elle est incinérée à haute température.
++ Les déchets de cytostatiques, flacons vides compris, suivent une filière d'incinération dédiée. :: La très haute température détruit les composés cytotoxiques.
+- Vider le reste de propofol dans l'évier avant de jeter la seringue limite la pollution. :: Cela rejette directement dans l'eau une molécule toxique pour le milieu aquatique.
+- Un stupéfiant périmé est jeté en DASRI après accord du cadre de santé. :: Il est dénaturé en présence de pharmaciens, avec traçabilité dans un registre.
+> Propofol : toxique pour l'eau, restes en filière DIMED, pas dans l'évier. Cytostatiques : filière d'incinération dédiée. Stupéfiants : dénaturation tracée en présence de pharmaciens.
+@ p. 15, 16 et 38 à 40
+
+QCM · Banalisation des DASRI
+Concernant la banalisation des DASRI (broyage puis désinfection), quelles propositions sont exactes ?
++ Elle transforme les DASRI en déchets assimilables aux déchets ménagers. :: Elle réduit leur volume et évite leur transport comme matières dangereuses.
+- Elle convient aux pièces anatomiques et aux déchets à risque de prions. :: Pièces anatomiques, médicaments, liquides abondants et prions en sont exclus.
++ Les DASRI coûtent plus cher et pèsent plus sur le climat que les déchets non dangereux. :: Un meilleur tri à la source réduit à la fois la dépense et les émissions.
+- Les DASRI banalisés sont recyclés en plastiques médicaux stériles. :: Ils rejoignent la filière des déchets ménagers, pas le recyclage en dispositifs médicaux.
+- Elle permet d'éliminer les médicaments non utilisés avec les DASRI. :: Les médicaments sont exclus de la banalisation et suivent leur filière.
+> La banalisation réduit le volume des DASRI et supprime leur transport comme matières dangereuses, mais exclut pièces anatomiques, médicaments, liquides abondants et prions. Le premier levier reste un tri juste à la source.
+@ p. 17, 18, 23 et 43
+
+QCM · Limiter l'overage en anesthésie
+Pour limiter l'« overage » (surplus préparé puis jeté sans avoir servi) au bloc opératoire, quelles mesures sont pertinentes ?
++ Standardiser avec l'équipe les préparations des interventions courantes. :: L'overage vient surtout de préparations anticipées non utilisées.
++ Garder les seringues préremplies d'urgence dans leur emballage jusqu'à leur usage. :: Non ouvertes, elles restent utilisables pour les patients suivants.
++ Communiquer avec les autres salles pour partager certains médicaments ou dispositifs. :: La coordination limite le gaspillage sur le programme.
+- Préparer dès l'ouverture de salle les seringues et plateaux de la vacation entière. :: Ce qui n'est pas utilisé est jeté en fin de programme.
+- Déconditionner à l'avance les seringues préremplies pour gagner du temps. :: Une seringue déconditionnée non utilisée est perdue.
+> L'overage se réduit en standardisant les préparations, en évitant de tout préparer à l'avance, en gardant les seringues préremplies intactes et en communiquant entre salles.
+@ p. 28 et 29
+
+QCM · Impact climatique des gaz d'anesthésie
+Concernant l'impact climatique des agents anesthésiques, quelles propositions sont exactes ?
++ Le desflurane est l'halogéné le plus polluant. :: Il est environ 20 fois plus polluant que le sévoflurane, avec une longue durée de vie atmosphérique.
++ Le protoxyde d'azote persiste très longtemps dans l'atmosphère. :: Plus d'un siècle : son usage doit être limité aux indications réelles.
++ Le sévoflurane est l'halogéné le moins polluant. :: Il est à préférer quand une anesthésie inhalée est choisie.
+- L'anesthésie intraveineuse pèse davantage sur le climat que l'anesthésie inhalée. :: Elle a une empreinte carbone plus faible.
+- L'isoflurane est moins polluant que le sévoflurane. :: Il l'est davantage et persiste plus longtemps dans l'atmosphère.
+> Desflurane et N2O pèsent lourdement sur le climat ; le sévoflurane est le moins polluant des halogénés. L'anesthésie intraveineuse, et surtout l'ALR quand elle est possible, ont une empreinte plus faible.
+@ p. 30 et 41
+
+QCU · Économiser le sévoflurane
+Pendant une anesthésie générale au sévoflurane, quelle conduite réduit le plus la consommation d'halogéné sans nuire à la sécurité ?
++ Baisser le débit de gaz frais dès la fin de l'induction et utiliser la pause débit aux déconnexions. :: L'induction à haut débit consomme beaucoup ; le bas débit et la pause débit limitent les pertes.
+- Garder un haut débit de gaz frais pendant l'intervention pour stabiliser la fraction expirée. :: Un haut débit envoie l'halogéné vers l'évacuation des gaz sans bénéfice.
+- Utiliser souvent le by-pass d'oxygène pour ajuster la profondeur d'anesthésie. :: Le by-pass balaie le circuit et fait perdre l'halogéné.
+- Débrancher le circuit sans pause débit lors des gestes sur les voies aériennes. :: Les gaz frais se perdent alors dans la salle.
+- Réserver le bas débit aux interventions de plus de quatre heures. :: L'induction consomme beaucoup : baisser le débit tôt apporte un gain dès les interventions courtes.
+> Pour économiser l'halogéné : baisser le débit de gaz frais dès la fin de l'induction, travailler en bas débit, activer la pause débit aux déconnexions et limiter le by-pass d'oxygène.
+@ p. 33 à 37
+
+QCM · Recyclage au bloc opératoire
+Concernant le recyclage des déchets non dangereux au bloc opératoire, quelles propositions sont exactes ?
++ Le tri à la source distingue papier-carton, métal, plastique, verre et bois. :: C'est l'obligation du « tri 5 flux ».
++ Les métaux, comme les lames de laryngoscope ou les flacons vides d'halogéné, sont recyclables. :: Les instruments sont décontaminés avant d'être recyclés.
++ Les cartons d'emballage des médicaments et du matériel sont recyclables. :: Petits comme grands cartons.
++ Le recyclage consomme bien moins d'énergie que la production à partir de matières neuves. :: Il économise aussi matières premières et eau.
+- Un dispositif souillé de liquide biologique infectieux va au recyclage après rinçage. :: Le recyclage concerne les déchets non dangereux et non contaminés.
+> Tri 5 flux : papier-carton, métal, plastique, verre et bois. Au bloc : cartons, métaux décontaminés, certains plastiques. Les déchets contaminés n'entrent pas au recyclage.
+@ p. 17, 42 à 44, 46, 47 et 50 à 52

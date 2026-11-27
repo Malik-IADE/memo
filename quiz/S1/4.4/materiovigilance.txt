@@ -1,0 +1,105 @@
+// Quiz – Matériovigilance (UE 4.4), écrit par Gemini d'après « Vigilances - Matériovigilance - UE 4.4 - avec notes », relu et allégé par Claude le 27 novembre 2026.
+// Centré sur ce que fait l'IADE au bloc : reconnaître ce qui se signale, conserver le matériel, appliquer un rappel. Retirés : sanctions pénales et articles de loi, détails d'organisation nationale.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Vigilances – Matériovigilance
+
+QCM · Champ de la matériovigilance
+Concernant le champ de la matériovigilance, quelles propositions sont exactes ?
++ Elle surveille les incidents liés aux dispositifs médicaux après leur mise sur le marché. :: Elle vise à éviter qu'un incident grave se produise ou se répète.
++ Une compresse stérile ou un cathéter périphérique en relève, comme un respirateur. :: Le champ va du consommable à l'équipement lourd et à l'implant.
++ Un dispositif médical n'agit pas principalement par un moyen pharmacologique. :: C'est ce qui le distingue d'un médicament.
+- Les bandelettes de glycémie et les automates de biologie relèvent de la matériovigilance. :: Les dispositifs de diagnostic in vitro relèvent de la réactovigilance.
+- Les incidents des essais cliniques avant commercialisation suivent ce circuit. :: La matériovigilance s'exerce après la mise sur le marché.
+> La matériovigilance surveille, après commercialisation, les incidents liés aux dispositifs médicaux, du consommable à l'implant. Les médicaments relèvent de la pharmacovigilance, le diagnostic in vitro de la réactovigilance.
+@ p. 6 à 10 et 20
+
+QCM · Classes de dispositifs médicaux
+Concernant les classes de dispositifs médicaux, quelles propositions sont exactes ?
++ Il existe quatre classes de risque croissant : I, IIa, IIb et III. :: Elles tiennent compte de la durée d'utilisation, du caractère invasif et de la localisation.
+- Un respirateur d'anesthésie appartient à la classe I. :: Il relève de la classe IIb, à risque élevé.
+- Une valve cardiaque implantée relève de la classe IIa. :: Les implants en contact avec la circulation centrale sont en classe III.
+- Des gants d'examen non stériles relèvent de la classe III. :: Ils sont en classe I, à risque faible.
+- La classe d'un dispositif dispense de signaler ses incidents si elle est faible. :: Tous les dispositifs médicaux entrent dans le champ de la matériovigilance.
+> Classe I (gants non stériles), IIa (cathéters courts), IIb (respirateurs, pompes à perfusion), III (implants cardiaques, prothèses). La classe reflète le risque, pas l'obligation de signaler.
+@ p. 11 à 16 et 36
+
+QCM · Ce qui se signale et quand
+Concernant le signalement en matériovigilance, quelles propositions sont exactes ?
++ Un incident ayant entraîné ou pouvant entraîner la mort ou une dégradation grave est un incident grave. :: La gravité tient compte du dommage potentiel, pas seulement du dommage réel.
++ Un incident grave ou un risque d'incident grave se signale sans délai. :: Le soignant alerte son cadre et le correspondant local de matériovigilance.
++ Des gants d'un même lot qui se déchirent sans conséquence relèvent d'un signalement facultatif. :: Les incidents non graves sont transmis périodiquement.
+- Une panne de respirateur rattrapée à temps, sans hypoxie, est un incident mineur. :: Elle aurait pu entraîner une dégradation grave : c'est un risque d'incident grave.
+- On attend de connaître la cause, panne ou erreur humaine, avant de signaler. :: On signale les faits ; l'enquête établit ensuite le rôle du matériel.
+> Incident ou risque d'incident grave (y compris évité de justesse) : signalement sans délai, par le cadre et le correspondant local. Incidents non graves : signalement facultatif et périodique.
+@ p. 45, 46 et 57
+
+QCM · Circuit du signalement à l'hôpital
+Concernant le circuit d'un signalement de matériovigilance en établissement, quelles propositions sont exactes ?
++ Le soignant alerte son cadre et le correspondant local de matériovigilance. :: Le correspondant analyse, recommande les mesures locales et transmet à l'échelon national.
++ Un patient ou un proche peut porter un incident matériel à la connaissance des soignants. :: Son observation peut apporter des faits utiles.
+- Le soignant envoie directement le formulaire de signalement au fabricant. :: En établissement, le signalement passe par le circuit interne et le correspondant local.
+- Le correspondant local démonte le dispositif pour l'expertiser lui-même. :: Il organise sa conservation pour que le fabricant réalise l'expertise.
+- L'équipe qui a signalé n'est plus informée de la suite donnée. :: Le retour d'expertise lui est transmis : il entretient la culture du signalement.
+> Circuit ascendant : soignant → cadre et correspondant local → échelon national. Le fabricant expertise le dispositif et rend un rapport ; l'équipe déclarante reçoit un retour.
+@ p. 38, 39, 42, 43, 47 à 49 et 66
+
+QCU · Moniteur sans alarme
+Au bloc, un moniteur ne déclenche pas d'alarme lors d'une désaturation prolongée. Le patient est sécurisé et le moniteur remplacé. Que faites-vous du moniteur ?
++ Le mettre à l'écart sans l'éteindre ni modifier ses réglages, pour garder sa mémoire. :: L'historique des alarmes est indispensable à l'expertise.
+- L'éteindre et retirer sa batterie pour éviter une surchauffe pendant le stockage. :: Couper l'alimentation peut effacer la mémoire de l'appareil.
+- Remettre les seuils d'alarme d'usine pour tester le haut-parleur en salle. :: Modifier les réglages empêche de reconstituer l'incident.
+- Nettoyer les câbles et capteurs puis les remettre en réserve. :: Le dispositif et ses accessoires sont conservés en l'état, hors d'usage.
+- Jeter le capteur de SpO2 et ne garder que l'écran. :: La panne peut venir du capteur : il est conservé aussi.
+> Après un incident sur un appareil à mémoire : le mettre à l'écart sans l'éteindre ni changer ses réglages, garder les consommables associés et noter les circonstances (geste, branchements, batterie).
+@ p. 55 et 56
+
+QCM · Conserver le matériel et noter les circonstances
+Après un incident impliquant un dispositif médical au bloc, quels gestes sont adaptés ?
++ Isoler le dispositif et ses consommables dans un endroit identifié, hors d'usage. :: Personne ne doit le réutiliser, et les pièces restent disponibles pour l'expertise.
++ Noter le geste en cours, les branchements, le niveau de batterie et les contraintes exercées. :: Ces informations aident le fabricant à reproduire le défaut.
+- Démonter le dispositif pour photographier la pièce en cause avant l'envoi. :: Le dispositif est conservé en l'état pour ne pas fausser l'expertise.
+- Jeter un dispositif souillé de sang pour protéger les personnels. :: On demande au correspondant local ou au fabricant comment le conserver et le transporter.
+- Nettoyer le dispositif et le remettre en service s'il semble fonctionner. :: Il reste hors d'usage jusqu'à l'expertise.
+> Sécuriser le patient, isoler le dispositif et ses consommables en l'état (précautions adaptées s'il est souillé), noter les circonstances, signaler sans attendre d'en connaître la cause.
+@ p. 52, 55 à 57 et 66
+
+QCU · Fuite sur une ligne de perfusion
+À la purge d'une ligne de perfusion, vous voyez une fuite sur un raccord. Une seconde ligne du même lot est étanche. Quelle mesure est adaptée dans un premier temps ?
++ Garder la ligne défectueuse, la signaler et prévenir l'équipe, sans bloquer le lot entier. :: Un défaut isolé, visible avant usage et sans dommage appelle un signalement et une vigilance.
+- Mettre en quarantaine le lot dans tout l'hôpital et suspendre le programme. :: La quarantaine d'un lot dépend de la gravité, de la détectabilité et de la répétition.
+- Jeter la ligne sans signalement, puisque le défaut a été vu avant le branchement. :: Un défaut isolé peut révéler un problème de lot s'il se recoupe avec d'autres signalements.
+- Récupérer le robinet de la ligne qui fuit pour la nouvelle tubulure. :: Le dispositif défectueux est écarté en entier et conservé.
+- Déclarer un incident grave sans délai et demander le retrait du lot. :: Une fuite repérée à la purge, sans dommage, n'est pas un incident grave.
+> Les mesures locales tiennent compte de la gravité, de la détectabilité et de la répétition. Une panne grave et silencieuse impose la quarantaine de l'appareil ; une fuite isolée vue à la purge appelle un signalement et une vigilance d'équipe.
+@ p. 53 et 54
+
+QCM · Analyse d'un incident
+Pour qualifier un incident au bloc, quels critères le correspondant local de matériovigilance prend-il en compte ?
++ L'implication possible d'un dispositif médical. :: C'est la première question.
++ La part d'une défaillance du matériel et celle d'une erreur d'utilisation. :: L'analyse sépare les deux.
++ La gravité réelle ou potentielle de l'incident. :: Un incident rattrapé reste grave si sa répétition peut nuire gravement.
++ Le moment où le défaut est détectable et sa répétition éventuelle. :: Un défaut silencieux ou répété appelle des mesures plus larges.
+- L'ancienneté du soignant qui a constaté l'incident. :: Elle n'entre pas dans la qualification de l'incident.
+> L'analyse porte sur l'implication du dispositif, l'erreur d'utilisation éventuelle, la gravité réelle ou potentielle, la détectabilité et la répétition.
+@ p. 57 et 58
+
+QCU · Rappel de lot
+Le bloc reçoit un rappel de lot de sondes d'intubation pour risque de hernie du ballonnet. Quelle est la conduite à tenir ?
++ Rechercher la référence et le lot dans le stock, isoler ces sondes et prévenir la pharmacie. :: Le rappel vise un lot précis : on vérifie si le bloc est concerné et on l'isole.
+- Retirer les sondes de la marque, y compris les lots non cités. :: Un retrait non ciblé crée une rupture de stock inutile.
+- Continuer à utiliser le lot en testant deux fois le ballonnet avant chaque intubation. :: Un lot rappelé est retiré de l'utilisation selon la consigne.
+- Attendre la prochaine visite du correspondant local pour faire l'inventaire. :: Un rappel s'applique vite, pour protéger les patients programmés.
+- Appeler le fabricant pour un échange avant de prévenir la pharmacie. :: La gestion d'un rappel passe par les circuits de l'établissement.
+> Rappel (alerte descendante) : lire la consigne, vérifier si le bloc détient la référence ou le lot, isoler le matériel, prévenir la pharmacie, le biomédical ou le correspondant local.
+@ p. 43, 67 et 68
+
+QCM · Suite d'un signalement
+Concernant la suite donnée à un signalement de matériovigilance, quelles propositions sont exactes ?
++ Le fabricant expertise le dispositif et rend un rapport avec les mesures prises. :: Modification de conception, rappel ou nouvelle maintenance.
++ Un signalement local peut modifier la maintenance de tout un parc d'appareils. :: Exemple d'une table au vérin défaillant.
+- Si le fabricant ne reproduit pas le défaut, le dossier est classé sans rapport. :: Le fabricant rend un rapport final, même pour justifier l'absence de mesure.
+- Le correspondant local se limite à transmettre les formulaires. :: Il forme aussi les soignants et encourage les signalements.
+- Un incident déjà signalé ailleurs n'a pas besoin d'être signalé à nouveau. :: Les signalements répétés révèlent un problème de lot ou de modèle.
+> Le signalement aboutit à une expertise du fabricant (rapport final), à d'éventuelles mesures sur le parc et à un retour vers l'équipe déclarante. Le correspondant local forme et encourage le signalement.
+@ p. 38, 39, 52, 66 et 68

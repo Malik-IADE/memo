@@ -1,0 +1,115 @@
+// Quiz – Pharmacovigilance (UE 4.4), écrit par Gemini d'après « Vigilances - Pharmacovigilance - UE 4.4 - avec notes », relu et allégé par Claude le 27 novembre 2026.
+// Centré sur ce qui concerne l'IADE : quoi déclarer, défaut qualité, erreurs médicamenteuses et ampoules ressemblantes, traçabilité des MDS. Pas de statistiques de notification ni de fréquences d'effets.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Vigilances – Pharmacovigilance
+
+QCM · Surveillance après la mise sur le marché
+Concernant la pharmacovigilance, quelles propositions sont exactes ?
++ Elle surveille les médicaments tout au long de leur vie, y compris anciens. :: Une simple suspicion suffit à déclencher la surveillance.
++ Les essais avant commercialisation repèrent surtout les effets indésirables fréquents. :: Ils portent sur peu de patients, sélectionnés : les effets rares apparaissent en vie réelle.
++ Un signal peut conduire à restreindre la prescription sans retirer le médicament. :: Les mesures vont de l'information des prescripteurs au retrait.
+- L'autorisation de mise sur le marché fixe définitivement le profil de sécurité. :: La balance bénéfice-risque est réévaluée en continu.
+- Un effet indésirable connu impose d'arrêter le traitement chez chaque patient. :: La décision dépend de la balance bénéfice-risque et de la situation clinique.
+> La pharmacovigilance complète les essais en surveillant les médicaments en vie réelle, où apparaissent les effets rares et les patients à risque. Les mesures vont de l'information à la restriction ou au retrait.
+@ p. 3, 5 et 20 à 23
+
+QCM · Produits concernés et déclarants
+Concernant le champ de la pharmacovigilance, quelles propositions sont exactes ?
++ Les médicaments dérivés du sang, comme l'albumine, en relèvent. :: Ce sont des médicaments, gérés par la pharmacie.
+- Les concentrés de globules rouges relèvent de la pharmacovigilance. :: Les produits sanguins labiles relèvent de l'hémovigilance.
+- La déclaration d'un effet indésirable est réservée aux médecins et pharmaciens. :: Les IADE, les autres soignants et les patients peuvent aussi déclarer.
+- Le lien avec le médicament doit être prouvé avant de déclarer. :: Une suspicion suffit ; le centre régional de pharmacovigilance aide à évaluer le lien.
+- La déclaration d'un patient doit être validée par son médecin. :: Un patient peut déclarer lui-même.
+> La pharmacovigilance couvre les médicaments, dont les dérivés du sang, mais pas les produits sanguins labiles. Tout soignant et tout patient peut déclarer une simple suspicion.
+@ p. 15, 24, 27 et 30
+
+QCM · Ce qu'il faut déclarer
+Concernant les situations à déclarer en pharmacovigilance, quelles propositions sont exactes ?
++ Un effet indésirable grave se déclare même s'il est déjà connu. :: Gravité et caractère attendu sont deux notions différentes.
++ Un effet inattendu, non décrit dans la notice officielle, se déclare même s'il est bénin. :: Il peut révéler un nouveau signal.
++ Les erreurs médicamenteuses et les surdosages entrent dans le champ des déclarations. :: Comme les mésusages et les abus.
++ Le centre régional de pharmacovigilance peut aider à la prise en charge d'un patient. :: Il apporte un avis pharmacologique aux équipes.
+- Un effet survenu lors d'une erreur de dose ne relève pas de la pharmacovigilance. :: Les effets liés à une erreur ou à un surdosage se déclarent aussi.
+> À déclarer : tout effet grave (même connu), tout effet inattendu, les erreurs médicamenteuses, surdosages et mésusages. Le centre régional de pharmacovigilance aide aussi à la prise en charge.
+@ p. 29 et 31 à 33
+
+QCM · Déclaration exploitable
+Concernant le contenu minimal d'une déclaration de pharmacovigilance, quelles propositions sont exactes ?
++ Elle identifie le déclarant, le patient, le médicament suspect et l'effet indésirable. :: Ce sont les quatre éléments minimaux.
++ Elle fait partie du dossier médical et reste couverte par le secret professionnel. :: Les échanges respectent la confidentialité.
+- Elle passe obligatoirement par le portail national en ligne. :: Logiciel interne, téléphone ou courriel sont aussi possibles.
+- Elle ne peut être faite qu'après la sortie du patient. :: Elle se fait dès la suspicion.
+- Elle est inutile si le patient a bien récupéré. :: Un effet guéri reste utile à déclarer pour repérer les signaux.
+> Quatre éléments minimaux : déclarant, patient, médicament suspect, effet indésirable. La chronologie, les doses et les examens complètent la déclaration.
+@ p. 25 et 34 à 37
+
+QCM · Lien entre médicament et effet
+Pour évaluer le lien entre un médicament et un effet indésirable, quels éléments sont analysés ?
++ Le délai entre la prise et l'effet, et l'évolution à l'arrêt. :: Une réapparition à la reprise renforce le lien.
++ Les signes cliniques, les examens et la recherche d'autres causes. :: Chez un patient polymédiqué, un autre produit peut être en cause.
++ La mention de l'effet dans la notice officielle ou la littérature. :: Son absence n'exclut pas le lien : c'est ainsi qu'apparaissent les nouveaux signaux.
+- Le dernier produit administré avant l'effet est le coupable désigné. :: Une réaction retardée peut venir d'un produit reçu la veille, comme un produit de contraste.
+- Un effet absent de la littérature est jugé sans lien avec le médicament. :: Une chronologie et une clinique concordantes suffisent à évoquer le lien.
+> Le lien s'apprécie sur la chronologie (délai, arrêt, reprise), la clinique (examens, autres causes) et la bibliographie (notice, littérature). Un effet non décrit peut être un nouveau signal.
+@ p. 44 à 46, 67 et 68
+
+QCU · Traçabilité de l'albumine
+Au bloc, vous administrez un flacon d'albumine humaine à un patient en choc hémorragique. Quelle exigence de traçabilité s'applique ?
++ Coller les étiquettes de lot sur les deux exemplaires du bordereau, patient et pharmacie. :: Le lot permet de retrouver les patients exposés en cas d'alerte.
+- Noter le nom et la posologie sur la feuille d'anesthésie, sans le lot. :: Le numéro de lot est obligatoire.
+- Renvoyer le flacon vide à l'EFS avec la fiche de délivrance. :: L'albumine est un médicament géré par la pharmacie, pas par l'EFS.
+- Faire un test ABO au lit du patient avant de perfuser l'albumine. :: Le test ABO concerne les concentrés de globules rouges.
+- Relever le lot seulement si le patient présente une réaction. :: La traçabilité du lot se fait à chaque administration.
+> Les médicaments dérivés du sang (albumine, facteurs de coagulation, immunoglobulines) se tracent par lot à chaque administration : bordereau en deux exemplaires, dossier du patient et pharmacie.
+@ p. 49
+
+QCU · Aspect anormal d'un antibiotique
+En reconstituant un antibiotique au bloc, vous observez un précipité et une coloration anormale. Quelle est la conduite à tenir ?
++ Ne pas l'injecter, le garder et le rapporter à la pharmacie avec le lot et la péremption. :: Le produit conservé permet d'enquêter sur un défaut du lot.
+- Le jeter et reconstituer un second flacon du même lot. :: Le défaut peut toucher le lot entier, et la preuve est perdue.
+- Filtrer la solution avec une aiguille filtre pour ne pas retarder l'antibioprophylaxie. :: Un médicament d'aspect anormal ne s'administre pas.
+- Reconstituer deux autres flacons du lot pour voir si le défaut se répète. :: Un flacon suspect suffit à alerter la pharmacie.
+- Faire une déclaration anonyme en fin de semaine, sans garder le flacon. :: Sans produit ni lot identifié, l'enquête ne peut pas aboutir.
+> Défaut qualité suspecté : ne pas utiliser le produit, le conserver et le rapporter à la pharmacie avec le nom complet du médicament, le lot, la péremption et les coordonnées du soignant.
+@ p. 50
+
+QCM · Erreurs médicamenteuses
+Concernant les erreurs médicamenteuses, quelles propositions sont exactes ?
++ Une erreur est avérée dès que le patient a reçu le mauvais médicament, même sans dommage. :: Elle se définit par l'administration erronée, pas par sa conséquence.
++ Une erreur interceptée avant l'administration se déclare aussi. :: Ces « presque accidents » permettent de corriger le système à temps.
++ L'analyse recherche des causes tout au long du circuit du médicament. :: La dernière personne de la chaîne n'explique pas l'erreur à elle seule.
+- Deux ampoules très ressemblantes ne constituent un risque qu'après une erreur. :: C'est un risque latent, à signaler avant qu'un accident ne survienne.
+- L'analyse d'une erreur vise d'abord à désigner le soignant fautif. :: Elle se fait en équipe pour mettre en place des barrières.
+> Erreur avérée (administrée), potentielle (interceptée) ou latente (risque repéré, comme des ampoules ressemblantes) : toutes se déclarent et s'analysent en équipe sur tout le circuit du médicament.
+@ p. 51, 52, 55 et 56
+
+QCM · Situations à haut risque au bloc
+Parmi ces situations, lesquelles sont à haut risque d'erreur médicamenteuse en anesthésie ?
++ La confusion entre éphédrine et épinéphrine. :: Des noms proches exposent à des accidents hémodynamiques graves.
++ Une erreur de programmation d'un pousse-seringue électrique. :: Une erreur d'unité ou de débit peut entraîner un surdosage grave.
++ Une injection par voie intrathécale au lieu de la voie intraveineuse. :: Les erreurs de voie font partie des situations à haut risque.
+- La lecture complète de la composition d'une poche de soluté. :: C'est au contraire ce qui évite de confondre un glucosé pur et un soluté glucosé avec électrolytes.
+- La double vérification d'un calcul de dilution en pédiatrie. :: C'est une barrière de prévention, pas une situation à risque.
+> Situations à haut risque : confusions de noms (éphédrine et épinéphrine, kétamine et eskétamine), programmation des pousse-seringues, chlorure de potassium injectable, gaz médicaux, erreurs de voie. Lire la poche en entier et vérifier les calculs à deux préviennent ces erreurs.
+@ p. 53, 54, 58 et 59
+
+QCU · Ampoules ressemblantes
+Au moment de préparer de la noradrénaline, vous voyez que l'ampoule prise est de la dexaméthasone du même fabricant, d'aspect presque identique. Que faites-vous ?
++ Mettre de côté une ampoule de chaque, la photographier et signaler le risque de confusion. :: Pharmacie et centre régional de pharmacovigilance peuvent faire modifier le rangement ou le conditionnement.
+- Ranger l'ampoule et prévenir oralement vos collègues à la pause. :: Une alerte informelle ne corrige pas le circuit.
+- Ne rien déclarer puisque l'erreur a été interceptée. :: Une erreur interceptée révèle un risque qui doit être déclaré.
+- Coller des gommettes sur les boîtes du chariot sans prévenir la pharmacie. :: Un bricolage local n'alerte ni les autres blocs ni le fabricant.
+- Jeter les deux ampoules pour éviter une nouvelle confusion. :: Les ampoules servent de preuve pour l'alerte.
+> Une confusion d'ampoules interceptée se documente (ampoules mises de côté, photo) et se signale à l'encadrement, à la pharmacie et au centre régional de pharmacovigilance.
+@ p. 69 et 70
+
+QCM · Vérifications avant administration
+Avant d'administrer un médicament au bloc ou en SSPI, quelles pratiques sont recommandées ?
++ Faire dire au patient éveillé son nom, son prénom et sa date de naissance. :: Une question fermée (« vous êtes bien M. X ? ») favorise les erreurs.
++ Lire l'étiquette au prélèvement, à la préparation et juste avant l'injection. :: Trois lectures successives limitent les confusions.
++ Faire confirmer une dose inhabituelle ou un nombre anormal d'ampoules. :: Surtout en pédiatrie, où les erreurs de calcul sont fréquentes.
++ Vérifier à deux les médicaments à risque et les calculs de dilution. :: Les dilutions successives multiplient les occasions d'erreur.
++ Ne pas contre-indiquer un antiseptique iodé après une réaction à un produit de contraste. :: L'« allergie à l'iode » n'existe pas : un avis spécialisé est demandé.
+> Bon patient (identité demandée par une question ouverte), bon médicament (trois lectures), bonne dose (double vérification), bonne voie, bon moment. L'« allergie à l'iode » n'existe pas.
+@ p. 60, 65 à 68 et 71 à 74

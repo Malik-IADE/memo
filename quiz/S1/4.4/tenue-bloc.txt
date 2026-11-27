@@ -1,0 +1,105 @@
+// Quiz – Tenue au bloc opératoire (UE 4.4), écrit par Gemini d'après « Hygiène - Tenue au bloc opératoire - UE 4.4 », relu et allégé par Claude le 27 novembre 2026.
+// Propositions raccourcies, détails de norme et de composition retirés, nombre de bonnes réponses varié.
+// Format : « QCM · thème » ou « QCU · thème », la question, « + » bonne proposition, « - » fausse, « :: » explication de la proposition, « > » correction, « @ » source.
+
+# Hygiène – Tenue au bloc opératoire
+
+QCM · Rôle de la tenue de bloc
+Concernant la tenue de bloc opératoire, quelles propositions sont exactes ?
++ Elle limite la dispersion des squames de peau du personnel dans l'air de la salle. :: Elle participe ainsi à la prévention de l'infection du site opératoire.
++ Une tenue en coton pur n'est pas adaptée au bloc. :: Le coton pur libère davantage de particules ; on utilise du non-tissé ou du polyester-coton.
++ Une tenue réutilisable protège autant qu'une tenue à usage unique. :: Elle est privilégiée pour réduire l'impact environnemental.
+- La tenue de base du service suffit au bloc si elle a été mise propre le matin. :: Le bloc impose une tenue dédiée.
+- Le soignant peut laver sa tenue professionnelle chez lui à 60 °C. :: L'entretien relève de l'employeur.
+> La tenue de bloc (non-tissé ou polyester-coton, pas de coton pur) limite la dispersion des squames et prévient l'infection du site opératoire. Usage unique et réutilisable protègent autant ; le réutilisable est privilégié. L'employeur assure l'entretien.
+@ p. 8 et 14 à 17
+
+QCM · Avant d'entrer au bloc
+Avant de revêtir la tenue de bloc, quelles règles sont exactes ?
++ Ongles courts, sans vernis ni faux ongles. :: Ils gênent l'hygiène des mains et retiennent les micro-organismes.
++ Retirer montre et bijoux, alliance comprise. :: Les bijoux empêchent une friction efficace des mains et des poignets.
++ Pas de vêtement personnel visible sous la tenue. :: Des manches longues empêchent la friction des avant-bras.
++ Nettoyer ses lunettes de vue à la prise de poste. :: Souvent manipulées, elles peuvent transmettre des germes.
+- Garder une alliance lisse sous les gants pour ne pas la perdre. :: L'absence de bijoux inclut l'alliance.
+> Cheveux attachés, aucun vêtement personnel visible, lunettes nettoyées, mains et poignets sans bijoux (alliance comprise), ongles courts sans vernis ; hygiène des mains autour de l'habillage.
+@ p. 7, 8 et 30
+
+QCU · Avoir froid au bloc
+Entre deux interventions, vous avez froid en salle de préparation. Quelle conduite est conforme ?
++ Mettre une veste à manches longues dédiée au bloc, retirée avant tout soin au patient. :: Les manches longues sont proscrites pendant les soins.
+- Enfiler une casaque chirurgicale stérile par-dessus la tunique. :: La casaque stérile n'est pas faite pour cet usage.
+- Garder la veste à manches longues pendant l'installation et la pose de la voie veineuse. :: Les manches longues empêchent l'hygiène des avant-bras pendant les soins.
+- Porter un sous-pull personnel à manches longues sous la tunique. :: Aucun vêtement personnel ne doit dépasser de la tenue.
+- Poser un drap de bloc propre sur les épaules pendant la surveillance. :: Seule une veste dédiée au bloc est prévue contre le froid.
+> Contre le froid : veste à manches longues dédiée au bloc, retirée avant tout soin. Ni casaque stérile, ni vêtement personnel visible.
+@ p. 6, 7 et 18
+
+QCU · Sortie brève du bloc
+Vous devez quitter le bloc cinq minutes pour un motif impérieux. Quelle règle s'applique à votre tenue ?
++ Couvrir la tenue d'une blouse fermée pour une sortie de quelques minutes, ou se changer au retour. :: En principe on ne sort pas en tenue de bloc.
+- Sortir en tenue, avec la coiffe et le masque autour du cou. :: La coiffe est éliminée à chaque sortie et le masque retiré est jeté.
+- Garder la même tenue au retour sans protection si la sortie reste dans l'hôpital. :: Une sortie sans protection impose de changer de tenue au retour.
+- Garder la tenue jusqu'au lendemain si elle n'est pas tachée. :: Elle se change chaque jour et dès qu'elle est souillée.
+- Retirer la tunique et garder le pantalon avec des surchaussures pour la cafétéria. :: La tenue reste dans l'enceinte du bloc.
+> La tenue de bloc reste au bloc, se change chaque jour et dès souillure. Sortie exceptionnelle : changer de tenue au retour, ou blouse fermée pour quelques minutes.
+@ p. 5, 19, 21 et 24
+
+QCM · Coiffe
+Concernant l'article coiffant au bloc, quelles propositions sont exactes ?
++ Il couvre l'ensemble de la chevelure. :: Charlotte, calot ou cagoule conviennent s'ils couvrent tous les cheveux.
++ Il se pose devant un miroir et n'est plus touché ensuite. :: Le manipuler contamine les mains.
+- Il peut être gardé lors d'une sortie rapide puis remis en salle. :: Il est éliminé à chaque sortie du bloc.
+- Une charlotte à usage unique protège mieux qu'un calot réutilisable bien entretenu. :: Ils protègent autant ; le réutilisable réduit les déchets.
+- Il se range dans la poche de la tunique pendant la pause. :: Retiré, il n'est pas réutilisé.
+> La coiffe couvre toute la chevelure, se pose devant un miroir, ne se touche plus, se change si souillée et s'élimine à chaque sortie du bloc.
+@ p. 22 à 25
+
+QCM · Chaussures et surchaussures
+Concernant les chaussures de bloc, quelles propositions sont exactes ?
++ Elles sont réservées au bloc, fermées sur l'avant et aérées sur les côtés. :: Pour protéger des projections et des chutes d'objets piquants.
++ Elles sont lavées et désinfectées chaque jour en machine. :: Et changées dès qu'elles sont souillées.
++ Les surchaussures ne sont pas recommandées. :: Elles n'ont pas fait preuve de leur intérêt et contaminent les mains à la pose et au retrait.
+- Des sabots ouverts sur l'avant sont préférables pour les interventions longues. :: L'avant fermé protège des AES et des traumatismes.
+- Les surchaussures remplacent les sabots dédiés pour les visiteurs. :: Elles n'ont pas démontré d'efficacité.
+> Chaussures de bloc : dédiées, fermées sur l'avant, aérées sur les côtés, antidérapantes, lavées chaque jour en machine. Les surchaussures sont déconseillées.
+@ p. 5, 12 et 27 à 29
+
+QCM · Masque chirurgical et FFP2
+Concernant les masques au bloc, quelles propositions sont exactes ?
++ Le masque chirurgical protège le patient des gouttelettes du soignant. :: Il filtre l'air expiré.
++ Le masque chirurgical se change après 3 à 4 heures de port et dès qu'il est humide ou souillé. :: Et après une intervention ; une fois posé, il ne se touche plus.
++ Le masque FFP2 protège le porteur d'un agent transmis par voie aérienne. :: Il filtre l'air inspiré, par exemple face à une tuberculose.
+- Un masque chirurgical retiré peut être gardé dans la poche pour la suite. :: Il est jeté : le garder contamine les mains et la tenue.
+- Un masque chirurgical à visière remplace le FFP2 face à une tuberculose contagieuse. :: La visière protège des projections, pas de l'inhalation.
+> Masque chirurgical : protège le patient, changé toutes les 3 à 4 h ou s'il est humide, jamais touché ni mis en poche. FFP2 : protège le porteur du risque aérien.
+@ p. 9, 10 et 32
+
+QCM · Gants et lunettes
+Concernant les gants et les lunettes au bloc, quelles propositions sont exactes ?
++ Une paire de gants sert pour un acte et un patient. :: Stériles pour les gestes aseptiques, non stériles pour les soins courants.
+- Des gants chirurgicaux classiques protègent des rayons X comme des gants plombés. :: Sous amplificateur, des gants plombés stériles sont utilisés.
+- Des lunettes de vue suffisent face à un risque de projection. :: Il faut une protection latérale : lunettes de protection ou visière.
+- Une friction hydro-alcoolique sur les gants permet de passer à un autre acte. :: Les gants ne se désinfectent pas.
+- Les lunettes de protection sont réservées à l'équipe chirurgicale. :: Toute personne exposée à un risque de projection en porte.
+> Une paire de gants = un acte = un patient. Lunettes à protection latérale ou visière dès qu'il y a un risque de projection, y compris par-dessus des lunettes de vue.
+@ p. 10, 11 et 32
+
+QCU · Parcours d'accès au bloc
+Vous arrivez pour votre vacation. Quel ordre d'habillage respecte l'asepsie progressive ?
++ Vestiaire central : tenue de base et bijoux retirés ; vestiaire du bloc : tenue de bloc, sabots, coiffe ; préparation : masque. :: Trois étapes, de l'extérieur vers la salle.
+- Vestiaire central : tenue de bloc et sabots ; vestiaire du bloc : masque ; salle : coiffe. :: La tenue de bloc et la coiffe se mettent au vestiaire du bloc.
+- Vestiaire central : tenue de base et coiffe ; préparation : tenue de bloc ; salle : bijoux retirés. :: Les bijoux se retirent dès le vestiaire central.
+- Vestiaire du bloc directement en tenue civile ; préparation : sabots ; salle : masque. :: On passe d'abord par le vestiaire central.
+- Vestiaire central : tenue de base ; vestiaire du bloc : tenue et surchaussures ; préparation : veste. :: Sabots dédiés, pas de surchaussures, pas de veste pendant les soins.
+> Vestiaire central (tenue de base, bijoux retirés, cheveux attachés), vestiaire du bloc (tenue de bloc, sabots, coiffe, dosimètre), espace de préparation (masque obligatoire).
+@ p. 30 à 32
+
+QCM · Discipline en salle
+Concernant la discipline en salle d'opération, quelles propositions sont exactes ?
++ Les portes de la salle restent fermées. :: Les ouvertures créent des courants d'air qui favorisent l'infection du site opératoire.
++ Les allées et venues et les mouvements dans la salle sont limités au nécessaire. :: Surtout en chirurgie propre, comme l'orthopédie.
++ Pour aller au local déchets en tenue de bloc, on met un tablier par-dessus. :: Et des gants pour manipuler les sacs.
++ Au retour en zone protégée, on retire tablier et gants puis on fait une friction hydro-alcoolique. :: Pour ne pas ramener de germes en salle.
+- Laisser la porte entrouverte pendant l'induction ne modifie pas la qualité de l'air. :: Une porte ouverte crée des courants d'air.
+> Portes fermées, déplacements limités, pas de distraction. Local déchets : tablier sur la tenue (± gants), puis retrait et friction hydro-alcoolique au retour.
+@ p. 36 à 38
