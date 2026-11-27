@@ -158,7 +158,7 @@ function render() {
   if (r.view === 'f' && r.id) return r.sub ? renderUE(r.id, r.sub, rubrique(r.item)) : renderFolder(r.id);
   if (r.view === 'fc') return renderFlashcards();
   if (r.view === 'quiz') return r.item && !rubrique(r.item) ? renderQuizSession(`${r.id}/${r.sub}/${r.item}`) : renderQuizMenu(r.id, r.sub, rubrique(r.item));
-  if (r.view === 'quiz-aleatoire') return renderQuizSession(QUIZ_RANDOM);
+  if (r.view === 'quiz-aleatoire') return r.id ? renderQuizSession(randomId(r.id, r.sub)) : renderRandomMenu();
   if (r.view === 'recherche') return renderSearch(searchQuery);
   if (r.view === 'carte' && r.id) return renderCard(r.id);
   if (r.view === 'resultats') return renderResults();
@@ -181,7 +181,7 @@ function trackView() {
     : r.view === 'fc' ? '/flashcards'
     : r.view === 'quiz' ? (r.item ? `/quiz-cours/${quizTitle(`${r.id}/${r.sub}/${r.item}`)}`
       : `/quiz${[r.id, r.sub].filter(Boolean).map((x) => `/${x}`).join('')}`)
-    : r.view === 'quiz-aleatoire' ? '/quiz-aleatoire'
+    : r.view === 'quiz-aleatoire' ? `/quiz-aleatoire${[r.id, r.sub].filter(Boolean).map((x) => `/${x}`).join('')}`
     : COLLECTIONS[r.view] ? `/${r.view}${[r.id, r.sub].filter(Boolean).map((s) => `/${s}`).join('')}`
     : r.view === 'deck' ? `/cours/${name(r.id)}`
     : r.view === 'review' ? `/revision/${name(r.id)}`
@@ -198,7 +198,7 @@ let menuPrecedent = null;
 window.addEventListener('hashchange', (e) => {
   const avant = new URL(e.oldURL).hash || '#/';
   if (!avant.startsWith('#/carte/')) hashPrecedent = avant;
-  if (!/^#\/(review|carte|deck)\//.test(avant) && !/^#\/quiz(-aleatoire|\/[^/]+\/[^/]+\/[^~/])/.test(avant)) menuPrecedent = avant;
+  if (!/^#\/(review|carte|deck)\//.test(avant) && !/^#\/quiz(-aleatoire\/|\/[^/]+\/[^/]+\/[^~/])/.test(avant)) menuPrecedent = avant;
   window.scrollTo(0, 0); render(); trackView();
 });
 
@@ -1129,8 +1129,26 @@ function grade(g) {
 
 /* ---------- Quizz : QCM et QCU, correction immédiate ---------- */
 
+// Quiz aléatoire : « aleatoire » tire dans toutes les UE (adresse #/quiz-aleatoire/tout),
+// « aleatoire/S1/3.3 » dans les quiz d'une UE (adresse #/quiz-aleatoire/S1/3.3).
 const QUIZ_RANDOM = 'aleatoire';
 const QUIZ_RANDOM_SIZE = 20;
+const isRandom = (id) => id === QUIZ_RANDOM || id.startsWith(`${QUIZ_RANDOM}/`);
+const randomId = (sem, ue) => (sem === 'tout' || !ue ? QUIZ_RANDOM : `${QUIZ_RANDOM}/${sem}/${ue}`);
+const randomHref = (id) => (id === QUIZ_RANDOM ? '#/quiz-aleatoire/tout' : `#/quiz-aleatoire/${id.split('/').slice(1).map(enc).join('/')}`);
+/** Questions où tirer : toutes, ou celles d'une UE. */
+const randomPool = (id, all) => {
+  if (id === QUIZ_RANDOM) return all.flatMap((z) => z.questions);
+  const [, sem, ue] = id.split('/');
+  return all.filter((z) => z.sem === sem && z.ue === ue).flatMap((z) => z.questions);
+};
+const randomTitle = (id) => (id === QUIZ_RANDOM ? 'Quiz aléatoire' : `Quiz aléatoire – ${ueLabel(id.split('/')[2])}`);
+const randomMeta = (id, zs) => {
+  const run = quiz.runInfo(id);
+  if (run) return `En cours : question ${run.i + 1}/${run.n}`;
+  const n = Math.min(QUIZ_RANDOM_SIZE, qCount(zs));
+  return id === QUIZ_RANDOM ? `${n} questions tirées dans tous les cours` : `${n} questions tirées dans ${zs.length} quiz`;
+};
 const GRADE_NAMES = ['À revoir', 'Difficile', 'Bien', 'Facile'];
 const LETTERS = 'ABCDEFGH';
 let qsession = null;
@@ -1176,10 +1194,7 @@ function renderQuizMenu(sem, ue, group = null) {
       <main class="page">
         <p class="hint center">QCM et QCU corrigés tout de suite, avec la source du cours.</p>
         <ul class="folder-list">
-          ${folderRow('#/quiz-aleatoire', 'Quiz aléatoire', (() => {
-            const run = quiz.runInfo(QUIZ_RANDOM);
-            return run ? `En cours : question ${run.i + 1}/${run.n}` : `${QUIZ_RANDOM_SIZE} questions tirées dans tous les cours`;
-          })(), 0, ico.shuffle)}
+          ${folderRow('#/quiz-aleatoire', 'Quiz aléatoire', 'Toutes les UE ou une seule UE', 0, ico.shuffle)}
           ${sems.map((s) => {
             const zs = all.filter((z) => z.sem === s);
             const ues = new Set(zs.map((z) => z.ue));
@@ -1225,16 +1240,43 @@ function renderQuizMenu(sem, ue, group = null) {
     </main>`;
 }
 
-/** Une série : toutes les questions d'un cours, ou un tirage dans tous les cours. */
+/** Quiz aléatoire : toutes les UE en tête, puis un tirage par UE. */
+function renderRandomMenu() {
+  qsession = null;
+  const all = quiz.loadedQuizzes();
+  if (!all) return quizLoading('#/quiz', 'Quiz aléatoire');
+  if (!all.length) { location.hash = '#/quiz'; return; }
+  const ues = [...new Set(all.map((z) => `${z.sem}/${z.ue}`))]
+    .sort((a, b) => byKey(a.split('/')[0], b.split('/')[0]) || byKey(a.split('/')[1], b.split('/')[1]));
+  const sems = new Set(ues.map((k) => k.split('/')[0]));
+  $app.innerHTML = `${topbarFolder('#/quiz', 'Quiz aléatoire', 'Quizz')}
+    <main class="page">
+      <ul class="folder-list">
+        ${folderRow(randomHref(QUIZ_RANDOM), 'Quiz aléatoire toutes les UE', randomMeta(QUIZ_RANDOM, all), 0, ico.shuffle)}
+      </ul>
+      <p class="section-label">Par UE</p>
+      <ul class="folder-list">
+        ${ues.map((k) => {
+          const [sem, ue] = k.split('/');
+          const id = randomId(sem, ue);
+          const zs = all.filter((z) => z.sem === sem && z.ue === ue);
+          const label = sems.size > 1 ? `${ueLabel(ue)} · ${semLabel(sem)}` : ueLabel(ue);
+          return folderRow(randomHref(id), label, randomMeta(id, zs), 0, ico.shuffle);
+        }).join('')}
+      </ul>
+    </main>`;
+}
+
+/** Une série : toutes les questions d'un cours, ou un tirage dans tous les cours ou dans une UE. */
 function buildQuizSession(id, fresh = false) {
   const all = quiz.loadedQuizzes();
   if (!fresh) {
-    const pool = id === QUIZ_RANDOM ? all.flatMap((z) => z.questions) : quizBySlug(id)?.questions || [];
+    const pool = isRandom(id) ? randomPool(id, all) : quizBySlug(id)?.questions || [];
     const back = quiz.restoreRun(id, pool);
     if (back) { if (back.i > 0) toast(`Reprise à la question ${back.i + 1} sur ${back.items.length}`); return back; }
   }
-  const qs = id === QUIZ_RANDOM
-    ? quiz.randomPick(all.flatMap((z) => z.questions), QUIZ_RANDOM_SIZE)
+  const qs = isRandom(id)
+    ? quiz.randomPick(randomPool(id, all), QUIZ_RANDOM_SIZE)
     : quiz.shuffle(quizBySlug(id)?.questions || []);
   return {
     id, items: qs.map((q) => ({ q, order: quiz.optionOrder(q) })), i: 0,
@@ -1245,14 +1287,14 @@ function buildQuizSession(id, fresh = false) {
 
 function renderQuizSession(id) {
   const all = quiz.loadedQuizzes();
-  const random = id === QUIZ_RANDOM;
+  const random = isRandom(id);
   const back = menuPrecedent && menuPrecedent.startsWith('#/quiz') ? menuPrecedent
-    : random ? '#/quiz' : `#/quiz/${id.split('/').slice(0, 2).map(enc).join('/')}${quizBySlug(id)?.group ? `/~${enc(quizBySlug(id).group)}` : ''}`;
+    : random ? '#/quiz-aleatoire' : `#/quiz/${id.split('/').slice(0, 2).map(enc).join('/')}${quizBySlug(id)?.group ? `/~${enc(quizBySlug(id).group)}` : ''}`;
   if (!all) return quizLoading(back, 'Quizz');
-  if (!random && !quizBySlug(id)) { location.hash = '#/quiz'; return; }
+  if (random ? !randomPool(id, all).length : !quizBySlug(id)) { location.hash = random ? '#/quiz-aleatoire' : '#/quiz'; return; }
   if (!qsession || qsession.id !== id) qsession = buildQuizSession(id);
   const s = qsession;
-  const title = random ? 'Quiz aléatoire' : quizTitle(id);
+  const title = random ? randomTitle(id) : quizTitle(id);
   const item = s.items[s.i];
 
   if (!item) {
@@ -1435,7 +1477,7 @@ function quizGrade(g) {
   // Statistiques anonymes, seulement pour un quiz terminé : le quiz, puis le nombre
   // d'auto-évaluations de chaque niveau (sans les réponses).
   if (s.i >= s.items.length) {
-    const titre = s.id === QUIZ_RANDOM ? 'Quiz aléatoire' : quizTitle(s.id);
+    const titre = isRandom(s.id) ? randomTitle(s.id) : quizTitle(s.id);
     statEvents([{ path: `quiz-fini/${titre}`, title: titre },
       ...s.grades.flatMap((n, k) => Array.from({ length: n }, () => ({ path: `quiz-fini-note-${k}`, title: GRADE_NAMES[k] })))]);
   }
@@ -1749,7 +1791,7 @@ function openViewer(src) {
 document.addEventListener('keydown', (e) => {
   if (!qsession || modal.open || e.metaKey || e.ctrlKey || e.altKey || e.target.matches('input, textarea')) return;
   const r = route();
-  if (!(r.view === 'quiz-aleatoire' || (r.view === 'quiz' && r.item))) return;
+  if (!((r.view === 'quiz-aleatoire' && r.id) || (r.view === 'quiz' && r.item))) return;
   const s = qsession, item = s.items[s.i];
   if (!item) return;
   if (!s.validated) {
