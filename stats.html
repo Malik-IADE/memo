@@ -415,6 +415,7 @@
   /* ---------- Lecture des chemins envoyés par l'app ---------- */
   // Écrans de l'app : /accueil, /flashcards, /S1, /S1/3.3, /annales, /annales/S1,
   // /annales/S1/3.3 (la liste des annales d'une UE), /cours/<nom>, /revision/<nom>,
+  // rubriques d'une UE : /S1/3.3/~Terrains, /quiz/S1/3.3/~Chirurgie,
   // /duel, /duel/creer, /duel/rejoindre, /duel/partie (duel 1 contre 1).
   // Quiz d'annale ouvert : /annales/S1/3.3-2013-2015 (la période fait partie du chemin).
   const decode = (p) => { try { return decodeURIComponent(p); } catch { return p; } };
@@ -442,6 +443,8 @@
       if (path === '/quiz') add(screens, 'Quizz', n);
       else if ((m = path.match(/^\/quiz\/(S\d+)$/i))) add(screens, `Quizz · ${m[1]}`, n);
       else if ((m = path.match(/^\/quiz\/(S\d+)\/([^/]+)$/i))) add(screens, `Quizz · UE ${m[2]} · ${m[1]}`, n);
+      else if ((m = path.match(/^\/quiz\/(S\d+)\/([^/]+)\/~([^/]+)$/i))) add(screens, `Quizz · UE ${m[2]} · ${m[1]} · ${m[3]}`, n);
+      else if ((m = path.match(/^\/(S\d+)\/([^/]+)\/~([^/]+)$/i))) add(screens, `Flashcards · UE ${m[2]} · ${m[1]} · ${m[3]}`, n);
       else if ((m = path.match(/^\/revision\/(.+)$/))) {
         revisions.set(m[1], (revisions.get(m[1]) || 0) + n); revTotal += n;
         for (const st of hit.stats || []) {
