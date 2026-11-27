@@ -783,7 +783,7 @@ function renderHome() {
       </ul>
       <a class="duel-cta" href="#/duel">
         <span class="duel-cta-vs" aria-hidden="true">1v1</span>
-        <span class="duel-cta-t"><b>DUEL 1 contre 1</b><span>Affronte quelqu’un en direct sur un quiz</span></span>
+        <span class="folder-text"><span class="folder-name">DUEL 1 contre 1</span><span class="folder-meta">Affronte quelqu’un en direct sur un quiz</span></span>
         <span class="duel-big-chev">${ico.chevron}</span>
       </a>
     </main>`;

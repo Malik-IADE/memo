@@ -532,24 +532,24 @@ a.search-box:active { transform: scale(.995); }
 
 /* ---------- Duel 1 contre 1 ---------- */
 /* Dégradé de l'app calé sur le bord extérieur (sinon il se répète sous une bordure transparente). */
-.duel-grad, .duel-cta, .duel-big { background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899) border-box; color: #fff; }
+/* Boutons du duel (accueil et menu) : fond neutre, seul le logo porte le dégradé. */
+.duel-grad { background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899) border-box; color: #fff; }
+.duel-cta, .duel-big { background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
 .btn.duel-grad { border: 0; color: #fff; background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899) border-box; box-shadow: 0 4px 16px rgba(139, 92, 246, .3); }
 .btn.duel-grad:disabled { opacity: .45; box-shadow: none; cursor: default; }
 /* Bouton en bas de l'accueil */
-.duel-cta { display: flex; align-items: center; gap: 14px; padding: 16px 18px; border-radius: 18px; box-shadow: 0 6px 22px rgba(139, 92, 246, .35); transition: transform .08s ease, filter .15s; }
-.duel-cta:hover, .duel-big:hover { filter: brightness(1.08); }
+.duel-cta { display: flex; align-items: center; gap: 14px; padding: 16px 18px; border-radius: 18px; transition: transform .08s ease, background-color .15s; }
+.duel-cta:hover, .duel-big:hover { background: var(--surface-2); }
 .duel-cta:active, .duel-big:active { transform: scale(.98); }
-.duel-cta-vs { width: 44px; height: 44px; flex: none; border-radius: 14px; display: grid; place-items: center; background: rgba(255,255,255,.2); font-weight: 900; letter-spacing: -.04em; }
-.duel-cta-t { flex: 1; min-width: 0; display: flex; flex-direction: column; }
-.duel-cta-t b { font-size: 1.05rem; letter-spacing: .01em; }
-.duel-cta-t span { font-size: .84rem; opacity: .92; }
-.duel-big-chev { display: inline-flex; opacity: .75; flex: none; }
+.duel-cta-vs { width: 44px; height: 44px; flex: none; border-radius: 14px; display: grid; place-items: center; background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899); color: #fff; font-weight: 900; letter-spacing: -.04em; box-shadow: 0 4px 14px rgba(139, 92, 246, .35); }
+/* Texte du bouton : mêmes classes que les autres lignes de l'accueil (.folder-text, .folder-name, .folder-meta). */
+.duel-big-chev { display: inline-flex; color: var(--muted); flex: none; }
 /* Menu du duel */
 .duel-actions { display: flex; flex-direction: column; gap: 12px; }
-.duel-big { display: flex; align-items: center; gap: 14px; padding: 18px; border-radius: 18px; box-shadow: 0 6px 22px rgba(139, 92, 246, .3); transition: transform .08s ease, filter .15s; }
+.duel-big { display: flex; align-items: center; gap: 14px; padding: 18px; border-radius: 18px; transition: transform .08s ease, background-color .15s; }
 .duel-big b { flex: 1; min-width: 0; font-size: 1.08rem; display: flex; flex-direction: column; }
-.duel-big b small { font-size: .82rem; font-weight: 600; opacity: .9; }
-.duel-big-ic, .duel-ic { width: 46px; height: 46px; flex: none; border-radius: 14px; display: grid; place-items: center; background: rgba(255,255,255,.2); color: #fff; }
+.duel-big b small { font-size: .82rem; font-weight: 600; color: var(--muted); }
+.duel-big-ic, .duel-ic { width: 46px; height: 46px; flex: none; border-radius: 14px; display: grid; place-items: center; background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899); color: #fff; box-shadow: 0 4px 14px rgba(139, 92, 246, .35); }
 .duel-big-ic svg { width: 24px; height: 24px; }
 .folder-icon.duel-ic { background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899); width: 42px; height: 42px; border-radius: 12px; }
 .duel-explain { align-self: center; display: inline-flex; align-items: center; gap: 8px; font: inherit; font-weight: 600; font-size: .9rem; cursor: pointer;

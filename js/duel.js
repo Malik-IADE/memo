@@ -39,10 +39,13 @@ export function init(outils) {
   $app = outils.$app;
   document.addEventListener('click', clic);
   document.addEventListener('keydown', clavier);
-  // Retour du réseau : reconnexion tout de suite, sans attendre la fin du délai d'essai.
-  window.addEventListener('online', () => {
+  // Retour du réseau, ou retour dans Mémo après être passé dans une autre application (le téléphone
+  // coupe souvent la connexion) : reconnexion tout de suite, sans attendre la fin du délai d'essai.
+  const relancerVite = () => {
     if (co && !co.ferme && (!co.ws || co.ws.readyState > 1)) { clearTimeout(co.relance); ouvrir(co); }
-  });
+  };
+  window.addEventListener('online', relancerVite);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') relancerVite(); });
 }
 
 /* ---------- Partie gardée dans le navigateur ---------- */
@@ -101,6 +104,37 @@ function ecranMenu() {
     </main>`;
 }
 
+// Une partie est déjà en cours : bandeau en haut de « Créer » et « Rejoindre ». En lancer une autre
+// demande une confirmation dans la page, puis quitte proprement l'ancienne auprès du serveur.
+let remplacement = null;
+const bandeauEnCours = (s) => (s ? `<div id="duel-remplacer"><p class="duel-tip">${icones.info}<span>Une partie est en cours (code ${h.esc(s.code)}). <a href="#/duel/partie"><b>La reprendre</b></a></span></p></div>` : '');
+
+function demanderRemplacement(action) {
+  remplacement = action;
+  const z = $app.querySelector('#duel-remplacer');
+  if (!z) return action();
+  z.innerHTML = `<div class="quiz-confirm" role="alert"><p><strong>Quitter la partie en cours ?</strong> Si elle a commencé, ton adversaire gagnera par forfait.</p>
+    <div class="quiz-confirm-actions">
+      <button type="button" class="btn danger small" data-duel="remplacer-oui">Quitter et continuer</button>
+      <a class="btn ghost small" href="#/duel/partie">La reprendre</a>
+    </div></div>`;
+  z.scrollIntoView({ block: 'center' });
+}
+
+/** Annonce l'abandon de l'ancienne partie au serveur (2,5 s au plus), puis l'oublie. */
+function quitterAncienne(s) {
+  return new Promise((fin) => {
+    let ws = null;
+    const finir = () => { clearTimeout(t); try { ws?.close(1000); } catch {} fin(); };
+    const t = setTimeout(finir, 2500);
+    try { ws = new WebSocket(urlWs(s)); } catch { finir(); return; }
+    ws.onopen = () => { ws.send(JSON.stringify({ t: 'abandon' })); setTimeout(finir, 300); };
+    ws.onerror = finir;
+  }).then(() => ecrireSession(null));
+}
+
+const urlWs = (s) => `${SERVEUR.replace(/^http/, 'ws')}/ws?code=${encodeURIComponent(s.code)}&jeton=${encodeURIComponent(s.jeton)}`;
+
 async function ecranCreer() {
   const liste = quiz.knownList().length ? quiz.knownList() : await quiz.loadList();
   if (location.hash !== '#/duel/creer') return;
@@ -116,6 +150,7 @@ async function ecranCreer() {
       <span class="folder-chev">${h.ico.chevron}</span></button></li>`;
   $app.innerHTML = `${h.topbarFolder('#/duel', 'Créer une partie', 'Duel 1 contre 1')}
     <main class="page duel">
+      ${bandeauEnCours(lireSession())}
       <section class="duel-card">
         <div class="duel-set"><span>Questions</span><output id="duel-o-nq">${reglages.nq}</output></div>
         ${seg('nq', NQ, '', 'Nombre de questions')}
@@ -136,6 +171,7 @@ async function ecranCreer() {
 function ecranRejoindre(erreur = '', saisi = '') {
   $app.innerHTML = `${h.topbarFolder('#/duel', 'Rejoindre', 'Duel 1 contre 1')}
     <main class="page duel">
+      ${bandeauEnCours(lireSession())}
       <form class="duel-saisie" data-duel-form="rejoindre" novalidate>
         <label for="duel-code">Entre le code reçu</label>
         <input id="duel-code" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false"
@@ -157,6 +193,7 @@ function ecranRejoindre(erreur = '', saisi = '') {
     e.preventDefault();
     const code = inp.value.replace(/\s/g, '');
     if (code.length !== 6 || btn.dataset.busy) return;
+    if (lireSession()) { demanderRemplacement(() => $app.querySelector('form')?.requestSubmit()); return; }
     btn.dataset.busy = '1'; btn.disabled = true; btn.textContent = 'Connexion…';
     const r = await appel('/rejoindre', { code });
     if (location.hash !== '#/duel/rejoindre') return;
@@ -175,12 +212,17 @@ async function appel(chemin, corps) {
   return res.ok ? data : { erreur: data.erreur || 'serveur' };
 }
 
+let creation = false; // une seule création à la fois, quelle que soit la ligne touchée
+
 async function creer(btn) {
-  if (btn.dataset.busy) return;
+  if (creation) return;
+  if (lireSession()) { demanderRemplacement(() => creer(btn)); return; }
+  creation = true;
   const meta = btn.querySelector('.folder-meta');
   const avant = meta.textContent;
   btn.dataset.busy = '1'; btn.classList.add('is-busy'); meta.textContent = 'Création de la partie…';
   const r = await appel('/creer', { portee: btn.dataset.portee, nq: reglages.nq, temps: reglages.temps });
+  creation = false;
   delete btn.dataset.busy; btn.classList.remove('is-busy'); meta.textContent = avant;
   if (location.hash !== '#/duel/creer') return;
   if (r.erreur) { h.toast(ECHEC[r.erreur] || 'Le serveur du duel ne répond pas. Réessaie.'); return; }
@@ -205,7 +247,7 @@ function connecter(s) {
 }
 
 function ouvrir(c) {
-  const ws = new WebSocket(`${SERVEUR.replace(/^http/, 'ws')}/ws?code=${encodeURIComponent(c.code)}&jeton=${encodeURIComponent(c.jeton)}`);
+  const ws = new WebSocket(urlWs(c));
   c.ws = ws;
   // Chaque gestionnaire ignore une connexion qui n'est plus la connexion en cours (retour du réseau :
   // l'ancienne peut finir de se fermer après l'ouverture de la nouvelle).
@@ -332,17 +374,20 @@ const infoQuiz = (s) => `<section class="duel-card duel-info"><span class="folde
 
 function confirmation(s) {
   if (!co.confirmer) return '';
-  const txt = s.phase === 'attente'
-    ? '<strong>Annuler la partie ?</strong> Le code ne fonctionnera plus.'
-    : '<strong>Quitter le duel ?</strong> Ton adversaire gagnera par forfait.';
+  const createur = s.role === 'A';
+  const txt = s.phase !== 'attente' ? '<strong>Quitter le duel ?</strong> Ton adversaire gagnera par forfait.'
+    : createur ? '<strong>Annuler la partie ?</strong> Le code ne fonctionnera plus.'
+    : '<strong>Quitter la partie ?</strong> Tu pourras la rejoindre à nouveau avec le même code.';
+  const bouton = s.phase !== 'attente' ? 'Quitter' : createur ? 'Annuler la partie' : 'Quitter la partie';
   return `<div class="quiz-confirm" role="alert"><p>${txt}</p>
     <div class="quiz-confirm-actions">
-      <button type="button" class="btn danger small" data-duel="quitter-oui">${s.phase === 'attente' ? 'Annuler la partie' : 'Quitter'}</button>
+      <button type="button" class="btn danger small" data-duel="quitter-oui">${bouton}</button>
       <button type="button" class="btn ghost small" data-duel="quitter-non">Continuer</button>
     </div></div>`;
 }
 
 function vueAttente(s) {
+  if (s.role === 'B') return vueAttenteInvite(s);
   const code = h.esc(s.code);
   const minutes = Math.max(1, Math.ceil(s.expire / 60000));
   $app.innerHTML = `${barre('Partie créée')}
@@ -357,6 +402,22 @@ function vueAttente(s) {
       <p class="duel-attente-txt"><span class="duel-dots"><i></i><i></i><i></i></span> ${s.adversaire ? 'Ton adversaire arrive…' : 'En attente de ton adversaire'}</p>
       ${infoQuiz(s)}
       <p class="duel-tip">${icones.info}<span>Le duel démarre tout seul dès que ton adversaire a rejoint la partie. Garde cette page ouverte. Code valable encore ${minutes} min.</span></p>
+    </main>`;
+}
+
+// L'invité attend le créateur (souvent sorti de Mémo pour envoyer le code) : écran à lui, sans « Donne ce code ».
+function vueAttenteInvite(s) {
+  $app.innerHTML = `${barre('Partie rejointe')}
+    <main class="page duel">
+      ${confirmation(s)}
+      <div class="duel-joueurs">
+        <div class="duel-pl"><span class="duel-av b">T</span><b>Toi</b><span class="ok">Prêt</span></div>
+        <span class="duel-vs">VS</span>
+        <div class="duel-pl"><span class="duel-av a">C</span><b>Créateur</b><span class="${s.enLigne ? 'ok' : ''}">${s.enLigne ? 'Connecté' : 'Absent'}</span></div>
+      </div>
+      <p class="duel-attente-txt"><span class="duel-dots"><i></i><i></i><i></i></span> En attente du créateur de la partie</p>
+      ${infoQuiz(s)}
+      <p class="duel-tip">${icones.info}<span>Le créateur a quitté Mémo un instant, sans doute pour t’envoyer le code. Le duel démarre tout seul dès qu’il revient. Garde cette page ouverte.</span></p>
     </main>`;
 }
 
@@ -661,6 +722,12 @@ function clic(e) {
     b.parentNode.querySelectorAll('button').forEach((x) => { x.classList.toggle('on', x === b); x.setAttribute('aria-pressed', String(x === b)); });
     $app.querySelector(`#duel-o-${cle}`).textContent = cle === 'temps' ? `${v} s` : v;
   } else if (a === 'creer') creer(b);
+  else if (a === 'remplacer-oui') {
+    const s = lireSession(), action = remplacement;
+    remplacement = null;
+    b.disabled = true; b.textContent = 'Fermeture…';
+    (s ? quitterAncienne(s) : Promise.resolve()).then(() => { $app.querySelector('#duel-remplacer')?.remove(); action?.(); });
+  }
   else if (a === 'copier') {
     const code = co?.etat?.code;
     if (!code) return;
@@ -697,5 +764,10 @@ function clavier(e) {
   if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
   const k = LETTRES.indexOf(e.key.toUpperCase());
   if (k >= 0 && e.key.length === 1) { e.preventDefault(); choisir(k); }
-  else if (e.key === 'Enter') { e.preventDefault(); valider(); }
+  else if (e.key === 'Enter') {
+    // Entrée sur un bouton (« Quitter », « Continuer »…) l'actionne ; ailleurs, elle valide la réponse.
+    const cible = e.target.closest?.('button, a');
+    if (cible && !cible.closest('.quiz-opts')) return;
+    e.preventDefault(); valider();
+  }
 }
