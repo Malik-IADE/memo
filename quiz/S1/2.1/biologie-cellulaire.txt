@@ -10,7 +10,7 @@ Concernant le génome humain, quelle proposition est exacte ?
 - La majeure partie de sa séquence code des protéines. :: Moins de 2 % du génome code des protéines.
 - Il diffère d'un tissu à l'autre chez un même individu. :: Le génome est le même ; c'est son utilisation qui diffère.
 - Il est entièrement transcrit en permanence. :: Une partie seulement est transcrite, et chaque gène à un moment donné.
-- Il se limite à l'ADN transmis par la mère. :: Le génome nucléaire associe une contribution du père et de la mère ; seul l'ADN mitochondrial est maternel.
+- Il provient en majorité de la mère, par l'ovocyte. :: Le génome nucléaire associe à parts égales une contribution du père et de la mère ; seul l'ADN mitochondrial est maternel.
 > Le génome est l'ensemble de l'information héréditaire, présent en totalité dans chaque cellule. Une faible part est codante : toute la séquence d'un gène n'est pas traduite.
 @ p. 2 et 8
 
@@ -49,7 +49,7 @@ Concernant les facteurs de transcription, quelles propositions sont exactes ?
 + Ils se fixent sur des séquences régulatrices de l'ADN. :: Ce sont les « éléments cis » du promoteur.
 - Ils synthétisent l'ARN à partir de la matrice d'ADN. :: C'est le rôle de l'ARN polymérase.
 - Ils relient les acides aminés de la future protéine. :: C'est le rôle du ribosome.
-- Un seul facteur de transcription suffit à sélectionner les gènes exprimés par une cellule. :: C'est la combinaison de plusieurs facteurs, propre à chaque cellule, qui sélectionne les gènes exprimés.
+- Un facteur de transcription isolé suffit à sélectionner les gènes exprimés par une cellule. :: C'est la combinaison de plusieurs facteurs, propre à chaque cellule, qui sélectionne les gènes exprimés.
 - Ils retirent les introns de l'ARN messager. :: C'est l'épissage, réalisé par une autre machinerie.
 > Les facteurs de transcription (activateurs ou répresseurs) se fixent sur l'ADN et règlent quand et combien un gène est transcrit. L'ARN polymérase fabrique l'ARN.
 @ p. 12 à 14 et 60
@@ -129,7 +129,7 @@ Concernant les acides aminés et la liaison peptidique, quelles propositions son
 + Chaque acide aminé possède une fonction acide et une fonction amine. :: Elles permettent de former la liaison peptidique.
 + La chaîne latérale distingue les acides aminés entre eux. :: Elle détermine leur taille, leur charge et leur caractère hydrophile ou hydrophobe.
 + La liaison peptidique relie deux acides aminés successifs. :: Ce sont les liens du « collier de perles ».
-+ La fabrication d'une chaîne d'acides aminés consomme de l'énergie. :: Chaque ajout a un coût énergétique.
+- La chaîne latérale forme la liaison peptidique avec l'acide aminé suivant. :: La liaison peptidique relie la fonction acide d'un acide aminé à la fonction amine du suivant ; la chaîne latérale n'y participe pas.
 + L'ordre des acides aminés dépend de l'ordre des codons de l'ARN messager. :: C'est le principe de la traduction.
 > Un acide aminé = fonction acide + fonction amine + chaîne latérale. Les acides aminés sont reliés par des liaisons peptidiques, dans l'ordre des codons.
 @ p. 25, 29 et 30
@@ -156,10 +156,10 @@ Concernant les mutations ponctuelles, quelles propositions sont exactes ?
 
 QCM · Cadre de lecture
 Dans la partie codante d'un gène, deux nucléotides sont supprimés. Quelles propositions sont exactes ?
-+ Tous les codons situés après la délétion sont décalés. :: Deux nucléotides ne forment pas un triplet : le découpage change.
++ Les codons situés après la délétion sont décalés. :: Deux nucléotides ne forment pas un triplet : le découpage change.
 - La protéine perd simplement deux acides aminés. :: On retire des nucléotides, pas des acides aminés : c'est toute la lecture qui change.
 - La redondance du code permet d'obtenir une protéine identique. :: La redondance compense une substitution, pas un décalage du cadre.
-- Seul le codon touché par la délétion est modifié. :: Toute la suite de la séquence est lue différemment.
+- La modification se limite au codon touché par la délétion. :: Toute la suite de la séquence est lue différemment.
 - Une délétion de trois nucléotides aurait décalé la lecture de la même façon. :: Un triplet complet retiré enlève un acide aminé sans décaler la suite.
 > Le cadre de lecture découpe la séquence en triplets. Une délétion qui n'est pas un multiple de 3 décale tous les codons suivants et fait souvent apparaître un codon stop prématuré.
 @ p. 41
@@ -177,7 +177,7 @@ Un segment d'un chromosome se retrouve fixé sur un autre chromosome. De quelle 
 QCU · Expansion de triplets
 Concernant l'expansion de triplets, quelle proposition est exacte ?
 - Elle correspond à la perte d'un segment entier de chromosome. :: C'est une délétion.
-- Elle ne touche qu'une seule base. :: C'est la répétition d'un groupe de trois nucléotides, souvent de nombreuses fois.
+- Elle correspond à la substitution d'une base isolée. :: C'est la répétition d'un groupe de trois nucléotides, souvent de nombreuses fois.
 + Le nombre de répétitions peut augmenter au fil des générations. :: Une anomalie peu visible peut alors finir par donner une maladie.
 - Elle ne modifie pas la protéine produite. :: Elle peut répéter un même acide aminé et modifier la protéine.
 - Elle correspond à l'échange de fragments entre deux chromosomes. :: C'est une translocation réciproque.

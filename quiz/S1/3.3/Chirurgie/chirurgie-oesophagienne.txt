@@ -9,7 +9,7 @@ Concernant l'anatomie de l'œsophage et les principes de l'œsophagectomie pour 
 + L'œsophage s'étend du cartilage cricoïde (C6) au cardia (L1) dans le médiastin postérieur, avec trois segments (cervical, thoracique et abdominal). :: Il mesure environ 25 cm et présente quatre zones de rétrécissement (cricoïde, crosse aortique, bronche souche gauche et diaphragme).
 + L'intervention associe exérèse œsophagienne, curage ganglionnaire et ascension d'un transplant le plus souvent gastrique, parfois colique. :: Les voies d'abord associent temps abdominal et thoracique droit (Lewis-Santy), voire un temps cervical (trois voies).
 + Le potentiel hémorragique d'environ 500 à 800 mL justifie de préparer un bilan prétransfusionnel et un accélérateur-réchauffeur. :: Une transfusion peropératoire peut être nécessaire lors de cette chirurgie majeure.
-- Les quatre zones de rétrécissement anatomique sont le larynx, la carène, l'oreillette droite et le pylore. :: Les quatre rétrécissements sont le cartilage cricoïde, la crosse de l'aorte, la bronche souche gauche et le diaphragme.
+- Les zones de rétrécissement anatomique de l'œsophage siègent au niveau de la carène, de la bronche souche droite et du pylore. :: Les quatre rétrécissements sont le cartilage cricoïde, la crosse de l'aorte, la bronche souche gauche et le diaphragme ; le pylore appartient à l'estomac.
 - L'œsophagectomie transthoracique de Lewis-Santy passe par une laparotomie associée à une thoracotomie gauche. :: La voie de Lewis-Santy associe un temps abdominal et une thoracotomie droite (accès à l'œsophage thoracique).
 > Œsophage : C6 à L1 (médiastin postérieur), 3 segments, 4 rétrécissements (cricoïde, crosse aortique, bronche souche G, diaphragme). Chirurgie majeure (transplant gastrique ou colique, saignement 500–800 mL → bilan prétransfusionnel et accélérateur-réchauffeur).
 @ p. 3, 8, 9 et 39
@@ -26,13 +26,13 @@ Concernant le retentissement pulmonaire après une œsophagectomie, quelles prop
 
 QCM · Retentissement cardiovasculaire et immunologique
 Concernant les répercussions cardiovasculaires et immunologiques de l'œsophagectomie, quelles propositions sont exactes ?
-+ Le traumatisme du système nerveux autonome (baisse parasympathique par lésion du vague et hausse sympathique) favorise la tachycardie sinusale et la fibrillation auriculaire. :: Les troubles du rythme sont une complication classique de cette chirurgie médiastinale.
++ Le traumatisme du système nerveux autonome (baisse parasympathique par lésion du vague et hausse sympathique) favorise les troubles du rythme, au premier rang desquels la tachycardie sinusale. :: Les troubles du rythme sont une complication classique de cette chirurgie médiastinale.
 + La dilatation du transplant gastrique ou les manipulations chirurgicales peuvent gêner le remplissage cardiaque et comprimer la veine cave inférieure. :: En peropératoire, ces compressions provoquent des hypotensions transitoires et des extrasystoles ventriculaires.
-+ Une lésion du canal thoracique expose au chylothorax et à des collections lymphatiques responsables d'un déficit hydrique important. :: Cette complication spécifique doit être évoquée devant un épanchement chyleux ou une hypovolémie persistante.
++ Une lésion du canal thoracique peut créer des collections lymphatiques responsables d'un déficit hydrique important. :: Ce déficit hydrique s'ajoute aux autres causes d'hypovolémie postopératoire.
 + La diminution marquée de l'immunité cellulaire et le SRIS augmentent le risque infectieux, de SDRA et de dysfonction systolique. :: Le retentissement immunologique contribue directement à la morbidité postopératoire élevée de cette chirurgie.
 - Les variations tensionnelles peropératoires traduisent habituellement une poussée hypertensive réflexe liée à la stimulation vagale. :: La compression des cavités droites et de la VCI provoque surtout des épisodes d'hypotension transitoire et des ESV.
-> Retentissement cardiovasculaire : troubles du rythme (lésion du X, hyperactivité sympathique), compression des cavités droites/VCI ou dilatation de la plastie, lésion du canal thoracique (chylothorax). Retentissement immunologique : baisse de l'immunité cellulaire et SRIS.
-@ p. 12, 13, 14 et 39
+> Retentissement cardiovasculaire : troubles du rythme (lésion du X, hyperactivité sympathique), compression des cavités droites/VCI ou dilatation de la plastie, lésion du canal thoracique (collections lymphatiques, déficit hydrique). Retentissement immunologique : baisse de l'immunité cellulaire et SRIS.
+@ p. 12, 13 et 39
 
 QCM · Évaluation préopératoire et contre-indications
 Concernant le bilan préopératoire et les limites d'opérabilité d'un patient programmé pour œsophagectomie, quelles propositions sont exactes ?
@@ -46,12 +46,12 @@ Concernant le bilan préopératoire et les limites d'opérabilité d'un patient 
 
 QCM · Préhabilitation avant œsophagectomie
 Concernant la préhabilitation préopératoire avant une chirurgie du cancer de l'œsophage, quelles propositions sont exactes ?
-+ Un sevrage tabagique de 6 à 8 semaines ramène le risque de complications respiratoires à un niveau proche du sujet non fumeur. :: Un arrêt inférieur à 6 semaines réduit l'hyperréactivité bronchique mais ne modifie pas le risque de complication respiratoire.
-+ Lorsque la perte de poids dépasse 10 % et que la voie orale est impossible, une nutrition parentérale est débutée 8 jours avant l'intervention. :: La dénutrition majore nettement la morbidité et la mortalité postopératoires.
-- Un arrêt du tabac de 15 jours avant le bloc suffit à réduire de façon significative les pneumopathies postopératoires. :: En dessous de 6 semaines, l'hyperréactivité bronchique diminue mais le risque de complications respiratoires reste inchangé.
-- La correction préopératoire d'une carence martiale est différée en postopératoire afin d'éviter une surcharge volémique. :: L'optimisation de l'hémoglobine par correction d'une carence en fer fait partie de la préhabilitation.
-- La kinésithérapie respiratoire préopératoire par spirométrie incitative est réservée aux patients porteurs d'une BPCO sévère. :: La kinésithérapie motrice et respiratoire (spirométrie incitative) fait partie intégrante de la préhabilitation.
-> Préhabilitation : kinésithérapie motrice et respiratoire (spirométrie incitative), sevrage tabagique 6 à 8 semaines, correction d'une carence martiale, nutrition préopératoire (NPT à J-8 si perte de poids > 10 % et voie orale impossible).
++ Un arrêt du tabac de 6 à 8 semaines avant l'intervention réduit le risque de complications respiratoires. :: Un arrêt plus court diminue l'hyperréactivité bronchique, sans réduire nettement ce risque.
++ Une dénutrition importante est corrigée avant l'intervention, par voie parentérale lorsque la voie orale est impossible. :: La dénutrition augmente les complications et la mortalité postopératoires.
++ La kinésithérapie respiratoire et motrice préopératoire fait partie de la préparation. :: Elle améliore les réserves fonctionnelles et la récupération après une chirurgie majeure.
+- Un arrêt du tabac la veille de l'intervention suffit à réduire les pneumopathies postopératoires. :: Il faut 6 à 8 semaines d'arrêt pour réduire le risque de complications respiratoires.
+- Une anémie par carence en fer est respectée avant l'intervention, la transfusion peropératoire suffisant à la corriger. :: La correction d'une carence en fer pour optimiser l'hémoglobine fait partie de la préhabilitation.
+> Préhabilitation : kinésithérapie respiratoire et motrice, arrêt du tabac 6 à 8 semaines, correction d'une carence en fer, renutrition préopératoire (parentérale si voie orale impossible).
 @ p. 19, 20 et 23
 
 QCU · Antibioprophylaxie en chirurgie œsophagienne
@@ -106,22 +106,22 @@ Au cours d'une œsophagectomie par voie transthoracique, quel objectif de rempli
 
 QCM · Extubation et réhabilitation postopératoire
 Concernant l'extubation et la réhabilitation postopératoire après une œsophagectomie, quelles propositions sont exactes ?
-+ L'extubation précoce sur table est visée au maximum, après correction des paramètres physiologiques et contrôle de l'analgésie. :: Une surveillance postopératoire en USC ou en réanimation est organisée d'emblée.
-+ La lutte contre l'inhalation associe position proclive à 45°, sonde nasogastrique en aspiration pendant 48 heures et inhibiteurs de la pompe à protons. :: Ces mesures protègent aussi la plastie gastrique (associées parfois à l'érythromycine pour la vidange).
-+ La mobilisation précoce dès J1 et la kinésithérapie respiratoire dès J0 contribuent à réduire les complications infectieuses. :: Elles s'accompagnent d'une anticoagulation postopératoire et d'un sevrage précoce des dispositifs (SNG J3, drains J4).
-+ La nutrition entérale précoce diminue la fréquence des complications vitales après œsophagectomie. :: Une nutrition parentérale initiale est relayée par la nutrition entérale, avec reprise orale vers J5.
-+ L'ablation de la sonde urinaire intervient classiquement au retrait de la péridurale thoracique. :: Le bloc paravertébral permet en revanche un retrait plus précoce de la sonde urinaire.
-> Postopératoire en USC/réanimation : extubation précoce sur table, proclive 45°, SNG en aspiration 48 h, IPP, kiné J0, mobilisation J1, VNI prophylactique, anticoagulation, nutrition entérale précoce, retrait rapide des dispositifs (SNG J3, drains J4, SU à l'ablation de l'APDT).
-@ p. 38, 40, 42, 43, 44 et 46
++ L'extubation précoce sur table est visée, après correction des paramètres physiologiques et avec une analgésie bien contrôlée. :: Le patient est ensuite surveillé en USC ou en réanimation.
++ La position proclive et la sonde nasogastrique en aspiration limitent le risque d'inhalation. :: L'inhalation est un facteur de risque de pneumopathie ; les IPP complètent la protection de la plastie.
++ Le patient est mobilisé précocement, dès le lendemain de l'intervention. :: La mobilisation précoce réduit les complications infectieuses postopératoires.
+- Le patient est laissé à plat strict pendant 48 heures pour protéger l'anastomose cervicale. :: Le patient est installé en proclive (45°) pour limiter l'inhalation.
+- La sonde nasogastrique est retirée en SSPI afin de limiter l'inconfort du patient. :: Elle est laissée en aspiration pour limiter l'inhalation et protéger la plastie, puis retirée vers J3.
+> Après œsophagectomie : extubation précoce sur table (paramètres corrigés, analgésie contrôlée), surveillance en USC/réanimation, proclive 45°, SNG en aspiration, IPP, mobilisation dès J1, nutrition entérale précoce.
+@ p. 38, 40, 43 et 44
 
 QCM · Place de la VNI après œsophagectomie
 Concernant la ventilation non invasive (VNI) après une chirurgie du cancer de l'œsophage, quelles propositions sont exactes ?
-+ Utilisée en prophylactique de J0 à J3, la VNI augmente la PaO2 et diminue les réintubations, le SDRA et la durée de séjour en USC. :: Elle diminue également le taux de fuites anastomotiques.
-+ Utilisée en curatif devant une détresse respiratoire ou une hypoxie sévère, la VNI réduit le recours à la réintubation et les pneumopathies. :: Elle raccourcit aussi le séjour en soins continus.
-- La VNI prophylactique est déconseillée dans les 72 premières heures par crainte d'une dilatation aiguë de la plastie gastrique. :: La VNI prophylactique de J0 à J3 n'entraîne pas de dilatation de la plastie et diminue même les fuites anastomotiques.
-- La VNI est réservée aux patients n'ayant pas bénéficié d'une analgésie par péridurale thoracique. :: La VNI prophylactique s'intègre dans la réhabilitation postopératoire en complément de l'ALR (APDT ou BPV) et de la kinésithérapie.
-- En cas de détresse respiratoire postopératoire, la réintubation immédiate est préférée à un essai de VNI pour protéger l'anastomose. :: La VNI curative est au contraire indiquée en cas de détresse respiratoire ou d'hypoxie sévère et réduit les réintubations.
-> VNI après œsophagectomie : efficace en prophylactique (J0–J3 : PaO2 ↑, réintubation/SDRA/USC/fuites ↓, sans dilatation de la plastie) comme en curatif (réduit réintubation, pneumopathie et séjour en USC).
++ La VNI peut être utilisée dès J0 de façon préventive, pour améliorer l'oxygénation et limiter les réintubations. :: Elle diminue aussi le SDRA et les fuites anastomotiques.
++ La VNI peut être utilisée devant une détresse respiratoire ou une hypoxie sévère postopératoire. :: Elle réduit alors le recours à la réintubation.
+- La VNI est déconseillée après œsophagectomie car elle dilate la plastie gastrique. :: La VNI n'entraîne pas de dilatation de la plastie.
+- La VNI remplace la kinésithérapie respiratoire après œsophagectomie. :: Les deux sont associées dès J0 dans la réhabilitation postopératoire.
+- Devant une hypoxie postopératoire, la VNI est évitée au profit d'une réintubation immédiate. :: La VNI est indiquée en première intention et réduit les réintubations.
+> VNI après œsophagectomie : utile en préventif (dès J0) comme en curatif (détresse respiratoire, hypoxie) ; elle ne dilate pas la plastie et s'associe à la kinésithérapie respiratoire.
 @ p. 40 et 45
 
 QCM · Méga-œsophage (achalasie) au bloc opératoire
@@ -137,7 +137,7 @@ Concernant la prise en charge anesthésique d'un patient opéré d'un méga-œso
 QCU · Comparaison méga-œsophage vs RGO à l'induction
 Deux patients sont programmés en cœlioscopie (décubitus dorsal + proclive) : l'un pour un méga-œsophage (achalasie), l'autre pour un RGO (fundoplicature de Nissen). Quelle différence de préparation préopératoire s'applique entre ces deux patients ?
 + Les antiacides (anti-H2) sont indiqués pour le RGO (contenu gastrique acide), mais pas pour le méga-œsophage (contenu œsophagien alcalin). :: Les deux pathologies imposent une induction en séquence rapide devant le risque d'inhalation, mais la nature chimique du contenu diffère.
-- L'induction en séquence rapide s'impose pour le méga-œsophage, tandis qu'une induction classique au masque suffit pour le RGO. :: Le RGO expose à l'inhalation de contenu gastrique acide et impose également une induction en séquence rapide.
+- L'induction en séquence rapide s'impose pour le méga-œsophage, tandis qu'une induction intraveineuse sans séquence rapide convient pour le RGO. :: Le RGO expose à l'inhalation de contenu gastrique acide et impose également une induction en séquence rapide.
 - Une prémédication anxiolytique per os est conseillée dans le méga-œsophage pour relâcher le sphincter inférieur de l'œsophage. :: La prémédication orale est évitée dans le méga-œsophage devant la stase œsophagienne et le risque majeur d'inhalation.
 - La fundoplicature de Nissen impose une ventilation unipulmonaire gauche par sonde de Carlens durant le temps abdominal. :: La fundoplicature de Nissen est une chirurgie cœlioscopique abdominale sous ventilation bipulmonaire.
 - Les antiacides (anti-H2) sont réservés au méga-œsophage afin de neutraliser l'acidité de la stase alimentaire œsophagienne. :: C'est l'inverse : le contenu stagnant du méga-œsophage est alcalin (pas d'antiacides), tandis que le RGO justifie des anti-H2.
@@ -165,21 +165,31 @@ Un patient de 72 ans présente une perforation de l'œsophage thoracique survenu
 @ p. 56, 57 et 58
 
 QCM · Situations à risque de perforation œsophagienne et traitement médical
-Concernant l'étiologie et les options de prise en charge d'une perforation œsophagienne, quelle(s) proposition(s) est (sont) exacte(s) ?
-+ Les causes iatrogènes (FOGD, sonde gastrique, ETO) sont fréquentes et le traitement médical reste rare (perforation cervicale récente sans sepsis). :: Le traitement est le plus souvent chirurgical (suture, fistulisation dirigée, voire œsophagectomie) devant la gravité et le risque septique.
-- Une perforation œsophagienne thoracique diagnostiquée tardivement avec sepsis relève en première intention d'un traitement médical isolé. :: L'âge, le retard diagnostique, la localisation et le sepsis sont des facteurs de gravité imposant le plus souvent une prise en charge chirurgicale.
-- Les perforations œsophagiennes sont majoritairement d'origine tumorale spontanée et exceptionnellement liées aux gestes endoscopiques. :: Les causes iatrogènes (FOGD, sonde gastrique, ETO) occupent une place majeure.
-- La mortalité d'une perforation œsophagienne reste faible lorsqu'elle est prise en charge dans les 24 premières heures. :: C'est une pathologie grave à mortalité élevée (40 à 50 %), aggravée par le retard de prise en charge et le sepsis.
-- En cas de perforation œsophagienne, l'antibiothérapie cible les cocci à Gram positif cutanés sans nécessité de couvrir les anaérobies. :: L'antibiothérapie probabiliste doit cibler les bacilles à Gram négatif (BGN) et les anaérobies.
-> Perforation œsophagienne : mortalité élevée (40–50 %), causes iatrogènes fréquentes (FOGD, SNG, ETO). Traitement médical rare (perforation récente cervicale sans sepsis) ; traitement chirurgical le plus fréquent + antibiothérapie BGN et anaérobies.
-@ p. 56, 57 et 58
+Concernant l'étiologie et les options de prise en charge d'une perforation œsophagienne, quelles propositions sont exactes ?
++ La pose d'une sonde gastrique ou d'une sonde d'ETO peut être à l'origine d'une perforation de l'œsophage. :: Les causes iatrogènes (FOGD, sonde gastrique, ETO) sont les plus fréquentes.
+- Le traitement est le plus souvent médical, la chirurgie étant réservée aux échecs. :: C'est l'inverse : le traitement est le plus souvent chirurgical, le traitement médical étant réservé à une perforation récente sans sepsis.
+- La perforation œsophagienne est une pathologie bénigne de pronostic favorable. :: C'est une pathologie grave, à mortalité élevée (40 à 50 %).
+- Un retard de prise en charge est sans conséquence sur le pronostic d'une perforation œsophagienne. :: L'âge, le retard de prise en charge et le sepsis sont des facteurs de gravité.
+- Les perforations œsophagiennes sont principalement spontanées et rarement liées à un geste médical. :: Les causes iatrogènes sont au premier plan.
+> Perforation œsophagienne : grave (mortalité 40–50 %), souvent iatrogène (FOGD, sonde gastrique, ETO) ; gravité accrue par l'âge, le retard de prise en charge et le sepsis ; traitement le plus souvent chirurgical.
+@ p. 56 et 57
 
 QCM · Complications peropératoires d'une œsophagectomie
 Au bloc opératoire pendant le temps thoracique d'une œsophagectomie par voie de Lewis-Santy, quelles complications aiguës l'IADE doit-il anticiper ?
 + Des épisodes d'hypotension transitoire et des extrasystoles ventriculaires lors de la compression chirurgicale des cavités droites et de la veine cave inférieure. :: Le dialogue avec le chirurgien et une volémie adaptée permettent de limiter ces épisodes.
-+ Un pneumothorax controlatéral ou homolatéral en cas de brèche pleurale peropératoire. :: Une dégradation brutale ventilatoire ou hémodynamique doit faire évoquer une brèche pleurale.
-- Une hypothermie protectrice recherchée volontairement pour réduire la consommation d'oxygène de la plastie gastrique. :: Un accélérateur-réchauffeur est au contraire préparé ; l'extubation précoce sur table impose la correction des paramètres physiologiques.
-- Une hypertension artérielle sévère liée à l'hyperstimulation parasympathique du nerf vague. :: Le traumatisme du nerf vague baisse au contraire l'activité parasympathique au profit du sympathique (tachycardie sinusale), et les manipulations compriment la VCI (hypotension).
-- Une surcharge volémique bénéfique permettant de compenser d'avance les pertes lymphatiques postopératoires. :: La surcharge hydrique peropératoire aggrave directement les complications pulmonaires et les fistules anastomotiques.
-> Complications peropératoires à anticiper : hypotension transitoire et ESV (compression cavités droites/VCI), saignement (~500–800 mL → bilan prétransfusionnel + accélérateur-réchauffeur), pneumothorax (brèche pleurale).
++ Un pneumothorax en cas de brèche pleurale peropératoire. :: Une dégradation brutale ventilatoire ou hémodynamique doit faire évoquer une brèche pleurale.
+- Un saignement habituellement inférieur à 200 mL, qui rend inutile la préparation d'un bilan prétransfusionnel. :: Le saignement avoisine 700 mL ; une transfusion est souvent nécessaire (bilan prétransfusionnel, accélérateur-réchauffeur).
+- Une bradycardie sinusale par hypertonie vagale liée à la dissection médiastinale. :: Le traumatisme du nerf vague baisse au contraire l'activité parasympathique au profit du sympathique (tachycardie sinusale), et les manipulations compriment la VCI (hypotension).
+- Une hypertension réflexe lors de la compression de la veine cave inférieure, à traiter par approfondissement de l'anesthésie. :: La compression des cavités droites et de la VCI provoque au contraire une hypotension, prévenue par un remplissage optimal.
+> Complications peropératoires à anticiper : hypotension transitoire et ESV (compression cavités droites/VCI), saignement (~700 mL → bilan prétransfusionnel + accélérateur-réchauffeur), pneumothorax (brèche pleurale).
 @ p. 9, 12, 35, 38 et 39
+
+QCM · Facteurs de risque et complications postopératoires
+Concernant le risque de complications après une œsophagectomie pour cancer, quelles propositions sont exactes ?
++ Une BPCO, un tabagisme actif, une classe NYHA élevée et une capacité fonctionnelle basse (MET) augmentent le risque de complications. :: Ces facteurs de terrain justifient l'évaluation respiratoire, cardiaque et fonctionnelle préopératoire.
++ Les traitements néoadjuvants (chimiothérapie, radiothérapie) font partie des facteurs de risque de complications. :: Ils peuvent altérer les fonctions cardiaque, rénale et hématologique, à vérifier avant le bloc.
++ Les complications respiratoires concernent environ un tiers des patients opérés. :: Pneumopathie, SDRA, épanchement pleural, réintubation ou ventilation prolongée.
+- La fistule anastomotique est devenue exceptionnelle grâce aux techniques mini-invasives et à la cœlioscopie. :: Elle reste fréquente (environ 10 %) et expose à la médiastinite postérieure.
+- La baisse de la mortalité opératoire s'est accompagnée d'une morbidité devenue faible, de l'ordre de 10 %. :: La mortalité a beaucoup diminué, mais la morbidité reste très élevée (environ 60 %).
+> Facteurs de risque : BPCO, tabac actif, NYHA, cirrhose Child B/C, grand âge, MET bas, dénutrition, traitements néoadjuvants. Complications : respiratoires (~30 %) et fistule anastomotique (~10 %, médiastinite) ; morbidité globale ~60 %.
+@ p. 15, 41 et 47

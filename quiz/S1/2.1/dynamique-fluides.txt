@@ -19,9 +19,9 @@ Pour une quantité fixe de gaz, concernant la relation PV/T = constante, quelles
 + À température constante, diminuer le volume augmente la pression. :: P et V varient en sens inverse.
 + À volume constant, augmenter la température augmente la pression. :: Une bouteille chauffée voit sa pression monter.
 + À pression constante, augmenter la température augmente le volume. :: V suit T.
-+ La température s'exprime en kelvins dans cette relation. :: C'est la température absolue.
+- La température peut s'y exprimer en degrés Celsius. :: Il faut la température absolue, en kelvins.
 + 1 bar correspond environ à 760 mmHg. :: 1 bar ≈ 760 mmHg ≈ 100 000 Pa ; l'unité officielle est le pascal.
-> PV/T = constante (T en kelvins). Une conversion de pression doit toujours préciser l'unité : 1 bar ≈ 760 mmHg ≈ 1 000 cmH2O.
+> PV/T = constante (T en kelvins). Une conversion de pression doit préciser l'unité : 1 bar ≈ 760 mmHg ≈ 1 000 cmH2O.
 @ p. 4
 
 QCU · Gaz et vapeur
@@ -40,7 +40,7 @@ Concernant la dissolution d'un gaz dans un liquide, quelles propositions sont ex
 + À l'équilibre, la pression partielle du gaz dans le liquide est égale à celle du gaz au contact. :: C'est l'énoncé de la loi de Henry en enceinte close.
 + La quantité dissoute dépend du coefficient de solubilité du gaz. :: Deux gaz à la même pression partielle ne se dissolvent pas autant.
 + L'oxygène dissous dans le plasma reste faible, même sous oxygène pur. :: Le plasma ne contient que quelques dizaines de mL d'O2 sous FiO2 1.
-+ Passer de l'air à l'oxygène pur augmente l'oxygène dissous dans le plasma. :: D'environ 7 à 45 mL : l'apport reste faible mais réel.
+- Deux gaz à la même pression partielle se dissolvent en même quantité dans le plasma. :: La quantité dissoute dépend aussi du coefficient de solubilité propre à chaque gaz.
 > Loi de Henry : quantité dissoute = solubilité × pression partielle. À l'équilibre, les pressions partielles du gaz et du liquide sont égales.
 @ p. 7 et 9
 
@@ -78,8 +78,8 @@ QCM · Réseau de gaz médicaux
 Concernant la distribution des gaz médicaux jusqu'à la prise murale, quelles propositions sont exactes ?
 - Une pression normale à la prise prouve que le gaz distribué est de l'oxygène. :: Un autre gaz peut circuler à la même pression.
 + La pression peut chuter en cas de fuite. :: C'est l'une des trois défaillances possibles.
-- La disponibilité, la qualité et l'identité du gaz se vérifient avec un seul contrôle. :: Ce sont trois questions différentes.
-- Le contrôle du réseau relève des seuls services techniques. :: Il associe services techniques, pharmacien et anesthésistes, chacun à son niveau.
+- Un contrôle de pression vérifie à la fois la disponibilité, la qualité et l'identité du gaz. :: Ce sont trois questions différentes.
+- Le contrôle du réseau relève des services techniques, sans intervention des soignants. :: Il associe services techniques, pharmacien et anesthésistes, chacun à son niveau.
 - Après des travaux sur le réseau, la mesure de la pression suffit avant la reprise. :: La nature du gaz doit aussi être contrôlée.
 > Trois défaillances différentes : pression qui chute (fuite), débit nul (vanne coupée), composition altérée (rétropollution). L'analyseur de gaz de la machine d'anesthésie reste le dernier contrôle.
 @ p. 13 à 16
@@ -138,7 +138,7 @@ QCM · Autonomie d'une bouteille
 Concernant l'autonomie d'une bouteille d'oxygène, quelles propositions sont exactes ?
 + Elle est égale au volume de gaz disponible divisé par le débit. :: Par exemple, 10 L/min consomment 100 L en 10 minutes.
 + À débit égal, elle diminue quand la pression restante baisse. :: Il reste moins de gaz.
-- Une même pression correspond à la même réserve, quelle que soit la taille de la bouteille. :: La réserve dépend aussi de la capacité de la bouteille.
+- À pression égale, une petite et une grande bouteille contiennent la même réserve. :: La réserve dépend aussi de la capacité de la bouteille.
 - On la calcule sur la durée théorique du transport, sans marge. :: Il faut prévoir les imprévus (attente, panne d'ascenseur).
 + Doubler le débit divise l'autonomie par deux. :: Elle est inversement proportionnelle au débit.
 > Autonomie = volume disponible ÷ débit. Le volume dépend de la pression restante et de la capacité de la bouteille. On garde toujours une marge.
@@ -186,9 +186,9 @@ En cours d'anesthésie, quel signe révèle directement un épuisement de la cha
 
 QCM · Vaporisateur
 Concernant le vaporisateur à dérivation, quelles propositions sont exactes ?
-+ La majorité du gaz vecteur contourne la chambre de vaporisation. :: Une partie seulement se charge en vapeur, puis les deux flux se mélangent.
+- La totalité du gaz vecteur traverse la chambre de vaporisation. :: La majorité la contourne ; une partie seulement se charge en vapeur, puis les deux flux se mélangent.
 + Le bypass d'oxygène ne passe pas par le vaporisateur. :: Il dilue l'halogéné du circuit.
-+ Un seul vaporisateur doit être actif à la fois. :: Un verrouillage l'impose sur les machines modernes.
++ Les machines modernes empêchent l'activation simultanée de deux vaporisateurs. :: Le verrouillage évite d'associer deux halogénés.
 + Le desflurane nécessite un vaporisateur chauffé. :: Son point d'ébullition est proche de la température ambiante.
 + Le vaporisateur transforme un hypnotique liquide en vapeur. :: Pour permettre son administration par inhalation.
 > Le vaporisateur transforme l'halogéné liquide en vapeur. Une partie du gaz vecteur traverse la chambre, le reste la contourne. Le desflurane a un vaporisateur spécial, chauffé.
@@ -228,7 +228,7 @@ QCU · Prescription d'une perfusion
 Concernant la prescription d'une perfusion continue, quelle proposition est exacte ?
 - Un débit en mL/h suffit à connaître la dose administrée. :: Il manque la concentration, donc la masse contenue dans le volume.
 + Elle doit préciser la masse, le volume et la durée, avec leurs unités. :: Ce sont les trois dimensions d'une perfusion.
-- La concentration peut être déduite de la seule durée. :: La durée ne renseigne pas sur la masse de produit.
+- La concentration peut être déduite de la durée de perfusion. :: La durée ne renseigne pas sur la masse de produit.
 - Elle peut omettre les unités si le service a des habitudes communes. :: Les unités doivent être explicites.
 - Le volume suffit à connaître le débit. :: Il faut aussi la durée.
 > Une perfusion se prescrit avec trois dimensions : masse, volume et durée. Un débit volumique seul ne dit pas quelle dose reçoit le patient.
