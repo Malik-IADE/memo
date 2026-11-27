@@ -48,6 +48,7 @@ S1/3.3/Terrains/patient-insuffisant-hepatique.txt
 S1/3.3/Terrains/patient-transplante.txt
 S1/3.3/Terrains/patient-allergique.txt
 S1/3.3/Chirurgie/chirurgie-oesophagienne.txt
+S1/3.3/Chirurgie/chirurgie-ambulatoire.txt
 
 S1/4.4/aes-precautions.txt
 S1/4.4/gestion-dechets.txt
