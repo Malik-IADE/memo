@@ -414,7 +414,8 @@
 
   /* ---------- Lecture des chemins envoyés par l'app ---------- */
   // Écrans de l'app : /accueil, /flashcards, /S1, /S1/3.3, /annales, /annales/S1,
-  // /annales/S1/3.3 (la liste des annales d'une UE), /cours/<nom>, /revision/<nom>.
+  // /annales/S1/3.3 (la liste des annales d'une UE), /cours/<nom>, /revision/<nom>,
+  // /duel, /duel/creer, /duel/rejoindre, /duel/partie (duel 1 contre 1).
   // Quiz d'annale ouvert : /annales/S1/3.3-2013-2015 (la période fait partie du chemin).
   const decode = (p) => { try { return decodeURIComponent(p); } catch { return p; } };
   const sorted = (map) => [...map].sort((a, b) => b[1] - a[1]);
@@ -460,6 +461,7 @@
       else if (path === '/flashcards') add(screens, 'Flashcards', n);
       else if (path === '/flashcards-aleatoires') add(screens, 'Flashcards aléatoires', n);
       else if (path === '/accueil') add(screens, 'Accueil', n);
+      else if ((m = path.match(/^\/duel(?:\/(creer|rejoindre|partie))?$/))) add(screens, { creer: 'Duel · créer', rejoindre: 'Duel · rejoindre', partie: 'Duel · partie' }[m[1]] || 'Duel 1 contre 1', n);
       else if ((m = path.match(/^\/cours\/(.+)$/))) add(courses, m[1], n);
       else if ((m = path.match(/^\/(S\d+)\/([^/]+)$/i))) add(ues, `UE ${m[2]} · S${m[1].slice(1)}`, n);
       else if ((m = path.match(/^\/(perso|partages|Scores|Schemas)$/i))) add(screens, SCREEN_LABELS[m[1].toLowerCase()], n);

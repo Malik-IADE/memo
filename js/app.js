@@ -3,6 +3,7 @@ import { schedule, previewIntervals, endOfToday, dueLabel } from './srs.js';
 import { parseText, deckToText } from './format.js';
 import { syncLibrary } from './library.js';
 import * as quiz from './quiz.js';
+import * as duel from './duel.js';
 
 const $app = document.getElementById('app');
 const modal = document.getElementById('modal');
@@ -163,6 +164,8 @@ function route() {
 
 function render() {
   const r = route();
+  if (r.view === 'duel') return duel.render(r.id);
+  duel.detacher(); // quitter l'écran d'une partie ferme sa connexion (la partie reste gardée)
   // L'écran d'un cours n'existe plus : ouvrir un cours lance directement sa révision.
   if (r.view === 'deck' && store.deck(r.id)) { location.replace(`#/review/${enc(r.id)}`); return; }
   if (r.view === 'review' && ((isMix(r.id) && mixDecks(r.id).length) || store.deck(r.id))) return renderReview(r.id);
@@ -195,6 +198,7 @@ function trackView() {
     : r.view === 'quiz' ? (r.item ? `/quiz-cours/${quizTitle(`${r.id}/${r.sub}/${r.item}`)}`
       : `/quiz${[r.id, r.sub].filter(Boolean).map((x) => `/${x}`).join('')}`)
     : r.view === 'quiz-aleatoire' ? `/quiz-aleatoire${[r.id, r.sub].filter(Boolean).map((x) => `/${x}`).join('')}`
+    : r.view === 'duel' ? `/duel${r.id ? `/${r.id}` : ''}`
     : COLLECTIONS[r.view] ? `/${r.view}${[r.id, r.sub].filter(Boolean).map((s) => `/${s}`).join('')}`
     : r.view === 'deck' ? `/cours/${name(r.id)}`
     : r.view === 'review' ? `/revision/${name(r.id)}`
@@ -777,6 +781,11 @@ function renderHome() {
         ${annaleRow('annales-nf')}
         ${cats.map((k) => catRow(k, sems.get(k))).join('')}
       </ul>
+      <a class="duel-cta" href="#/duel">
+        <span class="duel-cta-vs" aria-hidden="true">1v1</span>
+        <span class="duel-cta-t"><b>DUEL 1 contre 1</b><span>Affronte quelqu’un en direct sur un quiz</span></span>
+        <span class="duel-big-chev">${ico.chevron}</span>
+      </a>
     </main>`;
 }
 
@@ -1865,7 +1874,7 @@ async function updateLibrary(force = false) {
 // Au retour au premier plan : compteurs du jour à jour + vérification des cours partagés.
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState !== 'visible') return;
-  if (route().view !== 'review' && !modal.open) render();
+  if (!['review', 'duel'].includes(route().view) && !modal.open) render();
   updateLibrary();
 });
 
@@ -1873,6 +1882,7 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch((err) => console.warn('Service worker :', err));
 }
 
+duel.init({ $app, esc, nb, rich, ico, toast, plural, topbarFolder });
 render();
 trackView();
 flushStats();
