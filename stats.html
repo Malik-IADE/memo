@@ -295,6 +295,7 @@
     .heat .c { height: 14px; border-radius: 3px; }
     .exam-row { gap: 10px; padding: 10px; }
     .exam-name { flex: 1 1 0; flex-wrap: wrap; row-gap: 1px; }
+    .exam-name b { white-space: normal; line-height: 1.25; }
     .exam-meta { order: 3; flex-basis: 100%; }
     .exam-score { min-width: 0; }
     .exam-n { font-size: .72rem; }
@@ -651,8 +652,6 @@
   const gradeLabels = ['À revoir', 'Difficile', 'Bien', 'Facile'];
   let collectiveData;
   let collectiveFailed = false;
-  let openExam = '';
-  let allExams = false;
   const EXAM_LIMIT = 6;
 
   async function loadCollectiveStats() {
@@ -717,10 +716,11 @@
   // Couleur d'une note sur 20, reprise des boutons de notation.
   const shortDay = (d) => d.slice(5).split('-').reverse().join('/');
 
-  function examDetail(row, hist) {
-    // Tant que le relevé du jour n'est pas fait, on ajoute le jour courant avec les données actuelles.
+  function examDetail(row, hist, unit = 'tentative') {
+    // Annales : tant que le relevé du jour n'est pas fait, on ajoute le jour courant avec les données actuelles.
     const today = new Date().toLocaleDateString('sv-SE');
-    if (!hist.some((r) => r.day === today)) hist = [...hist, {day: today, average: row.average, participants: row.participants, attempts: row.attempts}];
+    if (unit === 'tentative' && !hist.some((r) => r.day === today)) hist = [...hist, {day: today, average: row.average, participants: row.participants, attempts: row.attempts}];
+    if (!hist.length) return h('div', {class: 'exam-detail'}, h('p', {class: 'empty'}, 'Pas d’historique.'));
     const long = (d) => new Date(d + 'T12:00').toLocaleDateString('fr-FR', {weekday: 'long', day: 'numeric', month: 'long'});
     // Diagramme en barres : un jour par barre, du premier relevé à aujourd'hui (14 jours au moins,
     // 30 au plus). Les jours sans tentative restent vides, pour voir l'activité dans le temps.
@@ -732,11 +732,11 @@
     const pts = days.map((d) => {
       const r = byDay.get(d);
       return {label: shortDay(d), full: long(d), v: r ? r.average : null,
-        tip: r ? [plural(r.attempts ?? r.participants ?? 0, 'tentative'), plural(r.participants ?? 0, 'navigateur')] : []};
+        tip: r ? [plural(r.attempts ?? r.participants ?? 0, unit), plural(r.participants ?? 0, 'navigateur')] : []};
     });
     return h('div', {class: 'exam-detail'},
       barChart(pts, {height: 200, unit: 'point', scoreScale: true, tickEvery: Math.ceil(pts.length / 7)}),
-      h('p', {class: 'exam-note'}, 'Moyenne quotidienne · une barre par jour · les notes de 0 sont exclues.'));
+      h('p', {class: 'exam-note'}, unit === 'tentative' ? 'Moyenne quotidienne · une barre par jour · les notes de 0 sont exclues.' : 'Moyenne quotidienne · une barre par jour.'));
   }
 
   /** Auto-évaluations des quizz : nombre de notes données sur la période (événements GoatCounter). */
@@ -774,28 +774,6 @@
       .sort((a, b) => b.tries - a.tries || b.participants - a.participants || a.info.ue.localeCompare(b.info.ue, 'fr', {numeric: true}) || a.info.period.localeCompare(b.info.period));
     const unavailable = collectiveFailed ? 'Statistiques collectives indisponibles.' : null;
 
-    // Le détail s'insère après la ligne de grille de l'annale ouverte (après sa voisine
-    // de droite sur deux colonnes) : aucune annale ne bouge, recliquer au même endroit referme.
-    const place = () => {
-      const list = document.querySelector('.exams');
-      if (!list) return;
-      list.querySelector('.exam-panel')?.remove();
-      const items = [...list.querySelectorAll('.exam')];
-      items.forEach((li) => {
-        const on = li.dataset.exam === openExam;
-        li.classList.toggle('open', on);
-        li.querySelector('.exam-row').setAttribute('aria-expanded', on);
-      });
-      const i = items.findIndex((li) => li.dataset.exam === openExam);
-      if (i < 0) return;
-      const cols = getComputedStyle(list).gridTemplateColumns.split(' ').length;
-      const after = items[Math.min(items.length - 1, i - (i % cols) + cols - 1)];
-      const panel = h('li', {class: 'exam-panel'}, examDetail(exams.find((r) => r.exam === openExam), histByExam.get(openExam) || []));
-      after.after(panel);
-    };
-    const toggle = (id) => { openExam = openExam === id ? '' : id; place(); };
-    if (openExam) setTimeout(place);
-
     return [
       h('section', {class: 'card'},
         h('div', {class: 'card-head'},
@@ -808,28 +786,99 @@
             h('span', {class: 'notes-bar', style: `height:${Math.max(4, 100 * percentages[i] / highest)}%`})),
           h('span', {class: 'notes-l'}, label))))
           : h('p', {class: 'empty'}, unavailable || 'Aucune contribution reçue.')),
-      h('section', {class: 'card'},
-        h('div', {class: 'card-head'},
-          h('div', {}, h('h2', {}, 'Moyennes des annales'),
-            h('div', {class: 'sub'}, 'Dernière tentative de chaque navigateur · touchez une annale pour son historique'))),
-        exams.length ? h('ul', {class: 'exams'}, (allExams ? exams : exams.slice(0, EXAM_LIMIT)).map((r) => {
-          const on = r.exam === openExam;
-          return h('li', {class: 'exam' + (on ? ' open' : ''), 'data-exam': r.exam},
-            h('button', {class: 'exam-row', 'aria-expanded': on, onclick: () => toggle(r.exam)},
-              h('span', {class: 'exam-name'},
-                h('b', {}, `${r.info.ue}`), h('span', {class: 'exam-meta'}, [r.info.sem, r.info.period].filter(Boolean).join(' · ')),
-                h('span', {class: 'tag' + (r.info.nf ? ' nf' : '')}, r.info.nf ? 'Non off.' : 'Officielle')),
-              h('span', {class: 'exam-score'}, h('span', {class: 'grad'}, nf1.format(r.average)), h('small', {}, ' /20')),
-              h('span', {class: 'exam-n'}, plural(r.tries || r.participants, 'tentative')),
-              (() => { const c = s('svg', {class: 'chev', viewBox: '0 0 24 24', 'aria-hidden': 'true'}); c.append(s('path', {d: 'M6 9l6 6 6-6'})); return c; })()),
-            null);
-        })) : h('p', {class: 'empty'}, unavailable || 'Aucune note partagée pour l’instant.'),
-        exams.length > EXAM_LIMIT ? h('button', {class: 'btn more', onclick: () => {
-          allExams = !allExams;
-          if (!allExams && !exams.slice(0, EXAM_LIMIT).some((r) => r.exam === openExam)) openExam = '';
-          renderDash();
-        }}, allExams ? 'Voir moins' : `Voir plus (${exams.length - EXAM_LIMIT})`) : null),
+      averagesCard({key: 'annales', title: 'Moyennes des annales', unit: 'tentative',
+        sub: 'Dernière tentative de chaque navigateur · touchez une annale pour son historique',
+        empty: unavailable || 'Aucune note partagée pour l’instant.', hist: histByExam,
+        rows: exams.map((r) => ({...r, id: r.exam, name: r.info.ue, meta: [r.info.sem, r.info.period].filter(Boolean).join(' · '),
+          tag: r.info.nf ? ['Non off.', 'nf'] : ['Officielle', ''], n: r.tries || r.participants}))}),
     ];
+  }
+
+  /* Moyennes des quizz par UE (Worker : « quizHistory », une ligne par UE et par jour, relevé depuis le 28 nov. 2026).
+     Chaque série terminée compte sa note sur 20 telle quelle : un quiz de cours ou un quizz
+     aléatoire d'une UE va dans cette UE ; un quizz aléatoire « toutes les UE » va dans la ligne à
+     part « Quizz mélangés » (ue = 'mix'). Moyenne des séries terminées sur la période choisie. */
+  function quizAveragesCard(P, r) {
+    const data = DEMO ? demoQuizAverages() : collectiveData ? {history: collectiveData.quizHistory || []} : null;
+    const days = new Set(daysOf(r.start, P.days).map(dayKey));
+    const hist = new Map(), rows = new Map();
+    for (const x of (data?.history || []).slice().sort((a, b) => a.day.localeCompare(b.day))) {
+      if (!hist.has(x.ue)) hist.set(x.ue, []);
+      hist.get(x.ue).push(x);
+      if (!days.has(x.day)) continue;
+      const o = rows.get(x.ue) || {sum: 0, n: 0, who: 0};
+      o.sum += x.average * x.attempts; o.n += x.attempts; o.who = Math.max(o.who, x.participants);
+      rows.set(x.ue, o);
+    }
+    const list = [...rows].map(([ue, o]) => {
+      const base = {id: ue, average: o.sum / o.n, participants: o.who, attempts: o.n, n: o.n};
+      if (ue === 'mix') return {...base, name: 'Quizz mélangés', tag: ['Toutes les UE', 'nf']};
+      const [sem, num] = ue.split('/');
+      return {...base, name: `UE ${num}`, meta: sem};
+    }).sort((a, b) => (a.id === 'mix') - (b.id === 'mix') || a.name.localeCompare(b.name, 'fr', {numeric: true}));
+    return averagesCard({key: 'quiz', title: 'Moyennes des quizz par UE', unit: 'série', limit: 12,
+      sub: 'Note de chaque série terminée sur la période (cours et aléatoire de l’UE) · touchez une ligne pour son historique',
+      empty: data ? 'Aucun quiz terminé sur cette période.' : 'Statistiques collectives indisponibles.', hist, rows: list});
+  }
+  function demoQuizAverages() {
+    const ues = [['S1/2.1', 13.2], ['S1/2.2', 11.4], ['S1/2.3', 9.8], ['S1/2.4', 14.6], ['S1/3.1', 12.3], ['S1/3.3', 10.7], ['S1/4.4', 15.1], ['mix', 11.9]];
+    const history = [];
+    ues.forEach(([ue, avg], k) => {
+      for (let d = 89; d >= 0; d--) {
+        if ((d + k) % 4 === 1) continue;
+        const day = dayKey(new Date(Date.now() - d * 864e5));
+        const attempts = 1 + ((d * 5 + k * 3) % 4);
+        history.push({ue, day, average: Math.max(2, Math.min(19.5, avg + Math.sin(d / 3 + k) * 2.6 + (89 - d) * .015)), attempts, participants: Math.max(1, attempts - 1)});
+      }
+    });
+    return {history};
+  }
+
+  // Liste de moyennes sur 20 (annales, quizz par UE) : 6 lignes puis « Voir plus », historique par
+  // jour au toucher. Le détail s'insère après la ligne de grille de l'élément ouvert (après son
+  // voisin de droite sur deux colonnes) : rien ne bouge, recliquer au même endroit referme.
+  const avgState = {annales: {open: '', all: false}, quiz: {open: '', all: false}};
+  function averagesCard({key, title, sub, rows, hist, empty, unit, limit = EXAM_LIMIT}) {
+    const st = avgState[key];
+    if (st.open && !rows.some((r) => r.id === st.open)) st.open = '';
+    const list = h('ul', {class: 'exams'});
+    const place = () => {
+      if (!list.isConnected) return;
+      list.querySelector('.exam-panel')?.remove();
+      const items = [...list.querySelectorAll('.exam')];
+      items.forEach((li) => {
+        const on = li.dataset.id === st.open;
+        li.classList.toggle('open', on);
+        li.querySelector('.exam-row').setAttribute('aria-expanded', on);
+      });
+      const i = items.findIndex((li) => li.dataset.id === st.open);
+      if (i < 0) return;
+      const cols = getComputedStyle(list).gridTemplateColumns.split(' ').length;
+      const after = items[Math.min(items.length - 1, i - (i % cols) + cols - 1)];
+      after.after(h('li', {class: 'exam-panel'}, examDetail(rows.find((r) => r.id === st.open), hist.get(st.open) || [], unit)));
+    };
+    const toggle = (id) => { st.open = st.open === id ? '' : id; place(); };
+    if (st.open) setTimeout(place);
+    const chev = () => { const c = s('svg', {class: 'chev', viewBox: '0 0 24 24', 'aria-hidden': 'true'}); c.append(s('path', {d: 'M6 9l6 6 6-6'})); return c; };
+    list.append(...(st.all ? rows : rows.slice(0, limit)).map((r) => {
+      const on = r.id === st.open;
+      return h('li', {class: 'exam' + (on ? ' open' : ''), 'data-id': r.id},
+        h('button', {class: 'exam-row', 'aria-expanded': on, onclick: () => toggle(r.id)},
+          h('span', {class: 'exam-name'},
+            h('b', {}, r.name), r.meta ? h('span', {class: 'exam-meta'}, r.meta) : null,
+            r.tag ? h('span', {class: 'tag' + (r.tag[1] ? ' ' + r.tag[1] : '')}, r.tag[0]) : null),
+          h('span', {class: 'exam-score'}, h('span', {class: 'grad'}, nf1.format(r.average)), h('small', {}, ' /20')),
+          h('span', {class: 'exam-n'}, plural(r.n, unit)),
+          chev()));
+    }));
+    return h('section', {class: 'card'},
+      h('div', {class: 'card-head'}, h('div', {}, h('h2', {}, title), h('div', {class: 'sub'}, sub))),
+      rows.length ? list : h('p', {class: 'empty'}, empty),
+      rows.length > limit ? h('button', {class: 'btn more', onclick: () => {
+        st.all = !st.all;
+        if (!st.all && !rows.slice(0, limit).some((r) => r.id === st.open)) st.open = '';
+        renderDash();
+      }}, st.all ? 'Voir moins' : `Voir plus (${rows.length - limit})`) : null);
   }
 
   // Classement : 5 lignes, puis « Voir les N » pour tout déplier (choix gardé jusqu'au rechargement).
@@ -923,7 +972,7 @@
     const spark = P.days === 1 ? null : daysOf(data.r.start, P.days).map((d) => byDay.get(dayKey(d)) || 0);
     return kpi({ label: 'Navigateurs uniques', value: nf.format(v.browsers), d: delta(v.browsers, v.prev.browsers),
       sub: `${nf.format(v.prev.browsers)} ${P.days === 1 ? 'hier' : 'avant'}`,
-      title: `Navigateurs différents qui ont ouvert Mémo, comparé à ${prevLabel}. Avant le relevé des visites, seuls les navigateurs qui ont enregistré des flashcards ou corrigé une annale sont connus.`,
+      title: `Navigateurs différents qui ont ouvert Mémo, comparé ${prevLabel}. Avant le relevé des visites, seuls les navigateurs qui ont enregistré des flashcards ou corrigé une annale sont connus.`,
       spark });
   }
   // « Visites par navigateur » : visites relevées par le Worker / navigateurs qui les ont faites.
@@ -959,7 +1008,7 @@
     };
     cur.exams = finished(daysOf(data.r.start, P.days)); cur.examTotal = sumArr(cur.exams.map((x) => x[1]));
     prev.exams = finished(daysOf(data.r.prevStart, P.days)); prev.examTotal = sumArr(prev.exams.map((x) => x[1]));
-    const prevLabel = P.days === 1 ? 'hier à la même heure' : `les ${P.days} jours précédents`;
+    const prevLabel = P.days === 1 ? 'à hier, à la même heure' : `aux ${P.days} jours précédents`; // « comparé … »
 
     const cells = grid(data, metric), prevCells = grid(data, metric, true);
     const curGrid = cells.map((c) => c.hours), prevGrid = prevCells.map((c) => c.hours);
@@ -1005,7 +1054,7 @@
 
     const since = P.days === 1 ? 'hier' : 'avant';
     const kpisVisites = [
-      kpi({ key: 'visits', label: 'Visites', value: nf.format(visits), d: delta(visits, prevVisits), sub: `${nf.format(prevVisits)} ${since}`, title: `Comparé à ${prevLabel}. Toucher pour l'afficher dans la courbe.`, spark: sparkOf(vGrid) }),
+      kpi({ key: 'visits', label: 'Visites', value: nf.format(visits), d: delta(visits, prevVisits), sub: `${nf.format(prevVisits)} ${since}`, title: `Comparé ${prevLabel}. Toucher pour l'afficher dans la courbe.`, spark: sparkOf(vGrid) }),
       visitorsKpi(data, P, prevLabel),
       visitsPerBrowserKpi(data, P),
       P.days === 1
@@ -1014,7 +1063,7 @@
     ];
     const s2 = (n, w) => `${nf.format(n)} ${w}${n > 1 ? 's' : ''}`;
     const kpisTravail = [
-      kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${since}`, title: `Séries de flashcards lancées, comparé à ${prevLabel}. Toucher pour l'afficher dans la courbe.`, spark: sparkOf(rGrid) }),
+      kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${since}`, title: `Séries de flashcards lancées, comparé ${prevLabel}. Toucher pour l'afficher dans la courbe.`, spark: sparkOf(rGrid) }),
       kpi({ label: 'Quiz terminés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => !/^Quizz? aléatoire/.test(n)).length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
       kpi({ label: 'Annales terminées', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
       kpi({ label: 'Duels 1v1', value: `${nf.format(cur.duelFini)} / ${nf.format(cur.duelDebut)}`, sub: `terminés / débutés\n${s2(cur.duelJoueurs, 'navigateur')} unique${cur.duelJoueurs > 1 ? 's' : ''}`, title: 'Chaque partie (ou revanche) comptée une seule fois ; navigateurs ayant joué au moins un duel sur la période', d: delta(cur.duelFini, prev.duelFini) }),
@@ -1059,7 +1108,7 @@
     ];
     else {
       const [notesFlashcards, moyennes] = collectiveCards();
-      body = [h('div', { class: 'grid2' }, notesFlashcards, quizNotesCard(cur.quizGrades)), moyennes];
+      body = [h('div', { class: 'grid2' }, notesFlashcards, quizNotesCard(cur.quizGrades)), moyennes, quizAveragesCard(P, data.r)];
     }
 
     put(
@@ -1090,6 +1139,7 @@
             h('li', {}, 'Visite : une personne qui ouvre un écran de l\'app. Vos propres visites comptent aussi.'),
             h('li', {}, 'Révision : une série de flashcards lancée.'),
             h('li', {}, 'Quiz terminé : une série de QCM menée jusqu\'à la dernière question ; ses auto-évaluations sont comptées à ce moment-là, sans les réponses (relevé depuis le 19 novembre 2026).'),
+            h('li', {}, 'Moyennes des quizz par UE : note sur 20 de chaque série terminée, rangée dans son UE (quiz de cours ou quizz aléatoire de l\'UE) ; un quizz aléatoire toutes les UE va dans « Quizz mélangés » (relevé depuis le 28 novembre 2026).'),
             h('li', {}, 'Annale terminée : une annale corrigée par un navigateur dans la journée, d\'après le relevé des notes (depuis le début ; les notes de 0 ne sont pas envoyées).'),
             h('li', {}, 'Duel : chaque partie ou revanche comptée une seule fois, au départ puis à la fin (relevé depuis le 28 novembre 2026).'),
             h('li', {}, 'Quiz, annales et duels abandonnés en cours de route ne comptent pas comme terminés.'))),
@@ -1228,8 +1278,10 @@
         el.style.transition = 'opacity .15s';
         svg.append(el); return el;
       });
-      const every = tickEvery || 1;
-      pts.forEach((p, i) => { if (i % every === 0 || (tickEvery && i === n - 1)) svg.append(s('text', { x: L + i * step + step / 2, y: H - 6, 'text-anchor': 'middle' }, p.label)); });
+      // Dates espacées d'au moins 44 px, quelle que soit la largeur (téléphone).
+      const every = tickEvery ? Math.max(tickEvery, Math.ceil(44 / step)) : 1;
+      // Dernière date ajoutée seulement si elle ne touche pas la précédente (environ 36 px pour « 28/11 »).
+      pts.forEach((p, i) => { if (i % every === 0 || (tickEvery && i === n - 1 && ((n - 1) % every) * step >= 44)) svg.append(s('text', { x: L + i * step + step / 2, y: H - 6, 'text-anchor': 'middle' }, p.label)); });
       const zone = s('rect', { x: L, y: 0, width: iw, height: H, fill: 'transparent' });
       svg.append(zone);
       const tip = h('div', { class: 'tip', hidden: true });
