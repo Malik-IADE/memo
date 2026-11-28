@@ -142,8 +142,8 @@
   .notes-l { font-size: .8rem; font-weight: 600; color: var(--muted); text-align: center;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
   .notes-pct { font-size: .74rem; color: var(--faint); font-variant-numeric: tabular-nums; }
+  /* Indicateurs par groupes de quatre : une ligne, deux colonnes sur téléphone. */
   .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
-  /* Huit indicateurs : deux lignes de quatre, puis deux colonnes sur téléphone. */
   .kpi { text-align: left; display: flex; flex-direction: column; gap: 2px; padding: 16px 18px 12px; overflow: hidden; }
   button.kpi { cursor: pointer; transition: border-color .2s, transform .1s; }
   button.kpi:hover { border-color: var(--line-strong); }
@@ -196,6 +196,29 @@
   .rank .num { font-weight: 650; font-variant-numeric: tabular-nums; }
   .rank .pct { width: 42px; text-align: right; color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); font-size: .88rem; margin: 0; padding: 8px 0; }
+  .rank-more { display: block; margin: 8px auto 0; border: 0; background: none; cursor: pointer; font-size: .8rem; font-weight: 650; color: var(--accent-ink); padding: 6px 10px; border-radius: 9px; }
+  .rank-more:hover { background: var(--accent-soft); }
+
+  /* Onglets : une rubrique à la fois, collés en haut pendant le défilement */
+  .tabs { position: sticky; top: 0; z-index: 5; display: flex; gap: 4px; padding: 8px 0; margin: -4px 0 -6px;
+    background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs button { flex-shrink: 0; border: 1px solid transparent; background: none; cursor: pointer; font-size: .88rem; font-weight: 650; color: var(--muted); padding: 8px 14px; border-radius: 99px; white-space: nowrap; transition: color .15s, background .15s; }
+  .tabs button:hover { color: var(--text); }
+  .tabs button.on { color: var(--text); border-color: transparent; background:
+      linear-gradient(var(--card-solid), var(--card-solid)) padding-box,
+      linear-gradient(120deg, var(--a1), var(--a2), var(--a3)) border-box; }
+  .group-title { margin: 6px 0 -6px; font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .toolbar .sub { font-size: .84rem; }
+  .seg.mini { padding: 3px; border-radius: 10px; }
+  .seg.mini button { padding: 5px 12px; font-size: .8rem; border-radius: 8px; }
+  .seg.mini button.on { background: var(--card-solid); box-shadow: 0 1px 6px rgba(0,0,0,.12); }
+  .how { color: var(--muted); font-size: .8rem; width: 100%; max-width: 760px; text-align: left; }
+  .how summary { cursor: pointer; text-align: center; font-weight: 650; color: var(--accent-ink); list-style: none; padding: 4px; }
+  .how summary::-webkit-details-marker { display: none; }
+  .how ul { margin: 8px 0 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; }
 
   /* Moyennes des annales : une ligne par annale, historique au toucher */
   .exams { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 14px; }
@@ -242,8 +265,6 @@
 
   @media (max-width: 820px) {
     .kpis { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-    /* Nombre impair d'indicateurs : le dernier prend toute la largeur au lieu de laisser une case vide. */
-    .kpis > .kpi:last-child:nth-child(odd) { grid-column: 1 / -1; }
     .notes-graph { gap: 8px; }
     .notes-zone { height: 92px; }
     .notes-n { font-size: 1.2rem; }
@@ -254,6 +275,8 @@
   @media (max-width: 560px) {
     .wrap { padding-left: 14px; padding-right: 14px; gap: 14px; }
     .controls { width: 100%; }
+    .tabs { margin-left: -14px; margin-right: -14px; padding-left: 14px; padding-right: 14px; }
+    .tabs button { flex: 1; padding: 7px 6px; font-size: .82rem; }
     .seg { flex: 1; }
     .seg button { flex: 1; padding: 7px 4px; }
     .card { padding: 15px; border-radius: 16px; }
@@ -261,6 +284,13 @@
     .kpi-l { white-space: normal; overflow: visible; line-height: 1.25; }
     .kpi { padding: 13px 14px 10px; }
     .kpi-v { font-size: 1.75rem; }
+    /* La pastille d'évolution passe sous le chiffre : le libellé garde toute la largeur. */
+    .kpi-top { display: contents; }
+    .kpi-v { order: 1; }
+    .kpi .delta { order: 2; align-self: flex-start; margin: 1px 0 3px; }
+    .kpi-s { order: 3; }
+    .kpi .spark { order: 4; }
+    .notes-n { white-space: nowrap; font-size: 1rem; }
     .heat { grid-template-columns: 26px repeat(24, minmax(0, 1fr)); gap: 2px; }
     .heat .c { height: 14px; border-radius: 3px; }
     .exam-row { gap: 10px; padding: 10px; }
@@ -309,7 +339,13 @@
     if (text != null) el.textContent = text;
     return el;
   }
-  const put = (...kids) => main.replaceChildren(...kids.flat().filter((k) => k != null && k !== false));
+  // Chaque affichage remplace le précédent : les ResizeObserver des éléments retirés sont arrêtés.
+  let observers = [];
+  const observe = (el, fn) => { const o = new ResizeObserver(fn); o.observe(el); observers.push([o, el]); };
+  const put = (...kids) => {
+    main.replaceChildren(...kids.flat(Infinity).filter((k) => k != null && k !== false));
+    observers = observers.filter(([o, el]) => el.isConnected || (o.disconnect(), false));
+  };
   const nf = new Intl.NumberFormat('fr-FR');
   const nf1 = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1 });
   const plural = (n, w) => `${nf.format(n)} ${w}${n > 1 ? 's' : ''}`;
@@ -410,7 +446,10 @@
   const prefs = (() => { try { return JSON.parse(store.get(PREF)) || {}; } catch { return {}; } })();
   let period = PERIODS[prefs.period] ? prefs.period : 'week';
   let metric = METRICS[prefs.metric] ? prefs.metric : 'visits';
-  const savePrefs = () => store.set(PREF, JSON.stringify({ period, metric }));
+  // Rubriques de la page : une seule affichée à la fois (moins de graphiques à dessiner).
+  const TABS = { apercu: 'Aperçu', activite: 'Activité', contenus: 'Contenus', resultats: 'Résultats' };
+  let tab = TABS[prefs.tab] ? prefs.tab : 'apercu';
+  const savePrefs = () => store.set(PREF, JSON.stringify({ period, metric, tab }));
 
   /* ---------- Lecture des chemins envoyés par l'app ---------- */
   // Écrans de l'app : /accueil, /flashcards, /S1, /S1/3.3, /annales, /annales/S1,
@@ -760,7 +799,7 @@
     return [
       h('section', {class: 'card'},
         h('div', {class: 'card-head'},
-          h('div', {}, h('h2', {}, 'Auto-évaluations collectives'),
+          h('div', {}, h('h2', {}, 'Auto-évaluations des flashcards'),
             h('div', {class: 'sub'}, 'Dernière note de chaque carte · tous les navigateurs'))),
         percentages ? h('ul', {class: 'notes-graph'}, gradeLabels.map((label, i) => h('li', {class: 'notes-col', tabindex: '0'},
           counts ? h('span', {class: 'tip notes-tip', role: 'tooltip'}, h('div', {class: 'dim'}, label), h('b', {}, plural(counts[i], 'carte'))) : null,
@@ -793,21 +832,47 @@
     ];
   }
 
-  function rank(title, rows, emptyText) {
+  // Classement : 5 lignes, puis « Voir les N » pour tout déplier (choix gardé jusqu'au rechargement).
+  const openRanks = new Set();
+  const RANK_LIMIT = 5;
+  function rank(title, rows, emptyText, sub) {
     rows = rows.filter((x) => x[1] > 0);
-    const max = matchMedia('(max-width: 560px)').matches ? 6 : 8;
+    const all = openRanks.has(title), shown = all ? rows : rows.slice(0, RANK_LIMIT);
     const total = sumArr(rows.map((x) => x[1]));
-    const top = Math.max(1, ...rows.slice(0, max).map((x) => x[1]));
+    const top = Math.max(1, ...shown.map((x) => x[1]));
     return h('section', { class: 'card' },
-      h('div', { class: 'card-head' }, h('h2', {}, title), rows.length > max ? h('span', { class: 'sub' }, `${rows.length} au total`) : null),
+      h('div', { class: 'card-head' }, h('h2', {}, title), sub ? h('span', { class: 'sub' }, sub) : null),
       rows.length
-        ? h('ul', { class: 'rank' }, rows.slice(0, max).map(([name, n], i) => h('li', {},
+        ? h('ul', { class: 'rank' }, shown.map(([name, n], i) => h('li', {},
             h('span', { class: 'fill', style: `width:${(n / top) * 100}%` }),
             h('span', { class: 'i' }, i + 1),
             h('span', { class: 'name', title: name }, name),
             h('span', { class: 'num' }, nf.format(n)),
             h('span', { class: 'pct' }, total ? `${Math.round((n / total) * 100)} %` : ''))))
-        : h('p', { class: 'empty' }, emptyText));
+        : h('p', { class: 'empty' }, emptyText),
+      rows.length > RANK_LIMIT ? h('button', { class: 'rank-more', onclick: () => {
+        if (all) openRanks.delete(title); else openRanks.add(title);
+        renderDash();
+      } }, all ? 'Voir moins' : `Voir les ${rows.length}`) : null);
+  }
+
+  function tabsNav() {
+    return h('nav', { class: 'tabs', role: 'tablist', 'aria-label': 'Rubriques' },
+      Object.entries(TABS).map(([k, label]) => h('button', { class: k === tab ? 'on' : '', role: 'tab', 'aria-selected': String(k === tab),
+        onclick: () => {
+          if (k === tab) return;
+          tab = k; savePrefs();
+          const nav = document.querySelector('.tabs');
+          const y = nav ? nav.getBoundingClientRect().top + scrollY - 4 : 0;
+          renderDash();
+          if (scrollY > y) scrollTo(0, y); // revenir en haut de la rubrique, sans repartir tout en haut
+        } }, label)));
+  }
+  // Mesure des graphiques d'activité : visites ou révisions.
+  function metricControl() {
+    return h('div', { class: 'seg mini', role: 'tablist', 'aria-label': 'Mesure' },
+      Object.entries(METRICS).map(([k, m]) => h('button', { class: k === metric ? 'on' : '', role: 'tab', 'aria-selected': String(k === metric),
+        onclick: () => { if (k === metric) return; metric = k; savePrefs(); renderDash(); } }, m.label)));
   }
 
   function periodControl() {
@@ -832,7 +897,7 @@
           place(); refresh();
         } }, narrow ? p.short : p.label));
     }
-    new ResizeObserver(place).observe(seg);
+    observe(seg, place);
     return seg;
   }
 
@@ -938,49 +1003,71 @@
     const refreshBtn = h('button', { class: 'icon-btn refresh', title: 'Actualiser', 'aria-label': 'Actualiser', onclick: refresh }, icon(['M21 12a9 9 0 1 1-2.64-6.36', 'M21 3v6h-6']));
     const total1 = sumArr(main1.map((p) => p.v || 0));
 
+    const since = P.days === 1 ? 'hier' : 'avant';
+    const kpisVisites = [
+      kpi({ key: 'visits', label: 'Visites', value: nf.format(visits), d: delta(visits, prevVisits), sub: `${nf.format(prevVisits)} ${since}`, title: `Comparé à ${prevLabel}. Toucher pour l'afficher dans la courbe.`, spark: sparkOf(vGrid) }),
+      visitorsKpi(data, P, prevLabel),
+      visitsPerBrowserKpi(data, P),
+      P.days === 1
+        ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
+        : kpi({ label: 'Visites par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'en moyenne' }),
+    ];
+    const s2 = (n, w) => `${nf.format(n)} ${w}${n > 1 ? 's' : ''}`;
+    const kpisTravail = [
+      kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${since}`, title: `Séries de flashcards lancées, comparé à ${prevLabel}. Toucher pour l'afficher dans la courbe.`, spark: sparkOf(rGrid) }),
+      kpi({ label: 'Quiz terminés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => !/^Quizz? aléatoire/.test(n)).length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
+      kpi({ label: 'Annales terminées', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
+      kpi({ label: 'Duels 1v1', value: `${nf.format(cur.duelFini)} / ${nf.format(cur.duelDebut)}`, sub: `terminés / débutés\n${s2(cur.duelJoueurs, 'navigateur')} unique${cur.duelJoueurs > 1 ? 's' : ''}`, title: 'Chaque partie (ou revanche) comptée une seule fois ; navigateurs ayant joué au moins un duel sur la période', d: delta(cur.duelFini, prev.duelFini) }),
+    ];
+    const courbe = h('section', { class: 'card' },
+      h('div', { class: 'card-head' },
+        h('div', {}, h('h2', {}, `${M.label} ${P.days === 1 ? 'par heure' : 'par jour'}`), h('div', { class: 'sub' }, `${plural(total1, M.unit)} sur la période`)),
+        h('div', { class: 'legend' },
+          h('span', {}, h('i', { class: 'cur' }), P.days === 1 ? "Aujourd'hui" : 'Cette période'),
+          h('span', {}, h('i', { class: 'prev' }), P.days === 1 ? 'Hier' : 'Période précédente'))),
+      areaChart(main1, { height: 250, unit: M.unit, ticks: P.days <= 7 && P.days > 1 ? P.days : 6 }));
+
+    let body;
+    if (tab === 'apercu') body = [
+      h('h2', { class: 'group-title' }, 'Fréquentation'),
+      h('section', { class: 'kpis' }, kpisVisites),
+      h('h2', { class: 'group-title' }, 'Révisions et entraînement'),
+      h('section', { class: 'kpis' }, kpisTravail),
+      courbe,
+    ];
+    else if (tab === 'activite') body = [
+      h('div', { class: 'toolbar' }, h('span', { class: 'sub' }, 'Répartition des ' + M.label.toLowerCase() + ' sur la période'), metricControl()),
+      P.days === 1 ? courbe : [
+        h('div', { class: 'grid2' },
+          h('section', { class: 'card' },
+            h('div', { class: 'card-head' }, h('h2', {}, 'Heures d\'activité'), pk ? h('span', { class: 'pill' }, `Pic à ${pk.label}`) : null),
+            barChart(byHour, { height: 170, unit: M.unit, tickEvery: 6 })),
+          h('section', { class: 'card' },
+            h('div', { class: 'card-head' }, h('h2', {}, 'Jours de la semaine'), pw ? h('span', { class: 'pill' }, `Pic le ${pw.full}`) : null),
+            barChart(byWd, { height: 170, unit: M.unit }))),
+        heatmap(heat, M.unit, heatUniques)],
+      rank('Appareils uniques', deviceRows(data), 'Pas encore de données.'),
+    ];
+    else if (tab === 'contenus') body = [
+      h('div', { class: 'grid2' },
+        rank('Cours les plus révisés', cur.revisions, 'Aucune révision sur cette période.'),
+        rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.', courseCount ? `${cur.courses.length} sur ${courseCount} cours` : null),
+        rank('Quiz les plus terminés', cur.quizzes, 'Aucun quiz terminé sur cette période.'),
+        rank('Annales les plus terminées', cur.exams, 'Aucune annale terminée sur cette période.'),
+        rank('UE les plus consultées', cur.ues, 'Aucune UE consultée sur cette période.'),
+        rank('Écrans les plus vus', cur.screens, 'Aucun écran de navigation vu sur cette période.')),
+    ];
+    else {
+      const [notesFlashcards, moyennes] = collectiveCards();
+      body = [h('div', { class: 'grid2' }, notesFlashcards, quizNotesCard(cur.quizGrades)), moyennes];
+    }
+
     put(
       header(h('div', { class: 'controls' }, periodControl(), refreshBtn)),
       DEMO ? h('div', { class: 'banner' }, 'Exemple avec des chiffres fictifs.', h('a', { href: location.pathname }, 'Voir mes vraies statistiques')) : null,
       error ? h('div', { class: 'err' }, error) : null,
-      h('section', { class: 'kpis' },
-        kpi({ key: 'visits', label: 'Visites', value: nf.format(visits), d: delta(visits, prevVisits), sub: `${nf.format(prevVisits)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(vGrid) }),
-        visitorsKpi(data, P, prevLabel),
-        kpi({ key: 'revisions', label: 'Révisions', value: nf.format(cur.revTotal), d: delta(cur.revTotal, prev.revTotal), sub: `${nf.format(prev.revTotal)} ${P.days === 1 ? 'hier' : 'avant'}`, title: `Comparé à ${prevLabel}`, spark: sparkOf(rGrid) }),
-        kpi({ label: 'Cours ouverts', value: nf.format(cur.courses.length), sub: courseCount ? `sur ${courseCount} cours disponibles` : '', d: delta(cur.courses.length, prev.courses.length) }),
-        kpi({ label: 'Annales terminées', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
-        kpi({ label: 'Quiz terminés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => !/^Quizz? aléatoire/.test(n)).length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
-        kpi({ label: 'Duels 1v1', value: `${nf.format(cur.duelFini)} / ${nf.format(cur.duelDebut)}`, sub: `terminés / débutés\n${nf.format(cur.duelJoueurs)} navigateur${cur.duelJoueurs > 1 ? 's' : ''} unique${cur.duelJoueurs > 1 ? 's' : ''}`, title: 'Chaque partie (ou revanche) comptée une seule fois ; navigateurs ayant joué au moins un duel sur la période', d: delta(cur.duelFini, prev.duelFini) }),
-        P.days === 1
-          ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
-          : kpi({ label: 'Par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'visites en moyenne' }),
-        visitsPerBrowserKpi(data, P),
-      ),
-      h('section', { class: 'card' },
-        h('div', { class: 'card-head' },
-          h('div', {}, h('h2', {}, `${M.label} ${P.days === 1 ? 'par heure' : 'par jour'}`), h('div', { class: 'sub' }, `${plural(total1, M.unit)} sur la période`)),
-          h('div', { class: 'legend' },
-            h('span', {}, h('i', { class: 'cur' }), P.days === 1 ? "Aujourd'hui" : 'Cette période'),
-            h('span', {}, h('i', { class: 'prev' }), P.days === 1 ? 'Hier' : 'Période précédente'))),
-        areaChart(main1, { height: 250, unit: M.unit, ticks: P.days <= 7 && P.days > 1 ? P.days : 6 })),
-      P.days === 1 ? null : h('div', { class: 'grid2' },
-        h('section', { class: 'card' },
-          h('div', { class: 'card-head' }, h('h2', {}, 'Heures d\'activité'), pk ? h('span', { class: 'pill' }, `Pic à ${pk.label}`) : null),
-          barChart(byHour, { height: 170, unit: M.unit, tickEvery: 6 })),
-        h('section', { class: 'card' },
-          h('div', { class: 'card-head' }, h('h2', {}, 'Jours de la semaine'), pw ? h('span', { class: 'pill' }, `Pic le ${pw.full}`) : null),
-          barChart(byWd, { height: 170, unit: M.unit }))),
-      P.days === 1 ? null : heatmap(heat, M.unit, heatUniques),
-      collectiveCards(),
-      quizNotesCard(cur.quizGrades),
-      h('div', { class: 'grid2' },
-        rank('Cours les plus révisés', cur.revisions, 'Aucune révision sur cette période.'),
-        rank('Cours les plus ouverts', cur.courses, 'Aucun cours ouvert sur cette période.'),
-        rank('UE les plus consultées', cur.ues, 'Aucune UE consultée sur cette période.'),
-        rank('Annales les plus terminées', cur.exams, 'Aucune annale terminée sur cette période.'),
-        rank('Quiz les plus terminés', cur.quizzes, 'Aucun quiz terminé sur cette période.'),
-        rank('Écrans les plus vus', cur.screens, 'Aucun écran de navigation vu sur cette période.'),
-        rank('Appareils uniques', deviceRows(data), 'Pas encore de données.'),
-      ),
+      tabsNav(),
+      body,
       h('footer', { class: 'foot' },
         h('span', {}, DEMO ? 'Données fictives' : 'Mis à jour à ' + data.at.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })),
         h('span', {}, '·'),
@@ -998,7 +1085,14 @@
           ask();
           return box;
         })(),
-        h('p', {}, 'Une visite = une personne qui ouvre un écran de l\'app. Une révision = une session lancée. Une annale terminée = une annale corrigée par un navigateur dans la journée, d\'après le relevé des notes (depuis le début ; les notes de 0 ne sont pas envoyées), par période (2013-2015, 2022-2024). Un quiz terminé = une série de QCM menée jusqu\'à la dernière question ; ses auto-évaluations sont comptées à ce moment-là, sans les réponses. Les quiz et annales abandonnés en cours de route ne comptent pas (quiz : relevé depuis le 19 novembre 2026). Vos propres visites comptent aussi.'),
+        h('details', { class: 'how' }, h('summary', {}, 'Comment les chiffres sont comptés'),
+          h('ul', {},
+            h('li', {}, 'Visite : une personne qui ouvre un écran de l\'app. Vos propres visites comptent aussi.'),
+            h('li', {}, 'Révision : une série de flashcards lancée.'),
+            h('li', {}, 'Quiz terminé : une série de QCM menée jusqu\'à la dernière question ; ses auto-évaluations sont comptées à ce moment-là, sans les réponses (relevé depuis le 19 novembre 2026).'),
+            h('li', {}, 'Annale terminée : une annale corrigée par un navigateur dans la journée, d\'après le relevé des notes (depuis le début ; les notes de 0 ne sont pas envoyées).'),
+            h('li', {}, 'Duel : chaque partie ou revanche comptée une seule fois, au départ puis à la fin (relevé depuis le 28 novembre 2026).'),
+            h('li', {}, 'Quiz, annales et duels abandonnés en cours de route ne comptent pas comme terminés.'))),
       ),
     );
   }
@@ -1039,11 +1133,11 @@
   function responsive(drawFn) {
     const wrap = h('div', { class: 'chart' });
     let lastW = 0;
-    new ResizeObserver(() => {
+    observe(wrap, () => {
       const W = Math.round(wrap.clientWidth);
       if (!W || W === lastW) return; lastW = W;
       drawFn(wrap, W);
-    }).observe(wrap);
+    });
     return wrap;
   }
   function yAxis(svg, nice, L, W, y) {
@@ -1167,19 +1261,20 @@
     const wrap = h('div', { class: 'chart' }, g, tip);
     heat.forEach((row, d) => {
       g.append(h('span', { class: 'lbl' }, WD[d]));
-      row.forEach((v, hr) => {
-        const c = h('span', { class: 'c', style: `background:${shade[level(v)]}` });
-        const show = () => {
-          tip.replaceChildren(h('div', { class: 'dim' }, `Le ${WDL[d]}, ${hr} h – ${hr + 1} h`), h('b', {}, plural(v, unit)),
-            ...(uniq ? [h('div', { class: 'dim' }, uniques(uniq[d][hr]))] : []));
-          const b = wrap.getBoundingClientRect(), r = c.getBoundingClientRect();
-          placeTip(tip, r.left - b.left + r.width / 2, r.top - b.top);
-        };
-        c.addEventListener('pointerenter', show);
-        c.addEventListener('pointerdown', show);
-        g.append(c);
-      });
+      row.forEach((v, hr) => g.append(h('span', { class: 'c', 'data-d': d, 'data-h': hr, style: `background:${shade[level(v)]}` })));
     });
+    // Un seul écouteur pour les 168 cases.
+    const show = (e) => {
+      const c = e.target.closest?.('.c');
+      if (!c) return;
+      const d = +c.dataset.d, hr = +c.dataset.h, v = heat[d][hr];
+      tip.replaceChildren(h('div', { class: 'dim' }, `Le ${WDL[d]}, ${hr} h – ${hr + 1} h`), h('b', {}, plural(v, unit)),
+        ...(uniq ? [h('div', { class: 'dim' }, uniques(uniq[d][hr]))] : []));
+      const b = wrap.getBoundingClientRect(), r = c.getBoundingClientRect();
+      placeTip(tip, r.left - b.left + r.width / 2, r.top - b.top);
+    };
+    g.addEventListener('pointerover', show);
+    g.addEventListener('pointerdown', show);
     g.append(h('span'));
     for (let hr = 0; hr < 24; hr++) g.append(h('span', { class: 'hl' }, hr % 6 === 0 ? `${hr} h` : ''));
     g.addEventListener('pointerleave', () => { tip.hidden = true; });
