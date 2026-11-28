@@ -151,5 +151,34 @@
   ['pointerdown', 'keydown', 'scroll'].forEach((t) => window.addEventListener(t, touch, {passive: true}));
   window.addEventListener('pagehide', () => { try { localStorage.setItem(lastSeenKey, String(Date.now())); } catch {} });
 
-  window.memoCollectives = {shareFlashcards, endpoint};
+  // Notes des séries de quiz terminées (sur 20 × 100), rangées par UE (« S1/3.3 ») ou « mix »
+  // (quizz aléatoire toutes les UE). Hors ligne, elles attendent dans une file (50 au plus).
+  const quizKey = 'memo-quiz-notes-attente';
+  const readQuiz = () => { try { return JSON.parse(localStorage.getItem(quizKey)) || []; } catch { return []; } };
+  let quizFlushing = false;
+  async function flushQuiz() {
+    if (quizFlushing || !navigator.onLine) return;
+    quizFlushing = true;
+    try {
+      for (const n of readQuiz()) {
+        try { await send('/quiz', n); }
+        catch (err) { if (!refused(err)) throw err; } // refusée pour de bon : retirée de la file
+        localStorage.setItem(quizKey, JSON.stringify(readQuiz().filter((x) => x.revision !== n.revision)));
+      }
+    } catch { /* Nouvel essai au prochain retour du réseau ou à la prochaine visite. */ }
+    quizFlushing = false;
+  }
+  function shareQuiz(ue, score) {
+    if (typeof ue !== 'string' || !Number.isInteger(score) || score < 0 || score > 2000) return;
+    try {
+      const q = readQuiz();
+      const revision = Math.max(Date.now(), ...q.map((x) => x.revision + 1));
+      localStorage.setItem(quizKey, JSON.stringify([...q, {ue, score, revision}].slice(-50)));
+    } catch { return; }
+    flushQuiz();
+  }
+  flushQuiz();
+  window.addEventListener('online', flushQuiz);
+
+  window.memoCollectives = {shareFlashcards, shareQuiz, endpoint};
 })();

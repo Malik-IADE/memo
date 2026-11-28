@@ -1431,13 +1431,20 @@ function renderQuizSession(id) {
     </div>`;
 }
 
+/** Note sur 20 d'une série (arrondie au demi-point), sur les questions dont la réponse est enregistrée. */
+function seriesNote(s) {
+  const pts = s.items.filter((it) => it.answer).map((it) => quiz.points(it.q, it.answer));
+  return pts.length ? Math.round((pts.reduce((a, b) => a + b, 0) / pts.length) * 40) / 2 : null;
+}
+/** UE d'une série pour les statistiques : « S1/3.3 » (quiz de cours ou aléatoire de l'UE), « mix » (aléatoire toutes les UE). */
+const seriesUe = (id) => (id === QUIZ_RANDOM ? 'mix' : (isRandom(id) ? id.split('/').slice(1, 3) : id.split('/').slice(0, 2)).join('/'));
 /** Fin de série : note sur 20 (sans erreur 1 point, une erreur 0,5, deux ou plus 0) et détail par question. */
 function quizNoteHtml(s, random) {
   const fmt = (x) => String(x).replace('.', ',');
   const rows = s.items.map((it, idx) => ({ it, idx,
     pts: it.answer ? quiz.points(it.q, it.answer) : null, err: it.answer ? quiz.errors(it.q, it.answer) : null }));
   const done = rows.filter((r) => r.pts != null);
-  const note = done.length ? Math.round((done.reduce((a, r) => a + r.pts, 0) / done.length) * 40) / 2 : null;
+  const note = seriesNote(s);
   const count = (p) => done.filter((r) => r.pts === p).length;
   const cls = (p) => (p === 1 ? 'p1' : p === 0.5 ? 'p05' : 'p0');
   const detail = ({ it, pts, err }) => {
@@ -1529,6 +1536,9 @@ function quizGrade(g) {
     const titre = isRandom(s.id) ? randomTitle(s.id) : quizTitle(s.id);
     statEvents([{ path: `quiz-fini/${titre}`, title: titre },
       ...s.grades.flatMap((n, k) => Array.from({ length: n }, () => ({ path: `quiz-fini-note-${k}`, title: GRADE_NAMES[k] })))]);
+    // Note de la série (Worker des stats) : moyennes des quizz par UE.
+    const note = seriesNote(s);
+    if (note != null) window.memoCollectives?.shareQuiz(seriesUe(s.id), Math.round(note * 100));
   }
   window.scrollTo(0, 0);
   render();
