@@ -282,6 +282,7 @@ function ouvrir(c) {
       else { envoyer({ t: 'etat' }); return; }
     }
     c.etat = s;
+    compterDuel(s);
     c.recu = Date.now(); // les durées du serveur (reste, dans) partent de cet instant
     if (enPartie()) afficher(s);
   };
@@ -307,6 +308,31 @@ export function detacher() {
   co = null;
   document.querySelector('.duel-compte')?.remove();
   confettisStop();
+}
+
+/* Statistiques anonymes (GoatCounter) : chaque manche comptée une seule fois, par un seul des deux
+   joueurs. Début : le créateur, présent au départ ; fin : le gagnant (toujours présent, même par
+   forfait), ou le créateur en cas d'égalité. Navigateurs uniques : chaque joueur envoie, au plus une
+   fois par jour, « duel-joueur/<identifiant> » (aléatoire, propre au duel, sans lien avec les autres
+   statistiques) ; la page des stats compte les identifiants distincts. */
+const CLE_STATS = 'memo-duel-stats-v1';
+function compterDuel(s) {
+  if (!h.statEvents || (s.phase !== 'jeu' && s.phase !== 'resultat')) return;
+  let st;
+  try { st = JSON.parse(localStorage.getItem(CLE_STATS)) || {}; } catch { st = {}; }
+  if (!/^[0-9a-f]{8}$/.test(st.id || '')) st.id = Array.from(crypto.getRandomValues(new Uint8Array(4)), (n) => n.toString(16).padStart(2, '0')).join('');
+  const vus = st.vus || {}, now = Date.now(), evs = [];
+  for (const k in vus) if (now - vus[k] > 2 * 86400e3) delete vus[k];
+  const une = (cle, ev) => { if (!vus[cle]) { vus[cle] = now; evs.push(ev); } };
+  if (s.phase === 'jeu') {
+    une(`j-${new Date().toLocaleDateString('sv', { timeZone: 'Europe/Paris' })}`, { path: `duel-joueur/${st.id}`, title: 'Joueur de duel' });
+    if (s.role === 'A') une(`${s.code}-${s.manche}-d`, { path: 'duel-debut', title: 'Duel débuté' });
+  } else if (s.resultat && (s.resultat.gagnant === 'moi' || (s.resultat.gagnant === 'egalite' && s.role === 'A'))) {
+    une(`${s.code}-${s.manche}-f`, { path: 'duel-fini', title: 'Duel terminé' });
+  }
+  if (!evs.length) return;
+  try { localStorage.setItem(CLE_STATS, JSON.stringify({ id: st.id, vus })); } catch {}
+  h.statEvents(evs);
 }
 
 function envoyer(m) {

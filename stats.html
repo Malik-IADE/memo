@@ -154,7 +154,7 @@
   .kpi-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .kpi-l { font-size: .78rem; font-weight: 600; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .kpi-v { font-size: 2.1rem; font-weight: 700; letter-spacing: -.035em; line-height: 1.15; font-variant-numeric: tabular-nums; }
-  .kpi-s { font-size: .78rem; color: var(--muted); min-height: 1.2em; }
+  .kpi-s { font-size: .78rem; color: var(--muted); min-height: 1.2em; white-space: pre-line; }
   .delta { font-size: .72rem; font-weight: 700; padding: 2px 7px; border-radius: 99px; font-variant-numeric: tabular-nums; color: var(--muted); background: var(--cell0); white-space: nowrap; }
   .delta.up { color: var(--up); background: var(--up-bg); }
   .delta.down { color: var(--down); background: var(--down-bg); }
@@ -425,7 +425,8 @@
     const revisions = new Map(), courses = new Map(), ues = new Map(), revDays = new Map(),
       exams = new Map(), screens = new Map(), quizzes = new Map();
     const quizGrades = [0, 0, 0, 0];
-    let revTotal = 0, examTotal = 0, quizTotal = 0;
+    let revTotal = 0, examTotal = 0, quizTotal = 0, duelDebut = 0, duelFini = 0;
+    const duelJoueurs = new Set();
     for (const hit of hits || []) {
       const path = decode(hit.path || ''), n = hit.count || 0;
       let m;
@@ -436,6 +437,10 @@
       if (hit.event) {
         if ((m = path.match(/^\/?quiz-fini-note-([0-3])$/))) quizGrades[Number(m[1])] += n;
         else if ((m = path.match(/^\/?quiz-fini\/(.+)$/))) { add(quizzes, m[1], n); quizTotal += n; }
+        // Duels 1 contre 1 : chaque manche comptée une fois (voir compterDuel dans js/duel.js).
+        else if (/^\/?duel-debut$/.test(path)) duelDebut += n;
+        else if (/^\/?duel-fini$/.test(path)) duelFini += n;
+        else if ((m = path.match(/^\/?duel-joueur\/([0-9a-f]{8})$/))) duelJoueurs.add(m[1]);
         continue;
       }
       // Quiz ou annale seulement ouverts : non comptés.
@@ -470,7 +475,7 @@
       else if ((m = path.match(/^\/(perso|partages|Scores|Schemas)$/i))) add(screens, SCREEN_LABELS[m[1].toLowerCase()], n);
     }
     return { revTotal, revDays, revisions: sorted(revisions), courses: sorted(courses), ues: sorted(ues),
-      exams: sorted(exams), examTotal, screens: sorted(screens), quizzes: sorted(quizzes), quizTotal, quizGrades };
+      exams: sorted(exams), examTotal, screens: sorted(screens), quizzes: sorted(quizzes), quizTotal, quizGrades, duelDebut, duelFini, duelJoueurs: duelJoueurs.size };
   }
   // Grille jour → 24 heures pour la mesure choisie.
   function grid(data, which, prev) {
@@ -944,6 +949,7 @@
         kpi({ label: 'Cours ouverts', value: nf.format(cur.courses.length), sub: courseCount ? `sur ${courseCount} cours disponibles` : '', d: delta(cur.courses.length, prev.courses.length) }),
         kpi({ label: 'Annales terminées', value: nf.format(cur.examTotal), sub: examCount ? `${cur.exams.length} sur ${examCount} annales` : '', d: delta(cur.examTotal, prev.examTotal) }),
         kpi({ label: 'Quiz terminés', value: nf.format(cur.quizTotal), sub: quizCount ? `${cur.quizzes.filter(([n]) => !/^Quizz? aléatoire/.test(n)).length} sur ${quizCount} quiz` : '', d: delta(cur.quizTotal, prev.quizTotal) }),
+        kpi({ label: 'Duels 1v1', value: `${nf.format(cur.duelFini)} / ${nf.format(cur.duelDebut)}`, sub: `terminés / débutés\n${nf.format(cur.duelJoueurs)} navigateur${cur.duelJoueurs > 1 ? 's' : ''} unique${cur.duelJoueurs > 1 ? 's' : ''}`, title: 'Chaque partie (ou revanche) comptée une seule fois ; navigateurs ayant joué au moins un duel sur la période', d: delta(cur.duelFini, prev.duelFini) }),
         P.days === 1
           ? kpi({ label: 'Heure de pointe', value: pk ? pk.label : '—', sub: pk ? plural(pk.v, M.unit) : 'Pas encore d\'activité' })
           : kpi({ label: 'Par jour', value: nf1.format(visits / P.days), d: delta(visits / P.days, prevVisits / P.days), sub: 'visites en moyenne' }),
@@ -1225,7 +1231,9 @@
       ...[['/accueil', .9], ['/flashcards', .4], ['/annales', .3], ['/annales/S1', .22],
         ['/annales/S1/3.3', .1], ['/annales-nf', .25], ['/annales-nf/S1', .18]].map(([p, f]) => ({ path: p, count: Math.round(tot(st) * f) })),
       ...[['Estomac plein', .07], ['Curares', .05], ['ECG', .04], ['Ventilation mécanique', .03], ['États de choc', .02]].map(([n, f]) => ({ path: 'quiz-fini/' + n, event: true, count: Math.round(tot(st) * f) })),
-      { path: 'quiz-fini/Quiz aléatoire', event: true, count: Math.round(tot(st) * .06) }, { path: '/quiz', count: Math.round(tot(st) * .2) }, { path: '/quiz/S1/3.3', count: Math.round(tot(st) * .08) },
+      { path: 'quiz-fini/Quiz aléatoire', event: true, count: Math.round(tot(st) * .06) },
+      { path: 'duel-debut', event: true, count: Math.round(tot(st) * .05) }, { path: 'duel-fini', event: true, count: Math.round(tot(st) * .04) },
+      ...Array.from({ length: Math.max(2, Math.round(tot(st) * .03)) }, (_, i) => ({ path: 'duel-joueur/' + (0x1000000 + i * 7919).toString(16).padStart(8, '0'), event: true, count: 1 })), { path: '/quiz', count: Math.round(tot(st) * .2) }, { path: '/quiz/S1/3.3', count: Math.round(tot(st) * .08) },
       ...[.6, 1.1, 1.9, 1].map((f, g) => ({ path: 'quiz-fini-note-' + g, event: true, count: Math.round(tot(st) * f * .4) })),
       { path: '/cours/Scores', count: Math.round(tot(st) * .12) },
       { path: '/Schemas', count: Math.round(tot(st) * .1) },

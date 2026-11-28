@@ -1882,7 +1882,7 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch((err) => console.warn('Service worker :', err));
 }
 
-duel.init({ $app, esc, nb, rich, ico, toast, plural, topbarFolder });
+duel.init({ $app, esc, nb, rich, ico, toast, plural, topbarFolder, statEvents });
 render();
 trackView();
 flushStats();
